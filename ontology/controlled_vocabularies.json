@@ -1,0 +1,70 @@
+{
+  "access_level": [
+    "public",
+    "registered_research",
+    "controlled",
+    "community_only",
+    "restricted_sacred"
+  ],
+  "knowledge_status": [
+    "candidate",
+    "source_reported",
+    "field_documented",
+    "community_validated",
+    "contested",
+    "superseded"
+  ],
+  "value_state": [
+    "present",
+    "absent_reported",
+    "variant",
+    "unknown",
+    "not_asked",
+    "not_applicable",
+    "refused"
+  ],
+  "practice_state": [
+    "active",
+    "adapted",
+    "declining",
+    "remembered",
+    "dormant",
+    "revived",
+    "emergent",
+    "contested",
+    "unknown"
+  ],
+  "evidence_type": [
+    "observation",
+    "interview",
+    "focus_group",
+    "photograph",
+    "video",
+    "audio",
+    "object",
+    "book",
+    "journal_article",
+    "thesis",
+    "government_source",
+    "archival_source",
+    "community_validation"
+  ],
+  "validation_status": [
+    "pending",
+    "confirmed",
+    "confirmed_with_revision",
+    "contested",
+    "not_for_publication"
+  ],
+  "variation_dimension": [
+    "site",
+    "geographic",
+    "kili",
+    "gender",
+    "generation",
+    "religious_history",
+    "socioeconomic",
+    "temporal",
+    "circumstance"
+  ]
+}

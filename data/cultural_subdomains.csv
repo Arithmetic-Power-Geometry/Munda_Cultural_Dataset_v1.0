@@ -1,0 +1,267 @@
+subdomain_id,domain_id,subdomain_name,sort_order
+DOM-01-S01,DOM-01,Pregnancy recognition,1
+DOM-01-S02,DOM-01,Food & diet,2
+DOM-01-S03,DOM-01,Restrictions & taboos,3
+DOM-01-S04,DOM-01,Protection & belief,4
+DOM-01-S05,DOM-01,Birth preparation,5
+DOM-02-S01,DOM-02,Labour & delivery,1
+DOM-02-S02,DOM-02,Birth attendants,2
+DOM-02-S03,DOM-02,Newborn care,3
+DOM-02-S04,DOM-02,Cord & placenta,4
+DOM-02-S05,DOM-02,Maternal care,5
+DOM-02-S06,DOM-02,Purification & reintegration,6
+DOM-02-S07,DOM-02,Naming,7
+DOM-02-S08,DOM-02,Special births,8
+DOM-03-S01,DOM-03,Infant feeding,1
+DOM-03-S02,DOM-03,Childcare,2
+DOM-03-S03,DOM-03,Socialization,3
+DOM-03-S04,DOM-03,Discipline,4
+DOM-03-S05,DOM-03,Games & play,5
+DOM-03-S06,DOM-03,Language learning,6
+DOM-03-S07,DOM-03,Cultural learning,7
+DOM-03-S08,DOM-03,Work learning,8
+DOM-04-S01,DOM-04,Coming of age,1
+DOM-04-S02,DOM-04,Gender roles,2
+DOM-04-S03,DOM-04,Youth socialization,3
+DOM-04-S04,DOM-04,Courtship,4
+DOM-04-S05,DOM-04,Dance & music,5
+DOM-04-S06,DOM-04,Work,6
+DOM-04-S07,DOM-04,Education,7
+DOM-04-S08,DOM-04,Migration,8
+DOM-05-S01,DOM-05,Kili/clan,1
+DOM-05-S02,DOM-05,Descent,2
+DOM-05-S03,DOM-05,Kinship terminology,3
+DOM-05-S04,DOM-05,Kin obligations,4
+DOM-05-S05,DOM-05,Marriage restrictions,5
+DOM-05-S06,DOM-05,Maternal relations,6
+DOM-05-S07,DOM-05,Paternal relations,7
+DOM-05-S08,DOM-05,Affinal relations,8
+DOM-05-S09,DOM-05,Inheritance,9
+DOM-05-S10,DOM-05,Residence,10
+DOM-05-S11,DOM-05,Traditional organization,11
+DOM-06-S01,DOM-06,Eligibility,1
+DOM-06-S02,DOM-06,Partner selection,2
+DOM-06-S03,DOM-06,Courtship,3
+DOM-06-S04,DOM-06,Proposal,4
+DOM-06-S05,DOM-06,Negotiation,5
+DOM-06-S06,DOM-06,Engagement,6
+DOM-06-S07,DOM-06,Bride/groom exchanges,7
+DOM-06-S08,DOM-06,Preparation,8
+DOM-06-S09,DOM-06,Invitation,9
+DOM-06-S10,DOM-06,Wedding event,10
+DOM-06-S11,DOM-06,Ritual sequence,11
+DOM-06-S12,DOM-06,Wedding actors,12
+DOM-06-S13,DOM-06,Wedding objects,13
+DOM-06-S14,DOM-06,Food & drink,14
+DOM-06-S15,DOM-06,Song/music/dance,15
+DOM-06-S16,DOM-06,Post-marriage,16
+DOM-06-S17,DOM-06,Divorce,17
+DOM-06-S18,DOM-06,Remarriage,18
+DOM-06-S19,DOM-06,Widow/widower practices,19
+DOM-07-S01,DOM-07,Household structure,1
+DOM-07-S02,DOM-07,Spousal roles,2
+DOM-07-S03,DOM-07,Parenthood,3
+DOM-07-S04,DOM-07,Division of labour,4
+DOM-07-S05,DOM-07,Decision making,5
+DOM-07-S06,DOM-07,Property,6
+DOM-07-S07,DOM-07,Inheritance practice,7
+DOM-07-S08,DOM-07,Hospitality,8
+DOM-07-S09,DOM-07,Conflict resolution,9
+DOM-07-S10,DOM-07,Community obligations,10
+DOM-07-S11,DOM-07,Care,11
+DOM-08-S01,DOM-08,Agriculture,1
+DOM-08-S02,DOM-08,Agricultural calendar,2
+DOM-08-S03,DOM-08,Forest use,3
+DOM-08-S04,DOM-08,Hunting & fishing,4
+DOM-08-S05,DOM-08,Livestock,5
+DOM-08-S06,DOM-08,Occupation,6
+DOM-08-S07,DOM-08,Land relations,7
+DOM-08-S08,DOM-08,Ecological knowledge,8
+DOM-08-S09,DOM-08,Plants,9
+DOM-08-S10,DOM-08,Animals,10
+DOM-08-S11,DOM-08,Seasonality,11
+DOM-09-S01,DOM-09,Cosmology,1
+DOM-09-S02,DOM-09,Sacred beings,2
+DOM-09-S03,DOM-09,Singbonga,3
+DOM-09-S04,DOM-09,Bonga/spirit concepts,4
+DOM-09-S05,DOM-09,Ancestors,5
+DOM-09-S06,DOM-09,Pahan,6
+DOM-09-S07,DOM-09,Religious specialists,7
+DOM-09-S08,DOM-09,Sacred places,8
+DOM-09-S09,DOM-09,Sarna,9
+DOM-09-S10,DOM-09,Offerings,10
+DOM-09-S11,DOM-09,Prayer & invocation,11
+DOM-09-S12,DOM-09,Taboos,12
+DOM-09-S13,DOM-09,Sacred objects,13
+DOM-09-S14,DOM-09,Healing ritual,14
+DOM-10-S01,DOM-10,Festival master,1
+DOM-10-S02,DOM-10,Sarhul/Ba,2
+DOM-10-S03,DOM-10,Karam,3
+DOM-10-S04,DOM-10,Sohrai,4
+DOM-10-S05,DOM-10,Mage,5
+DOM-10-S06,DOM-10,Phagu,6
+DOM-10-S07,DOM-10,Other local festivals,7
+DOM-10-S08,DOM-10,Festival sequence,8
+DOM-10-S09,DOM-10,Festival objects,9
+DOM-10-S10,DOM-10,Festival food,10
+DOM-10-S11,DOM-10,Festival performance,11
+DOM-11-S01,DOM-11,Food,1
+DOM-11-S02,DOM-11,Ingredients,2
+DOM-11-S03,DOM-11,Preparation,3
+DOM-11-S04,DOM-11,Everyday food,4
+DOM-11-S05,DOM-11,Ritual food,5
+DOM-11-S06,DOM-11,Festival food,6
+DOM-11-S07,DOM-11,Life-cycle food,7
+DOM-11-S08,DOM-11,Beverages,8
+DOM-11-S09,DOM-11,Handia/Illi,9
+DOM-11-S10,DOM-11,Food restrictions,10
+DOM-11-S11,DOM-11,Hospitality,11
+DOM-12-S01,DOM-12,Clothing,1
+DOM-12-S02,DOM-12,Ornaments,2
+DOM-12-S03,DOM-12,Hair,3
+DOM-12-S04,DOM-12,Body adornment,4
+DOM-12-S05,DOM-12,Ceremonial dress,5
+DOM-12-S06,DOM-12,Gender/age dress,6
+DOM-12-S07,DOM-12,Manufacture,7
+DOM-12-S08,DOM-12,Historical change,8
+DOM-13-S01,DOM-13,House form,1
+DOM-13-S02,DOM-13,Settlement form,2
+DOM-13-S03,DOM-13,Household space,3
+DOM-13-S04,DOM-13,Ritual space,4
+DOM-13-S05,DOM-13,Cultural objects,5
+DOM-13-S06,DOM-13,Tools,6
+DOM-13-S07,DOM-13,Vessels,7
+DOM-13-S08,DOM-13,Crafts,8
+DOM-13-S09,DOM-13,Agricultural objects,9
+DOM-13-S10,DOM-13,Ritual objects,10
+DOM-13-S11,DOM-13,Object manufacture,11
+DOM-13-S12,DOM-13,Disappearing objects,12
+DOM-14-S01,DOM-14,Mundari term,1
+DOM-14-S02,DOM-14,Alternate spelling,2
+DOM-14-S03,DOM-14,Pronunciation,3
+DOM-14-S04,DOM-14,Hindi translation,4
+DOM-14-S05,DOM-14,English translation,5
+DOM-14-S06,DOM-14,Cultural meaning,6
+DOM-14-S07,DOM-14,Kin term,7
+DOM-14-S08,DOM-14,Ritual term,8
+DOM-14-S09,DOM-14,Object term,9
+DOM-14-S10,DOM-14,Life-cycle term,10
+DOM-14-S11,DOM-14,Regional variant,11
+DOM-15-S01,DOM-15,Songs,1
+DOM-15-S02,DOM-15,Ritual songs,2
+DOM-15-S03,DOM-15,Marriage songs,3
+DOM-15-S04,DOM-15,Funeral laments,4
+DOM-15-S05,DOM-15,Prayers,5
+DOM-15-S06,DOM-15,Blessings,6
+DOM-15-S07,DOM-15,Proverbs,7
+DOM-15-S08,DOM-15,Stories,8
+DOM-15-S09,DOM-15,Myths,9
+DOM-15-S10,DOM-15,Oral histories,10
+DOM-15-S11,DOM-15,Ritual utterances,11
+DOM-15-S12,DOM-15,Narratives,12
+DOM-16-S01,DOM-16,Dance,1
+DOM-16-S02,DOM-16,Dance context,2
+DOM-16-S03,DOM-16,Song performance,3
+DOM-16-S04,DOM-16,Instrument,4
+DOM-16-S05,DOM-16,Performer,5
+DOM-16-S06,DOM-16,Rhythm,6
+DOM-16-S07,DOM-16,Festival performance,7
+DOM-16-S08,DOM-16,Marriage performance,8
+DOM-16-S09,DOM-16,Death performance,9
+DOM-16-S10,DOM-16,Performance change,10
+DOM-17-S01,DOM-17,Traditional authority,1
+DOM-17-S02,DOM-17,Village roles,2
+DOM-17-S03,DOM-17,Customary rules,3
+DOM-17-S04,DOM-17,Dispute resolution,4
+DOM-17-S05,DOM-17,Collective decision,5
+DOM-17-S06,DOM-17,Community labour,6
+DOM-17-S07,DOM-17,Sanctions,7
+DOM-17-S08,DOM-17,Customary law,8
+DOM-17-S09,DOM-17,Institutional change,9
+DOM-18-S01,DOM-18,Illness concepts,1
+DOM-18-S02,DOM-18,Traditional healing,2
+DOM-18-S03,DOM-18,Medicinal plants,3
+DOM-18-S04,DOM-18,Healers,4
+DOM-18-S05,DOM-18,Protective practices,5
+DOM-18-S06,DOM-18,Birth health,6
+DOM-18-S07,DOM-18,Child health,7
+DOM-18-S08,DOM-18,Elder care,8
+DOM-18-S09,DOM-18,Traditional-modern interface,9
+DOM-19-S01,DOM-19,Elder roles,1
+DOM-19-S02,DOM-19,Elder authority,2
+DOM-19-S03,DOM-19,Ritual knowledge,3
+DOM-19-S04,DOM-19,Storytelling,4
+DOM-19-S05,DOM-19,Intergenerational learning,5
+DOM-19-S06,DOM-19,Grandchildren relations,6
+DOM-19-S07,DOM-19,Elder care,7
+DOM-19-S08,DOM-19,Knowledge holders,8
+DOM-19-S09,DOM-19,Transmission risk,9
+DOM-20-S01,DOM-20,Concepts of death,1
+DOM-20-S02,DOM-20,Dying,2
+DOM-20-S03,DOM-20,Death notification,3
+DOM-20-S04,DOM-20,Body preparation,4
+DOM-20-S05,DOM-20,Body treatment,5
+DOM-20-S06,DOM-20,Funeral preparation,6
+DOM-20-S07,DOM-20,Primary funeral,7
+DOM-20-S08,DOM-20,Burial,8
+DOM-20-S09,DOM-20,Cremation,9
+DOM-20-S10,DOM-20,Grave orientation,10
+DOM-20-S11,DOM-20,Burial objects,11
+DOM-20-S12,DOM-20,Natural/unnatural death,12
+DOM-20-S13,DOM-20,Child death,13
+DOM-20-S14,DOM-20,Special cases,14
+DOM-20-S15,DOM-20,Funeral food & drink,15
+DOM-20-S16,DOM-20,Funeral variation,16
+DOM-21-S01,DOM-21,Mourning,1
+DOM-21-S02,DOM-21,Mourning duration,2
+DOM-21-S03,DOM-21,Restrictions,3
+DOM-21-S04,DOM-21,Purification,4
+DOM-21-S05,DOM-21,Umbul ader,5
+DOM-21-S06,DOM-21,Hayom,6
+DOM-21-S07,DOM-21,Pathalgarri,7
+DOM-21-S08,DOM-21,Jangtopa,8
+DOM-21-S09,DOM-21,Memorial stone,9
+DOM-21-S10,DOM-21,Megalithic practice,10
+DOM-21-S11,DOM-21,Ancestor incorporation,11
+DOM-21-S12,DOM-21,Ancestor memory,12
+DOM-21-S13,DOM-21,Remembrance,13
+DOM-21-S14,DOM-21,Post-death variation,14
+DOM-22-S01,DOM-22,Historical practice,1
+DOM-22-S02,DOM-22,Current practice,2
+DOM-22-S03,DOM-22,Discontinued,3
+DOM-22-S04,DOM-22,Remembered,4
+DOM-22-S05,DOM-22,Revived,5
+DOM-22-S06,DOM-22,Adapted,6
+DOM-22-S07,DOM-22,Emergent,7
+DOM-22-S08,DOM-22,Generational change,8
+DOM-22-S09,DOM-22,Migration effects,9
+DOM-22-S10,DOM-22,Education effects,10
+DOM-22-S11,DOM-22,Urbanization effects,11
+DOM-22-S12,DOM-22,Technology effects,12
+DOM-22-S13,DOM-22,Religious change,13
+DOM-22-S14,DOM-22,Economic change,14
+DOM-22-S15,DOM-22,Community explanation,15
+DOM-23-S01,DOM-23,Observation,1
+DOM-23-S02,DOM-23,Interview,2
+DOM-23-S03,DOM-23,Focus group,3
+DOM-23-S04,DOM-23,Photo,4
+DOM-23-S05,DOM-23,Video,5
+DOM-23-S06,DOM-23,Audio,6
+DOM-23-S07,DOM-23,Object,7
+DOM-23-S08,DOM-23,Book,8
+DOM-23-S09,DOM-23,Journal article,9
+DOM-23-S10,DOM-23,Thesis,10
+DOM-23-S11,DOM-23,Government source,11
+DOM-23-S12,DOM-23,Community validation,12
+DOM-23-S13,DOM-23,Contradiction,13
+DOM-23-S14,DOM-23,Unresolved question,14
+DOM-24-S01,DOM-24,Book part,1
+DOM-24-S02,DOM-24,Book chapter,2
+DOM-24-S03,DOM-24,Book section,3
+DOM-24-S04,DOM-24,Candidate quote,4
+DOM-24-S05,DOM-24,Candidate photo,5
+DOM-24-S06,DOM-24,Candidate figure,6
+DOM-24-S07,DOM-24,Cultural vignette,7
+DOM-24-S08,DOM-24,Chapter source,8
+DOM-24-S09,DOM-24,Research question,9
+DOM-24-S10,DOM-24,Dataset release,10

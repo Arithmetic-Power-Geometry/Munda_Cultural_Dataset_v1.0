@@ -1,0 +1,180 @@
+{
+  "title": "Munda Cultural Dataset Ontology",
+  "version": "1.0.0",
+  "principle": "stable IDs, extensible attributes, evidence-linked claims",
+  "domains": [
+    {
+      "domain_id": "DOM-01",
+      "parent_group": "Life Course",
+      "name": "Pregnancy & Pre-birth",
+      "sort_order": 10
+    },
+    {
+      "domain_id": "DOM-02",
+      "parent_group": "Life Course",
+      "name": "Birth & Newborn",
+      "sort_order": 20
+    },
+    {
+      "domain_id": "DOM-03",
+      "parent_group": "Life Course",
+      "name": "Infancy & Childhood",
+      "sort_order": 30
+    },
+    {
+      "domain_id": "DOM-04",
+      "parent_group": "Life Course",
+      "name": "Youth & Adolescence",
+      "sort_order": 40
+    },
+    {
+      "domain_id": "DOM-05",
+      "parent_group": "Social Structure",
+      "name": "Kinship, Kili & Social Organization",
+      "sort_order": 50
+    },
+    {
+      "domain_id": "DOM-06",
+      "parent_group": "Life Course",
+      "name": "Courtship & Marriage",
+      "sort_order": 60
+    },
+    {
+      "domain_id": "DOM-07",
+      "parent_group": "Life Course",
+      "name": "Adult Household & Family Life",
+      "sort_order": 70
+    },
+    {
+      "domain_id": "DOM-08",
+      "parent_group": "Ecology & Economy",
+      "name": "Livelihood, Land & Ecology",
+      "sort_order": 80
+    },
+    {
+      "domain_id": "DOM-09",
+      "parent_group": "Sacred Life",
+      "name": "Religion, Cosmology & Sacred Life",
+      "sort_order": 90
+    },
+    {
+      "domain_id": "DOM-10",
+      "parent_group": "Cultural Calendar",
+      "name": "Festivals & Seasonal Life",
+      "sort_order": 100
+    },
+    {
+      "domain_id": "DOM-11",
+      "parent_group": "Material & Everyday Life",
+      "name": "Food, Drink & Hospitality",
+      "sort_order": 110
+    },
+    {
+      "domain_id": "DOM-12",
+      "parent_group": "Material & Everyday Life",
+      "name": "Dress, Ornament & Body Culture",
+      "sort_order": 120
+    },
+    {
+      "domain_id": "DOM-13",
+      "parent_group": "Material & Everyday Life",
+      "name": "House, Architecture & Material Culture",
+      "sort_order": 130
+    },
+    {
+      "domain_id": "DOM-14",
+      "parent_group": "Language & Expression",
+      "name": "Language & Cultural Lexicon",
+      "sort_order": 140
+    },
+    {
+      "domain_id": "DOM-15",
+      "parent_group": "Language & Expression",
+      "name": "Oral Tradition",
+      "sort_order": 150
+    },
+    {
+      "domain_id": "DOM-16",
+      "parent_group": "Language & Expression",
+      "name": "Music, Dance & Performance",
+      "sort_order": 160
+    },
+    {
+      "domain_id": "DOM-17",
+      "parent_group": "Institutions",
+      "name": "Community Institutions & Customary Life",
+      "sort_order": 170
+    },
+    {
+      "domain_id": "DOM-18",
+      "parent_group": "Health",
+      "name": "Health, Healing & Wellbeing",
+      "sort_order": 180
+    },
+    {
+      "domain_id": "DOM-19",
+      "parent_group": "Life Course",
+      "name": "Elderhood & Knowledge Transmission",
+      "sort_order": 190
+    },
+    {
+      "domain_id": "DOM-20",
+      "parent_group": "Life Course",
+      "name": "Death, Dying & Funeral",
+      "sort_order": 200
+    },
+    {
+      "domain_id": "DOM-21",
+      "parent_group": "Life Course",
+      "name": "Mourning, Post-death & Ancestors",
+      "sort_order": 210
+    },
+    {
+      "domain_id": "DOM-22",
+      "parent_group": "Dynamics",
+      "name": "Cultural Change & Continuity",
+      "sort_order": 220
+    },
+    {
+      "domain_id": "DOM-23",
+      "parent_group": "Evidence",
+      "name": "Evidence, Provenance & Validation",
+      "sort_order": 230
+    },
+    {
+      "domain_id": "DOM-24",
+      "parent_group": "Publication",
+      "name": "Book & Research Mapping",
+      "sort_order": 240
+    }
+  ],
+  "universal_record_template": [
+    "identity",
+    "local_name",
+    "alternate_names",
+    "life_course_stage",
+    "actors",
+    "time",
+    "place",
+    "action",
+    "sequence",
+    "objects",
+    "materials",
+    "language",
+    "performance",
+    "food_drink",
+    "kinship",
+    "gender_age",
+    "participant_meaning",
+    "function",
+    "restrictions",
+    "variation",
+    "history",
+    "change",
+    "commonality",
+    "evidence",
+    "validation",
+    "access",
+    "book_mapping"
+  ]
+}

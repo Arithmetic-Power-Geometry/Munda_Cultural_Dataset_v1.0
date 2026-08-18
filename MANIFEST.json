@@ -1,0 +1,282 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 178,
+    "sha256": "cb9f980a2db83910a49ddedcdf60472e9d0bfe0abce238df05afedf41618d2c0"
+  },
+  {
+    "path": ".streamlit/secrets.toml.example",
+    "bytes": 418,
+    "sha256": "82b31d4a0814396a97c77f9e246a0de8a9a2f261320d138025ee59979c6b9259"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 378,
+    "sha256": "b0309d17f6802397bbb27a5b4e3db35af94aeb6d0cbe2cbbc0310ad3aea6ede3"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 11287,
+    "sha256": "c87499684d30b5701b75dd87cf958ea4517dcf08debcdb66caf245b558b91062"
+  },
+  {
+    "path": "MANIFEST.json",
+    "bytes": 7733,
+    "sha256": "5126dda76a276e046f0bbf35ccf216962f8abc7820a30861f0ebb5164fb795d6"
+  },
+  {
+    "path": "NOTICE",
+    "bytes": 157,
+    "sha256": "50aaddb878a048046d54a1a22594fa7240669df07873276b0ad01f22403a547f"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5565,
+    "sha256": "1c87a7a8c0a743e1ccce45a10cc6742d89110f458a8f2ee0a0776eb063ebb7f8"
+  },
+  {
+    "path": "__pycache__/api.cpython-313.pyc",
+    "bytes": 5149,
+    "sha256": "95b3028d848de998d0c0742bf1b2d24be4b81821673dbeffb6cdf2fb30bdf182"
+  },
+  {
+    "path": "__pycache__/streamlit_app.cpython-313.pyc",
+    "bytes": 16545,
+    "sha256": "ca71a3a487544c09fc6e7e85c80f308079f09844102bec3fbb50532289cb2220"
+  },
+  {
+    "path": "api.py",
+    "bytes": 2555,
+    "sha256": "d8c1d1f5aa9d31902fc1ba96f176dfc9306e50e57c13c65eaf7966d9fa858d20"
+  },
+  {
+    "path": "data/book_mapping.csv",
+    "bytes": 110,
+    "sha256": "57f8844f268f7aeba50975a9f1f25d999aa70b0e474735a4f71be1e0439dfce1"
+  },
+  {
+    "path": "data/contradictions.csv",
+    "bytes": 133,
+    "sha256": "44266df0bd5ac2e3e35bd663e053fed94833ac2fdc4d6f6bf33adc9b06f2a776"
+  },
+  {
+    "path": "data/cultural_domains.csv",
+    "bytes": 1376,
+    "sha256": "c945cbf444b0575f4843f77cb02a8664a52d1ae459a374d7e564097fb6071618"
+  },
+  {
+    "path": "data/cultural_indicators.csv",
+    "bytes": 207205,
+    "sha256": "ec0dfcf1ebe1e18b9103b4dbd4001b71b334f856f2dcc7a836b63961d0d12d19"
+  },
+  {
+    "path": "data/cultural_subdomains.csv",
+    "bytes": 9520,
+    "sha256": "7546f89e58e6562f09557aa64f4cba13ab5fa6e477eaf2502f9e46dc9fb17159"
+  },
+  {
+    "path": "data/entities.csv",
+    "bytes": 4738,
+    "sha256": "038e31699be7204db276c86cc259a8a064813fb7ff7dc7a5a2cb15da7f407c88"
+  },
+  {
+    "path": "data/event_steps.csv",
+    "bytes": 140,
+    "sha256": "41b2fedfc158b4911ab41ab008f26f840e261e10ba9d132997912cd9a22f9959"
+  },
+  {
+    "path": "data/events.csv",
+    "bytes": 120,
+    "sha256": "27855f9656ffa37f2e41dbe4d853357b39faec9c93bb4c7cddbfc28c7b086b0b"
+  },
+  {
+    "path": "data/evidence.csv",
+    "bytes": 3261,
+    "sha256": "d8ff7d2309d34d3b89d3ff010d31a5e53c84dc928055eb7c786cb9fe27e0ac0f"
+  },
+  {
+    "path": "data/evidence_links.csv",
+    "bytes": 2415,
+    "sha256": "6d3e9bb017d6d7c27e9b214e4d49eb1d3126f0eae17c28445a3495ec08aea85d"
+  },
+  {
+    "path": "data/interview_segments.csv",
+    "bytes": 129,
+    "sha256": "90a9fa9a50bdc3e65e660996abb945bf882d597bd214a11bcd37d54e1ecf65f9"
+  },
+  {
+    "path": "data/interviews.csv",
+    "bytes": 147,
+    "sha256": "62bac0dcad8669d2a51d6f9ce1d5c885a3f2c910f94df2b5773858bafdbb3ac0"
+  },
+  {
+    "path": "data/media_metadata.csv",
+    "bytes": 164,
+    "sha256": "7456f8b315d48d153caf05077255fcd4dea5b63475f1de3417d0062c756a6711"
+  },
+  {
+    "path": "data/objects.csv",
+    "bytes": 154,
+    "sha256": "47ebfb0a2a6cc76c8e53faa18e0c3ae7c083ce63683c50bfc4d484425d6e9d2e"
+  },
+  {
+    "path": "data/observations.csv",
+    "bytes": 141,
+    "sha256": "08d0c34e2ce83779e4a92c542a1ef337e7f3411f670a81f0c3f9223ffeaa1f0f"
+  },
+  {
+    "path": "data/ocm_crosswalk.csv",
+    "bytes": 1207,
+    "sha256": "6e8fd3e887b93c3919d8681ef599e21723f5cddf7e2bff0fb6f79050a28bf2d8"
+  },
+  {
+    "path": "data/participants_anonymized.csv",
+    "bytes": 179,
+    "sha256": "7e4b588f4d5ec9aa915d984fcd878b1069b8d7861f10f1df03c64007996d57a8"
+  },
+  {
+    "path": "data/places.csv",
+    "bytes": 593,
+    "sha256": "4bb2d1e7548ec0f7cec6b60c05631d58f14dadb70bbf15de9152b47485411d4c"
+  },
+  {
+    "path": "data/reports.csv",
+    "bytes": 92,
+    "sha256": "79a24f35409924824b28fae11d4ebdad664b7afdc940903a9e39811f6a47f0e4"
+  },
+  {
+    "path": "data/source_claims.csv",
+    "bytes": 9673,
+    "sha256": "dff2a1c29faa6d3ca159c859d9d2d8f5fb4933f89e489f384096f21c87c5a5f9"
+  },
+  {
+    "path": "data/sources.csv",
+    "bytes": 5026,
+    "sha256": "cab30c14e844e9484c05a391d6a8f1a8e175f3a5da764f77ff740ab9666ee0f6"
+  },
+  {
+    "path": "data/terms.csv",
+    "bytes": 3520,
+    "sha256": "25a005ccf85f5a679342a6410647ee7807db283c5e39bba729b43c2603047ef6"
+  },
+  {
+    "path": "data/unclassified_discoveries.csv",
+    "bytes": 138,
+    "sha256": "aea94d1683561c273b78746c9c65425e0577e4ff6968fadd852cc0f32dbed43a"
+  },
+  {
+    "path": "data/validations.csv",
+    "bytes": 124,
+    "sha256": "203226ac3a42112a62c3311e583f820cd85966d16bdb6c2cdc0812af52b705b3"
+  },
+  {
+    "path": "database/munda_cultural.db",
+    "bytes": 376832,
+    "sha256": "8e0484313ecfd9cbd6ea4d9b9a79738ef721865a230c4b4243cf72922251e393"
+  },
+  {
+    "path": "database/schema.sql",
+    "bytes": 3997,
+    "sha256": "dfc5112881b4283ed235c9c5157440d42941cdad47a576235a3a6ad6aa778949"
+  },
+  {
+    "path": "docs/coding_manual.md",
+    "bytes": 691,
+    "sha256": "f1934d470a67c41b50fd9146168a9987be5871b7502b23e3e5847cf85e58727b"
+  },
+  {
+    "path": "docs/data_dictionary.xlsx",
+    "bytes": 78688,
+    "sha256": "c7ffbe0ccd24b159fb07304ab24156a7f0315dc662971c9761043d3981569a74"
+  },
+  {
+    "path": "docs/methodology.md",
+    "bytes": 760,
+    "sha256": "c755409b77067c809402569bd4e777498abb3808a3064d7756a8dff64b3dfde8"
+  },
+  {
+    "path": "docs/project_scope.md",
+    "bytes": 351,
+    "sha256": "8d402f77cb1e45872be6c355654b6b40ba2a2f31479b6ff61caed076893dcbb4"
+  },
+  {
+    "path": "media/audio/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "media/photographs/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "media/video/.gitkeep",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "ontology/controlled_vocabularies.json",
+    "bytes": 1185,
+    "sha256": "4ee12ba5172b821c2b119eb5ee696d658b3b14649b9516c8e8da23abab1e8506"
+  },
+  {
+    "path": "ontology/munda_ontology.json",
+    "bytes": 4278,
+    "sha256": "09b9eacf00123770707a723058b9db78fc7dd75fc1e96c27fca84a2cd156f3b7"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 96,
+    "sha256": "dcade2c1020c86f2b43b3e640e06febd4ff286f72cf6520e22ebe2a009b4e623"
+  },
+  {
+    "path": "software/__pycache__/auth.cpython-313.pyc",
+    "bytes": 1704,
+    "sha256": "0fe748252d59b5bb5c4c3950783075c0eaafcdaab55d25a517b34d2bad6a84b4"
+  },
+  {
+    "path": "software/__pycache__/db.cpython-313.pyc",
+    "bytes": 2595,
+    "sha256": "648c5751b0626f75c9d792abc4c6b644647689452b905e5ea577b73f40c45a5c"
+  },
+  {
+    "path": "software/__pycache__/generate_password_hash.cpython-313.pyc",
+    "bytes": 680,
+    "sha256": "4ef0ab6ea7a5c08892d4babb46eb804874f3a7cadaa5d4d07c669713141e3555"
+  },
+  {
+    "path": "software/__pycache__/reporting.cpython-313.pyc",
+    "bytes": 1890,
+    "sha256": "bd5ee2abd9aada5e3642705548ffce51558baba9dab9ada9465ef8f9385a1500"
+  },
+  {
+    "path": "software/auth.py",
+    "bytes": 868,
+    "sha256": "5c74a7fe9ccdfafdd795defb8eecfa44bf8817035ad4c5ef602ecde345f1714b"
+  },
+  {
+    "path": "software/db.py",
+    "bytes": 1066,
+    "sha256": "3b10fceaad102c3bb4a7c5efa82606496ef5565c78211205a79ac38a567c930d"
+  },
+  {
+    "path": "software/generate_password_hash.py",
+    "bytes": 203,
+    "sha256": "356911af7152dd48c391926b077a45a034cc373e79024c2be248b88822e25f30"
+  },
+  {
+    "path": "software/reporting.py",
+    "bytes": 963,
+    "sha256": "a2a66d6ded7ba87d6f5a08c3e75039724cf528e9396cc84f8e48336bd5fc457b"
+  },
+  {
+    "path": "streamlit_app.py",
+    "bytes": 10557,
+    "sha256": "3780ce7372ab77e8362318fdf6ab9148ee8a266b298fa761d99d20e0fba0a728"
+  },
+  {
+    "path": "tests/test_seed.py",
+    "bytes": 470,
+    "sha256": "692b65192e043ea22db758842df96b9e4d801b14175c5229b4cd7abffd3932e8"
+  }
+]
