@@ -1,0 +1,11 @@
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.env
+.DS_Store
+media/photographs/*
+media/audio/*
+media/video/*
+!media/photographs/.gitkeep
+!media/audio/.gitkeep
+!media/video/.gitkeep
