@@ -11,6 +11,7 @@ on:
       - 'Mundarika1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
+      - 'tests/test_mundarica_completeness.py'
       - '.github/workflows/mlhkp-streamlit-smoke.yml'
   pull_request:
     paths:
@@ -20,6 +21,7 @@ on:
       - 'Mundarika1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
+      - 'tests/test_mundarica_completeness.py'
       - '.github/workflows/mlhkp-streamlit-smoke.yml'
 
 jobs:
@@ -43,5 +45,7 @@ jobs:
         run: python software/audit_mlhkp_migration.py
       - name: Preserve Master Source Register integrity
         run: python software/validate_master_source_register.py
+      - name: Enforce Mundarica completeness gates
+        run: pytest -q tests/test_mundarica_completeness.py
       - name: Run Streamlit smoke tests
         run: pytest -q tests/test_streamlit_app.py
