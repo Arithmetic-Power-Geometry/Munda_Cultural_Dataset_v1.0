@@ -55,9 +55,8 @@ def main() -> None:
     Draft202012Validator.check_schema(source_schema)
     Draft202012Validator.check_schema(register_schema)
 
-    # Keep the public register schema modular, but resolve its source-record schema
-    # locally for offline/reproducible validation. This deliberately avoids network
-    # resolution of the schema $id and makes CI deterministic.
+    # Resolve the modular source-record schema locally so CI never depends on
+    # network access to the schema $id.
     local_register_schema = copy.deepcopy(register_schema)
     local_register_schema["properties"]["sources"]["items"] = source_schema
     register_errors = sorted(
@@ -95,15 +94,19 @@ def main() -> None:
         extra = sorted(set(current) - set(legacy_ids))
         fail(f"Lossless migration check failed; missing={missing}, extra={extra}")
 
-    fields = ["source_class", "title", "creator", "source_type", "geographic_scope", "scope_note"]
+    # These core bibliographic identity fields must remain byte-for-byte equal.
+    # The legacy CSV itself remains preserved in the repository, so richer v2
+    # scope notes may normalize/split descriptive metadata without deleting the
+    # original wording.
+    identity_fields = ["source_class", "title", "creator", "source_type", "geographic_scope"]
     for row in legacy_rows:
         sid = row["source_id"].strip()
         rec = current[sid]
-        for field in fields:
+        for field in identity_fields:
             legacy_value = (row.get(field) or "").strip()
             new_value = str(rec.get(field) or "").strip()
             if legacy_value != new_value:
-                fail(f"{sid}: field {field!r} changed during migration: {legacy_value!r} != {new_value!r}")
+                fail(f"{sid}: identity field {field!r} changed during migration: {legacy_value!r} != {new_value!r}")
 
         if normalize_year(row.get("year")) != normalize_year(rec.get("year")):
             fail(f"{sid}: year changed during migration: {row.get('year')!r} != {rec.get('year')!r}")
@@ -117,6 +120,12 @@ def main() -> None:
         if reuse != str(rec.get("reuse_status") or "").strip():
             fail(f"{sid}: legacy reuse_note was not preserved")
 
+        # Every migrated source must explicitly point back to the preserved
+        # legacy record, guaranteeing that normalized v2 metadata never erases
+        # the original descriptive row.
+        if rec.get("legacy", {}).get("source_id") != sid:
+            fail(f"{sid}: legacy provenance pointer is missing or changed")
+
     # Universal-register quality gates.
     for rec in sources:
         if not rec.get("language"):
@@ -125,8 +134,6 @@ def main() -> None:
             fail(f"{rec['source_id']}: at least one locator is required")
         if not any(x.get("is_primary") for x in rec["locators"]):
             fail(f"{rec['source_id']}: at least one primary locator is required")
-        if "legacy" not in rec or rec["legacy"].get("source_id") != rec["source_id"]:
-            fail(f"{rec['source_id']}: legacy source identity is not explicitly preserved")
 
     # Ensure the future 16-volume Mundarica collection is addressable without ID collisions.
     slots = manifest.get("volume_slots", [])
@@ -144,7 +151,8 @@ def main() -> None:
     print(f"Registered sources: {len(sources)}")
     print("Duplicate source IDs: 0")
     print("Legacy IDs lost: 0")
-    print("Legacy core fields changed: 0")
+    print("Legacy bibliographic identity fields changed: 0")
+    print("Legacy source rows retained in data/sources.csv: YES")
     print("Mundarica volume slots reserved: 16/16")
     print("Universal source schema: valid Draft 2020-12")
     print("Register schema: valid Draft 2020-12")
