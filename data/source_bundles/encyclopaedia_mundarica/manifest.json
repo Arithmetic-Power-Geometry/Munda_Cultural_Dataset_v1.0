@@ -10,13 +10,26 @@
   "evidence_status": "historical_source_reported",
   "source_of_truth_policy": "Verified transcription takes precedence over OCR. OCR may be retained only as a reference/provenance layer.",
   "completeness_audit": "completeness_audit.json",
+  "audit_summary": {
+    "volume_slots": 16,
+    "verified_complete_volumes": 0,
+    "page_accounting_complete_volumes": 1,
+    "volume_1_declared_scan_pages": 324,
+    "volume_1_page_blocks_detected": 324,
+    "volume_1_missing_page_blocks": 0,
+    "volume_1_duplicate_page_blocks": 0,
+    "volume_1_out_of_range_page_blocks": 0,
+    "volume_1_page_order_complete": true,
+    "volume_1_scan_registered": false,
+    "note": "These are structural corpus-audit metrics only. They do not certify scan comparison, transcription accuracy, or verified-complete status."
+  },
   "required_volume_structure": {
     "source": ["source_id", "title", "collection_id", "volume", "access_class"],
     "content": ["pages", "entries", "passages"],
     "recommended_links": ["claims", "terms", "objects", "places", "events", "relationships"]
   },
   "volume_slots": [
-    {"volume": 1, "source_id": "SRC-MUN-V01", "status": "working_transcription_audit_baselined", "verified_complete": false},
+    {"volume": 1, "source_id": "SRC-MUN-V01", "status": "working_transcription_page_accounting_complete", "verified_complete": false},
     {"volume": 2, "source_id": "SRC-MUN-V02", "status": "pending", "verified_complete": false},
     {"volume": 3, "source_id": "SRC-MUN-V03", "status": "pending", "verified_complete": false},
     {"volume": 4, "source_id": "SRC-MUN-V04", "status": "pending", "verified_complete": false},
