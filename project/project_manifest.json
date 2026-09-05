@@ -1,0 +1,92 @@
+{
+  "project_id": "MLHKP",
+  "project_name": "Munda Living Heritage & Knowledge Project",
+  "short_name": "MLHKP",
+  "knowledge_engine": {
+    "name": "Munda Cultural Dataset",
+    "short_name": "MCD",
+    "baseline_version": "1.0",
+    "architecture_version": "2.0"
+  },
+  "mission": "Responsible documentation, preservation, research, teaching, publication, digitisation and dissemination of Munda language, culture, history, oral traditions, knowledge systems and living heritage.",
+  "principles": [
+    "evidence before assertion",
+    "permanent identifiers",
+    "provenance preservation",
+    "historical and contemporary evidence remain distinguishable",
+    "variation is preserved rather than artificially collapsed",
+    "collection does not automatically imply permission to publish",
+    "restricted cultural material remains access-controlled",
+    "raw evidence is not silently altered",
+    "corrections are versioned and auditable",
+    "new knowledge can be added without redesigning the system"
+  ],
+  "public_modes": [
+    "browse",
+    "search",
+    "evidence_view",
+    "source_view",
+    "public_reports",
+    "downloads",
+    "citation",
+    "correction_submission"
+  ],
+  "owner_modes": [
+    "add",
+    "edit",
+    "archive",
+    "restore",
+    "merge",
+    "split",
+    "validate",
+    "link_evidence",
+    "review_contradictions",
+    "generate_reports",
+    "book_studio",
+    "release_approval"
+  ],
+  "access_classes": [
+    "open",
+    "community_access_only",
+    "research_restricted",
+    "embargoed",
+    "confidential",
+    "not_for_publication"
+  ],
+  "source_classes": [
+    "encyclopaedia",
+    "book",
+    "journal_article",
+    "thesis",
+    "government_source",
+    "archive",
+    "newspaper",
+    "website",
+    "dictionary",
+    "interview",
+    "oral_history",
+    "observation",
+    "event",
+    "field_note",
+    "photograph",
+    "audio",
+    "video",
+    "object",
+    "map",
+    "community_validation",
+    "other"
+  ],
+  "mundarica": {
+    "collection_id": "SRC-COL-MUNDARICA",
+    "title": "Encyclopaedia Mundarica",
+    "expected_volumes": 16,
+    "status": "historical_source_corpus",
+    "rule": "OCR is never silently treated as verified transcription."
+  },
+  "release_policy": {
+    "public_release_excludes_restricted_material": true,
+    "public_claims_require_provenance": true,
+    "permanent_ids_are_never_reused": true,
+    "hard_delete_is_exceptional": true
+  }
+}
