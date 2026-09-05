@@ -1,0 +1,47 @@
+name: MLHKP Streamlit Smoke Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [mlhkp-v2]
+    paths:
+      - 'streamlit_app.py'
+      - 'software/**'
+      - 'data/**'
+      - 'Mundarika1.md'
+      - 'requirements.txt'
+      - 'tests/test_streamlit_app.py'
+      - '.github/workflows/mlhkp-streamlit-smoke.yml'
+  pull_request:
+    paths:
+      - 'streamlit_app.py'
+      - 'software/**'
+      - 'data/**'
+      - 'Mundarika1.md'
+      - 'requirements.txt'
+      - 'tests/test_streamlit_app.py'
+      - '.github/workflows/mlhkp-streamlit-smoke.yml'
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install application and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+      - name: Compile Streamlit application
+        run: python -m py_compile streamlit_app.py software/db.py software/auth.py software/reporting.py
+      - name: Preserve baseline migration integrity
+        run: python software/audit_mlhkp_migration.py
+      - name: Preserve Master Source Register integrity
+        run: python software/validate_master_source_register.py
+      - name: Run Streamlit smoke tests
+        run: pytest -q tests/test_streamlit_app.py
