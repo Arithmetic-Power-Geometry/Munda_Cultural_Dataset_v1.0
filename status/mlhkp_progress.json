@@ -3,33 +3,35 @@
   "branch": "mlhkp-v2",
   "current_module": "03-encyclopaedia-mundarica-1-16",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-05T19:35:00Z",
+  "updated_utc": "2026-09-05T20:00:00Z",
   "changes_this_cycle": [
-    "Added a machine-readable 16-volume Mundarica completeness audit baseline.",
-    "Linked the corpus manifest to the completeness audit and made verified_complete explicit for every volume.",
-    "Changed Volume I status to working_transcription_audit_baselined without asserting verification.",
-    "Added tests that prevent VERIFIED COMPLETE unless every required audit gate is true.",
-    "Added the Mundarica completeness gate to the Streamlit smoke workflow."
+    "Added software/audit_mundarica_pages.py, a deterministic structural page-accounting validator for Volume I.",
+    "The validator checks expected 1..N page blocks, ordering, missing blocks, duplicates and out-of-range blocks without certifying transcription accuracy or scan comparison.",
+    "Expanded tests/test_mundarica_completeness.py with a strict 324-page Volume I accounting test and explicit non-verification assertions.",
+    "Updated the MLHKP Streamlit smoke workflow to compile and execute the page-accounting validator before completeness and UI smoke tests.",
+    "Preserved all permanent Mundarica source IDs and kept every volume verified_complete=false."
   ],
   "streamlit_sync": {
-    "status": "synced_by_manifest",
-    "detail": "The Mundarica Streamlit selector reads manifest.json dynamically, so the new Volume I status is reflected without hard-coded cultural content. The workflow now runs the completeness gate whenever data or Mundarica tests change."
+    "status": "interface_already_computes_live_page_blocks_ci_sync_added",
+    "detail": "The existing Mundarica Streamlit interface reads Mundarika1.md dynamically and displays detected page-block count, first block and last block. This cycle added CI enforcement of the same structural page-accounting invariant; no cultural/transcription status was promoted."
   },
   "integrity": {
     "permanent_volume_ids_preserved": true,
     "expected_volume_slots": 16,
     "verified_complete_volumes": 0,
     "ocr_treated_as_verified": false,
+    "page_accounting_certifies_verification": false,
     "main_branch_modified": false
   },
   "tests": {
     "workflow": "MLHKP Streamlit Smoke Test",
     "state_at_record_time": "awaiting_or_not_yet_visible_for_latest_commit",
-    "required_new_test": "tests/test_mundarica_completeness.py"
+    "page_accounting_command": "python software/audit_mundarica_pages.py --json",
+    "completeness_test": "tests/test_mundarica_completeness.py"
   },
   "blockers": [
-    "Volume I repository bundle does not currently register an authoritative scan artifact, so visual scan comparison cannot be certified.",
-    "Volumes II-XVI have no corpus artifacts in the current repository build."
+    "Volume I repository bundle still lacks a registered authoritative scan artifact, so visual scan comparison cannot be certified.",
+    "Volumes II-XVI still have no corpus artifacts in the current repository build."
   ],
-  "next_best_action": "Add a deterministic page-accounting validator for Volume I that counts and checks page-block continuity without treating the working transcription as verified, then surface those audit metrics in Streamlit."
+  "next_best_action": "After CI confirms the 324-block invariant, persist the measured Volume I page-accounting result in the completeness audit and expose continuity/missing/duplicate metrics in the Streamlit Mundarica interface without changing verification status."
 }
