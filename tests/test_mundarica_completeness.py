@@ -38,6 +38,32 @@ def test_manifest_verified_state_never_exceeds_audit():
         assert not slot.get("verified_complete") or audited[slot["source_id"]]
 
 
+def test_manifest_public_audit_summary_matches_canonical_audit():
+    manifest = load("manifest.json")
+    audit = load("completeness_audit.json")
+    summary = manifest["audit_summary"]
+    v1 = audit["volumes"][0]
+    assert summary["volume_slots"] == audit["expected_volumes"] == 16
+    assert summary["verified_complete_volumes"] == sum(bool(v.get("verified_complete")) for v in audit["volumes"])
+    assert summary["page_accounting_complete_volumes"] == sum(bool(v.get("page_accounting_complete")) for v in audit["volumes"])
+    assert summary["volume_1_declared_scan_pages"] == v1["declared_scan_pages"]
+    assert summary["volume_1_page_blocks_detected"] == v1["page_blocks_detected"]
+    assert summary["volume_1_missing_page_blocks"] == v1["missing_page_blocks"]
+    assert summary["volume_1_duplicate_page_blocks"] == v1["duplicate_page_blocks"]
+    assert summary["volume_1_out_of_range_page_blocks"] == v1["out_of_range_page_blocks"]
+    assert summary["volume_1_page_order_complete"] is v1["page_order_complete"]
+    assert summary["volume_1_scan_registered"] is v1["source_scan_present"]
+    assert "do not certify" in summary["note"].lower()
+
+
+def test_volume1_manifest_status_exposes_accounting_without_claiming_verification():
+    manifest = load("manifest.json")
+    slot = manifest["volume_slots"][0]
+    assert slot["source_id"] == "SRC-MUN-V01"
+    assert slot["status"] == "working_transcription_page_accounting_complete"
+    assert slot["verified_complete"] is False
+
+
 def test_volume1_working_transcription_is_not_misrepresented_as_verified():
     audit = load("completeness_audit.json")
     v1 = audit["volumes"][0]
