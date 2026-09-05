@@ -18,11 +18,22 @@ def test_all_public_pages_render_without_exception():
     for page in PUBLIC_PAGES:
         run_page(page)
 
-def test_home_exposes_project_identity():
+def test_home_exposes_project_identity_and_founders():
     at=run_page('Home')
     text=' '.join(x.value for x in at.markdown)
     assert 'Munda Living Heritage & Knowledge Project' in text
     assert 'Johar' in text
+    assert 'Dr. Mohammad Amir Khusru Akhtar' in text
+    assert 'Dr. Arvind Hans' in text
+    assert 'Mr. Rajan Pahan' in text
+    assert 'Founding Community Coordination, Meetings & Logistics Lead' in text
+
+def test_logo_fallback_is_embedded_for_deployment():
+    logo_module=ROOT/'assets'/'mlhkp_logo_data.py'
+    assert logo_module.exists()
+    text=logo_module.read_text(encoding='utf-8')
+    assert 'data:image/webp;base64,' in text
+    assert len(text)>10000
 
 def test_master_source_register_is_canonical_and_preserves_ids():
     data=json.loads((ROOT/'data'/'source_register'/'master_sources.json').read_text(encoding='utf-8'))
@@ -42,8 +53,11 @@ def test_public_app_has_no_owner_console_in_navigation():
     nav=next(r for r in at.radio if r.key=='main_navigation')
     assert 'Owner Research Console' not in nav.options
 
-def test_rights_and_safeguards_are_visible():
+def test_rights_roles_and_safeguards_are_visible():
     at=run_page('Governance & Ethics')
     body=' '.join([x.value for x in at.markdown]+[x.value for x in at.info])
     assert 'do not constitute ownership of the Munda people' in body
     assert 'Collection is not publication permission' in body
+    assert 'final authority on scholarly methodology' in body
+    assert 'operational authority within approved plans for field operations' in body
+    assert 'operational authority within approved plans for meetings, community liaison and logistics' in body
