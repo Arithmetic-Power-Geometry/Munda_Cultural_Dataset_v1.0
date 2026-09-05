@@ -1,8 +1,11 @@
 from pathlib import Path
 import json
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / "data" / "source_bundles" / "encyclopaedia_mundarica"
+sys.path.insert(0, str(ROOT / "software"))
+from audit_mundarica_pages import volume1_result
 
 
 def load(name):
@@ -43,3 +46,20 @@ def test_volume1_working_transcription_is_not_misrepresented_as_verified():
     assert v1["artifact_state"] == "working_transcription"
     assert v1["verified_complete"] is False
     assert audit["policy"]["ocr_is_not_verified_transcription"] is True
+
+
+def test_volume1_has_exactly_one_ordered_page_block_for_each_declared_scan_page():
+    result = volume1_result()
+    assert result["declared_pages"] == 324
+    assert result["page_blocks_detected"] == 324
+    assert result["first_page_block"] == 1
+    assert result["last_page_block"] == 324
+    assert result["missing_page_blocks"] == []
+    assert result["duplicate_page_blocks"] == []
+    assert result["out_of_range_page_blocks"] == []
+    assert result["strictly_ordered_contiguous_1_to_n"] is True
+    assert result["page_accounting_complete"] is True
+    # Structural page accounting is intentionally weaker than verification.
+    assert result["certifies_scan_comparison"] is False
+    assert result["certifies_transcription_accuracy"] is False
+    assert result["certifies_verified_complete"] is False
