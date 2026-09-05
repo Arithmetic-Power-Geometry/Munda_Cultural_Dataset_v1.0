@@ -14,7 +14,7 @@ A source is registered once, receives a permanent `SRC-*` identifier, and is nev
 - `software/validate_master_source_register.py` — migration/integrity validator
 - `.github/workflows/mlhkp-source-register-audit.yml` — one-click/automatic validation
 
-The legacy `data/sources.csv` is preserved during migration and is used by the validator to prove that the original 14 source IDs and core bibliographic fields were not lost or silently altered.
+The legacy `data/sources.csv` is deliberately preserved unchanged as the historical MCD v1 source register. The Stage 2 validator uses it to prove that all original IDs and core bibliographic identity fields survive the migration. Richer v2 descriptive metadata may be normalized or split across fields, but the original row remains available through the preserved legacy register and an explicit `legacy.source_id` provenance pointer.
 
 ## Supported source families
 
@@ -95,7 +95,10 @@ Stage 2 is considered complete only if automation proves all of the following:
 - all 14 legacy source IDs are present;
 - no legacy source ID was changed;
 - no extra replacement record silently substituted a legacy source;
-- title, creator, year, class, type, geographic scope, scope note, URL and reuse status are preserved;
+- source class, title, creator, year, source type and geographic scope remain identical for the migrated source identities;
+- every legacy primary URL remains a primary locator;
+- every legacy reuse status remains preserved;
+- the original `data/sources.csv` remains the retained historical source row layer, linked through `legacy.source_id`;
 - all source IDs are unique;
 - all records validate against the universal schema;
 - the register-level schema validates;
