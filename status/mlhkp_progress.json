@@ -1,0 +1,35 @@
+{
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "current_module": "03-encyclopaedia-mundarica-1-16",
+  "module_status": "in_progress",
+  "updated_utc": "2026-09-05T19:35:00Z",
+  "changes_this_cycle": [
+    "Added a machine-readable 16-volume Mundarica completeness audit baseline.",
+    "Linked the corpus manifest to the completeness audit and made verified_complete explicit for every volume.",
+    "Changed Volume I status to working_transcription_audit_baselined without asserting verification.",
+    "Added tests that prevent VERIFIED COMPLETE unless every required audit gate is true.",
+    "Added the Mundarica completeness gate to the Streamlit smoke workflow."
+  ],
+  "streamlit_sync": {
+    "status": "synced_by_manifest",
+    "detail": "The Mundarica Streamlit selector reads manifest.json dynamically, so the new Volume I status is reflected without hard-coded cultural content. The workflow now runs the completeness gate whenever data or Mundarica tests change."
+  },
+  "integrity": {
+    "permanent_volume_ids_preserved": true,
+    "expected_volume_slots": 16,
+    "verified_complete_volumes": 0,
+    "ocr_treated_as_verified": false,
+    "main_branch_modified": false
+  },
+  "tests": {
+    "workflow": "MLHKP Streamlit Smoke Test",
+    "state_at_record_time": "awaiting_or_not_yet_visible_for_latest_commit",
+    "required_new_test": "tests/test_mundarica_completeness.py"
+  },
+  "blockers": [
+    "Volume I repository bundle does not currently register an authoritative scan artifact, so visual scan comparison cannot be certified.",
+    "Volumes II-XVI have no corpus artifacts in the current repository build."
+  ],
+  "next_best_action": "Add a deterministic page-accounting validator for Volume I that counts and checks page-block continuity without treating the working transcription as verified, then surface those audit metrics in Streamlit."
+}
