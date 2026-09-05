@@ -3,17 +3,17 @@
   "branch": "mlhkp-v2",
   "current_module": "03-encyclopaedia-mundarica-1-16",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-05T21:00:00Z",
+  "updated_utc": "2026-09-05T22:31:00Z",
   "changes_this_cycle": [
-    "Confirmed the prior deterministic Volume I page-accounting cycle with GitHub checks: migration audit, source-register audit and Streamlit smoke all completed successfully on commit 5b898e92c09f74d28b01be6f58fbf0898dfc66b3.",
-    "Persisted the measured Volume I structural page-accounting result into the canonical Mundarica completeness audit.",
-    "Recorded 324/324 page blocks, first block 1, last block 324, zero missing blocks, zero duplicate blocks, zero out-of-range blocks and complete page order.",
-    "Kept source_scan_present=false, all_pages_visually_compared_to_scan=false, integrity_checks_pass=false and verified_complete=false; structural continuity is not being represented as transcription verification.",
-    "Preserved all SRC-MUN-V01 through SRC-MUN-V16 permanent IDs and left Volumes II-XVI pending rather than fabricating corpus content."
+    "Synchronized the CI-confirmed Volume I page-accounting result into the public Mundarica manifest used by Streamlit.",
+    "Added a public audit_summary containing structural metrics only: 16 volume slots, 0 verified-complete volumes, 1 page-accounting-complete volume, 324/324 Volume I page blocks, zero missing/duplicate/out-of-range blocks, complete page order, and scan_registered=false.",
+    "Updated Volume I public status to working_transcription_page_accounting_complete while keeping verified_complete=false.",
+    "Added tests that require the public manifest audit summary to match the canonical completeness audit exactly and prevent the Streamlit-facing status from implying verification.",
+    "Preserved all SRC-MUN-V01 through SRC-MUN-V16 IDs and left Volumes II-XVI pending rather than fabricating missing corpus artifacts."
   ],
   "streamlit_sync": {
-    "status": "synced_for_available_structural_metrics",
-    "detail": "The existing Mundarica Streamlit interface dynamically reads Mundarika1.md and already displays the now-confirmed 324 page-block count plus first and last block. Canonical audit metrics for missing/duplicate/out-of-range/order are now persisted for the next UI expansion; no verified status was promoted."
+    "status": "synced_via_public_manifest",
+    "detail": "The Mundarica Streamlit selector reads manifest.json dynamically. Its Volume I label now exposes page-accounting-complete status without claiming scan verification. The manifest also carries canonical structural audit metrics for the next UI metric expansion."
   },
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -23,23 +23,25 @@
     "volume_1_duplicate_page_blocks": 0,
     "volume_1_out_of_range_page_blocks": 0,
     "volume_1_page_accounting_complete": true,
+    "volume_1_source_scan_present": false,
     "verified_complete_volumes": 0,
     "ocr_treated_as_verified": false,
     "page_accounting_certifies_verification": false,
     "main_branch_modified": false
   },
   "tests": {
-    "verified_commit": "5b898e92c09f74d28b01be6f58fbf0898dfc66b3",
-    "migration_audit": "success",
-    "source_register_audit": "success",
-    "streamlit_smoke": "success",
-    "page_accounting_command": "python software/audit_mundarica_pages.py --json",
-    "completeness_test": "tests/test_mundarica_completeness.py",
-    "latest_audit_persistence_commit": "44ff622e4fd5bb67eec27fd4a58e7f86e16581a1"
+    "latest_test_commit": "c729e0278a7d198a643ad74e0aeb493e88fce1a0",
+    "migration_audit": "in_progress",
+    "source_register_audit": "in_progress",
+    "streamlit_smoke": "in_progress",
+    "streamlit_run_id": 33996154385,
+    "source_register_run_id": 33996154381,
+    "migration_run_id": 33996154399,
+    "completeness_test": "tests/test_mundarica_completeness.py"
   },
   "blockers": [
     "Volume I repository bundle still lacks a registered authoritative scan artifact, so visual scan comparison cannot be certified.",
     "Volumes II-XVI still have no corpus artifacts in the current repository build."
   ],
-  "next_best_action": "Add a small audit-loader/helper used by Streamlit and tests so the Mundarica interface can display canonical continuity, missing, duplicate, out-of-range and verification-gate metrics directly from completeness_audit.json without duplicating cultural content; then rerun CI."
+  "next_best_action": "After the current GitHub checks complete, expose the manifest audit_summary as explicit Streamlit metrics for verified-complete volumes, page-accounting-complete volumes, missing/duplicate/out-of-range counts and scan-registration state without weakening the verification gate."
 }
