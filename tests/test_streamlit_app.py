@@ -28,16 +28,14 @@ def test_master_source_register_is_canonical_and_preserves_ids():
     data=json.loads((ROOT/'data'/'source_register'/'master_sources.json').read_text(encoding='utf-8'))
     ids=[x['source_id'] for x in data['sources']]
     assert ids==[f'SRC-{i:06d}' for i in range(1,15)]
-    at=run_page('Master Sources')
-    assert not at.exception
+    assert not run_page('Master Sources').exception
 
 def test_mundarica_manifest_has_all_16_slots_and_volume1_page_blocks():
     manifest=json.loads((ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json').read_text(encoding='utf-8'))
     assert [x['source_id'] for x in manifest['volume_slots']]==[f'SRC-MUN-V{i:02d}' for i in range(1,17)]
     text=(ROOT/'Mundarika1.md').read_text(encoding='utf-8')
     assert '## Scan page 6' in text or '## PDF Page 6' in text
-    at=run_page('Mundarica 1–16')
-    assert not at.exception
+    assert not run_page('Mundarica 1–16').exception
 
 def test_public_app_has_no_owner_console_in_navigation():
     at=AppTest.from_file(str(APP),default_timeout=30).run()
@@ -47,5 +45,5 @@ def test_public_app_has_no_owner_console_in_navigation():
 def test_rights_and_safeguards_are_visible():
     at=run_page('Governance & Ethics')
     body=' '.join([x.value for x in at.markdown]+[x.value for x in at.info])
-    assert 'does not constitute ownership of the Munda people' in body
+    assert 'do not constitute ownership of the Munda people' in body
     assert 'Collection is not publication permission' in body
