@@ -7,21 +7,25 @@ on:
     paths:
       - 'streamlit_app.py'
       - 'software/**'
+      - 'schemas/**'
       - 'data/**'
       - 'Mundarika1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
       - 'tests/test_mundarica_completeness.py'
+      - 'tests/test_mundarica_artifact_schema.py'
       - '.github/workflows/mlhkp-streamlit-smoke.yml'
   pull_request:
     paths:
       - 'streamlit_app.py'
       - 'software/**'
+      - 'schemas/**'
       - 'data/**'
       - 'Mundarika1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
       - 'tests/test_mundarica_completeness.py'
+      - 'tests/test_mundarica_artifact_schema.py'
       - '.github/workflows/mlhkp-streamlit-smoke.yml'
 
 jobs:
@@ -47,6 +51,8 @@ jobs:
         run: python software/validate_master_source_register.py
       - name: Audit Mundarica Volume I page accounting
         run: python software/audit_mundarica_pages.py --json
+      - name: Validate Mundarica source-artifact contract
+        run: pytest -q tests/test_mundarica_artifact_schema.py
       - name: Enforce Mundarica completeness gates
         run: pytest -q tests/test_mundarica_completeness.py
       - name: Run Streamlit smoke tests
