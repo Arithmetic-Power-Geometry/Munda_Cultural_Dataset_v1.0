@@ -3,45 +3,38 @@
   "branch": "mlhkp-v2",
   "current_module": "03-encyclopaedia-mundarica-1-16",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-05T22:31:00Z",
+  "updated_utc": "2026-09-05T23:34:00Z",
   "changes_this_cycle": [
-    "Synchronized the CI-confirmed Volume I page-accounting result into the public Mundarica manifest used by Streamlit.",
-    "Added a public audit_summary containing structural metrics only: 16 volume slots, 0 verified-complete volumes, 1 page-accounting-complete volume, 324/324 Volume I page blocks, zero missing/duplicate/out-of-range blocks, complete page order, and scan_registered=false.",
-    "Updated Volume I public status to working_transcription_page_accounting_complete while keeping verified_complete=false.",
-    "Added tests that require the public manifest audit summary to match the canonical completeness audit exactly and prevent the Streamlit-facing status from implying verification.",
-    "Preserved all SRC-MUN-V01 through SRC-MUN-V16 IDs and left Volumes II-XVI pending rather than fabricating missing corpus artifacts."
+    "Added schemas/mundarica_artifact.schema.json as the provenance-safe registration contract for authoritative scans, raw OCR, working/verified transcriptions, structured content, page images and related corpus artifacts.",
+    "Required every registered artifact to retain source ID, volume, artifact role, locator, rights status, access class, verification status and provenance.",
+    "Encoded the rule that authoritative scans carry scan authority and raw OCR cannot be labelled verified_against_scan.",
+    "Added tests for the 16-volume ID range, artifact-role separation, provenance/rights/access requirements and OCR/scan verification safety rules.",
+    "Updated the Streamlit smoke workflow so schema changes trigger CI and the Mundarica artifact contract is tested before completeness and UI smoke gates."
   ],
   "streamlit_sync": {
-    "status": "synced_via_public_manifest",
-    "detail": "The Mundarica Streamlit selector reads manifest.json dynamically. Its Volume I label now exposes page-accounting-complete status without claiming scan verification. The manifest also carries canonical structural audit metrics for the next UI metric expansion."
+    "status": "no_corpus_state_change_this_cycle",
+    "detail": "No Mundarica manifest, page-accounting, transcription, structured-content or verification value changed in this cycle, so no public corpus metric required resynchronization. CI was expanded so schema/corpus-contract changes are part of the Streamlit release gate."
   },
   "integrity": {
     "permanent_volume_ids_preserved": true,
     "expected_volume_slots": 16,
     "volume_1_page_blocks": 324,
-    "volume_1_missing_page_blocks": 0,
-    "volume_1_duplicate_page_blocks": 0,
-    "volume_1_out_of_range_page_blocks": 0,
     "volume_1_page_accounting_complete": true,
     "volume_1_source_scan_present": false,
     "verified_complete_volumes": 0,
     "ocr_treated_as_verified": false,
-    "page_accounting_certifies_verification": false,
+    "artifact_provenance_contract_added": true,
     "main_branch_modified": false
   },
   "tests": {
-    "latest_test_commit": "c729e0278a7d198a643ad74e0aeb493e88fce1a0",
-    "migration_audit": "in_progress",
-    "source_register_audit": "in_progress",
-    "streamlit_smoke": "in_progress",
-    "streamlit_run_id": 33996154385,
-    "source_register_run_id": 33996154381,
-    "migration_run_id": 33996154399,
-    "completeness_test": "tests/test_mundarica_completeness.py"
+    "latest_workflow_commit": "2a716b3ca4286b67862528978a26bfd2306dcd7c",
+    "new_test": "tests/test_mundarica_artifact_schema.py",
+    "workflow": "MLHKP Streamlit Smoke Test",
+    "state_at_record_time": "new checks triggered / awaiting final conclusion"
   },
   "blockers": [
     "Volume I repository bundle still lacks a registered authoritative scan artifact, so visual scan comparison cannot be certified.",
     "Volumes II-XVI still have no corpus artifacts in the current repository build."
   ],
-  "next_best_action": "After the current GitHub checks complete, expose the manifest audit_summary as explicit Streamlit metrics for verified-complete volumes, page-accounting-complete volumes, missing/duplicate/out-of-range counts and scan-registration state without weakening the verification gate."
+  "next_best_action": "After CI confirms the artifact contract, add a blank artifact-register template/registry that can accept an authoritative Volume I scan without claiming rights or verification, then expose registered-artifact/scan-presence state in Streamlit when that registry gains real records."
 }
