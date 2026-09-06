@@ -34,6 +34,21 @@ def test_mmsc_volume2_discovery_matches_mundarica_manifest():
     assert 'unverified' in v2['external_source']['verification_note'].lower()
 
 
+def test_mmsc_volume3_discovery_matches_mundarica_manifest_without_promoting_ocr():
+    manifest=load(MUNDARICA)
+    v3=next(v for v in manifest['volume_slots'] if v['source_id']=='SRC-MUN-V03')
+    assert v3['external_source']['identifier']=='in.ernet.dli.2015.14921'
+    assert v3['external_source']['ark']=='ark:/13960/t3907ds0b'
+    assert v3['external_source']['total_pages_as_catalogued']==264
+    assert v3['status']=='external_source_locator_verified_not_ingested'
+    assert v3['verified_complete'] is False
+    assert v3['external_source']['acquisition_status']=='locator_verified_not_acquired'
+    assert 'not_independently_assessed' in v3['external_source']['rights_status']
+    assert 'unverified' in v3['external_source']['verification_note'].lower()
+    assert manifest['audit_summary']['externally_located_volumes']==2
+    assert manifest['audit_summary']['volume_3_local_scan_registered'] is False
+
+
 def test_standalone_discovery_has_required_evidence_preserving_fields():
     discoveries=load(DISCOVERIES)['records']
     assert len(discoveries)==1
@@ -53,21 +68,26 @@ def test_mmsc_metrics_are_current_repository_counts_not_completeness_claims():
     counted=set(x['source_id'] for x in master['sources'])
     counted.update(mmsc['source_registers'][1]['currently_counted_source_ids'])
     counted.update(x['source_id'] for x in discoveries)
-    assert mmsc['metrics']['sources_discovered']==len(counted)==16
-    assert mmsc['metrics']['additional_federated_discoveries']==2
+    assert mmsc['metrics']['sources_discovered']==len(counted)==17
+    assert mmsc['metrics']['additional_federated_discoveries']==3
     assert mmsc['metrics']['standalone_mmsc_discoveries']==len(discoveries)==1
-    assert mmsc['metrics']['mundarica_volume_locators_verified']==sum(1 for v in manifest['volume_slots'] if v.get('external_source'))
+    assert mmsc['metrics']['mundarica_volume_locators_verified']==sum(1 for v in manifest['volume_slots'] if v.get('external_source'))==2
     assert mmsc['metrics']['mundarica_authoritative_scans_registered']==manifest['audit_summary']['registered_authoritative_scans']==0
     assert mmsc['metrics']['mundarica_verified_complete_volumes']==manifest['audit_summary']['verified_complete_volumes']==0
+    assert mmsc['metrics']['deduplicated_locator_matches']>=1
     assert mmsc['completeness_claim']=='source_comprehensive_under_documented_protocol_only'
 
 
-def test_search_log_is_reproducible_and_refs_registered_sources():
+def test_search_log_is_reproducible_refs_registered_sources_and_records_deduplication():
     rows=[json.loads(line) for line in SEARCH_LOG.read_text(encoding='utf-8').splitlines() if line.strip()]
-    ids={r['source_id'] for r in load(DISCOVERIES)['records']} | {'SRC-MUN-V02'}
-    assert [r['search_id'] for r in rows]==['MMSC-SEARCH-000001','MMSC-SEARCH-000002']
+    ids={r['source_id'] for r in load(DISCOVERIES)['records']} | {'SRC-MUN-V02','SRC-MUN-V03'} | {r['source_id'] for r in load(MASTER)['sources']}
+    assert [r['search_id'] for r in rows]==[f'MMSC-SEARCH-{i:06d}' for i in range(1,5)]
     assert all(r['checked_utc'] and r['repository'] and r['query'] for r in rows)
     assert all(set(r['result_source_ids']) <= ids for r in rows)
+    dedup=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000004')
+    assert dedup['result_source_ids']==['SRC-000005']
+    assert dedup['outcome']=='deduplicated_locator_match_existing_canonical_source'
+    assert 'No new permanent source ID assigned' in dedup['notes']
 
 
 def test_mmsc_protocol_preserves_evidence_and_access_boundaries():
