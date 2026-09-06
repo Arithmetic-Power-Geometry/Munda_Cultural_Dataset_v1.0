@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "MLHKP-REVIEWERS",
+  "updated_utc": "2026-09-06T14:20:00Z",
+  "reviewers": [
+    {
+      "reviewer_id": "REV-MLHKP-000001",
+      "name": "Dr. Mohammad Amir Khusru Akhtar",
+      "designation": "Founding Principal Investigator and designated Mundarica textual verifier",
+      "declared_expertise": [
+        "Encyclopaedia Mundarica",
+        "English-language textual verification"
+      ],
+      "verification_scope": [
+        "authoritative-scan-to-transcription comparison",
+        "English text verification",
+        "Mundarica textual verification",
+        "page-level uncertainty resolution where the authoritative scan is legible",
+        "verification-signoff records for reviewed passages/pages"
+      ],
+      "scope_limits": [
+        "does not convert raw OCR into verified transcription without page-by-page comparison against an authoritative scan or page image",
+        "does not by itself establish reuse, redistribution or commercial rights",
+        "does not override cultural-access, consent, sacred/restricted-material or community-governance requirements",
+        "does not by itself constitute community validation of contemporary cultural practice",
+        "uncertain or illegible readings remain flagged rather than guessed"
+      ],
+      "credential_note": "Reviewer expertise is designated for the project on the reviewer's own declaration; the repository records the review action and evidence trail rather than treating the declaration alone as proof that any passage is verified.",
+      "verification_record_required": true,
+      "verification_record_minimum_fields": [
+        "reviewer_id",
+        "source_id",
+        "volume_number",
+        "page_or_locator",
+        "artifact_id_or_scan_locator",
+        "reviewed_text_or_record_id",
+        "decision",
+        "uncertainty_notes",
+        "reviewed_utc"
+      ]
+    }
+  ],
+  "policy": {
+    "verified_transcription_requires_authoritative_scan_comparison": true,
+    "ocr_alone_can_never_be_verified_transcription": true,
+    "verified_complete_requires_machine_readable_completeness_audit_pass": true,
+    "cultural_access_overrides_entitlement": true,
+    "community_validation_is_distinct_from_textual_verification": true
+  }
+}
