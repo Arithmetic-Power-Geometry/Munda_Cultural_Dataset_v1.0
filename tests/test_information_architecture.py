@@ -70,7 +70,7 @@ def test_mundarica_layer_and_verification_contract_visible():
 def test_governance_title_and_footer_contract_preserved():
     exact = "Mr. Rajan Pahan — Founding Community, Meetings & Field Logistics Coordinator"
     assert exact in PORTAL
-    assert exact in APP
+    assert '"Mr. Rajan Pahan","Founding Community, Meetings & Field Logistics Coordinator"' in APP
     assert "does not independently determine scholarly interpretation or final scholarly approval" in PORTAL
     footer_tail = APP.split("def footer():",1)[1].split("if \"owner\"",1)[0]
     assert "Founding record:" not in footer_tail
