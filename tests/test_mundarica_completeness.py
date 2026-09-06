@@ -53,7 +53,12 @@ def test_manifest_public_audit_summary_matches_canonical_audit():
     assert summary["volume_1_out_of_range_page_blocks"] == v1["out_of_range_page_blocks"]
     assert summary["volume_1_page_order_complete"] is v1["page_order_complete"]
     assert summary["volume_1_scan_registered"] is v1["source_scan_present"]
-    assert "do not certify" in summary["note"].lower()
+    note = summary["note"].lower()
+    assert "structural" in note
+    assert "external locator does not mean the scan has been acquired" in note
+    assert "reuse permission" in note
+    assert "ocr is verified" in note
+    assert "verified complete" in note
 
 
 def test_volume1_manifest_status_exposes_registered_accounting_without_claiming_verification():
