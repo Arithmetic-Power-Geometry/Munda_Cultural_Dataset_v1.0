@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 47
+    assert len(records) == 52
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 48)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 53)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
@@ -118,6 +118,24 @@ def test_new_field_research_leads_are_context_bounded_and_safety_aware():
     assert 'no medicinal recommendation' in ethnobotany['notes'].lower()
     assert 'safety' in ethnobotany['rights_note'].lower()
     assert 'cultural-access' in ethnobotany['rights_note'].lower()
+
+
+def test_run7_linguistic_debate_and_historical_sources_are_contextualized():
+    records = {r['id']: r for r in all_records()}
+    flexible = records['WEB-MUN-0048']
+    peterson = records['WEB-MUN-0049']
+    assert 'contradiction' in flexible['notes'].lower()
+    assert 'rather than treated as a single definitive' in peterson['notes'].lower()
+    primer = records['WEB-MUN-0050']
+    assert primer['year'] == 1873
+    assert 'exact page locators' in primer['notes'].lower()
+    assert 'noncommercial' in primer['rights_note'].lower() or 'nicht kommerzielle' in primer['rights_note'].lower()
+    grammar = records['WEB-MUN-0051']
+    assert grammar['year'] == 1882
+    assert 'historical grammar' in grammar['notes'].lower()
+    phonetics = records['WEB-MUN-0052']
+    assert '10.21437/tai.2023-17' in phonetics['notes'].lower()
+    assert 'participant-derived' in phonetics['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
