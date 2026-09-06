@@ -7,21 +7,27 @@ on:
     paths:
       - 'data/sources.csv'
       - 'data/source_register/**'
+      - 'data/source_census/**'
       - 'data/source_bundles/encyclopaedia_mundarica/manifest.json'
+      - 'docs/mmsc_source_census_protocol.md'
       - 'schemas/source_record.schema.json'
       - 'schemas/master_source_register.schema.json'
       - 'software/validate_master_source_register.py'
       - 'tests/test_master_source_register.py'
+      - 'tests/test_mmsc_census.py'
       - '.github/workflows/mlhkp-source-register-audit.yml'
   pull_request:
     paths:
       - 'data/sources.csv'
       - 'data/source_register/**'
+      - 'data/source_census/**'
       - 'data/source_bundles/encyclopaedia_mundarica/manifest.json'
+      - 'docs/mmsc_source_census_protocol.md'
       - 'schemas/source_record.schema.json'
       - 'schemas/master_source_register.schema.json'
       - 'software/validate_master_source_register.py'
       - 'tests/test_master_source_register.py'
+      - 'tests/test_mmsc_census.py'
 
 jobs:
   audit:
@@ -43,5 +49,8 @@ jobs:
       - name: Validate Master Source Register
         run: python software/validate_master_source_register.py
 
-      - name: Run Stage 2 tests
+      - name: Run Master Source Register tests
         run: pytest -q tests/test_master_source_register.py
+
+      - name: Run Master Munda Source Census tests
+        run: pytest -q tests/test_mmsc_census.py
