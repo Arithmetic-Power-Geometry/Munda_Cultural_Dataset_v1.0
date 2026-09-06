@@ -1,0 +1,72 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified bibliographic, repository, dataset, government/TRI, or dissertation source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0057",
+      "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+      "source_class": "doctoral_dissertation_ethnographic_land_politics",
+      "publisher": "Virginia Tech / VTechWorks",
+      "url": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041",
+      "author": "Pallavi Raonka",
+      "year": 2021,
+      "notes": "Virginia Tech institutional-repository metadata verifies a doctoral dissertation deposited in 2021, based on a fifteen-month ethnographic study conducted from May 2017 to December 2018 concerning Munda relationships to land, identity, representation, gender, markets and state power in Jharkhand. Register as a high-value ethnographic and contemporary-change source lead. Any proposition derived later must retain the dissertation's fieldwork period, places, participant context and exact page/passage locator, and must not be generalized to all Munda communities or to current practice without additional evidence.",
+      "verification_state": "institutional_dissertation_metadata_verified",
+      "access_class": "public_institutional_repository_record_with_downloadable_dissertation",
+      "rights_note": "Repository download availability does not establish blanket redistribution, commercial reuse, participant-data reuse, quotation beyond applicable limits, or reuse of supporting documents. Participant-derived material and culturally sensitive content require dissertation-specific consent, ethics, rights and cultural-access review before structured ingestion."
+    },
+    {
+      "id": "WEB-MUN-0058",
+      "title": "Musical and Cultural Interaction in Tribal India: The Karam Repertory of the Mundas of Chotanagpur",
+      "source_class": "doctoral_dissertation_ethnomusicology",
+      "publisher": "University of Illinois at Urbana-Champaign / IDEALS",
+      "url": "https://www.ideals.illinois.edu/items/22787",
+      "author": "Carol Marie Babiracki",
+      "year": 1991,
+      "notes": "University of Illinois IDEALS metadata verifies Carol Marie Babiracki's 1991 PhD dissertation in Musicology, focused on the Karam repertory of the Mundas of Chotanagpur and analyzing music, dance, text, context, history and cultural interaction. The repository states that the full item is restricted to University of Illinois community access. Register as an ethnomusicology, songs/dance/music, festival and historical-change source lead. Later evidence use requires exact dissertation page/figure/music-example locators and must preserve the study's historical and fieldwork context rather than converting source-reported interpretations into universal or current cultural facts.",
+      "verification_state": "institutional_dissertation_metadata_verified",
+      "access_class": "institutional_repository_metadata_full_text_restricted",
+      "rights_note": "IDEALS identifies Copyright 1991 Carol Marie Babiracki and restricts download to University of Illinois users. Do not copy, redistribute, transcribe or ingest protected dissertation content without lawful access and rights review; any music, song, performance or participant-derived material additionally requires performer/community and cultural-access review."
+    },
+    {
+      "id": "WEB-MUN-0059",
+      "title": "Munda",
+      "source_class": "government_tri_book",
+      "publisher": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi / Ministry of Tribal Affairs repository",
+      "url": "https://repository.tribal.gov.in/handle/123456789/74865",
+      "author": "Soma Singh Munda; edited by Ranendra Kumar; guided by Chintu Doraiburu",
+      "year": 1993,
+      "notes": "The Ministry of Tribal Affairs repository verifies TRI record DRMTWRI/1993/0007, document type Book, title Munda, researcher Soma Singh Munda, completed March 1993, pagination 1-44, with Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi identified as the institutional source. Register as a government/TRI historical source lead across tribal life, language and culture. The repository abstract/keywords are source-supplied metadata only; no cultural proposition is promoted without consulting the exact page and preserving the work's 1993 historical framing.",
+      "verification_state": "official_tribal_affairs_repository_metadata_verified",
+      "access_class": "public_government_repository_record_pdf_link_present",
+      "rights_note": "A public Ministry/TRI repository record and PDF link do not by themselves establish unrestricted redistribution, derivative-database, image, translation or commercial-reuse rights. Check item-level governmental/repository terms before ingestion; cultural access can remain more restrictive than copyright entitlement."
+    },
+    {
+      "id": "WEB-MUN-0060",
+      "title": "Mundari",
+      "source_class": "grammar_sketch_book_chapter",
+      "publisher": "Routledge; bibliographic metadata verified via Glottolog 5.3",
+      "url": "https://glottolog.org/resource/reference/id/477414",
+      "author": "Toshiki Osada",
+      "year": 2008,
+      "notes": "Glottolog verifies Toshiki Osada's chapter 'Mundari' in Gregory D. S. Anderson (ed.), The Munda Languages, pages 99-164, Routledge, 2008, ISBN 9780415328906, and classifies it as a grammar sketch for Mundari [unr]. Register as a language/grammar source lead with exact chapter pagination. Glottolog bibliographic metadata is not a substitute for the chapter text; linguistic claims require exact page/example locators from a lawfully accessed copy and should be linked to variants or competing analyses where relevant.",
+      "verification_state": "glottolog_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_metadata_full_text_rights_separate",
+      "rights_note": "Glottolog's metadata is CC BY 4.0, but that licence does not transfer rights in the Routledge chapter or any underlying examples/data. Full-text acquisition, quotation, redistribution, derivative dataset creation and commercial reuse require separate rights review."
+    },
+    {
+      "id": "WEB-MUN-0061",
+      "title": "ASJP Database — Wordlist Mundari",
+      "source_class": "comparative_lexical_dataset",
+      "publisher": "Automated Similarity Judgment Program (ASJP) Database",
+      "url": "https://asjp.clld.org/languages/MUNDARI",
+      "author": "Compiled by Cecil H. Brown; ASJP edited by Søren Wichmann, Cecil H. Brown, Eric W. Holman, Matthew S. Dryer and Qibin Ran",
+      "year": 2026,
+      "notes": "The ASJP language page identifies a Mundari wordlist with Glottocode mund1320 and ISO 639-3 unr, compiled by Cecil H. Brown, cites Peiros 1998 as its source, and exposes machine-readable JSON/RDF/ASJP formats. Register as a comparative lexical-dataset source lead. Before structured ingestion, preserve ASJP concept mappings, original source attribution and dataset provenance, audit whether any item duplicates or derives from sources already registered, and do not treat coordinates, speaker counts, classification or lexical forms as independently verified community facts merely because they appear in the database.",
+      "verification_state": "public_dataset_metadata_and_license_verified",
+      "access_class": "public_machine_readable_dataset",
+      "rights_note": "The ASJP Database page states CC BY 4.0 for the database. This supports licensed reuse of ASJP material with attribution, but does not erase provenance obligations or automatically transfer rights in cited underlying source works. Cultural-access controls and source-level attribution remain applicable."
+    }
+  ]
+}
