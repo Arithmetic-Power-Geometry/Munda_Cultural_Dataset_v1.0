@@ -1,0 +1,57 @@
+{
+  "registry_version": "1.0.0",
+  "policy": "architecture_first_evidence_preserving",
+  "evidence_chain": ["source", "passage_segment_event_object", "evidence", "claim", "indicator", "domain"],
+  "empty_state": "Structure ready — evidence not yet ingested",
+  "modules": [
+    {"module_id":"MOD-DIS-001","group":"Discover","label":"Home Research Dashboard","domains":["all"],"schemas":["cultural_domains","cultural_subdomains","cultural_indicators","evidence"],"public":true},
+    {"module_id":"MOD-DIS-002","group":"Discover","label":"Universal Search","domains":["all"],"schemas":["sources","source_claims","evidence","entities"],"public":true},
+    {"module_id":"MOD-DIS-003","group":"Discover","label":"Culture Explorer","domains":["all"],"schemas":["cultural_domains","cultural_subdomains","cultural_indicators"],"public":true},
+    {"module_id":"MOD-DIS-004","group":"Discover","label":"Life from Birth to Burial","domains":["life_course"],"schemas":["events","event_steps","evidence"],"public":true},
+
+    {"module_id":"MOD-CK-001","group":"Culture & Knowledge","label":"Language & Lexicon","domains":["language","dialects","scripts","phonology","morphology","grammar","syntax","lexicon","etymology"],"schemas":["entities","evidence"],"public":true},
+    {"module_id":"MOD-CK-002","group":"Culture & Knowledge","label":"Kinship & Kili","domains":["people","roles","families","kinship","kili","community_institutions"],"schemas":["entities","evidence"],"public":true},
+    {"module_id":"MOD-CK-003","group":"Culture & Knowledge","label":"Festivals & Rituals","domains":["festivals","calendar","seasons","rituals","ceremonies"],"schemas":["events","event_steps","objects","evidence"],"public":true},
+    {"module_id":"MOD-CK-004","group":"Culture & Knowledge","label":"Beliefs & Sacred Life","domains":["beliefs","cosmology","deities","spirits","sacred_institutions"],"schemas":["entities","evidence"],"public":true,"access_rule":"cultural_access_overrides_entitlement"},
+    {"module_id":"MOD-CK-005","group":"Culture & Knowledge","label":"Stories & Oral Traditions","domains":["oral_histories","stories","myths","legends","folk_tales","proverbs","riddles"],"schemas":["interviews","interview_segments","evidence"],"public":true},
+    {"module_id":"MOD-CK-006","group":"Culture & Knowledge","label":"Songs / Dance / Music","domains":["songs","durang","dance","music","instruments","rhythm","performance_context"],"schemas":["media_metadata","events","evidence"],"public":true},
+    {"module_id":"MOD-CK-007","group":"Culture & Knowledge","label":"Food & Agriculture","domains":["food","drink","recipes","agriculture","crops"],"schemas":["objects","evidence"],"public":true},
+    {"module_id":"MOD-CK-008","group":"Culture & Knowledge","label":"Ecology & Ethnobotany","domains":["forests","plants","ethnobotany","medicinal_knowledge","animals","ecology","weather","seasonality"],"schemas":["objects","evidence"],"public":true,"access_rule":"safety_and_cultural_access_controls"},
+    {"module_id":"MOD-CK-009","group":"Culture & Knowledge","label":"Material Culture & Crafts","domains":["material_culture","tools","crafts"],"schemas":["objects","media_metadata","evidence"],"public":true},
+    {"module_id":"MOD-CK-010","group":"Culture & Knowledge","label":"Dress & Ornament","domains":["dress","ornaments"],"schemas":["objects","media_metadata","evidence"],"public":true},
+    {"module_id":"MOD-CK-011","group":"Culture & Knowledge","label":"Houses & Architecture","domains":["houses","architecture"],"schemas":["objects","media_metadata","evidence"],"public":true},
+    {"module_id":"MOD-CK-012","group":"Culture & Knowledge","label":"Livelihood & Economy","domains":["livelihoods","economy","markets","labour","migration"],"schemas":["evidence"],"public":true},
+    {"module_id":"MOD-CK-013","group":"Culture & Knowledge","label":"Customary Law & Governance","domains":["land","customary_law","governance","political_institutions"],"schemas":["entities","evidence"],"public":true},
+    {"module_id":"MOD-CK-014","group":"Culture & Knowledge","label":"Education / Health / Demography","domains":["education","health","demography","language_vitality"],"schemas":["evidence"],"public":true},
+
+    {"module_id":"MOD-PP-001","group":"People & Place","label":"Places & Landscapes","domains":["places","landscapes"],"schemas":["entities","media_metadata","evidence"],"public":true},
+    {"module_id":"MOD-PP-002","group":"People & Place","label":"Geographic / Community Variation","domains":["geographic_variation","community_variation","kili_variation","family_variation","gender_variation","generation_variation","dialect_variation","period_variation"],"schemas":["contradictions","evidence"],"public":true},
+
+    {"module_id":"MOD-HC-001","group":"History & Change","label":"Historical Timeline","domains":["historical_events","historical_persons","movements"],"schemas":["events","entities","evidence"],"public":true},
+    {"module_id":"MOD-HC-002","group":"History & Change","label":"Historical Archives","domains":["archives","gazetteers","settlement","tenancy","newspapers"],"schemas":["sources","evidence"],"public":true},
+    {"module_id":"MOD-HC-003","group":"History & Change","label":"Contemporary Change","domains":["contemporary_change","technology","media","urbanisation"],"schemas":["evidence"],"public":true},
+
+    {"module_id":"MOD-RL-001","group":"Research Library","label":"Master Munda Source Census","domains":["sources"],"schemas":["source_census","sources"],"public":true},
+    {"module_id":"MOD-RL-002","group":"Research Library","label":"Mundarica I–XVI Digital Library","domains":["mundarica"],"schemas":["mundarica_manifest","mundarica_artifact_registry"],"public":true},
+    {"module_id":"MOD-RL-003","group":"Research Library","label":"Books / Journals / Theses","domains":["books","articles","theses","dictionaries","grammars"],"schemas":["sources"],"public":true},
+    {"module_id":"MOD-RL-004","group":"Research Library","label":"Government & Archives","domains":["government","tri","census","lsi","archives"],"schemas":["sources"],"public":true},
+    {"module_id":"MOD-RL-005","group":"Research Library","label":"Media Archive","domains":["photographs","audio","video","scans","maps","drawings","3d_objects"],"schemas":["media_metadata"],"public":true},
+
+    {"module_id":"MOD-ER-001","group":"Evidence & Research","label":"Evidence Explorer","domains":["all"],"schemas":["evidence","evidence_links","source_claims"],"public":true},
+    {"module_id":"MOD-ER-002","group":"Evidence & Research","label":"Contradictions & Variants","domains":["contradictions","contested_interpretations","historical_vs_current"],"schemas":["contradictions","evidence"],"public":true},
+    {"module_id":"MOD-ER-003","group":"Evidence & Research","label":"Community Validation","domains":["community_validation","consent"],"schemas":["interviews","observations","evidence"],"public":true},
+    {"module_id":"MOD-ER-004","group":"Evidence & Research","label":"Research Gaps / Completeness","domains":["all"],"schemas":["cultural_domains","source_census","evidence"],"public":true},
+    {"module_id":"MOD-ER-005","group":"Evidence & Research","label":"Reports & Downloads","domains":["reports","publications","book_mappings"],"schemas":["book_mapping","evidence"],"public":true},
+
+    {"module_id":"MOD-ML-001","group":"MLHKP","label":"About","domains":["project"],"schemas":["governance"],"public":true},
+    {"module_id":"MOD-ML-002","group":"MLHKP","label":"Governance & Ethics","domains":["rights","licence","access","commercial_reuse_status","provenance","audit","corrections"],"schemas":["governance"],"public":true},
+    {"module_id":"MOD-ML-003","group":"MLHKP","label":"Contribute / Correct","domains":["fieldwork","corrections","community_validation"],"schemas":["reports"],"public":true},
+    {"module_id":"MOD-ML-004","group":"MLHKP","label":"Owner Research Console","domains":["all"],"schemas":["all"],"public":false,"authentication_required":true},
+
+    {"module_id":"MOD-FUT-001","group":"Future (disabled by default)","label":"Research Pro","domains":["all"],"schemas":["all"],"public":false,"enabled":false},
+    {"module_id":"MOD-FUT-002","group":"Future (disabled by default)","label":"Institutional","domains":["all"],"schemas":["all"],"public":false,"enabled":false},
+    {"module_id":"MOD-FUT-003","group":"Future (disabled by default)","label":"API","domains":["all"],"schemas":["all"],"public":false,"enabled":false},
+    {"module_id":"MOD-FUT-004","group":"Future (disabled by default)","label":"Report Studio","domains":["reports"],"schemas":["all"],"public":false,"enabled":false},
+    {"module_id":"MOD-FUT-005","group":"Future (disabled by default)","label":"Book Studio","domains":["books","publications"],"schemas":["book_mapping"],"public":false,"enabled":false}
+  ]
+}
