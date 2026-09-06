@@ -1,0 +1,69 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified source leads or archive/dataset/catalogue records, not extracted cultural claims and not proof of unrestricted redistribution or commercial reuse.",
+  "records": [
+    {
+      "id": "WEB-MUN-0028",
+      "title": "Kera Mundari Talking Dictionary",
+      "source_class": "community_language_audio_dictionary",
+      "publisher": "Living Tongues Institute for Endangered Languages / Swarthmore College",
+      "url": "https://talkingdictionary.swarthmore.edu/kera_mundari/",
+      "author": "Gregory D. S. Anderson and K. David Harrison",
+      "year": 2013,
+      "notes": "Official dictionary interface identifies version 1.0 (March 2013), Kera Mundari lexical entries with audio, and speaker attribution. The site currently reports 446 entries and 446 audio files. Counts are interface metadata observed at verification time and are not promoted to MLHKP cultural facts. Individual lexical/audio items require exact entry locators and access review before ingestion.",
+      "verification_state": "project_site_verified",
+      "access_class": "public_interactive_dictionary",
+      "rights_note": "The dictionary states that all content is copyright the Kera Mundari community, all rights reserved, and that it must not be distributed or reproduced without permission. Public interaction therefore does not imply redistribution, derivative-use or commercial-reuse rights."
+    },
+    {
+      "id": "WEB-MUN-0029",
+      "title": "Munda Mimetic Reduplication",
+      "source_class": "peer_reviewed_comparative_linguistics_article",
+      "publisher": "Canadian Journal of Linguistics / Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58",
+      "author": "Jacob B. Phillips and K. David Harrison",
+      "year": 2017,
+      "notes": "Publisher metadata verifies publication online 6 March 2017. The study compares mimetic reduplication across seven Munda languages, explicitly including Kera Mundari and Mundari. Scope is comparative linguistics, not a general ethnographic source about Munda people; any linguistic claims require passage-level evidence before MLHKP factual use.",
+      "verification_state": "publisher_metadata_verified",
+      "access_class": "public_article_metadata",
+      "rights_note": "Publisher-page access and bibliographic visibility do not establish permission to redistribute the article, tables, examples or supplementary material."
+    },
+    {
+      "id": "WEB-MUN-0030",
+      "title": "The Prodigal Son — historical Mundari sound recording",
+      "source_class": "audio_archive",
+      "publisher": "Bibliothèque nationale de France catalogue / Gramophone Co. / Linguistic Survey of India",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb414605823",
+      "author": "George A. Grierson (editor), Linguistic Survey of India",
+      "year": 1914,
+      "notes": "BnF catalogue verifies a one-sided 78 rpm spoken-word Mundari recording, duration 3 min 5 s, recorded at Ranchi very probably in 1914. The record links the LSI gramophone series to original-language transcriptions and English translations. Historical recording context must remain explicit; linked transcription/translation documents require separate registration before evidence extraction.",
+      "verification_state": "national_library_catalogue_verified",
+      "access_class": "public_archive_metadata",
+      "rights_note": "Catalogue and possible digital-access visibility do not by themselves establish permission to redistribute the audio, transcription, translation or derived clips. Item-level BnF/Gallica conditions and cultural-access review remain controlling."
+    },
+    {
+      "id": "WEB-MUN-0031",
+      "title": "Linguistic Survey of India Gramophone Records — Bihar and Orissa subseries",
+      "source_class": "archive_collection_catalogue",
+      "publisher": "British Library Archives and Manuscripts Catalogue",
+      "url": "https://searcharchives.bl.uk/catalog/037-000091074",
+      "year": 1913,
+      "notes": "British Library catalogue describes IOR/S/2/1, a Bihar and Orissa subseries of 29 Linguistic Survey of India gramophone records dated 1913–1920. The component list includes multiple Kherwari/Mundari items such as Bapala Durang, Mage Durang, Parable of the Prodigal Son, Special Text, Jadur Durang and Durang Kahani. This collection-level record supports systematic discovery; each component must receive its own locator and metadata verification before content-level use.",
+      "verification_state": "national_archive_catalogue_verified",
+      "access_class": "public_archive_metadata",
+      "rights_note": "Archival catalogue visibility does not establish digitized access, reproduction, redistribution or commercial-use rights for individual gramophone records or associated documentation."
+    },
+    {
+      "id": "WEB-MUN-0032",
+      "title": "Munda Language Digital Archive — Bangladesh",
+      "source_class": "web_language_audio_archive",
+      "publisher": "Multiling Cloud / Bangladesh government domain",
+      "url": "https://lob.bangla.gov.bd/languages/munda",
+      "notes": "The Munda language page presents a digital archive for phonetic transcriptions and audio recordings and identifies Mundari as an Austroasiatic language used by Munda communities in Bangladesh. Register as a web archive discovery lead only. Interface-reported resource counts, sociolinguistic descriptions and individual recordings require item-level provenance, contributor/consent and rights review before ingestion or public factual use.",
+      "verification_state": "web_archive_locator_verified",
+      "access_class": "public_web_archive_interface",
+      "rights_note": "Public archive access does not establish redistribution or commercial-reuse permission. Recording-level consent, contributor conditions, cultural sensitivity and site terms must be reviewed before any media or transcription is ingested."
+    }
+  ]
+}
