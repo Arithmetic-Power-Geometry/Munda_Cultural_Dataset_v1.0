@@ -56,6 +56,21 @@ def test_master_source_register_is_canonical_and_preserves_ids():
     assert ids==[f'SRC-{i:06d}' for i in range(1,15)]
     assert not run_page('Master Sources').exception
 
+def test_master_source_census_page_reads_live_federated_metrics():
+    census=json.loads((ROOT/'data'/'source_census'/'mmsc_index.json').read_text(encoding='utf-8'))
+    discoveries=json.loads((ROOT/'data'/'source_census'/'mmsc_discoveries.json').read_text(encoding='utf-8'))['records']
+    assert census['metrics']['sources_discovered']==16
+    assert census['metrics']['canonical_master_records']==14
+    assert census['metrics']['additional_federated_discoveries']==2
+    assert census['metrics']['standalone_mmsc_discoveries']==len(discoveries)==1
+    assert census['metrics']['mundarica_verified_complete_volumes']==0
+    source=app_source()
+    assert 'section("Master Source Census")' in source
+    assert 'mmsc_index()' in source
+    assert 'mmsc_discoveries()' in source
+    assert 'Catalogue or online availability does not establish acquisition, OCR verification, reuse permission, cultural validation or VERIFIED COMPLETE status.' in source
+    assert not run_page('Master Sources').exception
+
 def test_mundarica_manifest_has_all_16_slots_and_volume1_page_blocks():
     manifest=json.loads((ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json').read_text(encoding='utf-8'))
     assert [x['source_id'] for x in manifest['volume_slots']]==[f'SRC-MUN-V{i:02d}' for i in range(1,17)]
