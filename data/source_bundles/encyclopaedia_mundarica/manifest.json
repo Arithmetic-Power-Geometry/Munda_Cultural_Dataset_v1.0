@@ -6,10 +6,7 @@
   "corpus_type": "historical_encyclopaedia",
   "expected_volumes": 16,
   "ingested_volumes": [],
-  "language_context": [
-    "English",
-    "Mundari"
-  ],
+  "language_context": ["English", "Mundari"],
   "evidence_status": "historical_source_reported",
   "source_of_truth_policy": "Verified transcription takes precedence over OCR. OCR may be retained only as a reference/provenance layer.",
   "completeness_audit": "completeness_audit.json",
@@ -21,7 +18,7 @@
     "registered_artifacts": 1,
     "registered_authoritative_scans": 0,
     "registered_working_transcriptions": 1,
-    "externally_located_volumes": 2,
+    "externally_located_volumes": 3,
     "volume_1_declared_scan_pages": 324,
     "volume_1_page_blocks_detected": 324,
     "volume_1_missing_page_blocks": 0,
@@ -35,37 +32,18 @@
     "note": "These are structural corpus-audit, artifact-registration and source-discovery metrics only. An external locator does not mean the scan has been acquired into MLHKP, that reuse permission exists, that OCR is verified, or that a volume is verified complete.",
     "volume_3_external_locator_verified": true,
     "volume_3_external_scan_pages_reported": 264,
-    "volume_3_local_scan_registered": false
+    "volume_3_local_scan_registered": false,
+    "volume_5_external_locator_verified": true,
+    "volume_5_external_scan_pages_reported": 278,
+    "volume_5_local_scan_registered": false
   },
   "required_volume_structure": {
-    "source": [
-      "source_id",
-      "title",
-      "collection_id",
-      "volume",
-      "access_class"
-    ],
-    "content": [
-      "pages",
-      "entries",
-      "passages"
-    ],
-    "recommended_links": [
-      "claims",
-      "terms",
-      "objects",
-      "places",
-      "events",
-      "relationships"
-    ]
+    "source": ["source_id", "title", "collection_id", "volume", "access_class"],
+    "content": ["pages", "entries", "passages"],
+    "recommended_links": ["claims", "terms", "objects", "places", "events", "relationships"]
   },
   "volume_slots": [
-    {
-      "volume": 1,
-      "source_id": "SRC-MUN-V01",
-      "status": "working_transcription_registered_page_accounting_complete",
-      "verified_complete": false
-    },
+    {"volume": 1, "source_id": "SRC-MUN-V01", "status": "working_transcription_registered_page_accounting_complete", "verified_complete": false},
     {
       "volume": 2,
       "source_id": "SRC-MUN-V02",
@@ -85,13 +63,7 @@
         "scanning_centre": "C-DAC Kolkata",
         "total_pages_as_catalogued": 406,
         "ocr_engine_as_catalogued": "ABBYY FineReader 11.0 (Extended OCR)",
-        "available_derivatives_observed": [
-          "ABBYY GZ",
-          "FULL TEXT",
-          "PDF",
-          "PDF WITH TEXT",
-          "SINGLE PAGE PROCESSED JP2 ZIP"
-        ],
+        "available_derivatives_observed": ["ABBYY GZ", "FULL TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"],
         "rights_status": "not_assessed",
         "acquisition_status": "locator_verified_not_acquired",
         "verification_note": "Metadata and download availability were checked against the Internet Archive item page. No local scan artifact is registered. OCR remains machine-generated and unverified. Public availability is not treated as reuse permission."
@@ -116,96 +88,50 @@
         "scanning_centre": "C-DAC, Noida",
         "total_pages_as_catalogued": 264,
         "ocr_engine_as_catalogued": "ABBYY FineReader 11.0",
-        "available_derivatives_observed": [
-          "ABBYY GZ",
-          "FULL TEXT",
-          "PDF",
-          "PDF WITH TEXT",
-          "SINGLE PAGE PROCESSED JP2 ZIP"
-        ],
+        "available_derivatives_observed": ["ABBYY GZ", "FULL TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"],
         "rights_metadata_as_catalogued": "Out_of_copyright",
         "rights_status": "repository_metadata_observed_not_independently_assessed_for_redistribution",
         "acquisition_status": "locator_verified_not_acquired",
         "verification_note": "Internet Archive/DLI metadata and derivative availability were checked. No local scan artifact is registered; OCR remains machine-generated and unverified. Repository rights metadata is recorded as provenance and is not treated as MLHKP redistribution permission."
       }
     },
-    {
-      "volume": 4,
-      "source_id": "SRC-MUN-V04",
-      "status": "pending",
-      "verified_complete": false
-    },
+    {"volume": 4, "source_id": "SRC-MUN-V04", "status": "pending", "verified_complete": false},
     {
       "volume": 5,
       "source_id": "SRC-MUN-V05",
-      "status": "pending",
-      "verified_complete": false
+      "status": "external_source_locator_verified_not_ingested",
+      "verified_complete": false,
+      "external_source": {
+        "repository": "Internet Archive / Digital Library of India",
+        "canonical_url": "https://archive.org/details/in.ernet.dli.2015.14925",
+        "identifier": "in.ernet.dli.2015.14925",
+        "ark": "ark:/13960/t1mh2xz66",
+        "title_as_catalogued": "Encyclopedia Mundarica Vol-v (1932)",
+        "creator_as_catalogued": "Emelen, Rev. Arthur Van; Hoffmann, Rev. John (contributor metadata)",
+        "publication_year_as_catalogued": 1932,
+        "publisher_as_catalogued": "Superintendent Government Printing, Bihar",
+        "language_as_catalogued": "English",
+        "source_institution": "Lbs National Academy Of Administration",
+        "scanning_centre": "C-DAC, Noida",
+        "total_pages_as_catalogued": 278,
+        "ocr_engine_as_catalogued": "Internet Archive ABBYY-derived OCR (repository metadata)",
+        "available_derivatives_observed": ["ABBYY GZ", "FULL TEXT", "HOCR", "OCR SEARCH TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"],
+        "rights_metadata_as_catalogued": "Out_of_copyright",
+        "rights_status": "repository_metadata_observed_not_independently_assessed_for_redistribution",
+        "acquisition_status": "locator_verified_not_acquired",
+        "verification_note": "Internet Archive/DLI catalogue metadata and derivative availability were checked on 2026-09-06. No local scan artifact is registered; all OCR/full-text derivatives remain machine-generated and unverified. Repository rights metadata is preserved as provenance and is not treated as an MLHKP redistribution or commercial-reuse grant."
+      }
     },
-    {
-      "volume": 6,
-      "source_id": "SRC-MUN-V06",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 7,
-      "source_id": "SRC-MUN-V07",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 8,
-      "source_id": "SRC-MUN-V08",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 9,
-      "source_id": "SRC-MUN-V09",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 10,
-      "source_id": "SRC-MUN-V10",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 11,
-      "source_id": "SRC-MUN-V11",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 12,
-      "source_id": "SRC-MUN-V12",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 13,
-      "source_id": "SRC-MUN-V13",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 14,
-      "source_id": "SRC-MUN-V14",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 15,
-      "source_id": "SRC-MUN-V15",
-      "status": "pending",
-      "verified_complete": false
-    },
-    {
-      "volume": 16,
-      "source_id": "SRC-MUN-V16",
-      "status": "pending",
-      "verified_complete": false
-    }
+    {"volume": 6, "source_id": "SRC-MUN-V06", "status": "pending", "verified_complete": false},
+    {"volume": 7, "source_id": "SRC-MUN-V07", "status": "pending", "verified_complete": false},
+    {"volume": 8, "source_id": "SRC-MUN-V08", "status": "pending", "verified_complete": false},
+    {"volume": 9, "source_id": "SRC-MUN-V09", "status": "pending", "verified_complete": false},
+    {"volume": 10, "source_id": "SRC-MUN-V10", "status": "pending", "verified_complete": false},
+    {"volume": 11, "source_id": "SRC-MUN-V11", "status": "pending", "verified_complete": false},
+    {"volume": 12, "source_id": "SRC-MUN-V12", "status": "pending", "verified_complete": false},
+    {"volume": 13, "source_id": "SRC-MUN-V13", "status": "pending", "verified_complete": false},
+    {"volume": 14, "source_id": "SRC-MUN-V14", "status": "pending", "verified_complete": false},
+    {"volume": 15, "source_id": "SRC-MUN-V15", "status": "pending", "verified_complete": false},
+    {"volume": 16, "source_id": "SRC-MUN-V16", "status": "pending", "verified_complete": false}
   ]
 }
