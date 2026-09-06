@@ -8,7 +8,7 @@
     {"register_type":"canonical_master_source_register","path":"data/source_register/master_sources.json","counted_records":14,"id_policy":"preserve_existing_SRC_ids"},
     {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":12,"counting_rule":"Count volume slots with a verified external locator that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V04","SRC-MUN-V05","SRC-MUN-V06","SRC-MUN-V07","SRC-MUN-V08","SRC-MUN-V09","SRC-MUN-V10","SRC-MUN-V11","SRC-MUN-V12","SRC-MUN-V13"]},
     {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":1,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
-    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json"],"counted_records":0,"observed_leads":47,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, an alternate locator, a catalogue wrapper, or a duplicate."}
+    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json"],"counted_records":0,"observed_leads":52,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, an alternate locator, a catalogue wrapper, or a duplicate."}
   ],
   "metrics": {
     "sources_discovered": 27,
@@ -19,34 +19,34 @@
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
     "mundarica_verified_complete_volumes": 0,
-    "web_discovery_leads_observed": 47,
+    "web_discovery_leads_observed": 52,
     "web_discovery_leads_counted_in_audited_identity_total": 0,
     "bibliographic_only_records": 1,
     "still_to_acquire_additional_discoveries": 13,
     "deduplicated_locator_matches": 1,
-    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 1 standalone MMSC bibliographic discovery = 27. Forty-seven reader-facing web-discovery leads are tracked separately and deliberately not added to this total until source-identity deduplication is complete. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index or media availability is never interpreted as unrestricted reuse permission."
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 1 standalone MMSC bibliographic discovery = 27. Fifty-two reader-facing web-discovery leads are tracked separately and deliberately not added to this total until source-identity deduplication is complete. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index or media availability is never interpreted as unrestricted reuse permission."
   },
   "latest_discovery": {
-    "source_id": "WEB-MUN-0047",
-    "title": "Folk Dances of Jharkhand - Documentary - EZCC",
-    "source_type": "licensed_audiovisual_cultural_documentary",
-    "canonical_url": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
-    "availability": "public_cc_by_3_0_audiovisual_media",
+    "source_id": "WEB-MUN-0052",
+    "title": "Phonetic Correlates of Syllable Prominence in Mundari",
+    "source_type": "peer_reviewed_conference_phonetics_paper",
+    "canonical_url": "https://www.isca-archive.org/tai_2023/horo23_tai.html",
+    "availability": "public_conference_paper_metadata_and_pdf",
     "acquisition_state": "not_locally_acquired",
-    "rights_reuse_status": "cc_by_3_0_metadata_verified_cultural_access_still_controls",
+    "rights_reuse_status": "paper_access_verified_underlying_recordings_and_dataset_rights_unresolved",
     "extraction_state": "not_started",
     "evidence_link_state": "not_linked",
-    "verification_state": "repository_media_metadata_and_license_verified",
+    "verification_state": "conference_archive_metadata_verified",
     "provenance": {
-      "repository": "Wikimedia Commons / Eastern Zonal Cultural Centre",
-      "checked_utc": "2026-09-06T21:08:00Z",
-      "caution": "The Commons record and licence are verified as source/media metadata. Documentary labels and timecodes are not automatically cultural facts; performance interpretation, participant context, consent and cultural access require segment-level review before evidence ingestion."
+      "repository": "ISCA Archive",
+      "checked_utc": "2026-09-06T22:20:00Z",
+      "caution": "Conference-paper metadata and public PDF availability are verified. No participant-derived audio, dataset, phonetic claim or cultural statement is ingested without exact source locators and source-specific consent/data-governance review."
     }
   },
   "web_discovery_layer": {
     "path": "data/source_census/web_discovery_seed_2026-09-06.json",
-    "additional_paths": ["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json"],
-    "records": 47,
+    "additional_paths": ["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json"],
+    "records": 52,
     "state": "verified_source_leads_pending_identity_deduplication",
     "boundary": "Searchable discovery metadata only; not extracted cultural evidence and not included in audited source-identity totals until canonicalization."
   },
