@@ -53,6 +53,17 @@ def test_coverage_matrix_maps_every_row_to_registered_module():
         assert row["schema"] and row["source_layer"] and row["evidence_layer"] and row["gap_rule"]
 
 
+def test_every_registered_module_has_machine_readable_coverage_and_gap_mapping():
+    labels = {m["label"] for m in REGISTRY["modules"]}
+    mapped = set()
+    for row in COVERAGE["rows"]:
+        mapped.update(x.strip() for x in row["streamlit_module"].split(";") if x.strip())
+    assert labels == mapped, f"coverage matrix mismatch: missing={sorted(labels-mapped)}, extra={sorted(mapped-labels)}"
+    valid_states = {"live_partial", "structure_ready", "authenticated_only", "disabled_by_default"}
+    assert all(r.get("coverage_state") in valid_states for r in COVERAGE["rows"])
+    assert all(r.get("gap_rule") for r in COVERAGE["rows"])
+
+
 def test_portal_uses_grouped_navigation_and_truthful_empty_state():
     assert 'group = st.selectbox("Section"' in PORTAL
     assert 'label = st.selectbox("Module"' in PORTAL
