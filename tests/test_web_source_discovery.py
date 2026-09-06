@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 32
+    assert len(records) == 36
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 33)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 37)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright'])
     glottolog = records['WEB-MUN-0013']
@@ -76,6 +76,14 @@ def test_new_dataset_and_nlp_leads_preserve_access_boundaries():
     bangladesh_archive = records['WEB-MUN-0032']
     assert 'consent' in bangladesh_archive['rights_note'].lower()
     assert 'commercial-reuse' in bangladesh_archive['rights_note'].lower()
+    proto_munda = records['WEB-MUN-0035']
+    assert 'zenodo' in proto_munda['publisher'].lower()
+    assert '127' in proto_munda['notes']
+    assert 'commercial-reuse determination' in proto_munda['rights_note'].lower()
+    mmloso = records['WEB-MUN-0036']
+    assert 'dataset' in mmloso['source_class']
+    assert 'separately audited' in mmloso['notes'].lower()
+    assert 'dataset-level licence' in mmloso['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
