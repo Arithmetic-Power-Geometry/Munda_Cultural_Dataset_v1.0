@@ -2,33 +2,43 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-06T20:31:00Z",
+  "updated_utc":"2026-09-06T21:14:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
-    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":41,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
+    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":47,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
-    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":41,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true},
-    "E_publication_readiness":{"status":"publication_build_green_at_d74f24e7_release_metrics_remain_repository_derived","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false}
+    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":47,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob"},
+    "E_publication_readiness":{"status":"repository_derived_release_metrics_resynchronized_after_source_expansion","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
-    "Inspected final-head GitHub Actions instead of treating queued checks as blockers: Migration Audit and Publication Build passed at d74f24e7; Source Register Audit and Streamlit Smoke Test exposed two stale-test regressions.",
-    "Repaired MMSC census tests so web discovery is derived from the MMSC seed plus all registered expansion paths rather than a stale hard-coded 14-lead seed count; search-log references now recognize registered WEB-MUN discovery IDs without promoting them into audited source identities.",
-    "Repaired the Mundarica completeness assertion to enforce the semantic acquisition boundary (external locator + acquired) rather than brittle singular wording; no verification or rights gate was weakened.",
-    "No new cultural claims, source counts, rights permissions, community-validation states or verified Mundarica completions were asserted."
+    "Registered six additional verified non-Mundarica discovery leads WEB-MUN-0042 through WEB-MUN-0047 spanning a reference grammar, customary-land/governance scholarship, an Odisha institutional museum resource, food-environment research, ethnobotany research and licensed audiovisual heritage media.",
+    "Preserved source/evidence boundaries: none of the six records was promoted to a cultural claim, community validation state, verified current practice or unrestricted reuse permission.",
+    "Recorded explicit safety and governance boundaries for medicinal/ethnobotanical knowledge and for audiovisual performance material; cultural access and consent continue to override licence-based entitlement.",
+    "Synchronized MMSC discovery metrics and search log from 41 to 47 external leads while preserving the audited source-identity total at 27 pending deterministic canonicalization.",
+    "Extended source-discovery integrity tests through WEB-MUN-0047, including sequential IDs, unique URLs, rights boundaries, field-study context limits, ethnobotany safety controls and audiovisual cultural-access checks.",
+    "Confirmed the Streamlit entry point already loads all web_discovery_expansion_*.json files dynamically, so the six new leads become searchable without a code-path edit.",
+    "Regenerated publication release statistics/macros from current audited repository state: 27 audited discovered source identities, 13 additional federated discoveries still to acquire, 42 registered modules and 32 coverage rows."
   ],
   "commits_this_cycle":[
-    "2aadb9a16836bd85ae0a919279a9263029ba95da - Make MMSC census tests expansion-aware",
-    "662c2955061587377e726e3736fd8d7ed34e8aac - Make Mundarica acquisition-boundary assertion semantic"
+    "f1911170c7dab1b6d5061f6536efa5b430040346 - Expand verified non-Mundarica source discovery run 6",
+    "d4f7507cb4ef35555b06e93ceed652cf0287b987 - Synchronize MMSC metrics to 47 discovery leads",
+    "4d8caee67a66c2ea4bcdb9d3b831126a2359a727 - Log non-Mundarica discovery run 6",
+    "121f2e4286b6b53ef2bde8b45aca0a028a31ae94 - Extend source-discovery integrity tests through WEB-MUN-0047",
+    "6873c0ac7675bee1b986872764cc28b67f07a74d - Regenerate repository-derived publication release metrics",
+    "f2544c1cf854863b38660bf22eedc6cf59c15d50 - Synchronize LaTeX release metric macros"
   ],
-  "tests_and_workflows":{"status":"repair_commits_pushed_ci_reconfirmation_pending","last_observed_head":"d74f24e7e20741d8692ecd58aea5366a1c47c31c","migration_audit":"PASS","publication_build":"PASS","source_register_audit":"FAIL due stale test expecting 14 seed-only web leads and excluding WEB-MUN search-log IDs; repaired","streamlit_smoke":"FAIL due brittle exact wording in Mundarica acquisition-boundary test; repaired","claim_green_scope":"No whole-repository PASS claimed until workflows complete on the repaired final head."},
+  "tests_and_workflows":{"status":"new_source_expansion_commits_pushed_ci_reconfirmation_pending","last_known_pre_cycle_repair_head":"971b18fc9c12ab3b53f062977c19b1df95040342","source_discovery_test_contract":"updated_for_47_unique_sequential_leads","publication_metric_sync":"updated","streamlit_discovery_loader":"dynamic_and_expansion_aware","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the new head."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
-    "Forty-one non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "Forty-seven non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "Full-text access or reuse status remains unresolved for some newly registered grammar/article leads; discovery metadata is retained without asserting acquisition.",
+    "Ethnobotanical/medicinal knowledge requires exact-locator evidence, safety review, consent/provenance checks, benefit-sharing consideration and cultural-access controls before structured public use.",
+    "Audiovisual CC licensing does not by itself establish community consent or cultural appropriateness for extracting/recontextualizing performance segments.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
-    "Publication package is not marked final PASS until CI is reconfirmed on the repaired current head."
+    "Publication package is not marked final PASS until CI is reconfirmed on the current head."
   ],
-  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true},
-  "next_best_action":"Reconfirm all four workflows on the repaired head; then continue deterministic canonicalization of the 41 discovery leads, source acquisition/rights review, Mundarica XIV-XVI locator discovery, and synchronized evidence population."
+  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false},
+  "next_best_action":"Run deterministic canonicalization/deduplication across the 47 web discovery leads, prioritize obtainable grammar/government/peer-reviewed full texts with clear rights, continue archive/audio/video/thesis discovery, and rerun all CI/publication audits on the current head without touching main."
 }
