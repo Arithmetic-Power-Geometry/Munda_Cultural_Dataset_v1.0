@@ -42,7 +42,7 @@ def test_future_commercial_modules_disabled_and_cultural_access_override_present
     assert "Cultural access and consent restrictions override commercial" in PORTAL
 
 
-def test_coverage_matrix_maps_every_row_to_registered_public_module():
+def test_coverage_matrix_maps_every_row_to_registered_module():
     labels = {m["label"] for m in REGISTRY["modules"]}
     assert COVERAGE["rows"]
     ids = [r["coverage_id"] for r in COVERAGE["rows"]]
@@ -70,10 +70,11 @@ def test_mundarica_layer_and_verification_contract_visible():
 def test_governance_title_and_footer_contract_preserved():
     exact = "Mr. Rajan Pahan — Founding Community, Meetings & Field Logistics Coordinator"
     assert exact in PORTAL
+    assert exact in APP
     assert "does not independently determine scholarly interpretation or final scholarly approval" in PORTAL
-    assert exact.replace(" — ", "\",\"") not in APP  # no requirement to duplicate the title in footer
     footer_tail = APP.split("def footer():",1)[1].split("if \"owner\"",1)[0]
     assert "Founding record:" not in footer_tail
+    assert "Mr. Rajan Pahan" not in footer_tail
 
 
 def test_evidence_chain_and_public_access_filter_present():
