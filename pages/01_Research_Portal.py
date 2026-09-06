@@ -15,6 +15,7 @@ COVERAGE = BASE / "data" / "coverage_matrix.json"
 MODEL = BASE / "data" / "information_model.json"
 MMSC = BASE / "data" / "source_census" / "mmsc_index.json"
 DISCOVERIES = BASE / "data" / "source_census" / "mmsc_discoveries.json"
+WEB_DISCOVERY = BASE / "data" / "source_census" / "web_discovery_seed_2026-09-06.json"
 SEARCH_LOG = BASE / "data" / "source_census" / "search_log.jsonl"
 MASTER = BASE / "data" / "source_register" / "master_sources.json"
 MUNDARICA = BASE / "data" / "source_bundles" / "encyclopaedia_mundarica" / "manifest.json"
@@ -49,6 +50,7 @@ model = load_json(MODEL, {"record_families": [], "record_contract": {}})
 mmsc = load_json(MMSC, {"metrics": {}})
 master = load_json(MASTER, {"sources": []}).get("sources", [])
 standalone = load_json(DISCOVERIES, {"records": []}).get("records", [])
+web_discovery = load_json(WEB_DISCOVERY, {"records": []}).get("records", [])
 search_log = load_jsonl(SEARCH_LOG)
 mundarica = load_json(MUNDARICA, {"volume_slots": []})
 modules = registry.get("modules", [])
@@ -72,14 +74,15 @@ st.markdown("""<div class="portal-hero"><div style="font-size:.75rem;font-weight
 metrics = mmsc.get("metrics", {})
 volumes = mundarica.get("volume_slots", [])
 verified = sum(1 for v in volumes if v.get("verified_complete") is True)
-cols = st.columns(6)
-cols[0].metric("Registered source discoveries", metrics.get("sources_discovered", len(master)))
-cols[1].metric("Mundarica volume slots", len(volumes))
-cols[2].metric("Mundarica VERIFIED COMPLETE", verified)
-cols[3].metric("Architecture modules", len(modules))
-cols[4].metric("Information-model domains", len(model_domains))
-cols[5].metric("Coverage rows", len(coverage.get("rows", [])))
-st.caption("Metrics are calculated from registered repository state only. Public availability never implies reuse permission; OCR never implies verified transcription.")
+cols = st.columns(7)
+cols[0].metric("Audited source identities", metrics.get("sources_discovered", len(master)))
+cols[1].metric("External source leads", len(web_discovery))
+cols[2].metric("Mundarica volume slots", len(volumes))
+cols[3].metric("Mundarica VERIFIED COMPLETE", verified)
+cols[4].metric("Architecture modules", len(modules))
+cols[5].metric("Information-model domains", len(model_domains))
+cols[6].metric("Coverage rows", len(coverage.get("rows", [])))
+st.caption("Audited source identities and external source leads are separate layers. External catalogue/web leads are searchable for discovery but are not automatically canonical sources, cultural evidence or claims. Public availability never implies reuse permission; OCR never implies verified transcription.")
 
 # Grouped navigation: intentionally not one giant flat radio list.
 group_order = ["Discover","Culture & Knowledge","People & Place","History & Change","Research Library","Evidence & Research","MLHKP","Future (disabled by default)"]
@@ -114,7 +117,7 @@ if label == "Home Research Dashboard":
 
 # Universal Search: permitted metadata + public/open evidence only.
 elif label == "Universal Search":
-    q = st.text_input("Keyword", placeholder="Search permitted source metadata and public/open evidence")
+    q = st.text_input("Keyword", placeholder="Search permitted source metadata, external source leads and public/open evidence")
     f1,f2,f3 = st.columns(3)
     with f1: author = st.text_input("Author / creator")
     with f2: year = st.text_input("Year")
@@ -127,26 +130,39 @@ elif label == "Universal Search":
         if author and author.lower() not in blob.lower(): continue
         if year and year not in blob: continue
         if language and language.lower() not in blob.lower(): continue
-        hits.append({"source_id":s.get("source_id"),"title":s.get("title"),"creator":s.get("creator") or s.get("author"),"year":s.get("year"),"source_type":s.get("source_type"),"availability":s.get("availability") or s.get("ingestion_status"),"access":s.get("access_class"),"rights":s.get("rights_reuse_status") or s.get("reuse_status") or s.get("rights_status")})
+        hits.append({"layer":"MLHKP source census","source_id":s.get("source_id"),"title":s.get("title"),"creator":s.get("creator") or s.get("author"),"year":s.get("year"),"source_type":s.get("source_type"),"availability":s.get("availability") or s.get("ingestion_status"),"access":s.get("access_class"),"rights":s.get("rights_reuse_status") or s.get("reuse_status") or s.get("rights_status"),"url":s.get("url") or s.get("canonical_url")})
+    for s in web_discovery:
+        blob = " ".join(str(s.get(k,"")) for k in ["id","title","publisher","source_class","notes","access_class"])
+        if q and q.lower() not in blob.lower(): continue
+        if author and author.lower() not in blob.lower(): continue
+        if year and year not in blob: continue
+        if language and language.lower() not in blob.lower(): continue
+        hits.append({"layer":"External Source Discovery — not cultural evidence","source_id":s.get("id"),"title":s.get("title"),"creator":s.get("publisher"),"year":None,"source_type":s.get("source_class"),"availability":s.get("verification_state"),"access":s.get("access_class"),"rights":s.get("rights_note"),"url":s.get("url")})
     st.metric("Permitted metadata matches", len(hits))
+    st.caption("Search results may include external discovery leads. A discovery lead becomes cultural evidence only after source identity, rights/access, exact locator and evidence-linking requirements are satisfied.")
     if hits: st.dataframe(hits, use_container_width=True, hide_index=True)
     else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
 
 elif label == "Master Munda Source Census":
-    c = st.columns(6)
+    c = st.columns(7)
     c[0].metric("Discovered", metrics.get("sources_discovered",0))
     c[1].metric("Acquired", metrics.get("sources_acquired",0))
     c[2].metric("Full text / OCR", metrics.get("full_text_or_ocr_available",0))
     c[3].metric("Structured", metrics.get("structured_sources",0))
     c[4].metric("Evidence-linked", metrics.get("evidence_linked_sources",0))
     c[5].metric("Still to acquire", metrics.get("still_to_acquire_additional_discoveries",0))
-    st.info("Source-comprehensive means comprehensive under the documented release protocol, with residual gaps explicit; it never means future-proof or metaphysically complete.")
-    tabs = st.tabs(["Registered sources", "Standalone discoveries", "Search log"])
+    c[6].metric("External discovery leads", len(web_discovery))
+    st.info("Source-comprehensive means comprehensive under the documented release protocol, with residual gaps explicit; it never means future-proof or metaphysically complete. External discovery leads remain outside audited source-identity totals until canonicalized and deduplicated.")
+    tabs = st.tabs(["Registered sources", "Standalone discoveries", "External source discovery", "Search log"])
     with tabs[0]: st.dataframe(master, use_container_width=True, hide_index=True)
     with tabs[1]:
         if standalone: st.dataframe(standalone, use_container_width=True, hide_index=True)
         else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
     with tabs[2]:
+        st.caption("Verified catalogue/web locators only. These records are source leads, not extracted cultural claims, and do not establish redistribution or commercial-reuse permission.")
+        if web_discovery: st.dataframe(web_discovery, use_container_width=True, hide_index=True)
+        else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
+    with tabs[3]:
         st.caption("The search log records successful discoveries, deduplication decisions and unresolved searches; an unresolved search never creates a source record.")
         if search_log: st.dataframe(list(reversed(search_log)), use_container_width=True, hide_index=True)
         else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
