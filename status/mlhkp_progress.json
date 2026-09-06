@@ -1,123 +1,95 @@
 {
-  "project": "MLHKP",
-  "branch": "mlhkp-v2",
-  "module_status": "in_progress",
-  "updated_utc": "2026-09-06T07:36:00Z",
-  "workstreams": {
-    "A_mundarica": {
-      "volume_1": {
-        "source_id": "SRC-MUN-V01",
-        "page_blocks": 324,
-        "page_accounting_complete": true,
-        "registered_working_transcriptions": 1,
-        "authoritative_scan_registered": false,
-        "verified_complete": false
-      },
-      "volume_2": {
-        "source_id": "SRC-MUN-V02",
-        "status": "external_source_locator_verified_not_ingested",
-        "canonical_url": "https://archive.org/details/dli.bengal.10689.21001",
-        "catalogued_pages": 406,
-        "external_ocr_reported": true,
-        "external_ocr_verified": false,
-        "local_scan_registered": false,
-        "rights_status": "not_assessed",
-        "verified_complete": false
-      },
-      "volume_3": {
-        "source_id": "SRC-MUN-V03",
-        "status": "external_source_locator_verified_not_ingested",
-        "canonical_url": "https://archive.org/details/in.ernet.dli.2015.14921",
-        "identifier": "in.ernet.dli.2015.14921",
-        "ark": "ark:/13960/t3907ds0b",
-        "catalogued_pages": 264,
-        "external_ocr_reported": true,
-        "external_ocr_verified": false,
-        "local_scan_registered": false,
-        "rights_status": "repository_metadata_observed_not_independently_assessed_for_redistribution",
-        "verified_complete": false
-      },
-      "volumes_4_16": "pending",
-      "verified_complete_volumes": 0,
-      "externally_located_volumes": 2
+  "project":"MLHKP",
+  "branch":"mlhkp-v2",
+  "module_status":"in_progress",
+  "updated_utc":"2026-09-06T08:28:00Z",
+  "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
+  "workstreams":{
+    "A_mundarica":{
+      "volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},
+      "volume_2":{"source_id":"SRC-MUN-V02","status":"external_source_locator_verified_not_ingested","catalogued_pages":406,"external_ocr_reported":true,"external_ocr_verified":false,"local_scan_registered":false,"verified_complete":false},
+      "volume_3":{"source_id":"SRC-MUN-V03","status":"external_source_locator_verified_not_ingested","catalogued_pages":264,"external_ocr_reported":true,"external_ocr_verified":false,"local_scan_registered":false,"verified_complete":false},
+      "volumes_4_16":"pending",
+      "verified_complete_volumes":0,
+      "externally_located_volumes":2
     },
-    "B_mmsc": {
-      "status": "federated_census_active",
-      "sources_discovered": 17,
-      "canonical_master_records": 14,
-      "additional_federated_discoveries": 3,
-      "standalone_mmsc_discoveries": 1,
-      "mundarica_volume_locators_verified": 2,
-      "deduplicated_locator_matches": 1,
-      "still_to_acquire_additional_discoveries": 3,
-      "source_complete_claim": false,
-      "deduplication_this_cycle": {
-        "internet_archive_item": "in.ernet.dli.2015.215493",
-        "matched_existing_source_id": "SRC-000005",
-        "title": "The Mundas and Their Country",
-        "catalogued_pages": 669,
-        "new_source_id_assigned": false,
-        "reason": "Existing canonical Sarat Chandra Roy 1912 source; locator match logged rather than duplicated."
-      },
-      "protocol": "docs/mmsc_source_census_protocol.md",
-      "search_log": "data/source_census/search_log.jsonl"
+    "B_mmsc":{
+      "status":"federated_census_active",
+      "sources_discovered":17,
+      "canonical_master_records":14,
+      "additional_federated_discoveries":3,
+      "standalone_mmsc_discoveries":1,
+      "mundarica_volume_locators_verified":2,
+      "still_to_acquire_additional_discoveries":3,
+      "source_complete_claim":false,
+      "protocol":"docs/mmsc_source_census_protocol.md",
+      "search_log":"data/source_census/search_log.jsonl"
+    },
+    "C_information_model":{
+      "module_registry":"data/module_registry.json",
+      "coverage_matrix":"data/coverage_matrix.json",
+      "registered_modules":42,
+      "required_information_architecture_modules_represented":42,
+      "module_schema_domain_mapping_percent":100.0,
+      "detailed_coverage_matrix_rows":12,
+      "evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
+      "empty_state_policy":"Structure ready — evidence not yet ingested"
+    },
+    "D_streamlit":{
+      "new_page":"pages/01_Research_Portal.py",
+      "grouped_navigation_visible":true,
+      "groups":8,
+      "raw_json_only_new_views":false,
+      "universal_search_scaffold":true,
+      "mundarica_reader_status_tabs":true,
+      "future_commercial_modules_disabled_by_default":true,
+      "cultural_access_overrides_entitlement":true
     }
   },
-  "changes_this_cycle": [
-    "Confirmed the previous mlhkp-v2 head was green for MLHKP Migration Audit, MLHKP Source Register Audit and MLHKP Streamlit Smoke Test before new work began.",
-    "Verified and registered Internet Archive/Digital Library of India locator metadata for Encyclopaedia Mundarica Volume III as SRC-MUN-V03: in.ernet.dli.2015.14921, ark:/13960/t3907ds0b, 264 catalogued pages, ABBYY FineReader 11.0 OCR and scan/full-text derivatives observed externally. No local acquisition or OCR verification was claimed.",
-    "Recorded repository-supplied rights metadata for Volume III only as provenance; MLHKP does not treat it as independently established redistribution permission.",
-    "Updated the Mundarica manifest audit summary to two externally located volumes while keeping authoritative scans=0 and VERIFIED COMPLETE=0.",
-    "Expanded the federated MMSC to 17 unique counted source IDs: 14 preserved canonical sources + SRC-MUN-V02 + SRC-MUN-V03 + SRC-MMSC-000001.",
-    "Checked Internet Archive item in.ernet.dli.2015.215493 for Sarat Chandra Roy's 1912 The Mundas and Their Country (669 catalogued pages) and deduplicated it to existing canonical SRC-000005 instead of assigning a new source ID.",
-    "Extended the reproducible MMSC search log with Volume III discovery and the Roy locator-deduplication decision.",
-    "Strengthened MMSC and Streamlit tests for Volume III metadata, truthful OCR/acquisition/rights boundaries, real census counts, deduplicated locator handling and live Mundarica selector synchronization."
+  "changes_this_cycle":[
+    "Added a machine-readable 42-module MLHKP registry covering the complete requested Discover, Culture & Knowledge, People & Place, History & Change, Research Library, Evidence & Research, MLHKP and future-disabled architecture.",
+    "Mapped every registered module to explicit schema and domain homes; retained the SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN chain.",
+    "Added a machine-readable coverage matrix with explicit source layer, evidence layer, Streamlit module, coverage state and gap rule; empty domains remain gaps rather than fabricated records.",
+    "Added a grouped Streamlit Research & Public Knowledge Portal as a safe additive page, avoiding a risky rewrite of the existing app while making the complete information architecture visible now.",
+    "Added Universal Search scaffold over permitted master-source metadata and public/open evidence only, with keyword/author/year/language filters and no restricted-data query path.",
+    "Added human-readable Mundarica I-XVI status table and Read/Entries/Stories/Songs/Terms/Places/Cultural Topics/Source & Provenance/Verification tabs; absent content displays the truthful structure-ready empty state.",
+    "Preserved the exact Rajan Pahan public title and scholarly-authority boundary in the new Governance & Ethics module.",
+    "Added architecture tests for required groups/modules, unique IDs, schema/domain mappings, cultural-access override, future feature disablement, truthful empty states, no raw-JSON-only portal views, Mundarica verification gating, governance text and public evidence access filtering.",
+    "Updated the Streamlit workflow to compile the new portal and gate tests/test_information_architecture.py."
   ],
-  "commits_this_cycle": [
-    "d72fe5bda1adc2f4bda642db20f2f59adf7250de - Register verified Internet Archive locator for Mundarica Volume III",
-    "4e4cbc4cc3119c067d46c1523c877a7b49a41d14 - Extend MMSC with verified Mundarica Volume III locator",
-    "5c6d83d52b1521181c2e8025ba08979ca5944430 - Log Mundarica III discovery and Roy source deduplication",
-    "3478074be94fa63d963b29ac7fa3f276f2007e97 - Test Volume III locator and MMSC deduplication accounting",
-    "363c494c2f932c9c07a0fda2a478c423c71f029a - Sync Streamlit tests with Volume III and MMSC metrics"
+  "commits_this_cycle":[
+    "bf0716e47375c385952d013302d2c39b43117ca5 - Add complete MLHKP module registry",
+    "713d7aa2d84d1bb5592257e6b0c3bb91d8ca74aa - Add MLHKP coverage matrix skeleton",
+    "189fdcc1323fe84597b5c2536e158e6bd5cd4dec - Add grouped architecture-first MLHKP research portal",
+    "a73e39006227799960fbd7d13fc23a2d40acf4b1 - Add architecture and coverage contract tests",
+    "2b865894bca1bc635cbb840423c7b086782574f8 - Fix governance architecture assertion",
+    "f227eac0a8f081c37fc73d84587abc0c3befb11f - Gate information architecture and research portal"
   ],
-  "streamlit_sync": {
-    "status": "synced_by_live_registry_inputs_and_tests",
-    "detail": "The Mundarica page reads manifest.json and therefore exposes Volume III's new external-locator state without promoting verification. The Master Source Census reads mmsc_index.json and now derives 17 discovered sources, 3 additional federated discoveries and 2 verified Mundarica locators. Smoke tests were updated in the same cycle. Rajan Pahan's exact public title and governance boundary remain unchanged and tested."
+  "streamlit_sync":{
+    "status":"synced_architecture_additive_page",
+    "detail":"Existing Streamlit remains backward compatible; the new Research Portal reads live MMSC and Mundarica machine-readable registries, derives registered counts, never promotes OCR to verified transcription, and shows explicit empty-state requirements for modules without evidence."
   },
-  "tests_and_workflows": {
-    "previous_head": "22abd2fb6fda235d6941484d0c04103cfa09e61a",
-    "previous_head_workflows": {
-      "MLHKP Migration Audit": "success",
-      "MLHKP Source Register Audit": "success",
-      "MLHKP Streamlit Smoke Test": "success"
-    },
-    "new_tests_added_or_strengthened": [
-      "Volume III Internet Archive locator metadata and non-verification safeguards",
-      "MMSC unique-count derivation at 17 sources",
-      "MMSC deduplicated-locator search-log behavior",
-      "Streamlit live census metrics at 17/14/3 and two Mundarica locators",
-      "Streamlit Mundarica selector includes SRC-MUN-V03 external_source_locator_verified_not_ingested while exposing no VERIFIED COMPLETE option"
-    ],
-    "current_head_before_status_commit": "363c494c2f932c9c07a0fda2a478c423c71f029a",
-    "current_head_workflows": "pending/not yet claimed green"
+  "tests_and_workflows":{
+    "architecture_test_file":"tests/test_information_architecture.py",
+    "workflow":".github/workflows/mlhkp-streamlit-smoke.yml",
+    "current_head_before_status_commit":"f227eac0a8f081c37fc73d84587abc0c3befb11f",
+    "current_head_workflows":"pending/not yet claimed green"
   },
-  "blockers": [
-    "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription remain blocked without specialist/source verification.",
+  "blockers":[
+    "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
     "Volume I artifact reuse rights remain not assessed.",
-    "Volume II and III have verified external locators and machine OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
+    "Volumes II and III have verified external locators and external OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
     "Volumes IV-XVI still require systematic locator discovery and registration.",
-    "No OCR-derived text was promoted to verified transcription or structured cultural fact in this cycle."
+    "Many architecture modules intentionally contain no cultural records yet; their visible state is Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available."
   ],
-  "integrity": {
-    "permanent_volume_ids_preserved": true,
-    "legacy_master_source_ids_preserved": true,
-    "new_permanent_source_ids_this_cycle": [],
-    "duplicate_source_id_avoided_for_roy_1912": true,
-    "ocr_treated_as_verified": false,
-    "rights_assumed_from_public_availability": false,
-    "restricted_material_exposed": false,
-    "verified_complete_volumes": 0,
-    "main_branch_modified": false
+  "integrity":{
+    "permanent_volume_ids_preserved":true,
+    "legacy_master_source_ids_preserved":true,
+    "ocr_treated_as_verified":false,
+    "rights_assumed_from_public_availability":false,
+    "restricted_material_exposed":false,
+    "verified_complete_volumes":0,
+    "main_branch_modified":false
   },
-  "next_best_action": "Check current-head GitHub Actions and repair only deterministic regressions without weakening evidence gates. Continue Workstream A with systematic Volume IV locator discovery/verification (and lawful Volume II/III artifact acquisition if safely feasible). Continue Workstream B with the next non-duplicate authoritative classical, linguistic, government or thesis source and update live Streamlit/MMSC metrics in the same cycle."
+  "next_best_action":"Check the new architecture CI and repair only deterministic regressions without weakening evidence gates. Then continue in parallel with Mundarica Volume IV locator discovery/registration and MMSC authoritative-source discovery while progressively replacing remaining legacy flat-app views with registry-driven human-readable modules."
 }
