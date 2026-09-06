@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 52
+    assert len(records) == 56
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 53)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 57)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052', 'WEB-MUN-0053', 'WEB-MUN-0054', 'WEB-MUN-0055', 'WEB-MUN-0056']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
@@ -136,6 +136,24 @@ def test_run7_linguistic_debate_and_historical_sources_are_contextualized():
     phonetics = records['WEB-MUN-0052']
     assert '10.21437/tai.2023-17' in phonetics['notes'].lower()
     assert 'participant-derived' in phonetics['rights_note'].lower()
+
+
+def test_run8_demographic_comparative_and_web_media_scope_boundaries():
+    records = {r['id']: r for r in all_records()}
+    census = records['WEB-MUN-0053']
+    assert 'pc11_c16' in census['notes'].lower()
+    assert 'cultural identity' in census['notes'].lower()
+    assert 'unrestricted redistribution' in census['rights_note'].lower()
+    atlas = records['WEB-MUN-0054']
+    assert '1991 census inventory' in atlas['notes'].lower()
+    assert 'exact atlas page/map locators' in atlas['notes'].lower()
+    koda = records['WEB-MUN-0055']
+    assert 'comparative munda-language' in koda['notes'].lower()
+    assert 'not as direct evidence about mundari' in koda['notes'].lower()
+    portal = records['WEB-MUN-0056']
+    assert 'item-level provenance' in portal['notes'].lower()
+    assert 'model-training' in portal['rights_note'].lower()
+    assert 'cultural-access' in portal['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
