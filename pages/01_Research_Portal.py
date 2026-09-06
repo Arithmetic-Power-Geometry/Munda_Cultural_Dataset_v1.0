@@ -14,6 +14,8 @@ REGISTRY = BASE / "data" / "module_registry.json"
 COVERAGE = BASE / "data" / "coverage_matrix.json"
 MODEL = BASE / "data" / "information_model.json"
 MMSC = BASE / "data" / "source_census" / "mmsc_index.json"
+DISCOVERIES = BASE / "data" / "source_census" / "mmsc_discoveries.json"
+SEARCH_LOG = BASE / "data" / "source_census" / "search_log.jsonl"
 MASTER = BASE / "data" / "source_register" / "master_sources.json"
 MUNDARICA = BASE / "data" / "source_bundles" / "encyclopaedia_mundarica" / "manifest.json"
 
@@ -28,11 +30,26 @@ def load_json(path, fallback):
     except Exception:
         return fallback
 
+@st.cache_data
+def load_jsonl(path):
+    if not path.exists():
+        return []
+    out = []
+    try:
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                out.append(json.loads(line))
+    except Exception:
+        return []
+    return out
+
 registry = load_json(REGISTRY, {"modules": []})
 coverage = load_json(COVERAGE, {"rows": []})
 model = load_json(MODEL, {"record_families": [], "record_contract": {}})
 mmsc = load_json(MMSC, {"metrics": {}})
 master = load_json(MASTER, {"sources": []}).get("sources", [])
+standalone = load_json(DISCOVERIES, {"records": []}).get("records", [])
+search_log = load_jsonl(SEARCH_LOG)
 mundarica = load_json(MUNDARICA, {"volume_slots": []})
 modules = registry.get("modules", [])
 record_families = model.get("record_families", [])
@@ -103,13 +120,14 @@ elif label == "Universal Search":
     with f2: year = st.text_input("Year")
     with f3: language = st.text_input("Language")
     hits = []
-    for s in master:
-        blob = " ".join(str(s.get(k,"")) for k in ["source_id","title","creator","author","year","language","geography","source_type"])
+    searchable_sources = master + standalone
+    for s in searchable_sources:
+        blob = " ".join(str(s.get(k,"")) for k in ["source_id","title","creator","author","year","language","geography","geographic_scope","source_type","source_class"])
         if q and q.lower() not in blob.lower(): continue
         if author and author.lower() not in blob.lower(): continue
         if year and year not in blob: continue
         if language and language.lower() not in blob.lower(): continue
-        hits.append({"source_id":s.get("source_id"),"title":s.get("title"),"creator":s.get("creator") or s.get("author"),"year":s.get("year"),"source_type":s.get("source_type"),"availability":s.get("availability"),"rights":s.get("rights_reuse_status") or s.get("rights_status")})
+        hits.append({"source_id":s.get("source_id"),"title":s.get("title"),"creator":s.get("creator") or s.get("author"),"year":s.get("year"),"source_type":s.get("source_type"),"availability":s.get("availability") or s.get("ingestion_status"),"access":s.get("access_class"),"rights":s.get("rights_reuse_status") or s.get("reuse_status") or s.get("rights_status")})
     st.metric("Permitted metadata matches", len(hits))
     if hits: st.dataframe(hits, use_container_width=True, hide_index=True)
     else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
@@ -123,7 +141,15 @@ elif label == "Master Munda Source Census":
     c[4].metric("Evidence-linked", metrics.get("evidence_linked_sources",0))
     c[5].metric("Still to acquire", metrics.get("still_to_acquire_additional_discoveries",0))
     st.info("Source-comprehensive means comprehensive under the documented release protocol, with residual gaps explicit; it never means future-proof or metaphysically complete.")
-    st.dataframe(master, use_container_width=True, hide_index=True)
+    tabs = st.tabs(["Registered sources", "Standalone discoveries", "Search log"])
+    with tabs[0]: st.dataframe(master, use_container_width=True, hide_index=True)
+    with tabs[1]:
+        if standalone: st.dataframe(standalone, use_container_width=True, hide_index=True)
+        else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
+    with tabs[2]:
+        st.caption("The search log records successful discoveries, deduplication decisions and unresolved searches; an unresolved search never creates a source record.")
+        if search_log: st.dataframe(list(reversed(search_log)), use_container_width=True, hide_index=True)
+        else: st.markdown(f'<div class="empty">{EMPTY}</div>', unsafe_allow_html=True)
 
 elif label == "Mundarica I–XVI Digital Library":
     st.warning("Layer rule: scan → raw OCR → working transcription → verified transcription → structured content. Each layer remains separate.")
