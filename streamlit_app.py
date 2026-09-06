@@ -15,6 +15,8 @@ except Exception:
 st.set_page_config(page_title="MLHKP | Munda Living Heritage & Knowledge Project", page_icon="🌿", layout="wide", initial_sidebar_state="expanded")
 LOGO = BASE / "assets" / "mlhkp_logo.png"
 MASTER = BASE / "data" / "source_register" / "master_sources.json"
+MMSC = BASE / "data" / "source_census" / "mmsc_index.json"
+MMSC_DISCOVERIES = BASE / "data" / "source_census" / "mmsc_discoveries.json"
 MUNDARICA = BASE / "data" / "source_bundles" / "encyclopaedia_mundarica" / "manifest.json"
 
 st.markdown("""
@@ -38,6 +40,16 @@ st.markdown("""
 @st.cache_data
 def master_sources():
     try: return json.loads(MASTER.read_text(encoding="utf-8")).get("sources", []) if MASTER.exists() else []
+    except Exception: return []
+
+@st.cache_data
+def mmsc_index():
+    try: return json.loads(MMSC.read_text(encoding="utf-8")) if MMSC.exists() else {"metrics": {}, "source_registers": []}
+    except Exception: return {"metrics": {}, "source_registers": []}
+
+@st.cache_data
+def mmsc_discoveries():
+    try: return json.loads(MMSC_DISCOVERIES.read_text(encoding="utf-8")).get("records", []) if MMSC_DISCOVERIES.exists() else []
     except Exception: return []
 
 @st.cache_data
@@ -111,7 +123,13 @@ elif page=="Culture Explorer":
         with st.expander(f'{d["domain_id"]} · {d["domain_name"]} — {len(sds)} subdomains / {len(inds)} indicators'):
             for sd in sds: st.markdown(f'**{sd["subdomain_id"]} · {sd["subdomain_name"]}**')
 elif page=="Master Sources":
-    section("Master Source Register"); srcs=master_sources(); st.metric("Registered sources",len(srcs)); st.dataframe(srcs,use_container_width=True,hide_index=True)
+    section("Master Source Census"); census=mmsc_index(); metrics=census.get("metrics",{}); discoveries=mmsc_discoveries(); srcs=master_sources()
+    st.caption("Federated, evidence-preserving discovery census. Counts reflect records actually registered under the documented protocol, not a claim that every possible Munda source has already been discovered.")
+    cm=st.columns(5); cm[0].metric("Discovered",metrics.get("sources_discovered",len(srcs))); cm[1].metric("Canonical",metrics.get("canonical_master_records",len(srcs))); cm[2].metric("Additional",metrics.get("additional_federated_discoveries",0)); cm[3].metric("Still to acquire",metrics.get("still_to_acquire_additional_discoveries",0)); cm[4].metric("Verified Mundarica",metrics.get("mundarica_verified_complete_volumes",0))
+    st.info("Catalogue or online availability does not establish acquisition, OCR verification, reuse permission, cultural validation or VERIFIED COMPLETE status.")
+    if census.get("latest_discovery"): st.markdown("**Latest registered discovery**"); st.json(census["latest_discovery"])
+    if discoveries: st.markdown("**Standalone census discoveries**"); st.dataframe(discoveries,use_container_width=True,hide_index=True)
+    st.markdown("**Preserved canonical master-source register**"); st.dataframe(srcs,use_container_width=True,hide_index=True)
 elif page=="Mundarica 1–16":
     section("Encyclopaedia Mundarica · Volumes I–XVI"); manifest=mundarica_manifest(); vols=manifest.get("volume_slots",[]); labels=[f'{v.get("volume_number")}. {v.get("source_id")} · {v.get("status")}' for v in vols]; selected=st.selectbox("Volume",labels) if labels else None
     if selected:
