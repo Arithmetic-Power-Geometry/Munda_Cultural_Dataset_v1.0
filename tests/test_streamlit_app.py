@@ -48,6 +48,17 @@ def test_mundarica_manifest_has_all_16_slots_and_volume1_page_blocks():
     assert '## Scan page 6' in text or '## PDF Page 6' in text
     assert not run_page('Mundarica 1–16').exception
 
+def test_mundarica_streamlit_selector_reflects_artifact_registry_state():
+    manifest=json.loads((ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json').read_text(encoding='utf-8'))
+    assert manifest['artifact_registry']=='artifact_registry.json'
+    assert manifest['audit_summary']['registered_artifacts']==1
+    assert manifest['audit_summary']['registered_authoritative_scans']==0
+    assert manifest['audit_summary']['verified_complete_volumes']==0
+    at=run_page('Mundarica 1–16')
+    selector=next(x for x in at.selectbox if x.label=='Select volume')
+    assert any('SRC-MUN-V01' in str(option) and 'working_transcription_registered_page_accounting_complete' in str(option) for option in selector.options)
+    assert not any('VERIFIED COMPLETE' in str(option) for option in selector.options)
+
 def test_public_app_has_no_owner_console_in_navigation():
     at=AppTest.from_file(str(APP),default_timeout=30).run()
     nav=next(r for r in at.radio if r.key=='main_navigation')
