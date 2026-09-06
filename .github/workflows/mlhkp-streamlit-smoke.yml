@@ -15,6 +15,7 @@ on:
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
       - 'tests/test_information_architecture.py'
+      - 'tests/test_information_model_contract.py'
       - 'tests/test_publication_sync.py'
       - 'tests/test_mundarica_completeness.py'
       - 'tests/test_mundarica_artifact_schema.py'
@@ -28,10 +29,11 @@ on:
       - 'schemas/**'
       - 'data/**'
       - 'publication/**'
-      - 'Mundarika1.md'
+      - 'Mundarica1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
       - 'tests/test_information_architecture.py'
+      - 'tests/test_information_model_contract.py'
       - 'tests/test_publication_sync.py'
       - 'tests/test_mundarica_completeness.py'
       - 'tests/test_mundarica_artifact_schema.py'
@@ -71,6 +73,8 @@ jobs:
         run: pytest -q tests/test_mundarica_completeness.py
       - name: Enforce complete information architecture contract
         run: pytest -q tests/test_information_architecture.py
+      - name: Enforce complete information-model contract
+        run: pytest -q tests/test_information_model_contract.py
       - name: Enforce publication data-sync contract
         run: pytest -q tests/test_publication_sync.py
       - name: Run Streamlit smoke tests
