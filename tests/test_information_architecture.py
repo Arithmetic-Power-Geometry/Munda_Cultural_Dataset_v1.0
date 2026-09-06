@@ -65,13 +65,10 @@ def test_mundarica_layer_and_verification_contract_visible():
 
 def test_governance_title_and_footer_contract_preserved():
     exact = "Mr. Rajan Pahan — Founding Community, Meetings & Field Logistics Coordinator"
-    assert exact in PORTAL
-    # The public entry point delegates rendering to the knowledge engine. Preserve
-    # the exact governance title in either rendered surface; do not require stale
-    # duplicated founder metadata in streamlit_app.py.
-    assert ("Mr. Rajan Pahan" in ENGINE and "Founding Community, Meetings & Field Logistics Coordinator" in ENGINE) or exact in PORTAL
+    # Governance rendering is delegated to the knowledge engine. Require the exact
+    # approved title there, while preventing duplicate founder metadata in entrypoints.
+    assert exact in ENGINE
     assert "does not independently determine scholarly interpretation or final scholarly approval" in PORTAL
-    # No duplicate founder footer: the entry point should not repeat founder data.
     assert "Mr. Rajan Pahan" not in APP
 
 
