@@ -18,6 +18,8 @@ def test_publication_metrics_match_canonical_repository_state():
     model_domains = {d for family in model["record_families"] for d in family.get("domains", [])}
 
     assert pub["sources_discovered"] == mmsc["metrics"]["sources_discovered"]
+    assert pub["web_discovery_leads_observed"] == mmsc["metrics"]["web_discovery_leads_observed"]
+    assert pub["web_discovery_leads_counted_in_audited_identity_total"] == mmsc["metrics"]["web_discovery_leads_counted_in_audited_identity_total"]
     assert pub["canonical_master_records"] == mmsc["metrics"]["canonical_master_records"]
     assert pub["additional_federated_discoveries"] == mmsc["metrics"]["additional_federated_discoveries"]
     assert pub["still_to_acquire_additional_discoveries"] == mmsc["metrics"]["still_to_acquire_additional_discoveries"]
@@ -39,6 +41,8 @@ def test_manuscript_uses_generated_metrics_and_truthful_completion_language():
     macros = (ROOT / "publication/generated/release_metrics.tex").read_text(encoding="utf-8")
     assert "\\input{generated/release_metrics.tex}" in tex
     assert "\\MLHKPSourcesDiscovered" in tex
+    assert "\\MLHKPWebDiscoveryLeads" in tex
+    assert "\\MLHKPWebDiscoveryCounted" in tex
     assert "\\MLHKPMundaricaVerified" in tex
     assert "\\MLHKPRecordFamilies" in tex
     assert "\\MLHKPDomainHomes" in tex
