@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T11:58:00Z",
+  "updated_utc": "2026-09-06T12:38:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -18,8 +18,6 @@
       "sources_discovered": 17,
       "canonical_master_records": 14,
       "additional_federated_discoveries": 3,
-      "standalone_mmsc_discoveries": 1,
-      "mundarica_volume_locators_verified": 2,
       "still_to_acquire_additional_discoveries": 3,
       "source_complete_claim": false,
       "protocol": "docs/mmsc_source_census_protocol.md",
@@ -28,93 +26,111 @@
     "C_information_model": {
       "module_registry": "data/module_registry.json",
       "coverage_matrix": "data/coverage_matrix.json",
+      "information_model": "data/information_model.json",
       "registered_modules": 42,
       "required_information_architecture_modules_represented": 42,
       "module_schema_domain_mapping_percent": 100.0,
+      "master_schema_category_representation_percent": 100.0,
+      "record_families": 24,
+      "explicit_domain_homes": 153,
+      "applicable_record_contract_fields": 23,
       "detailed_coverage_matrix_rows": 12,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "empty_state_policy": "Structure ready — evidence not yet ingested"
+      "empty_state_policy": "Structure ready — evidence not yet ingested",
+      "architecture_counts_are_not_evidence_completion_claims": true
     },
     "D_streamlit": {
-      "new_page": "pages/01_Research_Portal.py",
+      "page": "pages/01_Research_Portal.py",
       "grouped_navigation_visible": true,
       "groups": 8,
       "raw_json_only_new_views": false,
       "universal_search_scaffold": true,
       "mundarica_reader_status_tabs": true,
+      "complete_data_skeleton_visible_on_home_dashboard": true,
+      "record_family_table_visible": true,
+      "information_model_domain_metric_visible": true,
       "future_commercial_modules_disabled_by_default": true,
       "cultural_access_overrides_entitlement": true,
-      "content_state_changed_this_cycle": false
+      "corpus_content_changed_this_cycle": false
     },
     "E_publication_readiness": {
-      "status": "compile_gate_proven_comparison_expanded_current_head_validation_pending",
+      "status": "current_information_model_expansion_pending_ci",
       "main_tex": "publication/main.tex",
       "bibliography": "publication/references.bib",
       "metrics_generator": "publication/generate_release_metrics.py",
       "generated_metrics_json": "publication/generated/release_metrics.json",
       "generated_metrics_tex": "publication/generated/release_metrics.tex",
       "snapshot_date": "2026-09-06",
-      "abstract_target": "approximately_200_words",
       "keywords": 6,
       "citation_style": "biblatex author-year via Biber",
       "repository_derived_metrics": true,
+      "information_model_metrics_generated": true,
       "publication_sync_test": "tests/test_publication_sync.py",
       "latex_biber_compile_workflow": ".github/workflows/mlhkp-publication-build.yml",
       "compile_sequence": "XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX",
-      "unresolved_reference_gate": true,
-      "compiled_pdf_artifact": "mlhkp-foundational-manuscript",
-      "compile_gate_last_confirmed_success_commit": "beac2ad75d50709867fd0b36c70594b106ae6698",
+      "last_fully_green_manuscript_head": "46741c357a1c9d361b7627e664239c5273f34e75",
       "publication_package_pass": false,
-      "reason_not_pass": "The reproducible compile gate is proven green after repairing the BibLaTeX dependency, but the manuscript and bibliography were subsequently expanded; the newest manuscript head must pass the same gate before the package is marked PASS."
+      "reason_not_pass": "The immediately preceding manuscript head passed all workflows, but the current information-model-synchronized manuscript head af45b7bfa6ac666d2d047f5fdcf74057af12d214 is still running its compile/test gates."
     }
   },
   "changes_this_cycle": [
-    "Confirmed head 7dae4abeadb557b00a186de47d3f6dd4c4b558e4 green on Migration Audit, Source Register Audit and Streamlit Smoke Test; Publication Build run 34027740340 alone failed because biblatex.sty was absent.",
-    "Repaired the publication workflow with texlive-bibtex-extra in commit beac2ad75d50709867fd0b36c70594b106ae6698 without weakening any manuscript gate.",
-    "Confirmed all four workflows, including full XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX Publication Build run 34030590941, passed on repair commit beac2ad75d50709867fd0b36c70594b106ae6698.",
-    "Source-verified and added four DOI-backed comparison references covering Local Contexts, a Mukurtu-oriented Indigenous heritage system, CIDOC-CRM knowledge-graph validation and Indigenous data-sovereignty operationalisation.",
-    "Expanded the manuscript stewardship comparison and added a contribution matrix while explicitly stating that it describes design emphasis rather than superiority.",
-    "Strengthened publication tests to require the contribution matrix citation-before-table rule, caption-above rule, verified bibliography keys/DOIs and non-superiority language.",
-    "No Mundarica/MMSC corpus records, cultural facts, rights decisions, access classes, OCR states, verification states or live Streamlit corpus metrics changed."
+    "Confirmed previous head 46741c357a1c9d361b7627e664239c5273f34e75 green on Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
+    "Added data/information_model.json as a cultural-fact-free machine-readable data skeleton with 24 record families, 153 explicit domain homes, 23 applicable record fields, evidence-chain rules, Mundarica layer separation, rights/access precedence and fieldwork/source-census layer contracts.",
+    "Updated the Streamlit Home Research Dashboard to expose truthful schema metrics and a human-readable record-family/data-home table while explicitly separating architecture representation from evidence completeness.",
+    "Added tests/test_information_model_contract.py to fail on missing required record fields/domains, weakened access/OCR safeguards, broken Mundarica layer separation or absent public data-skeleton visibility.",
+    "Added the information-model contract test to the Streamlit CI gate.",
+    "Extended publication/generate_release_metrics.py and generated release metrics with record-family, domain-home and applicable-record-field counts derived from canonical repository state.",
+    "Updated the foundational manuscript release table, abstract, core evidence-model text and limitations to use the generated information-model metrics without representing schema coverage as evidence completeness.",
+    "Strengthened publication synchronization tests to derive and validate information-model metrics from data/information_model.json.",
+    "No Mundarica/MMSC cultural records, OCR/transcription states, rights decisions, access classes, permanent IDs or VERIFIED COMPLETE states changed."
   ],
   "commits_this_cycle": [
-    "beac2ad75d50709867fd0b36c70594b106ae6698 - Fix publication CI biblatex dependency",
-    "d9cece20ffd5d327dc0ae1de073324974bf5a43f - Record publication build failure and dependency repair",
-    "5f54e61040eb18cd5ed0244893aa4625b576e91b - Add verified stewardship comparison references",
-    "0fc07ec3633c9b1c03d07417aa25fb7275b483b9 - Expand verified stewardship comparison and contribution matrix",
-    "70ee23b6f6920c383e3c8cc3c766e5616f99846c - Test publication comparison matrix and verified references"
+    "3a38c705e7df921e3064ff06ece16fd124af2e2e - Add complete MLHKP information-model contract",
+    "fc9261fe6d3c1f37b8dcf43ed81167d56a9cccde - Expose complete information-model skeleton in research portal",
+    "aed327f4d455f633bbf632d625f291418d3148c6 - Test complete MLHKP information-model contract",
+    "8c159eeb9f452ba2e3b116457b5ede2e31de385c - Gate Streamlit on complete information-model contract",
+    "e6d2322491d603c42cfba7124a2013dc01a98d61 - Sync publication metrics with complete information model",
+    "4b5c2af569c512efc204ce88fdac087ae77648f8 - Regenerate publication release metrics for information model",
+    "6e79bbcf6da14ca2ca72e7f062cd42bd3a9a463f - Expose information-model metrics to manuscript",
+    "57c77bca74dc0fa1af5c1fb130db5d90484e193a - Audit publication synchronization with information model",
+    "af45b7bfa6ac666d2d047f5fdcf74057af12d214 - Synchronize manuscript with complete information-model metrics"
   ],
   "streamlit_sync": {
-    "status": "synced_no_corpus_content_change_this_cycle",
-    "detail": "This cycle changed publication CI/manuscript infrastructure only. Canonical Mundarica/MMSC data and therefore live Streamlit search, evidence, dashboard and gap metrics remain unchanged and synchronized."
+    "status": "synced_architecture_change_no_corpus_content_change",
+    "detail": "The new information-model skeleton is visible on the Home Research Dashboard. Existing MMSC, Mundarica, evidence, search and research-gap corpus metrics remain unchanged because no corpus evidence changed."
   },
   "tests_and_workflows": {
-    "confirmed_full_green_commit": "beac2ad75d50709867fd0b36c70594b106ae6698",
-    "confirmed_green_runs": [
-      {"run_id": 34030590903, "workflow": "MLHKP Migration Audit", "result": "success"},
-      {"run_id": 34030590859, "workflow": "MLHKP Source Register Audit", "result": "success"},
-      {"run_id": 34030590854, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
-      {"run_id": 34030590941, "workflow": "MLHKP Publication Build", "result": "success"}
+    "last_confirmed_full_green_commit": "46741c357a1c9d361b7627e664239c5273f34e75",
+    "last_confirmed_full_green_runs": [
+      {"run_id": 34030735521, "workflow": "MLHKP Migration Audit", "result": "success"},
+      {"run_id": 34030735631, "workflow": "MLHKP Source Register Audit", "result": "success"},
+      {"run_id": 34030735524, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
+      {"run_id": 34030735529, "workflow": "MLHKP Publication Build", "result": "success"}
     ],
-    "publication_sync_tests_on_failed_pre_repair_run": "4_passed_before_compile_dependency_failure",
-    "newest_manuscript_test_count_expected": 5,
-    "current_manuscript_head_before_status_commit": "70ee23b6f6920c383e3c8cc3c766e5616f99846c",
-    "current_manuscript_head_workflows": "pending_visibility"
+    "current_tested_head_before_status_commit": "af45b7bfa6ac666d2d047f5fdcf74057af12d214",
+    "current_head_runs_at_status_write": [
+      {"run_id": 34033568392, "workflow": "MLHKP Migration Audit", "status": "in_progress"},
+      {"run_id": 34033568396, "workflow": "MLHKP Source Register Audit", "status": "in_progress"},
+      {"run_id": 34033568402, "workflow": "MLHKP Streamlit Smoke Test", "status": "queued"},
+      {"run_id": 34033568398, "workflow": "MLHKP Publication Build", "status": "in_progress"}
+    ]
   },
-  "publication_reference_verification": [
-    {"key": "christen2015localcontexts", "doi": "10.26077/78d5-47cf", "topic": "Local Contexts and Indigenous archival governance"},
-    {"key": "dutta2022mukurtu", "doi": "10.17821/srels/2022/v59i2/168787", "topic": "Mukurtu-oriented Indigenous cultural-heritage resource management"},
-    {"key": "faraj2021cidoc", "doi": "10.3390/fi13110277", "topic": "CIDOC-CRM cultural-heritage knowledge-graph representation and validation"},
-    {"key": "williamson2023sovereignty", "doi": "10.1177/26349825221125496", "topic": "Operationalising Indigenous data sovereignty and governance"}
-  ],
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
     "Volume I artifact reuse rights remain not assessed.",
     "Volumes II and III have verified external locators and external OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
-    "Volumes IV-XVI still require systematic locator discovery and registration; the Volume IV web search in this cycle did not produce a sufficiently authoritative exact-volume locator, so no record was invented.",
+    "Volumes IV-XVI still require systematic locator discovery and registration; no source record may be invented when an exact authoritative locator is absent.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
-    "Newest manuscript head must pass the publication workflow after bibliography/comparison expansion before publication_package_pass may become true."
+    "Current information-model-synchronized head must pass Streamlit and publication gates before publication_package_pass can be true."
   ],
-  "integrity": {"permanent_volume_ids_preserved": true, "legacy_master_source_ids_preserved": true, "ocr_treated_as_verified": false, "rights_assumed_from_public_availability": false, "restricted_material_exposed": false, "verified_complete_volumes": 0, "main_branch_modified": false},
-  "next_best_action": "Confirm the publication workflow on the expanded manuscript head. In parallel continue authoritative Mundarica Volume IV discovery and systematic MMSC discovery; if no exact Volume IV locator is found, record that search gap and advance the next non-duplicate source class rather than guessing."
+  "integrity": {
+    "permanent_volume_ids_preserved": true,
+    "legacy_master_source_ids_preserved": true,
+    "ocr_treated_as_verified": false,
+    "rights_assumed_from_public_availability": false,
+    "restricted_material_exposed": false,
+    "verified_complete_volumes": 0,
+    "main_branch_modified": false
+  },
+  "next_best_action": "Confirm current information-model CI. Then continue authoritative Mundarica Volume IV discovery in parallel with the next non-duplicate MMSC source class and strengthen universal search filters/evidence drilldown against the complete information model without inventing cultural records."
 }
