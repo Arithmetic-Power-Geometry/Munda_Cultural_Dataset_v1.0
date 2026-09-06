@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T09:41:00Z",
+  "updated_utc": "2026-09-06T10:34:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -47,7 +47,7 @@
       "content_state_changed_this_cycle": false
     },
     "E_publication_readiness": {
-      "status": "foundation_package_added_metrics_synced_compile_gate_not_yet_passed",
+      "status": "reproducible_xelatex_biber_gate_added_awaiting_current_head_result",
       "main_tex": "publication/main.tex",
       "bibliography": "publication/references.bib",
       "metrics_generator": "publication/generate_release_metrics.py",
@@ -59,43 +59,38 @@
       "citation_style": "biblatex author-year via Biber",
       "repository_derived_metrics": true,
       "publication_sync_test": "tests/test_publication_sync.py",
-      "latex_biber_compile_gate": "not_yet_implemented_or_passed",
+      "latex_biber_compile_workflow": ".github/workflows/mlhkp-publication-build.yml",
+      "compile_sequence": "XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX",
+      "unresolved_reference_gate": true,
+      "compiled_pdf_artifact": "mlhkp-foundational-manuscript",
       "publication_package_pass": false,
-      "reason_not_pass": "User policy requires an error-free XeLaTeX+Biber or journal-neutral compile before PASS; this cycle establishes the synchronized manuscript foundation and CI data-sync gate only."
+      "reason_not_pass": "The required reproducible compile workflow is now implemented, but the current-head workflow result must complete successfully before publication package PASS can be asserted."
     }
   },
   "changes_this_cycle": [
-    "Confirmed previous head 5f5f6e3bea668ba043f8c656430fb68ceb432146 is green on MLHKP Migration Audit, MLHKP Source Register Audit and MLHKP Streamlit Smoke Test.",
-    "Added publication/generate_release_metrics.py to derive manuscript release statistics from the canonical MMSC index, Mundarica completeness audit, module registry and coverage matrix.",
-    "Added generated JSON and LaTeX release metrics reflecting the current audited state: 17 discovered sources, 14 canonical records, 3 additional discoveries, 16 expected Mundarica volumes, 1 page-accounted volume, 0 registered authoritative scans, 0 VERIFIED COMPLETE volumes, 42 registered modules and 12 coverage rows.",
-    "Added a conservative Q1-target LaTeX manuscript foundation with an approximately 200-word abstract, six keywords, repository-synchronised metrics table, software-faithful source-census and completeness/access algorithms, explicit limitations, and no claim of source completeness, community validation, redistribution rights, verified Mundarica completion or acceptance.",
-    "Added verified foundational FAIR and CARE bibliography records and explicitly deferred broader Mukurtu, Local Contexts, CIDOC-CRM and recent Indigenous stewardship comparison claims until checked references are added.",
-    "Added publication synchronization tests for repository-derived counts, OCR/completeness truthfulness, generated metric usage, caption-before-table/algorithm rules, and bibliography DOI anchors.",
-    "Wired publication/** and tests/test_publication_sync.py into the existing MLHKP Streamlit Smoke Test workflow."
+    "Confirmed prior head 5fd9e1df0d04597f0e6c3cc104ddddd76479fa6b is green on MLHKP Migration Audit, MLHKP Source Register Audit and MLHKP Streamlit Smoke Test.",
+    "Added .github/workflows/mlhkp-publication-build.yml as a dedicated reproducible publication gate.",
+    "The publication workflow installs XeLaTeX, BibLaTeX/Biber and required LaTeX science/extra packages on Ubuntu, regenerates repository-derived release metrics, reruns publication synchronization tests, compiles main.tex using XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX, fails if the PDF is absent, and fails on unresolved citation/reference warnings.",
+    "The publication workflow uploads the compiled manuscript as a short-retention CI artifact only after the compile gate succeeds.",
+    "No Mundarica corpus, MMSC source data, cultural facts, rights decisions, access classes, OCR states, verification states or Streamlit corpus metrics changed in this cycle."
   ],
   "commits_this_cycle": [
-    "6d5559f56cff7d81c34ecc601d227ce5e9db5bc8 - Add repository-derived publication metrics generator",
-    "bd9dbbbe21c718060829c86345392ed0e851e375 - Add current audited manuscript release metrics",
-    "e7c91d9838c02fae251ae3bc1636886884b80fcb - Add generated LaTeX release metric macros",
-    "5d6e4d036652528c719703a4349129da5f986334 - Add verified foundational publication references",
-    "51518a90e036e7e7ed54ffae52bbc1f3bcc6c54d - Add synchronized Q1-target manuscript foundation",
-    "2b47381b69e99eeb7f41aa310ca98bb7f1f024b6 - Add publication data-sync and manuscript safety tests",
-    "093572a31373d2401e1a02603200b1f8bebe9613 - Gate publication metrics and manuscript sync in CI"
+    "396b318f4c02cef947c321419fe44e464100da66 - Add reproducible XeLaTeX Biber publication build gate"
   ],
   "streamlit_sync": {
     "status": "synced_no_corpus_content_change_this_cycle",
-    "detail": "This cycle changed publication architecture only; canonical Mundarica/MMSC data and therefore live Streamlit corpus/search/gap metrics were not changed. Existing portal continues to read canonical registries directly."
+    "detail": "This cycle changed CI/publication infrastructure only. Canonical Mundarica/MMSC data and therefore live Streamlit search, evidence, dashboard and gap metrics remain unchanged and synchronized."
   },
   "tests_and_workflows": {
-    "previous_green_head": "5f5f6e3bea668ba043f8c656430fb68ceb432146",
-    "previous_green_runs": [
-      {"run_id": 34022171574, "workflow": "MLHKP Migration Audit", "result": "success"},
-      {"run_id": 34022171613, "workflow": "MLHKP Source Register Audit", "result": "success"},
-      {"run_id": 34022171569, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"}
+    "confirmed_green_head": "5fd9e1df0d04597f0e6c3cc104ddddd76479fa6b",
+    "confirmed_green_runs": [
+      {"run_id": 34025097936, "workflow": "MLHKP Migration Audit", "result": "success"},
+      {"run_id": 34025097950, "workflow": "MLHKP Source Register Audit", "result": "success"},
+      {"run_id": 34025097968, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"}
     ],
-    "publication_test_file": "tests/test_publication_sync.py",
-    "current_head_before_status_commit": "093572a31373d2401e1a02603200b1f8bebe9613",
-    "current_head_workflows": "not yet returned at check time; no green claim made"
+    "new_publication_build_workflow": ".github/workflows/mlhkp-publication-build.yml",
+    "publication_compile_gate": "implemented_current_head_result_pending",
+    "current_head_before_status_commit": "396b318f4c02cef947c321419fe44e464100da66"
   },
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
@@ -103,9 +98,9 @@
     "Volumes II and III have verified external locators and external OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
     "Volumes IV-XVI still require systematic locator discovery and registration.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
-    "Publication package cannot be marked PASS until a reproducible XeLaTeX+Biber or equivalent compile workflow runs without errors.",
+    "Publication package remains NOT PASS until the newly added XeLaTeX+Biber workflow completes successfully on the current head.",
     "Broader manuscript comparison against Mukurtu, Local Contexts, CIDOC-CRM/cultural-heritage knowledge graphs and recent Indigenous stewardship literature requires additional source-verified bibliography expansion; no references were invented."
   ],
   "integrity": {"permanent_volume_ids_preserved": true, "legacy_master_source_ids_preserved": true, "ocr_treated_as_verified": false, "rights_assumed_from_public_availability": false, "restricted_material_exposed": false, "verified_complete_volumes": 0, "main_branch_modified": false},
-  "next_best_action": "Add a reproducible LaTeX/Biber publication build workflow and expand the comparison section only with verified references; in parallel continue Mundarica Volume IV locator discovery and the next non-duplicate MMSC source, synchronizing any resulting corpus changes into Streamlit, coverage/gap metrics and generated manuscript statistics."
+  "next_best_action": "Verify the dedicated publication build on the new head; if it fails, repair the exact LaTeX/Biber dependency or manuscript error without weakening gates. In parallel continue Mundarica Volume IV locator discovery and the next non-duplicate MMSC source, synchronizing any corpus changes into Streamlit, coverage/gap metrics and generated manuscript statistics."
 }
