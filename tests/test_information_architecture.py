@@ -61,12 +61,16 @@ def test_portal_uses_grouped_navigation_and_truthful_empty_state():
     assert "st.json(" not in PORTAL
 
 
-def test_mmsc_search_log_and_federated_metadata_are_visible():
+def test_mmsc_search_log_federated_and_external_discovery_are_visible():
     assert 'SEARCH_LOG = BASE / "data" / "source_census" / "search_log.jsonl"' in PORTAL
     assert 'DISCOVERIES = BASE / "data" / "source_census" / "mmsc_discoveries.json"' in PORTAL
-    assert 'st.tabs(["Registered sources", "Standalone discoveries", "Search log"])' in PORTAL
+    assert 'WEB_DISCOVERY = BASE / "data" / "source_census" / "web_discovery_seed_2026-09-06.json"' in PORTAL
+    assert 'st.tabs(["Registered sources", "Standalone discoveries", "External source discovery", "Search log"])' in PORTAL
     assert "an unresolved search never creates a source record" in PORTAL
     assert "searchable_sources = master + standalone" in PORTAL
+    assert 'for s in web_discovery:' in PORTAL
+    assert "External Source Discovery — not cultural evidence" in PORTAL
+    assert "not automatically canonical sources, cultural evidence or claims" in PORTAL
 
 
 def test_mundarica_layer_and_verification_contract_visible():
