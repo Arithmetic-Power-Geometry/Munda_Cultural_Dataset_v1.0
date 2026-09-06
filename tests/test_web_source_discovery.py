@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 56
+    assert len(records) == 61
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 57)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 62)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052', 'WEB-MUN-0053', 'WEB-MUN-0054', 'WEB-MUN-0055', 'WEB-MUN-0056']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052', 'WEB-MUN-0053', 'WEB-MUN-0054', 'WEB-MUN-0055', 'WEB-MUN-0056', 'WEB-MUN-0057', 'WEB-MUN-0058', 'WEB-MUN-0059', 'WEB-MUN-0060']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
@@ -154,6 +154,28 @@ def test_run8_demographic_comparative_and_web_media_scope_boundaries():
     assert 'item-level provenance' in portal['notes'].lower()
     assert 'model-training' in portal['rights_note'].lower()
     assert 'cultural-access' in portal['rights_note'].lower()
+
+
+def test_run9_dissertations_tri_grammar_and_lexical_dataset_boundaries():
+    records = {r['id']: r for r in all_records()}
+    land_dissertation = records['WEB-MUN-0057']
+    assert 'may 2017 to december 2018' in land_dissertation['notes'].lower()
+    assert 'must not be generalized' in land_dissertation['notes'].lower()
+    assert 'participant-derived' in land_dissertation['rights_note'].lower()
+    music_dissertation = records['WEB-MUN-0058']
+    assert music_dissertation['year'] == 1991
+    assert 'full item is restricted' in music_dissertation['notes'].lower()
+    assert 'copyright 1991' in music_dissertation['rights_note'].lower()
+    tri_book = records['WEB-MUN-0059']
+    assert 'drmtwri/1993/0007' in tri_book['notes'].lower()
+    assert 'exact page' in tri_book['notes'].lower()
+    osada = records['WEB-MUN-0060']
+    assert 'pages 99-164' in osada['notes'].lower()
+    assert 'does not transfer rights in the routledge chapter' in osada['rights_note'].lower()
+    asjp = records['WEB-MUN-0061']
+    assert 'peiros 1998' in asjp['notes'].lower()
+    assert 'cc by 4.0' in asjp['rights_note'].lower()
+    assert 'underlying source' in asjp['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
