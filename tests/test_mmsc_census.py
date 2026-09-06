@@ -3,6 +3,8 @@ import json
 
 ROOT=Path(__file__).resolve().parents[1]
 MMSC=ROOT/'data'/'source_census'/'mmsc_index.json'
+DISCOVERIES=ROOT/'data'/'source_census'/'mmsc_discoveries.json'
+SEARCH_LOG=ROOT/'data'/'source_census'/'search_log.jsonl'
 MASTER=ROOT/'data'/'source_register'/'master_sources.json'
 MUNDARICA=ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json'
 PROTOCOL=ROOT/'docs'/'mmsc_source_census_protocol.md'
@@ -21,13 +23,10 @@ def test_mmsc_federates_without_renumbering_legacy_sources():
 
 
 def test_mmsc_volume2_discovery_matches_mundarica_manifest():
-    mmsc=load(MMSC); manifest=load(MUNDARICA)
+    manifest=load(MUNDARICA)
     v2=next(v for v in manifest['volume_slots'] if v['source_id']=='SRC-MUN-V02')
-    latest=mmsc['latest_discovery']
-    assert latest['source_id']=='SRC-MUN-V02'
-    assert latest['canonical_url']==v2['external_source']['canonical_url']
-    assert latest['identifier']==v2['external_source']['identifier']
-    assert latest['provenance']['catalogued_pages']==v2['external_source']['total_pages_as_catalogued']==406
+    assert v2['external_source']['identifier']=='dli.bengal.10689.21001'
+    assert v2['external_source']['total_pages_as_catalogued']==406
     assert v2['status']=='external_source_locator_verified_not_ingested'
     assert v2['verified_complete'] is False
     assert v2['external_source']['acquisition_status']=='locator_verified_not_acquired'
@@ -35,20 +34,40 @@ def test_mmsc_volume2_discovery_matches_mundarica_manifest():
     assert 'unverified' in v2['external_source']['verification_note'].lower()
 
 
+def test_standalone_discovery_has_required_evidence_preserving_fields():
+    discoveries=load(DISCOVERIES)['records']
+    assert len(discoveries)==1
+    r=discoveries[0]
+    assert r['source_id']=='SRC-MMSC-000001'
+    assert r['identifier']=={'scheme':'OCLC','value':'936769273'}
+    assert r['verification_state']=='catalogue_metadata_verified'
+    assert r['acquisition_state']=='not_acquired'
+    assert r['rights_reuse_status']=='not_assessed'
+    assert r['access_class']=='BIBLIOGRAPHIC_ONLY'
+    for key in ['title','creator','year','source_type','language','geography','cultural_domain_coverage','canonical_catalogue_url','availability','scan_state','ocr_state','full_text_state','extraction_state','evidence_link_state','provenance']:
+        assert key in r
+
+
 def test_mmsc_metrics_are_current_repository_counts_not_completeness_claims():
-    mmsc=load(MMSC); manifest=load(MUNDARICA)
-    counted=set()
-    master=load(MASTER)
-    counted.update(x['source_id'] for x in master['sources'])
+    mmsc=load(MMSC); manifest=load(MUNDARICA); master=load(MASTER); discoveries=load(DISCOVERIES)['records']
+    counted=set(x['source_id'] for x in master['sources'])
     counted.update(mmsc['source_registers'][1]['currently_counted_source_ids'])
-    assert mmsc['metrics']['sources_discovered']==len(counted)==15
-    assert mmsc['metrics']['additional_federated_discoveries']==1
-    assert mmsc['metrics']['mundarica_volume_locators_verified']==sum(
-        1 for v in manifest['volume_slots'] if v.get('external_source')
-    )
+    counted.update(x['source_id'] for x in discoveries)
+    assert mmsc['metrics']['sources_discovered']==len(counted)==16
+    assert mmsc['metrics']['additional_federated_discoveries']==2
+    assert mmsc['metrics']['standalone_mmsc_discoveries']==len(discoveries)==1
+    assert mmsc['metrics']['mundarica_volume_locators_verified']==sum(1 for v in manifest['volume_slots'] if v.get('external_source'))
     assert mmsc['metrics']['mundarica_authoritative_scans_registered']==manifest['audit_summary']['registered_authoritative_scans']==0
     assert mmsc['metrics']['mundarica_verified_complete_volumes']==manifest['audit_summary']['verified_complete_volumes']==0
     assert mmsc['completeness_claim']=='source_comprehensive_under_documented_protocol_only'
+
+
+def test_search_log_is_reproducible_and_refs_registered_sources():
+    rows=[json.loads(line) for line in SEARCH_LOG.read_text(encoding='utf-8').splitlines() if line.strip()]
+    ids={r['source_id'] for r in load(DISCOVERIES)['records']} | {'SRC-MUN-V02'}
+    assert [r['search_id'] for r in rows]==['MMSC-SEARCH-000001','MMSC-SEARCH-000002']
+    assert all(r['checked_utc'] and r['repository'] and r['query'] for r in rows)
+    assert all(set(r['result_source_ids']) <= ids for r in rows)
 
 
 def test_mmsc_protocol_preserves_evidence_and_access_boundaries():
