@@ -81,13 +81,25 @@ def test_mmsc_metrics_are_current_repository_counts_not_completeness_claims():
 def test_search_log_is_reproducible_refs_registered_sources_and_records_deduplication():
     rows=[json.loads(line) for line in SEARCH_LOG.read_text(encoding='utf-8').splitlines() if line.strip()]
     ids={r['source_id'] for r in load(DISCOVERIES)['records']} | {'SRC-MUN-V02','SRC-MUN-V03'} | {r['source_id'] for r in load(MASTER)['sources']}
-    assert [r['search_id'] for r in rows]==[f'MMSC-SEARCH-{i:06d}' for i in range(1,5)]
-    assert all(r['checked_utc'] and r['repository'] and r['query'] for r in rows)
+    assert rows
+    assert [r['search_id'] for r in rows]==[f'MMSC-SEARCH-{i:06d}' for i in range(1,len(rows)+1)]
+    assert len({r['search_id'] for r in rows})==len(rows)
+    assert all(r['checked_utc'] and r['repository'] and r['query'] and r['outcome'] and 'notes' in r for r in rows)
     assert all(set(r['result_source_ids']) <= ids for r in rows)
     dedup=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000004')
     assert dedup['result_source_ids']==['SRC-000005']
     assert dedup['outcome']=='deduplicated_locator_match_existing_canonical_source'
     assert 'No new permanent source ID assigned' in dedup['notes']
+
+    unresolved=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000005')
+    assert unresolved['result_source_ids']==[]
+    assert unresolved['outcome']=='no_exact_authoritative_volume_locator_registered'
+    assert 'no Volume IV source ID' in unresolved['notes']
+
+    candidate=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000006')
+    assert candidate['result_source_ids']==[]
+    assert candidate['outcome']=='candidate_catalogue_record_found_duplicate_check_pending'
+    assert 'not assigned a permanent SRC-MMSC ID' in candidate['notes']
 
 
 def test_mmsc_protocol_preserves_evidence_and_access_boundaries():
