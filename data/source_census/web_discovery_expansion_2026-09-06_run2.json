@@ -1,0 +1,97 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-06",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified source leads or catalogue/dataset records, not extracted cultural claims and not proof of unrestricted redistribution or commercial reuse.",
+  "records": [
+    {
+      "id": "WEB-MUN-0021",
+      "title": "A descriptive analysis of Mundari",
+      "source_class": "doctoral_dissertation",
+      "publisher": "Georgetown University / Glottolog bibliographic record",
+      "url": "https://glottolog.org/resource/reference/id/33106",
+      "author": "Walter Anthony Cook, S.J.",
+      "year": 1965,
+      "notes": "Glottolog verifies a Georgetown University dissertation of vi + 315 pages (with illustrations/maps) describing Mundari sound, meaning and grammar. Register as a bibliographic source lead; any substantive linguistic statement requires exact page-level evidence from an authorized copy before public factual use.",
+      "verification_state": "bibliographic_metadata_verified",
+      "access_class": "public_metadata",
+      "rights_note": "Bibliographic metadata visibility does not establish permission to redistribute the dissertation or use its full text commercially."
+    },
+    {
+      "id": "WEB-MUN-0022",
+      "title": "Mundari: The Myth of a Language Without Word Classes",
+      "source_class": "peer_reviewed_linguistic_article",
+      "publisher": "Linguistic Typology / Walter de Gruyter; Glottolog bibliographic record",
+      "url": "https://glottolog.org/resource/reference/id/131399",
+      "author": "Nicholas Evans and Toshiki Osada",
+      "year": 2005,
+      "notes": "Glottolog verifies the article in Linguistic Typology 9(3), pages 351–390, DOI 10.1515/lity.2005.9.3.351. It is relevant to Mundari morphosyntax and word-class analysis. Article conclusions are not promoted into MLHKP cultural or linguistic claims without passage-level evidence.",
+      "verification_state": "bibliographic_metadata_verified",
+      "access_class": "public_metadata",
+      "rights_note": "Glottolog metadata does not transfer copyright or reuse rights in the De Gruyter article."
+    },
+    {
+      "id": "WEB-MUN-0023",
+      "title": "Mundari Ideophones",
+      "source_class": "linguistic_audio_dataset",
+      "publisher": "PARADISEC / Australian National University research repository",
+      "url": "https://openresearch-repository.anu.edu.au/items/fb2cbb6c-f595-4a07-9fc0-cb514d145c5c",
+      "author": "Bonnie McLean",
+      "year": 2016,
+      "notes": "ANU repository metadata identifies PARADISEC collection BMM1, focused on Mundari ideophones and their use in discourse, song and narrative, with Hasada/India keywords and DOI 10.4225/72/585bea79cf9dd. Register as a dataset/audio discovery lead; individual recordings, consultants and annotations require item-level consent/access review before ingestion.",
+      "verification_state": "institutional_repository_metadata_verified",
+      "access_class": "open_access_metadata_and_dataset_locator",
+      "rights_note": "Repository metadata reports CC BY-SA 4.0 for the collection; MLHKP must still preserve item-level access, participant/consultant conditions and culturally sensitive restrictions before reuse."
+    },
+    {
+      "id": "WEB-MUN-0024",
+      "title": "Proposal to Encode the Nag Mundari Script in the Universal Character Set",
+      "source_class": "script_standardization_document",
+      "publisher": "Unicode Consortium",
+      "url": "https://www.unicode.org/L2/L2021/21031r-mundari.pdf",
+      "author": "Lawrence Wolf-Sonkin and Biswajit Mandal",
+      "year": 2021,
+      "notes": "Unicode document L2/21-031R, dated 23 April 2021, is a 38-page proposal for encoding Nag Mundari. It documents script naming, character repertoire and background. Historical or sociolinguistic statements inside the proposal remain source-reported statements until corroborated and evidence-linked.",
+      "verification_state": "official_standard_document_verified",
+      "access_class": "public_technical_document",
+      "rights_note": "Public Unicode access permits citation and technical reference; reuse of document content and embedded third-party material remains subject to applicable Unicode and source rights."
+    },
+    {
+      "id": "WEB-MUN-0025",
+      "title": "MunTTS: A Text-to-Speech System for Mundari",
+      "source_class": "computational_linguistics_paper",
+      "publisher": "Association for Computational Linguistics",
+      "url": "https://aclanthology.org/2024.computel-1.11/",
+      "author": "Varun Gumma; Rishav Hada; Aditya Yadavalli; Pamir Gogoi; Ishani Mondal; Vivek Seshadri; Kalika Bali",
+      "year": 2024,
+      "notes": "ACL Anthology verifies the ComputEL-7 paper, pages 76–82, DOI 10.18653/v1/2024.computel-1.11. The paper reports collection and processing of Mundari text and speech for TTS and native-speaker evaluation. Dataset-level records and participant conditions must be registered separately before any data ingestion.",
+      "verification_state": "publisher_metadata_verified",
+      "access_class": "public_open_access_article",
+      "rights_note": "ACL Anthology states post-2016 materials are CC BY 4.0; this does not automatically grant rights to separately released datasets, recordings, model checkpoints or participant data."
+    },
+    {
+      "id": "WEB-MUN-0026",
+      "title": "MunTTS official codebase and dataset-access record",
+      "source_class": "software_and_restricted_dataset_locator",
+      "publisher": "Microsoft Research / GitHub; dataset collaboration with Karya",
+      "url": "https://github.com/microsoft/MunTTS-A-Text-to-Speech-System-For-Mundari",
+      "author": "MunTTS project authors",
+      "year": 2024,
+      "notes": "The archived official repository identifies the codebase for MunTTS and states that the full Mundari dataset and model checkpoints must be requested from Karya. Register as a software/dataset-access lead, not as acquired data.",
+      "verification_state": "official_repository_verified",
+      "access_class": "public_code_repository_restricted_dataset_access",
+      "rights_note": "Repository states the dataset and model checkpoints are released under Karya License BY-NC-SA-FS 1.0 and directs users to Karya for full dataset usage/distribution. No commercial-reuse entitlement is inferred."
+    },
+    {
+      "id": "WEB-MUN-0027",
+      "title": "Munda — Series on Tribes of Odisha handbook",
+      "source_class": "tribal_research_institute_handbook",
+      "publisher": "SC/ST Research & Training Institute, Odisha / Ministry of Tribal Affairs repository",
+      "url": "https://repository.tribal.gov.in/handle/123456789/73853",
+      "year": 2016,
+      "notes": "Official Ministry of Tribal Affairs repository record SCST/2016/0054 identifies a 32-page handbook titled 'Munda', ISBN 978-93-80705-54-5, in the Series on Tribes of Odisha. Register as a geographically and historically scoped ethnographic source lead; source descriptions must not be universalized as present-day Munda practice.",
+      "verification_state": "official_repository_metadata_verified",
+      "access_class": "public_government_repository",
+      "rights_note": "Repository access does not by itself establish unrestricted redistribution, image reuse, derivative use or commercial reuse."
+    }
+  ]
+}
