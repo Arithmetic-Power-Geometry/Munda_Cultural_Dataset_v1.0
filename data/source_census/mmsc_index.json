@@ -14,56 +14,68 @@
     {
       "register_type": "mundarica_volume_manifest",
       "path": "data/source_bundles/encyclopaedia_mundarica/manifest.json",
-      "counted_records": 1,
+      "counted_records": 2,
       "counting_rule": "Count only volume slots with a verified external locator or a registered corpus artifact that are not already represented in the canonical master source register.",
-      "currently_counted_source_ids": ["SRC-MUN-V02"]
+      "currently_counted_source_ids": [
+        "SRC-MUN-V02",
+        "SRC-MUN-V03"
+      ]
     },
     {
       "register_type": "mmsc_standalone_discoveries",
       "path": "data/source_census/mmsc_discoveries.json",
       "counted_records": 1,
       "id_policy": "new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking",
-      "currently_counted_source_ids": ["SRC-MMSC-000001"]
+      "currently_counted_source_ids": [
+        "SRC-MMSC-000001"
+      ]
     }
   ],
   "metrics": {
-    "sources_discovered": 16,
+    "sources_discovered": 17,
     "canonical_master_records": 14,
-    "additional_federated_discoveries": 2,
+    "additional_federated_discoveries": 3,
     "standalone_mmsc_discoveries": 1,
-    "mundarica_volume_locators_verified": 1,
+    "mundarica_volume_locators_verified": 2,
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
     "mundarica_verified_complete_volumes": 0,
     "bibliographic_only_records": 1,
-    "still_to_acquire_additional_discoveries": 2,
-    "note": "Counts are repository-derived discovery/accounting metrics, not claims that all Munda sources have already been discovered. The current union is 14 preserved canonical master-source records, one independently located Mundarica Volume II record, and one standalone WorldCat-verified Ram Dayal Munda bibliographic record. No online or catalogue availability is interpreted as reuse permission."
+    "still_to_acquire_additional_discoveries": 3,
+    "deduplicated_locator_matches": 1,
+    "note": "Counts are repository-derived discovery/accounting metrics, not claims that all Munda sources have already been discovered. The current union is 14 preserved canonical master-source records, independently located Mundarica Volume II and Volume III records, and one standalone WorldCat-verified Ram Dayal Munda bibliographic record. A newly checked Internet Archive scan of Sarat Chandra Roy's The Mundas and Their Country resolves to existing canonical source SRC-000005 and is logged as a deduplicated locator match rather than a new source. No online or catalogue availability is interpreted as reuse permission."
   },
   "latest_discovery": {
-    "source_id": "SRC-MMSC-000001",
-    "title": "The Jharkhand movement: indigenous peoples' struggle for autonomy in India",
-    "creator": "Ram Dayal Munda; S. Bosu Mullick (editors)",
-    "year": 2003,
-    "source_type": "edited_book",
-    "language": ["English"],
-    "geographic_scope": "Jharkhand, India",
-    "cultural_domains": ["historical_contemporary_change", "indigenous_peoples", "regional_history_and_politics"],
-    "canonical_url": "https://search.worldcat.org/title/The-Jharkhand-movement-%3A-indigenous-peoples%27-struggle-for-autonomy-in-India/oclc/936769273",
-    "identifier": "OCLC 936769273",
-    "availability": "bibliographic_catalogue_record_verified",
-    "scan_state": "not_discovered_in_this_search_step",
-    "ocr_state": "not_discovered_in_this_search_step",
-    "full_text_state": "not_discovered_in_this_search_step",
+    "source_id": "SRC-MUN-V03",
+    "title": "Encyclopedia Mundarica Vol-iii (1930)",
+    "creator": "Superintendent Government Printing Bihar And Orissa, Patna (as catalogued)",
+    "year": 1930,
+    "source_type": "historical_encyclopaedia_volume_external_locator",
+    "language": [
+      "English"
+    ],
+    "geographic_scope": "Munda / Chota Nagpur subject context",
+    "cultural_domains": [
+      "language_and_lexicon",
+      "historical_ethnography",
+      "encyclopaedic_reference"
+    ],
+    "canonical_url": "https://archive.org/details/in.ernet.dli.2015.14921",
+    "identifier": "Internet Archive in.ernet.dli.2015.14921; ark:/13960/t3907ds0b",
+    "availability": "external_locator_and_derivatives_verified",
+    "scan_state": "external_scan_derivatives_observed_not_locally_acquired",
+    "ocr_state": "external_machine_ocr_reported_unverified",
+    "full_text_state": "external_full_text_derivative_observed_unverified",
     "acquisition_state": "not_acquired",
-    "rights_reuse_status": "not_assessed",
+    "rights_reuse_status": "repository_metadata_observed_not_independently_assessed_for_redistribution",
     "extraction_state": "not_started",
     "evidence_link_state": "not_linked",
-    "verification_state": "catalogue_metadata_verified",
+    "verification_state": "external_locator_metadata_verified",
     "provenance": {
-      "repository": "WorldCat",
-      "catalogue_record": "OCLC 936769273",
-      "checked_utc": "2026-09-06T06:25:00Z",
-      "caution": "Bibliographic registration only; scan/full-text availability and reuse rights were not inferred."
+      "repository": "Internet Archive / Digital Library of India",
+      "catalogue_record": "in.ernet.dli.2015.14921",
+      "checked_utc": "2026-09-06T07:30:00Z",
+      "caution": "264 pages and ABBYY OCR are repository metadata. No local acquisition, OCR verification, cultural verification or redistribution permission is inferred."
     }
   },
   "protocol": "docs/mmsc_source_census_protocol.md"
