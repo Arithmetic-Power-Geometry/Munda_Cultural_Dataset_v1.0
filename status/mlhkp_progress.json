@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T12:38:00Z",
+  "updated_utc": "2026-09-06T12:50:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -11,17 +11,21 @@
       "volume_3": {"source_id": "SRC-MUN-V03", "status": "external_source_locator_verified_not_ingested", "catalogued_pages": 264, "external_ocr_reported": true, "external_ocr_verified": false, "local_scan_registered": false, "verified_complete": false},
       "volumes_4_16": "pending",
       "verified_complete_volumes": 0,
-      "externally_located_volumes": 2
+      "externally_located_volumes": 2,
+      "latest_search": {"volume": 4, "outcome": "no_exact_authoritative_volume_locator_registered", "reason": "secondary index surfaced a Volume IV link that duplicated the registered Volume III Internet Archive identifier; no record was created"}
     },
     "B_mmsc": {
       "status": "federated_census_active",
       "sources_discovered": 17,
       "canonical_master_records": 14,
       "additional_federated_discoveries": 3,
+      "standalone_mmsc_discoveries": 1,
       "still_to_acquire_additional_discoveries": 3,
       "source_complete_claim": false,
       "protocol": "docs/mmsc_source_census_protocol.md",
-      "search_log": "data/source_census/search_log.jsonl"
+      "search_log": "data/source_census/search_log.jsonl",
+      "search_log_entries": 6,
+      "latest_candidate": {"title": "Mundari poetry, music and dances", "creator": "J. Hoffmann", "catalogue": "CiNii Books", "identifier": "BA08456372", "year": 1907, "status": "candidate_catalogue_record_found_duplicate_check_pending", "permanent_source_id_assigned": false}
     },
     "C_information_model": {
       "module_registry": "data/module_registry.json",
@@ -45,6 +49,9 @@
       "groups": 8,
       "raw_json_only_new_views": false,
       "universal_search_scaffold": true,
+      "universal_search_includes_canonical_and_standalone_permitted_metadata": true,
+      "mmsc_search_log_visible": true,
+      "mmsc_standalone_discoveries_visible": true,
       "mundarica_reader_status_tabs": true,
       "complete_data_skeleton_visible_on_home_dashboard": true,
       "record_family_table_visible": true,
@@ -54,7 +61,7 @@
       "corpus_content_changed_this_cycle": false
     },
     "E_publication_readiness": {
-      "status": "current_information_model_expansion_pending_ci",
+      "status": "current_information_model_and_portal_sync_pending_ci",
       "main_tex": "publication/main.tex",
       "bibliography": "publication/references.bib",
       "metrics_generator": "publication/generate_release_metrics.py",
@@ -70,18 +77,20 @@
       "compile_sequence": "XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX",
       "last_fully_green_manuscript_head": "46741c357a1c9d361b7627e664239c5273f34e75",
       "publication_package_pass": false,
-      "reason_not_pass": "The immediately preceding manuscript head passed all workflows, but the current information-model-synchronized manuscript head af45b7bfa6ac666d2d047f5fdcf74057af12d214 is still running its compile/test gates."
+      "reason_not_pass": "The previous manuscript head is proven green, but the current synchronized branch head is still running the Streamlit and publication gates."
     }
   },
   "changes_this_cycle": [
     "Confirmed previous head 46741c357a1c9d361b7627e664239c5273f34e75 green on Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
     "Added data/information_model.json as a cultural-fact-free machine-readable data skeleton with 24 record families, 153 explicit domain homes, 23 applicable record fields, evidence-chain rules, Mundarica layer separation, rights/access precedence and fieldwork/source-census layer contracts.",
     "Updated the Streamlit Home Research Dashboard to expose truthful schema metrics and a human-readable record-family/data-home table while explicitly separating architecture representation from evidence completeness.",
-    "Added tests/test_information_model_contract.py to fail on missing required record fields/domains, weakened access/OCR safeguards, broken Mundarica layer separation or absent public data-skeleton visibility.",
-    "Added the information-model contract test to the Streamlit CI gate.",
-    "Extended publication/generate_release_metrics.py and generated release metrics with record-family, domain-home and applicable-record-field counts derived from canonical repository state.",
-    "Updated the foundational manuscript release table, abstract, core evidence-model text and limitations to use the generated information-model metrics without representing schema coverage as evidence completeness.",
-    "Strengthened publication synchronization tests to derive and validate information-model metrics from data/information_model.json.",
+    "Added tests/test_information_model_contract.py and wired it into Streamlit CI.",
+    "Extended publication release metrics and the manuscript with repository-derived information-model counts; strengthened publication synchronization tests accordingly.",
+    "Logged a new Mundarica Volume IV search as unresolved because a surfaced Volume IV link duplicated the registered Volume III Internet Archive identifier; no Volume IV record or cultural claim was invented.",
+    "Logged a CiNii Books catalogue candidate for J. Hoffmann's 1907 Mundari poetry, music and dances as duplicate-check-pending; no permanent SRC-MMSC ID was assigned yet.",
+    "Updated the Master Munda Source Census Streamlit view to show registered sources, standalone discoveries and the reproducible search log in human-readable tabs.",
+    "Expanded Universal Search to include permitted metadata from both the canonical master register and standalone MMSC discoveries.",
+    "Strengthened information-architecture tests to require MMSC search-log visibility, standalone discovery visibility and federated metadata search.",
     "No Mundarica/MMSC cultural records, OCR/transcription states, rights decisions, access classes, permanent IDs or VERIFIED COMPLETE states changed."
   ],
   "commits_this_cycle": [
@@ -93,11 +102,14 @@
     "4b5c2af569c512efc204ce88fdac087ae77648f8 - Regenerate publication release metrics for information model",
     "6e79bbcf6da14ca2ca72e7f062cd42bd3a9a463f - Expose information-model metrics to manuscript",
     "57c77bca74dc0fa1af5c1fb130db5d90484e193a - Audit publication synchronization with information model",
-    "af45b7bfa6ac666d2d047f5fdcf74057af12d214 - Synchronize manuscript with complete information-model metrics"
+    "af45b7bfa6ac666d2d047f5fdcf74057af12d214 - Synchronize manuscript with complete information-model metrics",
+    "1dcf6c53e874710f9619396e9fb455a035485556 - Log Mundarica IV and Hoffmann source-census searches",
+    "2ee3a1a1f3180a5870d9039e7517f2c042f40158 - Expose MMSC search log and federated metadata in portal",
+    "fe582460f1a5634c0c800fe5497a29ddef0e4416 - Test MMSC search-log and federated metadata visibility"
   ],
   "streamlit_sync": {
-    "status": "synced_architecture_change_no_corpus_content_change",
-    "detail": "The new information-model skeleton is visible on the Home Research Dashboard. Existing MMSC, Mundarica, evidence, search and research-gap corpus metrics remain unchanged because no corpus evidence changed."
+    "status": "synced_architecture_and_search_log_change_no_corpus_content_change",
+    "detail": "The complete information-model skeleton, MMSC standalone discoveries and reproducible search log are visible. Universal Search now includes permitted standalone bibliographic metadata. Mundarica/evidence completion metrics remain unchanged because no corpus evidence was ingested."
   },
   "tests_and_workflows": {
     "last_confirmed_full_green_commit": "46741c357a1c9d361b7627e664239c5273f34e75",
@@ -107,21 +119,22 @@
       {"run_id": 34030735524, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
       {"run_id": 34030735529, "workflow": "MLHKP Publication Build", "result": "success"}
     ],
-    "current_tested_head_before_status_commit": "af45b7bfa6ac666d2d047f5fdcf74057af12d214",
+    "current_tested_head_before_status_commit": "fe582460f1a5634c0c800fe5497a29ddef0e4416",
     "current_head_runs_at_status_write": [
-      {"run_id": 34033568392, "workflow": "MLHKP Migration Audit", "status": "in_progress"},
-      {"run_id": 34033568396, "workflow": "MLHKP Source Register Audit", "status": "in_progress"},
-      {"run_id": 34033568402, "workflow": "MLHKP Streamlit Smoke Test", "status": "queued"},
-      {"run_id": 34033568398, "workflow": "MLHKP Publication Build", "status": "in_progress"}
+      {"run_id": 34033704807, "workflow": "MLHKP Migration Audit", "status": "queued"},
+      {"run_id": 34033704811, "workflow": "MLHKP Source Register Audit", "status": "in_progress"},
+      {"run_id": 34033704802, "workflow": "MLHKP Streamlit Smoke Test", "status": "in_progress"},
+      {"run_id": 34033704841, "workflow": "MLHKP Publication Build", "status": "in_progress"}
     ]
   },
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
     "Volume I artifact reuse rights remain not assessed.",
     "Volumes II and III have verified external locators and external OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
-    "Volumes IV-XVI still require systematic locator discovery and registration; no source record may be invented when an exact authoritative locator is absent.",
+    "Volume IV exact authoritative locator remains unresolved because a secondary Volume IV link currently duplicates the registered Volume III identifier; no record may be created from that mismatch.",
+    "The CiNii Hoffmann 1907 candidate requires duplicate/edition checking across all federated registers before assignment of a new permanent source ID.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
-    "Current information-model-synchronized head must pass Streamlit and publication gates before publication_package_pass can be true."
+    "Current synchronized branch head must pass Streamlit and publication gates before publication_package_pass can be true."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -132,5 +145,5 @@
     "verified_complete_volumes": 0,
     "main_branch_modified": false
   },
-  "next_best_action": "Confirm current information-model CI. Then continue authoritative Mundarica Volume IV discovery in parallel with the next non-duplicate MMSC source class and strengthen universal search filters/evidence drilldown against the complete information model without inventing cultural records."
+  "next_best_action": "Confirm the current CI gates. Then complete duplicate/edition checking for the Hoffmann 1907 catalogue candidate; if unique, register it conservatively and synchronize MMSC metrics, Universal Search, manuscript metrics and tests. Continue authoritative Volume IV discovery independently without using the duplicate Volume III locator."
 }
