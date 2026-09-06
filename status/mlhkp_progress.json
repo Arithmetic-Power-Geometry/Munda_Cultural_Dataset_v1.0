@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T13:32:00Z",
+  "updated_utc": "2026-09-06T14:24:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -13,7 +13,11 @@
       "volume_5": {"source_id":"SRC-MUN-V05","status":"external_source_locator_verified_not_ingested","catalogued_pages":278,"external_ocr_reported":true,"external_ocr_verified":false,"local_scan_registered":false,"verified_complete":false,"internet_archive_identifier":"in.ernet.dli.2015.14925","rights_metadata_as_catalogued":"Out_of_copyright","rights_reuse_status":"repository_metadata_observed_not_independently_assessed_for_redistribution"},
       "volumes_6_16": "pending",
       "verified_complete_volumes": 0,
-      "externally_located_volumes": 3
+      "externally_located_volumes": 3,
+      "designated_textual_reviewer_id": "REV-MLHKP-000001",
+      "designated_textual_reviewer": "Dr. Mohammad Amir Khusru Akhtar",
+      "reviewer_scope": ["Encyclopaedia Mundarica textual verification","English-language textual verification","authoritative-scan-to-transcription comparison"],
+      "reviewer_designation_does_not_promote_existing_text": true
     },
     "B_mmsc": {
       "status": "federated_census_active",
@@ -27,36 +31,31 @@
       "latest_registered_source_id": "SRC-MUN-V05"
     },
     "C_information_model": {"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"detailed_coverage_matrix_rows":12,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN"},
-    "D_streamlit": {"grouped_navigation_visible":true,"universal_search_scaffold":true,"mmsc_search_log_visible":true,"mundarica_reader_status_tabs":true,"complete_data_skeleton_visible_on_home_dashboard":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"corpus_content_changed_this_cycle":true,"sync_status":"manifest_and_mmsc_are_live_data_sources_so Volume V locator, counts and status feed the portal without duplicating cultural content"},
+    "D_streamlit": {"grouped_navigation_visible":true,"universal_search_scaffold":true,"mmsc_search_log_visible":true,"mundarica_reader_status_tabs":true,"mundarica_verification_workspace_visible":true,"designated_reviewer_visible":true,"complete_data_skeleton_visible_on_home_dashboard":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"corpus_content_changed_this_cycle":false,"sync_status":"Added a dedicated live Mundarica Verification Workspace reading the reviewer registry, manifest, artifact registry and completeness audit; no corpus verification status was promoted."},
     "E_publication_readiness": {"status":"publication_build_previously_green_new_metrics_pending_ci","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-06","publication_package_pass":false,"last_confirmed_full_green_head":"6c485c090103ea8de6f6ae45d4ae4299942ffd58","last_confirmed_publication_build_run":34033895666,"generated_sources_discovered":18,"generated_additional_discoveries":4}
   },
   "changes_this_cycle": [
-    "Confirmed prior head 6c485c090103ea8de6f6ae45d4ae4299942ffd58 green on Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
-    "Kept Volume IV blocked because the surfaced secondary locator duplicates Volume III; no Volume IV record was invented.",
-    "Verified Internet Archive/DLI Volume V locator in.ernet.dli.2015.14925 and registered SRC-MUN-V05 as external_source_locator_verified_not_ingested with 278 catalogue pages.",
-    "Preserved repository-reported rights string Out_of_copyright only as provenance; did not infer MLHKP redistribution or commercial-reuse permission.",
-    "Kept scan, OCR, working transcription, verified transcription and structured content layers distinct; no OCR was promoted to verified text.",
-    "Updated MMSC from 17 to 18 real registered discoveries and from 2 to 3 verified Mundarica external locators.",
-    "Appended reproducible search-log entry MMSC-SEARCH-000007 and strengthened tests for Volume V acquisition, OCR and rights boundaries.",
-    "Synchronized publication-generated metrics to 18 discovered sources / 4 additional federated discoveries while retaining 0 authoritative Mundarica scans and 0 VERIFIED COMPLETE volumes.",
-    "Streamlit remains synchronized through its machine-readable manifest/MMSC inputs; no restricted/private cultural material was added or exposed."
+    "Registered REV-MLHKP-000001, Dr. Mohammad Amir Khusru Akhtar, as the designated project reviewer for Encyclopaedia Mundarica and English-language textual verification based on the reviewer's declaration.",
+    "Recorded explicit reviewer scope limits: reviewer designation alone does not convert OCR or working transcription to verified text, establish rights, override cultural-access/consent rules, or constitute community validation of contemporary practice.",
+    "Added pages/02_Mundarica_Verification.py as a live Streamlit verification workspace for all sixteen volume slots, reviewer scope, verification rules, artifact/page-accounting state and VERIFIED COMPLETE gating.",
+    "Required future review sign-off records to preserve reviewer ID, source/volume, exact locator, scan/artifact locator, reviewed text/record ID, decision, uncertainty notes and review timestamp.",
+    "Updated Streamlit smoke tests to derive MMSC and externally located Mundarica counts from live repository state rather than stale hard-coded counts.",
+    "Added tests enforcing the designated reviewer identity/scope, authoritative-scan comparison rule, OCR != verified transcription, community-validation separation and whole-volume completeness gating.",
+    "No existing Mundarica text, OCR, structured record or volume was promoted to verified status in this cycle; 0/16 remain VERIFIED COMPLETE."
   ],
   "commits_this_cycle": [
-    "7625c6f7295a2f3b1464882beea1b980eb5a50c8 - Register verified external locator for Mundarica Volume V",
-    "a72d2a55fbae9b6b079cb72f5ba709c9241d1f5e - Sync MMSC census with verified Mundarica Volume V locator",
-    "86e7e23e60b9cc6226c4c11bf2895ec10b8c1e9e - Log verified Mundarica Volume V discovery",
-    "d819f212a5972bb35623ea37f04915b706172eed - Test Volume V census and rights boundaries",
-    "57ff1337b9a73361b51bedb1b78f1aa0b7f1963e - Regenerate publication metrics for Volume V census update",
-    "985f2f997e6b14ff557fe41795d046c97531a547 - Sync LaTeX release metrics after Volume V discovery"
+    "673d0273348ec16c0cc6b31e0588d7b37fca793e - Add Mundarica textual verification reviewer registry",
+    "5f6e5dedcfe815132cc619fb1a3cd32af0b2d298 - Add Mundarica verification dashboard for designated reviewer",
+    "eb748fe707a2ed61c7afd66deaa990486cda8cb3 - Sync Streamlit smoke tests with current census and Mundarica verifier"
   ],
-  "tests_and_workflows": {"prior_head":"6c485c090103ea8de6f6ae45d4ae4299942ffd58","prior_head_all_four_workflows_green":true,"new_head_workflows":"pending_after_status_commit"},
+  "tests_and_workflows": {"prior_head":"58f9724311e553d84fc766594deb592feb353806","prior_streamlit_smoke_status":"failed_due_to_stale_hard_coded_census_expectations","current_fix":"tests now derive live counts and include reviewer workspace safeguards","new_head_workflows":"pending_after_status_commit"},
   "blockers": [
-    "Volume I lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
+    "Volume I lacks a registered authoritative scan artifact; textual verification cannot begin against repository evidence until an authoritative scan/page-image source is registered or otherwise lawfully available for comparison.",
     "Volume IV exact authoritative locator remains unresolved because a surfaced link duplicates Volume III.",
     "Volumes II, III and V have external derivatives but no locally registered authoritative scan/raw-OCR artifact; acquisition and rights assessment remain pending.",
     "The Hoffmann 1907 catalogue candidate still requires duplicate/edition checking before any permanent SRC-MMSC ID is assigned.",
     "Evidence-empty architecture modules remain visibly marked Structure ready — evidence not yet ingested rather than populated with invented facts."
   ],
-  "integrity": {"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false},
-  "next_best_action": "Confirm all workflows on the synchronized Volume V head. In parallel, continue authoritative Volume IV discovery and verify the next clean Internet Archive Mundarica locator (Volume VI) without using secondary mismatched links; continue duplicate checking of the Hoffmann 1907 MMSC candidate."
+  "integrity": {"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"reviewer_designation_alone_changes_verification_status":false},
+  "next_best_action": "Run/confirm Streamlit smoke CI on the reviewer-workspace head. Then register a lawful authoritative Volume I scan/page-image source if available and begin page-by-page reviewer sign-off without changing any unreviewed passage; in parallel continue Volume IV discovery and Volume VI registration."
 }
