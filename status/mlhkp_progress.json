@@ -3,52 +3,100 @@
   "branch": "mlhkp-v2",
   "current_module": "03-encyclopaedia-mundarica-1-16",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T04:31:00Z",
+  "updated_utc": "2026-09-06T05:40:00Z",
   "changes_this_cycle": [
-    "Inspected the live Streamlit founder cards and footer before applying the requested governance cleanup.",
-    "Confirmed Mr. Rajan Pahan is already identified as Founding Community Coordination, Meetings & Logistics Lead and the current card enumerates community consultations, elders/Pahans/customary leaders/practitioners/families/youth/women/performers/artisans/musicians/storytellers, culturally appropriate introductions, local communication, venues, travel, recording locations, guides, participant mobilisation and follow-up records.",
-    "Detected that the global footer still duplicates the complete founding record and therefore still requires removal.",
-    "A malformed whole-file contents update was immediately neutralized by creating a restoration commit from the exact pre-change repository tree and fast-forwarding mlhkp-v2 to it; the Streamlit application and all prior MLHKP work were restored without changing main.",
-    "No Mundarica data, permanent IDs, provenance, rights/access state, OCR/transcription state, verification metrics or cultural content were changed."
+    "Repaired the Streamlit smoke-test contract after confirming the application already contains the requested governance correction: Mr. Rajan Pahan is publicly titled 'Founding Community, Meetings & Field Logistics Coordinator', his substantive community-coordination/logistics duties are enumerated, his role explicitly does not independently determine scholarly interpretation or final scholarly approval, and the global footer contains no duplicated 'Founding record:' founder list.",
+    "Strengthened tests/test_streamlit_app.py to enforce Rajan Pahan's exact public title, substantive coordination scope, scholarly-authority boundary, concise non-duplicative footer, consent/cultural-heritage disclaimer, and the current Mundarica selector label.",
+    "Verified the user-supplied Internet Archive locator for Encyclopaedia Mundarica Volume II against the repository item page and registered its catalogue metadata in the Mundarica manifest without claiming acquisition, reuse permission, OCR verification, local scan registration or verified-complete status.",
+    "Volume II is now SRC-MUN-V02 with status external_source_locator_verified_not_ingested; Internet Archive reports 406 pages, 1950 publication, John Hoffmann, Superintendent Government Printing Bihar Patna, and ABBYY FineReader 11.0 OCR. OCR remains explicitly unverified.",
+    "Initialized the federated Master Munda Source Census at data/source_census/mmsc_index.json, referencing the 14 preserved canonical master-source records plus one independently verified additional discovery (SRC-MUN-V02) for a repository-derived current discovered-source count of 15.",
+    "Added docs/mmsc_source_census_protocol.md defining systematic source layers, repositories, evidence-preserving rules, minimum discovery metadata, federated deduplication/counting and search-log requirements.",
+    "Added tests/test_mmsc_census.py and wired it into the MLHKP Source Register Audit workflow."
   ],
+  "commits_this_cycle": [
+    "c84e48471557a1973d405c82860fa6fcfee20eee - Fix Streamlit smoke tests and enforce governance/footer invariants",
+    "45895c2913764f2d3a2541919fe66128208efc3b - Register verified external locator for Mundarica Volume II",
+    "66c610310ba1f8a8dbcb2de920f4e549939594ac - Initialize federated Master Munda Source Census index",
+    "b0b19dd834c9f43677f051c3aac2370bcd544e8e - Document reproducible Master Munda Source Census protocol",
+    "3598a202676a74f064909de6f81c0acfb6379d32 - Add MMSC federated census integrity tests",
+    "37ea17f5f9b672c88b94ee3555519e93cba25cd2 - Gate Master Munda Source Census in source-register CI"
+  ],
+  "mundarica": {
+    "expected_volume_slots": 16,
+    "volume_1": {
+      "source_id": "SRC-MUN-V01",
+      "page_blocks": 324,
+      "page_accounting_complete": true,
+      "registered_working_transcriptions": 1,
+      "authoritative_scan_registered": false,
+      "verified_complete": false
+    },
+    "volume_2": {
+      "source_id": "SRC-MUN-V02",
+      "status": "external_source_locator_verified_not_ingested",
+      "canonical_url": "https://archive.org/details/dli.bengal.10689.21001",
+      "catalogued_pages": 406,
+      "external_ocr_reported": true,
+      "external_ocr_verified": false,
+      "local_scan_registered": false,
+      "rights_status": "not_assessed",
+      "verified_complete": false
+    },
+    "volumes_3_16": "pending",
+    "verified_complete_volumes": 0
+  },
+  "mmsc": {
+    "status": "baseline_federated_index_created",
+    "sources_discovered": 15,
+    "canonical_master_records": 14,
+    "additional_federated_discoveries": 1,
+    "latest_discovery_source_id": "SRC-MUN-V02",
+    "acquired_additional_discoveries": 0,
+    "source_complete_claim": false,
+    "protocol": "docs/mmsc_source_census_protocol.md"
+  },
   "streamlit_sync": {
-    "status": "restored_exact_prechange_state_governance_cleanup_pending",
-    "detail": "streamlit_app.py is restored to the exact pre-change tree. The requested footer de-duplication and explicit Rajan Pahan scholarly-authority boundary remain the next safe UI edit; no corpus-facing state changed."
+    "status": "synced_by_manifest_and_governance_tests",
+    "detail": "The Mundarica page reads volume slots directly from manifest.json and therefore now exposes Volume II's locator-only status and metadata through the selected-volume JSON while retaining 0 VERIFIED COMPLETE volumes. Governance/footer invariants are enforced in tests/test_streamlit_app.py."
   },
   "integrity": {
     "permanent_volume_ids_preserved": true,
-    "expected_volume_slots": 16,
-    "volume_1_page_blocks": 324,
+    "legacy_master_source_ids_preserved": true,
     "volume_1_page_accounting_complete": true,
     "registered_artifacts": 1,
     "registered_authoritative_scans": 0,
     "registered_working_transcriptions": 1,
-    "volume_1_source_scan_present": false,
     "verified_complete_volumes": 0,
     "ocr_treated_as_verified": false,
     "working_transcription_treated_as_verified": false,
-    "rights_assumed_from_repository_visibility": false,
-    "artifact_registry_validator_added": true,
-    "main_branch_modified": false,
-    "streamlit_restored_after_malformed_update": true
+    "rights_assumed_from_public_availability": false,
+    "restricted_material_exposed": false,
+    "main_branch_modified": false
   },
   "tests": {
-    "previous_failing_workflow_run": 34004227478,
-    "previous_failure_cause": "stale expected Volume I manifest status string after artifact registration",
-    "previous_fix_commit": "473f81fe120886378e58a9e3864bfa764d494d4f",
-    "restoration_commit": "16c682240ded80e2e0b3808d389dd4c34b899e6e",
-    "state_at_record_time": "repository tree restored; governance cleanup not yet committed, so no new verification claim is made",
-    "relevant_tests": [
-      "tests/test_mundarica_artifact_registry_validator.py",
-      "tests/test_mundarica_artifact_schema.py",
-      "tests/test_mundarica_completeness.py",
-      "tests/test_streamlit_app.py"
+    "last_observed_streamlit_workflow_run": 34012791850,
+    "last_observed_streamlit_workflow_conclusion": "failure",
+    "failure_cause": "three stale/brittle Streamlit smoke assertions: unsafe-html founder/governance text was not surfaced by AppTest.markdown, selector label expected 'Select volume' while app uses 'Volume', and governance-source strings did not match the current application",
+    "repair_commit": "c84e48471557a1973d405c82860fa6fcfee20eee",
+    "source_register_workflow_extended_for_mmsc": true,
+    "new_head_at_record_time": "37ea17f5f9b672c88b94ee3555519e93cba25cd2",
+    "new_head_workflows_observed": "not yet returned by GitHub at record time; no passing claim made",
+    "previously_passing_gates_before_streamlit_failure": [
+      "migration integrity",
+      "master source register integrity",
+      "Volume I page accounting",
+      "Mundarica artifact registry validation",
+      "Mundarica artifact registry mutation tests: 6 passed",
+      "Mundarica artifact schema tests: 6 passed",
+      "Mundarica completeness tests: 7 passed"
     ]
   },
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact, so visual scan comparison and transcription verification cannot be certified.",
     "Volume I artifact reuse rights have not been assessed; repository visibility is not treated as reuse permission.",
-    "Volumes II-XVI still have no corpus artifacts in the current repository build."
+    "Volume II has a verified Internet Archive locator but no locally acquired/registered scan artifact; acquisition and reuse-rights assessment remain pending.",
+    "Volumes III-XVI still have no locally registered corpus artifacts in the current repository build.",
+    "The new head's GitHub Actions results were not yet visible at status-record time, so no new module-complete or CI-pass claim is made."
   ],
-  "next_best_action": "Apply the governance cleanup to streamlit_app.py with an exact-content-preserving edit: retain and clarify Rajan Pahan's substantive community-coordination/logistics role, explicitly state that it does not confer independent scholarly interpretation or approval authority, remove the duplicate founding-record line from the global footer, then strengthen tests/test_streamlit_app.py and verify CI before any further Mundarica UI work."
+  "next_best_action": "Confirm the repaired Streamlit and MMSC source-register workflows pass on the current head; then, without waiting for Volume I specialist verification, safely acquire/register or otherwise structurally prepare the Volume II scan/OCR artifact layers with checksums and rights metadata if lawful acquisition is available, while continuing MMSC discovery with the next authoritative classical/linguistic/government catalogue source and no duplicate permanent IDs."
 }
