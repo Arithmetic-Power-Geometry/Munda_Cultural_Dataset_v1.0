@@ -56,11 +56,11 @@ def test_manifest_public_audit_summary_matches_canonical_audit():
     assert "do not certify" in summary["note"].lower()
 
 
-def test_volume1_manifest_status_exposes_accounting_without_claiming_verification():
+def test_volume1_manifest_status_exposes_registered_accounting_without_claiming_verification():
     manifest = load("manifest.json")
     slot = manifest["volume_slots"][0]
     assert slot["source_id"] == "SRC-MUN-V01"
-    assert slot["status"] == "working_transcription_page_accounting_complete"
+    assert slot["status"] == "working_transcription_registered_page_accounting_complete"
     assert slot["verified_complete"] is False
 
 
