@@ -7,7 +7,6 @@ DISCOVERIES = ROOT / 'data' / 'source_census' / 'mmsc_discoveries.json'
 SEARCH_LOG = ROOT / 'data' / 'source_census' / 'search_log.jsonl'
 MASTER = ROOT / 'data' / 'source_register' / 'master_sources.json'
 MUNDARICA = ROOT / 'data' / 'source_bundles' / 'encyclopaedia_mundarica' / 'manifest.json'
-WEB_DISCOVERY = ROOT / 'data' / 'source_census' / 'web_discovery_seed_2026-09-06.json'
 PROTOCOL = ROOT / 'docs' / 'mmsc_source_census_protocol.md'
 
 
@@ -17,6 +16,15 @@ def load(path):
 
 def externally_located_ids(manifest):
     return [v['source_id'] for v in manifest['volume_slots'] if v.get('external_source')]
+
+
+def web_discovery_records(mmsc):
+    layer = mmsc['web_discovery_layer']
+    paths = [layer['path'], *layer.get('additional_paths', [])]
+    records = []
+    for rel in paths:
+        records.extend(load(ROOT / rel)['records'])
+    return records
 
 
 def test_mmsc_federates_without_renumbering_legacy_sources():
@@ -51,10 +59,7 @@ def test_external_mundarica_ocr_never_promotes_machine_verification():
         assert volume['verified_complete'] is False
         assert ext['acquisition_status'] == 'locator_verified_not_acquired'
         rights = ext.get('rights_status', 'not_assessed')
-        assert rights in {
-            'not_assessed',
-            'repository_metadata_observed_not_independently_assessed_for_redistribution',
-        }
+        assert rights in {'not_assessed','repository_metadata_observed_not_independently_assessed_for_redistribution'}
     assert manifest['audit_summary']['registered_authoritative_scans'] == 0
     assert manifest['audit_summary']['verified_complete_volumes'] == 0
 
@@ -69,7 +74,7 @@ def test_standalone_discovery_has_required_evidence_preserving_fields():
     assert r['acquisition_state'] == 'not_acquired'
     assert r['rights_reuse_status'] == 'not_assessed'
     assert r['access_class'] == 'BIBLIOGRAPHIC_ONLY'
-    for key in ['title', 'creator', 'year', 'source_type', 'language', 'geography', 'cultural_domain_coverage', 'canonical_catalogue_url', 'availability', 'scan_state', 'ocr_state', 'full_text_state', 'extraction_state', 'evidence_link_state', 'provenance']:
+    for key in ['title','creator','year','source_type','language','geography','cultural_domain_coverage','canonical_catalogue_url','availability','scan_state','ocr_state','full_text_state','extraction_state','evidence_link_state','provenance']:
         assert key in r
 
 
@@ -91,10 +96,12 @@ def test_mmsc_metrics_are_repository_counts_not_completeness_claims():
 
 def test_web_discovery_is_visible_but_not_double_counted_before_identity_dedup():
     mmsc = load(MMSC)
-    web = load(WEB_DISCOVERY)['records']
-    assert len(web) == 14
-    assert mmsc['web_discovery_layer']['records'] == len(web)
-    assert mmsc['metrics']['web_discovery_leads_observed'] == len(web)
+    web = web_discovery_records(mmsc)
+    ids = [r['id'] for r in web]
+    assert len(web) == mmsc['web_discovery_layer']['records']
+    assert len(web) == mmsc['metrics']['web_discovery_leads_observed']
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, len(web) + 1)]
+    assert len(ids) == len(set(ids))
     assert mmsc['metrics']['web_discovery_leads_counted_in_audited_identity_total'] == 0
     web_register = next(x for x in mmsc['source_registers'] if x['register_type'] == 'web_source_discovery_leads')
     assert web_register['counted_records'] == 0
@@ -102,10 +109,12 @@ def test_web_discovery_is_visible_but_not_double_counted_before_identity_dedup()
 
 
 def test_search_log_has_stable_ids_and_no_unregistered_permanent_references():
+    mmsc = load(MMSC)
     rows = [json.loads(line) for line in SEARCH_LOG.read_text(encoding='utf-8').splitlines() if line.strip()]
     registered = {r['source_id'] for r in load(DISCOVERIES)['records']}
     registered |= {r['source_id'] for r in load(MASTER)['sources']}
     registered |= set(externally_located_ids(load(MUNDARICA)))
+    registered |= {r['id'] for r in web_discovery_records(mmsc)}
     assert rows
     assert [r['search_id'] for r in rows] == [f'MMSC-SEARCH-{i:06d}' for i in range(1, len(rows) + 1)]
     assert len({r['search_id'] for r in rows}) == len(rows)
@@ -115,12 +124,6 @@ def test_search_log_has_stable_ids_and_no_unregistered_permanent_references():
 
 def test_mmsc_protocol_preserves_evidence_and_access_boundaries():
     text = PROTOCOL.read_text(encoding='utf-8')
-    required = [
-        'Public availability does not establish redistribution or reuse permission.',
-        'Never treat OCR as verified text.',
-        'scan/page image, raw OCR, working transcription, verified transcription and structured content',
-        'Restricted, sacred, private or consent-limited material must not be made public',
-        'not a source-completeness claim',
-    ]
+    required = ['Public availability does not establish redistribution or reuse permission.','Never treat OCR as verified text.','scan/page image, raw OCR, working transcription, verified transcription and structured content','Restricted, sacred, private or consent-limited material must not be made public','not a source-completeness claim']
     for phrase in required:
         assert phrase in text
