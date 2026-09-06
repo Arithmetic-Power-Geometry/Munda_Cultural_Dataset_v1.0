@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-06T09:35:00Z",
+  "generated_utc": "2026-09-06T12:30:00Z",
   "sources_discovered": 17,
   "canonical_master_records": 14,
   "additional_federated_discoveries": 3,
@@ -10,7 +10,11 @@
   "mundarica_authoritative_scans_registered": 0,
   "registered_streamlit_modules": 42,
   "coverage_matrix_rows": 12,
+  "information_model_record_families": 24,
+  "information_model_domain_homes": 153,
+  "information_model_applicable_record_fields": 23,
   "module_schema_domain_mapping_percent": 100.0,
+  "master_schema_category_representation_percent": 100.0,
   "absolute_source_completeness_claimed": false,
   "ocr_treated_as_verified_transcription": false
 }
