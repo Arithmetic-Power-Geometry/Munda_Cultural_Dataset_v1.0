@@ -1,87 +1,111 @@
 {
-  "project":"MLHKP",
-  "branch":"mlhkp-v2",
-  "module_status":"in_progress",
-  "updated_utc":"2026-09-06T08:36:00Z",
-  "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
-  "workstreams":{
-    "A_mundarica":{
-      "volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},
-      "volume_2":{"source_id":"SRC-MUN-V02","status":"external_source_locator_verified_not_ingested","catalogued_pages":406,"external_ocr_reported":true,"external_ocr_verified":false,"local_scan_registered":false,"verified_complete":false},
-      "volume_3":{"source_id":"SRC-MUN-V03","status":"external_source_locator_verified_not_ingested","catalogued_pages":264,"external_ocr_reported":true,"external_ocr_verified":false,"local_scan_registered":false,"verified_complete":false},
-      "volumes_4_16":"pending",
-      "verified_complete_volumes":0,
-      "externally_located_volumes":2
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "module_status": "in_progress",
+  "updated_utc": "2026-09-06T09:41:00Z",
+  "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
+  "workstreams": {
+    "A_mundarica": {
+      "volume_1": {"source_id": "SRC-MUN-V01", "page_blocks": 324, "page_accounting_complete": true, "registered_working_transcriptions": 1, "authoritative_scan_registered": false, "verified_complete": false},
+      "volume_2": {"source_id": "SRC-MUN-V02", "status": "external_source_locator_verified_not_ingested", "catalogued_pages": 406, "external_ocr_reported": true, "external_ocr_verified": false, "local_scan_registered": false, "verified_complete": false},
+      "volume_3": {"source_id": "SRC-MUN-V03", "status": "external_source_locator_verified_not_ingested", "catalogued_pages": 264, "external_ocr_reported": true, "external_ocr_verified": false, "local_scan_registered": false, "verified_complete": false},
+      "volumes_4_16": "pending",
+      "verified_complete_volumes": 0,
+      "externally_located_volumes": 2
     },
-    "B_mmsc":{
-      "status":"federated_census_active",
-      "sources_discovered":17,
-      "canonical_master_records":14,
-      "additional_federated_discoveries":3,
-      "standalone_mmsc_discoveries":1,
-      "mundarica_volume_locators_verified":2,
-      "still_to_acquire_additional_discoveries":3,
-      "source_complete_claim":false,
-      "protocol":"docs/mmsc_source_census_protocol.md",
-      "search_log":"data/source_census/search_log.jsonl"
+    "B_mmsc": {
+      "status": "federated_census_active",
+      "sources_discovered": 17,
+      "canonical_master_records": 14,
+      "additional_federated_discoveries": 3,
+      "standalone_mmsc_discoveries": 1,
+      "mundarica_volume_locators_verified": 2,
+      "still_to_acquire_additional_discoveries": 3,
+      "source_complete_claim": false,
+      "protocol": "docs/mmsc_source_census_protocol.md",
+      "search_log": "data/source_census/search_log.jsonl"
     },
-    "C_information_model":{
-      "module_registry":"data/module_registry.json",
-      "coverage_matrix":"data/coverage_matrix.json",
-      "registered_modules":42,
-      "required_information_architecture_modules_represented":42,
-      "module_schema_domain_mapping_percent":100.0,
-      "detailed_coverage_matrix_rows":12,
-      "evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "empty_state_policy":"Structure ready — evidence not yet ingested"
+    "C_information_model": {
+      "module_registry": "data/module_registry.json",
+      "coverage_matrix": "data/coverage_matrix.json",
+      "registered_modules": 42,
+      "required_information_architecture_modules_represented": 42,
+      "module_schema_domain_mapping_percent": 100.0,
+      "detailed_coverage_matrix_rows": 12,
+      "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
+      "empty_state_policy": "Structure ready — evidence not yet ingested"
     },
-    "D_streamlit":{
-      "new_page":"pages/01_Research_Portal.py",
-      "grouped_navigation_visible":true,
-      "groups":8,
-      "raw_json_only_new_views":false,
-      "universal_search_scaffold":true,
-      "mundarica_reader_status_tabs":true,
-      "future_commercial_modules_disabled_by_default":true,
-      "cultural_access_overrides_entitlement":true
+    "D_streamlit": {
+      "new_page": "pages/01_Research_Portal.py",
+      "grouped_navigation_visible": true,
+      "groups": 8,
+      "raw_json_only_new_views": false,
+      "universal_search_scaffold": true,
+      "mundarica_reader_status_tabs": true,
+      "future_commercial_modules_disabled_by_default": true,
+      "cultural_access_overrides_entitlement": true,
+      "content_state_changed_this_cycle": false
+    },
+    "E_publication_readiness": {
+      "status": "foundation_package_added_metrics_synced_compile_gate_not_yet_passed",
+      "main_tex": "publication/main.tex",
+      "bibliography": "publication/references.bib",
+      "metrics_generator": "publication/generate_release_metrics.py",
+      "generated_metrics_json": "publication/generated/release_metrics.json",
+      "generated_metrics_tex": "publication/generated/release_metrics.tex",
+      "snapshot_date": "2026-09-06",
+      "abstract_target": "approximately_200_words",
+      "keywords": 6,
+      "citation_style": "biblatex author-year via Biber",
+      "repository_derived_metrics": true,
+      "publication_sync_test": "tests/test_publication_sync.py",
+      "latex_biber_compile_gate": "not_yet_implemented_or_passed",
+      "publication_package_pass": false,
+      "reason_not_pass": "User policy requires an error-free XeLaTeX+Biber or journal-neutral compile before PASS; this cycle establishes the synchronized manuscript foundation and CI data-sync gate only."
     }
   },
-  "changes_this_cycle":[
-    "Added machine-readable 42-module MLHKP registry and 12-row coverage matrix under the architecture-first policy.",
-    "Added grouped Streamlit Research & Public Knowledge Portal with complete requested navigation skeleton, truthful empty states, permitted universal-search scaffold, MMSC metrics, Mundarica I-XVI layer/status views, evidence trace view and governance safeguards.",
-    "Added automated architecture tests and wired them into MLHKP Streamlit Smoke Test.",
-    "CI run 34022104367 passed compilation, migration audit, Master Source Register audit, Mundarica Volume I page accounting, artifact-registry validation, six registry-validator tests, six artifact-schema tests and seven completeness-gate tests before failing only in the new architecture test.",
-    "Diagnosed the architecture failure as a test representation mismatch: legacy streamlit_app.py stores Rajan Pahan name and role as separate strings although the rendered card shows the required role; no governance/data defect was found.",
-    "Repaired the test to enforce the separate exact name and exact role strings in the legacy app, the concatenated exact public title in the new portal, the scholarly-authority boundary, and absence of founder duplication in the footer."
+  "changes_this_cycle": [
+    "Confirmed previous head 5f5f6e3bea668ba043f8c656430fb68ceb432146 is green on MLHKP Migration Audit, MLHKP Source Register Audit and MLHKP Streamlit Smoke Test.",
+    "Added publication/generate_release_metrics.py to derive manuscript release statistics from the canonical MMSC index, Mundarica completeness audit, module registry and coverage matrix.",
+    "Added generated JSON and LaTeX release metrics reflecting the current audited state: 17 discovered sources, 14 canonical records, 3 additional discoveries, 16 expected Mundarica volumes, 1 page-accounted volume, 0 registered authoritative scans, 0 VERIFIED COMPLETE volumes, 42 registered modules and 12 coverage rows.",
+    "Added a conservative Q1-target LaTeX manuscript foundation with an approximately 200-word abstract, six keywords, repository-synchronised metrics table, software-faithful source-census and completeness/access algorithms, explicit limitations, and no claim of source completeness, community validation, redistribution rights, verified Mundarica completion or acceptance.",
+    "Added verified foundational FAIR and CARE bibliography records and explicitly deferred broader Mukurtu, Local Contexts, CIDOC-CRM and recent Indigenous stewardship comparison claims until checked references are added.",
+    "Added publication synchronization tests for repository-derived counts, OCR/completeness truthfulness, generated metric usage, caption-before-table/algorithm rules, and bibliography DOI anchors.",
+    "Wired publication/** and tests/test_publication_sync.py into the existing MLHKP Streamlit Smoke Test workflow."
   ],
-  "commits_this_cycle":[
-    "bf0716e47375c385952d013302d2c39b43117ca5 - Add complete MLHKP module registry",
-    "713d7aa2d84d1bb5592257e6b0c3bb91d8ca74aa - Add MLHKP coverage matrix skeleton",
-    "189fdcc1323fe84597b5c2536e158e6bd5cd4dec - Add grouped architecture-first MLHKP research portal",
-    "a73e39006227799960fbd7d13fc23a2d40acf4b1 - Add architecture and coverage contract tests",
-    "2b865894bca1bc635cbb840423c7b086782574f8 - Fix governance architecture assertion",
-    "f227eac0a8f081c37fc73d84587abc0c3befb11f - Gate information architecture and research portal",
-    "dba326a6a36d1d1d6bebda67533b12dca7b22f8b - Record architecture-first MLHKP progress",
-    "efd536e246a0146c9d1c67305c134a0611469ca9 - Fix rendered governance title test"
+  "commits_this_cycle": [
+    "6d5559f56cff7d81c34ecc601d227ce5e9db5bc8 - Add repository-derived publication metrics generator",
+    "bd9dbbbe21c718060829c86345392ed0e851e375 - Add current audited manuscript release metrics",
+    "e7c91d9838c02fae251ae3bc1636886884b80fcb - Add generated LaTeX release metric macros",
+    "5d6e4d036652528c719703a4349129da5f986334 - Add verified foundational publication references",
+    "51518a90e036e7e7ed54ffae52bbc1f3bcc6c54d - Add synchronized Q1-target manuscript foundation",
+    "2b47381b69e99eeb7f41aa310ca98bb7f1f024b6 - Add publication data-sync and manuscript safety tests",
+    "093572a31373d2401e1a02603200b1f8bebe9613 - Gate publication metrics and manuscript sync in CI"
   ],
-  "streamlit_sync":{
-    "status":"synced_architecture_additive_page",
-    "detail":"Existing app remains backward compatible; new Research Portal reads live MMSC and Mundarica registries, never promotes OCR to verified transcription, and exposes complete grouped architecture with explicit structure-ready gaps."
+  "streamlit_sync": {
+    "status": "synced_no_corpus_content_change_this_cycle",
+    "detail": "This cycle changed publication architecture only; canonical Mundarica/MMSC data and therefore live Streamlit corpus/search/gap metrics were not changed. Existing portal continues to read canonical registries directly."
   },
-  "tests_and_workflows":{
-    "architecture_test_file":"tests/test_information_architecture.py",
-    "workflow":".github/workflows/mlhkp-streamlit-smoke.yml",
-    "failed_run":{"run_id":34022104367,"result":"failure","cause":"new governance test expected concatenated source literal in legacy app although name and role are separately stored","all_prior_gates":"passed"},
-    "repair_commit":"efd536e246a0146c9d1c67305c134a0611469ca9",
-    "current_head_workflows":"pending/not yet claimed green"
+  "tests_and_workflows": {
+    "previous_green_head": "5f5f6e3bea668ba043f8c656430fb68ceb432146",
+    "previous_green_runs": [
+      {"run_id": 34022171574, "workflow": "MLHKP Migration Audit", "result": "success"},
+      {"run_id": 34022171613, "workflow": "MLHKP Source Register Audit", "result": "success"},
+      {"run_id": 34022171569, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"}
+    ],
+    "publication_test_file": "tests/test_publication_sync.py",
+    "current_head_before_status_commit": "093572a31373d2401e1a02603200b1f8bebe9613",
+    "current_head_workflows": "not yet returned at check time; no green claim made"
   },
-  "blockers":[
+  "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
     "Volume I artifact reuse rights remain not assessed.",
     "Volumes II and III have verified external locators and external OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
     "Volumes IV-XVI still require systematic locator discovery and registration.",
-    "Many architecture modules intentionally contain no cultural records yet; their visible state is Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available."
+    "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
+    "Publication package cannot be marked PASS until a reproducible XeLaTeX+Biber or equivalent compile workflow runs without errors.",
+    "Broader manuscript comparison against Mukurtu, Local Contexts, CIDOC-CRM/cultural-heritage knowledge graphs and recent Indigenous stewardship literature requires additional source-verified bibliography expansion; no references were invented."
   ],
-  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false},
-  "next_best_action":"Confirm repaired architecture CI. Then continue parallel evidence population with Mundarica Volume IV locator discovery/registration and the next authoritative non-duplicate MMSC source, while progressively connecting more registry modules to live permitted records and evidence metrics."
+  "integrity": {"permanent_volume_ids_preserved": true, "legacy_master_source_ids_preserved": true, "ocr_treated_as_verified": false, "rights_assumed_from_public_availability": false, "restricted_material_exposed": false, "verified_complete_volumes": 0, "main_branch_modified": false},
+  "next_best_action": "Add a reproducible LaTeX/Biber publication build workflow and expand the comparison section only with verified references; in parallel continue Mundarica Volume IV locator discovery and the next non-duplicate MMSC source, synchronizing any resulting corpus changes into Streamlit, coverage/gap metrics and generated manuscript statistics."
 }
