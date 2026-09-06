@@ -12,6 +12,7 @@ except Exception:
 
 REGISTRY = BASE / "data" / "module_registry.json"
 COVERAGE = BASE / "data" / "coverage_matrix.json"
+MODEL = BASE / "data" / "information_model.json"
 MMSC = BASE / "data" / "source_census" / "mmsc_index.json"
 MASTER = BASE / "data" / "source_register" / "master_sources.json"
 MUNDARICA = BASE / "data" / "source_bundles" / "encyclopaedia_mundarica" / "manifest.json"
@@ -29,10 +30,13 @@ def load_json(path, fallback):
 
 registry = load_json(REGISTRY, {"modules": []})
 coverage = load_json(COVERAGE, {"rows": []})
+model = load_json(MODEL, {"record_families": [], "record_contract": {}})
 mmsc = load_json(MMSC, {"metrics": {}})
 master = load_json(MASTER, {"sources": []}).get("sources", [])
 mundarica = load_json(MUNDARICA, {"volume_slots": []})
 modules = registry.get("modules", [])
+record_families = model.get("record_families", [])
+model_domains = sorted({d for family in record_families for d in family.get("domains", [])})
 
 st.markdown("""
 <style>
@@ -51,12 +55,13 @@ st.markdown("""<div class="portal-hero"><div style="font-size:.75rem;font-weight
 metrics = mmsc.get("metrics", {})
 volumes = mundarica.get("volume_slots", [])
 verified = sum(1 for v in volumes if v.get("verified_complete") is True)
-cols = st.columns(5)
+cols = st.columns(6)
 cols[0].metric("Registered source discoveries", metrics.get("sources_discovered", len(master)))
 cols[1].metric("Mundarica volume slots", len(volumes))
 cols[2].metric("Mundarica VERIFIED COMPLETE", verified)
 cols[3].metric("Architecture modules", len(modules))
-cols[4].metric("Coverage rows", len(coverage.get("rows", [])))
+cols[4].metric("Information-model domains", len(model_domains))
+cols[5].metric("Coverage rows", len(coverage.get("rows", [])))
 st.caption("Metrics are calculated from registered repository state only. Public availability never implies reuse permission; OCR never implies verified transcription.")
 
 # Grouped navigation: intentionally not one giant flat radio list.
@@ -78,8 +83,20 @@ if module.get("enabled") is False:
 st.markdown(f"### {module['label']}")
 st.markdown(" ".join(f'<span class="badge">{d}</span>' for d in module.get("domains", [])), unsafe_allow_html=True)
 
+if label == "Home Research Dashboard":
+    st.subheader("Complete data skeleton")
+    c = st.columns(4)
+    c[0].metric("Record families", len(record_families))
+    c[1].metric("Explicit domain homes", len(model_domains))
+    c[2].metric("Applicable record fields", len(model.get("record_contract", {}).get("required_for_applicable_records", [])))
+    c[3].metric("Evidence-chain stages", len(model.get("evidence_chain", [])))
+    st.caption("These are schema/architecture counts, not evidence-completeness claims.")
+    family_rows = [{"family_id":f.get("family_id"), "data home":f.get("label"), "domains":", ".join(f.get("domains", [])), "schemas":", ".join(f.get("primary_schemas", [])), "access rule":f.get("access_rule", "standard evidence/access contract")} for f in record_families]
+    st.dataframe(family_rows, use_container_width=True, hide_index=True)
+    st.info("All record families are structure-ready. Evidence coverage remains independently audited through the coverage matrix and source/evidence registries.")
+
 # Universal Search: permitted metadata + public/open evidence only.
-if label == "Universal Search":
+elif label == "Universal Search":
     q = st.text_input("Keyword", placeholder="Search permitted source metadata and public/open evidence")
     f1,f2,f3 = st.columns(3)
     with f1: author = st.text_input("Author / creator")
