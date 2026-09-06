@@ -8,7 +8,7 @@
     {"register_type":"canonical_master_source_register","path":"data/source_register/master_sources.json","counted_records":14,"id_policy":"preserve_existing_SRC_ids"},
     {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":12,"counting_rule":"Count volume slots with a verified external locator that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V04","SRC-MUN-V05","SRC-MUN-V06","SRC-MUN-V07","SRC-MUN-V08","SRC-MUN-V09","SRC-MUN-V10","SRC-MUN-V11","SRC-MUN-V12","SRC-MUN-V13"]},
     {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":1,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
-    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json"],"counted_records":0,"observed_leads":32,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, an alternate locator, a catalogue wrapper, or a duplicate."}
+    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json"],"counted_records":0,"observed_leads":36,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, an alternate locator, a catalogue wrapper, or a duplicate."}
   ],
   "metrics": {
     "sources_discovered": 27,
@@ -19,34 +19,34 @@
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
     "mundarica_verified_complete_volumes": 0,
-    "web_discovery_leads_observed": 32,
+    "web_discovery_leads_observed": 36,
     "web_discovery_leads_counted_in_audited_identity_total": 0,
     "bibliographic_only_records": 1,
     "still_to_acquire_additional_discoveries": 13,
     "deduplicated_locator_matches": 1,
-    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 1 standalone MMSC bibliographic discovery = 27. Thirty-two reader-facing web-discovery leads are tracked separately and deliberately not added to this total until source-identity deduplication is complete. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public or catalogue availability is never interpreted as reuse permission."
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 1 standalone MMSC bibliographic discovery = 27. Thirty-six reader-facing web-discovery leads are tracked separately and deliberately not added to this total until source-identity deduplication is complete. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public or catalogue availability is never interpreted as reuse permission."
   },
   "latest_discovery": {
-    "source_id": "WEB-MUN-0032",
-    "title": "Munda Language Digital Archive — Bangladesh",
-    "source_type": "web_language_audio_archive_discovery_lead",
-    "canonical_url": "https://lob.bangla.gov.bd/languages/munda",
-    "availability": "public_web_archive_interface",
+    "source_id": "WEB-MUN-0036",
+    "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "source_type": "computational_linguistics_benchmark_paper_and_dataset_lead",
+    "canonical_url": "https://aclanthology.org/2025.mmloso-1.14/",
+    "availability": "public_open_access_article_dataset_locator_pending",
     "acquisition_state": "not_acquired",
-    "rights_reuse_status": "recording_level_consent_and_reuse_conditions_not_yet_assessed",
+    "rights_reuse_status": "dataset_level_licence_provenance_and_cultural_access_review_pending",
     "extraction_state": "not_started",
     "evidence_link_state": "not_linked",
-    "verification_state": "web_archive_locator_verified",
+    "verification_state": "publisher_metadata_verified",
     "provenance": {
-      "repository": "Multiling Cloud / Bangladesh government domain",
-      "checked_utc": "2026-09-06T19:20:00Z",
-      "caution": "Interface metadata is discovery evidence only. Individual recordings/transcriptions require contributor, consent, cultural-access and rights review before ingestion."
+      "repository": "Association for Computational Linguistics",
+      "checked_utc": "2026-09-06T19:34:00Z",
+      "caution": "Paper metadata is verified. Linked datasets, sentence origins, contributor conditions and licences must be separately audited before ingestion or reuse."
     }
   },
   "web_discovery_layer": {
     "path": "data/source_census/web_discovery_seed_2026-09-06.json",
-    "additional_paths": ["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json"],
-    "records": 32,
+    "additional_paths": ["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json"],
+    "records": 36,
     "state": "verified_source_leads_pending_identity_deduplication",
     "boundary": "Searchable discovery metadata only; not extracted cultural evidence and not included in audited source-identity totals until canonicalization."
   },
