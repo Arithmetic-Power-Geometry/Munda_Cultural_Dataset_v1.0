@@ -1,3 +1,3 @@
-from software.mlhkp_portal import render
+from software.mlhkp_knowledge_engine import render
 
 render()
