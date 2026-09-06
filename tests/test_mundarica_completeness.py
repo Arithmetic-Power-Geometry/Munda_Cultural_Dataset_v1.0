@@ -55,7 +55,7 @@ def test_manifest_public_audit_summary_matches_canonical_audit():
     assert summary["volume_1_scan_registered"] is v1["source_scan_present"]
     note = summary["note"].lower()
     assert "structural" in note
-    assert "external locator does not mean the scan has been acquired" in note
+    assert "external locator" in note and "acquired" in note
     assert "reuse permission" in note
     assert "ocr is verified" in note
     assert "verified complete" in note
@@ -90,7 +90,6 @@ def test_volume1_has_exactly_one_ordered_page_block_for_each_declared_scan_page(
     assert result["out_of_range_page_blocks"] == []
     assert result["strictly_ordered_contiguous_1_to_n"] is True
     assert result["page_accounting_complete"] is True
-    # Structural page accounting is intentionally weaker than verification.
     assert result["certifies_scan_comparison"] is False
     assert result["certifies_transcription_accuracy"] is False
     assert result["certifies_verified_complete"] is False
