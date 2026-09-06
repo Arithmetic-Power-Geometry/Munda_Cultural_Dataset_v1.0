@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 41
+    assert len(records) == 47
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 42)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 48)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,9 +42,9 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044']:
         note = records[source_id]['rights_note'].lower()
-        assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright'])
+        assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
     assert 'cc by 4.0' in glottolog['rights_note'].lower()
     assert 'does not transfer rights' in glottolog['rights_note'].lower()
@@ -101,6 +101,23 @@ def test_map_and_media_leads_preserve_primary_evidence_boundaries():
     museum = records['WEB-MUN-0041']
     assert 'separate source records' in museum['notes'].lower()
     assert 'cultural access' in museum['rights_note'].lower()
+    ezcc = records['WEB-MUN-0047']
+    assert 'cc by 3.0' in ezcc['rights_note'].lower()
+    assert '4:28' in ezcc['notes'] and '6:00' in ezcc['notes'] and '11:12' in ezcc['notes']
+    assert 'cultural-access' in ezcc['rights_note'].lower()
+
+
+def test_new_field_research_leads_are_context_bounded_and_safety_aware():
+    records = {r['id']: r for r in all_records()}
+    land = records['WEB-MUN-0043']
+    assert 'must not be universalized' in land['notes'].lower()
+    food = records['WEB-MUN-0045']
+    assert 'nine villages' in food['notes'].lower()
+    assert 'must not be generalized' in food['notes'].lower()
+    ethnobotany = records['WEB-MUN-0046']
+    assert 'no medicinal recommendation' in ethnobotany['notes'].lower()
+    assert 'safety' in ethnobotany['rights_note'].lower()
+    assert 'cultural-access' in ethnobotany['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
