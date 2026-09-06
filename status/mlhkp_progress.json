@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T11:40:00Z",
+  "updated_utc": "2026-09-06T11:58:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -47,7 +47,7 @@
       "content_state_changed_this_cycle": false
     },
     "E_publication_readiness": {
-      "status": "compile_dependency_repaired_awaiting_rerun",
+      "status": "compile_gate_proven_comparison_expanded_current_head_validation_pending",
       "main_tex": "publication/main.tex",
       "bibliography": "publication/references.bib",
       "metrics_generator": "publication/generate_release_metrics.py",
@@ -63,43 +63,58 @@
       "compile_sequence": "XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX",
       "unresolved_reference_gate": true,
       "compiled_pdf_artifact": "mlhkp-foundational-manuscript",
+      "compile_gate_last_confirmed_success_commit": "beac2ad75d50709867fd0b36c70594b106ae6698",
       "publication_package_pass": false,
-      "reason_not_pass": "Run 34027740340 failed before manuscript compilation because Ubuntu lacked biblatex.sty. The workflow dependency list now explicitly installs texlive-bibtex-extra; PASS remains false until the repaired workflow succeeds."
+      "reason_not_pass": "The reproducible compile gate is proven green after repairing the BibLaTeX dependency, but the manuscript and bibliography were subsequently expanded; the newest manuscript head must pass the same gate before the package is marked PASS."
     }
   },
   "changes_this_cycle": [
-    "Confirmed current head 7dae4abeadb557b00a186de47d3f6dd4c4b558e4 is green on MLHKP Migration Audit, MLHKP Source Register Audit and MLHKP Streamlit Smoke Test.",
-    "Inspected failed MLHKP Publication Build run 34027740340 and isolated the exact failure: biblatex.sty was absent from the Ubuntu TeX installation.",
-    "Confirmed the failed publication run had already regenerated real release metrics successfully and passed all 4 publication synchronization tests before the TeX compile step.",
-    "Repaired .github/workflows/mlhkp-publication-build.yml by adding texlive-bibtex-extra, the Ubuntu package that supplies the required BibLaTeX files, without weakening citation, Biber, PDF or unresolved-reference gates.",
-    "No Mundarica corpus, MMSC source data, cultural facts, rights decisions, access classes, OCR states, verification states or Streamlit corpus metrics changed in this cycle."
+    "Confirmed head 7dae4abeadb557b00a186de47d3f6dd4c4b558e4 green on Migration Audit, Source Register Audit and Streamlit Smoke Test; Publication Build run 34027740340 alone failed because biblatex.sty was absent.",
+    "Repaired the publication workflow with texlive-bibtex-extra in commit beac2ad75d50709867fd0b36c70594b106ae6698 without weakening any manuscript gate.",
+    "Confirmed all four workflows, including full XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX Publication Build run 34030590941, passed on repair commit beac2ad75d50709867fd0b36c70594b106ae6698.",
+    "Source-verified and added four DOI-backed comparison references covering Local Contexts, a Mukurtu-oriented Indigenous heritage system, CIDOC-CRM knowledge-graph validation and Indigenous data-sovereignty operationalisation.",
+    "Expanded the manuscript stewardship comparison and added a contribution matrix while explicitly stating that it describes design emphasis rather than superiority.",
+    "Strengthened publication tests to require the contribution matrix citation-before-table rule, caption-above rule, verified bibliography keys/DOIs and non-superiority language.",
+    "No Mundarica/MMSC corpus records, cultural facts, rights decisions, access classes, OCR states, verification states or live Streamlit corpus metrics changed."
   ],
   "commits_this_cycle": [
-    "beac2ad75d50709867fd0b36c70594b106ae6698 - Fix publication CI biblatex dependency"
+    "beac2ad75d50709867fd0b36c70594b106ae6698 - Fix publication CI biblatex dependency",
+    "d9cece20ffd5d327dc0ae1de073324974bf5a43f - Record publication build failure and dependency repair",
+    "5f54e61040eb18cd5ed0244893aa4625b576e91b - Add verified stewardship comparison references",
+    "0fc07ec3633c9b1c03d07417aa25fb7275b483b9 - Expand verified stewardship comparison and contribution matrix",
+    "70ee23b6f6920c383e3c8cc3c766e5616f99846c - Test publication comparison matrix and verified references"
   ],
   "streamlit_sync": {
     "status": "synced_no_corpus_content_change_this_cycle",
-    "detail": "This cycle changed publication CI infrastructure only. Canonical Mundarica/MMSC data and live Streamlit search, evidence, dashboard and gap metrics remain unchanged and synchronized."
+    "detail": "This cycle changed publication CI/manuscript infrastructure only. Canonical Mundarica/MMSC data and therefore live Streamlit search, evidence, dashboard and gap metrics remain unchanged and synchronized."
   },
   "tests_and_workflows": {
-    "confirmed_green_head": "7dae4abeadb557b00a186de47d3f6dd4c4b558e4",
+    "confirmed_full_green_commit": "beac2ad75d50709867fd0b36c70594b106ae6698",
     "confirmed_green_runs": [
-      {"run_id": 34027740309, "workflow": "MLHKP Migration Audit", "result": "success"},
-      {"run_id": 34027740272, "workflow": "MLHKP Source Register Audit", "result": "success"},
-      {"run_id": 34027740302, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"}
+      {"run_id": 34030590903, "workflow": "MLHKP Migration Audit", "result": "success"},
+      {"run_id": 34030590859, "workflow": "MLHKP Source Register Audit", "result": "success"},
+      {"run_id": 34030590854, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
+      {"run_id": 34030590941, "workflow": "MLHKP Publication Build", "result": "success"}
     ],
-    "publication_build_failure": {"run_id": 34027740340, "result": "failure", "passed_before_failure": ["release_metrics_generation", "publication_sync_tests_4_of_4"], "failure": "LaTeX Error: File biblatex.sty not found", "repair_commit": "beac2ad75d50709867fd0b36c70594b106ae6698"},
-    "publication_compile_gate": "repaired_rerun_pending"
+    "publication_sync_tests_on_failed_pre_repair_run": "4_passed_before_compile_dependency_failure",
+    "newest_manuscript_test_count_expected": 5,
+    "current_manuscript_head_before_status_commit": "70ee23b6f6920c383e3c8cc3c766e5616f99846c",
+    "current_manuscript_head_workflows": "pending_visibility"
   },
+  "publication_reference_verification": [
+    {"key": "christen2015localcontexts", "doi": "10.26077/78d5-47cf", "topic": "Local Contexts and Indigenous archival governance"},
+    {"key": "dutta2022mukurtu", "doi": "10.17821/srels/2022/v59i2/168787", "topic": "Mukurtu-oriented Indigenous cultural-heritage resource management"},
+    {"key": "faraj2021cidoc", "doi": "10.3390/fi13110277", "topic": "CIDOC-CRM cultural-heritage knowledge-graph representation and validation"},
+    {"key": "williamson2023sovereignty", "doi": "10.1177/26349825221125496", "topic": "Operationalising Indigenous data sovereignty and governance"}
+  ],
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
     "Volume I artifact reuse rights remain not assessed.",
     "Volumes II and III have verified external locators and external OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
-    "Volumes IV-XVI still require systematic locator discovery and registration.",
+    "Volumes IV-XVI still require systematic locator discovery and registration; the Volume IV web search in this cycle did not produce a sufficiently authoritative exact-volume locator, so no record was invented.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
-    "Publication package remains NOT PASS until the repaired XeLaTeX+Biber workflow completes successfully.",
-    "Broader manuscript comparison against Mukurtu, Local Contexts, CIDOC-CRM/cultural-heritage knowledge graphs and recent Indigenous stewardship literature requires additional source-verified bibliography expansion; no references were invented."
+    "Newest manuscript head must pass the publication workflow after bibliography/comparison expansion before publication_package_pass may become true."
   ],
   "integrity": {"permanent_volume_ids_preserved": true, "legacy_master_source_ids_preserved": true, "ocr_treated_as_verified": false, "rights_assumed_from_public_availability": false, "restricted_material_exposed": false, "verified_complete_volumes": 0, "main_branch_modified": false},
-  "next_best_action": "Verify the repaired publication build. If green, record publication compile PASS and proceed to source-verified comparison-literature expansion plus the next safe Mundarica/MMSC discovery; if another deterministic TeX/manuscript error appears, repair that exact error without weakening gates."
+  "next_best_action": "Confirm the publication workflow on the expanded manuscript head. In parallel continue authoritative Mundarica Volume IV discovery and systematic MMSC discovery; if no exact Volume IV locator is found, record that search gap and advance the next non-duplicate source class rather than guessing."
 }
