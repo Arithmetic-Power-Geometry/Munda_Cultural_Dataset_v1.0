@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "register_id": "MLHKP-MMSC",
   "title": "Master Munda Source Census",
-  "description": "Federated discovery census. Existing canonical source records remain in the master source register; newly discovered corpus-specific records remain in their evidence-preserving source bundles. This index measures the union without duplicating or renumbering permanent source IDs.",
+  "description": "Federated discovery census. Existing canonical source records remain in the master source register; newly discovered corpus-specific records remain in their evidence-preserving source bundles; standalone bibliographic discoveries are recorded separately. This index measures the union without duplicating or renumbering permanent source IDs.",
   "completeness_claim": "source_comprehensive_under_documented_protocol_only",
   "source_registers": [
     {
@@ -17,44 +17,53 @@
       "counted_records": 1,
       "counting_rule": "Count only volume slots with a verified external locator or a registered corpus artifact that are not already represented in the canonical master source register.",
       "currently_counted_source_ids": ["SRC-MUN-V02"]
+    },
+    {
+      "register_type": "mmsc_standalone_discoveries",
+      "path": "data/source_census/mmsc_discoveries.json",
+      "counted_records": 1,
+      "id_policy": "new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking",
+      "currently_counted_source_ids": ["SRC-MMSC-000001"]
     }
   ],
   "metrics": {
-    "sources_discovered": 15,
+    "sources_discovered": 16,
     "canonical_master_records": 14,
-    "additional_federated_discoveries": 1,
+    "additional_federated_discoveries": 2,
+    "standalone_mmsc_discoveries": 1,
     "mundarica_volume_locators_verified": 1,
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
     "mundarica_verified_complete_volumes": 0,
-    "note": "Counts are repository-derived discovery/accounting metrics, not claims that all Munda sources have already been discovered. The 14 canonical records and the independently located Volume II record are distinct counted source records in the current federated census. Volume I's working transcription is not added to sources_discovered because its source identity is represented by the reserved Mundarica corpus structure rather than a separately verified bibliographic locator in MMSC at this stage."
+    "bibliographic_only_records": 1,
+    "still_to_acquire_additional_discoveries": 2,
+    "note": "Counts are repository-derived discovery/accounting metrics, not claims that all Munda sources have already been discovered. The current union is 14 preserved canonical master-source records, one independently located Mundarica Volume II record, and one standalone WorldCat-verified Ram Dayal Munda bibliographic record. No online or catalogue availability is interpreted as reuse permission."
   },
   "latest_discovery": {
-    "source_id": "SRC-MUN-V02",
-    "title": "ENCYCLOPAEDIA MUNDARICA VOL. 2",
-    "creator": "HOFFMANN, JOHN",
-    "year": 1950,
-    "source_type": "historical_encyclopaedia_volume",
+    "source_id": "SRC-MMSC-000001",
+    "title": "The Jharkhand movement: indigenous peoples' struggle for autonomy in India",
+    "creator": "Ram Dayal Munda; S. Bosu Mullick (editors)",
+    "year": 2003,
+    "source_type": "edited_book",
     "language": ["English"],
-    "geographic_scope": "Munda / Chota Nagpur historical reference corpus",
-    "cultural_domains": ["multi_domain_reference"],
-    "canonical_url": "https://archive.org/details/dli.bengal.10689.21001",
-    "identifier": "dli.bengal.10689.21001",
-    "availability": "external_scan_and_ocr_derivatives_available",
-    "scan_state": "external_locator_verified_not_acquired",
-    "ocr_state": "external_machine_ocr_reported_unverified",
-    "full_text_state": "external_derivative_available_not_ingested",
+    "geographic_scope": "Jharkhand, India",
+    "cultural_domains": ["historical_contemporary_change", "indigenous_peoples", "regional_history_and_politics"],
+    "canonical_url": "https://search.worldcat.org/title/The-Jharkhand-movement-%3A-indigenous-peoples%27-struggle-for-autonomy-in-India/oclc/936769273",
+    "identifier": "OCLC 936769273",
+    "availability": "bibliographic_catalogue_record_verified",
+    "scan_state": "not_discovered_in_this_search_step",
+    "ocr_state": "not_discovered_in_this_search_step",
+    "full_text_state": "not_discovered_in_this_search_step",
     "acquisition_state": "not_acquired",
     "rights_reuse_status": "not_assessed",
     "extraction_state": "not_started",
     "evidence_link_state": "not_linked",
-    "verification_state": "metadata_verified_from_repository_item_page",
+    "verification_state": "catalogue_metadata_verified",
     "provenance": {
-      "repository": "Internet Archive",
-      "source_institution": "West Bengal Public Library Network / Krishnanagar Public Library",
-      "catalogued_pages": 406,
-      "catalogued_ocr_engine": "ABBYY FineReader 11.0 (Extended OCR)",
-      "checked_utc": "2026-09-06T05:35:00Z"
+      "repository": "WorldCat",
+      "catalogue_record": "OCLC 936769273",
+      "checked_utc": "2026-09-06T06:25:00Z",
+      "caution": "Bibliographic registration only; scan/full-text availability and reuse rights were not inferred."
     }
   },
   "protocol": "docs/mmsc_source_census_protocol.md"
