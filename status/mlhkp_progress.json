@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T12:56:00Z",
+  "updated_utc": "2026-09-06T13:00:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -61,7 +61,7 @@
       "corpus_content_changed_this_cycle": false
     },
     "E_publication_readiness": {
-      "status": "current_information_model_and_portal_sync_pending_latest_ci",
+      "status": "current_information_model_and_portal_sync_publication_ci_in_progress",
       "main_tex": "publication/main.tex",
       "bibliography": "publication/references.bib",
       "metrics_generator": "publication/generate_release_metrics.py",
@@ -77,22 +77,22 @@
       "compile_sequence": "XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX",
       "last_fully_green_manuscript_head": "46741c357a1c9d361b7627e664239c5273f34e75",
       "publication_package_pass": false,
-      "reason_not_pass": "The previous manuscript head is proven green. The current branch has a repaired MMSC audit and must complete the latest synchronized CI gates before PASS is asserted."
+      "reason_not_pass": "Migration, Source Register and Streamlit gates are green on repair commit 728ca7fe17b4fb3bf17b45f3d06ad7d010159583; its Publication Build is still in progress, so the current synchronized package is not yet marked PASS."
     }
   },
   "changes_this_cycle": [
-    "Confirmed previous head 46741c357a1c9d361b7627e664239c5273f34e75 green on Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
-    "Added data/information_model.json as a cultural-fact-free machine-readable data skeleton with 24 record families, 153 explicit domain homes, 23 applicable record fields, evidence-chain rules, Mundarica layer separation, rights/access precedence and fieldwork/source-census layer contracts.",
-    "Updated the Streamlit Home Research Dashboard to expose truthful schema metrics and a human-readable record-family/data-home table while explicitly separating architecture representation from evidence completeness.",
-    "Added tests/test_information_model_contract.py and wired it into Streamlit CI.",
-    "Extended publication release metrics and the manuscript with repository-derived information-model counts; strengthened publication synchronization tests accordingly.",
-    "Logged a new Mundarica Volume IV search as unresolved because a surfaced Volume IV link duplicated the registered Volume III Internet Archive identifier; no Volume IV record or cultural claim was invented.",
-    "Logged a CiNii Books catalogue candidate for J. Hoffmann's 1907 Mundari poetry, music and dances as duplicate-check-pending; no permanent SRC-MMSC ID was assigned yet.",
-    "Updated the Master Munda Source Census Streamlit view to show registered sources, standalone discoveries and the reproducible search log in human-readable tabs.",
-    "Expanded Universal Search to include permitted metadata from both the canonical master register and standalone MMSC discoveries.",
-    "Source Register Audit on fe582460f1a5634c0c800fe5497a29ddef0e4416 exposed one stale test that hard-coded exactly four search-log entries; Master Source validation itself and its four tests passed, and six of seven MMSC tests passed.",
-    "Repaired tests/test_mmsc_census.py to validate sequential append-safe search IDs dynamically and to explicitly require that unresolved Volume IV and duplicate-check-pending Hoffmann searches have empty result_source_ids and no permanent source assignment.",
-    "No Mundarica/MMSC cultural records, OCR/transcription states, rights decisions, access classes, permanent IDs or VERIFIED COMPLETE states changed."
+    "Confirmed previous head 46741c357a1c9d361b7627e664239c5273f34e75 green on all four workflows, including Publication Build.",
+    "Added a cultural-fact-free machine-readable complete information model with 24 record families, 153 explicit domain homes and 23 applicable record-contract fields.",
+    "Made the complete data skeleton visible in the Streamlit Home Research Dashboard and kept architecture representation explicitly separate from evidence completeness.",
+    "Added and CI-gated the complete information-model contract tests.",
+    "Synchronized publication metrics and manuscript text/table with the new information-model counts derived from repository state.",
+    "Logged an unresolved Mundarica Volume IV search rather than using a mismatched locator that duplicated Volume III; no Volume IV source or evidence record was invented.",
+    "Logged J. Hoffmann's 1907 Mundari poetry, music and dances CiNii catalogue record as a duplicate-check-pending candidate without assigning a permanent source ID or inferring full text/reuse rights.",
+    "Made MMSC standalone discoveries and the reproducible search log visible in Streamlit and expanded Universal Search to canonical plus standalone permitted metadata.",
+    "A stale exact-four-search-log test caused Source Register Audit failure on fe582460f1a5634c0c800fe5497a29ddef0e4416; the underlying master source validator remained PASS and six of seven MMSC tests passed.",
+    "Repaired the MMSC test to be append-safe while strengthening blocker semantics: unresolved and duplicate-check-pending searches must have no result source IDs/permanent source assignment.",
+    "Confirmed repair commit 728ca7fe17b4fb3bf17b45f3d06ad7d010159583 green on Migration Audit run 34033824018, Source Register Audit run 34033824013 and Streamlit Smoke Test run 34033824022; Publication Build run 34033824046 remains in progress.",
+    "No cultural facts, permanent source IDs, OCR/transcription verification, rights decisions, access classes or Mundarica VERIFIED COMPLETE states were changed."
   ],
   "commits_this_cycle": [
     "3a38c705e7df921e3064ff06ece16fd124af2e2e - Add complete MLHKP information-model contract",
@@ -115,20 +115,14 @@
   },
   "tests_and_workflows": {
     "last_confirmed_full_green_commit": "46741c357a1c9d361b7627e664239c5273f34e75",
-    "last_confirmed_full_green_runs": [
-      {"run_id": 34030735521, "workflow": "MLHKP Migration Audit", "result": "success"},
-      {"run_id": 34030735631, "workflow": "MLHKP Source Register Audit", "result": "success"},
-      {"run_id": 34030735524, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
-      {"run_id": 34030735529, "workflow": "MLHKP Publication Build", "result": "success"}
-    ],
-    "fe582460_results": [
-      {"run_id": 34033704807, "workflow": "MLHKP Migration Audit", "result": "success"},
-      {"run_id": 34033704802, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
-      {"run_id": 34033704811, "workflow": "MLHKP Source Register Audit", "result": "failure", "cause": "stale exact-four-search-log assertion; master-register validator and tests passed; MMSC was 6 passed, 1 failed"},
-      {"run_id": 34033704841, "workflow": "MLHKP Publication Build", "status_at_repair": "in_progress"}
-    ],
     "repair_commit": "728ca7fe17b4fb3bf17b45f3d06ad7d010159583",
-    "repair_strategy": "append-safe sequential search-ID validation plus explicit blocker/candidate assertions; no evidence safeguards weakened"
+    "repair_commit_runs": [
+      {"run_id": 34033824018, "workflow": "MLHKP Migration Audit", "result": "success"},
+      {"run_id": 34033824013, "workflow": "MLHKP Source Register Audit", "result": "success"},
+      {"run_id": 34033824022, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
+      {"run_id": 34033824046, "workflow": "MLHKP Publication Build", "status": "in_progress"}
+    ],
+    "repair_strategy": "append-safe sequential search-ID validation plus explicit unresolved/candidate blocker assertions; no evidence safeguards weakened"
   },
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
@@ -137,7 +131,7 @@
     "Volume IV exact authoritative locator remains unresolved because a secondary Volume IV link currently duplicates the registered Volume III identifier; no record may be created from that mismatch.",
     "The CiNii Hoffmann 1907 candidate requires duplicate/edition checking across all federated registers before assignment of a new permanent source ID.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
-    "Latest repaired branch head must pass Source Register, Streamlit and publication gates before publication_package_pass can be true."
+    "Publication Build on the latest repaired synchronized commit is still running; current publication package remains NOT PASS until it succeeds."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -148,5 +142,5 @@
     "verified_complete_volumes": 0,
     "main_branch_modified": false
   },
-  "next_best_action": "Confirm CI on the append-safe MMSC audit repair. Then complete duplicate/edition checking for the Hoffmann 1907 catalogue candidate; if unique, register it conservatively and synchronize MMSC metrics, Universal Search, manuscript metrics and tests. Continue authoritative Volume IV discovery independently without using the duplicate Volume III locator."
+  "next_best_action": "Confirm Publication Build on the repaired synchronized head. Then complete duplicate/edition checking for the Hoffmann 1907 catalogue candidate; if unique, register it conservatively and synchronize MMSC metrics, Universal Search, manuscript metrics and tests. Continue authoritative Volume IV discovery independently without using the duplicate Volume III locator."
 }
