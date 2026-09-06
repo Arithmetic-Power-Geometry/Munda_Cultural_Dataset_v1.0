@@ -2,7 +2,7 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T12:50:00Z",
+  "updated_utc": "2026-09-06T12:56:00Z",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
@@ -61,7 +61,7 @@
       "corpus_content_changed_this_cycle": false
     },
     "E_publication_readiness": {
-      "status": "current_information_model_and_portal_sync_pending_ci",
+      "status": "current_information_model_and_portal_sync_pending_latest_ci",
       "main_tex": "publication/main.tex",
       "bibliography": "publication/references.bib",
       "metrics_generator": "publication/generate_release_metrics.py",
@@ -77,7 +77,7 @@
       "compile_sequence": "XeLaTeX -> Biber -> XeLaTeX -> XeLaTeX",
       "last_fully_green_manuscript_head": "46741c357a1c9d361b7627e664239c5273f34e75",
       "publication_package_pass": false,
-      "reason_not_pass": "The previous manuscript head is proven green, but the current synchronized branch head is still running the Streamlit and publication gates."
+      "reason_not_pass": "The previous manuscript head is proven green. The current branch has a repaired MMSC audit and must complete the latest synchronized CI gates before PASS is asserted."
     }
   },
   "changes_this_cycle": [
@@ -90,7 +90,8 @@
     "Logged a CiNii Books catalogue candidate for J. Hoffmann's 1907 Mundari poetry, music and dances as duplicate-check-pending; no permanent SRC-MMSC ID was assigned yet.",
     "Updated the Master Munda Source Census Streamlit view to show registered sources, standalone discoveries and the reproducible search log in human-readable tabs.",
     "Expanded Universal Search to include permitted metadata from both the canonical master register and standalone MMSC discoveries.",
-    "Strengthened information-architecture tests to require MMSC search-log visibility, standalone discovery visibility and federated metadata search.",
+    "Source Register Audit on fe582460f1a5634c0c800fe5497a29ddef0e4416 exposed one stale test that hard-coded exactly four search-log entries; Master Source validation itself and its four tests passed, and six of seven MMSC tests passed.",
+    "Repaired tests/test_mmsc_census.py to validate sequential append-safe search IDs dynamically and to explicitly require that unresolved Volume IV and duplicate-check-pending Hoffmann searches have empty result_source_ids and no permanent source assignment.",
     "No Mundarica/MMSC cultural records, OCR/transcription states, rights decisions, access classes, permanent IDs or VERIFIED COMPLETE states changed."
   ],
   "commits_this_cycle": [
@@ -105,11 +106,12 @@
     "af45b7bfa6ac666d2d047f5fdcf74057af12d214 - Synchronize manuscript with complete information-model metrics",
     "1dcf6c53e874710f9619396e9fb455a035485556 - Log Mundarica IV and Hoffmann source-census searches",
     "2ee3a1a1f3180a5870d9039e7517f2c042f40158 - Expose MMSC search log and federated metadata in portal",
-    "fe582460f1a5634c0c800fe5497a29ddef0e4416 - Test MMSC search-log and federated metadata visibility"
+    "fe582460f1a5634c0c800fe5497a29ddef0e4416 - Test MMSC search-log and federated metadata visibility",
+    "728ca7fe17b4fb3bf17b45f3d06ad7d010159583 - Make MMSC search-log audit append-safe and blocker-aware"
   ],
   "streamlit_sync": {
     "status": "synced_architecture_and_search_log_change_no_corpus_content_change",
-    "detail": "The complete information-model skeleton, MMSC standalone discoveries and reproducible search log are visible. Universal Search now includes permitted standalone bibliographic metadata. Mundarica/evidence completion metrics remain unchanged because no corpus evidence was ingested."
+    "detail": "The complete information-model skeleton, MMSC standalone discoveries and reproducible search log are visible. Universal Search includes permitted standalone bibliographic metadata. Mundarica/evidence completion metrics remain unchanged because no corpus evidence was ingested."
   },
   "tests_and_workflows": {
     "last_confirmed_full_green_commit": "46741c357a1c9d361b7627e664239c5273f34e75",
@@ -119,13 +121,14 @@
       {"run_id": 34030735524, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
       {"run_id": 34030735529, "workflow": "MLHKP Publication Build", "result": "success"}
     ],
-    "current_tested_head_before_status_commit": "fe582460f1a5634c0c800fe5497a29ddef0e4416",
-    "current_head_runs_at_status_write": [
-      {"run_id": 34033704807, "workflow": "MLHKP Migration Audit", "status": "queued"},
-      {"run_id": 34033704811, "workflow": "MLHKP Source Register Audit", "status": "in_progress"},
-      {"run_id": 34033704802, "workflow": "MLHKP Streamlit Smoke Test", "status": "in_progress"},
-      {"run_id": 34033704841, "workflow": "MLHKP Publication Build", "status": "in_progress"}
-    ]
+    "fe582460_results": [
+      {"run_id": 34033704807, "workflow": "MLHKP Migration Audit", "result": "success"},
+      {"run_id": 34033704802, "workflow": "MLHKP Streamlit Smoke Test", "result": "success"},
+      {"run_id": 34033704811, "workflow": "MLHKP Source Register Audit", "result": "failure", "cause": "stale exact-four-search-log assertion; master-register validator and tests passed; MMSC was 6 passed, 1 failed"},
+      {"run_id": 34033704841, "workflow": "MLHKP Publication Build", "status_at_repair": "in_progress"}
+    ],
+    "repair_commit": "728ca7fe17b4fb3bf17b45f3d06ad7d010159583",
+    "repair_strategy": "append-safe sequential search-ID validation plus explicit blocker/candidate assertions; no evidence safeguards weakened"
   },
   "blockers": [
     "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription require source/specialist verification.",
@@ -134,7 +137,7 @@
     "Volume IV exact authoritative locator remains unresolved because a secondary Volume IV link currently duplicates the registered Volume III identifier; no record may be created from that mismatch.",
     "The CiNii Hoffmann 1907 candidate requires duplicate/edition checking across all federated registers before assignment of a new permanent source ID.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state remains Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available.",
-    "Current synchronized branch head must pass Streamlit and publication gates before publication_package_pass can be true."
+    "Latest repaired branch head must pass Source Register, Streamlit and publication gates before publication_package_pass can be true."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -145,5 +148,5 @@
     "verified_complete_volumes": 0,
     "main_branch_modified": false
   },
-  "next_best_action": "Confirm the current CI gates. Then complete duplicate/edition checking for the Hoffmann 1907 catalogue candidate; if unique, register it conservatively and synchronize MMSC metrics, Universal Search, manuscript metrics and tests. Continue authoritative Volume IV discovery independently without using the duplicate Volume III locator."
+  "next_best_action": "Confirm CI on the append-safe MMSC audit repair. Then complete duplicate/edition checking for the Hoffmann 1907 catalogue candidate; if unique, register it conservatively and synchronize MMSC metrics, Universal Search, manuscript metrics and tests. Continue authoritative Volume IV discovery independently without using the duplicate Volume III locator."
 }
