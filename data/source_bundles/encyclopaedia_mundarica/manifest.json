@@ -18,6 +18,7 @@
     "registered_artifacts": 1,
     "registered_authoritative_scans": 0,
     "registered_working_transcriptions": 1,
+    "externally_located_volumes": 1,
     "volume_1_declared_scan_pages": 324,
     "volume_1_page_blocks_detected": 324,
     "volume_1_missing_page_blocks": 0,
@@ -25,7 +26,10 @@
     "volume_1_out_of_range_page_blocks": 0,
     "volume_1_page_order_complete": true,
     "volume_1_scan_registered": false,
-    "note": "These are structural corpus-audit and artifact-registration metrics only. They do not certify scan comparison, transcription accuracy, reuse permission, or verified-complete status."
+    "volume_2_external_locator_verified": true,
+    "volume_2_external_scan_pages_reported": 406,
+    "volume_2_local_scan_registered": false,
+    "note": "These are structural corpus-audit, artifact-registration and source-discovery metrics only. An external locator does not mean the scan has been acquired into MLHKP, that reuse permission exists, that OCR is verified, or that a volume is verified complete."
   },
   "required_volume_structure": {
     "source": ["source_id", "title", "collection_id", "volume", "access_class"],
@@ -34,7 +38,31 @@
   },
   "volume_slots": [
     {"volume": 1, "source_id": "SRC-MUN-V01", "status": "working_transcription_registered_page_accounting_complete", "verified_complete": false},
-    {"volume": 2, "source_id": "SRC-MUN-V02", "status": "pending", "verified_complete": false},
+    {
+      "volume": 2,
+      "source_id": "SRC-MUN-V02",
+      "status": "external_source_locator_verified_not_ingested",
+      "verified_complete": false,
+      "external_source": {
+        "repository": "Internet Archive",
+        "canonical_url": "https://archive.org/details/dli.bengal.10689.21001",
+        "identifier": "dli.bengal.10689.21001",
+        "ark": "ark:/13960/t45r27p2m",
+        "title_as_catalogued": "ENCYCLOPAEDIA MUNDARICA VOL. 2",
+        "creator_as_catalogued": "HOFFMANN, JOHN",
+        "publication_year_as_catalogued": 1950,
+        "publisher_as_catalogued": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+        "language_as_catalogued": "English",
+        "source_institution": "West Bengal Public Library Network / Krishnanagar Public Library",
+        "scanning_centre": "C-DAC Kolkata",
+        "total_pages_as_catalogued": 406,
+        "ocr_engine_as_catalogued": "ABBYY FineReader 11.0 (Extended OCR)",
+        "available_derivatives_observed": ["ABBYY GZ", "FULL TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"],
+        "rights_status": "not_assessed",
+        "acquisition_status": "locator_verified_not_acquired",
+        "verification_note": "Metadata and download availability were checked against the Internet Archive item page. No local scan artifact is registered. OCR remains machine-generated and unverified. Public availability is not treated as reuse permission."
+      }
+    },
     {"volume": 3, "source_id": "SRC-MUN-V03", "status": "pending", "verified_complete": false},
     {"volume": 4, "source_id": "SRC-MUN-V04", "status": "pending", "verified_complete": false},
     {"volume": 5, "source_id": "SRC-MUN-V05", "status": "pending", "verified_complete": false},
