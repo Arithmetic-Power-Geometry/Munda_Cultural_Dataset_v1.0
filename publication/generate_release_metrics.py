@@ -25,6 +25,8 @@ def metrics():
     return {
         "generated_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "sources_discovered": mmsc["metrics"]["sources_discovered"],
+        "web_discovery_leads_observed": mmsc["metrics"]["web_discovery_leads_observed"],
+        "web_discovery_leads_counted_in_audited_identity_total": mmsc["metrics"]["web_discovery_leads_counted_in_audited_identity_total"],
         "canonical_master_records": mmsc["metrics"]["canonical_master_records"],
         "additional_federated_discoveries": mmsc["metrics"]["additional_federated_discoveries"],
         "still_to_acquire_additional_discoveries": mmsc["metrics"]["still_to_acquire_additional_discoveries"],
@@ -54,6 +56,8 @@ def main():
     OUT_JSON.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     macros = {
         "MLHKPSourcesDiscovered": data["sources_discovered"],
+        "MLHKPWebDiscoveryLeads": data["web_discovery_leads_observed"],
+        "MLHKPWebDiscoveryCounted": data["web_discovery_leads_counted_in_audited_identity_total"],
         "MLHKPCanonicalSources": data["canonical_master_records"],
         "MLHKPAdditionalDiscoveries": data["additional_federated_discoveries"],
         "MLHKPStillToAcquire": data["still_to_acquire_additional_discoveries"],
