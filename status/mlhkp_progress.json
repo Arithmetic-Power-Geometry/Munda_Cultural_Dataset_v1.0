@@ -2,45 +2,53 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-06T22:24:00Z",
+  "updated_utc":"2026-09-06T22:42:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
-    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":52,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
+    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":56,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
-    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":52,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob"},
-    "E_publication_readiness":{"status":"publication_build_passed_on_83eedea_head; current source-expansion head awaiting reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_coverage_rows":32}
+    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":56,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob"},
+    "E_publication_readiness":{"status":"publication_metrics_synchronized_to_source_run_8; current head awaiting CI/build reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":56,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
-    "Expanded non-Mundarica web discovery from 47 to 52 verified source leads without changing the audited MMSC identity total of 27.",
-    "Added WEB-MUN-0048 Hengeveld and Rijkhoff 2005, peer-reviewed Mundari lexical-class analysis verified through Aarhus University metadata.",
-    "Added WEB-MUN-0049 Peterson 2005, peer-reviewed lexical-class commentary verified through Osnabrueck University metadata.",
-    "Added WEB-MUN-0050 J. C. Whitley's 1873 A Mundari Primer, verified through Deutsche Digitale Bibliothek/Bayerische Staatsbibliothek metadata with the repository's noncommercial-use restriction preserved.",
-    "Added WEB-MUN-0051 Alfred Nottrott's 1882 Grammatik der Kolh-Sprache, verified through WALS as a Mundari grammar source lead.",
-    "Added WEB-MUN-0052 Horo, Gogoi and Anderson 2023 Phonetic Correlates of Syllable Prominence in Mundari, verified through the ISCA Archive; participant-derived recordings/data remain outside ingestion pending source-specific governance review.",
-    "Synchronized the MMSC index, discovery search log and source-discovery tests to 52 sequential unique WEB-MUN records.",
-    "No cultural or linguistic proposition was promoted from discovery metadata into evidence, and no public availability was interpreted as unrestricted reuse permission."
+    "Expanded non-Mundarica web discovery from 52 to 56 verified source leads without changing the audited MMSC identity total of 27.",
+    "Added WEB-MUN-0053 Census of India C-16 Population by mother tongue, India 2011 as an official demographic/language dataset lead; census language returns are explicitly not treated as complete cultural identity or community-membership measures.",
+    "Added WEB-MUN-0054 Language Atlas of India 1991 using national-library bibliographic verification and the ORGI Language Division description; map/table evidence remains period-specific and requires exact atlas locators.",
+    "Added WEB-MUN-0055 Ahmed Shamim's 2021 CUNY doctoral dissertation on Koda as a comparative Munda-language lead; findings are explicitly barred from transfer to Mundari without independent evidence.",
+    "Added WEB-MUN-0056 Mundari.in as a contemporary web/media discovery lead; individual songs, videos, images, worship materials and statements require item-level provenance, rights, consent and cultural-access review.",
+    "Synchronized the MMSC index and reproducible search log to 56 sequential discovery leads while preserving zero discovery leads in the audited identity total.",
+    "Extended source-discovery integrity tests through WEB-MUN-0056, including demographic-category, historical-atlas, comparative-language and web-media scope/rights boundaries.",
+    "Extended publication metric generation to expose web_discovery_leads_observed and web_discovery_leads_counted_in_audited_identity_total separately from audited sources, then regenerated JSON and LaTeX metrics to 56 and 0 respectively.",
+    "Streamlit needs no filename-specific patch because its current discovery loader dynamically loads web_discovery expansion JSON files; the new leads therefore enter the searchable discovery layer without changing cultural evidence tables.",
+    "No cultural, linguistic, demographic, religious or media proposition was promoted from discovery metadata into evidence, and no public availability was interpreted as unrestricted reuse permission."
   ],
   "commits_this_cycle":[
-    "9540715a8dff3a784e2fe34de5b9597413736e01 - Expand non-Mundarica source discovery run 7",
-    "ccc91054d971188cece7c7cfb6bcd60736ff4000 - Synchronize MMSC with source expansion run 7",
-    "a439919964970dff4e954bccd9e93e2f9e35c940 - Log non-Mundarica discovery run 7",
-    "d9e7a348aaf7df191d2d6b4d148f1bc5269990cc - Extend source-discovery integrity tests through WEB-MUN-0052"
+    "a1c3d33bcae0cd2584cef6d0ef92cd3e8e6d3f2c - Expand non-Mundarica source discovery run 8",
+    "f4aec98b767de96f2d58f2a60225e41f66d20d47 - Synchronize MMSC with source expansion run 8",
+    "52460c6fa77df436eca5013938dea8523a2938cc - Log non-Mundarica discovery run 8",
+    "57166baa1e4e49f210fb169ea103ebff92352e22 - Extend source-discovery integrity tests through WEB-MUN-0056",
+    "dba616cbb471ea084be257e112fa63690823b5d7 - Include discovery-layer metrics in publication synchronization",
+    "faa6e41c1c385c4582f5c72a44b9364604647018 - Regenerate publication release metrics for source run 8",
+    "2ae3e0c48d717787f3279ac4400ccdd8df44a5a6 - Regenerate LaTeX release macros for source run 8"
   ],
-  "tests_and_workflows":{"status":"source_expansion_tests_updated_ci_reconfirmation_pending","last_observed_head":"d9e7a348aaf7df191d2d6b4d148f1bc5269990cc","migration_audit":"previously_PASS","source_register_audit":"previously_PASS","publication_build":"previously_PASS","streamlit_smoke":"previous_stale_governance_failure_repaired_before_this_cycle","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the current source-expansion head."},
+  "tests_and_workflows":{"status":"source_expansion_and_publication_sync_tests_updated_ci_reconfirmation_pending","last_observed_head":"2ae3e0c48d717787f3279ac4400ccdd8df44a5a6","migration_audit":"PASS_on_pre_run8_head_6c6b8c05","source_register_audit":"PASS_on_pre_run8_head_6c6b8c05","publication_build":"previously_PASS_before_run8; current_head_reconfirmation_pending","streamlit_smoke":"previously_repaired; current_head_reconfirmation_pending","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the current source-expansion head."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
-    "Fifty-two non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "Fifty-six non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
     "Full-text access or reuse status remains unresolved for some registered discovery leads; discovery metadata is retained without asserting acquisition.",
+    "Census language categories require exact table/variable/geography extraction and must not be equated automatically with cultural identity, ethnicity, community membership or contemporary language vitality.",
+    "Language Atlas map/table evidence requires exact page/map locators and historical 1991 Census framing before evidence use.",
+    "Comparative Koda/Kɔɖa findings must not be transferred to Mundari without independent Mundari evidence.",
+    "Contemporary web/media sources require item-level creator/custodian identity, provenance, rights, performer/speaker consent and cultural-access review before extraction, transcription, redistribution, model training or recontextualization.",
     "Historical primers and grammars require exact page/entry locators and explicit historical-source framing before proposition-level evidence use.",
     "Competing lexical-class analyses must be represented as attributed interpretations/contradictions rather than collapsed into a single settled claim.",
-    "Participant-derived speech recordings or datasets associated with modern phonetics work require source-specific consent/data-governance review and MLHKP cultural-access controls before ingestion.",
+    "Participant-derived speech recordings or datasets require source-specific consent/data-governance review and MLHKP cultural-access controls before ingestion.",
     "Ethnobotanical/medicinal knowledge requires exact-locator evidence, safety review, consent/provenance checks, benefit-sharing consideration and cultural-access controls before structured public use.",
-    "Audiovisual licensing does not by itself establish community consent or cultural appropriateness for extraction/recontextualization.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
     "Current source-expansion head requires CI reconfirmation before whole-repository PASS."
   ],
-  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"duplicate_founder_entrypoint_metadata":false},
-  "next_best_action":"Continue deterministic canonicalization of the 52 discovery leads, prioritize permitted acquisition of historical language sources and exact locators, and verify CI on the current head without touching main."
+  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false},
+  "next_best_action":"Continue deterministic canonicalization of the 56 discovery leads, prioritize official Census/LSI/TRI and historical-language-source acquisitions with exact locators where permitted, continue Mundarica XIV-XVI locator discovery, and verify all CI workflows on the current head without touching main."
 }
