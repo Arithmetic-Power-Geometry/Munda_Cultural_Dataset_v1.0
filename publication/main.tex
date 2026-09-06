@@ -10,13 +10,13 @@
 
 \title{MLHKP/MCD: An Evidence-Preserving, Community-Governed Digital Infrastructure for Munda Cultural Knowledge}
 \author{Mohammad Amir Khusru Akhtar et al.}
-\date{Repository snapshot: 6 September 2026}
+\date{Repository snapshot: 7 September 2026}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Digitising cultural knowledge creates a tension that ordinary dataset pipelines handle poorly: researchers need searchable, computable evidence, while communities require provenance, contextual integrity, differentiated access, correction pathways, and the ability to prevent sensitive knowledge from being flattened into universally reusable data. We present the Munda Living Heritage Knowledge Project / Munda Cultural Dataset (MLHKP/MCD), an evidence-preserving infrastructure for progressively organising Munda and Mundari cultural sources without converting historical reports, machine OCR, uncertain transcription, restricted material, or unreviewed interpretations into verified contemporary facts. The architecture separates source discovery, acquisition, scans, raw OCR, working transcription, verified transcription, structured records, evidence, claims, indicators, and domains. It combines a systematic Master Munda Source Census, permanent identifiers, rights and access metadata, contradiction and uncertainty links, community-validation hooks, and machine-readable completeness audits with a public/research Streamlit interface. At the current repository snapshot, the census contains \MLHKPSourcesDiscovered{} discovered source records under the documented protocol, the information architecture exposes \MLHKPModules{} mapped modules across \MLHKPRecordFamilies{} record families and \MLHKPDomainHomes{} explicit domain homes, and \MLHKPMundaricaVerified{} of \MLHKPMundaricaExpected{} Mundarica volumes satisfy the verified-complete gate. The framework complements FAIR data stewardship with CARE-oriented governance by treating cultural access and provenance as constraints that override mere technical availability or future commercial entitlement.
+Digitising cultural knowledge creates a tension that ordinary dataset pipelines handle poorly: researchers need searchable, computable evidence, while communities require provenance, contextual integrity, differentiated access, correction pathways, and the ability to prevent sensitive knowledge from being flattened into universally reusable data. We present the Munda Living Heritage Knowledge Project / Munda Cultural Dataset (MLHKP/MCD), an evidence-preserving infrastructure for progressively organising Munda and Mundari cultural sources without converting historical reports, machine OCR, uncertain transcription, restricted material, or unreviewed interpretations into verified contemporary facts. The architecture separates source discovery, acquisition, scans, raw OCR, working transcription, verified transcription, structured records, evidence, claims, indicators, and domains. It combines a systematic Master Munda Source Census, permanent identifiers, rights and access metadata, contradiction and uncertainty links, community-validation hooks, and machine-readable completeness audits with a public/research Streamlit interface. At the current repository snapshot, the census contains \MLHKPSourcesDiscovered{} audited source identities under the documented protocol, while \MLHKPWebDiscoveryLeads{} external discovery leads remain a separate pre-canonicalization layer and \MLHKPWebDiscoveryCounted{} of those leads are counted in the audited identity total. The information architecture exposes \MLHKPModules{} mapped modules across \MLHKPRecordFamilies{} record families and \MLHKPDomainHomes{} explicit domain homes, and \MLHKPMundaricaVerified{} of \MLHKPMundaricaExpected{} Mundarica volumes satisfy the verified-complete gate. The framework complements FAIR data stewardship with CARE-oriented governance by treating cultural access and provenance as constraints that override mere technical availability or future commercial entitlement.
 \end{abstract}
 
 \noindent\textbf{Keywords:} Indigenous data governance; Munda cultural heritage; evidence graph; provenance; FAIR; CARE
@@ -37,7 +37,9 @@ Table~\ref{tab:release} reports metrics generated from canonical repository file
 \toprule
 Metric & Value \\
 \midrule
-Discovered sources under current census protocol & \MLHKPSourcesDiscovered{} \\
+Audited source identities under current census protocol & \MLHKPSourcesDiscovered{} \\
+External discovery leads observed & \MLHKPWebDiscoveryLeads{} \\
+External discovery leads counted as audited identities & \MLHKPWebDiscoveryCounted{} \\
 Canonical master-source records & \MLHKPCanonicalSources{} \\
 Additional federated discoveries & \MLHKPAdditionalDiscoveries{} \\
 Still to acquire among additional discoveries & \MLHKPStillToAcquire{} \\
@@ -118,8 +120,11 @@ MLHKP/MCD release audit & Evidence-preserving corpus growth under incomplete and
 \end{tabular}
 \end{table}
 
-\section{Limitations and release interpretation}
-The current source census is incomplete in the ordinary empirical sense and is never presented as future-proof or metaphysically complete. Mundarica Volume I has structural page accounting but lacks a registered authoritative scan; Volumes II and III have externally verified locators but no locally registered authoritative scan artifacts; Volumes IV--XVI remain discovery/acquisition work. Consequently, \MLHKPMundaricaVerified{} volumes are VERIFIED COMPLETE in this snapshot. Community validation, reuse permission and present-day universality must be established independently for records that require them. The \MLHKPDomainHomes{} explicit domain homes indicate schema representation only; they must not be interpreted as evidence coverage or cultural completeness.
+\section{Limitations and release semantics}
+The current release is an infrastructure and audited snapshot, not a claim of source completeness, cultural completeness, community-wide validation, or open redistribution rights. Evidence-empty modules remain explicitly marked as structure-ready. Mundarica OCR, where present, is not equivalent to verified transcription. Historical accounts remain attributed to their sources and periods. Discovery leads remain outside the audited source-identity total until canonicalization resolves duplicates, editions, wrappers and alternate locators. The completeness claim is therefore release-bounded and operational: the system can audit what has been represented, processed, linked, restricted and left unresolved under a declared protocol, but it is never presented as future-proof or metaphysically complete.
+
+\section{Conclusion}
+MLHKP/MCD demonstrates a path from a cultural dataset toward an auditable knowledge infrastructure. Its central design choice is to make uncertainty, provenance, rights, contradiction, verification and absence first-class computational objects. This allows the public interface, research workflows and scholarly manuscript to evolve from the same repository state without silently upgrading discovery into evidence or access into permission. Future work will deepen source acquisition, exact-locator evidence extraction, community review and comparative evaluation while preserving these boundaries.
 
 \printbibliography
 \end{document}
