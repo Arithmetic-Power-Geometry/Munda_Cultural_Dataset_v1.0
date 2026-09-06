@@ -3,18 +3,17 @@
   "branch": "mlhkp-v2",
   "current_module": "03-encyclopaedia-mundarica-1-16",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T01:33:00Z",
+  "updated_utc": "2026-09-06T02:31:00Z",
   "changes_this_cycle": [
-    "Added software/validate_mundarica_artifact_registry.py as a deterministic, standard-library registry gate.",
-    "The validator checks registry identity, permanent source/volume consistency, unique artifact IDs, allowed roles, rights/access/verification metadata, repository-path safety and existence, optional SHA-256 integrity, and provenance source descriptions.",
-    "Encoded safety failures for scan authority on non-scan artifacts, authoritative scans without scan authority, working/raw OCR artifacts marked verified_against_scan, and verified-transcription role without verified_against_scan status.",
-    "Added tests that mutate the current registry to prove source/volume mismatch, false verification, false scan authority, and missing repository artifacts are rejected.",
-    "The validator emits a non-failing warning when open access coexists with unassessed/restricted-style rights metadata, preserving the rule that access never establishes reuse permission.",
-    "Wired registry validation and its dedicated tests into the MLHKP Streamlit Smoke Test before the existing artifact-contract, completeness, and UI gates."
+    "Diagnosed the latest MLHKP Streamlit Smoke Test failure instead of bypassing it.",
+    "Confirmed migration integrity, Master Source Register integrity, Volume I page accounting, artifact-registry validation, registry-validator mutation tests, and artifact-contract tests all passed before the failure point.",
+    "Identified the failure as a stale completeness-test expectation: the canonical manifest correctly reports working_transcription_registered_page_accounting_complete while the test still expected the pre-registry status working_transcription_page_accounting_complete.",
+    "Updated tests/test_mundarica_completeness.py to assert the current registry-backed status without weakening any verification gate.",
+    "No Mundarica cultural content, OCR/transcription accuracy claim, page accounting value, rights decision, or verified-complete state was changed."
   ],
   "streamlit_sync": {
-    "status": "no_public_corpus_value_changed_ci_gate_strengthened",
-    "detail": "No Mundarica manifest, page count, transcription status, structured content, verification metric, story/term, or completeness value changed this cycle. Streamlit therefore remains synchronized with the existing manifest; its CI gate now rejects unsafe artifact-registry changes before public state can be accepted."
+    "status": "manifest_state_unchanged_ci_consistency_repaired",
+    "detail": "The public Streamlit-facing manifest remains the canonical source for the registry-backed Volume I status. This cycle repaired the CI assertion so tests match that existing state; no public corpus value was changed and VERIFIED COMPLETE remains impossible without the canonical audit gates."
   },
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -33,9 +32,19 @@
     "main_branch_modified": false
   },
   "tests": {
-    "latest_code_commit": "ad0a665028b106e5283a432d29fec2390e8699bf",
-    "workflow": "MLHKP Streamlit Smoke Test",
-    "state_at_record_time": "triggered by validator/CI changes; final GitHub conclusion pending verification",
+    "failing_workflow_run": 34004227478,
+    "failure_step": "Enforce Mundarica completeness gates",
+    "failure_cause": "stale expected Volume I manifest status string after artifact registration",
+    "fix_commit": "473f81fe120886378e58a9e3864bfa764d494d4f",
+    "state_at_record_time": "fix committed; new PR workflow run not yet visible",
+    "already_confirmed_pass_before_failure": [
+      "MLHKP Migration Audit",
+      "MLHKP Source Register Audit",
+      "Volume I page-accounting audit",
+      "Mundarica artifact-registry validator",
+      "tests/test_mundarica_artifact_registry_validator.py: 6 passed",
+      "tests/test_mundarica_artifact_schema.py: 6 passed"
+    ],
     "relevant_tests": [
       "tests/test_mundarica_artifact_registry_validator.py",
       "tests/test_mundarica_artifact_schema.py",
@@ -48,5 +57,5 @@
     "Volume I artifact reuse rights have not been assessed; repository visibility is not treated as reuse permission.",
     "Volumes II-XVI still have no corpus artifacts in the current repository build."
   ],
-  "next_best_action": "After CI confirms the new registry gate, expose registry-validation health and registered-artifact/scan-presence counts as read-only Streamlit Mundarica audit metrics sourced from machine-readable data, without changing any verification state."
+  "next_best_action": "Verify the repaired PR CI. If green, expose registry-validation health and registered-artifact/authoritative-scan counts as read-only Streamlit Mundarica audit metrics sourced only from machine-readable registry/manifest data."
 }
