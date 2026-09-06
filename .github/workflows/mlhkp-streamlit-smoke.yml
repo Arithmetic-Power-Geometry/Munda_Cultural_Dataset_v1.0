@@ -14,6 +14,7 @@ on:
       - 'tests/test_streamlit_app.py'
       - 'tests/test_mundarica_completeness.py'
       - 'tests/test_mundarica_artifact_schema.py'
+      - 'tests/test_mundarica_artifact_registry_validator.py'
       - '.github/workflows/mlhkp-streamlit-smoke.yml'
   pull_request:
     paths:
@@ -26,6 +27,7 @@ on:
       - 'tests/test_streamlit_app.py'
       - 'tests/test_mundarica_completeness.py'
       - 'tests/test_mundarica_artifact_schema.py'
+      - 'tests/test_mundarica_artifact_registry_validator.py'
       - '.github/workflows/mlhkp-streamlit-smoke.yml'
 
 jobs:
@@ -44,13 +46,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt pytest
       - name: Compile Streamlit application and audit utilities
-        run: python -m py_compile streamlit_app.py software/db.py software/auth.py software/reporting.py software/audit_mundarica_pages.py
+        run: python -m py_compile streamlit_app.py software/db.py software/auth.py software/reporting.py software/audit_mundarica_pages.py software/validate_mundarica_artifact_registry.py
       - name: Preserve baseline migration integrity
         run: python software/audit_mlhkp_migration.py
       - name: Preserve Master Source Register integrity
         run: python software/validate_master_source_register.py
       - name: Audit Mundarica Volume I page accounting
         run: python software/audit_mundarica_pages.py --json
+      - name: Validate Mundarica artifact registry
+        run: python software/validate_mundarica_artifact_registry.py --json
+      - name: Test Mundarica artifact registry validator
+        run: pytest -q tests/test_mundarica_artifact_registry_validator.py
       - name: Validate Mundarica source-artifact contract
         run: pytest -q tests/test_mundarica_artifact_schema.py
       - name: Enforce Mundarica completeness gates
