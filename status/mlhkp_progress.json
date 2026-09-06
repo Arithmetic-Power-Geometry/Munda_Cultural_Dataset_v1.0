@@ -3,17 +3,17 @@
   "branch": "mlhkp-v2",
   "current_module": "03-encyclopaedia-mundarica-1-16",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T02:31:00Z",
+  "updated_utc": "2026-09-06T04:31:00Z",
   "changes_this_cycle": [
-    "Diagnosed the latest MLHKP Streamlit Smoke Test failure instead of bypassing it.",
-    "Confirmed migration integrity, Master Source Register integrity, Volume I page accounting, artifact-registry validation, registry-validator mutation tests, and artifact-contract tests all passed before the failure point.",
-    "Identified the failure as a stale completeness-test expectation: the canonical manifest correctly reports working_transcription_registered_page_accounting_complete while the test still expected the pre-registry status working_transcription_page_accounting_complete.",
-    "Updated tests/test_mundarica_completeness.py to assert the current registry-backed status without weakening any verification gate.",
-    "No Mundarica cultural content, OCR/transcription accuracy claim, page accounting value, rights decision, or verified-complete state was changed."
+    "Inspected the live Streamlit founder cards and footer before applying the requested governance cleanup.",
+    "Confirmed Mr. Rajan Pahan is already identified as Founding Community Coordination, Meetings & Logistics Lead and the current card enumerates community consultations, elders/Pahans/customary leaders/practitioners/families/youth/women/performers/artisans/musicians/storytellers, culturally appropriate introductions, local communication, venues, travel, recording locations, guides, participant mobilisation and follow-up records.",
+    "Detected that the global footer still duplicates the complete founding record and therefore still requires removal.",
+    "A malformed whole-file contents update was immediately neutralized by creating a restoration commit from the exact pre-change repository tree and fast-forwarding mlhkp-v2 to it; the Streamlit application and all prior MLHKP work were restored without changing main.",
+    "No Mundarica data, permanent IDs, provenance, rights/access state, OCR/transcription state, verification metrics or cultural content were changed."
   ],
   "streamlit_sync": {
-    "status": "manifest_state_unchanged_ci_consistency_repaired",
-    "detail": "The public Streamlit-facing manifest remains the canonical source for the registry-backed Volume I status. This cycle repaired the CI assertion so tests match that existing state; no public corpus value was changed and VERIFIED COMPLETE remains impossible without the canonical audit gates."
+    "status": "restored_exact_prechange_state_governance_cleanup_pending",
+    "detail": "streamlit_app.py is restored to the exact pre-change tree. The requested footer de-duplication and explicit Rajan Pahan scholarly-authority boundary remain the next safe UI edit; no corpus-facing state changed."
   },
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -29,22 +29,15 @@
     "working_transcription_treated_as_verified": false,
     "rights_assumed_from_repository_visibility": false,
     "artifact_registry_validator_added": true,
-    "main_branch_modified": false
+    "main_branch_modified": false,
+    "streamlit_restored_after_malformed_update": true
   },
   "tests": {
-    "failing_workflow_run": 34004227478,
-    "failure_step": "Enforce Mundarica completeness gates",
-    "failure_cause": "stale expected Volume I manifest status string after artifact registration",
-    "fix_commit": "473f81fe120886378e58a9e3864bfa764d494d4f",
-    "state_at_record_time": "fix committed; new PR workflow run not yet visible",
-    "already_confirmed_pass_before_failure": [
-      "MLHKP Migration Audit",
-      "MLHKP Source Register Audit",
-      "Volume I page-accounting audit",
-      "Mundarica artifact-registry validator",
-      "tests/test_mundarica_artifact_registry_validator.py: 6 passed",
-      "tests/test_mundarica_artifact_schema.py: 6 passed"
-    ],
+    "previous_failing_workflow_run": 34004227478,
+    "previous_failure_cause": "stale expected Volume I manifest status string after artifact registration",
+    "previous_fix_commit": "473f81fe120886378e58a9e3864bfa764d494d4f",
+    "restoration_commit": "16c682240ded80e2e0b3808d389dd4c34b899e6e",
+    "state_at_record_time": "repository tree restored; governance cleanup not yet committed, so no new verification claim is made",
     "relevant_tests": [
       "tests/test_mundarica_artifact_registry_validator.py",
       "tests/test_mundarica_artifact_schema.py",
@@ -57,5 +50,5 @@
     "Volume I artifact reuse rights have not been assessed; repository visibility is not treated as reuse permission.",
     "Volumes II-XVI still have no corpus artifacts in the current repository build."
   ],
-  "next_best_action": "Verify the repaired PR CI. If green, expose registry-validation health and registered-artifact/authoritative-scan counts as read-only Streamlit Mundarica audit metrics sourced only from machine-readable registry/manifest data."
+  "next_best_action": "Apply the governance cleanup to streamlit_app.py with an exact-content-preserving edit: retain and clarify Rajan Pahan's substantive community-coordination/logistics role, explicitly state that it does not confer independent scholarly interpretation or approval authority, remove the duplicate founding-record line from the global footer, then strengthen tests/test_streamlit_app.py and verify CI before any further Mundarica UI work."
 }
