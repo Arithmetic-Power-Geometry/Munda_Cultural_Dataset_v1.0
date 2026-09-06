@@ -1,43 +1,39 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "register_id": "MLHKP-MMSC",
   "title": "Master Munda Source Census",
-  "description": "Federated discovery census. Existing canonical source records remain in the master source register; newly discovered corpus-specific records remain in their evidence-preserving source bundles; standalone bibliographic discoveries are recorded separately. This index measures the union without duplicating or renumbering permanent source IDs.",
+  "description": "Federated discovery census. Existing canonical source records remain in the master source register; corpus-specific records remain in their evidence-preserving source bundles; standalone bibliographic discoveries are recorded separately. Reader-facing web-discovery leads are maintained as a separate discovery layer and are not added to the audited source-identity total until deterministic deduplication/canonicalization is complete.",
   "completeness_claim": "source_comprehensive_under_documented_protocol_only",
   "source_registers": [
     {"register_type":"canonical_master_source_register","path":"data/source_register/master_sources.json","counted_records":14,"id_policy":"preserve_existing_SRC_ids"},
-    {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":3,"counting_rule":"Count only volume slots with a verified external locator or a registered corpus artifact that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V05"]},
-    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":1,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking","currently_counted_source_ids":["SRC-MMSC-000001"]}
+    {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":12,"counting_rule":"Count volume slots with a verified external locator that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V04","SRC-MUN-V05","SRC-MUN-V06","SRC-MUN-V07","SRC-MUN-V08","SRC-MUN-V09","SRC-MUN-V10","SRC-MUN-V11","SRC-MUN-V12","SRC-MUN-V13"]},
+    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":1,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
+    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","counted_records":0,"observed_leads":14,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, an alternate locator, a catalogue wrapper, or a duplicate."}
   ],
   "metrics": {
-    "sources_discovered": 18,
+    "sources_discovered": 27,
     "canonical_master_records": 14,
-    "additional_federated_discoveries": 4,
+    "additional_federated_discoveries": 13,
     "standalone_mmsc_discoveries": 1,
-    "mundarica_volume_locators_verified": 3,
+    "mundarica_volume_locators_verified": 12,
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
     "mundarica_verified_complete_volumes": 0,
+    "web_discovery_leads_observed": 14,
+    "web_discovery_leads_counted_in_audited_identity_total": 0,
     "bibliographic_only_records": 1,
-    "still_to_acquire_additional_discoveries": 4,
+    "still_to_acquire_additional_discoveries": 13,
     "deduplicated_locator_matches": 1,
-    "note": "Counts are repository-derived discovery/accounting metrics, not claims that all Munda sources have already been discovered. The current union is 14 preserved canonical master-source records, independently located Mundarica Volume II, Volume III and Volume V records, and one standalone WorldCat-verified Ram Dayal Munda bibliographic record. Volume IV remains unresolved because a surfaced secondary link duplicated the registered Volume III identifier. No online or catalogue availability is interpreted as reuse permission."
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 1 standalone MMSC bibliographic discovery = 27. Fourteen reader-facing web-discovery leads are tracked separately and deliberately not added to this total until source-identity deduplication is complete. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public or catalogue availability is never interpreted as reuse permission."
   },
   "latest_discovery": {
-    "source_id": "SRC-MUN-V05",
-    "title": "Encyclopedia Mundarica Vol-v (1932)",
-    "creator": "Emelen, Rev. Arthur Van; Hoffmann, Rev. John (Internet Archive/DLI catalogue metadata)",
-    "year": 1932,
+    "source_id": "SRC-MUN-V11",
+    "title": "Encyclopaedia Mundarica Vol. 11",
+    "year": 1950,
     "source_type": "historical_encyclopaedia_volume_external_locator",
-    "language": ["English"],
-    "geographic_scope": "Munda / Chota Nagpur subject context",
-    "cultural_domains": ["language_and_lexicon","historical_ethnography","encyclopaedic_reference"],
-    "canonical_url": "https://archive.org/details/in.ernet.dli.2015.14925",
-    "identifier": "Internet Archive in.ernet.dli.2015.14925; ark:/13960/t1mh2xz66",
+    "canonical_url": "https://archive.org/details/in.ernet.dli.2015.462388",
+    "identifier": "Internet Archive in.ernet.dli.2015.462388; ark:/13960/t44r3bd9q",
     "availability": "external_locator_and_derivatives_verified",
-    "scan_state": "external_scan_derivatives_observed_not_locally_acquired",
-    "ocr_state": "external_machine_ocr_reported_unverified",
-    "full_text_state": "external_full_text_derivative_observed_unverified",
     "acquisition_state": "not_acquired",
     "rights_reuse_status": "repository_metadata_observed_not_independently_assessed_for_redistribution",
     "extraction_state": "not_started",
@@ -45,10 +41,16 @@
     "verification_state": "external_locator_metadata_verified",
     "provenance": {
       "repository": "Internet Archive / Digital Library of India",
-      "catalogue_record": "in.ernet.dli.2015.14925",
-      "checked_utc": "2026-09-06T13:32:00Z",
-      "caution": "278 pages, OCR derivatives and the repository rights string Out_of_copyright are catalogue metadata. No local acquisition, OCR verification, cultural verification, redistribution permission or commercial-reuse permission is inferred."
+      "catalogue_record": "in.ernet.dli.2015.462388",
+      "checked_utc": "2026-09-06T16:28:00Z",
+      "caution": "Catalogue metadata and machine OCR availability do not establish verified transcription, cultural verification, redistribution permission, commercial-reuse permission, or machine VERIFIED COMPLETE status."
     }
+  },
+  "web_discovery_layer": {
+    "path": "data/source_census/web_discovery_seed_2026-09-06.json",
+    "records": 14,
+    "state": "verified_source_leads_pending_identity_deduplication",
+    "boundary": "Searchable discovery metadata only; not extracted cultural evidence and not included in audited source-identity totals until canonicalization."
   },
   "protocol": "docs/mmsc_source_census_protocol.md"
 }
