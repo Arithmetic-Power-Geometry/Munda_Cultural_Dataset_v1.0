@@ -10,10 +10,12 @@ on:
       - 'software/**'
       - 'schemas/**'
       - 'data/**'
+      - 'publication/**'
       - 'Mundarika1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
       - 'tests/test_information_architecture.py'
+      - 'tests/test_publication_sync.py'
       - 'tests/test_mundarica_completeness.py'
       - 'tests/test_mundarica_artifact_schema.py'
       - 'tests/test_mundarica_artifact_registry_validator.py'
@@ -25,10 +27,12 @@ on:
       - 'software/**'
       - 'schemas/**'
       - 'data/**'
+      - 'publication/**'
       - 'Mundarika1.md'
       - 'requirements.txt'
       - 'tests/test_streamlit_app.py'
       - 'tests/test_information_architecture.py'
+      - 'tests/test_publication_sync.py'
       - 'tests/test_mundarica_completeness.py'
       - 'tests/test_mundarica_artifact_schema.py'
       - 'tests/test_mundarica_artifact_registry_validator.py'
@@ -50,7 +54,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt pytest
       - name: Compile Streamlit applications and audit utilities
-        run: python -m py_compile streamlit_app.py pages/01_Research_Portal.py software/db.py software/auth.py software/reporting.py software/audit_mundarica_pages.py software/validate_mundarica_artifact_registry.py
+        run: python -m py_compile streamlit_app.py pages/01_Research_Portal.py software/db.py software/auth.py software/reporting.py software/audit_mundarica_pages.py software/validate_mundarica_artifact_registry.py publication/generate_release_metrics.py
       - name: Preserve baseline migration integrity
         run: python software/audit_mlhkp_migration.py
       - name: Preserve Master Source Register integrity
@@ -67,5 +71,7 @@ jobs:
         run: pytest -q tests/test_mundarica_completeness.py
       - name: Enforce complete information architecture contract
         run: pytest -q tests/test_information_architecture.py
+      - name: Enforce publication data-sync contract
+        run: pytest -q tests/test_publication_sync.py
       - name: Run Streamlit smoke tests
         run: pytest -q tests/test_streamlit_app.py
