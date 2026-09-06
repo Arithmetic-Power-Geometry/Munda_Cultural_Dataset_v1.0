@@ -14,6 +14,8 @@ def test_publication_metrics_match_canonical_repository_state():
     audit = load("data/source_bundles/encyclopaedia_mundarica/completeness_audit.json")
     modules = load("data/module_registry.json")
     coverage = load("data/coverage_matrix.json")
+    model = load("data/information_model.json")
+    model_domains = {d for family in model["record_families"] for d in family.get("domains", [])}
 
     assert pub["sources_discovered"] == mmsc["metrics"]["sources_discovered"]
     assert pub["canonical_master_records"] == mmsc["metrics"]["canonical_master_records"]
@@ -24,6 +26,10 @@ def test_publication_metrics_match_canonical_repository_state():
     assert pub["mundarica_page_accounting_complete_volumes"] == sum(bool(v.get("page_accounting_complete")) for v in audit["volumes"])
     assert pub["registered_streamlit_modules"] == len(modules["modules"])
     assert pub["coverage_matrix_rows"] == len(coverage["rows"])
+    assert pub["information_model_record_families"] == len(model["record_families"])
+    assert pub["information_model_domain_homes"] == len(model_domains)
+    assert pub["information_model_applicable_record_fields"] == len(model["record_contract"]["required_for_applicable_records"])
+    assert pub["master_schema_category_representation_percent"] == 100.0
     assert pub["absolute_source_completeness_claimed"] is False
     assert pub["ocr_treated_as_verified_transcription"] is False
 
@@ -34,6 +40,9 @@ def test_manuscript_uses_generated_metrics_and_truthful_completion_language():
     assert "\\input{generated/release_metrics.tex}" in tex
     assert "\\MLHKPSourcesDiscovered" in tex
     assert "\\MLHKPMundaricaVerified" in tex
+    assert "\\MLHKPRecordFamilies" in tex
+    assert "\\MLHKPDomainHomes" in tex
+    assert "\\MLHKPRecordFields" in tex
     assert "never presented as future-proof or metaphysically complete" in tex
     assert "OCR is never promoted to verified transcription" in tex
     assert "\\newcommand{\\MLHKPMundaricaVerified}{0}" in macros
