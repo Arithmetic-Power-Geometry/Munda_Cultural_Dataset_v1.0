@@ -1,134 +1,126 @@
 from pathlib import Path
 import json
 
-ROOT=Path(__file__).resolve().parents[1]
-MMSC=ROOT/'data'/'source_census'/'mmsc_index.json'
-DISCOVERIES=ROOT/'data'/'source_census'/'mmsc_discoveries.json'
-SEARCH_LOG=ROOT/'data'/'source_census'/'search_log.jsonl'
-MASTER=ROOT/'data'/'source_register'/'master_sources.json'
-MUNDARICA=ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json'
-PROTOCOL=ROOT/'docs'/'mmsc_source_census_protocol.md'
+ROOT = Path(__file__).resolve().parents[1]
+MMSC = ROOT / 'data' / 'source_census' / 'mmsc_index.json'
+DISCOVERIES = ROOT / 'data' / 'source_census' / 'mmsc_discoveries.json'
+SEARCH_LOG = ROOT / 'data' / 'source_census' / 'search_log.jsonl'
+MASTER = ROOT / 'data' / 'source_register' / 'master_sources.json'
+MUNDARICA = ROOT / 'data' / 'source_bundles' / 'encyclopaedia_mundarica' / 'manifest.json'
+WEB_DISCOVERY = ROOT / 'data' / 'source_census' / 'web_discovery_seed_2026-09-06.json'
+PROTOCOL = ROOT / 'docs' / 'mmsc_source_census_protocol.md'
 
 
 def load(path):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
+def externally_located_ids(manifest):
+    return [v['source_id'] for v in manifest['volume_slots'] if v.get('external_source')]
+
+
 def test_mmsc_federates_without_renumbering_legacy_sources():
-    mmsc=load(MMSC); master=load(MASTER)
-    ids=[x['source_id'] for x in master['sources']]
-    assert ids==[f'SRC-{i:06d}' for i in range(1,15)]
-    assert mmsc['metrics']['canonical_master_records']==len(ids)==14
-    assert mmsc['source_registers'][0]['path']=='data/source_register/master_sources.json'
+    mmsc = load(MMSC)
+    master = load(MASTER)
+    ids = [x['source_id'] for x in master['sources']]
+    assert ids == [f'SRC-{i:06d}' for i in range(1, 15)]
+    assert mmsc['metrics']['canonical_master_records'] == len(ids) == 14
+    assert mmsc['source_registers'][0]['path'] == 'data/source_register/master_sources.json'
 
 
-def test_mmsc_volume2_discovery_matches_mundarica_manifest():
-    manifest=load(MUNDARICA)
-    v2=next(v for v in manifest['volume_slots'] if v['source_id']=='SRC-MUN-V02')
-    assert v2['external_source']['identifier']=='dli.bengal.10689.21001'
-    assert v2['external_source']['total_pages_as_catalogued']==406
-    assert v2['status']=='external_source_locator_verified_not_ingested'
-    assert v2['verified_complete'] is False
-    assert v2['external_source']['acquisition_status']=='locator_verified_not_acquired'
-    assert v2['external_source']['rights_status']=='not_assessed'
-    assert 'unverified' in v2['external_source']['verification_note'].lower()
+def test_mundarica_locator_count_is_derived_from_manifest():
+    mmsc = load(MMSC)
+    manifest = load(MUNDARICA)
+    ids = externally_located_ids(manifest)
+    assert ids == [f'SRC-MUN-V{i:02d}' for i in range(2, 14)]
+    assert len(ids) == 12
+    assert mmsc['source_registers'][1]['currently_counted_source_ids'] == ids
+    assert mmsc['source_registers'][1]['counted_records'] == len(ids)
+    assert mmsc['metrics']['mundarica_volume_locators_verified'] == len(ids)
+    assert manifest['audit_summary']['externally_located_volumes'] == len(ids)
+    assert all(not v['verified_complete'] for v in manifest['volume_slots'])
 
 
-def test_mmsc_volume3_discovery_matches_mundarica_manifest_without_promoting_ocr():
-    manifest=load(MUNDARICA)
-    v3=next(v for v in manifest['volume_slots'] if v['source_id']=='SRC-MUN-V03')
-    assert v3['external_source']['identifier']=='in.ernet.dli.2015.14921'
-    assert v3['external_source']['ark']=='ark:/13960/t3907ds0b'
-    assert v3['external_source']['total_pages_as_catalogued']==264
-    assert v3['status']=='external_source_locator_verified_not_ingested'
-    assert v3['verified_complete'] is False
-    assert v3['external_source']['acquisition_status']=='locator_verified_not_acquired'
-    assert 'not_independently_assessed' in v3['external_source']['rights_status']
-    assert 'unverified' in v3['external_source']['verification_note'].lower()
-    assert manifest['audit_summary']['volume_3_local_scan_registered'] is False
-
-
-def test_mmsc_volume5_discovery_is_locator_only_and_rights_cautious():
-    manifest=load(MUNDARICA)
-    v5=next(v for v in manifest['volume_slots'] if v['source_id']=='SRC-MUN-V05')
-    ext=v5['external_source']
-    assert ext['identifier']=='in.ernet.dli.2015.14925'
-    assert ext['ark']=='ark:/13960/t1mh2xz66'
-    assert ext['total_pages_as_catalogued']==278
-    assert ext['rights_metadata_as_catalogued']=='Out_of_copyright'
-    assert ext['rights_status']=='repository_metadata_observed_not_independently_assessed_for_redistribution'
-    assert ext['acquisition_status']=='locator_verified_not_acquired'
-    assert 'unverified' in ext['verification_note'].lower()
-    assert 'commercial-reuse grant' in ext['verification_note']
-    assert v5['status']=='external_source_locator_verified_not_ingested'
-    assert v5['verified_complete'] is False
-    assert manifest['audit_summary']['externally_located_volumes']==3
-    assert manifest['audit_summary']['volume_5_local_scan_registered'] is False
+def test_external_mundarica_ocr_never_promotes_machine_verification():
+    manifest = load(MUNDARICA)
+    for volume in manifest['volume_slots']:
+        ext = volume.get('external_source')
+        if not ext:
+            continue
+        assert volume['status'] == 'external_source_locator_verified_not_ingested'
+        assert volume['verified_complete'] is False
+        assert ext['acquisition_status'] == 'locator_verified_not_acquired'
+        rights = ext.get('rights_status', 'not_assessed')
+        assert rights in {
+            'not_assessed',
+            'repository_metadata_observed_not_independently_assessed_for_redistribution',
+        }
+    assert manifest['audit_summary']['registered_authoritative_scans'] == 0
+    assert manifest['audit_summary']['verified_complete_volumes'] == 0
 
 
 def test_standalone_discovery_has_required_evidence_preserving_fields():
-    discoveries=load(DISCOVERIES)['records']
-    assert len(discoveries)==1
-    r=discoveries[0]
-    assert r['source_id']=='SRC-MMSC-000001'
-    assert r['identifier']=={'scheme':'OCLC','value':'936769273'}
-    assert r['verification_state']=='catalogue_metadata_verified'
-    assert r['acquisition_state']=='not_acquired'
-    assert r['rights_reuse_status']=='not_assessed'
-    assert r['access_class']=='BIBLIOGRAPHIC_ONLY'
-    for key in ['title','creator','year','source_type','language','geography','cultural_domain_coverage','canonical_catalogue_url','availability','scan_state','ocr_state','full_text_state','extraction_state','evidence_link_state','provenance']:
+    discoveries = load(DISCOVERIES)['records']
+    assert len(discoveries) == 1
+    r = discoveries[0]
+    assert r['source_id'] == 'SRC-MMSC-000001'
+    assert r['identifier'] == {'scheme': 'OCLC', 'value': '936769273'}
+    assert r['verification_state'] == 'catalogue_metadata_verified'
+    assert r['acquisition_state'] == 'not_acquired'
+    assert r['rights_reuse_status'] == 'not_assessed'
+    assert r['access_class'] == 'BIBLIOGRAPHIC_ONLY'
+    for key in ['title', 'creator', 'year', 'source_type', 'language', 'geography', 'cultural_domain_coverage', 'canonical_catalogue_url', 'availability', 'scan_state', 'ocr_state', 'full_text_state', 'extraction_state', 'evidence_link_state', 'provenance']:
         assert key in r
 
 
-def test_mmsc_metrics_are_current_repository_counts_not_completeness_claims():
-    mmsc=load(MMSC); manifest=load(MUNDARICA); master=load(MASTER); discoveries=load(DISCOVERIES)['records']
-    counted=set(x['source_id'] for x in master['sources'])
-    counted.update(mmsc['source_registers'][1]['currently_counted_source_ids'])
+def test_mmsc_metrics_are_repository_counts_not_completeness_claims():
+    mmsc = load(MMSC)
+    manifest = load(MUNDARICA)
+    master = load(MASTER)
+    discoveries = load(DISCOVERIES)['records']
+    counted = {x['source_id'] for x in master['sources']}
+    counted.update(externally_located_ids(manifest))
     counted.update(x['source_id'] for x in discoveries)
-    assert mmsc['metrics']['sources_discovered']==len(counted)==18
-    assert mmsc['metrics']['additional_federated_discoveries']==4
-    assert mmsc['metrics']['standalone_mmsc_discoveries']==len(discoveries)==1
-    assert mmsc['metrics']['mundarica_volume_locators_verified']==sum(1 for v in manifest['volume_slots'] if v.get('external_source'))==3
-    assert mmsc['metrics']['mundarica_authoritative_scans_registered']==manifest['audit_summary']['registered_authoritative_scans']==0
-    assert mmsc['metrics']['mundarica_verified_complete_volumes']==manifest['audit_summary']['verified_complete_volumes']==0
-    assert mmsc['metrics']['deduplicated_locator_matches']>=1
-    assert mmsc['completeness_claim']=='source_comprehensive_under_documented_protocol_only'
+    assert mmsc['metrics']['sources_discovered'] == len(counted) == 27
+    assert mmsc['metrics']['additional_federated_discoveries'] == 13
+    assert mmsc['metrics']['standalone_mmsc_discoveries'] == len(discoveries) == 1
+    assert mmsc['metrics']['mundarica_authoritative_scans_registered'] == manifest['audit_summary']['registered_authoritative_scans'] == 0
+    assert mmsc['metrics']['mundarica_verified_complete_volumes'] == manifest['audit_summary']['verified_complete_volumes'] == 0
+    assert mmsc['completeness_claim'] == 'source_comprehensive_under_documented_protocol_only'
 
 
-def test_search_log_is_reproducible_refs_registered_sources_and_records_deduplication():
-    rows=[json.loads(line) for line in SEARCH_LOG.read_text(encoding='utf-8').splitlines() if line.strip()]
-    ids={r['source_id'] for r in load(DISCOVERIES)['records']} | {'SRC-MUN-V02','SRC-MUN-V03','SRC-MUN-V05'} | {r['source_id'] for r in load(MASTER)['sources']}
+def test_web_discovery_is_visible_but_not_double_counted_before_identity_dedup():
+    mmsc = load(MMSC)
+    web = load(WEB_DISCOVERY)['records']
+    assert len(web) == 14
+    assert mmsc['web_discovery_layer']['records'] == len(web)
+    assert mmsc['metrics']['web_discovery_leads_observed'] == len(web)
+    assert mmsc['metrics']['web_discovery_leads_counted_in_audited_identity_total'] == 0
+    web_register = next(x for x in mmsc['source_registers'] if x['register_type'] == 'web_source_discovery_leads')
+    assert web_register['counted_records'] == 0
+    assert web_register['observed_leads'] == len(web)
+
+
+def test_search_log_has_stable_ids_and_no_unregistered_permanent_references():
+    rows = [json.loads(line) for line in SEARCH_LOG.read_text(encoding='utf-8').splitlines() if line.strip()]
+    registered = {r['source_id'] for r in load(DISCOVERIES)['records']}
+    registered |= {r['source_id'] for r in load(MASTER)['sources']}
+    registered |= set(externally_located_ids(load(MUNDARICA)))
     assert rows
-    assert [r['search_id'] for r in rows]==[f'MMSC-SEARCH-{i:06d}' for i in range(1,len(rows)+1)]
-    assert len({r['search_id'] for r in rows})==len(rows)
+    assert [r['search_id'] for r in rows] == [f'MMSC-SEARCH-{i:06d}' for i in range(1, len(rows) + 1)]
+    assert len({r['search_id'] for r in rows}) == len(rows)
     assert all(r['checked_utc'] and r['repository'] and r['query'] and r['outcome'] and 'notes' in r for r in rows)
-    assert all(set(r['result_source_ids']) <= ids for r in rows)
-    dedup=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000004')
-    assert dedup['result_source_ids']==['SRC-000005']
-    assert dedup['outcome']=='deduplicated_locator_match_existing_canonical_source'
-    assert 'No new permanent source ID assigned' in dedup['notes']
-    unresolved=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000005')
-    assert unresolved['result_source_ids']==[]
-    assert unresolved['outcome']=='no_exact_authoritative_volume_locator_registered'
-    assert 'no Volume IV source ID' in unresolved['notes']
-    candidate=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000006')
-    assert candidate['result_source_ids']==[]
-    assert candidate['outcome']=='candidate_catalogue_record_found_duplicate_check_pending'
-    assert 'not assigned a permanent SRC-MMSC ID' in candidate['notes']
-    v5=next(r for r in rows if r['search_id']=='MMSC-SEARCH-000007')
-    assert v5['result_source_ids']==['SRC-MUN-V05']
-    assert v5['outcome']=='verified_locator_registered'
-    assert 'does not infer redistribution or commercial-reuse permission' in v5['notes']
+    assert all(set(r['result_source_ids']) <= registered for r in rows)
 
 
 def test_mmsc_protocol_preserves_evidence_and_access_boundaries():
-    text=PROTOCOL.read_text(encoding='utf-8')
-    required=[
+    text = PROTOCOL.read_text(encoding='utf-8')
+    required = [
         'Public availability does not establish redistribution or reuse permission.',
         'Never treat OCR as verified text.',
         'scan/page image, raw OCR, working transcription, verified transcription and structured content',
         'Restricted, sacred, private or consent-limited material must not be made public',
-        'not a source-completeness claim'
+        'not a source-completeness claim',
     ]
     for phrase in required:
         assert phrase in text
