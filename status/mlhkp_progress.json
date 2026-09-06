@@ -2,7 +2,7 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-06T08:28:00Z",
+  "updated_utc":"2026-09-06T08:36:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{
@@ -47,15 +47,12 @@
     }
   },
   "changes_this_cycle":[
-    "Added a machine-readable 42-module MLHKP registry covering the complete requested Discover, Culture & Knowledge, People & Place, History & Change, Research Library, Evidence & Research, MLHKP and future-disabled architecture.",
-    "Mapped every registered module to explicit schema and domain homes; retained the SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN chain.",
-    "Added a machine-readable coverage matrix with explicit source layer, evidence layer, Streamlit module, coverage state and gap rule; empty domains remain gaps rather than fabricated records.",
-    "Added a grouped Streamlit Research & Public Knowledge Portal as a safe additive page, avoiding a risky rewrite of the existing app while making the complete information architecture visible now.",
-    "Added Universal Search scaffold over permitted master-source metadata and public/open evidence only, with keyword/author/year/language filters and no restricted-data query path.",
-    "Added human-readable Mundarica I-XVI status table and Read/Entries/Stories/Songs/Terms/Places/Cultural Topics/Source & Provenance/Verification tabs; absent content displays the truthful structure-ready empty state.",
-    "Preserved the exact Rajan Pahan public title and scholarly-authority boundary in the new Governance & Ethics module.",
-    "Added architecture tests for required groups/modules, unique IDs, schema/domain mappings, cultural-access override, future feature disablement, truthful empty states, no raw-JSON-only portal views, Mundarica verification gating, governance text and public evidence access filtering.",
-    "Updated the Streamlit workflow to compile the new portal and gate tests/test_information_architecture.py."
+    "Added machine-readable 42-module MLHKP registry and 12-row coverage matrix under the architecture-first policy.",
+    "Added grouped Streamlit Research & Public Knowledge Portal with complete requested navigation skeleton, truthful empty states, permitted universal-search scaffold, MMSC metrics, Mundarica I-XVI layer/status views, evidence trace view and governance safeguards.",
+    "Added automated architecture tests and wired them into MLHKP Streamlit Smoke Test.",
+    "CI run 34022104367 passed compilation, migration audit, Master Source Register audit, Mundarica Volume I page accounting, artifact-registry validation, six registry-validator tests, six artifact-schema tests and seven completeness-gate tests before failing only in the new architecture test.",
+    "Diagnosed the architecture failure as a test representation mismatch: legacy streamlit_app.py stores Rajan Pahan name and role as separate strings although the rendered card shows the required role; no governance/data defect was found.",
+    "Repaired the test to enforce the separate exact name and exact role strings in the legacy app, the concatenated exact public title in the new portal, the scholarly-authority boundary, and absence of founder duplication in the footer."
   ],
   "commits_this_cycle":[
     "bf0716e47375c385952d013302d2c39b43117ca5 - Add complete MLHKP module registry",
@@ -63,16 +60,19 @@
     "189fdcc1323fe84597b5c2536e158e6bd5cd4dec - Add grouped architecture-first MLHKP research portal",
     "a73e39006227799960fbd7d13fc23a2d40acf4b1 - Add architecture and coverage contract tests",
     "2b865894bca1bc635cbb840423c7b086782574f8 - Fix governance architecture assertion",
-    "f227eac0a8f081c37fc73d84587abc0c3befb11f - Gate information architecture and research portal"
+    "f227eac0a8f081c37fc73d84587abc0c3befb11f - Gate information architecture and research portal",
+    "dba326a6a36d1d1d6bebda67533b12dca7b22f8b - Record architecture-first MLHKP progress",
+    "efd536e246a0146c9d1c67305c134a0611469ca9 - Fix rendered governance title test"
   ],
   "streamlit_sync":{
     "status":"synced_architecture_additive_page",
-    "detail":"Existing Streamlit remains backward compatible; the new Research Portal reads live MMSC and Mundarica machine-readable registries, derives registered counts, never promotes OCR to verified transcription, and shows explicit empty-state requirements for modules without evidence."
+    "detail":"Existing app remains backward compatible; new Research Portal reads live MMSC and Mundarica registries, never promotes OCR to verified transcription, and exposes complete grouped architecture with explicit structure-ready gaps."
   },
   "tests_and_workflows":{
     "architecture_test_file":"tests/test_information_architecture.py",
     "workflow":".github/workflows/mlhkp-streamlit-smoke.yml",
-    "current_head_before_status_commit":"f227eac0a8f081c37fc73d84587abc0c3befb11f",
+    "failed_run":{"run_id":34022104367,"result":"failure","cause":"new governance test expected concatenated source literal in legacy app although name and role are separately stored","all_prior_gates":"passed"},
+    "repair_commit":"efd536e246a0146c9d1c67305c134a0611469ca9",
     "current_head_workflows":"pending/not yet claimed green"
   },
   "blockers":[
@@ -82,14 +82,6 @@
     "Volumes IV-XVI still require systematic locator discovery and registration.",
     "Many architecture modules intentionally contain no cultural records yet; their visible state is Structure ready — evidence not yet ingested until provenance-linked permitted evidence is available."
   ],
-  "integrity":{
-    "permanent_volume_ids_preserved":true,
-    "legacy_master_source_ids_preserved":true,
-    "ocr_treated_as_verified":false,
-    "rights_assumed_from_public_availability":false,
-    "restricted_material_exposed":false,
-    "verified_complete_volumes":0,
-    "main_branch_modified":false
-  },
-  "next_best_action":"Check the new architecture CI and repair only deterministic regressions without weakening evidence gates. Then continue in parallel with Mundarica Volume IV locator discovery/registration and MMSC authoritative-source discovery while progressively replacing remaining legacy flat-app views with registry-driven human-readable modules."
+  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false},
+  "next_best_action":"Confirm repaired architecture CI. Then continue parallel evidence population with Mundarica Volume IV locator discovery/registration and the next authoritative non-duplicate MMSC source, while progressively connecting more registry modules to live permitted records and evidence metrics."
 }
