@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 36
+    assert len(records) == 41
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 37)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 42)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright'])
     glottolog = records['WEB-MUN-0013']
@@ -84,6 +84,23 @@ def test_new_dataset_and_nlp_leads_preserve_access_boundaries():
     assert 'dataset' in mmloso['source_class']
     assert 'separately audited' in mmloso['notes'].lower()
     assert 'dataset-level licence' in mmloso['rights_note'].lower()
+    translation = records['WEB-MUN-0037']
+    assert '17,826' in translation['notes']
+    assert 'by-nc-sa-fs 1.0' in translation['rights_note'].lower()
+    assert 'no commercial-reuse entitlement' in translation['rights_note'].lower()
+
+
+def test_map_and_media_leads_preserve_primary_evidence_boundaries():
+    records = {r['id']: r for r in all_records()}
+    munda_map = records['WEB-MUN-0039']
+    assert 'cc by-sa 3.0' in munda_map['rights_note'].lower()
+    assert 'authoritative census/geospatial sources' in munda_map['notes'].lower()
+    hockey = records['WEB-MUN-0040']
+    assert 'primary rule book' in hockey['notes'].lower()
+    assert 'separate permission' in hockey['rights_note'].lower()
+    museum = records['WEB-MUN-0041']
+    assert 'separate source records' in museum['notes'].lower()
+    assert 'cultural access' in museum['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
