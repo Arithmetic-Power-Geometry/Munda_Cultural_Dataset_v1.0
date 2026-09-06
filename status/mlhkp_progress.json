@@ -2,39 +2,39 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-06T17:15:00Z",
+  "updated_utc":"2026-09-06T17:32:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"human_review_attestation":"MUN-HVA-2026-09-06-001","verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
-    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":14,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false,"note":"Audited identity total is 14 canonical + 12 verified Mundarica external locators + 1 standalone discovery. Fourteen verified web-discovery leads are searchable but deliberately excluded from the audited identity total until deterministic deduplication/canonicalization establishes whether each lead is a new source identity, alternate locator, catalogue wrapper or duplicate."},
+    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":20,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false,"note":"Audited identity total remains 14 canonical + 12 verified Mundarica external locators + 1 standalone discovery. Twenty verified web-discovery leads are searchable but deliberately excluded from the audited identity total until deterministic deduplication/canonicalization establishes whether each lead is a new source identity, alternate locator, catalogue wrapper or duplicate."},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN"},
-    "D_streamlit":{"manifest_driven_mundarica_workspace":true,"all_16_volume_slots_visible":true,"reader_facing_source_provenance":true,"external_repository_buttons":true,"human_review_attestation_visible_separately_from_machine_verification":true,"volume_1_page_accounting_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":14,"sync_status":"The source-discovery JSON used by the research interface now contains 14 verified non-Mundarica leads. MMSC identity metrics remain separately audited so catalogue/source leads are not falsely counted as canonical evidence sources."},
+    "D_streamlit":{"manifest_driven_mundarica_workspace":true,"all_16_volume_slots_visible":true,"reader_facing_source_provenance":true,"external_repository_buttons":true,"human_review_attestation_visible_separately_from_machine_verification":true,"volume_1_page_accounting_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":20,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"sync_status":"The research portal now loads the external source-discovery seed directly. Universal Search and Master Munda Source Census expose the 20 verified discovery leads as a separately labelled discovery layer, explicitly not cultural evidence and not part of audited source-identity totals until canonicalized."},
     "E_publication_readiness":{"status":"publication_build_previously_green_current_release_metrics_need_regeneration_and_ci","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-06","publication_package_pass":false}
   },
   "changes_this_cycle":[
-    "Expanded the non-Mundarica web-discovery layer from 7 to 14 verified leads without extracting unsupported cultural claims.",
-    "Added official Census India LSI Jharkhand catalogue and Mundari descriptive-grammar PDF locators, Census 1971 grammatical-sketch catalogue, Census 2011 Jharkhand bilingualism/trilingualism dataset, TRI Jharkhand publications catalogue, Glottolog Osada 2008 Mundari grammar-sketch metadata, and LSI West Bengal Mundari-section locator.",
-    "Preserved source-level rights boundaries: public download/catalogue visibility is not treated as redistribution or commercial-reuse permission; Glottolog metadata CC BY 4.0 is not transferred to the underlying Routledge chapter.",
-    "Regenerated MMSC repository-derived identity metrics from the current branch: 27 audited source identities = 14 canonical master records + 12 verified external Mundarica locators + 1 standalone discovery.",
-    "Kept 14 web discovery leads outside the 27-source audited identity total until deterministic source-identity deduplication/canonicalization is complete, preventing double counting of catalogue wrappers or alternate locators.",
-    "Added tests for unique discovery IDs/URLs, mandatory provenance/rights fields, source-lead versus cultural-claim separation, and non-promotion to community or cultural verification.",
-    "Repaired stale MMSC audit tests so counts are derived from the live Mundarica manifest and repository registers rather than historical 3-volume constants.",
-    "MLHKP Source Register Audit run 34047980995 completed successfully at commit c4c42802eddd37a583cc2523fb5152298ca8e07c."
+    "Expanded the non-Mundarica web-discovery layer from 14 to 20 verified source leads without extracting unsupported cultural claims.",
+    "Added official Ministry of Tribal Affairs / TRI repository records for the 1993 Munda monograph and 2016 Mundari handbook, preserving author/editor, date, pagination, institutional and rights uncertainty metadata.",
+    "Added the 2018 Odia–Munda Sabdakosh from the Odisha Special Development Council with compiler and publication metadata verified from the PDF title page; lexical contents remain unextracted until page/entry-level evidence registration.",
+    "Added three Bibliothèque nationale de France historical Mundari audio catalogue records: A kahani, Mundari songs, and Durang Kahani / tuila accompaniment, with 1914 recording context preserved and audio reuse rights left unresolved at item level.",
+    "Synchronized external discovery into the Streamlit research portal: Universal Search now searches the web-discovery layer, and MMSC has a separate External source discovery tab and live lead count.",
+    "Kept external source leads visually and semantically separated from MLHKP canonical sources and cultural evidence so discovery metadata cannot silently become a factual claim.",
+    "Extended automated tests to require unique 20-record discovery IDs/URLs, TRI/government rights boundaries, archival-audio contextualization, non-universalization, and Streamlit synchronization of the external-discovery layer."
   ],
   "commits_this_cycle":[
-    "065e981aa25e62a4145a389d43c5ef455a6282f7 - Expand verified non-Mundarica source discovery seed",
-    "be782f723b9a0e27aa09d8fbc59566b8ffa28438 - Test evidence boundaries for external source discovery",
-    "1af4460b9698d6a48adf17de7c6e2540862cdd00 - Regenerate MMSC metrics from current repository state",
-    "c4c42802eddd37a583cc2523fb5152298ca8e07c - Make MMSC audit tests derive current repository counts"
+    "665a245c30d845a0e48907d797c17ae0857d43dc - Expand verified Munda source discovery into TRI, dictionary and audio archives",
+    "4d0e7f1f6afe493782a289046222a5ed6dc36351 - Extend source-discovery boundary tests to TRI and audio archive leads",
+    "28aca616f3837907dfb2414c59683e43890f62d4 - Synchronize external source discovery with Streamlit search and MMSC",
+    "1629843319ccb4f330bca50784ca08004d673bec - Test Streamlit synchronization of external source discovery layer"
   ],
-  "tests_and_workflows":{"source_register_audit":{"run_id":34047980995,"head_sha":"c4c42802eddd37a583cc2523fb5152298ca8e07c","status":"completed","conclusion":"success"},"claim_green_scope":"MLHKP Source Register Audit only; other workflows must be checked independently before whole-repository or publication PASS is claimed."},
+  "tests_and_workflows":{"status":"pending_current_head_ci_confirmation","last_confirmed_source_register_audit":{"run_id":34047980995,"head_sha":"c4c42802eddd37a583cc2523fb5152298ca8e07c","status":"completed","conclusion":"success"},"claim_green_scope":"No whole-repository or publication PASS claimed for this cycle until current-head workflows complete."},
   "blockers":[
     "Volume I still lacks a registered authoritative scan artifact for repository-level scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
-    "Fourteen non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "Twenty non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "BnF catalogue records verify historical audio identity and context, but item-level reproduction/download/commercial-reuse conditions require separate rights assessment before ingestion or redistribution.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
     "Publication package cannot be marked PASS until current repository-derived metrics are propagated into publication tables/figures and XeLaTeX+Biber CI is re-confirmed."
   ],
   "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"human_attestation_auto_promotes_machine_verification":false,"web_discovery_leads_promoted_to_cultural_evidence":false},
-  "next_best_action":"Continue non-Mundarica source expansion across government/TRI/Census/LSI, dictionaries/grammars, theses, archives, audio/video and datasets; canonicalize the 14 web leads against existing source identities; append reproducible source-search log records; then synchronize Streamlit filters and publication-derived release statistics without inventing evidence completeness."
+  "next_best_action":"Canonicalize the 20 external discovery leads against master/MMSC identities, append reproducible search-log records, continue source discovery across theses, dictionaries/grammars, government/TRI materials, archives and audiovisual collections, and regenerate publication release metrics after current-head CI confirmation."
 }
