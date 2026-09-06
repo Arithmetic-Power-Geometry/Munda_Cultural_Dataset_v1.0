@@ -1,114 +1,123 @@
 {
   "project": "MLHKP",
   "branch": "mlhkp-v2",
-  "current_module": "03-encyclopaedia-mundarica-1-16 + MMSC parallel census",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-06T06:34:00Z",
+  "updated_utc": "2026-09-06T07:36:00Z",
+  "workstreams": {
+    "A_mundarica": {
+      "volume_1": {
+        "source_id": "SRC-MUN-V01",
+        "page_blocks": 324,
+        "page_accounting_complete": true,
+        "registered_working_transcriptions": 1,
+        "authoritative_scan_registered": false,
+        "verified_complete": false
+      },
+      "volume_2": {
+        "source_id": "SRC-MUN-V02",
+        "status": "external_source_locator_verified_not_ingested",
+        "canonical_url": "https://archive.org/details/dli.bengal.10689.21001",
+        "catalogued_pages": 406,
+        "external_ocr_reported": true,
+        "external_ocr_verified": false,
+        "local_scan_registered": false,
+        "rights_status": "not_assessed",
+        "verified_complete": false
+      },
+      "volume_3": {
+        "source_id": "SRC-MUN-V03",
+        "status": "external_source_locator_verified_not_ingested",
+        "canonical_url": "https://archive.org/details/in.ernet.dli.2015.14921",
+        "identifier": "in.ernet.dli.2015.14921",
+        "ark": "ark:/13960/t3907ds0b",
+        "catalogued_pages": 264,
+        "external_ocr_reported": true,
+        "external_ocr_verified": false,
+        "local_scan_registered": false,
+        "rights_status": "repository_metadata_observed_not_independently_assessed_for_redistribution",
+        "verified_complete": false
+      },
+      "volumes_4_16": "pending",
+      "verified_complete_volumes": 0,
+      "externally_located_volumes": 2
+    },
+    "B_mmsc": {
+      "status": "federated_census_active",
+      "sources_discovered": 17,
+      "canonical_master_records": 14,
+      "additional_federated_discoveries": 3,
+      "standalone_mmsc_discoveries": 1,
+      "mundarica_volume_locators_verified": 2,
+      "deduplicated_locator_matches": 1,
+      "still_to_acquire_additional_discoveries": 3,
+      "source_complete_claim": false,
+      "deduplication_this_cycle": {
+        "internet_archive_item": "in.ernet.dli.2015.215493",
+        "matched_existing_source_id": "SRC-000005",
+        "title": "The Mundas and Their Country",
+        "catalogued_pages": 669,
+        "new_source_id_assigned": false,
+        "reason": "Existing canonical Sarat Chandra Roy 1912 source; locator match logged rather than duplicated."
+      },
+      "protocol": "docs/mmsc_source_census_protocol.md",
+      "search_log": "data/source_census/search_log.jsonl"
+    }
+  },
   "changes_this_cycle": [
-    "Diagnosed the current Streamlit CI failure as a brittle literal phrase assertion in tests/test_mundarica_completeness.py. The manifest note already preserved stronger semantics: an external locator does not imply acquisition, reuse permission, verified OCR or VERIFIED COMPLETE status.",
-    "Replaced that brittle phrase check with semantic safety assertions covering structural-only status, acquisition, reuse permission, OCR verification and verified-complete boundaries.",
-    "Registered a new standalone MMSC bibliographic discovery, SRC-MMSC-000001, for Ram Dayal Munda and S. Bosu Mullick (editors), The Jharkhand movement: indigenous peoples' struggle for autonomy in India, 2003, using WorldCat OCLC 936769273. This is bibliographic registration only; scan/OCR/full text were not discovered in this search step, acquisition is not_acquired and reuse rights are not_assessed.",
-    "Created data/source_census/search_log.jsonl with reproducible entries for the verified Internet Archive Volume II locator and the WorldCat Ram Dayal Munda catalogue search.",
-    "Updated the federated MMSC index to 16 actually counted discovered records: 14 preserved canonical records + SRC-MUN-V02 + SRC-MMSC-000001. Additional federated discoveries=2; standalone MMSC discoveries=1; still-to-acquire additional discoveries=2.",
-    "Expanded MMSC tests for required evidence-preserving fields, permanent standalone ID, real-count derivation, acquisition/rights boundaries and search-log reproducibility.",
-    "Synchronized Streamlit in the same work cycle: the existing backward-compatible Master Sources navigation now renders a Master Source Census view driven by mmsc_index.json and mmsc_discoveries.json, showing Discovered, Canonical, Additional, Still to acquire and Verified Mundarica metrics plus the latest discovery and standalone records.",
-    "Strengthened Streamlit smoke tests so the public census view must read the live MMSC files, show the current real metrics, preserve the availability/reuse/verification warning, and retain all governance/footer safeguards."
+    "Confirmed the previous mlhkp-v2 head was green for MLHKP Migration Audit, MLHKP Source Register Audit and MLHKP Streamlit Smoke Test before new work began.",
+    "Verified and registered Internet Archive/Digital Library of India locator metadata for Encyclopaedia Mundarica Volume III as SRC-MUN-V03: in.ernet.dli.2015.14921, ark:/13960/t3907ds0b, 264 catalogued pages, ABBYY FineReader 11.0 OCR and scan/full-text derivatives observed externally. No local acquisition or OCR verification was claimed.",
+    "Recorded repository-supplied rights metadata for Volume III only as provenance; MLHKP does not treat it as independently established redistribution permission.",
+    "Updated the Mundarica manifest audit summary to two externally located volumes while keeping authoritative scans=0 and VERIFIED COMPLETE=0.",
+    "Expanded the federated MMSC to 17 unique counted source IDs: 14 preserved canonical sources + SRC-MUN-V02 + SRC-MUN-V03 + SRC-MMSC-000001.",
+    "Checked Internet Archive item in.ernet.dli.2015.215493 for Sarat Chandra Roy's 1912 The Mundas and Their Country (669 catalogued pages) and deduplicated it to existing canonical SRC-000005 instead of assigning a new source ID.",
+    "Extended the reproducible MMSC search log with Volume III discovery and the Roy locator-deduplication decision.",
+    "Strengthened MMSC and Streamlit tests for Volume III metadata, truthful OCR/acquisition/rights boundaries, real census counts, deduplicated locator handling and live Mundarica selector synchronization."
   ],
   "commits_this_cycle": [
-    "3c2597a0d8f257f6c99a016bd002cb326fe3fbed - Harden Mundarica audit-note semantic assertions",
-    "0d7a36eb9b6bafec40913f88e29d20be0593bf49 - Register first standalone MMSC bibliographic discovery",
-    "bf742ae96cc75e4bfb9986d5f7cd132722ef9524 - Extend MMSC with verified Ram Dayal Munda catalogue record",
-    "ac5c1ddedbe9064cd943741528b6381680bc22d8 - Start reproducible MMSC search log",
-    "414d03ea3ebcb95c67ece7623da33fdbf173c2a7 - Test federated MMSC standalone discoveries and metrics",
-    "1904823e0a0344b6d9cf5a3ec3a5708f57d953d7 - Expose live MMSC metrics in Streamlit",
-    "ec12979e64e317ffe6d550e61e08c7d974a110cd - Enforce live MMSC Streamlit synchronization"
+    "d72fe5bda1adc2f4bda642db20f2f59adf7250de - Register verified Internet Archive locator for Mundarica Volume III",
+    "4e4cbc4cc3119c067d46c1523c877a7b49a41d14 - Extend MMSC with verified Mundarica Volume III locator",
+    "5c6d83d52b1521181c2e8025ba08979ca5944430 - Log Mundarica III discovery and Roy source deduplication",
+    "3478074be94fa63d963b29ac7fa3f276f2007e97 - Test Volume III locator and MMSC deduplication accounting",
+    "363c494c2f932c9c07a0fda2a478c423c71f029a - Sync Streamlit tests with Volume III and MMSC metrics"
   ],
-  "mundarica": {
-    "expected_volume_slots": 16,
-    "volume_1": {
-      "source_id": "SRC-MUN-V01",
-      "page_blocks": 324,
-      "page_accounting_complete": true,
-      "registered_working_transcriptions": 1,
-      "authoritative_scan_registered": false,
-      "verified_complete": false
-    },
-    "volume_2": {
-      "source_id": "SRC-MUN-V02",
-      "status": "external_source_locator_verified_not_ingested",
-      "canonical_url": "https://archive.org/details/dli.bengal.10689.21001",
-      "catalogued_pages": 406,
-      "external_ocr_reported": true,
-      "external_ocr_verified": false,
-      "local_scan_registered": false,
-      "rights_status": "not_assessed",
-      "verified_complete": false
-    },
-    "volumes_3_16": "pending",
-    "verified_complete_volumes": 0
-  },
-  "mmsc": {
-    "status": "federated_census_active",
-    "sources_discovered": 16,
-    "canonical_master_records": 14,
-    "additional_federated_discoveries": 2,
-    "standalone_mmsc_discoveries": 1,
-    "latest_discovery_source_id": "SRC-MMSC-000001",
-    "latest_discovery_catalogue": "WorldCat OCLC 936769273",
-    "acquired_additional_discoveries": 0,
-    "still_to_acquire_additional_discoveries": 2,
-    "source_complete_claim": false,
-    "protocol": "docs/mmsc_source_census_protocol.md",
-    "search_log": "data/source_census/search_log.jsonl"
-  },
   "streamlit_sync": {
-    "status": "synced",
-    "detail": "Master Sources navigation remains backward compatible while rendering a live Master Source Census view from mmsc_index.json and mmsc_discoveries.json. Mundarica continues to read manifest.json directly and still exposes 0 VERIFIED COMPLETE volumes. Rajan Pahan governance title/boundary and concise non-duplicative footer remain unchanged and tested."
+    "status": "synced_by_live_registry_inputs_and_tests",
+    "detail": "The Mundarica page reads manifest.json and therefore exposes Volume III's new external-locator state without promoting verification. The Master Source Census reads mmsc_index.json and now derives 17 discovered sources, 3 additional federated discoveries and 2 verified Mundarica locators. Smoke tests were updated in the same cycle. Rajan Pahan's exact public title and governance boundary remain unchanged and tested."
   },
+  "tests_and_workflows": {
+    "previous_head": "22abd2fb6fda235d6941484d0c04103cfa09e61a",
+    "previous_head_workflows": {
+      "MLHKP Migration Audit": "success",
+      "MLHKP Source Register Audit": "success",
+      "MLHKP Streamlit Smoke Test": "success"
+    },
+    "new_tests_added_or_strengthened": [
+      "Volume III Internet Archive locator metadata and non-verification safeguards",
+      "MMSC unique-count derivation at 17 sources",
+      "MMSC deduplicated-locator search-log behavior",
+      "Streamlit live census metrics at 17/14/3 and two Mundarica locators",
+      "Streamlit Mundarica selector includes SRC-MUN-V03 external_source_locator_verified_not_ingested while exposing no VERIFIED COMPLETE option"
+    ],
+    "current_head_before_status_commit": "363c494c2f932c9c07a0fda2a478c423c71f029a",
+    "current_head_workflows": "pending/not yet claimed green"
+  },
+  "blockers": [
+    "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription remain blocked without specialist/source verification.",
+    "Volume I artifact reuse rights remain not assessed.",
+    "Volume II and III have verified external locators and machine OCR derivatives but no locally registered authoritative scan/raw-OCR artifacts; acquisition and reuse assessment remain pending.",
+    "Volumes IV-XVI still require systematic locator discovery and registration.",
+    "No OCR-derived text was promoted to verified transcription or structured cultural fact in this cycle."
+  ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
     "legacy_master_source_ids_preserved": true,
-    "new_permanent_source_ids": ["SRC-MMSC-000001"],
-    "volume_1_page_accounting_complete": true,
-    "registered_artifacts": 1,
-    "registered_authoritative_scans": 0,
-    "registered_working_transcriptions": 1,
-    "verified_complete_volumes": 0,
+    "new_permanent_source_ids_this_cycle": [],
+    "duplicate_source_id_avoided_for_roy_1912": true,
     "ocr_treated_as_verified": false,
-    "working_transcription_treated_as_verified": false,
     "rights_assumed_from_public_availability": false,
     "restricted_material_exposed": false,
+    "verified_complete_volumes": 0,
     "main_branch_modified": false
   },
-  "tests": {
-    "last_observed_failed_streamlit_run": 34014242902,
-    "last_observed_failure_cause": "tests/test_mundarica_completeness.py required the literal phrase 'do not certify' although the manifest note already explicitly stated that an external locator does not imply acquisition, reuse permission, verified OCR or verified-complete status",
-    "repair_commit": "3c2597a0d8f257f6c99a016bd002cb326fe3fbed",
-    "previous_run_passing_before_failure": [
-      "migration integrity",
-      "master source register integrity",
-      "Volume I page accounting",
-      "Mundarica artifact registry validation",
-      "Mundarica artifact registry mutation tests: 6 passed",
-      "Mundarica artifact schema tests: 6 passed"
-    ],
-    "new_tests_added_or_strengthened": [
-      "MMSC standalone discovery required fields and rights/acquisition safeguards",
-      "MMSC real federated count derivation",
-      "MMSC reproducible search log",
-      "Streamlit live MMSC metrics synchronization",
-      "Mundarica audit-note semantic safety assertions"
-    ],
-    "head_before_status_commit": "ec12979e64e317ffe6d550e61e08c7d974a110cd",
-    "current_head_workflows": "pending/not yet claimed green at status-write time"
-  },
-  "blockers": [
-    "Volume I still lacks a registered authoritative scan artifact; scan comparison and verified transcription remain blocked without guessing.",
-    "Volume I artifact reuse rights remain not assessed.",
-    "Volume II has a verified Internet Archive locator and reported OCR derivatives but no locally registered authoritative scan/raw-OCR layer; acquisition/reuse assessment remains pending.",
-    "Volumes III-XVI still require systematic discovery/registration and have no locally registered corpus artifacts in the current build.",
-    "SRC-MMSC-000001 is bibliographic-only in this search step; no scan/full-text availability or reuse permission has been established.",
-    "Current-head GitHub Actions results were not yet observed at status-write time, so no CI-green or module-complete claim is made."
-  ],
-  "next_best_action": "Check current-head CI; repair any deterministic regression without weakening evidence gates. In parallel, continue Mundarica priority by locating/registering the next lawful Volume II artifact layer or, if acquisition remains blocked, systematically discover Volume III locator metadata. Continue MMSC with the next authoritative classical/linguistic/government catalogue source, deduplicate before assigning a permanent SRC-MMSC ID, and synchronize the live Streamlit census metrics in the same cycle."
+  "next_best_action": "Check current-head GitHub Actions and repair only deterministic regressions without weakening evidence gates. Continue Workstream A with systematic Volume IV locator discovery/verification (and lawful Volume II/III artifact acquisition if safely feasible). Continue Workstream B with the next non-duplicate authoritative classical, linguistic, government or thesis source and update live Streamlit/MMSC metrics in the same cycle."
 }
