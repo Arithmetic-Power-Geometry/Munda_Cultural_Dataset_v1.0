@@ -22,7 +22,7 @@ Digitising cultural knowledge creates a tension that ordinary dataset pipelines 
 \noindent\textbf{Keywords:} Indigenous data governance; Munda cultural heritage; evidence graph; provenance; FAIR; CARE
 
 \section{Problem and design position}
-FAIR emphasizes findability, accessibility, interoperability and reuse \parencite{wilkinson2016fair}, while CARE emphasizes Collective Benefit, Authority to Control, Responsibility and Ethics for Indigenous data governance \parencite{carroll2020care}. MLHKP/MCD is designed to operationalise both kinds of requirement at repository level while preserving a stricter distinction between technical availability and culturally or legally permitted reuse.
+FAIR emphasizes findability, accessibility, interoperability and reuse \parencite{wilkinson2016fair}, while CARE emphasizes Collective Benefit, Authority to Control, Responsibility and Ethics for Indigenous data governance \parencite{carroll2020care}. Indigenous data-governance scholarship further stresses that control must extend across collection, access, interpretation, management, dissemination and reuse rather than being reduced to a one-time permission event \parencite{williamson2023sovereignty}. MLHKP/MCD is designed to operationalise these requirements at repository level while preserving a stricter distinction between technical availability and culturally or legally permitted reuse.
 
 The contribution is not a claim that the Munda knowledge universe is complete. It is a reproducible system in which every release can state exactly which sources were discovered under a documented census protocol, which artifacts were acquired, which evidence was structured, which claims are provenance-linked, and which gaps remain unresolved.
 
@@ -92,7 +92,28 @@ Algorithm~\ref{alg:audit} states the release gate that prevents false completion
 \end{algorithm}
 
 \section{Relationship to existing stewardship approaches}
-MLHKP/MCD treats FAIR and CARE as complementary rather than interchangeable. FAIR improves technical stewardship; CARE makes authority, benefit, responsibility and ethics explicit. The current manuscript package intentionally leaves the broader comparison with Mukurtu/community-protocol systems, Local Contexts, CIDOC-CRM and recent cultural-heritage knowledge-graph literature open for expansion only with verified references. No comparison claim is asserted here without a checked source.
+MLHKP/MCD treats FAIR and CARE as complementary rather than interchangeable. FAIR supplies a widely used technical-stewardship baseline \parencite{wilkinson2016fair}; CARE foregrounds collective benefit, authority, responsibility and ethics \parencite{carroll2020care}. Local Contexts demonstrates how community-specific intellectual-property and cultural-use expectations can be represented alongside digital heritage rather than erased by generic openness assumptions \parencite{christen2015localcontexts}. Mukurtu-oriented work similarly shows the value of community-oriented cultural-heritage systems designed around local needs and protocols \parencite{dutta2022mukurtu}. CIDOC-CRM research demonstrates the value of formal semantic mapping and validation for heterogeneous cultural-heritage knowledge graphs \parencite{faraj2021cidoc}. MLHKP/MCD does not replace these approaches; it combines compatible lessons with release-level evidence, OCR/transcription separation, rights/access gates and source-census accounting tailored to the Munda research corpus.
+
+Table~\ref{tab:contribution} gives the resulting contribution matrix. The entries describe design emphasis, not claims of superiority over the cited systems.
+
+\begin{table}[ht]
+\caption{Contribution matrix positioning MLHKP/MCD against complementary stewardship approaches.}
+\label{tab:contribution}
+\centering
+\small
+\begin{tabular}{p{0.18\linewidth}p{0.32\linewidth}p{0.40\linewidth}}
+\toprule
+Approach & Primary emphasis used here & MLHKP/MCD operationalisation \\
+\midrule
+FAIR & Findable, accessible, interoperable and reusable research objects & Permanent IDs, machine-readable registries, search, provenance and explicit reuse metadata; accessibility never overrides cultural restrictions \\
+CARE & Indigenous collective benefit, authority, responsibility and ethics & Governance/access fields, community-validation hooks, correction paths and cultural-access precedence over entitlement \\
+Local Contexts / community protocols & Community-specific conditions, attribution and cultural context for digital heritage & Record-level access/rights states and restriction-aware public rendering; no assumption that public availability equals permission \\
+Mukurtu-oriented systems & Community-oriented management and sharing of Indigenous digital cultural heritage & Grouped public/research interface plus separated public, restricted and future authenticated research surfaces \\
+CIDOC-CRM / heritage knowledge graphs & Semantic interoperability and validation across heterogeneous heritage records & Explicit entity/evidence model and trace from SOURCE to DOMAIN, with validation and contradiction/variant links \\
+MLHKP/MCD release audit & Evidence-preserving corpus growth under incomplete and heterogeneous source conditions & Census, acquisition, OCR/transcription layers, provenance, access audit, generated release metrics and machine-gated completion status \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \section{Limitations and release interpretation}
 The current source census is incomplete in the ordinary empirical sense and is never presented as future-proof or metaphysically complete. Mundarica Volume I has structural page accounting but lacks a registered authoritative scan; Volumes II and III have externally verified locators but no locally registered authoritative scan artifacts; Volumes IV--XVI remain discovery/acquisition work. Consequently, \MLHKPMundaricaVerified{} volumes are VERIFIED COMPLETE in this snapshot. Community validation, reuse permission and present-day universality must be established independently for records that require them.
