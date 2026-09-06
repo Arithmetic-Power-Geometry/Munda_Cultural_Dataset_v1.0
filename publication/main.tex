@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{references.bib}
+\input{generated/release_metrics.tex}
+
+\title{MLHKP/MCD: An Evidence-Preserving, Community-Governed Digital Infrastructure for Munda Cultural Knowledge}
+\author{Mohammad Amir Khusru Akhtar et al.}
+\date{Repository snapshot: 6 September 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Digitising cultural knowledge creates a tension that ordinary dataset pipelines handle poorly: researchers need searchable, computable evidence, while communities require provenance, contextual integrity, differentiated access, correction pathways, and the ability to prevent sensitive knowledge from being flattened into universally reusable data. We present the Munda Living Heritage Knowledge Project / Munda Cultural Dataset (MLHKP/MCD), an evidence-preserving infrastructure for progressively organising Munda and Mundari cultural sources without converting historical reports, machine OCR, uncertain transcription, restricted material, or unreviewed interpretations into verified contemporary facts. The architecture separates source discovery, acquisition, scans, raw OCR, working transcription, verified transcription, structured records, evidence, claims, indicators, and domains. It combines a systematic Master Munda Source Census, permanent identifiers, rights and access metadata, contradiction and uncertainty links, community-validation hooks, and machine-readable completeness audits with a public/research Streamlit interface. At the current repository snapshot, the census contains \MLHKPSourcesDiscovered{} discovered source records under the documented protocol, the information architecture exposes \MLHKPModules{} mapped modules, and \MLHKPMundaricaVerified{} of \MLHKPMundaricaExpected{} Mundarica volumes satisfy the verified-complete gate. The framework complements FAIR data stewardship with CARE-oriented governance by treating cultural access and provenance as constraints that override mere technical availability or future commercial entitlement.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Indigenous data governance; Munda cultural heritage; evidence graph; provenance; FAIR; CARE
+
+\section{Problem and design position}
+FAIR emphasizes findability, accessibility, interoperability and reuse \parencite{wilkinson2016fair}, while CARE emphasizes Collective Benefit, Authority to Control, Responsibility and Ethics for Indigenous data governance \parencite{carroll2020care}. MLHKP/MCD is designed to operationalise both kinds of requirement at repository level while preserving a stricter distinction between technical availability and culturally or legally permitted reuse.
+
+The contribution is not a claim that the Munda knowledge universe is complete. It is a reproducible system in which every release can state exactly which sources were discovered under a documented census protocol, which artifacts were acquired, which evidence was structured, which claims are provenance-linked, and which gaps remain unresolved.
+
+\section{Repository-synchronised release state}
+Table~\ref{tab:release} reports metrics generated from canonical repository files rather than manually typed dataset counts.
+
+\begin{table}[ht]
+\caption{Audited repository snapshot used by the manuscript.}
+\label{tab:release}
+\centering
+\begin{tabular}{lr}
+\toprule
+Metric & Value \\
+\midrule
+Discovered sources under current census protocol & \MLHKPSourcesDiscovered{} \\
+Canonical master-source records & \MLHKPCanonicalSources{} \\
+Additional federated discoveries & \MLHKPAdditionalDiscoveries{} \\
+Still to acquire among additional discoveries & \MLHKPStillToAcquire{} \\
+Mundarica volumes expected & \MLHKPMundaricaExpected{} \\
+Mundarica volumes page-accounted & \MLHKPMundaricaPageAccounted{} \\
+Mundarica authoritative scans registered & \MLHKPMundaricaScans{} \\
+Mundarica VERIFIED COMPLETE & \MLHKPMundaricaVerified{} \\
+Mapped public/research modules & \MLHKPModules{} \\
+Coverage-matrix rows & \MLHKPCoverageRows{} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Core evidence model}
+The preserved trace is SOURCE $\rightarrow$ PASSAGE/SEGMENT/EVENT/OBJECT $\rightarrow$ EVIDENCE $\rightarrow$ CLAIM $\rightarrow$ INDICATOR $\rightarrow$ DOMAIN. Historical or source-reported statements remain source-bounded unless later evidence supports a broader interpretation. OCR is never promoted to verified transcription by availability alone, and public exposure is constrained by access and rights metadata.
+
+Algorithm~\ref{alg:census} summarizes the source-census rule implemented by the repository protocol.
+\begin{algorithm}[ht]
+\caption{Evidence-preserving source census and registration}
+\label{alg:census}
+\begin{algorithmic}[1]
+\For{each authoritative repository or catalogue in the documented search protocol}
+  \State discover candidate bibliographic records
+  \State compare identifiers, titles, creators, dates, and editions against permanent source IDs
+  \If{candidate matches an existing source}
+    \State attach locator/edition relationship without creating a duplicate source ID
+  \Else
+    \State assign a new permanent source ID and record provenance
+  \EndIf
+  \State record acquisition, scan/OCR/full-text, rights, extraction, evidence-link and verification states independently
+\EndFor
+\State report residual unavailable, restricted, unacquired and unprocessed sources explicitly
+\end{algorithmic}
+\end{algorithm}
+
+Algorithm~\ref{alg:audit} states the release gate that prevents false completion claims.
+\begin{algorithm}[ht]
+\caption{Completeness and access audit}
+\label{alg:audit}
+\begin{algorithmic}[1]
+\For{each public factual record}
+  \Require permanent ID and provenance-linked source/evidence locator
+  \Require access class permits public display
+  \Require rights metadata does not infer reuse from online availability
+\EndFor
+\For{each Mundarica volume}
+  \State keep scan, raw OCR, working transcription, verified transcription and structured content separate
+  \State mark VERIFIED COMPLETE only if every machine-readable completion gate passes
+\EndFor
+\State fail the audited release on broken IDs, orphan provenance, restricted leakage, false OCR verification, stale metrics, or unmapped domains
+\end{algorithmic}
+\end{algorithm}
+
+\section{Relationship to existing stewardship approaches}
+MLHKP/MCD treats FAIR and CARE as complementary rather than interchangeable. FAIR improves technical stewardship; CARE makes authority, benefit, responsibility and ethics explicit. The current manuscript package intentionally leaves the broader comparison with Mukurtu/community-protocol systems, Local Contexts, CIDOC-CRM and recent cultural-heritage knowledge-graph literature open for expansion only with verified references. No comparison claim is asserted here without a checked source.
+
+\section{Limitations and release interpretation}
+The current source census is incomplete in the ordinary empirical sense and is never presented as future-proof or metaphysically complete. Mundarica Volume I has structural page accounting but lacks a registered authoritative scan; Volumes II and III have externally verified locators but no locally registered authoritative scan artifacts; Volumes IV--XVI remain discovery/acquisition work. Consequently, \MLHKPMundaricaVerified{} volumes are VERIFIED COMPLETE in this snapshot. Community validation, reuse permission and present-day universality must be established independently for records that require them.
+
+\printbibliography
+\end{document}
