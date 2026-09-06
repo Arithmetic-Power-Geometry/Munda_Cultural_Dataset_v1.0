@@ -2,55 +2,35 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-06T23:28:00Z",
+  "updated_utc":"2026-09-06T23:35:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
     "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":61,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
     "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":61,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob"},
-    "E_publication_readiness":{"status":"publication_metrics_synchronized_to_source_run_9; current head awaiting CI/build reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":61,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
+    "E_publication_readiness":{"status":"discovery-layer manuscript metrics synchronized; current head awaiting CI/build reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":61,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
-    "Expanded non-Mundarica web discovery from 56 to 61 verified source leads without changing the audited MMSC identity total of 27.",
-    "Added WEB-MUN-0057 Pallavi Raonka's 2021 Virginia Tech dissertation on Munda politics and land; findings remain fieldwork-period and participant-context bounded and are not generalized to all Munda communities or current practice.",
-    "Added WEB-MUN-0058 Carol Marie Babiracki's 1991 University of Illinois ethnomusicology dissertation on the Karam repertory; IDEALS full text is restricted and protected content is not ingested.",
-    "Added WEB-MUN-0059 the official Ministry of Tribal Affairs/TRI record DRMTWRI/1993/0007, Munda, researched by Soma Singh Munda; repository metadata is registered without converting source-supplied descriptions into cultural facts.",
-    "Added WEB-MUN-0060 Toshiki Osada's 2008 Mundari grammar sketch in The Munda Languages, verified through Glottolog with pages 99-164; Glottolog's metadata licence is explicitly separated from rights in the Routledge chapter.",
-    "Added WEB-MUN-0061 ASJP Database Wordlist Mundari as a comparative lexical-dataset lead; ASJP states CC BY 4.0, while underlying-source provenance and cultural-access obligations remain preserved.",
-    "Synchronized the MMSC index and reproducible search log to 61 sequential discovery leads while preserving zero discovery leads in the audited identity total.",
-    "Extended source-discovery integrity tests through WEB-MUN-0061, including restricted dissertation, TRI/government, chapter-rights and comparative lexical-dataset boundaries.",
-    "Regenerated publication JSON and LaTeX release metrics to 61 observed discovery leads and added publication-sync assertions so stale discovery counts now fail tests.",
-    "Streamlit needs no filename-specific patch because its discovery loader dynamically loads web_discovery expansion JSON files; the five new leads therefore enter the searchable discovery layer without promotion to cultural evidence.",
-    "No cultural, linguistic, religious, political, musical or lexical proposition was promoted from discovery metadata into evidence, and public availability was not interpreted as unrestricted reuse permission."
+    "Observed final run-9 CI: Source Register Audit PASS and Migration Audit PASS; Streamlit Smoke failed at the information-architecture contract and Publication Build failed at the publication synchronization contract.",
+    "Repaired the governance architecture test so the exact approved Rajan Pahan title is required in the delegated knowledge-engine rendering surface while duplicate founder metadata remains forbidden in the Streamlit entrypoint.",
+    "Repaired the manuscript synchronization contract by using the generated discovery-layer macros in the abstract and release table: 61 external discovery leads observed and 0 counted as audited source identities.",
+    "Updated manuscript snapshot date to 7 September 2026 and retained explicit release-bounded, non-completeness language.",
+    "No source counts, cultural claims, OCR verification states, community-validation states or redistribution permissions were promoted during this CI-repair cycle."
   ],
   "commits_this_cycle":[
-    "8ca8ac8ab4f227530e5ffe6e0bd63c9d0fe242c4 - Add verified non-Mundarica source expansion run 9",
-    "0e9d685764a0a0e7d56fb0d3dee8609f6582a3e7 - Synchronize MMSC to 61 discovery leads",
-    "0f4434707183454a40ed7f67e3d5f7c785d5a1c1 - Log source expansion search run 9",
-    "08d978ec1f0890ae7c46970bafba9d987f8a08c5 - Extend discovery integrity tests through WEB-MUN-0061",
-    "b8f4ba093d62ce9ff795ab286326b3ac095d5ec6 - Regenerate release metrics for 61 discovery leads",
-    "f17cb1d04dbcbedbaef8c251e7e33c582ec213d7 - Regenerate LaTeX release macros for 61 discovery leads",
-    "1b79aa4e4e87ec4326f03d7711b2265ba93d2eb9 - Fail publication sync on stale discovery metrics"
+    "115eee2a0482fd2ed16300d96b9689fa1628988c - Fix governance architecture test delegation contract",
+    "10beeaf6cec56845e063082dadf05de421446371 - Synchronize manuscript discovery-layer metrics"
   ],
-  "tests_and_workflows":{"status":"source_expansion_tests_and_publication_sync_guard_updated_ci_reconfirmation_pending","last_observed_head":"1b79aa4e4e87ec4326f03d7711b2265ba93d2eb9","migration_audit":"PASS_on_pre_run9_head_e49d217d_or_earlier_observed_state; current_head_reconfirmation_pending","source_register_audit":"PASS_on_pre_run9_head_e49d217d_or_earlier_observed_state; current_head_reconfirmation_pending","publication_build":"previously_PASS_before_run9; current_head_reconfirmation_pending","streamlit_smoke":"previously_repaired; current_head_reconfirmation_pending","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the current source-expansion head."},
+  "tests_and_workflows":{"status":"two_observed_failures_repaired_current_head_reconfirmation_pending","last_observed_head":"fe55cc78dd9f5ae0694473ac4e927435b6d7fd01","migration_audit":"PASS_on_fe55cc78","source_register_audit":"PASS_on_fe55cc78","publication_build":"FAIL_on_fe55cc78_at_publication_synchronization_contract; repair_committed_current_head_reconfirmation_pending","streamlit_smoke":"FAIL_on_fe55cc78_at_complete_information_architecture_contract; repair_committed_current_head_reconfirmation_pending","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the current repair head."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
     "Sixty-one non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
     "Full-text access or reuse status remains unresolved for some registered discovery leads; discovery metadata is retained without asserting acquisition.",
-    "Pallavi Raonka dissertation evidence requires exact page/passage locators and fieldwork-context preservation before proposition-level use; participant-derived content requires ethics, consent and cultural-access review.",
-    "Carol Marie Babiracki's dissertation full text is restricted by the University of Illinois repository; no protected text, music notation, song, performance material or participant-derived content is ingested without lawful access and rights review.",
-    "The Ministry/TRI Munda book requires item-level governmental/repository reuse assessment and exact page locators before evidence extraction.",
-    "Osada 2008 chapter rights are separate from Glottolog CC BY metadata; claims require a lawfully accessed chapter and exact page/example locators.",
-    "ASJP lexical material is CC BY 4.0 at database level but cited underlying-source provenance must remain linked and duplicate/derivation relationships must be audited before canonical ingestion.",
-    "Historical primers and grammars require exact page/entry locators and explicit historical-source framing before proposition-level evidence use.",
-    "Competing lexical-class analyses must be represented as attributed interpretations/contradictions rather than collapsed into a single settled claim.",
-    "Participant-derived speech recordings or datasets require source-specific consent/data-governance review and MLHKP cultural-access controls before ingestion.",
-    "Ethnobotanical/medicinal knowledge requires exact-locator evidence, safety review, consent/provenance checks, benefit-sharing consideration and cultural-access controls before structured public use.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
-    "Current source-expansion head requires CI reconfirmation before whole-repository PASS."
+    "Current repair head requires CI reconfirmation before whole-repository or publication PASS."
   ],
   "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false},
-  "next_best_action":"Continue deterministic canonicalization of the 61 discovery leads, prioritize official Census/LSI/TRI and strong institutional dissertation/language sources for permitted acquisition with exact locators, continue Mundarica XIV-XVI locator discovery, and verify all CI workflows on the current head without touching main."
+  "next_best_action":"Verify all CI workflows on the repair head; then continue deterministic canonicalization of the 61 discovery leads, prioritize permitted official Census/LSI/TRI and institutional sources for exact-locator acquisition, and continue Mundarica XIV-XVI locator discovery without touching main."
 }
