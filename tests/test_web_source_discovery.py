@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 77
+    assert len(records) == 81
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 78)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 82)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008','WEB-MUN-0009','WEB-MUN-0010','WEB-MUN-0011','WEB-MUN-0012','WEB-MUN-0014','WEB-MUN-0015','WEB-MUN-0016','WEB-MUN-0017','WEB-MUN-0021','WEB-MUN-0022','WEB-MUN-0027','WEB-MUN-0029','WEB-MUN-0031','WEB-MUN-0033','WEB-MUN-0034','WEB-MUN-0038','WEB-MUN-0040','WEB-MUN-0041','WEB-MUN-0042','WEB-MUN-0043','WEB-MUN-0044','WEB-MUN-0048','WEB-MUN-0049','WEB-MUN-0050','WEB-MUN-0051','WEB-MUN-0052','WEB-MUN-0053','WEB-MUN-0054','WEB-MUN-0055','WEB-MUN-0056','WEB-MUN-0057','WEB-MUN-0058','WEB-MUN-0059','WEB-MUN-0060','WEB-MUN-0062','WEB-MUN-0063','WEB-MUN-0064','WEB-MUN-0065','WEB-MUN-0066','WEB-MUN-0067','WEB-MUN-0068','WEB-MUN-0069','WEB-MUN-0070','WEB-MUN-0071','WEB-MUN-0072','WEB-MUN-0073','WEB-MUN-0074','WEB-MUN-0075','WEB-MUN-0076','WEB-MUN-0077']:
+    for source_id in ['WEB-MUN-0008','WEB-MUN-0009','WEB-MUN-0010','WEB-MUN-0011','WEB-MUN-0012','WEB-MUN-0014','WEB-MUN-0015','WEB-MUN-0016','WEB-MUN-0017','WEB-MUN-0021','WEB-MUN-0022','WEB-MUN-0027','WEB-MUN-0029','WEB-MUN-0031','WEB-MUN-0033','WEB-MUN-0034','WEB-MUN-0038','WEB-MUN-0040','WEB-MUN-0041','WEB-MUN-0042','WEB-MUN-0043','WEB-MUN-0044','WEB-MUN-0048','WEB-MUN-0049','WEB-MUN-0050','WEB-MUN-0051','WEB-MUN-0052','WEB-MUN-0053','WEB-MUN-0054','WEB-MUN-0055','WEB-MUN-0056','WEB-MUN-0057','WEB-MUN-0058','WEB-MUN-0059','WEB-MUN-0060','WEB-MUN-0062','WEB-MUN-0063','WEB-MUN-0064','WEB-MUN-0065','WEB-MUN-0066','WEB-MUN-0067','WEB-MUN-0068','WEB-MUN-0069','WEB-MUN-0070','WEB-MUN-0071','WEB-MUN-0072','WEB-MUN-0073','WEB-MUN-0074','WEB-MUN-0075','WEB-MUN-0076','WEB-MUN-0077','WEB-MUN-0078','WEB-MUN-0079','WEB-MUN-0080','WEB-MUN-0081']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
@@ -190,6 +190,25 @@ def test_run14_political_anthropology_and_information_structure_boundaries():
     assert 'sora and mundari' in fasal['notes'].lower()
     assert 'exact pdf page/example/table locators' in fasal['notes'].lower()
     assert 'underlying elicitation/corpus rights' in fasal['rights_note'].lower()
+
+
+def test_run15_new_sources_and_canonicalization_boundaries():
+    records = {r['id']: r for r in all_records()}
+    megalith = records['WEB-MUN-0078']
+    assert '10.30884/seh/2025.02.01' in megalith['url'].lower()
+    assert megalith['canonicalization']['status'] == 'canonicalized_new_identity'
+    assert megalith['canonicalization']['canonical_source_id'] == 'SRC-MMSC-000002'
+    assert 'not a universal' in megalith['notes'].lower()
+    livelihood = records['WEB-MUN-0079']
+    assert '10.35784/pe.2021.1.19' in livelihood['url'].lower()
+    assert 'exact propositions require full-text passage review' in livelihood['notes'].lower()
+    inheritance = records['WEB-MUN-0080']
+    assert '10.1177/0019556120982196' in inheritance['url'].lower()
+    assert 'exact passage' in inheritance['notes'].lower()
+    gender = records['WEB-MUN-0081']
+    assert '10.1177/097185240000400301' in gender['url'].lower()
+    assert 'sensitive claims require exact passages' in gender['notes'].lower()
+    assert 'heightened contextual and community review' in gender['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
