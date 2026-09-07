@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T17:36:00Z",
-  "observed_head_before_status_sync": "78ec18e03dc8541f431b1dda20b0c1c0d6d1f2c0",
+  "updated_utc": "2026-09-07T17:52:00Z",
+  "observed_head_before_status_sync": "f60afe5a6134792d3e0f1479b24cd8e945862bdd",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -18,16 +18,17 @@
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
-      "audited_source_identities_discovered": 37,
+      "audited_source_identities_discovered": 38,
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 12,
-      "standalone_mmsc_discoveries": 11,
+      "standalone_mmsc_discoveries": 12,
       "web_discovery_leads_observed": 87,
-      "web_discovery_leads_counted_in_audited_identity_total": 10,
-      "web_discovery_leads_remaining_outside_audited_identity_total": 77,
+      "web_discovery_leads_counted_in_audited_identity_total": 11,
+      "web_discovery_leads_remaining_outside_audited_identity_total": 76,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000031",
-      "latest_verification": "WEB-MUN-0023 Mundari Ideophones / PARADISEC-ANU BMM1",
+      "latest_search_id": "MMSC-SEARCH-000032",
+      "latest_canonicalization": "WEB-MUN-0025 -> SRC-MMSC-000012 by DOI 10.18653/v1/2024.computel-1.11",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -47,41 +48,47 @@
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
-      "sources_discovered": 37,
+      "sources_discovered": 38,
       "web_discovery_leads_observed": 87,
-      "canonicalized_web_leads": 10,
-      "claims": 46,
-      "evidence_records": 46,
-      "evidence_links": 46,
-      "metrics_changed_this_cycle": false,
-      "reason": "WEB-MUN-0023 verification does not itself authorize item-level evidence promotion"
+      "canonicalized_web_leads": 11,
+      "claims": 47,
+      "evidence_records": 47,
+      "evidence_links": 47,
+      "metrics_changed_this_cycle": true,
+      "json_and_tex_metrics_synchronized": true,
+      "reason": "WEB-MUN-0025 was atomically canonicalized and promoted at publisher-abstract technical study-scope level; stale generated TeX metrics were repaired at the same time"
     },
     "F_evidence_population": {
-      "source_claims": 46,
-      "evidence_records": 46,
-      "evidence_links": 46,
-      "latest_evidence_bearing_source": "SRC-MMSC-000011",
-      "promotion_ready": "WEB-MUN-0025 MunTTS remains next atomic publisher-abstract scope promotion candidate",
-      "new_verified_candidate": "WEB-MUN-0023 BMM1 verified at ANU collection-metadata/licence level; item evidence remains gated by item/consultant/access/cultural review"
+      "source_claims": 47,
+      "evidence_records": 47,
+      "evidence_links": 47,
+      "latest_evidence_bearing_source": "SRC-MMSC-000012",
+      "latest_evidence_chain": "WEB-MUN-0025 -> SRC-MMSC-000012 -> CLM-000047 -> EVD-000047 -> LNK-000047",
+      "promotion_boundary": "MunTTS publisher-abstract technical study scope only; underlying dataset, recordings, participants, model checkpoints and cultural-access permissions remain separately gated"
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "78ec18e03dc8541f431b1dda20b0c1c0d6d1f2c0",
+    "last_verified_all_four_green_commit": "4e287e2d0b0a05310f4cb662352ca59b909c3fe0",
     "four_of_four_green_claim_for_that_head": true,
-    "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"]
+    "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
+    "new_evidence_commit": "f60afe5a6134792d3e0f1479b24cd8e945862bdd",
+    "new_evidence_commit_ci_state_at_status_write": "fresh runs pending or not yet fully verified; no green projection"
   },
   "changes_this_cycle": [
-    "Verified the previous mlhkp-v2 head 78ec18e03dc8541f431b1dda20b0c1c0d6d1f2c0 as 4/4 green.",
-    "Verified WEB-MUN-0023 against the ANU institutional repository as Bonnie McLean's 2016 PARADISEC BMM1 Mundari Ideophones collection with DOI 10.4225/72/585bea79cf9dd and Handle 1885/146448.",
-    "Preserved ANU's Open Access and CC BY-SA 4.0 collection-level metadata while explicitly retaining item-level speaker/consultant, performance, song/narrative, third-party and cultural-access gates.",
-    "Added a verification artifact and MMSC-SEARCH-000031 without inflating source or evidence counts.",
+    "Verified the prior mlhkp-v2 head 4e287e2d0b0a05310f4cb662352ca59b909c3fe0 as 4/4 green.",
+    "Deterministically canonicalized WEB-MUN-0025 to SRC-MMSC-000012 using DOI 10.18653/v1/2024.computel-1.11 and ACL Anthology title/author/page metadata.",
+    "Promoted one publisher-abstract technical study-scope chain as CLM-000047, EVD-000047 and LNK-000047 with exact ACL locator and explicit dataset/participant/cultural-access boundaries.",
+    "Raised repository-derived audited source identities from 37 to 38, canonicalized web leads from 10 to 11, and claim/evidence/link totals from 46 to 47; 76 web leads remain outside the audited identity total.",
+    "Added MMSC-SEARCH-000032 as an append-only run log and kept MMSC-SEARCH-000029 through 000032 explicit pending primary-log consolidation.",
+    "Repaired stale publication/generated/release_metrics.tex so JSON and LaTeX now carry the same 38/11/47 release truth.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0.",
-    "Seventy-seven web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "WEB-MUN-0025 still requires atomic canonical source plus claim/evidence/link and metrics synchronization before counting.",
+    "Seventy-six web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "MMSC-SEARCH-000029 through 000032 remain in run-specific append-only logs pending safe primary-log consolidation.",
     "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before any audio, annotation, lexical, song or narrative evidence promotion.",
+    "MunTTS underlying speech/text datasets, recordings and model checkpoints remain separately rights/consent/access gated and are not ingested through article-level CC BY.",
     "LSI Jharkhand exact Mundari page extraction remains pending.",
     "Census C-16 exact Munda/Mundari row extraction remains pending.",
     "TRI and grammar full-text processing remains rights-gated.",
@@ -104,10 +111,11 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Atomically promote WEB-MUN-0025 at ACL publisher-abstract technical-scope level if duplicate audit remains clean.",
+    "Consolidate MMSC-SEARCH-000029 through 000032 into the primary append-only search log without changing IDs or semantics.",
+    "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 discovery leads, prioritizing sources with exact-locator evidence potential.",
     "Review BMM1 item-level PARADISEC access/consultant metadata before any item evidence ingestion.",
-    "Continue deterministic DOI/Handle/government canonicalization among the remaining 77 discovery leads.",
     "Retry Census C-16 exact-row and LSI Jharkhand exact-page extraction.",
+    "Continue TRI/grammar processing only within item-level rights boundaries.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation.",
     "Keep publication metrics, Streamlit and evidence graph synchronized after every evidence-bearing promotion."
   ]
