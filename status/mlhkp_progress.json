@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T19:53:00Z",
-  "observed_head_before_status_sync": "b0602a47e4907403697301d77903da7466a72ba4",
+  "updated_utc": "2026-09-07T20:32:57Z",
+  "observed_head_before_status_sync": "768cf65a913c9aeed7b920cce13368179532ab28",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -26,10 +26,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 11,
       "web_discovery_leads_remaining_outside_audited_identity_total": 76,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000036",
+      "latest_search_id": "MMSC-SEARCH-000037",
       "latest_canonicalization": "WEB-MUN-0025 -> SRC-MMSC-000012 by DOI 10.18653/v1/2024.computel-1.11",
-      "latest_verification": "Official ORGI Jharkhand town-level C-16 dataset identity verified as PC11_C16city-20 / PC11_C16city, workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX, with state/district/town granularity and mother-tongue/sex/count dimensions; exact Munda/Mundari rows remain unextracted and no town population values are promoted.",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036"],
+      "latest_verification": "Fresh ORGI discovery reverified Jharkhand C-16 state/district/subdistrict and town-level catalogue identities and workbook filenames; direct catalogue opening/download resolution returned HTTP 502, so exact Munda/Mundari workbook rows remain unextracted and no numeric evidence was promoted.",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "evidence_links": 47,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "This cycle added a distinct official Jharkhand town-level C-16 Census dataset/workbook verification, but exact Munda/Mundari town rows and deterministic duplicate disposition remain pending; audited identity and evidence counts were therefore not inflated."
+      "reason": "This cycle reverified two official Census products and recorded an exact-row acquisition blocker; no unverified numeric evidence or new audited identity was counted."
     },
     "F_evidence_population": {
       "source_claims": 47,
@@ -65,34 +65,34 @@
       "evidence_links": 47,
       "latest_evidence_bearing_source": "SRC-MMSC-000012",
       "latest_evidence_chain": "WEB-MUN-0025 -> SRC-MMSC-000012 -> CLM-000047 -> EVD-000047 -> LNK-000047",
-      "promotion_boundary": "Census C-16 state/district/subdistrict and town-level catalogue metadata are verified, but no Munda/Mundari population value or category equivalence is evidence-promoted until exact workbook rows are retrieved, checked and provenance-linked."
+      "promotion_boundary": "Census C-16 catalogue metadata is verified, but no Munda/Mundari population value or category equivalence is evidence-promoted until workbook bytes and exact sheet/row/cell provenance are retrieved and checked."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "40cde50c7c009870df64517dc28e89fd09b6575c",
+    "last_verified_all_four_green_commit": "2f88c4a182aeba23ce19208f82b06f64bd309017",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_verification_commits": ["e074356c874fa5bd53d4771bdf839b0eafecba13","b0602a47e4907403697301d77903da7466a72ba4"],
+    "new_commits_this_cycle": ["0c6a9b2e7eff14c1bbe4957b42f65e4bf4a6d0cb","768cf65a913c9aeed7b920cce13368179532ab28"],
     "new_head_ci_state_at_status_write": "fresh runs pending or not yet fully verified; no green projection"
   },
   "changes_this_cycle": [
-    "Verified prior synchronized head 40cde50c7c009870df64517dc28e89fd09b6575c as 4/4 green.",
-    "Extended the official Census/government stream to the distinct Jharkhand town-level C-16 product PC11_C16city-20 / PC11_C16city.",
-    "Verified the official workbook locator DDW-C16-TOWN-STMT-MDDS-2000.XLSX and documented state/district/town granularity plus mother-tongue and sex/count dimensions.",
-    "Added data/source_census/census_c16_city_jharkhand_verification_2026-09-08.json with explicit evidence, rights and category-interpretation boundaries.",
-    "Added MMSC-SEARCH-000036 in search_log_run30.jsonl.",
-    "Kept repository/publication truth at 38 audited identities, 87 discovery leads, 11 canonicalized web leads and 47 claim/evidence/link chains because exact Munda/Mundari rows and deterministic duplicate comparison remain pending.",
+    "Verified branch head 2f88c4a182aeba23ce19208f82b06f64bd309017 is represented by successful MLHKP workflow runs; prior status already records it as the current 4/4-green baseline.",
+    "Retried exact acquisition for the two official Jharkhand C-16 workbooks after independently reverifying their ORGI catalogue identities and dimensions.",
+    "Recorded HTTP 502 as a retrieval blocker instead of inventing workbook rows, checksums, sheet names, coordinates or population values.",
+    "Added data/source_census/census_c16_exact_row_retrieval_attempt_2026-09-08.json.",
+    "Added MMSC-SEARCH-000037 in search_log_run31.jsonl.",
+    "Kept audited identity and evidence counts unchanged because no new source was deterministically promoted and no exact numeric evidence was obtained.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0.",
     "Seventy-six web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000036 remain in run-specific append-only logs pending safe primary-log consolidation.",
-    "Census C-16 Jharkhand state/district/subdistrict dataset and town-level dataset identities/workbook filenames are verified, but exact Munda/Mundari rows and values remain unextracted; no population count or label equivalence is asserted.",
-    "The 1908 Grierson review requires deterministic comparison against discovery records before a permanent source ID is assigned; full review-text reuse rights/access also remain unestablished.",
-    "WEB-MUN-0082 detailed participant-derived religious/ritual material requires exact-passage rights, consent and cultural-access review before evidence promotion.",
-    "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before any audio, annotation, lexical, song or narrative evidence promotion.",
-    "MunTTS underlying speech/text datasets, recordings and model checkpoints remain separately rights/consent/access gated and are not ingested through article-level CC BY.",
+    "MMSC-SEARCH-000029 through 000037 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "Census C-16 Jharkhand workbook identities and filenames are verified, but direct catalogue/download resolution returned HTTP 502 in this cycle; exact Munda/Mundari rows remain unextracted and no population values are asserted.",
+    "The 1908 Grierson review requires deterministic comparison against discovery records before permanent source assignment; full-text reuse rights remain unestablished.",
+    "WEB-MUN-0082 participant-derived religious/ritual material requires exact-passage rights, consent and cultural-access review before evidence promotion.",
+    "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before audio, annotation, lexical, song or narrative evidence promotion.",
+    "MunTTS underlying speech/text datasets, recordings and model checkpoints remain separately rights/consent/access gated.",
     "LSI Jharkhand exact Mundari page extraction remains pending.",
     "TRI and grammar full-text processing remains rights-gated.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
@@ -114,12 +114,11 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Consolidate MMSC-SEARCH-000029 through 000036 into the primary append-only search log without changing IDs or semantics.",
-    "Retrieve DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX through official ORGI routes and extract exact Munda/Mundari rows with workbook sheet/row/cell provenance before promoting numeric evidence.",
-    "Deterministically compare both C-16 dataset identities and the Grierson 1908 review against all discovery-layer records before assigning any new permanent SRC-MMSC IDs.",
-    "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 discovery leads, prioritizing sources with exact-locator evidence potential.",
-    "Review WEB-MUN-0082 only to the exact-passage level permitted by publisher access and cultural/participant protections.",
-    "Review BMM1 item-level PARADISEC access/consultant metadata before any item evidence ingestion.",
+    "Consolidate MMSC-SEARCH-000029 through 000037 into the primary append-only search log without changing IDs or semantics.",
+    "Retry official acquisition of DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX; if obtained, record checksum, sheet, exact row/cell coordinates and raw labels before any numeric evidence promotion.",
+    "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 discovery leads, prioritizing exact-locator evidence potential.",
+    "Review WEB-MUN-0082 only to the exact-passage level allowed by publisher access and participant/cultural protections.",
+    "Review BMM1 item-level PARADISEC access/consultant metadata before item evidence ingestion.",
     "Retry LSI Jharkhand exact-page extraction and continue TRI/grammar processing only within item-level rights boundaries.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation.",
     "Keep publication metrics, Streamlit and evidence graph synchronized after every evidence-bearing promotion."
