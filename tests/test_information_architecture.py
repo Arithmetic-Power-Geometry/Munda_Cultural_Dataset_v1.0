@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import re
 
 BASE = Path(__file__).resolve().parents[1]
 PORTAL = (BASE / "pages" / "01_Research_Portal.py").read_text(encoding="utf-8")
@@ -24,8 +25,15 @@ def _module_names():
     return names
 
 
+def _nav_normalize(value):
+    """Treat typography-only variants as the same public navigation contract."""
+    value = str(value).replace("–", "-").replace("—", "-")
+    value = re.sub(r"\s*/\s*", "/", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
 def test_registry_declares_complete_grouped_information_architecture():
-    text = json.dumps(REGISTRY, ensure_ascii=False)
+    text = _nav_normalize(json.dumps(REGISTRY, ensure_ascii=False))
     required = [
         "Home Research Dashboard", "Universal Search", "Culture Explorer", "Life from Birth to Burial",
         "Language & Lexicon", "Kinship & Kili", "Festivals & Rituals", "Beliefs & Sacred Life",
@@ -40,13 +48,13 @@ def test_registry_declares_complete_grouped_information_architecture():
         "Institutional", "API", "Report Studio", "Book Studio"
     ]
     for name in required:
-        assert name in text
+        assert _nav_normalize(name) in text
 
 
 def test_coverage_matrix_maps_every_registered_module():
-    matrix_text = json.dumps(COVERAGE, ensure_ascii=False)
+    matrix_text = _nav_normalize(json.dumps(COVERAGE, ensure_ascii=False))
     for name in set(_module_names()):
-        assert name in matrix_text
+        assert _nav_normalize(name) in matrix_text
 
 
 def test_grouped_navigation_not_flat_radio_contract():
