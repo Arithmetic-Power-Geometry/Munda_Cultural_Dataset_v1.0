@@ -14,7 +14,8 @@
       "notes": "Virginia Tech institutional-repository metadata verifies a doctoral dissertation deposited in 2021, based on a fifteen-month ethnographic study conducted from May 2017 to December 2018 concerning Munda relationships to land, identity, representation, gender, markets and state power in Jharkhand. Register as a high-value ethnographic and contemporary-change source lead. Any proposition derived later must retain the dissertation's fieldwork period, places, participant context and exact page/passage locator, and must not be generalized to all Munda communities or to current practice without additional evidence.",
       "verification_state": "institutional_dissertation_metadata_verified",
       "access_class": "public_institutional_repository_record_with_downloadable_dissertation",
-      "rights_note": "Repository download availability does not establish blanket redistribution, commercial reuse, participant-data reuse, quotation beyond applicable limits, or reuse of supporting documents. Participant-derived material and culturally sensitive content require dissertation-specific consent, ethics, rights and cultural-access review before structured ingestion."
+      "rights_note": "Repository download availability does not establish blanket redistribution, commercial reuse, participant-data reuse, quotation beyond applicable limits, or reuse of supporting documents. Participant-derived material and culturally sensitive content require dissertation-specific consent, ethics, rights and cultural-access review before structured ingestion.",
+      "canonicalization": {"status":"canonicalized_new_identity","canonical_source_id":"SRC-MMSC-000004","dedupe_key":"handle:10919/111386","checked_utc":"2026-09-07T08:49:00Z","evidence_state":"one_institutional_abstract_scope_claim_linked"}
     },
     {
       "id": "WEB-MUN-0058",
@@ -40,7 +41,8 @@
       "notes": "The Ministry of Tribal Affairs repository verifies TRI record DRMTWRI/1993/0007, document type Book, title Munda, researcher Soma Singh Munda, completed March 1993, pagination 1-44, with Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi identified as the institutional source. Register as a government/TRI historical source lead across tribal life, language and culture. The repository abstract/keywords are source-supplied metadata only; no cultural proposition is promoted without consulting the exact page and preserving the work's 1993 historical framing.",
       "verification_state": "official_tribal_affairs_repository_metadata_verified",
       "access_class": "public_government_repository_record_pdf_link_present",
-      "rights_note": "A public Ministry/TRI repository record and PDF link do not by themselves establish unrestricted redistribution, derivative-database, image, translation or commercial-reuse rights. Check item-level governmental/repository terms before ingestion; cultural access can remain more restrictive than copyright entitlement."
+      "rights_note": "A public Ministry/TRI repository record and PDF link do not by themselves establish unrestricted redistribution, derivative-database, image, translation or commercial-reuse rights. Check item-level governmental/repository terms before ingestion; cultural access can remain more restrictive than copyright entitlement.",
+      "canonicalization": {"status":"canonicalized_new_identity","canonical_source_id":"SRC-MMSC-000005","dedupe_key":"tri_record_id:DRMTWRI/1993/0007","checked_utc":"2026-09-07T08:49:00Z","evidence_state":"metadata_only_no_cultural_claim_promoted"}
     },
     {
       "id": "WEB-MUN-0060",
