@@ -1,0 +1,45 @@
+{
+  "mcd_schema": "2.0",
+  "record_type": "unresolved_locator_leads",
+  "collection_id": "SRC-COL-MUNDARICA",
+  "updated_utc": "2026-09-07T06:38:00Z",
+  "policy": "Bibliographic or secondary-web records may narrow acquisition work but do not constitute authoritative scan acquisition, OCR verification, rights clearance, or VERIFIED COMPLETE status.",
+  "volumes": [
+    {
+      "volume": 14,
+      "source_id": "SRC-MUN-V14",
+      "authoritative_scan_locator_status": "unresolved",
+      "latest_search_status": "no_exact_authoritative_locator_verified",
+      "verified_complete": false
+    },
+    {
+      "volume": 15,
+      "source_id": "SRC-MUN-V15",
+      "authoritative_scan_locator_status": "unresolved",
+      "latest_search_status": "no_exact_authoritative_locator_verified",
+      "verified_complete": false
+    },
+    {
+      "volume": 16,
+      "source_id": "SRC-MUN-V16",
+      "authoritative_scan_locator_status": "unresolved",
+      "latest_search_status": "bibliographic_edition_record_verified_authoritative_scan_not_found",
+      "bibliographic_leads": [
+        {
+          "title_as_listed": "Encyclopaedia Mundarica, Vol.16th",
+          "authors_as_listed": "Hoffman S.J. John; Artur Van, S.J. Emelen; foreword by K.S. Singh",
+          "edition_year_as_listed": 2009,
+          "publisher_as_listed": "Gyan Publishing House",
+          "isbn": "9788121203227",
+          "pages_as_listed": 43,
+          "catalogue_url": "https://www.kulturkaufhaus.de/de/detail/ISBN-9788121203227/Emelen-Sj/Encyclopaedia-Mundarica-Vol.16th",
+          "locator_class": "commercial_bibliographic_record",
+          "acquisition_status": "not_acquired",
+          "rights_status": "not_assessed",
+          "verification_note": "Useful for edition identity and acquisition targeting only. This commercial catalogue record is not an authoritative historical scan, does not establish OCR/transcription fidelity, and does not grant redistribution or commercial-reuse permission."
+        }
+      ],
+      "verified_complete": false
+    }
+  ]
+}
