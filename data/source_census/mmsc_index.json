@@ -7,52 +7,52 @@
   "source_registers": [
     {"register_type":"canonical_master_source_register","path":"data/source_register/master_sources.json","counted_records":14,"id_policy":"preserve_existing_SRC_ids"},
     {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":12,"counting_rule":"Count volume slots with a verified external locator that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V04","SRC-MUN-V05","SRC-MUN-V06","SRC-MUN-V07","SRC-MUN-V08","SRC-MUN-V09","SRC-MUN-V10","SRC-MUN-V11","SRC-MUN-V12","SRC-MUN-V13"]},
-    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":13,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
-    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json","data/source_census/web_discovery_expansion_2026-09-07_run8.json","data/source_census/web_discovery_expansion_2026-09-07_run9.json","data/source_census/web_discovery_expansion_2026-09-07_run10.json","data/source_census/web_discovery_expansion_2026-09-07_run11.json","data/source_census/web_discovery_expansion_2026-09-07_run12.json","data/source_census/web_discovery_expansion_2026-09-07_run13.json","data/source_census/web_discovery_expansion_2026-09-07_run14.json","data/source_census/web_discovery_expansion_2026-09-07_run15.json","data/source_census/web_discovery_expansion_2026-09-07_run16.json","data/source_census/web_discovery_expansion_2026-09-07_run17.json","data/source_census/web_discovery_expansion_2026-09-07_run18.json","data/source_census/web_discovery_expansion_2026-09-07_run19.json"],"counted_records":11,"observed_leads":87,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, alternate locator, catalogue wrapper, or duplicate. WEB-MUN-0025, WEB-MUN-0043, WEB-MUN-0045, WEB-MUN-0057, WEB-MUN-0059, WEB-MUN-0063, WEB-MUN-0078, WEB-MUN-0079, WEB-MUN-0083, WEB-MUN-0084 and WEB-MUN-0087 have been canonicalized as SRC-MMSC-000012, SRC-MMSC-000007, SRC-MMSC-000009, SRC-MMSC-000004, SRC-MMSC-000005, SRC-MMSC-000011, SRC-MMSC-000002, SRC-MMSC-000003, SRC-MMSC-000010, SRC-MMSC-000006 and SRC-MMSC-000008 respectively and are counted once through the standalone register, never double-counted here."}
+    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":14,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
+    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json","data/source_census/web_discovery_expansion_2026-09-07_run8.json","data/source_census/web_discovery_expansion_2026-09-07_run9.json","data/source_census/web_discovery_expansion_2026-09-07_run10.json","data/source_census/web_discovery_expansion_2026-09-07_run11.json","data/source_census/web_discovery_expansion_2026-09-07_run12.json","data/source_census/web_discovery_expansion_2026-09-07_run13.json","data/source_census/web_discovery_expansion_2026-09-07_run14.json","data/source_census/web_discovery_expansion_2026-09-07_run15.json","data/source_census/web_discovery_expansion_2026-09-07_run16.json","data/source_census/web_discovery_expansion_2026-09-07_run17.json","data/source_census/web_discovery_expansion_2026-09-07_run18.json","data/source_census/web_discovery_expansion_2026-09-07_run19.json"],"counted_records":12,"observed_leads":87,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, alternate locator, catalogue wrapper, or duplicate. WEB-MUN-0025, WEB-MUN-0030, WEB-MUN-0043, WEB-MUN-0045, WEB-MUN-0057, WEB-MUN-0059, WEB-MUN-0063, WEB-MUN-0078, WEB-MUN-0079, WEB-MUN-0083, WEB-MUN-0084 and WEB-MUN-0087 have been canonicalized as SRC-MMSC-000012, SRC-MMSC-000014, SRC-MMSC-000007, SRC-MMSC-000009, SRC-MMSC-000004, SRC-MMSC-000005, SRC-MMSC-000011, SRC-MMSC-000002, SRC-MMSC-000003, SRC-MMSC-000010, SRC-MMSC-000006 and SRC-MMSC-000008 respectively and are counted once through the standalone register, never double-counted here."}
   ],
   "metrics": {
-    "sources_discovered": 39,
+    "sources_discovered": 40,
     "canonical_master_records": 14,
-    "additional_federated_discoveries": 25,
-    "standalone_mmsc_discoveries": 13,
+    "additional_federated_discoveries": 26,
+    "standalone_mmsc_discoveries": 14,
     "mundarica_volume_locators_verified": 12,
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
     "mundarica_verified_complete_volumes": 0,
     "web_discovery_leads_observed": 87,
-    "web_discovery_leads_counted_in_audited_identity_total": 11,
+    "web_discovery_leads_counted_in_audited_identity_total": 12,
     "bibliographic_only_records": 1,
-    "still_to_acquire_additional_discoveries": 25,
-    "deduplicated_locator_matches": 11,
+    "still_to_acquire_additional_discoveries": 26,
+    "deduplicated_locator_matches": 12,
     "search_log_entries_primary": 28,
-    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 13 standalone MMSC identities = 39. Eighty-seven reader-facing web-discovery leads are tracked separately; eleven have been deterministically canonicalized and are counted once through the standalone source register. Seventy-six web-discovery leads remain outside the audited identity total. The primary MMSC search log remains normalized append-only through MMSC-SEARCH-000028; MMSC-SEARCH-000029 through 000038 are preserved in run-specific append-only logs pending safe consolidation. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 14 standalone MMSC identities = 40. Eighty-seven reader-facing web-discovery leads are tracked separately; twelve have been deterministically canonicalized and are counted once through the standalone source register. Seventy-five web-discovery leads remain outside the audited identity total. The primary MMSC search log remains normalized append-only through MMSC-SEARCH-000028; MMSC-SEARCH-000029 through 000039 are preserved in run-specific append-only logs pending safe consolidation. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
   },
   "latest_discovery": {
-    "source_id": "SRC-MMSC-000013",
-    "title": "Leveraging Nutrient-Rich Traditional Foods to Improve Diets among Indigenous Populations in India: Value Chain Analysis of Finger Millet and Kionaar Leaves",
-    "source_type": "peer_reviewed_food_value_chain_article",
-    "canonical_url": "https://doi.org/10.3390/foods11233774",
-    "availability": "open_access_article_metadata_and_full_text_verified_via_pubmed_pmc",
-    "acquisition_state": "remotely_accessible_not_locally_archived",
-    "rights_reuse_status": "article_CC_BY_4_0_participant_data_third_party_and_cultural_access_separate",
-    "extraction_state": "methods_study_scope_exact_locator_evidence_extracted",
-    "evidence_link_state": "one_scope_bounded_claim_linked",
-    "verification_state": "doi_pmid_pmc_metadata_methods_ethics_and_license_verified",
-    "provenance": {"repository":"PubMed / PubMed Central / Foods (MDPI)","checked_utc":"2026-09-07T20:40:48Z","caution":"Only study design and sampled research scope are promoted. Participant statements, underlying data, community validation and cultural-access permission are not inferred."}
+    "source_id": "SRC-MMSC-000014",
+    "title": "The Prodigal son : in Mundari",
+    "source_type": "historical_audio_archive_item",
+    "canonical_url": "https://catalogue.bnf.fr/ark:/12148/cb414605823",
+    "availability": "bnf_catalogue_metadata_and_digital_item_locator_verified",
+    "acquisition_state": "catalogue_metadata_only_audio_not_ingested",
+    "rights_reuse_status": "catalogue_access_does_not_establish_audio_transcription_translation_or_derivative_reuse_permission",
+    "extraction_state": "catalogue_metadata_exact_locator_evidence_extracted",
+    "evidence_link_state": "one_archival_scope_claim_linked",
+    "verification_state": "bnf_catalogue_ark_title_language_format_duration_recording_context_and_digital_locator_verified",
+    "provenance": {"repository":"Bibliothèque nationale de France catalogue","checked_utc":"2026-09-07T21:50:00Z","caution":"Only archival catalogue facts are promoted. Audio, voice, transcript, translation and derived clips remain separately rights, consent, dignity and cultural-access gated."}
   },
   "latest_canonicalization": {
-    "web_source_id": "WEB-MUN-0025",
-    "canonical_source_id": "SRC-MMSC-000012",
-    "dedupe_key": "doi:10.18653/v1/2024.computel-1.11",
-    "verification_state": "acl_anthology_metadata_doi_pages_and_abstract_verified",
-    "exact_locator": "ACL Anthology record 2024.computel-1.11, Abstract; proceedings pp. 76-82; DOI 10.18653/v1/2024.computel-1.11"
+    "web_source_id": "WEB-MUN-0030",
+    "canonical_source_id": "SRC-MMSC-000014",
+    "dedupe_key": "bnf_ark:12148/cb414605823",
+    "verification_state": "bnf_catalogue_ark_title_language_format_duration_recording_context_and_digital_locator_verified",
+    "exact_locator": "BnF catalogue ark:/12148/cb414605823; FRBNF41460582; matrix 3290Y; one-sided 78 rpm disc; 3 min 5 s; Ranchi, very probably 1914"
   },
   "web_discovery_layer": {
     "path": "data/source_census/web_discovery_seed_2026-09-06.json",
     "additional_paths": ["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json","data/source_census/web_discovery_expansion_2026-09-07_run8.json","data/source_census/web_discovery_expansion_2026-09-07_run9.json","data/source_census/web_discovery_expansion_2026-09-07_run10.json","data/source_census/web_discovery_expansion_2026-09-07_run11.json","data/source_census/web_discovery_expansion_2026-09-07_run12.json","data/source_census/web_discovery_expansion_2026-09-07_run13.json","data/source_census/web_discovery_expansion_2026-09-07_run14.json","data/source_census/web_discovery_expansion_2026-09-07_run15.json","data/source_census/web_discovery_expansion_2026-09-07_run16.json","data/source_census/web_discovery_expansion_2026-09-07_run17.json","data/source_census/web_discovery_expansion_2026-09-07_run18.json","data/source_census/web_discovery_expansion_2026-09-07_run19.json"],
     "records": 87,
     "state": "verified_source_leads_with_partial_identity_canonicalization",
-    "boundary": "Searchable discovery metadata only unless a lead is explicitly canonicalized and separately linked to evidence. Eleven leads are currently canonicalized; the remaining 76 leads are not included in audited source-identity totals."
+    "boundary": "Searchable discovery metadata only unless a lead is explicitly canonicalized and separately linked to evidence. Twelve leads are currently canonicalized; the remaining 75 leads are not included in audited source-identity totals."
   },
   "protocol": "docs/mmsc_source_census_protocol.md"
 }
