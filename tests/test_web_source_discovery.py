@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 61
+    assert len(records) == 65
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 62)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 66)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052', 'WEB-MUN-0053', 'WEB-MUN-0054', 'WEB-MUN-0055', 'WEB-MUN-0056', 'WEB-MUN-0057', 'WEB-MUN-0058', 'WEB-MUN-0059', 'WEB-MUN-0060']:
+    for source_id in ['WEB-MUN-0008', 'WEB-MUN-0009', 'WEB-MUN-0010', 'WEB-MUN-0011', 'WEB-MUN-0012', 'WEB-MUN-0014', 'WEB-MUN-0015', 'WEB-MUN-0016', 'WEB-MUN-0017', 'WEB-MUN-0021', 'WEB-MUN-0022', 'WEB-MUN-0027', 'WEB-MUN-0029', 'WEB-MUN-0031', 'WEB-MUN-0033', 'WEB-MUN-0034', 'WEB-MUN-0038', 'WEB-MUN-0040', 'WEB-MUN-0041', 'WEB-MUN-0042', 'WEB-MUN-0043', 'WEB-MUN-0044', 'WEB-MUN-0048', 'WEB-MUN-0049', 'WEB-MUN-0050', 'WEB-MUN-0051', 'WEB-MUN-0052', 'WEB-MUN-0053', 'WEB-MUN-0054', 'WEB-MUN-0055', 'WEB-MUN-0056', 'WEB-MUN-0057', 'WEB-MUN-0058', 'WEB-MUN-0059', 'WEB-MUN-0060', 'WEB-MUN-0062', 'WEB-MUN-0063', 'WEB-MUN-0064', 'WEB-MUN-0065']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
@@ -176,6 +176,27 @@ def test_run9_dissertations_tri_grammar_and_lexical_dataset_boundaries():
     assert 'peiros 1998' in asjp['notes'].lower()
     assert 'cc by 4.0' in asjp['rights_note'].lower()
     assert 'underlying source' in asjp['rights_note'].lower()
+
+
+def test_run10_song_standard_audio_and_tri_boundaries():
+    records = {r['id']: r for r in all_records()}
+    songbook = records['WEB-MUN-0062']
+    assert songbook['year'] == 1942
+    assert 'lccn 46029131' in songbook['notes'].lower()
+    assert 'exact page/song locator' in songbook['notes'].lower()
+    assert 'cultural-access' in songbook['rights_note'].lower()
+    unicode = records['WEB-MUN-0063']
+    assert 'u+1e4d0' in unicode['notes'].lower()
+    assert 'adoption rates' in unicode['notes'].lower()
+    assert 'unicode consortium' in unicode['rights_note'].lower()
+    audio = records['WEB-MUN-0064']
+    assert 'm036832' in audio['notes'].lower()
+    assert 'not treated as representative of all munda communities' in audio['notes'].lower()
+    assert 'train models' in audio['rights_note'].lower()
+    tri = records['WEB-MUN-0065']
+    assert 'government of jharkhand' in tri['publisher'].lower()
+    assert 'none are promoted as current or universal facts' in tri['notes'].lower()
+    assert 'cultural-access' in tri['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
