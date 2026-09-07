@@ -3,7 +3,7 @@
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
   "updated_utc": "2026-09-07T21:50:00Z",
-  "observed_head_before_status_sync": "73f27d96443fc75ea09b7f39d3241d2075d5268f",
+  "observed_head_before_status_sync": "d9c30e11ffcf48258f50d64167b6b2fbd5f2a6b5",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -15,23 +15,23 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "edition_reconciliation_state": "open; original Government Printing parts/text volumes/plates remain distinct from later 16-volume Gyan reprint numbering",
-      "latest_parallel_check": "Gyan 2009 reprint volume 16 bibliographic identity located as ISBN 9788121203227 with 43 pages reported by multiple commercial catalogues; this is not treated as an authoritative scan locator, OCR source, or verified page accounting for the original edition."
+      "latest_parallel_check": "Gyan 2009 reprint volume 16 bibliographic identity remains reconciliation-only evidence; no authoritative scan, OCR or original-edition page verification is inferred."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
-      "audited_source_identities_discovered": 39,
+      "audited_source_identities_discovered": 40,
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 12,
-      "standalone_mmsc_discoveries": 13,
+      "standalone_mmsc_discoveries": 14,
       "web_discovery_leads_observed": 87,
-      "web_discovery_leads_counted_in_audited_identity_total": 11,
-      "web_discovery_leads_remaining_outside_audited_identity_total": 76,
+      "web_discovery_leads_counted_in_audited_identity_total": 12,
+      "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000039",
-      "latest_canonicalization": "WEB-MUN-0025 -> SRC-MMSC-000012 by DOI 10.18653/v1/2024.computel-1.11",
-      "latest_new_standalone_identity": "SRC-MMSC-000013 by DOI 10.3390/foods11233774; no exact DOI duplicate in the pre-promotion standalone MMSC or preserved canonical master register",
-      "latest_verification": "ANU institutional metadata verified DOI 10.1515/lity.2005.9.3.351 / Handle 1885/54663 for Evans & Osada (2005), and CIIL institutional metadata verified Handle 20.500.14705/8179 for N. K. Sinha's 1975 Mundari Grammar. Both remain verification-only pending deterministic discovery-lead comparison and rights/access review; no new cultural or linguistic evidence was promoted from metadata alone.",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037","MMSC-SEARCH-000038","MMSC-SEARCH-000039"],
+      "latest_search_id": "MMSC-SEARCH-000040",
+      "latest_canonicalization": "WEB-MUN-0030 -> SRC-MMSC-000014 by BnF ARK ark:/12148/cb414605823",
+      "latest_new_standalone_identity": "SRC-MMSC-000014; BnF archival item The Prodigal son : in Mundari; deterministic key bnf_ark:12148/cb414605823",
+      "latest_verification": "BnF catalogue directly verifies FRBNF41460582 / ark:/12148/cb414605823 as a Mundari spoken-word LSI item, one-sided 78 rpm, 3 min 5 s, with Ranchi recording context very probably in 1914 and matrix 3290Y. Only archival catalogue metadata was promoted; audio/transcript/translation rights, consent and cultural access remain separately gated.",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037","MMSC-SEARCH-000038","MMSC-SEARCH-000039","MMSC-SEARCH-000040"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -50,51 +50,53 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "No public evidence metric changed this cycle, so the existing Streamlit source/evidence synchronization remains current at 39 audited source identities and 48 provenance-linked evidence records. Verification-only candidates are not exposed as promoted cultural evidence."
+      "sync_note": "The additive MMSC catalogue and public CSV evidence fallback expose SRC-MMSC-000014 and EVD-000049 as catalogue-level evidence. No audio bytes, transcript, translation or restricted material are exposed."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
-      "sources_discovered": 39,
+      "sources_discovered": 40,
       "web_discovery_leads_observed": 87,
-      "canonicalized_web_leads": 11,
-      "claims": 48,
-      "evidence_records": 48,
-      "evidence_links": 48,
-      "metrics_changed_this_cycle": false,
+      "canonicalized_web_leads": 12,
+      "claims": 49,
+      "evidence_records": 49,
+      "evidence_links": 49,
+      "metrics_changed_this_cycle": true,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "This cycle added verification and search-audit records only. No candidate crossed canonicalization plus evidence-promotion gates, so release metrics correctly remain unchanged and the manuscript remains synchronized to repository metrics."
+      "reason": "WEB-MUN-0030 crossed deterministic identity and exact archival-catalogue evidence gates. JSON and LaTeX metrics were advanced atomically in semantics to 40 / 12 / 49 while rights and cultural-access boundaries were retained."
     },
     "F_evidence_population": {
-      "source_claims": 48,
-      "evidence_records": 48,
-      "evidence_links": 48,
-      "latest_evidence_bearing_source": "SRC-MMSC-000013",
-      "latest_evidence_chain": "SRC-MMSC-000013 -> CLM-000048 -> EVD-000048 -> LNK-000048",
-      "latest_exact_locator": "PMC9736962 Methods sections 2.1 and 2.4; DOI 10.3390/foods11233774",
-      "promotion_boundary": "No verification-only candidate from this cycle was converted into a cultural or linguistic claim. ANU and CIIL metadata remain identity/access evidence pending deterministic deduplication and item-level rights review."
+      "source_claims": 49,
+      "evidence_records": 49,
+      "evidence_links": 49,
+      "latest_evidence_bearing_source": "SRC-MMSC-000014",
+      "latest_evidence_chain": "SRC-MMSC-000014 -> CLM-000049 -> EVD-000049 -> LNK-000049",
+      "latest_exact_locator": "BnF ark:/12148/cb414605823; FRBNF41460582; matrix 3290Y; catalogue physical description and Ranchi recording-context note",
+      "promotion_boundary": "Catalogue identity, format, duration and recording-context metadata only. Audio, speaker voice, transcript, translation, derived media, representativeness, community validation, reuse permission and speaker consent are not promoted or inferred."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "080e44ba81d56e201a74e37eb63877a1872a01c5",
+    "last_verified_all_four_green_commit": "490ad8f9f4985250a715a0a5d71d0389730f62f0",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["48f6c513d308273a8694919a6ccdde7e8828b5fa","1cccd2b06c3e8a96e752fb53e21acf61efc17564","73f27d96443fc75ea09b7f39d3241d2075d5268f"],
+    "new_commits_this_cycle": ["7a386a26f13d1bfc9953dde606d4bcc594e5f048","2327f1d25551dde6a3e8fee368548302d4bb5c59","f0c77be3b65f40e484219e1455a90162d56e4dbf","752b520dd57d33d3e387222af1325ba9704a1d83","34a94873f2fb045d46798d59071f4dccc3c2afa9","f1f8df6242edd50da99270d164107e8ba96ab53c","70aa0c3f56c47f632cb5f0d38cb655fc45dfe81b","729da924abec2eb9c398cca4503bdc9c64dae029","dc478f560273aeb223dc64803d0a74a5cc01a5ca","d9c30e11ffcf48258f50d64167b6b2fbd5f2a6b5"],
     "new_head_ci_state_at_status_write": "fresh workflows for the new status head are not yet verified; no green projection"
   },
   "changes_this_cycle": [
-    "Confirmed head 080e44ba81d56e201a74e37eb63877a1872a01c5 is 4/4 green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
-    "Ran the non-Mundarica census across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media classes and recorded MMSC-SEARCH-000039.",
-    "Verified the ANU institutional identity and open-access repository record for Evans and Osada (2005), DOI 10.1515/lity.2005.9.3.351, Handle 1885/54663; withheld promotion pending deterministic duplicate comparison and reuse review.",
-    "Verified the CIIL institutional identity for N. K. Sinha's 1975 Mundari Grammar, Handle 20.500.14705/8179; withheld grammar-rule or lexical evidence because file visibility does not establish unrestricted reuse or community validation.",
-    "In the Mundarica parallel stream, located commercial bibliographic evidence for the 2009 Gyan reprint volume 16, ISBN 9788121203227, but did not treat it as an authoritative scan or original-edition page-accounting source.",
-    "Preserved MMSC/publication/Streamlit metrics at 39 audited identities and 48 claim/evidence/link chains because no candidate crossed the complete promotion gate.",
+    "Confirmed previous branch head 490ad8f9f4985250a715a0a5d71d0389730f62f0 is 4/4 green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
+    "Re-verified existing non-Mundarica audio discovery lead WEB-MUN-0030 directly against the Bibliothèque nationale de France catalogue and deterministically canonicalized it by BnF ARK as SRC-MMSC-000014.",
+    "Promoted only exact archival catalogue metadata into CLM-000049/EVD-000049/LNK-000049: title/language item identity, one-sided 78 rpm format, 3 min 5 s duration, Ranchi recording context very probably in 1914, and matrix 3290Y.",
+    "Recorded a separate rights/access/consent verification artifact; audio, speaker voice, transcript, translation and derived clips remain un-ingested and separately gated.",
+    "Recorded MMSC-SEARCH-000040 in an append-only run log and preserved the pending primary-log consolidation debt rather than rewriting prior audit semantics.",
+    "Synchronized MMSC index and publication JSON/LaTeX metrics to 40 audited source identities, 87 observed web leads, 12 canonicalized web leads and 49 claim/evidence/link chains.",
+    "Preserved all 42 Streamlit modules and 100% schema-category/UI mapping; additive MMSC and evidence loaders make the new public catalogue-level evidence discoverable without exposing audio content.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0; volumes 14-16 still lack exact authoritative scan locators.",
-    "Seventy-six web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000039 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "MMSC-SEARCH-000029 through 000040 remain in run-specific append-only logs pending safe primary-log consolidation.",
     "Census C-16 Jharkhand workbook identities and filenames are verified, but exact Munda/Mundari rows remain unextracted and no population values are asserted.",
+    "The BnF historical audio item is catalogue-verified but audio reuse, historical speaker consent, transcription/translation reuse and cultural-access status are not established; audio content is not ingested.",
     "The ANU Mundari word-class article requires deterministic comparison against existing discovery leads and item-level reuse review before permanent source assignment or deeper evidence extraction.",
     "CIIL Mundari Grammar 1975 requires deterministic duplicate comparison, full item-level rights review and exact-page review before any grammatical or lexical evidence promotion.",
     "The 1908 Grierson review requires deterministic comparison against discovery records before permanent source assignment; full-text reuse rights remain unestablished.",
@@ -122,14 +124,14 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Consolidate MMSC-SEARCH-000029 through 000039 into the primary append-only search log without changing IDs or semantics.",
-    "Deterministically compare DOI 10.1515/lity.2005.9.3.351 / Handle 1885/54663 against all existing discovery leads; if unique and rights-safe, assign a permanent MMSC source ID and promote only an exact institutional-abstract or permitted full-text locator.",
+    "Consolidate MMSC-SEARCH-000029 through 000040 into the primary append-only search log without changing IDs or semantics.",
+    "Continue deterministic canonicalization among the remaining 75 web leads, prioritizing official archives, government datasets and open-access exact-locator sources.",
+    "Deterministically compare DOI 10.1515/lity.2005.9.3.351 / Handle 1885/54663 against all existing discovery leads; if unique and rights-safe, assign a permanent MMSC source ID and promote only permitted exact-locator evidence.",
     "Deterministically compare CIIL Handle 20.500.14705/8179 against discovery records and assess item-level reuse terms before any grammar extraction.",
-    "Retry official acquisition of DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX; if obtained, record checksum, sheet, exact row/cell coordinates and raw labels before any numeric evidence promotion.",
-    "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 web discovery leads, prioritizing exact-locator evidence potential.",
+    "Retry official acquisition of DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX; if obtained, record checksum, sheet, exact row/cell coordinates and raw labels before numeric evidence promotion.",
     "Review BMM1 item-level PARADISEC access/consultant metadata before item evidence ingestion.",
     "Retry LSI Jharkhand exact-page extraction and continue TRI/grammar processing only within item-level rights boundaries.",
-    "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation, using the reprint ISBN only as bibliographic reconciliation evidence.",
+    "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation without treating commercial page counts as authoritative scans.",
     "Verify all four CI workflows on the new status head and repair any regression before further promotion."
   ]
 }
