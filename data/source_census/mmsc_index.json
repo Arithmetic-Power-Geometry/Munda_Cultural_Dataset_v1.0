@@ -24,8 +24,8 @@
     "bibliographic_only_records": 1,
     "still_to_acquire_additional_discoveries": 23,
     "deduplicated_locator_matches": 10,
-    "search_log_entries_primary": 25,
-    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 11 standalone MMSC identities = 37. Eighty-seven reader-facing web-discovery leads are tracked separately; ten have been deterministically canonicalized and are counted once through the standalone source register. Seventy-seven web-discovery leads remain outside the audited identity total. The primary MMSC search log is normalized through MMSC-SEARCH-000025; MMSC-SEARCH-000026 and MMSC-SEARCH-000027 remain preserved in supplemental run files pending append-only consolidation. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
+    "search_log_entries_primary": 27,
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 11 standalone MMSC identities = 37. Eighty-seven reader-facing web-discovery leads are tracked separately; ten have been deterministically canonicalized and are counted once through the standalone source register. Seventy-seven web-discovery leads remain outside the audited identity total. The primary MMSC search log is now normalized append-only through MMSC-SEARCH-000027; supplemental run21/run22 copies are retained as historical run artifacts but are no longer pending consolidation. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
   },
   "latest_discovery": {
     "source_id": "WEB-MUN-0087",
