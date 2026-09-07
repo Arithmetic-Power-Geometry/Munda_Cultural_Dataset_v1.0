@@ -2,14 +2,14 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T07:53:00Z",
-  "observed_head_before_status_sync": "12a1f7b48f077f3c609a5ccc235f99857536e0d4",
+  "updated_utc": "2026-09-07T08:34:00Z",
+  "observed_head_before_status_sync": "0910dd4b033099ed2c96c9f2a6065ec3f3dc8a3b",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams": {
     "A_mundarica": {
-      "expected_volumes": 16,
+      "expected_volume_slots_current_model": 16,
       "located_or_working_volume_slots": 13,
       "externally_located_volumes": 12,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
@@ -17,7 +17,9 @@
       "volume_1": {"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
-      "ocr_is_not_verified_transcription": true
+      "ocr_is_not_verified_transcription": true,
+      "edition_reconciliation_state": "open_original_government_printing_vs_modern_gyan_16_volume_reprint_mapping",
+      "edition_reconciliation_record": "data/source_bundles/encyclopaedia_mundarica/edition_reconciliation_2026-09-07.json"
     },
     "B_mmsc": {
       "status": "federated_census_and_canonicalization_active",
@@ -83,42 +85,36 @@
     }
   },
   "changes_this_cycle": [
-    "Re-verified WEB-MUN-0079 against the Problems of Sustainable Development publisher article page, issue listing and publisher-served PDF.",
-    "Deterministically canonicalized DOI 10.35784/pe.2021.1.19 as new audited source identity SRC-MMSC-000003; WEB-MUN-0079 now points to that immutable identity.",
-    "Verified exact bibliographic locator Problems of Sustainable Development 16(1), 2021, pp. 181-185 and abstract on p. 181.",
-    "Added one tightly scoped source-reported livelihood/NWFP evidence chain CLM-000040 → EVD-000040 → LNK-000040; no universal/current fact or community-validation claim was created.",
-    "Raised audited source identities from 28 to 29 while discovery leads remain 83; canonicalized discovery leads increased from 1 to 2.",
-    "Synchronized MMSC index, search log, publication JSON metrics, LaTeX release macros, evidence tables and this status file.",
-    "Cross-checked WEB-MUN-0080 SAGE bibliographic details (Volume 66 Issue 4, pp. 552-562) but kept it discovery-only because full text is restricted and stronger customary-law propositions still require exact-passage/method/variant review.",
-    "Cross-checked WEB-MUN-0083 open-access thesis metadata but kept it discovery-only pending Munda-specific page extraction and item/embedded-material licence review."
+    "Diagnosed the current Source Register Audit failure to the Master Munda Source Census test layer while Migration, Streamlit and Publication had passed on the ingestion head.",
+    "Replaced stale hard-coded MMSC standalone/canonicalization expectations with repository-derived assertions that preserve immutable ID sequencing, unique canonical source mappings, audited-count consistency and no-double-count safeguards.",
+    "Verified the repaired Source Register Audit PASS on commit a09853713f3ab372b2ba28bc5489b50d1672aeb4; Migration Audit and Streamlit Smoke Test also PASS there, while Publication Build remained in progress at the last check.",
+    "Re-verified the Census India LINGUISTIC SURVEY OF INDIA-Jharkhand authoritative catalogue and direct PDF locator; page-level Mundari evidence extraction remains pending and no page claim was guessed.",
+    "Identified and documented a material Mundarica edition-numbering ambiguity: original Government Printing bibliographic evidence currently supports Volume 13 / Vol. 1-13 descriptions, whereas the later Gyan reprint is explicitly catalogued as a 16-volume series including Volume 16 ISBN 9788121203227.",
+    "Added an edition-reconciliation record requiring edition-specific mapping before XIV-XVI can alter historical completeness metrics; no VERIFIED COMPLETE state changed."
   ],
   "commits_this_cycle": [
-    "3d239c46279bf9620ad240d67fc4f1c059993281 - canonicalize publisher-verified livelihood source",
-    "377515d5be5d12f96f1d256d1533865464944d1d - link WEB-MUN-0079 to audited source identity",
-    "aa7ddd5a3b3cc4d7deb8eb1914d7fb6f22ac961f - add exact-locator livelihood evidence claim",
-    "0d5f1508d1ca541f0ee5d9e1c3855c793118f5f9 - add provenance-linked livelihood evidence record",
-    "094f1751006cc6926c1f48ca0e7ca2f9fa1fa457 - link livelihood claim to evidence",
-    "f8090d3b328214e64dd73a20df0c0f2ace6f71d4 - synchronize MMSC after second canonicalized discovery",
-    "4350a2f23093e0e60d593271880378be8da1eded - synchronize publication release metrics",
-    "9e2eb5697d274e5966779525f24e999069d855b7 - synchronize LaTeX release macros",
-    "12a1f7b48f077f3c609a5ccc235f99857536e0d4 - log second deterministic MMSC canonicalization"
+    "a09853713f3ab372b2ba28bc5489b50d1672aeb4 - make MMSC canonicalization audit repository-derived",
+    "0910dd4b033099ed2c96c9f2a6065ec3f3dc8a3b - document Mundarica edition and volume-numbering ambiguity"
   ],
   "tests_and_workflows": {
-    "latest_pre_cycle_all_four_green_head": "6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b",
-    "current_content_head_before_status_sync": "12a1f7b48f077f3c609a5ccc235f99857536e0d4",
-    "current_head_ci_state": "fresh_workflows_pending_or_not_yet_observed",
-    "claim_green_scope": "No four-of-four green claim is extended to this ingestion head until its Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build complete successfully."
+    "last_checked_commit": "a09853713f3ab372b2ba28bc5489b50d1672aeb4",
+    "migration_audit": "PASS",
+    "source_register_audit": "PASS_after_repository_derived_test_repair",
+    "streamlit_smoke_test": "PASS",
+    "publication_build": "IN_PROGRESS_at_last_check",
+    "four_of_four_green_claim": false,
+    "claim_green_scope": "Three workflows are confirmed PASS on a09853713f3ab372b2ba28bc5489b50d1672aeb4; Publication Build must complete successfully before extending a four-of-four green claim."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
-    "Exact authoritative scan locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
+    "Mundarica original-edition versus later 16-volume Gyan reprint mapping is not yet authoritative; XIV-XVI must remain edition-specific unresolved slots rather than being silently treated as missing historical volumes.",
     "Eighty-one web-discovery leads remain outside the audited identity total pending deterministic duplicate/wrapper/alternate-locator/new-identity decisions.",
     "WEB-MUN-0080 full text is restricted; exact passage, method/sample, temporal scope and contradiction/variant review remain pending before cultural evidence promotion.",
     "WEB-MUN-0082 requires complete authorship/method capture and participant/cultural-access review before evidence promotion.",
     "WEB-MUN-0083 requires Munda-specific chapter/page extraction and exact item/embedded-material licence review before evidence promotion.",
-    "Census India LSI Jharkhand PDF previously returned HTTP 502; no page-level evidence is guessed.",
+    "The Census India LSI Jharkhand authoritative PDF locator is now reachable, but exact page-level Mundari extraction has not yet been completed; no evidence is promoted from metadata alone.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
-    "Fresh CI for this additive ingestion head has not yet been verified."
+    "Publication Build on the repaired audit commit was still in progress at the last workflow check."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -138,7 +134,9 @@
     "rajan_pahan_exact_role": "Founding Community, Meetings & Field Logistics Coordinator",
     "duplicate_founder_entrypoint_metadata": false,
     "deadline_pressure_can_override_evidence_or_access_gates": false,
-    "mmsc_discovery_count_test_repository_derived": true
+    "mmsc_discovery_count_test_repository_derived": true,
+    "mmsc_canonicalization_count_test_repository_derived": true,
+    "edition_numbering_uncertainty_explicit": true
   },
   "deadline_progress": {
     "deadline_ist": "2026-09-21T23:59:00+05:30",
@@ -149,11 +147,11 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the new ingestion head and repair any true regression without weakening safeguards.",
+    "Confirm Publication Build on the repaired audit commit and repair only true regressions without weakening safeguards.",
+    "Establish authoritative original-edition-to-Gyan-reprint Mundarica mapping and locate edition-specific XIV-XVI metadata/scans.",
+    "Use the now-reachable Census India LSI Jharkhand PDF to extract exact Mundari page locators before evidence promotion.",
     "Canonicalize more high-confidence DOI/ISBN/handle leads, prioritizing open full text with exact locators.",
     "Extract Munda-specific exact pages from the Sapienza thesis only after item-level licence/embedded-material review.",
-    "Capture complete authorship and method details for the Birsaite article before evidence promotion.",
-    "Retry Census LSI Jharkhand exact-locator extraction and continue independent Mundarica XIV-XVI/Volume I scan acquisition.",
     "Continue filling evidence-empty Streamlit domains while keeping search, graph, gaps and publication metrics synchronized."
   ]
 }
