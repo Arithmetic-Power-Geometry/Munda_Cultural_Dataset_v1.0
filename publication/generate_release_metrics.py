@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate manuscript release metrics from canonical MLHKP machine-readable state."""
 from __future__ import annotations
+import csv
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,6 +13,11 @@ OUT_TEX = ROOT / "publication" / "generated" / "release_metrics.tex"
 
 def load(path: str):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
+
+
+def csv_rows(path: str) -> int:
+    with (ROOT / path).open(encoding="utf-8", newline="") as handle:
+        return sum(1 for _ in csv.DictReader(handle))
 
 
 def metrics():
@@ -41,6 +47,9 @@ def metrics():
         "information_model_applicable_record_fields": len(model["record_contract"]["required_for_applicable_records"]),
         "module_schema_domain_mapping_percent": 100.0,
         "master_schema_category_representation_percent": 100.0,
+        "source_claims": csv_rows("data/source_claims.csv"),
+        "evidence_records": csv_rows("data/evidence.csv"),
+        "evidence_links": csv_rows("data/evidence_links.csv"),
         "absolute_source_completeness_claimed": False,
         "ocr_treated_as_verified_transcription": False,
     }
@@ -70,6 +79,9 @@ def main():
         "MLHKPRecordFamilies": data["information_model_record_families"],
         "MLHKPDomainHomes": data["information_model_domain_homes"],
         "MLHKPRecordFields": data["information_model_applicable_record_fields"],
+        "MLHKPSourceClaims": data["source_claims"],
+        "MLHKPEvidenceRecords": data["evidence_records"],
+        "MLHKPEvidenceLinks": data["evidence_links"],
     }
     OUT_TEX.write_text("% AUTO-GENERATED. DO NOT EDIT BY HAND.\n" + "\n".join(
         rf"\newcommand{{\{k}}}{{{tex_escape(v)}}}" for k, v in macros.items()
