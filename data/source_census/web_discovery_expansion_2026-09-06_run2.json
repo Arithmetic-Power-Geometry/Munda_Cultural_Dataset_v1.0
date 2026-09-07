@@ -66,7 +66,14 @@
       "notes": "ACL Anthology verifies the ComputEL-7 paper, pages 76–82, DOI 10.18653/v1/2024.computel-1.11. The paper reports collection and processing of Mundari text and speech for TTS and native-speaker evaluation. Dataset-level records and participant conditions must be registered separately before any data ingestion.",
       "verification_state": "publisher_metadata_verified",
       "access_class": "public_open_access_article",
-      "rights_note": "ACL Anthology states post-2016 materials are CC BY 4.0; this does not automatically grant rights to separately released datasets, recordings, model checkpoints or participant data."
+      "rights_note": "ACL Anthology states post-2016 materials are CC BY 4.0; this does not automatically grant rights to separately released datasets, recordings, model checkpoints or participant data.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000012",
+        "dedupe_key": "doi:10.18653/v1/2024.computel-1.11",
+        "canonicalized_utc": "2026-09-07T17:41:54Z",
+        "boundary": "Canonical publisher metadata/abstract technical study-scope evidence only; no dataset, recording, participant, model-checkpoint, community-validation or unrestricted data-reuse entitlement inferred."
+      }
     },
     {
       "id": "WEB-MUN-0026",
