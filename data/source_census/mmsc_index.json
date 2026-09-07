@@ -7,14 +7,14 @@
   "source_registers": [
     {"register_type":"canonical_master_source_register","path":"data/source_register/master_sources.json","counted_records":14,"id_policy":"preserve_existing_SRC_ids"},
     {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":12,"counting_rule":"Count volume slots with a verified external locator that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V04","SRC-MUN-V05","SRC-MUN-V06","SRC-MUN-V07","SRC-MUN-V08","SRC-MUN-V09","SRC-MUN-V10","SRC-MUN-V11","SRC-MUN-V12","SRC-MUN-V13"]},
-    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":12,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
+    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":13,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
     {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json","data/source_census/web_discovery_expansion_2026-09-07_run8.json","data/source_census/web_discovery_expansion_2026-09-07_run9.json","data/source_census/web_discovery_expansion_2026-09-07_run10.json","data/source_census/web_discovery_expansion_2026-09-07_run11.json","data/source_census/web_discovery_expansion_2026-09-07_run12.json","data/source_census/web_discovery_expansion_2026-09-07_run13.json","data/source_census/web_discovery_expansion_2026-09-07_run14.json","data/source_census/web_discovery_expansion_2026-09-07_run15.json","data/source_census/web_discovery_expansion_2026-09-07_run16.json","data/source_census/web_discovery_expansion_2026-09-07_run17.json","data/source_census/web_discovery_expansion_2026-09-07_run18.json","data/source_census/web_discovery_expansion_2026-09-07_run19.json"],"counted_records":11,"observed_leads":87,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, alternate locator, catalogue wrapper, or duplicate. WEB-MUN-0025, WEB-MUN-0043, WEB-MUN-0045, WEB-MUN-0057, WEB-MUN-0059, WEB-MUN-0063, WEB-MUN-0078, WEB-MUN-0079, WEB-MUN-0083, WEB-MUN-0084 and WEB-MUN-0087 have been canonicalized as SRC-MMSC-000012, SRC-MMSC-000007, SRC-MMSC-000009, SRC-MMSC-000004, SRC-MMSC-000005, SRC-MMSC-000011, SRC-MMSC-000002, SRC-MMSC-000003, SRC-MMSC-000010, SRC-MMSC-000006 and SRC-MMSC-000008 respectively and are counted once through the standalone register, never double-counted here."}
   ],
   "metrics": {
-    "sources_discovered": 38,
+    "sources_discovered": 39,
     "canonical_master_records": 14,
-    "additional_federated_discoveries": 24,
-    "standalone_mmsc_discoveries": 12,
+    "additional_federated_discoveries": 25,
+    "standalone_mmsc_discoveries": 13,
     "mundarica_volume_locators_verified": 12,
     "mundarica_local_artifacts_registered": 1,
     "mundarica_authoritative_scans_registered": 0,
@@ -22,23 +22,23 @@
     "web_discovery_leads_observed": 87,
     "web_discovery_leads_counted_in_audited_identity_total": 11,
     "bibliographic_only_records": 1,
-    "still_to_acquire_additional_discoveries": 24,
+    "still_to_acquire_additional_discoveries": 25,
     "deduplicated_locator_matches": 11,
     "search_log_entries_primary": 28,
-    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 12 standalone MMSC identities = 38. Eighty-seven reader-facing web-discovery leads are tracked separately; eleven have been deterministically canonicalized and are counted once through the standalone source register. Seventy-six web-discovery leads remain outside the audited identity total. The primary MMSC search log remains normalized append-only through MMSC-SEARCH-000028; MMSC-SEARCH-000029 through 000032 are preserved in run-specific append-only logs pending safe consolidation. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 13 standalone MMSC identities = 39. Eighty-seven reader-facing web-discovery leads are tracked separately; eleven have been deterministically canonicalized and are counted once through the standalone source register. Seventy-six web-discovery leads remain outside the audited identity total. The primary MMSC search log remains normalized append-only through MMSC-SEARCH-000028; MMSC-SEARCH-000029 through 000038 are preserved in run-specific append-only logs pending safe consolidation. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
   },
   "latest_discovery": {
-    "source_id": "WEB-MUN-0087",
-    "title": "Indigenous food environment and dietary patterns of Munda community of Jharkhand, India",
-    "source_type": "peer_reviewed_food_environment_dietary_patterns_article",
-    "canonical_url": "https://doi.org/10.1186/s40795-025-01159-2",
-    "availability": "open_access_article_metadata_abstract_and_full_text_locator_verified",
+    "source_id": "SRC-MMSC-000013",
+    "title": "Leveraging Nutrient-Rich Traditional Foods to Improve Diets among Indigenous Populations in India: Value Chain Analysis of Finger Millet and Kionaar Leaves",
+    "source_type": "peer_reviewed_food_value_chain_article",
+    "canonical_url": "https://doi.org/10.3390/foods11233774",
+    "availability": "open_access_article_metadata_and_full_text_verified_via_pubmed_pmc",
     "acquisition_state": "remotely_accessible_not_locally_archived",
-    "rights_reuse_status": "article_open_access_under_publisher_terms_participant_data_and_cultural_access_separate",
-    "extraction_state": "canonicalized_and_exact_study_scope_evidence_linked",
+    "rights_reuse_status": "article_CC_BY_4_0_participant_data_third_party_and_cultural_access_separate",
+    "extraction_state": "methods_study_scope_exact_locator_evidence_extracted",
     "evidence_link_state": "one_scope_bounded_claim_linked",
-    "verification_state": "pubmed_metadata_abstract_doi_pmid_pmc_and_full_text_study_scope_verified",
-    "provenance": {"repository":"PubMed / BMC Nutrition / PMC","checked_utc":"2026-09-07T12:10:00Z","caution":"Study scope is verified, but no study result is generalized beyond the sampled research context; community validation is not inferred."}
+    "verification_state": "doi_pmid_pmc_metadata_methods_ethics_and_license_verified",
+    "provenance": {"repository":"PubMed / PubMed Central / Foods (MDPI)","checked_utc":"2026-09-07T20:40:48Z","caution":"Only study design and sampled research scope are promoted. Participant statements, underlying data, community validation and cultural-access permission are not inferred."}
   },
   "latest_canonicalization": {
     "web_source_id": "WEB-MUN-0025",
