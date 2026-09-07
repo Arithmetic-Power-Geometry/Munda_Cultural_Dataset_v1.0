@@ -40,7 +40,14 @@
       "notes": "BnF catalogue verifies a one-sided 78 rpm spoken-word Mundari recording, duration 3 min 5 s, recorded at Ranchi very probably in 1914. The record links the LSI gramophone series to original-language transcriptions and English translations. Historical recording context must remain explicit; linked transcription/translation documents require separate registration before evidence extraction.",
       "verification_state": "national_library_catalogue_verified",
       "access_class": "public_archive_metadata",
-      "rights_note": "Catalogue and possible digital-access visibility do not by themselves establish permission to redistribute the audio, transcription, translation or derived clips. Item-level BnF/Gallica conditions and cultural-access review remain controlling."
+      "rights_note": "Catalogue and possible digital-access visibility do not by themselves establish permission to redistribute the audio, transcription, translation or derived clips. Item-level BnF/Gallica conditions and cultural-access review remain controlling.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000014",
+        "dedupe_key": "bnf_ark:12148/cb414605823",
+        "verified_utc": "2026-09-07T21:50:00Z",
+        "boundary": "Canonicalization establishes archival source identity only. It does not grant reproduction, redistribution, derivative, model-training, speaker-consent, transcription, translation or cultural-access rights."
+      }
     },
     {
       "id": "WEB-MUN-0031",
