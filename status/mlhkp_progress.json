@@ -2,14 +2,13 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T16:48:00Z",
-  "observed_head_before_status_sync": "5a6294a434badb30e44f7e87e78b3e2aa66b47e2",
+  "updated_utc": "2026-09-07T17:36:00Z",
+  "observed_head_before_status_sync": "78ec18e03dc8541f431b1dda20b0c1c0d6d1f2c0",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
     "A_mundarica": {
       "expected_volume_slots_current_model": 16,
-      "located_or_working_volume_slots": 13,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
       "pending_exact_authoritative_scan_locators": [14,15,16],
       "verified_complete_volumes": 0,
@@ -26,100 +25,78 @@
       "web_discovery_leads_observed": 87,
       "web_discovery_leads_counted_in_audited_identity_total": 10,
       "web_discovery_leads_remaining_outside_audited_identity_total": 77,
-      "source_complete_claim": false,
       "search_log_entries_primary": 28,
-      "search_log_entries_supplemental": 4,
-      "latest_search_id": "MMSC-SEARCH-000030",
-      "latest_canonicalization": "WEB-MUN-0063→SRC-MMSC-000011",
-      "search_log_note": "Primary append-only log remains consolidated through 000028. MMSC-SEARCH-000029 is preserved in search_log_run23.jsonl for the ACL MunTTS paper and MMSC-SEARCH-000030 is preserved in search_log_run24.jsonl for the official Microsoft code/dataset-access record; neither changes audited identity counts until atomic canonicalization."
+      "latest_search_id": "MMSC-SEARCH-000031",
+      "latest_verification": "WEB-MUN-0023 Mundari Ideophones / PARADISEC-ANU BMM1",
+      "source_complete_claim": false
     },
     "C_information_model": {
       "registered_modules": 42,
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
-      "record_families": 24,
-      "explicit_domain_homes": 153,
-      "applicable_record_contract_fields": 23,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN"
     },
     "D_streamlit": {
-      "all_16_volume_slots_visible": true,
-      "empty_modules_truthfully_marked": true,
-      "future_commercial_modules_disabled_by_default": true,
+      "registered_modules": 42,
+      "universal_search": true,
+      "evidence_drilldown": true,
+      "reports_downloads": true,
+      "owner_console": true,
       "cultural_access_overrides_entitlement": true,
-      "external_source_discovery_layer_records": 87,
-      "grouped_research_portal_present": true,
-      "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true,
-      "sync_state": "Canonical source/evidence and publication metrics remain synchronized to 37 audited identities and 46 evidence chains. WEB-MUN-0025 remains promotion-ready and WEB-MUN-0026 now has a verified access/rights-boundary artifact; neither is counted prematurely."
+      "empty_modules_truthfully_marked": true
     },
     "E_publication_readiness": {
-      "status": "release metrics remain synchronized to canonical 37 audited identities / 87 discovery leads / 10 canonicalized discovery leads / 46 evidence chains",
-      "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
-      "snapshot_date": "2026-09-07",
-      "release_metrics_sources_discovered": 37,
-      "release_metrics_web_discovery_leads_observed": 87,
-      "release_metrics_web_discovery_leads_counted_in_audited_identity_total": 10,
-      "release_metrics_claims": 46,
-      "release_metrics_evidence_records": 46,
-      "release_metrics_evidence_links": 46,
-      "manuscript_metrics_sync_state": "counts unchanged this cycle; no manuscript metric regeneration required because WEB-MUN-0026 was rights/access verified but not promoted as a new audited identity or evidence chain"
+      "sources_discovered": 37,
+      "web_discovery_leads_observed": 87,
+      "canonicalized_web_leads": 10,
+      "claims": 46,
+      "evidence_records": 46,
+      "evidence_links": 46,
+      "metrics_changed_this_cycle": false,
+      "reason": "WEB-MUN-0023 verification does not itself authorize item-level evidence promotion"
     },
     "F_evidence_population": {
       "source_claims": 46,
       "evidence_records": 46,
       "evidence_links": 46,
       "latest_evidence_bearing_source": "SRC-MMSC-000011",
-      "latest_chain": "WEB-MUN-0063→SRC-MMSC-000011→CLM-000046→EVD-000046→LNK-000046",
-      "promotion_ready_review": "WEB-MUN-0025 MunTTS remains promotion-ready at ACL publisher-abstract technical-scope level. WEB-MUN-0026 official Microsoft repository is now separately verified for code identity, MIT repository license metadata, and the README's Karya-controlled dataset/model usage and distribution boundary.",
-      "verification_boundary": "No MunTTS dataset, speech recordings, annotations, participant identities or model checkpoints were treated as acquired or unrestrictedly reusable. Repository visibility and code licensing do not override Karya dataset/model conditions or MLHKP cultural-access, consent, dignity and community-validation controls. Census C-16 values remain unpromoted until exact row extraction succeeds."
+      "promotion_ready": "WEB-MUN-0025 MunTTS remains next atomic publisher-abstract scope promotion candidate",
+      "new_verified_candidate": "WEB-MUN-0023 BMM1 verified at ANU collection-metadata/licence level; item evidence remains gated by item/consultant/access/cultural review"
     }
   },
-  "changes_this_cycle": [
-    "Verified WEB-MUN-0026 against the official public archived Microsoft MunTTS repository rather than relying on the earlier discovery note alone.",
-    "Verified repository metadata identifies the official MunTTS codebase and an MIT repository license.",
-    "Verified exact README access boundaries: full dataset usage/distribution and VITS model checkpoint usage/distribution are directed to Karya, with both sections labelled Karya License (BY-NC-SA-FS 1.0).",
-    "Added data/source_census/muntts_code_dataset_access_verification_2026-09-07.json preserving code, dataset, model, participant and cultural-access boundaries.",
-    "Added MMSC-SEARCH-000030 in data/source_census/search_log_run24.jsonl.",
-    "Kept audited identities at 37, canonicalized web leads at 10 and evidence chains at 46 because access verification is not the same as canonical source/evidence promotion.",
-    "Did not modify or merge main and did not weaken rights, cultural-access, provenance, OCR or verification gates."
-  ],
-  "commits_this_cycle": [
-    "7d229bc6e2f904f4b103965f9a4bb86485ac0679 - verify MunTTS code and dataset access boundary",
-    "5a6294a434badb30e44f7e87e78b3e2aa66b47e2 - log MunTTS dataset access verification"
-  ],
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "489b55712027bc38b30dc7aedf332bad589d7656",
-    "four_of_four_green_claim_for_latest_head": false,
-    "previous_green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_head_workflow_state": "Fresh workflow results for the newest status head are not yet claimed; previous verified all-four-green commit remains 489b55712027bc38b30dc7aedf332bad589d7656."
+    "last_verified_all_four_green_commit": "78ec18e03dc8541f431b1dda20b0c1c0d6d1f2c0",
+    "four_of_four_green_claim_for_that_head": true,
+    "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"]
   },
+  "changes_this_cycle": [
+    "Verified the previous mlhkp-v2 head 78ec18e03dc8541f431b1dda20b0c1c0d6d1f2c0 as 4/4 green.",
+    "Verified WEB-MUN-0023 against the ANU institutional repository as Bonnie McLean's 2016 PARADISEC BMM1 Mundari Ideophones collection with DOI 10.4225/72/585bea79cf9dd and Handle 1885/146448.",
+    "Preserved ANU's Open Access and CC BY-SA 4.0 collection-level metadata while explicitly retaining item-level speaker/consultant, performance, song/narrative, third-party and cultural-access gates.",
+    "Added a verification artifact and MMSC-SEARCH-000031 without inflating source or evidence counts.",
+    "Did not modify or merge main."
+  ],
   "blockers": [
-    "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
-    "Mundarica original physical-volume/part/plates structure versus later Gyan 16-volume reprint mapping remains incompletely proven.",
-    "Seventy-seven web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
-    "WEB-MUN-0025 is promotion-ready at publisher-abstract technical-scope level but still requires atomic canonical source registration plus claim/evidence/link, MMSC count, publication metric and discovery-record canonicalization synchronization before it can count as SRC-MMSC-000012.",
-    "WEB-MUN-0026 dataset and model assets are not treated as acquired; the official README directs usage/distribution requests to Karya and MLHKP must preserve item/participant/cultural-access constraints.",
-    "LSI_JHARKHAND authoritative PDF locator is verified, but exact Mundari page extraction remains pending.",
-    "Official Census C-16 dataset identity and XLSX locator are verified, but exact Munda/Mundari row extraction remains blocked by endpoint retrieval failure; no demographic values are promoted.",
-    "Ministry/TRI SRC-MMSC-000005 PDF remains unextracted and all-rights-reserved unless otherwise indicated.",
-    "SRC-MMSC-000006 identifies RUMBUL as rights holder; grammar-text extraction remains blocked pending item-level reuse scope.",
-    "WEB-MUN-0086 full text is publisher-restricted and its abstract is broader than Munda alone.",
-    "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested."
+    "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0.",
+    "Seventy-seven web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "WEB-MUN-0025 still requires atomic canonical source plus claim/evidence/link and metrics synchronization before counting.",
+    "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before any audio, annotation, lexical, song or narrative evidence promotion.",
+    "LSI Jharkhand exact Mundari page extraction remains pending.",
+    "Census C-16 exact Munda/Mundari row extraction remains pending.",
+    "TRI and grammar full-text processing remains rights-gated.",
+    "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
     "rights_assumed_from_public_availability": false,
     "restricted_material_exposed": false,
-    "verified_complete_volumes": 0,
     "main_branch_modified": false,
     "metadata_only_sources_promoted_to_cultural_evidence": false,
-    "all_registered_modules_coverage_mapped": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "deadline_pressure_can_override_evidence_or_access_gates": false
   },
   "deadline_progress": {
-    "deadline_ist": "2026-09-21T23:59:00+05:30",
     "architecture_and_ui_mapping_ready": true,
     "systematic_census_complete_for_release": false,
     "all_obtainable_permitted_sources_processed": false,
@@ -127,13 +104,11 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Re-check all four CI workflows on the newest status head before claiming the latest state green.",
-    "Atomically canonicalize WEB-MUN-0025 as SRC-MMSC-000012 if duplicate audit remains clean, linking only the ACL publisher-abstract technical study scope and synchronizing discovery canonicalization, MMSC counts, claim/evidence/link records, publication metrics, Streamlit and status in one cycle.",
-    "Keep WEB-MUN-0026 as an access-governance record unless a separately permitted dataset/model artifact is actually acquired with item-level rights and participant/cultural-access review.",
-    "Retry direct acquisition of official Census C-16 XLSX and extract only exact Munda/Mundari rows with table/row/geography provenance before canonicalization or evidence promotion.",
-    "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 77 discovery records, prioritizing exact locators and explicit reuse terms.",
-    "Retry LSI_JHARKHAND PDF exact Mundari page extraction and SRC-MMSC-000005 Ministry/TRI PDF extraction without inferring reuse rights.",
-    "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation in parallel.",
-    "Populate evidence-empty domains only from permitted exact-locator evidence while keeping universal search, evidence drilldown, reports/downloads, owner console and manuscript metrics synchronized."
+    "Atomically promote WEB-MUN-0025 at ACL publisher-abstract technical-scope level if duplicate audit remains clean.",
+    "Review BMM1 item-level PARADISEC access/consultant metadata before any item evidence ingestion.",
+    "Continue deterministic DOI/Handle/government canonicalization among the remaining 77 discovery leads.",
+    "Retry Census C-16 exact-row and LSI Jharkhand exact-page extraction.",
+    "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation.",
+    "Keep publication metrics, Streamlit and evidence graph synchronized after every evidence-bearing promotion."
   ]
 }
