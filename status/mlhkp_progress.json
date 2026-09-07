@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T11:56:00Z",
-  "observed_head_before_status_sync": "459bb88eeae8b8b51d3270529c8a4651079d6ca4",
+  "updated_utc": "2026-09-07T12:12:00Z",
+  "observed_head_before_status_sync": "8b46e96da31a2ce2676d33d5d865983730bb8c96",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,14 +19,14 @@
       "edition_reconciliation_state": "open_original_government_printing_vs_modern_gyan_reprint_mapping"
     },
     "B_mmsc": {
-      "status": "federated_census_and_canonicalization_active",
-      "audited_source_identities_discovered": 33,
+      "status": "federated_census_canonicalization_and_ingestion_active",
+      "audited_source_identities_discovered": 34,
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 12,
-      "standalone_mmsc_discoveries": 7,
+      "standalone_mmsc_discoveries": 8,
       "web_discovery_leads_observed": 87,
-      "web_discovery_leads_counted_in_audited_identity_total": 6,
-      "web_discovery_leads_remaining_outside_audited_identity_total": 81,
+      "web_discovery_leads_counted_in_audited_identity_total": 7,
+      "web_discovery_leads_remaining_outside_audited_identity_total": 80,
       "source_complete_claim": false,
       "search_log_entries": 25,
       "search_log_note": "MMSC-SEARCH-000022 through MMSC-SEARCH-000025 are preserved in supplemental append-only run logs pending safe consolidation into primary search_log.jsonl; prior primary entries remain unaltered.",
@@ -47,61 +47,72 @@
       "future_commercial_modules_disabled_by_default": true,
       "cultural_access_overrides_entitlement": true,
       "external_source_discovery_layer_records": 87,
-      "grouped_research_portal_present": true
+      "grouped_research_portal_present": true,
+      "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true
     },
     "E_publication_readiness": {
-      "status": "repository-derived metrics synchronized to 33 audited identities / 87 discovery leads / 6 canonicalized discovery leads / 42 evidence chains",
+      "status": "repository-derived metrics synchronized to 34 audited identities / 87 discovery leads / 7 canonicalized discovery leads / 43 evidence chains",
       "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
       "snapshot_date": "2026-09-07",
-      "release_metrics_sources_discovered": 33,
+      "release_metrics_sources_discovered": 34,
       "release_metrics_web_discovery_leads_observed": 87,
-      "release_metrics_web_discovery_leads_counted_in_audited_identity_total": 6,
-      "release_metrics_claims": 42,
-      "release_metrics_evidence_records": 42,
-      "release_metrics_evidence_links": 42
+      "release_metrics_web_discovery_leads_counted_in_audited_identity_total": 7,
+      "release_metrics_claims": 43,
+      "release_metrics_evidence_records": 43,
+      "release_metrics_evidence_links": 43
     },
     "F_evidence_population": {
-      "source_claims": 42,
-      "evidence_records": 42,
-      "evidence_links": 42,
-      "latest_evidence_bearing_source": "SRC-MMSC-000007",
-      "verification_boundary": "Abstract-level or full-text-accessible source characterization may be promoted only when exact locator, canonical source identity, scope, rights and cultural-access boundaries are explicit; research participation or ethics approval is never treated as MLHKP community validation."
+      "source_claims": 43,
+      "evidence_records": 43,
+      "evidence_links": 43,
+      "latest_evidence_bearing_source": "SRC-MMSC-000008",
+      "latest_chain": "WEB-MUN-0087→SRC-MMSC-000008→CLM-000043→EVD-000043→LNK-000043",
+      "verification_boundary": "Full-text-accessible source characterization may be promoted only when exact locator, canonical source identity, sample/geographic scope, rights and cultural-access boundaries are explicit; article openness, research participation or ethics approval is never treated as participant-data permission or MLHKP community validation."
     }
   },
   "changes_this_cycle": [
-    "Diagnosed a release-critical migration regression introduced when evidence_links.csv headers were renamed in commit a9056691102af68b024e674dc4b81f9af2523f0b; the audit contract expects from_type/from_id/to_type/to_id/relationship_type.",
-    "Restored the established evidence-link header contract without changing any of the 42 evidence-link rows, re-establishing claim/evidence graph visibility to the migration audit.",
-    "Corrected WEB-MUN-0043 canonicalization metadata to the repository-tested status=canonicalized_new_identity contract without weakening the MMSC test or changing its source/evidence scope.",
-    "Verified commit d652254f88a70e0508f3281a1eb45e56e0c267c9 as four-of-four green: Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build all PASS.",
-    "Added verified discovery lead WEB-MUN-0087 for the 2025 BMC Nutrition article Indigenous food environment and dietary patterns of Munda community of Jharkhand, India, DOI 10.1186/s40795-025-01159-2, PMID 41121309, PMCID PMC12539013.",
-    "Deterministically distinguished WEB-MUN-0087 from existing WEB-MUN-0045, the separate 2021 Frontiers food-environment article.",
-    "Kept WEB-MUN-0087 discovery-only in this cycle despite open article access because canonical source registration, exact section-level evidence selection, participant/data-governance review and cultural-access review must be committed before claim promotion.",
-    "Synchronized MMSC discovery count, Streamlit discovery count, publication JSON metrics and LaTeX macros to 87 discovery leads while preserving 33 audited identities, 6 canonicalized leads and 42 provenance-linked evidence chains.",
-    "Recorded MMSC-SEARCH-000025 in supplemental append-only search_log_run20.jsonl."
+    "Inspected live branch state before writing and found Migration Audit and Streamlit Smoke failing while Source Register Audit and Publication Build passed.",
+    "Diagnosed the failure as an audit reader mismatch across evidence-link endpoint schemas rather than missing evidence: all 42 existing evidence-link rows were present.",
+    "Updated software/audit_mlhkp_migration.py to normalize both canonical source/target endpoint names and legacy from/to endpoint names while retaining missing-endpoint, orphan-ID, missing-evidence and missing-link failure gates.",
+    "Reconciled concurrent branch progress that had already added WEB-MUN-0087 and moved the discovery layer to 87 records rather than overwriting that live state.",
+    "Verified WEB-MUN-0087 against BMC Nutrition, PubMed and PubMed Central using DOI 10.1186/s40795-025-01159-2, PMID 41121309 and PMCID PMC12539013.",
+    "Deterministically canonicalized WEB-MUN-0087 as SRC-MMSC-000008 by DOI/title/authorship match and added explicit canonicalization metadata so it is counted once through the standalone source register.",
+    "Promoted one exact-locator scope-bounded chain CLM-000043/EVD-000043/LNK-000043 recording only that the article reports a cross-sectional study of 201 Munda households and locates the study in eleven villages in Murhu and Torpa blocks of Khunti district.",
+    "Did not promote participant-level data, universal dietary claims, community validation, unrestricted underlying-data reuse or culturally governed knowledge from article openness.",
+    "Cross-checked official Census India Munda/Munda-Patar table leads as government-source candidates; deferred promotion pending deterministic comparison with existing Census identities and table-level provenance/rights review rather than creating a duplicate.",
+    "Synchronized MMSC and publication JSON/LaTeX metrics to 34 audited identities, 87 discovery leads, 7 canonicalized web leads and 43 provenance-linked evidence chains.",
+    "Updated MMSC-SEARCH-000025 to record the canonicalization/evidence result and the Census deferral boundary."
   ],
   "commits_this_cycle": [
-    "fb52c382691cde96c49642c708fde7556b32cf0b - fix WEB-MUN-0043 canonicalization contract",
-    "d652254f88a70e0508f3281a1eb45e56e0c267c9 - restore evidence-link migration contract; verified four-of-four green",
-    "459bb88eeae8b8b51d3270529c8a4651079d6ca4 - atomically add WEB-MUN-0087, MMSC-SEARCH-000025 and synchronize MMSC/publication metrics"
+    "42f7cbe9c6f6e67123bc56301e2ea27a4eb43ade - make migration audit robust to canonical and legacy evidence-link endpoint schemas",
+    "190c65646b2991879fa6de116384bd8fa4126757 - canonicalize open-access Munda food-environment study as SRC-MMSC-000008",
+    "0941a4c1f77ced0ebb885a2d2dc5c4b18b238a79 - add exact-scope CLM-000043",
+    "02fba798ad7f4ec82612b9acb55cd1f662ab1d94 - link WEB-MUN-0087 to canonical source identity",
+    "797c9f6f90694b8ee7a2e3a023d1f4bd904e67c3 - add EVD-000043 exact-locator evidence",
+    "46464105e9a07f70fab47222de13edb849bb5546 - add LNK-000043 claim/evidence graph edge",
+    "d1921237f4aa5df2053e4e997c9e23870f16625e - synchronize MMSC counts and latest canonicalization",
+    "8ef6619bde132b2e2edaa95b74a2b673ba11fd83 - synchronize publication release metrics JSON",
+    "35310205b833372160352ab5e718dd5413a27701 - synchronize LaTeX release metrics",
+    "8b46e96da31a2ce2676d33d5d865983730bb8c96 - update MMSC-SEARCH-000025 with canonicalization/evidence outcome"
   ],
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "d652254f88a70e0508f3281a1eb45e56e0c267c9",
     "four_of_four_green_claim_for_latest_head": false,
-    "new_head_workflow_state": "Fresh CI for 459bb88eeae8b8b51d3270529c8a4651079d6ca4 started after the atomic discovery/metrics commit; do not project the d652254 green result forward until all four runs complete.",
+    "new_head_workflow_state": "All four workflows were in progress for 8b46e96da31a2ce2676d33d5d865983730bb8c96 at the latest check; no green result is projected forward until runs complete.",
     "intermediate_failure_repaired": true,
-    "root_cause_note": "The migration/Streamlit regression was an evidence_links.csv header-contract break, not unsupported cultural evidence; Source Register also required canonicalization.status=canonicalized_new_identity for WEB-MUN-0043."
+    "root_cause_note": "The observed migration/Streamlit failure was an evidence-link endpoint-schema reader mismatch, not unsupported cultural evidence. The audit now validates either repository endpoint spelling without relaxing provenance integrity."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Mundarica original-edition versus later Gyan reprint mapping remains unresolved; XIV-XVI are edition-specific unresolved slots.",
-    "Eighty-one web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
+    "Eighty web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
     "LSI_JHARKHAND authoritative PDF locator is verified, but exact Mundari page extraction remains pending; catalogue metadata is not cultural evidence.",
     "Ministry/TRI SRC-MMSC-000005 PDF remains unextracted and all-rights-reserved unless otherwise indicated.",
     "SRC-MMSC-000006 has institutional file presence but RUMBUL is identified as rights holder; no grammar-text extraction is promoted until item-level reuse scope is established.",
     "SRC-MMSC-000007 full protected article text has not been treated as reusable; only publisher-abstract scope is evidence-linked, and current legal/community status remains unverified.",
     "WEB-MUN-0086 full text is publisher-restricted and its abstract is broader than Munda alone, so no Munda-specific evidence is promoted without exact passage-level verification.",
-    "WEB-MUN-0087 is verified and open-access at article level but remains outside the audited identity total until deterministic canonicalization and exact-locator evidence/data-governance review are completed.",
+    "Official Census India Munda/Munda-Patar table candidates require deterministic reconciliation with existing Census discovery identities before new IDs or evidence are added.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested.",
     "Primary data/source_census/search_log.jsonl still ends at MMSC-SEARCH-000021; entries 000022-000025 are preserved in supplemental append-only logs pending safe consolidation."
   ],
@@ -128,8 +139,8 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Canonicalize WEB-MUN-0087 as a new source identity only after final DOI/title/authorship duplicate check, then add an exact section-level SOURCE→EVIDENCE→CLAIM chain bounded to the sampled study and article licence while keeping participant/data governance separate.",
-    "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 81 discovery records, prioritizing sources with exact locators and explicit reuse terms.",
+    "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 80 discovery records, prioritizing sources with exact locators and explicit reuse terms.",
+    "Deterministically reconcile official Census India Munda/Munda-Patar table candidates with WEB-MUN-0053 and other existing Census identities before adding any government-source identity/evidence chain.",
     "Safely consolidate MMSC-SEARCH-000022 through 000025 into primary search_log.jsonl without altering prior entries.",
     "Retry LSI_JHARKHAND PDF and extract exact Mundari printed/PDF pages, section heading, survey geography, fieldwork dates and methodological scope before evidence promotion.",
     "Retry SRC-MMSC-000005 Ministry/TRI PDF without treating repository access as redistribution permission.",
