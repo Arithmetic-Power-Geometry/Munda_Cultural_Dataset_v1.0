@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T06:40:00Z",
-  "observed_head_before_status_sync": "9215a375fda3bd3bfd6442de03be36bcc66f13ef",
+  "updated_utc": "2026-09-07T06:50:00Z",
+  "observed_head_before_status_sync": "822bbd9b6a6bff385b173885364af37946633681",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
@@ -14,23 +14,8 @@
       "externally_located_volumes": 12,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
       "pending_exact_authoritative_scan_locators": [14,15,16],
-      "volume_1": {
-        "source_id": "SRC-MUN-V01",
-        "page_blocks": 324,
-        "page_accounting_complete": true,
-        "registered_working_transcriptions": 1,
-        "authoritative_scan_registered": false,
-        "verified_complete": false
-      },
-      "volume_16_bibliographic_lead": {
-        "edition_record_verified": true,
-        "year_as_listed": 2009,
-        "isbn": "9788121203227",
-        "pages_as_listed": 43,
-        "authoritative_scan_locator_verified": false,
-        "acquired": false,
-        "rights_assessed": false
-      },
+      "volume_1": {"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},
+      "volume_16_bibliographic_lead": {"edition_record_verified":true,"year_as_listed":2009,"isbn":"9788121203227","pages_as_listed":43,"authoritative_scan_locator_verified":false,"acquired":false,"rights_assessed":false},
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true
@@ -41,11 +26,11 @@
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 12,
       "standalone_mmsc_discoveries": 2,
-      "web_discovery_leads_observed": 81,
+      "web_discovery_leads_observed": 83,
       "web_discovery_leads_counted_in_audited_identity_total": 1,
-      "web_discovery_leads_remaining_outside_audited_identity_total": 80,
+      "web_discovery_leads_remaining_outside_audited_identity_total": 82,
       "source_complete_claim": false,
-      "search_log_entries": 19
+      "search_log_entries": 20
     },
     "C_information_model": {
       "registered_modules": 42,
@@ -65,7 +50,7 @@
       "empty_modules_truthfully_marked": true,
       "future_commercial_modules_disabled_by_default": true,
       "cultural_access_overrides_entitlement": true,
-      "external_source_discovery_layer_records": 81,
+      "external_source_discovery_layer_records": 83,
       "external_source_discovery_searchable": true,
       "external_source_discovery_visible_in_mmsc": true,
       "discovery_expansion_loading": "dynamic_via_streamlit_entrypoint_glob",
@@ -74,12 +59,12 @@
       "duplicate_founder_entrypoint_metadata": false
     },
     "E_publication_readiness": {
-      "status": "repository-derived metrics synchronized to 28 audited identities / 81 discovery leads / 1 canonicalized discovery lead; latest verified publication workflow PASS on head 6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b",
+      "status": "repository-derived metrics synchronized to 28 audited identities / 83 discovery leads / 1 canonicalized discovery lead; generated JSON and LaTeX macros updated this cycle",
       "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
       "snapshot_date": "2026-09-07",
       "release_metrics_sources_discovered": 28,
-      "release_metrics_web_discovery_leads_observed": 81,
+      "release_metrics_web_discovery_leads_observed": 83,
       "release_metrics_web_discovery_leads_counted_in_audited_identity_total": 1,
       "release_metrics_coverage_rows": 32
     },
@@ -95,31 +80,34 @@
     }
   },
   "changes_this_cycle": [
-    "Reconfirmed current mlhkp-v2 baseline and verified all four principal workflows PASS on head 6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b: Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
-    "Ran a fresh targeted Mundarica XIV-XVI locator search. No exact authoritative scan locator was verified for XIV or XV, so those blockers remain explicit rather than guessed.",
-    "Verified a bibliographic edition record for Volume XVI: Encyclopaedia Mundarica Vol.16th, Gyan Publishing House, 2009, ISBN 9788121203227, 43 pages. This is recorded only as an acquisition-target lead, not as an authoritative historical scan or reuse permission.",
-    "Added data/source_bundles/encyclopaedia_mundarica/unresolved_locator_leads.json to preserve XIV-XVI acquisition leads and verification boundaries without altering 0/16 machine VERIFIED COMPLETE status.",
-    "Preserved MMSC at 28 audited source identities and 81 external discovery leads; no source or cultural claim count was inflated by the bibliographic Mundarica lead."
+    "Verified and registered WEB-MUN-0082, the previously blocked 2025 Birsaite Dharam article, now accessible at Taylor & Francis publisher-abstract level; no religious or political proposition was promoted without exact passage, method, participant and cultural-access review.",
+    "Verified and registered WEB-MUN-0083, a 2025 Sapienza doctoral thesis on Adivasi women's movements explicitly including Munda communities; retained comparative-community scope and required chapter/page provenance before Munda-specific evidence promotion.",
+    "Deduplicated already represented Mundari computational-resource candidates encountered during the search rather than increasing counts for Karya/MunTTS duplicates.",
+    "Advanced discovery count from 81 to 83 while preserving audited identity total at 28 because neither new lead has completed deterministic canonicalization and evidence promotion.",
+    "Synchronized MMSC index, MMSC search log through MMSC-SEARCH-000020, dynamic Streamlit discovery count, publication release_metrics.json and release_metrics.tex to the real 83-lead state."
   ],
   "commits_this_cycle": [
-    "9215a375fda3bd3bfd6442de03be36bcc66f13ef - record unresolved Mundarica XIV-XVI locator leads"
+    "6806d935381ce6019cac09c1c91c317c6d125bb5 - add verified Birsaite and Adivasi women source leads",
+    "010dbc0b8dca1c1a955a8ca97047de7720eb490d - synchronize MMSC to 83 verified discovery leads",
+    "361cb2153f89395fb9332e32725cf94b25897e76 - log MMSC source census search 20",
+    "b9259f246e3b5b02095995e50b18903b4646d9ba - regenerate publication metrics for 83 discovery leads",
+    "822bbd9b6a6bff385b173885364af37946633681 - synchronize manuscript macros to 83 discovery leads"
   ],
   "tests_and_workflows": {
     "latest_all_four_green_head": "6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b",
-    "migration_audit": "PASS",
-    "source_register_audit": "PASS",
-    "streamlit_smoke": "PASS",
-    "publication_build": "PASS",
+    "migration_audit": "PASS_on_latest_verified_green_head",
+    "source_register_audit": "PASS_on_latest_verified_green_head",
+    "streamlit_smoke": "PASS_on_latest_verified_green_head",
+    "publication_build": "PASS_on_latest_verified_green_head",
     "current_status_sync_head_requires_reconfirmation": true,
-    "claim_green_scope": "All four principal workflows are verified green on 6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b. New locator/status-only commits require their own workflow completion before an all-green claim is extended to the new head."
+    "claim_green_scope": "All four principal workflows remain last verified green on 6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b. This cycle's additive source/metric/status commits require their own workflow completion before the green claim is extended."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
-    "Exact authoritative scan locators remain unresolved for Mundarica Volumes XIV, XV and XVI; Volume XVI now has a verified 2009 bibliographic edition lead but no authoritative scan acquisition.",
-    "Eighty web-discovery leads remain outside the audited identity total pending deterministic duplicate/wrapper/alternate-locator/new-identity decisions.",
-    "High-value discovery leads still require exact passage/page/timecode locators, rights/access review and scope framing before evidence promotion.",
+    "Exact authoritative scan locators remain unresolved for Mundarica Volumes XIV, XV and XVI; Volume XVI has a verified 2009 bibliographic edition lead but no authoritative scan acquisition.",
+    "Eighty-two web-discovery leads remain outside the audited identity total pending deterministic duplicate/wrapper/alternate-locator/new-identity decisions.",
+    "WEB-MUN-0082 and WEB-MUN-0083 require exact passage/chapter/page locators, item-level rights review and scope/community review before evidence promotion.",
     "Census India LSI Jharkhand PDF previously returned HTTP 502; catalogue-level source remains registered but no page-level evidence is guessed.",
-    "The Taylor & Francis page for the 2025 Birsaite-religion candidate DOI 10.1080/14631369.2025.2589154 remains blocked and is not fabricated into a record.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
   ],
   "integrity": {
@@ -150,9 +138,10 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Continue deterministic DOI/title/edition canonicalization across the remaining 80 discovery leads, prioritizing lawfully accessible full text for exact passage evidence conversion.",
-    "Retry authoritative acquisition for Mundarica XIV-XVI and Volume I scan independently; use the Volume XVI ISBN lead only to narrow catalogue/library searches.",
-    "Retry Census LSI Jharkhand exact-locator extraction and promote only exact-locator evidence when successfully retrieved.",
+    "Canonicalize high-confidence DOI/ISBN/handle discovery leads against the 28 audited identities, prioritizing sources with lawful full text and exact locator availability.",
+    "Acquire/review the Sapienza thesis item-level licence and full text, then extract only Munda-specific chapter/page evidence with comparative-scope safeguards.",
+    "Capture complete bibliographic authorship and exact passage/method details for the Birsaite article before any evidence promotion.",
+    "Retry Census LSI Jharkhand exact-locator extraction and continue independent Mundarica XIV-XVI/Volume I scan acquisition.",
     "Continue populating evidence-empty modules through provenance-linked permitted sources while keeping Streamlit, evidence graph, completeness matrix and publication metrics synchronized."
   ]
 }
