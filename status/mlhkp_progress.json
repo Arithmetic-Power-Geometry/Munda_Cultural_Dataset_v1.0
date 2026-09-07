@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T20:32:57Z",
-  "observed_head_before_status_sync": "768cf65a913c9aeed7b920cce13368179532ab28",
+  "updated_utc": "2026-09-07T20:52:00Z",
+  "observed_head_before_status_sync": "a61da988a2cd80c17e376f3469d8f0c1fcbcbdeb",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -18,18 +18,19 @@
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
-      "audited_source_identities_discovered": 38,
+      "audited_source_identities_discovered": 39,
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 12,
-      "standalone_mmsc_discoveries": 12,
+      "standalone_mmsc_discoveries": 13,
       "web_discovery_leads_observed": 87,
       "web_discovery_leads_counted_in_audited_identity_total": 11,
       "web_discovery_leads_remaining_outside_audited_identity_total": 76,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000037",
+      "latest_search_id": "MMSC-SEARCH-000038",
       "latest_canonicalization": "WEB-MUN-0025 -> SRC-MMSC-000012 by DOI 10.18653/v1/2024.computel-1.11",
-      "latest_verification": "Fresh ORGI discovery reverified Jharkhand C-16 state/district/subdistrict and town-level catalogue identities and workbook filenames; direct catalogue opening/download resolution returned HTTP 502, so exact Munda/Mundari workbook rows remain unextracted and no numeric evidence was promoted.",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037"],
+      "latest_new_standalone_identity": "SRC-MMSC-000013 by DOI 10.3390/foods11233774; no exact DOI duplicate in the pre-promotion standalone MMSC or preserved canonical master register",
+      "latest_verification": "PubMed/PMC/Foods metadata, DOI, PMID, PMCID, open-access license, Methods study scope and ethics/consent reporting verified for the 2022 finger-millet value-chain article. Only bounded article-reported study design and sampled scope were promoted.",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037","MMSC-SEARCH-000038"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -45,50 +46,57 @@
       "reports_downloads": true,
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
-      "empty_modules_truthfully_marked": true
+      "empty_modules_truthfully_marked": true,
+      "additive_mmsc_sources_loaded_into_public_catalogue": true,
+      "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
+      "sync_note": "streamlit_app.py now augments the existing engine catalogue from canonical mmsc_discoveries.json and public source_claims/evidence CSV rows, deduplicating existing database evidence IDs; discovery metadata remains distinct from evidence."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
-      "sources_discovered": 38,
+      "sources_discovered": 39,
       "web_discovery_leads_observed": 87,
       "canonicalized_web_leads": 11,
-      "claims": 47,
-      "evidence_records": 47,
-      "evidence_links": 47,
-      "metrics_changed_this_cycle": false,
+      "claims": 48,
+      "evidence_records": 48,
+      "evidence_links": 48,
+      "metrics_changed_this_cycle": true,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "This cycle reverified two official Census products and recorded an exact-row acquisition blocker; no unverified numeric evidence or new audited identity was counted."
+      "reason": "This cycle registered one new DOI-deduplicated open-access peer-reviewed source and promoted one bounded exact-locator study-scope evidence chain; generated JSON and LaTeX metrics were synchronized accordingly."
     },
     "F_evidence_population": {
-      "source_claims": 47,
-      "evidence_records": 47,
-      "evidence_links": 47,
-      "latest_evidence_bearing_source": "SRC-MMSC-000012",
-      "latest_evidence_chain": "WEB-MUN-0025 -> SRC-MMSC-000012 -> CLM-000047 -> EVD-000047 -> LNK-000047",
-      "promotion_boundary": "Census C-16 catalogue metadata is verified, but no Munda/Mundari population value or category equivalence is evidence-promoted until workbook bytes and exact sheet/row/cell provenance are retrieved and checked."
+      "source_claims": 48,
+      "evidence_records": 48,
+      "evidence_links": 48,
+      "latest_evidence_bearing_source": "SRC-MMSC-000013",
+      "latest_evidence_chain": "SRC-MMSC-000013 -> CLM-000048 -> EVD-000048 -> LNK-000048",
+      "latest_exact_locator": "PMC9736962 Methods sections 2.1 and 2.4; DOI 10.3390/foods11233774",
+      "promotion_boundary": "The evidence records only the article-reported Munda finger-millet value-chain study design and sampled research context. Participant statements, transcripts/recordings, underlying participant data, third-party content, community validation and culturally restricted knowledge are not promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "2f88c4a182aeba23ce19208f82b06f64bd309017",
+    "last_verified_all_four_green_commit": "86ccf21d475f6190d6ef4659da8c0f990f640e5a",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["0c6a9b2e7eff14c1bbe4957b42f65e4bf4a6d0cb","768cf65a913c9aeed7b920cce13368179532ab28"],
-    "new_head_ci_state_at_status_write": "fresh runs pending or not yet fully verified; no green projection"
+    "new_commits_this_cycle": ["089194f72c4190e60d0a37153db569318a89ede4","4a7c71d77b7939d46976d926ccae464824aba7b2","cb062ef0164ba57642a53da12108ec8a485a2d49","180e86af7221709f52d5cec781a4b2cf0f99ad07","4c332b8e664d3db7e339fd03f8974374d14f5396","9a1d1d2b7d72a31376a14751e4671e0ff2529ef9","16fdb5e651c9375cd6ffc6e0cd617ff1656750de","4a1a047f1808904be9778cd7e7d95297908bbc5e","91f29dc561ad0721a0d13c6ba8028bde7682da60","c543cdf1cd235f44fca6d4e201b0fde21d53df57","56ffb5fe120b085870f5c607162d905ca5e36c6b","a61da988a2cd80c17e376f3469d8f0c1fcbcbdeb"],
+    "new_head_ci_state_at_status_write": "all four workflows for a61da988a2cd80c17e376f3469d8f0c1fcbcbdeb are queued; no green projection"
   },
   "changes_this_cycle": [
-    "Verified branch head 2f88c4a182aeba23ce19208f82b06f64bd309017 is represented by successful MLHKP workflow runs; prior status already records it as the current 4/4-green baseline.",
-    "Retried exact acquisition for the two official Jharkhand C-16 workbooks after independently reverifying their ORGI catalogue identities and dimensions.",
-    "Recorded HTTP 502 as a retrieval blocker instead of inventing workbook rows, checksums, sheet names, coordinates or population values.",
-    "Added data/source_census/census_c16_exact_row_retrieval_attempt_2026-09-08.json.",
-    "Added MMSC-SEARCH-000037 in search_log_run31.jsonl.",
-    "Kept audited identity and evidence counts unchanged because no new source was deterministically promoted and no exact numeric evidence was obtained.",
+    "Confirmed previous head 86ccf21d475f6190d6ef4659da8c0f990f640e5a is 4/4 green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
+    "Verified a new peer-reviewed open-access non-Mundarica source: Foods 2022 11(23):3774, DOI 10.3390/foods11233774, PMID 36496581, PMCID PMC9736962.",
+    "Deterministically checked the DOI against the pre-promotion standalone MMSC and preserved canonical master register; no exact duplicate was present.",
+    "Registered the source as SRC-MMSC-000013 and promoted only a bounded exact-locator study-scope chain CLM-000048 -> EVD-000048 -> LNK-000048.",
+    "Recorded the article CC BY 4.0 boundary while keeping participant data, transcripts/recordings, third-party material, consent-governed content, community validation and cultural access separately gated.",
+    "Added MMSC-SEARCH-000038 and a machine-readable verification artifact.",
+    "Synchronized MMSC counts to 39 audited identities, 87 observed web leads, 11 canonicalized web leads and 76 unresolved web-lead dispositions.",
+    "Synchronized publication JSON/LaTeX metrics to 39 sources and 48 claims/evidence/evidence-links.",
+    "Updated Streamlit entrypoint so additive MMSC source records and public CSV evidence are searchable immediately between SQLite rebuilds without converting discovery leads into evidence.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0.",
     "Seventy-six web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000037 remain in run-specific append-only logs pending safe primary-log consolidation.",
-    "Census C-16 Jharkhand workbook identities and filenames are verified, but direct catalogue/download resolution returned HTTP 502 in this cycle; exact Munda/Mundari rows remain unextracted and no population values are asserted.",
+    "MMSC-SEARCH-000029 through 000038 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "Census C-16 Jharkhand workbook identities and filenames are verified, but the latest direct catalogue/download attempt returned HTTP 502; exact Munda/Mundari rows remain unextracted and no population values are asserted.",
     "The 1908 Grierson review requires deterministic comparison against discovery records before permanent source assignment; full-text reuse rights remain unestablished.",
     "WEB-MUN-0082 participant-derived religious/ritual material requires exact-passage rights, consent and cultural-access review before evidence promotion.",
     "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before audio, annotation, lexical, song or narrative evidence promotion.",
@@ -114,13 +122,14 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Consolidate MMSC-SEARCH-000029 through 000037 into the primary append-only search log without changing IDs or semantics.",
+    "Consolidate MMSC-SEARCH-000029 through 000038 into the primary append-only search log without changing IDs or semantics.",
     "Retry official acquisition of DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX; if obtained, record checksum, sheet, exact row/cell coordinates and raw labels before any numeric evidence promotion.",
-    "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 discovery leads, prioritizing exact-locator evidence potential.",
+    "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 web discovery leads, prioritizing exact-locator evidence potential.",
+    "Review further open-access peer-reviewed and institutional-repository sources for exact locator evidence while keeping participant and cultural-access gates separate.",
     "Review WEB-MUN-0082 only to the exact-passage level allowed by publisher access and participant/cultural protections.",
     "Review BMM1 item-level PARADISEC access/consultant metadata before item evidence ingestion.",
     "Retry LSI Jharkhand exact-page extraction and continue TRI/grammar processing only within item-level rights boundaries.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation.",
-    "Keep publication metrics, Streamlit and evidence graph synchronized after every evidence-bearing promotion."
+    "Verify all four CI workflows on the new status head and repair any regression before further promotion."
   ]
 }
