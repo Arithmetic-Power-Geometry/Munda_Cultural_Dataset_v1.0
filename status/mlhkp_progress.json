@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T06:50:00Z",
-  "observed_head_before_status_sync": "822bbd9b6a6bff385b173885364af37946633681",
+  "updated_utc": "2026-09-07T07:33:00Z",
+  "observed_head_before_status_sync": "04d291de17c8fad932a3f05b545bb09bc37b05ca",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
@@ -59,7 +59,7 @@
       "duplicate_founder_entrypoint_metadata": false
     },
     "E_publication_readiness": {
-      "status": "repository-derived metrics synchronized to 28 audited identities / 83 discovery leads / 1 canonicalized discovery lead; generated JSON and LaTeX macros updated this cycle",
+      "status": "repository-derived metrics synchronized to 28 audited identities / 83 discovery leads / 1 canonicalized discovery lead",
       "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
       "snapshot_date": "2026-09-07",
@@ -80,27 +80,29 @@
     }
   },
   "changes_this_cycle": [
-    "Verified and registered WEB-MUN-0082, the previously blocked 2025 Birsaite Dharam article, now accessible at Taylor & Francis publisher-abstract level; no religious or political proposition was promoted without exact passage, method, participant and cultural-access review.",
-    "Verified and registered WEB-MUN-0083, a 2025 Sapienza doctoral thesis on Adivasi women's movements explicitly including Munda communities; retained comparative-community scope and required chapter/page provenance before Munda-specific evidence promotion.",
-    "Deduplicated already represented Mundari computational-resource candidates encountered during the search rather than increasing counts for Karya/MunTTS duplicates.",
-    "Advanced discovery count from 81 to 83 while preserving audited identity total at 28 because neither new lead has completed deterministic canonicalization and evidence promotion.",
-    "Synchronized MMSC index, MMSC search log through MMSC-SEARCH-000020, dynamic Streamlit discovery count, publication release_metrics.json and release_metrics.tex to the real 83-lead state."
+    "Rechecked the current mlhkp-v2 head and all four workflows before further ingestion work.",
+    "Detected a real regression: Source Register Audit failed while Migration Audit, Streamlit Smoke Test and Publication Build passed.",
+    "Isolated the failure to the Master Munda Source Census test suite, where the discovery count was hard-coded to 81 even though repository truth had advanced to 83 verified discovery leads.",
+    "Repaired the census test so discovery-count validation is repository-derived from mmsc_index.json and the discovery files rather than a stale manually typed number; integrity checks for sequential IDs, deduplication and canonicalized lead counting remain intact.",
+    "Triggered fresh Migration, Source Register, Streamlit and Publication workflows on the repaired head; all four are queued/pending at this status snapshot, so no green claim is made for the new head yet."
   ],
   "commits_this_cycle": [
-    "6806d935381ce6019cac09c1c91c317c6d125bb5 - add verified Birsaite and Adivasi women source leads",
-    "010dbc0b8dca1c1a955a8ca97047de7720eb490d - synchronize MMSC to 83 verified discovery leads",
-    "361cb2153f89395fb9332e32725cf94b25897e76 - log MMSC source census search 20",
-    "b9259f246e3b5b02095995e50b18903b4646d9ba - regenerate publication metrics for 83 discovery leads",
-    "822bbd9b6a6bff385b173885364af37946633681 - synchronize manuscript macros to 83 discovery leads"
+    "04d291de17c8fad932a3f05b545bb09bc37b05ca - make MMSC discovery-count test repository-derived"
   ],
   "tests_and_workflows": {
+    "previous_head": "4104aa765bc740bbbe77c31e9fa7020ed42fa28a",
+    "previous_head_migration_audit": "PASS",
+    "previous_head_source_register_audit": "FAIL",
+    "previous_head_streamlit_smoke": "PASS",
+    "previous_head_publication_build": "PASS",
+    "failure_scope": "Run Master Munda Source Census tests",
+    "repair_head": "04d291de17c8fad932a3f05b545bb09bc37b05ca",
+    "repair_head_migration_audit": "QUEUED_OR_PENDING",
+    "repair_head_source_register_audit": "QUEUED_OR_PENDING",
+    "repair_head_streamlit_smoke": "QUEUED_OR_PENDING",
+    "repair_head_publication_build": "QUEUED_OR_PENDING",
     "latest_all_four_green_head": "6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b",
-    "migration_audit": "PASS_on_latest_verified_green_head",
-    "source_register_audit": "PASS_on_latest_verified_green_head",
-    "streamlit_smoke": "PASS_on_latest_verified_green_head",
-    "publication_build": "PASS_on_latest_verified_green_head",
-    "current_status_sync_head_requires_reconfirmation": true,
-    "claim_green_scope": "All four principal workflows remain last verified green on 6a5c20f7ed3c2622aa37409f2ff8e94ec6ab064b. This cycle's additive source/metric/status commits require their own workflow completion before the green claim is extended."
+    "claim_green_scope": "No four-of-four green claim is extended beyond the last verified green head until the repair-head workflows complete."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
@@ -108,7 +110,8 @@
     "Eighty-two web-discovery leads remain outside the audited identity total pending deterministic duplicate/wrapper/alternate-locator/new-identity decisions.",
     "WEB-MUN-0082 and WEB-MUN-0083 require exact passage/chapter/page locators, item-level rights review and scope/community review before evidence promotion.",
     "Census India LSI Jharkhand PDF previously returned HTTP 502; catalogue-level source remains registered but no page-level evidence is guessed.",
-    "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
+    "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
+    "Fresh CI on the repository-derived MMSC test repair is pending."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -127,7 +130,8 @@
     "rajan_pahan_exact_title_preserved": true,
     "rajan_pahan_exact_role": "Founding Community, Meetings & Field Logistics Coordinator",
     "duplicate_founder_entrypoint_metadata": false,
-    "deadline_pressure_can_override_evidence_or_access_gates": false
+    "deadline_pressure_can_override_evidence_or_access_gates": false,
+    "mmsc_discovery_count_test_repository_derived": true
   },
   "deadline_progress": {
     "deadline_ist": "2026-09-21T23:59:00+05:30",
@@ -138,6 +142,7 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
+    "Confirm all four workflows on the repaired MMSC test head and immediately address any remaining true audit failure without weakening safeguards.",
     "Canonicalize high-confidence DOI/ISBN/handle discovery leads against the 28 audited identities, prioritizing sources with lawful full text and exact locator availability.",
     "Acquire/review the Sapienza thesis item-level licence and full text, then extract only Munda-specific chapter/page evidence with comparative-scope safeguards.",
     "Capture complete bibliographic authorship and exact passage/method details for the Birsaite article before any evidence promotion.",
