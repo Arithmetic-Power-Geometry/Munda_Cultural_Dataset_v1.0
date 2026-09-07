@@ -24,10 +24,17 @@
       "url": "https://hdl.handle.net/20.500.14242/212639",
       "author": "Marilena Proietti",
       "year": 2025,
-      "notes": "Institutional repository metadata verifies a 2025 doctoral thesis examining Adivasi women's movements in eastern India from the 1980s onward, explicitly including Oraon, Munda, Santal and Ho communities. The repository reports an open-access PDF from 27 May 2026 and identifies a Creative Commons licence at repository level. Register as a comparative historical/contemporary gender, governance, environmental, displacement and collective-memory source lead only. Munda-specific propositions require exact chapter/page locators and must not be inferred from comparative cross-community discussion.",
-      "verification_state": "institutional_repository_metadata_and_abstract_verified",
+      "notes": "Institutional repository metadata verifies a 2025 doctoral thesis examining Adivasi women's movements in eastern India from the 1980s onward, explicitly including Oraon, Munda, Santal and Ho communities. A second Sapienza record independently confirms the thesis and open-access file. MLHKP promotes only this comparative source scope, not Munda-specific findings.",
+      "verification_state": "institutional_repository_metadata_abstract_two_handles_open_access_file_and_license_label_verified",
       "access_class": "institutional_repository_open_access_item_item_level_licence_and_embedded_material_review_required",
-      "rights_note": "Repository open access and Creative Commons metadata must be checked against the exact item licence and any third-party/participant material before redistribution, extraction, model training or commercial reuse. Comparative Adivasi evidence is not automatically Munda-specific evidence."
+      "rights_note": "Repository open access and Creative Commons metadata do not override third-party/participant material, consent, dignity or MLHKP cultural-access restrictions. Comparative Adivasi evidence is not automatically Munda-specific evidence.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000010",
+        "dedupe_key": "handle:20.500.14242/212639",
+        "alternate_identifier": "handle:11573/1740709",
+        "decision": "Exact title/author/year and two institutional repository records match; registered once as a standalone audited MMSC identity and not double-counted in the discovery layer."
+      }
     }
   ]
 }
