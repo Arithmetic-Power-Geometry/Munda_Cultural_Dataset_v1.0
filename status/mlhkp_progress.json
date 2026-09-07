@@ -2,35 +2,43 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-06T23:35:00Z",
+  "updated_utc":"2026-09-07T00:28:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
-    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":61,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
+    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":65,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
-    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":61,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob"},
-    "E_publication_readiness":{"status":"discovery-layer manuscript metrics synchronized; current head awaiting CI/build reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":61,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
+    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":65,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob"},
+    "E_publication_readiness":{"status":"discovery-layer manuscript metrics synchronized to run 10; current head awaiting CI/build reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":65,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
-    "Observed final run-9 CI: Source Register Audit PASS and Migration Audit PASS; Streamlit Smoke failed at the information-architecture contract and Publication Build failed at the publication synchronization contract.",
-    "Repaired the governance architecture test so the exact approved Rajan Pahan title is required in the delegated knowledge-engine rendering surface while duplicate founder metadata remains forbidden in the Streamlit entrypoint.",
-    "Repaired the manuscript synchronization contract by using the generated discovery-layer macros in the abstract and release table: 61 external discovery leads observed and 0 counted as audited source identities.",
-    "Updated manuscript snapshot date to 7 September 2026 and retained explicit release-bounded, non-completeness language.",
-    "No source counts, cultural claims, OCR verification states, community-validation states or redistribution permissions were promoted during this CI-repair cycle."
+    "Expanded the non-Mundarica source-discovery layer from 61 to 65 verified leads without changing the audited 27-source identity count.",
+    "Registered W. G. Archer's 1942 A Munda song book from library metadata as a historical songs/oral-traditions source lead; no song text or cultural claim was extracted.",
+    "Registered the official Unicode Standard Version 17.0 Nag Mundari section as a technical script/encoding lead, explicitly separating encoding metadata from cultural adoption or literacy claims.",
+    "Registered MegaVoice/Bible Society of India Mundari audio-New-Testament catalogue metadata as religious audio/media discovery only; no recording, transcript, speaker, pronunciation or belief-system claim was ingested.",
+    "Registered the official Dr. Ramdayal Munda Tribal Welfare Research Institute Jharkhand Munda webpage as a government/TRI web-source lead; broad page descriptions remain passage-level review candidates rather than universal/current facts.",
+    "Synchronized MMSC index, reproducible search log, dynamic Streamlit discovery count, publication JSON/LaTeX release metrics and discovery-integrity tests through WEB-MUN-0065.",
+    "Preserved rights uncertainty: catalogue, standard, stream/sample and government-web availability are not treated as redistribution, model-training or commercial-reuse permission."
   ],
   "commits_this_cycle":[
-    "115eee2a0482fd2ed16300d96b9689fa1628988c - Fix governance architecture test delegation contract",
-    "10beeaf6cec56845e063082dadf05de421446371 - Synchronize manuscript discovery-layer metrics"
+    "0a66784e76809f72c5ee7394848c1a36e35b02fe - Expand non-Mundarica discovery with songs, script, audio, and TRI leads",
+    "825c00e3c1c79071f4b085ace6a7d16c6cc1f3d7 - Synchronize MMSC index to 65 discovery leads",
+    "a5363fddc6ff9e3da9fe37ff374f10ba5a4a4aa9 - Log non-Mundarica discovery run 10",
+    "9da04fd620aa61ad2b8269008d10bf6e164eafce - Extend discovery integrity tests through WEB-MUN-0065",
+    "3ffa2f42148c7707fcbe69b9a2ad38037df511d2 - Synchronize publication metrics to 65 discovery leads",
+    "55bbe40cef8efa2186f6421260f7fead15de48b3 - Update LaTeX release macros for 65 discovery leads"
   ],
-  "tests_and_workflows":{"status":"two_observed_failures_repaired_current_head_reconfirmation_pending","last_observed_head":"fe55cc78dd9f5ae0694473ac4e927435b6d7fd01","migration_audit":"PASS_on_fe55cc78","source_register_audit":"PASS_on_fe55cc78","publication_build":"FAIL_on_fe55cc78_at_publication_synchronization_contract; repair_committed_current_head_reconfirmation_pending","streamlit_smoke":"FAIL_on_fe55cc78_at_complete_information_architecture_contract; repair_committed_current_head_reconfirmation_pending","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the current repair head."},
+  "tests_and_workflows":{"status":"current_head_reconfirmation_pending","last_observed_head":"3af781187de2a5b3a0ff8f2f0db52464eea0b311","migration_audit":"not_rechecked_after_run10_writes","source_register_audit":"not_rechecked_after_run10_writes","publication_build":"not_rechecked_after_run10_writes","streamlit_smoke":"not_rechecked_after_run10_writes","claim_green_scope":"No whole-repository or publication PASS claimed until workflows complete on the current run-10 head."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
-    "Sixty-one non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
-    "Full-text access or reuse status remains unresolved for some registered discovery leads; discovery metadata is retained without asserting acquisition.",
+    "Sixty-five non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "A Munda song book requires copy-level access and jurisdiction-specific copyright/public-domain review before text extraction or redistribution.",
+    "MegaVoice/Bible Society of India audio requires item-level recording, contributor, transcription, model-training and reuse-rights review; religious content must not be generalized to all Munda belief systems.",
+    "Government/TRI webpage content requires passage-level source/context review and site-rights review before structured evidence extraction.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
-    "Current repair head requires CI reconfirmation before whole-repository or publication PASS."
+    "Current run-10 head requires CI reconfirmation before whole-repository or publication PASS."
   ],
   "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false},
-  "next_best_action":"Verify all CI workflows on the repair head; then continue deterministic canonicalization of the 61 discovery leads, prioritize permitted official Census/LSI/TRI and institutional sources for exact-locator acquisition, and continue Mundarica XIV-XVI locator discovery without touching main."
+  "next_best_action":"Check current-head CI; continue deterministic canonicalization of the 65 discovery leads, prioritize lawfully accessible official/library/standards sources for exact-locator structuring, and continue broad source-class discovery without touching main."
 }
