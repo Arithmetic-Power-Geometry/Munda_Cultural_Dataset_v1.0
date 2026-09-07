@@ -24,10 +24,10 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 75
+    assert len(records) == 77
     assert len(ids) == len(set(ids))
     assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 76)]
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 78)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
@@ -42,7 +42,7 @@ def test_web_discovery_is_source_lead_layer_not_claim_layer():
 
 def test_government_and_bibliographic_records_preserve_rights_boundaries():
     records = {r['id']: r for r in all_records()}
-    for source_id in ['WEB-MUN-0008','WEB-MUN-0009','WEB-MUN-0010','WEB-MUN-0011','WEB-MUN-0012','WEB-MUN-0014','WEB-MUN-0015','WEB-MUN-0016','WEB-MUN-0017','WEB-MUN-0021','WEB-MUN-0022','WEB-MUN-0027','WEB-MUN-0029','WEB-MUN-0031','WEB-MUN-0033','WEB-MUN-0034','WEB-MUN-0038','WEB-MUN-0040','WEB-MUN-0041','WEB-MUN-0042','WEB-MUN-0043','WEB-MUN-0044','WEB-MUN-0048','WEB-MUN-0049','WEB-MUN-0050','WEB-MUN-0051','WEB-MUN-0052','WEB-MUN-0053','WEB-MUN-0054','WEB-MUN-0055','WEB-MUN-0056','WEB-MUN-0057','WEB-MUN-0058','WEB-MUN-0059','WEB-MUN-0060','WEB-MUN-0062','WEB-MUN-0063','WEB-MUN-0064','WEB-MUN-0065','WEB-MUN-0066','WEB-MUN-0067','WEB-MUN-0068','WEB-MUN-0069','WEB-MUN-0070','WEB-MUN-0071','WEB-MUN-0072','WEB-MUN-0073','WEB-MUN-0074','WEB-MUN-0075']:
+    for source_id in ['WEB-MUN-0008','WEB-MUN-0009','WEB-MUN-0010','WEB-MUN-0011','WEB-MUN-0012','WEB-MUN-0014','WEB-MUN-0015','WEB-MUN-0016','WEB-MUN-0017','WEB-MUN-0021','WEB-MUN-0022','WEB-MUN-0027','WEB-MUN-0029','WEB-MUN-0031','WEB-MUN-0033','WEB-MUN-0034','WEB-MUN-0038','WEB-MUN-0040','WEB-MUN-0041','WEB-MUN-0042','WEB-MUN-0043','WEB-MUN-0044','WEB-MUN-0048','WEB-MUN-0049','WEB-MUN-0050','WEB-MUN-0051','WEB-MUN-0052','WEB-MUN-0053','WEB-MUN-0054','WEB-MUN-0055','WEB-MUN-0056','WEB-MUN-0057','WEB-MUN-0058','WEB-MUN-0059','WEB-MUN-0060','WEB-MUN-0062','WEB-MUN-0063','WEB-MUN-0064','WEB-MUN-0065','WEB-MUN-0066','WEB-MUN-0067','WEB-MUN-0068','WEB-MUN-0069','WEB-MUN-0070','WEB-MUN-0071','WEB-MUN-0072','WEB-MUN-0073','WEB-MUN-0074','WEB-MUN-0075','WEB-MUN-0076','WEB-MUN-0077']:
         note = records[source_id]['rights_note'].lower()
         assert any(term in note for term in ['terms', 'does not', 'rights', 'reuse', 'permission', 'copyright', 'licence'])
     glottolog = records['WEB-MUN-0013']
@@ -177,6 +177,19 @@ def test_run13_official_lsi_and_customary_land_article_boundaries():
     assert '10.1177/0972558x1301300205' in khuntkatti['notes'].lower()
     assert 'two mundari khuntkatti villages' in khuntkatti['notes'].lower()
     assert 'universal or current' in khuntkatti['notes'].lower()
+
+
+def test_run14_political_anthropology_and_information_structure_boundaries():
+    records = {r['id']: r for r in all_records()}
+    shah = records['WEB-MUN-0076']
+    assert '10.1111/j.1467-9655.2007.00417.x' in shah['notes'].lower()
+    assert 'source-reported interpretations' in shah['notes'].lower()
+    assert 'universal/current' in shah['notes'].lower()
+    fasal = records['WEB-MUN-0077']
+    assert fasal['year'] == 2026
+    assert 'sora and mundari' in fasal['notes'].lower()
+    assert 'exact pdf page/example/table locators' in fasal['notes'].lower()
+    assert 'underlying elicitation/corpus rights' in fasal['rights_note'].lower()
 
 
 def test_source_leads_do_not_claim_ingestion_or_verification_of_cultural_facts():
