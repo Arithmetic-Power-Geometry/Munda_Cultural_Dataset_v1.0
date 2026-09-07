@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T09:02:00Z",
-  "observed_head_before_status_sync": "1aa20904d960ba2da1301333efc23f32da5f904d",
+  "updated_utc": "2026-09-07T09:08:00Z",
+  "observed_head_before_status_sync": "4d4a5a3c393a9b96a1d944f44035af24ec7f93d2",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
@@ -92,7 +92,9 @@
     "Deterministically canonicalized WEB-MUN-0059 Ministry of Tribal Affairs/TRI book Munda as SRC-MMSC-000005 using official record DRMTWRI/1993/0007, researcher/editor/guide metadata and pagination 1-44.",
     "Preserved the Ministry repository copyright boundary: items are all-rights-reserved unless otherwise indicated; PDF fetch timed out, so no page-level cultural evidence, OCR, redistribution or reuse permission was claimed.",
     "Synchronized MMSC audited identities 29→31, canonicalized web leads 2→4, remaining uncanonicalized discovery leads 81→79, and evidence chain counts 40→41.",
-    "Synchronized publication JSON and LaTeX release metrics to the same repository truth."
+    "Synchronized publication JSON and LaTeX release metrics to the same repository truth.",
+    "Fresh Source Register Audit on the first synchronized head exposed that WEB-MUN-0057 and WEB-MUN-0059 lacked canonicalization metadata even though their standalone source identities existed. Added explicit canonicalization records in the original discovery file rather than weakening the audit.",
+    "On repair head 4d4a5a3c393a9b96a1d944f44035af24ec7f93d2, Migration Audit already PASS; Source Register Audit, Streamlit Smoke Test and Publication Build are running, so no four-of-four green claim is made yet."
   ],
   "commits_this_cycle": [
     "f33635cda781638d6c4c46770fdad157fc7c9e63 - canonicalize Virginia Tech and TRI Munda sources",
@@ -101,16 +103,18 @@
     "60e9aaf56d190178670cc5cf3754f2eb1f8ceb4d - link dissertation evidence chain",
     "7f9310b17f874295c2c57e726d11e335c8c8ca04 - synchronize MMSC index",
     "2b6c125329c3656e4156be42039c1d6f9275c70c - synchronize publication JSON metrics",
-    "1aa20904d960ba2da1301333efc23f32da5f904d - synchronize LaTeX release macros"
+    "1aa20904d960ba2da1301333efc23f32da5f904d - synchronize LaTeX release macros",
+    "aea90b2721cdddac4055939e3ee173f61ec7646e - synchronize progress before CI audit",
+    "4d4a5a3c393a9b96a1d944f44035af24ec7f93d2 - add canonicalization metadata required by repository-derived MMSC audit"
   ],
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "a09853713f3ab372b2ba28bc5489b50d1672aeb4",
-    "migration_audit": "previous_verified_PASS_new_head_pending",
-    "source_register_audit": "previous_verified_PASS_new_head_pending",
-    "streamlit_smoke_test": "previous_verified_PASS_new_head_pending",
-    "publication_build": "previous_verified_PASS_new_head_pending",
+    "migration_audit": "PASS_on_4d4a5a3c393a9b96a1d944f44035af24ec7f93d2",
+    "source_register_audit": "RUNNING_on_4d4a5a3c393a9b96a1d944f44035af24ec7f93d2_after_repair",
+    "streamlit_smoke_test": "RUNNING_on_4d4a5a3c393a9b96a1d944f44035af24ec7f93d2",
+    "publication_build": "RUNNING_on_4d4a5a3c393a9b96a1d944f44035af24ec7f93d2",
     "four_of_four_green_claim": false,
-    "claim_green_scope": "No green claim is extended to the new ingestion head until workflows complete."
+    "claim_green_scope": "Only Migration Audit is presently confirmed on the repair head; the other three workflows are still running."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
