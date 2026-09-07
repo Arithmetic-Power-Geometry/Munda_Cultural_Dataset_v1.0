@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T22:31:00Z",
-  "observed_head_before_status_sync": "19acdde56336e8e3e70b0804e1770addd5746dc5",
+  "updated_utc": "2026-09-07T22:44:00Z",
+  "observed_head_before_status_sync": "7996d5b3bf27780a896fd78c221886c92abdd693",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -14,8 +14,8 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "edition_reconciliation_state": "open; original Government Printing parts/text volumes/plates remain distinct from later 16-volume Gyan reprint numbering",
-      "latest_parallel_check": "No new authoritative Mundarica scan or OCR verification was obtained in this cycle; commercial/reprint metadata remains reconciliation-only and verified_complete_volumes remains 0."
+      "edition_reconciliation_state": "open; original Government Printing parts/text volumes/plates remain distinct from later 16-volume reprint numbering",
+      "latest_parallel_check": "No new authoritative Mundarica scan or OCR verification obtained in this cycle; verified_complete_volumes remains 0."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -27,11 +27,11 @@
       "web_discovery_leads_counted_in_audited_identity_total": 12,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000041",
-      "latest_canonicalization": "WEB-MUN-0030 -> SRC-MMSC-000014 by BnF ARK ark:/12148/cb414605823; WEB-MUN-0047 remains a verified promotion candidate pending atomic canonical-register synchronization",
-      "latest_new_standalone_identity": "SRC-MMSC-000014; BnF archival item The Prodigal son : in Mundari; deterministic key bnf_ark:12148/cb414605823",
-      "latest_verification": "WEB-MUN-0047 was re-verified against the live Wikimedia Commons file page: Eastern Zonal Cultural Centre creator attribution, 27 September 2022 publication date, 39:31 duration, original YouTube ID jcaVTX0BCtQ, CC BY 3.0 file-level licence, and exact catalogue timestamps 4:28 Paika (Munda community), 6:00 Mundari, and 11:12 Mundari (Marriage). This remains source-level audiovisual metadata only; performance interpretation, participant consent, community validation and cultural permission are not inferred.",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037","MMSC-SEARCH-000038","MMSC-SEARCH-000039","MMSC-SEARCH-000040","MMSC-SEARCH-000041"],
+      "latest_search_id": "MMSC-SEARCH-000042",
+      "latest_canonicalization": "WEB-MUN-0030 -> SRC-MMSC-000014 by BnF ARK; WEB-MUN-0047 remains exact-locator verified but not yet atomically promoted",
+      "latest_new_standalone_identity": "SRC-MMSC-000014; BnF archival item The Prodigal son : in Mundari",
+      "latest_verification": "Wikimedia Commons file Munda languages map.svg verified for file identity, creator/date, SVG metadata and CC BY-SA 3.0 file-level licence. Because it is a user-contributed derivative map rather than primary Census evidence, no geographic, demographic or linguistic-distribution assertion is promoted from it pending primary-source reconciliation.",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037","MMSC-SEARCH-000038","MMSC-SEARCH-000039","MMSC-SEARCH-000040","MMSC-SEARCH-000041","MMSC-SEARCH-000042"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -50,7 +50,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "The public catalogue remains synchronized through SRC-MMSC-000014/EVD-000049. WEB-MUN-0047 is deliberately not exposed as newly promoted canonical evidence until SOURCE/CLAIM/EVIDENCE/LINK records are atomically synchronized; no performance segment or restricted material is exposed."
+      "sync_note": "Public catalogue remains synchronized through SRC-MMSC-000014/EVD-000049. The new map verification record remains discovery/verification metadata only and is not exposed as promoted cultural evidence."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -62,7 +62,7 @@
       "evidence_links": 49,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "This cycle added a verified exact-locator audiovisual candidate and search-log record but did not cross the atomic canonical SOURCE→EVIDENCE→CLAIM promotion gate; release metrics therefore remain defensibly unchanged at 40 / 12 / 49."
+      "reason": "Verification expanded but no candidate crossed the canonical SOURCE→EVIDENCE→CLAIM promotion gate; generated release metrics therefore remain 40 / 12 / 49."
     },
     "F_evidence_population": {
       "source_claims": 49,
@@ -70,42 +70,37 @@
       "evidence_links": 49,
       "latest_evidence_bearing_source": "SRC-MMSC-000014",
       "latest_evidence_chain": "SRC-MMSC-000014 -> CLM-000049 -> EVD-000049 -> LNK-000049",
-      "latest_exact_locator": "BnF ark:/12148/cb414605823; FRBNF41460582; matrix 3290Y; catalogue physical description and Ranchi recording-context note",
-      "promotion_boundary": "WEB-MUN-0047 has now reached exact-locator verification readiness (Commons timestamps 4:28, 6:00, 11:12 plus file-level CC BY 3.0 metadata), but no new claim/evidence/link IDs are counted until atomic canonical-register synchronization. Cultural access, consent, dignity and contextual review remain independent gates."
+      "latest_exact_locator": "BnF ark:/12148/cb414605823; FRBNF41460582; matrix 3290Y",
+      "promotion_boundary": "WEB-MUN-0047 remains ready for atomic catalogue-level promotion if duplicate checks stay clean; the new Commons map remains verification-only until deterministic dedupe and primary-source reconciliation."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "4e34df3357002a63a440dbfcc15c435ea608c6a7",
+    "last_verified_all_four_green_commit": "a4afa0dddae7cb32e19f0729d4a129ffca16c654",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["688462a94fba75f78233f41dbc84e3889a620488","19acdde56336e8e3e70b0804e1770addd5746dc5"],
+    "new_commits_this_cycle": ["2f1b05293f8978df4ad519fe9fed0779512b54c1","7996d5b3bf27780a896fd78c221886c92abdd693"],
     "new_head_ci_state_at_status_write": "fresh workflows for the new status head are not yet verified; no green projection"
   },
   "changes_this_cycle": [
-    "Confirmed prior branch head 4e34df3357002a63a440dbfcc15c435ea608c6a7 is 4/4 green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
-    "Re-verified non-Mundarica audiovisual lead WEB-MUN-0047 against the live Wikimedia Commons file page and structured data.",
-    "Recorded exact source-level locators: 4:28 Paika (Munda community), 6:00 Mundari and 11:12 Mundari (Marriage), together with 39:31 duration, 27 September 2022 publication date, Eastern Zonal Cultural Centre attribution and original YouTube ID jcaVTX0BCtQ.",
-    "Verified the Commons file-level licence as Creative Commons Attribution 3.0 Unported and preserved the separate consent, dignity, cultural-access and community-validation gates.",
-    "Added a dedicated verification artifact in commit 688462a94fba75f78233f41dbc84e3889a620488 and MMSC-SEARCH-000041 in commit 19acdde56336e8e3e70b0804e1770addd5746dc5.",
-    "Did not inflate MMSC or publication counts because WEB-MUN-0047 has not yet been atomically inserted into canonical source, claim, evidence and evidence-link registers.",
-    "Preserved all 42 Streamlit modules, 100% schema-category/UI mapping and synchronized publication metrics at the existing audited 40 / 12 / 49 state.",
+    "Confirmed a4afa0dddae7cb32e19f0729d4a129ffca16c654 is 4/4 green across the four MLHKP CI workflows.",
+    "Ran a non-Mundarica census pass across books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI material, archives, web resources, datasets, audio, video, maps and media.",
+    "Verified Wikimedia Commons Munda languages map.svg as an exact file identity with creator/date, SVG metadata and CC BY-SA 3.0 file-level licence.",
+    "Did not promote map geography or speaker-distribution claims because the file is a user-contributed derivative rather than primary Census evidence.",
+    "Created data/source_census/commons_munda_languages_map_verification_2026-09-08.json in commit 2f1b05293f8978df4ad519fe9fed0779512b54c1.",
+    "Created MMSC-SEARCH-000042 in data/source_census/search_log_run42.jsonl in commit 7996d5b3bf27780a896fd78c221886c92abdd693.",
+    "Kept release metrics unchanged at 40 audited identities / 12 canonicalized web leads / 49 claims-evidence-links because no unsupported promotion occurred.",
     "Did not modify or merge main."
   ],
   "blockers": [
-    "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0; volumes 14-16 still lack exact authoritative scan locators.",
+    "Mundarica verified_complete_volumes remains 0; volumes 14-16 still lack exact authoritative scan locators.",
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000041 remain in run-specific append-only logs pending safe primary-log consolidation.",
-    "WEB-MUN-0047 is exact-locator and file-license verified but still requires atomic canonical-register insertion before it can be counted as SRC-MMSC-000015/CLM-000050/EVD-000050/LNK-000050; any performance-content reuse additionally requires consent/dignity/contextual cultural-access review.",
-    "Census C-16 Jharkhand workbook identities and filenames are verified, but exact Munda/Mundari rows remain unextracted and no population values are asserted.",
-    "The BnF historical audio item is catalogue-verified but audio reuse, historical speaker consent, transcription/translation reuse and cultural-access status are not established; audio content is not ingested.",
-    "The ANU Mundari word-class article requires deterministic comparison against existing discovery leads and item-level reuse review before permanent source assignment or deeper evidence extraction.",
-    "CIIL Mundari Grammar 1975 requires deterministic duplicate comparison, full item-level rights review and exact-page review before any grammatical or lexical evidence promotion.",
-    "The 1908 Grierson review requires deterministic comparison against discovery records before permanent source assignment; full-text reuse rights remain unestablished.",
-    "WEB-MUN-0082 participant-derived religious/ritual material requires exact-passage rights, consent and cultural-access review before evidence promotion.",
-    "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before audio, annotation, lexical, song or narrative evidence promotion.",
-    "MunTTS underlying speech/text datasets, recordings and model checkpoints remain separately rights/consent/access gated.",
+    "MMSC-SEARCH-000029 through 000042 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "WEB-MUN-0047 remains exact-locator/file-license verified but still requires atomic canonical source/claim/evidence/link insertion before counts can increase.",
+    "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
+    "ANU word-class article, CIIL Mundari Grammar 1975 and the 1908 Grierson review still require deterministic duplicate and item-level rights review before deeper promotion.",
+    "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material, TRI full text and grammar content remain consent/rights/cultural-access gated as applicable.",
+    "The newly verified Commons map is not primary Census evidence and requires source reconciliation before any demographic or geographic claim can be promoted.",
     "LSI Jharkhand exact Mundari page extraction remains pending.",
-    "TRI and grammar full-text processing remains rights-gated.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
   "integrity": {
@@ -125,15 +120,14 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Atomically canonicalize WEB-MUN-0047 if duplicate checks remain clean: update canonical source register, MMSC index, CLM-000050/EVD-000050/LNK-000050, Streamlit exposure and generated publication metrics in one coherent promotion while keeping performance-content access gated.",
-    "Consolidate MMSC-SEARCH-000029 through 000041 into the primary append-only search log without changing IDs or semantics.",
-    "Continue deterministic canonicalization among the remaining 75 web leads, prioritizing official archives, government datasets and open-access exact-locator sources.",
-    "Deterministically compare DOI 10.1515/lity.2005.9.3.351 / Handle 1885/54663 against all existing discovery leads; if unique and rights-safe, assign a permanent MMSC source ID and promote only permitted exact-locator evidence.",
-    "Deterministically compare CIIL Handle 20.500.14705/8179 against discovery records and assess item-level reuse terms before any grammar extraction.",
-    "Retry official acquisition of DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX; if obtained, record checksum, sheet, exact row/cell coordinates and raw labels before numeric evidence promotion.",
-    "Review BMM1 item-level PARADISEC access/consultant metadata before item evidence ingestion.",
-    "Retry LSI Jharkhand exact-page extraction and continue TRI/grammar processing only within item-level rights boundaries.",
-    "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation without treating commercial page counts as authoritative scans.",
+    "Atomically canonicalize WEB-MUN-0047 if duplicate checks remain clean, synchronizing source register, MMSC index, CLM-000050/EVD-000050/LNK-000050, Streamlit exposure and publication metrics while keeping performance content gated.",
+    "Consolidate MMSC-SEARCH-000029 through 000042 into the primary append-only search log without changing IDs or semantics.",
+    "Continue deterministic disposition of the remaining 75 web leads, prioritizing official archives, government datasets and open-access exact-locator sources.",
+    "Compare DOI 10.1515/lity.2005.9.3.351 / Handle 1885/54663 and CIIL Handle 20.500.14705/8179 against all discovery leads before permanent assignment.",
+    "Retry official DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX retrieval and, if obtained, record checksum/sheet/row/cell locators before numeric promotion.",
+    "Reconcile the verified Commons language map against the official Census C-16 source before any map-derived demographic assertion.",
+    "Continue BMM1 item-level access/consultant review, LSI exact-page extraction, and rights-bounded TRI/grammar processing.",
+    "Continue Mundarica authoritative scan acquisition without treating commercial page counts or OCR as verification.",
     "Verify all four CI workflows on the new status head and repair any regression before further promotion."
   ]
 }
