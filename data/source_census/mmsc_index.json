@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.1",
+  "register_id": "MLHKP-MMSC",
+  "title": "Master Munda Source Census",
+  "description": "Federated discovery census. Existing canonical source records remain in the master source register; corpus-specific records remain in their evidence-preserving source bundles; standalone bibliographic discoveries are recorded separately. Reader-facing web-discovery leads are maintained as a separate discovery layer and are not added to the audited source-identity total until deterministic deduplication/canonicalization is complete.",
+  "completeness_claim": "source_comprehensive_under_documented_protocol_only",
+  "source_registers": [
+    {"register_type":"canonical_master_source_register","path":"data/source_register/master_sources.json","counted_records":14,"id_policy":"preserve_existing_SRC_ids"},
+    {"register_type":"mundarica_volume_manifest","path":"data/source_bundles/encyclopaedia_mundarica/manifest.json","counted_records":12,"counting_rule":"Count volume slots with a verified external locator that are not already represented in the canonical master source register.","currently_counted_source_ids":["SRC-MUN-V02","SRC-MUN-V03","SRC-MUN-V04","SRC-MUN-V05","SRC-MUN-V06","SRC-MUN-V07","SRC-MUN-V08","SRC-MUN-V09","SRC-MUN-V10","SRC-MUN-V11","SRC-MUN-V12","SRC-MUN-V13"]},
+    {"register_type":"mmsc_standalone_discoveries","path":"data/source_census/mmsc_discoveries.json","counted_records":1,"id_policy":"new standalone discoveries receive immutable SRC-MMSC identifiers after duplicate checking"},
+    {"register_type":"web_source_discovery_leads","path":"data/source_census/web_discovery_seed_2026-09-06.json","additional_paths":["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json","data/source_census/web_discovery_expansion_2026-09-07_run8.json","data/source_census/web_discovery_expansion_2026-09-07_run9.json","data/source_census/web_discovery_expansion_2026-09-07_run10.json","data/source_census/web_discovery_expansion_2026-09-07_run11.json","data/source_census/web_discovery_expansion_2026-09-07_run12.json"],"counted_records":0,"observed_leads":72,"counting_rule":"Discovery leads are searchable but excluded from the audited source-identity total until canonical deduplication confirms whether a lead is a new source, an alternate locator, a catalogue wrapper, or a duplicate."}
+  ],
+  "metrics": {
+    "sources_discovered": 27,
+    "canonical_master_records": 14,
+    "additional_federated_discoveries": 13,
+    "standalone_mmsc_discoveries": 1,
+    "mundarica_volume_locators_verified": 12,
+    "mundarica_local_artifacts_registered": 1,
+    "mundarica_authoritative_scans_registered": 0,
+    "mundarica_verified_complete_volumes": 0,
+    "web_discovery_leads_observed": 72,
+    "web_discovery_leads_counted_in_audited_identity_total": 0,
+    "bibliographic_only_records": 1,
+    "still_to_acquire_additional_discoveries": 13,
+    "deduplicated_locator_matches": 1,
+    "note": "Audited source-identity count is repository-derived: 14 preserved canonical master-source records + 12 verified external Mundarica volume locators (II-XIII) + 1 standalone MMSC bibliographic discovery = 27. Seventy-two reader-facing web-discovery leads are tracked separately and deliberately not added to this total until source-identity deduplication is complete. These metrics are not a claim that all Munda/Mundari sources have been discovered. Public, catalogue, index, dataset or media availability is never interpreted as unrestricted reuse permission."
+  },
+  "latest_discovery": {
+    "source_id": "WEB-MUN-0072",
+    "title": "Study of literary of munda folk tradition",
+    "source_type": "journal_article_folk_tradition_literature",
+    "canonical_url": "https://indianjournals.com/article/am-17-1and2spl-016",
+    "availability": "public_journal_metadata_full_text_access_rights_unresolved",
+    "acquisition_state": "not_locally_acquired",
+    "rights_reuse_status": "publisher_terms_and_cultural_access_review_required",
+    "extraction_state": "not_started",
+    "evidence_link_state": "not_linked",
+    "verification_state": "journal_metadata_and_doi_verified",
+    "provenance": {
+      "repository": "IndianJournals.com",
+      "checked_utc": "2026-09-07T02:20:00Z",
+      "caution": "Article identity and journal metadata are verified at discovery level only. No folk-tradition statement is promoted into MLHKP evidence until exact passage, method, temporal/geographic scope, rights and community-review conditions are established."
+    }
+  },
+  "web_discovery_layer": {
+    "path": "data/source_census/web_discovery_seed_2026-09-06.json",
+    "additional_paths": ["data/source_census/web_discovery_expansion_2026-09-06_run2.json","data/source_census/web_discovery_expansion_2026-09-07_run3.json","data/source_census/web_discovery_expansion_2026-09-07_run4.json","data/source_census/web_discovery_expansion_2026-09-07_run5.json","data/source_census/web_discovery_expansion_2026-09-07_run6.json","data/source_census/web_discovery_expansion_2026-09-07_run7.json","data/source_census/web_discovery_expansion_2026-09-07_run8.json","data/source_census/web_discovery_expansion_2026-09-07_run9.json","data/source_census/web_discovery_expansion_2026-09-07_run10.json","data/source_census/web_discovery_expansion_2026-09-07_run11.json","data/source_census/web_discovery_expansion_2026-09-07_run12.json"],
+    "records": 72,
+    "state": "verified_source_leads_pending_identity_deduplication",
+    "boundary": "Searchable discovery metadata only; not extracted cultural evidence and not included in audited source-identity totals until canonicalization."
+  },
+  "protocol": "docs/mmsc_source_census_protocol.md"
+}

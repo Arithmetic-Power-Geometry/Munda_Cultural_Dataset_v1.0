@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mlhkp.org/schemas/source_bundle.schema.json",
+  "title": "MLHKP Universal Source Bundle",
+  "type": "object",
+  "required": ["mcd_schema", "record_type", "source_type", "source"],
+  "properties": {
+    "mcd_schema": {"type": "string"},
+    "record_type": {
+      "type": "string",
+      "enum": ["source_bundle", "field_bundle", "media_metadata", "entity_bundle", "evidence_bundle"]
+    },
+    "source_type": {"type": "string", "minLength": 1},
+    "source": {
+      "type": "object",
+      "required": ["source_id", "title"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"},
+        "title": {"type": "string", "minLength": 1},
+        "collection_id": {"type": ["string", "null"]},
+        "volume": {"type": ["string", "integer", "null"]},
+        "authors": {"type": "array", "items": {"type": "string"}},
+        "year": {"type": ["integer", "string", "null"]},
+        "language": {"type": "array", "items": {"type": "string"}},
+        "evidence_period": {"type": ["string", "null"]},
+        "access_class": {
+          "type": "string",
+          "enum": ["open", "community_access_only", "research_restricted", "embargoed", "confidential", "not_for_publication"]
+        },
+        "citation": {"type": ["string", "null"]},
+        "url": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "entries": {"type": "array", "items": {"type": "object"}},
+    "passages": {"type": "array", "items": {"type": "object"}},
+    "claims": {"type": "array", "items": {"type": "object"}},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "terms": {"type": "array", "items": {"type": "object"}},
+    "objects": {"type": "array", "items": {"type": "object"}},
+    "places": {"type": "array", "items": {"type": "object"}},
+    "events": {"type": "array", "items": {"type": "object"}},
+    "relationships": {"type": "array", "items": {"type": "object"}},
+    "metadata": {"type": "object"},
+    "extended_data": {"type": "object"}
+  },
+  "additionalProperties": true
+}

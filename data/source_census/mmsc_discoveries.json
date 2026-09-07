@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "register_id": "MLHKP-MMSC-DISCOVERIES",
+  "description": "Standalone Master Munda Source Census discoveries not yet represented in the preserved canonical master-source register or a corpus-specific permanent-ID namespace. Bibliographic registration does not imply acquisition, full-text access, reuse permission, evidence verification, or cultural endorsement.",
+  "records": [
+    {
+      "source_id": "SRC-MMSC-000001",
+      "title": "The Jharkhand movement: indigenous peoples' struggle for autonomy in India",
+      "creator": "Ram Dayal Munda; S. Bosu Mullick (editors)",
+      "year": 2003,
+      "source_type": "edited_book",
+      "source_class": "modern_book_indigenous_peoples_history_politics",
+      "language": ["English"],
+      "geography": ["Jharkhand", "India"],
+      "cultural_domain_coverage": ["historical_contemporary_change", "indigenous_peoples", "regional_history_and_politics"],
+      "canonical_catalogue_url": "https://search.worldcat.org/title/The-Jharkhand-movement-%3A-indigenous-peoples%27-struggle-for-autonomy-in-India/oclc/936769273",
+      "identifier": {
+        "scheme": "OCLC",
+        "value": "936769273"
+      },
+      "publisher_as_catalogued": "IWGIA, Transaction Publishers",
+      "publication_place_as_catalogued": "Copenhagen",
+      "availability": "bibliographic_catalogue_record_verified",
+      "scan_state": "not_discovered_in_this_search_step",
+      "ocr_state": "not_discovered_in_this_search_step",
+      "full_text_state": "not_discovered_in_this_search_step",
+      "acquisition_state": "not_acquired",
+      "rights_reuse_status": "not_assessed",
+      "extraction_state": "not_started",
+      "evidence_link_state": "not_linked",
+      "verification_state": "catalogue_metadata_verified",
+      "access_class": "BIBLIOGRAPHIC_ONLY",
+      "edition_relationships": [],
+      "provenance": {
+        "repository": "WorldCat",
+        "catalogue_record": "OCLC 936769273",
+        "checked_utc": "2026-09-06T06:25:00Z",
+        "method": "Author/title catalogue search; metadata registered conservatively from the catalogue record only.",
+        "caution": "No scan, OCR, full text, redistribution right, or reuse permission was inferred from catalogue availability."
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "project":"MLHKP",
+  "branch":"mlhkp-v2",
+  "module_status":"in_progress",
+  "updated_utc":"2026-09-07T02:27:30Z",
+  "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
+  "workstreams":{
+    "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
+    "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":72,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false,"search_log_entries":16},
+    "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
+    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":72,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob","grouped_research_portal_present":true,"governance_exact_role_preserved":true,"duplicate_founder_entrypoint_metadata":false},
+    "E_publication_readiness":{"status":"release metrics synchronized to 72 discovery leads; publication workflow PASS on head 982e9e4895e588b655c9483cd5f9e2791756eeac","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":true,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":72,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
+  },
+  "changes_this_cycle":[
+    "Kept all writes on mlhkp-v2 only; main was not modified.",
+    "Reconciled completed CI for head 982e9e4895e588b655c9483cd5f9e2791756eeac instead of leaving workflow state stale.",
+    "Confirmed Migration Audit PASS, Source Register Audit PASS and Publication Build PASS on that head.",
+    "Confirmed complete information architecture, complete information-model and publication data-sync contract steps PASS inside Streamlit Smoke.",
+    "Isolated the remaining CI blocker to the final pytest runtime step tests/test_streamlit_app.py; no architecture, data-model, publication-sync or source-register gate is currently implicated by that run.",
+    "Preserved 72 searchable external discovery leads, 27 audited source identities and zero discovery leads counted in the audited identity total.",
+    "No cultural claim, lexical item, interview statement, audio segment, OCR verification, community-validation state, source-completeness assertion, redistribution permission or commercial-reuse permission was promoted."
+  ],
+  "commits_this_cycle":[
+    "982e9e4895e588b655c9483cd5f9e2791756eeac - prior synchronized discovery/status head",
+    "STATUS_SYNC_COMMIT - reconcile completed CI and isolate remaining Streamlit runtime blocker"
+  ],
+  "tests_and_workflows":{"status":"three_workflows_pass_one_runtime_smoke_failure","last_observed_head":"982e9e4895e588b655c9483cd5f9e2791756eeac","migration_audit":"PASS","source_register_audit":"PASS","publication_build":"PASS","streamlit_smoke":"FAIL_FINAL_RUNTIME_PYTEST","streamlit_contract_steps":{"information_architecture":"PASS","information_model":"PASS","publication_data_sync":"PASS","mundarica_completeness":"PASS","mundarica_artifact_schema":"PASS","mundarica_artifact_registry":"PASS"},"remaining_failure_step":"pytest -q tests/test_streamlit_app.py","claim_green_scope":"Publication build is green on the observed head; repository-wide PASS is withheld until the final Streamlit runtime pytest failure is repaired and reconfirmed."},
+  "blockers":[
+    "Streamlit Smoke reaches and passes architecture/model/publication contracts but fails in the final tests/test_streamlit_app.py runtime pytest step; exact failing assertion is not exposed by the available workflow job summary and must be reproduced or surfaced before a safe targeted repair.",
+    "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
+    "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
+    "Seventy-two non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
+    "WEB-MUN-0070 uses participant-derived interview/video material; reuse requires exact locators, consent/provenance review and cultural-access controls.",
+    "WEB-MUN-0071 has collection-level open-access/CC BY-SA metadata, but embedded recording/transcript/consultant rights and culturally restricted items require item-level verification.",
+    "WEB-MUN-0072 requires full-text/method review, exact passage locators and temporal/geographic scoping before any folk-tradition statement can become evidence.",
+    "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
+  ],
+  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false,"search_log_synchronized_through":"WEB-MUN-0072"},
+  "next_best_action":"Continue non-Mundarica source discovery and deterministic canonicalization in parallel; reproduce or surface the exact tests/test_streamlit_app.py assertion and repair only that runtime contract, then reconfirm all four workflows without weakening architecture, rights or provenance gates."
+}

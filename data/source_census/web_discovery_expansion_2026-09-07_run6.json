@@ -1,0 +1,84 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified source leads, audiovisual/media records, institutional web records, or peer-reviewed publication records; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, or community validation.",
+  "records": [
+    {
+      "id": "WEB-MUN-0042",
+      "title": "A Reference Grammar of Mundari",
+      "source_class": "reference_grammar",
+      "publisher": "Institute for the Study of Languages and Cultures of Asia and Africa, Tokyo",
+      "url": "https://wals.info/refdb/record/Osada-1992",
+      "author": "Toshiki Osada",
+      "year": 1992,
+      "notes": "WALS bibliographic metadata verifies Osada's 1992 A Reference Grammar of Mundari, published in Tokyo by the Institute for the Study of Languages and Cultures of Asia and Africa, and associates it with Mundari (ISO unr) across morphology, typology, semantics, syntax, phonology and phonetics. Register as an authoritative bibliographic grammar lead; no chapter/page-level linguistic proposition is promoted into MLHKP evidence without consulting the work itself and recording an exact locator.",
+      "verification_state": "trusted_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_record_full_text_rights_unresolved",
+      "rights_note": "WALS bibliographic visibility does not establish permission to redistribute the grammar or reproduce substantial text, tables or examples. Full-text acquisition and reuse status must be checked at the holding/publisher level."
+    },
+    {
+      "id": "WEB-MUN-0043",
+      "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+      "source_class": "peer_reviewed_customary_land_governance_article",
+      "publisher": "The Oriental Anthropologist / SAGE",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/0972558X1301300205",
+      "author": "Mukesh Kumar Shrivastava",
+      "year": 2013,
+      "notes": "SAGE publisher metadata verifies the article in The Oriental Anthropologist, volume 13 issue 2, pages 267-280, DOI 10.1177/0972558X1301300205. The abstract reports empirical investigation in two Mundari Khuntkatti villages in Khunti district. Register as a peer-reviewed source lead relevant to customary land/governance and historical interpretation; article conclusions remain source-reported and must not be universalized to all Munda communities or current practice without passage-level and contextual evidence.",
+      "verification_state": "publisher_metadata_verified",
+      "access_class": "public_abstract_metadata_full_text_access_uncertain",
+      "rights_note": "Publisher metadata/abstract access does not grant permission to redistribute the article or reproduce protected text, tables, maps, photographs or underlying field data."
+    },
+    {
+      "id": "WEB-MUN-0044",
+      "title": "Mundari community profile",
+      "source_class": "government_tribal_museum_web_resource",
+      "publisher": "Odisha State Tribal Museum",
+      "url": "https://ostm.in/tribes_of_odisha/mundari/",
+      "author": "Odisha State Tribal Museum",
+      "notes": "The Odisha State Tribal Museum maintains a Mundari community profile with institutional metadata fields including region, language, map access and a population field explicitly attributed on-page to Census 2011 data. Register as a government/institutional web-resource lead only. Individual descriptive statements require source-level provenance checking and should not be treated as universally current cultural facts merely because they appear on an official museum page.",
+      "verification_state": "institutional_web_record_verified",
+      "access_class": "public_government_museum_web_page",
+      "rights_note": "Public web access does not establish open redistribution or commercial-reuse rights for museum text, images, maps or other media. Any extracted factual use must preserve the page's own source attribution and date/context."
+    },
+    {
+      "id": "WEB-MUN-0045",
+      "title": "Traditional Food Environment and Factors Affecting Indigenous Food Consumption in Munda Tribal Community of Jharkhand, India",
+      "source_class": "peer_reviewed_food_environment_mixed_methods_article",
+      "publisher": "Frontiers in Nutrition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33598474/",
+      "author": "Suparna Ghosh-Jerath; Ridhima Kapoor; Satabdi Barman; Geetanjali Singh; Archna Singh; Shauna Downs; Jessica Fanzo",
+      "year": 2021,
+      "notes": "PubMed metadata verifies the peer-reviewed study of the Munda community in Jharkhand. The abstract states that mixed methods were used in nine villages of Murhu and Torpa blocks in Khunti district, including focus groups, key-informant interviews, food free-listing and ethnobotanical verification. Register as a food/agriculture/health research lead. Study findings are bounded to its sampled communities, period and methods and must not be generalized as universal or timeless Munda practice.",
+      "verification_state": "biomedical_index_metadata_verified",
+      "access_class": "public_index_record_article_access_to_be_checked",
+      "rights_note": "Index visibility is not a licence determination. Article and supplementary-material reuse must follow the publisher's applicable licence; participant-derived data require the study's consent/data-governance conditions and MLHKP cultural-access review."
+    },
+    {
+      "id": "WEB-MUN-0046",
+      "title": "Ethnobotanical study of plants used by the Munda ethnic group living around the Sundarbans, the world's largest mangrove forest in southwestern Bangladesh",
+      "source_class": "peer_reviewed_ethnobotany_article",
+      "publisher": "Journal of Ethnopharmacology / Elsevier",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34822959/",
+      "author": "A. T. M. Rafiqul Islam; Md Mahadiy Hasan; Md Tahidul Islam; Nobukazu Tanaka",
+      "year": 2022,
+      "notes": "PubMed metadata verifies Journal of Ethnopharmacology volume 285 article 114853, DOI 10.1016/j.jep.2021.114853, on plant knowledge reported from Munda communities around the Sundarbans in southwestern Bangladesh. Register as an ethnobotany/health/ecology source lead. No medicinal recommendation, efficacy claim, safety claim or culturally sensitive plant knowledge is ingested from discovery metadata; any future evidence requires exact passage/table locators, study-context preservation, safety controls and cultural-access review.",
+      "verification_state": "biomedical_index_metadata_verified",
+      "access_class": "public_index_record_full_text_rights_uncertain",
+      "rights_note": "Bibliographic access does not establish redistribution or commercial-reuse permission. Ethnobotanical and medicinal-knowledge content is additionally subject to safety, consent, provenance, benefit-sharing and cultural-access review before structured public use."
+    },
+    {
+      "id": "WEB-MUN-0047",
+      "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+      "source_class": "licensed_audiovisual_cultural_documentary",
+      "publisher": "Eastern Zonal Cultural Centre / Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+      "author": "Eastern Zonal Cultural Centre; directed by Aloke Banerjee and Jaydip Mukherjee",
+      "year": 2022,
+      "notes": "Wikimedia Commons metadata identifies a 39:31 documentary attributed to the Eastern Zonal Cultural Centre and provides explicit timestamps for Munda/Mundari-related dance segments, including Paika at 4:28, Mundari at 6:00 and Mundari (Marriage) at 11:12. Register as an audiovisual media lead with exact discovery timecodes. These labels remain documentary metadata; interpretation of performance, participants, community scope and current practice requires segment-level review and appropriate cultural-context validation.",
+      "verification_state": "repository_media_metadata_and_license_verified",
+      "access_class": "public_cc_by_3_0_audiovisual_media",
+      "rights_note": "The Commons file page states CC BY 3.0 with attribution to Eastern Zonal Cultural Centre and records that the original YouTube licence was reviewed on 20 January 2023. Licence compliance does not override MLHKP cultural-access, consent, dignity or contextual-integrity controls for any extracted performance segment."
+    }
+  ]
+}

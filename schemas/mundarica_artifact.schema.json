@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mlhkp.example/schemas/mundarica_artifact.schema.json",
+  "title": "MLHKP Encyclopaedia Mundarica Source Artifact",
+  "description": "Metadata contract for registering a scan, OCR, transcription, or structured derivative without conflating provenance or verification state.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "source_id",
+    "volume",
+    "artifact_role",
+    "repository_path_or_locator",
+    "rights_status",
+    "access_class",
+    "verification_status",
+    "provenance"
+  ],
+  "properties": {
+    "artifact_id": {"type": "string", "pattern": "^SRC-MUN-V(0[1-9]|1[0-6])-ART-[A-Z0-9_-]+$"},
+    "source_id": {"type": "string", "pattern": "^SRC-MUN-V(0[1-9]|1[0-6])$"},
+    "volume": {"type": "integer", "minimum": 1, "maximum": 16},
+    "artifact_role": {"enum": ["authoritative_scan", "ocr_raw", "transcription_working", "transcription_verified", "structured_content", "page_image", "index_or_appendix", "other"]},
+    "repository_path_or_locator": {"type": "string", "minLength": 1},
+    "sha256": {"type": ["string", "null"], "pattern": "^[a-fA-F0-9]{64}$"},
+    "declared_page_count": {"type": ["integer", "null"], "minimum": 1},
+    "rights_status": {"enum": ["checked_reusable", "checked_link_only", "permission_required", "rights_unclear", "restricted", "not_assessed"]},
+    "access_class": {"enum": ["open", "community_access_only", "research_restricted", "embargoed", "confidential", "not_for_publication"]},
+    "verification_status": {"enum": ["unverified", "structurally_audited", "verified_against_scan", "requires_specialist_review"]},
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["source_description"],
+      "properties": {
+        "source_description": {"type": "string", "minLength": 1},
+        "acquired_date": {"type": ["string", "null"]},
+        "original_locator": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "scan_authority": {"type": "boolean", "default": false},
+    "notes": {"type": ["string", "null"]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"artifact_role": {"const": "authoritative_scan"}}},
+      "then": {"properties": {"scan_authority": {"const": true}}}
+    },
+    {
+      "if": {"properties": {"artifact_role": {"const": "ocr_raw"}}},
+      "then": {"properties": {"verification_status": {"not": {"const": "verified_against_scan"}}}}
+    }
+  ]
+}
