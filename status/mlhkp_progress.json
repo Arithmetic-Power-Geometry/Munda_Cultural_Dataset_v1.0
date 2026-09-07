@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T11:00:00Z",
-  "observed_head_before_status_sync": "5c0950a4aeb4fb8f3739cb4eac4719a1cf52c7c4",
+  "updated_utc": "2026-09-07T11:56:00Z",
+  "observed_head_before_status_sync": "459bb88eeae8b8b51d3270529c8a4651079d6ca4",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -24,12 +24,12 @@
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 12,
       "standalone_mmsc_discoveries": 7,
-      "web_discovery_leads_observed": 86,
+      "web_discovery_leads_observed": 87,
       "web_discovery_leads_counted_in_audited_identity_total": 6,
-      "web_discovery_leads_remaining_outside_audited_identity_total": 80,
+      "web_discovery_leads_remaining_outside_audited_identity_total": 81,
       "source_complete_claim": false,
-      "search_log_entries": 24,
-      "search_log_note": "MMSC-SEARCH-000022 through MMSC-SEARCH-000024 are preserved in supplemental append-only run logs pending safe consolidation into primary search_log.jsonl; prior primary entries remain unaltered.",
+      "search_log_entries": 25,
+      "search_log_note": "MMSC-SEARCH-000022 through MMSC-SEARCH-000025 are preserved in supplemental append-only run logs pending safe consolidation into primary search_log.jsonl; prior primary entries remain unaltered.",
       "lsi_jharkhand_tracker": "data/source_census/lsi_jharkhand_acquisition_2026-09-07.json"
     },
     "C_information_model": {
@@ -46,16 +46,16 @@
       "empty_modules_truthfully_marked": true,
       "future_commercial_modules_disabled_by_default": true,
       "cultural_access_overrides_entitlement": true,
-      "external_source_discovery_layer_records": 86,
+      "external_source_discovery_layer_records": 87,
       "grouped_research_portal_present": true
     },
     "E_publication_readiness": {
-      "status": "repository-derived metrics synchronized to 33 audited identities / 86 discovery leads / 6 canonicalized discovery leads / 42 evidence chains",
+      "status": "repository-derived metrics synchronized to 33 audited identities / 87 discovery leads / 6 canonicalized discovery leads / 42 evidence chains",
       "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
       "snapshot_date": "2026-09-07",
       "release_metrics_sources_discovered": 33,
-      "release_metrics_web_discovery_leads_observed": 86,
+      "release_metrics_web_discovery_leads_observed": 87,
       "release_metrics_web_discovery_leads_counted_in_audited_identity_total": 6,
       "release_metrics_claims": 42,
       "release_metrics_evidence_records": 42,
@@ -66,46 +66,44 @@
       "evidence_records": 42,
       "evidence_links": 42,
       "latest_evidence_bearing_source": "SRC-MMSC-000007",
-      "verification_boundary": "Abstract-level source characterization may be promoted only when exact publisher locator, source identity, scope and rights boundary are explicit; it is never treated as field verification, legal determination, community validation or unrestricted reuse."
+      "verification_boundary": "Abstract-level or full-text-accessible source characterization may be promoted only when exact locator, canonical source identity, scope, rights and cultural-access boundaries are explicit; research participation or ethics approval is never treated as MLHKP community validation."
     }
   },
   "changes_this_cycle": [
-    "Ran a cross-class non-Mundarica source pass spanning books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and media.",
-    "Deterministically deduplicated the high-confidence customary-land article against existing WEB-MUN-0043 rather than creating a duplicate lead.",
-    "Canonicalized WEB-MUN-0043 as SRC-MMSC-000007 using DOI 10.1177/0972558X1301300205 after SAGE publisher metadata/abstract verification.",
-    "Added CLM-000042, EVD-000042 and LNK-000042 with exact publisher-abstract/article locator and explicit two-village Khunti scope; no universal/current customary-law or legal-status claim was made.",
-    "Preserved restricted-full-text, participant-data, current-law, field-verification and community-validation gaps explicitly.",
-    "Synchronized MMSC index, canonicalization mapping, evidence graph, publication release_metrics.json and LaTeX metrics to 33 audited identities / 86 discovery leads / 6 canonicalized leads / 42 claims-evidence-links.",
-    "Recorded MMSC-SEARCH-000024 in supplemental append-only search_log_run19.jsonl; no duplicate discovery lead was added in this pass."
+    "Diagnosed a release-critical migration regression introduced when evidence_links.csv headers were renamed in commit a9056691102af68b024e674dc4b81f9af2523f0b; the audit contract expects from_type/from_id/to_type/to_id/relationship_type.",
+    "Restored the established evidence-link header contract without changing any of the 42 evidence-link rows, re-establishing claim/evidence graph visibility to the migration audit.",
+    "Corrected WEB-MUN-0043 canonicalization metadata to the repository-tested status=canonicalized_new_identity contract without weakening the MMSC test or changing its source/evidence scope.",
+    "Verified commit d652254f88a70e0508f3281a1eb45e56e0c267c9 as four-of-four green: Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build all PASS.",
+    "Added verified discovery lead WEB-MUN-0087 for the 2025 BMC Nutrition article Indigenous food environment and dietary patterns of Munda community of Jharkhand, India, DOI 10.1186/s40795-025-01159-2, PMID 41121309, PMCID PMC12539013.",
+    "Deterministically distinguished WEB-MUN-0087 from existing WEB-MUN-0045, the separate 2021 Frontiers food-environment article.",
+    "Kept WEB-MUN-0087 discovery-only in this cycle despite open article access because canonical source registration, exact section-level evidence selection, participant/data-governance review and cultural-access review must be committed before claim promotion.",
+    "Synchronized MMSC discovery count, Streamlit discovery count, publication JSON metrics and LaTeX macros to 87 discovery leads while preserving 33 audited identities, 6 canonicalized leads and 42 provenance-linked evidence chains.",
+    "Recorded MMSC-SEARCH-000025 in supplemental append-only search_log_run20.jsonl."
   ],
   "commits_this_cycle": [
-    "ce19b3d1f1a4ca150930b069e0af862256ae9c6b - canonicalize WEB-MUN-0043 customary-land article",
-    "1625bdda0b986d7c1bcc89359964ec1a656f45e1 - link WEB-MUN-0043 to canonical source identity",
-    "2ac28441c498d34604281d75dc5de56d16534e87 - add scoped Khuntkatti abstract claim",
-    "17ddcf16bc0b741a9188184be24f00bfe09b337c - add scoped Khuntkatti evidence record",
-    "a9056691102af68b024e674dc4b81f9af2523f0b - link Khuntkatti claim to evidence",
-    "c5f477ca5516730446ad10da4d368fbc70e82d13 - synchronize MMSC after WEB-MUN-0043 canonicalization",
-    "771275ef6c472b075102fe36eafe981bb058a3c8 - sync release metrics after Khuntkatti ingestion",
-    "01dbb2975edc87c8e136f1a97a9b3a046f6fdb2b - sync LaTeX release metrics after Khuntkatti ingestion",
-    "5c0950a4aeb4fb8f3739cb4eac4719a1cf52c7c4 - record cross-class MMSC canonicalization pass"
+    "fb52c382691cde96c49642c708fde7556b32cf0b - fix WEB-MUN-0043 canonicalization contract",
+    "d652254f88a70e0508f3281a1eb45e56e0c267c9 - restore evidence-link migration contract; verified four-of-four green",
+    "459bb88eeae8b8b51d3270529c8a4651079d6ca4 - atomically add WEB-MUN-0087, MMSC-SEARCH-000025 and synchronize MMSC/publication metrics"
   ],
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "562431d2c657e4b49c7f774f0dca61f5de703a8f",
+    "last_verified_all_four_green_commit": "d652254f88a70e0508f3281a1eb45e56e0c267c9",
     "four_of_four_green_claim_for_latest_head": false,
-    "new_head_workflow_state": "Fresh CI verification required on the new synchronized head; do not project prior green status forward.",
-    "intermediate_failure_repaired": true
+    "new_head_workflow_state": "Fresh CI for 459bb88eeae8b8b51d3270529c8a4651079d6ca4 started after the atomic discovery/metrics commit; do not project the d652254 green result forward until all four runs complete.",
+    "intermediate_failure_repaired": true,
+    "root_cause_note": "The migration/Streamlit regression was an evidence_links.csv header-contract break, not unsupported cultural evidence; Source Register also required canonicalization.status=canonicalized_new_identity for WEB-MUN-0043."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Mundarica original-edition versus later Gyan reprint mapping remains unresolved; XIV-XVI are edition-specific unresolved slots.",
-    "Eighty web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
+    "Eighty-one web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
     "LSI_JHARKHAND authoritative PDF locator is verified, but exact Mundari page extraction remains pending; catalogue metadata is not cultural evidence.",
     "Ministry/TRI SRC-MMSC-000005 PDF remains unextracted and all-rights-reserved unless otherwise indicated.",
     "SRC-MMSC-000006 has institutional file presence but RUMBUL is identified as rights holder; no grammar-text extraction is promoted until item-level reuse scope is established.",
     "SRC-MMSC-000007 full protected article text has not been treated as reusable; only publisher-abstract scope is evidence-linked, and current legal/community status remains unverified.",
     "WEB-MUN-0086 full text is publisher-restricted and its abstract is broader than Munda alone, so no Munda-specific evidence is promoted without exact passage-level verification.",
+    "WEB-MUN-0087 is verified and open-access at article level but remains outside the audited identity total until deterministic canonicalization and exact-locator evidence/data-governance review are completed.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested.",
-    "Primary data/source_census/search_log.jsonl still ends at MMSC-SEARCH-000021; entries 000022-000024 are preserved in supplemental append-only logs pending safe consolidation."
+    "Primary data/source_census/search_log.jsonl still ends at MMSC-SEARCH-000021; entries 000022-000025 are preserved in supplemental append-only logs pending safe consolidation."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -118,6 +116,7 @@
     "main_branch_modified": false,
     "metadata_only_sources_promoted_to_cultural_evidence": false,
     "all_registered_modules_coverage_mapped": true,
+    "cultural_access_overrides_legal_or_technical_entitlement": true,
     "deadline_pressure_can_override_evidence_or_access_gates": false
   },
   "deadline_progress": {
@@ -129,12 +128,13 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 80 discovery records, prioritizing sources with exact locators and explicit reuse terms.",
-    "Safely consolidate MMSC-SEARCH-000022 through 000024 into primary search_log.jsonl without altering prior entries.",
+    "Canonicalize WEB-MUN-0087 as a new source identity only after final DOI/title/authorship duplicate check, then add an exact section-level SOURCE→EVIDENCE→CLAIM chain bounded to the sampled study and article licence while keeping participant/data governance separate.",
+    "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 81 discovery records, prioritizing sources with exact locators and explicit reuse terms.",
+    "Safely consolidate MMSC-SEARCH-000022 through 000025 into primary search_log.jsonl without altering prior entries.",
     "Retry LSI_JHARKHAND PDF and extract exact Mundari printed/PDF pages, section heading, survey geography, fieldwork dates and methodological scope before evidence promotion.",
     "Retry SRC-MMSC-000005 Ministry/TRI PDF without treating repository access as redistribution permission.",
     "Continue authoritative original-versus-reprint reconciliation for Mundarica XIV-XVI and Volume I scan acquisition.",
-    "Populate evidence-empty domains while keeping Streamlit search, evidence graph, gap matrix, tests and manuscript metrics synchronized.",
+    "Populate evidence-empty domains while keeping Streamlit universal search, evidence drilldown, reports/downloads, owner console, evidence graph, gap matrix, tests and manuscript metrics synchronized.",
     "Re-check all four CI workflows on the newest status head before claiming the latest state green."
   ]
 }
