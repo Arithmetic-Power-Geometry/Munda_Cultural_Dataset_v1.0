@@ -27,7 +27,13 @@
       "notes": "Unicode Standard Version 17.0, section 13.12, documents the Nag Mundari block U+1E4D0–U+1E4FF and identifies the script as used for Mundari. Register as a technical script/encoding source lead for schema validation, text normalization and software interoperability. It is not a source for universal cultural practice, script adoption rates, community identity, literacy levels or historical claims beyond what the standard itself explicitly documents. Character-level use should preserve Unicode version and code-point provenance.",
       "verification_state": "official_technical_standard_verified",
       "access_class": "public_technical_standard",
-      "rights_note": "Public access to the Unicode Standard does not waive the Unicode Consortium's copyright, trademark or data-file terms. MLHKP may reference standard code points and metadata subject to applicable Unicode terms; redistribution of standard text or figures and commercial reuse must follow those terms. Cultural-access governance remains independent of technical encoding entitlement."
+      "rights_note": "Public access to the Unicode Standard does not waive the Unicode Consortium's copyright, trademark or data-file terms. MLHKP may reference standard code points and metadata subject to applicable Unicode terms; redistribution of standard text or figures and commercial reuse must follow those terms. Cultural-access governance remains independent of technical encoding entitlement.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000011",
+        "dedupe_key": "unicode:17.0.0/13.12",
+        "decision": "Official Unicode Standard section and code-point range verified; registered once as a standalone audited MMSC identity and not double-counted in the discovery layer."
+      }
     },
     {
       "id": "WEB-MUN-0064",
