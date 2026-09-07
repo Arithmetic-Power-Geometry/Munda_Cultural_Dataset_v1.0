@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T15:34:00Z",
-  "observed_head_before_status_sync": "f32935e0d9e5a8d838047deaad5b311907574440",
+  "updated_utc": "2026-09-07T15:55:00Z",
+  "observed_head_before_status_sync": "a7a3375f5e328553335c3502933624aa347a0f9e",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -27,11 +27,11 @@
       "web_discovery_leads_counted_in_audited_identity_total": 10,
       "web_discovery_leads_remaining_outside_audited_identity_total": 77,
       "source_complete_claim": false,
-      "search_log_entries_primary": 25,
+      "search_log_entries_primary": 28,
       "search_log_entries_supplemental": 2,
-      "latest_search_id": "MMSC-SEARCH-000027",
+      "latest_search_id": "MMSC-SEARCH-000028",
       "latest_canonicalization": "WEB-MUN-0063→SRC-MMSC-000011",
-      "search_log_note": "Primary log remains sequential through 000025; verified entries 000026 and 000027 are preserved in supplemental run21/run22 pending append-only primary consolidation."
+      "search_log_note": "Primary append-only log is now consolidated through 000028. Supplemental run21/run22 files are retained as historical run artifacts, not pending records."
     },
     "C_information_model": {
       "registered_modules": 42,
@@ -50,10 +50,10 @@
       "external_source_discovery_layer_records": 87,
       "grouped_research_portal_present": true,
       "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true,
-      "sync_state": "canonical source/evidence and publication metrics synchronized to 37 audited identities and 46 evidence chains; fresh CI running on audit-repair head"
+      "sync_state": "canonical source/evidence and publication metrics remain synchronized to 37 audited identities and 46 evidence chains; census-log consolidation changed no release counts"
     },
     "E_publication_readiness": {
-      "status": "release_metrics.json synchronized to canonical 37 audited identities / 87 discovery leads / 10 canonicalized discovery leads / 46 evidence chains",
+      "status": "release metrics remain synchronized to canonical 37 audited identities / 87 discovery leads / 10 canonicalized discovery leads / 46 evidence chains",
       "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
       "snapshot_date": "2026-09-07",
@@ -63,7 +63,7 @@
       "release_metrics_claims": 46,
       "release_metrics_evidence_records": 46,
       "release_metrics_evidence_links": 46,
-      "manuscript_metrics_sync_state": "generated release metrics synchronized; publication workflow on audit-repair head pending verification"
+      "manuscript_metrics_sync_state": "counts unchanged this cycle; no manuscript metric regeneration required for search-log-only changes"
     },
     "F_evidence_population": {
       "source_claims": 46,
@@ -71,36 +71,38 @@
       "evidence_links": 46,
       "latest_evidence_bearing_source": "SRC-MMSC-000011",
       "latest_chain": "WEB-MUN-0063→SRC-MMSC-000011→CLM-000046→EVD-000046→LNK-000046",
-      "verification_boundary": "Unicode evidence is technical encoding evidence only. Nag Mundari block assignment and Mundari-writing scope are verified; adoption, literacy, community preference, exclusive orthography, cultural validation and unrestricted reproduction are not inferred."
+      "verification_boundary": "Census C-16 dataset identity and download locator are verified from official ORGI metadata, but no Munda/Mundari row value is promoted until exact row extraction succeeds. Census mother-tongue returns are demographic observations, not cultural identity or community-validation claims."
     }
   },
   "changes_this_cycle": [
-    "Inspected the latest mlhkp-v2 head and all four principal CI workflows.",
-    "Confirmed Migration Audit, Streamlit Smoke Test and Publication Build passed on 2cbfec3c4481e1fb61d5956fb2ea19388f2c4dcc while Source Register Audit failed in test_mmsc_census.py.",
-    "Diagnosed the failure exactly: MMSC metrics counted 10 canonicalized web leads, but the discovery layer exposed only 9 canonicalization.status=canonicalized_new_identity records because WEB-MUN-0063 lacked the canonicalization object in its source discovery record.",
-    "Repaired WEB-MUN-0063 in data/source_census/web_discovery_expansion_2026-09-07_run10.json by adding the already-established canonical mapping to SRC-MMSC-000011 with dedupe key unicode:17.0.0/13.12; no counts or cultural claims were changed.",
-    "Triggered fresh CI implicitly through the repair commit; Migration Audit already passed and the remaining three principal workflows were still running when this status snapshot was written.",
-    "Did not modify or merge main and did not weaken any audit rule."
+    "Consolidated MMSC-SEARCH-000026 and MMSC-SEARCH-000027 into the primary append-only search_log.jsonl without duplicate IDs or semantic rewriting.",
+    "Updated mmsc_index.json to record primary-log normalization through 000027 while retaining supplemental run21/run22 files as historical run artifacts.",
+    "Re-verified official Census India C-16: Population by mother tongue, India - 2011 as PC11_C16-00 / PC11_C16 with official XLSX locator DDW-C16-STMT-MDDS-0000.xlsx.",
+    "Recorded MMSC-SEARCH-000028 with the exact Census dataset identity and variables, but did not create a canonical source identity or demographic evidence row because exact Munda/Mundari row retrieval returned HTTP 502 during inspection.",
+    "Advanced the primary MMSC log to 28 entries while keeping audited identities at 37, canonicalized web leads at 10, and evidence chains at 46; no counts were inflated.",
+    "Did not modify or merge main and did not weaken rights, cultural-access, provenance or verification gates."
   ],
   "commits_this_cycle": [
-    "f32935e0d9e5a8d838047deaad5b311907574440 - fix Unicode discovery canonicalization audit mismatch"
+    "c31f034f5060795b44099638b649c003b6aacd07 - consolidate MMSC search log through 000027",
+    "a66047353b9a08ca9a1a55313c1d67db740c3963 - mark MMSC primary search log consolidated through 000027",
+    "a511272a0aa964a7a9b5c4297091300db29e497b - log official Census C-16 verification boundary",
+    "a7a3375f5e328553335c3502933624aa347a0f9e - synchronize MMSC index through search 000028"
   ],
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "6022fba4be07380b90a85c54653f8cbcc3f9f4aa",
     "four_of_four_green_claim_for_latest_head": false,
     "previous_green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_head_workflow_state": "On f32935e0d9e5a8d838047deaad5b311907574440: Migration Audit PASS; Source Register Audit, Streamlit Smoke Test and Publication Build were in progress at snapshot time. No green result projected forward."
+    "new_head_workflow_state": "On a66047353b9a08ca9a1a55313c1d67db740c3963 all four principal workflows were queued when checked. Later search-log/index commits require their own CI completion before any 4/4-green claim is projected forward."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Mundarica original physical-volume/part/plates structure versus later Gyan 16-volume reprint mapping remains incompletely proven.",
     "Seventy-seven web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
     "LSI_JHARKHAND authoritative PDF locator is verified, but exact Mundari page extraction remains pending.",
+    "Official Census C-16 dataset identity and XLSX locator are verified, but exact Munda/Mundari row extraction remains blocked by endpoint retrieval failure; no demographic values are promoted.",
     "Ministry/TRI SRC-MMSC-000005 PDF remains unextracted and all-rights-reserved unless otherwise indicated.",
     "SRC-MMSC-000006 identifies RUMBUL as rights holder; grammar-text extraction remains blocked pending item-level reuse scope.",
     "WEB-MUN-0086 full text is publisher-restricted and its abstract is broader than Munda alone.",
-    "Official Census India Munda/Munda-Patar table candidates require deterministic reconciliation with existing discovery identities.",
-    "MMSC-SEARCH-000026 and 000027 remain supplemental pending safe append-only consolidation.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested."
   ],
   "integrity": {
@@ -123,11 +125,10 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Verify all four CI workflows on the audit-repair/status head and repair any remaining regression without weakening audit rules.",
-    "Consolidate MMSC-SEARCH-000026 and MMSC-SEARCH-000027 into the primary append-only search log without duplicate IDs.",
+    "Verify all four CI workflows on the newest status head and repair any regression without weakening audit rules.",
+    "Retry direct acquisition of official Census C-16 XLSX and extract only exact Munda/Mundari rows with table/row/geography provenance before canonicalization or evidence promotion.",
     "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 77 discovery records, prioritizing exact locators and explicit reuse terms.",
     "Retry LSI_JHARKHAND PDF exact Mundari page extraction and SRC-MMSC-000005 Ministry/TRI PDF extraction without inferring reuse rights.",
-    "Reconcile official Census India Munda/Munda-Patar tables against existing discovery identities and promote only table-level provenance-bounded evidence.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation in parallel.",
     "Populate evidence-empty domains only from permitted exact-locator evidence while keeping universal search, evidence drilldown, reports/downloads, owner console and manuscript metrics synchronized."
   ]
