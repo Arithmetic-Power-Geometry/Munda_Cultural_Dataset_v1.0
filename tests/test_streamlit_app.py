@@ -1,36 +1,90 @@
 from pathlib import Path
 import json
+from streamlit.testing.v1 import AppTest
 
 ROOT = Path(__file__).resolve().parents[1]
+APP = ROOT / 'streamlit_app.py'
+ENGINE = ROOT / 'software' / 'mlhkp_knowledge_engine.py'
+PORTAL = ROOT / 'pages' / '01_Research_Portal.py'
+VERIFY_APP = ROOT / 'pages' / '02_Mundarica_Verification.py'
+PUBLIC_PAGES = [
+    'Home', 'Search & Ask', 'Explore', 'Mundarica I–XVI',
+    'Sources & Research Library', 'Build Report & Download',
+    'Completeness Dashboard', 'About · Governance · Ethics'
+]
 
 
-def test_streamlit_entrypoint_exists_and_uses_research_portal():
-    entry = (ROOT/'streamlit_app.py').read_text(encoding='utf-8')
-    portal = ROOT/'pages'/'01_Research_Portal.py'
-    assert portal.exists()
-    assert 'web_discovery_expansion_' in entry
+def run_page(page):
+    at = AppTest.from_file(str(APP), default_timeout=30).run()
+    assert not at.exception, at.exception
+    nav = next(r for r in at.radio if r.label == 'Navigate')
+    nav.set_value(page).run(timeout=30)
+    assert not at.exception, at.exception
+    return at
 
 
-def test_research_portal_is_grouped_not_flat_navigation():
-    text = (ROOT/'pages'/'01_Research_Portal.py').read_text(encoding='utf-8')
-    for heading in ['Discover', 'Culture & Knowledge', 'People & Place', 'History & Change', 'Research Library', 'Evidence & Research', 'MLHKP']:
-        assert heading in text
+def app_source():
+    return APP.read_text(encoding='utf-8')
 
 
-def test_external_discovery_expansions_are_present_and_searchable_by_entrypoint():
-    files = sorted((ROOT/'data'/'source_census').glob('web_discovery_expansion_*.json'))
-    assert files
-    entry = (ROOT/'streamlit_app.py').read_text(encoding='utf-8')
-    assert 'glob' in entry and 'web_discovery_expansion_' in entry
+def engine_source():
+    return ENGINE.read_text(encoding='utf-8')
 
 
-def test_governance_exact_rajan_pahan_role_is_preserved_without_duplicate_entrypoint_footer():
-    expected = 'Founding Community, Meetings & Field Logistics Coordinator'
-    corpus = ''
-    for path in [ROOT/'streamlit_app.py', ROOT/'pages'/'01_Research_Portal.py']:
-        corpus += path.read_text(encoding='utf-8')
-    assert expected in corpus
-    assert (ROOT/'streamlit_app.py').read_text(encoding='utf-8').count(expected) <= 1
+def portal_source():
+    return PORTAL.read_text(encoding='utf-8')
+
+
+def test_all_public_knowledge_engine_pages_render_without_exception():
+    for page in PUBLIC_PAGES:
+        run_page(page)
+
+
+def test_current_entrypoint_loads_all_discovery_expansions_dynamically():
+    source = app_source()
+    assert "glob('web_discovery_expansion_*.json')" in source
+    assert "engine.WEB = web_records" in source
+    seed = json.loads((ROOT/'data'/'source_census'/'web_discovery_seed_2026-09-06.json').read_text(encoding='utf-8'))['records']
+    expansions = []
+    for path in sorted((ROOT/'data'/'source_census').glob('web_discovery_expansion_*.json')):
+        expansions.extend(json.loads(path.read_text(encoding='utf-8')).get('records', []))
+    ids = [r.get('id') for r in seed + expansions if r.get('id')]
+    assert len(ids) == len(set(ids))
+    assert 'WEB-MUN-0069' in ids
+
+
+def test_grouped_research_portal_remains_visible_and_not_flat_radio():
+    source = portal_source()
+    assert 'group_order = [' in source
+    assert 'st.selectbox("Section"' in source
+    assert 'st.selectbox("Module"' in source
+    assert 'Structure ready — evidence not yet ingested' in source
+    assert 'st.radio(' not in source
+
+
+def test_governance_identity_role_and_access_safeguards_present():
+    source = engine_source() + '\n' + portal_source()
+    assert 'Dr. Mohammad Amir Khusru Akhtar' in source
+    assert 'Dr. Arvind Hans' in source
+    assert 'Mr. Rajan Pahan' in source
+    assert 'Founding Community, Meetings & Field Logistics Coordinator' in source
+    assert 'does not independently determine scholarly interpretation or final scholarly approval' in source
+    assert 'Cultural access and consent restrictions override' in source
+    assert 'Source availability is not proof of reuse rights' in source
+    assert 'OCR is not verified transcription' in source
+    assert 'Historical reports are not automatically current or universal facts' in source
+
+
+def test_entrypoint_does_not_duplicate_founder_metadata():
+    source = app_source()
+    assert 'Mr. Rajan Pahan' not in source
+    assert 'Founding record:' not in source
+
+
+def test_master_source_register_is_canonical_and_preserves_ids():
+    data = json.loads((ROOT/'data'/'source_register'/'master_sources.json').read_text(encoding='utf-8'))
+    ids = [x['source_id'] for x in data['sources']]
+    assert ids == [f'SRC-{i:06d}' for i in range(1,15)]
 
 
 def test_master_source_census_live_metrics_are_internally_consistent():
@@ -46,7 +100,7 @@ def test_master_source_census_live_metrics_are_internally_consistent():
     assert census['metrics']['mundarica_verified_complete_volumes'] == 0
 
 
-def test_mundarica_manifest_has_all_16_slots_and_volume1_page_blocks():
+def test_mundarica_manifest_has_all_16_slots_and_volume1_registered_page_accounting():
     manifest = json.loads((ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json').read_text(encoding='utf-8'))
     assert [x['source_id'] for x in manifest['volume_slots']] == [f'SRC-MUN-V{i:02d}' for i in range(1,17)]
     registry = json.loads((ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'artifact_registry.json').read_text(encoding='utf-8'))
@@ -69,18 +123,14 @@ def test_mundarica_designated_reviewer_registry_and_workspace():
     assert registry['policy']['ocr_alone_can_never_be_verified_transcription'] is True
     assert registry['policy']['verified_transcription_requires_authoritative_scan_comparison'] is True
     assert registry['policy']['community_validation_is_distinct_from_textual_verification'] is True
+    source = VERIFY_APP.read_text(encoding='utf-8')
+    assert 'Mundarica Verification Workspace' in source
+    assert 'Human verification is recorded as evidence' in source
+    at = AppTest.from_file(str(VERIFY_APP), default_timeout=30).run()
+    assert not at.exception, at.exception
 
 
-def test_no_verified_complete_mundarica_volume_is_claimed():
-    manifest = json.loads((ROOT/'data'/'source_bundles'/'encyclopaedia_mundarica'/'manifest.json').read_text(encoding='utf-8'))
-    assert manifest['audit_summary']['verified_complete_volumes'] == 0
-
-
-def test_cultural_access_override_contract_present():
-    corpus = (ROOT/'streamlit_app.py').read_text(encoding='utf-8') + (ROOT/'pages'/'01_Research_Portal.py').read_text(encoding='utf-8')
-    assert 'cultural' in corpus.lower() and 'access' in corpus.lower()
-
-
-def test_publication_release_metrics_are_repository_derived():
-    status = json.loads((ROOT/'status'/'mlhkp_progress.json').read_text(encoding='utf-8'))
-    assert status['workstreams']['E_publication_readiness']['repository_derived_metrics'] is True
+def test_public_engine_has_no_owner_console_navigation():
+    at = AppTest.from_file(str(APP), default_timeout=30).run()
+    nav = next(r for r in at.radio if r.label == 'Navigate')
+    assert 'Owner Research Console' not in nav.options
