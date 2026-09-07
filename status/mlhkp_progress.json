@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T18:55:00Z",
-  "observed_head_before_status_sync": "151898606b6bc690a148f5fbe6f7f54b9e002de4",
+  "updated_utc": "2026-09-07T19:42:00Z",
+  "observed_head_before_status_sync": "ba35c24f91b88306f46eb280f0fc3039e7e5e647",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -26,10 +26,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 11,
       "web_discovery_leads_remaining_outside_audited_identity_total": 76,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000034",
+      "latest_search_id": "MMSC-SEARCH-000035",
       "latest_canonicalization": "WEB-MUN-0025 -> SRC-MMSC-000012 by DOI 10.18653/v1/2024.computel-1.11",
-      "latest_verification": "Historical reception-history source verified: George A. Grierson review of Hoffmann's Mundari Grammar, JRAS 40(1), 1908, pp.222-228, DOI 10.1017/S0035869X00037564; permanent source assignment deferred pending deterministic duplicate comparison.",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034"],
+      "latest_verification": "Official ORGI Jharkhand C-16 dataset identity verified: PC11_C16-20 / PC11_C16, workbook DDW-C16-STMT-MDDS-2000.xlsx, with documented area/residence/mother-tongue/sex dimensions; exact Munda/Mundari rows remain unextracted and no population values are promoted.",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "evidence_links": 47,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "This cycle added a verified historical book-review/reception-history candidate and search-log entry only; deterministic duplicate comparison is still pending, so no audited source or evidence count was inflated."
+      "reason": "This cycle strengthened an official-government Census candidate from a generic/failed-fetch state to a Jharkhand-specific verified dataset/workbook locator, but exact Munda/Mundari rows and deterministic duplicate disposition remain pending; audited identity and evidence counts were therefore not inflated."
     },
     "F_evidence_population": {
       "source_claims": 47,
@@ -65,34 +65,35 @@
       "evidence_links": 47,
       "latest_evidence_bearing_source": "SRC-MMSC-000012",
       "latest_evidence_chain": "WEB-MUN-0025 -> SRC-MMSC-000012 -> CLM-000047 -> EVD-000047 -> LNK-000047",
-      "promotion_boundary": "The newly verified 1908 Grierson review remains bibliographic/reception scope only until deterministic deduplication and exact-text rights/access review; no grammar rule or cultural proposition is promoted from metadata."
+      "promotion_boundary": "Census C-16 catalogue metadata is verified, but no Munda/Mundari population value or category equivalence is evidence-promoted until exact workbook rows are retrieved, checked and provenance-linked."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "85085ae5af9ae0f1c925981c623b813ad153ff07",
+    "last_verified_all_four_green_commit": "4a6e9a142775064f7f3bbc554cdaeebc31312dee",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_verification_commits": ["166217e9fe502ef38a7a7e24fd03c659e7116561","151898606b6bc690a148f5fbe6f7f54b9e002de4"],
+    "new_verification_commits": ["7a46d0a51ac024dc76e370c620be74fed4024452","ba35c24f91b88306f46eb280f0fc3039e7e5e647"],
     "new_head_ci_state_at_status_write": "fresh runs pending or not yet fully verified; no green projection"
   },
   "changes_this_cycle": [
-    "Verified prior synchronized head 85085ae5af9ae0f1c925981c623b813ad153ff07 as 4/4 green.",
-    "Searched the historical grammar/book-review stream and verified Cambridge publisher metadata for George A. Grierson's 1908 review of J. Hoffmann's 1903 Mundari Grammar, JRAS 40(1), pp.222-228, DOI 10.1017/S0035869X00037564.",
-    "Added data/source_census/mundari_grammar_review_verification_2026-09-08.json with explicit rights, cultural-access and evidence-promotion boundaries.",
-    "Added MMSC-SEARCH-000034 in search_log_run28.jsonl; permanent SRC-MMSC assignment and evidence promotion remain deferred until deterministic duplicate comparison and exact-text access review.",
-    "Kept repository/publication truth at 38 audited identities, 87 discovery leads, 11 canonicalized web leads and 47 claim/evidence/link chains.",
+    "Verified prior synchronized head 4a6e9a142775064f7f3bbc554cdaeebc31312dee as 4/4 green.",
+    "Re-searched the official Census/government stream and verified the Jharkhand-specific C-16 record PC11_C16-20, reference PC11_C16, and workbook DDW-C16-STMT-MDDS-2000.xlsx from the ORGI Digital Library.",
+    "Verified the official catalogue description that the table is for 2011 and exposes area, rural/urban residence, mother tongue and sex dimensions at state/district/subdistrict granularity.",
+    "Added data/source_census/census_c16_jharkhand_verification_2026-09-08.json with explicit rights, category-interpretation and evidence-promotion boundaries.",
+    "Added MMSC-SEARCH-000035 in search_log_run29.jsonl.",
+    "Kept repository/publication truth at 38 audited identities, 87 discovery leads, 11 canonicalized web leads and 47 claim/evidence/link chains because exact Munda/Mundari rows and deterministic duplicate comparison remain pending.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0.",
     "Seventy-six web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000034 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "MMSC-SEARCH-000029 through 000035 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "Census C-16 Jharkhand dataset identity and workbook filename are now verified, but exact Munda/Mundari workbook rows and values remain unextracted; no population count or label equivalence is asserted.",
     "The 1908 Grierson review requires deterministic comparison against discovery records before a permanent source ID is assigned; full review-text reuse rights/access also remain unestablished.",
     "WEB-MUN-0082 detailed participant-derived religious/ritual material requires exact-passage rights, consent and cultural-access review before evidence promotion.",
     "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before any audio, annotation, lexical, song or narrative evidence promotion.",
     "MunTTS underlying speech/text datasets, recordings and model checkpoints remain separately rights/consent/access gated and are not ingested through article-level CC BY.",
     "LSI Jharkhand exact Mundari page extraction remains pending.",
-    "Census C-16 exact Munda/Mundari row extraction remains pending.",
     "TRI and grammar full-text processing remains rights-gated.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
@@ -113,13 +114,13 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Consolidate MMSC-SEARCH-000029 through 000034 into the primary append-only search log without changing IDs or semantics.",
-    "Deterministically compare the Grierson 1908 review DOI/title identity against all discovery-layer records; only then assign a permanent SRC-MMSC identity if genuinely new.",
+    "Consolidate MMSC-SEARCH-000029 through 000035 into the primary append-only search log without changing IDs or semantics.",
+    "Retrieve DDW-C16-STMT-MDDS-2000.xlsx through an official ORGI route and extract the exact Munda/Mundari rows with workbook sheet/row/cell provenance before promoting any numeric evidence.",
+    "Deterministically compare the C-16 dataset and Grierson 1908 review identities against all discovery-layer records before assigning any new permanent SRC-MMSC IDs.",
     "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 discovery leads, prioritizing sources with exact-locator evidence potential.",
-    "Review WEB-MUN-0082 only to the exact-passage level permitted by publisher access and cultural/participant protections; do not ingest interview-derived detail without an explicit safe basis.",
+    "Review WEB-MUN-0082 only to the exact-passage level permitted by publisher access and cultural/participant protections.",
     "Review BMM1 item-level PARADISEC access/consultant metadata before any item evidence ingestion.",
-    "Retry Census C-16 exact-row and LSI Jharkhand exact-page extraction.",
-    "Continue TRI/grammar processing only within item-level rights boundaries.",
+    "Retry LSI Jharkhand exact-page extraction and continue TRI/grammar processing only within item-level rights boundaries.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation.",
     "Keep publication metrics, Streamlit and evidence graph synchronized after every evidence-bearing promotion."
   ]
