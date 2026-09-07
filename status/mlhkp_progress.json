@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T18:40:00Z",
-  "observed_head_before_status_sync": "3a895a1a1efaf9fee3ef99c3fc61f931c5f79fec",
+  "updated_utc": "2026-09-07T18:55:00Z",
+  "observed_head_before_status_sync": "151898606b6bc690a148f5fbe6f7f54b9e002de4",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -26,10 +26,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 11,
       "web_discovery_leads_remaining_outside_audited_identity_total": 76,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000033",
+      "latest_search_id": "MMSC-SEARCH-000034",
       "latest_canonicalization": "WEB-MUN-0025 -> SRC-MMSC-000012 by DOI 10.18653/v1/2024.computel-1.11",
-      "latest_verification": "WEB-MUN-0082 Taylor & Francis publisher identity/metadata/abstract/fieldwork scope verified; cultural evidence deferred",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033"],
+      "latest_verification": "Historical reception-history source verified: George A. Grierson review of Hoffmann's Mundari Grammar, JRAS 40(1), 1908, pp.222-228, DOI 10.1017/S0035869X00037564; permanent source assignment deferred pending deterministic duplicate comparison.",
+      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034"],
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "evidence_links": 47,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "This cycle verified WEB-MUN-0082 identity/scope and rights/cultural-access boundaries only; no new canonical source or evidence chain was counted."
+      "reason": "This cycle added a verified historical book-review/reception-history candidate and search-log entry only; deterministic duplicate comparison is still pending, so no audited source or evidence count was inflated."
     },
     "F_evidence_population": {
       "source_claims": 47,
@@ -65,28 +65,29 @@
       "evidence_links": 47,
       "latest_evidence_bearing_source": "SRC-MMSC-000012",
       "latest_evidence_chain": "WEB-MUN-0025 -> SRC-MMSC-000012 -> CLM-000047 -> EVD-000047 -> LNK-000047",
-      "promotion_boundary": "WEB-MUN-0082 remains verified identity/scope only because participant-derived religious and ritual material requires exact-passage rights/consent/cultural-access review before promotion."
+      "promotion_boundary": "The newly verified 1908 Grierson review remains bibliographic/reception scope only until deterministic deduplication and exact-text rights/access review; no grammar rule or cultural proposition is promoted from metadata."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "e1eeef6f4fa54f0e5da2c48de7bb08b8098dab4f",
+    "last_verified_all_four_green_commit": "85085ae5af9ae0f1c925981c623b813ad153ff07",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_verification_commits": ["6c653bf4def0361ebfbb6041398b15e6736a2d6d","3a895a1a1efaf9fee3ef99c3fc61f931c5f79fec"],
+    "new_verification_commits": ["166217e9fe502ef38a7a7e24fd03c659e7116561","151898606b6bc690a148f5fbe6f7f54b9e002de4"],
     "new_head_ci_state_at_status_write": "fresh runs pending or not yet fully verified; no green projection"
   },
   "changes_this_cycle": [
-    "Verified prior synchronized head e1eeef6f4fa54f0e5da2c48de7bb08b8098dab4f as 4/4 green.",
-    "Re-verified WEB-MUN-0082 from Taylor & Francis: Religion as everyday resistance: Birsaite Dharam in contemporary Jharkhand, DOI 10.1080/14631369.2025.2589154, Asian Ethnicity 27(3), pp.631-654, published online 15 November 2025.",
-    "Added data/source_census/birsaite_dharam_verification_2026-09-08.json with explicit participant, rights, scope and cultural-access boundaries.",
-    "Added MMSC-SEARCH-000033 in search_log_run27.jsonl; no source/evidence count was inflated because exact-passage cultural promotion remains deferred.",
+    "Verified prior synchronized head 85085ae5af9ae0f1c925981c623b813ad153ff07 as 4/4 green.",
+    "Searched the historical grammar/book-review stream and verified Cambridge publisher metadata for George A. Grierson's 1908 review of J. Hoffmann's 1903 Mundari Grammar, JRAS 40(1), pp.222-228, DOI 10.1017/S0035869X00037564.",
+    "Added data/source_census/mundari_grammar_review_verification_2026-09-08.json with explicit rights, cultural-access and evidence-promotion boundaries.",
+    "Added MMSC-SEARCH-000034 in search_log_run28.jsonl; permanent SRC-MMSC assignment and evidence promotion remain deferred until deterministic duplicate comparison and exact-text access review.",
     "Kept repository/publication truth at 38 audited identities, 87 discovery leads, 11 canonicalized web leads and 47 claim/evidence/link chains.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica authoritative scan reconciliation remains incomplete and verified_complete_volumes remains 0.",
     "Seventy-six web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000033 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "MMSC-SEARCH-000029 through 000034 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "The 1908 Grierson review requires deterministic comparison against discovery records before a permanent source ID is assigned; full review-text reuse rights/access also remain unestablished.",
     "WEB-MUN-0082 detailed participant-derived religious/ritual material requires exact-passage rights, consent and cultural-access review before evidence promotion.",
     "WEB-MUN-0023 requires item-level recording/consultant/access/cultural review before any audio, annotation, lexical, song or narrative evidence promotion.",
     "MunTTS underlying speech/text datasets, recordings and model checkpoints remain separately rights/consent/access gated and are not ingested through article-level CC BY.",
@@ -112,7 +113,8 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Consolidate MMSC-SEARCH-000029 through 000033 into the primary append-only search log without changing IDs or semantics.",
+    "Consolidate MMSC-SEARCH-000029 through 000034 into the primary append-only search log without changing IDs or semantics.",
+    "Deterministically compare the Grierson 1908 review DOI/title identity against all discovery-layer records; only then assign a permanent SRC-MMSC identity if genuinely new.",
     "Continue deterministic DOI/Handle/government/archive canonicalization among the remaining 76 discovery leads, prioritizing sources with exact-locator evidence potential.",
     "Review WEB-MUN-0082 only to the exact-passage level permitted by publisher access and cultural/participant protections; do not ingest interview-derived detail without an explicit safe basis.",
     "Review BMM1 item-level PARADISEC access/consultant metadata before any item evidence ingestion.",
