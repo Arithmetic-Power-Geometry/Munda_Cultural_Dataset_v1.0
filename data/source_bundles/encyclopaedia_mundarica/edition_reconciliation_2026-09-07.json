@@ -1,0 +1,43 @@
+{
+  "record_id": "MLHKP-MUNDARICA-EDITION-RECON-2026-09-07",
+  "checked_utc": "2026-09-07T08:31:00Z",
+  "purpose": "Prevent original-edition volume numbering, later reprint numbering, and acquisition status from being conflated during Mundarica completeness auditing.",
+  "status": "bibliographic_reconciliation_open",
+  "findings": [
+    {
+      "scope": "original_government_printing_series",
+      "statement": "Current external bibliographic evidence confirms an original Government Printing Volume 13 published in 1941 and secondary catalogue evidence for a Government Printing set described as Vol. 1-13. This does not by itself prove that every historical issue/part maps one-to-one to thirteen physical volumes.",
+      "sources": [
+        {
+          "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC",
+          "observed_metadata": "Encyclopaedia Mundarica, Volume 13; Johann Hoffmann and Arthur van Emelen; Superintendent government printing, Bihar and Orissa; 1941"
+        },
+        {
+          "url": "https://www.abebooks.co.uk/Encyclopaedia-Mundarica-Vol-1-13-Hoffmann-John/32229885774/bd",
+          "observed_metadata": "Bookseller catalogue describes Encyclopaedia Mundarica; Vol. 1-13; Patna: Superintendent, Government Printing; 1950"
+        }
+      ]
+    },
+    {
+      "scope": "modern_gyan_reprint_series",
+      "statement": "A later Gyan Publishing House series is explicitly catalogued as 'In 16 Volumes'; Volume 16 is independently represented by ISBN 9788121203227. Therefore XIV-XVI may be valid reprint-series volume identifiers even if historical Government Printing catalogues are organized differently.",
+      "sources": [
+        {
+          "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=YQ1K0gEACAAJ",
+          "observed_metadata": "Encyclopaedia Mundarica: In 16 Volumes, Volume 13; Gyan Publishing House; 2009"
+        },
+        {
+          "url": "https://www.vonmatt.ch/detail/ISBN-9788121203227/Emelen-Sj/Encyclopaedia-Mundarica-Vol.16th",
+          "observed_metadata": "Encyclopaedia Mundarica Vol.16th; ISBN 978-81-212-0322-7; 2009; Gyan Publishing House/Repro India listing"
+        }
+      ]
+    }
+  ],
+  "audit_rule": "Do not mark XIV-XVI missing from the historical edition merely because a modern 16-volume reprint exists, and do not mark a historical slot complete from a modern reprint locator without edition-level mapping. Track edition, physical volume/part, identifier, scan provenance and page range separately.",
+  "completion_effect": "No machine VERIFIED COMPLETE state changes from this reconciliation alone.",
+  "next_required_checks": [
+    "Obtain authoritative library/publisher table-of-contents or catalog records for the complete original Government Printing sequence.",
+    "Obtain authoritative metadata for Gyan reprint Volumes XIV, XV and XVI, including ISBNs and contents/page spans.",
+    "Establish an explicit original-edition-to-reprint mapping before using modern volume numbers in historical completeness metrics."
+  ]
+}
