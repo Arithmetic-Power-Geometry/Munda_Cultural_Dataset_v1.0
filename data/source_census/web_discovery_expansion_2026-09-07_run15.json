@@ -1,0 +1,60 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery and canonicalization records. These are verified publisher/DOI source leads; cultural assertions remain source-reported and scope-bounded. Discovery does not establish unrestricted redistribution, commercial reuse, present-day universality, or community validation.",
+  "records": [
+    {
+      "id": "WEB-MUN-0078",
+      "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+      "source_class": "peer_reviewed_megalithic_heritage_article",
+      "publisher": "Social Evolution & History",
+      "url": "https://doi.org/10.30884/seh/2025.02.01",
+      "author": "Elizabeth Tuti; Meena Kumari; Kumari Vibhuti Nayak; Shamsher Alam",
+      "year": 2025,
+      "notes": "Publisher metadata verifies publication in Social Evolution & History 24(2), September 2025, DOI 10.30884/seh/2025.02.01. The abstract explicitly scopes the study to continued Munda megalithic traditions in Jharkhand and discusses burial, collective heritage, oral tradition and spiritual significance. One abstract-level, source-reported evidence record is canonicalized separately as SRC-MMSC-000002; no claim is generalized beyond the article's stated scope.",
+      "verification_state": "publisher_metadata_doi_and_abstract_verified",
+      "access_class": "public_publisher_article_page_reuse_terms_require_review",
+      "rights_note": "Public article-page access does not by itself establish unrestricted redistribution, image reuse, derivative-database extraction or commercial reuse. Cultural-access/community review remains independent of publication access.",
+      "canonicalization": {"status":"canonicalized_new_identity","canonical_source_id":"SRC-MMSC-000002","dedupe_key":"doi:10.30884/seh/2025.02.01"}
+    },
+    {
+      "id": "WEB-MUN-0079",
+      "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+      "source_class": "peer_reviewed_livelihood_sustainable_development_article",
+      "publisher": "Problemy Ekorozwoju / Problems of Sustainable Development",
+      "url": "https://doi.org/10.35784/pe.2021.1.19",
+      "author": "Laxmi Kumari; Mojibur Rahman",
+      "year": 2021,
+      "notes": "Publisher DOI record verifies the article and authors. The abstract states that the study concerns perceptions of Munda communities in Jharkhand toward forest preservation and livelihood/sustainable development. Register as a livelihood/environment/contemporary-change lead only; study design, sample, geography and exact propositions require full-text passage review before evidence promotion.",
+      "verification_state": "publisher_metadata_doi_and_abstract_verified",
+      "access_class": "public_publisher_metadata_article_access_terms_require_review",
+      "rights_note": "Metadata/abstract visibility is not permission for full-text redistribution or derivative dataset reuse; article licence and any participant-derived material require item-level review."
+    },
+    {
+      "id": "WEB-MUN-0080",
+      "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+      "source_class": "peer_reviewed_customary_law_gender_land_article",
+      "publisher": "Indian Journal of Public Administration / SAGE Publications",
+      "url": "https://doi.org/10.1177/0019556120982196",
+      "author": "Shalini Saboo",
+      "year": 2021,
+      "notes": "SAGE publisher metadata verifies the article, first published online 20 January 2021. The abstract identifies Munda women in Jharkhand and land-inheritance customary practices/legal-social impediments as the study focus. Register as a customary-law/governance/gender/land source lead; no legal or customary proposition is promoted without exact passage, method/sample, temporal scope and contradiction/variant review.",
+      "verification_state": "publisher_metadata_doi_and_abstract_verified",
+      "access_class": "publisher_metadata_public_full_text_access_and_reuse_conditions_vary",
+      "rights_note": "Publisher abstract access does not establish redistribution, table/figure reuse, field-data reuse or commercial reuse rights. Participant/community-sensitive material requires separate review."
+    },
+    {
+      "id": "WEB-MUN-0081",
+      "title": "Gender Relations and Witches among the Indigenous Communities of Jharkhand, India",
+      "source_class": "peer_reviewed_gender_social_change_article",
+      "publisher": "Gender, Technology and Development / SAGE Publications",
+      "url": "https://doi.org/10.1177/097185240000400301",
+      "author": "Samar Bosu Mullick",
+      "year": 2000,
+      "notes": "SAGE publisher metadata verifies Volume 4 Issue 3 and first publication in November 2000. The abstract explicitly includes Munda and Ho communities in Jharkhand and frames witchcraft accusations in relation to changing gender and socioeconomic relations. Register as a historical/period-bounded gender/social-change source lead only. Sensitive claims require exact passages, methodology, participant context, corroboration and community-aware review before evidence use.",
+      "verification_state": "publisher_metadata_doi_and_abstract_verified",
+      "access_class": "publisher_metadata_public_full_text_access_and_reuse_conditions_vary",
+      "rights_note": "Publisher metadata/abstract access does not establish permission to redistribute article text or participant-derived material. Sensitive cultural and gender-related content requires heightened contextual and community review."
+    }
+  ]
+}
