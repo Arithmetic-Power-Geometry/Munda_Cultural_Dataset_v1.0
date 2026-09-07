@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T14:00:00Z",
-  "observed_head_before_status_sync": "3b834ced05831479fb922ee980c7c3ffc4bfc957",
+  "updated_utc": "2026-09-07T14:33:00Z",
+  "observed_head_before_status_sync": "86f4e972297ea79f6f8d504a2465e4508039e40e",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -31,7 +31,7 @@
       "search_log_entries_supplemental": 1,
       "latest_search_id": "MMSC-SEARCH-000026",
       "latest_canonicalization": "WEB-MUN-0083→SRC-MMSC-000010",
-      "search_log_note": "Primary log remains sequential through 000025; 000026 remains preserved in supplemental run21 and is still pending append-only consolidation."
+      "search_log_note": "Primary log remains sequential through 000025; 000026 remains preserved in supplemental run21 and is pending append-only consolidation."
     },
     "C_information_model": {
       "registered_modules": 42,
@@ -50,10 +50,10 @@
       "external_source_discovery_layer_records": 87,
       "grouped_research_portal_present": true,
       "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true,
-      "sync_state": "source/discovery/evidence files updated without UI redesign; smoke workflow queued on latest pre-status head"
+      "sync_state": "publication metrics repaired to match canonical MMSC/evidence state; fresh smoke workflow pending on the repaired head"
     },
     "E_publication_readiness": {
-      "status": "repository-derived metrics now target 36 audited identities / 87 discovery leads / 9 canonicalized discovery leads / 45 evidence chains",
+      "status": "release_metrics.json synchronized to canonical 36 audited identities / 87 discovery leads / 9 canonicalized discovery leads / 45 evidence chains",
       "main_tex": "publication/main.tex",
       "repository_derived_metrics": true,
       "snapshot_date": "2026-09-07",
@@ -63,7 +63,7 @@
       "release_metrics_claims": 45,
       "release_metrics_evidence_records": 45,
       "release_metrics_evidence_links": 45,
-      "manuscript_metrics_sync_state": "publication build queued; repository-derived generator expected to regenerate metrics, no success projected until CI completes"
+      "manuscript_metrics_sync_state": "release metrics repaired after CI exposed stale 35/44 snapshot; fresh CI required before latest-head green claim"
     },
     "F_evidence_population": {
       "source_claims": 45,
@@ -71,35 +71,31 @@
       "evidence_links": 45,
       "latest_evidence_bearing_source": "SRC-MMSC-000010",
       "latest_chain": "WEB-MUN-0083→SRC-MMSC-000010→CLM-000045→EVD-000045→LNK-000045",
-      "verification_boundary": "The Sapienza thesis is promoted only at comparative abstract scope. Munda-specific participant, movement, interview, image, governance or collective-memory propositions remain unpromoted pending exact chapter/page, consent, rights and cultural-access review."
+      "verification_boundary": "The Sapienza thesis remains promoted only at comparative abstract scope. Munda-specific participant, movement, interview, image, governance or collective-memory propositions remain unpromoted pending exact chapter/page, consent, rights and cultural-access review."
     }
   },
   "changes_this_cycle": [
-    "Fresh institutional-web verification confirmed the 2025 Marilena Proietti doctoral thesis in two Sapienza repository records, including Handles 20.500.14242/212639 and 11573/1740709, thesis date 26 May 2025, and open-access file availability from 27 May 2026.",
-    "Deterministically canonicalized existing discovery lead WEB-MUN-0083 as new audited identity SRC-MMSC-000010 without creating a duplicate discovery record.",
-    "Promoted only the thesis comparative study-scope proposition into CLM-000045, EVD-000045 and LNK-000045; no Munda-specific cultural or participant claim was inferred from a cross-community abstract.",
-    "Synchronized mmsc_discoveries.json, WEB-MUN-0083 canonicalization metadata, source_claims.csv, evidence.csv, evidence_links.csv and mmsc_index.json.",
-    "Updated truthful counts from 35→36 audited identities, 8→9 canonicalized discovery leads, 79→78 remaining discovery leads outside the audited identity total, and 44→45 claims/evidence/links.",
-    "Did not infer unrestricted reuse from the repository's Creative Commons label; embedded third-party material, participant consent and cultural access remain separate gates."
+    "Reconciled latest mlhkp-v2 CI and identified the Streamlit Smoke failure as a publication-data synchronization regression rather than an evidence-graph failure.",
+    "Confirmed canonical repository truth at 36 audited identities, 87 discovery leads, 9 canonicalized discovery leads and 45 claims/evidence/evidence-links.",
+    "Updated publication/generated/release_metrics.json from stale 35/8/44 values to 36/9/45 and synchronized additional_federated_discoveries/still_to_acquire values from mmsc_index.json.",
+    "Preserved all evidence, rights, access and cultural-validation boundaries; no new cultural claim or completion state was asserted while repairing CI.",
+    "Did not modify or merge main."
   ],
   "commits_this_cycle": [
-    "2d96264fbd8e53dd68d5e3ddc2730cf63eff7e02 - canonicalize Sapienza dissertation source",
-    "93b0472159b82b0129866026fc0bfb2eab71bb9a - add Sapienza dissertation scope claim",
-    "c49d566273c28d035fff4876c29a30ceaa0558cd - add Sapienza dissertation evidence record",
-    "ca1f77f91f73cacea340b83b8de4d746e5c81024 - link Sapienza dissertation scope evidence",
-    "469b631db24df823e36e17a232097c98739135a0 - canonicalize WEB-MUN-0083 metadata",
-    "3b834ced05831479fb922ee980c7c3ffc4bfc957 - synchronize MMSC metrics after Sapienza canonicalization"
+    "86f4e972297ea79f6f8d504a2465e4508039e40e - synchronize publication metrics with canonical MMSC state"
   ],
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "4493284fe00964b872e14405272dd03648dc522d",
     "four_of_four_green_claim_for_latest_head": false,
-    "latest_pre_status_sync_head": "3b834ced05831479fb922ee980c7c3ffc4bfc957",
-    "latest_workflow_state": {
-      "MLHKP Migration Audit": "queued",
-      "MLHKP Source Register Audit": "queued",
-      "MLHKP Streamlit Smoke Test": "queued",
-      "MLHKP Publication Build": "queued"
-    }
+    "last_checked_head": "75245b3c4a4a26a5ce4f4d0140e72874d9ff8e68",
+    "last_checked_workflow_state": {
+      "MLHKP Migration Audit": "success",
+      "MLHKP Source Register Audit": "success",
+      "MLHKP Streamlit Smoke Test": "failure: publication metrics sources_discovered 35 did not match MMSC 36",
+      "MLHKP Publication Build": "success"
+    },
+    "repair_head": "86f4e972297ea79f6f8d504a2465e4508039e40e",
+    "repair_workflow_state": "fresh workflow results not yet available; no green result projected forward"
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
@@ -133,12 +129,12 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
+    "Verify all four workflows on the repaired publication-metrics head and repair any further regression without weakening audit rules.",
     "Consolidate MMSC-SEARCH-000026 into the primary append-only search log without duplicate IDs.",
     "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 78 discovery records, prioritizing exact locators and explicit reuse terms.",
-    "Inspect the open Sapienza dissertation for exact Munda-specific chapter/page locations, but promote only material that passes participant, rights and cultural-access review.",
     "Retry LSI_JHARKHAND PDF exact Mundari page extraction and SRC-MMSC-000005 Ministry/TRI PDF extraction without inferring reuse rights.",
     "Reconcile official Census India Munda/Munda-Patar tables against existing discovery identities and promote only table-level provenance-bounded evidence.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation in parallel.",
-    "Re-check all four CI workflows on the newest status head and repair any regression rather than weakening audit rules."
+    "Populate evidence-empty domains only from permitted exact-locator evidence while keeping universal search, evidence drilldown, reports/downloads, owner console and manuscript metrics synchronized."
   ]
 }
