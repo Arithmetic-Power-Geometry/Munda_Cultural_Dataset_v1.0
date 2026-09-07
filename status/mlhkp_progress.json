@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T13:04:16Z",
-  "observed_head_before_status_sync": "8774b757c919f227dad02a8a87f4f4a9b44af79f",
+  "updated_utc": "2026-09-07T13:38:00Z",
+  "observed_head_before_status_sync": "0553aa45465c6ba4d539145f79571c877dff3799",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -13,10 +13,10 @@
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
       "pending_exact_authoritative_scan_locators": [14,15,16],
       "per_volume_state": {
-        "I": "working_transcription_present; 324/324 structural page blocks accounted; authoritative scan not registered; not machine verified complete",
+        "I": "working transcription present; 324/324 structural page blocks accounted; authoritative scan not registered; not machine verified complete",
         "II": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
         "III": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
-        "IV": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
+        "IV": "external locator record exists but historical item identity requires continued reconciliation; not machine verified complete",
         "V": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
         "VI": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
         "VII": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
@@ -26,15 +26,16 @@
         "XI": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
         "XII": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
         "XIII": "external authoritative locator verified; not locally acquired/reconciled; not machine verified complete",
-        "XIV": "exact authoritative historical locator unresolved; edition mapping open; not machine verified complete",
-        "XV": "exact authoritative historical locator unresolved; edition mapping open; not machine verified complete",
-        "XVI": "later-reprint bibliographic lead exists but exact authoritative historical locator/edition mapping unresolved; not machine verified complete"
+        "XIV": "modern-reprint slot preserved; exact historical Government Printing equivalence not proven; not machine verified complete",
+        "XV": "modern-reprint slot preserved; exact historical Government Printing equivalence not proven; not machine verified complete",
+        "XVI": "modern Gyan bibliographic lead exists; exact historical Government Printing equivalence not proven; not machine verified complete"
       },
       "volume_1": {"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"authoritative_scan_registered":false,"verified_complete":false},
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "edition_reconciliation_state": "open_original_government_printing_vs_modern_gyan_reprint_mapping"
+      "edition_reconciliation_state": "strengthened: CiNii and contemporary JRAS evidence distinguish original Government Printing volumes/parts from later 16-volume Gyan reprint; early projected volume counts are not treated as final physical-volume proof",
+      "reconciliation_artifact": "data/source_bundles/encyclopaedia_mundarica/edition_reconciliation_2026-09-07.json"
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -49,7 +50,7 @@
       "search_log_entries_primary": 25,
       "search_log_entries_supplemental": 1,
       "latest_search_id": "MMSC-SEARCH-000026",
-      "search_log_note": "Primary search log is schema-normalized and sequential through MMSC-SEARCH-000025; MMSC-SEARCH-000026 remains preserved in search_log_run21.jsonl and can now be consolidated append-only because WEB-MUN-0045 has been atomically canonicalized and evidence-linked.",
+      "search_log_note": "Primary search log remains sequential through MMSC-SEARCH-000025; MMSC-SEARCH-000026 remains preserved in search_log_run21.jsonl. Its associated WEB-MUN-0045 promotion is complete, so append-only consolidation remains a synchronization task rather than an evidence blocker.",
       "lsi_jharkhand_tracker": "data/source_census/lsi_jharkhand_acquisition_2026-09-07.json"
     },
     "C_information_model": {
@@ -69,7 +70,7 @@
       "external_source_discovery_layer_records": 87,
       "grouped_research_portal_present": true,
       "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true,
-      "sync_state": "repository-derived source/discovery/evidence files updated; no UI redesign required this cycle"
+      "sync_state": "repository-derived source/discovery/evidence files remain synchronized; no redesign performed this cycle"
     },
     "E_publication_readiness": {
       "status": "repository-derived metrics synchronized to 35 audited identities / 87 discovery leads / 8 canonicalized discovery leads / 44 evidence chains",
@@ -82,7 +83,7 @@
       "release_metrics_claims": 44,
       "release_metrics_evidence_records": 44,
       "release_metrics_evidence_links": 44,
-      "manuscript_metrics_sync_state": "synchronized; generator now derives evidence totals directly from canonical CSVs"
+      "manuscript_metrics_sync_state": "unchanged this cycle; counts remain repository-derived and synchronized"
     },
     "F_evidence_population": {
       "source_claims": 44,
@@ -90,46 +91,44 @@
       "evidence_links": 44,
       "latest_evidence_bearing_source": "SRC-MMSC-000009",
       "latest_chain": "WEB-MUN-0045→SRC-MMSC-000009→CLM-000044→EVD-000044→LNK-000044",
-      "verification_boundary": "Frontiers full text supports only the promoted study design/setting/period record. Article-level CC BY does not imply participant-data permission, community validation, unrestricted culturally sensitive knowledge reuse, or permission to generalize sampled findings. Cultural access may remain more restrictive than copyright entitlement."
+      "public_claim_integrity_boundary": "No metadata-only record is converted into a cultural fact; open access does not imply participant-data permission, community validation, unrestricted culturally sensitive reuse or permission to generalize sampled findings."
     }
   },
   "changes_this_cycle": [
-    "Diagnosed the failing Source Register Audit at starting head c067f8e106db5ee20a625362ffad2629e128dc90: MMSC-SEARCH-000024 lacked the normalized repository/query/outcome/notes fields expected by the census integrity test.",
-    "Normalized MMSC-SEARCH-000024 in the primary append-only census log without weakening tests or changing its prior source-census meaning.",
-    "Deterministically canonicalized existing discovery lead WEB-MUN-0045 by DOI 10.3389/fnut.2020.600470 as SRC-MMSC-000009; no duplicate WEB lead was created.",
-    "Promoted one bounded exact-locator evidence chain CLM-000044→EVD-000044→LNK-000044 for the Frontiers article's documented mixed-methods setting: nine villages in Murhu and Torpa blocks, Khunti district, with June 2019-January 2020 data collection.",
-    "Updated discovery-layer canonicalization metadata, MMSC repository counts, evidence graph, manuscript metrics and metric-generation code.",
-    "Did not ingest participant quotations, detailed indigenous-food inventories, medical/nutritional efficacy implications, community-validation claims or participant-level reuse permissions."
+    "Verified starting head 4493284fe00964b872e14405272dd03648dc522d with all four principal workflows PASS.",
+    "Re-ran live bibliographic discovery for unresolved Mundarica historical-versus-reprint numbering.",
+    "Strengthened data/source_bundles/encyclopaedia_mundarica/edition_reconciliation_2026-09-07.json with CiNii original-series metadata and contemporary Journal of the Royal Asiatic Society notices/reviews.",
+    "Recorded that an early scholarly notice projected about 15 volumes but this is not proof of the final physical-volume count.",
+    "Recorded that CiNii explicitly enumerates original Government Printing volumes through Volume 13 and letter mappings for several volumes, strengthening the separation between original Government Printing units and later 16-volume Gyan reprint numbering.",
+    "Preserved SRC-MUN-V01..V16 identifiers and did not change the completeness denominator because the original-part/text-volume/plates-to-reprint mapping is not yet proven sufficiently for a safe migration.",
+    "Kept all MMSC/evidence/publication counts unchanged because no new non-Mundarica cultural evidence was promoted without exact-locator support."
   ],
   "commits_this_cycle": [
-    "b026058070cdde91b8c50ee98b9887a10707008a - normalize MMSC search-log schema through 000025",
-    "51dbf196e315af114698984265dfce14cd6e25f1 - canonicalize WEB-MUN-0045 as SRC-MMSC-000009",
-    "0230af620b33c14a846314cce41e9b969685f143 - add bounded Frontiers study-scope claim",
-    "3f3622d621d3894428e7dee50f60ab480f1cca08 - add exact-locator evidence EVD-000044",
-    "658a75508c7b7da13095138ee980137d004d3f8d - link CLM-000044 to EVD-000044",
-    "06544ff602bd89440fdef9a0fa66a1d5fe6bb0ad - mark WEB-MUN-0045 canonicalized in discovery layer",
-    "ec368b4ab975fb5f7c6bda952d402ed1dd8c9ae0 - synchronize MMSC counts to 35/87/8",
-    "c465cc0408b2bc5d5d587d7b2bfd6a369258c981 - derive evidence totals in publication metric generator",
-    "8a8790df90efc331f06c09b5460c765cb997db05 - regenerate release metrics JSON",
-    "8774b757c919f227dad02a8a87f4f4a9b44af79f - synchronize manuscript release macros"
+    "0553aa45465c6ba4d539145f79571c877dff3799 - strengthen Mundarica original-series reconciliation"
   ],
   "tests_and_workflows": {
-    "starting_head": "c067f8e106db5ee20a625362ffad2629e128dc90",
-    "starting_head_state": "Migration Audit PASS; Streamlit Smoke PASS; Publication Build PASS; Source Register Audit FAIL due to malformed MMSC-SEARCH-000024 schema",
-    "source_register_failure_repaired_in_repository": true,
-    "four_of_four_green_claim_for_latest_head": false,
-    "latest_head_workflow_state": "fresh workflow result must be checked after this status synchronization; no green result is projected forward"
+    "last_verified_all_four_green_commit": "4493284fe00964b872e14405272dd03648dc522d",
+    "last_verified_all_four_green": true,
+    "latest_pre_status_sync_commit": "0553aa45465c6ba4d539145f79571c877dff3799",
+    "latest_pre_status_sync_workflows": {
+      "MLHKP Migration Audit": "success",
+      "MLHKP Source Register Audit": "success",
+      "MLHKP Streamlit Smoke Test": "success",
+      "MLHKP Publication Build": "in_progress"
+    },
+    "four_of_four_green_claim_for_latest_status_head": false,
+    "latest_status_head_note": "Fresh workflow results must be checked after this status commit; no green result is projected forward."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
-    "Mundarica original-edition versus later Gyan reprint mapping remains unresolved; XIV-XVI are edition-specific unresolved slots.",
+    "Mundarica original physical-volume/part/plates structure versus later Gyan 16-volume reprint mapping is not yet completely proven; XIV-XVI must not be falsely labeled as missing historical volumes.",
     "Seventy-nine web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
     "LSI_JHARKHAND authoritative PDF locator is verified, but exact Mundari page extraction remains pending; catalogue metadata is not cultural evidence.",
     "Ministry/TRI SRC-MMSC-000005 PDF remains unextracted and all-rights-reserved unless otherwise indicated.",
     "SRC-MMSC-000006 has institutional file presence but RUMBUL is identified as rights holder; no grammar-text extraction is promoted until item-level reuse scope is established.",
     "WEB-MUN-0086 full text is publisher-restricted and its abstract is broader than Munda alone, so no Munda-specific evidence is promoted without exact passage-level verification.",
     "Official Census India Munda/Munda-Patar table candidates require deterministic reconciliation with existing Census discovery identities before new IDs or evidence are added.",
-    "MMSC-SEARCH-000026 remains in a supplemental run file and should be consolidated append-only into the primary log without duplicating its permanent search ID.",
+    "MMSC-SEARCH-000026 remains supplemental pending safe append-only consolidation.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested."
   ],
   "integrity": {
@@ -155,13 +154,13 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
+    "Obtain authoritative complete Government Printing holdings/contents evidence and plates-volume metadata, then build an explicit original-parts/text-volumes/plates-to-Gyan-reprint mapping before changing Mundarica completeness denominators.",
+    "Continue scan acquisition and page/OCR reconciliation for already located historical Volumes I-XIII independently of edition-count reconciliation.",
     "Consolidate MMSC-SEARCH-000026 into the primary append-only search log without duplicate IDs.",
     "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 79 discovery records, prioritizing exact locators and explicit reuse terms.",
-    "Retry LSI_JHARKHAND PDF and extract exact Mundari printed/PDF pages, section heading, survey geography, fieldwork dates and methodological scope before evidence promotion.",
-    "Retry SRC-MMSC-000005 Ministry/TRI PDF without treating repository access as redistribution permission.",
+    "Retry LSI_JHARKHAND PDF exact Mundari page extraction and SRC-MMSC-000005 Ministry/TRI PDF extraction without inferring reuse rights.",
     "Reconcile official Census India Munda/Munda-Patar tables against existing discovery identities and promote only table-level provenance-bounded evidence.",
-    "Continue authoritative original-versus-reprint reconciliation for Mundarica XIV-XVI and Volume I scan acquisition in the parallel Mundarica stream.",
     "Populate evidence-empty domains while keeping Streamlit search/drilldown/reports/downloads, evidence graph, gap matrix, tests and manuscript metrics synchronized.",
-    "Re-check all four CI workflows on the newest status head and repair any repository-truth regression rather than weakening integrity tests."
+    "Re-check all four workflows on the newest status head and repair any repository-truth regression rather than weakening integrity tests."
   ]
 }
