@@ -1,0 +1,21 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery record for an open-access peer-reviewed Munda food-environment study. Discovery metadata and article-level reuse terms are verified; participant-level data and cultural assertions remain subject to provenance, consent and MLHKP cultural-access review.",
+  "records": [
+    {
+      "id": "WEB-MUN-0087",
+      "title": "Indigenous food environment and dietary patterns of Munda community of Jharkhand, India",
+      "source_class": "peer_reviewed_food_environment_dietary_patterns_article",
+      "publisher": "BMC Nutrition / Springer Nature",
+      "url": "https://doi.org/10.1186/s40795-025-01159-2",
+      "author": "Suparna Ghosh-Jerath; Ridhima Kapoor; Naina Gandhi; Swati C. Nair; Aman Rastogi; Arpita Ghosh",
+      "year": 2025,
+      "notes": "PubMed verifies BMC Nutrition volume 11, article 189, published 21 October 2025, PMID 41121309 and PMCID PMC12539013. The abstract reports a cross-sectional study in 201 Munda households in Jharkhand, with household surveys and food-frequency questionnaires in monsoon and winter. It reports three study-derived dietary-pattern categories in each season. This record is a source lead only until canonical source registration and exact section-level evidence promotion are committed atomically; no result is generalized to all Munda communities.",
+      "verification_state": "pubmed_metadata_abstract_doi_pmid_pmc_verified",
+      "access_class": "open_access_article_participant_data_and_cultural_access_separate",
+      "rights_note": "Article is openly available through BMC/PMC; article-level licence/reuse terms do not override third-party-material credits, participant consent, underlying-data governance, dignity, or MLHKP cultural-access controls. Community validation is not inferred from research participation or ethics approval.",
+      "scope_note": "Jharkhand Munda households; food environment and dietary patterns; cross-sectional research scope. Canonicalization and exact-locator evidence ingestion are next-step release tasks rather than implied by discovery."
+    }
+  ]
+}
