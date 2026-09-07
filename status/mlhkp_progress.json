@@ -2,22 +2,24 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-07T01:20:00Z",
+  "updated_utc":"2026-09-07T01:24:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
     "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":69,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
     "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":69,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob","governance_exact_role_preserved":true,"duplicate_founder_entrypoint_metadata":false},
-    "E_publication_readiness":{"status":"release metrics synchronized to 69 discovery leads; current-head CI not yet claimed PASS","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":69,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
+    "E_publication_readiness":{"status":"release metrics synchronized to 69 discovery leads; publication build was still in progress on observed source-expansion head","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":69,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
     "Kept work on mlhkp-v2 only; main was not modified.",
     "Added WEB-MUN-0066 through WEB-MUN-0069 as discovery-only records: Bhaduri's 1931 Mundari-English dictionary, Phillips and Harrison's 2017 peer-reviewed Munda mimetic reduplication article, Sarat Chandra Roy's 1912 The Mundas and Their Country, and the contemporary Tribal Lingua Mundari learning-resource lead.",
     "Cross-checked bibliographic/publisher metadata before registration and preserved edition, historical, comparative-language, item-level provenance and rights/access boundaries.",
+    "Deduplicated candidate research against existing discovery records: Evans and Osada 2005, the MunTTS paper and the MunTTS repository/dataset locator were already registered and were not duplicated.",
     "Increased the reader-facing web discovery layer from 65 to 69 while keeping the audited MMSC source-identity total at 27 and web leads counted in that total at 0.",
     "Updated MMSC paths/latest-discovery metadata, discovery integrity tests, publication release JSON and LaTeX metrics to 69 leads.",
     "Streamlit requires no filename-specific change because the entrypoint dynamically loads web_discovery_expansion_*.json files; the four new records therefore remain within the existing searchable discovery architecture.",
+    "Observed current-head workflows after synchronization: Migration Audit PASS, Source Register Audit PASS, Streamlit Smoke FAIL, Publication Build still IN_PROGRESS. No whole-repository/publication PASS is claimed.",
     "No lexical entry, ethnographic statement, comparative linguistic result, contemporary web lesson or cultural proposition was promoted into structured cultural evidence."
   ],
   "commits_this_cycle":[
@@ -25,21 +27,23 @@
     "d8693a7b3fb5dc8b97c84cea80a004f07d240cad - Synchronize MMSC to 69 discovery leads",
     "706c130de5d2ba2118901ff183f324d2630b4d5c - Extend discovery integrity tests through WEB-MUN-0069",
     "4d99a98f8c722ef1f27ac6f90a0143a59561fb49 - Refresh publication metrics for 69 discovery leads",
-    "65d9cd45cb83c8fb73f1f4f4d8a755cf641ab8ab - Refresh LaTeX release macros for 69 discovery leads"
+    "65d9cd45cb83c8fb73f1f4f4d8a755cf641ab8ab - Refresh LaTeX release macros for 69 discovery leads",
+    "1397a1be3090530b0a887f448a98285b21aeb787 - Record 69-lead source expansion and synchronization status"
   ],
-  "tests_and_workflows":{"status":"current_head_not_yet_reconfirmed","last_observed_head":"65d9cd45cb83c8fb73f1f4f4d8a755cf641ab8ab","migration_audit":"not_rechecked_this_cycle","source_register_audit":"not_rechecked_this_cycle","publication_build":"not_rechecked_this_cycle","streamlit_smoke":"existing architecture blocker remains until CI reconfirms/further diagnoses","claim_green_scope":"No whole-repository or publication PASS is claimed for the new source-expansion head."},
+  "tests_and_workflows":{"status":"partial_green_with_existing_streamlit_architecture_blocker","last_observed_head":"1397a1be3090530b0a887f448a98285b21aeb787","migration_audit":"PASS","source_register_audit":"PASS","publication_build":"IN_PROGRESS","streamlit_smoke":"FAIL","claim_green_scope":"Migration Audit and Source Register Audit are green on the observed source-expansion head. Streamlit Smoke remains red and Publication Build was still running, so no whole-repository or publication PASS is claimed."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
     "Sixty-nine non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
-    "The Streamlit Smoke architecture-test blocker from the preceding repair cycle remains open pending exact assertion diagnosis/current-head CI.",
+    "The Streamlit Smoke architecture-test blocker remains open; this cycle did not weaken the architecture or provenance safeguards to force a green result.",
     "Bhaduri 1931 requires a lawfully accessed edition and edition-specific rights assessment before dictionary-entry extraction.",
     "Phillips and Harrison 2017 requires exact passage/figure/table locators and publisher/source permissions before structured extraction or figure reuse.",
     "Roy 1912 must be treated as historical/source-reported evidence; scan/edition rights and culturally sensitive material require separate review before reuse.",
     "Tribal Lingua lesson-level authorship, provenance, dialect/variety, review status, site terms and community/cultural-access conditions are unresolved; no lesson content was ingested.",
+    "The Karya/MunTTS speech-corpus candidate was not registered as a separate new identity because it may overlap the already registered MunTTS dataset-access lead; deterministic canonicalization is required first.",
     "The reproducible search-log file was not rewritten in this cycle because safe whole-file append tooling was not exposed by the connector; discovery records themselves retain verified URLs and metadata, and search-log synchronization remains the next safe repository task.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
   ],
   "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false},
-  "next_best_action":"Append a reproducible MMSC search-log entry for WEB-MUN-0066 through WEB-MUN-0069 using a safe whole-file update, run current-head source/discovery/publication tests, then continue broad discovery and deterministic canonicalization without promoting discovery metadata into cultural claims."
+  "next_best_action":"Append a reproducible MMSC search-log entry for WEB-MUN-0066 through WEB-MUN-0069 using a safe whole-file update, diagnose the remaining Streamlit Smoke assertion without weakening safeguards, then continue broad discovery and deterministic canonicalization without promoting discovery metadata into cultural claims."
 }
