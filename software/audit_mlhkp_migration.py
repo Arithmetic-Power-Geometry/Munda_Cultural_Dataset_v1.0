@@ -58,6 +58,29 @@ def duplicate_values(rows: list[dict[str, str]], col: str) -> list[str]:
     return sorted(v for v, n in Counter(values).items() if n > 1)
 
 
+def normalized_link(row: dict[str, str]) -> tuple[str, str, str, str]:
+    """Return one evidence-link tuple across the legacy and canonical schemas.
+
+    The repository's canonical evidence-links table uses
+    source_type/source_id/target_type/target_id. Earlier audit code used
+    from_type/from_id/to_type/to_id. Supporting both makes the audit validate
+    semantics rather than silently treating every canonical row as blank.
+    """
+    if any(k in row for k in ("source_type", "source_id", "target_type", "target_id")):
+        return (
+            row.get("source_type", "").strip(),
+            row.get("source_id", "").strip(),
+            row.get("target_type", "").strip(),
+            row.get("target_id", "").strip(),
+        )
+    return (
+        row.get("from_type", "").strip(),
+        row.get("from_id", "").strip(),
+        row.get("to_type", "").strip(),
+        row.get("to_id", "").strip(),
+    )
+
+
 def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
@@ -128,25 +151,26 @@ def main() -> int:
         if not r.get("access_level", "").strip():
             warnings.append(f"Evidence {r.get('evidence_id')}: access_level blank")
 
+    linked_claims = set()
     for r in tables["evidence_links.csv"]:
-        ftype, fid = r.get("from_type", ""), r.get("from_id", "")
-        ttype, tid = r.get("to_type", ""), r.get("to_id", "")
-        if ftype == "claim" and fid not in claims:
-            errors.append(f"Link {r.get('link_id')}: claim {fid} missing")
-        if ttype == "claim" and tid not in claims:
-            errors.append(f"Link {r.get('link_id')}: claim {tid} missing")
+        ftype, fid, ttype, tid = normalized_link(r)
+        if not all((ftype, fid, ttype, tid)):
+            errors.append(f"Link {r.get('link_id')}: missing endpoint type/id")
+            continue
+        if ftype == "claim":
+            linked_claims.add(fid)
+            if fid not in claims:
+                errors.append(f"Link {r.get('link_id')}: claim {fid} missing")
+        if ttype == "claim":
+            linked_claims.add(tid)
+            if tid not in claims:
+                errors.append(f"Link {r.get('link_id')}: claim {tid} missing")
         if ftype == "evidence" and fid not in evidence:
             errors.append(f"Link {r.get('link_id')}: evidence {fid} missing")
         if ttype == "evidence" and tid not in evidence:
             errors.append(f"Link {r.get('link_id')}: evidence {tid} missing")
 
     evidenced_claims = {r.get("claim_id") for r in tables["evidence.csv"] if r.get("claim_id")}
-    linked_claims = set()
-    for r in tables["evidence_links.csv"]:
-        if r.get("from_type") == "claim":
-            linked_claims.add(r.get("from_id"))
-        if r.get("to_type") == "claim":
-            linked_claims.add(r.get("to_id"))
     missing_evidence = sorted(claims - evidenced_claims)
     missing_links = sorted(claims - linked_claims)
     if missing_evidence:
