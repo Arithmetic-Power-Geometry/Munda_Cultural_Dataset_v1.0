@@ -1,0 +1,46 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified scholarly, archival-audio/dataset, and journal source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0070",
+      "title": "Expressives and the multimodal depiction of social types in Mundari",
+      "source_class": "peer_reviewed_sociolinguistic_ethnographic_article",
+      "publisher": "Language in Society / Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A",
+      "author": "Nishaant Choksi",
+      "year": 2020,
+      "notes": "Cambridge metadata verifies publication in Language in Society 49(3), pp. 379-398, DOI 10.1017/S0047404519000824, first published online 28 November 2019. The study uses lab and village interview/video data to examine Mundari expressives, multimodality and social indexing. Register as a high-value language/performance/interaction source lead only. No expressive form, social-type characterization, interview statement, song material, video frame or participant-derived datum is ingested without exact page/passage/timecode, participant/consent provenance where applicable, historical/current framing, and rights/community-access review.",
+      "verification_state": "publisher_metadata_verified",
+      "access_class": "publisher_metadata_shared_read_only_full_text_conditions_vary",
+      "rights_note": "Cambridge identifies the article as copyright Cambridge University Press 2019. Shared/read-only access does not establish permission to redistribute article text, interview transcripts, video, images, elicitation data, or derivative datasets. Participant rights, consent scope, and cultural-access restrictions must be reviewed independently before reuse."
+    },
+    {
+      "id": "WEB-MUN-0071",
+      "title": "Mundari Ideophones",
+      "source_class": "archival_audio_language_dataset",
+      "publisher": "PARADISEC; repository metadata mirrored by Australian National University Open Research",
+      "url": "http://hdl.handle.net/1885/146448",
+      "author": "Bonnie McLean",
+      "year": 2016,
+      "notes": "ANU repository metadata identifies Bonnie McLean's 2016 PARADISEC collection BMM1, Mundari Ideophones, DOI 10.4225/72/585bea79cf9dd. The collection investigates Mundari ideophones and their use in discourse, song and narrative and is tagged India/Hasada. Register as an archival audio/language-dataset lead. No recording, transcript, consultant identity detail, lexical item, song, narrative, pronunciation or cultural claim is imported from discovery metadata. Item-level access conditions, speaker/consultant consent, exact timecodes, recording-session provenance, dialect/variety labels and cultural-access controls are required before structured evidence use.",
+      "verification_state": "institutional_repository_metadata_verified",
+      "access_class": "open_access_collection_metadata_item_level_access_and_consent_review_required",
+      "rights_note": "Repository metadata reports a CC BY-SA 4.0 licence for the work/collection, but this must not be generalized to every embedded recording, transcript, speaker contribution or culturally restricted item without item-level verification. Cultural-access, consent and community restrictions may override technical licence entitlement."
+    },
+    {
+      "id": "WEB-MUN-0072",
+      "title": "Study of literary of munda folk tradition",
+      "source_class": "journal_article_folk_tradition_literature",
+      "publisher": "The Asian Man / IndianJournals.com",
+      "url": "https://indianjournals.com/article/am-17-1and2spl-016",
+      "author": "Ajit Munda",
+      "year": 2023,
+      "notes": "IndianJournals metadata identifies Ajit Munda's article in The Asian Man, volume 17, issue 1&2 Special, pages 137-141, DOI 10.5958/0975-6884.2023.00017.8, with online publication on 3 April 2024. The author affiliation is Department of Mundari, Ram Lakhan Singh Yadav College, Ranchi University. Register as a recent folk-tradition/literary-source lead only. Broad statements in the abstract are not promoted as universal/current Munda facts; later evidence use requires exact passage locators, source-method assessment, temporal/geographic scope, corroboration where needed, and contradiction/variant linkage.",
+      "verification_state": "journal_metadata_and_doi_verified",
+      "access_class": "public_journal_metadata_full_text_access_rights_unresolved",
+      "rights_note": "Journal metadata visibility does not establish permission for article-text redistribution, bulk extraction, derivative-database reuse, or commercial reuse. Publisher terms and any third-party or community-sensitive material require separate review."
+    }
+  ]
+}
