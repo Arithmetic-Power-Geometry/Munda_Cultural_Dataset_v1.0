@@ -2,7 +2,8 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-07T05:53:00Z",
+  "updated_utc":"2026-09-07T05:58:00Z",
+  "observed_head_before_status_sync":"6dc3ed13860ce559147c856fe70078e507672527",
   "audited_release_deadline_ist":"2026-09-21T23:59:00+05:30",
   "release_target":"strongest_defensible_audited_release",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
@@ -11,7 +12,7 @@
     "B_mmsc":{"status":"federated_census_and_canonicalization_active","audited_source_identities_discovered":28,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":2,"web_discovery_leads_observed":81,"web_discovery_leads_counted_in_audited_identity_total":1,"web_discovery_leads_remaining_outside_audited_identity_total":80,"source_complete_claim":false,"search_log_entries":19},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
     "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":81,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob","grouped_research_portal_present":true,"governance_exact_role_preserved":true,"duplicate_founder_entrypoint_metadata":false},
-    "E_publication_readiness":{"status":"release metrics synchronized to current MMSC state; current head CI reconfirmation pending","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass_on_baseline_head":true,"release_metrics_sources_discovered":28,"release_metrics_web_discovery_leads_observed":81,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":1,"release_metrics_coverage_rows":32},
+    "E_publication_readiness":{"status":"release metrics synchronized to current MMSC state; publication build succeeded on run15 pre-audit-fix head and fresh audit-fix-head build is in progress","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","release_metrics_sources_discovered":28,"release_metrics_web_discovery_leads_observed":81,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":1,"release_metrics_coverage_rows":32},
     "F_evidence_population":{"source_claims":39,"evidence_records":39,"evidence_links":39,"new_canonical_source_this_cycle":"SRC-MMSC-000002","new_claim_this_cycle":"CLM-000039","new_evidence_this_cycle":"EVD-000039","new_link_this_cycle":"LNK-000039","locator_strength":"publisher_abstract_plus_DOI","verification_boundary":"abstract_reported_not_field_verified_full_text_passage_pending"}
   },
   "changes_this_cycle":[
@@ -22,7 +23,9 @@
     "Census LSI Jharkhand PDF retrieval returned HTTP 502 during exact-locator extraction attempt; no page evidence was guessed and the sprint continued with stable publisher sources.",
     "Updated MMSC index to 28 audited identities, 81 discovery leads, 1 canonicalized discovery lead counted once, 2 standalone MMSC identities and 19 documented searches.",
     "Extended MMSC and discovery-integrity tests through WEB-MUN-0081 and the SRC-MMSC-000002 canonicalization boundary.",
-    "Synchronized publication release_metrics.json and release_metrics.tex to 28 audited identities / 81 discovery leads / 1 counted canonicalized lead while preserving 0/16 machine VERIFIED COMPLETE Mundarica volumes."
+    "Synchronized publication release metrics and manuscript macros to 28 audited identities / 81 discovery leads / 1 counted canonicalized lead while preserving 0/16 machine VERIFIED COMPLETE Mundarica volumes.",
+    "Fresh CI exposed that the migration audit incorrectly treated additive evidence rows as forbidden changes and that sources.csv had been used as an enrichment registry. Restored sources.csv to its immutable 14-row migration baseline and changed the migration audit to require exact immutable seed counts plus minimum-and-growing evidence counts while resolving new SRC-MMSC source identities from the dedicated MMSC register.",
+    "After the audit repair, the fresh Migration Audit and Source Register Audit both completed successfully on substantive head 6dc3ed13860ce559147c856fe70078e507672527; Streamlit Smoke and Publication Build were still in progress at status-sync time."
   ],
   "commits_this_cycle":[
     "e37b5fe5f07f78824b43d38df150050231c14991 - expand MMSC with verified non-Mundarica sources",
@@ -37,9 +40,11 @@
     "889950e0992628060e94d5d5ff7ef68a481f0a95 - log MMSC run15 discovery and canonicalization",
     "6ad69e2f57caedab80c5e4862f2c6a46f110f3b1 - regenerate publication release metrics for MMSC run15",
     "23d23e7865f314487f15cfea6de4f74a3d70626b - synchronize manuscript metric macros",
-    "STATUS_SYNC_COMMIT - synchronize MLHKP progress after run15"
+    "28227b81b5cd94869bbfc6916427538f361340de - synchronize MLHKP progress after MMSC run15",
+    "44d9e0985b9cf5aefbb94bb7f497fea94c98606f - preserve legacy sources CSV as immutable migration baseline",
+    "6dc3ed13860ce559147c856fe70078e507672527 - make migration audit additive while preserving seed baseline"
   ],
-  "tests_and_workflows":{"baseline_head":"b18b913f31e65c16978c8d1db26a5abb923ac632","baseline_all_four_green":true,"migration_audit":"PASS_ON_BASELINE_HEAD_CURRENT_HEAD_PENDING","source_register_audit":"PASS_ON_BASELINE_HEAD_CURRENT_HEAD_PENDING","publication_build":"PASS_ON_BASELINE_HEAD_CURRENT_HEAD_PENDING","streamlit_smoke":"PASS_ON_BASELINE_HEAD_CURRENT_HEAD_PENDING","current_head_requires_reconfirmation_after_data_and_test_commits":true,"discovery_integrity_contract_updated_through":"WEB-MUN-0081","claim_green_scope":"All four principal workflows were verified green on the baseline head. Current run15 lineage has synchronized tests and metrics but must receive fresh workflow conclusions before current-head green is claimed."},
+  "tests_and_workflows":{"substantive_head":"6dc3ed13860ce559147c856fe70078e507672527","migration_audit":"PASS","source_register_audit":"PASS","publication_build":"IN_PROGRESS_AT_STATUS_SYNC; PRIOR_RUN15_HEAD_PASS","streamlit_smoke":"IN_PROGRESS_AT_STATUS_SYNC","current_status_sync_head_requires_reconfirmation":true,"discovery_integrity_contract_updated_through":"WEB-MUN-0081","claim_green_scope":"Migration and Source Register audits are freshly green after the additive-ingestion repair. Publication and Streamlit workflows were not yet complete when this status file was synchronized, so no current-head all-four-green claim is made."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
@@ -49,7 +54,7 @@
     "The Taylor & Francis page for the 2025 Birsaite-religion candidate DOI 10.1080/14631369.2025.2589154 remains blocked and is not fabricated into a record.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
   ],
-  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"raw_discovery_metadata_directly_promoted_to_cultural_evidence":false,"canonicalized_source_identity_used_for_scoped_evidence":true,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false,"search_log_synchronized_through":"WEB-MUN-0081","deadline_pressure_can_override_evidence_or_access_gates":false},
-  "deadline_progress":{"deadline_ist":"2026-09-21T23:59:00+05:30","architecture_and_ui_mapping_ready":true,"baseline_ci_green":true,"systematic_census_complete_for_release":false,"all_obtainable_permitted_sources_processed":false,"all_public_claims_provenance_linked":false,"automated_completeness_audit_pass":false},
-  "next_best_action":"Continue deterministic DOI/title/edition canonicalization across the remaining 80 discovery leads, prioritizing lawfully accessible full text for exact page/passage evidence conversion; independently continue Census retry and Mundarica XIV-XVI/Volume-I scan acquisition; regenerate UI/manuscript metrics and reconfirm CI after each justified batch."
+  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"legacy_sources_csv_rows":14,"additive_mmsc_sources_kept_outside_legacy_csv":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"raw_discovery_metadata_directly_promoted_to_cultural_evidence":false,"canonicalized_source_identity_used_for_scoped_evidence":true,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false,"search_log_synchronized_through":"WEB-MUN-0081","deadline_pressure_can_override_evidence_or_access_gates":false},
+  "deadline_progress":{"deadline_ist":"2026-09-21T23:59:00+05:30","architecture_and_ui_mapping_ready":true,"systematic_census_complete_for_release":false,"all_obtainable_permitted_sources_processed":false,"all_public_claims_provenance_linked":false,"automated_completeness_audit_pass":false},
+  "next_best_action":"Continue deterministic DOI/title/edition canonicalization across the remaining 80 discovery leads, prioritizing lawfully accessible full text for exact page/passage evidence conversion; independently retry Census exact-locator extraction and Mundarica XIV-XVI/Volume-I scan acquisition; preserve the immutable seed baseline while growing dedicated v2 source/evidence registers."
 }
