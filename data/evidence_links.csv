@@ -1,4 +1,4 @@
-link_id,from_type,from_id,to_type,to_id,relationship_type
+link_id,source_type,source_id,target_type,target_id,relation
 LNK-000001,claim,CLM-000001,evidence,EVD-000001,supported_by
 LNK-000002,claim,CLM-000002,evidence,EVD-000002,supported_by
 LNK-000003,claim,CLM-000003,evidence,EVD-000003,supported_by
@@ -40,3 +40,4 @@ LNK-000038,claim,CLM-000038,evidence,EVD-000038,supported_by
 LNK-000039,claim,CLM-000039,evidence,EVD-000039,supported_by
 LNK-000040,claim,CLM-000040,evidence,EVD-000040,supported_by
 LNK-000041,claim,CLM-000041,evidence,EVD-000041,supported_by
+LNK-000042,claim,CLM-000042,evidence,EVD-000042,supported_by
