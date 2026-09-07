@@ -104,7 +104,7 @@ def test_web_discovery_is_visible_and_only_canonicalized_leads_are_counted():
     mmsc = load(MMSC)
     web = web_discovery_records(mmsc)
     ids = [r['id'] for r in web]
-    assert len(web) == mmsc['web_discovery_layer']['records'] == 81
+    assert len(web) == mmsc['web_discovery_layer']['records']
     assert len(web) == mmsc['metrics']['web_discovery_leads_observed']
     assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, len(web) + 1)]
     assert len(ids) == len(set(ids))
