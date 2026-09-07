@@ -14,10 +14,7 @@
       "geography": ["Jharkhand", "India"],
       "cultural_domain_coverage": ["historical_contemporary_change", "indigenous_peoples", "regional_history_and_politics"],
       "canonical_catalogue_url": "https://search.worldcat.org/title/The-Jharkhand-movement-%3A-indigenous-peoples%27-struggle-for-autonomy-in-India/oclc/936769273",
-      "identifier": {
-        "scheme": "OCLC",
-        "value": "936769273"
-      },
+      "identifier": {"scheme": "OCLC", "value": "936769273"},
       "publisher_as_catalogued": "IWGIA, Transaction Publishers",
       "publication_place_as_catalogued": "Copenhagen",
       "availability": "bibliographic_catalogue_record_verified",
@@ -31,13 +28,34 @@
       "verification_state": "catalogue_metadata_verified",
       "access_class": "BIBLIOGRAPHIC_ONLY",
       "edition_relationships": [],
-      "provenance": {
-        "repository": "WorldCat",
-        "catalogue_record": "OCLC 936769273",
-        "checked_utc": "2026-09-06T06:25:00Z",
-        "method": "Author/title catalogue search; metadata registered conservatively from the catalogue record only.",
-        "caution": "No scan, OCR, full text, redistribution right, or reuse permission was inferred from catalogue availability."
-      }
+      "provenance": {"repository": "WorldCat", "catalogue_record": "OCLC 936769273", "checked_utc": "2026-09-06T06:25:00Z", "method": "Author/title catalogue search; metadata registered conservatively from the catalogue record only.", "caution": "No scan, OCR, full text, redistribution right, or reuse permission was inferred from catalogue availability."}
+    },
+    {
+      "source_id": "SRC-MMSC-000002",
+      "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+      "creator": "Elizabeth Tuti; Meena Kumari; Kumari Vibhuti Nayak; Shamsher Alam",
+      "year": 2025,
+      "source_type": "peer_reviewed_journal_article",
+      "source_class": "megalithic_heritage_ethnographic_article",
+      "language": ["English"],
+      "geography": ["Jharkhand", "India"],
+      "cultural_domain_coverage": ["death_burial_remembrance", "material_culture", "oral_traditions", "beliefs_sacred_life", "historical_contemporary_change"],
+      "canonical_catalogue_url": "https://doi.org/10.30884/seh/2025.02.01",
+      "identifier": {"scheme": "DOI", "value": "10.30884/seh/2025.02.01"},
+      "publisher_as_catalogued": "Social Evolution & History",
+      "publication_place_as_catalogued": null,
+      "availability": "publisher_article_and_abstract_verified",
+      "scan_state": "not_applicable",
+      "ocr_state": "not_applicable",
+      "full_text_state": "publisher_page_available_item_reuse_terms_require_review",
+      "acquisition_state": "metadata_and_abstract_only",
+      "rights_reuse_status": "item_terms_require_review",
+      "extraction_state": "abstract_level_scope_evidence_extracted",
+      "evidence_link_state": "one_scope_bounded_claim_linked",
+      "verification_state": "publisher_metadata_doi_and_abstract_verified",
+      "access_class": "PUBLIC_METADATA_AND_ABSTRACT",
+      "edition_relationships": [],
+      "provenance": {"repository": "Social Evolution & History publisher DOI page", "catalogue_record": "DOI 10.30884/seh/2025.02.01", "checked_utc": "2026-09-07T05:43:00Z", "method": "Exact DOI/title/author/year comparison against existing MLHKP discovery identities followed by publisher abstract verification.", "caution": "Only an abstract-level source-reported claim is promoted. No article text, images, participant material, or universal/current cultural claim is inferred."}
     }
   ]
 }
