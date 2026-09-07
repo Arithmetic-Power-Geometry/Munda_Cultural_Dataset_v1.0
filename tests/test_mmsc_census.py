@@ -64,18 +64,24 @@ def test_external_mundarica_ocr_never_promotes_machine_verification():
     assert manifest['audit_summary']['verified_complete_volumes'] == 0
 
 
-def test_standalone_discovery_has_required_evidence_preserving_fields():
+def test_standalone_discoveries_have_required_evidence_preserving_fields():
     discoveries = load(DISCOVERIES)['records']
-    assert len(discoveries) == 1
-    r = discoveries[0]
-    assert r['source_id'] == 'SRC-MMSC-000001'
-    assert r['identifier'] == {'scheme': 'OCLC', 'value': '936769273'}
-    assert r['verification_state'] == 'catalogue_metadata_verified'
-    assert r['acquisition_state'] == 'not_acquired'
-    assert r['rights_reuse_status'] == 'not_assessed'
-    assert r['access_class'] == 'BIBLIOGRAPHIC_ONLY'
-    for key in ['title','creator','year','source_type','language','geography','cultural_domain_coverage','canonical_catalogue_url','availability','scan_state','ocr_state','full_text_state','extraction_state','evidence_link_state','provenance']:
-        assert key in r
+    assert len(discoveries) == 2
+    assert [r['source_id'] for r in discoveries] == ['SRC-MMSC-000001', 'SRC-MMSC-000002']
+    first, second = discoveries
+    assert first['identifier'] == {'scheme': 'OCLC', 'value': '936769273'}
+    assert first['verification_state'] == 'catalogue_metadata_verified'
+    assert first['acquisition_state'] == 'not_acquired'
+    assert first['rights_reuse_status'] == 'not_assessed'
+    assert first['access_class'] == 'BIBLIOGRAPHIC_ONLY'
+    assert second['identifier'] == {'scheme': 'DOI', 'value': '10.30884/seh/2025.02.01'}
+    assert second['verification_state'] == 'publisher_metadata_doi_and_abstract_verified'
+    assert second['acquisition_state'] == 'metadata_and_abstract_only'
+    assert second['extraction_state'] == 'abstract_level_scope_evidence_extracted'
+    assert second['evidence_link_state'] == 'one_scope_bounded_claim_linked'
+    for r in discoveries:
+        for key in ['title','creator','year','source_type','language','geography','cultural_domain_coverage','canonical_catalogue_url','availability','scan_state','ocr_state','full_text_state','extraction_state','evidence_link_state','provenance']:
+            assert key in r
 
 
 def test_mmsc_metrics_are_repository_counts_not_completeness_claims():
@@ -86,26 +92,30 @@ def test_mmsc_metrics_are_repository_counts_not_completeness_claims():
     counted = {x['source_id'] for x in master['sources']}
     counted.update(externally_located_ids(manifest))
     counted.update(x['source_id'] for x in discoveries)
-    assert mmsc['metrics']['sources_discovered'] == len(counted) == 27
-    assert mmsc['metrics']['additional_federated_discoveries'] == 13
-    assert mmsc['metrics']['standalone_mmsc_discoveries'] == len(discoveries) == 1
+    assert mmsc['metrics']['sources_discovered'] == len(counted) == 28
+    assert mmsc['metrics']['additional_federated_discoveries'] == 14
+    assert mmsc['metrics']['standalone_mmsc_discoveries'] == len(discoveries) == 2
     assert mmsc['metrics']['mundarica_authoritative_scans_registered'] == manifest['audit_summary']['registered_authoritative_scans'] == 0
     assert mmsc['metrics']['mundarica_verified_complete_volumes'] == manifest['audit_summary']['verified_complete_volumes'] == 0
     assert mmsc['completeness_claim'] == 'source_comprehensive_under_documented_protocol_only'
 
 
-def test_web_discovery_is_visible_but_not_double_counted_before_identity_dedup():
+def test_web_discovery_is_visible_and_only_canonicalized_leads_are_counted():
     mmsc = load(MMSC)
     web = web_discovery_records(mmsc)
     ids = [r['id'] for r in web]
-    assert len(web) == mmsc['web_discovery_layer']['records']
+    assert len(web) == mmsc['web_discovery_layer']['records'] == 81
     assert len(web) == mmsc['metrics']['web_discovery_leads_observed']
     assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, len(web) + 1)]
     assert len(ids) == len(set(ids))
-    assert mmsc['metrics']['web_discovery_leads_counted_in_audited_identity_total'] == 0
+    assert mmsc['metrics']['web_discovery_leads_counted_in_audited_identity_total'] == 1
     web_register = next(x for x in mmsc['source_registers'] if x['register_type'] == 'web_source_discovery_leads')
-    assert web_register['counted_records'] == 0
+    assert web_register['counted_records'] == 1
     assert web_register['observed_leads'] == len(web)
+    canonicalized = [r for r in web if r.get('canonicalization', {}).get('status') == 'canonicalized_new_identity']
+    assert len(canonicalized) == 1
+    assert canonicalized[0]['id'] == 'WEB-MUN-0078'
+    assert canonicalized[0]['canonicalization']['canonical_source_id'] == 'SRC-MMSC-000002'
 
 
 def test_search_log_has_stable_ids_and_no_unregistered_permanent_references():
