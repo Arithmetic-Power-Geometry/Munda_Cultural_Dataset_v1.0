@@ -2,45 +2,39 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-07T04:11:00Z",
+  "updated_utc":"2026-09-07T05:33:20Z",
+  "audited_release_deadline_ist":"2026-09-21T23:59:00+05:30",
+  "release_target":"strongest_defensible_audited_release",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
-    "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
+    "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"human_review_attested_volumes":16,"ocr_is_not_verified_transcription":true},
     "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":77,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false,"search_log_entries":18},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
     "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":77,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob","grouped_research_portal_present":true,"governance_exact_role_preserved":true,"duplicate_founder_entrypoint_metadata":false},
-    "E_publication_readiness":{"status":"release metrics synchronized to 77 discovery leads; current head requires workflow reconfirmation before PASS","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":77,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
+    "E_publication_readiness":{"status":"publication build passed on baseline head b18b913f31e65c16978c8d1db26a5abb923ac632; new deadline-ledger head requires CI reconfirmation","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass_on_baseline_head":true,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":77,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
-    "Kept all writes on mlhkp-v2 only; main was not modified.",
-    "Added WEB-MUN-0076, Alpa Shah's 2007 Journal of the Royal Anthropological Institute article on Mundas, politics and state relations in Jharkhand, as a publisher-verified political-anthropology lead only; abstract-level interpretations were not universalized.",
-    "Added WEB-MUN-0077, the 2026 University of Konstanz-hosted FASAL article Towards a typology of information structuring in Munda languages, as a comparative Sora/Mundari linguistics lead requiring exact example/corpus provenance before evidence use.",
-    "Detected a PubMed-indexed Munda ethnobotany candidate already represented by the discovery layer and skipped duplicate registration; medicinal-knowledge material remains safety-, locality-, rights- and cultural-access bounded.",
-    "Synchronized MMSC index from 75 to 77 external discovery leads while preserving 27 audited source identities and zero discovery leads counted in the audited identity total.",
-    "Appended reproducible search log entry MMSC-SEARCH-000018 and extended discovery-integrity tests through WEB-MUN-0077.",
-    "Synchronized publication JSON and LaTeX release metrics to 77 discovery leads; Streamlit requires no filename-specific patch because its entrypoint dynamically loads web_discovery_expansion_*.json.",
-    "No cultural claim, linguistic proposition, medicinal recommendation, OCR verification, community-validation state, source-completeness assertion, redistribution permission or commercial-reuse permission was promoted."
+    "Verified baseline head b18b913f31e65c16978c8d1db26a5abb923ac632 has Migration Audit PASS, Source Register Audit PASS, Streamlit Smoke PASS and Publication Build PASS.",
+    "Created status/audited_release_deadline.json with the 21 September 2026 11:59 PM IST audited-release deadline, parallel workstreams, machine-readable release gates, current real metrics and no-false-completion policy.",
+    "Updated GitHub issue #2 from stale early-state text to the current Mundarica I-XIII located/working state, Volume I 324-page structural accounting, XIV-XVI locator blockers, 0/16 machine VERIFIED COMPLETE and next parallel acquisition tasks.",
+    "Ran a fresh targeted search for Mundarica XIV-XVI; no authoritative exact locator was verified, so no weak search hit was promoted or guessed into the manifest.",
+    "Kept discovery leads at 77, audited identities at 27 and discovery leads counted in audited identity total at zero; no count was inflated to meet the deadline.",
+    "No cultural claim, OCR verification, community-validation state, redistribution permission or commercial-reuse permission was promoted in this cycle."
   ],
   "commits_this_cycle":[
-    "7fd4e958c85ec71a7a263ead8bf3353c3390da5b - add WEB-MUN-0076 and WEB-MUN-0077 discovery records",
-    "f81375782f03f308dddfae2289d128c3acfb1062 - synchronize MMSC census to 77 discovery leads",
-    "d28291b4751ef7ba68bca17ed8455e74d88d632c - append MMSC search log entry MMSC-SEARCH-000018",
-    "90625baeae4f491b1ec74c3c0b9f577da5a09392 - synchronize publication JSON release metrics",
-    "b325921a9a397d9c8793e89c3fca4306ed52fcb0 - synchronize LaTeX release metrics macros",
-    "c977408a5495a74d970f69ec779b90789edb29ca - extend discovery integrity tests through WEB-MUN-0077",
-    "STATUS_SYNC_COMMIT - synchronize MLHKP cycle status to 77 discovery leads"
+    "7e42d15fd21c35ec5761b2bd133bc63dcabe44c7 - add audited release deadline and parallel gate ledger",
+    "STATUS_SYNC_COMMIT - synchronize MLHKP progress to deadline-ledger cycle"
   ],
-  "tests_and_workflows":{"status":"current_head_not_yet_reconfirmed","last_observed_green_publication_head":"075ae2d2bf8a3ad1f95172328c82717cb531aa42","migration_audit":"PENDING_RECONFIRMATION_ON_CURRENT_HEAD","source_register_audit":"PENDING_RECONFIRMATION_ON_CURRENT_HEAD","publication_build":"PENDING_RECONFIRMATION_ON_CURRENT_HEAD","streamlit_smoke":"KNOWN_PRIOR_FINAL_RUNTIME_PYTEST_FAILURE_PENDING_RECONFIRMATION","discovery_integrity_contract_updated_through":"WEB-MUN-0077","claim_green_scope":"No repository-wide or current-head publication PASS is claimed until current-head workflows complete."},
+  "tests_and_workflows":{"baseline_head":"b18b913f31e65c16978c8d1db26a5abb923ac632","baseline_all_four_green":true,"migration_audit":"PASS_ON_BASELINE_HEAD","source_register_audit":"PASS_ON_BASELINE_HEAD","publication_build":"PASS_ON_BASELINE_HEAD","streamlit_smoke":"PASS_ON_BASELINE_HEAD","current_head_requires_reconfirmation_after_status_only_commits":true,"discovery_integrity_contract_updated_through":"WEB-MUN-0077","claim_green_scope":"All four principal workflows are verified green on b18b913f31e65c16978c8d1db26a5abb923ac632. New status/deadline-only commits must be reconfirmed before claiming current-head green."},
   "blockers":[
-    "The prior Streamlit Smoke passed architecture/model/publication contracts but failed in tests/test_streamlit_app.py; this source-expansion head still requires workflow reconfirmation.",
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
-    "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
+    "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI after the latest targeted search.",
     "Seventy-seven non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
-    "WEB-MUN-0076 requires full-text passage locators, field-site/sample/method and period framing, rights review and contradiction/community-aware review before any political or institutional proposition becomes evidence.",
-    "WEB-MUN-0077 requires exact PDF page/example/table locators, language/corpus provenance, item licence and underlying elicitation/corpus rights review before linguistic evidence promotion.",
-    "The Taylor & Francis page for the 2025 Birsaite-religion candidate DOI 10.1080/14631369.2025.2589154 remains blocked from the prior cycle and was not fabricated into a record.",
+    "High-value discovery leads still require exact passage/page/timecode locators, rights/access review and scope framing before evidence promotion.",
+    "The Taylor & Francis page for the 2025 Birsaite-religion candidate DOI 10.1080/14631369.2025.2589154 remains blocked and is not fabricated into a record.",
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
   ],
-  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false,"search_log_synchronized_through":"WEB-MUN-0077"},
-  "next_best_action":"Continue broad non-Mundarica discovery and deterministic canonicalization; prioritize exact locators and rights/access review for high-value recent linguistic, governance, archival and government sources while preserving blocked-source records without fabrication, then reconfirm discovery, Streamlit and publication workflows."
+  "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false,"search_log_synchronized_through":"WEB-MUN-0077","deadline_pressure_can_override_evidence_or_access_gates":false},
+  "deadline_progress":{"deadline_ist":"2026-09-21T23:59:00+05:30","architecture_and_ui_mapping_ready":true,"baseline_ci_green":true,"systematic_census_complete_for_release":false,"all_obtainable_permitted_sources_processed":false,"all_public_claims_provenance_linked":false,"automated_completeness_audit_pass":false},
+  "next_best_action":"Run deterministic canonicalization and exact-locator evidence promotion on the highest-value permitted discovery leads while Mundarica XIV-XVI locator search and Volume I authoritative-scan resolution continue independently; regenerate UI/manuscript metrics after each justified promotion and keep all CI green."
 }
