@@ -1,4 +1,4 @@
-link_id,source_type,source_id,target_type,target_id,relation
+link_id,from_type,from_id,to_type,to_id,relationship_type
 LNK-000001,claim,CLM-000001,evidence,EVD-000001,supported_by
 LNK-000002,claim,CLM-000002,evidence,EVD-000002,supported_by
 LNK-000003,claim,CLM-000003,evidence,EVD-000003,supported_by
