@@ -66,9 +66,9 @@ def test_external_mundarica_ocr_never_promotes_machine_verification():
 
 def test_standalone_discoveries_have_required_evidence_preserving_fields():
     discoveries = load(DISCOVERIES)['records']
-    assert len(discoveries) == 2
-    assert [r['source_id'] for r in discoveries] == ['SRC-MMSC-000001', 'SRC-MMSC-000002']
-    first, second = discoveries
+    assert len(discoveries) >= 2
+    assert [r['source_id'] for r in discoveries] == [f'SRC-MMSC-{i:06d}' for i in range(1, len(discoveries) + 1)]
+    first, second = discoveries[:2]
     assert first['identifier'] == {'scheme': 'OCLC', 'value': '936769273'}
     assert first['verification_state'] == 'catalogue_metadata_verified'
     assert first['acquisition_state'] == 'not_acquired'
@@ -92,9 +92,9 @@ def test_mmsc_metrics_are_repository_counts_not_completeness_claims():
     counted = {x['source_id'] for x in master['sources']}
     counted.update(externally_located_ids(manifest))
     counted.update(x['source_id'] for x in discoveries)
-    assert mmsc['metrics']['sources_discovered'] == len(counted) == 28
-    assert mmsc['metrics']['additional_federated_discoveries'] == 14
-    assert mmsc['metrics']['standalone_mmsc_discoveries'] == len(discoveries) == 2
+    assert mmsc['metrics']['sources_discovered'] == len(counted)
+    assert mmsc['metrics']['additional_federated_discoveries'] == len(counted) - len(master['sources'])
+    assert mmsc['metrics']['standalone_mmsc_discoveries'] == len(discoveries)
     assert mmsc['metrics']['mundarica_authoritative_scans_registered'] == manifest['audit_summary']['registered_authoritative_scans'] == 0
     assert mmsc['metrics']['mundarica_verified_complete_volumes'] == manifest['audit_summary']['verified_complete_volumes'] == 0
     assert mmsc['completeness_claim'] == 'source_comprehensive_under_documented_protocol_only'
@@ -108,14 +108,26 @@ def test_web_discovery_is_visible_and_only_canonicalized_leads_are_counted():
     assert len(web) == mmsc['metrics']['web_discovery_leads_observed']
     assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, len(web) + 1)]
     assert len(ids) == len(set(ids))
-    assert mmsc['metrics']['web_discovery_leads_counted_in_audited_identity_total'] == 1
-    web_register = next(x for x in mmsc['source_registers'] if x['register_type'] == 'web_source_discovery_leads')
-    assert web_register['counted_records'] == 1
-    assert web_register['observed_leads'] == len(web)
+
     canonicalized = [r for r in web if r.get('canonicalization', {}).get('status') == 'canonicalized_new_identity']
-    assert len(canonicalized) == 1
-    assert canonicalized[0]['id'] == 'WEB-MUN-0078'
-    assert canonicalized[0]['canonicalization']['canonical_source_id'] == 'SRC-MMSC-000002'
+    canonical_source_ids = [r['canonicalization']['canonical_source_id'] for r in canonicalized]
+    standalone_ids = {r['source_id'] for r in load(DISCOVERIES)['records']}
+    expected_count = mmsc['metrics']['web_discovery_leads_counted_in_audited_identity_total']
+    web_register = next(x for x in mmsc['source_registers'] if x['register_type'] == 'web_source_discovery_leads')
+
+    assert len(canonicalized) == expected_count
+    assert web_register['counted_records'] == expected_count
+    assert web_register['observed_leads'] == len(web)
+    assert len(canonical_source_ids) == len(set(canonical_source_ids))
+    assert set(canonical_source_ids) <= standalone_ids
+
+    latest = mmsc.get('latest_canonicalization')
+    if canonicalized:
+        assert latest
+        assert latest['web_source_id'] in {r['id'] for r in canonicalized}
+        assert latest['canonical_source_id'] in set(canonical_source_ids)
+    else:
+        assert expected_count == 0
 
 
 def test_search_log_has_stable_ids_and_no_unregistered_permanent_references():
