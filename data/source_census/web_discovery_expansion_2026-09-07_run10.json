@@ -1,0 +1,59 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified bibliographic, standards, archival-media, government-web, or book source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0062",
+      "title": "A Munda song book",
+      "source_class": "historical_song_text_book",
+      "publisher": "United Press, Ltd., Patna; bibliographic metadata verified via Open Library/Library of Congress identifiers",
+      "url": "https://openlibrary.org/books/OL6506296M/A_Munda_song_book",
+      "author": "W. G. Archer",
+      "year": 1942,
+      "notes": "Open Library bibliographic metadata identifies W. G. Archer's 1942 A Munda song book, published by United Press, Ltd., with 550 catalogued pages, LCCN 46029131, OCLC 4512074 and subject headings for Mundari folk songs and Mundari-language texts. Register as a high-value historical songs/oral-traditions/performance-text source lead. No song text, translation, performance interpretation or cultural proposition is ingested from catalogue metadata. Any later use requires a lawfully accessed copy, exact page/song locator, historical framing, performer/community provenance where known, and variant/translation linkage rather than universalization.",
+      "verification_state": "library_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_metadata_copy_access_unresolved",
+      "rights_note": "Catalogue availability and bibliographic identifiers do not establish permission to reproduce or redistribute the book, song texts, translations, scans, or derivative datasets. Copyright/public-domain status must be checked in the relevant jurisdiction, and cultural-access or performer/community restrictions may remain more restrictive than copyright entitlement."
+    },
+    {
+      "id": "WEB-MUN-0063",
+      "title": "The Unicode Standard, Version 17.0 — Nag Mundari",
+      "source_class": "technical_standard_script_reference",
+      "publisher": "The Unicode Consortium",
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/UnicodeStandard-17.0.pdf",
+      "author": "The Unicode Consortium",
+      "year": 2025,
+      "notes": "Unicode Standard Version 17.0, section 13.12, documents the Nag Mundari block U+1E4D0–U+1E4FF and identifies the script as used for Mundari. Register as a technical script/encoding source lead for schema validation, text normalization and software interoperability. It is not a source for universal cultural practice, script adoption rates, community identity, literacy levels or historical claims beyond what the standard itself explicitly documents. Character-level use should preserve Unicode version and code-point provenance.",
+      "verification_state": "official_technical_standard_verified",
+      "access_class": "public_technical_standard",
+      "rights_note": "Public access to the Unicode Standard does not waive the Unicode Consortium's copyright, trademark or data-file terms. MLHKP may reference standard code points and metadata subject to applicable Unicode terms; redistribution of standard text or figures and commercial reuse must follow those terms. Cultural-access governance remains independent of technical encoding entitlement."
+    },
+    {
+      "id": "WEB-MUN-0064",
+      "title": "New Testament • Mundari (unr) — Audio Bible",
+      "source_class": "religious_audio_media_catalogue",
+      "publisher": "MegaVoice Media Cloud; listed publisher Bible Society of India",
+      "url": "https://megavoice.com/media-cloud/m036832-new-testament-unr-mundari-audio-bible/",
+      "author": "Bible Society of India / recording contributors not established from catalogue page",
+      "year": 2026,
+      "notes": "MegaVoice catalogues reference M036832 as a Mundari [unr] New Testament audio item, category Scripture, type Audio, publisher Bible Society of India, with a playable sample URL. Register as an audio/media and language-resource lead only. Religious content is not treated as representative of all Munda communities or belief systems, and no recording, transcript, speaker identity, pronunciation claim or cultural proposition is ingested without item-level provenance, consent/performer review where applicable, exact timecodes and rights clearance.",
+      "verification_state": "public_media_catalogue_metadata_verified",
+      "access_class": "public_catalogue_with_streamable_sample_rights_unresolved",
+      "rights_note": "Streaming or sample availability does not establish permission to download, redistribute, transcribe, train models on, commercially reuse, or recontextualize the audio. Bible Society of India, MegaVoice and contributor/performer rights must be checked at item level; religious and community-sensitive access restrictions may override technical availability."
+    },
+    {
+      "id": "WEB-MUN-0065",
+      "title": "Munda — Dr. Ramdayal Munda Tribal Welfare Research Institute Jharkhand",
+      "source_class": "government_tri_web_profile",
+      "publisher": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Department of Welfare, Government of Jharkhand",
+      "url": "https://www.trijharkhand.in/en/munda",
+      "author": "Dr. Ramdayal Munda Tribal Welfare Research Institute",
+      "year": 2026,
+      "notes": "The official Jharkhand TRI website maintains a public Munda profile page within an institute established for tribal research, training, evaluation, publications and preservation of tribal art and culture. Register the page as a current government/TRI web-source lead across institutional, language, history and cultural-description domains. The page contains broad descriptive statements and lists, but none are promoted as current or universal facts in MLHKP without exact passage citation, source-attribution review, date/context assessment and corroboration where needed.",
+      "verification_state": "official_state_tri_webpage_verified",
+      "access_class": "public_government_webpage",
+      "rights_note": "Government webpage availability does not by itself establish unrestricted copying, derivative-database extraction, image reuse, commercial reuse or republication rights. Exact site terms, source attribution and any embedded third-party material must be reviewed before reuse; cultural-access and community-validation requirements remain separate."
+    }
+  ]
+}
