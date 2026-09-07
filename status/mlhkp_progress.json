@@ -2,35 +2,38 @@
   "project":"MLHKP",
   "branch":"mlhkp-v2",
   "module_status":"in_progress",
-  "updated_utc":"2026-09-07T01:31:00Z",
+  "updated_utc":"2026-09-07T01:38:00Z",
   "architecture_policy":"complete_data_skeleton_and_information_architecture_first_then_evidence_population",
   "workstreams":{
     "A_mundarica":{"expected_volumes":16,"located_or_working_volume_slots":13,"externally_located_volumes":12,"located_volume_numbers":[1,2,3,4,5,6,7,8,9,10,11,12,13],"pending_exact_locators":[14,15,16],"volume_1":{"source_id":"SRC-MUN-V01","page_blocks":324,"page_accounting_complete":true,"registered_working_transcriptions":1,"authoritative_scan_registered":false,"verified_complete":false},"verified_complete_volumes":0,"ocr_is_not_verified_transcription":true},
     "B_mmsc":{"status":"federated_census_active","audited_source_identities_discovered":27,"canonical_master_records":14,"verified_external_mundarica_locators":12,"standalone_mmsc_discoveries":1,"web_discovery_leads_observed":69,"web_discovery_leads_counted_in_audited_identity_total":0,"source_complete_claim":false,"search_log_entries":15},
     "C_information_model":{"registered_modules":42,"required_information_architecture_modules_represented":42,"module_schema_domain_mapping_percent":100.0,"master_schema_category_representation_percent":100.0,"record_families":24,"explicit_domain_homes":153,"applicable_record_contract_fields":23,"evidence_chain":"SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN","coverage_matrix_version":"1.1.0","coverage_matrix_rows":32,"all_registered_modules_have_machine_readable_coverage_gap_mapping":true},
-    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":69,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob","governance_exact_role_preserved":true,"duplicate_founder_entrypoint_metadata":false,"architecture_contract_punctuation_normalization":"committed_awaiting_ci_confirmation"},
-    "E_publication_readiness":{"status":"release metrics synchronized to 69 discovery leads; prior publication build passed, current repair-head build queued","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":69,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
+    "D_streamlit":{"all_16_volume_slots_visible":true,"empty_modules_truthfully_marked":true,"future_commercial_modules_disabled_by_default":true,"cultural_access_overrides_entitlement":true,"external_source_discovery_layer_records":69,"external_source_discovery_searchable":true,"external_source_discovery_visible_in_mmsc":true,"discovery_expansion_loading":"dynamic_via_streamlit_entrypoint_glob","grouped_research_portal_present":true,"governance_exact_role_preserved":true,"duplicate_founder_entrypoint_metadata":false,"architecture_contract_stage":"PASS_on_c83818e2","streamlit_runtime_smoke_suite":"realigned_to_current_interface_awaiting_current_ci_completion"},
+    "E_publication_readiness":{"status":"release metrics synchronized to 69 discovery leads; current e1722390 publication build in progress","main_tex":"publication/main.tex","repository_derived_metrics":true,"snapshot_date":"2026-09-07","publication_package_pass":false,"release_metrics_sources_discovered":27,"release_metrics_web_discovery_leads_observed":69,"release_metrics_web_discovery_leads_counted_in_audited_identity_total":0,"release_metrics_coverage_rows":32}
   },
   "changes_this_cycle":[
     "Kept work on mlhkp-v2 only; main was not modified and the existing PR remains the integration path.",
-    "Diagnosed the red Streamlit architecture job to a punctuation-only contract mismatch: required navigation names used compact slashes and ASCII hyphen while the registry uses equivalent spaced slashes and an en dash.",
-    "Updated the architecture contract test to normalize only typography-equivalent slash/dash/whitespace variants while still requiring every named module, grouped navigation, empty-state, governance, evidence-chain, discovery-separation and cultural-access contract.",
-    "Preserved the exact Rajan Pahan role 'Founding Community, Meetings & Field Logistics Coordinator' and the no-duplicate-founder-entrypoint rule.",
+    "Diagnosed the earlier Streamlit architecture failure as a typography-only navigation-contract mismatch and normalized slash/dash/whitespace equivalence without removing any required module or safeguard.",
+    "Confirmed on CI that the complete information architecture contract, information-model contract and publication data-sync contract all pass after that repair.",
+    "Identified the remaining Streamlit failure as stale legacy smoke tests expecting the former monolithic main_navigation interface and obsolete footer/source strings rather than the current knowledge-engine entrypoint plus grouped Research Portal.",
+    "Realigned tests/test_streamlit_app.py to the current interface: all knowledge-engine pages, dynamic web-discovery expansion loading, grouped Research Portal visibility, exact governance role, no duplicate founder metadata, MMSC consistency, Mundarica safeguards and reviewer-policy checks.",
     "Safely appended MMSC-SEARCH-000015 for WEB-MUN-0066 through WEB-MUN-0069, clearing the previously recorded reproducible-search-log synchronization blocker without changing discovery or audited-source counts.",
     "The source census remains 27 audited source identities and 69 external discovery leads; zero web-discovery leads are counted in the audited identity total.",
     "No cultural claim, lexical entry, OCR verification, community-validation state, source-completeness assertion, redistribution permission or commercial-reuse permission was promoted.",
-    "Fresh Migration Audit, Source Register Audit, Streamlit Smoke and Publication Build runs were queued on the new head at the latest observation; no current-head whole-repository/publication PASS is claimed."
+    "On e172239023f1978aaf187cc08a613c29c426203b, Migration Audit and Source Register Audit are PASS; Streamlit Smoke and Publication Build were still in progress at latest observation."
   ],
   "commits_this_cycle":[
     "62b5ffddbfd22b9f2f1d505805c39a38d9a45204 - Normalize equivalent navigation punctuation in architecture contract",
-    "c83818e2d2649de4485e066d48ee10806c10517d - Append reproducible search log for WEB-MUN-0066 through 0069"
+    "c83818e2d2649de4485e066d48ee10806c10517d - Append reproducible search log for WEB-MUN-0066 through 0069",
+    "73eb3a26bf3977f440d23bab0400e39d4f94059f - Synchronize architecture repair and source-search log status",
+    "e172239023f1978aaf187cc08a613c29c426203b - Align Streamlit smoke tests with current MLHKP interface"
   ],
-  "tests_and_workflows":{"status":"repair_head_ci_queued","last_observed_head":"c83818e2d2649de4485e066d48ee10806c10517d","migration_audit":"QUEUED","source_register_audit":"QUEUED","publication_build":"QUEUED","streamlit_smoke":"QUEUED","previous_head":"25cf6d4a6f9594ffc2a89c74ff90b91f130708ea","previous_head_results":{"migration_audit":"PASS","source_register_audit":"PASS","publication_build":"PASS","streamlit_smoke":"FAIL_architecture_contract"},"claim_green_scope":"Previous head had three green workflows and one architecture-contract failure. The repair head is not marked green until its queued workflows complete."},
+  "tests_and_workflows":{"status":"current_runtime_smoke_and_publication_build_in_progress","last_observed_head":"e172239023f1978aaf187cc08a613c29c426203b","migration_audit":"PASS","source_register_audit":"PASS","publication_build":"IN_PROGRESS","streamlit_smoke":"IN_PROGRESS","architecture_contract":"PASS_on_previous_repair_head","information_model_contract":"PASS_on_previous_repair_head","publication_data_sync_contract":"PASS_on_previous_repair_head","claim_green_scope":"Migration Audit and Source Register Audit are green on e1722390. Architecture, information-model and publication data-sync stages passed on the immediately preceding repair run. Whole-repository/publication PASS remains withheld until the current Streamlit runtime smoke and publication build complete."},
   "blockers":[
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Exact authoritative locators remain unresolved for Mundarica Volumes XIV, XV and XVI.",
     "Sixty-nine non-Mundarica web-discovery leads require deterministic source-identity canonicalization before any are added to the audited MMSC identity total.",
-    "Architecture punctuation-contract repair is committed but requires current-head CI confirmation before the Streamlit architecture blocker can be closed.",
+    "Current Streamlit runtime smoke suite is executing after realignment to the present interface; repository-wide PASS is withheld until completion.",
     "Bhaduri 1931 requires a lawfully accessed edition and edition-specific rights assessment before dictionary-entry extraction.",
     "Phillips and Harrison 2017 requires exact passage/figure/table locators and publisher/source permissions before structured extraction or figure reuse.",
     "Roy 1912 must be treated as historical/source-reported evidence; scan/edition rights and culturally sensitive material require separate review before reuse.",
@@ -39,5 +42,5 @@
     "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
   ],
   "integrity":{"permanent_volume_ids_preserved":true,"legacy_master_source_ids_preserved":true,"ocr_treated_as_verified":false,"rights_assumed_from_public_availability":false,"restricted_material_exposed":false,"verified_complete_volumes":0,"main_branch_modified":false,"web_discovery_leads_promoted_to_cultural_evidence":false,"all_registered_modules_coverage_mapped":true,"medicinal_claims_promoted_from_discovery_metadata":false,"rajan_pahan_exact_title_preserved":true,"rajan_pahan_exact_role":"Founding Community, Meetings & Field Logistics Coordinator","duplicate_founder_entrypoint_metadata":false,"search_log_synchronized_through":"WEB-MUN-0069"},
-  "next_best_action":"Confirm repair-head CI, then continue broad non-Mundarica discovery and deterministic canonicalization while preserving source/evidence/rights separation; independently continue Mundarica XIV-XVI locator resolution and Volume I authoritative-scan acquisition without treating OCR as verification."
+  "next_best_action":"Confirm the e1722390 Streamlit runtime smoke and publication build results; if green, close the stale-test blocker and continue broad source discovery/canonicalization plus Mundarica XIV-XVI locator and Volume I authoritative-scan work without promoting unverified OCR or discovery metadata into evidence."
 }
