@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T16:40:00Z",
-  "observed_head_before_status_sync": "15e56d9619f8fa3571b997b03512edfcf38f4e35",
+  "updated_utc": "2026-09-07T16:48:00Z",
+  "observed_head_before_status_sync": "5a6294a434badb30e44f7e87e78b3e2aa66b47e2",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -28,10 +28,10 @@
       "web_discovery_leads_remaining_outside_audited_identity_total": 77,
       "source_complete_claim": false,
       "search_log_entries_primary": 28,
-      "search_log_entries_supplemental": 3,
-      "latest_search_id": "MMSC-SEARCH-000029",
+      "search_log_entries_supplemental": 4,
+      "latest_search_id": "MMSC-SEARCH-000030",
       "latest_canonicalization": "WEB-MUN-0063→SRC-MMSC-000011",
-      "search_log_note": "Primary append-only log remains consolidated through 000028. MMSC-SEARCH-000029 is preserved in search_log_run23.jsonl pending atomic WEB-MUN-0025 canonicalization/evidence/count synchronization. Earlier run21/run22 supplemental files are historical artifacts already consolidated into the primary log."
+      "search_log_note": "Primary append-only log remains consolidated through 000028. MMSC-SEARCH-000029 is preserved in search_log_run23.jsonl for the ACL MunTTS paper and MMSC-SEARCH-000030 is preserved in search_log_run24.jsonl for the official Microsoft code/dataset-access record; neither changes audited identity counts until atomic canonicalization."
     },
     "C_information_model": {
       "registered_modules": 42,
@@ -50,7 +50,7 @@
       "external_source_discovery_layer_records": 87,
       "grouped_research_portal_present": true,
       "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true,
-      "sync_state": "Canonical source/evidence and publication metrics remain synchronized to 37 audited identities and 46 evidence chains. MunTTS has been verified as a promotion candidate only, so no reader-facing audited count was changed prematurely."
+      "sync_state": "Canonical source/evidence and publication metrics remain synchronized to 37 audited identities and 46 evidence chains. WEB-MUN-0025 remains promotion-ready and WEB-MUN-0026 now has a verified access/rights-boundary artifact; neither is counted prematurely."
     },
     "E_publication_readiness": {
       "status": "release metrics remain synchronized to canonical 37 audited identities / 87 discovery leads / 10 canonicalized discovery leads / 46 evidence chains",
@@ -63,7 +63,7 @@
       "release_metrics_claims": 46,
       "release_metrics_evidence_records": 46,
       "release_metrics_evidence_links": 46,
-      "manuscript_metrics_sync_state": "counts unchanged this cycle; no manuscript metric regeneration required until MunTTS is atomically promoted"
+      "manuscript_metrics_sync_state": "counts unchanged this cycle; no manuscript metric regeneration required because WEB-MUN-0026 was rights/access verified but not promoted as a new audited identity or evidence chain"
     },
     "F_evidence_population": {
       "source_claims": 46,
@@ -71,34 +71,35 @@
       "evidence_links": 46,
       "latest_evidence_bearing_source": "SRC-MMSC-000011",
       "latest_chain": "WEB-MUN-0063→SRC-MMSC-000011→CLM-000046→EVD-000046→LNK-000046",
-      "promotion_ready_review": "WEB-MUN-0025 MunTTS verified against the ACL Anthology: exact title/authors, ComputEL 2024 venue, pages 76-82, DOI 10.18653/v1/2024.computel-1.11, publisher abstract scope, and ACL post-2016 CC BY 4.0 policy. Candidate SRC-MMSC-000012 is reserved but not yet counted or evidence-linked until atomic synchronization.",
-      "verification_boundary": "The ACL article license applies to ACL material but does not automatically grant rights to third-party material, separately released datasets, recordings, model checkpoints or participant/consultant data. MLHKP cultural-access, consent, dignity and community-validation gates remain independent. Census C-16 values likewise remain unpromoted until exact row extraction succeeds."
+      "promotion_ready_review": "WEB-MUN-0025 MunTTS remains promotion-ready at ACL publisher-abstract technical-scope level. WEB-MUN-0026 official Microsoft repository is now separately verified for code identity, MIT repository license metadata, and the README's Karya-controlled dataset/model usage and distribution boundary.",
+      "verification_boundary": "No MunTTS dataset, speech recordings, annotations, participant identities or model checkpoints were treated as acquired or unrestrictedly reusable. Repository visibility and code licensing do not override Karya dataset/model conditions or MLHKP cultural-access, consent, dignity and community-validation controls. Census C-16 values remain unpromoted until exact row extraction succeeds."
     }
   },
   "changes_this_cycle": [
-    "Verified that branch head 489b55712027bc38b30dc7aedf332bad589d7656 completed all four principal CI workflows successfully before new writes.",
-    "Re-verified WEB-MUN-0025 against the official ACL Anthology record for MunTTS: A Text-to-Speech System for Mundari, including title, seven authors, ComputEL 2024 venue, pages 76-82, Anthology ID 2024.computel-1.11, DOI 10.18653/v1/2024.computel-1.11 and publisher abstract.",
-    "Verified the ACL Anthology copyright boundary: materials published in or after 2016 are licensed CC BY 4.0, while third-party materials are not automatically covered.",
-    "Added data/source_census/muntts_verification_2026-09-07.json with exact metadata, abstract-scope evidence candidate, rights boundary and cultural-access boundary.",
-    "Recorded MMSC-SEARCH-000029 in search_log_run23.jsonl while deliberately deferring SRC-MMSC-000012 plus claim/evidence/link/count mutation until one atomic synchronized promotion cycle.",
-    "Kept audited identities at 37, canonicalized web leads at 10 and evidence chains at 46; no discovery, rights, participant, community-validation or cultural claims were inflated.",
+    "Verified WEB-MUN-0026 against the official public archived Microsoft MunTTS repository rather than relying on the earlier discovery note alone.",
+    "Verified repository metadata identifies the official MunTTS codebase and an MIT repository license.",
+    "Verified exact README access boundaries: full dataset usage/distribution and VITS model checkpoint usage/distribution are directed to Karya, with both sections labelled Karya License (BY-NC-SA-FS 1.0).",
+    "Added data/source_census/muntts_code_dataset_access_verification_2026-09-07.json preserving code, dataset, model, participant and cultural-access boundaries.",
+    "Added MMSC-SEARCH-000030 in data/source_census/search_log_run24.jsonl.",
+    "Kept audited identities at 37, canonicalized web leads at 10 and evidence chains at 46 because access verification is not the same as canonical source/evidence promotion.",
     "Did not modify or merge main and did not weaken rights, cultural-access, provenance, OCR or verification gates."
   ],
   "commits_this_cycle": [
-    "116fe049dcae2a0f5cc2aca9e30f9ba907b9c972 - verify MunTTS source and rights boundary",
-    "15e56d9619f8fa3571b997b03512edfcf38f4e35 - log MunTTS exact publisher verification"
+    "7d229bc6e2f904f4b103965f9a4bb86485ac0679 - verify MunTTS code and dataset access boundary",
+    "5a6294a434badb30e44f7e87e78b3e2aa66b47e2 - log MunTTS dataset access verification"
   ],
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "489b55712027bc38b30dc7aedf332bad589d7656",
     "four_of_four_green_claim_for_latest_head": false,
     "previous_green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_head_workflow_state": "All four principal workflows are in progress for 15e56d9619f8fa3571b997b03512edfcf38f4e35; no green result is projected forward until completion."
+    "new_head_workflow_state": "Fresh workflow results for the newest status head are not yet claimed; previous verified all-four-green commit remains 489b55712027bc38b30dc7aedf332bad589d7656."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
     "Mundarica original physical-volume/part/plates structure versus later Gyan 16-volume reprint mapping remains incompletely proven.",
     "Seventy-seven web-discovery leads remain outside the audited identity total pending deterministic canonicalization.",
     "WEB-MUN-0025 is promotion-ready at publisher-abstract technical-scope level but still requires atomic canonical source registration plus claim/evidence/link, MMSC count, publication metric and discovery-record canonicalization synchronization before it can count as SRC-MMSC-000012.",
+    "WEB-MUN-0026 dataset and model assets are not treated as acquired; the official README directs usage/distribution requests to Karya and MLHKP must preserve item/participant/cultural-access constraints.",
     "LSI_JHARKHAND authoritative PDF locator is verified, but exact Mundari page extraction remains pending.",
     "Official Census C-16 dataset identity and XLSX locator are verified, but exact Munda/Mundari row extraction remains blocked by endpoint retrieval failure; no demographic values are promoted.",
     "Ministry/TRI SRC-MMSC-000005 PDF remains unextracted and all-rights-reserved unless otherwise indicated.",
@@ -128,6 +129,7 @@
   "next_parallel_tasks": [
     "Re-check all four CI workflows on the newest status head before claiming the latest state green.",
     "Atomically canonicalize WEB-MUN-0025 as SRC-MMSC-000012 if duplicate audit remains clean, linking only the ACL publisher-abstract technical study scope and synchronizing discovery canonicalization, MMSC counts, claim/evidence/link records, publication metrics, Streamlit and status in one cycle.",
+    "Keep WEB-MUN-0026 as an access-governance record unless a separately permitted dataset/model artifact is actually acquired with item-level rights and participant/cultural-access review.",
     "Retry direct acquisition of official Census C-16 XLSX and extract only exact Munda/Mundari rows with table/row/geography provenance before canonicalization or evidence promotion.",
     "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 77 discovery records, prioritizing exact locators and explicit reuse terms.",
     "Retry LSI_JHARKHAND PDF exact Mundari page extraction and SRC-MMSC-000005 Ministry/TRI PDF extraction without inferring reuse rights.",
