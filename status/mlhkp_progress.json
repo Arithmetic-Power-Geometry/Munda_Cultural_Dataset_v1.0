@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T14:42:00Z",
-  "observed_head_before_status_sync": "05847d60d34fd21e7a7e5ed67ea1aebf36af7ce5",
+  "updated_utc": "2026-09-07T15:34:00Z",
+  "observed_head_before_status_sync": "f32935e0d9e5a8d838047deaad5b311907574440",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -50,7 +50,7 @@
       "external_source_discovery_layer_records": 87,
       "grouped_research_portal_present": true,
       "universal_search_evidence_drilldown_reports_downloads_owner_console_preserved": true,
-      "sync_state": "canonical source/evidence and publication metrics synchronized to 37 audited identities and 46 evidence chains; newest CI required before latest-head green claim"
+      "sync_state": "canonical source/evidence and publication metrics synchronized to 37 audited identities and 46 evidence chains; fresh CI running on audit-repair head"
     },
     "E_publication_readiness": {
       "status": "release_metrics.json synchronized to canonical 37 audited identities / 87 discovery leads / 10 canonicalized discovery leads / 46 evidence chains",
@@ -63,7 +63,7 @@
       "release_metrics_claims": 46,
       "release_metrics_evidence_records": 46,
       "release_metrics_evidence_links": 46,
-      "manuscript_metrics_sync_state": "generated release metrics synchronized; publication workflow on newest head pending verification"
+      "manuscript_metrics_sync_state": "generated release metrics synchronized; publication workflow on audit-repair head pending verification"
     },
     "F_evidence_population": {
       "source_claims": 46,
@@ -75,28 +75,21 @@
     }
   },
   "changes_this_cycle": [
-    "Verified the previous synchronized head 6022fba4be07380b90a85c54653f8cbcc3f9f4aa completed all four principal CI workflows successfully.",
-    "Re-verified WEB-MUN-0063 against the official Unicode Standard 17.0 Core Specification and UTC encoding record.",
-    "Deterministically canonicalized WEB-MUN-0063 as SRC-MMSC-000011 and promoted only the exact technical encoding scope into CLM-000046/EVD-000046/LNK-000046.",
-    "Synchronized MMSC and publication metrics from 36/9/45 to 37 audited identities / 10 canonicalized discovery leads / 46 claims-evidence-links while retaining 87 observed discovery leads.",
-    "Recorded MMSC-SEARCH-000027 in supplemental run22; MMSC-SEARCH-000026 remains preserved in run21. Both await append-only consolidation into the primary log.",
-    "Did not infer Nag Mundari adoption rate, literacy, community endorsement, exclusive orthography, cultural validation or unrestricted standard-text reuse.",
-    "Did not modify or merge main."
+    "Inspected the latest mlhkp-v2 head and all four principal CI workflows.",
+    "Confirmed Migration Audit, Streamlit Smoke Test and Publication Build passed on 2cbfec3c4481e1fb61d5956fb2ea19388f2c4dcc while Source Register Audit failed in test_mmsc_census.py.",
+    "Diagnosed the failure exactly: MMSC metrics counted 10 canonicalized web leads, but the discovery layer exposed only 9 canonicalization.status=canonicalized_new_identity records because WEB-MUN-0063 lacked the canonicalization object in its source discovery record.",
+    "Repaired WEB-MUN-0063 in data/source_census/web_discovery_expansion_2026-09-07_run10.json by adding the already-established canonical mapping to SRC-MMSC-000011 with dedupe key unicode:17.0.0/13.12; no counts or cultural claims were changed.",
+    "Triggered fresh CI implicitly through the repair commit; Migration Audit already passed and the remaining three principal workflows were still running when this status snapshot was written.",
+    "Did not modify or merge main and did not weaken any audit rule."
   ],
   "commits_this_cycle": [
-    "96f41f20be727a3d07b29562096da6a9a231e8c5 - canonicalize Unicode Nag Mundari technical source",
-    "b2786594b6bfada618895005f842b82825b8be76 - add bounded technical claim",
-    "c135a87b7d5027388610021b1802ee1ecef10026 - add exact-locator evidence",
-    "ab6cf3347fff4f04bf9bdff7e29ee5780adf0503 - link claim and evidence",
-    "0e8b912524e5229342b71a5b8ec0eb43e03ff8b0 - log canonicalization search",
-    "cb24c792dfd8f45bca2631f8f96ea4c10dd3ce0f - synchronize publication metrics",
-    "05847d60d34fd21e7a7e5ed67ea1aebf36af7ce5 - synchronize MMSC index"
+    "f32935e0d9e5a8d838047deaad5b311907574440 - fix Unicode discovery canonicalization audit mismatch"
   ],
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "6022fba4be07380b90a85c54653f8cbcc3f9f4aa",
     "four_of_four_green_claim_for_latest_head": false,
     "previous_green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_head_workflow_state": "Fresh workflows required for the new evidence-bearing/status head; no green result projected forward."
+    "new_head_workflow_state": "On f32935e0d9e5a8d838047deaad5b311907574440: Migration Audit PASS; Source Register Audit, Streamlit Smoke Test and Publication Build were in progress at snapshot time. No green result projected forward."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
@@ -130,12 +123,12 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
+    "Verify all four CI workflows on the audit-repair/status head and repair any remaining regression without weakening audit rules.",
     "Consolidate MMSC-SEARCH-000026 and MMSC-SEARCH-000027 into the primary append-only search log without duplicate IDs.",
     "Canonicalize additional high-confidence DOI/ISBN/Handle/government leads among the remaining 77 discovery records, prioritizing exact locators and explicit reuse terms.",
     "Retry LSI_JHARKHAND PDF exact Mundari page extraction and SRC-MMSC-000005 Ministry/TRI PDF extraction without inferring reuse rights.",
     "Reconcile official Census India Munda/Munda-Patar tables against existing discovery identities and promote only table-level provenance-bounded evidence.",
     "Continue Mundarica authoritative scan acquisition and original-versus-reprint reconciliation in parallel.",
-    "Populate evidence-empty domains only from permitted exact-locator evidence while keeping universal search, evidence drilldown, reports/downloads, owner console and manuscript metrics synchronized.",
-    "Verify all four CI workflows on the newest status head and repair regressions without weakening audit rules."
+    "Populate evidence-empty domains only from permitted exact-locator evidence while keeping universal search, evidence drilldown, reports/downloads, owner console and manuscript metrics synchronized."
   ]
 }
