@@ -11,10 +11,16 @@
       "url": "https://hdl.handle.net/20.500.14705/8429",
       "author": "Ramdayal Munda",
       "year": 2013,
-      "notes": "CIIL Bhasha Sanchika institutional metadata verifies author Ramdayal Munda, publication year 2013, publisher Rumbul Ranchi Jharkhand, item identifier BVP00202, subject languages Mundari and Hindi, type PDF, and an institutional handle. Register as a grammar-source lead and canonicalize separately by institutional handle. No grammatical rule or cultural proposition is promoted without exact page/section provenance and item-level rights review.",
+      "notes": "CIIL Bhasha Sanchika institutional metadata verifies author Ramdayal Munda, publication year 2013, publisher Rumbul Ranchi Jharkhand, item identifier BVP00202, subject languages Mundari and Hindi, type PDF, and an institutional handle. Deterministically canonicalized by institutional handle as SRC-MMSC-000006. No grammatical rule or cultural proposition is promoted without exact page/section provenance and item-level rights review.",
       "verification_state": "institutional_repository_metadata_handle_and_file_presence_verified",
       "access_class": "institutional_repository_metadata_public_file_present_rights_holder_identified",
-      "rights_note": "CIIL metadata names RUMBUL as rights holder. Public item/file visibility does not establish permission to redistribute, bulk extract, train models on, commercially reuse, or republish the grammar text. Cultural-access restrictions remain independently enforceable."
+      "rights_note": "CIIL metadata names RUMBUL as rights holder. Public item/file visibility does not establish permission to redistribute, bulk extract, train models on, commercially reuse, or republish the grammar text. Cultural-access restrictions remain independently enforceable.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000006",
+        "dedupe_key": "handle:20.500.14705/8429",
+        "canonicalized_utc": "2026-09-07T09:48:00Z"
+      }
     },
     {
       "id": "WEB-MUN-0085",
