@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T08:34:00Z",
-  "observed_head_before_status_sync": "0910dd4b033099ed2c96c9f2a6065ec3f3dc8a3b",
+  "updated_utc": "2026-09-07T08:36:00Z",
+  "observed_head_before_status_sync": "b9c65bf44a8fe45807a3325a728de1c2733b003f",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "architecture_policy": "complete_data_skeleton_and_information_architecture_first_then_evidence_population",
@@ -85,25 +85,26 @@
     }
   },
   "changes_this_cycle": [
-    "Diagnosed the current Source Register Audit failure to the Master Munda Source Census test layer while Migration, Streamlit and Publication had passed on the ingestion head.",
-    "Replaced stale hard-coded MMSC standalone/canonicalization expectations with repository-derived assertions that preserve immutable ID sequencing, unique canonical source mappings, audited-count consistency and no-double-count safeguards.",
-    "Verified the repaired Source Register Audit PASS on commit a09853713f3ab372b2ba28bc5489b50d1672aeb4; Migration Audit and Streamlit Smoke Test also PASS there, while Publication Build remained in progress at the last check.",
+    "Diagnosed the Source Register Audit regression to stale Master Munda Source Census canonicalization assumptions rather than corrupted source/evidence records.",
+    "Replaced stale hard-coded MMSC standalone/canonicalization expectations with repository-derived assertions preserving immutable ID sequencing, unique canonical source mappings, audited-count consistency and no-double-count safeguards.",
+    "Confirmed all four workflows PASS on repair commit a09853713f3ab372b2ba28bc5489b50d1672aeb4: Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
     "Re-verified the Census India LINGUISTIC SURVEY OF INDIA-Jharkhand authoritative catalogue and direct PDF locator; page-level Mundari evidence extraction remains pending and no page claim was guessed.",
     "Identified and documented a material Mundarica edition-numbering ambiguity: original Government Printing bibliographic evidence currently supports Volume 13 / Vol. 1-13 descriptions, whereas the later Gyan reprint is explicitly catalogued as a 16-volume series including Volume 16 ISBN 9788121203227.",
     "Added an edition-reconciliation record requiring edition-specific mapping before XIV-XVI can alter historical completeness metrics; no VERIFIED COMPLETE state changed."
   ],
   "commits_this_cycle": [
     "a09853713f3ab372b2ba28bc5489b50d1672aeb4 - make MMSC canonicalization audit repository-derived",
-    "0910dd4b033099ed2c96c9f2a6065ec3f3dc8a3b - document Mundarica edition and volume-numbering ambiguity"
+    "0910dd4b033099ed2c96c9f2a6065ec3f3dc8a3b - document Mundarica edition and volume-numbering ambiguity",
+    "b9c65bf44a8fe45807a3325a728de1c2733b003f - synchronize progress after audit repair and edition reconciliation"
   ],
   "tests_and_workflows": {
-    "last_checked_commit": "a09853713f3ab372b2ba28bc5489b50d1672aeb4",
+    "last_verified_all_four_green_commit": "a09853713f3ab372b2ba28bc5489b50d1672aeb4",
     "migration_audit": "PASS",
-    "source_register_audit": "PASS_after_repository_derived_test_repair",
+    "source_register_audit": "PASS",
     "streamlit_smoke_test": "PASS",
-    "publication_build": "IN_PROGRESS_at_last_check",
-    "four_of_four_green_claim": false,
-    "claim_green_scope": "Three workflows are confirmed PASS on a09853713f3ab372b2ba28bc5489b50d1672aeb4; Publication Build must complete successfully before extending a four-of-four green claim."
+    "publication_build": "PASS",
+    "four_of_four_green_claim": true,
+    "claim_green_scope": "All four principal workflows completed successfully on a09853713f3ab372b2ba28bc5489b50d1672aeb4. Later status/bibliographic commits do not change evidence counts or claim a newer green checkpoint until their applicable workflows run."
   },
   "blockers": [
     "Volume I lacks a registered authoritative scan artifact for scan-to-transcription reconciliation.",
@@ -113,8 +114,7 @@
     "WEB-MUN-0082 requires complete authorship/method capture and participant/cultural-access review before evidence promotion.",
     "WEB-MUN-0083 requires Munda-specific chapter/page extraction and exact item/embedded-material licence review before evidence promotion.",
     "The Census India LSI Jharkhand authoritative PDF locator is now reachable, but exact page-level Mundari extraction has not yet been completed; no evidence is promoted from metadata alone.",
-    "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated.",
-    "Publication Build on the repaired audit commit was still in progress at the last workflow check."
+    "Evidence-empty architecture modules remain Structure ready — evidence not yet ingested; no cultural facts are fabricated."
   ],
   "integrity": {
     "permanent_volume_ids_preserved": true,
@@ -147,7 +147,6 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Confirm Publication Build on the repaired audit commit and repair only true regressions without weakening safeguards.",
     "Establish authoritative original-edition-to-Gyan-reprint Mundarica mapping and locate edition-specific XIV-XVI metadata/scans.",
     "Use the now-reachable Census India LSI Jharkhand PDF to extract exact Mundari page locators before evidence promotion.",
     "Canonicalize more high-confidence DOI/ISBN/handle leads, prioritizing open full text with exact locators.",
