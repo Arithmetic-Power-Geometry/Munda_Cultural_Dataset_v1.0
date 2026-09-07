@@ -56,6 +56,33 @@
       "access_class": "PUBLIC_METADATA_AND_ABSTRACT",
       "edition_relationships": [],
       "provenance": {"repository": "Social Evolution & History publisher DOI page", "catalogue_record": "DOI 10.30884/seh/2025.02.01", "checked_utc": "2026-09-07T05:43:00Z", "method": "Exact DOI/title/author/year comparison against existing MLHKP discovery identities followed by publisher abstract verification.", "caution": "Only an abstract-level source-reported claim is promoted. No article text, images, participant material, or universal/current cultural claim is inferred."}
+    },
+    {
+      "source_id": "SRC-MMSC-000003",
+      "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+      "creator": "Laxmi Kumari; Mojibur Rahman",
+      "year": 2021,
+      "source_type": "peer_reviewed_journal_article",
+      "source_class": "livelihood_sustainable_development_article",
+      "language": ["English"],
+      "geography": ["Jharkhand", "India"],
+      "cultural_domain_coverage": ["livelihood_economy", "forests_ecology", "gender", "contemporary_change"],
+      "canonical_catalogue_url": "https://doi.org/10.35784/pe.2021.1.19",
+      "identifier": {"scheme": "DOI", "value": "10.35784/pe.2021.1.19"},
+      "publisher_as_catalogued": "Problemy Ekorozwoju / Problems of Sustainable Development",
+      "publication_place_as_catalogued": null,
+      "availability": "publisher_article_page_and_pdf_verified",
+      "scan_state": "not_applicable",
+      "ocr_state": "not_applicable",
+      "full_text_state": "publisher_pdf_publicly_served_pages_181_185",
+      "acquisition_state": "publisher_pdf_remotely_accessible_not_locally_archived",
+      "rights_reuse_status": "publisher_access_verified_reuse_terms_require_item_level_review",
+      "extraction_state": "abstract_page_scope_evidence_extracted",
+      "evidence_link_state": "one_scope_bounded_claim_linked",
+      "verification_state": "publisher_metadata_doi_pdf_and_exact_page_range_verified",
+      "access_class": "PUBLIC_PUBLISHER_ARTICLE_AND_PDF_RIGHTS_REVIEW_REQUIRED",
+      "edition_relationships": [],
+      "provenance": {"repository": "Problemy Ekorozwoju publisher platform", "catalogue_record": "DOI 10.35784/pe.2021.1.19; Vol. 16 No. 1 (2021), pp. 181-185", "checked_utc": "2026-09-07T07:46:00Z", "method": "Exact DOI/title/authors comparison followed by publisher issue-page and publisher-served PDF verification.", "caution": "Evidence is limited to the article's own abstract-level characterization and exact bibliographic page range. Publisher access does not by itself establish unrestricted redistribution, commercial reuse, participant-data reuse, or community validation."}
     }
   ]
 }
