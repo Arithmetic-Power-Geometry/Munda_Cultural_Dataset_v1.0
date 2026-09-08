@@ -1,0 +1,40 @@
+{
+  "record_type": "official_government_document_section_locator_verification",
+  "verification_date": "2026-09-08",
+  "title": "THE PRESENT STUDY: MUNDARI LANGUAGE",
+  "source_class": "government_linguistic_survey_descriptive_grammar",
+  "publisher_repository": "Census of India NADA / Linguistic Survey of India",
+  "canonical_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "scope": "Descriptive grammar of Mundari as documented for Jharkhand in the Census of India Linguistic Survey material.",
+  "verified_section_locators": [
+    {
+      "locator_type": "section_heading",
+      "value": "THE PRESENT STUDY: MUNDARI LANGUAGE",
+      "verified_metadata_scope": "The document describes itself as a descriptive grammar of Mundari of Jharkhand and states that survey work was conducted in Murhu village in the Khunti area of Ranchi district context."
+    },
+    {
+      "locator_type": "section_heading",
+      "value": "SPEAKERS’ STRENGTH",
+      "verified_metadata_scope": "The document contains a speaker-strength section referring to 2011 Census population information; no numeric value is promoted in MLHKP without direct table/page verification."
+    }
+  ],
+  "named_informants_as_document_metadata": ["Shri Chamra Munda", "Mrs. Ramdi Mundu"],
+  "analysis_scope_reported_by_document": ["Phonology", "Morphophonemics", "Morphology", "Syntax"],
+  "rights_access_governance": {
+    "repository_access": "public_government_document_locator",
+    "reuse_permission_state": "not_inferred_from_public_access",
+    "participant_consent_state": "not_established_by_catalogue_or_document_locator_alone",
+    "community_validation_state": "not_performed",
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion_boundary": {
+    "permitted_now": ["document identity", "government repository locator", "section headings", "document-reported study scope"],
+    "not_promoted": ["speaker/population numbers", "grammar rules", "example sentences", "lexical items", "participant-derived cultural assertions", "present-day representativeness", "community endorsement"]
+  },
+  "acquisition_state": "remote_official_pdf_locator_verified_direct_pdf_fetch_transiently_blocked_in_this_cycle",
+  "evidence_state": "section_locator_metadata_staged_for_future_atomic_source_claim_evidence_link_promotion",
+  "source_identity_count_effect": 0,
+  "claim_count_effect": 0,
+  "evidence_count_effect": 0,
+  "notes": "A direct PDF fetch returned a transient gateway error during this cycle, so no page-number or table-cell claim is asserted. The verified search index exposed the official document text and section headings; page-image inspection remains required before passage-level linguistic or numeric promotion."
+}
