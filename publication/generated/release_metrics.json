@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-09-08T01:35:00Z",
-  "sources_discovered": 40,
+  "generated_utc": "2026-09-08T06:49:00Z",
+  "sources_discovered": 41,
   "web_discovery_leads_observed": 87,
-  "web_discovery_leads_counted_in_audited_identity_total": 12,
+  "web_discovery_leads_counted_in_audited_identity_total": 13,
   "canonical_master_records": 14,
-  "additional_federated_discoveries": 26,
+  "additional_federated_discoveries": 27,
   "still_to_acquire_additional_discoveries": 26,
   "mundarica_expected_volumes": 16,
   "mundarica_verified_complete_volumes": 0,
@@ -17,9 +17,9 @@
   "information_model_applicable_record_fields": 23,
   "module_schema_domain_mapping_percent": 100.0,
   "master_schema_category_representation_percent": 100.0,
-  "source_claims": 50,
-  "evidence_records": 50,
-  "evidence_links": 50,
+  "source_claims": 51,
+  "evidence_records": 51,
+  "evidence_links": 51,
   "absolute_source_completeness_claimed": false,
   "ocr_treated_as_verified_transcription": false
 }
