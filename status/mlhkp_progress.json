@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T19:53:00Z",
-  "observed_head_before_status_sync": "47d513c99cfb02c6897b2372439b51ea82ce701d",
+  "updated_utc": "2026-09-08T20:39:00Z",
+  "observed_head_before_status_sync": "7e5358a0198e8429dddb4afee347b0bd63c21e17",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "2009 Gyan reprint manifestation labelled Vol.16th with ISBN 9788121203227 observed; historical-slot equivalence, authoritative scan and page accounting remain unresolved; not verified complete"
       },
-      "cycle_state": "Unchanged in run 83; this cycle was scoped to the non-Mundarica census and ingestion sprint."
+      "cycle_state": "Run 84 searched for acquisition/edition advances but found no authoritative new scan or page-accounting evidence; no volume state was falsely upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000083",
-      "latest_search_record_path": "data/source_census/search_log_run83.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000084",
+      "latest_search_record_path": "data/source_census/search_log_run84.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "ORGI Census 2011 ST-16 Jharkhand exact catalogue identity PC11_ST16-20 and official workbook filename ST-20-00-16-DDW-2011.XLSX verified, with state/UT granularity, person unit, Jharkhand scheduled-tribe universe, and Scheduled Tribes/Languages series metadata. No bilingualism number promoted without workbook bytes/checksum/sheet/row/cell locators.",
+      "latest_verification": "W. G. Archer, A Munda song book (1942): Open Library work OL1261161W and edition OL6506296M, LCCN 46029131, OCLC 4512074, United Press/Patna manifestation and catalogued pagination verified; WorldCat independently corroborates the printed-book identity. No permanent source ID or cultural-text promotion before deterministic reconciliation and lawful inspectable-copy review.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 83 prioritized non-Mundarica exact-locator verification and cross-class deterministic census reconciliation; no unsupported cultural graph claim was added."
+      "cycle_state": "No redesign. Run 84 prioritized exact catalogue identity verification, deterministic non-duplication and blocker resolution; no unsupported evidence-graph edge was added."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No public metric/evidence-chain count changed in run 83; 42-module functionality and mappings remain unchanged and require fresh CI verification on the newest status head."
+      "sync_note": "No public metric/evidence-chain count changed in run 84; 42-module functionality and mappings remain unchanged and require fresh CI verification on the newest status head."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-82 status head 318cdbcd5b2b5fed6022df2de7daae3b61f625f5 had three successful required workflows but Publication Build was cancelled, so it is not recorded as 4/4 green. Run 83 changes source-verification/search/status artifacts only; publication metrics remain 41/87/13/52/52/52 and fresh CI on the newest head must be verified before projecting green."
+      "manuscript_build_state": "Run-83 status head 966ed6cbceed824fbdc41df59e0fe14a3ccc229e is independently verified 4/4 green, including MLHKP Publication Build. Run 84 changes source-verification/search/status artifacts only; publication metrics remain 41/87/13/52/52/52 and fresh CI on the newest status head must be verified before projecting green."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,24 +87,24 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run83_advanced_source": "Census 2011 ST-16 Jharkhand advanced to exact-locator source-census verification metadata.",
-      "promotion_boundary": "No ST-16 bilingualism number, cultural proposition, participant material, community validation or unrestricted reuse right was promoted."
+      "run84_advanced_source": "Archer 1942 advanced to exact work/edition catalogue verification metadata; reported 1941 Mundari hockey rule book was re-searched but remains primary-locator blocked.",
+      "promotion_boundary": "No song text, cultural proposition, Census number, participant material, community validation, public-domain status or unrestricted reuse right was promoted from metadata or secondary reporting."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "bc08630ab7899b97830433b1a449dcfb5a54fc29",
+    "last_verified_all_four_green_commit": "966ed6cbceed824fbdc41df59e0fe14a3ccc229e",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "run82_status_head_ci_observation": "Head 318cdbcd5b2b5fed6022df2de7daae3b61f625f5 produced four workflow runs: three concluded success and MLHKP Publication Build concluded cancelled; therefore no 4/4-green claim is made for that head.",
-    "new_commits_this_cycle_before_status_sync": ["3bb762bb1d3365be81a05512975eb1701409acf0","47d513c99cfb02c6897b2372439b51ea82ce701d"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-83 status head must be independently verified; do not project an earlier green state forward."
+    "run83_status_head_ci_observation": "Head 966ed6cbceed824fbdc41df59e0fe14a3ccc229e produced four required workflow runs and all four concluded success.",
+    "new_commits_this_cycle_before_status_sync": ["367f43aa9e144454e2550e33b83faa8c0b6f1933","7e5358a0198e8429dddb4afee347b0bd63c21e17"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-84 status head must be independently verified; do not project the verified run-83 green state forward."
   },
   "changes_this_cycle": [
-    "Searched all requested non-Mundarica discoverable source classes and recorded MMSC-SEARCH-000083.",
-    "Added exact ORGI ST-16 Jharkhand identity PC11_ST16-20 and official workbook filename ST-20-00-16-DDW-2011.XLSX without promoting unverified bilingualism numbers.",
-    "Reconfirmed bounded scholarly, government, dataset and map identities while preserving source scope and rights/consent/cultural-access boundaries.",
-    "Kept audited/public metrics unchanged at 41/87/13/52/52/52 because no permanent source identity or evidence chain passed the full promotion gate this cycle.",
-    "Recorded that run-82 status-head Publication Build was cancelled rather than falsely claiming 4/4 green.",
+    "Worked the requested independent source classes and recorded MMSC-SEARCH-000084.",
+    "Added exact bibliographic identity for W. G. Archer's 1942 A Munda song book using Open Library work/edition identifiers, LCCN, OCLC and WorldCat corroboration.",
+    "Re-searched the reported 1941 Mundari hockey rule book; no independent primary catalogue/archive/scan locator was found, so the primary-object gap remains explicit.",
+    "Kept audited/public metrics unchanged at 41/87/13/52/52/52 because the new bibliographic candidate has not passed deterministic master-register reconciliation or passage-level rights/cultural-access gates.",
+    "Confirmed run-83 head 966ed6cbceed824fbdc41df59e0fe14a3ccc229e as 4/4 CI green.",
     "Did not modify or merge main."
   ],
   "blockers": [
@@ -113,10 +113,10 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete after prior retrieval failures.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical slot/edition reconciliation remains unresolved despite a modern Vol.16th manifestation clue.",
-    "TRI dictionary full-text/edition/rights state remains unresolved.",
+    "TRI dictionary and Archer 1942 full-text/edition/rights state remain unresolved for deeper extraction.",
     "Participant-derived audio, BMM1/PARADISEC, MunTTS, Karya, Adivaani, ELR-1000 and related media remain item-level consent/rights/cultural-access gated beyond verified metadata.",
-    "The reported 1941 Mundari hockey rule book still lacks a verified primary catalogue/scan/custody/rights locator.",
-    "Run-82 status-head Publication Build was cancelled; newest-head workflow state must be independently verified."
+    "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
+    "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -141,13 +141,13 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "Reconcile Archer OL1261161W / OL6506296M / OCLC 4512074 against discovery and master registers before assigning a permanent source ID.",
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing exact-locator official/public-domain/open-access sources.",
-    "Reconcile the ST-16 exact locator against discovery/master registers before assigning any permanent source ID.",
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
     "Retry official LSI PDF/page-image verification and capture exact Mundari chapter page locators.",
-    "Resolve item-level rights/work-edition state for TRI dictionaries and staged scholarly candidates before deeper extraction.",
-    "Seek a primary catalogue/archive/scan locator for the reported 1941 Mundari hockey rule book.",
+    "Pursue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating OCR as verified transcription.",
+    "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-83 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-84 status head and repair any regression before metric-changing promotion."
   ]
 }
