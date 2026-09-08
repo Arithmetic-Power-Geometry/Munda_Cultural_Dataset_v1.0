@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T13:38:00Z",
-  "observed_head_before_status_sync": "ce9a1939543de0f74cc5172967c2c59905e07bd7",
+  "updated_utc": "2026-09-08T13:46:00Z",
+  "observed_head_before_status_sync": "5b24feda4e3ca7334bdcbf906cf55d5198cf0b49",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 70 prioritized the non-Mundarica census/evidence stream. Mundarica truth states are preserved without inventing scan acquisition, OCR verification, page-accounting completion or verified-complete volumes."
+      "cycle_state": "Run 71 is scoped to the non-Mundarica sprint. Existing Mundarica truth states are preserved without inventing acquisition, OCR, page-accounting or verified completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -45,10 +45,10 @@
       "web_discovery_leads_observed": 87,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
-      "search_log_entries_primary": 29,
-      "latest_search_id": "MMSC-SEARCH-000070",
-      "latest_search_record_path": "data/source_census/search_log_run70.jsonl",
-      "latest_verification": "Virginia Tech VTechWorks Handle 10919/111386 was deterministically reconciled to existing WEB-MUN-0057 -> SRC-MMSC-000004, not treated as a new source. The institutional dissertation PDF Raonka_P_D_2021.pdf was verified as publicly downloadable; title-page/front-matter, abstract and table-of-contents navigation locators were recorded. Existing CLM-000041 remains bounded to the author's abstract-level study characterization. Copyright, participant consent, community validation and unrestricted reuse are not inferred from repository access.",
+      "search_log_entries_primary": 30,
+      "latest_search_id": "MMSC-SEARCH-000071",
+      "latest_search_record_path": "data/source_census/search_log_run71.jsonl",
+      "latest_verification": "N.K. Sinha's 1975 Mundari Grammar was retained as one existing verification candidate rather than duplicated. CIIL Bhasha Sanchika handle 20.500.14705/8179, the official CIIL publication catalogue and CIIL store record now jointly support the work identity; the store surface adds editor E. Annamalai and 163-page pagination. No grammar rule, lexical example, cultural fact or unrestricted reuse permission is inferred.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -56,7 +56,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 70 strengthened exact locators and deterministic deduplication for an existing evidence-bearing dissertation source while preserving evidence and governance boundaries."
+      "cycle_state": "No redesign. Run 71 strengthened exact-locator provenance for an existing grammar candidate and avoided duplicate identity assignment."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -66,7 +66,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Public evidence metrics remain synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. The Raonka exact-locator upgrade strengthens provenance for existing CLM-000041 without creating a duplicate source or generalized cultural claim."
+      "sync_note": "Public evidence metrics remain synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. Run 71 changed provenance metadata only, so no module metric or evidence-graph count required regeneration."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -78,7 +78,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-69 status head 407c113c90467f05f2cf2855c7cdd632f1550abb is independently verified 4/4 green. Run 70 made no metric-changing promotion, so release metrics remain 41/87/13/51/51/51. Fresh CI on the newest run-70 status head must be independently verified before projecting green status forward."
+      "manuscript_build_state": "Run-70 status head ce9a1939543de0f74cc5172967c2c59905e07bd7 is independently verified 4/4 green. Run 71 made no metric-changing promotion, so release metrics remain 41/87/13/51/51/51. Fresh CI on the newest run-71 status head must be independently verified before green status is projected forward."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -86,35 +86,33 @@
       "evidence_links": 51,
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "run70_advanced_source": "SRC-MMSC-000004 / Pallavi Raonka dissertation: existing canonical identity and CLM-000041 were reconfirmed; exact PDF title-page, abstract-page and TOC navigation locators were added in a dedicated provenance artifact. This is a provenance-strengthening upgrade, not a new claim or source promotion.",
-      "promotion_boundary": "No participant quotation, local meaning, photograph, supporting document, land-right proposition, political assertion, gender claim, cultural practice, consent state, reuse right, community-validation state or present-day representativeness claim was newly promoted in run 70."
+      "run71_advanced_source": "N.K. Sinha, Mundari Grammar (1975): exact institutional locators strengthened using CIIL repository, publication catalogue and store metadata. Same-work deduplication retained; no new permanent source ID or public cultural/grammatical claim was created.",
+      "promotion_boundary": "No grammar example, lexical item, participant-derived material, cultural practice, consent state, reuse right, community-validation state or present-day representativeness claim was newly promoted in run 71."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "407c113c90467f05f2cf2855c7cdd632f1550abb",
+    "last_verified_all_four_green_commit": "ce9a1939543de0f74cc5172967c2c59905e07bd7",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["72265fec6d8a30af92b9cb58fa82d0e17c4a7940","ce9a1939543de0f74cc5172967c2c59905e07bd7"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-70 status head must be verified independently; do not project the 4/4-green state of 407c113c forward."
+    "new_commits_this_cycle": ["20307f4a8f12696bdff83e6ee21f6ebf08f1c472","5b24feda4e3ca7334bdcbf906cf55d5198cf0b49"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-71 status head must be verified independently; do not project the 4/4-green state of ce9a193 forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on run-69 status head 407c113c90467f05f2cf2855c7cdd632f1550abb.",
-    "Resolved the Virginia Tech Raonka dissertation as an existing canonical identity, WEB-MUN-0057 -> SRC-MMSC-000004, avoiding a duplicate permanent ID and count inflation.",
-    "Strengthened SRC-MMSC-000004 with exact dissertation-PDF locators for title/front matter, abstract and TOC navigation while retaining CLM-000041's bounded abstract-reported scope.",
-    "Recorded the dissertation's explicit copyright notice and kept unrestricted redistribution, participant consent and community validation unasserted.",
-    "Attempted required PDF screenshot inspection; retrieval returned cache-miss, so no screenshot-based visual attestation is claimed.",
-    "Observed additional dissertation and language-dataset candidates but left them uncounted pending deterministic dedupe, exact relevance, rights/consent and cultural-access review.",
-    "Recorded MMSC-SEARCH-000070 across all requested source classes without changing audited counts.",
+    "Verified all four required workflows green on run-70 status head ce9a1939543de0f74cc5172967c2c59905e07bd7.",
+    "Strengthened the existing N.K. Sinha 1975 Mundari Grammar candidate with three official CIIL surfaces: repository handle 20.500.14705/8179, publication catalogue, and store record.",
+    "Added official CIIL store metadata identifying editor E. Annamalai and 163 pages without treating store or repository visibility as a reuse grant.",
+    "Deterministically avoided duplicate identity creation for Ramdayal Munda 2013 (already SRC-MMSC-000006) and the already-observed Mansidh Baraiud 2017 grammar candidate.",
+    "Observed a CIIL GIAC proposal record for a Pawan Kumar Choudhary Mundari Grammar but did not treat a funding/proposal record as proof of publication or assign it a source identity.",
+    "Recorded MMSC-SEARCH-000071 across all requested non-Mundarica source classes without changing audited counts.",
     "Kept Streamlit and repository-derived publication metrics synchronized because no atomic source/evidence promotion changed counts.",
     "Did not modify or merge main."
   ],
   "blockers": [
-    "Mundarica verified_complete_volumes remains 0; authoritative scans and page-accounting reconciliation remain incomplete.",
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "ST-15/ST-16/C-16/C-17 catalogue/workbook identities are available at varying exact-locator levels, but workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "LSI Jharkhand descriptive-grammar page images remain unavailable for direct page-level inspection in current retrieval attempts.",
-    "Virginia Tech dissertation PDF text-layer locators are available, but screenshot retrieval returned cache-miss; visual-page attestation is therefore not claimed.",
+    "N.K. Sinha 1975 repository/store visibility does not establish unrestricted PDF/example reuse permission; deeper content extraction remains rights-gated.",
     "Bhaduri dictionary unrestricted full-text/reuse state remains unverified; no lexical extraction is permitted yet.",
     "Indian Forester 2011 and Togawa 2024 require complete deterministic discovery-layer reconciliation before permanent identity assignment; protected full text and participant-level material remain outside current ingestion permission.",
     "Evans and Osada 2005, Phillips and Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020, Verma 2026 and TRI candidates remain at varying dedupe/access/rights/exact-locator gates.",
@@ -146,11 +144,11 @@
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing official, public-domain and open-access exact-locator sources that can safely advance evidence rather than metadata alone.",
     "Complete deterministic all-87-lead comparison for DOI 10.36808/if/2011/v137i11/12843 and DOI 10.20716/rsjars.98.1_1; if unique, promote only bounded source-supported evidence atomically.",
     "Retrieve ST-15/ST-16/C-16/C-17 official workbook bytes; record checksums, worksheet, row and cell locators before asserting counts.",
+    "Determine whether N.K. Sinha 1975 has an item-level license permitting deeper extraction; until then keep examples and protected text outside ingestion.",
     "Complete work/edition canonicalization for Bhaduri dictionary and locate an edition-specific lawful full-text source before lexical extraction.",
-    "Retry LSI Jharkhand and dissertation/J-STAGE page-image retrieval and inspect exact pages only when stable page images are supplied.",
-    "Review the newly observed comparative thesis and Karya language dataset against existing discovery identities, exact Munda scope, rights, participant consent and cultural-access gates before registration.",
+    "Retry LSI Jharkhand page-image retrieval and inspect exact pages only when stable page images are supplied.",
     "Continue rights-bounded exact-locator processing for scholarly, TRI, archive, newspaper, audio/video, dataset and map sources.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-70 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-71 status head and repair any regression before metric-changing promotion."
   ]
 }
