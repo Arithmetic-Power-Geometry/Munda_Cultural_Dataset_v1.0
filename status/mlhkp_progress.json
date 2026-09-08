@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T17:54:00Z",
-  "observed_head_before_status_sync": "99ece19149b85370211e08f1eb577a0246d9b02f",
+  "updated_utc": "2026-09-08T18:30:00Z",
+  "observed_head_before_status_sync": "bd65c1d77db7025b2961d8759af156bc57b30291",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 79 did not upgrade any Mundarica scan/OCR/page-accounting/completeness state without authoritative verification."
+      "cycle_state": "Run 80 did not upgrade Mundarica scan/OCR/page-accounting/completeness without authoritative verification."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000079",
-      "latest_search_record_path": "data/source_census/search_log_run79.jsonl",
-      "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs are preserved separately and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "The Indian Express 18 October 2023 feature was verified as a media source reporting a 23-page Mundari-language hockey rule book first published in 1941. The report is not treated as primary-object verification; surviving-copy identity, custody, edition, rights and exact wording remain unresolved.",
+      "latest_search_id": "MMSC-SEARCH-000080",
+      "latest_search_record_path": "data/source_census/search_log_run80.jsonl",
+      "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
+      "latest_verification": "Official ORGI LINGUISTIC SURVEY OF INDIA-Jharkhand catalog 45248, Reference ID LSI_JHARKHAND, publication date 2023-08-01 and direct filename LSI_JHARKHAND.pdf were verified. Direct PDF retrieval returned HTTP 502, so no page-level claim was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 79 added a verified media-lead record and retained evidence-chain promotion gates."
+      "cycle_state": "No redesign; evidence population and exact-locator verification remain priority."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No release metric changed in run 79; public 52/52/52 evidence surfaces remain synchronized."
+      "sync_note": "No release metric changed in run 80; public 52/52/52 evidence surfaces remain synchronized."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head ad67a11313a076c91b40dc2c2c17eccd00696eba independently verified 4/4 green. Run 79 changes verification/search/status artifacts only; fresh CI on the newest status head must be verified before projecting green forward."
+      "manuscript_build_state": "Pre-run head 95dc780a0a3ecb8425417a489a273c5df6b4c493 independently verified 4/4 green. Run 80 changes source-verification/search/status artifacts only; fresh CI on newest status head must be verified before projecting green forward."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,36 +87,37 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run79_advanced_source": "Indian Express 2023 Mundari hockey-rulebook feature advanced from discoverability to publisher-page-verified media lead with a bounded historical-object report; primary-object verification remains required before deeper promotion.",
-      "promotion_boundary": "No protected newspaper passage, primary-rulebook text, audio, transcript, participant metadata, consent state, cultural practice claim, Census number, dictionary lexical content, reuse right or community-validation state was promoted."
+      "run80_advanced_source": "ORGI LSI-Jharkhand advanced to an exact official catalog/download locator with explicit page-verification blocker; no cultural or numeric claim was promoted.",
+      "promotion_boundary": "No uninspected LSI page text, participant audio/transcript, ritual/burial/spiritual assertion, Census number, dictionary lexical content, reuse right, consent state or community-validation state was promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "ad67a11313a076c91b40dc2c2c17eccd00696eba",
+    "last_verified_all_four_green_commit": "95dc780a0a3ecb8425417a489a273c5df6b4c493",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle_before_status_sync": ["7393a2574f320897a0a0511b9282eb8c0027eff6","99ece19149b85370211e08f1eb577a0246d9b02f"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-79 status head must be independently verified; do not project ad67a11 green state forward."
+    "new_commits_this_cycle_before_status_sync": ["62cd215a16d20d32044d4ba7c1c1f26f5f646dc3","bd65c1d77db7025b2961d8759af156bc57b30291"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-80 status head must be independently verified; do not project the previous green state forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on pre-run head ad67a11313a076c91b40dc2c2c17eccd00696eba.",
-    "Searched all requested non-Mundarica source classes in parallel and reconfirmed existing exact-locator candidates without inflating counts.",
-    "Verified The Indian Express 2023 Mundari hockey-rulebook feature and preserved it as a bounded media lead, not a primary cultural source.",
-    "Reconfirmed Indian Forester 2011 DOI/volume/issue/pages and rights boundary; no permanent ID assigned before deterministic reconciliation.",
-    "Reconfirmed Raonka 2021 as already canonical SRC-MMSC-000004; participant-derived material remains ethics/rights/cultural-access gated.",
-    "Reconfirmed the 1906 LSI Munda-language map as historically scoped public-domain map evidence and Karya Mundari TTS as consent/cultural-access gated.",
-    "Recorded MMSC-SEARCH-000079 and kept audited/public metrics unchanged at 41/87/13/52/52/52.",
+    "Verified all four required workflows green on pre-run head 95dc780a0a3ecb8425417a489a273c5df6b4c493.",
+    "Worked all requested source classes in parallel and recorded MMSC-SEARCH-000080.",
+    "Verified the official ORGI LSI-Jharkhand catalog identity, Reference ID, publication date and direct PDF filename/URL.",
+    "Recorded direct official LSI PDF retrieval as HTTP 502 blocked; no page-level evidence or OCR verification was fabricated.",
+    "Reconfirmed the historical public-domain 1906 LSI Munda map only as historical map evidence.",
+    "Reconfirmed Karya Mundari TTS as participant-derived and kept audio/transcripts behind consent/rights/cultural-access gates.",
+    "Observed/reconfirmed 2025-2026 scholarly candidates but assigned no permanent source identity before deterministic comparison and lawful exact-locator review.",
+    "Kept audited/public metrics unchanged at 41/87/13/52/52/52.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Official LSI Jharkhand page-image verification remains incomplete.",
+    "Official LSI Jharkhand direct PDF retrieval returned HTTP 502; exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI slot/edition reconciliation remains unresolved.",
     "TRI dictionary full-text/edition/rights state remains unresolved.",
     "Participant-derived audio, BMM1/PARADISEC, MunTTS, Karya, Adivaani and related media remain consent/rights/cultural-access gated.",
-    "The reported 1941 Mundari hockey rule book lacks a verified primary catalogue/scan/custody/rights locator; newspaper reporting is not substituted for primary-object verification."
+    "The reported 1941 Mundari hockey rule book still lacks a verified primary catalogue/scan/custody/rights locator."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -142,11 +143,12 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing exact-locator official/public-domain/open-access sources.",
-    "Seek a primary catalogue, archive record or scan locator for the reported 1941 Mundari hockey rule book before any primary-object evidence promotion.",
-    "Retry LSI page-image verification and obtain Census ST-15/ST-16/C-16/C-17 workbook bytes with checksum/sheet/row/cell locators.",
-    "Continue authoritative Mundarica scan/page accounting without treating OCR as verified transcription.",
-    "Resolve item-level rights/work-edition state for TRI dictionaries, Bhaduri, N.K. Sinha and staged scholarly candidates before deeper extraction.",
+    "Retry official LSI PDF/page-image verification and capture exact Mundari chapter page locators before claim promotion.",
+    "Obtain Census ST-15/ST-16/C-16/C-17 workbook bytes with checksum/sheet/row/cell locators.",
+    "Continue authoritative Mundarica I-XVI scan/page accounting without treating OCR as verified transcription.",
+    "Resolve item-level rights/work-edition state for TRI dictionaries and staged scholarly candidates before deeper extraction.",
+    "Seek a primary catalogue/archive/scan locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-79 status head and repair any regression before any metric-changing promotion."
+    "Verify all four CI workflows on the newest run-80 status head and repair any regression before metric-changing promotion."
   ]
 }
