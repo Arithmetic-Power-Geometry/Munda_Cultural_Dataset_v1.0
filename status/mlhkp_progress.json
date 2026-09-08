@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T20:50:00Z",
-  "observed_head_before_status_sync": "cbad7e9bb49cc3804261a5b5f4711382e1c37654",
+  "updated_utc": "2026-09-08T21:38:00Z",
+  "observed_head_before_status_sync": "2da82448af3dc8f2f740783ae14d8207f50ea707",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "2009 Gyan reprint manifestation labelled Vol.16th with ISBN 9788121203227 observed; historical-slot equivalence, authoritative scan and page accounting remain unresolved; not verified complete"
       },
-      "cycle_state": "Run 85 remained non-Mundarica-focused; no Mundarica volume state was changed or falsely upgraded."
+      "cycle_state": "Run 86 re-searched the historical volume family and preserved the existing locator states. Public web references did not resolve authoritative scan registration, page accounting or XIV-XVI historical-slot reconciliation, so no volume was upgraded and verified-complete remains 0."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000085",
-      "latest_search_record_path": "data/source_census/search_log_run85.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000086",
+      "latest_search_record_path": "data/source_census/search_log_run86.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "MunTTS (Gumma et al., 2024) existing source SRC-MMSC-000012 advanced from abstract-only locator evidence to exact publisher proceedings p.76 technical-corpus evidence: Jharkhand Mundari in Devanagari; 15,656 unique sentences; 26,868 recordings; 27.51 hours; male/female voices; 3.7-second average duration; 8.4-word average sentence length. Underlying recordings, transcripts, speaker identities, participant data, community validation and reuse permissions remain separately gated.",
+      "latest_verification": "Bhaduri's A Mundari-English dictionary was reconciled as one intellectual work family rather than multiple source identities: Open Library work OL5467157W plus 1931/1983 manifestations and CiNii-verified 1994 AES ISBN 8120609107 and 2002 Gyan ISBN 8121207959 manifestations. No lexical text, rights or community validation was inferred.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 85 strengthened exact-locator provenance for the existing SRC-MMSC-000012 / CLM-000047 / EVD-000047 chain without creating duplicate IDs or unsupported cultural edges."
+      "cycle_state": "No schema redesign. Run 86 strengthened deterministic work-versus-manifestation canonicalization for dictionary records without creating duplicate source IDs or unsupported cultural edges."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Counts and IDs are unchanged in run 85, so universal search/module registration and public metrics require no schema/UI remap; exact-locator evidence artifact is repository-searchable and fresh CI is required on the newest head."
+      "sync_note": "Counts and permanent IDs are unchanged in run 86, so no schema/UI remap is required. The new bibliographic reconciliation artifact is repository-searchable; fresh CI is required on the newest status head."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-84 status head 3e2f2ca4c1deb1dc2a1e2c65969be2b2cdcdeee6 is independently verified 4/4 green, including MLHKP Publication Build. Run 85 adds exact-locator/search/status artifacts without changing 41/87/13/52/52/52 release counts; fresh CI on the newest run-85 status head must be verified before projecting green."
+      "manuscript_build_state": "Run-85 status head 0b61ccd6bf1cf97bbdb486ad0d4deaa0ef372c2b is independently verified 4/4 green, including MLHKP Publication Build. Run 86 changes only census/reconciliation/status artifacts and keeps release metrics 41/87/13/52/52/52 unchanged; fresh CI on the newest run-86 status head must be verified before projecting green."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,25 +87,25 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run85_advanced_source": "Existing MunTTS source SRC-MMSC-000012 and CLM-000047/EVD-000047 gained an exact publisher proceedings-page evidence upgrade at p.76, including technical corpus quantities and bounded Jharkhand/Devanagari study scope.",
-      "promotion_boundary": "Only publisher-page technical corpus description is strengthened. No audio, transcripts, sentence text, speaker identity, participant-level record, cultural proposition, demographic value, community validation or underlying dataset/model-training right is promoted."
+      "run86_advanced_source": "No new cultural/evidentiary source was promoted. Bhaduri dictionary bibliographic canonicalization was strengthened at work/manifestation level to reduce duplicate-risk before any permanent source admission or lexical extraction.",
+      "promotion_boundary": "Only catalogue identifiers, manifestation relationships and pagination metadata are recorded for the Bhaduri work family. No headwords, definitions, lexical claims, dialect representativeness, unrestricted reuse rights or community validation are promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "3e2f2ca4c1deb1dc2a1e2c65969be2b2cdcdeee6",
+    "last_verified_all_four_green_commit": "0b61ccd6bf1cf97bbdb486ad0d4deaa0ef372c2b",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "run84_status_head_ci_observation": "Head 3e2f2ca4c1deb1dc2a1e2c65969be2b2cdcdeee6 produced exactly four required workflow runs and all four concluded success.",
-    "new_commits_this_cycle_before_status_sync": ["0cb920b1e7674b4df5af6b8ec10c49a254bcc5ad","cbad7e9bb49cc3804261a5b5f4711382e1c37654"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-85 status head must be independently verified; do not project the verified run-84 green state forward."
+    "run85_status_head_ci_observation": "Head 0b61ccd6bf1cf97bbdb486ad0d4deaa0ef372c2b produced exactly four required pull-request workflow runs and all four concluded success.",
+    "new_commits_this_cycle_before_status_sync": ["7191c05f93719e9cc08f6cf0c267ab34310a1081","2da82448af3dc8f2f740783ae14d8207f50ea707"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-86 status head must be independently verified; do not project the verified run-85 green state forward."
   },
   "changes_this_cycle": [
-    "Worked the requested non-Mundarica source classes and recorded MMSC-SEARCH-000085.",
-    "Converted existing MunTTS discovery/evidence from abstract-only scope to an exact publisher proceedings-page technical evidence upgrade at p.76 for the existing SRC-MMSC-000012 / CLM-000047 / EVD-000047 chain.",
-    "Verified on p.76 the article-reported Jharkhand/Devanagari study scope and technical corpus quantities: 15,656 unique sentences, 26,868 audio recordings, 27.51 hours, male/female voices, 3.7-second average duration and 8.4-word average sentence length.",
-    "Attempted required PDF page-image inspection; screenshot rendering failed with a cache miss, so no visual-layout-dependent assertion was added and the blocker is explicit.",
-    "Reconfirmed official ORGI C-16 and ST-16 metadata/variables but did not assert numeric values without workbook bytes, checksum, worksheet, row and cell coordinates.",
-    "Confirmed run-84 head 3e2f2ca4c1deb1dc2a1e2c65969be2b2cdcdeee6 as 4/4 CI green.",
+    "Worked Mundarica and all requested non-Mundarica source classes in parallel and recorded MMSC-SEARCH-000086.",
+    "Reconciled Bhaduri's A Mundari-English dictionary using Open Library work OL5467157W and multiple catalogued manifestations, including CiNii NCIDs BA31909026 and BB09153012.",
+    "Strengthened the deterministic rule that reprints/manifestations of one intellectual work do not become separate permanent source identities without evidence of materially distinct content/edition scope.",
+    "Re-searched the historical Encyclopaedia Mundarica family but did not upgrade any volume because authoritative scans, page accounting and XIV-XVI slot reconciliation remain unresolved.",
+    "Re-searched the reported 1941 Mundari hockey rule book; the secondary 2023 newspaper account remains locatable but no independently verified primary catalogue/archive/scan/custody record was found.",
+    "Confirmed run-85 head 0b61ccd6bf1cf97bbdb486ad0d4deaa0ef372c2b as 4/4 CI green.",
     "Kept publication metrics unchanged at 41/87/13/52/52/52 and did not modify or merge main."
   ],
   "blockers": [
@@ -113,9 +113,8 @@
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Official LSI Jharkhand exact page-image verification remains incomplete after prior retrieval failures.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "MunTTS proceedings p.76 text-layer locator is verified, but page-image screenshot rendering failed with a cache miss; no visual-layout-dependent fact is asserted.",
-    "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical slot/edition reconciliation remains unresolved despite a modern Vol.16th manifestation clue.",
-    "TRI dictionary, Archer 1942, Bhaduri and Sinha full-text/edition/rights states remain unresolved for deeper extraction.",
+    "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical slot/edition reconciliation remains unresolved despite modern reprint clues.",
+    "Bhaduri dictionary work/manifestation identity is now better reconciled, but lawful inspectable full-text reuse and master-register admission remain pending; TRI dictionary, Archer 1942 and Sinha full-text/edition/rights states remain unresolved for deeper extraction.",
     "Participant-derived audio, BMM1/PARADISEC, MunTTS, Karya, Adivaani, ELR-1000 and related media remain item-level consent/rights/cultural-access gated beyond verified metadata or article-level technical reporting.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
@@ -143,12 +142,13 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the remaining 74 web leads, prioritizing exact-locator official/public-domain/open-access sources and avoiding duplicate permanent IDs.",
+    "Continue deterministic disposition of the remaining 74 web leads, using the strengthened work-versus-manifestation rule and prioritizing exact-locator official/public-domain/open-access sources.",
+    "Reconcile the Bhaduri work family against discovery/master registers without duplicate IDs; only then consider permanent admission and lawful full-text processing.",
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
-    "Retry official LSI PDF/page-image verification and the MunTTS p.76 page-image render while preserving text-layer/visual-layer distinction.",
-    "Reconcile Archer OL1261161W / OL6506296M / OCLC 4512074 and TRI/Bhaduri/Sinha grammar-dictionary candidates against discovery/master registers and lawful rights states before deeper extraction.",
+    "Pursue authoritative Mundarica scans and per-volume page accounting; keep XIV-XVI historical-slot reconciliation separate from modern reprint numbering.",
+    "Retry official LSI PDF/page-image verification while preserving text-layer/visual-layer distinction.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-85 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-86 status head and repair any regression before metric-changing promotion."
   ]
 }
