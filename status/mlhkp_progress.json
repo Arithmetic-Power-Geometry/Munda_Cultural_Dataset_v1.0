@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T01:38:00Z",
-  "observed_head_before_status_sync": "3beb7fdb1e30ae909326a387647ee2d1131ea5bb",
+  "updated_utc": "2026-09-08T01:44:00Z",
+  "observed_head_before_status_sync": "13a052e0000a157a65fe3b99bb35bb4cdf347137",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -27,13 +27,13 @@
       "web_discovery_leads_counted_in_audited_identity_total": 12,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000046",
-      "latest_search_record_path": "data/source_census/search_log_run46.jsonl",
-      "latest_verification": "Freshly reverified the EZCC/Commons audiovisual record and exact timestamp catalogue labels; promoted existing canonical CIIL source SRC-MMSC-000006 from metadata-only/no-evidence to one provenance-linked institutional catalogue/file-presence claim without promoting grammar content.",
+      "latest_search_id": "MMSC-SEARCH-000047",
+      "latest_search_record_path": "data/source_census/search_log_run47.jsonl",
+      "latest_verification": "Official Census of India NADA catalogue 12552 for ST-15 Jharkhand 2011 was separately verified at catalogue/schema level, including explicit Munda and Mundari mother-tongue categories. No numeric values were promoted because exact workbook/sheet/row/cell extraction remains pending. Karya MunTTS and LSI Jharkhand were reconciled as already represented leads rather than duplicated.",
       "search_log_reconciliation": {
         "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
         "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46],
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47],
         "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
         "rule": "Do not synthesize missing log content from status prose; recover exact original records before primary-log consolidation."
       },
@@ -56,7 +56,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public CSV evidence now extends through EVD-000050 and is available to the additive Streamlit evidence fallback. The record is public metadata only; grammar text and culturally gated content remain unavailable."
+      "sync_note": "Public CSV evidence extends through EVD-000050. The new ST-15 artifact is census catalogue verification only and is not exposed as a numeric or cultural evidence claim until exact official table locators are established."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -66,9 +66,9 @@
       "claims": 50,
       "evidence_records": 50,
       "evidence_links": 50,
-      "metrics_changed_this_cycle": true,
+      "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Generated JSON and LaTeX release metrics synchronized at 40 sources / 12 canonicalized web leads / 50 claims / 50 evidence / 50 links; fresh Publication Build is queued/running and not yet claimed green."
+      "manuscript_build_state": "Generated JSON and LaTeX release metrics remain synchronized at 40 sources / 12 canonicalized web leads / 50 claims / 50 evidence / 50 links; this cycle added verification artifacts without crossing a canonical evidence-count gate."
     },
     "F_evidence_population": {
       "source_claims": 50,
@@ -79,21 +79,24 @@
       "latest_evidence_scope": "CIIL/Bhasha Sanchika institutional catalogue identity and file-presence metadata for Ramdayal Munda's 2013 Mundari-Vyakaran, Handle 20.500.14705/8429, item BVP00202.",
       "promotion_boundary": "No grammar rule, lexical form, example sentence, usage norm, community preference, full text, model-training permission or community validation was promoted. CIIL metadata identifies RUMBUL as rights holder; item-level rights and MLHKP cultural-access controls remain governing.",
       "staged_exact_locator_artifact": "data/source_census/ezcc_commons_munda_dance_exact_locator_evidence_2026-09-08.json",
-      "staged_discovery_id": "WEB-MUN-0047"
+      "staged_discovery_id": "WEB-MUN-0047",
+      "new_government_table_verification_artifact": "data/source_census/census_st15_jharkhand_mother_tongue_verification_2026-09-08.json"
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "eb66b5da52546c1b6bd1404ac1e1d41cb43fa536",
+    "last_verified_all_four_green_commit": "1b4848f5a2f0f7b7abe222fda2484e8f4b29cc3b",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["1411a57cbd1e29bf841c49b6324609911e66b483","0d1558f2ab90b8f5249be217edd9839fa7692837","f340cee7eb487c59fb988c5f25f9d48d48ffc3dd","8cecff935c41f436028d944304b51cd336899fab","3beb7fdb1e30ae909326a387647ee2d1131ea5bb"],
-    "new_head_ci_state_at_status_write": "fresh workflows queued/running; do not project prior 4/4-green state onto this status head"
+    "new_commits_this_cycle": ["722f5a6ac7b64aa7c6c8829cb39b6fc0ca2572d7","13a052e0000a157a65fe3b99bb35bb4cdf347137"],
+    "new_head_ci_state_at_status_write": "fresh workflows for the newest status head are not yet verified; do not project prior 4/4-green state forward"
   },
   "changes_this_cycle": [
-    "Reverified WEB-MUN-0047 against Wikimedia Commons/EZCC including 39:31 duration, 27 September 2022 publication date and exact catalogue timestamps 04:28, 06:00 and 11:12; retained participant consent/community/cultural-access gates.",
-    "Promoted SRC-MMSC-000006 CIIL catalogue/file-presence metadata to CLM-000050, EVD-000050 and LNK-000050 using exact Handle 20.500.14705/8429 and BVP00202 locator.",
-    "Kept source identity and web-lead counts unchanged because this was evidence enrichment of an already canonical source, not discovery of a new identity.",
-    "Synchronized generated publication JSON and LaTeX metrics from 49 to 50 claims/evidence/links.",
+    "Verified official Census of India NADA ST-15 Jharkhand 2011 catalogue identity and table scope, including Munda and Mundari mother-tongue categories, in a dedicated rights-bounded verification artifact.",
+    "Did not promote Census population values because exact official workbook/sheet/row/cell locators remain unavailable in this cycle.",
+    "Reconciled the public Karya Mundari TTS corpus repository as an already represented dataset/audio lead rather than creating a duplicate identity; full audio/transcript and participant-derived content remain rights/consent/cultural-access gated.",
+    "Reconciled LSI Jharkhand and the official Jharkhand government tribal overview as contextual source leads; stronger primary evidence remains preferred for public factual claims.",
+    "Added MMSC-SEARCH-000047 while preserving the unrecovered 000034-000038 and 000041 audit gaps.",
+    "Kept release source/evidence/publication counts unchanged because no new canonical evidence chain was promoted.",
     "Did not modify or merge main."
   ],
   "blockers": [
@@ -101,6 +104,7 @@
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Primary MMSC search_log.jsonl is verified only through MMSC-SEARCH-000028; exact recovery remains needed for status-referenced IDs 000034-000038 and 000041 before safe consolidation.",
     "WEB-MUN-0047 has exact-locator metadata staged but still requires atomic canonical source/census promotion; participant/performance content remains culturally gated.",
+    "Census ST-15 Jharkhand catalogue/schema identity is verified, but exact official workbook rows/cells for Munda and Mundari remain unextracted; no population values are asserted.",
     "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
     "Official Census/LSI Jharkhand Mundari and LSI Volume IV require direct page-image inspection before page-level linguistic or numeric evidence promotion.",
     "ANU Evans & Osada 2005 and CIIL Sinha 1975 still require deterministic cross-layer duplicate review plus exact content/right locators before substantive promotion.",
@@ -124,6 +128,7 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
+    "Retrieve the official Census ST-15 Jharkhand table file and record checksum/sheet/row/cell locators for Munda and Mundari before any numeric promotion.",
     "Atomically canonicalize WEB-MUN-0047 if final duplicate checks remain clean, updating census registers and release metrics while retaining participant/performance cultural gates.",
     "Recover exact original search records 000034-000038 and 000041 before primary-log consolidation; never reconstruct them from prose.",
     "Inspect official Census of India LSI Jharkhand Mundari and LSI Volume IV page images before any passage-level grammar/text/numeric promotion.",
