@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T09:38:00Z",
-  "observed_head_before_status_sync": "c6b87c037d438a5fac38f96d5c6a54033521c344",
+  "updated_utc": "2026-09-08T09:55:00Z",
+  "observed_head_before_status_sync": "e3ba2be7f1912899d80ece6158092ab16c804718",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -15,7 +15,7 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "edition_reconciliation_state": "open; DSAL working bibliography reports Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original Government Printing physical sequence, parts/plates and later 16-volume reprint numbering remain separated pending authoritative reconciliation",
-      "cycle_state": "Parallel release run included Mundarica blocker review; no new authoritative scan/page-accounting/OCR-verification artifact was obtained and no completeness inflation was made."
+      "cycle_state": "Parallel blocker review continued; no new authoritative scan/page-accounting/OCR-verification artifact was obtained and no completeness inflation was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -27,14 +27,14 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000062",
-      "latest_search_record_path": "data/source_census/search_log_run62.jsonl",
-      "latest_verification": "Grierson's 1906 LSI map of Munda languages was advanced to exact bibliographic-locator metadata: Linguistic Survey of India Volume IV, facing page 7. Wikimedia Commons identifies the repository copy as public domain. No historical map boundary, language classification, speaker count, demographic value or present-day cultural proposition was promoted; permanent source assignment remains pending deterministic dedupe against all historical leads.",
-      "new_candidate_artifact": "data/source_census/lsi_1906_munda_languages_map_exact_locator_2026-09-08.json",
+      "latest_search_id": "MMSC-SEARCH-000063",
+      "latest_search_record_path": "data/source_census/search_log_run63.jsonl",
+      "latest_verification": "Evans and Osada 2005, Mundari: The myth of a language without word classes, advanced from identity-only verification to exact bibliographic-locator/access verification: Linguistic Typology 9(3), pages 351-390, DOI 10.1515/lity.2005.9.3.351, ANU handle 1885/54663. ANU lists the item Open Access and a downloadable PDF; the publisher issue independently verifies pages 351-390 and an Open Access issue state. No protected text, lexical example, underlying field data or community-validated cultural proposition was promoted.",
+      "new_candidate_artifact": "data/source_census/anu_evans_osada_mundari_word_classes_exact_locator_2026-09-08.json",
       "search_log_reconciliation": {
         "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
         "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62],
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63],
         "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
         "rule": "Do not reconstruct missing log content from status prose; recover exact original records before primary-log consolidation."
       },
@@ -57,7 +57,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public catalogue remains through SRC-MMSC-000015 and evidence through EVD-000051. Run 62 added exact-locator historical-map metadata/search-log records only; no unsupported public evidence or metric increment was introduced."
+      "sync_note": "Public catalogue remains through SRC-MMSC-000015 and evidence through EVD-000051. Run 63 added exact-locator peer-reviewed metadata/search-log records only; no unsupported public evidence or metric increment was introduced."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -69,7 +69,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Repository-generated JSON/LaTeX release metrics remain synchronized at 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links; run 62 made no metric-changing promotion."
+      "manuscript_build_state": "Repository-generated JSON/LaTeX release metrics remain synchronized at 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links; run 63 made no metric-changing promotion."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -78,25 +78,26 @@
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
       "latest_evidence_scope": "Wikimedia Commons/EZCC repository metadata and exact timestamp catalogue labels only.",
-      "run62_progress": "Historical LSI Munda-language map advanced from discovery candidate to exact source-locator metadata at Volume IV, facing page 7, with repository public-domain marking verified. It remains outside the public evidence chain until deterministic dedupe/canonicalization and primary-image reconciliation are complete.",
-      "promotion_boundary": "No protected full text, Census numeric value, map-boundary interpretation, participant-derived content, community validation, present-day representativeness, unrestricted cultural authority or universal Munda proposition was promoted in run 62."
+      "run63_progress": "Evans-Osada 2005 advanced to exact bibliographic-locator/access verification with DOI, journal volume/issue/pages, ANU handle, Open Access statement and downloadable-file presence independently checked. It remains outside the public evidence chain until deterministic discovery reconciliation and item-level license/underlying-data review are complete.",
+      "promotion_boundary": "No protected full text, lexical example, Census numeric value, map-boundary interpretation, participant-derived content, community validation, present-day representativeness, unrestricted cultural authority or universal Munda proposition was promoted in run 63."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "2a8d4d1770690332660fde3b775972855dc696e4",
+    "last_verified_all_four_green_commit": "def0aaab514ed6ec1aed53d92ae47c1200ccbe76",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_ids": {"MLHKP Migration Audit":34206651222,"MLHKP Source Register Audit":34206651150,"MLHKP Streamlit Smoke Test":34206651204,"MLHKP Publication Build":34206651296},
-    "new_commits_this_cycle": ["8d62d09a1ad280770523f100667b219ee5a3457c","c6b87c037d438a5fac38f96d5c6a54033521c344"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-62 status head is not yet verified; do not project the 4/4-green state of 2a8d4d1770690332660fde3b775972855dc696e4 forward."
+    "verified_run_ids": {"MLHKP Migration Audit":34210601518,"MLHKP Source Register Audit":34210601579,"MLHKP Streamlit Smoke Test":34210601544,"MLHKP Publication Build":34210601561},
+    "new_commits_this_cycle": ["769dc188aa2fc586f528397c32c18c3448ac4222","e3ba2be7f1912899d80ece6158092ab16c804718"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-63 status head is not yet verified; do not project the verified 4/4-green state of def0aaab514ed6ec1aed53d92ae47c1200ccbe76 forward."
   },
   "changes_this_cycle": [
-    "Verified pre-run head 2a8d4d1770690332660fde3b775972855dc696e4 completed all four required CI workflows successfully.",
+    "Verified run-62 status head def0aaab514ed6ec1aed53d92ae47c1200ccbe76 completed all four required CI workflows successfully.",
     "Ran a cross-class non-Mundarica census sweep across books/dictionaries/grammars, peer-reviewed literature, theses, government/TRI/Census/LSI, archives, web/news, datasets, audio, video and maps/media.",
-    "Advanced the historical LSI Munda-language map to exact source-locator metadata: Grierson 1906, Linguistic Survey of India Volume IV, facing page 7; Commons repository copy is marked public domain.",
-    "Reconfirmed official Census 2011 ST-16 Jharkhand catalogue coverage including MUNDA/MUNDARI subsidiary-language labels but did not assert numeric cells.",
-    "Verified publisher-level identity/abstract scope for Shalini Saboo's land-inheritance article and retained controlled-access/full-text boundaries.",
-    "Reconfirmed the Mundari TTS dataset candidate but retained item-level licence, participant-consent and cultural-access gates for audio/transcript reuse.",
+    "Advanced Evans and Osada 2005 to exact bibliographic locator and repository-access verification: Linguistic Typology 9(3), pages 351-390, DOI 10.1515/lity.2005.9.3.351, ANU handle 1885/54663; ANU Open Access/file presence and publisher issue metadata were independently checked.",
+    "Kept the Evans-Osada article outside the public evidence chain pending deterministic reconciliation and item-level license/underlying-data review; no lexical examples or article conclusions were promoted as cultural facts.",
+    "Reconfirmed official Census ST-15/ST-16/C-16 workbook identities without asserting numeric values because exact checksum/sheet/row/cell extraction remains incomplete.",
+    "Reconfirmed that the 1906 Grierson LSI map and the separate 2020 Commons Munda_languages_map.svg are distinct map records with different creators/dates/source relations; neither historical nor derivative boundaries are treated as present-day truth.",
+    "Reconfirmed Mundari TTS public repository and non-commercial licensing boundary while retaining participant/audio/transcript cultural-access gates.",
     "Did not modify or merge main."
   ],
   "blockers": [
@@ -104,9 +105,10 @@
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Primary search_log.jsonl is verified only through MMSC-SEARCH-000028; exact records 000034-000038 and 000041 remain unrecovered.",
     "Census ST-15, ST-16, C-16 and C-17 exact workbook checksum/sheet/row/cell extraction remains incomplete; no numeric values are asserted.",
-    "Official LSI Jharkhand direct PDF retrieval previously returned HTTP 502; descriptive-grammar page images still require successful inspection before page-level promotion.",
-    "The 1906 LSI Munda-language map now has an exact facing-page locator and public-domain repository record, but permanent canonical promotion still requires deterministic comparison against historical discovery artifacts and primary-image reconciliation.",
-    "Phillips-Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020/2021, ANU Evans-Osada 2005, SCSTRTI Odisha Munda and Census candidates still require deterministic historical-discovery reconciliation and item-level rights review before canonical promotion where applicable.",
+    "Official LSI Jharkhand descriptive-grammar page images still require successful direct inspection before page-level promotion.",
+    "The 1906 LSI Munda-language map has an exact facing-page locator and public-domain repository record, but permanent canonical promotion still requires deterministic comparison against all historical discovery artifacts and primary-image reconciliation.",
+    "Evans-Osada 2005 now has exact DOI/journal/page/ANU-handle/access metadata but still requires deterministic historical-discovery reconciliation and item-level license/underlying-data review before canonical/evidence promotion.",
+    "Phillips-Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020/2021, SCSTRTI Odisha Munda and Census candidates still require deterministic historical-discovery reconciliation and item-level rights review before canonical promotion where applicable.",
     "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material and TRI full text remain consent/rights/cultural-access gated as applicable.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
@@ -127,11 +129,11 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Verify all four CI workflows on the run-62 status head and repair any regression before metric-changing promotion.",
-    "Deterministically reconcile the 1906 LSI map candidate against all historical web-discovery files and the 2020 Commons derivative map; if unique and safe, promote atomically with a bounded metadata/exact-locator claim.",
+    "Verify all four CI workflows on the run-63 status head and repair any regression before metric-changing promotion.",
+    "Deterministically reconcile Evans-Osada 2005 and the 1906 LSI map against all historical web-discovery artifacts; promote atomically only when identity, rights boundary and evidence scope are safe.",
     "Retrieve ST-15, ST-16, C-16 and C-17 official workbooks and record checksum/sheet/row/cell locators before numeric evidence promotion.",
     "Retry official LSI Jharkhand and LSI Volume IV page-image retrieval; promote only page-located source statements after image inspection.",
-    "Deterministically reconcile Phillips-Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020/2021, ANU Evans-Osada 2005 and TRI candidates against all 87 historical discovery leads and canonical ledgers.",
+    "Deterministically reconcile Phillips-Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020/2021 and TRI candidates against all 87 historical discovery leads and canonical ledgers.",
     "Recover exact original search records 000034-000038 and 000041 before primary-log consolidation.",
     "Continue deterministic disposition of the remaining 74 web leads across all source classes.",
     "Continue rights-bounded TRI/grammar and BMM1/PARADISEC item-level processing.",
