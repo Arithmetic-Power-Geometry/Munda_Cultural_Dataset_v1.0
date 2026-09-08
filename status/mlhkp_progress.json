@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T07:38:00Z",
-  "observed_head_before_status_sync": "3435f5c5efa230d1f99d2bfe780165393afde0e5",
+  "updated_utc": "2026-09-08T07:50:00Z",
+  "observed_head_before_status_sync": "2a0e9468a2a2af45ccf365ed3e4e44d94661f564",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -15,7 +15,7 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "edition_reconciliation_state": "open; DSAL working bibliography reports Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original Government Printing physical sequence, parts/plates, and later 16-volume reprint numbering must remain separated before permanent denominator changes",
-      "cycle_state": "Run 58 rechecked the unresolved state; no new authoritative scan/page-accounting/OCR reconciliation was obtained, so no completeness inflation was made."
+      "cycle_state": "Run 59 did not obtain a new authoritative scan/page-accounting/OCR reconciliation artifact; no Mundarica completeness inflation was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -27,13 +27,13 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000058",
-      "latest_search_record_path": "data/source_census/search_log_run58.jsonl",
-      "latest_verification": "Run 58 verified the run-57 release head as 4/4 CI green and staged a publisher/institutional exact-locator artifact for Phillips and Harrison 2017, DOI 10.1017/cnj.2017.13. Cambridge Core and Swarthmore metadata/abstract verify the article identity and that the comparative study explicitly includes Kera Mundari and Mundari among seven Munda languages. No full-text, elicitation-data, community-wide cultural or reuse-right claim was promoted.",
+      "latest_search_id": "MMSC-SEARCH-000059",
+      "latest_search_record_path": "data/source_census/search_log_run59.jsonl",
+      "latest_verification": "Run 59 verified Malini Srivastava's 2007 The Sacred Complex of Munda Tribe as an anthropology-journal candidate using the source-provided title/abstract copy: The Anthropologist 9(4), pp. 327-330, source-copy DOI 10.31901/24566802.2007/09.04.11. The abstract reports a bounded four-village study (Daugada, Buruma, Sarwada and Kullipiddi) under the then Khunti subdivision of Ranchi District. A secondary index reports DOI 10.1080/09720073.2007.11891020, so the DOI alias relationship is explicitly unresolved pending deterministic identity reconciliation; no source-count or cultural-evidence increment was made.",
       "search_log_reconciliation": {
         "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
         "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58],
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59],
         "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
         "rule": "Do not synthesize missing log content from status prose; recover exact original records before primary-log consolidation."
       },
@@ -44,7 +44,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign; evidence population, exact locators and provenance integrity remain prioritized."
+      "cycle_state": "No schema redesign; evidence population, exact locators, deterministic source identity and provenance integrity remain prioritized."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -56,7 +56,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public catalogue remains at SRC-MMSC-000015 and public CSV evidence through EVD-000051. Run 58 staged exact-locator evidence only; no unsupported public record or metric increment was introduced."
+      "sync_note": "Public catalogue remains through SRC-MMSC-000015 and public CSV evidence through EVD-000051. Run 59 added verification/search-log artifacts only; no unsupported public religious/sacred claim or metric increment was introduced."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -68,7 +68,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Generated JSON and LaTeX release metrics remain synchronized at 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links. No publication metric changed in run 58."
+      "manuscript_build_state": "Generated JSON and LaTeX release metrics remain synchronized at 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links. Run 59 did not change release metrics."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -77,24 +77,26 @@
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
       "latest_evidence_scope": "Wikimedia Commons/EZCC repository metadata and exact catalogue timestamps for the documentary Folk Dances of Jharkhand; repository catalogue-label evidence only.",
-      "new_exact_locator_candidate_artifact": "data/source_census/phillips_harrison_munda_mimetic_reduplication_exact_locator_2026-09-08.json",
-      "candidate_supported_scope": "Publisher/institutional abstract-level comparative-language evidence that the article includes Kera Mundari and Mundari among seven Munda languages.",
-      "promotion_boundary": "No protected full text, elicitation material, participant-derived content, community validation, present-day representativeness, Munda-people-wide cultural generalization or unrestricted reuse right was promoted in run 58."
+      "new_verified_candidate_artifact": "data/source_census/srivastava_sacred_complex_munda_2007_verification_2026-09-08.json",
+      "candidate_supported_scope": "Source-provided abstract-level study-scope evidence only: a 2007 article reports a Sacred Complex study in four named Munda villages under the then Khunti subdivision of Ranchi District.",
+      "promotion_boundary": "No protected full-text passage, sacred/ritual detail, participant-derived material, participant consent state, community validation, present-day representativeness, community-wide religious generalization or unrestricted reuse right was promoted in run 59."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "ab71bab0a2a0c3f9fa8ed3f0005db850859919b6",
+    "last_verified_all_four_green_commit": "27163e13018e104d4b6bdb705f589e737da4ae17",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["68d77f1c0f4f4c127a6c601f4c770a0e0c3ca7ae","3435f5c5efa230d1f99d2bfe780165393afde0e5"],
-    "new_head_ci_state_at_status_write": "Run-57 head ab71bab0a2a0c3f9fa8ed3f0005db850859919b6 is verified 4/4 green. Fresh CI for run-58 commits/status head is not yet verified; do not project the previous green result forward."
+    "verified_run_ids": {"MLHKP Migration Audit":34200040619,"MLHKP Source Register Audit":34200040626,"MLHKP Streamlit Smoke Test":34200040660,"MLHKP Publication Build":34200040667},
+    "new_commits_this_cycle": ["92e2a4808ec7e2b99c9412b8dfd150da8aad327e","2a0e9468a2a2af45ccf365ed3e4e44d94661f564"],
+    "new_head_ci_state_at_status_write": "Pre-run head 27163e13018e104d4b6bdb705f589e737da4ae17 is verified 4/4 green. Fresh CI for run-59 commits/status head is not yet verified; do not project the previous green result forward."
   },
   "changes_this_cycle": [
-    "Verified run-57 head ab71bab0a2a0c3f9fa8ed3f0005db850859919b6 completed all four required CI workflows successfully.",
-    "Ran a broad parallel source-class sweep covering books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers/web, datasets, audio, video and maps/media.",
-    "Re-verified Phillips and Harrison 2017 through Cambridge Core and Swarthmore and staged an exact-locator metadata/abstract artifact for DOI 10.1017/cnj.2017.13.",
-    "Preserved the source as comparative Munda-language-family research with explicit Kera Mundari/Mundari inclusion; no Munda-people-wide cultural claim was inferred.",
-    "Added MMSC-SEARCH-000058 without inflating source/evidence counts.",
+    "Verified current pre-run head 27163e13018e104d4b6bdb705f589e737da4ae17 completed all four required CI workflows successfully.",
+    "Ran a parallel non-Mundarica source-class sweep across books, dictionaries, grammars, scholarly articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers/web, datasets, audio, video and maps/media.",
+    "Verified Malini Srivastava 2007 The Sacred Complex of Munda Tribe at source-copy metadata/abstract level and preserved its four-village historical study scope.",
+    "Recorded a DOI ambiguity between source-copy DOI 10.31901/24566802.2007/09.04.11 and secondary-index DOI 10.1080/09720073.2007.11891020; blocked canonical dedupe-key assignment until alias reconciliation prevents double-counting.",
+    "Applied religious/sacred-content cultural-access gating and promoted no ritual detail, participant material, current/universal religious claim or unrestricted reuse right.",
+    "Added MMSC-SEARCH-000059 without inflating source/evidence counts.",
     "Did not modify or merge main."
   ],
   "blockers": [
@@ -104,7 +106,8 @@
     "Census ST-15 workbook identity is verified but checksum/sheet/row/cell extraction for Munda/Mundari remains incomplete; no numeric values are asserted.",
     "Census C-16 Jharkhand identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
     "Official LSI Jharkhand and LSI Volume IV still require successful page-image inspection before page-level linguistic or numeric evidence promotion.",
-    "Phillips and Harrison 2017 now has an exact publisher/institutional abstract locator artifact but still requires deterministic comparison against every historical discovery artifact and canonical ledger before source/evidence count promotion.",
+    "Phillips and Harrison 2017 has an exact publisher/institutional abstract locator artifact but still requires deterministic comparison against every historical discovery artifact and canonical ledger before source/evidence count promotion.",
+    "Srivastava 2007 now has source-copy metadata/abstract verification but DOI alias reconciliation, deterministic comparison against historical discovery artifacts, item-level rights review and cultural-access review are required before any canonical source/evidence promotion.",
     "SCSTRTI Odisha Munda monograph, Alpa Shah 2007 and other staged candidates still require deterministic reconciliation and item-level rights review.",
     "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material and TRI full text remain consent/rights/cultural-access gated as applicable.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
@@ -126,13 +129,13 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Verify all four CI workflows on the run-58 head and repair any regression before further metric-changing promotion.",
-    "Deterministically reconcile DOI 10.1017/cnj.2017.13, SCST/2016/0054 and DOI 10.1111/j.1467-9655.2007.00417.x against every historical web-discovery artifact and canonical ledger.",
-    "If Phillips-Harrison reconciliation is clean, atomically promote a bounded DOM-14 abstract-level evidence chain and synchronize MMSC, Streamlit, graph and publication metrics.",
+    "Verify all four CI workflows on the run-59 head and repair any regression before metric-changing promotion.",
+    "Deterministically reconcile DOI 10.1017/cnj.2017.13, Srivastava 2007 DOI aliases, SCST/2016/0054 and DOI 10.1111/j.1467-9655.2007.00417.x against every historical web-discovery artifact and canonical ledger.",
+    "If Phillips-Harrison reconciliation is clean, atomically promote only its bounded abstract-level comparative-language evidence and synchronize MMSC, Streamlit, graph and publication metrics.",
     "Retrieve ST-20-00-15-DDW-2011.XLSX and record checksum/sheet/row/cell locators for Munda/Mundari before numeric promotion.",
     "Retry official LSI Jharkhand and LSI Volume IV page-image retrieval before passage-level promotion.",
     "Retry official C-16 workbook retrieval and record checksum/sheet/row/cell locators before numeric promotion.",
-    "Recover exact original search records 000034-000038 and 000041; never reconstruct from prose.",
+    "Recover exact original search records 000034-000038 and 000041; never reconstruct them from prose.",
     "Continue deterministic disposition of the remaining 74 web leads across all documented source classes.",
     "Continue BMM1 item-level access/consultant review and rights-bounded TRI/grammar processing.",
     "Continue Mundarica authoritative artifact acquisition and physical-unit/part/plate/reprint reconciliation without treating OCR/catalogue metadata as verification."
