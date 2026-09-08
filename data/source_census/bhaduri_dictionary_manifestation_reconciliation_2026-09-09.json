@@ -1,0 +1,69 @@
+{
+  "record_type": "bibliographic_manifestation_reconciliation",
+  "stream": "books_dictionaries_grammars",
+  "checked_utc": "2026-09-08T21:34:00Z",
+  "branch": "mlhkp-v2",
+  "title": "A Mundari-English dictionary",
+  "author": "Manindra Bhusan Bhaduri",
+  "work_identity": {
+    "open_library_work_id": "OL5467157W",
+    "canonical_work_title": "A Mundari-English dictionary"
+  },
+  "manifestations_verified": [
+    {
+      "publisher": "Calcutta University Press",
+      "year": 1931,
+      "state": "Open Library lists a 1931 Calcutta University Press manifestation; exact downloadable full text was not established in this cycle."
+    },
+    {
+      "publisher": "Northern Book Centre",
+      "year": 1983,
+      "open_library_edition_id": "OL3008123M",
+      "lccn": "84901705",
+      "pagination": "xv, 228, ii p.",
+      "state": "Open Library catalogue manifestation verified."
+    },
+    {
+      "publisher": "Asian Educational Services",
+      "year": 1994,
+      "isbn": "8120609107",
+      "nacsis_id": "BA31909026",
+      "pagination": "xv, 228, ii p.",
+      "state": "CiNii catalogue manifestation verified; catalogue notes it as a reprint of the Calcutta University Press 1931 edition."
+    },
+    {
+      "publisher": "Gyan Publishing House",
+      "year": 2002,
+      "isbn": "8121207959",
+      "nacsis_id": "BB09153012",
+      "pagination": "xv, 228, ii p.",
+      "state": "CiNii catalogue manifestation verified; catalogue describes a reprint and preserves the work/edition distinction."
+    }
+  ],
+  "deduplication": {
+    "decision": "treat_as_one_intellectual_work_with_multiple_manifestations_pending_master-register-reconciliation",
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "reason": "The verified records describe manifestations/reprints of the same dictionary work; creating one source identity per reprint would inflate the census."
+  },
+  "rights_and_access": {
+    "catalogue_metadata_publicly_visible": true,
+    "full_text_lawful_reuse_verified": false,
+    "public_domain_asserted": false,
+    "lexical_entries_ingested": false,
+    "cultural_access_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion_boundary": {
+    "permitted_now": "bibliographic identity, manifestation relationships, catalogue identifiers and pagination metadata",
+    "not_promoted": [
+      "dictionary headwords or definitions",
+      "lexical frequency or semantic claims",
+      "dialect representativeness",
+      "community endorsement",
+      "unrestricted redistribution rights"
+    ]
+  },
+  "release_value": "Reduces duplicate-risk in the Master Munda Source Census and establishes a deterministic work-versus-manifestation canonicalization rule for this dictionary family."
+}
