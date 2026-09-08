@@ -6,10 +6,16 @@
   "author": "Alpa Shah",
   "journal": "Journal of the Royal Anthropological Institute",
   "year": 2007,
+  "volume": "13",
+  "issue": "1",
+  "pages": "129-145",
+  "first_published": "2007-02-08",
+  "version_of_record_online": "2007-02-08",
   "doi": "10.1111/j.1467-9655.2007.00417.x",
   "canonical_url": "https://doi.org/10.1111/j.1467-9655.2007.00417.x",
   "publisher_metadata_verified": true,
-  "abstract_scope_verified": "The publisher abstract explicitly frames the study around Mundas in Jharkhand and analyzes their political engagement, representations of the state, and a sacral polity described as the parha.",
+  "exact_publisher_locator_verified": "Wiley/Journal of the Royal Anthropological Institute article page, volume 13 issue 1, pages 129-145, DOI 10.1111/j.1467-9655.2007.00417.x, first published 8 February 2007.",
+  "abstract_scope_verified": "The publisher abstract explicitly frames the article around Mundas in Jharkhand and reports the author's analysis of electoral participation, representations of the state, and a sacral polity described by the author as the parha.",
   "scope_classification": ["governance_politics", "historical_contemporary_change", "identity_representation"],
   "geographic_scope": "Jharkhand, India",
   "deduplication_state": "candidate_requires_repository_wide_web_discovery_reconciliation_before_new_source_identity_assignment",
@@ -21,10 +27,10 @@
     "participant_material_reuse_verified": false,
     "cultural_access_override": true
   },
-  "promotion_state": "metadata_verified_candidate_only",
+  "promotion_state": "exact_publisher_metadata_and_abstract_locator_verified_candidate_only",
   "claims_promoted": false,
   "evidence_promoted": false,
-  "integrity_boundary": "Do not generalize the article's ethnographic argument to all Munda communities, all periods, or current universal practice. Do not ingest protected full text or participant-derived material without lawful access, exact locators, rights review and cultural-access review.",
-  "source_checked": "Wiley Online Library publisher DOI/abstract page",
-  "blocker": "Repository-wide deterministic comparison against all 87 existing discovery leads has not yet been completed for this DOI; full-text reuse terms are not established."
+  "integrity_boundary": "Treat the abstract as the author's bounded ethnographic argument, not a universal or present-day fact about all Munda communities. Do not ingest protected full text, participant-derived material, or culturally sensitive interpretation without lawful access, exact locators, rights review and cultural-access review.",
+  "source_checked": "Wiley Online Library / Journal of the Royal Anthropological Institute publisher DOI and abstract page",
+  "blocker": "Repository-wide deterministic comparison against all existing discovery artifacts has not yet been completed for this DOI; full-text reuse terms and participant-derived material reuse are not established."
 }
