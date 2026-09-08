@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T06:54:00Z",
-  "observed_head_before_status_sync": "bef665bf87ee081e7704060b3d8f1583fd6bff91",
+  "updated_utc": "2026-09-08T07:38:00Z",
+  "observed_head_before_status_sync": "3435f5c5efa230d1f99d2bfe780165393afde0e5",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -14,8 +14,8 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "edition_reconciliation_state": "open; DSAL 2026 bibliographic working list records Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original Government Printing physical sequence still must be reconciled against later 16-volume reprint numbering before permanent slot or denominator changes",
-      "cycle_state": "No new authoritative scan or verified transcription obtained in run 57; no completeness inflation."
+      "edition_reconciliation_state": "open; DSAL working bibliography reports Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original Government Printing physical sequence, parts/plates, and later 16-volume reprint numbering must remain separated before permanent denominator changes",
+      "cycle_state": "Run 58 rechecked the unresolved state; no new authoritative scan/page-accounting/OCR reconciliation was obtained, so no completeness inflation was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -27,13 +27,13 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000057",
-      "latest_search_record_path": "data/source_census/search_log_run57.jsonl",
-      "latest_verification": "WEB-MUN-0047 was freshly re-verified against the Wikimedia Commons file page and deterministically promoted as SRC-MMSC-000015. Commons reports the Eastern Zonal Cultural Centre documentary dated 27 September 2022, YouTube ID jcaVTX0BCtQ, file-level CC BY 3.0, and timestamp catalogue labels 4:28 Paika (Munda community), 6:00 Mundari, and 11:12 Mundari (Marriage). Only repository catalogue-label and file-metadata evidence was promoted; no performance interpretation, participant consent, community validation or current representativeness was inferred.",
+      "latest_search_id": "MMSC-SEARCH-000058",
+      "latest_search_record_path": "data/source_census/search_log_run58.jsonl",
+      "latest_verification": "Run 58 verified the run-57 release head as 4/4 CI green and staged a publisher/institutional exact-locator artifact for Phillips and Harrison 2017, DOI 10.1017/cnj.2017.13. Cambridge Core and Swarthmore metadata/abstract verify the article identity and that the comparative study explicitly includes Kera Mundari and Mundari among seven Munda languages. No full-text, elicitation-data, community-wide cultural or reuse-right claim was promoted.",
       "search_log_reconciliation": {
         "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
         "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57],
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58],
         "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
         "rule": "Do not synthesize missing log content from status prose; recover exact original records before primary-log consolidation."
       },
@@ -44,7 +44,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign; run 57 populated a bounded DOM-16 dance evidence chain with exact audiovisual catalogue timestamps."
+      "cycle_state": "No schema redesign; evidence population, exact locators and provenance integrity remain prioritized."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -56,7 +56,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public MMSC catalogue now includes SRC-MMSC-000015 through the standalone register and CSV evidence extends through EVD-000051. The promoted record exposes repository catalogue labels/file metadata only and retains participant/content cultural gates."
+      "sync_note": "Public catalogue remains at SRC-MMSC-000015 and public CSV evidence through EVD-000051. Run 58 staged exact-locator evidence only; no unsupported public record or metric increment was introduced."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -66,9 +66,9 @@
       "claims": 51,
       "evidence_records": 51,
       "evidence_links": 51,
-      "metrics_changed_this_cycle": true,
+      "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Generated JSON and LaTeX release metrics synchronized at 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links. Fresh publication CI for the new head must pass before this run is called audited-green."
+      "manuscript_build_state": "Generated JSON and LaTeX release metrics remain synchronized at 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links. No publication metric changed in run 58."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -76,39 +76,36 @@
       "evidence_links": 51,
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "latest_evidence_scope": "Wikimedia Commons/EZCC repository metadata and exact catalogue timestamps 4:28, 6:00 and 11:12 for the file Folk Dances of Jharkhand - Documentary - EZCC; metadata/catalogue-label evidence only.",
-      "new_verified_metadata_artifact": "data/source_census/ezcc_commons_munda_dance_verification_2026-09-08.json",
-      "new_exact_file_locator_artifact": "data/source_census/ezcc_commons_munda_dance_exact_locator_evidence_2026-09-08.json",
-      "promotion_decision_artifact": "data/source_census/ezcc_commons_munda_dance_promotion_decision_2026-09-08.json",
-      "promotion_boundary": "No performance meaning, ritual interpretation, participant consent, community validation, present-day representativeness, transcript/translation, derived performance clip, restricted cultural content or unrestricted segment reuse right was promoted."
+      "latest_evidence_scope": "Wikimedia Commons/EZCC repository metadata and exact catalogue timestamps for the documentary Folk Dances of Jharkhand; repository catalogue-label evidence only.",
+      "new_exact_locator_candidate_artifact": "data/source_census/phillips_harrison_munda_mimetic_reduplication_exact_locator_2026-09-08.json",
+      "candidate_supported_scope": "Publisher/institutional abstract-level comparative-language evidence that the article includes Kera Mundari and Mundari among seven Munda languages.",
+      "promotion_boundary": "No protected full text, elicitation material, participant-derived content, community validation, present-day representativeness, Munda-people-wide cultural generalization or unrestricted reuse right was promoted in run 58."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "da4256d1274b4ef358efe93a0235710b981e91b2",
+    "last_verified_all_four_green_commit": "ab71bab0a2a0c3f9fa8ed3f0005db850859919b6",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["22d5f05daba4b9e3eb7db8deff931f7b82b2989b","b26955925c103596ea8f809554f0f231db4d7715","631da2caba2a501bab89fc617fb8279b26212b39","df6be574905587cdfd12fdc59e2a75a12bd053b6","2f23265e93e7b3d365283de6991c45e31d106e72","a2613c97f64938028a922d4f7b96b37162edc726","68220654fda834584607d4e5c076a0e2591e9934","9224a422b7444986f96f084c0d37f7c0ee432ccc","bef665bf87ee081e7704060b3d8f1583fd6bff91"],
-    "new_head_ci_state_at_status_write": "Run 56 head da4256d1274b4ef358efe93a0235710b981e91b2 is verified 4/4 green. Fresh CI for the run 57 promotion/status head is not yet verified; do not project the prior green state forward."
+    "new_commits_this_cycle": ["68d77f1c0f4f4c127a6c601f4c770a0e0c3ca7ae","3435f5c5efa230d1f99d2bfe780165393afde0e5"],
+    "new_head_ci_state_at_status_write": "Run-57 head ab71bab0a2a0c3f9fa8ed3f0005db850859919b6 is verified 4/4 green. Fresh CI for run-58 commits/status head is not yet verified; do not project the previous green result forward."
   },
   "changes_this_cycle": [
-    "Verified run 56 head da4256d1274b4ef358efe93a0235710b981e91b2 completed all four required CI workflows successfully.",
-    "Freshly re-verified WEB-MUN-0047 against the Wikimedia Commons source page, including creator/source identity, 27 September 2022 date, 39:31 duration, YouTube ID jcaVTX0BCtQ, file-level CC BY 3.0 and exact Munda/Mundari timestamp catalogue labels.",
-    "Deterministically canonicalized WEB-MUN-0047 to new standalone source SRC-MMSC-000015 with dedupe key commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm.",
-    "Promoted one bounded exact-locator provenance chain SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051 under DOM-16/DOM-16-S01 without interpreting performance content.",
-    "Updated MMSC metrics from 40 to 41 audited identities, 12 to 13 canonicalized web leads, and 75 to 74 remaining undisposed web leads.",
-    "Updated release evidence metrics from 50/50/50 to 51/51/51 and synchronized generated JSON and LaTeX manuscript metrics.",
-    "Added MMSC-SEARCH-000057 documenting the exact promotion and governance boundary.",
+    "Verified run-57 head ab71bab0a2a0c3f9fa8ed3f0005db850859919b6 completed all four required CI workflows successfully.",
+    "Ran a broad parallel source-class sweep covering books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers/web, datasets, audio, video and maps/media.",
+    "Re-verified Phillips and Harrison 2017 through Cambridge Core and Swarthmore and staged an exact-locator metadata/abstract artifact for DOI 10.1017/cnj.2017.13.",
+    "Preserved the source as comparative Munda-language-family research with explicit Kera Mundari/Mundari inclusion; no Munda-people-wide cultural claim was inferred.",
+    "Added MMSC-SEARCH-000058 without inflating source/evidence counts.",
     "Did not modify or merge main."
   ],
   "blockers": [
-    "Mundarica verified_complete_volumes remains 0; exact authoritative scan/page-accounting reconciliation for the unresolved end of the sequence remains incomplete.",
+    "Mundarica verified_complete_volumes remains 0; authoritative scan/page-accounting/OCR/transcription reconciliation remains incomplete.",
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "Primary MMSC search_log.jsonl is verified only through MMSC-SEARCH-000028; exact recovery remains needed for 000034-000038 and 000041 before safe consolidation.",
-    "Census ST-15 official workbook identity is verified, but checksum/sheet/row/cell extraction for Munda/Mundari remains incomplete; no numeric values are asserted.",
-    "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
-    "Official LSI Jharkhand and LSI Volume IV still require successful direct page-image inspection before page-level linguistic or numeric evidence promotion.",
-    "SCSTRTI Odisha Munda monograph record SCST/2016/0054 is metadata-verified but requires deterministic historical discovery reconciliation, item-level rights/full-text review and exact page extraction before canonical/evidence promotion.",
-    "Phillips and Harrison 2017 and Alpa Shah 2007 remain identity/abstract verified candidates pending deterministic reconciliation and item-level rights review before canonical/evidence promotion.",
+    "Primary search_log.jsonl is verified only through MMSC-SEARCH-000028; exact records 000034-000038 and 000041 remain unrecovered.",
+    "Census ST-15 workbook identity is verified but checksum/sheet/row/cell extraction for Munda/Mundari remains incomplete; no numeric values are asserted.",
+    "Census C-16 Jharkhand identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
+    "Official LSI Jharkhand and LSI Volume IV still require successful page-image inspection before page-level linguistic or numeric evidence promotion.",
+    "Phillips and Harrison 2017 now has an exact publisher/institutional abstract locator artifact but still requires deterministic comparison against every historical discovery artifact and canonical ledger before source/evidence count promotion.",
+    "SCSTRTI Odisha Munda monograph, Alpa Shah 2007 and other staged candidates still require deterministic reconciliation and item-level rights review.",
     "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material and TRI full text remain consent/rights/cultural-access gated as applicable.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
@@ -129,14 +126,15 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Verify all four CI workflows on the run 57 head and repair any regression before treating the new 41/13/51/51/51 state as audited-green.",
-    "Reconcile SCST/2016/0054, DOI 10.1017/cnj.2017.13 and DOI 10.1111/j.1467-9655.2007.00417.x against all historical web-discovery files before assigning new source identities.",
+    "Verify all four CI workflows on the run-58 head and repair any regression before further metric-changing promotion.",
+    "Deterministically reconcile DOI 10.1017/cnj.2017.13, SCST/2016/0054 and DOI 10.1111/j.1467-9655.2007.00417.x against every historical web-discovery artifact and canonical ledger.",
+    "If Phillips-Harrison reconciliation is clean, atomically promote a bounded DOM-14 abstract-level evidence chain and synchronize MMSC, Streamlit, graph and publication metrics.",
     "Retrieve ST-20-00-15-DDW-2011.XLSX and record checksum/sheet/row/cell locators for Munda/Mundari before numeric promotion.",
     "Retry official LSI Jharkhand and LSI Volume IV page-image retrieval before passage-level promotion.",
     "Retry official C-16 workbook retrieval and record checksum/sheet/row/cell locators before numeric promotion.",
-    "Recover exact original search records 000034-000038 and 000041 before primary-log consolidation; never reconstruct them from prose.",
-    "Continue deterministic disposition of the remaining 74 web leads across books, dictionaries, grammars, articles, theses, government/TRI, archives, newspapers/web, datasets, audio, video and maps/media.",
+    "Recover exact original search records 000034-000038 and 000041; never reconstruct from prose.",
+    "Continue deterministic disposition of the remaining 74 web leads across all documented source classes.",
     "Continue BMM1 item-level access/consultant review and rights-bounded TRI/grammar processing.",
-    "Continue Mundarica authoritative scan acquisition and physical-unit/part/plate/reprint reconciliation without treating OCR or catalogue metadata as verification."
+    "Continue Mundarica authoritative artifact acquisition and physical-unit/part/plate/reprint reconciliation without treating OCR/catalogue metadata as verification."
   ]
 }
