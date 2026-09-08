@@ -1,0 +1,31 @@
+{
+  "verification_id": "MMSC-VERIFY-ST15-JH-20260908",
+  "verified_date": "2026-09-08",
+  "source_class": "government_census_table",
+  "institution": "Office of the Registrar General & Census Commissioner, India",
+  "catalogue_title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+  "catalogue_identity_verified": true,
+  "scope_verified": {
+    "geography": "Jharkhand",
+    "census_year": 2011,
+    "table_family": "ST-15",
+    "contains_mother_tongue_categories": ["Munda", "Mundari"],
+    "contains_scheduled_tribe_by_mother_tongue_structure": true
+  },
+  "exact_locator_state": "catalogue-level variable/category locator verified; underlying workbook row/cell locators not yet extracted",
+  "promotion_state": "metadata_evidence_candidate_only",
+  "numeric_values_promoted": false,
+  "cultural_claims_promoted": false,
+  "deduplication_key": "CENSUSINDIA|2011|ST-15|JHARKHAND|CATALOG-12552",
+  "rights_access_governance": {
+    "public_catalogue_access": true,
+    "underlying_workbook_reuse_rights_verified": false,
+    "participant_consent_applicable_to_catalogue_metadata": false,
+    "cultural_access_override": true,
+    "note": "Public catalogue visibility is not treated as blanket permission for downstream reuse or interpretation. Numeric promotion requires exact workbook/sheet/row/cell locators and source-level verification."
+  },
+  "integrity_boundary": "Do not infer or publish Munda/Mundari population values from snippets, secondary summaries, or neighbouring tables. Until the official downloadable table is inspected directly, retain only catalogue identity, table scope, geography, census year and the presence of Munda/Mundari mother-tongue categories.",
+  "blocker": "Official workbook/CSV row-level extraction not completed in this cycle.",
+  "next_action": "Retrieve the official table file, record checksum and sheet name, identify exact Munda/Mundari rows and cells, then promote only verified numeric evidence with provenance."
+}
