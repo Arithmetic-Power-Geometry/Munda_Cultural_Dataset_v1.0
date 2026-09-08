@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T23:30:52Z",
-  "observed_head_before_status_sync": "3f813007e3fec19b7aabdc46ef93acb185fb5b9b",
+  "updated_utc": "2026-09-08T23:46:15Z",
+  "observed_head_before_status_sync": "3459ddd227842f8f995cc7b954f1da467bc74b31",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open work/part/volume/plates/edition reconciliation; not verified complete",
         "XVI": "2009 Gyan reprint manifestation labelled Vol.16th remains a reprint clue only; historical-slot equivalence, authoritative scan and page accounting unresolved; not verified complete"
       },
-      "cycle_state": "Run 90 added a formal volume-model reconciliation artifact. Conflicting secondary statements about 13 text volumes plus plates, 15 volumes and sixteen-part descriptions were preserved as conflict, not used to rewrite the audit model or mark XIV-XVI complete."
+      "cycle_state": "Run 91 was non-Mundarica focused. The run-90 volume-model reconciliation remains authoritative for current status; no Mundarica slot was upgraded or marked complete."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000090",
-      "latest_search_record_path": "data/source_census/search_log_run90.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000091",
+      "latest_search_record_path": "data/source_census/search_log_run91.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Official ORGI C-17 Jharkhand 2001 catalogue metadata was exact-locator verified as PC01_C17-20 / PC01_C17 with exact workbook filename PC01_C17_20.xls and explicit total/first-subsidiary/second-subsidiary language column structure. No numeric cell was promoted.",
+      "latest_verification": "Run 91 deterministically reconciled two public-domain 1912 scans of Sarat Chandra Roy's The Mundas and Their Country to existing canonical SRC-000005, recording the dli.ministry.04532 Commons manifestation at 43.1 MB / 662 PDF pages / SHA-1 74720e51a1445d4c4c3946885e247609bda9bbd1 and a distinct 649-page Central Secretariat Library manifestation without creating a duplicate identity. Cambridge publisher metadata also verified Choksi 2020, DOI 10.1017/S0047404519000824, pp. 379-398, as an exact-locator candidate pending full web-lead reconciliation and participant/rights/cultural-access review.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 90 prioritized exact-locator verification and provenance gating; no permanent source/evidence-chain row was added without promotion-grade support."
+      "cycle_state": "No schema redesign. Run 91 added two exact-locator/manifestation verification artifacts but no permanent source/evidence-chain row without a completed promotion gate."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No source/claim/evidence/link count changed in run 90, so no UI metric remap is required. Existing 42-module and 100% schema/UI mappings remain valid; run-90 verification artifacts are repository-searchable."
+      "sync_note": "No permanent source/claim/evidence/link count changed in run 91, so no UI metric remap is required. Existing 42-module and 100% schema/UI mappings remain valid; run-91 verification artifacts and search log are repository-searchable."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head 1646450923f984575aee8fd3d60a65c02309dc9b is independently verified 4/4 green. Run 90 leaves release metrics 41/87/13/52/52/52 unchanged; fresh CI on the newest run-90 status head must be verified before projecting green."
+      "manuscript_build_state": "Pre-run head 1915a042ae2c89fed24eedab84b152aa48e1c879 is independently verified 4/4 green: Source Register Audit 876, Migration Audit 926, Streamlit Smoke Test 1022 and Publication Build 875. Run 91 leaves release metrics 41/87/13/52/52/52 unchanged; fresh CI on the newest run-91 status head must be verified before projecting green."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,33 +87,36 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run90_advanced_source": "C-17 Jharkhand 2001 advanced from known Census blocker to exact official catalogue/workbook-filename verification; Mundarica publication-model reconciliation was also documented. Permanent evidence-chain counts remain unchanged because no numeric cell, full-text passage or cultural proposition crossed the promotion gate.",
-      "promotion_boundary": "Catalogue identity, workbook filename and table schema may be recorded; Census numbers require official bytes plus checksum/worksheet/row/cell provenance. Mundarica volume counts require authoritative manifestation/page-accounting evidence."
+      "run91_advanced_source": "Existing canonical SRC-000005 Roy 1912 advanced at the manifestation/provenance layer with exact public-domain scan size/page/hash metadata and a second-scan distinction. Choksi 2020 advanced from discovery to exact publisher/DOI/page-range verification, but permanent identity/evidence promotion remains gated. Evidence-chain counts remain unchanged because direct Roy PDF page-image inspection failed and Choksi participant-derived interview/video material has not cleared passage-level rights/consent/cultural-access review.",
+      "promotion_boundary": "Manifestation identity, exact file metadata, DOI, publication pagination and publisher-level study scope may be recorded. Historical cultural propositions require direct page-image/passage provenance and context; participant-derived examples/media require rights, consent and cultural-access review."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "1646450923f984575aee8fd3d60a65c02309dc9b",
+    "last_verified_all_four_green_commit": "1915a042ae2c89fed24eedab84b152aa48e1c879",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":869,"migration_audit":919,"streamlit_smoke_test":1015,"publication_build":868},
-    "new_commits_this_cycle_before_status_sync": ["d7a71007b721e7902650335179264577e8c728a3","05d127ce72f5b2569c2c09d42dad02678e035f13","3f813007e3fec19b7aabdc46ef93acb185fb5b9b"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-90 status head must be independently verified; do not project the verified 16464509 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":876,"migration_audit":926,"streamlit_smoke_test":1022,"publication_build":875},
+    "new_commits_this_cycle_before_status_sync": ["b72c16e3ed3b9240b6e64edd081f343995e1592c","5409f91784a42fac498ae318af2ae6ca7ccf4177","3459ddd227842f8f995cc7b954f1da467bc74b31"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-91 status head must be independently verified; do not project the verified 1915a042 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed pre-run head 1646450923f984575aee8fd3d60a65c02309dc9b as 4/4 CI green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
-    "Added exact-locator verification for official Census C-17 Jharkhand 2001: PC01_C17-20 / PC01_C17 / PC01_C17_20.xls, with zero numeric-cell promotion pending byte/checksum/sheet/row/cell provenance.",
-    "Attempted official LSI_JHARKHAND PDF visual verification; retrieval returned HTTP 502 and screenshot could not be established, so no visual-page-dependent linguistic statement was promoted.",
-    "Added a Mundarica publication-model reconciliation artifact preserving conflicting 13-plus-plates/15-volume/sixteen-part signals rather than falsely upgrading XIV-XVI or altering the audit model.",
-    "Recorded MMSC-SEARCH-000090 across all requested source classes and continued blocked streams independently.",
-    "Kept release metrics unchanged at 41/87/13/52/52/52 and did not modify or merge main."
+    "Confirmed pre-run head 1915a042ae2c89fed24eedab84b152aa48e1c879 as 4/4 CI green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
+    "Deterministically reconciled Roy 1912 rediscovery to existing SRC-000005 instead of creating a duplicate source identity; recorded two distinct Commons/Internet Archive scan manifestations and exact 662-page scan SHA-1 metadata.",
+    "Attempted direct original-PDF access for Roy; the fetch returned a cache-miss error, so no screenshot/page-image cultural claim or OCR upgrade was made.",
+    "Verified Nishaant Choksi's 2020 Language in Society article at DOI 10.1017/S0047404519000824, volume 49 issue 3, pp. 379-398, with a Cambridge shared read-only article view; permanent source admission and participant-derived evidence remain gated.",
+    "Explicitly rejected South-Sudan Mundari homonym results from the India Munda/Mundari source census.",
+    "Recorded MMSC-SEARCH-000091 across all requested non-Mundarica source classes and continued blocked streams independently.",
+    "Kept release metrics unchanged at 41/87/13/52/52/52; Streamlit mappings, evidence graph counts, completeness/publication metrics and manuscript tables/figures require no metric rewrite because no permanent identity or evidence-chain row changed; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Official LSI Jharkhand exact page-image verification remains incomplete after HTTP 502 retrieval failure; indexed text is not treated as visual-page verification.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; C-17 exact catalogue/workbook identity is now verified.",
+    "Official LSI Jharkhand exact page-image verification remains incomplete; indexed text is not treated as visual-page verification.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical work/part/volume/plates/reprint reconciliation remains unresolved.",
     "Bhaduri/TRI/Sinha/Archer/Cook lawful inspectable full-text reuse and master-register reconciliation remain pending for deeper extraction.",
+    "Roy 1912 direct original-PDF page-image inspection failed with a cache-miss in run 91; existing index-based claims were not upgraded from OCR/transcription alone.",
+    "Choksi 2020 remains pending deterministic reconciliation against the full discovery layer before any new SRC-MMSC ID; interview/video-derived material is separately participant-rights/consent/cultural-access gated.",
     "Participant-derived audio and related media remain item-level consent/rights/cultural-access gated beyond verified metadata or article-level technical reporting.",
     "MegaVoice Mundari media exact-locator records remain pending deterministic master-register reconciliation and rights/consent review.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
@@ -143,13 +146,13 @@
   },
   "next_parallel_tasks": [
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before any numeric claim promotion.",
-    "Continue deterministic disposition of the remaining 74 web leads, prioritizing official/public-domain/open-access exact locators and work/item/manifestation deduplication.",
-    "Retry official LSI PDF/page-image verification while preserving indexed-text versus visual-page distinction.",
+    "Continue deterministic disposition of the remaining 74 web leads, including explicit reconciliation of Choksi 2020 before any permanent SRC-MMSC assignment.",
+    "Retry direct Roy 1912 and official LSI PDF/page-image verification while preserving page-image versus OCR/index distinction.",
     "Continue authoritative Mundarica I-XVI scan/page-accounting acquisition and resolve historical part/volume/plates/reprint mappings without upgrading OCR or completeness prematurely.",
     "Continue Bhaduri/TRI/Sinha/Archer/Cook lawful-full-text and reuse-rights reconciliation before lexical, linguistic or cultural extraction.",
-    "Reconcile MegaVoice and other media candidates against discovery/master registers and enforce consent/rights/cultural-access gates.",
+    "Reconcile MegaVoice, Aabua Paika Kabu Bageya and other media candidates against discovery/master registers and enforce consent/rights/cultural-access gates.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-90 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-91 status head and repair any regression before metric-changing promotion."
   ]
 }
