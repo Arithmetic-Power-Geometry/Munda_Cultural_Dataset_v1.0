@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T11:42:00Z",
-  "observed_head_before_status_sync": "5d61fd4258be084f5cc6cff5300b2fef4be64023",
+  "updated_utc": "2026-09-08T11:46:00Z",
+  "observed_head_before_status_sync": "55221486c092ef31341ca0dce50aabe6ac222974",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,8 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "edition_reconciliation_state": "open; DSAL 2026 bibliographic working list records Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original physical sequence, parts/plates and later reprint numbering require authoritative reconciliation",
-      "cycle_state": "Run 66 added no authoritative scan, verified transcription, OCR verification or page-accounting completion; completeness remains uninflated."
+      "cycle_state": "Run 67 is non-Mundarica focused; no authoritative scan, OCR verification or page-accounting completion added."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -47,16 +46,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 29,
-      "latest_search_id": "MMSC-SEARCH-000066",
-      "latest_search_record_path": "data/source_census/search_log_run66.jsonl",
-      "latest_verification": "Resolved the previously unnamed 2026 Forest Rights Act/Munda candidate to Saumya Verma, Implementation and Implications of the Forest Rights Act, 2006 on Tribal Rights: A Case Study of Munda Tribe in Jharkhand, Central University of Kashmir Law Review, published 2026-04-02. The journal landing page states CC BY-NC-ND 4.0. Verification remains identity/rights/scope only pending deterministic reconciliation; no permanent source ID or cultural claim was promoted.",
-      "latest_promotion_decision": "data/source_census/census_c17_atomic_promotion_decision_2026-09-08.json",
-      "reserved_atomic_promotion": "WEB-MUN-0011 -> SRC-MMSC-000016 -> CLM-000052 -> EVD-000052 -> LNK-000052; metrics must not change until all ledgers, discovery canonicalization, publication outputs and status are coherently synchronized and resulting head is CI-green",
-      "search_log_reconciliation": {
-        "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "status_referenced_ids_without_corresponding_original_run_file": [34,35,36,37,38,41],
-        "rule": "Never reconstruct missing historical log records from status prose."
-      },
+      "latest_search_id": "MMSC-SEARCH-000067",
+      "latest_search_record_path": "data/source_census/search_log_run67.jsonl",
+      "latest_verification": "Official ORGI Census 2011 ST-15 Jharkhand strengthened to exact catalogue record PC11_ST15-20 and workbook filename ST-20-00-15-DDW-2011.XLSX. Catalogue variables Munda, Patar and MUNDA/MUNDARI were verified; no numeric values were promoted because workbook bytes/checksum/worksheet/row/cell coordinates remain unverified.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -64,7 +56,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign; run 66 prioritized source identity verification, rights boundaries and CI truthfulness."
+      "cycle_state": "No redesign; run 67 prioritized exact-source verification and ingestion readiness."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -74,9 +66,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "additive_mmsc_sources_loaded_into_public_catalogue": true,
-      "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public evidence remains synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. The Verma 2026 article remains verification-only and is not exposed as a public claim/evidence chain."
+      "sync_note": "Public evidence remains synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. ST-15 remains verification-only pending deterministic reconciliation and atomic promotion."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -88,7 +78,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-65 head 69f435dc03115406efbb3b6b248573daee3e6650 is verified 4/4 green. Release metrics remain 41 sources / 87 observed web leads / 13 canonicalized web leads / 51 claims / 51 evidence / 51 links because run 66 made no metric-changing promotion."
+      "manuscript_build_state": "Run-66 status head 12d0dbc73691b36918bbe1c9e9753c77c6dec48a is verified 4/4 green. Release metrics remain 41/87/13/51/51/51 because run 67 made no metric-changing promotion."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -96,37 +86,34 @@
       "evidence_links": 51,
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "latest_evidence_scope": "Wikimedia Commons/Eastern Zonal Cultural Centre repository metadata and exact timestamp catalogue labels only.",
-      "run66_advanced_candidate": "Saumya Verma 2026 FRA/Munda case-study bibliographic identity, publication date, scope and CC BY-NC-ND 4.0 landing-page license are verified; deterministic reconciliation remains pending.",
-      "promotion_boundary": "No article-derived cultural, legal, demographic, participant, fieldwork or community-validation proposition was promoted in run 66."
+      "run67_advanced_candidate": "Official Census 2011 ST-15 Jharkhand exact catalogue locator PC11_ST15-20; workbook ST-20-00-15-DDW-2011.XLSX; relevant catalogue variable labels verified; numeric evidence remains blocked pending exact-cell verification.",
+      "promotion_boundary": "No demographic number, lexical entry, cultural practice, participant fact, rights assertion or community-validation proposition was promoted in run 67."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "69f435dc03115406efbb3b6b248573daee3e6650",
+    "last_verified_all_four_green_commit": "12d0dbc73691b36918bbe1c9e9753c77c6dec48a",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "publication_build_note": "All four required workflows completed successfully on 69f435dc03115406efbb3b6b248573daee3e6650.",
-    "new_commits_this_cycle": ["ca4885d25c4547eef8a5cff0ea873a44d9e860a8","5d61fd4258be084f5cc6cff5300b2fef4be64023"],
-    "new_head_ci_state_at_status_write": "Fresh CI for run-66 commits/status head is not yet verified; do not project the 4/4-green state of 69f435d forward."
+    "new_commits_this_cycle": ["d75201495666dfa9fd806cedd36e6d59355f4682","55221486c092ef31341ca0dce50aabe6ac222974"],
+    "new_head_ci_state_at_status_write": "Fresh CI for run-67 commits/status head is not yet verified; do not project the 4/4-green state of 12d0dbc forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on run-65 head 69f435dc03115406efbb3b6b248573daee3e6650.",
-    "Resolved the newly observed 2026 Munda/Forest Rights Act case-study article to a concrete Central University of Kashmir Law Review identity and exact publication date.",
-    "Recorded the journal landing-page CC BY-NC-ND 4.0 license while explicitly preventing derivative/full-text redistribution assumptions and preserving cultural-access/consent boundaries.",
-    "Kept the source verification-only pending deterministic comparison against existing web discovery and MMSC records; no counts or evidence chains were inflated.",
-    "Preserved Census C-17 as the next reserved atomic promotion, still blocked from numeric evidence until workbook checksum and exact worksheet/row/cell locators are verified.",
+    "Verified all four required workflows green on run-66 status head 12d0dbc73691b36918bbe1c9e9753c77c6dec48a.",
+    "Strengthened official Census 2011 ST-15 Jharkhand to exact ORGI catalogue locator PC11_ST15-20 and workbook filename ST-20-00-15-DDW-2011.XLSX.",
+    "Verified catalogue-level Munda, Patar and MUNDA/MUNDARI variables while withholding all numeric evidence until exact workbook locators are verified.",
+    "Reconfirmed Bhaduri Mundari-English dictionary bibliographic identity but did not ingest lexical content because unrestricted full-text/reuse status remains unverified.",
+    "Recorded MMSC-SEARCH-000067 across all requested source classes; blocked items remain explicit gaps and counts were not inflated.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica verified_complete_volumes remains 0; authoritative scans and page-accounting reconciliation remain incomplete.",
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Census C-17 workbook filename is verified, but workbook bytes/checksum/sheet/row/cell coordinates remain unavailable; no numeric evidence is asserted. ST-15, ST-16 and C-16 exact numeric cells also remain pending.",
+    "ST-15 exact catalogue identity and workbook filename are verified, but workbook bytes/checksum/worksheet/row/cell coordinates remain pending; no numeric evidence is asserted. C-17, ST-16 and C-16 exact numeric cells also remain pending.",
     "LSI Jharkhand descriptive-grammar page images remain unavailable for direct page-level inspection in current retrieval attempts.",
-    "The 1906 LSI Munda-languages map still requires discovery-layer disposition/primary-image reconciliation before atomic source promotion.",
-    "Evans and Osada 2005, Phillips and Harrison 2017, Alpa Shah 2007, Srivastava 2007, Saboo 2020, Verma 2026 and TRI candidates remain at varying dedupe/access/rights/exact-locator gates before deeper promotion.",
-    "BMM1/PARADISEC, historical audio, MunTTS/dataset-mundari-tts and other participant-derived materials remain consent/rights/cultural-access gated as applicable.",
-    "Evidence-empty modules remain structure-ready rather than falsely complete."
+    "Bhaduri dictionary unrestricted full-text/reuse state remains unverified; no lexical extraction is permitted yet.",
+    "Evans and Osada 2005, Phillips and Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020, Verma 2026 and TRI candidates remain at varying dedupe/access/rights/exact-locator gates.",
+    "BMM1/PARADISEC, historical audio, MunTTS and other participant-derived materials remain consent/rights/cultural-access gated as applicable."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -151,17 +138,13 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile Verma 2026 against every existing discovery and MMSC identity before assigning a permanent ID; if unique and permitted, promote only bounded exact-locator evidence.",
-    "Retrieve C-17 workbook DDW-C17-2000.XLSX bytes and record checksum, worksheet, row and cell locators before asserting any numeric value.",
-    "Execute coherent WEB-MUN-0011 C-17 atomic promotion only when discovery, source, claim, evidence, link, publication and status surfaces can be synchronized and CI remains green.",
-    "Retrieve and exact-cell verify ST-15 workbook ST-20-00-15-DDW-2011.XLSX and continue equivalent work for ST-16 and C-16.",
-    "Continue deterministic disposition of the remaining 74 web leads, prioritizing public-domain, open-government and open-access exact-locator sources.",
-    "Complete discovery-layer disposition for the 1906 LSI map and distinguish it from the 2020 Commons derivative map before promotion.",
-    "Continue rights-bounded exact-locator processing for Evans-Osada, Phillips-Harrison, Shah, Srivastava, Saboo and TRI sources.",
+    "Deterministically reconcile Census ST-15 against all existing discovery and MMSC identities; if unique, execute atomic metadata/evidence promotion without asserting numeric values.",
+    "Retrieve ST-15 workbook ST-20-00-15-DDW-2011.XLSX bytes and record checksum, worksheet, row and cell locators before asserting any count.",
+    "Retrieve C-17 workbook DDW-C17-2000.XLSX bytes and verify exact cells before numeric promotion.",
+    "Continue deterministic disposition of the remaining 74 web leads, prioritizing official, public-domain and open-access exact-locator sources.",
+    "Continue rights-bounded exact-locator processing for scholarly, TRI, archive, audio/video, dataset and map sources.",
     "Retry LSI Jharkhand page-image retrieval and inspect exact Mundari grammar pages when accessible.",
-    "Recover exact original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Continue BMM1/PARADISEC and TTS item-level rights/consultant/consent review without exposing participant-derived content prematurely.",
-    "Continue Mundarica authoritative scan acquisition and physical-unit/part/plate/reprint reconciliation without treating OCR or catalogue metadata as verification.",
-    "Verify all four CI workflows on newest run-66 status head and repair any regression before metric-changing promotion."
+    "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
+    "Verify all four CI workflows on the newest run-67 status head and repair any regression before metric-changing promotion."
   ]
 }
