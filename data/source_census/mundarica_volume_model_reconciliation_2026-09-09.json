@@ -1,0 +1,37 @@
+{
+  "artifact_type": "bibliographic_reconciliation",
+  "checked_utc": "2026-09-08T23:30:52Z",
+  "branch": "mlhkp-v2",
+  "work": "Encyclopaedia Mundarica",
+  "purpose": "Prevent false completion and volume-slot inflation while authoritative publication-history reconciliation remains open.",
+  "verified_or_observed_signals": [
+    {
+      "source": "Google Books",
+      "observation": "A bibliographic record exists for Encyclopaedia Mundarica, Volume 13, by Johann Hoffmann and Arthur van Emelen, publisher Superintendent Government Printing, Bihar and Orissa, dated 1941; Google Books states the copy was digitized from the New York Public Library in 2024.",
+      "use": "Confirms at least a historical manifestation catalogued explicitly as Volume 13; does not establish the terminal volume count by itself."
+    },
+    {
+      "source": "Internet Archive / DLI indexed record",
+      "observation": "An indexed item titled Encyclopedia Mundarica Vol-xiii (1941) is discoverable.",
+      "use": "Locator clue only; scan/page accounting and manifestation identity still require authoritative review before machine-verification claims."
+    },
+    {
+      "source": "secondary bibliographic summaries",
+      "observation": "Current secondary sources conflict between 13 text volumes plus plates, 15 volumes, and historical sixteen-part descriptions.",
+      "use": "Conflict is preserved as a reconciliation problem; none of these summaries is treated as sufficient authority to rewrite the project's I-XVI slot model."
+    }
+  ],
+  "release_decision": "Do not upgrade XIV, XV or XVI to located/complete on the basis of secondary volume-count statements or modern reprint numbering. Preserve current I-XVI audit slots while separately modelling work/part/volume/plates/reprint manifestations until authoritative catalogues or scans resolve equivalence.",
+  "verified_complete_volumes_added": 0,
+  "authoritative_scans_added": 0,
+  "ocr_verified_as_transcription": false,
+  "cultural_claims_promoted": 0,
+  "rights_assumed_from_access": false,
+  "next_required_evidence": [
+    "authoritative library or publisher catalogue for complete historical set",
+    "manifestation-level identifiers for each historical volume/part",
+    "authoritative scan or physical copy page accounting",
+    "explicit plates-volume treatment",
+    "mapping from modern reprint numbering to historical manifestations"
+  ]
+}
