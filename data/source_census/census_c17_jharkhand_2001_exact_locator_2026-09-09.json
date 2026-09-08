@@ -1,0 +1,39 @@
+{
+  "artifact_type": "exact_locator_verification",
+  "checked_utc": "2026-09-08T23:30:52Z",
+  "branch": "mlhkp-v2",
+  "source_class": "government/Census language table",
+  "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2001",
+  "producer": "Office of the Registrar General & Census Commissioner, India",
+  "reference_id": "PC01_C17-20",
+  "reference_number": "PC01_C17",
+  "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/22932/study-description",
+  "official_download_filename": "PC01_C17_20.xls",
+  "geographic_scope": "Jharkhand",
+  "time_period": "2001",
+  "unit_of_observation": "Individual (person)",
+  "statistics_type": "Counts",
+  "catalogue_schema_verified": {
+    "language_code": true,
+    "language_name": true,
+    "total_speakers_persons_males_females": true,
+    "first_subsidiary_language_code_name_persons_males_females": true,
+    "second_subsidiary_language_code_name_persons_males_females": true
+  },
+  "verification_level": "official catalogue and exact workbook-filename metadata only",
+  "numeric_ingestion_status": "blocked",
+  "numeric_promotion_requirements": [
+    "obtain official workbook bytes",
+    "record cryptographic checksum",
+    "identify exact worksheet",
+    "identify exact Mundari/Munda row identity as represented in the workbook",
+    "record exact row and cell coordinates for every promoted number",
+    "preserve denominator/universe and sex/category dimensions"
+  ],
+  "promoted_numeric_claims": 0,
+  "promoted_cultural_claims": 0,
+  "rights_note": "Public catalogue availability is not treated as blanket permission for redistribution, model training, or unrestricted reuse of workbook content.",
+  "cultural_access_note": "This is aggregate Census metadata; any later linkage to community-sensitive material remains subject to the project's cultural-access override.",
+  "deduplication_note": "This record verifies the already-known C-17 Jharkhand table identity and does not create a second source identity or inflate audited-source counts.",
+  "release_value": "Closes the catalogue/exact-file-locator portion of the C-17 blocker while leaving all numeric evidence unpromoted until cell-level provenance exists."
+}
