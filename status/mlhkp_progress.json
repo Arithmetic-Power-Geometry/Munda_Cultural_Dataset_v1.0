@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T14:44:00Z",
-  "observed_head_before_status_sync": "4ecfcbdbff1615ed7a0c9b78854cf44a9e5d3991",
+  "updated_utc": "2026-09-08T15:30:00Z",
+  "observed_head_before_status_sync": "a3739c9e6e8e9ad52bcb7fd593b33eda543f4ee7",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 73 prioritized the requested non-Mundarica census. Existing Mundarica acquisition/OCR/page-accounting truth states were preserved without inventing progress."
+      "cycle_state": "Run 74 preserved existing acquisition/OCR/page-accounting truth states; no Mundarica volume was falsely upgraded while the parallel non-Mundarica census and official-source verification advanced."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -45,10 +45,10 @@
       "web_discovery_leads_observed": 87,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
-      "search_log_entries_primary": 31,
-      "latest_search_id": "MMSC-SEARCH-000073",
-      "latest_search_record_path": "data/source_census/search_log_run73.jsonl",
-      "latest_verification": "Official TRI Jharkhand catalogue serials 1 and 2 verify Mundari-Hindi and Hindi-Mundari dictionaries attributed to Mrs. S. Prasad, both categorized as Tribal Language and Literature. The catalogue supplies no year and no download for these entries; permanent IDs and lexical ingestion remain pending deterministic discovery-corpus/work-edition reconciliation and rights review.",
+      "search_log_entries_primary": 32,
+      "latest_search_id": "MMSC-SEARCH-000074",
+      "latest_search_record_path": "data/source_census/search_log_run74.jsonl",
+      "latest_verification": "Current and legacy official TRI Jharkhand catalogues independently corroborate Mundari-Hindi and Hindi-Mundari dictionary entries attributed to Mrs. S. Prasad. Official Census indexing also exposes catalogue 45248 and the LSI_JHARKHAND.pdf path, but direct retrieval returned HTTP 502, so no page-level or numeric claim was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -56,7 +56,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 73 added rights-bounded exact catalogue provenance while keeping metadata-only material out of cultural claims."
+      "cycle_state": "No redesign. Run 74 strengthened provenance/blocker precision while keeping metadata-only and search-index material outside public cultural claims."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -78,7 +78,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-72 status head 99ece86ea65fc0ae29388a60a428cbb85b889bb1 is independently verified 4/4 green. Run 73 did not change release metrics; fresh CI for the newest run-73 status head must be independently verified before green status is projected forward."
+      "manuscript_build_state": "Run-73 status head c8cca1b3ec9075439bce938a3b3b58ef1065cee9 is independently verified 4/4 green. Run 74 did not change release metrics; CI for the new status head must be independently verified before green status is projected forward."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -86,32 +86,32 @@
       "evidence_links": 51,
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "run73_advanced_source": "Official TRI catalogue metadata for two Mundari dictionary works advanced to exact catalogue-locator verification, alongside reconfirmation of a Virginia Tech Munda dissertation and bounded scholarly/dataset candidates.",
-      "promotion_boundary": "No lexical entry, protected dictionary text, participant-derived dissertation material, audio, transcript, translation pair, cultural practice, consent state, reuse right, community-validation state or present-day representativeness claim was newly promoted."
+      "run74_advanced_source": "Official TRI dictionary provenance was corroborated across current and legacy catalogue endpoints; official LSI Jharkhand document identity/path was reconfirmed through Census indexing but remained retrieval-blocked.",
+      "promotion_boundary": "No dictionary lexical content, LSI page-level statement, Census number, participant-derived material, audio, transcript, translation pair, cultural practice, consent state, reuse right or community-validation state was newly promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "99ece86ea65fc0ae29388a60a428cbb85b889bb1",
+    "last_verified_all_four_green_commit": "c8cca1b3ec9075439bce938a3b3b58ef1065cee9",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle_before_status_sync": ["dc55a62fbc92d5bcc41b230f40876371b2477d73","4ecfcbdbff1615ed7a0c9b78854cf44a9e5d3991"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-73 status head must be verified independently; do not project the 4/4-green state of 99ece86e forward."
+    "new_commits_this_cycle_before_status_sync": ["7acee2832f9a28532765544c06d318d254cf4001","a3739c9e6e8e9ad52bcb7fd593b33eda543f4ee7"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-74 status head must be verified independently; do not project the 4/4-green state of c8cca1b3 forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on run-72 status head 99ece86ea65fc0ae29388a60a428cbb85b889bb1.",
-    "Verified two official TRI Jharkhand dictionary catalogue entries: Mundari-Hindi and Hindi-Mundari Sabdhkosh, both attributed on the catalogue to Mrs. S. Prasad.",
-    "Preserved missing year/edition/ISBN/page count, absent catalogue download and unverified reuse rights as explicit uncertainty rather than filling fields by inference.",
-    "Reconfirmed Virginia Tech Munda dissertation metadata, SAGE Mundari Khuntkatti article metadata, Karya Mundari TTS and Hindi-Mundari translation dataset surfaces without promoting participant-derived or protected content.",
-    "Recorded MMSC-SEARCH-000073 across all requested non-Mundarica source classes.",
-    "Kept Streamlit, evidence graph and publication metrics synchronized because no atomic source/evidence promotion changed counts.",
+    "Verified all four required workflows green on run-73 status head c8cca1b3ec9075439bce938a3b3b58ef1065cee9.",
+    "Cross-verified the two TRI Mundari dictionary catalogue entries on both current and legacy official TRI publication pages.",
+    "Retained missing publication year, edition, ISBN, pagination, full-text and reuse rights as explicit unknowns.",
+    "Retried the official Census-hosted LSI Jharkhand PDF: indexed document identity/path was visible but direct retrieval returned HTTP 502; no page-level evidence was promoted.",
+    "Recorded MMSC-SEARCH-000074 across all requested source classes and preserved rights/consent/cultural-access boundaries.",
+    "Kept Streamlit, evidence graph and Q1 manuscript metrics synchronized because no atomic evidence promotion changed counts.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "TRI catalogue does not expose full-text downloads or year/edition/ISBN/page count for the two newly verified Mundari dictionary entries; lexical ingestion and reuse permission remain unresolved.",
+    "TRI catalogue does not expose full-text downloads or year/edition/ISBN/page count for the two verified Mundari dictionary entries; lexical ingestion and reuse permission remain unresolved.",
     "ST-15/ST-16/C-16/C-17 catalogue/workbook identities are known but workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "LSI Jharkhand descriptive-grammar page images remain unavailable for direct page-level inspection in current retrieval attempts.",
+    "Official LSI Jharkhand PDF direct retrieval returned HTTP 502 in run 74, so page-image/screenshot verification remains unavailable.",
     "N.K. Sinha 1975 and Bhaduri dictionary deeper extraction remain rights/edition gated.",
     "Indian Forester 2011, Togawa 2024, Virginia Tech dissertation, SAGE land article and other scholarly candidates require complete deterministic discovery-layer reconciliation before permanent identity assignment or deeper promotion.",
     "BMM1/PARADISEC, historical audio, MunTTS, Karya translation/TTS and other participant-derived materials remain consent/rights/cultural-access gated as applicable."
@@ -141,12 +141,11 @@
   "next_parallel_tasks": [
     "Deterministically compare the two TRI dictionary works against all 87 preserved discovery leads and existing dictionary/work records before assigning permanent source IDs.",
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing official, public-domain and open-access exact-locator sources that can safely advance evidence rather than metadata alone.",
-    "Complete all-87-lead comparison for DOI 10.36808/if/2011/v137i11/12843 and DOI 10.20716/rsjars.98.1_1 and promote only bounded permitted evidence if unique.",
     "Retrieve ST-15/ST-16/C-16/C-17 official workbook bytes and record checksums, worksheet, row and cell locators before asserting counts.",
-    "Retry LSI Jharkhand page-image retrieval and inspect exact pages only when stable page images are supplied.",
+    "Retry official LSI Jharkhand PDF/page-image retrieval and inspect exact pages only when stable content is obtained.",
     "Resolve item-level license/work-edition state for N.K. Sinha 1975, Bhaduri and the TRI dictionary pair before lexical extraction.",
     "Continue rights-bounded exact-locator processing for dissertations, articles, TRI, archive, newspaper, audio/video, dataset and map sources.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-73 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-74 status head and repair any regression before metric-changing promotion."
   ]
 }
