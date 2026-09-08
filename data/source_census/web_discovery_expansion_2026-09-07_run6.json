@@ -79,8 +79,15 @@
       "year": 2022,
       "notes": "Wikimedia Commons metadata identifies a 39:31 documentary attributed to the Eastern Zonal Cultural Centre and provides explicit timestamps for Munda/Mundari-related dance segments, including Paika at 4:28, Mundari at 6:00 and Mundari (Marriage) at 11:12. Register as an audiovisual media lead with exact discovery timecodes. These labels remain documentary metadata; interpretation of performance, participants, community scope and current practice requires segment-level review and appropriate cultural-context validation.",
       "verification_state": "repository_media_metadata_and_license_verified",
-      "access_class": "public_cc_by_3_0_audiovisual_media",
-      "rights_note": "The Commons file page states CC BY 3.0 with attribution to Eastern Zonal Cultural Centre and records that the original YouTube licence was reviewed on 20 January 2023. Licence compliance does not override MLHKP cultural-access, consent, dignity or contextual-integrity controls for any extracted performance segment."
+      "access_class": "public_cc_by_3_0_audiovisual_media_cultural_access_separate",
+      "rights_note": "The Commons file page states CC BY 3.0 with attribution to Eastern Zonal Cultural Centre and records that the original YouTube licence was reviewed on 20 January 2023. Licence compliance does not override MLHKP cultural-access, consent, dignity or contextual-integrity controls for any extracted performance segment.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000015",
+        "dedupe_key": "commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm",
+        "canonicalized_utc": "2026-09-08T06:45:00Z",
+        "boundary": "Canonical identity and repository catalogue-label evidence only. No segment interpretation, transcript, participant consent, community validation, present-day representativeness, or unrestricted performance-content reuse is inferred."
+      }
     }
   ]
 }
