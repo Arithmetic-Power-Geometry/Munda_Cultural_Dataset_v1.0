@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T04:34:00Z",
-  "observed_head_before_status_sync": "59214b9c6a095fabe75ff83ecf04a9254749196a",
+  "updated_utc": "2026-09-08T04:41:00Z",
+  "observed_head_before_status_sync": "06b9965e7c6431e546978a31cd699ea6e6ce1657",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -14,9 +14,8 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "edition_reconciliation_state": "open; DSAL 2026 bibliographic working list now independently records Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original Government Printing physical sequence still must be reconciled against later 16-volume reprint numbering before permanent slot or denominator changes",
-      "new_bibliographic_reconciliation_artifact": "data/source_census/dsal_mundarica_sequence_verification_2026-09-08.json",
-      "cycle_state": "No new authoritative scan or verified transcription obtained. Bibliographic sequence ambiguity was materially narrowed without inflating scan, page-accounting, OCR or completion state."
+      "edition_reconciliation_state": "open; DSAL 2026 bibliographic working list records Encyclopaedia Mundarica as 15 v. in 16 and notes plates 1-48 bound at end of v.15; original Government Printing physical sequence still must be reconciled against later 16-volume reprint numbering before permanent slot or denominator changes",
+      "cycle_state": "No new authoritative scan or verified transcription obtained in this non-Mundarica census cycle; no completeness inflation."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -28,13 +27,13 @@
       "web_discovery_leads_counted_in_audited_identity_total": 12,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000052",
-      "latest_search_record_path": "data/source_census/search_log_run52.jsonl",
-      "latest_verification": "University of Chicago DSAL working list revised 18 August 2026 records Encyclopaedia Mundarica as 15 volumes in 16 and notes plates 1-48 bound at the end of volume 15. This is bibliographic reconciliation only and does not establish authoritative scan locators, OCR accuracy, rights or cultural permission.",
+      "latest_search_id": "MMSC-SEARCH-000053",
+      "latest_search_record_path": "data/source_census/search_log_run53.jsonl",
+      "latest_verification": "Wiley publisher metadata and abstract verify Alpa Shah's 2007 Journal of the Royal Anthropological Institute article ‘Keeping the state away’: democracy, politics, and the state in India's Jharkhand, DOI 10.1111/j.1467-9655.2007.00417.x. It is held as a metadata-verified candidate pending repository-wide duplicate disposition and rights review; no cultural proposition or new audited source count was promoted.",
       "search_log_reconciliation": {
         "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
         "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52],
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46,47,48,49,50,51,52,53],
         "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
         "rule": "Do not synthesize missing log content from status prose; recover exact original records before primary-log consolidation."
       },
@@ -57,7 +56,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public CSV evidence remains through EVD-000050. Run 52 changed no public factual evidence records; it added a bibliographic Mundarica reconciliation artifact and census log only."
+      "sync_note": "Public CSV evidence remains through EVD-000050. Run 53 added a metadata-verified peer-reviewed source candidate only; public factual evidence counts and module evidence remain unchanged."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -69,7 +68,7 @@
       "evidence_links": 50,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Generated JSON and LaTeX release metrics remain synchronized at 40 sources / 12 canonicalized web leads / 50 claims / 50 evidence / 50 links. Run 52 contributes bibliographic reconciliation but does not alter publication metrics."
+      "manuscript_build_state": "Generated JSON and LaTeX release metrics remain synchronized at 40 sources / 87 observed web leads / 12 canonicalized web leads / 50 claims / 50 evidence / 50 links. Run 53 changes no release metric until duplicate/canonicalization gates are crossed."
     },
     "F_evidence_population": {
       "source_claims": 50,
@@ -78,37 +77,36 @@
       "latest_evidence_bearing_source": "SRC-MMSC-000006",
       "latest_evidence_chain": "SRC-MMSC-000006 -> CLM-000050 -> EVD-000050 -> LNK-000050",
       "latest_evidence_scope": "CIIL/Bhasha Sanchika institutional catalogue identity and file-presence metadata for Ramdayal Munda's 2013 Mundari-Vyakaran, Handle 20.500.14705/8429, item BVP00202.",
-      "new_verified_metadata_artifact": "data/source_census/dsal_mundarica_sequence_verification_2026-09-08.json",
+      "new_verified_metadata_artifact": "data/source_census/shah_keeping_state_away_2007_verification_2026-09-08.json",
       "new_exact_file_locator_artifact": "data/source_census/census_st15_jharkhand_mother_tongue_verification_2026-09-08.json",
       "staged_exact_locator_artifact": "data/source_census/ezcc_commons_munda_dance_exact_locator_evidence_2026-09-08.json",
-      "promotion_boundary": "No grammar rule, lexical form, protected text, Census numeric value, participant-derived content, consent state, community validation, cultural proposition or unrestricted rights were promoted in this cycle."
+      "promotion_boundary": "No protected full text, participant-derived content, community validation, current universal cultural proposition, Census numeric value, or unrestricted reuse right was promoted in this cycle."
     }
   },
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "e77c0f86562eba6fdb5ef34fb71c254f86d90596",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["a36f28a6c56276570a3aa1246d7bef8a4dd02ae7","59214b9c6a095fabe75ff83ecf04a9254749196a"],
+    "new_commits_this_cycle": ["0d3386d03cd547d0dce3f8fb02a3fecfbd9fa29c","06b9965e7c6431e546978a31cd699ea6e6ce1657"],
     "new_head_ci_state_at_status_write": "fresh workflows for the newest status head are not yet verified; do not project prior 4/4-green state forward"
   },
   "changes_this_cycle": [
-    "Rechecked the live mlhkp-v2 baseline and verified all four workflows green at e77c0f86562eba6fdb5ef34fb71c254f86d90596 before making new changes.",
-    "Ran parallel source searches across Mundarica sequence/plates, historical grammar, peer-reviewed linguistic literature and dictionary leads while preserving existing census class coverage.",
-    "Verified from the University of Chicago DSAL working list revised 18 August 2026 that Encyclopaedia Mundarica is catalogued as 15 v. in 16, with plates 1-48 bound at the end of v.15.",
-    "Added a dedicated bibliographic reconciliation artifact rather than converting this catalog statement into a false scan locator or verified volume-completion claim.",
-    "Added MMSC-SEARCH-000052 with unchanged audited/evidence counts because no SOURCE→CLAIM→EVIDENCE→LINK promotion gate was crossed.",
-    "Preserved the distinction between original Government Printing physical units and later 16-volume commercial reprint numbering.",
+    "Ran fresh cross-class non-Mundarica searches covering peer-reviewed anthropology/language work while continuing checks across books, grammars, theses, Census/LSI, archives, datasets, audio/video and maps/media.",
+    "Verified publisher identity, DOI, author, year and abstract-level Munda/Jharkhand study scope for Alpa Shah's 2007 JRAI article.",
+    "Created a dedicated verification artifact with DOI dedupe key and explicit rights/cultural-access boundaries.",
+    "Added MMSC-SEARCH-000053 without changing audited source or evidence counts because repository-wide duplicate disposition and full-text rights review remain incomplete.",
+    "Preserved the existing 40 audited identities, 87 observed discovery leads, 12 canonicalized leads and 50 claim/evidence/link chains.",
     "Did not modify or merge main."
   ],
   "blockers": [
-    "Mundarica verified_complete_volumes remains 0; exact authoritative scan/page-accounting reconciliation for the unresolved end of the sequence remains incomplete. DSAL now shows why slots 14-16 must not automatically be interpreted as three independent missing text volumes.",
+    "Mundarica verified_complete_volumes remains 0; exact authoritative scan/page-accounting reconciliation for the unresolved end of the sequence remains incomplete.",
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Primary MMSC search_log.jsonl is verified only through MMSC-SEARCH-000028; exact recovery remains needed for 000034-000038 and 000041 before safe consolidation.",
-    "Census ST-15 exact official workbook filename is verified, but direct workbook checksum/sheet/row/cell extraction remains incomplete; no numeric values are asserted.",
+    "Census ST-15 exact official workbook filename and Munda/Mundari categories are verified, but direct workbook checksum/sheet/row/cell extraction remains incomplete; no numeric values are asserted.",
     "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
     "Official LSI Jharkhand and LSI Volume IV still require direct page-image inspection before page-level linguistic or numeric evidence promotion.",
     "WEB-MUN-0047 has exact-locator metadata staged but still requires atomic canonical source/census promotion; participant/performance content remains culturally gated.",
-    "Nava Hoda Jagar Mundi and ANU Evans-Osada article metadata are verified but deterministic comparison against historical discovery leads, exact page review as applicable and item-level rights review remain pending.",
+    "Alpa Shah 2007 article is metadata-verified but needs deterministic comparison against all existing discovery identities and full-text rights review before any new canonical source/evidence promotion.",
     "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material and TRI full text remain consent/rights/cultural-access gated as applicable.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
@@ -129,15 +127,15 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Use the DSAL 15-v-in-16 record plus original-edition catalogues to construct a physical-unit/part/plate/reprint crosswalk before changing Mundarica slot identities or completion denominator.",
+    "Deterministically reconcile DOI 10.1111/j.1467-9655.2007.00417.x against all historical web-discovery files before source identity assignment; if unique, promote once with bounded abstract/publisher evidence only.",
     "Retrieve ST-20-00-15-DDW-2011.XLSX directly and record checksum/sheet/row/cell locators for Munda and Mundari before numeric promotion.",
-    "Deterministically reconcile the 2017 Nava Hoda Jagar Mundi candidate, ANU Evans-Osada article and recent peer-reviewed candidates against every historical web-discovery file before any new source identity count.",
     "Retry official LSI Jharkhand PDF/page-image retrieval and inspect LSI Volume IV page images before passage-level promotion.",
     "Retry official C-16 workbook retrieval and record checksum/sheet/row/cell locators before numeric promotion.",
     "Atomically canonicalize WEB-MUN-0047 if final duplicate checks remain clean while retaining participant/performance cultural gates.",
     "Recover exact original search records 000034-000038 and 000041 before primary-log consolidation; never reconstruct them from prose.",
     "Continue deterministic review of the remaining 75 web leads across books, dictionaries, grammars, articles, theses, government/TRI, archives, newspapers/web, datasets, audio, video and maps/media.",
     "Continue BMM1 item-level access/consultant review and rights-bounded TRI/grammar processing.",
+    "Continue Mundarica authoritative scan acquisition and physical-unit/part/plate/reprint reconciliation without treating OCR or catalogue metadata as verification.",
     "Verify all four CI workflows on the newest head and repair any regression before further canonical promotion."
   ]
 }
