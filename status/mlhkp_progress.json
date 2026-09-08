@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T12:34:00Z",
-  "observed_head_before_status_sync": "1da40220532fff27850fc84d093c26941f837364",
+  "updated_utc": "2026-09-08T12:40:52Z",
+  "observed_head_before_status_sync": "2a10efa0b5ffeb9ff0f8c31215e5d4ebad938382",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 68 preserved all per-volume truth states; no new authoritative scan, verified OCR/transcription, page-accounting completion, or verified-complete volume was added."
+      "cycle_state": "Run 69 is a non-Mundarica census sprint; all Mundarica per-volume truth states are preserved without adding an unverified scan, OCR/transcription, page-accounting completion, or verified-complete volume."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,9 +46,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 29,
-      "latest_search_id": "MMSC-SEARCH-000068",
-      "latest_search_record_path": "data/source_census/search_log_run68.jsonl",
-      "latest_verification": "Indian Forester publisher metadata verified for Singh and Sulaiman Quli (2011), DOI 10.36808/if/2011/v137i11/12843, volume 137 issue 11, pages 1258-1264, publication date 2011-11-01, with abstract scope bounded to a West Singhbhum study and publisher copyright notice preserved. Bhaduri's A Mundari-English dictionary was reconciled at work-versus-edition level using Open Library work OL5467157W, a 1931 Calcutta University Press edition and 1983 Northern Book Centre reprint metadata; conflicting reprint catalogue notes remain explicit uncertainty.",
+      "latest_search_id": "MMSC-SEARCH-000069",
+      "latest_search_record_path": "data/source_census/search_log_run69.jsonl",
+      "latest_verification": "J-STAGE publisher metadata verified Masahiko Togawa (2024), DOI 10.20716/rsjars.98.1_1, Journal of Religious Studies 98(1):1-25, published 2024-06-30, with publisher abstract scope explicitly including the Munda community of Jharkhand. J-STAGE labels the article FREE ACCESS while the page carries Copyright © 2024 Japanese Association for Religious Studies, so unrestricted reuse is not inferred. Official Census ST-16 Jharkhand catalogue reference PC11_ST16-20 and workbook ST-20-00-16-DDW-2011.XLSX were reconfirmed without asserting numeric cells.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -56,7 +56,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign; run 68 prioritized exact-locator source verification, work/edition canonicalization and rights-bounded evidence readiness."
+      "cycle_state": "No redesign; run 69 prioritized non-Mundarica exact-locator verification, deterministic deduplication readiness and rights/cultural-access-bounded evidence population."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -66,7 +66,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Public evidence remains synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. Run-68 candidates remain verification/canonicalization artifacts and are not exposed as generalized public cultural claims."
+      "sync_note": "Public evidence remains synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. Run-69 candidates remain verification/canonicalization artifacts and are not exposed as generalized public cultural claims."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -78,7 +78,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-67 status head ab9b8e02bf05dcd403311ff2521aea439baf4da6 is verified 4/4 green. Release metrics remain 41/87/13/51/51/51 because run 68 made no metric-changing atomic promotion."
+      "manuscript_build_state": "Run-68 status head 7db88571b96ffe38fa82ced1ea4e89751a4a44c4 is verified 4/4 green. Release metrics remain 41/87/13/51/51/51 because run 69 made no metric-changing atomic promotion."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -86,35 +86,38 @@
       "evidence_links": 51,
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "run68_advanced_candidate": "Singh and Sulaiman Quli 2011 Indian Forester source now has publisher-verified DOI, date, issue, pages, abstract-level 50-village West Singhbhum study scope and copyright boundary. It is exact-locator ready but not assigned a permanent source ID until deterministic comparison against all preserved discovery identities is complete. Bhaduri dictionary work/edition identities were separately canonicalized for future rights-safe ingestion.",
-      "promotion_boundary": "No NTFP value, customary-law proposition, community-wide management practice, lexical entry, participant fact, demographic number, consent state, reuse right or community validation was promoted in run 68."
+      "run69_advanced_candidate": "Togawa 2024 now has exact J-STAGE DOI/date/volume/issue/page, publisher-abstract scope, free-access label and copyright boundary recorded. It is exact-locator ready but not assigned a permanent source ID until deterministic comparison against all preserved discovery identities is complete. ST-16 official workbook identity was also reconfirmed while numeric evidence remains withheld pending checksum/sheet/row/cell verification.",
+      "promotion_boundary": "No megalithic, gravestone, kinship, land-right, religious, ritual, participant, customary-law, demographic, lexical, consent, reuse-right or community-validation claim was promoted in run 69."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "ab9b8e02bf05dcd403311ff2521aea439baf4da6",
+    "last_verified_all_four_green_commit": "7db88571b96ffe38fa82ced1ea4e89751a4a44c4",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["84231a0c43470c4e89b01b98a2d4e9f1b00506e9","42ef850a8819e091c937ba41bf26d6210ff102c3","1da40220532fff27850fc84d093c26941f837364"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-68 status head must be verified independently; do not project the 4/4-green state of ab9b8e02 forward."
+    "new_commits_this_cycle": ["36cac289f58c0811ceee5b7f75c6e37cb47378ef","2a10efa0b5ffeb9ff0f8c31215e5d4ebad938382"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-69 status head must be verified independently; do not project the 4/4-green state of 7db88571 forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on run-67 status head ab9b8e02bf05dcd403311ff2521aea439baf4da6.",
-    "Verified an Indian Forester West Singhbhum NTFP article to exact publisher DOI/date/volume/issue/page and abstract-scope level while preserving the publisher copyright boundary and withholding generalized cultural claims.",
-    "Reconciled Bhaduri's Mundari-English dictionary at intellectual-work versus manifestation/edition level; preserved conflicting modern catalogue notes as uncertainty rather than guessing a single edition history.",
-    "Recorded MMSC-SEARCH-000068 across all requested source classes and kept all blocked or unverified items explicit.",
-    "Kept repository-derived publication metrics synchronized because no atomic source/evidence promotion changed counts.",
+    "Verified all four required workflows green on run-68 status head 7db88571b96ffe38fa82ced1ea4e89751a4a44c4.",
+    "Verified Togawa 2024 at J-STAGE to exact bibliographic and publisher-abstract locator level while preserving the publisher copyright boundary and withholding generalized cultural claims.",
+    "Attempted PDF page-image inspection; retrieval returned a cache-miss blocker, which was recorded rather than guessed around.",
+    "Reconfirmed official Census ST-16 Jharkhand catalogue reference PC11_ST16-20 and workbook ST-20-00-16-DDW-2011.XLSX without asserting numeric evidence.",
+    "Observed an open University of North Bengal comparative thesis and a Karya Hindi-to-Mundari translation dataset candidate; neither was counted pending deterministic deduplication, rights/consent and scope review.",
+    "Recorded MMSC-SEARCH-000069 across all requested source classes and kept blocked or unverified items explicit.",
+    "Kept Streamlit and repository-derived publication metrics synchronized because no atomic source/evidence promotion changed counts.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica verified_complete_volumes remains 0; authoritative scans and page-accounting reconciliation remain incomplete.",
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "ST-15 exact catalogue identity and workbook filename are verified, but workbook bytes/checksum/worksheet/row/cell coordinates remain pending; C-17, ST-16 and C-16 exact numeric cells also remain pending.",
+    "ST-15/ST-16/C-16/C-17 catalogue/workbook identities are available at varying exact-locator levels, but workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "LSI Jharkhand descriptive-grammar page images remain unavailable for direct page-level inspection in current retrieval attempts.",
+    "J-STAGE Togawa 2024 PDF page-image screenshot retrieval returned a cache-miss error; only publisher metadata and abstract-level scope are currently eligible.",
     "Bhaduri dictionary unrestricted full-text/reuse state remains unverified; no lexical extraction is permitted yet.",
-    "Indian Forester 2011 source requires deterministic discovery-layer reconciliation before permanent identity assignment; protected full-text and participant-level material remain outside current ingestion permission.",
+    "Indian Forester 2011 and Togawa 2024 require complete deterministic discovery-layer reconciliation before permanent identity assignment; protected full text and participant-level material remain outside current ingestion permission.",
     "Evans and Osada 2005, Phillips and Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020, Verma 2026 and TRI candidates remain at varying dedupe/access/rights/exact-locator gates.",
-    "BMM1/PARADISEC, historical audio, MunTTS and other participant-derived materials remain consent/rights/cultural-access gated as applicable."
+    "BMM1/PARADISEC, historical audio, MunTTS, Karya translation/TTS and other participant-derived materials remain consent/rights/cultural-access gated as applicable."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -139,14 +142,14 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Deterministically compare DOI 10.36808/if/2011/v137i11/12843 against all preserved web-discovery artifacts and canonical registers; if unique, promote only bounded publisher-supported evidence.",
-    "Complete work/edition canonicalization for Bhaduri dictionary and locate an edition-specific lawful full-text source before any lexical extraction.",
-    "Retrieve ST-15 workbook ST-20-00-15-DDW-2011.XLSX and C-17 workbook DDW-C17-2000.XLSX bytes; record checksums, worksheet, row and cell locators before asserting counts.",
+    "Complete deterministic all-87-lead comparison for DOI 10.36808/if/2011/v137i11/12843 and DOI 10.20716/rsjars.98.1_1; if unique, promote only bounded source-supported evidence atomically.",
+    "Complete work/edition canonicalization for Bhaduri dictionary and locate an edition-specific lawful full-text source before lexical extraction.",
+    "Retrieve ST-15/ST-16/C-16/C-17 official workbook bytes; record checksums, worksheet, row and cell locators before asserting counts.",
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing official, public-domain and open-access exact-locator sources.",
-    "Retry LSI Jharkhand page-image retrieval and inspect exact Mundari grammar pages when accessible.",
-    "Continue rights-bounded exact-locator processing for scholarly, TRI, archive, audio/video, dataset and map sources.",
+    "Retry LSI Jharkhand and J-STAGE page-image retrieval and inspect exact pages only when the retrieval layer supplies stable page images.",
+    "Review University of North Bengal comparative thesis and Karya Hindi-to-Mundari dataset against existing discovery identities, source scope, rights, consent and cultural-access gates before registration.",
+    "Continue rights-bounded exact-locator processing for scholarly, TRI, archive, newspaper, audio/video, dataset and map sources.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Continue Mundarica authoritative scan acquisition and page-accounting/edition reconciliation without treating OCR or catalogue metadata as verification.",
-    "Verify all four CI workflows on the newest run-68 status head and repair any regression before any metric-changing atomic promotion."
+    "Verify all four CI workflows on the newest run-69 status head and repair any regression before any metric-changing atomic promotion."
   ]
 }
