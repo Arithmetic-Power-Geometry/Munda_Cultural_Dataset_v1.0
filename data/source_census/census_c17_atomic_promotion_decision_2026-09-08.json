@@ -1,0 +1,47 @@
+{
+  "decision_id": "MMSC-PROMOTE-2026-09-08-C17-001",
+  "checked_utc": "2026-09-08T10:30:00Z",
+  "branch": "mlhkp-v2",
+  "candidate_web_source_id": "WEB-MUN-0011",
+  "candidate_title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+  "source_class": "government_census_language_table",
+  "publisher": "Office of the Registrar General & Census Commissioner, India",
+  "canonical_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+  "deterministic_identity_key": "orgi:census2011:c17:jharkhand:catalog10282",
+  "deduplication": {
+    "existing_web_lead_match": "WEB-MUN-0011",
+    "canonical_master_register_duplicate_found": false,
+    "standalone_mmsc_duplicate_found": false,
+    "distinct_from_other_census_candidates": true,
+    "notes": "The canonical master source register contains no C-17 identity. The standalone MMSC register through SRC-MMSC-000015 contains no C-17 identity. WEB-MUN-0011 is the preserved discovery lead for this exact ORGI catalogue record. ST-15, ST-16 and C-16 are separate tables and are not aliases of C-17."
+  },
+  "verified_locator": {
+    "level": "official_catalogue_variable_label",
+    "catalogue": "ORGI Census Digital Library catalogue 10282",
+    "verified_scope": "Official catalogue variables explicitly distinguish Language - Total speakers - MUNDA and Language - Total speakers - MUNDARI and associated first/second subsidiary-language variables.",
+    "numeric_cell_locator_complete": false
+  },
+  "rights_and_governance": {
+    "catalogue_access": "public",
+    "reuse_status": "ORGI terms apply; public catalogue access is not unrestricted redistribution permission",
+    "cultural_access_override": true,
+    "community_validation_inferred": false,
+    "field_verification_inferred": false
+  },
+  "safe_evidence_boundary": "Eligible evidence is limited to official source identity, table geography/year, catalogue identity, and the existence of distinct MUNDA and MUNDARI variable labels. No population, bilingualism or trilingualism number may be promoted until the official workbook is retrieved and checksum, sheet, row and cell locators are recorded.",
+  "atomic_promotion_state": "promotion_decision_complete_ready_for_coherent_ledger_update",
+  "reserved_ids_if_promoted": {
+    "source_id": "SRC-MMSC-000016",
+    "claim_id": "CLM-000052",
+    "evidence_id": "EVD-000052",
+    "link_id": "LNK-000052"
+  },
+  "metric_effect_this_decision_cycle": {
+    "audited_source_identities": 0,
+    "canonicalized_web_leads": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "evidence_links": 0
+  },
+  "promotion_rule": "Do not increment metrics until WEB-MUN-0011 canonicalization, mmsc_discoveries, mmsc_index, claim/evidence/link ledgers, publication metrics and status are updated coherently and CI is green."
+}
