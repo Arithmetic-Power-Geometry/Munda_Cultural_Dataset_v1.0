@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T13:46:00Z",
-  "observed_head_before_status_sync": "5b24feda4e3ca7334bdcbf906cf55d5198cf0b49",
+  "updated_utc": "2026-09-08T14:36:00Z",
+  "observed_head_before_status_sync": "7c1e64bf84c002f285e6c26848dc71bf065c907e",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 71 is scoped to the non-Mundarica sprint. Existing Mundarica truth states are preserved without inventing acquisition, OCR, page-accounting or verified completeness."
+      "cycle_state": "Run 72 prioritized the non-Mundarica census/media sprint. Existing Mundarica truth states were preserved without inventing acquisition, OCR, page accounting, structuring completion or verified completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,9 +46,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 30,
-      "latest_search_id": "MMSC-SEARCH-000071",
-      "latest_search_record_path": "data/source_census/search_log_run71.jsonl",
-      "latest_verification": "N.K. Sinha's 1975 Mundari Grammar was retained as one existing verification candidate rather than duplicated. CIIL Bhasha Sanchika handle 20.500.14705/8179, the official CIIL publication catalogue and CIIL store record now jointly support the work identity; the store surface adds editor E. Annamalai and 163-page pagination. No grammar rule, lexical example, cultural fact or unrestricted reuse permission is inferred.",
+      "latest_search_id": "MMSC-SEARCH-000072",
+      "latest_search_record_path": "data/source_census/search_log_run72.jsonl",
+      "latest_verification": "Two official government digital/media surfaces were verified without count inflation: CIET/NCERT Barkhaa Audio exposes multiple Mundari-labelled educational audio options, and the Ministry of Tribal Affairs Adivaani beta service exposes Mundari as a speech-translation target while warning that AI translations may be inaccurate. Permanent identities, audio/text ingestion, model-output evidence, reuse rights, speaker/contributor consent and community validation remain pending deterministic deduplication and item-level governance review.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -56,7 +56,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 71 strengthened exact-locator provenance for an existing grammar candidate and avoided duplicate identity assignment."
+      "cycle_state": "No redesign. Run 72 strengthened rights-bounded provenance for official educational-audio and speech-translation sources while preventing technical availability from becoming unsupported evidence."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -66,7 +66,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Public evidence metrics remain synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. Run 71 changed provenance metadata only, so no module metric or evidence-graph count required regeneration."
+      "sync_note": "Public evidence metrics remain synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051. Run 72 added verification and search-log artifacts only, so no audited source/evidence count or UI metric required regeneration."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -78,7 +78,7 @@
       "evidence_links": 51,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-70 status head ce9a1939543de0f74cc5172967c2c59905e07bd7 is independently verified 4/4 green. Run 71 made no metric-changing promotion, so release metrics remain 41/87/13/51/51/51. Fresh CI on the newest run-71 status head must be independently verified before green status is projected forward."
+      "manuscript_build_state": "Run-71 status head 4e045c652f73b7ada6ae9b036d3a88e2a254bb71 is independently verified 4/4 green. Run 72 made no metric-changing promotion, so release metrics remain 41/87/13/51/51/51. Fresh CI on the newest run-72 status head must be independently verified before green status is projected forward."
     },
     "F_evidence_population": {
       "source_claims": 51,
@@ -86,25 +86,24 @@
       "evidence_links": 51,
       "latest_evidence_bearing_source": "SRC-MMSC-000015",
       "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "run71_advanced_source": "N.K. Sinha, Mundari Grammar (1975): exact institutional locators strengthened using CIIL repository, publication catalogue and store metadata. Same-work deduplication retained; no new permanent source ID or public cultural/grammatical claim was created.",
-      "promotion_boundary": "No grammar example, lexical item, participant-derived material, cultural practice, consent state, reuse right, community-validation state or present-day representativeness claim was newly promoted in run 71."
+      "run72_advanced_source": "CIET/NCERT Barkhaa Audio and Ministry of Tribal Affairs Adivaani were advanced from open-web discovery to official-locator, scope and governance verification records. They remain metadata/service-existence evidence only until deterministic deduplication and rights/consent/cultural-access gates are satisfied.",
+      "promotion_boundary": "No audio bytes, transcript, translation output, model training data, linguistic accuracy claim, speaker identity, consent state, cultural practice, reuse right, community-validation state or present-day representativeness claim was newly promoted in run 72."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "ce9a1939543de0f74cc5172967c2c59905e07bd7",
+    "last_verified_all_four_green_commit": "4e045c652f73b7ada6ae9b036d3a88e2a254bb71",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["20307f4a8f12696bdff83e6ee21f6ebf08f1c472","5b24feda4e3ca7334bdcbf906cf55d5198cf0b49"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-71 status head must be verified independently; do not project the 4/4-green state of ce9a193 forward."
+    "new_commits_this_cycle": ["b35f6e04c483da7db4b9075133484cceec6ebce8","9ab51d5f4cc5317fe054c736c6162221383c6b77","7c1e64bf84c002f285e6c26848dc71bf065c907e"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-72 status head must be verified independently; do not project the 4/4-green state of 4e045c65 forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on run-70 status head ce9a1939543de0f74cc5172967c2c59905e07bd7.",
-    "Strengthened the existing N.K. Sinha 1975 Mundari Grammar candidate with three official CIIL surfaces: repository handle 20.500.14705/8179, publication catalogue, and store record.",
-    "Added official CIIL store metadata identifying editor E. Annamalai and 163 pages without treating store or repository visibility as a reuse grant.",
-    "Deterministically avoided duplicate identity creation for Ramdayal Munda 2013 (already SRC-MMSC-000006) and the already-observed Mansidh Baraiud 2017 grammar candidate.",
-    "Observed a CIIL GIAC proposal record for a Pawan Kumar Choudhary Mundari Grammar but did not treat a funding/proposal record as proof of publication or assign it a source identity.",
-    "Recorded MMSC-SEARCH-000071 across all requested non-Mundarica source classes without changing audited counts.",
-    "Kept Streamlit and repository-derived publication metrics synchronized because no atomic source/evidence promotion changed counts.",
+    "Verified all four required workflows green on run-71 status head 4e045c652f73b7ada6ae9b036d3a88e2a254bb71.",
+    "Verified the official CIET/NCERT Barkhaa Audio surface and recorded multiple Mundari-labelled educational audio options without inferring redistribution rights, speaker identity, consent, dialect coverage or community validation.",
+    "Verified the Ministry of Tribal Affairs Adivaani beta speech-to-speech service with Mundari as a target language and preserved its own warning that AI translations may be inaccurate; no beta output was promoted as verified linguistic evidence.",
+    "Reconfirmed the already-staged Indian Forester 2011 and Togawa 2024 exact identities without creating duplicate source IDs or inflating audited counts.",
+    "Recorded MMSC-SEARCH-000072 across all requested non-Mundarica source classes while keeping unresolved rights/access conditions explicit.",
+    "Kept Streamlit, evidence-graph and repository-derived publication metrics synchronized because no atomic source/evidence promotion changed counts.",
     "Did not modify or merge main."
   ],
   "blockers": [
@@ -114,7 +113,9 @@
     "LSI Jharkhand descriptive-grammar page images remain unavailable for direct page-level inspection in current retrieval attempts.",
     "N.K. Sinha 1975 repository/store visibility does not establish unrestricted PDF/example reuse permission; deeper content extraction remains rights-gated.",
     "Bhaduri dictionary unrestricted full-text/reuse state remains unverified; no lexical extraction is permitted yet.",
-    "Indian Forester 2011 and Togawa 2024 require complete deterministic discovery-layer reconciliation before permanent identity assignment; protected full text and participant-level material remain outside current ingestion permission.",
+    "Indian Forester 2011 and Togawa 2024 still require complete deterministic discovery-layer reconciliation before permanent identity assignment; protected full text and participant-level material remain outside current ingestion permission.",
+    "CIET Barkhaa item-level redistribution/derivative rights, speaker or contributor identity/consent, dialect provenance and community-validation state are not established from the public page.",
+    "Adivaani training-data provenance, contributor consent, model/data license, dialect coverage and accuracy are not established from the public beta feature page.",
     "Evans and Osada 2005, Phillips and Harrison 2017, Shah 2007, Srivastava 2007, Saboo 2020, Verma 2026 and TRI candidates remain at varying dedupe/access/rights/exact-locator gates.",
     "BMM1/PARADISEC, historical audio, MunTTS, Karya translation/TTS and other participant-derived materials remain consent/rights/cultural-access gated as applicable."
   ],
@@ -142,6 +143,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing official, public-domain and open-access exact-locator sources that can safely advance evidence rather than metadata alone.",
+    "Deterministically compare CIET Barkhaa and Adivaani against all 87 preserved discovery leads before assigning any permanent source IDs; promote only source-existence or content evidence permitted by rights, consent and cultural-access review.",
     "Complete deterministic all-87-lead comparison for DOI 10.36808/if/2011/v137i11/12843 and DOI 10.20716/rsjars.98.1_1; if unique, promote only bounded source-supported evidence atomically.",
     "Retrieve ST-15/ST-16/C-16/C-17 official workbook bytes; record checksums, worksheet, row and cell locators before asserting counts.",
     "Determine whether N.K. Sinha 1975 has an item-level license permitting deeper extraction; until then keep examples and protected text outside ingestion.",
@@ -149,6 +151,6 @@
     "Retry LSI Jharkhand page-image retrieval and inspect exact pages only when stable page images are supplied.",
     "Continue rights-bounded exact-locator processing for scholarly, TRI, archive, newspaper, audio/video, dataset and map sources.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-71 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-72 status head and repair any regression before metric-changing promotion."
   ]
 }
