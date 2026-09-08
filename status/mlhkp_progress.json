@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T00:54:00Z",
-  "observed_head_before_status_sync": "114901cba7f8c25839399c8186a5f7f50712716d",
+  "updated_utc": "2026-09-08T00:53:00Z",
+  "observed_head_before_status_sync": "1255fb0b2d7a05132b0adf1bed8e445abbbc7b46",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -27,13 +27,13 @@
       "web_discovery_leads_counted_in_audited_identity_total": 12,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000045",
-      "latest_search_record_path": "data/source_census/search_log_run45.jsonl",
-      "latest_verification": "Cross-class pass reverified ANU Evans & Osada 2005 Open Access metadata/PDF presence, CIIL N. K. Sinha 1975 grammar identity plus WALS/CiNii corroboration, and recognized the Sapienza thesis as already canonicalized SRC-MMSC-000010; no duplicate source was created.",
+      "latest_search_id": "MMSC-SEARCH-000046",
+      "latest_search_record_path": "data/source_census/search_log_run46.jsonl",
+      "latest_verification": "Cross-class run46 reverified WEB-MUN-0047 against Wikimedia Commons/EZCC and staged exact timestamp-locator metadata evidence with explicit consent/community/cultural-access gates; official Census of India LSI Jharkhand Mundari descriptive-grammar study was verified at source/study-scope level but not promoted to page-level evidence because direct page-image inspection was not completed; MunTTS/Karya and the Sapienza thesis were reconciled as already represented identities.",
       "search_log_reconciliation": {
         "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
         "verified_primary_latest_id": "MMSC-SEARCH-000028",
-        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45],
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45,46],
         "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
         "rule": "Do not synthesize missing log content from status prose; recover exact original records before primary-log consolidation."
       },
@@ -44,7 +44,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign; priority remained evidence/census integrity."
+      "cycle_state": "No schema redesign; priority remained evidence/census integrity and exact-locator staging."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -56,7 +56,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public evidence remains synchronized through SRC-MMSC-000014 / EVD-000049. Run45 added no new public evidence row and therefore requires no UI count change."
+      "sync_note": "Canonical public evidence remains synchronized through SRC-MMSC-000014 / EVD-000049. Run46 staged WEB-MUN-0047 exact-locator metadata evidence outside canonical SOURCE/CLAIM/EVIDENCE/LINK ledgers, so no public evidence count or UI evidence-chain count was increased."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -68,7 +68,7 @@
       "evidence_links": 49,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "last verified release-metric state synchronized at 40 / 12 / 49; no metric-bearing source promotion this cycle"
+      "manuscript_build_state": "last verified release-metric state synchronized at 40 / 12 / 49; run46 added staged exact-locator metadata evidence but no canonical metric-bearing source promotion"
     },
     "F_evidence_population": {
       "source_claims": 49,
@@ -76,31 +76,37 @@
       "evidence_links": 49,
       "latest_evidence_bearing_source": "SRC-MMSC-000014",
       "latest_evidence_chain": "SRC-MMSC-000014 -> CLM-000049 -> EVD-000049 -> LNK-000049",
-      "promotion_boundary": "ANU 2005 and CIIL 1975 identities are verified candidates but remain outside counts until deterministic cross-layer deduplication, direct item-level locator review where needed, and rights assessment. WEB-MUN-0047 remains exact-locator/file-license verified but not atomically promoted."
+      "staged_exact_locator_artifact": "data/source_census/ezcc_commons_munda_dance_exact_locator_evidence_2026-09-08.json",
+      "staged_discovery_id": "WEB-MUN-0047",
+      "staged_exact_locators": ["00:04:28 Paika (Munda community)","00:06:00 Mundari","00:11:12 Mundari (Marriage)"],
+      "promotion_boundary": "WEB-MUN-0047 is now beyond discovery-only at the staged exact-locator metadata-evidence layer, but remains outside canonical SOURCE/CLAIM/EVIDENCE/LINK counts until an atomic promotion updates every canonical register and release metric. File-level CC BY 3.0 does not establish participant consent, community validation, cultural permission, dignity suitability or present-day representativeness."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "4729ebc2c1b552bf71e406817592397ce2630529",
+    "last_verified_all_four_green_commit": "eb66b5da52546c1b6bd1404ac1e1d41cb43fa536",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["295123d1a1cfe4ed4475f4e7eccced4c28be7525","114901cba7f8c25839399c8186a5f7f50712716d"],
-    "new_head_ci_state_at_status_write": "all four workflows queued for 114901cba7f8c25839399c8186a5f7f50712716d; no green projection"
+    "new_commits_this_cycle": ["913d1aba324526bb8d1f31fd9376dd43f435100b","1255fb0b2d7a05132b0adf1bed8e445abbbc7b46"],
+    "new_head_ci_state_at_status_write": "not yet verified; do not project baseline green state onto the new status head"
   },
   "changes_this_cycle": [
-    "Confirmed 4729ebc2c1b552bf71e406817592397ce2630529 is 4/4 green.",
-    "Ran a parallel non-Mundarica cross-class verification pass covering peer-reviewed linguistics, grammar/book catalogues and doctoral repositories.",
-    "Added MMSC-SEARCH-000045 without creating duplicate identities for already represented material.",
-    "Created an explicit search-log artifact reconciliation showing that the primary log is verified through 000028 and that run-file presence on the current branch is discontinuous after that point.",
-    "Refused to reconstruct missing search-log records 000034-000038 and 000041 from summaries alone.",
-    "Kept release counts unchanged because this cycle did not complete a new canonical SOURCE→EVIDENCE→CLAIM promotion.",
+    "Confirmed eb66b5da52546c1b6bd1404ac1e1d41cb43fa536 is 4/4 green.",
+    "Ran a parallel non-Mundarica cross-class census pass spanning audiovisual/media, official Census/LSI, datasets and theses alongside existing book/grammar/article streams.",
+    "Reverified WEB-MUN-0047 source identity, publication date, duration, original YouTube identifier, CC BY 3.0 file-level licence and exact Commons catalogue timestamps 00:04:28, 00:06:00 and 00:11:12.",
+    "Created a staged exact-locator metadata-evidence artifact for WEB-MUN-0047 while withholding dance interpretation, participant-derived content, community validation and culturally gated reuse.",
+    "Verified the official Census of India LSI Jharkhand Mundari descriptive-grammar study at source/study-scope level; direct page-image inspection was not completed, so no page-specific grammar rule, speaker-count value or cultural proposition was promoted.",
+    "Reconciled MunTTS/Karya and the Sapienza thesis as already represented identities and created no duplicates.",
+    "Added MMSC-SEARCH-000046 without reconstructing missing historical search records.",
+    "Kept canonical release counts unchanged because staged evidence has not yet crossed the atomic canonical SOURCE→CLAIM→EVIDENCE→LINK promotion gate.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica verified_complete_volumes remains 0; volumes 14-16 still lack exact authoritative scan locators.",
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Primary MMSC search_log.jsonl is verified only through MMSC-SEARCH-000028; supplemental run files require safe consolidation and exact recovery is still needed for status-referenced IDs 000034-000038 and 000041 before they can be inserted.",
-    "WEB-MUN-0047 remains exact-locator/file-license verified but still requires atomic canonical source/claim/evidence/link insertion before counts can increase.",
-    "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
+    "WEB-MUN-0047 has exact-locator metadata evidence staged but still requires atomic canonical source/claim/evidence/link insertion and synchronized release-metric/UI updates before canonical counts can increase.",
+    "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted from those workbook candidates.",
+    "The official Census of India LSI Jharkhand Mundari descriptive-grammar PDF is discoverable and source/study-scope metadata is verified, but direct page-image inspection was not completed in run46; page-specific linguistic or numeric evidence remains unpromoted.",
     "LSI Volume IV Mundari section starts are page-pointer verified, but direct page-image inspection/transcription remains pending before evidence promotion.",
     "ANU Evans & Osada 2005 and CIIL Sinha 1975 require deterministic comparison against every discovery layer plus item-level rights/content-locator review before promotion.",
     "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material, TRI full text and grammar content remain consent/rights/cultural-access gated as applicable.",
@@ -123,13 +129,14 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
+    "Atomically canonicalize WEB-MUN-0047 if final duplicate checks remain clean, synchronizing mmsc_discoveries, mmsc_index, source/claim/evidence/link ledgers, Streamlit exposure and generated publication metrics while keeping participant/performance content culturally gated.",
     "Recover and verify exact original content for missing status-referenced search IDs 000034-000038 and 000041 before primary-log consolidation; consolidate only exact immutable records.",
-    "Atomically canonicalize WEB-MUN-0047 if duplicate checks remain clean, synchronizing standalone source register, MMSC index, claim/evidence/link rows, Streamlit exposure and publication metrics while keeping performance content culturally gated.",
-    "Deterministically compare ANU DOI 10.1515/lity.2005.9.3.351 and CIIL Handle 20.500.14705/8179 against all 87 web leads and canonical registers, then promote only rights-safe exact-locator evidence.",
+    "Directly inspect the official Census of India LSI Jharkhand Mundari PDF page images and record exact page/section locators before any grammar, text or numeric promotion.",
     "Directly inspect LSI Volume IV scan pages beginning at Mundari of Ranchi p.87 and Mundari of Jashpur p.93 before passage-level promotion.",
     "Retry official DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX retrieval and record checksum/sheet/row/cell locators before numeric promotion.",
+    "Continue deterministic review of the remaining 75 web leads across books, dictionaries, grammars, articles, theses, government/TRI, archives, newspapers/web, datasets, audio, video and maps/media.",
     "Continue BMM1 item-level access/consultant review and rights-bounded TRI/grammar processing.",
     "Continue Mundarica authoritative scan acquisition without treating commercial page counts or OCR as verification.",
-    "Verify all four CI workflows on the newest head and repair any regression before further promotion."
+    "Verify all four CI workflows on the newest head and repair any regression before further canonical promotion."
   ]
 }
