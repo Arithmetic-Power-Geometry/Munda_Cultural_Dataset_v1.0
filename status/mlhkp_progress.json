@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T22:35:00Z",
-  "observed_head_before_status_sync": "c6632668b76b9cd80bce48495f450d50bebb7bd4",
+  "updated_utc": "2026-09-08T22:47:00Z",
+  "observed_head_before_status_sync": "286639f74948dd7426eff146d85e083e863a915b",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "2009 Gyan reprint manifestation labelled Vol.16th with ISBN 9788121203227 observed; historical-slot equivalence, authoritative scan and page accounting remain unresolved; not verified complete"
       },
-      "cycle_state": "Run 88 preserved the existing Mundarica truth state. No volume was upgraded without authoritative scan/page-accounting support; verified-complete remains 0."
+      "cycle_state": "Run 89 preserved the existing Mundarica truth state. No volume was upgraded without authoritative scan/page-accounting support; verified-complete remains 0."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000088",
-      "latest_search_record_path": "data/source_census/search_log_run88.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000089",
+      "latest_search_record_path": "data/source_census/search_log_run89.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Official ORGI ST-16 Jharkhand catalogue identity PC11_ST16-20 and exact workbook filename ST-20-00-16-DDW-2011.XLSX were independently verified at catalogue level. Numeric rows remain unpromoted until workbook bytes, checksum, worksheet, row and cell coordinates are verified.",
+      "latest_verification": "Walter Anthony Cook's 1965 Georgetown University dissertation A descriptive analysis of Mundari was exact-locator verified through Glottolog reference 33106 and independently corroborated in the official ORGI LSI Jharkhand bibliography at page 338. ORGI cites 1966; the discrepancy is explicitly preserved pending original Georgetown/UMI authority verification. No grammar rule, lexical item or cultural proposition was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 88 added a bounded official Census exact-locator verification artifact; no unsupported numeric or cultural evidence row was added."
+      "cycle_state": "No schema redesign. Run 89 added a bounded exact-locator dissertation verification artifact while withholding permanent source/evidence-chain admission until deterministic lead reconciliation and lawful full-text/rights verification."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No source/claim/evidence/link count changed in run 88, so no UI metric remap is required. The new Census verification artifact and run-88 search record are repository-searchable."
+      "sync_note": "No source/claim/evidence/link count changed in run 89, so no UI metric remap is required. The Cook exact-locator artifact and run-89 search record are repository-searchable; existing 42-module and 100% schema/UI mappings remain valid."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head 7f4a957b0a737d47a7d5f99d42659bc2559dbc26 is independently verified 4/4 green, including MLHKP Publication Build. Run 88 leaves release metrics 41/87/13/52/52/52 unchanged; fresh CI on the newest run-88 status head must be verified before projecting green."
+      "manuscript_build_state": "Pre-run head 8b7475d5d6913e2a1a3436577952ec656888735f is independently verified 4/4 green, including MLHKP Publication Build. Run 89 leaves release metrics 41/87/13/52/52/52 unchanged; fresh CI on the newest run-89 status head must be verified before projecting green."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,34 +87,36 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run88_advanced_source": "Official ORGI ST-16 Jharkhand was advanced to exact-locator verification only; no permanent numeric claim/evidence row was fabricated.",
-      "promotion_boundary": "Only official catalogue identity, reference ID, workbook filename, temporal/geographic scope, statistics type and observation universe are recorded. No numeric value is promoted before byte/checksum/worksheet/row/cell verification."
+      "run89_advanced_source": "Cook 1965 Mundari dissertation advanced from discoverable bibliography to a repository exact-locator metadata-verification artifact using Glottolog reference 33106 and ORGI LSI Jharkhand bibliography page 338; permanent source/evidence-chain counting remains deferred.",
+      "promotion_boundary": "Only bibliographic identity, dissertation institution/year as catalogued, pagination, UMI catalogue clue, and exact catalogue/bibliography locators are promoted. No grammar rule, lexical item, full-text passage, speaker fact, present-day usage claim, cultural proposition, redistribution right or model-training permission is inferred."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "7f4a957b0a737d47a7d5f99d42659bc2559dbc26",
+    "last_verified_all_four_green_commit": "8b7475d5d6913e2a1a3436577952ec656888735f",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":859,"migration_audit":909,"streamlit_smoke_test":1005,"publication_build":858},
-    "new_commits_this_cycle_before_status_sync": ["e40894818deae7621aeadac780abb4749c03cdbb","c6632668b76b9cd80bce48495f450d50bebb7bd4"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-88 status head must be independently verified; do not project the verified 7f4a957b green state forward."
+    "verified_run_numbers": {"source_register_audit":864,"migration_audit":914,"streamlit_smoke_test":1010,"publication_build":863},
+    "new_commits_this_cycle_before_status_sync": ["f191ef6f06c3cec3e5018261b8b59f44de1558fe","286639f74948dd7426eff146d85e083e863a915b"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-89 status head must be independently verified; do not project the verified 8b7475d5 green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed current mlhkp-v2 pre-run head 7f4a957b0a737d47a7d5f99d42659bc2559dbc26 as 4/4 CI green.",
-    "Confirmed existing PR #1 remains open with head mlhkp-v2 and base main; no merge was performed.",
-    "Verified official ORGI ST-16 Jharkhand record PC11_ST16-20 and workbook filename ST-20-00-16-DDW-2011.XLSX at catalogue level.",
-    "Recorded the ST-16 verification boundary in data/source_census/census_st16_jharkhand_verification_2026-09-09.json.",
-    "Recorded MMSC-SEARCH-000088 across all requested source classes and parallel workstreams.",
-    "Kept publication metrics unchanged at 41/87/13/52/52/52 because no permanent source or evidence-chain identity crossed the promotion gate.",
-    "Preserved cultural-access override and did not infer rights, community validation, OCR verification or numeric facts from catalogue availability."
+    "Confirmed current mlhkp-v2 pre-run head 8b7475d5d6913e2a1a3436577952ec656888735f as 4/4 CI green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
+    "Searched all requested non-Mundarica source classes and recorded MMSC-SEARCH-000089.",
+    "Verified Walter Anthony Cook's 1965 Georgetown University Mundari dissertation through Glottolog reference 33106 and exact ORGI LSI Jharkhand bibliography page 338.",
+    "Recorded the Cook 1965/ORGI 1966 bibliographic-year discrepancy explicitly instead of silently normalizing it.",
+    "Converted the Cook stream beyond discovery-only state into an exact-locator metadata verification artifact while withholding permanent ID and evidence-chain inflation pending deterministic web-lead reconciliation and lawful full-text rights review.",
+    "Observed the 6 March 2026 Village Square report on the 41-page Mundari book Sakam Re Baha but retained it as a secondary-media lead pending primary publisher/object locator, rights and cultural-access review; no food/forest cultural proposition was promoted.",
+    "Kept publication metrics unchanged at 41/87/13/52/52/52 and did not modify or merge main."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Official LSI Jharkhand exact page-image verification remains incomplete after prior retrieval failures.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; ST-16 exact catalogue/workbook identity is now verified but not numerically ingested.",
+    "Official LSI Jharkhand exact page-image verification remains incomplete after prior retrieval failures; page-338 bibliography text is exact-locator corroboration only, not visual-page verification of substantive linguistic content.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; ST-16 exact catalogue/workbook identity is verified but not numerically ingested.",
     "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical slot/edition reconciliation remains unresolved despite modern reprint clues.",
     "Bhaduri/TRI/Sinha/Archer lawful inspectable full-text reuse and master-register reconciliation remain pending for deeper extraction.",
+    "Cook dissertation lawful inspectable full text, redistribution/model-training rights and original Georgetown/UMI authority verification remain pending; the 1965 versus ORGI-bibliography 1966 discrepancy remains explicit.",
+    "Sakam Re Baha currently has a secondary-media locator but still needs a primary publisher/catalogue/object locator plus rights and cultural-access assessment before cultural-content ingestion.",
     "Participant-derived audio and related media remain item-level consent/rights/cultural-access gated beyond verified metadata or article-level technical reporting.",
     "MegaVoice Mundari media exact-locator records remain pending deterministic master-register reconciliation and rights/consent review.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
@@ -145,12 +147,14 @@
   "next_parallel_tasks": [
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before any numeric claim promotion.",
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing exact-locator official/public-domain/open-access sources and applying work/item/manifestation deduplication before permanent IDs are assigned.",
+    "Verify the original Georgetown/UMI authority record and seek a lawful inspectable Cook dissertation manifestation before page-level linguistic extraction.",
+    "Seek a primary publisher/catalogue/object locator for Sakam Re Baha and apply rights/cultural-access review before ingesting community food/forest knowledge.",
     "Retry official LSI PDF/page-image verification while preserving text-layer/visual-layer distinction.",
     "Continue authoritative Mundarica I-XVI scan/page-accounting acquisition and XIV-XVI edition-slot reconciliation without upgrading OCR or completeness prematurely.",
     "Reconcile MegaVoice and other media candidates against discovery/master registers and enforce consent/rights/cultural-access gates.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Continue Bhaduri/TRI/Sinha/Archer edition, lawful-full-text and reuse-rights reconciliation before lexical or cultural extraction.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-88 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-89 status head and repair any regression before metric-changing promotion."
   ]
 }
