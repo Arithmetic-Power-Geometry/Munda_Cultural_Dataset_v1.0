@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T16:44:54Z",
-  "observed_head_before_status_sync": "789c961fea149049b77ff247d6e287c2aeb883c9",
+  "updated_utc": "2026-09-08T17:31:00Z",
+  "observed_head_before_status_sync": "d50d8474b84241b99744395f34bcfee84b58ae3a",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 77 preserved all Mundarica truth states while the non-Mundarica census continued. No volume, scan, page-accounting or OCR state was upgraded without authoritative verification."
+      "cycle_state": "Run 78 preserved all Mundarica truth states; no scan, page-accounting, OCR or completeness state was upgraded without authoritative verification."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000077",
-      "latest_search_record_path": "data/source_census/search_log_run77.jsonl",
-      "search_log_sync_note": "The normalized append-only primary data/source_census/search_log.jsonl currently ends at MMSC-SEARCH-000028. Run-specific logs through MMSC-SEARCH-000077 are preserved separately; they are not falsely counted as already consolidated primary entries.",
-      "latest_verification": "Run 77 re-opened the Togawa 2024 J-STAGE PDF through the text parser and reconfirmed the official LSI Jharkhand Mundari descriptive-grammar indexed text. Required page-image verification remained blocked (J-STAGE cache miss; LSI direct PDF timeout), so no page-level cultural proposition, grammar rule or demographic number was promoted. Publisher/official metadata and abstract/study-scope boundaries remain the only supported level.",
+      "latest_search_id": "MMSC-SEARCH-000078",
+      "latest_search_record_path": "data/source_census/search_log_run78.jsonl",
+      "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs are preserved separately and not falsely counted as consolidated primary entries.",
+      "latest_verification": "Project VAANI current official Jharkhand summary was verified as listing 17 displayed languages without a Mundari label. The aggregate page is therefore not promoted as a Mundari-specific source. This is an observed-page disposition only, not an absolute claim that VAANI contains no Mundari material anywhere or in future versions.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 77 prioritized source verification and deterministic deduplication; no unsupported evidence-chain row was added while page-image and permanent-identity gates remained unresolved."
+      "cycle_state": "No redesign; run 78 added a deterministic negative/disposition audit record rather than unsupported evidence-chain content."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No evidence/publication metric changed in run 77. Existing 52-claim/52-evidence/52-link surfaces remain synchronized; new run-77 verification and search-log artifacts are audit-layer records, not public cultural claims."
+      "sync_note": "No release metric changed in run 78; public 52/52/52 evidence surfaces remain synchronized."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head d6c20a3ce55724a9ab1684590cefea42b55db302 is independently verified 4/4 green. Run 77 changed only audit/search/status artifacts and did not alter release metrics; fresh CI on the run-77 status head must still be independently verified before green state is projected forward."
+      "manuscript_build_state": "Pre-run head ac1abb47d79eb3549acf4741f7aca199dc4e7ba3 independently verified 4/4 green. Run 78 changes audit/search/status artifacts only; fresh CI on the newest status head must be verified before projecting green forward."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,40 +87,35 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run77_advanced_source": "Togawa 2024 and official LSI Jharkhand were advanced at the audit/exact-locator verification layer: parser-visible PDF structure/study-description text and access states were recorded, while unsuccessful page-image inspection prevented deeper cultural/linguistic promotion.",
-      "promotion_boundary": "No new page-level cultural statement, grammar rule, participant material, Census number, dictionary lexical content, audio, transcript, translation pair, consent state, reuse right or community-validation state was promoted."
+      "run78_advanced_source": "Project VAANI Jharkhand aggregate access advanced to deterministic disposition: current public Jharkhand page does not display Mundari among its 17 listed labels, so it remains outside Mundari-specific promotion absent item-level evidence.",
+      "promotion_boundary": "No audio, transcript, participant metadata, consent state, cultural claim, grammar rule, Census number, dictionary lexical content, reuse right or community-validation state was promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "d6c20a3ce55724a9ab1684590cefea42b55db302",
+    "last_verified_all_four_green_commit": "ac1abb47d79eb3549acf4741f7aca199dc4e7ba3",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle_before_status_sync": ["c7665b6bbcb2db16c3d3a9174e514d861176aaca","789c961fea149049b77ff247d6e287c2aeb883c9"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-77 status head must be verified independently; do not project the 4/4-green state of d6c20a3 forward."
+    "new_commits_this_cycle_before_status_sync": ["cdf872b58c84adccc5f416bbca6adb4764b7778b","d50d8474b84241b99744395f34bcfee84b58ae3a"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-78 status head must be independently verified; do not project ac1abb4 green state forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on pre-run head d6c20a3ce55724a9ab1684590cefea42b55db302.",
-    "Ran a fresh parallel non-Mundarica census pass across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and media.",
-    "Deterministically avoided duplicating already-canonical SRC-MMSC-000003, SRC-MMSC-000007 and SRC-MMSC-000015.",
-    "Re-opened Togawa 2024 as a 25-page J-STAGE PDF through the text parser; screenshot attempts still failed with cache miss, so page-level cultural propositions remain unpromoted.",
-    "Reconfirmed the official LSI Jharkhand Mundari descriptive-grammar indexed study description; direct PDF open timed out, so page-image verification remains incomplete.",
-    "Reconfirmed official C-17 and ST-15 MUNDA/MUNDARI variable identities without asserting numeric values.",
-    "Observed Project Vaani Jharkhand aggregate dataset access as a candidate infrastructure source but did not infer Mundari-specific content or assign a permanent identity.",
-    "Recorded MMSC-SEARCH-000077 and corrected status to distinguish 28 normalized primary search-log entries from separately preserved later run logs.",
-    "Kept publication metrics at 41/87/13/52/52/52; no unsupported evidence or rights claim was added.",
+    "Verified all four required workflows green on pre-run head ac1abb47d79eb3549acf4741f7aca199dc4e7ba3.",
+    "Verified Project VAANI current official Jharkhand summary and Version1 access metadata.",
+    "Recorded that the current Jharkhand summary displays 17 language labels and no Mundari label; did not infer absolute absence beyond the observed page.",
+    "Created data/source_census/verification/project_vaani_jharkhand_run78.json as a deterministic negative/disposition audit record.",
+    "Recorded MMSC-SEARCH-000078 across all requested source classes.",
+    "Kept audited/public metrics unchanged at 41/87/13/52/52/52 and did not create a permanent VAANI Mundari source identity.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "Original MMSC search records 000034-000038 and 000041 remain unrecovered; run-specific later records remain preserved but not normalized into the primary log.",
-    "Official LSI Jharkhand direct PDF open timed out in run 77; page-image verification remains incomplete.",
-    "J-STAGE Togawa PDF page screenshot attempts returned cache miss in run 77; page-level cultural or analytical claims remain blocked from promotion.",
-    "The official 1993 TRI Munda PDF link is known but direct retrieval previously timed out; page text/OCR extraction remains blocked and rights restricted.",
-    "TRI catalogue does not expose full-text downloads or year/edition/ISBN/page count for the two verified Mundari dictionary entries; lexical ingestion and reuse permission remain unresolved.",
-    "ST-15/ST-16/C-16/C-17 catalogue/workbook identities are known but workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "N.K. Sinha 1975 and Bhaduri dictionary deeper extraction remain rights/edition gated.",
-    "Indian Forester 2011, Togawa 2024 and other staged scholarly candidates require complete deterministic discovery-layer reconciliation before permanent identity assignment or deeper promotion where not already canonical.",
-    "BMM1/PARADISEC, historical audio, MunTTS, Karya translation/TTS, Adivaani outputs and participant-derived media remain consent/rights/cultural-access gated as applicable."
+    "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
+    "Official LSI Jharkhand page-image verification remains incomplete.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
+    "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI slot/edition reconciliation remains unresolved.",
+    "TRI dictionary full-text/edition/rights state remains unresolved.",
+    "Participant-derived audio, BMM1/PARADISEC, MunTTS, Karya, Adivaani and related media remain consent/rights/cultural-access gated.",
+    "Project VAANI current Jharkhand aggregate page does not itself establish Mundari-specific material; item-level language metadata would be required before promotion."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -145,13 +140,12 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the remaining 74 web leads, prioritizing already-canonical or official/public-domain/open-access exact-locator sources that can safely advance evidence rather than metadata alone.",
-    "Retry official LSI page-image verification and Togawa page-image inspection; promote only inspectable, rights-permitted and culturally appropriate bounded statements.",
-    "Retrieve ST-15/ST-16/C-16/C-17 official workbook bytes and record checksums, worksheet, row and cell locators before asserting counts.",
-    "Deterministically compare the two TRI dictionary works, Project Vaani and staged scholarly candidates against all preserved discovery leads and existing permanent source identities before assigning new IDs.",
-    "Resolve item-level license/work-edition state for N.K. Sinha 1975, Bhaduri and the TRI dictionary pair before lexical extraction.",
-    "Continue rights-bounded exact-locator processing for dissertations, articles, TRI, archive, newspaper, audio/video, dataset and map sources.",
-    "Recover original search records 000034-000038 and 000041 without reconstructing them from prose, and separately normalize preserved run-specific logs only when their original records are available.",
-    "Verify all four CI workflows on the newest run-77 status head and repair any regression before the next metric-changing promotion."
+    "Continue deterministic disposition of the remaining 74 web leads, prioritizing exact-locator official/public-domain/open-access sources.",
+    "Retry LSI page-image verification and obtain Census ST-15/ST-16/C-16/C-17 workbook bytes with checksum/sheet/row/cell locators.",
+    "Continue authoritative Mundarica scan/page accounting without treating OCR as verified transcription.",
+    "Resolve item-level rights/work-edition state for TRI dictionaries, Bhaduri, N.K. Sinha and staged scholarly candidates before deeper extraction.",
+    "Treat Project VAANI as non-Mundari-specific at the current aggregate-page level unless item-level metadata provides support.",
+    "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
+    "Verify all four CI workflows on the newest run-78 status head and repair any regression before any metric-changing promotion."
   ]
 }
