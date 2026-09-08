@@ -1,0 +1,58 @@
+{
+  "record_type": "source_exact_locator_upgrade",
+  "checked_utc": "2026-09-08T13:42:00Z",
+  "branch": "mlhkp-v2",
+  "candidate_title": "Mundari Grammar",
+  "author": "N. K. Sinha",
+  "year": 1975,
+  "source_class": "grammar_book_institutional_repository",
+  "institution": "Central Institute of Indian Languages (CIIL)",
+  "repository": "Bhasha Sanchika — CIIL Repository",
+  "repository_handle": "20.500.14705/8179",
+  "repository_item_file": "CIILP0091.pdf",
+  "official_ciil_publication_catalogue": {
+    "title": "Mundari Grammar",
+    "author": "N.K. Sinha",
+    "year": 1975,
+    "catalogue_position_observed": 95
+  },
+  "official_ciil_store_record": {
+    "title_displayed": "मुंडारी व्याकरण",
+    "author_displayed": "एन.के. सिन्हा",
+    "editor_displayed": "ई. अन्नामलाई",
+    "publication_year": 1975,
+    "subject": "व्याकरण",
+    "pages": 163,
+    "languages": ["English", "Mundari"],
+    "availability_displayed": "out_of_stock"
+  },
+  "verified_scope": "CIIL's repository and store descriptions characterize the work as a pedagogically organized Mundari grammar. The repository description names noun morphology, verb morphology, adjectives/adverbs and constituent order in syntax; this record treats those statements only as CIIL's description of the publication's organization, not as newly verified grammatical rules.",
+  "identity_reconciliation": {
+    "existing_verification_artifact": "data/source_census/ciil_mundari_grammar_1975_verification_2026-09-08.json",
+    "same_work_basis": [
+      "normalized title: mundari grammar",
+      "author: N.K. Sinha",
+      "publication year: 1975",
+      "CIIL institutional provenance"
+    ],
+    "decision": "upgrade_existing_candidate_do_not_create_duplicate_identity",
+    "audited_count_delta": 0
+  },
+  "rights_boundary": "Public institutional catalogue/repository visibility establishes discoverability and bibliographic verification only. No unrestricted redistribution, reproduction, model-training or extraction license is inferred for the PDF or its examples. The store page being publicly viewable and the repository listing a file do not override copyright or cultural-access review.",
+  "cultural_access_boundary": "No grammatical example, lexical item, elicited utterance, participant-derived material or culturally sensitive content is ingested from the work in this upgrade. Cultural access overrides technical entitlement if deeper ingestion is attempted later.",
+  "evidence_state": "exact_locator_and_bibliographic_provenance_strengthened; metadata-level source evidence only; no new public cultural or grammatical proposition promoted",
+  "not_asserted": [
+    "unrestricted reuse license",
+    "permission to redistribute CIILP0091.pdf",
+    "verified transcription of the PDF",
+    "community validation",
+    "current universal Mundari usage",
+    "permission to reproduce examples"
+  ],
+  "source_urls": [
+    "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "https://hdl.handle.net/20.500.14705/8179",
+    "https://www.ciil.org/publications?page=6",
+    "https://store.ciil.org/bookdetails?book_id=MDc4NTA2MDg2OTUxOA%3D%3D"
+  ]
+}
