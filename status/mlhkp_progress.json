@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T15:40:00Z",
-  "observed_head_before_status_sync": "6ec0cd8f26ae42297e7bde4f5f63827c72301251",
+  "updated_utc": "2026-09-08T16:38:00Z",
+  "observed_head_before_status_sync": "2779ce5d48c2aca62f8ec62fac2f08d227ca19ee",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
       },
-      "cycle_state": "Run 75 preserved all Mundarica truth states while the requested non-Mundarica census advanced; no volume or OCR state was upgraded without authoritative page-level verification."
+      "cycle_state": "Run 76 preserved all Mundarica truth states while non-Mundarica evidence population advanced; no volume, scan, page-accounting or OCR state was upgraded without authoritative verification."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,9 +46,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 33,
-      "latest_search_id": "MMSC-SEARCH-000075",
-      "latest_search_record_path": "data/source_census/search_log_run75.jsonl",
-      "latest_verification": "Official Census catalogue metadata for LSI_JHARKHAND was reconfirmed and the official search index exposed exact page 278 plus the LOCATION subsection. Direct PDF rendering timed out, so page 278 is now an exact locator but not page-image-verified evidence.",
+      "latest_search_id": "MMSC-SEARCH-000076",
+      "latest_search_record_path": "data/source_census/search_log_run76.jsonl",
+      "latest_verification": "Already-canonical SRC-MMSC-000005 (1993 TRI Munda book) was reconfirmed from the official Ministry of Tribal Affairs repository and promoted from discovery-only metadata into a public-metadata-only provenance chain. Record DRMTWRI/1993/0007, catalogued pagination 1-44 and the repository file locator are preserved; direct PDF retrieval timed out, so no page text, OCR or cultural proposition was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -56,7 +56,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign. Run 75 increased locator precision while preserving the boundary between indexed source text and page-image-verified evidence."
+      "cycle_state": "No redesign. Run 76 populated the existing evidence/provenance architecture with one rights-bounded government-source provenance chain under DOM-23/DOM-23-S11."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -66,54 +66,56 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No metric-changing atomic promotion. Public evidence metrics remain synchronized through SRC-MMSC-000015 / CLM-000051 / EVD-000051 / LNK-000051; the recovered LSI page-278 locator remains staged, not public factual evidence."
+      "sync_note": "The new CLM-000052/EVD-000052/LNK-000052 chain uses existing public_metadata_only surfaces; architecture and access policy are unchanged. Release metrics are synchronized to 52 claims/evidence/links."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
       "sources_discovered": 41,
       "web_discovery_leads_observed": 87,
       "canonicalized_web_leads": 13,
-      "claims": 51,
-      "evidence_records": 51,
-      "evidence_links": 51,
-      "metrics_changed_this_cycle": false,
+      "claims": 52,
+      "evidence_records": 52,
+      "evidence_links": 52,
+      "metrics_changed_this_cycle": true,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-74 status head 1a8f969108fbcee98d27de8c64b56f3775527391 is independently verified 4/4 green. Run 75 did not change release metrics; fresh CI for the new status head must be independently verified before green status is projected forward."
+      "manuscript_build_state": "Run-75 status head 6ea3aeb2a683fbdc0f936aa6d27ae54dc74586ab is independently verified 4/4 green. Run 76 changed evidence metrics and synchronized generated JSON/TeX; fresh CI on the run-76 status head must be independently verified before green state is projected forward."
     },
     "F_evidence_population": {
-      "source_claims": 51,
-      "evidence_records": 51,
-      "evidence_links": 51,
-      "latest_evidence_bearing_source": "SRC-MMSC-000015",
-      "latest_evidence_chain": "SRC-MMSC-000015 -> CLM-000051 -> EVD-000051 -> LNK-000051",
-      "run75_advanced_source": "LSI Jharkhand advanced from section-level indexed verification to an exact search-index page locator at page 278. The direct PDF page still could not be rendered, so no geographic, linguistic or numeric passage was promoted into the public evidence graph.",
-      "promotion_boundary": "No LSI page text, Census number, TRI web cultural statement, dictionary lexical content, participant-derived material, audio, transcript, translation pair, consent state, reuse right or community-validation state was newly promoted."
+      "source_claims": 52,
+      "evidence_records": 52,
+      "evidence_links": 52,
+      "latest_evidence_bearing_source": "SRC-MMSC-000005",
+      "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
+      "run76_advanced_source": "The official 1993 TRI Munda book repository record advanced from canonical metadata-only discovery to provenance-linked evidence. Only official catalogue identity, record ID, completion date metadata, pagination, file name and named bibliographic roles were exposed.",
+      "promotion_boundary": "No TRI book page text, OCR, cultural statement, participant material, Census number, LSI page prose, dictionary lexical content, audio, transcript, translation pair, consent state, reuse right or community-validation state was newly promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "1a8f969108fbcee98d27de8c64b56f3775527391",
+    "last_verified_all_four_green_commit": "6ea3aeb2a683fbdc0f936aa6d27ae54dc74586ab",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle_before_status_sync": ["0daccc66525d84d4a056ef9c437e91941c8e57fe","6ec0cd8f26ae42297e7bde4f5f63827c72301251"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-75 status head must be verified independently; do not project the 4/4-green state of 1a8f9691 forward."
+    "new_commits_this_cycle_before_status_sync": ["cf1dad08b2b214385b39bfc5b30ad7c75a5b9243","7c41d1d58f51496adec03b586b9f1181b5195f0b","696584c8c9381e5c6a1e82653ff81f6522790ee8","59a8496526a2eba9d59b22719185a3abd7cd730f","3c00f5061906a87cf59f5ce7dcaf3521a6a560df","af58b63a9a02f265f5e78aa8cd045e0a499c1e75","2779ce5d48c2aca62f8ec62fac2f08d227ca19ee"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-76 status head must be verified independently; do not project the 4/4-green state of 6ea3aeb2 forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on run-74 status head 1a8f969108fbcee98d27de8c64b56f3775527391.",
-    "Reconfirmed the official Census LSI_JHARKHAND catalogue record, 2023-08-01 publication metadata and official PDF path.",
-    "Recovered exact search-index locator page 278 and the LOCATION subsection for the Mundari material; kept it staged because direct PDF rendering timed out and no screenshot/page-image inspection succeeded.",
-    "Reconfirmed official TRI, Adivaani, Karya dataset/audio, historical map and EZCC media surfaces while preserving rights, consent and cultural-access gates.",
-    "Recorded MMSC-SEARCH-000075 across all requested non-Mundarica source classes.",
-    "Kept all 42 Streamlit modules, evidence graph, completeness/gap accounting and Q1 manuscript release metrics synchronized because no atomic evidence count changed.",
+    "Verified all four required workflows green on run-75 status head 6ea3aeb2a683fbdc0f936aa6d27ae54dc74586ab.",
+    "Reconfirmed already-canonical SRC-MMSC-000005 against the official Ministry of Tribal Affairs Tribal Digital Document Repository record DRMTWRI/1993/0007.",
+    "Promoted a provenance-only claim/evidence/link chain CLM-000052/EVD-000052/LNK-000052 using official repository metadata and exact repository/file locators.",
+    "Recorded repository copyright boundary and direct PDF timeout; did not promote book text, OCR, cultural facts, participant material or community validation.",
+    "Reconfirmed relevant scholarly, grammar, Census/LSI, dataset, archive, audio/video and map classes while deterministically avoiding duplicate source identities.",
+    "Recorded MMSC-SEARCH-000076 across all requested source classes.",
+    "Synchronized release_metrics.json and release_metrics.tex to 41/87/13/52/52/52 while keeping 42 Streamlit modules and schema/UI coverage unchanged.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
+    "The official 1993 TRI Munda PDF link is known but direct retrieval timed out in run 76; page text/OCR extraction remains blocked and rights restricted.",
     "TRI catalogue does not expose full-text downloads or year/edition/ISBN/page count for the two verified Mundari dictionary entries; lexical ingestion and reuse permission remain unresolved.",
     "ST-15/ST-16/C-16/C-17 catalogue/workbook identities are known but workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "Official LSI Jharkhand search index now exposes page 278, but direct PDF rendering timed out in run 75; screenshot/page-image verification remains incomplete.",
+    "Official LSI Jharkhand search index exposes page 278, but direct page-image rendering remains unstable; page-image verification is incomplete.",
     "N.K. Sinha 1975 and Bhaduri dictionary deeper extraction remain rights/edition gated.",
-    "Indian Forester 2011, Togawa 2024, Virginia Tech dissertation, SAGE land article and other scholarly candidates require complete deterministic discovery-layer reconciliation before permanent identity assignment or deeper promotion.",
+    "Indian Forester 2011, Togawa 2024 and other staged scholarly candidates require complete deterministic discovery-layer reconciliation before permanent identity assignment or deeper promotion where not already canonical.",
     "BMM1/PARADISEC, historical audio, MunTTS, Karya translation/TTS, Adivaani outputs and participant-derived media remain consent/rights/cultural-access gated as applicable."
   ],
   "integrity": {
@@ -132,20 +134,20 @@
     "ui_mapping_percent": 100.0,
     "systematic_census_complete_for_release": false,
     "all_obtainable_permitted_sources_processed": false,
-    "all_public_claims_provenance_linked": false,
+    "all_public_claims_provenance_linked": true,
     "unavailable_restricted_unverified_and_fieldwork_gaps_enumerated": true,
     "no_broken_ids_or_provenance_gate_verified_for_newest_head": false,
     "automated_completeness_audit_pass": false,
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Use the recovered LSI page-278 locator for page-image verification as soon as the official PDF renders stably; promote only bounded source-reported statements after inspection.",
-    "Continue deterministic disposition of the remaining 74 web leads, prioritizing official, public-domain and open-access exact-locator sources that can safely advance evidence rather than metadata alone.",
-    "Deterministically compare the two TRI dictionary works against all 87 preserved discovery leads and existing dictionary/work records before assigning permanent source IDs.",
+    "Continue deterministic disposition of the remaining 74 web leads, prioritizing already-canonical or official/public-domain/open-access exact-locator sources that can safely advance evidence rather than metadata alone.",
+    "Retry official TRI 1993 PDF retrieval and LSI page-278 page-image verification; promote only inspectable, rights-permitted and culturally appropriate bounded statements.",
     "Retrieve ST-15/ST-16/C-16/C-17 official workbook bytes and record checksums, worksheet, row and cell locators before asserting counts.",
+    "Deterministically compare the two TRI dictionary works against all preserved discovery leads and existing dictionary/work records before assigning any new permanent identity.",
     "Resolve item-level license/work-edition state for N.K. Sinha 1975, Bhaduri and the TRI dictionary pair before lexical extraction.",
     "Continue rights-bounded exact-locator processing for dissertations, articles, TRI, archive, newspaper, audio/video, dataset and map sources.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-75 status head and repair any regression before any metric-changing promotion."
+    "Verify all four CI workflows on the newest run-76 status head and repair any regression before the next metric-changing promotion."
   ]
 }
