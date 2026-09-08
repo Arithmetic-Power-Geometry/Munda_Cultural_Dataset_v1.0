@@ -1,0 +1,26 @@
+{
+  "record_type": "exact_catalogue_locator_verification",
+  "verification_date": "2026-09-08",
+  "source_class": "official_census_table",
+  "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "producer": "Office of the Registrar General & Census Commissioner, India",
+  "reference_id": "PC11_ST15-20",
+  "canonical_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+  "download_filename": "ST-20-00-15-DDW-2011.XLSX",
+  "geographic_unit": "Jharkhand (state code 20)",
+  "time_period": 2011,
+  "verified_catalogue_scope": {
+    "tribe_variable_present": "Munda, Patar",
+    "mother_tongue_variables_present": ["91 MUNDA", "92 MUNDARI", "Mundari"],
+    "table_purpose": "scheduled tribe by mother tongue, tribe separately, state/UT level"
+  },
+  "exact_locator_level": "official_catalogue_record_id_plus_exact_workbook_filename_plus_catalogue_variable_labels",
+  "numeric_evidence_state": "not_promoted",
+  "numeric_blocker": "Workbook bytes, cryptographic checksum, worksheet name, exact row and exact cell coordinates have not yet been verified in MLHKP; therefore no population or mother-tongue count is asserted from this record.",
+  "rights_reuse_status": "official government catalogue metadata may be cited; workbook/content reuse remains subject to ORGI terms and MLHKP governance review",
+  "cultural_access_state": "catalogue metadata only; cultural access overrides technical availability for any deeper derivative use",
+  "community_validation_state": "not_applicable_to_catalogue_identity; no community validation claimed",
+  "verification_state": "official_ORGI_catalogue_identity_reference_id_download_filename_and_relevant_variable_labels_verified",
+  "promotion_state": "exact_locator_metadata_verified_pending_deterministic_discovery_lead_reconciliation_and_atomic_source_evidence_promotion",
+  "non_inference": "No demographic number, language-use prevalence, cultural practice, current representativeness, participant fact or community endorsement is inferred from catalogue metadata alone."
+}
