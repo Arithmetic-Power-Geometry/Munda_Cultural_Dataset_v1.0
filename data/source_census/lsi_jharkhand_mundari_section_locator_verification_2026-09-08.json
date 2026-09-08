@@ -4,18 +4,26 @@
   "title": "THE PRESENT STUDY: MUNDARI LANGUAGE",
   "source_class": "government_linguistic_survey_descriptive_grammar",
   "publisher_repository": "Census of India NADA / Linguistic Survey of India",
+  "catalogue_reference_id": "LSI_JHARKHAND",
+  "catalogue_record": "https://censusindia.gov.in/nada/index.php/catalog/45248",
   "canonical_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "catalogue_date_published": "2023-08-01",
   "scope": "Descriptive grammar of Mundari as documented for Jharkhand in the Census of India Linguistic Survey material.",
   "verified_section_locators": [
     {
       "locator_type": "section_heading",
       "value": "THE PRESENT STUDY: MUNDARI LANGUAGE",
-      "verified_metadata_scope": "The document describes itself as a descriptive grammar of Mundari of Jharkhand and states that survey work was conducted in Murhu village in the Khunti area of Ranchi district context."
+      "verified_metadata_scope": "The indexed official document describes itself as a descriptive grammar of Mundari of Jharkhand and reports survey work in Murhu village in the Khunti-area/Ranchi-district context."
     },
     {
       "locator_type": "section_heading",
       "value": "SPEAKERS’ STRENGTH",
-      "verified_metadata_scope": "The document contains a speaker-strength section referring to 2011 Census population information; no numeric value is promoted in MLHKP without direct table/page verification."
+      "verified_metadata_scope": "The indexed official document contains a speaker-strength section referring to 2011 Census population information; no numeric value is promoted in MLHKP without direct table/page verification."
+    },
+    {
+      "locator_type": "indexed_pdf_page",
+      "value": "278",
+      "verified_metadata_scope": "The official Census search index now exposes page 278 with the LOCATION subsection and Mundari geographic-distribution prose. This is recorded as an exact search-index locator only; direct PDF rendering timed out, so the passage has not been promoted as page-image-verified evidence."
     }
   ],
   "named_informants_as_document_metadata": ["Shri Chamra Munda", "Mrs. Ramdi Mundu"],
@@ -28,13 +36,13 @@
     "cultural_access_overrides_entitlement": true
   },
   "promotion_boundary": {
-    "permitted_now": ["document identity", "government repository locator", "section headings", "document-reported study scope"],
-    "not_promoted": ["speaker/population numbers", "grammar rules", "example sentences", "lexical items", "participant-derived cultural assertions", "present-day representativeness", "community endorsement"]
+    "permitted_now": ["document identity", "government repository locator", "catalogue date", "section headings", "document-reported study scope", "search-index page locator 278"],
+    "not_promoted": ["speaker/population numbers", "page-278 geographic statements as current demographic truth", "grammar rules", "example sentences", "lexical items", "participant-derived cultural assertions", "present-day representativeness", "community endorsement"]
   },
-  "acquisition_state": "remote_official_pdf_locator_verified_direct_pdf_fetch_transiently_blocked_in_this_cycle",
-  "evidence_state": "section_locator_metadata_staged_for_future_atomic_source_claim_evidence_link_promotion",
+  "acquisition_state": "official_catalogue_and_pdf_path_verified_search_index_exposes_page_278_direct_pdf_rendering_timed_out",
+  "evidence_state": "exact_search_index_page_locator_staged_for_future_page_image_verified_atomic_promotion",
   "source_identity_count_effect": 0,
   "claim_count_effect": 0,
   "evidence_count_effect": 0,
-  "notes": "A direct PDF fetch returned a transient gateway error during this cycle, so no page-number or table-cell claim is asserted. The verified search index exposed the official document text and section headings; page-image inspection remains required before passage-level linguistic or numeric promotion."
+  "notes": "Run 75 improved locator precision: the official Census index exposed page 278 and the LOCATION subsection, while a direct PDF open attempt timed out. Because the PDF page image could not be inspected, no page-level linguistic, geographic or numeric statement is represented as verified evidence. The 2023 catalogue date is metadata for this LSI Jharkhand release, not a date for every underlying linguistic observation."
 }
