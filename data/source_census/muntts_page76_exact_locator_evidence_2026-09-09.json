@@ -1,0 +1,73 @@
+{
+  "record_type": "exact_locator_evidence_upgrade",
+  "stream": "peer_reviewed_articles_datasets_audio",
+  "checked_utc": "2026-09-08T20:45:00Z",
+  "branch": "mlhkp-v2",
+  "source_id": "SRC-MMSC-000012",
+  "claim_id": "CLM-000047",
+  "evidence_id": "EVD-000047",
+  "title": "MunTTS: A Text-to-Speech System for Mundari",
+  "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+  "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+  "publisher": "Association for Computational Linguistics",
+  "year": 2024,
+  "doi": "10.18653/v1/2024.computel-1.11",
+  "anthology_id": "2024.computel-1.11",
+  "bibliographic_pages": "76-82",
+  "canonical_locator": "https://aclanthology.org/2024.computel-1.11/",
+  "exact_locator": {
+    "proceedings_page": 76,
+    "pdf_internal_page_index_observed": 85,
+    "sections": ["Abstract", "1 Introduction"],
+    "verified_page_facts": {
+      "study_language_scope": "The authors state that this study worked with Mundari spoken in Jharkhand and written in Devanagari.",
+      "unique_sentences": 15656,
+      "audio_recordings": 26868,
+      "audio_hours": 27.51,
+      "recording_voice_scope": "male and female voices",
+      "average_recording_duration_seconds": 3.7,
+      "average_sentence_length_words": 8.4
+    }
+  },
+  "evidence_classification": {
+    "domain": "DOM-14 language_linguistics / technical_interoperability",
+    "claim_kind": "peer_reviewed_article_exact_page_technical_corpus_description",
+    "cultural_claim": false,
+    "demographic_claim": false,
+    "participant_level_claim": false,
+    "community_validation_claim": false
+  },
+  "rights_access_consent": {
+    "article_access": "ACL Anthology publisher PDF publicly accessible",
+    "article_license": "CC BY 4.0 under ACL publication policy for this 2024 article",
+    "underlying_dataset_reuse_inferred_from_article_license": false,
+    "participant_recording_reuse_inferred": false,
+    "participant_consent_inferred_beyond_article_reporting": false,
+    "community_validation_inferred": false,
+    "cultural_access_status": "underlying recordings/text remain separately gated",
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion": {
+    "state": "exact_page_locator_verified_for_existing_evidence_chain",
+    "permitted_public_evidence": "The paper reports the technical corpus quantities and Jharkhand/Devanagari study scope listed above on proceedings page 76.",
+    "not_promoted": [
+      "audio files or transcripts",
+      "sentence text",
+      "speaker identities",
+      "participant-level metadata",
+      "general cultural or linguistic representativeness",
+      "community endorsement",
+      "unrestricted dataset/model-training rights"
+    ]
+  },
+  "pdf_image_audit": {
+    "text_layer_exact_locator_verified": true,
+    "page_image_attempted": true,
+    "page_image_result": "blocked_cache_miss",
+    "boundary": "The exact page text is publisher-hosted and parsed, but screenshot rendering failed with a cache miss. No visual-layout-dependent fact is asserted."
+  },
+  "deduplication": {
+    "new_source_identity_created": false,
+    "reason": "This is an exact-locator upgrade to existing canonical source SRC-MMSC-000012 and existing CLM-000047/EVD-000047, not a new source."
+  }
+}
