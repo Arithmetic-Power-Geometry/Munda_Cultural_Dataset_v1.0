@@ -1,0 +1,56 @@
+{
+  "record_type": "canonicalization_promotion_decision",
+  "decision_date": "2026-09-08",
+  "discovery_id": "WEB-MUN-0047",
+  "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+  "dedupe_key": "commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm",
+  "identity_disposition": "unique_existing_discovery_lead_ready_for_atomic_canonical_promotion",
+  "reserved_ids": {
+    "source_id": "SRC-MMSC-000015",
+    "claim_id": "CLM-000051",
+    "evidence_id": "EVD-000051",
+    "evidence_link_id": "LNK-000051"
+  },
+  "verified_exact_locators": [
+    {"timestamp":"00:04:28","catalogue_label":"Paika (Munda community)"},
+    {"timestamp":"00:06:00","catalogue_label":"Mundari"},
+    {"timestamp":"00:11:12","catalogue_label":"Mundari (Marriage)"}
+  ],
+  "verified_source_metadata": {
+    "creator": "Eastern Zonal Cultural Centre",
+    "publication_date": "2022-09-27",
+    "duration": "39:31",
+    "original_youtube_video_id": "jcaVTX0BCtQ",
+    "canonical_locator": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+    "file_level_license": "CC BY 3.0"
+  },
+  "permitted_public_evidence_scope": "Source identity, file-level licensing metadata and the repository page's own timestamp catalogue labels only.",
+  "excluded_from_public_promotion": [
+    "dance meaning or ritual interpretation",
+    "participant identity beyond public catalogue credits",
+    "participant consent",
+    "community validation or endorsement",
+    "community-wide or present-day representativeness",
+    "segment transcript or translation",
+    "derived clips or performance-content redistribution",
+    "culturally restricted or sensitive performance knowledge"
+  ],
+  "governance": {
+    "consent_state": "not_established_from_repository_metadata",
+    "community_validation_state": "not_performed",
+    "cultural_access_state": "contextual_review_required_before_segment_content_reuse",
+    "cultural_access_overrides_entitlement": true
+  },
+  "metric_effect_this_commit": {
+    "audited_source_identities": 0,
+    "canonicalized_web_leads": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "evidence_links": 0
+  },
+  "atomic_promotion_gate": "Counts change only when discovery canonicalization, mmsc_discoveries, mmsc_index, source_claims.csv, evidence.csv, evidence_links.csv, publication metrics and status are updated coherently and CI passes.",
+  "source_artifacts": [
+    "data/source_census/ezcc_commons_munda_dance_verification_2026-09-08.json",
+    "data/source_census/ezcc_commons_munda_dance_exact_locator_evidence_2026-09-08.json"
+  ]
+}
