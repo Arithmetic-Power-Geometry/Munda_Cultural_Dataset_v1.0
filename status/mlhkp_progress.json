@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-07T23:52:00Z",
-  "observed_head_before_status_sync": "3c333a61d9f383c897bab8234e9b29ebe132dde5",
+  "updated_utc": "2026-09-08T00:54:00Z",
+  "observed_head_before_status_sync": "114901cba7f8c25839399c8186a5f7f50712716d",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -15,7 +15,7 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "edition_reconciliation_state": "open; original Government Printing parts/text volumes/plates remain distinct from later 16-volume reprint numbering",
-      "latest_parallel_check": "No new authoritative Mundarica scan or OCR verification obtained in this cycle; verified_complete_volumes remains 0."
+      "cycle_state": "No new authoritative scan or verified transcription obtained in this cycle; no completeness inflation."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -27,18 +27,24 @@
       "web_discovery_leads_counted_in_audited_identity_total": 12,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000044",
-      "latest_canonicalization": "WEB-MUN-0030 -> SRC-MMSC-000014 by BnF ARK; WEB-MUN-0047 remains exact-locator verified but not yet atomically promoted",
-      "latest_new_standalone_identity": "SRC-MMSC-000014; BnF archival item The Prodigal son : in Mundari",
-      "latest_verification": "Manindra Bhusan Bhaduri's A Mundari-English dictionary verified across Open Library and CiNii edition records. Work/reprint identity is stable, but a 1929/1931 original-publication discrepancy is preserved pending direct title-page examination. No lexical content or cultural claim was promoted from catalogue metadata.",
-      "supplemental_search_logs_pending_primary_consolidation": ["MMSC-SEARCH-000029","MMSC-SEARCH-000030","MMSC-SEARCH-000031","MMSC-SEARCH-000032","MMSC-SEARCH-000033","MMSC-SEARCH-000034","MMSC-SEARCH-000035","MMSC-SEARCH-000036","MMSC-SEARCH-000037","MMSC-SEARCH-000038","MMSC-SEARCH-000039","MMSC-SEARCH-000040","MMSC-SEARCH-000041","MMSC-SEARCH-000042","MMSC-SEARCH-000043","MMSC-SEARCH-000044"],
+      "latest_search_id": "MMSC-SEARCH-000045",
+      "latest_search_record_path": "data/source_census/search_log_run45.jsonl",
+      "latest_verification": "Cross-class pass reverified ANU Evans & Osada 2005 Open Access metadata/PDF presence, CIIL N. K. Sinha 1975 grammar identity plus WALS/CiNii corroboration, and recognized the Sapienza thesis as already canonicalized SRC-MMSC-000010; no duplicate source was created.",
+      "search_log_reconciliation": {
+        "artifact_path": "data/source_census/search_log_artifact_reconciliation_2026-09-08.json",
+        "verified_primary_latest_id": "MMSC-SEARCH-000028",
+        "supplemental_run_files_observed": [29,30,31,32,33,39,40,42,43,44,45],
+        "status_referenced_ids_without_corresponding_run_file_observed_in_current_branch_tree": [34,35,36,37,38,41],
+        "rule": "Do not synthesize missing log content from status prose; recover exact original records before primary-log consolidation."
+      },
       "source_complete_claim": false
     },
     "C_information_model": {
       "registered_modules": 42,
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
-      "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN"
+      "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
+      "cycle_state": "No schema redesign; priority remained evidence/census integrity."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -50,7 +56,7 @@
       "empty_modules_truthfully_marked": true,
       "additive_mmsc_sources_loaded_into_public_catalogue": true,
       "additive_public_csv_evidence_fallback_loaded_between_database_rebuilds": true,
-      "sync_note": "Public catalogue remains synchronized through SRC-MMSC-000014/EVD-000049. The Bhaduri dictionary edition-reconciliation record is verification metadata only pending deterministic cross-layer deduplication, direct-copy inspection and rights review."
+      "sync_note": "Public evidence remains synchronized through SRC-MMSC-000014 / EVD-000049. Run45 added no new public evidence row and therefore requires no UI count change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -62,7 +68,7 @@
       "evidence_links": 49,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "reason": "A dictionary identity/edition verification was added, but it has not crossed the canonical SOURCE→EVIDENCE→CLAIM promotion gate. Release metrics therefore remain 40 / 12 / 49 rather than inflating discovery-only material."
+      "manuscript_build_state": "last verified release-metric state synchronized at 40 / 12 / 49; no metric-bearing source promotion this cycle"
     },
     "F_evidence_population": {
       "source_claims": 49,
@@ -70,40 +76,34 @@
       "evidence_links": 49,
       "latest_evidence_bearing_source": "SRC-MMSC-000014",
       "latest_evidence_chain": "SRC-MMSC-000014 -> CLM-000049 -> EVD-000049 -> LNK-000049",
-      "latest_exact_locator": "BnF ark:/12148/cb414605823; FRBNF41460582; matrix 3290Y",
-      "promotion_boundary": "WEB-MUN-0047 remains ready for atomic catalogue-level promotion if duplicate checks stay clean. Bhaduri dictionary metadata is census evidence only until a lawfully obtainable copy and exact lexical locators can be reviewed."
+      "promotion_boundary": "ANU 2005 and CIIL 1975 identities are verified candidates but remain outside counts until deterministic cross-layer deduplication, direct item-level locator review where needed, and rights assessment. WEB-MUN-0047 remains exact-locator/file-license verified but not atomically promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "e7ba8fac606feddc174d3d21b7b95a9941f25f2e",
+    "last_verified_all_four_green_commit": "4729ebc2c1b552bf71e406817592397ce2630529",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle": ["05c1a9d2c269b3fc8dbe3dcc4956f1e5cae6b00a","3c333a61d9f383c897bab8234e9b29ebe132dde5"],
-    "new_head_ci_state_at_status_write": "fresh workflows for the new status head are not yet verified; no green projection"
+    "new_commits_this_cycle": ["295123d1a1cfe4ed4475f4e7eccced4c28be7525","114901cba7f8c25839399c8186a5f7f50712716d"],
+    "new_head_ci_state_at_status_write": "all four workflows queued for 114901cba7f8c25839399c8186a5f7f50712716d; no green projection"
   },
   "changes_this_cycle": [
-    "Confirmed e7ba8fac606feddc174d3d21b7b95a9941f25f2e is 4/4 green across MLHKP Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build.",
-    "Continued the parallel non-Mundarica census across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI material, archives, newspapers, web resources, datasets, audio, video, maps and media.",
-    "Verified Manindra Bhusan Bhaduri's A Mundari-English dictionary across Open Library and multiple CiNii bibliographic records, including 1983, 1994 and 2002 reprints and stable work/edition identifiers.",
-    "Preserved the 1929/1931 original-publication discrepancy as unresolved bibliographic uncertainty rather than silently canonicalizing conflicting catalogue notes.",
-    "Recorded that modern reprint/scan reuse rights are not established and that no dictionary entry, lexical form, definition, scan or OCR may be promoted from catalogue visibility alone.",
-    "Created data/source_census/bhaduri_mundari_english_dictionary_verification_2026-09-08.json in commit 05c1a9d2c269b3fc8dbe3dcc4956f1e5cae6b00a.",
-    "Created MMSC-SEARCH-000044 in data/source_census/search_log_run44.jsonl in commit 3c333a61d9f383c897bab8234e9b29ebe132dde5.",
-    "Re-verified the EZCC/Commons documentary timestamp metadata in parallel while retaining participant-consent/community-validation/cultural-access gates for performance content.",
-    "Kept release metrics unchanged at 40 audited identities / 12 canonicalized web leads / 49 claims-evidence-links because no unsupported promotion occurred.",
+    "Confirmed 4729ebc2c1b552bf71e406817592397ce2630529 is 4/4 green.",
+    "Ran a parallel non-Mundarica cross-class verification pass covering peer-reviewed linguistics, grammar/book catalogues and doctoral repositories.",
+    "Added MMSC-SEARCH-000045 without creating duplicate identities for already represented material.",
+    "Created an explicit search-log artifact reconciliation showing that the primary log is verified through 000028 and that run-file presence on the current branch is discontinuous after that point.",
+    "Refused to reconstruct missing search-log records 000034-000038 and 000041 from summaries alone.",
+    "Kept release counts unchanged because this cycle did not complete a new canonical SOURCE→EVIDENCE→CLAIM promotion.",
     "Did not modify or merge main."
   ],
   "blockers": [
     "Mundarica verified_complete_volumes remains 0; volumes 14-16 still lack exact authoritative scan locators.",
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "MMSC-SEARCH-000029 through 000044 remain in run-specific append-only logs pending safe primary-log consolidation.",
+    "Primary MMSC search_log.jsonl is verified only through MMSC-SEARCH-000028; supplemental run files require safe consolidation and exact recovery is still needed for status-referenced IDs 000034-000038 and 000041 before they can be inserted.",
     "WEB-MUN-0047 remains exact-locator/file-license verified but still requires atomic canonical source/claim/evidence/link insertion before counts can increase.",
-    "Bhaduri dictionary edition metadata is verified, but direct title-page/copy inspection is required to reconcile 1929/1931 and no unrestricted full-text reuse right was established.",
     "Census C-16 Jharkhand workbook identities are verified but exact Munda/Mundari rows remain unextracted; no population values are asserted.",
     "LSI Volume IV Mundari section starts are page-pointer verified, but direct page-image inspection/transcription remains pending before evidence promotion.",
-    "ANU word-class article, CIIL Mundari Grammar 1975 and the 1908 Grierson review still require deterministic duplicate and item-level rights review before deeper promotion.",
+    "ANU Evans & Osada 2005 and CIIL Sinha 1975 require deterministic comparison against every discovery layer plus item-level rights/content-locator review before promotion.",
     "BMM1/PARADISEC, historical audio, MunTTS underlying data, participant-derived religious/ritual material, TRI full text and grammar content remain consent/rights/cultural-access gated as applicable.",
-    "The verified Commons language map is not primary Census evidence and requires source reconciliation before any demographic or geographic claim can be promoted.",
     "Evidence-empty modules remain structure-ready rather than falsely complete."
   ],
   "integrity": {
@@ -123,14 +123,13 @@
     "automated_completeness_audit_pass": false
   },
   "next_parallel_tasks": [
-    "Atomically canonicalize WEB-MUN-0047 if duplicate checks remain clean, synchronizing source register, MMSC index, CLM-000050/EVD-000050/LNK-000050, Streamlit exposure and publication metrics while keeping performance content gated.",
-    "Reconcile the Bhaduri dictionary's 1929/1931 catalogue discrepancy through a direct title-page or authoritative first-edition record; ingest lexical entries only from a lawfully obtainable source with exact page/headword locators and contextual review.",
-    "Directly inspect LSI Volume IV scan pages beginning at Mundari of Ranchi p.87 and Mundari of Jashpur p.93; promote only exact transcribed passage/evidence records with historical-context caveats.",
-    "Consolidate MMSC-SEARCH-000029 through 000044 into the primary append-only search log without changing IDs or semantics.",
-    "Continue deterministic disposition of the remaining 75 web leads, prioritizing official archives, government datasets and open-access exact-locator sources.",
-    "Retry official DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX retrieval and, if obtained, record checksum/sheet/row/cell locators before numeric promotion.",
+    "Recover and verify exact original content for missing status-referenced search IDs 000034-000038 and 000041 before primary-log consolidation; consolidate only exact immutable records.",
+    "Atomically canonicalize WEB-MUN-0047 if duplicate checks remain clean, synchronizing standalone source register, MMSC index, claim/evidence/link rows, Streamlit exposure and publication metrics while keeping performance content culturally gated.",
+    "Deterministically compare ANU DOI 10.1515/lity.2005.9.3.351 and CIIL Handle 20.500.14705/8179 against all 87 web leads and canonical registers, then promote only rights-safe exact-locator evidence.",
+    "Directly inspect LSI Volume IV scan pages beginning at Mundari of Ranchi p.87 and Mundari of Jashpur p.93 before passage-level promotion.",
+    "Retry official DDW-C16-STMT-MDDS-2000.xlsx and DDW-C16-TOWN-STMT-MDDS-2000.XLSX retrieval and record checksum/sheet/row/cell locators before numeric promotion.",
     "Continue BMM1 item-level access/consultant review and rights-bounded TRI/grammar processing.",
     "Continue Mundarica authoritative scan acquisition without treating commercial page counts or OCR as verification.",
-    "Verify all four CI workflows on the new status head and repair any regression before further promotion."
+    "Verify all four CI workflows on the newest head and repair any regression before further promotion."
   ]
 }
