@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-08T18:52:00Z",
-  "observed_head_before_status_sync": "d916f41bb7fd70247082622e43922539140ecade",
+  "updated_utc": "2026-09-08T19:35:00Z",
+  "observed_head_before_status_sync": "020429ebcf8723078434a5dc14a91a4523946b79",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -32,9 +32,9 @@
         "XIII": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
         "XIV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
         "XV": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete",
-        "XVI": "authoritative slot/scan locator unresolved under open edition reconciliation; not verified complete"
+        "XVI": "2009 Gyan reprint manifestation labelled Vol.16th with ISBN 9788121203227 observed; historical-slot equivalence, authoritative scan and page accounting remain unresolved; not verified complete"
       },
-      "cycle_state": "Run 81 was scoped to the non-Mundarica census; no Mundarica scan/OCR/page-accounting/completeness state was upgraded without authoritative verification."
+      "cycle_state": "Run 82 added a bounded modern Vol.16th manifestation reconciliation record only. It does not upgrade XIV-XVI historical slot equivalence, scan authority, OCR, page accounting or completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000081",
-      "latest_search_record_path": "data/source_census/search_log_run81.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000082",
+      "latest_search_record_path": "data/source_census/search_log_run82.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Karya ELR-1000 dataset-card identity, Mundari inclusion, dataset-scale metadata, declared consent statement and KPL BY-NC-SA-FS 1.0 license were exact-locator verified at named dataset-card sections. Underlying recipe text, audio, images and participant-derived cultural content were not ingested and remain subject to access, provenance and cultural-access review.",
+      "latest_verification": "ORGI Census 2011 ST-15 Jharkhand exact catalogue identity PC11_ST15-20, download filename ST-20-00-15-DDW-2011.XLSX, Munda/Patar tribe label and MUNDA/MUNDARI mother-tongue schema labels verified. No numeric claim promoted without workbook bytes/checksum/sheet/row/cell locators.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No redesign; evidence population and exact-locator verification remain priority. Run 81 added source-census metadata/governance evidence without creating unsupported cultural graph claims."
+      "cycle_state": "No redesign. Run 82 prioritized exact-locator verification and deterministic work/manifestation reconciliation; no unsupported cultural graph claim was added."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No release metric or evidence-chain count changed in run 81; universal search/module functionality is unchanged and must remain covered by the fresh Streamlit workflow on the new status head."
+      "sync_note": "No public metric/evidence-chain count changed in run 82; 42-module functionality and mappings remain unchanged and must stay covered by fresh CI on the newest status head."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head 0959226aebd97c1aefc393aca156a509c6163145 independently verified 4/4 green. Run 81 changes source-verification/search/status artifacts only; publication metrics remain 41/87/13/52/52/52 and fresh CI on the newest status head must be verified before projecting green forward."
+      "manuscript_build_state": "Pre-run head bc08630ab7899b97830433b1a449dcfb5a54fc29 independently verified 4/4 green. Run 82 changes verification/search/status artifacts only; publication metrics remain 41/87/13/52/52/52 and fresh CI on the newest head must be verified before projecting green forward."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,25 +87,25 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run81_advanced_source": "Karya ELR-1000 advanced from an observed external lead to an exact-locator source-census metadata/governance verification artifact without permanent-ID or cultural-claim inflation.",
-      "promotion_boundary": "Dataset-card identity, scope, declared consent and declared license were documented; no recipe text, audio, images, participant material, cultural proposition, community validation, unrestricted reuse right or downstream model-training permission was promoted."
+      "run82_advanced_source": "Census 2011 ST-15 Jharkhand advanced to exact-locator source-census verification metadata; Mundarica modern Vol.16th advanced edition/work-manifestation reconciliation only.",
+      "promotion_boundary": "No ST-15 number, cultural proposition, retail-text content, OCR verification, community validation or unrestricted reuse right was promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "0959226aebd97c1aefc393aca156a509c6163145",
+    "last_verified_all_four_green_commit": "bc08630ab7899b97830433b1a449dcfb5a54fc29",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "new_commits_this_cycle_before_status_sync": ["480ecd25e80cc8e7a2c8cfe5cabcc42f1d6babcd","d916f41bb7fd70247082622e43922539140ecade"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-81 status head must be independently verified; do not project the previous green state forward."
+    "new_commits_this_cycle_before_status_sync": ["82a71940f4daeebea2606406b9095f9eaeb4039e","4912b3c5bf8d7badcec9500e5522a2fe53917238","020429ebcf8723078434a5dc14a91a4523946b79"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-82 status head must be independently verified; do not project the previous green state forward."
   },
   "changes_this_cycle": [
-    "Verified all four required workflows green on pre-run head 0959226aebd97c1aefc393aca156a509c6163145.",
-    "Worked all requested non-Mundarica source classes in parallel and recorded MMSC-SEARCH-000081.",
-    "Verified Karya ELR-1000 exact dataset-card section locators for overview, Mundari inclusion, declared data-collection/consent statement and declared KPL BY-NC-SA-FS 1.0 license.",
-    "Kept ELR-1000 distinct from Karya Mundari TTS and the separate endangered-recipes-translated-500 derivative dataset.",
-    "Did not ingest ELR-1000 recipe text, audio, images or participant-derived cultural content; cultural access continues to override technical or licensing entitlement.",
-    "Reconfirmed Adivaani parallel-corpus gating, Adivaani beta speech-to-speech status, the Indian Express secondary hockey-rulebook report and the distinction between the 2020 Commons derivative map and 1906 LSI historical map.",
-    "Kept audited/public metrics unchanged at 41/87/13/52/52/52 because no permanent source identity or public cultural claim was safely promoted.",
+    "Verified all four required workflows green on pre-run head bc08630ab7899b97830433b1a449dcfb5a54fc29.",
+    "Recorded MMSC-SEARCH-000082 across all requested discoverable source classes.",
+    "Added exact ORGI ST-15 Jharkhand identity PC11_ST15-20 and official workbook filename without promoting unverified numbers.",
+    "Verified catalogue schema includes Munda, Patar and MUNDA/MUNDARI mother-tongue labels; workbook byte/cell verification remains required for numeric evidence.",
+    "Recorded a 2009 Gyan Publishing House manifestation marketed as Encyclopaedia Mundarica Vol.16th, ISBN 9788121203227, solely as an edition-reconciliation clue.",
+    "Did not use retail metadata to upgrade authoritative scan/page accounting/OCR/completeness for Mundarica XIV-XVI.",
+    "Kept audited/public metrics unchanged at 41/87/13/52/52/52.",
     "Did not modify or merge main."
   ],
   "blockers": [
@@ -113,7 +113,7 @@
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Official LSI Jharkhand exact page-image verification remains incomplete after prior retrieval failures.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI slot/edition reconciliation remains unresolved.",
+    "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical slot/edition reconciliation remains unresolved despite a modern Vol.16th manifestation clue.",
     "TRI dictionary full-text/edition/rights state remains unresolved.",
     "Participant-derived audio, BMM1/PARADISEC, MunTTS, Karya, Adivaani, ELR-1000 and related media remain item-level consent/rights/cultural-access gated beyond verified metadata.",
     "The reported 1941 Mundari hockey rule book still lacks a verified primary catalogue/scan/custody/rights locator."
@@ -142,13 +142,12 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads, prioritizing exact-locator official/public-domain/open-access sources.",
-    "Determine whether ELR-1000 already corresponds to one of the unresolved WEB-MUN leads and assign/canonicalize a permanent source identity only through the release-wide deterministic reconciliation path.",
-    "Retry official LSI PDF/page-image verification and capture exact Mundari chapter page locators before claim promotion.",
-    "Obtain Census ST-15/ST-16/C-16/C-17 workbook bytes with checksum/sheet/row/cell locators.",
-    "Continue authoritative Mundarica I-XVI scan/page accounting without treating OCR as verified transcription.",
+    "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
+    "Retry official LSI PDF/page-image verification and capture exact Mundari chapter page locators.",
+    "Continue authoritative Mundarica I-XVI scan/page accounting; use the modern Vol.16 manifestation only for edition reconciliation, not completeness.",
     "Resolve item-level rights/work-edition state for TRI dictionaries and staged scholarly candidates before deeper extraction.",
     "Seek a primary catalogue/archive/scan locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-81 status head and repair any regression before metric-changing promotion."
+    "Verify all four CI workflows on the newest run-82 status head and repair any regression before metric-changing promotion."
   ]
 }
