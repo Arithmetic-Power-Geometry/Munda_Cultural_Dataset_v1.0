@@ -1,0 +1,41 @@
+{
+  "run": 128,
+  "date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "subject": "Reported 1941 Mundari field-hockey rule booklet associated with Sadanand Abinash Bishram Dilbar Hans",
+  "verification_goal": "Locate an independently verifiable primary manifestation: library catalogue, archive/accession record, scan/title page, publisher record, or direct custody record suitable for audited source identity.",
+  "secondary_report": {
+    "publisher": "The Indian Express",
+    "date": "2023-10-18",
+    "url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/",
+    "bounded_observation": "The article reports a 1941 Mundari hockey rule booklet, describes it as 23 pages, and attributes a surviving copy to Reverend Cyril Hans. These are retained as secondary-report claims only."
+  },
+  "searches": [
+    "\"Sadanand Abinash Bishram Dilbar Hans\" hockey book",
+    "\"Dilbar Hans\" hockey book catalogue",
+    "\"Sadanand Hans\" Mundari hockey",
+    "\"Mundari\" \"hockey\" \"1941\" archive",
+    "\"Mundari hockey\" \"1941\""
+  ],
+  "result": {
+    "primary_manifestation_found": false,
+    "independent_catalogue_record_found": false,
+    "archive_or_accession_record_found": false,
+    "scan_or_title_page_found": false,
+    "direct_custody_record_found": false,
+    "deterministic_disposition": "secondary_report_verified_primary_manifestation_unresolved"
+  },
+  "promotion_boundary": "No source identity, passage, evidence, cultural claim, rights status, community validation, or completeness state is promoted from the secondary report alone.",
+  "next_safe_actions": [
+    "Search institutional/library catalogues and church/mission archival holdings for author/title/year variants.",
+    "If a primary manifestation is located, canonicalize it separately from the newspaper report and record stable identifier, manifestation metadata, rights/access state, and byte/hash/page evidence where lawful.",
+    "Do not treat newspaper photographs or quoted content as redistribution permission."
+  ],
+  "integrity": {
+    "fabricated_primary_source": false,
+    "secondary_report_promoted_as_primary": false,
+    "rights_inferred": false,
+    "community_validation_inferred": false,
+    "completeness_claimed": false
+  }
+}
