@@ -1,0 +1,57 @@
+{
+  "record_type": "mundarica_manifestation_reconciliation",
+  "verification_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "work": "Encyclopaedia Mundarica",
+  "manifestation_label": "Gyan Publishing House 2009 Volume 15",
+  "observed_metadata": {
+    "publisher": "Gyan Publishing House",
+    "publication_year": 2009,
+    "volume_label": "Vol. 15th",
+    "isbn13": "9788121203197",
+    "isbn10": "8121203198",
+    "reported_extent_pages": 135,
+    "language": "English",
+    "reported_contributors": "Hoffman S.J. John; Artur Van, S.J. Emelen; foreword by K.S. Singh"
+  },
+  "evidence": [
+    {
+      "source": "Rekhta Books / Gyan Books listing",
+      "url": "https://rekhtabooks.com/products/encyclopaedia-mundarica-volume-vol-15th-hardcover",
+      "supports": ["volume label", "ISBN-13", "publisher", "reported 135-page extent", "contributor string"],
+      "authority_class": "commercial manifestation metadata"
+    },
+    {
+      "source": "AbeBooks seller catalogue",
+      "url": "https://www.abebooks.fr/rechercher-livre/auteur/john-hoffman-s-j/",
+      "supports": ["2009 Gyan manifestation", "ISBN-10/ISBN-13", "reported 135-page extent"],
+      "authority_class": "commercial bibliographic corroboration"
+    }
+  ],
+  "deterministic_reconciliation": {
+    "historical_volume_slot_upgraded": false,
+    "authoritative_historical_scan_inferred": false,
+    "historical_part_volume_equivalence_inferred": false,
+    "verified_complete_volume_inferred": false,
+    "page_accounting_promoted_to_historical_work": false,
+    "reason": "The 2009 product is evidence for a later numbered manifestation only. It does not by itself establish the historical publication model, equivalence of historical parts/volumes/plates, authoritative scan completeness, or OCR/page accounting for MLHKP's I-XVI audit slots."
+  },
+  "rights_boundary": {
+    "open_license_inferred": false,
+    "public_domain_inferred_from_age_or_listing": false,
+    "redistribution_permission_inferred": false,
+    "content_ingested": false
+  },
+  "release_effect": {
+    "verified_complete_mundarica_volumes_delta": 0,
+    "audited_source_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_graph_delta": 0,
+    "benefit": "Reduces manifestation/volume-number ambiguity while preventing a modern reprint listing from falsely upgrading historical completeness."
+  },
+  "next_actions": [
+    "Locate authoritative library/publisher metadata or a lawfully inspectable title page for the 2009 Volume 15 manifestation.",
+    "Reconcile Volume 15 against historical part/volume/plates publication evidence before mapping it to a historical audit slot.",
+    "Do not use the reported 135-page extent as historical page accounting without manifestation-level inspection."
+  ]
+}
