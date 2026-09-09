@@ -2,46 +2,26 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T22:43:00Z",
-  "observed_head_before_status_sync": "f3ae329d41037dfe703a06ca9a7971ae570aba86",
+  "updated_utc": "2026-09-09T23:29:00Z",
+  "observed_head_before_status_sync": "0854e79b366ad03d7cf8b189e948ec9f5bfd5795",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
     "A_mundarica": {
-      "acquisition_ocr_page_accounting_structuring_active": true,
       "expected_volume_slots_current_model": 16,
       "historical_text_sequence_currently_supported": "I-XIII",
       "modern_sixteen_volume_manifestation_observed": true,
-      "modern_sixteen_volume_manifestation_verified_this_cycle": false,
-      "modern_set_isbn_observed": "9788121203043",
-      "modern_volume_16_isbn13": "9788121203227",
       "historical_xiv_xvi_equivalence_proven": false,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
       "verified_external_locators_counted": 13,
-      "local_artifacts_registered": 1,
       "authoritative_scans_registered": 0,
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "per_volume_state": {
-        "I": "located_not_machine_verified_complete",
-        "II": "located_not_machine_verified_complete",
-        "III": "located_not_machine_verified_complete",
-        "IV": "located_not_machine_verified_complete",
-        "V": "located_not_machine_verified_complete",
-        "VI": "located_not_machine_verified_complete",
-        "VII": "located_not_machine_verified_complete",
-        "VIII": "located_not_machine_verified_complete",
-        "IX": "located_not_machine_verified_complete",
-        "X": "located_not_machine_verified_complete",
-        "XI": "located_not_machine_verified_complete",
-        "XII": "located_not_machine_verified_complete",
-        "XIII": "located_library_origin_manifestation_not_machine_verified_complete",
-        "XIV": "modern_manifestation_observed_historical_relationship_unresolved",
-        "XV": "modern_manifestation_observed_historical_relationship_unresolved",
-        "XVI": "modern_manifestation_verified_isbn_historical_relationship_unresolved"
+        "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 137 is non-Mundarica-focused and preserved all Mundarica manifestation, OCR and 16/16 human-review attestation states without unsupported scan/hash/page-accounting claims."
+      "cycle_state": "Run 138 preserved all Mundarica states and 16/16 human-review attestations; no unsupported scan/hash/page/OCR promotion was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -53,10 +33,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000137",
-      "latest_search_record_path": "data/source_census/search_log_run137.jsonl",
-      "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain preserved separately and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 137 converted Mukesh Kumar Shrivastava's 2013 peer-reviewed article 'Mundari Khuntkatti: An Institution of Customary Right over Land' into an exact-locator provenance record keyed by DOI 10.1177/0972558X1301300205, with publisher issue/pagination/date/access locators and a bounded abstract-reported empirical scope of Gutuhatu and Salga villages in Khunti district. Restricted full text and participant/cultural-access uncertainty block content-level cultural promotion.",
+      "latest_search_id": "MMSC-SEARCH-000138",
+      "latest_search_record_path": "data/source_census/search_log_run138.jsonl",
+      "latest_verification": "Run 138 reconciled Marilena Proietti's 2025 Sapienza thesis across the institutional IRIS record and Italian legal-deposit record, verifying institutional handle 11573/1740709, legal-deposit handle 20.500.14242/212639, NBN URN:NBN:IT:UNIROMA1-212639, reported 47.18 MB PDF, and Open Access date 2026-05-27. The repository exposes only a generic 'Creative commons' label, so the exact CC variant remains unresolved and no content-level reuse was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -65,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign. Run 137 strengthened exact-locator provenance for a peer-reviewed customary-land stream while preserving count-bearing SOURCE/CLAIM/EVIDENCE metrics because restricted content was not promoted."
+      "cycle_state": "No redesign; Run 138 strengthened manifestation/access/rights provenance only."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -75,15 +54,14 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no UI remap was required because Run 137 added provenance-only exact locators, not a count-bearing evidence-chain object."
+      "ui_mapping_percent": 100.0
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "SAGE marks the Shrivastava article restricted/request-permissions. Run 137 ingested bibliographic and publisher-abstract provenance only; full text, fieldwork material, participant reuse consent and cultural-access status remain gated."
+      "cycle_state": "Proietti thesis access is now pinned to two authoritative manifestations. Open Access and a generic Creative Commons label were not treated as proof of a specific reuse licence, participant consent, or community validation."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -95,7 +73,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure metric update was warranted in Run 137. Run-136 status head efa7a620025c661fe6ab6c652b24403da0141845 is independently verified 4/4 green: Source Register Audit 1110, Migration Audit 1160, Streamlit Smoke Test 1256, Publication Build 1109. Fresh CI is required for the Run-137 status head."
+      "manuscript_build_state": "Head fe6304a84536283d496cdd4ec2b63e63bbbb38d5 verified 4/4 green: Source Register Audit 1115, Migration Audit 1165, Streamlit Smoke Test 1261, Publication Build 1114. Fresh CI required after Run-138 commits."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -103,50 +81,39 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run135_advanced_source": "Ramdayal Munda Mundari-Vyakaran CIIL/Bharatavani exact manifestation reconciliation with unresolved edition-history boundary",
-      "run136_advanced_source": "Radhagovind Patar Subodh Mundari Veyakaran 2017 CIIL/Bharatavani manifestation reconciliation plus independently identified 2022 ISBN-bearing reprint/edition",
-      "run137_advanced_source": "Shrivastava 2013 Mundari Khuntkatti SAGE DOI/issue/pagination/abstract-scope exact-locator provenance with restricted-content and participant/cultural-access gates",
-      "promotion_boundary": "Run 137 promoted exact bibliographic, publisher-abstract scope and access-state provenance only. No restricted full text, village-level participant material, universal customary-law claim, redistribution right or community-validation claim entered the public evidence chain."
+      "run138_advanced_source": "Proietti 2025 Sapienza thesis institutional/legal-deposit manifestation and rights-boundary reconciliation",
+      "promotion_boundary": "Bibliographic identity, access state, abstract-level scope and rights uncertainty only; participant-derived and culturally sensitive content remain gated."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "efa7a620025c661fe6ab6c652b24403da0141845",
+    "last_verified_all_four_green_commit": "fe6304a84536283d496cdd4ec2b63e63bbbb38d5",
     "four_of_four_green_claim_for_that_head": true,
-    "green_workflows_for_last_verified_head": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit":1110,"migration_audit":1160,"streamlit_smoke_test":1256,"publication_build":1109},
-    "new_commits_this_cycle_before_status_sync": ["de328982628480000f3ff07eda457afa4b298def","f3ae329d41037dfe703a06ca9a7971ae570aba86"],
-    "new_head_ci_state_at_status_write": "Run 137 status-sync commit requires fresh CI; no green result is projected from the Run-136 head."
+    "verified_runs_for_that_head": {"source_register_audit":1115,"migration_audit":1165,"streamlit_smoke_test":1261,"publication_build":1114},
+    "new_commits_this_cycle_before_status_sync": ["8e2c04ebd6d61aec59ac1ef42c3c6867ef5170e2","0854e79b366ad03d7cf8b189e948ec9f5bfd5795"],
+    "new_head_ci_state_at_status_write": "Run-138 status-sync commit requires fresh CI; prior 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/shrivastava_2013_mundari_khuntkatti_exact_locator_run137_2026-09-10.json.",
-    "Verified SAGE DOI 10.1177/0972558X1301300205, The Oriental Anthropologist 13(2), pp. 267-280, first published online 2013-07-01 and restricted/request-permissions access state.",
-    "Recorded the publisher abstract's bounded empirical scope of Gutuhatu and Salga villages in Khunti district without treating it as universal Munda cultural validation.",
-    "Reverified official ORGI C-16, ST-15, ST-16 and C-17 file/schema identities; current download attempts timed out, so no numeric value, workbook hash, worksheet or cell locator was fabricated.",
-    "Rechecked a CC BY-SA 4.0 Wikimedia Mundari-speakers map as a media/map manifestation but did not treat it as authoritative demographic evidence without method/source reconciliation.",
-    "Rechecked Languages Home Mundari audio; insufficient authorship, consent, recording provenance and reuse terms block lexical/audio ingestion.",
-    "Added MMSC-SEARCH-000137 covering all requested source classes and explicit blocked/non-promotion states.",
-    "Verified Run-136 head efa7a620025c661fe6ab6c652b24403da0141845 as 4/4 green: Source Register Audit 1110, Migration Audit 1160, Streamlit Smoke Test 1256, Publication Build 1109.",
+    "Added data/source_census/proietti_2025_thesis_rights_manifestation_run138_2026-09-10.json.",
+    "Added data/source_census/search_log_run138.jsonl.",
+    "Verified Sapienza institutional and Italian legal-deposit manifestations as the same thesis work.",
+    "Verified Open Access date 2026-05-27, reported filename Tesi_dottorato_Proietti.pdf and size 47.18 MB.",
+    "Kept the exact Creative Commons variant unresolved because the authoritative page exposes only a generic Creative commons label.",
+    "Verified prior head fe6304a84536283d496cdd4ec2b63e63bbbb38d5 as 4/4 green.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Newest status head requires fresh four-workflow verification.",
     "Authoritative Mundarica scans, hashes and complete page accounting remain incomplete.",
-    "Språkbanken lsi.xml.bz2 bytes/checksum and exact Mundari XML segment/page-linked locators remain pending.",
     "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
-    "2011 C-16, ST-15, ST-16 and 2001 C-17 official identities/file names/schema are verified, but workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion; current Census page/download attempts timed out.",
-    "DRMTWRI 1993 Munda PDF bytes/independent hash/page-image accounting/reuse permission/cultural-access review remain unresolved.",
-    "Raonka dissertation licence/participant-derived consent/cultural-access disposition remains unresolved.",
-    "Ramdayal Munda and Radhagovind Patar grammar complete lawful bytes, checksums, page accounting, reuse terms and edition reconciliation remain unresolved.",
-    "Man Masih Mundu 2017 dictionary and Sinha 1975 complete bytes/checksums/page-image accounting/reuse terms remain incomplete.",
-    "Evans & Osada 2005 ANU PDF bytes/checksum/page-level locators and exact reuse licence remain incomplete.",
-    "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending.",
-    "Proietti exact Creative Commons variant and participant-derived thesis components remain rights/consent/cultural-access gated.",
-    "Karya Mundari TTS full-archive independent hash, speaker consent/provenance, privacy/publicity and cultural-access disposition remain unresolved; related audio/video/datasets remain item-level gated.",
-    "Ghosh-Jerath et al. 2021 participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level CC BY.",
-    "Shrivastava 2013 full text is restricted; lawful inspectable full text, methods/ethics/participant provenance and cultural-access disposition remain unresolved before any customary-law content extraction.",
-    "The reported 1941 Mundari hockey booklet remains secondary-report-only because no independently verified primary manifestation was located."
+    "C-16/ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion.",
+    "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada lawful full-text/rights reconciliation remains incomplete where applicable.",
+    "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
+    "Karya and related audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
+    "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level CC BY.",
+    "Shrivastava 2013 full text remains restricted and participant/cultural-access disposition unresolved.",
+    "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
+    "Fresh four-workflow verification is required for the newest Run-138 head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -172,13 +139,13 @@
     "release_gate": "NOT_PASS"
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Obtain and independently hash official C-16/ST-15/ST-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
-    "Retry Språkbanken LSI corpus acquisition/Korp exact-query access and official LSI page-image verification.",
-    "Continue lawful full-text/rights reconciliation for DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer, Osada, Proietti and Ghosh-Jerath streams.",
-    "Seek a lawful inspectable Shrivastava manuscript/full text and verify methods/ethics/fieldwork provenance before any content-level extraction.",
-    "Complete participant-level consent/privacy/cultural-access review for Karya and other audio/video/dataset streams.",
+    "Continue deterministic disposition of the remaining 74 web leads.",
+    "Obtain/hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
+    "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
+    "Retry official LSI byte/page-image verification.",
+    "Resolve lawful full-text/rights/participant/cultural-access boundaries for remaining source streams, prioritizing sources with authoritative obtainable bytes.",
+    "Determine Proietti's exact Creative Commons variant from authoritative file/licence metadata; do not infer it from the generic repository label.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest status head and run automated completeness/provenance checks before any release-gate change."
+    "Verify all four CI workflows on the newest head and run automated completeness/provenance checks before any release-gate change."
   ]
 }
