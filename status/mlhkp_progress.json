@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T13:50:00Z",
-  "observed_head_before_status_sync": "f8ce3cf7f9192fb9fd775ceea2b588bd96827e5f",
+  "updated_utc": "2026-09-09T14:31:00Z",
+  "observed_head_before_status_sync": "0fe9d3790dc70918ae103fcdcff9b2bbd2ee3af4",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -14,7 +14,7 @@
       "modern_sixteen_volume_manifestation_observed": true,
       "historical_xiv_xvi_equivalence_proven": false,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
-      "verified_external_locators_counted": 12,
+      "verified_external_locators_counted": 13,
       "local_artifacts_registered": 1,
       "authoritative_scans_registered": 0,
       "verified_complete_volumes": 0,
@@ -33,27 +33,27 @@
         "X": "located_not_machine_verified_complete",
         "XI": "located_not_machine_verified_complete",
         "XII": "located_not_machine_verified_complete",
-        "XIII": "located_not_machine_verified_complete",
+        "XIII": "located_library_origin_manifestation_not_machine_verified_complete",
         "XIV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 119 did not change scan/OCR/page-completeness state; no OCR or historical XIV-XVI equivalence was falsely upgraded."
+      "cycle_state": "Run 120 added a Google Books bibliographic record derived from a New York Public Library original for historical Volume XIII, displaying a 1941 imprint and 2024 digitization date. No authoritative bytes, checksum, page accounting, OCR verification, or historical XIV-XVI equivalence was falsely upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
       "audited_source_identities_discovered": 41,
       "canonical_master_records": 14,
-      "verified_external_mundarica_locators": 12,
+      "verified_external_mundarica_locators": 13,
       "standalone_mmsc_discoveries": 15,
       "web_discovery_leads_observed": 87,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000119",
-      "latest_search_record_path": "data/source_census/search_log_run119.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000120",
+      "latest_search_record_path": "data/source_census/search_log_run120.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 119 deterministically reconciled Sinha 1975 CIIL/Bhasha Sanchika, Bharatavani, CiNii and WALS records as manifestations/reference records of one grammar work, exposing a 9.63 KB versus 117.39 MB manifestation-size discrepancy and independent xii, 163, [1] pagination without treating any object as verified complete.",
+      "latest_verification": "Run 120 strengthened historical Encyclopaedia Mundarica Volume XIII manifestation provenance through a Google Books record derived from a New York Public Library original, with displayed publisher Superintendent government printing, Bihar and Orissa, year 1941, and digitization date 2024-08-28. This is not treated as proof of complete scan acquisition.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign; Run 119 strengthened manifestation canonicalization and completeness/rights provenance without changing permanent SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No schema redesign; Run 120 strengthened manifestation provenance without changing permanent SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -80,7 +80,7 @@
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Sinha grammar catalogue/read manifestations do not expose a verified open reuse licence. Bharatavani is login-to-read and displays All Rights Reserved; no book content or community-wide cultural assertion was ingested."
+      "cycle_state": "The new Volume XIII record is bibliographic/manifestation provenance only. Public Google Books visibility is not treated as reuse permission. Proietti remains Open Access with a generic Creative Commons label but exact CC variant unresolved; participant-derived and sensitive cultural material remains separately gated."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure update required because permanent repository metrics did not change; Run 119 adds manifestation and provenance depth only."
+      "manuscript_build_state": "No count/table/figure update required because permanent repository metrics did not change; Run 120 adds manifestation/provenance depth only."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,31 +100,32 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run119_advanced_source": "Sinha (1975) Mundari Grammar work identity, manifestation canonicalization, independent pagination and access/rights boundary",
-      "promotion_boundary": "Bibliographic identity, persistent identifiers, file-size observations and independent catalogue pagination may be recorded; grammar content, example sentences and page-dependent assertions remain unpromoted until complete bytes, checksum, page-image accounting and reuse gates are resolved."
+      "run120_advanced_source": "Encyclopaedia Mundarica Volume XIII historical manifestation provenance",
+      "promotion_boundary": "Bibliographic identity, library-origin provenance, displayed imprint and digitization metadata may be recorded; dictionary entries, cultural propositions, page-dependent claims, OCR text, scan completeness and reuse permission remain unpromoted until authoritative bytes, checksum, page accounting and rights/cultural-access gates are resolved."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "Existing source-completeness and rights gaps already cover incomplete/restricted grammar manifestations; Run 119 narrows the Sinha identity/manifestation gap.",
-    "explicit_gap_preserved": "Sinha 1975 complete manifestation bytes, independent checksum, page-image accounting and reusable-content permission remain unresolved."
+    "reason": "Existing Mundarica source-completeness and rights gaps already cover non-authoritative external manifestations; Run 120 narrows historical Volume XIII provenance only.",
+    "explicit_gap_preserved": "Mundarica Volume XIII authoritative bytes, independent checksum, full page/image accounting and content-level reuse review remain unresolved."
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "762ccf1c6c73185011813356deeff3ecb67148cf",
+    "last_verified_all_four_green_commit": "48333f79b921fb6e65205a3ce8479f10caa2f105",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit": 1012, "migration_audit": 1062, "streamlit_smoke_test": 1158, "publication_build": 1011},
-    "new_commits_this_cycle_before_status_sync": ["469aa6b871cde5a64e486e876ab64ad4173ce0dc", "f8ce3cf7f9192fb9fd775ceea2b588bd96827e5f"],
+    "verified_runs_for_that_head": {"source_register_audit": 1021, "migration_audit": 1071, "streamlit_smoke_test": 1167, "publication_build": 1020},
+    "new_commits_this_cycle_before_status_sync": ["7a2af6eaa7926f91b5556307944df881a2b3621a", "0fe9d3790dc70918ae103fcdcff9b2bbd2ee3af4"],
     "new_head_ci_state_at_status_write": "pending_independent_four_workflow_verification"
   },
   "changes_this_cycle": [
-    "Added data/source_census/sinha_1975_mundari_grammar_manifestation_reconciliation_run119_2026-09-09.json.",
-    "Verified CIIL/Bhasha Sanchika handle 20.500.14705/8179 and CIILP0091.pdf reported at 9.63 KB.",
-    "Verified Bharatavani reports the same 1975 N. K. Sinha grammar as a 117.39 MB PDF with Login to Read access and CIIL as content partner/publisher.",
-    "Verified CiNii independent pagination xii, 163, [1] p., bibliography p. [164], NCID BA46909970 and LCCN 76901792.",
-    "Canonicalized CIIL/Bharatavani/CiNii/WALS records as manifestations/reference records of one work while explicitly preserving the file-size/completeness discrepancy.",
-    "Added MMSC-SEARCH-000119 covering all requested source classes and preserved conservative rights/community/cultural-access gates.",
+    "Added data/source_census/mundarica_volume_xiii_library_digitization_verification_run120_2026-09-09.json.",
+    "Verified a Google Books record for historical Encyclopaedia Mundarica Volume XIII derived from a New York Public Library original, displaying Superintendent government printing, Bihar and Orissa, 1941, and digitized 2024-08-28.",
+    "Raised verified external Mundarica locator count from 12 to 13 while preserving zero authoritative scans and zero machine-verified-complete volumes.",
+    "Preserved the modern 16-volume manifestation as distinct from unresolved historical XIV-XVI equivalence.",
+    "Rechecked Proietti thesis access metadata: Open Access and generic Creative Commons label are explicit, but exact CC variant remains unresolved and no blanket derivative-reuse permission was inferred.",
+    "Added MMSC-SEARCH-000120 covering requested source classes and preserved conservative rights/community/cultural-access gates.",
+    "Verified prior status head 48333f79b921fb6e65205a3ce8479f10caa2f105 as 4/4 green.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
@@ -133,6 +134,7 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
+    "Mundarica Volume XIII has stronger library-origin manifestation provenance but authoritative bytes, checksum and full page/image accounting remain pending.",
     "Sinha 1975 complete book bytes, independent checksum, page-image accounting and reuse terms remain incomplete; CIIL reports 9.63 KB while Bharatavani reports 117.39 MB.",
     "Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
     "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
@@ -168,7 +170,7 @@
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Retry official LSI page-image verification while preserving page-image versus text-layer/OCR distinctions.",
-    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting while keeping modern XIV-XVI numbering separate from unresolved historical slots.",
+    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting, prioritizing Volume XIII now that an NYPL-origin manifestation is verified, while keeping modern XIV-XVI numbering separate from unresolved historical slots.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
     "Obtain and hash a complete Sinha 1975 manifestation and reconcile the 9.63 KB CIIL object against the 117.39 MB Bharatavani manifestation before content extraction.",
     "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran manifestation; verify pagination/page images and reuse terms before content extraction.",
