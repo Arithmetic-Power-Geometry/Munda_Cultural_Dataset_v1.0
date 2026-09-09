@@ -1,0 +1,81 @@
+{
+  "verification_id": "MMSC-VERIFY-TUTI-SEH-2026-09-09-RUN111",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-09T09:47:00Z",
+  "source_id": "SRC-MMSC-000002",
+  "source_class": "peer_reviewed_journal_article",
+  "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+  "creators": ["Elizabeth Tuti", "Meena Kumari", "Kumari Vibhuti Nayak", "Shamsher Alam"],
+  "journal": "Social Evolution & History",
+  "year": 2025,
+  "volume": "24",
+  "issue": "2",
+  "article_pages": "3-26",
+  "doi": "10.30884/seh/2025.02.01",
+  "canonical_article_url": "https://www.sociostudies.org/journal/articles/3997182/",
+  "canonical_issue_pdf": "https://www.sociostudies.org/upload/socionauki.ru/journal/seh/2025_2/SEH-2-2025.pdf",
+  "identity_reconciliation": {
+    "permanent_identity": "SRC-MMSC-000002",
+    "duplicate_source_created": false,
+    "doi_title_author_year_match": true,
+    "issue_toc_match": true,
+    "article_page_range_verified": true,
+    "disposition": "Upgrade the existing permanent MMSC identity; do not count the publisher article page, issue PDF, DOI landing page, or author profile as separate intellectual works."
+  },
+  "exact_locators": [
+    {
+      "locator": "issue PDF p. 3 (PDF index 2)",
+      "evidence_type": "bibliographic_identity",
+      "bounded_proposition": "The issue PDF identifies the article, authors, recommended citation, DOI 10.30884/seh/2025.02.01, article span pp. 3-26, and publisher copyright notice."
+    },
+    {
+      "locator": "article printed p. 12 / issue PDF index 11, Research Design and Participant Selection",
+      "evidence_type": "study_scope_method",
+      "bounded_proposition": "The authors describe a qualitative ethnographic/participatory design focused on Munda villages in Ranchi and report a study sample of 15 Munda participants aged 18-70 selected using initial contacts and snowball recruitment."
+    },
+    {
+      "locator": "article printed pp. 13-14 / issue PDF indexes 12-13, Data Collection and Ethical Considerations",
+      "evidence_type": "study_method_and_reported_ethics",
+      "bounded_proposition": "The authors report participant observation, interviews, oral narratives and participatory methods; they also report informing participants about the research and withdrawal rights, obtaining verbal consent, using pseudonyms/confidentiality, restricting sensitive information to express permission, and consulting community leaders and elders."
+    }
+  ],
+  "rights_access_governance": {
+    "journal_open_access_policy_verified": true,
+    "journal_policy_summary": "The journal states a BOAI-aligned open-access policy permitting users to read, download, copy, distribute, print, search, link and otherwise lawfully use full texts without access barriers.",
+    "article_copyright_notice": "© 2025 ‘Uchitel’ Publishing House",
+    "specific_creative_commons_license_observed_for_article": false,
+    "participant_material_reuse_permission_established": false,
+    "community_validation_established": false,
+    "cultural_access_override": true,
+    "current_ingestion_boundary": "Promote bibliographic, study-scope, methods and reported-ethics facts only. Do not ingest participant names/pseudonyms, ages, quotations, interview content, oral narratives, ritual details, culturally sensitive site information, images, transcripts or field notes without separate item-level rights, consent and cultural-access review."
+  },
+  "participant_privacy_and_cultural_sensitivity": {
+    "participant_table_present_in_source": true,
+    "participant_level_data_ingested": false,
+    "participant_quotes_ingested": false,
+    "ritual_or_sacred_claims_promoted_from_findings": false,
+    "reason": "The article is participant-derived ethnography and includes potentially sensitive cultural material. Article-level access does not replace MLHKP dignity, consent, purpose-limitation and cultural-access controls."
+  },
+  "page_image_verification": {
+    "screenshot_attempted": true,
+    "result": "blocked_cache_miss",
+    "text_layer_exact_locator_verified": true,
+    "visual_page_verification_claimed": false
+  },
+  "evidence_readiness": {
+    "identity_verified": true,
+    "full_text_publicly_accessible": true,
+    "exact_text_layer_locators_verified": true,
+    "rights_policy_verified": true,
+    "promotion_state": "existing_permanent_identity_upgraded_from_abstract_level_to_exact_locator_source_evidence",
+    "permanent_source_count_changed": false,
+    "claim_count_changed": false,
+    "evidence_graph_count_changed": false
+  },
+  "integrity": {
+    "cultural_claim_fabricated": false,
+    "universal_current_representativeness_inferred": false,
+    "article_access_treated_as_participant_consent": false,
+    "article_access_treated_as_unrestricted_cultural_reuse": false
+  }
+}
