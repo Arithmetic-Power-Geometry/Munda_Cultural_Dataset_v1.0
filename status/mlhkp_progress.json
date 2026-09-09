@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T20:46:00Z",
-  "observed_head_before_status_sync": "d46f40130bf421ac008b89786421788c8ad7e184",
+  "updated_utc": "2026-09-09T21:35:00Z",
+  "observed_head_before_status_sync": "5da9a6458f820d08662ab7b3d4b6cbbe950d926e",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -41,7 +41,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 133 preserved Mundarica manifestation and human-review states while the non-Mundarica peer-reviewed fieldwork provenance stream advanced. No scan/OCR/page-completeness claim changed."
+      "cycle_state": "Run 134 preserved all Mundarica manifestation, OCR and human-review states while an independent TRI/MoTA source stream advanced. No false scan/page-completeness upgrade was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -53,10 +53,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000133",
-      "latest_search_record_path": "data/source_census/search_log_run133.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000134",
+      "latest_search_record_path": "data/source_census/search_log_run134.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain preserved separately and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 133 verified the distinct 2021 Frontiers in Nutrition Munda food-environment work DOI 10.3389/fnut.2020.600470 / PMID 33598474 / PMCID PMC7882711, exact Methods/Ethics/Data Availability/Copyright section locators, CC BY article rights, and a CC BY 4.0 Figshare supplementary manifestation locator. Participant-derived traditional-knowledge content was not ingested because research consent and publication licensing do not establish MLHKP secondary-use consent, community validation, or culturally unrestricted reuse.",
+      "latest_verification": "Run 134 verified the Ministry of Tribal Affairs repository primary catalogue manifestation for the already-known 1993 Munda book: record DRMTWRI/1993/0007, document type Book, institutional origin Dr. Ramdayal Munda Tribal Welfare Research Institute, researcher Soma Singh Munda, editor/author Ranendra Kumar, guide Chintu Doraiburu, catalogued pagination 1-44, and PDF filename DRMTWRI_1993_0007_MUNDAJATIRaman.pdf. The work was not duplicated or promoted to content-level evidence because bytes, independent hash, page accounting and reuse/cultural-access review remain unresolved.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -65,7 +65,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 133 added exact peer-reviewed provenance/rights/consent locators without changing count-bearing SOURCE/CLAIM/EVIDENCE metrics."
+      "cycle_state": "No redesign. Run 134 strengthened manifestation-level provenance for an already-known institutional source without changing count-bearing SOURCE/CLAIM/EVIDENCE metrics."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -76,14 +76,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no UI remap was required in Run 133 because no count-bearing evidence-chain object changed."
+      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no UI remap was required in Run 134 because no count-bearing evidence-chain object changed."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Run 133 records CC BY publication rights and reported research-participation consent separately. It does not infer secondary redistribution consent, community endorsement, or culturally unrestricted permission for participant-derived indigenous-food knowledge, quotations, transcripts, recordings, or free lists."
+      "cycle_state": "Run 134 treats Ministry repository availability as manifestation provenance only. It does not infer redistribution permission, community endorsement or culturally unrestricted reuse from public accessibility."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -95,7 +95,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure metric change was warranted in Run 133. Run-132 status head 3525c0c43195e4878abec96c310e0d5f3e0558c0 is independently verified 4/4 green: Source Register Audit 1090, Migration Audit 1140, Streamlit Smoke Test 1236, Publication Build 1089. Fresh CI is required for the Run-133 status head."
+      "manuscript_build_state": "No count/table/figure metric change was warranted in Run 134. Run-133 head c70d685729feb018c55c1883f7ad51647fe9bd32 is independently verified 4/4 green: Source Register Audit 1095, Migration Audit 1145, Streamlit Smoke Test 1241, Publication Build 1094. Fresh CI is required for the Run-134 status head."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -103,29 +103,28 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run131_advanced_source": "Karya Mundari TTS exact licence/copyright/repository-checksum provenance with participant/cultural-access non-promotion boundary",
       "run132_advanced_source": "ORGI Census 2011 C-16 Jharkhand official catalogue identity and Munda/Mundari row-code metadata",
       "run133_advanced_source": "Ghosh-Jerath et al. 2021 Frontiers Munda food-environment exact methodology, ethics/consent, data-availability and CC BY locators with participant-derived cultural-content non-promotion boundary",
-      "promotion_boundary": "No participant-derived cultural proposition entered the evidence chain in Run 133. Exact methodological and rights provenance was added, while focus-group/key-informant traditional knowledge, free lists, quotes, transcripts and supplementary contents remain item-level consent/cultural-access gated."
+      "run134_advanced_source": "DRMTWRI 1993 Munda Ministry of Tribal Affairs primary catalogue manifestation with exact record/file/pagination metadata and conservative content-rights boundary",
+      "promotion_boundary": "Run 134 promoted only bibliographic and manifestation-level provenance for an already-known work. No cultural proposition, quotation, OCR transcription, page-level claim, redistribution right or community-validation claim entered the public evidence chain."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "3525c0c43195e4878abec96c310e0d5f3e0558c0",
+    "last_verified_all_four_green_commit": "c70d685729feb018c55c1883f7ad51647fe9bd32",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows_for_last_verified_head": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit":1090,"migration_audit":1140,"streamlit_smoke_test":1236,"publication_build":1089},
-    "new_commits_this_cycle_before_status_sync": ["ec1b4fe26c0d8f4ba38769f192ba4146beb302b2","d46f40130bf421ac008b89786421788c8ad7e184"],
-    "new_head_ci_state_at_status_write": "Run 133 status-sync commit requires fresh CI; no green result is projected from the Run-132 head."
+    "verified_runs_for_that_head": {"source_register_audit":1095,"migration_audit":1145,"streamlit_smoke_test":1241,"publication_build":1094},
+    "new_commits_this_cycle_before_status_sync": ["201dc64139e50f7aec8d938a8d4ab572dee40e20","5da9a6458f820d08662ab7b3d4b6cbbe950d926e"],
+    "new_head_ci_state_at_status_write": "Run 134 status-sync commit requires fresh CI; no green result is projected from the Run-133 head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/ghosh_jerath_2021_munda_food_environment_rights_exact_locator_run133_2026-09-10.json.",
-    "Verified DOI 10.3389/fnut.2020.600470, PMID 33598474, PMCID PMC7882711 and publisher bibliographic identity for the 2021 Frontiers in Nutrition article.",
-    "Converted the article from discovery to exact section locators for Study Locale and Population, Study Design, Study Procedures, Ethics Approval, Data availability statement and publisher Copyright/CC BY.",
-    "Recorded the associated Figshare supplementary manifestation and its observed CC BY 4.0 label while leaving bytes/checksum unverified after direct runtime fetch failure.",
-    "Kept research-participation consent distinct from MLHKP secondary-use consent and kept CC licensing distinct from community validation/cultural-access permission; no participant-derived food lists, quotes, transcripts, audio or universal cultural claims were ingested.",
-    "Canonicalized Frontiers/PubMed/PMC/Figshare manifestations under one DOI-keyed work and kept it distinct from the 2025 BMC Nutrition work.",
-    "Added MMSC-SEARCH-000133 with all requested source classes and explicit blocked/non-promotion states.",
-    "Verified Run-132 status head 3525c0c43195e4878abec96c310e0d5f3e0558c0 as 4/4 green: Source Register Audit 1090, Migration Audit 1140, Streamlit Smoke Test 1236, Publication Build 1089.",
+    "Added data/source_census/drmtwri_1993_munda_primary_catalogue_exact_locator_run134_2026-09-10.json.",
+    "Verified Ministry of Tribal Affairs repository record DRMTWRI/1993/0007 for the 1993 Munda book and preserved the institutional-origin metadata.",
+    "Verified the catalogue-listed PDF filename DRMTWRI_1993_0007_MUNDAJATIRaman.pdf, reported size 247.29 kB and catalogued pagination 1-44 as metadata only.",
+    "Canonicalized the repository PDF as a manifestation of the already-known DRMTWRI 1993 Munda work rather than creating a duplicate work identity.",
+    "Did not promote content because PDF bytes, independent checksum, page-image accounting, reuse terms and cultural-access disposition remain unresolved.",
+    "Added MMSC-SEARCH-000134 with requested source classes and explicit blocked/non-promotion states.",
+    "Verified Run-133 head c70d685729feb018c55c1883f7ad51647fe9bd32 as 4/4 green: Source Register Audit 1095, Migration Audit 1145, Streamlit Smoke Test 1241, Publication Build 1094.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
@@ -138,7 +137,7 @@
     "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
     "2011 C-16 official catalogue identity and Munda/Mundari row-code metadata are verified, but workbook bytes/checksum/worksheet/exact row numbers/numeric cell coordinates remain pending before any population-count promotion.",
     "ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "DRMTWRI 1993 Munda bytes/hash/page passages and reuse permission remain unresolved.",
+    "DRMTWRI 1993 Munda now has exact Ministry catalogue manifestation provenance, but PDF bytes/independent hash/page-image accounting/reuse permission/cultural-access review remain unresolved.",
     "Raonka dissertation licence/participant-derived consent/cultural-access disposition remains unresolved.",
     "Man Masih Mundu 2017 dictionary, Sinha 1975 and Mundari-Vyakaran complete bytes/checksums/page-image accounting/reuse terms remain incomplete.",
     "Evans & Osada 2005 ANU PDF bytes/checksum/page-level locators and exact reuse licence remain incomplete.",
@@ -179,7 +178,8 @@
     "Obtain and independently hash official ST-15/ST-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
     "Retry Språkbanken LSI corpus acquisition or Korp exact-query access, then independently hash bytes and extract Mundari-only segment/page-source locators before content promotion.",
     "Retry official LSI Jharkhand PDF byte acquisition and exact page-image verification while preserving text-layer/OCR distinctions.",
-    "Continue lawful full-text/rights reconciliation for DRMTWRI, Raonka, Man Masih Mundu, Sinha, Ramdayal Munda, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada sources.",
+    "Acquire the DRMTWRI 1993 Munda PDF bytes lawfully from the Ministry repository, independently hash them, page-account 1-44, determine reuse terms and cultural-access status before content-level extraction.",
+    "Continue lawful full-text/rights reconciliation for Raonka, Man Masih Mundu, Sinha, Ramdayal Munda, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada sources.",
     "Independently acquire/hash the Ghosh-Jerath 2021 publisher PDF and Figshare supplementary manifestation if preservation is required, and complete item-level participant-secondary-use/privacy/cultural-access review before any indigenous-food free list, quotation, transcript or other participant-derived traditional-knowledge ingestion.",
     "For Karya Mundari TTS, independently obtain/recompute the full-archive hash if needed and separately resolve speaker consent/provenance, privacy/publicity and cultural-access status before any participant audio/transcript ingestion; continue equivalent review for Karya Hindi-Mundari/MMLoSo streams.",
     "Resolve Proietti exact licence variant and participant/cultural-access boundaries.",
