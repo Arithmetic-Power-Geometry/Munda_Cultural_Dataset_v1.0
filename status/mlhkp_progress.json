@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T14:47:00Z",
-  "observed_head_before_status_sync": "486f118ce301ba306f047f7b36ba978f4aa0750c",
+  "updated_utc": "2026-09-09T15:39:00Z",
+  "observed_head_before_status_sync": "4d44eb44ce724efd8b653e304bd9a989a6ce7f67",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -38,7 +38,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 121 made no count-bearing Mundarica change; the run-120 Volume XIII library-origin manifestation state is preserved without upgrading scan completeness, OCR verification, checksums, page accounting, or historical XIV-XVI equivalence."
+      "cycle_state": "Run 122 preserved all completeness states and recorded a TRI Jharkhand institutional secondary statement describing Encyclopaedia Mundarica as 15 volumes. Because that statement conflicts with the currently reconciled historical I-XIII and modern 16-volume manifestation evidence and lacks edition-specific title-page/scan/pagination support, it is stored as an unresolved bibliographic discrepancy rather than a canonical volume-count change."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000121",
-      "latest_search_record_path": "data/source_census/search_log_run121.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000122",
+      "latest_search_record_path": "data/source_census/search_log_run122.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 121 reconciled Marilena Proietti's 2025 Sapienza doctoral thesis across institutional IRIS and UNITesi legal-deposit manifestations. Both expose Tesi_dottorato_Proietti.pdf at 47.18 MB and Open Access from 2026-05-27 with a generic Creative Commons label; the exact CC variant, participant-derived content permissions and cultural-access conditions remain unresolved, so no content-level evidence was promoted.",
+      "latest_verification": "Run 122 verified the TRI Jharkhand Munda page as an institutional source displaying a 15-volume Encyclopaedia Mundarica statement, rechecked the Proietti thesis access/licence boundary, and searched for a primary manifestation of the reported 1941 Mundari hockey booklet without locating one. No count-bearing source identity was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign; Run 121 strengthened thesis manifestation/access provenance without changing permanent SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No redesign. Run 122 added a provenance-bearing discrepancy record while preserving permanent SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +73,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules and shared universal-search/evidence-drilldown/report/download/owner-console contracts remain represented; no count-bearing UI change was warranted in Run 121."
+      "sync_note": "42/42 modules and shared universal-search/evidence-drilldown/reports-downloads/owner-console contracts remain represented; evidence verification was prioritized over redesign in Run 122."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Proietti is verified Open Access from 2026-05-27 with a repository-displayed generic Creative Commons label, but the exact licence variant remains unresolved. Repository access is not treated as participant consent or community validation; interviews, field materials, quotations and sensitive cultural knowledge remain separately rights/consent/cultural-access gated."
+      "cycle_state": "Proietti remains Open Access from 2026-05-27 with a repository-displayed generic Creative Commons label, while the inspected UNITesi page also states documents are copyright protected/all rights reserved unless otherwise indicated. Exact CC variant remains unresolved; participant-derived material remains separately consent/privacy/cultural-access gated. TRI public-page availability was not treated as permission for underlying source reproduction."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure update required because permanent repository metrics did not change; Run 121 adds reconciled thesis manifestation/access provenance only."
+      "manuscript_build_state": "No count/table/figure metric update required because permanent repository metrics did not change; manuscript remains synchronized to the same defensible counts pending fresh CI on the status head."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,33 +100,32 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run120_advanced_source": "Encyclopaedia Mundarica Volume XIII historical manifestation provenance",
       "run121_advanced_source": "Proietti 2025 doctoral thesis institutional/legal-deposit manifestation and rights/access provenance",
-      "promotion_boundary": "Institutional identity, persistent handles/NBN, filename, file size, open-access date and repository-displayed generic licence label may be recorded. Participant quotations, interviews, field notes, sensitive cultural knowledge, community-wide propositions and unverified licence permissions remain unpromoted until exact rights, consent and cultural-access gates are resolved."
+      "run122_advanced_source": "TRI Jharkhand institutional secondary statement on Encyclopaedia Mundarica volume count, retained as an unresolved bibliographic discrepancy",
+      "promotion_boundary": "The TRI statement is verified only as displayed institutional secondary metadata and is not promoted as the canonical volume count. No participant quotation, cultural proposition, unverified licence permission, OCR text or unsupported edition equivalence was promoted."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "Existing rights/consent/source-completeness gaps already cover participant-derived and incompletely licensed thesis material; Run 121 narrows Proietti manifestation/access provenance without warranting a new structural category.",
-    "explicit_gap_preserved": "Proietti exact Creative Commons licence variant, content-level reuse scope, participant-derived material permissions and cultural-access disposition remain unresolved."
+    "reason": "Existing source-completeness and manifestation-reconciliation gaps cover the newly documented 15-volume discrepancy; no new schema category is required.",
+    "explicit_gap_preserved": "Mundarica edition/volume/fascicle history requires primary title-page, publisher/library, scan and pagination reconciliation before a canonical historical count beyond I-XIII can be asserted."
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "486f118ce301ba306f047f7b36ba978f4aa0750c",
+    "last_verified_all_four_green_commit": "2fc7724c6a8d6de40c30cf2fee8524fed6ee9dea",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit": 1030, "migration_audit": 1080, "streamlit_smoke_test": 1176, "publication_build": 1029},
-    "new_commits_this_cycle_before_status_sync": ["30f2e035b0a9ca9df02b65382365eb8d607058f8", "486f118ce301ba306f047f7b36ba978f4aa0750c"],
-    "new_head_ci_state_at_status_write": "pre_status_sync_head_486f118_independently_4_of_4_green; status_sync_commit_requires_fresh_ci"
+    "verified_runs_for_that_head": {"source_register_audit": 1031, "migration_audit": 1081, "streamlit_smoke_test": 1177, "publication_build": 1030},
+    "new_commits_this_cycle_before_status_sync": ["543b456d978c998af654cce4da747ab1d47ad939", "4d44eb44ce724efd8b653e304bd9a989a6ce7f67"],
+    "new_head_ci_state_at_status_write": "prior_status_head_2fc7724_independently_4_of_4_green; run122 status_sync_commit_requires_fresh_ci"
   },
   "changes_this_cycle": [
-    "Added data/source_census/proietti_2025_thesis_manifestation_rights_locator_run121_2026-09-09.json.",
-    "Reconciled Sapienza IRIS handle 11573/1740709 and UNITesi handle 20.500.14242/212639 (NBN URN:NBN:IT:UNIROMA1-212639) as manifestations/metadata records of one Proietti 2025 doctoral thesis work, not separate source identities.",
-    "Verified Tesi_dottorato_Proietti.pdf, displayed size 47.18 MB, Open Access from 2026-05-27, and a generic Creative Commons label while refusing to infer an exact CC variant or blanket derivative permission.",
-    "Preserved participant-derived interviews, field notes, quotations and sensitive cultural material behind separate rights/consent/cultural-access gates; no community validation was inferred.",
-    "Added MMSC-SEARCH-000121 covering books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media.",
-    "Re-observed Hoffmann 1903, Evans and Osada 2005 and Census ST-15 streams without duplicate or unsupported content promotion; the 1941 Mundari hockey booklet still lacks a verified primary manifestation locator.",
-    "Verified pre-status-sync head 486f118ce301ba306f047f7b36ba978f4aa0750c as 4/4 green across Source Register Audit, Migration Audit, Streamlit Smoke Test and Publication Build.",
+    "Added data/source_census/tri_munda_mundarica_volume_count_discrepancy_run122_2026-09-09.json.",
+    "Recorded TRI Jharkhand's institutional secondary 15-volume Encyclopaedia Mundarica statement as a contradiction requiring primary manifestation reconciliation, not as a canonical volume-count replacement.",
+    "Added MMSC-SEARCH-000122 with cross-stream searches covering Mundarica, government/TRI, thesis rights and the reported 1941 hockey booklet.",
+    "Rechecked Proietti repository rights metadata: generic Creative Commons label remains visible, exact variant remains unresolved, and UNITesi's copyright reservation reinforces the no-inference boundary.",
+    "Searched for a primary catalogue/archive/accession/scan/title-page manifestation of the reported 1941 Mundari hockey booklet; none was independently located this cycle.",
+    "Verified prior status head 2fc7724c6a8d6de40c30cf2fee8524fed6ee9dea as 4/4 green.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
@@ -135,7 +134,8 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
-    "Mundarica Volume XIII has stronger library-origin manifestation provenance but authoritative bytes, checksum and full page/image accounting remain pending.",
+    "TRI Jharkhand currently states a 15-volume Encyclopaedia Mundarica, conflicting with the reconciled historical I-XIII and modern 16-volume manifestation model; edition/fascicle/title-page reconciliation remains pending.",
+    "Mundarica Volume XIII has library-origin manifestation provenance but authoritative bytes, checksum and full page/image accounting remain pending.",
     "Sinha 1975 complete book bytes, independent checksum, page-image accounting and reuse terms remain incomplete; CIIL reports 9.63 KB while Bharatavani reports 117.39 MB.",
     "Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
     "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
@@ -171,12 +171,12 @@
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Retry official LSI page-image verification while preserving page-image versus text-layer/OCR distinctions.",
-    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting, prioritizing Volume XIII now that an NYPL-origin manifestation is verified, while keeping modern XIV-XVI numbering separate from unresolved historical slots.",
+    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and reconcile TRI's 15-volume statement against primary edition/fascicle/title-page evidence while keeping modern XIV-XVI numbering separate.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
-    "Obtain and hash a complete Sinha 1975 manifestation and reconcile the 9.63 KB CIIL object against the 117.39 MB Bharatavani manifestation before content extraction.",
+    "Obtain and hash a complete Sinha 1975 manifestation and reconcile the CIIL/Bharatavani size discrepancy before content extraction.",
     "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran manifestation; verify pagination/page images and reuse terms before content extraction.",
     "Continue Cook/Bhaduri/TRI/Archer/Osada and other lawful-full-text/rights reconciliation.",
-    "Determine the exact Proietti thesis Creative Commons licence variant and separately review participant/cultural-access boundaries before any content-level ingestion.",
+    "Determine the exact Proietti thesis Creative Commons licence variant and separately review participant/cultural-access boundaries before content-level ingestion.",
     "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest status head and run automated completeness/provenance checks before any release-gate change."
