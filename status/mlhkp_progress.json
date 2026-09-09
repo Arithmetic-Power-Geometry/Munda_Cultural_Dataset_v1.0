@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T00:32:00Z",
-  "observed_head_before_status_sync": "9a29808398acde347ae5b0aa779f2baee92b3c09",
+  "updated_utc": "2026-09-09T00:49:00Z",
+  "observed_head_before_status_sync": "d2ebde0366e2cdcd12cb9bd821299fb448e12c59",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -16,25 +16,7 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "per_volume_state": {
-        "I": "local artifact registered; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "II": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "III": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "IV": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "V": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "VI": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "VII": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "VIII": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "IX": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "X": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "XI": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "XII": "external locator verified; authoritative scan/page-accounting verification incomplete; not verified complete",
-        "XIII": "historical Volume 13 catalogue/index signals reconfirmed; authoritative scan/page accounting incomplete; not verified complete",
-        "XIV": "authoritative historical slot/scan locator unresolved under work/part/volume/plates/edition reconciliation; not verified complete",
-        "XV": "authoritative historical slot/scan locator unresolved under work/part/volume/plates/edition reconciliation; not verified complete",
-        "XVI": "2009 Gyan Vol.16th reprint remains a manifestation clue only; historical-slot equivalence, authoritative scan and page accounting unresolved; not verified complete"
-      },
-      "cycle_state": "Run 92 re-searched XIV-XVI reconciliation signals but found no new authoritative primary scan/catalogue basis for a slot upgrade. Verified-complete volumes remain 0."
+      "cycle_state": "Run 93 was non-Mundarica-focused; no Mundarica slot/completeness state was upgraded. Verified-complete volumes remain 0."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +28,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000092",
-      "latest_search_record_path": "data/source_census/search_log_run92.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000093",
+      "latest_search_record_path": "data/source_census/search_log_run93.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 92 reconciled Walter Anthony Cook's 1965 Georgetown Mundari dissertation across Glottolog's full title and WALS's shortened A Descriptive Grammar of Mundari title as one bibliographic identity, preventing title-variant double counting. No permanent source ID or full-text evidence was promoted.",
+      "latest_verification": "Run 93 strengthened Bhaduri dictionary manifestation reconciliation with exact CiNii NCIDs for 1983/1994/2002 reprints and preserved a 1929-versus-1931 original-edition catalogue discrepancy as an explicit unresolved gap rather than normalizing it.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +39,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 92 added one exact bibliographic identity-reconciliation artifact and no unsupported evidence-chain row."
+      "cycle_state": "No schema redesign. Run 93 updated one exact bibliographic manifestation record and added no unsupported evidence-chain row."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +49,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No permanent source/claim/evidence/link metric changed in run 92; existing 42-module and 100% schema/UI mappings remain valid."
+      "sync_note": "No permanent source/claim/evidence/link metric changed in run 93; existing 42-module and 100% schema/UI mappings remain valid."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +61,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head 40d660c1b354936ef12c73b3e8c12e02cfc6b42e is independently verified 4/4 green: Source Register Audit 883, Migration Audit 933, Streamlit Smoke Test 1029 and Publication Build 882. Run 92 leaves manuscript metrics unchanged; newest-head CI must be verified separately."
+      "manuscript_build_state": "Pre-run head b9c6c44fef39a128e3d54c6e3a36bb7858c79fdb is independently verified 4/4 green: Source Register Audit 888, Migration Audit 938, Streamlit Smoke Test 1034 and Publication Build 887. Run 93 leaves manuscript metrics unchanged; newest-head CI must be verified separately."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,23 +69,23 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run92_advanced_source": "Cook 1965 advanced at bibliographic identity/deduplication level only. Full-text rights, page verification, linguistic extraction and any participant/cultural implications remain unpromoted.",
-      "promotion_boundary": "Exact bibliographic identity metadata may be recorded. Full-text linguistic propositions require lawful inspectable text and page-level provenance; culturally sensitive or participant-derived material additionally requires rights, consent and cultural-access review."
+      "run93_advanced_source": "Bhaduri dictionary family advanced at exact catalogue-manifestation/deduplication level only. No dictionary headword, definition, lexical or cultural proposition was promoted.",
+      "promotion_boundary": "Exact bibliographic identity, manifestation relationships, catalogue identifiers, pagination and explicit metadata conflicts may be recorded. Lexical/cultural propositions require lawful inspectable text and exact provenance; culturally sensitive or participant-derived material additionally requires rights, consent and cultural-access review."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "40d660c1b354936ef12c73b3e8c12e02cfc6b42e",
+    "last_verified_all_four_green_commit": "b9c6c44fef39a128e3d54c6e3a36bb7858c79fdb",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":883,"migration_audit":933,"streamlit_smoke_test":1029,"publication_build":882},
-    "new_commits_this_cycle_before_status_sync": ["1fc60cace2fe4e167ff2496ffb04c977dc983940","9a29808398acde347ae5b0aa779f2baee92b3c09"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-92 status head must be independently verified; do not project the verified 40d660c1 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":888,"migration_audit":938,"streamlit_smoke_test":1034,"publication_build":887},
+    "new_commits_this_cycle_before_status_sync": ["80b42241d2d39efec1e08dfdc6b02fbbb949f831","d2ebde0366e2cdcd12cb9bd821299fb448e12c59"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-93 status head must be independently verified; do not project the verified b9c6c44f 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed pre-run head 40d660c1b354936ef12c73b3e8c12e02cfc6b42e as 4/4 CI green across all required workflows.",
-    "Reconciled Cook 1965 WALS short-title and Glottolog full-title records as one Georgetown Mundari dissertation identity, preventing a title-variant duplicate.",
-    "Recorded MMSC-SEARCH-000092 across all requested source classes and continued blocked streams independently.",
-    "Re-searched Mundarica XIV-XVI historical slot/manifestation evidence but did not find a new authoritative primary basis for any slot or completeness upgrade.",
+    "Confirmed pre-run head b9c6c44fef39a128e3d54c6e3a36bb7858c79fdb as 4/4 CI green across all required workflows.",
+    "Strengthened Bhaduri A Mundari-English dictionary manifestation reconciliation with exact CiNii identifiers BA27135864, BA31909026 and BB09153012.",
+    "Preserved the catalogue conflict between 1931 original-publication signals and the 2002 reprint's 1929-edition/introduction note instead of fabricating one normalized date.",
+    "Recorded MMSC-SEARCH-000093 across all requested source classes and continued blocked streams independently.",
     "Kept audited release metrics unchanged at 41/87/13/52/52/52 and preserved 42/42 modules, 100% schema-category representation and 100% UI mapping.",
     "No full text, participant material, cultural claim, Census number, OCR-verification claim, rights assumption or community-validation claim was fabricated or promoted; main was not modified or merged."
   ],
@@ -113,8 +95,8 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical work/part/volume/plates/reprint reconciliation remains unresolved.",
-    "Cook 1965 full-text access/reuse rights and page-level verification remain unresolved beyond bibliographic registry metadata.",
-    "Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending for deeper extraction.",
+    "Bhaduri original-edition 1929-versus-1931 catalogue discrepancy remains unresolved pending a primary title-page or authoritative catalogue record.",
+    "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
     "Participant-derived audio/video/datasets remain item-level consent/rights/cultural-access gated.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
@@ -145,11 +127,11 @@
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after full identity reconciliation.",
     "Retry official LSI and lawful public-domain page-image verification while preserving page-image versus OCR/index distinctions.",
-    "Continue authoritative Mundarica I-XVI scan/page-accounting acquisition and resolve XIV-XVI historical part/volume/plates/reprint mappings without premature completeness claims.",
+    "Resolve Bhaduri 1929-versus-1931 original-edition metadata from a primary title page or authoritative library record before edition normalization or lexical extraction.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before lexical, linguistic or cultural extraction.",
     "Continue media candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-92 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-93 status head and repair any regression before further metric-changing promotion."
   ]
 }
