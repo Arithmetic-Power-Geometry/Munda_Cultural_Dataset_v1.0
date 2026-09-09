@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T08:44:00Z",
-  "observed_head_before_status_sync": "run109_pre_status_head",
+  "updated_utc": "2026-09-09T09:33:00Z",
+  "observed_head_before_status_sync": "7803a0b0f7da3d4843decd1e0844167f90b02a9c",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "historical_slot_unresolved",
         "XVI": "historical_slot_unresolved"
       },
-      "cycle_state": "Run 109 rechecked acquisition/OCR/page-accounting/structuring state. No Mundarica volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints are not treated as proof of historical completeness."
+      "cycle_state": "Run 110 rechecked acquisition/OCR/page-accounting/structuring state while parallel source work continued. No Mundarica volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints remain insufficient proof of historical completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000109",
-      "latest_search_record_path": "data/source_census/search_log_run109.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000110",
+      "latest_search_record_path": "data/source_census/search_log_run110.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 109 verified the official CIIL/Bhasha Sanchika manifestation for Ramdayal Munda's Mundari-Vyakaran: handle 20.500.14705/8429, repository identifier BVP00202, file BVP00202.pdf, repository-reported size 9.04 KB, one observed PDF page, visually verified title/author/Rumbul publisher page, and repository-declared rights holder RUMBUL. The one-page bitstream is not treated as the complete grammar, and the separate 1978 Rumbul catalogue lead is not merged with the 2013 repository manifestation until primary equivalence evidence is obtained.",
+      "latest_verification": "Run 110 independently corroborated the historical person identity Sadanand Abinash Bishram Dilbar-Hans through the National Portrait Gallery authority record (born 1910; Bishop of Chota Nagpur; 1958 Lambeth Conference portrait context). This strengthens entity reconciliation for the secondary 1941 Mundari hockey-booklet report but does not authenticate, catalogue or promote the booklet itself. A current commercial listing for Ramdayal Munda's Mundari Vyakaran was recorded only as an acquisition lead and was not merged with CIIL 2013 or historical catalogue manifestations.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Exact identity, manifestation and rights-holder metadata were strengthened for Mundari-Vyakaran while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation, complete-manifestation verification and reuse clearance."
+      "cycle_state": "No schema redesign. Entity-level authority corroboration was strengthened for Hans while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged because the 1941 booklet still lacks primary manifestation verification."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 109 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping; no count-bearing remap was required because no permanent source/evidence identity changed."
+      "sync_note": "Run 110 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping; no count-bearing remap was required because no permanent source/evidence identity changed."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "The last independently verified 4/4-green status retained from run 108 is commit 60029e32853201c7f18c6a55931da5cb60fc3961 with Source Register Audit 963, Migration Audit 1013, Streamlit Smoke Test 1109, and Publication Build 962. Run 109 changes no manuscript metrics because permanent source/evidence counts did not change; newest-head CI must be independently verified."
+      "manuscript_build_state": "Commit bd4b2f86f577528a97441299c682f573b01001cc is independently verified 4/4 green with Source Register Audit 973, Migration Audit 1023, Streamlit Smoke Test 1119, and Publication Build 972. Run 110 changes no manuscript metrics because permanent source/evidence counts did not change; newest-head CI must be independently verified."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,32 +87,30 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run109_advanced_source": "Ramdayal Munda's Mundari-Vyakaran advanced from catalogue/discovery status to an official CIIL persistent exact locator with one-page visual manifestation verification and explicit repository rights-holder metadata.",
-      "promotion_boundary": "The official one-page bitstream supports manifestation identity/title/author/publisher-page evidence only. It does not support complete-book status, grammar-rule extraction, lexical/example extraction, cultural propositions, derivative permission, or edition equivalence with the separate 1978 catalogue lead."
+      "run110_advanced_source": "The 1941 Mundari hockey-booklet investigation advanced from a single secondary custody report to independent authority-level corroboration of the named historical person, while the booklet manifestation itself remains outside the audited source graph.",
+      "promotion_boundary": "National Portrait Gallery evidence supports the person identity and episcopal role only. It does not support booklet title-page identity, pagination, text/glossary extraction, rights, custody permission, cultural propositions or community validation."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "60029e32853201c7f18c6a55931da5cb60fc3961",
+    "last_verified_all_four_green_commit": "bd4b2f86f577528a97441299c682f573b01001cc",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
     "verified_run_numbers": {
-      "source_register_audit": 963,
-      "migration_audit": 1013,
-      "streamlit_smoke_test": 1109,
-      "publication_build": 962
+      "source_register_audit": 973,
+      "migration_audit": 1023,
+      "streamlit_smoke_test": 1119,
+      "publication_build": 972
     },
-    "new_commits_this_cycle_before_status_sync": ["exact_locator_commit_run109","search_log_commit_run109"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-109 status head must be independently verified; do not project the verified 60029e32 4/4-green state forward."
+    "new_commits_this_cycle_before_status_sync": ["59ae417d001c497c3a151870b38fc7091aba66f4","7803a0b0f7da3d4843decd1e0844167f90b02a9c"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-110 status head must be independently verified; do not project the verified bd4b2f86 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Verified the official CIIL/Bhasha Sanchika persistent locator for Ramdayal Munda's Mundari-Vyakaran (handle 20.500.14705/8429; identifier BVP00202).",
-    "Verified the repository manifestation BVP00202.pdf is reported as 9.04 KB and currently exposes one observed PDF page rather than a verified complete grammar.",
-    "Visually verified the exposed page for the title मुण्डारी-व्याकरण, author डॉ. रामदयाल मुण्डा, Rumbul publisher mark/name, and Ranchi Jharkhand publisher address.",
-    "Recorded RUMBUL as the repository-declared rights holder and preserved the absence of an observed explicit reuse licence; public access was not treated as redistribution permission.",
-    "Preserved the 1978-versus-2013 Rumbul Mundari Vyakaran manifestation/edition uncertainty rather than deduplicating distinct-year records without primary evidence.",
-    "Added data/source_census/ciil_ramdayal_munda_mundari_vyakaran_exact_locator_2026-09-09.json and recorded MMSC-SEARCH-000109 across the requested source classes.",
-    "Rechecked Streamlit, evidence graph, completeness/gap state and publication synchronization; no permanent metric changed because no new permanent SOURCE/CLAIM/EVIDENCE identity crossed the promotion gate.",
-    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules; no cultural claim, community validation, full-text status, rights state or edition equivalence was fabricated; main was not modified or merged."
+    "Independently corroborated Sadanand Abinash Bishram Dilbar-Hans through the National Portrait Gallery authority record as born 1910 and Bishop of Chota Nagpur, with a 1958 Lambeth Conference portrait context.",
+    "Kept the 1941 Mundari hockey booklet strictly at secondary bibliographic/custody-lead status because the authority record does not catalogue or authenticate the booklet.",
+    "Recorded a current Tribemitra listing for Ramdayal Munda's Mundari Vyakaran only as an acquisition lead; no edition/year/manifestation equivalence with CIIL 2013 or the historical catalogue lead was inferred.",
+    "Added data/source_census/hans_hockey_booklet_author_identity_corroboration_2026-09-09.json and MMSC-SEARCH-000110.",
+    "Rechecked Mundarica, Streamlit, evidence graph, rights/governance, completeness/gap state and publication synchronization; no permanent metric changed because no new permanent SOURCE/CLAIM/EVIDENCE identity crossed the promotion gate.",
+    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules; no cultural fact, rights state, booklet completeness, OCR verification, community validation or future-proof completeness was fabricated; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
@@ -120,7 +118,7 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Sinha 1975 CIIL full-text file bytes, checksum, pagination/page images, exact page locators and reuse terms remain unverified for content-level ingestion.",
-    "Mundari-Vyakaran now has an official CIIL handle and visually verified one-page manifestation, but complete grammar/full-text bytes, independent checksum, full pagination/page-image accounting and derivative reuse permission remain unresolved; the separate 1978 catalogue lead versus 2013 repository manifestation relationship is unresolved.",
+    "Mundari-Vyakaran has an official CIIL handle and visually verified one-page manifestation, but complete grammar/full-text bytes, independent checksum, full pagination/page-image accounting and derivative reuse permission remain unresolved; historical manifestation relationships remain unresolved.",
     "White Rose accepted-manuscript screenshot/page-image rendering remains visually unverified; exact locators are text-layer verified only.",
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
@@ -128,7 +126,7 @@
     "Karya Hindi-Mundari and Mundari TTS item-level ingestion remains blocked pending licence compatibility, participant provenance/consent and cultural-access review.",
     "MMLoSo and Karya corpus equivalence remains unestablished; do not deduplicate without stronger identity evidence.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
-    "The reported 1941 Mundari hockey booklet has an exact secondary custody lead but still lacks an independently verified primary catalogue/archive/accession/scan/direct-custody locator and verified rights/cultural-access state.",
+    "The reported 1941 Mundari hockey booklet now has independent authority corroboration of the named historical person but still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
   "integrity": {
@@ -154,9 +152,10 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Obtain the complete Ramdayal Munda Mundari-Vyakaran manifestation, independently hash it, verify full pagination/page images and determine reuse terms; resolve the separate 1978 catalogue lead versus 2013 repository manifestation before edition-level canonicalization.",
+    "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet; keep authority-level person corroboration distinct from manifestation verification.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
     "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
+    "Obtain the complete Ramdayal Munda Mundari-Vyakaran manifestation, independently hash it, verify full pagination/page images and determine reuse terms; resolve historical manifestation relationships before edition-level canonicalization.",
     "Obtain and hash official CIIL Sinha 1975 full text, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Retry official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
@@ -164,6 +163,6 @@
     "Perform Karya licence compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Seek a primary catalogue/archive/accession/scan/direct-custody record for the 1941 Mundari hockey booklet and verify all four CI workflows on the newest run-109 status head."
+    "Verify all four CI workflows on the newest run-110 status head."
   ]
 }
