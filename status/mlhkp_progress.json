@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T22:32:00Z",
-  "observed_head_before_status_sync": "9369c8ef02813c3c11c74422dbe4d7b431195152",
+  "updated_utc": "2026-09-09T22:43:00Z",
+  "observed_head_before_status_sync": "f3ae329d41037dfe703a06ca9a7971ae570aba86",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -41,7 +41,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 136 preserved all Mundarica manifestation, OCR and 16/16 human-review attestation states. No authoritative-scan, hash, page-accounting or historical XIV-XVI equivalence claim was added without supporting artifacts."
+      "cycle_state": "Run 137 is non-Mundarica-focused and preserved all Mundarica manifestation, OCR and 16/16 human-review attestation states without unsupported scan/hash/page-accounting claims."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -53,10 +53,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000136",
-      "latest_search_record_path": "data/source_census/search_log_run136.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000137",
+      "latest_search_record_path": "data/source_census/search_log_run137.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain preserved separately and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 136 reconciled Radhagovind Patar's Subodh Mundari Veyakaran across CIIL/Bhasha Sanchika and Bharatavani as one 2017 Jharkhand Jharokha grammar work, preserving CIIL item 24494405-081d-4364-ad59-cc2dd0af7d25 and BVP06110.jpg metadata, Bharatavani's 118.79 MB login-to-read manifestation, and a separately identifiable 2022 reprint/edition with ISBN 978-93-85595-82-0. No textual identity between the 2017 and 2022 editions was asserted without title-page/copyright-page comparison.",
+      "latest_verification": "Run 137 converted Mukesh Kumar Shrivastava's 2013 peer-reviewed article 'Mundari Khuntkatti: An Institution of Customary Right over Land' into an exact-locator provenance record keyed by DOI 10.1177/0972558X1301300205, with publisher issue/pagination/date/access locators and a bounded abstract-reported empirical scope of Gutuhatu and Salga villages in Khunti district. Restricted full text and participant/cultural-access uncertainty block content-level cultural promotion.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -65,7 +65,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 136 strengthened deterministic work/manifestation identity and edition provenance for a known grammar while preserving count-bearing SOURCE/CLAIM/EVIDENCE metrics."
+      "cycle_state": "No schema redesign. Run 137 strengthened exact-locator provenance for a peer-reviewed customary-land stream while preserving count-bearing SOURCE/CLAIM/EVIDENCE metrics because restricted content was not promoted."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -76,14 +76,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no UI remap was required in Run 136 because no count-bearing evidence-chain object changed."
+      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no UI remap was required because Run 137 added provenance-only exact locators, not a count-bearing evidence-chain object."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Run 136 treats CIIL/Bharatavani catalogue/login-to-read availability and retail metadata as provenance only. No redistribution permission, culturally unrestricted reuse or community endorsement is inferred."
+      "cycle_state": "SAGE marks the Shrivastava article restricted/request-permissions. Run 137 ingested bibliographic and publisher-abstract provenance only; full text, fieldwork material, participant reuse consent and cultural-access status remain gated."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -95,7 +95,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure metric update was warranted in Run 136. Run-135 status head c8db9c9593d3ecd00f08ba2aed256e5f80c21609 is independently verified 4/4 green: Source Register Audit 1105, Migration Audit 1155, Streamlit Smoke Test 1251, Publication Build 1104. Fresh CI is required for the Run-136 status head."
+      "manuscript_build_state": "No count/table/figure metric update was warranted in Run 137. Run-136 status head efa7a620025c661fe6ab6c652b24403da0141845 is independently verified 4/4 green: Source Register Audit 1110, Migration Audit 1160, Streamlit Smoke Test 1256, Publication Build 1109. Fresh CI is required for the Run-137 status head."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -103,50 +103,49 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run134_advanced_source": "DRMTWRI 1993 Munda Ministry of Tribal Affairs primary catalogue manifestation with exact record/file/pagination metadata and conservative content-rights boundary",
       "run135_advanced_source": "Ramdayal Munda Mundari-Vyakaran CIIL/Bharatavani exact manifestation reconciliation with unresolved edition-history boundary",
       "run136_advanced_source": "Radhagovind Patar Subodh Mundari Veyakaran 2017 CIIL/Bharatavani manifestation reconciliation plus independently identified 2022 ISBN-bearing reprint/edition",
-      "promotion_boundary": "Run 136 promoted only bibliographic, manifestation and edition/reprint provenance. No grammar rule, lexical item, quotation, page-dependent proposition, redistribution right or community-validation claim entered the public evidence chain."
+      "run137_advanced_source": "Shrivastava 2013 Mundari Khuntkatti SAGE DOI/issue/pagination/abstract-scope exact-locator provenance with restricted-content and participant/cultural-access gates",
+      "promotion_boundary": "Run 137 promoted exact bibliographic, publisher-abstract scope and access-state provenance only. No restricted full text, village-level participant material, universal customary-law claim, redistribution right or community-validation claim entered the public evidence chain."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "c8db9c9593d3ecd00f08ba2aed256e5f80c21609",
+    "last_verified_all_four_green_commit": "efa7a620025c661fe6ab6c652b24403da0141845",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows_for_last_verified_head": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit":1105,"migration_audit":1155,"streamlit_smoke_test":1251,"publication_build":1104},
-    "new_commits_this_cycle_before_status_sync": ["e5fc70f3a019708e2050f5a4a7217697fcb1d9f0","9369c8ef02813c3c11c74422dbe4d7b431195152"],
-    "new_head_ci_state_at_status_write": "Run 136 status-sync commit requires fresh CI; no green result is projected from the Run-135 head."
+    "verified_runs_for_that_head": {"source_register_audit":1110,"migration_audit":1160,"streamlit_smoke_test":1256,"publication_build":1109},
+    "new_commits_this_cycle_before_status_sync": ["de328982628480000f3ff07eda457afa4b298def","f3ae329d41037dfe703a06ca9a7971ae570aba86"],
+    "new_head_ci_state_at_status_write": "Run 137 status-sync commit requires fresh CI; no green result is projected from the Run-136 head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/radhagovind_patar_subodh_mundari_manifestation_reconciliation_run136_2026-09-10.json.",
-    "Verified CIIL/Bhasha Sanchika item 24494405-081d-4364-ad59-cc2dd0af7d25 for Radhagovind Patar's 2017 Subodh Mundari Veyakaran, including catalogue object BVP06110.jpg and reported size 49.84 KB.",
-    "Verified Bharatavani 2017 grammar metadata, Jharkhand Jharokha publisher, Radhagovind Patar content-partner identity, Login-to-Read access and reported PDF size 118.79 MB.",
-    "Verified a separately identifiable 2022 Edition/Reprint catalogue manifestation with ISBN 978-93-85595-82-0 and publisher Jharkhand Jharokha; preserved exact textual identity with the 2017 manifestation as unresolved pending title-page/copyright-page comparison.",
-    "Rechecked Man Masih Mundu's 2017 Mundari-English-Hindi dictionary as a rights/cultural-access gated stream without content promotion.",
-    "Added MMSC-SEARCH-000136 covering requested source classes and explicit blocked/non-promotion states.",
-    "Verified Run-135 head c8db9c9593d3ecd00f08ba2aed256e5f80c21609 as 4/4 green: Source Register Audit 1105, Migration Audit 1155, Streamlit Smoke Test 1251, Publication Build 1104.",
+    "Added data/source_census/shrivastava_2013_mundari_khuntkatti_exact_locator_run137_2026-09-10.json.",
+    "Verified SAGE DOI 10.1177/0972558X1301300205, The Oriental Anthropologist 13(2), pp. 267-280, first published online 2013-07-01 and restricted/request-permissions access state.",
+    "Recorded the publisher abstract's bounded empirical scope of Gutuhatu and Salga villages in Khunti district without treating it as universal Munda cultural validation.",
+    "Reverified official ORGI C-16, ST-15, ST-16 and C-17 file/schema identities; current download attempts timed out, so no numeric value, workbook hash, worksheet or cell locator was fabricated.",
+    "Rechecked a CC BY-SA 4.0 Wikimedia Mundari-speakers map as a media/map manifestation but did not treat it as authoritative demographic evidence without method/source reconciliation.",
+    "Rechecked Languages Home Mundari audio; insufficient authorship, consent, recording provenance and reuse terms block lexical/audio ingestion.",
+    "Added MMSC-SEARCH-000137 covering all requested source classes and explicit blocked/non-promotion states.",
+    "Verified Run-136 head efa7a620025c661fe6ab6c652b24403da0141845 as 4/4 green: Source Register Audit 1110, Migration Audit 1160, Streamlit Smoke Test 1256, Publication Build 1109.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Newest status head requires fresh four-workflow verification.",
-    "Primary historical edition/fascicle/title-page/library evidence remains required to reconcile the TRI 15-volume statement, historical I-XIII text sequence, plates/supplement structure, and modern XIV-XVI numbering.",
     "Authoritative Mundarica scans, hashes and complete page accounting remain incomplete.",
-    "Språkbanken lsi.xml.bz2 bytes/checksum and exact Mundari XML segment/page-linked locators remain pending after runtime download failure.",
+    "Språkbanken lsi.xml.bz2 bytes/checksum and exact Mundari XML segment/page-linked locators remain pending.",
     "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
-    "2011 C-16 official catalogue identity and Munda/Mundari row-code metadata are verified, but workbook bytes/checksum/worksheet/exact row numbers/numeric cell coordinates remain pending before any population-count promotion.",
-    "ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "DRMTWRI 1993 Munda now has exact Ministry catalogue manifestation provenance, but PDF bytes/independent hash/page-image accounting/reuse permission/cultural-access review remain unresolved.",
+    "2011 C-16, ST-15, ST-16 and 2001 C-17 official identities/file names/schema are verified, but workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion; current Census page/download attempts timed out.",
+    "DRMTWRI 1993 Munda PDF bytes/independent hash/page-image accounting/reuse permission/cultural-access review remain unresolved.",
     "Raonka dissertation licence/participant-derived consent/cultural-access disposition remains unresolved.",
-    "Ramdayal Munda Mundari-Vyakaran now has exact CIIL/Bharatavani manifestation metadata, but complete lawful bytes, independent checksum, page accounting, open-reuse status and edition-title-page reconciliation remain unresolved.",
-    "Radhagovind Patar Subodh Mundari Veyakaran now has reconciled 2017 CIIL/Bharatavani manifestation metadata and a 2022 ISBN-bearing reprint/edition lead, but complete lawful bytes, independent checksum, page accounting, reuse terms, cultural-access review and 2017-versus-2022 title-page/textual comparison remain unresolved.",
+    "Ramdayal Munda and Radhagovind Patar grammar complete lawful bytes, checksums, page accounting, reuse terms and edition reconciliation remain unresolved.",
     "Man Masih Mundu 2017 dictionary and Sinha 1975 complete bytes/checksums/page-image accounting/reuse terms remain incomplete.",
     "Evans & Osada 2005 ANU PDF bytes/checksum/page-level locators and exact reuse licence remain incomplete.",
     "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending.",
     "Proietti exact Creative Commons variant and participant-derived thesis components remain rights/consent/cultural-access gated.",
-    "Karya Mundari TTS technical licence/copyright/publisher checksum are exact-locator verified; full-archive independent hash, speaker consent/provenance, privacy/publicity and cultural-access disposition remain unresolved. Karya Hindi-Mundari, MMLoSo and other participant-derived audio/video/datasets remain item-level gated.",
-    "Ghosh-Jerath et al. 2021 Frontiers article is CC BY and reports research consent, but publisher PDF/Figshare bytes remain independently unhashed and participant-derived free lists, qualitative statements and traditional knowledge require separate secondary-use/privacy/cultural-access review before ingestion.",
+    "Karya Mundari TTS full-archive independent hash, speaker consent/provenance, privacy/publicity and cultural-access disposition remain unresolved; related audio/video/datasets remain item-level gated.",
+    "Ghosh-Jerath et al. 2021 participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level CC BY.",
+    "Shrivastava 2013 full text is restricted; lawful inspectable full text, methods/ethics/participant provenance and cultural-access disposition remain unresolved before any customary-law content extraction.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only because no independently verified primary manifestation was located."
   ],
   "integrity": {
@@ -174,19 +173,11 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Seek primary historical edition/fascicle/title-page/library evidence that can reconcile historical text I-XIII, plates/supplement, TRI's 15-volume statement, and modern Gyan 16-volume numbering.",
-    "Convert existing 16/16 human Mundarica review attestations into file/hash/page-linked audit records wherever supporting artifacts are actually available.",
-    "Obtain and independently hash official 2011 C-16 workbook bytes, then record worksheet, exact row numbers and numeric cells for Munda/Mundari before any population-count promotion.",
-    "Obtain and independently hash official ST-15/ST-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
-    "Retry Språkbanken LSI corpus acquisition or Korp exact-query access, then independently hash bytes and extract Mundari-only segment/page-source locators before content promotion.",
-    "Retry official LSI Jharkhand PDF byte acquisition and exact page-image verification while preserving text-layer/OCR distinctions.",
-    "Acquire the DRMTWRI 1993 Munda PDF bytes lawfully from the Ministry repository, independently hash them, page-account 1-44, determine reuse terms and cultural-access status before content-level extraction.",
-    "Acquire/reconcile Ramdayal Munda Mundari-Vyakaran title-page/edition evidence and complete lawful bytes; independently hash/page-account before grammar-content extraction. Reconcile the 1978, 1988 and 2013 records without forcing unsupported edition relationships.",
-    "Obtain lawful complete Subodh Mundari Veyakaran bytes or title/copyright-page evidence; independently hash/page-account and reconcile the 2017 and 2022 manifestations before any grammar-content extraction.",
-    "Continue lawful full-text/rights reconciliation for Raonka, Man Masih Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada sources.",
-    "Independently acquire/hash the Ghosh-Jerath 2021 publisher PDF and Figshare supplementary manifestation if preservation is required, and complete item-level participant-secondary-use/privacy/cultural-access review before any indigenous-food free list, quotation, transcript or other participant-derived traditional-knowledge ingestion.",
-    "For Karya Mundari TTS, independently obtain/recompute the full-archive hash if needed and separately resolve speaker consent/provenance, privacy/publicity and cultural-access status before any participant audio/transcript ingestion; continue equivalent review for Karya Hindi-Mundari/MMLoSo streams.",
-    "Resolve Proietti exact licence variant and participant/cultural-access boundaries.",
+    "Obtain and independently hash official C-16/ST-15/ST-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
+    "Retry Språkbanken LSI corpus acquisition/Korp exact-query access and official LSI page-image verification.",
+    "Continue lawful full-text/rights reconciliation for DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer, Osada, Proietti and Ghosh-Jerath streams.",
+    "Seek a lawful inspectable Shrivastava manuscript/full text and verify methods/ethics/fieldwork provenance before any content-level extraction.",
+    "Complete participant-level consent/privacy/cultural-access review for Karya and other audio/video/dataset streams.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest status head and run automated completeness/provenance checks before any release-gate change."
   ]
