@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T12:46:00Z",
-  "observed_head_before_status_sync": "cbceda7a2d783d87767dba3f950a91f16e509905",
+  "updated_utc": "2026-09-09T13:35:00Z",
+  "observed_head_before_status_sync": "17104ac75e2a0975776053110fc5c53dd6d27bba",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -20,7 +20,25 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "cycle_state": "Run 117 did not change Mundarica scan/OCR/page-completeness state. Historical I-XIII and the observed modern sixteen-volume manifestation remain separated until equivalence is proven."
+      "per_volume_state": {
+        "I": "located_not_machine_verified_complete",
+        "II": "located_not_machine_verified_complete",
+        "III": "located_not_machine_verified_complete",
+        "IV": "located_not_machine_verified_complete",
+        "V": "located_not_machine_verified_complete",
+        "VI": "located_not_machine_verified_complete",
+        "VII": "located_not_machine_verified_complete",
+        "VIII": "located_not_machine_verified_complete",
+        "IX": "located_not_machine_verified_complete",
+        "X": "located_not_machine_verified_complete",
+        "XI": "located_not_machine_verified_complete",
+        "XII": "located_not_machine_verified_complete",
+        "XIII": "located_not_machine_verified_complete",
+        "XIV": "modern_manifestation_observed_historical_relationship_unresolved",
+        "XV": "modern_manifestation_observed_historical_relationship_unresolved",
+        "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
+      },
+      "cycle_state": "Run 118 did not change scan/OCR/page-completeness state; no OCR or historical XIV-XVI equivalence was falsely upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -32,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000117",
-      "latest_search_record_path": "data/source_census/search_log_run117.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000118",
+      "latest_search_record_path": "data/source_census/search_log_run118.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 117 converted Phillips & Harrison (2017), DOI 10.1017/cnj.2017.13, into a publisher-section exact-locator and rights-boundary artifact. Cambridge shared full text is inspectable but explicitly read-only/copyrighted; underlying field/elicitation materials remain separately gated.",
+      "latest_verification": "Run 118 canonicalized the Proietti 2025 legal-deposit and Sapienza IRIS records as manifestations of one thesis work, verified repository-reported open-access timing and generic Creative Commons labelling, and explicitly withheld exact-licence and participant-derived-content claims.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign. Run 117 strengthened exact-locator provenance for an already-known scholarly work without changing permanent SOURCE, CLAIM, EVIDENCE or provenance-link counts."
+      "cycle_state": "No schema redesign; Run 118 strengthened source manifestation canonicalization and rights provenance without changing permanent SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -55,14 +73,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules and shared universal-search/evidence-drilldown contracts remain represented. No count-bearing UI change was required because no new permanent identity/claim/evidence record was promoted."
+      "sync_note": "42/42 modules and shared universal-search/evidence-drilldown/report/download/owner-console contracts remain represented; no count-bearing UI change was warranted."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Cambridge shared full text is treated as read-only copyrighted access, not as an open derivative-reuse licence. Underlying elicitation data, recordings, transcripts and participant-derived material remain consent/rights/cultural-access gated."
+      "cycle_state": "Proietti thesis repositories report Open Access from 2026-05-27 and a generic Creative Commons label, but the exact CC variant was not verified. Participant-derived, interview, image and culturally sensitive materials remain separately gated."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -74,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No publication metric/table/figure count update required because permanent repository metrics did not change. Run 117 adds provenance depth rather than a new count-bearing source or claim."
+      "manuscript_build_state": "No count/table/figure update required because permanent repository metrics did not change; Run 118 adds provenance and rights-depth only."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,34 +100,30 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run117_advanced_source": "Phillips & Harrison (2017) Munda mimetic reduplication exact publisher-section locator and rights boundary",
-      "promotion_boundary": "Bibliographic identity, article scope and methodological/source-provenance statements may be recorded. Publisher text, lexical examples, recordings, transcripts, elicitation datasets and sensitive participant-derived materials are not redistributed or treated as community-validated evidence without separate clearance."
+      "run118_advanced_source": "Proietti (2025) thesis exact identity, manifestation canonicalization, repository access state and rights boundary",
+      "promotion_boundary": "Bibliographic identity, persistent identifiers, repository access-state metadata and abstract-level scope may be recorded; participant-derived content, interviews, images, sensitive cultural claims and page-dependent assertions remain unpromoted until exact licence, provenance and cultural-access gates are resolved."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "Existing source/governance/evidence completeness gaps already cover scholarly full-text, participant-data and reuse restrictions. Run 117 narrows one source-locator gap without changing coverage-state classification.",
-    "explicit_gap_preserved": "Phillips-Harrison underlying elicitation materials and participant-derived data remain separately unverified for repository reuse and cultural access."
+    "reason": "Existing governance/evidence gaps already cover participant-derived and rights-restricted material; Run 118 narrows a source-identity and manifestation-deduplication gap.",
+    "explicit_gap_preserved": "Exact Creative Commons variant and participant/cultural-access status for Proietti thesis components remain unresolved."
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "2021ded489affe75fcee91279a3876873edbe15d",
+    "last_verified_all_four_green_commit": "762ccf1c6c73185011813356deeff3ecb67148cf",
     "four_of_four_green_claim_for_that_head": true,
-    "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "run116_status_head": "a2fbc090ec792edd4c73af01835cc5246b640fc8",
-    "run116_workflows_observed": 4,
-    "run116_migration_audit_success_observed": true,
-    "new_commits_this_cycle_before_status_sync": ["d07536658de71ec9440701b570ea60b09f376141","cbceda7a2d783d87767dba3f950a91f16e509905"],
+    "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
+    "verified_runs_for_that_head": {"source_register_audit": 1012, "migration_audit": 1062, "streamlit_smoke_test": 1158, "publication_build": 1011},
+    "new_commits_this_cycle_before_status_sync": ["7035c52a2fbf39c857ca9e16e60a40b9b50e9c18", "17104ac75e2a0975776053110fc5c53dd6d27bba"],
     "new_head_ci_state_at_status_write": "pending_independent_four_workflow_verification"
   },
   "changes_this_cycle": [
-    "Added data/source_census/phillips_harrison_2017_munda_mimetic_exact_locator_run117_2026-09-09.json.",
-    "Verified DOI 10.1017/cnj.2017.13, Canadian Journal of Linguistics 62(2), printed pages 221-242 and publisher online date 2017-03-06.",
-    "Verified Cambridge shared read-only full-text access and exact section locators for article scope and source provenance.",
-    "Canonicalized Cambridge and Swarthmore manifestations to one work identity by DOI while keeping field collections/datasets distinct.",
-    "Preserved copyright/read-only status and withheld underlying field materials, recordings, transcripts, lexical-example bulk copying and participant-derived data.",
-    "Added MMSC-SEARCH-000117 with parallel checks spanning all requested source classes.",
-    "Re-observed Proietti 2025, Raonka 2021 and Evans-Osada 2005 repository manifestations without duplicate or unsupported cultural-claim promotion.",
+    "Added data/source_census/proietti_2025_adivasi_women_thesis_identity_rights_boundary_run118_2026-09-09.json.",
+    "Verified Marilena Proietti's 2025 Sapienza doctoral-thesis identity, publication date, legal-deposit handle 20.500.14242/212639, IRIS handle 11573/1740709 and NBN URN:NBN:IT:UNIROMA1-212639.",
+    "Canonicalized the two Sapienza repository records as manifestations of one thesis work while keeping any interviews/field materials/participant data distinct.",
+    "Verified repository metadata stating Tesi_dottorato_Proietti.pdf, 47.18 MB, Open Access from 2026-05-27 and a generic Creative Commons label; exact CC variant remains unverified.",
+    "Added MMSC-SEARCH-000118 and preserved conservative rights/community/cultural-access gates.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
@@ -120,7 +134,7 @@
     "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
     "Sinha 1975 and Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
-    "Phillips-Harrison underlying elicitation materials, recordings/transcripts and participant-derived data remain separately rights/consent/cultural-access gated despite inspectable article text.",
+    "Proietti exact Creative Commons variant and participant-derived thesis components remain separately rights/consent/cultural-access gated.",
     "Karya Hindi-Mundari, Mundari TTS, MMLoSo and other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
     "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
@@ -155,8 +169,8 @@
     "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting while keeping modern XIV-XVI numbering separate from unresolved historical slots.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
     "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran and CIIL Sinha 1975 manifestations; verify pagination/page images and reuse terms before content extraction.",
-    "Continue Cook/Bhaduri/TRI/Archer/Osada and other lawful-full-text/right reconciliation.",
-    "Reconcile Proietti/Raonka/Evans-Osada and Phillips-Harrison against the master source register before any new permanent identity count.",
+    "Continue Cook/Bhaduri/TRI/Archer/Osada and other lawful-full-text/rights reconciliation.",
+    "Determine the exact Proietti thesis Creative Commons licence variant and separately review participant/cultural-access boundaries before any content-level ingestion.",
     "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest status head and run automated completeness/provenance checks before any release-gate change."
