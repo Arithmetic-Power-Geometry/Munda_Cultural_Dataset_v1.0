@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T11:33:00Z",
-  "observed_head_before_status_sync": "252f74b1e3327c1ef87d82d4815ef2a639b918e8",
+  "updated_utc": "2026-09-09T11:52:00Z",
+  "observed_head_before_status_sync": "7eda243b61393370704f39698606508ba5fa7694",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -20,25 +20,7 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "per_volume_state": {
-        "I": "located_not_machine_verified_complete",
-        "II": "located_not_machine_verified_complete",
-        "III": "located_not_machine_verified_complete",
-        "IV": "located_not_machine_verified_complete",
-        "V": "located_not_machine_verified_complete",
-        "VI": "located_not_machine_verified_complete",
-        "VII": "located_not_machine_verified_complete",
-        "VIII": "located_not_machine_verified_complete",
-        "IX": "located_not_machine_verified_complete",
-        "X": "located_not_machine_verified_complete",
-        "XI": "located_not_machine_verified_complete",
-        "XII": "located_not_machine_verified_complete",
-        "XIII": "located_not_machine_verified_complete",
-        "XIV": "modern_manifestation_observed_historical_slot_unresolved",
-        "XV": "modern_manifestation_observed_historical_slot_unresolved",
-        "XVI": "modern_manifestation_observed_historical_slot_unresolved"
-      },
-      "cycle_state": "Run 114 added a bounded work/manifestation reconciliation artifact. A contemporaneous Jesuit bibliography corroborates historical XI-XII numbering/pagination; a library-derived Google Books record corroborates historical XIII; modern Gyan records explicitly use a 16-volume model. Historical XIV-XVI text-volume equivalence remains unproven. No scan, OCR, page-completeness or cultural-content state was upgraded."
+      "cycle_state": "Run 115 was scoped to the non-Mundarica census. Run 114 Mundarica work/manifestation reconciliation remains unchanged; no scan, OCR, page-completeness or XIV-XVI historical-equivalence state was upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +32,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000114",
-      "latest_search_record_path": "data/source_census/search_log_run114.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000115",
+      "latest_search_record_path": "data/source_census/search_log_run115.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 114 reconciled historical versus modern Encyclopaedia Mundarica volume models at the work/manifestation layer. No duplicate permanent identity was created and no modern XIV-XVI numbering was back-projected into the historical series.",
+      "latest_verification": "Run 115 upgraded the 2025 BMC Nutrition Munda food-environment article to exact PMC/Springer identity, rights and section-level locator evidence. DOI 10.1186/s40795-025-01159-2 is the canonical work key; PMC and Springer are manifestations/access locators, not separate source identities.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign. Run 114 strengthened deterministic work-versus-manifestation canonicalization for Mundarica. Permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because bibliographic reconciliation did not cross the content-level evidence gate."
+      "cycle_state": "No schema redesign. Run 115 strengthened exact-locator and rights provenance for the food/environment research stream. Permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because deterministic reconciliation against the unresolved lead set has not yet assigned a new permanent SRC-MMSC identity."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +55,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules and required shared functions remain represented. Run 114 changed no count-bearing UI contract."
+      "sync_note": "42/42 modules and required shared functions remain represented. The new BMC exact-locator artifact is discoverable provenance infrastructure; no count-bearing UI contract changed in run 115."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Run 114 ingested only bibliographic/manifestation metadata. No plate image, cultural passage, participant-derived material or OCR text was ingested; rights, consent and cultural-access gates remain controlling."
+      "cycle_state": "The BMC article itself is CC BY 4.0, subject to third-party credit-line exceptions. Underlying participant datasets, free-list material, raw household records and participant-derived traditional knowledge were not ingested. Reported participant consent is not treated as MLHKP redistribution permission or community-wide validation."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +74,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No manuscript metric/table/figure update required because permanent repository metrics did not change. Current pre-run head dfe1fc8a17d2ba5e378e9496d9d72717923ac827 independently passed Publication Build run 992; newest head requires fresh CI verification."
+      "manuscript_build_state": "No manuscript metric/table/figure count update required because permanent repository metrics did not change. Run 115 adds stronger provenance, not a new count-bearing identity or claim chain; newest head requires fresh CI verification."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,9 +82,15 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run114_advanced_source": "Mundarica bibliographic/manifestation reconciliation only",
-      "promotion_boundary": "Historical/modern volume-model metadata improves canonicalization but is not itself a cultural proposition. No content-level SOURCE→EVIDENCE→CLAIM promotion occurred without authoritative scan/page provenance, rights and cultural-access clearance."
+      "run115_advanced_source": "Ghosh-Jerath et al. 2025 BMC Nutrition article exact-locator and rights provenance",
+      "promotion_boundary": "Article-level methods, geography, sample accounting, ethics/consent reporting, data-availability and license metadata are now exact-locator verified. Underlying participant data and traditional-knowledge content remain separately rights/consent/cultural-access gated. No new content-level SOURCE→EVIDENCE→CLAIM chain was created without permanent identity reconciliation."
     }
+  },
+  "coverage_gap_sync": {
+    "coverage_matrix_path": "data/coverage_matrix.json",
+    "structural_change_required_this_cycle": false,
+    "reason": "Existing COV-002, COV-009, COV-011, COV-019, COV-021, COV-023 and COV-025 already encode the relevant source, food/ecology, governance, health/demography, research-library, evidence-graph and completeness gaps. Run 115 strengthened provenance without changing those coverage-state classifications.",
+    "explicit_gap_preserved": "participant-derived raw data, free-list content and traditional-knowledge detail remain unavailable/unpromoted unless separately permitted"
   },
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "dfe1fc8a17d2ba5e378e9496d9d72717923ac827",
@@ -114,32 +102,30 @@
       "streamlit_smoke_test": 1139,
       "publication_build": 992
     },
-    "new_commits_this_cycle_before_status_sync": ["e9b539929aba6adbbc6feeb4c464c006a044c9ad","252f74b1e3327c1ef87d82d4815ef2a639b918e8"],
-    "new_head_ci_state_at_status_write": "Run 114 status sync follows two metadata-only audit commits. Do not project the prior 4/4-green claim to the newest head until all four workflows are independently observed successful."
+    "new_commits_this_cycle_before_status_sync": ["fccfcbeb298d2c91bafdf3de0fa7bd3d8b3007e6","7eda243b61393370704f39698606508ba5fa7694"],
+    "observed_new_ci": "Migration Audit run 1050 succeeded on fccfcbeb298d2c91bafdf3de0fa7bd3d8b3007e6. Do not project that single-run result or the prior 4/4-green claim to the newest status head until all four workflows are independently observed successful.",
+    "new_head_ci_state_at_status_write": "pending_independent_four_workflow_verification"
   },
   "changes_this_cycle": [
-    "Verified the live PR remains open, unmerged, base main, head mlhkp-v2.",
-    "Independently verified all four required CI workflows green on pre-run head dfe1fc8a17d2ba5e378e9496d9d72717923ac827.",
-    "Added data/source_census/mundarica_historical_vs_modern_volume_model_reconciliation_2026-09-09.json.",
-    "Recorded contemporaneous Jesuit bibliographic corroboration for historical Mundarica XI-XII numbering and continuous pagination.",
-    "Recorded library-derived bibliographic corroboration for historical Volume XIII and separate modern Gyan 16-volume numbering.",
-    "Kept modern XIV-XVI manifestations distinct from unresolved historical XIV-XVI identities; no false historical equivalence was asserted.",
-    "Added data/source_census/search_log_run114.jsonl and continued federated MMSC searches across requested source classes.",
-    "Promoted no cultural facts, OCR transcription, rights state, community validation or completeness claim.",
-    "Preserved repository metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 52 claims / 52 evidence / 52 provenance links and 42 modules."
+    "Added data/source_census/bmc_ghosh_jerath_munda_food_environment_exact_locator_2026-09-09.json.",
+    "Verified DOI 10.1186/s40795-025-01159-2, PMCID PMC12539013 and PMID 41121309 as identifiers of one peer-reviewed work; Springer and PMC are not double-counted.",
+    "Verified CC BY 4.0 article licensing while keeping third-party-material exceptions explicit.",
+    "Recorded exact authoritative HTML locators for Abstract/Methods, Study design and locale, Sampling framework, Study procedures, Data availability, and Ethics approval and consent to participate.",
+    "Preserved underlying household data, free-list material and participant-derived traditional knowledge behind separate rights, consent and cultural-access gates.",
+    "Added MMSC-SEARCH-000115 covering books, dictionaries, grammars, articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web, datasets, audio, video, maps and relevant media.",
+    "Re-observed Sinha 1975 CIIL, LSI Jharkhand, Karya/media/map and current research/media streams without duplicate promotion.",
+    "Preserved repository metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Authoritative Mundarica I-XIII scans, cryptographic hashes and page accounting remain unresolved; verified-complete volume count remains zero.",
-    "Historical XIV-XVI text-volume equivalence is unproven; modern Gyan XIV-XVI manifestations cannot be treated as historical slots without primary evidence.",
-    "Separate plate-fascicle authoritative scan, exact extent and page/image accounting remain unresolved.",
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Sinha 1975 and Mundari-Vyakaran complete file bytes, checksum, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
     "Karya Hindi-Mundari, Mundari TTS and MMLoSo item-level ingestion remains rights/licence/participant-provenance/consent/cultural-access gated; Karya-MMLoSo equivalence is unestablished.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
+    "The BMC Nutrition underlying study dataset is only available on reasonable request and has not been acquired or licensed for MLHKP redistribution; article-level CC BY 4.0 does not resolve that gap.",
     "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
@@ -168,8 +154,6 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Acquire authoritative historical Mundarica I-XIII scans and plate fascicle where lawfully obtainable; hash bytes and record exact per-volume/page-image accounting before OCR verification.",
-    "Resolve the modern Gyan XIV-XVI mapping against historical work structure using primary catalogue/title-page/publisher evidence; never back-project numbering without proof.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Retry official LSI, Tuti 2025 and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
@@ -178,6 +162,6 @@
     "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
     "Continue media/dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-114 status head and run automated completeness/provenance checks before any release-gate change."
+    "Verify all four CI workflows on the newest run-115 status head and run automated completeness/provenance checks before any release-gate change."
   ]
 }
