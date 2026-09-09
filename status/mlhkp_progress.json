@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T16:33:00Z",
-  "observed_head_before_status_sync": "9be08358f4b56986c668b0743dbfc244445e8bd8",
+  "updated_utc": "2026-09-09T16:50:00Z",
+  "observed_head_before_status_sync": "3ba7eb0bb8452f9c3559cf3fc635f54b7123a9f5",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -20,25 +20,7 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "per_volume_state": {
-        "I": "located_not_machine_verified_complete",
-        "II": "located_not_machine_verified_complete",
-        "III": "located_not_machine_verified_complete",
-        "IV": "located_not_machine_verified_complete",
-        "V": "located_not_machine_verified_complete",
-        "VI": "located_not_machine_verified_complete",
-        "VII": "located_not_machine_verified_complete",
-        "VIII": "located_not_machine_verified_complete",
-        "IX": "located_not_machine_verified_complete",
-        "X": "located_not_machine_verified_complete",
-        "XI": "located_not_machine_verified_complete",
-        "XII": "located_not_machine_verified_complete",
-        "XIII": "located_library_origin_manifestation_not_machine_verified_complete",
-        "XIV": "modern_manifestation_observed_historical_relationship_unresolved",
-        "XV": "modern_manifestation_observed_historical_relationship_unresolved",
-        "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
-      },
-      "cycle_state": "Run 124 preserved the 16/16 human-review attestation record and all conservative machine-verification states. No unverified scan, OCR or historical XIV-XVI equivalence was promoted."
+      "cycle_state": "Run 125 is non-Mundarica focused. Existing 16/16 human-review attestations and conservative machine-verification states are unchanged; no unverified scan, OCR or XIV-XVI equivalence was promoted."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +32,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000124",
-      "latest_search_record_path": "data/source_census/search_log_run124.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000125",
+      "latest_search_record_path": "data/source_census/search_log_run125.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 124 verified the official ORGI Census 2001 C-16 Jharkhand table identity: Reference ID PC01_C16-20, reference number PC01_C16, download filename PC01_C16_20.xls, person-level count scope and catalogue column structure. The workbook bytes, checksum, worksheet, Mundari row/code and exact numeric cells remain unverified, so no number was promoted.",
+      "latest_verification": "Run 125 verified official ORGI Jharkhand identities/download filenames/schema for Census 2011 ST-15 (PC11_ST15-20; ST-20-00-15-DDW-2011.XLSX), Census 2011 ST-16 (PC11_ST16-20; ST-20-00-16-DDW-2011.XLSX), and Census 2001 C-17 (PC01_C17-20; PC01_C17_20.xls). It also verified Bharatavani metadata for Man Masih Mundu's 2017 Mundari Dictionary (Mundari-English-Hindi), reported 293.91 MB and Login to Read. No Census number or dictionary content was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 124 added a provenance-bearing official Census locator artifact while preserving permanent SOURCE/CLAIM/EVIDENCE counts until cell-level numeric verification is available."
+      "cycle_state": "No redesign. Run 125 added provenance-bearing official Census and dictionary locator artifacts while preserving permanent SOURCE/CLAIM/EVIDENCE counts until byte/hash/exact-content verification permits promotion."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +55,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules and universal-search/evidence-drilldown/reports-downloads/owner-console contracts remain represented; no schema/UI remapping was warranted in Run 124."
+      "sync_note": "42/42 modules and universal-search/evidence-drilldown/reports-downloads/owner-console contracts remain represented; no schema/UI remapping was warranted in Run 125 because permanent source/claim/evidence counts did not change."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "The official ORGI catalogue was used only for source identity/scope/schema provenance. Catalogue availability was not treated as blanket derivative-reuse permission, and no community validation or sensitive participant evidence was inferred."
+      "cycle_state": "ORGI catalogue metadata was used only for source identity/scope/schema provenance. Bharatavani's Login to Read / All Rights Reserved manifestation was not ingested; no dictionary entries, participant material, cultural assertions or community validation were inferred."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +74,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Permanent counts did not change in Run 124, so no manuscript count/table/figure update was required. The prior head 541ffb6eec13e3445f7d1192fa9e52d7a05481cd is verified 4/4 green including Publication Build; the new status head requires fresh CI."
+      "manuscript_build_state": "Permanent counts did not change in Run 125, so no publication count/table/figure update is warranted. New locator artifacts improve audit depth without count inflation."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,47 +82,46 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run121_advanced_source": "Proietti 2025 doctoral thesis institutional/legal-deposit manifestation and rights/access provenance",
-      "run122_advanced_source": "TRI Jharkhand institutional secondary statement on Encyclopaedia Mundarica volume count, retained as an unresolved bibliographic discrepancy",
       "run123_advanced_source": "Evans & Osada 2005 institutional Open Access manifestation, publisher DOI/pagination/dates, and bounded abstract-level method/conclusion locators",
       "run124_advanced_source": "Official ORGI Census 2001 C-16 Jharkhand table identity and exact downloadable workbook filename",
-      "promotion_boundary": "C-16 promotion is bounded to official catalogue identity, scope, schema and filename. No Census numerical claim enters the evidence chain until workbook bytes/hash, worksheet, row/code and exact cells are independently verified."
+      "run125_advanced_source": "Official ORGI 2011 ST-15, 2011 ST-16 and 2001 C-17 Jharkhand exact catalogue/download locators plus Bharatavani Man Masih Mundu 2017 Mundari Dictionary access/rights locator",
+      "promotion_boundary": "Census promotion is bounded to official catalogue identity, scope, schema, row labels where exposed, and filenames; dictionary promotion is bounded to work/manifestation metadata and access state. No numeric or lexical/cultural content enters the evidence chain without bytes/hash/exact locators and rights/cultural-access review."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "The existing Census provenance gap category already represents the remaining C-16 uncertainty; no new schema category is required.",
-    "explicit_gap_preserved": "Official Census 2001 C-16 Jharkhand workbook PC01_C16_20.xls still requires independently obtained bytes/checksum plus worksheet, Mundari row/code and exact cell coordinates before numeric claim promotion."
+    "reason": "Existing Census provenance and restricted dictionary/full-text gap categories already represent Run 125 uncertainties; no new schema category is required.",
+    "explicit_gap_preserved": "ST-15/ST-16/C-17 workbook bytes/checksums/worksheets/exact cells and the Mundu 2017 dictionary lawful complete bytes/checksum/pagination/page locators remain unresolved."
   },
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "541ffb6eec13e3445f7d1192fa9e52d7a05481cd",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit": 1041, "migration_audit": 1091, "streamlit_smoke_test": 1187, "publication_build": 1040},
-    "new_commits_this_cycle_before_status_sync": ["caf5115933d406bf714a8596fde00578b2131ba2", "9be08358f4b56986c668b0743dbfc244445e8bd8"],
-    "new_head_ci_state_at_status_write": "prior_head_541ffb6eec13 independently 4_of_4_green; run124 status_sync_commit requires fresh CI"
+    "verified_runs_for_that_head": {"source_register_audit":1041,"migration_audit":1091,"streamlit_smoke_test":1187,"publication_build":1040},
+    "new_commits_this_cycle_before_status_sync": ["0dff2bd48e8260dcb94e981e906d5eed45a6627b","1a526d07b570987c51775ed238ed24c42d27c8b7","3ba7eb0bb8452f9c3559cf3fc635f54b7123a9f5"],
+    "new_head_ci_state_at_status_write": "Run 125 status-sync commit requires fresh CI; no green state is projected from an earlier head."
   },
   "changes_this_cycle": [
-    "Verified current pre-run head 541ffb6eec13e3445f7d1192fa9e52d7a05481cd as 4/4 green: Source Register Audit 1041, Migration Audit 1091, Streamlit Smoke Test 1187 and Publication Build 1040.",
-    "Added data/source_census/census_2001_c16_jharkhand_exact_locator_run124_2026-09-09.json.",
-    "Verified official ORGI Census 2001 C-16 Jharkhand Reference ID PC01_C16-20, reference number PC01_C16 and download filename PC01_C16_20.xls.",
-    "Kept 2001 C-16 distinct from the separate 2011 C-16 manifestation and promoted no numeric values without workbook/hash/cell verification.",
-    "Added MMSC-SEARCH-000124 and preserved cross-class census activity without duplicate source promotion.",
-    "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules.",
-    "Preserved Mundarica 16/16 human-review attestations while keeping authoritative scan count and machine-verified-complete count at zero."
+    "Added data/source_census/census_st15_st16_c17_jharkhand_exact_locators_run125_2026-09-09.json.",
+    "Verified official ORGI 2011 ST-15 Jharkhand PC11_ST15-20 / PC11_ST15 and filename ST-20-00-15-DDW-2011.XLSX, including catalogue-level Munda/Patar and MUNDA/MUNDARI labels.",
+    "Verified official ORGI 2011 ST-16 Jharkhand PC11_ST16-20 / PC11_ST16 and filename ST-20-00-16-DDW-2011.XLSX, including catalogue-level Munda/Patar and MUNDA/MUNDARI subsidiary-language labels.",
+    "Verified official ORGI 2001 C-17 Jharkhand PC01_C17-20 / PC01_C17 and filename PC01_C17_20.xls.",
+    "Added data/source_census/bharatavani_mundu_2017_mundari_dictionary_exact_locator_run125_2026-09-09.json; verified author/year/languages/publisher/content partner, reported 293.91 MB manifestation and Login to Read state without ingesting restricted content.",
+    "Added MMSC-SEARCH-000125 and preserved deterministic work/manifestation separation without duplicate promotion.",
+    "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; Run 124 now verifies C-16's exact official table ID and filename only.",
-    "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established despite 16/16 human-review attestations.",
-    "TRI Jharkhand currently states a 15-volume Encyclopaedia Mundarica, conflicting with the reconciled historical I-XIII and modern 16-volume manifestation model; edition/fascicle/title-page reconciliation remains pending.",
-    "Mundarica Volume XIII has library-origin manifestation provenance but authoritative bytes, checksum and full page/image accounting remain pending.",
-    "Sinha 1975 complete book bytes, independent checksum, page-image accounting and reuse terms remain incomplete; CIIL reports 9.63 KB while Bharatavani reports 117.39 MB.",
-    "Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
-    "Evans & Osada 2005 ANU PDF bytes, checksum, page-level locators and exact reuse licence remain incomplete because direct repository fetch returned HTTP 403.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; official identities and several filenames are now verified.",
+    "Man Masih Mundu 2017 Mundari Dictionary is Login to Read; lawful complete bytes, independent checksum, pagination/page locators and reuse terms remain unresolved for content ingestion.",
+    "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
+    "TRI Jharkhand's 15-volume Encyclopaedia Mundarica statement remains unresolved against historical I-XIII and modern 16-volume manifestation evidence.",
+    "Sinha 1975 complete book bytes, independent checksum, page-image accounting and reuse terms remain incomplete; CIIL/Bharatavani manifestation-size discrepancy persists.",
+    "Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete.",
+    "Evans & Osada 2005 ANU PDF bytes, checksum, page-level locators and exact reuse licence remain incomplete because direct repository fetch was blocked.",
     "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
     "Proietti exact Creative Commons variant and participant-derived thesis components remain separately rights/consent/cultural-access gated.",
     "Karya Hindi-Mundari, Mundari TTS, MMLoSo and other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
@@ -172,18 +153,18 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion; C-16 official identity/filename are now verified.",
+    "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Retry official LSI page-image verification while preserving page-image versus text-layer/OCR distinctions.",
-    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and convert existing human-review attestations into file/hash/page-linked audit records wherever supporting artifacts exist.",
-    "Reconcile TRI's 15-volume Mundarica statement against primary edition/fascicle/title-page evidence while keeping modern XIV-XVI numbering separate.",
-    "Retry lawful retrieval of the ANU Evans-Osada 2005 PDF or another authoritative complete manifestation; independently hash bytes, verify page locators and determine exact reuse terms before deeper extraction.",
+    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and convert human-review attestations into file/hash/page-linked records wherever supporting artifacts exist.",
+    "Reconcile TRI's 15-volume Mundarica statement against primary edition/fascicle/title-page evidence.",
+    "Seek lawful complete access to Man Masih Mundu 2017 Mundari Dictionary; hash bytes and verify pagination/page locators/reuse terms before lexical extraction.",
+    "Retry lawful retrieval of the ANU Evans-Osada 2005 PDF or another authoritative complete manifestation.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
-    "Obtain and hash a complete Sinha 1975 manifestation and reconcile the CIIL/Bharatavani size discrepancy before content extraction.",
-    "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran manifestation; verify pagination/page images and reuse terms before content extraction.",
+    "Obtain and hash complete Sinha 1975 and Ramdayal Munda grammar manifestations before content extraction.",
     "Continue Cook/Bhaduri/TRI/Archer/Osada and other lawful-full-text/rights reconciliation.",
-    "Determine the exact Proietti thesis Creative Commons licence variant and separately review participant/cultural-access boundaries before content-level ingestion.",
+    "Determine the exact Proietti thesis Creative Commons licence variant and separately review participant/cultural-access boundaries.",
     "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest status head and run automated completeness/provenance checks before any release-gate change."
+    "Verify all four CI workflows on the newest status head before any release-gate change."
   ]
 }
