@@ -1,0 +1,65 @@
+{
+  "record_type": "non_mundarica_exact_locator_verification",
+  "verification_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "candidate_title": "Flowers on a Leaf Plate - Sakam Re Baha",
+  "scope_class": ["book", "community publication", "Mundari-language resource", "food/ecological knowledge", "rights-sensitive cultural material"],
+  "identity_evidence": [
+    {
+      "authority": "Copyright Office / Intellectual Property India",
+      "resource": "New Applications_December_2025.xlsx (web-indexed PDF manifestation)",
+      "exact_locator": "row/item 2388 in the indexed December 2025 new-applications list",
+      "application_number": "LD-52105/2025-CO",
+      "application_date": "2025-12-15",
+      "title": "Flowers on a Leaf Plate - Sakam Re Baha",
+      "work_category": "Literary/ Dramatic",
+      "listed_applicant": "MARIAELENA FIGUEREDO",
+      "url": "https://ipindia.gov.in/storage/uploads/docs-operator/76644b9f-704a-4b21-ba4f-4abe591fba58.pdf",
+      "evidentiary_role": "official title/application identity and rights-provenance locator only"
+    },
+    {
+      "authority": "Village Square",
+      "article_title": "Jharkhand’s real food ‘preservative’",
+      "author": "Kiran Yadav",
+      "publication_date": "2026-03-06",
+      "url": "https://villagesquare.in/jharkhands-real-food-preservative/",
+      "reported_metadata": {
+        "publisher": "Torpa Rural Development Society for Women (TRDSW)",
+        "language": "Mundari",
+        "reported_extent_pages": 41,
+        "title_rendering": "Sakam Re Baha / Flowers on a Leaf Plate"
+      },
+      "evidentiary_role": "secondary publication/context locator; not substituted for the primary book"
+    }
+  ],
+  "deterministic_disposition": {
+    "permanent_src_mmsc_id_assigned": false,
+    "reason": "Candidate must be reconciled against the authoritative 87-lead discovery layer and existing registers before permanent-ID assignment; official IP application data strengthens identity but does not by itself establish a distinct canonical source identity in MLHKP.",
+    "deduplication_rule": "Treat title variants 'Sakam Re Baha' and 'Flowers on a Leaf Plate - Sakam Re Baha' as one candidate intellectual work unless primary evidence proves otherwise. Do not treat the IP application record, Village Square article, exhibit/social posts, or future physical/digital manifestations as separate intellectual works."
+  },
+  "rights_access_consent_cultural_boundary": {
+    "copyright_application_observed": true,
+    "copyright_registration_or_grant_inferred": false,
+    "open_license_inferred": false,
+    "redistribution_permission_inferred": false,
+    "text_or_image_reuse_permission_inferred": false,
+    "community_wide_consent_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_clearance_inferred": false,
+    "community_validation_inferred": false,
+    "note": "The official application locator is rights-provenance evidence, not a reuse licence. The secondary article reports community-linked ecological/food knowledge; no recipe, plant-use, medicinal, ritual, ecological or ancestral-knowledge proposition is promoted without primary-object inspection plus rights/consent/cultural-access review."
+  },
+  "promotion_state": {
+    "discovery_only": false,
+    "exact_locator_identity_record": true,
+    "cultural_claim_promoted": false,
+    "evidence_graph_row_added": false,
+    "reason": "Exact official identity/rights locator is now preserved, but no content-level proposition is safely promotable from the accessible sources."
+  },
+  "next_actions": [
+    "Locate a primary publisher/physical-library/digital-object record for the book and verify edition, authorship/contributor statement, pagination and publication date from the object itself.",
+    "Reconcile the candidate against all 87 discovery leads before assigning a permanent SRC-MMSC identifier.",
+    "Record item-level rights and cultural-access disposition before ingesting any recipes, plant identifications, ecological practices, images, quotations or participant-derived material.",
+    "If a lawfully inspectable copy becomes available, create exact page/section locators and promote only propositions directly supported by permitted evidence."
+  ]
+}
