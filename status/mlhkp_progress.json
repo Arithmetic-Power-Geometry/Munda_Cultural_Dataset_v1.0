@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T04:31:00Z",
-  "observed_head_before_status_sync": "79dd2b431a347cfd64178d71619d53e4a3b283a2",
+  "updated_utc": "2026-09-09T04:52:00Z",
+  "observed_head_before_status_sync": "28a39c716e5ae985f8401f1bfc329defff57cc65",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,7 +19,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_not_machine_verified_complete","XIV":"historical_slot_unresolved","XV":"historical_slot_unresolved","XVI":"historical_slot_unresolved"
       },
-      "cycle_state": "Run 100 did not upgrade Mundarica scan, OCR, page-accounting, structuring or completeness state; authoritative page-level verification remains unresolved."
+      "cycle_state": "Run 101 did not upgrade Mundarica scan, OCR, page-accounting, structuring or completeness state; authoritative page-level verification remains unresolved."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -31,10 +31,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000100",
-      "latest_search_record_path": "data/source_census/search_log_run100.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000101",
+      "latest_search_record_path": "data/source_census/search_log_run101.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 100 verified the official CIIL/Bhasha Sanchika catalogue manifestation for Ramdayal Munda's Mundari-Vyakaran (catalogued 2013; BVP00202.pdf) and separately recorded the repository end-user-agreement boundary; no permanent source ID was assigned pending deterministic reconciliation with the earlier 1979 bibliographic work signal.",
+      "latest_verification": "Run 101 advanced the Eastern Zonal Cultural Centre Folk Dances of Jharkhand video from generic media discovery to a stable Wikimedia Commons manifestation with SHA-1, reviewed CC BY 3.0 license and exact Mundari-related timestamps; no permanent source ID was assigned pending deterministic discovery-layer reconciliation.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -42,7 +42,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign; identity/rights verification was strengthened without unsupported permanent SOURCE, CLAIM, EVIDENCE or provenance rows."
+      "cycle_state": "No schema redesign; exact media locator and rights evidence were strengthened without unsupported permanent SOURCE, CLAIM, EVIDENCE or provenance rows."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -52,7 +52,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 100 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no metric remapping was required because permanent source/evidence counts did not change."
+      "sync_note": "Run 101 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no metric remapping was required because permanent source/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -64,7 +64,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-99 status head 5fc7acc6fde2248ee70a79f487877650bdcbd225 independently verified 4/4 green: Source Register Audit 921, Migration Audit 971, Streamlit Smoke Test 1067, Publication Build 920. Run 100 changes no manuscript metrics because permanent source/evidence counts did not change."
+      "manuscript_build_state": "Run-100 status head 8e9ecfe647e44c1622badc49bc7998ec76550fa0 independently verified 4/4 green: Source Register Audit 926, Migration Audit 976, Streamlit Smoke Test 1072, Publication Build 925. Run 101 changes no manuscript metrics because permanent source/evidence counts did not change."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -72,27 +72,27 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run100_advanced_source": "Ramdayal Munda's Mundari-Vyakaran advanced to an official CIIL catalogue/file-locator plus repository-terms verification artifact. It remains outside permanent counts pending deterministic edition/work reconciliation and rights verification.",
-      "promotion_boundary": "Official catalogue metadata supports identity and locator facts only; public repository availability does not establish derivative reuse permission, page-level grammar claims, OCR verification, community validation or cultural representativeness."
+      "run101_advanced_source": "Eastern Zonal Cultural Centre's Folk Dances of Jharkhand documentary advanced to a reviewed-license Commons manifestation with checksum and exact Mundari-related timestamps. It remains outside permanent counts pending deterministic work/manifestation reconciliation.",
+      "promotion_boundary": "CC BY 3.0 and stable media metadata support file-level identity/reuse facts and exact locators only; they do not establish participant consent for arbitrary downstream uses, community-wide cultural authority, or generalized cultural propositions."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "5fc7acc6fde2248ee70a79f487877650bdcbd225",
+    "last_verified_all_four_green_commit": "8e9ecfe647e44c1622badc49bc7998ec76550fa0",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":921,"migration_audit":971,"streamlit_smoke_test":1067,"publication_build":920},
-    "new_commits_this_cycle_before_status_sync": ["e0efdd5b7cc0dae8d732e651ca508fd61bb3ee9c","79dd2b431a347cfd64178d71619d53e4a3b283a2"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-100 status head must be independently verified; do not project the verified 5fc7acc6 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":926,"migration_audit":976,"streamlit_smoke_test":1072,"publication_build":925},
+    "new_commits_this_cycle_before_status_sync": ["41e178e85a2de5e2457485a27c329484d3ccfb2a","28a39c716e5ae985f8401f1bfc329defff57cc65"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-101 status head must be independently verified; do not project the verified 8e9ecfe6 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed run-99 status head 5fc7acc6fde2248ee70a79f487877650bdcbd225 as 4/4 green across all required workflows.",
-    "Added an official CIIL/Bhasha Sanchika catalogue and rights-boundary verification artifact for Ramdayal Munda's Mundari-Vyakaran.",
-    "Recorded catalogue metadata including 2013 publication year as catalogued, Rumbul Ranchi Jharkhand citation, file BVP00202.pdf and the Bhasha Sanchika end-user-agreement locator.",
-    "Explicitly withheld full-text reuse, grammar-rule/page claims, OCR verification and permanent source promotion because applicable derivative reuse permission and file-level audit remain unresolved.",
-    "Kept the 1979 Mundari Sahitya Parishad bibliographic signal separate from the 2013 CIIL manifestation until edition/work equivalence is supported, preventing duplicate-source inflation or premature collapse.",
-    "Recorded MMSC-SEARCH-000100 across requested source classes and preserved all existing blockers.",
+    "Confirmed run-100 status head 8e9ecfe647e44c1622badc49bc7998ec76550fa0 as 4/4 green across all required workflows.",
+    "Added an exact-locator verification artifact for the Eastern Zonal Cultural Centre Folk Dances of Jharkhand documentary.",
+    "Recorded the stable Commons media manifestation, 531678981-byte size, SHA-1 eb3421c6428ea386f8f340520ab9aa0672de6000, 39:31 duration, CC BY 3.0 license and Commons license-review date 2023-01-20.",
+    "Recorded exact Commons-supplied timestamps 04:28 Paika (Munda community), 06:00 Mundari and 11:12 Mundari (Marriage) without converting those labels into generalized cultural claims.",
+    "Kept YouTube and Commons as manifestations of one media work pending discovery-layer reconciliation, preventing duplicate-source inflation.",
+    "Recorded MMSC-SEARCH-000101 across all requested source classes and preserved blocked or unverified streams as explicit gaps.",
     "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no new permanent identity/evidence-chain row crossed the promotion gate.",
-    "No cultural fact, right, consent, OCR verification, community validation or source-completeness claim was fabricated; main was not modified or merged."
+    "No cultural fact, consent, community validation, OCR verification or source-completeness claim was fabricated; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
@@ -105,6 +105,7 @@
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
+    "EZCC documentary participant-level consent and cultural-authority questions remain separate from the verified CC BY 3.0 file license.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
@@ -131,16 +132,17 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile the 2013 CIIL Mundari-Vyakaran manifestation against the 1979 bibliographic work signal and the 87-lead discovery layer before assigning any new permanent SRC-MMSC ID.",
+    "Deterministically reconcile the EZCC documentary's YouTube/Commons manifestations against the 87-lead discovery layer before assigning any new permanent SRC-MMSC ID.",
+    "Deterministically reconcile the 2013 CIIL Mundari-Vyakaran manifestation against the 1979 bibliographic work signal and discovery layer.",
     "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before any numeric claim promotion.",
     "Obtain and hash official CIIL Sinha 1975 and Mundari-Vyakaran files, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after identity reconciliation.",
     "Retry official LSI page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before content extraction.",
-    "Reconcile MMLoSo Mundari benchmark data licensing and exact resource identities before any corpus-content ingestion.",
+    "Reconcile MMLoSo Mundari benchmark data licensing and exact resource identities before corpus-content ingestion.",
     "Continue media candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-100 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-101 status head and repair any regression before further metric-changing promotion."
   ]
 }
