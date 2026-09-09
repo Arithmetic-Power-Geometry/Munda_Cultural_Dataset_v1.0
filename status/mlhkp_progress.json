@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T18:33:00Z",
-  "observed_head_before_status_sync": "0f4df49eb16d284bc253d65ca8f58133fb3831b3",
+  "updated_utc": "2026-09-09T18:46:00Z",
+  "observed_head_before_status_sync": "8cc92042e8b1c45e60916dd88cc7996bc9641147",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -38,7 +38,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 128 preserved the team's 16/16 human-review attestations and all conservative machine-verification states; no scan/OCR/page-complete or XIV-XVI equivalence claim was promoted."
+      "cycle_state": "Run 129 was non-Mundarica focused and preserved all prior conservative Mundarica machine-verification states; no scan/OCR/page-complete or XIV-XVI equivalence claim was promoted."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000128",
-      "latest_search_record_path": "data/source_census/search_log_run128.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000129",
+      "latest_search_record_path": "data/source_census/search_log_run129.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs are preserved separately and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 128 performed targeted primary-manifestation searches for the reported 1941 Mundari hockey booklet. The 2023 Indian Express report remains a secondary source only; no independent catalogue/archive/accession/scan/title-page/direct-custody locator was located, so no count-bearing source identity or cultural evidence was promoted.",
+      "latest_verification": "Run 129 verified the Språkbanken Text digitized/enriched Linguistic Survey of India dataset at DOI 10.23695/d24m-ja14, its downloadable lsi.xml.bz2 locator, 2020-08-25 modification date, CC BY 4.0 licence, corpus extent metadata, and project-reported page-linked text annotations. Direct byte acquisition failed in the current runtime, so no checksum, exact Mundari XML segment, lexical item, numeric claim or cultural proposition was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 128 added deterministic source-disposition provenance without inflating SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No redesign. Run 129 added deterministic dataset-manifestation and rights provenance without inflating SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +73,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented."
+      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no count-bearing UI change was justified by Run 129."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "The 1941-booklet newspaper report was not treated as permission to ingest or redistribute photographed/quoted material; no custody, rights, consent or community-validation status was inferred."
+      "cycle_state": "Språkbanken's dataset-level CC BY 4.0 declaration was recorded exactly but not generalized into participant consent, contemporary Munda community validation, or unrestricted cultural access. Karya/Bharatavani and other participant/restricted streams remained separately gated."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "On head 8906532ab904e4a21d3dfc949ad6d90558b771a5 the Publication Build failed before manuscript steps because GitHub runner apt-get update encountered a Google Chrome repository Hash Sum mismatch. Source Register, Migration and Streamlit passed. The failed Publication job was re-run; at status write the rerun was still in progress. No manuscript/code defect is inferred from this infrastructure failure."
+      "manuscript_build_state": "Run 129 did not alter count-bearing publication metrics/tables/figures. Head 4dc0df0f43cbe8e82afcdbf392b9c9f4861fd189 had four workflow runs visible and Migration Audit completed successfully; the newest Run-129 commits require their own CI verification before any all-green claim is projected."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -102,33 +102,32 @@
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
       "run127_advanced_source": "DRMTWRI 1993 Munda exact locator plus Raonka dissertation exact locator and participant/cultural-access boundary",
       "run128_advanced_source": "1941 Mundari hockey booklet primary-locator disposition audit; secondary report retained but no primary manifestation promoted",
-      "promotion_boundary": "No new public cultural claim entered the evidence chain in Run 128."
+      "run129_advanced_source": "Språkbanken LSI DOI/file/licence/page-annotation exact-locator audit with failed-byte-acquisition boundary",
+      "promotion_boundary": "No new public cultural claim entered the evidence chain in Run 129."
     }
   },
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "c6a258c734226902308747900d0c721251bf86a6",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows_for_last_verified_head": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "head_8906532_state": {
-      "source_register_audit": {"run": 1065, "conclusion": "success"},
-      "migration_audit": {"run": 1115, "conclusion": "success"},
-      "streamlit_smoke_test": {"run": 1211, "conclusion": "success"},
-      "publication_build": {"run": 1064, "conclusion": "failure", "failed_step": "Install publication toolchain", "root_cause_observed": "Google Chrome APT repository Hash Sum mismatch during apt-get update", "rerun_requested": true, "rerun_state_at_status_write": "in_progress"}
-    },
-    "new_commits_this_cycle_before_status_sync": ["c977656a06102441e64a53cab873cc3e76385d0d", "0f4df49eb16d284bc253d65ca8f58133fb3831b3"],
-    "new_head_ci_state_at_status_write": "Run 128 status-sync commit requires fresh CI; no green result is projected from earlier heads."
+    "run128_status_head": "4dc0df0f43cbe8e82afcdbf392b9c9f4861fd189",
+    "run128_workflow_observation": "Four workflow runs were visible for the Run-128 status head; Migration Audit run 1120 completed successfully. No complete 4/4 conclusion was inferred from a truncated workflow-list response.",
+    "new_commits_this_cycle_before_status_sync": ["207e1110bc0fd31bf7513733efc333d7b5bd1d4a", "8cc92042e8b1c45e60916dd88cc7996bc9641147"],
+    "new_head_ci_state_at_status_write": "Run 129 status-sync commit requires fresh CI; no green result is projected from earlier heads."
   },
   "changes_this_cycle": [
-    "Diagnosed Publication Build #1064 failure from job logs as an external Google Chrome APT index Hash Sum mismatch during toolchain installation; manuscript regeneration/compile steps had not run.",
-    "Re-ran the failed Publication Build job instead of altering manuscript evidence or claiming a code fix.",
-    "Added data/source_census/hans_1941_mundari_hockey_primary_locator_search_run128_2026-09-09.json.",
-    "Added MMSC-SEARCH-000128 documenting targeted author/year/archive/catalogue searches and deterministic non-promotion of the secondary report.",
+    "Added data/source_census/sprakbanken_lsi_ccby_exact_locator_run129_2026-09-10.json.",
+    "Verified Språkbanken LSI dataset DOI 10.23695/d24m-ja14, lsi.xml.bz2 file locator, reported 6.23 MB size, 2020-08-25 modification date, CC BY 4.0 licence, and reported 1,193,437-token / 72,669-sentence corpus extent.",
+    "Recorded project documentation that corpus text-level annotations include LSI volume/part, language name, ISO 639-3 code, page number and page-source URL, creating a defensible path toward exact page-linked Mundari evidence after byte/query acquisition.",
+    "Attempted direct lsi.xml.bz2 acquisition; retrieval failed in the current runtime and the failure was preserved explicitly rather than inventing a checksum or segment locator.",
+    "Added MMSC-SEARCH-000129 covering all requested source classes and deterministic deduplication of Språkbanken manifestations against the underlying Grierson LSI work.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Newest head requires fresh four-workflow verification; Publication Build rerun on earlier head was still in progress at status write.",
+    "Newest head requires fresh four-workflow verification.",
+    "Språkbanken lsi.xml.bz2 bytes/checksum and exact Mundari XML segment/page-linked locators remain pending after current-runtime download failure.",
     "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
@@ -167,9 +166,9 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Convert existing Mundarica human-review attestations into manifestation/file/hash/page-linked audit records wherever supporting artifacts are available, without repeating completed team review.",
+    "Retry Språkbanken LSI corpus acquisition or Korp exact-query access, then independently hash bytes and extract Mundari-only segment/page-source locators before any content promotion.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
-    "Retry official LSI PDF byte acquisition and exact page-image verification while preserving text-layer/OCR distinctions.",
+    "Retry official LSI Jharkhand PDF byte acquisition and exact page-image verification while preserving text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and reconcile TRI's 15-volume statement against primary edition evidence.",
     "Search institutional/library/church/mission catalogues for a primary manifestation of the reported 1941 Mundari hockey booklet.",
     "Continue lawful full-text/rights reconciliation for DRMTWRI, Raonka, Man Masih Mundu, Sinha, Ramdayal Munda, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada sources.",
