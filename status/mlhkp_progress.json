@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T15:39:00Z",
-  "observed_head_before_status_sync": "4d44eb44ce724efd8b653e304bd9a989a6ce7f67",
+  "updated_utc": "2026-09-09T15:45:00Z",
+  "observed_head_before_status_sync": "854b337e6df5d6d7ff98a18c8cdf8a999d0b3e3e",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -38,7 +38,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 122 preserved all completeness states and recorded a TRI Jharkhand institutional secondary statement describing Encyclopaedia Mundarica as 15 volumes. Because that statement conflicts with the currently reconciled historical I-XIII and modern 16-volume manifestation evidence and lacks edition-specific title-page/scan/pagination support, it is stored as an unresolved bibliographic discrepancy rather than a canonical volume-count change."
+      "cycle_state": "Run 123 preserved all Mundarica completeness states. The TRI Jharkhand 15-volume statement remains an unresolved bibliographic discrepancy and was not used to change the canonical historical/modern manifestation model."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000122",
-      "latest_search_record_path": "data/source_census/search_log_run122.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000123",
+      "latest_search_record_path": "data/source_census/search_log_run123.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 122 verified the TRI Jharkhand Munda page as an institutional source displaying a 15-volume Encyclopaedia Mundarica statement, rechecked the Proietti thesis access/licence boundary, and searched for a primary manifestation of the reported 1941 Mundari hockey booklet without locating one. No count-bearing source identity was promoted.",
+      "latest_verification": "Run 123 upgraded Evans & Osada (2005), Mundari: The myth of a language without word classes, to a verified DOI-canonicalized institutional Open Access manifestation with stable ANU handle, repository-listed PDF filename/size, publisher pagination/dates and bounded abstract-level exact locators. Direct ANU fetch returned HTTP 403, so PDF bytes, checksum, page locators and exact reuse licence remain explicit gaps. No new count-bearing source identity was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 122 added a provenance-bearing discrepancy record while preserving permanent SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No redesign. Run 123 added a provenance-bearing exact-locator artifact for an already-known scholarly stream while preserving permanent SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +73,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules and shared universal-search/evidence-drilldown/reports-downloads/owner-console contracts remain represented; evidence verification was prioritized over redesign in Run 122."
+      "sync_note": "42/42 modules and shared universal-search/evidence-drilldown/reports-downloads/owner-console contracts remain represented; no count/schema remapping was warranted in Run 123."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Proietti remains Open Access from 2026-05-27 with a repository-displayed generic Creative Commons label, while the inspected UNITesi page also states documents are copyright protected/all rights reserved unless otherwise indicated. Exact CC variant remains unresolved; participant-derived material remains separately consent/privacy/cultural-access gated. TRI public-page availability was not treated as permission for underlying source reproduction."
+      "cycle_state": "ANU marks the Evans-Osada repository manifestation Open Access, but the exact open-reuse licence variant was not established and direct PDF fetch was blocked. No underlying lexical sample, field data, participant-derived material or publisher text was ingested; publication and Open Access status were not treated as participant consent, community validation or blanket redistribution permission."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure metric update required because permanent repository metrics did not change; manuscript remains synchronized to the same defensible counts pending fresh CI on the status head."
+      "manuscript_build_state": "No count/table/figure metric update required because permanent repository metrics did not change; manuscript remains synchronized to the same defensible counts pending fresh CI on the run-123 status head."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -102,30 +102,32 @@
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
       "run121_advanced_source": "Proietti 2025 doctoral thesis institutional/legal-deposit manifestation and rights/access provenance",
       "run122_advanced_source": "TRI Jharkhand institutional secondary statement on Encyclopaedia Mundarica volume count, retained as an unresolved bibliographic discrepancy",
-      "promotion_boundary": "The TRI statement is verified only as displayed institutional secondary metadata and is not promoted as the canonical volume count. No participant quotation, cultural proposition, unverified licence permission, OCR text or unsupported edition equivalence was promoted."
+      "run123_advanced_source": "Evans & Osada 2005 institutional Open Access manifestation, publisher DOI/pagination/dates, and bounded abstract-level method/conclusion locators",
+      "promotion_boundary": "Evans-Osada promotion is bounded to bibliographic identity, repository manifestation/access metadata, publisher abstract-level methodological provenance and the article's own bounded conclusion. Underlying lexical/field material, participant-derived content and unverified reuse permissions remain excluded."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "Existing source-completeness and manifestation-reconciliation gaps cover the newly documented 15-volume discrepancy; no new schema category is required.",
-    "explicit_gap_preserved": "Mundarica edition/volume/fascicle history requires primary title-page, publisher/library, scan and pagination reconciliation before a canonical historical count beyond I-XIII can be asserted."
+    "reason": "Existing source-completeness, manifestation, rights and participant-derived-data gaps already represent the Evans-Osada residual uncertainty; no new schema category is required.",
+    "explicit_gap_preserved": "Evans & Osada 2005 ANU PDF bytes/checksum/page-level locators and exact open-reuse licence remain unresolved after direct repository fetch returned HTTP 403."
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "2fc7724c6a8d6de40c30cf2fee8524fed6ee9dea",
+    "last_verified_all_four_green_commit": "de26c4b0cee34186a990897b21e05f2633652d27",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "verified_runs_for_that_head": {"source_register_audit": 1031, "migration_audit": 1081, "streamlit_smoke_test": 1177, "publication_build": 1030},
-    "new_commits_this_cycle_before_status_sync": ["543b456d978c998af654cce4da747ab1d47ad939", "4d44eb44ce724efd8b653e304bd9a989a6ce7f67"],
-    "new_head_ci_state_at_status_write": "prior_status_head_2fc7724_independently_4_of_4_green; run122 status_sync_commit_requires_fresh_ci"
+    "verified_runs_for_that_head": {"source_register_audit": 1036, "migration_audit": 1086, "streamlit_smoke_test": 1182, "publication_build": 1035},
+    "new_commits_this_cycle_before_status_sync": ["5fff5a6d63cfeeccca6b165339a8bd1103a1b45d", "854b337e6df5d6d7ff98a18c8cdf8a999d0b3e3e"],
+    "new_head_ci_state_at_status_write": "prior_status_head_de26c4b0 independently 4_of_4_green; run123 status_sync_commit_requires_fresh_ci"
   },
   "changes_this_cycle": [
-    "Added data/source_census/tri_munda_mundarica_volume_count_discrepancy_run122_2026-09-09.json.",
-    "Recorded TRI Jharkhand's institutional secondary 15-volume Encyclopaedia Mundarica statement as a contradiction requiring primary manifestation reconciliation, not as a canonical volume-count replacement.",
-    "Added MMSC-SEARCH-000122 with cross-stream searches covering Mundarica, government/TRI, thesis rights and the reported 1941 hockey booklet.",
-    "Rechecked Proietti repository rights metadata: generic Creative Commons label remains visible, exact variant remains unresolved, and UNITesi's copyright reservation reinforces the no-inference boundary.",
-    "Searched for a primary catalogue/archive/accession/scan/title-page manifestation of the reported 1941 Mundari hockey booklet; none was independently located this cycle.",
-    "Verified prior status head 2fc7724c6a8d6de40c30cf2fee8524fed6ee9dea as 4/4 green.",
+    "Added data/source_census/evans_osada_2005_mundari_word_classes_exact_locator_run123_2026-09-09.json.",
+    "Canonicalized ANU Open Research Repository, ANU Research Portal and De Gruyter manifestations of Evans & Osada 2005 to one DOI-keyed work identity.",
+    "Verified ANU Open Access manifestation metadata, persistent handle 1885/54663, repository-listed PDF filename/size, and publisher DOI/pagination/publication dates.",
+    "Recorded direct ANU repository HTTP 403 as a blocker and did not invent full-text page locators, checksum or exact licence variant.",
+    "Added MMSC-SEARCH-000123 with cross-class searches covering books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI, archives, newspapers, web, datasets, audio, video, maps and media.",
+    "Rechecked Karya TTS, Wikimedia Mundari map and documentary/media leads without duplicate promotion or participant-derived ingestion.",
+    "Verified prior status head de26c4b0cee34186a990897b21e05f2633652d27 as 4/4 green.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
@@ -138,6 +140,7 @@
     "Mundarica Volume XIII has library-origin manifestation provenance but authoritative bytes, checksum and full page/image accounting remain pending.",
     "Sinha 1975 complete book bytes, independent checksum, page-image accounting and reuse terms remain incomplete; CIIL reports 9.63 KB while Bharatavani reports 117.39 MB.",
     "Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
+    "Evans & Osada 2005 ANU PDF bytes, checksum, page-level locators and exact reuse licence remain incomplete because direct repository fetch returned HTTP 403.",
     "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
     "Proietti exact Creative Commons variant and participant-derived thesis components remain separately rights/consent/cultural-access gated.",
     "Karya Hindi-Mundari, Mundari TTS, MMLoSo and other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
@@ -172,6 +175,7 @@
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Retry official LSI page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and reconcile TRI's 15-volume statement against primary edition/fascicle/title-page evidence while keeping modern XIV-XVI numbering separate.",
+    "Retry lawful retrieval of the ANU Evans-Osada 2005 PDF or another authoritative complete manifestation; independently hash bytes, verify page locators and determine exact reuse terms before deeper extraction.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
     "Obtain and hash a complete Sinha 1975 manifestation and reconcile the CIIL/Bharatavani size discrepancy before content extraction.",
     "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran manifestation; verify pagination/page images and reuse terms before content extraction.",
