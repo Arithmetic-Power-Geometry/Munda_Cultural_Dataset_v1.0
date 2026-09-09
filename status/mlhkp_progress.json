@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T10:38:00Z",
-  "observed_head_before_status_sync": "f0610b7a6ab433413f01e5cfc39086d61dc41e1d",
+  "updated_utc": "2026-09-09T10:49:00Z",
+  "observed_head_before_status_sync": "6b11b682d19d62bea27eb7dc5cfad202de6389e5",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "historical_slot_unresolved",
         "XVI": "historical_slot_unresolved"
       },
-      "cycle_state": "Run 112 preserved the existing acquisition/OCR/page-accounting state while independent Census provenance work advanced. No Mundarica volume was upgraded: authoritative scan/page verification remains unresolved and modern manifestations remain insufficient proof of historical completeness."
+      "cycle_state": "Run 113 is a non-Mundarica census/ingestion cycle. Existing Mundarica acquisition/OCR/page-accounting state was preserved without unsupported upgrades."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000112",
-      "latest_search_record_path": "data/source_census/search_log_run112.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000113",
+      "latest_search_record_path": "data/source_census/search_log_run113.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 112 independently reverified the official ORGI Census 2011 Jharkhand ST-15 identity PC11_ST15-20 / ST-20-00-15-DDW-2011.XLSX and ST-16 identity PC11_ST16-20 / ST-20-00-16-DDW-2011.XLSX, including table-level semantics. These are treated as manifestations/authority locators of the existing Census source stream, not new identities. No workbook bytes, checksums, worksheet-row-cell coordinates or numerical claims were promoted.",
+      "latest_verification": "Run 113 independently verified official ORGI Census 2011 Jharkhand C-16 identity PC11_C16-20 / DDW-C16-STMT-MDDS-2000.xlsx and C-17 identity PC11_C17-20 / DDW-C17-2000.XLSX, including table semantics and C-17 MUNDA/MUNDARI row labels. These remain authority manifestations within the existing Census stream; no workbook bytes, hashes, exact cells or numbers were promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 112 added a bounded Census source-locator/schema provenance artifact only; permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because no numerical or cultural proposition satisfied the exact-cell provenance gate."
+      "cycle_state": "No schema redesign. Run 113 added bounded C-16/C-17 source-locator/schema provenance only; permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because no numerical or cultural proposition crossed the exact-cell/evidence gate."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 112 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping. No count-bearing UI remap was justified because permanent identities/evidence counts did not change."
+      "sync_note": "Run 113 preserves 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping. No count-bearing UI remap was justified because permanent identities/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Commit 63acdd2b040ed043b4735eed526fca386fe8e04f is independently verified 4/4 green with Source Register Audit 983, Migration Audit 1033, Streamlit Smoke Test 1129 and Publication Build 982. Run 112 changes no manuscript metrics because permanent source/evidence counts did not change. The new status-sync head must be independently verified before projecting that green state forward."
+      "manuscript_build_state": "Run 113 changes no manuscript metrics because permanent source/evidence counts did not change. The prior run-112 status head had four workflow runs created and at least Migration Audit 1038 completed successfully; do not project a 4/4-green claim to the newest head without independent verification."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,8 +87,8 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run112_advanced_source": "Existing Census source stream gained official ST-15/ST-16 Jharkhand source-locator and table-schema provenance in data/source_census/census_st15_st16_jharkhand_schema_locator_verification_2026-09-09.json.",
-      "promotion_boundary": "Official catalogue metadata supports source identity, workbook filename and table-level semantic provenance only. Numeric Census claims require acquired workbook bytes, checksum, worksheet, row and exact cell coordinates. Public catalogue availability does not override cultural-access, privacy or governance gates."
+      "run113_advanced_source": "Existing Census source stream gained official C-16/C-17 Jharkhand source-locator, schema and relevant-row-label provenance in data/source_census/census_c16_c17_jharkhand_schema_locator_verification_2026-09-09.json.",
+      "promotion_boundary": "Official catalogue metadata supports source identity, workbook filename, table semantics, schema and row-label provenance only. Numeric Census claims require acquired workbook bytes, checksum, worksheet, row and exact cell coordinates. Public catalogue availability does not override cultural-access, privacy or governance gates."
     }
   },
   "tests_and_workflows": {
@@ -101,15 +101,17 @@
       "streamlit_smoke_test": 1129,
       "publication_build": 982
     },
-    "new_commits_this_cycle_before_status_sync": ["325b6440ccc5d685b3efe67d602947edad4f6fee","f0610b7a6ab433413f01e5cfc39086d61dc41e1d"],
-    "new_head_ci_state_at_status_write": "Run 112 changes are descendants of independently verified 4/4-green commit 63acdd2b. Do not project that 4/4-green state to the new status-sync head without independent verification."
+    "new_commits_this_cycle_before_status_sync": ["2b81459d46156acc19cc5d7266c4d13b97dd080b","6b11b682d19d62bea27eb7dc5cfad202de6389e5"],
+    "new_head_ci_state_at_status_write": "Run 113 changes descend from prior audited state. Independent workflow verification is required before projecting any 4/4-green claim to this status-sync head."
   },
   "changes_this_cycle": [
-    "Independently reverified official ORGI Jharkhand ST-15 reference PC11_ST15-20 with workbook ST-20-00-15-DDW-2011.XLSX and ST-16 reference PC11_ST16-20 with workbook ST-20-00-16-DDW-2011.XLSX.",
-    "Recorded table-level provenance: both are Census 2011 state/UT Scheduled Tribe language tables with person-level count statistics; ST-15 is mother-tongue-by-tribe and ST-16 is bilingualism-by-tribe.",
-    "Kept catalogue views/workbook filenames as authority/manifestation locators of the existing Census stream rather than creating duplicate permanent identities.",
-    "Attempted direct official catalogue page retrieval after search-index verification; one request returned a gateway error and another timed out, so workbook-byte acquisition remained blocked and independent work continued.",
-    "Added data/source_census/census_st15_st16_jharkhand_schema_locator_verification_2026-09-09.json and data/source_census/search_log_run112.jsonl.",
+    "Independently verified official ORGI Jharkhand C-16 reference PC11_C16-20 with workbook DDW-C16-STMT-MDDS-2000.xlsx and C-17 reference PC11_C17-20 with workbook DDW-C17-2000.XLSX.",
+    "Recorded C-16 table semantics/schema fields and C-17 bilingualism/trilingualism semantics plus official MUNDA and MUNDARI total-speaker row labels.",
+    "Kept C-16/C-17 catalogue/workbook records as authority/manifestation locators within the existing Census stream rather than duplicate permanent identities.",
+    "Ran federated searches across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media.",
+    "Re-observed Karya TTS, Tuti 2025, TRI, Shrivastava 2013 and Wikimedia map streams without duplicate promotion; surfaced newer fieldwork/food/folktale candidates but withheld cultural claims pending full evidence, rights, consent and cultural-access review.",
+    "Searched again for the reported 1941 Mundari hockey rulebook; no independent primary catalogue/archive/accession/scan/title-page/direct-custody locator was found, so the secondary report remains an explicit gap.",
+    "Added data/source_census/census_c16_c17_jharkhand_schema_locator_verification_2026-09-09.json and data/source_census/search_log_run113.jsonl.",
     "Promoted no Census numbers because file bytes, checksums, worksheet names, rows and exact cell coordinates remain unverified.",
     "Preserved audited metrics at 41/87/13/52/52/52 and 42 modules; no manuscript metric, graph count, table or figure change was justified."
   ],
@@ -117,7 +119,7 @@
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; direct official catalogue retrieval was transiently blocked in run 112 after metadata verification.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; C-16/C-17 official identities/schema were independently verified in run 113.",
     "Sinha 1975 CIIL full-text file bytes, checksum, pagination/page images, exact page locators and reuse terms remain unverified for content-level ingestion.",
     "Mundari-Vyakaran has an official CIIL handle and visually verified one-page manifestation, but complete grammar/full-text bytes, independent checksum, full pagination/page-image accounting and derivative reuse permission remain unresolved; historical manifestation relationships remain unresolved.",
     "White Rose accepted-manuscript screenshot/page-image rendering remains visually unverified; exact locators are text-layer verified only.",
@@ -165,6 +167,6 @@
     "Perform Karya licence compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-112 status head."
+    "Verify all four CI workflows on the newest run-113 status head."
   ]
 }
