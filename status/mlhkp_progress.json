@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T09:33:00Z",
-  "observed_head_before_status_sync": "7803a0b0f7da3d4843decd1e0844167f90b02a9c",
+  "updated_utc": "2026-09-09T09:58:00Z",
+  "observed_head_before_status_sync": "aedd1acd215b36aa62a4ba07bbad288e0b10a009",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "historical_slot_unresolved",
         "XVI": "historical_slot_unresolved"
       },
-      "cycle_state": "Run 110 rechecked acquisition/OCR/page-accounting/structuring state while parallel source work continued. No Mundarica volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints remain insufficient proof of historical completeness."
+      "cycle_state": "Run 111 rechecked acquisition/OCR/page-accounting state while the non-Mundarica census continued. No Mundarica volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints remain insufficient proof of historical completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000110",
-      "latest_search_record_path": "data/source_census/search_log_run110.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000111",
+      "latest_search_record_path": "data/source_census/search_log_run111.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 110 independently corroborated the historical person identity Sadanand Abinash Bishram Dilbar-Hans through the National Portrait Gallery authority record (born 1910; Bishop of Chota Nagpur; 1958 Lambeth Conference portrait context). This strengthens entity reconciliation for the secondary 1941 Mundari hockey-booklet report but does not authenticate, catalogue or promote the booklet itself. A current commercial listing for Ramdayal Munda's Mundari Vyakaran was recorded only as an acquisition lead and was not merged with CIIL 2013 or historical catalogue manifestations.",
+      "latest_verification": "Run 111 deterministically matched the publisher article page, DOI record and full-issue PDF for Tuti et al. 2025 to existing permanent identity SRC-MMSC-000002 and upgraded that identity from abstract-level provenance to exact publisher full-text text-layer locators for bibliographic identity, study design/participant scope, data collection and the authors' reported ethics. Page-image screenshot verification was attempted but blocked by cache miss. No participant-level, ritual/sacred or universal cultural claim was promoted and no duplicate source identity was created.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Entity-level authority corroboration was strengthened for Hans while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged because the 1941 booklet still lacks primary manifestation verification."
+      "cycle_state": "No schema redesign. Existing SRC-MMSC-000002 gained an exact-locator provenance artifact, while permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because this was an evidence-quality upgrade to an already-counted source rather than a new identity or cultural-claim promotion."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 110 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping; no count-bearing remap was required because no permanent source/evidence identity changed."
+      "sync_note": "Run 111 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping. No count-bearing remap was required because no permanent source/evidence identity changed."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Commit bd4b2f86f577528a97441299c682f573b01001cc is independently verified 4/4 green with Source Register Audit 973, Migration Audit 1023, Streamlit Smoke Test 1119, and Publication Build 972. Run 110 changes no manuscript metrics because permanent source/evidence counts did not change; newest-head CI must be independently verified."
+      "manuscript_build_state": "Commit bd4b2f86f577528a97441299c682f573b01001cc remains the last status-confirmed 4/4-green baseline with Source Register Audit 973, Migration Audit 1023, Streamlit Smoke Test 1119 and Publication Build 972. Run 111 changes no manuscript metrics because permanent source/evidence counts did not change. Source Register Audit 982 was independently observed successful for pre-status head aedd1acd; the status-sync head must be independently verified before any new 4/4-green claim."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,8 +87,8 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run110_advanced_source": "The 1941 Mundari hockey-booklet investigation advanced from a single secondary custody report to independent authority-level corroboration of the named historical person, while the booklet manifestation itself remains outside the audited source graph.",
-      "promotion_boundary": "National Portrait Gallery evidence supports the person identity and episcopal role only. It does not support booklet title-page identity, pagination, text/glossary extraction, rights, custody permission, cultural propositions or community validation."
+      "run111_advanced_source": "SRC-MMSC-000002 (Tuti et al. 2025) was upgraded from abstract-level source provenance to exact publisher full-text text-layer locators for bibliographic identity, study design/participant scope, data collection and reported ethics; the upgrade is stored in data/source_census/tuti_2025_munda_megaliths_exact_locator_upgrade_2026-09-09.json.",
+      "promotion_boundary": "Publisher full-text access and reported consent procedures support bounded source-methodology/reporting evidence only. They do not authorize ingestion of participant names/pseudonyms, quotations, oral narratives, ritual/sacred knowledge, sensitive site information, images, transcripts, field notes, unrestricted participant-material reuse, community-wide validation or current universal representativeness."
     }
   },
   "tests_and_workflows": {
@@ -101,16 +101,20 @@
       "streamlit_smoke_test": 1119,
       "publication_build": 972
     },
-    "new_commits_this_cycle_before_status_sync": ["59ae417d001c497c3a151870b38fc7091aba66f4","7803a0b0f7da3d4843decd1e0844167f90b02a9c"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-110 status head must be independently verified; do not project the verified bd4b2f86 4/4-green state forward."
+    "new_commits_this_cycle_before_status_sync": ["e8980be0032444646b0c2ffd3d63555057e87e25","aedd1acd215b36aa62a4ba07bbad288e0b10a009"],
+    "pre_status_head_source_register_audit_run": 982,
+    "pre_status_head_source_register_audit_conclusion": "success",
+    "new_head_ci_state_at_status_write": "Only Source Register Audit 982 was independently observed successful for pre-status head aedd1acd during run 111. Do not project a 4/4-green state to the status-sync head without independent verification."
   },
   "changes_this_cycle": [
-    "Independently corroborated Sadanand Abinash Bishram Dilbar-Hans through the National Portrait Gallery authority record as born 1910 and Bishop of Chota Nagpur, with a 1958 Lambeth Conference portrait context.",
-    "Kept the 1941 Mundari hockey booklet strictly at secondary bibliographic/custody-lead status because the authority record does not catalogue or authenticate the booklet.",
-    "Recorded a current Tribemitra listing for Ramdayal Munda's Mundari Vyakaran only as an acquisition lead; no edition/year/manifestation equivalence with CIIL 2013 or the historical catalogue lead was inferred.",
-    "Added data/source_census/hans_hockey_booklet_author_identity_corroboration_2026-09-09.json and MMSC-SEARCH-000110.",
-    "Rechecked Mundarica, Streamlit, evidence graph, rights/governance, completeness/gap state and publication synchronization; no permanent metric changed because no new permanent SOURCE/CLAIM/EVIDENCE identity crossed the promotion gate.",
-    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules; no cultural fact, rights state, booklet completeness, OCR verification, community validation or future-proof completeness was fabricated; main was not modified or merged."
+    "Upgraded existing permanent identity SRC-MMSC-000002 (Tuti et al. 2025, DOI 10.30884/seh/2025.02.01) from abstract-level provenance to exact publisher full-text text-layer locators for bibliographic identity, study design/participant scope, data collection and authors' reported ethics.",
+    "Deterministically treated the publisher article page, DOI record and full-issue PDF as manifestations/authority views of SRC-MMSC-000002 rather than separate source identities.",
+    "Recorded rights and governance boundaries: journal open access was verified, but participant-derived material, quotations, oral narratives, ritual/sacred details, images, transcripts, field notes and sensitive site information remain item-level rights/consent/cultural-access gated.",
+    "Attempted publisher PDF page-image verification; screenshot rendering returned cache miss, so the artifact explicitly claims text-layer exact locators only and not visual page verification.",
+    "Rechecked Shrivastava 2013, Hill 2021, the Sapienza dissertation stream, CIIL grammar/reader candidates, EZCC media, Census workbook identities and the broader requested source classes without duplicate promotion or unsupported cultural assertions.",
+    "Attempted official ST-15/ST-16/C-16/C-17 byte-level acquisition; workbook filenames remain stable but bytes/checksums/worksheet-row-cell provenance were not completed, so no Census numerical evidence was promoted.",
+    "Added data/source_census/tuti_2025_munda_megaliths_exact_locator_upgrade_2026-09-09.json and data/source_census/search_log_run111.jsonl.",
+    "Preserved audited metrics at 41/87/13/52/52/52 and 42 modules; no count-bearing Streamlit, evidence-graph, completeness, publication table or figure change was justified because run 111 upgraded an already-counted source identity."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
@@ -120,13 +124,14 @@
     "Sinha 1975 CIIL full-text file bytes, checksum, pagination/page images, exact page locators and reuse terms remain unverified for content-level ingestion.",
     "Mundari-Vyakaran has an official CIIL handle and visually verified one-page manifestation, but complete grammar/full-text bytes, independent checksum, full pagination/page-image accounting and derivative reuse permission remain unresolved; historical manifestation relationships remain unresolved.",
     "White Rose accepted-manuscript screenshot/page-image rendering remains visually unverified; exact locators are text-layer verified only.",
+    "Tuti et al. 2025 exact text-layer locators are verified, but page-image screenshot rendering remains blocked by cache miss; participant-derived content remains rights/consent/cultural-access gated.",
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
     "Karya Hindi-Mundari and Mundari TTS item-level ingestion remains blocked pending licence compatibility, participant provenance/consent and cultural-access review.",
     "MMLoSo and Karya corpus equivalence remains unestablished; do not deduplicate without stronger identity evidence.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
-    "The reported 1941 Mundari hockey booklet now has independent authority corroboration of the named historical person but still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
+    "The reported 1941 Mundari hockey booklet has independent authority corroboration of the named historical person but still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
   "integrity": {
@@ -152,17 +157,17 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet; keep authority-level person corroboration distinct from manifestation verification.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
     "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
+    "Retry Tuti 2025, official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
+    "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet; keep authority-level person corroboration distinct from manifestation verification.",
     "Obtain the complete Ramdayal Munda Mundari-Vyakaran manifestation, independently hash it, verify full pagination/page images and determine reuse terms; resolve historical manifestation relationships before edition-level canonicalization.",
     "Obtain and hash official CIIL Sinha 1975 full text, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
-    "Retry official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful-full-text and reuse-rights reconciliation before content extraction.",
     "Perform Karya licence compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-110 status head."
+    "Verify all four CI workflows on the newest run-111 status head."
   ]
 }
