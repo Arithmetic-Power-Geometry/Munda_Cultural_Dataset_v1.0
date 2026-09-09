@@ -1,0 +1,102 @@
+{
+  "artifact_type": "exact_locator_rights_verification",
+  "verified_utc": "2026-09-09T06:55:00Z",
+  "branch_scope": "mlhkp-v2 only",
+  "source_class": "dataset / parallel text / language resource",
+  "candidate_work": {
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "repository_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+    "upstream_head_commit": "243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "upstream_tree": "53817b805a5c06e6f9bc0bbb41c2395045e69d10",
+    "commit_date": "2023-04-06",
+    "creator_collaboration_as_stated_by_upstream": [
+      "Microsoft Research India",
+      "Indian Institute of Technology Kharagpur",
+      "Karya",
+      "FAIR Forward – Artificial Intelligence for all / GIZ / BMZ collaboration context"
+    ],
+    "copyright_notice": "© 2023 DAIA Tech Pvt Ltd.",
+    "language_pair": ["Hindi", "Mundari"],
+    "upstream_described_sentence_pairs": 17826,
+    "data_format": "UTF-8 TSV, two columns per line as described by upstream README"
+  },
+  "exact_repository_locators": {
+    "README.md": {
+      "blob_sha": "f2e3c762895d3620b883a8e06e14d4181584a80a",
+      "size_bytes": 3718,
+      "supports": ["dataset identity", "17,826 sentence-pair count", "TSV structure", "high-level license summary"]
+    },
+    "LICENSE.txt": {
+      "blob_sha": "ba4d2674108b11ac3530a7bbe8a7f0d5394a36e1",
+      "size_bytes": 18437,
+      "license_name": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+      "supports": ["noncommercial-only licensed use", "attribution", "share-alike", "GPL v3-or-later requirement when licensed material is incorporated into software", "other rights such as privacy/publicity may remain applicable"]
+    },
+    "COPYRIGHT.txt": {
+      "blob_sha": "111f8632fff7ab6a77a99ca4e9fbb7c8b985f5b2",
+      "size_bytes": 502,
+      "supports": ["2023 DAIA Tech Pvt Ltd copyright notice", "KPL BY-NC-SA-FS 1.0 notice", "collaboration attribution"]
+    },
+    "translation-hi-unr.tsv": {
+      "blob_sha": "131c55a5b8197a58d663a7e40d888a92869288c6",
+      "size_bytes": 3788450,
+      "upstream_path_verified": true,
+      "content_ingested_into_mlhkp": false
+    }
+  },
+  "scope_classification": {
+    "in_scope_for_mmsc": true,
+    "reason": "Direct Mundari language dataset with auditable upstream repository, data-file identity and explicit license.",
+    "cultural_evidence_status": "not promoted",
+    "linguistic_content_status": "not promoted",
+    "metadata_and_rights_evidence_status": "verified"
+  },
+  "deduplication": {
+    "candidate_identity_state": "already-observed Karya Hindi-Mundari corpus; strengthened exact-locator and rights record",
+    "not_equated_with": ["MMLoSo 20,000-pair benchmark", "Karya Mundari TTS corpus"],
+    "reason_not_equated": "Topical/language overlap is insufficient to establish identical intellectual work or manifestation.",
+    "permanent_src_mmsc_id_assigned_this_run": false,
+    "count_increment_this_run": false
+  },
+  "rights_access_consent_cultural_gate": {
+    "license_verified": true,
+    "license": "KPL BY-NC-SA-FS 1.0",
+    "noncommercial_only": true,
+    "sharealike": true,
+    "software_incorporation_condition": "GPL-3.0-or-later per upstream license Section 3(c)",
+    "privacy_publicity_other_rights_exhausted": false,
+    "community_cultural_access_clearance_verified": false,
+    "participant_or_translator_consent_scope_verified_for_mlhkp_redistribution": false,
+    "mlhkp_content_redistribution_permitted_without_additional_review": false,
+    "decision": "Do not copy sentence pairs into MLHKP release at this stage. Preserve metadata, immutable repository locators and license facts; perform separate KPL compatibility, contributor/participant provenance and cultural-access review before any content-level ingestion."
+  },
+  "promotion_boundary": {
+    "promoted": [
+      "upstream repository identity",
+      "upstream fixed commit/tree identity",
+      "upstream README-described 17,826-pair dataset count",
+      "data file blob SHA and size",
+      "copyright notice",
+      "KPL BY-NC-SA-FS 1.0 license terms relevant to MLHKP"
+    ],
+    "withheld": [
+      "individual Hindi-Mundari sentence pairs",
+      "lexical or grammatical generalizations from the corpus",
+      "cultural claims",
+      "representativeness claims",
+      "translator/speaker identity claims",
+      "consent claims",
+      "equivalence with MMLoSo or any other corpus",
+      "unrestricted redistribution or model-training permission"
+    ]
+  },
+  "release_effect": {
+    "source_identity_count_changed": false,
+    "claim_count_changed": false,
+    "evidence_record_count_changed": false,
+    "evidence_link_count_changed": false,
+    "streamlit_module_count_changed": false,
+    "gap_matrix_effect": "Karya Hindi-Mundari dataset identity/rights gap narrowed; content-ingestion/consent/cultural-access and cross-dataset equivalence gaps remain explicit."
+  }
+}
