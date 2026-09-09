@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T00:49:00Z",
-  "observed_head_before_status_sync": "d2ebde0366e2cdcd12cb9bd821299fb448e12c59",
+  "updated_utc": "2026-09-09T01:38:00Z",
+  "observed_head_before_status_sync": "8866e154519708a73941e1298e6d1b2d56d3f507",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -16,7 +16,7 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "cycle_state": "Run 93 was non-Mundarica-focused; no Mundarica slot/completeness state was upgraded. Verified-complete volumes remain 0."
+      "cycle_state": "Run 94 did not upgrade any Mundarica slot, OCR, page-accounting or completeness state; verified-complete volumes remain 0 while authoritative scan/page accounting continues independently."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -28,10 +28,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000093",
-      "latest_search_record_path": "data/source_census/search_log_run93.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000094",
+      "latest_search_record_path": "data/source_census/search_log_run94.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 93 strengthened Bhaduri dictionary manifestation reconciliation with exact CiNii NCIDs for 1983/1994/2002 reprints and preserved a 1929-versus-1931 original-edition catalogue discrepancy as an explicit unresolved gap rather than normalizing it.",
+      "latest_verification": "Run 94 independently reverified official ORGI Jharkhand ST-15 and ST-16 catalogue identities PC11_ST15-20 and PC11_ST16-20 with exact official workbook filenames ST-20-00-15-DDW-2011.XLSX and ST-20-00-16-DDW-2011.XLSX. No Census number was promoted because workbook bytes, checksum, worksheet, row and cell coordinates remain unverified.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -39,7 +39,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 93 updated one exact bibliographic manifestation record and added no unsupported evidence-chain row."
+      "cycle_state": "No schema redesign. Run 94 strengthened exact official-source acquisition locators and added no unsupported evidence-chain row."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -49,7 +49,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No permanent source/claim/evidence/link metric changed in run 93; existing 42-module and 100% schema/UI mappings remain valid."
+      "sync_note": "No permanent source/claim/evidence/link metric changed in run 94; existing 42-module and 100% schema/UI mappings remain valid."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -61,7 +61,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head b9c6c44fef39a128e3d54c6e3a36bb7858c79fdb is independently verified 4/4 green: Source Register Audit 888, Migration Audit 938, Streamlit Smoke Test 1034 and Publication Build 887. Run 93 leaves manuscript metrics unchanged; newest-head CI must be verified separately."
+      "manuscript_build_state": "Pre-run head 20b80b3797fc7d91698a0b9aeca72287efabb8a1 is independently verified 4/4 green: Source Register Audit 893, Migration Audit 943, Streamlit Smoke Test 1039 and Publication Build 892. Run 94 leaves manuscript metrics unchanged; newest-head CI must be verified separately."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -69,25 +69,25 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run93_advanced_source": "Bhaduri dictionary family advanced at exact catalogue-manifestation/deduplication level only. No dictionary headword, definition, lexical or cultural proposition was promoted.",
-      "promotion_boundary": "Exact bibliographic identity, manifestation relationships, catalogue identifiers, pagination and explicit metadata conflicts may be recorded. Lexical/cultural propositions require lawful inspectable text and exact provenance; culturally sensitive or participant-derived material additionally requires rights, consent and cultural-access review."
+      "run94_advanced_source": "Official ORGI ST-15/ST-16 Jharkhand paths advanced at catalogue identity/acquisition-locator level only. No demographic, bilingualism, cultural or participant proposition was promoted.",
+      "promotion_boundary": "Exact official catalogue identity, workbook filename and catalogue schema/row-label metadata may be recorded. Numeric claims require verified workbook bytes, checksum, worksheet, row and cell provenance; culturally sensitive or participant-derived material additionally requires rights, consent and cultural-access review."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "b9c6c44fef39a128e3d54c6e3a36bb7858c79fdb",
+    "last_verified_all_four_green_commit": "20b80b3797fc7d91698a0b9aeca72287efabb8a1",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":888,"migration_audit":938,"streamlit_smoke_test":1034,"publication_build":887},
-    "new_commits_this_cycle_before_status_sync": ["80b42241d2d39efec1e08dfdc6b02fbbb949f831","d2ebde0366e2cdcd12cb9bd821299fb448e12c59"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-93 status head must be independently verified; do not project the verified b9c6c44f 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":893,"migration_audit":943,"streamlit_smoke_test":1039,"publication_build":892},
+    "new_commits_this_cycle_before_status_sync": ["d86c3d9148e0d0bb77a5d76d2bea1567f5521f22","8866e154519708a73941e1298e6d1b2d56d3f507"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-94 status head must be independently verified; do not project the verified 20b80b37 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed pre-run head b9c6c44fef39a128e3d54c6e3a36bb7858c79fdb as 4/4 CI green across all required workflows.",
-    "Strengthened Bhaduri A Mundari-English dictionary manifestation reconciliation with exact CiNii identifiers BA27135864, BA31909026 and BB09153012.",
-    "Preserved the catalogue conflict between 1931 original-publication signals and the 2002 reprint's 1929-edition/introduction note instead of fabricating one normalized date.",
-    "Recorded MMSC-SEARCH-000093 across all requested source classes and continued blocked streams independently.",
+    "Confirmed pre-run head 20b80b3797fc7d91698a0b9aeca72287efabb8a1 as 4/4 CI green across all required workflows.",
+    "Reverified official ORGI Jharkhand ST-15 reference PC11_ST15-20 and exact workbook filename ST-20-00-15-DDW-2011.XLSX.",
+    "Reverified official ORGI Jharkhand ST-16 reference PC11_ST16-20 and exact workbook filename ST-20-00-16-DDW-2011.XLSX.",
+    "Recorded MMSC-SEARCH-000094 and preserved deterministic deduplication: no duplicate permanent Census source identity was created.",
     "Kept audited release metrics unchanged at 41/87/13/52/52/52 and preserved 42/42 modules, 100% schema-category representation and 100% UI mapping.",
-    "No full text, participant material, cultural claim, Census number, OCR-verification claim, rights assumption or community-validation claim was fabricated or promoted; main was not modified or merged."
+    "No Census number, full text, participant material, cultural claim, OCR-verification claim, rights assumption or community-validation claim was fabricated or promoted; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
@@ -127,11 +127,12 @@
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after full identity reconciliation.",
     "Retry official LSI and lawful public-domain page-image verification while preserving page-image versus OCR/index distinctions.",
+    "Continue authoritative Mundarica I-XVI scan/page accounting and XIV-XVI work/part/volume/plates/reprint reconciliation without upgrading completeness from catalogue metadata.",
     "Resolve Bhaduri 1929-versus-1931 original-edition metadata from a primary title page or authoritative library record before edition normalization or lexical extraction.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before lexical, linguistic or cultural extraction.",
     "Continue media candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-93 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-94 status head and repair any regression before further metric-changing promotion."
   ]
 }
