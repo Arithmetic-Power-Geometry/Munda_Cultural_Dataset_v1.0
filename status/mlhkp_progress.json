@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T06:01:00Z",
-  "observed_head_before_status_sync": "cb8fc3968fed7f13b0d352c8d648f4391b869e93",
+  "updated_utc": "2026-09-09T06:49:00Z",
+  "observed_head_before_status_sync": "afa1658e4695dffe3dc9e3f81c0241187fa4a1b5",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,7 +19,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_not_machine_verified_complete","XIV":"historical_slot_unresolved","XV":"historical_slot_unresolved","XVI":"historical_slot_unresolved"
       },
-      "cycle_state": "Run 104 rechecked the Mundarica release state but did not upgrade scan, OCR, page-accounting, structuring or completeness; authoritative page-level verification remains unresolved."
+      "cycle_state": "Run 105 rechecked the Mundarica release state but did not upgrade scan, OCR, page-accounting, structuring or completeness; authoritative page-level verification remains unresolved."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -31,10 +31,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000104",
-      "latest_search_record_path": "data/source_census/search_log_run104.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000105",
+      "latest_search_record_path": "data/source_census/search_log_run105.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 104 independently verified N. K. Sinha's 1975 Mundari Grammar in CIIL's official publications catalogue (row 95), with independent bibliographic corroboration; full-text bytes, page-level locators, reuse terms and cultural-access clearance remain unverified.",
+      "latest_verification": "Run 105 verified Karya's Hindi-to-Mundari translation corpus at fixed upstream commit/tree/blob level, including the upstream-described 17,826-pair count, data-file size/blob SHA, copyright notice and KPL BY-NC-SA-FS 1.0 terms; sentence content remains un-ingested pending compatibility, provenance/consent and cultural-access review.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -42,7 +42,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Official bibliographic identity evidence was strengthened while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation and content-level verification."
+      "cycle_state": "No schema redesign. Dataset identity and rights evidence was strengthened while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation and content-level access review."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -52,7 +52,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 104 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no metric remapping was required because permanent source/evidence counts did not change."
+      "sync_note": "Run 105 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no metric remapping was required because permanent source/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -64,7 +64,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-103 status head 3d5e879267990fafc951836995f0acc12f49365f independently verified 4/4 green: Source Register Audit 941, Migration Audit 991, Streamlit Smoke Test 1087, Publication Build 940. Run 104 changes no manuscript metrics because permanent source/evidence counts did not change."
+      "manuscript_build_state": "Run-104 status head 6e00f3c95051132fb5e9787e17fb157ccaef5fcd independently verified 4/4 green: Source Register Audit 946, Migration Audit 996, Streamlit Smoke Test 1092, Publication Build 945. Run 105 changes no manuscript metrics because permanent source/evidence counts did not change."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -72,25 +72,27 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run104_advanced_source": "N. K. Sinha (1975), Mundari Grammar, advanced to official-institution bibliographic verification through CIIL's own catalogue; no grammar/content assertion was promoted.",
-      "promotion_boundary": "The official CIIL catalogue verifies author-title-year-institution identity only. Full-text bytes, checksum, pagination/page images, exact page locators, derivative reuse permission and applicable cultural-access gates remain unresolved; permanent count promotion is withheld pending deterministic reconciliation."
+      "run105_advanced_source": "Karya Hindi to Mundari Translation Dataset Corpus advanced to immutable repository/data/license verification; the upstream README describes 17,826 Hindi-Mundari sentence pairs and the data blob is fixed at 131c55a5b8197a58d663a7e40d888a92869288c6 (3,788,450 bytes).",
+      "promotion_boundary": "KPL BY-NC-SA-FS 1.0 is noncommercial, share-alike and imposes GPL-3.0-or-later on software incorporation; the upstream license also does not exhaust privacy/publicity/other rights. Sentence pairs, linguistic/cultural claims, representativeness, consent and equivalence with MMLoSo remain withheld pending separate review."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "3d5e879267990fafc951836995f0acc12f49365f",
+    "last_verified_all_four_green_commit": "6e00f3c95051132fb5e9787e17fb157ccaef5fcd",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":941,"migration_audit":991,"streamlit_smoke_test":1087,"publication_build":940},
-    "new_commits_this_cycle_before_status_sync": ["0ed7aa339656764fcc6ec262d6d40dcffcdf047d","cb8fc3968fed7f13b0d352c8d648f4391b869e93"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-104 status head must be independently verified; do not project the verified 3d5e8792 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":946,"migration_audit":996,"streamlit_smoke_test":1092,"publication_build":945},
+    "new_commits_this_cycle_before_status_sync": ["1062fc223f929c674730b812e1b58e99f9742e1f","e29a42ba9c25a078917adac65f22211d2f6ae6de","afa1658e4695dffe3dc9e3f81c0241187fa4a1b5"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-105 status head must be independently verified; do not project the verified 6e00f3c9 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed run-103 status head 3d5e879267990fafc951836995f0acc12f49365f as 4/4 green across all required workflows.",
-    "Added an official-institution bibliographic verification artifact for N. K. Sinha's 1975 Mundari Grammar using CIIL's publications catalogue.",
-    "Recorded CIIL catalogue row 95, author, title and publication year, with independent bibliographic corroboration.",
-    "Did not promote grammar rules, example sentences, lexical items, cultural propositions, rights claims or page-level assertions because full-text provenance and reuse/access gates remain unresolved.",
-    "Recorded MMSC-SEARCH-000104 across all requested source classes and preserved blocked streams as explicit gaps.",
-    "Rechecked Mundarica, Census workbook, rights/governance, Streamlit and manuscript streams without false progress claims.",
+    "Confirmed run-104 status head 6e00f3c95051132fb5e9787e17fb157ccaef5fcd as 4/4 green across all required workflows.",
+    "Added an exact-locator and rights-verification artifact for Karya's Hindi to Mundari Translation Dataset Corpus.",
+    "Recorded fixed upstream commit 243bb780906750fcf6e2b27693dd24898f0c79d1, tree 53817b805a5c06e6f9bc0bbb41c2395045e69d10 and translation-hi-unr.tsv blob 131c55a5b8197a58d663a7e40d888a92869288c6 (3,788,450 bytes).",
+    "Verified the upstream README-described 17,826 sentence-pair count, © 2023 DAIA Tech Pvt Ltd. notice and KPL BY-NC-SA-FS 1.0 license terms.",
+    "Did not ingest sentence pairs or promote grammar, lexical, cultural, representativeness or consent claims; KPL compatibility and cultural-access/provenance review remain open.",
+    "Kept Karya's 17,826-pair corpus distinct from the MMLoSo 20,000-pair resource stream because identity equivalence is not established.",
+    "Recorded MMSC-SEARCH-000105 across all requested source classes and preserved blocked streams as explicit gaps.",
+    "Rechecked Streamlit, evidence graph, completeness/gap state and publication metrics; no remapping was required because permanent counts did not change.",
     "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no new permanent identity/evidence-chain row crossed the promotion gate.",
     "No cultural fact, consent, community validation, OCR/page-image verification or source-completeness claim was fabricated; main was not modified or merged."
   ],
@@ -105,7 +107,7 @@
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
-    "Karya Hindi-Mundari corpus content ingestion remains blocked pending KPL compatibility and cultural-access review.",
+    "Karya Hindi-Mundari corpus sentence-level MLHKP ingestion remains blocked pending KPL compatibility, contributor/participant provenance/consent and cultural-access review.",
     "MMLoSo 20,000-pair benchmark and Karya 17,826-pair corpus equivalence remains unestablished; do not deduplicate them without stronger identity evidence.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
@@ -134,17 +136,17 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile Sinha 1975 and Murugesan-Driemel-Murphy 2025 against the 87-lead discovery/master layer before assigning or changing permanent SRC-MMSC identities or evidence-chain rows.",
+    "Deterministically reconcile Sinha 1975, Murugesan-Driemel-Murphy 2025 and Karya Hindi-Mundari corpus candidates against the 87-lead discovery/master layer before assigning or changing permanent SRC-MMSC identities or evidence-chain rows.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
     "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before any numeric claim promotion.",
     "Obtain and hash official CIIL Sinha 1975 and Mundari-Vyakaran files, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Retry official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before content extraction.",
-    "Continue Karya/MMLoSo dataset identity and license/cultural-access reconciliation without merging from topical similarity alone.",
+    "Perform Karya KPL compatibility plus contributor/participant provenance, consent and cultural-access review before sentence-level ingestion; do not equate Karya with MMLoSo absent identity evidence.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-104 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-105 status head and repair any regression before further metric-changing promotion."
   ]
 }
