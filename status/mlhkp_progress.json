@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T18:46:00Z",
-  "observed_head_before_status_sync": "8cc92042e8b1c45e60916dd88cc7996bc9641147",
+  "updated_utc": "2026-09-09T19:31:00Z",
+  "observed_head_before_status_sync": "615e6051b7d41ae0519b281d9a4e56165fda3656",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -12,6 +12,9 @@
       "expected_volume_slots_current_model": 16,
       "historical_text_sequence_currently_supported": "I-XIII",
       "modern_sixteen_volume_manifestation_observed": true,
+      "modern_sixteen_volume_manifestation_verified_this_cycle": true,
+      "modern_set_isbn_observed": "9788121203043",
+      "modern_volume_16_isbn13": "9788121203227",
       "historical_xiv_xvi_equivalence_proven": false,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
       "verified_external_locators_counted": 13,
@@ -36,9 +39,9 @@
         "XIII": "located_library_origin_manifestation_not_machine_verified_complete",
         "XIV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
-        "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
+        "XVI": "modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 129 was non-Mundarica focused and preserved all prior conservative Mundarica machine-verification states; no scan/OCR/page-complete or XIV-XVI equivalence claim was promoted."
+      "cycle_state": "Run 130 independently bounded the modern Gyan 2009 sixteen-volume manifestation and Volume 16 ISBN. This improves manifestation reconciliation but does not convert modern numbering into proof of historical text volumes XIV-XVI. Authoritative scan/hash/page accounting remains pending."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +53,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000129",
-      "latest_search_record_path": "data/source_census/search_log_run129.jsonl",
-      "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs are preserved separately and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 129 verified the Språkbanken Text digitized/enriched Linguistic Survey of India dataset at DOI 10.23695/d24m-ja14, its downloadable lsi.xml.bz2 locator, 2020-08-25 modification date, CC BY 4.0 licence, corpus extent metadata, and project-reported page-linked text annotations. Direct byte acquisition failed in the current runtime, so no checksum, exact Mundari XML segment, lexical item, numeric claim or cultural proposition was promoted.",
+      "latest_search_id": "MMSC-SEARCH-000130",
+      "latest_search_record_path": "data/source_census/search_log_run130.jsonl",
+      "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain preserved separately and are not falsely counted as consolidated primary entries.",
+      "latest_verification": "Run 130 canonicalized Google Books and current catalogue/retail manifestations to one modern Gyan 2009 sixteen-volume Encyclopaedia Mundarica manifestation, verified set ISBN 9788121203043 and modern Volume 16 ISBN 9788121203227, and explicitly retained the historical XIV-XVI relationship as unresolved.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +65,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 129 added deterministic dataset-manifestation and rights provenance without inflating SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No redesign. Run 130 added manifestation-reconciliation provenance while preserving count-bearing SOURCE/CLAIM/EVIDENCE metrics."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +76,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no count-bearing UI change was justified by Run 129."
+      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no count-bearing UI remap was justified in Run 130."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Språkbanken's dataset-level CC BY 4.0 declaration was recorded exactly but not generalized into participant consent, contemporary Munda community validation, or unrestricted cultural access. Karya/Bharatavani and other participant/restricted streams remained separately gated."
+      "cycle_state": "Run 130 used modern bibliographic/catalogue metadata only. No retail/public listing was treated as reuse permission, cultural evidence, participant consent, or community validation."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +95,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run 129 did not alter count-bearing publication metrics/tables/figures. Head 4dc0df0f43cbe8e82afcdbf392b9c9f4861fd189 had four workflow runs visible and Migration Audit completed successfully; the newest Run-129 commits require their own CI verification before any all-green claim is projected."
+      "manuscript_build_state": "No count/table/figure metric change was warranted in Run 130. The immediately preceding branch head 722ada1a5e604decfbd9250d9d4d4b53753a922b is independently verified 4/4 green, including Publication Build 1074. Fresh CI is required for the Run-130 status head."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,38 +103,38 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run127_advanced_source": "DRMTWRI 1993 Munda exact locator plus Raonka dissertation exact locator and participant/cultural-access boundary",
       "run128_advanced_source": "1941 Mundari hockey booklet primary-locator disposition audit; secondary report retained but no primary manifestation promoted",
       "run129_advanced_source": "Språkbanken LSI DOI/file/licence/page-annotation exact-locator audit with failed-byte-acquisition boundary",
-      "promotion_boundary": "No new public cultural claim entered the evidence chain in Run 129."
+      "run130_advanced_source": "Modern Gyan 2009 Encyclopaedia Mundarica sixteen-volume manifestation and Volume 16 ISBN reconciliation",
+      "promotion_boundary": "No new public cultural claim entered the evidence chain in Run 130. Modern edition metadata was not treated as historical volume equivalence or content evidence."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "c6a258c734226902308747900d0c721251bf86a6",
+    "last_verified_all_four_green_commit": "722ada1a5e604decfbd9250d9d4d4b53753a922b",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows_for_last_verified_head": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "run128_status_head": "4dc0df0f43cbe8e82afcdbf392b9c9f4861fd189",
-    "run128_workflow_observation": "Four workflow runs were visible for the Run-128 status head; Migration Audit run 1120 completed successfully. No complete 4/4 conclusion was inferred from a truncated workflow-list response.",
-    "new_commits_this_cycle_before_status_sync": ["207e1110bc0fd31bf7513733efc333d7b5bd1d4a", "8cc92042e8b1c45e60916dd88cc7996bc9641147"],
-    "new_head_ci_state_at_status_write": "Run 129 status-sync commit requires fresh CI; no green result is projected from earlier heads."
+    "verified_runs_for_that_head": {"source_register_audit":1075,"migration_audit":1125,"streamlit_smoke_test":1221,"publication_build":1074},
+    "new_commits_this_cycle_before_status_sync": ["24ab1ab650aa64da8c2749e83877e6bec05600ba","615e6051b7d41ae0519b281d9a4e56165fda3656"],
+    "new_head_ci_state_at_status_write": "Run 130 status-sync commit requires fresh CI; no green result is projected from the prior head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/sprakbanken_lsi_ccby_exact_locator_run129_2026-09-10.json.",
-    "Verified Språkbanken LSI dataset DOI 10.23695/d24m-ja14, lsi.xml.bz2 file locator, reported 6.23 MB size, 2020-08-25 modification date, CC BY 4.0 licence, and reported 1,193,437-token / 72,669-sentence corpus extent.",
-    "Recorded project documentation that corpus text-level annotations include LSI volume/part, language name, ISO 639-3 code, page number and page-source URL, creating a defensible path toward exact page-linked Mundari evidence after byte/query acquisition.",
-    "Attempted direct lsi.xml.bz2 acquisition; retrieval failed in the current runtime and the failure was preserved explicitly rather than inventing a checksum or segment locator.",
-    "Added MMSC-SEARCH-000129 covering all requested source classes and deterministic deduplication of Språkbanken manifestations against the underlying Grierson LSI work.",
+    "Added data/source_census/mundarica_modern_16vol_manifestation_run130_2026-09-10.json.",
+    "Verified a modern Gyan Publishing House 2009 sixteen-volume Encyclopaedia Mundarica manifestation with set ISBN 9788121203043.",
+    "Verified modern Volume 16 ISBN13 9788121203227 / ISBN10 8121203228 and retained its historical relationship as unresolved.",
+    "Canonicalized multiple modern catalogue/retail manifestations to one modern edition identity rather than inflating source counts.",
+    "Added MMSC-SEARCH-000130 with deterministic reconciliation queries and explicit non-promotion boundaries.",
+    "Verified preceding head 722ada1a5e604decfbd9250d9d4d4b53753a922b as 4/4 green: Source Register Audit 1075, Migration Audit 1125, Streamlit Smoke Test 1221, Publication Build 1074.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Newest head requires fresh four-workflow verification.",
-    "Språkbanken lsi.xml.bz2 bytes/checksum and exact Mundari XML segment/page-linked locators remain pending after current-runtime download failure.",
+    "Newest status head requires fresh four-workflow verification.",
+    "Primary historical edition/fascicle/title-page/library evidence remains required to reconcile the TRI 15-volume statement, historical I-XIII text sequence, plates/supplement structure, and modern XIV-XVI numbering.",
+    "Authoritative Mundarica scans, hashes and complete page accounting remain incomplete.",
+    "Språkbanken lsi.xml.bz2 bytes/checksum and exact Mundari XML segment/page-linked locators remain pending after runtime download failure.",
     "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
-    "TRI Jharkhand's 15-volume Encyclopaedia Mundarica statement remains unresolved against historical I-XIII and modern 16-volume manifestation evidence.",
     "DRMTWRI 1993 Munda bytes/hash/page passages and reuse permission remain unresolved.",
     "Raonka dissertation licence/participant-derived consent/cultural-access disposition remains unresolved.",
     "Man Masih Mundu 2017 dictionary, Sinha 1975 and Mundari-Vyakaran complete bytes/checksums/page-image accounting/reuse terms remain incomplete.",
@@ -166,11 +169,11 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Retry Språkbanken LSI corpus acquisition or Korp exact-query access, then independently hash bytes and extract Mundari-only segment/page-source locators before any content promotion.",
+    "Seek primary historical edition/fascicle/title-page/library evidence that can reconcile historical text I-XIII, plates/supplement, TRI's 15-volume statement, and modern Gyan 16-volume numbering.",
+    "Convert existing 16/16 human Mundarica review attestations into file/hash/page-linked audit records wherever supporting artifacts are actually available.",
+    "Retry Språkbanken LSI corpus acquisition or Korp exact-query access, then independently hash bytes and extract Mundari-only segment/page-source locators before content promotion.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
     "Retry official LSI Jharkhand PDF byte acquisition and exact page-image verification while preserving text-layer/OCR distinctions.",
-    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and reconcile TRI's 15-volume statement against primary edition evidence.",
-    "Search institutional/library/church/mission catalogues for a primary manifestation of the reported 1941 Mundari hockey booklet.",
     "Continue lawful full-text/rights reconciliation for DRMTWRI, Raonka, Man Masih Mundu, Sinha, Ramdayal Munda, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada sources.",
     "Resolve Proietti exact licence variant and participant/cultural-access boundaries; review Karya/MMLoSo/TTS participant provenance and consent before ingestion.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
