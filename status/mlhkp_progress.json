@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T07:47:00Z",
-  "observed_head_before_status_sync": "e4080288494edb030935a34844b192ae2606a883",
+  "updated_utc": "2026-09-09T08:30:00Z",
+  "observed_head_before_status_sync": "d65ed446ffd18076ef0b1c0489f9481bf381244c",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -17,9 +17,24 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "per_volume_state": {
-        "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_not_machine_verified_complete","XIV":"historical_slot_unresolved","XV":"historical_slot_unresolved","XVI":"historical_slot_unresolved"
+        "I": "located_not_machine_verified_complete",
+        "II": "located_not_machine_verified_complete",
+        "III": "located_not_machine_verified_complete",
+        "IV": "located_not_machine_verified_complete",
+        "V": "located_not_machine_verified_complete",
+        "VI": "located_not_machine_verified_complete",
+        "VII": "located_not_machine_verified_complete",
+        "VIII": "located_not_machine_verified_complete",
+        "IX": "located_not_machine_verified_complete",
+        "X": "located_not_machine_verified_complete",
+        "XI": "located_not_machine_verified_complete",
+        "XII": "located_not_machine_verified_complete",
+        "XIII": "located_not_machine_verified_complete",
+        "XIV": "historical_slot_unresolved",
+        "XV": "historical_slot_unresolved",
+        "XVI": "historical_slot_unresolved"
       },
-      "cycle_state": "Run 107 rechecked acquisition/OCR/page-accounting/structuring state. No volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints are not treated as proof of historical completeness."
+      "cycle_state": "Run 108 rechecked acquisition/OCR/page-accounting/structuring state. No volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints are not treated as proof of historical completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -31,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000107",
-      "latest_search_record_path": "data/source_census/search_log_run107.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000108",
+      "latest_search_record_path": "data/source_census/search_log_run108.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 107 verified the Karya Mundari TTS Dataset Corpus at immutable repository/sample/checksum/licence level: fixed upstream commit ea515f4d034a37e41e5b8619e1df62de0c7ee830; upstream README reports 26,870 recordings from two speakers, 32-bit PCM at 44.1 kHz; sample archive blob 63089f387e4fc6972117933d61e26233e3e28ae1 is 64,560,322 bytes; upstream checksum manifest gives SHA1 46c8bfceb5cf25decc8523479378793537f2bad7 for dataset-mundari-tts-full.tgz. No audio/transcript content or participant/cultural claim was promoted.",
+      "latest_verification": "Run 108 narrowed the 1941 Mundari hockey-rulebook blocker to an exact secondary bibliographic/custody locator: The Indian Express reported a 1941, 23-page Mundari field-hockey booklet attributed to Sadanand Abinash Bishram Dilbar Hans and a rare surviving copy in the custody of Reverend Cyril Hans. No permanent audited source identity or content evidence was promoted because no independent primary catalogue, archive/accession record, scan/facsimile, or directly verified custody record was established.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -42,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Dataset/audio source identity, checksum and rights evidence was strengthened while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation and item-level consent/cultural-access review."
+      "cycle_state": "No schema redesign. Secondary custody/source-discovery evidence was strengthened while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation and primary-manifestation verification."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -52,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 107 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping; no metric remapping was required because permanent source/evidence counts did not change."
+      "sync_note": "Run 108 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping; no metric remapping was required because permanent source/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -64,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-106 status head edf971c11655b14118fee624add944f29e7eb658 independently verified 4/4 green: Source Register Audit 958, Migration Audit 1008, Streamlit Smoke Test 1104, Publication Build 957. Run 107 changes no manuscript metrics because permanent source/evidence counts did not change."
+      "manuscript_build_state": "Run-107 status head 60029e32853201c7f18c6a55931da5cb60fc3961 independently verified 4/4 green: Source Register Audit 963, Migration Audit 1013, Streamlit Smoke Test 1109, Publication Build 962. Run 108 changes no manuscript metrics because permanent source/evidence counts did not change."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -72,30 +87,32 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run107_advanced_source": "Karya Mundari TTS Dataset Corpus advanced to exact repository identity, sample-archive blob/size, full-archive checksum, licence and copyright/provenance verification.",
-      "promotion_boundary": "Corpus-level identity/count/format/checksum/licence metadata is source-supported. Audio bytes, transcript text, speaker identity, participant consent, community representativeness, community validation, lexical/grammatical/cultural propositions and unrestricted AI/model-training permission are not promoted."
+      "run108_advanced_source": "1941 Mundari hockey booklet advanced from a generic blocker to an exact secondary bibliographic/custody locator.",
+      "promotion_boundary": "Secondary journalism supports a bounded discovery/custody lead only. Primary manifestation identity, exact title/imprint, page count, contents, rights, cultural access, community validation and page-level evidence are not promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "edf971c11655b14118fee624add944f29e7eb658",
+    "last_verified_all_four_green_commit": "60029e32853201c7f18c6a55931da5cb60fc3961",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":958,"migration_audit":1008,"streamlit_smoke_test":1104,"publication_build":957},
-    "new_commits_this_cycle_before_status_sync": ["cdff1145f05a52f52a2896702eda8ba20bc8b790","e4080288494edb030935a34844b192ae2606a883"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-107 status head must be independently verified; do not project the verified edf971c1 4/4-green state forward."
+    "verified_run_numbers": {
+      "source_register_audit": 963,
+      "migration_audit": 1013,
+      "streamlit_smoke_test": 1109,
+      "publication_build": 962
+    },
+    "new_commits_this_cycle_before_status_sync": ["1bf29e525f94b47ee742378504d9434bac1fa3b1","d65ed446ffd18076ef0b1c0489f9481bf381244c"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-108 status head must be independently verified; do not project the verified 60029e32 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed run-106 status head edf971c11655b14118fee624add944f29e7eb658 as 4/4 green across all required workflows.",
-    "Added exact immutable-repository verification for the Karya Mundari TTS Dataset Corpus at upstream commit ea515f4d034a37e41e5b8619e1df62de0c7ee830.",
-    "Recorded the upstream corpus description of 26,870 recordings from two speakers, 19,868 female-speaker recordings and 7,002 male-speaker recordings, 32-bit PCM and 44.1 kHz without exposing speaker identity or audio content.",
-    "Recorded data-sample.tgz at Git blob 63089f387e4fc6972117933d61e26233e3e28ae1 and 64,560,322 bytes; no sample audio/transcript bytes were copied into MLHKP.",
-    "Recorded upstream-published SHA1 46c8bfceb5cf25decc8523479378793537f2bad7 for dataset-mundari-tts-full.tgz; full archive bytes were not obtained, so the checksum was not independently recomputed.",
-    "Recorded KPL BY-NC-SA-FS 1.0 / non-commercial Karya Public License and © 2023 DAIA Tech Pvt Ltd. provenance, while preserving privacy/publicity/participant/cultural-access uncertainty.",
-    "Kept the TTS corpus distinct from Karya Hindi-Mundari translation, MMLoSo, MunTTS and PARADISEC because language/topic overlap does not establish identity equivalence.",
-    "Recorded MMSC-SEARCH-000107 across all requested source classes and preserved blocked streams as explicit gaps.",
-    "Rechecked Census/LSI, Mundarica, Streamlit, evidence graph and publication synchronization; no permanent metric changed.",
-    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no new candidate crossed deterministic master/evidence promotion gates.",
-    "No cultural fact, participant consent, community validation, checksum recomputation, page-image verification or source-completeness claim was fabricated; main was not modified or merged."
+    "Confirmed run-107 status head 60029e32853201c7f18c6a55931da5cb60fc3961 as 4/4 green across all required workflows.",
+    "Added an exact secondary bibliographic/custody locator for the reported 1941 Mundari field-hockey booklet attributed to Sadanand Abinash Bishram Dilbar Hans.",
+    "Recorded the secondary report of first publication in 1941, reported extent of 23 pages, and a rare surviving copy reportedly held by Reverend Cyril Hans.",
+    "Did not treat the secondary custody report as a primary catalogue, archive/accession record, scan/facsimile, direct custody verification, rights determination, or content-level evidence.",
+    "Recorded MMSC-SEARCH-000108 across the requested source classes and preserved blocked streams as explicit gaps.",
+    "Rechecked Mundarica, Census/LSI, Streamlit, evidence graph, governance and publication synchronization; no permanent metric changed.",
+    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no candidate crossed deterministic primary-manifestation and evidence-promotion gates.",
+    "No cultural fact, rights state, OCR/page verification, community validation or completeness claim was fabricated; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
@@ -107,14 +124,11 @@
     "White Rose accepted-manuscript screenshot/page-image rendering remains visually unverified; exact locators are text-layer verified only.",
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
-    "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
-    "Phillips & Harrison 2017 remains exact-bibliographic-identity verified but pending deterministic reconciliation against the 87-lead discovery/master layer and item-level rights review before any permanent source/evidence promotion.",
-    "Karya Hindi-Mundari corpus sentence-level MLHKP ingestion remains blocked pending KPL compatibility, contributor/participant provenance/consent and cultural-access review.",
-    "Karya Mundari TTS full archive bytes were not obtained, so the upstream-published SHA1 has not been independently recomputed.",
-    "Karya Mundari TTS participant consent documentation and community cultural-access clearance were not located in the inspected repository files; audio/transcript ingestion remains withheld.",
-    "MMLoSo 20,000-pair benchmark and Karya 17,826-pair translation corpus equivalence remains unestablished; do not deduplicate them without stronger identity evidence.",
+    "Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
+    "Karya Hindi-Mundari and Mundari TTS item-level ingestion remains blocked pending licence compatibility, participant provenance/consent and cultural-access review.",
+    "MMLoSo and Karya corpus equivalence remains unestablished; do not deduplicate without stronger identity evidence.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
-    "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
+    "The reported 1941 Mundari hockey booklet now has an exact secondary custody lead but still lacks an independently verified primary catalogue/archive/accession/scan/direct-custody locator and verified rights/cultural-access state.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
   "integrity": {
@@ -140,17 +154,16 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile Karya Mundari TTS, Karya Hindi-Mundari translation, Phillips & Harrison 2017, Sinha 1975 and Murugesan-Driemel-Murphy 2025 against the 87-lead discovery/master layer before assigning or changing permanent SRC-MMSC identities or evidence-chain rows.",
+    "Seek a primary catalogue/archive/accession/scan/direct-custody record for the 1941 Mundari hockey booklet; if obtained, verify title-page/imprint/pagination, rights/cultural access and exact page locators before promotion.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
     "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Obtain and hash official CIIL Sinha 1975 and Mundari-Vyakaran files, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Retry official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful-full-text and reuse-rights reconciliation before content extraction.",
-    "Perform Karya KPL compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion; do not equate Karya TTS, Karya translation, MMLoSo or MunTTS absent identity evidence.",
+    "Perform Karya licence compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
-    "Seek an independent primary locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-107 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-108 status head and repair any regression before further metric-changing promotion."
   ]
 }
