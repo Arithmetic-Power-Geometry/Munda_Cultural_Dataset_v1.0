@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T13:35:00Z",
-  "observed_head_before_status_sync": "17104ac75e2a0975776053110fc5c53dd6d27bba",
+  "updated_utc": "2026-09-09T13:50:00Z",
+  "observed_head_before_status_sync": "f8ce3cf7f9192fb9fd775ceea2b588bd96827e5f",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -38,7 +38,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 118 did not change scan/OCR/page-completeness state; no OCR or historical XIV-XVI equivalence was falsely upgraded."
+      "cycle_state": "Run 119 did not change scan/OCR/page-completeness state; no OCR or historical XIV-XVI equivalence was falsely upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000118",
-      "latest_search_record_path": "data/source_census/search_log_run118.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000119",
+      "latest_search_record_path": "data/source_census/search_log_run119.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 118 canonicalized the Proietti 2025 legal-deposit and Sapienza IRIS records as manifestations of one thesis work, verified repository-reported open-access timing and generic Creative Commons labelling, and explicitly withheld exact-licence and participant-derived-content claims.",
+      "latest_verification": "Run 119 deterministically reconciled Sinha 1975 CIIL/Bhasha Sanchika, Bharatavani, CiNii and WALS records as manifestations/reference records of one grammar work, exposing a 9.63 KB versus 117.39 MB manifestation-size discrepancy and independent xii, 163, [1] pagination without treating any object as verified complete.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign; Run 118 strengthened source manifestation canonicalization and rights provenance without changing permanent SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No schema redesign; Run 119 strengthened manifestation canonicalization and completeness/rights provenance without changing permanent SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -80,7 +80,7 @@
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Proietti thesis repositories report Open Access from 2026-05-27 and a generic Creative Commons label, but the exact CC variant was not verified. Participant-derived, interview, image and culturally sensitive materials remain separately gated."
+      "cycle_state": "Sinha grammar catalogue/read manifestations do not expose a verified open reuse licence. Bharatavani is login-to-read and displays All Rights Reserved; no book content or community-wide cultural assertion was ingested."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "No count/table/figure update required because permanent repository metrics did not change; Run 118 adds provenance and rights-depth only."
+      "manuscript_build_state": "No count/table/figure update required because permanent repository metrics did not change; Run 119 adds manifestation and provenance depth only."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,30 +100,31 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run118_advanced_source": "Proietti (2025) thesis exact identity, manifestation canonicalization, repository access state and rights boundary",
-      "promotion_boundary": "Bibliographic identity, persistent identifiers, repository access-state metadata and abstract-level scope may be recorded; participant-derived content, interviews, images, sensitive cultural claims and page-dependent assertions remain unpromoted until exact licence, provenance and cultural-access gates are resolved."
+      "run119_advanced_source": "Sinha (1975) Mundari Grammar work identity, manifestation canonicalization, independent pagination and access/rights boundary",
+      "promotion_boundary": "Bibliographic identity, persistent identifiers, file-size observations and independent catalogue pagination may be recorded; grammar content, example sentences and page-dependent assertions remain unpromoted until complete bytes, checksum, page-image accounting and reuse gates are resolved."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "Existing governance/evidence gaps already cover participant-derived and rights-restricted material; Run 118 narrows a source-identity and manifestation-deduplication gap.",
-    "explicit_gap_preserved": "Exact Creative Commons variant and participant/cultural-access status for Proietti thesis components remain unresolved."
+    "reason": "Existing source-completeness and rights gaps already cover incomplete/restricted grammar manifestations; Run 119 narrows the Sinha identity/manifestation gap.",
+    "explicit_gap_preserved": "Sinha 1975 complete manifestation bytes, independent checksum, page-image accounting and reusable-content permission remain unresolved."
   },
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "762ccf1c6c73185011813356deeff3ecb67148cf",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
     "verified_runs_for_that_head": {"source_register_audit": 1012, "migration_audit": 1062, "streamlit_smoke_test": 1158, "publication_build": 1011},
-    "new_commits_this_cycle_before_status_sync": ["7035c52a2fbf39c857ca9e16e60a40b9b50e9c18", "17104ac75e2a0975776053110fc5c53dd6d27bba"],
+    "new_commits_this_cycle_before_status_sync": ["469aa6b871cde5a64e486e876ab64ad4173ce0dc", "f8ce3cf7f9192fb9fd775ceea2b588bd96827e5f"],
     "new_head_ci_state_at_status_write": "pending_independent_four_workflow_verification"
   },
   "changes_this_cycle": [
-    "Added data/source_census/proietti_2025_adivasi_women_thesis_identity_rights_boundary_run118_2026-09-09.json.",
-    "Verified Marilena Proietti's 2025 Sapienza doctoral-thesis identity, publication date, legal-deposit handle 20.500.14242/212639, IRIS handle 11573/1740709 and NBN URN:NBN:IT:UNIROMA1-212639.",
-    "Canonicalized the two Sapienza repository records as manifestations of one thesis work while keeping any interviews/field materials/participant data distinct.",
-    "Verified repository metadata stating Tesi_dottorato_Proietti.pdf, 47.18 MB, Open Access from 2026-05-27 and a generic Creative Commons label; exact CC variant remains unverified.",
-    "Added MMSC-SEARCH-000118 and preserved conservative rights/community/cultural-access gates.",
+    "Added data/source_census/sinha_1975_mundari_grammar_manifestation_reconciliation_run119_2026-09-09.json.",
+    "Verified CIIL/Bhasha Sanchika handle 20.500.14705/8179 and CIILP0091.pdf reported at 9.63 KB.",
+    "Verified Bharatavani reports the same 1975 N. K. Sinha grammar as a 117.39 MB PDF with Login to Read access and CIIL as content partner/publisher.",
+    "Verified CiNii independent pagination xii, 163, [1] p., bibliography p. [164], NCID BA46909970 and LCCN 76901792.",
+    "Canonicalized CIIL/Bharatavani/CiNii/WALS records as manifestations/reference records of one work while explicitly preserving the file-size/completeness discrepancy.",
+    "Added MMSC-SEARCH-000119 covering all requested source classes and preserved conservative rights/community/cultural-access gates.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
@@ -132,8 +133,9 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
-    "Sinha 1975 and Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
-    "Cook/Bhaduri/TRI/Sinha/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
+    "Sinha 1975 complete book bytes, independent checksum, page-image accounting and reuse terms remain incomplete; CIIL reports 9.63 KB while Bharatavani reports 117.39 MB.",
+    "Mundari-Vyakaran complete file bytes, checksums, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
+    "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
     "Proietti exact Creative Commons variant and participant-derived thesis components remain separately rights/consent/cultural-access gated.",
     "Karya Hindi-Mundari, Mundari TTS, MMLoSo and other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
     "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator.",
@@ -168,7 +170,8 @@
     "Retry official LSI page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting while keeping modern XIV-XVI numbering separate from unresolved historical slots.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
-    "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran and CIIL Sinha 1975 manifestations; verify pagination/page images and reuse terms before content extraction.",
+    "Obtain and hash a complete Sinha 1975 manifestation and reconcile the 9.63 KB CIIL object against the 117.39 MB Bharatavani manifestation before content extraction.",
+    "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran manifestation; verify pagination/page images and reuse terms before content extraction.",
     "Continue Cook/Bhaduri/TRI/Archer/Osada and other lawful-full-text/rights reconciliation.",
     "Determine the exact Proietti thesis Creative Commons licence variant and separately review participant/cultural-access boundaries before any content-level ingestion.",
     "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
