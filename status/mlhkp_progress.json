@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T02:32:00Z",
-  "observed_head_before_status_sync": "f61443884d0d661a155550e6d4b47ab039b11fb2",
+  "updated_utc": "2026-09-09T02:49:00Z",
+  "observed_head_before_status_sync": "2848784847844b4ce4d8f2cfda5a82dc2a0d7d88",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -16,7 +16,7 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "cycle_state": "Run 96 documented the 2009 Gyan Publishing House Volume 15 manifestation (ISBN 9788121203197; reported 135 pages) and rechecked the already-known Volume 16 manifestation. These later numbered products are not treated as proof of historical part/volume/plates equivalence, authoritative scan completeness, OCR verification or page accounting; verified-complete volumes remain 0."
+      "cycle_state": "Run 97 was restricted to the non-Mundarica MMSC sprint; no Mundarica completeness or page-accounting state was upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -28,10 +28,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000096",
-      "latest_search_record_path": "data/source_census/search_log_run96.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000097",
+      "latest_search_record_path": "data/source_census/search_log_run97.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 96 added deterministic manifestation-level reconciliation for the 2009 Gyan Publishing House Encyclopaedia Mundarica Volume 15: ISBN 9788121203197 / 8121203198 and reported extent 135 pages. This is a later manifestation clue only and does not increase audited intellectual-work counts or historical completeness.",
+      "latest_verification": "Run 97 advanced N. K. Sinha's 1975 Mundari Grammar from generic discovery to an authoritative CIIL/Bhasha Sanchika exact locator: persistent handle 20.500.14705/8179, repository item fbcbbbce-de00-49df-a5df-76c49b2d0205, and listed file CIILP0091.pdf. Content-level extraction remains blocked pending byte/checksum/page/reuse verification and deterministic lead reconciliation.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -39,7 +39,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 96 improved deterministic work/manifestation reconciliation without adding unsupported SOURCE, CLAIM, EVIDENCE or provenance rows."
+      "cycle_state": "No schema redesign. Run 97 improved authoritative locator metadata and rights-aware candidate classification without adding unsupported SOURCE, CLAIM, EVIDENCE or provenance rows."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -49,7 +49,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No permanent source/claim/evidence/link metric changed in run 96; existing universal search, 42-module registration and 100% schema/UI mappings remain synchronized without fabricated manifestation promotion."
+      "sync_note": "No permanent source/claim/evidence/link metric changed in run 97; existing universal search, 42-module registration and 100% schema/UI mappings remain synchronized without fabricated source promotion."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -61,7 +61,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head bc495b4eb36eea0369787e84d71e71e0bbbbfc5e is independently verified 4/4 green: Source Register Audit 903, Migration Audit 953, Streamlit Smoke Test 1049 and Publication Build 902. Run 96 leaves manuscript metrics/tables/figures unchanged because no permanent source or evidence-chain count changed; newest-head CI must be verified separately."
+      "manuscript_build_state": "Pre-run head 992efdf0778ddd06a42a625f4968877d5630f2cf is independently verified 4/4 green: Source Register Audit 908, Migration Audit 958, Streamlit Smoke Test 1054 and Publication Build 907. Run 97 leaves manuscript metrics/tables/figures unchanged because no permanent source or evidence-chain count changed; newest-head CI must be verified separately."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -69,33 +69,34 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run96_advanced_source": "Encyclopaedia Mundarica Volume 15 advanced at manifestation-reconciliation level only: the 2009 Gyan product identity is now recorded with ISBN and reported extent, but it is not promoted to cultural evidence, historical slot completeness, OCR verification or page accounting.",
-      "promotion_boundary": "Commercial or catalogue manifestation metadata may establish a later edition identity and support deduplication, but cannot establish historical work/part/volume equivalence, page-image completeness, OCR verification, cultural propositions, rights status or community validation without primary and rights-appropriate evidence."
+      "run97_advanced_source": "N. K. Sinha's 1975 Mundari Grammar advanced to authoritative CIIL exact-locator status only. Repository identity, handle and listed PDF manifestation are now explicit; no grammar rule, example, lexical item or cultural proposition was promoted.",
+      "promotion_boundary": "An authoritative repository page may establish source identity, bibliographic metadata and a file manifestation, but cannot establish exact page content, verified transcription, reuse permission, cultural propositions, rights clearance or community validation without file-level and source-specific evidence."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "bc495b4eb36eea0369787e84d71e71e0bbbbfc5e",
+    "last_verified_all_four_green_commit": "992efdf0778ddd06a42a625f4968877d5630f2cf",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":903,"migration_audit":953,"streamlit_smoke_test":1049,"publication_build":902},
-    "new_commits_this_cycle_before_status_sync": ["79fa4366165b793c2426f7bf01575a1b0a3e7234","f61443884d0d661a155550e6d4b47ab039b11fb2"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-96 status head must be independently verified; do not project the verified bc495b4e 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":908,"migration_audit":958,"streamlit_smoke_test":1054,"publication_build":907},
+    "new_commits_this_cycle_before_status_sync": ["06703b8b9c6d1f79eee7751178c29cf7413a8979","2848784847844b4ce4d8f2cfda5a82dc2a0d7d88"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-97 status head must be independently verified; do not project the verified 992efdf0 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed pre-run head bc495b4eb36eea0369787e84d71e71e0bbbbfc5e as 4/4 CI green across all required workflows.",
-    "Added a deterministic 2009 Encyclopaedia Mundarica Volume 15 manifestation record: Gyan Publishing House, ISBN 9788121203197 / 8121203198, reported 135-page extent.",
-    "Rechecked the 2009 Volume 16 manifestation as a later-edition clue only and retained the historical publication-model blocker.",
-    "Recorded MMSC-SEARCH-000096 across books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI, archives, newspapers, web, datasets, audio, video, maps and media.",
-    "Applied work-versus-manifestation deduplication: modern numbered reprints are not counted as separate intellectual works and do not upgrade historical slot completeness.",
+    "Confirmed pre-run head 992efdf0778ddd06a42a625f4968877d5630f2cf as 4/4 CI green across all required workflows.",
+    "Added an authoritative CIIL/Bhasha Sanchika exact-locator verification for N. K. Sinha's 1975 Mundari Grammar: handle 20.500.14705/8179 and listed file CIILP0091.pdf.",
+    "Rechecked official Jharkhand Census ST-15, ST-16, C-16 and C-17 identities, filenames and relevant Munda/Mundari schema labels while keeping all numeric claims blocked pending workbook-level provenance.",
+    "Observed additional CIIL/Bharatavani Mundari grammar, word-book, reading and script candidates and held them outside audited counts pending deterministic reconciliation and rights checks.",
+    "Observed CIIL rights-holder metadata for Gonoe? Paromen Bonga and kept its ritual content un-ingested because public repository metadata does not establish cultural-access or reuse clearance.",
+    "Recorded MMSC-SEARCH-000097 across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media.",
     "Kept audited release metrics unchanged at 41/87/13/52/52/52 and preserved 42/42 modules and 100% schema/UI mapping because no permanent source/evidence-chain identity crossed the promotion gate.",
-    "No cultural fact, page-accounting completeness, OCR verification, rights status, consent or community validation was fabricated; main was not modified or merged."
+    "No demographic count, cultural fact, grammar proposition, rights status, consent or community validation was fabricated; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
-    "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical work/part/volume/plates/reprint reconciliation remains unresolved.",
+    "Sinha 1975 now has an authoritative CIIL exact locator, but its file bytes, checksum, pagination/page images and reuse terms remain unverified for content-level ingestion.",
     "Bhaduri original-edition 1929-versus-1931 catalogue discrepancy remains unresolved pending a primary title-page or authoritative catalogue record.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
     "Sakam Re Baha has official rights-provenance metadata but still lacks a verified primary publisher/library/digital-object manifestation suitable for page-level content ingestion; reuse and cultural-access permissions remain unresolved.",
@@ -126,16 +127,16 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Obtain authoritative library/publisher/title-page evidence for 2009 Mundarica Volumes 15-16 and reconcile those manifestations against the historical work/part/volume/plates model without upgrading completeness from commercial metadata.",
+    "Obtain and hash the official CIIL Sinha 1975 file manifestation, verify pagination/page images and determine reuse terms before any grammar-rule, example or lexical extraction.",
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after full identity reconciliation.",
+    "Reconcile newly observed CIIL/Bharatavani Mundari Word Book, Ramdayal Munda grammar/path, Baraiud grammar, Patar grammar, Mundari Chhabi Bohi and Mundari Dorpon records against the discovery/master registers before counting them.",
     "Retry official LSI and lawful public-domain page-image verification while preserving page-image versus OCR/index distinctions.",
-    "Continue authoritative Mundarica I-XVI scan/page accounting and XIV-XVI reconciliation without upgrading completeness from catalogue metadata.",
     "Resolve Bhaduri 1929-versus-1931 original-edition metadata from a primary title page or authoritative library record before edition normalization or lexical extraction.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before lexical, linguistic or cultural extraction.",
     "Continue media candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-96 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-97 status head and repair any regression before further metric-changing promotion."
   ]
 }
