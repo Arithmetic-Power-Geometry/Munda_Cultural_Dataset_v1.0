@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T03:34:00Z",
-  "observed_head_before_status_sync": "e825c3cedbbd4891d54d9f2bd3e8a2e5228c17c8",
+  "updated_utc": "2026-09-09T04:00:00Z",
+  "observed_head_before_status_sync": "f68bce80473e487374a1e2e9f0bcfe9ba9eaa01c",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,7 +19,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_not_machine_verified_complete","XIV":"historical_slot_unresolved","XV":"historical_slot_unresolved","XVI":"historical_slot_unresolved"
       },
-      "cycle_state": "Run 98 did not upgrade Mundarica scan, OCR, page-accounting, structuring or completeness state; authoritative page-level verification remains unresolved."
+      "cycle_state": "Run 99 did not upgrade Mundarica scan, OCR, page-accounting, structuring or completeness state; authoritative page-level verification remains unresolved."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -31,10 +31,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000098",
-      "latest_search_record_path": "data/source_census/search_log_run98.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000099",
+      "latest_search_record_path": "data/source_census/search_log_run99.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 98 independently reverified official ORGI ST-16 Jharkhand 2011 identity PC11_ST16-20 and workbook filename ST-20-00-16-DDW-2011.XLSX, and LSI_JHARKHAND with publication date 2023-08-01 and LSI_JHARKHAND.pdf. No numeric or page-level claim was promoted.",
+      "latest_verification": "Run 99 verified the 2026 FASAL-15 article 'Towards a typology of information structuring in Munda languages' at the publisher article page and an exact publisher-PDF text-layer locator on p. 47, while withholding a permanent source ID until deterministic discovery-layer reconciliation.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -42,7 +42,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign; no unsupported SOURCE, CLAIM, EVIDENCE or provenance row added."
+      "cycle_state": "No schema redesign; a bounded exact-locator verification artifact was added without unsupported permanent SOURCE, CLAIM, EVIDENCE or provenance rows."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -52,7 +52,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 98 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no redesign was prioritized over evidence verification."
+      "sync_note": "Run 99 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no metric remapping was required because permanent source/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -64,7 +64,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-97 status head 5d0b25bfee6f113cfc9ea3c1c8cca206a769126a independently verified 4/4 green: Source Register Audit 913, Migration Audit 963, Streamlit Smoke Test 1059, Publication Build 912. Run 98 changes no manuscript metrics because permanent source/evidence counts did not change."
+      "manuscript_build_state": "Run-98 status head 636fbba4cbbe2f527d771a32e3bf103cfbea8909 independently verified 4/4 green: Source Register Audit 916, Migration Audit 966, Streamlit Smoke Test 1062, Publication Build 915. Run 99 changes no manuscript metrics because permanent source/evidence counts did not change."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -72,25 +72,26 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run98_advanced_source": "No content source crossed the promotion gate. Official Census and LSI locators were reverified, strengthening auditability without fabricating numeric, linguistic or cultural content.",
-      "promotion_boundary": "Catalogue metadata may establish identity and a file locator, but not exact page content, numeric values, verified transcription, reuse permission, cultural truth or community validation."
+      "run99_advanced_source": "FASAL-15 Mundari information-structure article advanced to a bounded exact-locator verification artifact: publisher article metadata plus publisher-PDF text-layer p. 47. It remains outside permanent counts pending deterministic reconciliation.",
+      "promotion_boundary": "Publisher text can support a bounded linguistic proposition and locator, but does not establish participant consent, underlying audio/transcript reuse rights, community validation, cultural representativeness or unrestricted redistribution."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "5d0b25bfee6f113cfc9ea3c1c8cca206a769126a",
+    "last_verified_all_four_green_commit": "636fbba4cbbe2f527d771a32e3bf103cfbea8909",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":913,"migration_audit":963,"streamlit_smoke_test":1059,"publication_build":912},
-    "new_commits_this_cycle_before_status_sync": ["e825c3cedbbd4891d54d9f2bd3e8a2e5228c17c8"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-98 status head must be independently verified; do not project the verified 5d0b25bf 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":916,"migration_audit":966,"streamlit_smoke_test":1062,"publication_build":915},
+    "new_commits_this_cycle_before_status_sync": ["da9c6a86b2b609b35ed54db91b965479384ae81c","f68bce80473e487374a1e2e9f0bcfe9ba9eaa01c"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-99 status head must be independently verified; do not project the verified 636fbba4 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed run-97 status head 5d0b25bfee6f113cfc9ea3c1c8cca206a769126a as 4/4 green across all required workflows.",
-    "Recorded MMSC-SEARCH-000098 with an official ORGI recheck of ST-16 Jharkhand 2011 and LSI Jharkhand metadata/file locators.",
-    "Kept Census numeric promotion blocked pending official workbook bytes, checksums, worksheet names, row identities and exact cell coordinates.",
-    "Kept LSI page-level promotion blocked pending exact page-image verification.",
-    "Kept audited metrics unchanged at 41/87/13/52/52/52 and Mundarica verified-complete volumes at zero.",
-    "Preserved 42/42 modules, 100% schema-category representation and 100% UI mapping without redesign-driven churn.",
+    "Confirmed run-98 status head 636fbba4cbbe2f527d771a32e3bf103cfbea8909 as 4/4 green across all required workflows.",
+    "Added an exact-locator verification artifact for Anderson, Jora, Oyeleye, Armand, Shabazaz and Horo's 2026 FASAL-15 paper on information structuring in Munda languages.",
+    "Promoted only publisher-supported article metadata and a bounded p. 47 Mundari prosody/focus locator; no participant audio, transcripts, lexical examples or cultural propositions were ingested.",
+    "Recorded MMSC-SEARCH-000099 across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and media.",
+    "Reobserved CIIL/Bharatavani candidates including Ramdayal Munda's Mundari-Vyakaran and Mundari Path, Mundari Word Book and Mundari Chhabi Bohi without count inflation before reconciliation.",
+    "Verified a 2023 CC BY-SA 4.0 Mundari-speakers map as a reusable map manifestation but did not treat it as authoritative demographic evidence.",
+    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no new permanent identity/evidence-chain row crossed the promotion gate.",
     "No cultural fact, right, consent, OCR verification, community validation or source-completeness claim was fabricated; main was not modified or merged."
   ],
   "blockers": [
@@ -99,6 +100,7 @@
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
     "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
     "Sinha 1975 CIIL file bytes, checksum, pagination/page images and reuse terms remain unverified for content-level ingestion.",
+    "FASAL-15 direct PDF rendering was blocked in this environment; page 47 is text-layer exact-locator evidence, not a page-image audit.",
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
@@ -129,15 +131,16 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "Deterministically reconcile the FASAL-15 article against the 87-lead discovery layer before assigning any new permanent SRC-MMSC ID.",
     "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before any numeric claim promotion.",
     "Obtain and hash the official CIIL Sinha 1975 file, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after identity reconciliation.",
-    "Retry official LSI page-image verification while preserving page-image versus OCR/index distinctions.",
-    "Continue authoritative Mundarica I-XVI acquisition/page accounting and XIV-XVI publication-model reconciliation without treating OCR as verified transcription.",
+    "Retry official LSI and FASAL page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before content extraction.",
+    "Reconcile MMLoSo Mundari benchmark data licensing and exact resource identities before any corpus-content ingestion.",
     "Continue media candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-98 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-99 status head and repair any regression before further metric-changing promotion."
   ]
 }
