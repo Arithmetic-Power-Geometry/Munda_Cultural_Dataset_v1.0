@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T17:33:00Z",
-  "observed_head_before_status_sync": "7f206170acc74e03857cdf24b389234073544b5f",
+  "updated_utc": "2026-09-09T17:58:00Z",
+  "observed_head_before_status_sync": "1e42cac19d83a76183e84b499707050941c70a0c",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -38,7 +38,7 @@
         "XV": "modern_manifestation_observed_historical_relationship_unresolved",
         "XVI": "modern_manifestation_observed_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 126 preserved the team's 16/16 human-review attestations and all conservative machine-verification states. No unverified scan, OCR transcription, page-complete state or XIV-XVI historical equivalence was promoted."
+      "cycle_state": "Run 127 preserves the 16/16 human-review attestations and all conservative machine-verification states. No unverified scan, OCR transcription, page-complete state or XIV-XVI historical equivalence was promoted."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000126",
-      "latest_search_record_path": "data/source_census/search_log_run126.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000127",
+      "latest_search_record_path": "data/source_census/search_log_run127.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 126 strengthened LSI Jharkhand manifestation provenance: official ORGI catalogue identity LSI_JHARKHAND, filename LSI_JHARKHAND.pdf, direct download endpoint /catalog/45248/download/48955/LSI_JHARKHAND.pdf, plus an independent PARI mirror/landing record whose indexed text layer exposes the Mundari section. Official direct retrieval returned HTTP 502 and the mirror exceeded the current web fetch size limit, so no page-image, checksum or OCR-verification claim was promoted.",
+      "latest_verification": "Run 127 converted two non-Mundarica streams into exact-locator provenance: Government of India/DRMTWRI record DRMTWRI/1993/0007 (Munda, Mar-1993, reported pp.1-44, exact PDF filename/direct bitstream locator) and Pallavi Raonka's Virginia Tech dissertation hdl:10919/111386 with institutional item/file/direct-manifestation locators and participant-derived content gate. No content claim was promoted where bytes, licence, consent or cultural-access review remained incomplete.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -62,7 +62,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 126 added a provenance-bearing LSI manifestation/locator artifact without inflating permanent SOURCE/CLAIM/EVIDENCE counts."
+      "cycle_state": "No redesign. Run 127 added two provenance-bearing exact-locator artifacts without inflating permanent SOURCE/CLAIM/EVIDENCE counts."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -73,14 +73,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no schema/UI remapping was warranted because permanent source/claim/evidence counts did not change in Run 126."
+      "sync_note": "42/42 modules plus universal search, evidence drilldown, reports/downloads and owner-console contracts remain represented; no schema/UI remapping was warranted because permanent source/claim/evidence counts did not change in Run 127."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "LSI public catalogue/mirror accessibility was used only for identity and locator provenance. No derivative reuse right, participant consent, cultural-access approval or community validation was inferred from public availability."
+      "cycle_state": "DRMTWRI repository metadata is all-rights-reserved unless otherwise indicated; the Raonka dissertation is publicly inspectable but no exact open licence or MLHKP participant reuse consent was verified. No redistribution, participant consent, cultural-access approval or community validation was inferred."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -92,7 +92,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Permanent repository metrics did not change in Run 126, so no manuscript count/table/figure update is required. The previous head c6a258c734226902308747900d0c721251bf86a6 passed Publication Build #1052; fresh CI is required for this status head."
+      "manuscript_build_state": "Permanent repository metrics did not change in Run 127. Prior status head 6591087d1caac765282cb3ac73718c0fd507ca0f passed Source Register #1058, Migration #1108 and Streamlit #1204, but Publication Build #1057 failed at Install publication toolchain; downstream regeneration/compile steps were skipped. This remains a CI blocker until a later head passes independently."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -100,50 +100,53 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run124_advanced_source": "Official ORGI Census 2001 C-16 Jharkhand table identity and exact downloadable workbook filename",
       "run125_advanced_source": "Official ORGI ST-15/ST-16/C-17 exact locators plus Bharatavani Man Masih Mundu 2017 Mundari Dictionary access/rights locator",
-      "run126_advanced_source": "Official LSI Jharkhand direct-PDF locator plus independent PARI mirror/text-layer corroboration with explicit page-image/checksum/OCR verification boundary",
-      "promotion_boundary": "Run 126 promotion is bounded to work/manifestation identity and locator provenance. Indexed text-layer content was not treated as verified transcription; no page-level, numeric, cultural or reuse-right claim entered the public evidence chain."
+      "run126_advanced_source": "Official LSI Jharkhand direct-PDF locator plus independent PARI mirror/text-layer corroboration",
+      "run127_advanced_source": "DRMTWRI 1993 Munda government/TRI exact locator plus Raonka 2020/2021 Virginia Tech dissertation exact locator and participant/cultural-access boundary",
+      "promotion_boundary": "Run 127 promotion is bounded to work/manifestation identity and exact locator provenance. No restricted, participant-derived, page-unverified or rights-uncertain content entered the public evidence chain."
     }
   },
   "coverage_gap_sync": {
     "coverage_matrix_path": "data/coverage_matrix.json",
     "structural_change_required_this_cycle": false,
-    "reason": "Existing LSI page-image/OCR, source-completeness and rights gap categories already represent the residual uncertainty; no new schema category is required.",
-    "explicit_gap_preserved": "Official LSI PDF bytes/checksum and exact Mundari page-image verification remain unresolved despite verified official direct-download and independent mirror locators."
+    "reason": "Existing source, government/archive, bibliographic, rights/consent and completeness-gap categories already represent the residual uncertainty; no new schema category is required.",
+    "explicit_gap_preserved": "DRMTWRI 1993 PDF bytes/hash/page passages and Raonka item-level licence/participant/cultural-access review remain unresolved; exact locators are preserved without content over-promotion."
   },
   "tests_and_workflows": {
     "last_verified_all_four_green_commit": "c6a258c734226902308747900d0c721251bf86a6",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
     "verified_runs_for_that_head": {"source_register_audit":1053,"migration_audit":1103,"streamlit_smoke_test":1199,"publication_build":1052},
-    "new_commits_this_cycle_before_status_sync": ["b7fa0561a088211e57def4fba7ac76022c49a22d","7f206170acc74e03857cdf24b389234073544b5f"],
-    "new_head_ci_state_at_status_write": "Run 126 status-sync commit requires fresh CI; no 4/4-green state is projected from the prior head."
+    "prior_status_head_ci": {"commit":"6591087d1caac765282cb3ac73718c0fd507ca0f","source_register_audit":{"run":1058,"conclusion":"success"},"migration_audit":{"run":1108,"conclusion":"success"},"streamlit_smoke_test":{"run":1204,"conclusion":"success"},"publication_build":{"run":1057,"conclusion":"failure","failed_step":"Install publication toolchain"}},
+    "new_commits_this_cycle_before_status_sync": ["55690da71904f7bdaea637f311eddb0f4f0acf22","51a7a946de8c4354f91d5204ed7ffa132ee25905","1e42cac19d83a76183e84b499707050941c70a0c"],
+    "new_head_ci_state_at_status_write": "Run 127 status-sync commit requires fresh CI; no green state is projected from earlier heads."
   },
   "changes_this_cycle": [
-    "Verified prior head c6a258c734226902308747900d0c721251bf86a6 as 4/4 green: Source Register Audit #1053, Migration Audit #1103, Streamlit Smoke Test #1199 and Publication Build #1052.",
-    "Added data/source_census/lsi_jharkhand_direct_pdf_mirror_locator_run126_2026-09-09.json.",
-    "Verified official ORGI LSI_JHARKHAND catalogue identity, 2023-08-01 publication date, filename LSI_JHARKHAND.pdf and direct download endpoint.",
-    "Verified a PARI mirror/landing manifestation whose indexed text layer exposes the Mundari section; retained it as independent locator corroboration only.",
-    "Recorded official direct-PDF HTTP 502 and mirror fetch-size blocker; did not invent checksum, page-image locator, OCR verification or reuse permission.",
-    "Added MMSC-SEARCH-000126 with cross-class search coverage and deterministic same-work manifestation reconciliation.",
+    "Added data/source_census/drmtwri_munda_1993_exact_locator_run127_2026-09-09.json.",
+    "Verified Ministry of Tribal Affairs/DRMTWRI record DRMTWRI/1993/0007, title Munda, Mar-1993, reported pagination 1-44, exact filename and direct bitstream locator; direct PDF retrieval timed out and no hash/page content was invented.",
+    "Added data/source_census/raonka_2021_munda_politics_land_exact_locator_run127_2026-09-09.json.",
+    "Verified Virginia Tech item/handle/file/direct-manifestation identity for Pallavi Raonka's dissertation; participant-derived ethnographic content remains licence/consent/cultural-access gated.",
+    "Added MMSC-SEARCH-000127 covering all requested discoverable source classes and deterministic manifestation reconciliation.",
+    "Detected Publication Build #1057 failure on prior status head at the toolchain-install step; three other audits passed. No 4/4-green claim was projected.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Official LSI Jharkhand direct PDF locator is verified, but bytes/checksum/exact page-image verification remain incomplete because official fetch returned HTTP 502 and the independent mirror exceeded the current web fetch size limit.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims despite verified official identities and filenames.",
-    "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established, while 16/16 human-review attestations are preserved.",
+    "Publication Build #1057 failed at Install publication toolchain on status head 6591087d1caac765282cb3ac73718c0fd507ca0f; newest-head CI must be independently checked.",
+    "DRMTWRI 1993 Munda direct PDF timed out; bytes, checksum, page images, exact passage locators and reuse permission remain unresolved.",
+    "Raonka dissertation exact open-licence status, independent checksum and participant-derived consent/cultural-access disposition remain unresolved.",
+    "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
+    "Authoritative Mundarica scans, hashes and page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
     "TRI Jharkhand's 15-volume Encyclopaedia Mundarica statement remains unresolved against historical I-XIII and modern 16-volume manifestation evidence.",
     "Man Masih Mundu 2017 Mundari Dictionary is Login to Read; lawful complete bytes, checksum, pagination/page locators and reuse terms remain unresolved.",
     "Sinha 1975 and Mundari-Vyakaran complete bytes/checksums/page-image accounting/reuse terms remain incomplete.",
     "Evans & Osada 2005 ANU PDF bytes/checksum/page-level locators and exact reuse licence remain incomplete.",
-    "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending where applicable.",
-    "Proietti exact Creative Commons variant and participant-derived thesis components remain separately rights/consent/cultural-access gated.",
+    "Cook/Bhaduri/TRI/Archer/Osada and related lawful inspectable full-text/master-register reconciliation remains pending.",
+    "Proietti exact Creative Commons variant and participant-derived thesis components remain rights/consent/cultural-access gated.",
     "Karya Hindi-Mundari, Mundari TTS, MMLoSo and other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
-    "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator.",
-    "Newest status-head workflow state must be independently verified before any 4/4-green claim for that head."
+    "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -170,18 +173,16 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
+    "Retry DRMTWRI 1993 Munda PDF byte acquisition; hash bytes and record exact page/passages only if lawful access and rights permit.",
+    "Resolve Raonka dissertation licence metadata and separately review participant-derived consent/cultural-access boundaries before passage ingestion.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric promotion.",
     "Retry official LSI PDF byte acquisition and page-image verification while preserving page-image versus text-layer/OCR distinctions.",
-    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and convert existing human-review attestations into file/hash/page-linked audit records wherever supporting artifacts exist.",
-    "Reconcile TRI's 15-volume Mundarica statement against primary edition/fascicle/title-page evidence while keeping modern XIV-XVI numbering separate.",
-    "Seek lawful complete access to Man Masih Mundu 2017 dictionary and hash bytes before lexical extraction.",
-    "Retry lawful retrieval of Evans-Osada 2005 or another authoritative complete manifestation.",
-    "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
-    "Obtain and hash complete Sinha 1975 and Ramdayal Munda grammar manifestations before content extraction.",
+    "Continue authoritative Mundarica I-XIII acquisition/hash/page accounting and reconcile TRI's 15-volume statement against primary edition evidence.",
+    "Seek lawful complete access to Man Masih Mundu 2017 dictionary and complete Sinha 1975/Ramdayal Munda grammar manifestations before extraction.",
     "Continue Cook/Bhaduri/TRI/Archer/Osada and other lawful-full-text/rights reconciliation.",
     "Determine the exact Proietti thesis Creative Commons variant and separately review participant/cultural-access boundaries.",
     "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest status head and run completeness/provenance checks before any release-gate change."
+    "Verify all four CI workflows on the newest status head; separately investigate the Publication Build toolchain-install failure if it recurs."
   ]
 }
