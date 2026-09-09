@@ -1,0 +1,53 @@
+{
+  "verification_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "candidate": {
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "repository_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+    "default_branch": "main",
+    "observed_dataset_file": "translation-hi-unr.tsv",
+    "readme_reported_sentence_pairs": 17826,
+    "readme_reported_encoding": "UTF-8",
+    "readme_reported_columns": ["Hindi sentence", "Mundari translation"],
+    "creator_collaboration_as_stated": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+    "copyright_notice": "© 2023 DAIA Tech Pvt Ltd.",
+    "license_name": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+    "license_short_label": "KPL BY-NC-SA-FS 1.0",
+    "readme_blob_sha": "f2e3c762895d3620b883a8e06e14d4181584a80a",
+    "license_blob_sha": "ba4d2674108b11ac3530a7bbe8a7f0d5394a36e1",
+    "copyright_blob_sha": "111f8632fff7ab6a77a99ca4e9fbb7c8b985f5b2"
+  },
+  "license_boundary": {
+    "noncommercial_only": true,
+    "sharealike": true,
+    "software_incorporation_requires_gpl_v3_or_later": true,
+    "publicity_privacy_and_similar_personality_rights_not_licensed": true,
+    "mlhkp_content_ingestion_status": "blocked_pending_license_compatibility_and_cultural_access_review",
+    "metadata_identity_ingestion_status": "permitted_for_census_audit_as_factual_metadata",
+    "reason": "MLHKP must not copy or incorporate corpus content into a differently licensed software/data release merely because the source repository is public. The Karya license imposes NC/SA/FS obligations and separately does not license publicity/privacy/personality rights. Cultural access and participant/community constraints remain an additional gate."
+  },
+  "mmloso_reconciliation": {
+    "paper": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "acl_anthology_id": "2025.mmloso-1.14",
+    "paper_reports_mundari_training_pairs": 20000,
+    "paper_reports_public_release": true,
+    "identity_equivalence_with_karya_17826_pair_corpus": "not_established",
+    "deduplication_rule": "Do not merge MMLoSo and Karya dataset identities solely because both are Hindi-Mundari parallel corpora. Counts differ and the shared-task paper does not, by itself, establish that the Karya repository is the exact underlying manifestation."
+  },
+  "promotion_decision": {
+    "permanent_source_id_assigned": false,
+    "dataset_rows_ingested": 0,
+    "claims_promoted": 0,
+    "evidence_rows_promoted": 0,
+    "rights_claimed_beyond_source_text": false,
+    "community_validation_claimed": false,
+    "participant_consent_claimed": false
+  },
+  "sources": [
+    "https://github.com/karya-inc/dataset-hindi-mundari-translation/blob/main/README.md",
+    "https://github.com/karya-inc/dataset-hindi-mundari-translation/blob/main/LICENSE.txt",
+    "https://github.com/karya-inc/dataset-hindi-mundari-translation/blob/main/COPYRIGHT.txt",
+    "https://aclanthology.org/2025.mmloso-1.14/"
+  ]
+}
