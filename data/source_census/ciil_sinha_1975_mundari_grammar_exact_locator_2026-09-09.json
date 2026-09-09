@@ -1,0 +1,47 @@
+{
+  "record_type": "source_census_exact_locator_verification",
+  "checked_utc": "2026-09-09T02:46:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "grammar_government_language_repository",
+  "authority": "Central Institute of Indian Languages (CIIL), Bhasha Sanchika",
+  "title": "Mundari Grammar",
+  "author": "N. K. Sinha",
+  "publication_year": 1975,
+  "languages": ["English", "Mundari"],
+  "persistent_handle": "https://hdl.handle.net/20.500.14705/8179",
+  "repository_item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+  "repository_file_manifestation": {
+    "filename": "CIILP0091.pdf",
+    "reported_size": "9.63 KB",
+    "retrieved_and_hashed_in_mlhkp": false,
+    "page_image_verified": false,
+    "text_content_ingested": false
+  },
+  "repository_description_scope": [
+    "pedagogical Mundari grammar",
+    "noun morphology",
+    "verb morphology",
+    "adjectives and adverbs",
+    "syntax and constituent order"
+  ],
+  "evidence_boundary": {
+    "promoted_now": "official repository identity, bibliographic metadata, persistent handle, repository item identifier, listed file manifestation and repository-supplied scope description only",
+    "grammar_rules_promoted": false,
+    "example_sentences_promoted": false,
+    "lexical_entries_promoted": false,
+    "cultural_claims_promoted": false,
+    "reason": "The repository page establishes source identity and a listed file manifestation, but the PDF bytes, checksum, pagination, page images, exact passages and reuse terms have not been verified in MLHKP."
+  },
+  "rights_governance": {
+    "public_repository_listing_not_treated_as_redistribution_permission": true,
+    "reuse_permission_verified": false,
+    "participant_or_community_consent_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "deduplication": {
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "instruction": "Reconcile against existing Sinha/Mundari Grammar discovery records and the 74 unresolved web leads before permanent source-ID promotion."
+  },
+  "release_use": "Narrows the Sinha grammar blocker from generic discovery to an authoritative CIIL exact locator while keeping content-level ingestion blocked pending lawful file acquisition and exact-page verification."
+}
