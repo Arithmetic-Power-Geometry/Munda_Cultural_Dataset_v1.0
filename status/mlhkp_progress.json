@@ -2,13 +2,17 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T10:49:00Z",
-  "observed_head_before_status_sync": "6b11b682d19d62bea27eb7dc5cfad202de6389e5",
+  "updated_utc": "2026-09-09T11:33:00Z",
+  "observed_head_before_status_sync": "252f74b1e3327c1ef87d82d4815ef2a639b918e8",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
     "A_mundarica": {
+      "acquisition_ocr_page_accounting_structuring_active": true,
       "expected_volume_slots_current_model": 16,
+      "historical_text_sequence_currently_supported": "I-XIII",
+      "modern_sixteen_volume_manifestation_observed": true,
+      "historical_xiv_xvi_equivalence_proven": false,
       "located_volume_numbers": [1,2,3,4,5,6,7,8,9,10,11,12,13],
       "verified_external_locators_counted": 12,
       "local_artifacts_registered": 1,
@@ -30,11 +34,11 @@
         "XI": "located_not_machine_verified_complete",
         "XII": "located_not_machine_verified_complete",
         "XIII": "located_not_machine_verified_complete",
-        "XIV": "historical_slot_unresolved",
-        "XV": "historical_slot_unresolved",
-        "XVI": "historical_slot_unresolved"
+        "XIV": "modern_manifestation_observed_historical_slot_unresolved",
+        "XV": "modern_manifestation_observed_historical_slot_unresolved",
+        "XVI": "modern_manifestation_observed_historical_slot_unresolved"
       },
-      "cycle_state": "Run 113 is a non-Mundarica census/ingestion cycle. Existing Mundarica acquisition/OCR/page-accounting state was preserved without unsupported upgrades."
+      "cycle_state": "Run 114 added a bounded work/manifestation reconciliation artifact. A contemporaneous Jesuit bibliography corroborates historical XI-XII numbering/pagination; a library-derived Google Books record corroborates historical XIII; modern Gyan records explicitly use a 16-volume model. Historical XIV-XVI text-volume equivalence remains unproven. No scan, OCR, page-completeness or cultural-content state was upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +50,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000113",
-      "latest_search_record_path": "data/source_census/search_log_run113.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000114",
+      "latest_search_record_path": "data/source_census/search_log_run114.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 113 independently verified official ORGI Census 2011 Jharkhand C-16 identity PC11_C16-20 / DDW-C16-STMT-MDDS-2000.xlsx and C-17 identity PC11_C17-20 / DDW-C17-2000.XLSX, including table semantics and C-17 MUNDA/MUNDARI row labels. These remain authority manifestations within the existing Census stream; no workbook bytes, hashes, exact cells or numbers were promoted.",
+      "latest_verification": "Run 114 reconciled historical versus modern Encyclopaedia Mundarica volume models at the work/manifestation layer. No duplicate permanent identity was created and no modern XIV-XVI numbering was back-projected into the historical series.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +61,8 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 113 added bounded C-16/C-17 source-locator/schema provenance only; permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because no numerical or cultural proposition crossed the exact-cell/evidence gate."
+      "ontology_entities_evidence_graph_active": true,
+      "cycle_state": "No schema redesign. Run 114 strengthened deterministic work-versus-manifestation canonicalization for Mundarica. Permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because bibliographic reconciliation did not cross the content-level evidence gate."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,9 +72,17 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 113 preserves 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping. No count-bearing UI remap was justified because permanent identities/evidence counts did not change."
+      "ui_mapping_percent": 100.0,
+      "sync_note": "42/42 modules and required shared functions remain represented. Run 114 changed no count-bearing UI contract."
     },
-    "E_publication_readiness": {
+    "E_rights_governance_community_validation": {
+      "cultural_access_overrides_legal_or_technical_entitlement": true,
+      "public_availability_treated_as_reuse_permission": false,
+      "community_validation_fabricated": false,
+      "restricted_material_exposed": false,
+      "cycle_state": "Run 114 ingested only bibliographic/manifestation metadata. No plate image, cultural passage, participant-derived material or OCR text was ingested; rights, consent and cultural-access gates remain controlling."
+    },
+    "F_publication_readiness": {
       "repository_derived_metrics": true,
       "sources_discovered": 41,
       "web_discovery_leads_observed": 87,
@@ -79,56 +92,53 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run 113 changes no manuscript metrics because permanent source/evidence counts did not change. The prior run-112 status head had four workflow runs created and at least Migration Audit 1038 completed successfully; do not project a 4/4-green claim to the newest head without independent verification."
+      "manuscript_build_state": "No manuscript metric/table/figure update required because permanent repository metrics did not change. Current pre-run head dfe1fc8a17d2ba5e378e9496d9d72717923ac827 independently passed Publication Build run 992; newest head requires fresh CI verification."
     },
-    "F_evidence_population": {
+    "G_evidence_population": {
       "source_claims": 52,
       "evidence_records": 52,
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run113_advanced_source": "Existing Census source stream gained official C-16/C-17 Jharkhand source-locator, schema and relevant-row-label provenance in data/source_census/census_c16_c17_jharkhand_schema_locator_verification_2026-09-09.json.",
-      "promotion_boundary": "Official catalogue metadata supports source identity, workbook filename, table semantics, schema and row-label provenance only. Numeric Census claims require acquired workbook bytes, checksum, worksheet, row and exact cell coordinates. Public catalogue availability does not override cultural-access, privacy or governance gates."
+      "run114_advanced_source": "Mundarica bibliographic/manifestation reconciliation only",
+      "promotion_boundary": "Historical/modern volume-model metadata improves canonicalization but is not itself a cultural proposition. No content-level SOURCE→EVIDENCE→CLAIM promotion occurred without authoritative scan/page provenance, rights and cultural-access clearance."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "63acdd2b040ed043b4735eed526fca386fe8e04f",
+    "last_verified_all_four_green_commit": "dfe1fc8a17d2ba5e378e9496d9d72717923ac827",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
     "verified_run_numbers": {
-      "source_register_audit": 983,
-      "migration_audit": 1033,
-      "streamlit_smoke_test": 1129,
-      "publication_build": 982
+      "source_register_audit": 993,
+      "migration_audit": 1043,
+      "streamlit_smoke_test": 1139,
+      "publication_build": 992
     },
-    "new_commits_this_cycle_before_status_sync": ["2b81459d46156acc19cc5d7266c4d13b97dd080b","6b11b682d19d62bea27eb7dc5cfad202de6389e5"],
-    "new_head_ci_state_at_status_write": "Run 113 changes descend from prior audited state. Independent workflow verification is required before projecting any 4/4-green claim to this status-sync head."
+    "new_commits_this_cycle_before_status_sync": ["e9b539929aba6adbbc6feeb4c464c006a044c9ad","252f74b1e3327c1ef87d82d4815ef2a639b918e8"],
+    "new_head_ci_state_at_status_write": "Run 114 status sync follows two metadata-only audit commits. Do not project the prior 4/4-green claim to the newest head until all four workflows are independently observed successful."
   },
   "changes_this_cycle": [
-    "Independently verified official ORGI Jharkhand C-16 reference PC11_C16-20 with workbook DDW-C16-STMT-MDDS-2000.xlsx and C-17 reference PC11_C17-20 with workbook DDW-C17-2000.XLSX.",
-    "Recorded C-16 table semantics/schema fields and C-17 bilingualism/trilingualism semantics plus official MUNDA and MUNDARI total-speaker row labels.",
-    "Kept C-16/C-17 catalogue/workbook records as authority/manifestation locators within the existing Census stream rather than duplicate permanent identities.",
-    "Ran federated searches across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media.",
-    "Re-observed Karya TTS, Tuti 2025, TRI, Shrivastava 2013 and Wikimedia map streams without duplicate promotion; surfaced newer fieldwork/food/folktale candidates but withheld cultural claims pending full evidence, rights, consent and cultural-access review.",
-    "Searched again for the reported 1941 Mundari hockey rulebook; no independent primary catalogue/archive/accession/scan/title-page/direct-custody locator was found, so the secondary report remains an explicit gap.",
-    "Added data/source_census/census_c16_c17_jharkhand_schema_locator_verification_2026-09-09.json and data/source_census/search_log_run113.jsonl.",
-    "Promoted no Census numbers because file bytes, checksums, worksheet names, rows and exact cell coordinates remain unverified.",
-    "Preserved audited metrics at 41/87/13/52/52/52 and 42 modules; no manuscript metric, graph count, table or figure change was justified."
+    "Verified the live PR remains open, unmerged, base main, head mlhkp-v2.",
+    "Independently verified all four required CI workflows green on pre-run head dfe1fc8a17d2ba5e378e9496d9d72717923ac827.",
+    "Added data/source_census/mundarica_historical_vs_modern_volume_model_reconciliation_2026-09-09.json.",
+    "Recorded contemporaneous Jesuit bibliographic corroboration for historical Mundarica XI-XII numbering and continuous pagination.",
+    "Recorded library-derived bibliographic corroboration for historical Volume XIII and separate modern Gyan 16-volume numbering.",
+    "Kept modern XIV-XVI manifestations distinct from unresolved historical XIV-XVI identities; no false historical equivalence was asserted.",
+    "Added data/source_census/search_log_run114.jsonl and continued federated MMSC searches across requested source classes.",
+    "Promoted no cultural facts, OCR transcription, rights state, community validation or completeness claim.",
+    "Preserved repository metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 52 claims / 52 evidence / 52 provenance links and 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
+    "Authoritative Mundarica I-XIII scans, cryptographic hashes and page accounting remain unresolved; verified-complete volume count remains zero.",
+    "Historical XIV-XVI text-volume equivalence is unproven; modern Gyan XIV-XVI manifestations cannot be treated as historical slots without primary evidence.",
+    "Separate plate-fascicle authoritative scan, exact extent and page/image accounting remain unresolved.",
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; C-16/C-17 official identities/schema were independently verified in run 113.",
-    "Sinha 1975 CIIL full-text file bytes, checksum, pagination/page images, exact page locators and reuse terms remain unverified for content-level ingestion.",
-    "Mundari-Vyakaran has an official CIIL handle and visually verified one-page manifestation, but complete grammar/full-text bytes, independent checksum, full pagination/page-image accounting and derivative reuse permission remain unresolved; historical manifestation relationships remain unresolved.",
-    "White Rose accepted-manuscript screenshot/page-image rendering remains visually unverified; exact locators are text-layer verified only.",
-    "Tuti et al. 2025 exact text-layer locators are verified, but page-image screenshot rendering remains blocked; participant-derived content remains rights/consent/cultural-access gated.",
-    "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
-    "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
+    "Sinha 1975 and Mundari-Vyakaran complete file bytes, checksum, pagination/page-image accounting and reuse terms remain incomplete for content-level ingestion.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
-    "Karya Hindi-Mundari and Mundari TTS item-level ingestion remains blocked pending licence compatibility, participant provenance/consent and cultural-access review.",
-    "MMLoSo and Karya corpus equivalence remains unestablished; do not deduplicate without stronger identity evidence.",
+    "Karya Hindi-Mundari, Mundari TTS and MMLoSo item-level ingestion remains rights/licence/participant-provenance/consent/cultural-access gated; Karya-MMLoSo equivalence is unestablished.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
     "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
@@ -153,20 +163,21 @@
     "unavailable_restricted_unverified_and_fieldwork_gaps_enumerated": true,
     "no_broken_ids_or_provenance_gate_verified_for_newest_head": false,
     "automated_completeness_audit_pass": false,
-    "absolute_future_proof_source_completeness_claimed": false
+    "absolute_future_proof_source_completeness_claimed": false,
+    "release_gate": "NOT_PASS"
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
+    "Acquire authoritative historical Mundarica I-XIII scans and plate fascicle where lawfully obtainable; hash bytes and record exact per-volume/page-image accounting before OCR verification.",
+    "Resolve the modern Gyan XIV-XVI mapping against historical work structure using primary catalogue/title-page/publisher evidence; never back-project numbering without proof.",
     "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Retry official LSI, Tuti 2025 and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
-    "Obtain the complete Ramdayal Munda Mundari-Vyakaran manifestation, independently hash it, verify full pagination/page images and determine reuse terms.",
-    "Obtain and hash official CIIL Sinha 1975 full text, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
-    "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
-    "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful-full-text and reuse-rights reconciliation before content extraction.",
-    "Perform Karya licence compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion.",
-    "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
+    "Obtain and hash complete Ramdayal Munda Mundari-Vyakaran and CIIL Sinha 1975 manifestations; verify pagination/page images and reuse terms before content extraction.",
+    "Continue Cook/Bhaduri/TRI/Archer/Osada/Phillips-Harrison lawful-full-text and rights reconciliation.",
+    "Perform Karya/MMLoSo/TTS licence compatibility plus participant provenance, consent and cultural-access review before item-level ingestion.",
+    "Continue media/dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-113 status head."
+    "Verify all four CI workflows on the newest run-114 status head and run automated completeness/provenance checks before any release-gate change."
   ]
 }
