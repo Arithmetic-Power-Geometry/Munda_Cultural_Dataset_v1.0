@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T01:38:00Z",
-  "observed_head_before_status_sync": "8866e154519708a73941e1298e6d1b2d56d3f507",
+  "updated_utc": "2026-09-09T01:51:00Z",
+  "observed_head_before_status_sync": "b9fb3514306e64ad2bfd17da69aa82afd586aae9",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -16,7 +16,7 @@
       "verified_complete_volumes": 0,
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
-      "cycle_state": "Run 94 did not upgrade any Mundarica slot, OCR, page-accounting or completeness state; verified-complete volumes remain 0 while authoritative scan/page accounting continues independently."
+      "cycle_state": "Run 95 is non-Mundarica focused and did not upgrade any Mundarica slot, OCR, page-accounting or completeness state; verified-complete volumes remain 0."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -28,10 +28,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000094",
-      "latest_search_record_path": "data/source_census/search_log_run94.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000095",
+      "latest_search_record_path": "data/source_census/search_log_run95.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 94 independently reverified official ORGI Jharkhand ST-15 and ST-16 catalogue identities PC11_ST15-20 and PC11_ST16-20 with exact official workbook filenames ST-20-00-15-DDW-2011.XLSX and ST-20-00-16-DDW-2011.XLSX. No Census number was promoted because workbook bytes, checksum, worksheet, row and cell coordinates remain unverified.",
+      "latest_verification": "Run 95 added an exact official IP India rights-provenance locator for Flowers on a Leaf Plate - Sakam Re Baha: application LD-52105/2025-CO dated 2025-12-15, category Literary/ Dramatic, listed applicant MARIAELENA FIGUEREDO. Village Square independently reports the candidate as a 41-page Mundari publication of TRDSW. No content-level cultural proposition or reuse permission was inferred.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -39,7 +39,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Run 94 strengthened exact official-source acquisition locators and added no unsupported evidence-chain row."
+      "cycle_state": "No schema redesign. Run 95 added a candidate-level exact identity/rights locator but no permanent SRC-MMSC ID and no unsupported evidence-chain row."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -49,7 +49,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "No permanent source/claim/evidence/link metric changed in run 94; existing 42-module and 100% schema/UI mappings remain valid."
+      "sync_note": "No permanent source/claim/evidence/link metric changed in run 95; existing universal search, 42-module registration and 100% schema/UI mappings remain synchronized without fabricated candidate promotion."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -61,7 +61,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Pre-run head 20b80b3797fc7d91698a0b9aeca72287efabb8a1 is independently verified 4/4 green: Source Register Audit 893, Migration Audit 943, Streamlit Smoke Test 1039 and Publication Build 892. Run 94 leaves manuscript metrics unchanged; newest-head CI must be verified separately."
+      "manuscript_build_state": "Pre-run head 4b978271d56a57fe594951d00f4dc32aaff38bfa is independently verified 4/4 green: Source Register Audit 898, Migration Audit 948, Streamlit Smoke Test 1044 and Publication Build 897. Run 95 leaves publication metrics/tables/figures unchanged because no permanent source or evidence-chain count changed; newest-head CI must be verified separately."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -69,25 +69,26 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run94_advanced_source": "Official ORGI ST-15/ST-16 Jharkhand paths advanced at catalogue identity/acquisition-locator level only. No demographic, bilingualism, cultural or participant proposition was promoted.",
-      "promotion_boundary": "Exact official catalogue identity, workbook filename and catalogue schema/row-label metadata may be recorded. Numeric claims require verified workbook bytes, checksum, worksheet, row and cell provenance; culturally sensitive or participant-derived material additionally requires rights, consent and cultural-access review."
+      "run95_advanced_source": "Sakam Re Baha advanced from secondary-media discovery toward auditable identity/rights provenance through official IP India application LD-52105/2025-CO plus independent secondary publication metadata. It remains candidate-level pending master-register reconciliation and primary-object inspection.",
+      "promotion_boundary": "Official application metadata may establish title/application identity and rights provenance but is not a licence. Secondary reporting may corroborate publication metadata but cannot substitute for the primary object. Content-level cultural, ecological, food, medicinal, linguistic or participant-derived propositions require exact primary locators plus applicable rights/consent/cultural-access clearance."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "20b80b3797fc7d91698a0b9aeca72287efabb8a1",
+    "last_verified_all_four_green_commit": "4b978271d56a57fe594951d00f4dc32aaff38bfa",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":893,"migration_audit":943,"streamlit_smoke_test":1039,"publication_build":892},
-    "new_commits_this_cycle_before_status_sync": ["d86c3d9148e0d0bb77a5d76d2bea1567f5521f22","8866e154519708a73941e1298e6d1b2d56d3f507"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-94 status head must be independently verified; do not project the verified 20b80b37 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":898,"migration_audit":948,"streamlit_smoke_test":1044,"publication_build":897},
+    "new_commits_this_cycle_before_status_sync": ["763e6213d33628a4bd455197baff6b96b66633ea","b9fb3514306e64ad2bfd17da69aa82afd586aae9"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-95 status head must be independently verified; do not project the verified 4b978271 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed pre-run head 20b80b3797fc7d91698a0b9aeca72287efabb8a1 as 4/4 CI green across all required workflows.",
-    "Reverified official ORGI Jharkhand ST-15 reference PC11_ST15-20 and exact workbook filename ST-20-00-15-DDW-2011.XLSX.",
-    "Reverified official ORGI Jharkhand ST-16 reference PC11_ST16-20 and exact workbook filename ST-20-00-16-DDW-2011.XLSX.",
-    "Recorded MMSC-SEARCH-000094 and preserved deterministic deduplication: no duplicate permanent Census source identity was created.",
-    "Kept audited release metrics unchanged at 41/87/13/52/52/52 and preserved 42/42 modules, 100% schema-category representation and 100% UI mapping.",
-    "No Census number, full text, participant material, cultural claim, OCR-verification claim, rights assumption or community-validation claim was fabricated or promoted; main was not modified or merged."
+    "Confirmed pre-run head 4b978271d56a57fe594951d00f4dc32aaff38bfa as 4/4 CI green across all required workflows.",
+    "Added exact official IP India locator for Flowers on a Leaf Plate - Sakam Re Baha: LD-52105/2025-CO, 2025-12-15, Literary/ Dramatic, listed applicant MARIAELENA FIGUEREDO.",
+    "Corroborated secondary publication metadata from Village Square: Sakam Re Baha is reported as a 41-page Mundari publication by Torpa Rural Development Society for Women (TRDSW).",
+    "Recorded MMSC-SEARCH-000095 across books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI, archives, newspapers, web, datasets, audio, video, maps and media.",
+    "Applied deterministic title-level deduplication: Sakam Re Baha / Flowers on a Leaf Plate - Sakam Re Baha is held as one candidate intellectual work; IP application, article coverage, social/exhibit posts and manifestations are not counted as separate works.",
+    "Kept audited release metrics unchanged at 41/87/13/52/52/52 and preserved 42/42 modules and 100% schema/UI mapping because no permanent source/evidence-chain identity crossed the promotion gate.",
+    "No recipe, plant-use, medicinal, ritual, ecological, demographic, linguistic, participant, rights, consent or community-validation claim was fabricated; main was not modified or merged."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
@@ -97,6 +98,7 @@
     "Mundarica I-XVI authoritative scan/page accounting remains incomplete; XIV-XVI historical work/part/volume/plates/reprint reconciliation remains unresolved.",
     "Bhaduri original-edition 1929-versus-1931 catalogue discrepancy remains unresolved pending a primary title-page or authoritative catalogue record.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
+    "Sakam Re Baha now has official rights-provenance metadata but still lacks a verified primary publisher/library/digital-object manifestation suitable for page-level content ingestion; reuse and cultural-access permissions remain unresolved.",
     "Participant-derived audio/video/datasets remain item-level consent/rights/cultural-access gated.",
     "The reported 1941 Mundari hockey rule book still lacks an independently verified primary catalogue/archive/scan/custody/rights locator.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
@@ -124,6 +126,7 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "Reconcile Sakam Re Baha against the full 87-lead discovery layer, then locate a primary publisher/library/digital-object manifestation and verify authorship/contributors, edition, publication date, pagination, rights and cultural-access conditions before any content ingestion.",
     "Obtain official ST-15/ST-16/C-16/C-17 workbook bytes and record checksum, worksheet, row and cell coordinates before numeric claim promotion.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after full identity reconciliation.",
     "Retry official LSI and lawful public-domain page-image verification while preserving page-image versus OCR/index distinctions.",
@@ -133,6 +136,6 @@
     "Continue media candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary catalogue/archive/scan/custody locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-94 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-95 status head and repair any regression before further metric-changing promotion."
   ]
 }
