@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T09:58:00Z",
-  "observed_head_before_status_sync": "aedd1acd215b36aa62a4ba07bbad288e0b10a009",
+  "updated_utc": "2026-09-09T10:38:00Z",
+  "observed_head_before_status_sync": "f0610b7a6ab433413f01e5cfc39086d61dc41e1d",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -34,7 +34,7 @@
         "XV": "historical_slot_unresolved",
         "XVI": "historical_slot_unresolved"
       },
-      "cycle_state": "Run 111 rechecked acquisition/OCR/page-accounting state while the non-Mundarica census continued. No Mundarica volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints remain insufficient proof of historical completeness."
+      "cycle_state": "Run 112 preserved the existing acquisition/OCR/page-accounting state while independent Census provenance work advanced. No Mundarica volume was upgraded: authoritative scan/page verification remains unresolved and modern manifestations remain insufficient proof of historical completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -46,10 +46,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000111",
-      "latest_search_record_path": "data/source_census/search_log_run111.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000112",
+      "latest_search_record_path": "data/source_census/search_log_run112.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 111 deterministically matched the publisher article page, DOI record and full-issue PDF for Tuti et al. 2025 to existing permanent identity SRC-MMSC-000002 and upgraded that identity from abstract-level provenance to exact publisher full-text text-layer locators for bibliographic identity, study design/participant scope, data collection and the authors' reported ethics. Page-image screenshot verification was attempted but blocked by cache miss. No participant-level, ritual/sacred or universal cultural claim was promoted and no duplicate source identity was created.",
+      "latest_verification": "Run 112 independently reverified the official ORGI Census 2011 Jharkhand ST-15 identity PC11_ST15-20 / ST-20-00-15-DDW-2011.XLSX and ST-16 identity PC11_ST16-20 / ST-20-00-16-DDW-2011.XLSX, including table-level semantics. These are treated as manifestations/authority locators of the existing Census source stream, not new identities. No workbook bytes, checksums, worksheet-row-cell coordinates or numerical claims were promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -57,7 +57,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Existing SRC-MMSC-000002 gained an exact-locator provenance artifact, while permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because this was an evidence-quality upgrade to an already-counted source rather than a new identity or cultural-claim promotion."
+      "cycle_state": "No schema redesign. Run 112 added a bounded Census source-locator/schema provenance artifact only; permanent SOURCE, CLAIM, EVIDENCE and provenance-link counts remain unchanged because no numerical or cultural proposition satisfied the exact-cell provenance gate."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -67,7 +67,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 111 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping. No count-bearing remap was required because no permanent source/evidence identity changed."
+      "sync_note": "Run 112 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping. No count-bearing UI remap was justified because permanent identities/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -79,7 +79,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Commit bd4b2f86f577528a97441299c682f573b01001cc remains the last status-confirmed 4/4-green baseline with Source Register Audit 973, Migration Audit 1023, Streamlit Smoke Test 1119 and Publication Build 972. Run 111 changes no manuscript metrics because permanent source/evidence counts did not change. Source Register Audit 982 was independently observed successful for pre-status head aedd1acd; the status-sync head must be independently verified before any new 4/4-green claim."
+      "manuscript_build_state": "Commit 63acdd2b040ed043b4735eed526fca386fe8e04f is independently verified 4/4 green with Source Register Audit 983, Migration Audit 1033, Streamlit Smoke Test 1129 and Publication Build 982. Run 112 changes no manuscript metrics because permanent source/evidence counts did not change. The new status-sync head must be independently verified before projecting that green state forward."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -87,51 +87,48 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run111_advanced_source": "SRC-MMSC-000002 (Tuti et al. 2025) was upgraded from abstract-level source provenance to exact publisher full-text text-layer locators for bibliographic identity, study design/participant scope, data collection and reported ethics; the upgrade is stored in data/source_census/tuti_2025_munda_megaliths_exact_locator_upgrade_2026-09-09.json.",
-      "promotion_boundary": "Publisher full-text access and reported consent procedures support bounded source-methodology/reporting evidence only. They do not authorize ingestion of participant names/pseudonyms, quotations, oral narratives, ritual/sacred knowledge, sensitive site information, images, transcripts, field notes, unrestricted participant-material reuse, community-wide validation or current universal representativeness."
+      "run112_advanced_source": "Existing Census source stream gained official ST-15/ST-16 Jharkhand source-locator and table-schema provenance in data/source_census/census_st15_st16_jharkhand_schema_locator_verification_2026-09-09.json.",
+      "promotion_boundary": "Official catalogue metadata supports source identity, workbook filename and table-level semantic provenance only. Numeric Census claims require acquired workbook bytes, checksum, worksheet, row and exact cell coordinates. Public catalogue availability does not override cultural-access, privacy or governance gates."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "bd4b2f86f577528a97441299c682f573b01001cc",
+    "last_verified_all_four_green_commit": "63acdd2b040ed043b4735eed526fca386fe8e04f",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
     "verified_run_numbers": {
-      "source_register_audit": 973,
-      "migration_audit": 1023,
-      "streamlit_smoke_test": 1119,
-      "publication_build": 972
+      "source_register_audit": 983,
+      "migration_audit": 1033,
+      "streamlit_smoke_test": 1129,
+      "publication_build": 982
     },
-    "new_commits_this_cycle_before_status_sync": ["e8980be0032444646b0c2ffd3d63555057e87e25","aedd1acd215b36aa62a4ba07bbad288e0b10a009"],
-    "pre_status_head_source_register_audit_run": 982,
-    "pre_status_head_source_register_audit_conclusion": "success",
-    "new_head_ci_state_at_status_write": "Only Source Register Audit 982 was independently observed successful for pre-status head aedd1acd during run 111. Do not project a 4/4-green state to the status-sync head without independent verification."
+    "new_commits_this_cycle_before_status_sync": ["325b6440ccc5d685b3efe67d602947edad4f6fee","f0610b7a6ab433413f01e5cfc39086d61dc41e1d"],
+    "new_head_ci_state_at_status_write": "Run 112 changes are descendants of independently verified 4/4-green commit 63acdd2b. Do not project that 4/4-green state to the new status-sync head without independent verification."
   },
   "changes_this_cycle": [
-    "Upgraded existing permanent identity SRC-MMSC-000002 (Tuti et al. 2025, DOI 10.30884/seh/2025.02.01) from abstract-level provenance to exact publisher full-text text-layer locators for bibliographic identity, study design/participant scope, data collection and authors' reported ethics.",
-    "Deterministically treated the publisher article page, DOI record and full-issue PDF as manifestations/authority views of SRC-MMSC-000002 rather than separate source identities.",
-    "Recorded rights and governance boundaries: journal open access was verified, but participant-derived material, quotations, oral narratives, ritual/sacred details, images, transcripts, field notes and sensitive site information remain item-level rights/consent/cultural-access gated.",
-    "Attempted publisher PDF page-image verification; screenshot rendering returned cache miss, so the artifact explicitly claims text-layer exact locators only and not visual page verification.",
-    "Rechecked Shrivastava 2013, Hill 2021, the Sapienza dissertation stream, CIIL grammar/reader candidates, EZCC media, Census workbook identities and the broader requested source classes without duplicate promotion or unsupported cultural assertions.",
-    "Attempted official ST-15/ST-16/C-16/C-17 byte-level acquisition; workbook filenames remain stable but bytes/checksums/worksheet-row-cell provenance were not completed, so no Census numerical evidence was promoted.",
-    "Added data/source_census/tuti_2025_munda_megaliths_exact_locator_upgrade_2026-09-09.json and data/source_census/search_log_run111.jsonl.",
-    "Preserved audited metrics at 41/87/13/52/52/52 and 42 modules; no count-bearing Streamlit, evidence-graph, completeness, publication table or figure change was justified because run 111 upgraded an already-counted source identity."
+    "Independently reverified official ORGI Jharkhand ST-15 reference PC11_ST15-20 with workbook ST-20-00-15-DDW-2011.XLSX and ST-16 reference PC11_ST16-20 with workbook ST-20-00-16-DDW-2011.XLSX.",
+    "Recorded table-level provenance: both are Census 2011 state/UT Scheduled Tribe language tables with person-level count statistics; ST-15 is mother-tongue-by-tribe and ST-16 is bilingualism-by-tribe.",
+    "Kept catalogue views/workbook filenames as authority/manifestation locators of the existing Census stream rather than creating duplicate permanent identities.",
+    "Attempted direct official catalogue page retrieval after search-index verification; one request returned a gateway error and another timed out, so workbook-byte acquisition remained blocked and independent work continued.",
+    "Added data/source_census/census_st15_st16_jharkhand_schema_locator_verification_2026-09-09.json and data/source_census/search_log_run112.jsonl.",
+    "Promoted no Census numbers because file bytes, checksums, worksheet names, rows and exact cell coordinates remain unverified.",
+    "Preserved audited metrics at 41/87/13/52/52/52 and 42 modules; no manuscript metric, graph count, table or figure change was justified."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Official LSI Jharkhand exact page-image verification remains incomplete.",
-    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims.",
+    "ST-15/ST-16/C-16/C-17 workbook bytes/checksums/worksheet/row/cell coordinates remain pending for numeric claims; direct official catalogue retrieval was transiently blocked in run 112 after metadata verification.",
     "Sinha 1975 CIIL full-text file bytes, checksum, pagination/page images, exact page locators and reuse terms remain unverified for content-level ingestion.",
     "Mundari-Vyakaran has an official CIIL handle and visually verified one-page manifestation, but complete grammar/full-text bytes, independent checksum, full pagination/page-image accounting and derivative reuse permission remain unresolved; historical manifestation relationships remain unresolved.",
     "White Rose accepted-manuscript screenshot/page-image rendering remains visually unverified; exact locators are text-layer verified only.",
-    "Tuti et al. 2025 exact text-layer locators are verified, but page-image screenshot rendering remains blocked by cache miss; participant-derived content remains rights/consent/cultural-access gated.",
+    "Tuti et al. 2025 exact text-layer locators are verified, but page-image screenshot rendering remains blocked; participant-derived content remains rights/consent/cultural-access gated.",
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
     "Karya Hindi-Mundari and Mundari TTS item-level ingestion remains blocked pending licence compatibility, participant provenance/consent and cultural-access review.",
     "MMLoSo and Karya corpus equivalence remains unestablished; do not deduplicate without stronger identity evidence.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
-    "The reported 1941 Mundari hockey booklet has independent authority corroboration of the named historical person but still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
+    "The reported 1941 Mundari hockey booklet still lacks an independently verified primary catalogue/archive/accession/scan/title-page/direct-custody locator and verified rights/cultural-access state.",
     "Newest-head workflow state must be independently verified before any 4/4-green claim."
   ],
   "integrity": {
@@ -158,16 +155,16 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
-    "Retry Tuti 2025, official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
-    "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet; keep authority-level person corroboration distinct from manifestation verification.",
-    "Obtain the complete Ramdayal Munda Mundari-Vyakaran manifestation, independently hash it, verify full pagination/page images and determine reuse terms; resolve historical manifestation relationships before edition-level canonicalization.",
+    "Obtain and independently hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
+    "Retry official LSI, Tuti 2025 and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
+    "Seek a primary catalogue/archive/accession/scan/title-page/direct-custody record for the 1941 Mundari hockey booklet.",
+    "Obtain the complete Ramdayal Munda Mundari-Vyakaran manifestation, independently hash it, verify full pagination/page images and determine reuse terms.",
     "Obtain and hash official CIIL Sinha 1975 full text, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
     "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful-full-text and reuse-rights reconciliation before content extraction.",
     "Perform Karya licence compatibility plus participant provenance, consent and cultural-access review before TTS audio/transcript or translation sentence-level ingestion.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-111 status head."
+    "Verify all four CI workflows on the newest run-112 status head."
   ]
 }
