@@ -1,0 +1,45 @@
+{
+  "verification_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "candidate_work": "1941 Mundari field-hockey rule booklet attributed to Sadanand Abinash Bishram Dilbar Hans",
+  "source_class": "historical_booklet_secondary_custody_locator",
+  "secondary_source": {
+    "publisher": "The Indian Express",
+    "article_author": "Soumi Das",
+    "article_date": "2023-10-18",
+    "article_title": "How to play hockey, written in ‘Mundari’: The story of a Jharkhand Bishop and a forgotten rule book",
+    "url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/"
+  },
+  "secondary_reported_facts": {
+    "attributed_author": "Sadanand Abinash Bishram Dilbar Hans",
+    "language": "Mundari",
+    "subject": "field hockey rules",
+    "first_publication_year": 1941,
+    "reported_extent_pages": 23,
+    "reported_status": "out of print",
+    "reported_surviving_copy_custody": "Reverend Cyril Hans",
+    "reported_copy_image_credit": "Photo courtesy: Reverend Cyril Hans",
+    "reported_contents_high_level": ["glossary", "rules of the game", "playing-field diagrams"],
+    "reported_context": "Hans was headmaster of St John’s Middle School at Murhu when the booklet was written."
+  },
+  "verification_boundary": {
+    "primary_catalogue_verified": false,
+    "archive_accession_verified": false,
+    "scan_or_photographic_facsimile_acquired": false,
+    "title_page_verified": false,
+    "publisher_or_imprint_verified_from_primary_copy": false,
+    "page_count_independently_verified": false,
+    "rights_verified": false,
+    "custody_independently_contact_verified": false,
+    "cultural_access_review_complete": false,
+    "community_validation_complete": false,
+    "content_ingested": false
+  },
+  "deduplication_disposition": "Treat as one historical-work candidate described by a secondary custody report. Do not assign or alter a permanent audited source identity until an independent primary catalogue, archive/accession record, scan/facsimile, or directly verified custody record establishes the manifestation.",
+  "evidence_promotion": "Secondary bibliographic/custody lead only. No glossary terms, hockey rules, historical claims, cultural claims, quoted foreword text, page-level evidence, rights state, or community-validation state promoted into the public evidence graph.",
+  "next_actions": [
+    "Search library/archive catalogues and church/mission collections for a primary bibliographic or accession record.",
+    "Seek a lawful scan/facsimile or directly verifiable custody record before page accounting or content extraction.",
+    "If a copy becomes inspectable, record title-page/imprint/pagination, checksum or image identifiers, rights/cultural-access status, and exact page locators before evidence promotion."
+  ]
+}
