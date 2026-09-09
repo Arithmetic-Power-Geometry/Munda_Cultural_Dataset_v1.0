@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T06:49:00Z",
-  "observed_head_before_status_sync": "afa1658e4695dffe3dc9e3f81c0241187fa4a1b5",
+  "updated_utc": "2026-09-09T07:36:00Z",
+  "observed_head_before_status_sync": "e14fcdfbdd1a1058a3ac5a392671e887b1006a2b",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,7 +19,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_not_machine_verified_complete","XIV":"historical_slot_unresolved","XV":"historical_slot_unresolved","XVI":"historical_slot_unresolved"
       },
-      "cycle_state": "Run 105 rechecked the Mundarica release state but did not upgrade scan, OCR, page-accounting, structuring or completeness; authoritative page-level verification remains unresolved."
+      "cycle_state": "Run 106 rechecked acquisition/OCR/page-accounting/structuring state. No volume was upgraded: authoritative page-level scan verification remains unresolved and modern reprints are not treated as proof of historical completeness."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -31,10 +31,10 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000105",
-      "latest_search_record_path": "data/source_census/search_log_run105.jsonl",
+      "latest_search_id": "MMSC-SEARCH-000106",
+      "latest_search_record_path": "data/source_census/search_log_run106.jsonl",
       "search_log_sync_note": "Primary normalized search_log.jsonl still ends at 000028; later run-specific logs remain separately preserved and are not falsely counted as consolidated primary entries.",
-      "latest_verification": "Run 105 verified Karya's Hindi-to-Mundari translation corpus at fixed upstream commit/tree/blob level, including the upstream-described 17,826-pair count, data-file size/blob SHA, copyright notice and KPL BY-NC-SA-FS 1.0 terms; sentence content remains un-ingested pending compatibility, provenance/consent and cultural-access review.",
+      "latest_verification": "Run 106 verified Phillips & Harrison 2017, Munda mimetic reduplication, at exact publisher/institutional bibliographic identity level: Canadian Journal of Linguistics 62(2), 221-242, DOI 10.1017/cnj.2017.13, Cambridge online date 2017-03-06. Publisher abstract scope includes Ho, Kera Mundari, Kharia, Mundari, Remo, Santali and Sora. No linguistic/cultural/content or reuse claim was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -42,7 +42,7 @@
       "module_schema_domain_mapping_percent": 100.0,
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-      "cycle_state": "No schema redesign. Dataset identity and rights evidence was strengthened while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation and content-level access review."
+      "cycle_state": "No schema redesign. Peer-reviewed source identity/rights evidence was strengthened while permanent SOURCE, CLAIM, EVIDENCE and provenance counts remain unchanged pending deterministic master reconciliation and item-level access review."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -52,7 +52,7 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "sync_note": "Run 105 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console and 100% schema/UI mappings; no metric remapping was required because permanent source/evidence counts did not change."
+      "sync_note": "Run 106 preserved 42/42 modules, universal search, evidence drilldown, reports/downloads, owner console, 100% schema-category representation and 100% UI mapping; no metric remapping was required because permanent source/evidence counts did not change."
     },
     "E_publication_readiness": {
       "repository_derived_metrics": true,
@@ -64,7 +64,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-104 status head 6e00f3c95051132fb5e9787e17fb157ccaef5fcd independently verified 4/4 green: Source Register Audit 946, Migration Audit 996, Streamlit Smoke Test 1092, Publication Build 945. Run 105 changes no manuscript metrics because permanent source/evidence counts did not change."
+      "manuscript_build_state": "Run-105 status head aaa09184aee7a305c5026eb471d84292293d156b independently verified 4/4 green: Source Register Audit 953, Migration Audit 1003, Streamlit Smoke Test 1099, Publication Build 952. Run 106 changes no manuscript metrics because permanent source/evidence counts did not change."
     },
     "F_evidence_population": {
       "source_claims": 52,
@@ -72,28 +72,28 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run105_advanced_source": "Karya Hindi to Mundari Translation Dataset Corpus advanced to immutable repository/data/license verification; the upstream README describes 17,826 Hindi-Mundari sentence pairs and the data blob is fixed at 131c55a5b8197a58d663a7e40d888a92869288c6 (3,788,450 bytes).",
-      "promotion_boundary": "KPL BY-NC-SA-FS 1.0 is noncommercial, share-alike and imposes GPL-3.0-or-later on software incorporation; the upstream license also does not exhaust privacy/publicity/other rights. Sentence pairs, linguistic/cultural claims, representativeness, consent and equivalence with MMLoSo remain withheld pending separate review."
+      "run106_advanced_source": "Phillips & Harrison 2017 advanced to exact bibliographic/source-scope verification with DOI, publisher date, volume/issue/pages and institutional corroboration.",
+      "promotion_boundary": "The publisher abstract establishes article scope, not MLHKP cultural truth. No lexical example, grammar rule, quantitative proposition, representativeness claim, community validation, page-level passage, reusable full-text right or underlying field-data right is promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "6e00f3c95051132fb5e9787e17fb157ccaef5fcd",
+    "last_verified_all_four_green_commit": "aaa09184aee7a305c5026eb471d84292293d156b",
     "four_of_four_green_claim_for_that_head": true,
     "green_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "verified_run_numbers": {"source_register_audit":946,"migration_audit":996,"streamlit_smoke_test":1092,"publication_build":945},
-    "new_commits_this_cycle_before_status_sync": ["1062fc223f929c674730b812e1b58e99f9742e1f","e29a42ba9c25a078917adac65f22211d2f6ae6de","afa1658e4695dffe3dc9e3f81c0241187fa4a1b5"],
-    "new_head_ci_state_at_status_write": "Fresh CI for the run-105 status head must be independently verified; do not project the verified 6e00f3c9 4/4-green state forward."
+    "verified_run_numbers": {"source_register_audit":953,"migration_audit":1003,"streamlit_smoke_test":1099,"publication_build":952},
+    "new_commits_this_cycle_before_status_sync": ["328749b77bd70a17d5ba011eb8b51b51ef0afef0","e14fcdfbdd1a1058a3ac5a392671e887b1006a2b"],
+    "new_head_ci_state_at_status_write": "Fresh CI for the run-106 status head must be independently verified; do not project the verified aaa09184 4/4-green state forward."
   },
   "changes_this_cycle": [
-    "Confirmed run-104 status head 6e00f3c95051132fb5e9787e17fb157ccaef5fcd as 4/4 green across all required workflows.",
-    "Added an exact-locator and rights-verification artifact for Karya's Hindi to Mundari Translation Dataset Corpus.",
-    "Recorded fixed upstream commit 243bb780906750fcf6e2b27693dd24898f0c79d1, tree 53817b805a5c06e6f9bc0bbb41c2395045e69d10 and translation-hi-unr.tsv blob 131c55a5b8197a58d663a7e40d888a92869288c6 (3,788,450 bytes).",
-    "Verified the upstream README-described 17,826 sentence-pair count, © 2023 DAIA Tech Pvt Ltd. notice and KPL BY-NC-SA-FS 1.0 license terms.",
-    "Did not ingest sentence pairs or promote grammar, lexical, cultural, representativeness or consent claims; KPL compatibility and cultural-access/provenance review remain open.",
-    "Kept Karya's 17,826-pair corpus distinct from the MMLoSo 20,000-pair resource stream because identity equivalence is not established.",
-    "Recorded MMSC-SEARCH-000105 across all requested source classes and preserved blocked streams as explicit gaps.",
-    "Rechecked Streamlit, evidence graph, completeness/gap state and publication metrics; no remapping was required because permanent counts did not change.",
-    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no new permanent identity/evidence-chain row crossed the promotion gate.",
+    "Confirmed run-105 status head aaa09184aee7a305c5026eb471d84292293d156b as 4/4 green across all required workflows.",
+    "Added exact bibliographic/source-scope verification for Phillips & Harrison 2017, Munda mimetic reduplication, DOI 10.1017/cnj.2017.13.",
+    "Recorded Cambridge University Press publication metadata and Swarthmore institutional corroboration without copying article content.",
+    "Recorded the seven-language article scope only as source metadata and did not promote lexical, grammatical, numerical, cultural, representativeness or community-validation claims.",
+    "Applied an explicit rights boundary: bibliographic/full-text visibility is not permission to redistribute article text/examples or underlying field/consultant data, and cultural access overrides entitlement.",
+    "Kept the article distinct from PARADISEC recordings, Mundarica, MMLoSo and Karya because topical/language overlap does not establish identity equivalence.",
+    "Recorded MMSC-SEARCH-000106 across all requested source classes and preserved blocked streams as explicit gaps.",
+    "Rechecked Mundarica, Census/LSI, Streamlit, evidence graph and publication synchronization; no permanent metric changed.",
+    "Kept audited metrics unchanged at 41/87/13/52/52/52 and 42 modules because no new candidate crossed deterministic master/evidence promotion gates.",
     "No cultural fact, consent, community validation, OCR/page-image verification or source-completeness claim was fabricated; main was not modified or merged."
   ],
   "blockers": [
@@ -107,6 +107,7 @@
     "Authoritative Mundarica I-XVI scan/page accounting remains unresolved; XIV-XVI historical-slot reconciliation remains open.",
     "Bhaduri original-edition 1929-versus-1931 discrepancy remains unresolved pending primary evidence.",
     "Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful inspectable full-text reuse and master-register reconciliation remain pending where applicable.",
+    "Phillips & Harrison 2017 remains exact-bibliographic-identity verified but pending deterministic reconciliation against the 87-lead discovery/master layer and item-level rights review before any permanent source/evidence promotion.",
     "Karya Hindi-Mundari corpus sentence-level MLHKP ingestion remains blocked pending KPL compatibility, contributor/participant provenance/consent and cultural-access review.",
     "MMLoSo 20,000-pair benchmark and Karya 17,826-pair corpus equivalence remains unestablished; do not deduplicate them without stronger identity evidence.",
     "Participant-derived audio/video/datasets remain item-level consent, rights and cultural-access gated.",
@@ -136,17 +137,17 @@
     "absolute_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile Sinha 1975, Murugesan-Driemel-Murphy 2025 and Karya Hindi-Mundari corpus candidates against the 87-lead discovery/master layer before assigning or changing permanent SRC-MMSC identities or evidence-chain rows.",
+    "Deterministically reconcile Phillips & Harrison 2017, Sinha 1975, Murugesan-Driemel-Murphy 2025 and Karya candidates against the 87-lead discovery/master layer before assigning or changing permanent SRC-MMSC identities or evidence-chain rows.",
     "Continue deterministic disposition of the remaining 74 web leads and canonicalize only after work/manifestation reconciliation.",
-    "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before any numeric claim promotion.",
+    "Obtain and hash official ST-15/ST-16/C-16/C-17 workbook bytes and record worksheet, row and exact cell coordinates before numeric claim promotion.",
     "Obtain and hash official CIIL Sinha 1975 and Mundari-Vyakaran files, verify pagination/page images and determine reuse terms before grammar-rule, example or lexical extraction.",
     "Retry official LSI and White Rose page-image verification while preserving page-image versus text-layer/OCR distinctions.",
     "Continue authoritative Mundarica I-XVI scan acquisition/page accounting and XIV-XVI historical-slot reconciliation without treating reprints as proof of historical completeness.",
-    "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada lawful-full-text and reuse-rights reconciliation before content extraction.",
+    "Continue Cook/Bhaduri/TRI/Sinha/Archer/Osada/Phillips-Harrison lawful-full-text and reuse-rights reconciliation before content extraction.",
     "Perform Karya KPL compatibility plus contributor/participant provenance, consent and cultural-access review before sentence-level ingestion; do not equate Karya with MMLoSo absent identity evidence.",
     "Continue media and dataset candidate reconciliation with item-level consent, rights and cultural-access gates.",
     "Seek an independent primary locator for the reported 1941 Mundari hockey rule book.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
-    "Verify all four CI workflows on the newest run-105 status head and repair any regression before further metric-changing promotion."
+    "Verify all four CI workflows on the newest run-106 status head and repair any regression before further metric-changing promotion."
   ]
 }
