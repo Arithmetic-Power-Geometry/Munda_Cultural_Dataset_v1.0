@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T23:29:00Z",
-  "observed_head_before_status_sync": "0854e79b366ad03d7cf8b189e948ec9f5bfd5795",
+  "updated_utc": "2026-09-09T23:42:00Z",
+  "observed_head_before_status_sync": "009ff27dce03f8ddac8fd9c5c264f5596ecba2b1",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -21,7 +21,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 138 preserved all Mundarica states and 16/16 human-review attestations; no unsupported scan/hash/page/OCR promotion was made."
+      "cycle_state": "Run 139 remained non-Mundarica-focused and preserved all Mundarica states and 16/16 human-review attestations; no unsupported scan/hash/page/OCR promotion was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -33,9 +33,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000138",
-      "latest_search_record_path": "data/source_census/search_log_run138.jsonl",
-      "latest_verification": "Run 138 reconciled Marilena Proietti's 2025 Sapienza thesis across the institutional IRIS record and Italian legal-deposit record, verifying institutional handle 11573/1740709, legal-deposit handle 20.500.14242/212639, NBN URN:NBN:IT:UNIROMA1-212639, reported 47.18 MB PDF, and Open Access date 2026-05-27. The repository exposes only a generic 'Creative commons' label, so the exact CC variant remains unresolved and no content-level reuse was promoted.",
+      "latest_search_id": "MMSC-SEARCH-000139",
+      "latest_search_record_path": "data/source_census/search_log_run139.jsonl",
+      "latest_verification": "Run 139 advanced the official 2023 ORGI Linguistic Survey of India-Jharkhand from discovery to exact-locator provenance: Census NADA catalog 45248, Reference ID LSI_JHARKHAND, official file LSI_JHARKHAND.pdf, download ID 48955, and indexed printed page 71 for the Mundari section. The indexed text supports bounded survey-attributed statements on four named dialects and 2011 speaker counts, but direct official PDF retrieval timed out and the mirror exceeded the current fetch-size limit; complete bytes, independent checksum and actual page-image verification therefore remain pending.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign; Run 138 strengthened manifestation/access/rights provenance only."
+      "cycle_state": "No schema redesign. Run 139 added exact government-source locator evidence and explicit manifestation/page-verification boundaries without creating unsupported count-bearing graph objects."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -54,14 +54,15 @@
       "owner_console": true,
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
-      "ui_mapping_percent": 100.0
+      "ui_mapping_percent": 100.0,
+      "sync_note": "42/42 modules plus universal search/evidence drilldown remain mapped. Run 139 changes are provenance/exact-locator artifacts and require no new module or public count surface."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Proietti thesis access is now pinned to two authoritative manifestations. Open Access and a generic Creative Commons label were not treated as proof of a specific reuse licence, participant consent, or community validation."
+      "cycle_state": "The ORGI LSI catalogue and public download locator were not treated as an open-content licence. Only bibliographic metadata, exact locators, bounded survey-attributed propositions and uncertainty notes were promoted; no bulk PDF/text redistribution or community-validation claim was made."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -73,7 +74,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Head fe6304a84536283d496cdd4ec2b63e63bbbb38d5 verified 4/4 green: Source Register Audit 1115, Migration Audit 1165, Streamlit Smoke Test 1261, Publication Build 1114. Fresh CI required after Run-138 commits."
+      "manuscript_build_state": "Run-138 status head 54e31908b970b7048158cc4cfd9c69f38a152b17 is independently verified 4/4 green: Source Register Audit 1120, Migration Audit 1170, Streamlit Smoke Test 1266, Publication Build 1119. Fresh CI is required for the Run-139 status head; publication tables/figures remain count-stable because no audited identity/claim/evidence count changed."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -81,39 +82,40 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run138_advanced_source": "Proietti 2025 Sapienza thesis institutional/legal-deposit manifestation and rights-boundary reconciliation",
-      "promotion_boundary": "Bibliographic identity, access state, abstract-level scope and rights uncertainty only; participant-derived and culturally sensitive content remain gated."
+      "run139_advanced_source": "ORGI 2023 Linguistic Survey of India-Jharkhand official catalogue/direct-PDF identity and Mundari printed-page-71 exact locator",
+      "promotion_boundary": "Exact government-source provenance and bounded survey-attributed locator evidence only. Full PDF bytes/checksum/page image are not yet independently verified; no unqualified cultural claim or new count-bearing evidence-chain object was created."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "fe6304a84536283d496cdd4ec2b63e63bbbb38d5",
+    "last_verified_all_four_green_commit": "54e31908b970b7048158cc4cfd9c69f38a152b17",
     "four_of_four_green_claim_for_that_head": true,
-    "verified_runs_for_that_head": {"source_register_audit":1115,"migration_audit":1165,"streamlit_smoke_test":1261,"publication_build":1114},
-    "new_commits_this_cycle_before_status_sync": ["8e2c04ebd6d61aec59ac1ef42c3c6867ef5170e2","0854e79b366ad03d7cf8b189e948ec9f5bfd5795"],
-    "new_head_ci_state_at_status_write": "Run-138 status-sync commit requires fresh CI; prior 4/4 green is not projected onto the new head."
+    "verified_runs_for_that_head": {"source_register_audit":1120,"migration_audit":1170,"streamlit_smoke_test":1266,"publication_build":1119},
+    "new_commits_this_cycle_before_status_sync": ["6d93dce0aa74b72a650d1757761e79d24f942b4f","009ff27dce03f8ddac8fd9c5c264f5596ecba2b1"],
+    "new_head_ci_state_at_status_write": "Run-139 status-sync commit requires fresh CI; prior 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/proietti_2025_thesis_rights_manifestation_run138_2026-09-10.json.",
-    "Added data/source_census/search_log_run138.jsonl.",
-    "Verified Sapienza institutional and Italian legal-deposit manifestations as the same thesis work.",
-    "Verified Open Access date 2026-05-27, reported filename Tesi_dottorato_Proietti.pdf and size 47.18 MB.",
-    "Kept the exact Creative Commons variant unresolved because the authoritative page exposes only a generic Creative commons label.",
-    "Verified prior head fe6304a84536283d496cdd4ec2b63e63bbbb38d5 as 4/4 green.",
+    "Added data/source_census/lsi_jharkhand_2023_mundari_exact_locator_run139_2026-09-10.json.",
+    "Added data/source_census/search_log_run139.jsonl covering all requested source classes and blocked/non-promotion states.",
+    "Verified official ORGI Census NADA catalog 45248 / Reference ID LSI_JHARKHAND / publication date 2023-08-01 / file LSI_JHARKHAND.pdf / download ID 48955.",
+    "Converted the LSI stream beyond discovery-only by recording indexed printed page 71 in the Mundari section as an exact locator for survey-attributed dialect and 2011 speaker-count statements.",
+    "Logged official direct-PDF timeout and mirror size-limit failure; complete bytes, independent checksum and actual page-image verification remain explicit gaps.",
+    "Rechecked peer-reviewed, dataset/audio, media and map candidates in parallel; restricted or participant-derived streams were not promoted without rights/consent/cultural-access support.",
+    "Verified Run-138 head 54e31908b970b7048158cc4cfd9c69f38a152b17 as 4/4 green.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Authoritative Mundarica scans, hashes and complete page accounting remain incomplete.",
-    "Official LSI Jharkhand PDF bytes/checksum/exact page-image verification remain incomplete.",
+    "Official LSI Jharkhand catalogue/direct-PDF identity and indexed printed page 71 are now verified, but complete official PDF bytes, independent checksum and actual page-image/PDF-index verification remain incomplete.",
     "C-16/ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion.",
     "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada lawful full-text/rights reconciliation remains incomplete where applicable.",
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
     "Karya and related audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
     "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level CC BY.",
-    "Shrivastava 2013 full text remains restricted and participant/cultural-access disposition unresolved.",
+    "Shrivastava and other restricted publisher full texts remain content/participant/cultural-access gated.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-138 head."
+    "Fresh four-workflow verification is required for the newest Run-139 head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -142,9 +144,8 @@
     "Continue deterministic disposition of the remaining 74 web leads.",
     "Obtain/hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
     "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
-    "Retry official LSI byte/page-image verification.",
-    "Resolve lawful full-text/rights/participant/cultural-access boundaries for remaining source streams, prioritizing sources with authoritative obtainable bytes.",
-    "Determine Proietti's exact Creative Commons variant from authoritative file/licence metadata; do not infer it from the generic repository label.",
+    "Acquire and independently hash the official LSI Jharkhand PDF and verify the Mundari printed-page-71 locator against the actual page image/PDF index.",
+    "Resolve lawful full-text/rights/participant/cultural-access boundaries for remaining source streams, prioritizing authoritative obtainable bytes.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest head and run automated completeness/provenance checks before any release-gate change."
   ]
