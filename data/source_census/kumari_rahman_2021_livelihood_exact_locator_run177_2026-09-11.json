@@ -1,0 +1,69 @@
+{
+  "audit_id": "MLHKP-RUN177-KUMARI-RAHMAN-LIVELIHOOD",
+  "run": 177,
+  "checked_utc": "2026-09-10T18:40:00Z",
+  "branch_scope": "mlhkp-v2 only",
+  "source_identity": {
+    "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+    "authors": ["Laxmi Kumari", "Mojibur Rahman"],
+    "journal": "Problemy Ekorozwoju - Problems of Sustainable Development",
+    "volume": "16",
+    "issue": "1",
+    "year": 2021,
+    "pages": "181-185",
+    "doi": "10.35784/pe.2021.1.19",
+    "publisher_article_url": "https://ph.pollub.pl/index.php/preko/article/view/5271",
+    "publisher_pdf_url": "https://ph.pollub.pl/index.php/preko/article/download/5271/4152/20457",
+    "published_date": "2021-01-04",
+    "identity_verified": true
+  },
+  "exact_locators": [
+    {
+      "locator": "publisher article metadata / article page",
+      "supports": ["title", "authors", "DOI", "publication date", "journal issue", "pages 181-185"]
+    },
+    {
+      "locator": "publisher abstract",
+      "supports": ["study scope: Munda tribe of Jharkhand", "study topics: sustainable development, livelihood, socio-capital, women and Non-Wood Forest Products"]
+    },
+    {
+      "locator": "publisher license section",
+      "supports": ["work licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"]
+    }
+  ],
+  "scope_classification": {
+    "source_class": "peer_reviewed_article",
+    "domain": ["livelihood", "sustainable_development", "forest_products", "socioeconomic_context"],
+    "geographic_scope_as_stated_by_source": "Jharkhand, India",
+    "evidence_level_promoted": "publisher-verified source metadata and abstract-level source-attributed scope only",
+    "population_wide_generalization_permitted": false
+  },
+  "rights_governance": {
+    "publisher_stated_license": "CC BY-SA 4.0",
+    "article_text_reuse_subject_to_license_terms": true,
+    "public_availability_is_blanket_cultural_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "underlying_referenced_sources_inherit_article_license": false
+  },
+  "cultural_uncertainty": {
+    "source_authored_generalizations_are_not_converted_to_timeless_cultural_facts": true,
+    "abstract_claims_require_source_attribution": true,
+    "community_level_validation_required_for_sensitive_or_normative_reuse": true
+  },
+  "promotion_decision": {
+    "exact_locator_record_created": true,
+    "article_identity_verified": true,
+    "cultural_claims_added": 0,
+    "participant_records_ingested": 0,
+    "full_text_passages_ingested": 0,
+    "permanent_mmsc_identity_registration": "deferred_pending_deterministic_reconciliation_with_existing_registers",
+    "count_change": 0
+  },
+  "remaining_checks": [
+    "Deterministically reconcile DOI 10.35784/pe.2021.1.19 against MMSC and WEB-MUN registers before count-bearing registration.",
+    "If claim-level ingestion is later needed, preserve printed page/exact passage locators and source attribution rather than converting article interpretations into universal cultural assertions.",
+    "Do not infer consent, community endorsement or unrestricted cultural access from the article license."
+  ]
+}
