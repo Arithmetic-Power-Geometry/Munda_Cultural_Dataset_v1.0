@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T01:52:00Z",
-  "observed_head_before_status_sync": "498d8d712aa07746e118d515606cf8478195a925",
+  "updated_utc": "2026-09-10T02:28:00Z",
+  "observed_head_before_status_sync": "50711bba557c32b8f592c1b3d744afdf58e0fc6a",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -21,7 +21,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 143 is non-Mundarica and did not alter conservative Mundarica scan/hash/page/OCR states."
+      "cycle_state": "Run 144 did not alter conservative Mundarica scan/hash/page/OCR states; blocked authoritative-byte work remains explicit while an independent Census stream advanced."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -32,10 +32,10 @@
       "web_discovery_leads_observed": 88,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
-      "search_log_entries_primary": 29,
-      "latest_search_id": "MMSC-SEARCH-000143",
-      "latest_search_record_path": "data/source_census/search_log_run143.jsonl",
-      "latest_verification": "Run 143 upgraded the existing W. G. Archer A Munda song book stream by separating the two-catalogue-verified 1942 United Press/Patna manifestation (OL6506296M; LCCN 46029131; OCLC 4512074; catalogued 550 pages) from an undated Catholic Press/Ranchi bookseller-listed manifestation candidate. No new audited identity or web-lead count was created.",
+      "search_log_entries_primary": 30,
+      "latest_search_id": "MMSC-SEARCH-000144",
+      "latest_search_record_path": "data/source_census/search_log_run144.jsonl",
+      "latest_verification": "Run 144 verified the official ORGI Census 2011 town-level Jharkhand C-16 manifestation PC11_C16city-20 / PC11_C16 with listed workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX and state/district/town granularity. It remains canonicalized under the existing Census stream; no numeric population value was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign and no unsupported cultural graph object, claim or evidence edge created."
+      "cycle_state": "No redesign and no unsupported cultural graph object, claim or evidence edge created; Census manifestation metadata remains provenance-only until cell verification."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -55,14 +55,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules remain mapped; Run 143 changes are source-census/provenance metadata only and require no module remap."
+      "sync_note": "42/42 modules remain mapped; Run 144 changes are source-census/provenance metadata only and require no module remap."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Archer song-book catalogue discoverability and a secondary bookseller listing are not treated as song-level reuse permission, participant/collector consent, community validation, or culturally unrestricted access. No song text or semantic cultural claim was ingested."
+      "cycle_state": "Official Census catalogue discoverability is not treated as a blanket reuse-rights determination for downstream cultural material, and no community-validation inference was made."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -74,7 +74,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-142 status head 2743c60150c114b8230115fe2ac5c8c66b4302f4 independently verified 4/4 green: Source Register Audit 1146, Migration Audit 1196, Streamlit Smoke Test 1294, Publication Build 1147. Run-143 commits require fresh CI."
+      "manuscript_build_state": "Run-143 status head 49582776853ddea8cc4b8eb1fd3cd0532c594874 independently verified 4/4 green: Source Register Audit 1151, Migration Audit 1201, Streamlit Smoke Test 1299, Publication Build 1152. Run-144 commits require fresh CI."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,40 +82,40 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run143_advanced_source": "Existing W. G. Archer A Munda song book source stream: 1942 United Press/Patna manifestation versus Catholic Press/Ranchi manifestation candidate",
-      "promotion_boundary": "Bibliographic manifestation/provenance metadata only; no song content, cultural claim, evidence row or provenance link promoted."
+      "run144_advanced_source": "Existing ORGI Census 2011 C-16 Jharkhand stream: official town-level manifestation PC11_C16city-20",
+      "promotion_boundary": "Bibliographic/table-manifestation provenance metadata only; no Mundari population number, claim, evidence row or provenance link promoted without workbook/hash/row/cell verification."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "2743c60150c114b8230115fe2ac5c8c66b4302f4",
+    "last_verified_all_four_green_commit": "49582776853ddea8cc4b8eb1fd3cd0532c594874",
     "four_of_four_green_claim_for_that_head": true,
-    "verified_runs_for_that_head": {"source_register_audit":1146,"migration_audit":1196,"streamlit_smoke_test":1294,"publication_build":1147},
-    "new_commits_this_cycle_before_status_sync": ["843ca82fc71453fb3184dc191d16c73914ad16c8","498d8d712aa07746e118d515606cf8478195a925"],
-    "new_head_ci_state_at_status_write": "Run-143 status-sync commit requires fresh CI; Run-142 4/4 green is not projected onto the new head."
+    "verified_runs_for_that_head": {"source_register_audit":1151,"migration_audit":1201,"streamlit_smoke_test":1299,"publication_build":1152},
+    "new_commits_this_cycle_before_status_sync": ["5b04ca3fd85bfb8228b84851b86943ccbf5a9082","50711bba557c32b8f592c1b3d744afdf58e0fc6a"],
+    "new_head_ci_state_at_status_write": "Run-144 status-sync commit requires fresh CI; Run-143 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Verified Run-142 status head 2743c60150c114b8230115fe2ac5c8c66b4302f4 as 4/4 green.",
-    "Added data/source_census/archer_munda_song_book_manifestation_reconciliation_run143_2026-09-10.json.",
-    "Preserved OL6506296M / LCCN 46029131 / OCLC 4512074 as deterministic identifiers for the 1942 United Press/Patna manifestation.",
-    "Separated an undated Catholic Press/Ranchi bookseller-listed copy as a manifestation candidate pending institutional or primary-object edition/reprint evidence.",
-    "Did not duplicate the existing Archer source stream, did not add a web lead, and did not promote song text, song count, contributor roles beyond verified catalogue responsibility, reuse permission or cultural claims.",
-    "Added data/source_census/search_log_run143.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
+    "Verified Run-143 status head 49582776853ddea8cc4b8eb1fd3cd0532c594874 as 4/4 green.",
+    "Added data/source_census/census2011_c16_city_jharkhand_manifestation_run144_2026-09-10.json.",
+    "Verified official Census identifier PC11_C16city-20 / PC11_C16, listed workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX, and state/district/town granularity.",
+    "Canonicalized the town-level table as a manifestation under the existing ORGI Census stream instead of creating a duplicate source identity.",
+    "Did not promote any population figure because workbook bytes, independent checksum, worksheet, exact Mundari row and numeric cell coordinates remain pending.",
+    "Added data/source_census/search_log_run144.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
   ],
   "blockers": [
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "C-16 state/subdistrict and town-level catalogue manifestations are verified, but authoritative workbook bytes, independent checksums, worksheets, exact Mundari rows and numeric cell coordinates remain pending before numeric promotion; ST-15/ST-16/C-17 require the same standard.",
     "The Archer song-book Catholic Press/Ranchi candidate lacks an authoritative title-page/colophon or institutional catalogue crosswalk to the verified 1942 United Press/Patna manifestation; lawful inspectable bytes, independent checksum/page accounting, song-level rights and cultural-access review are also missing.",
     "WEB-MUN-0088 taxonomy is partially reconciled but still lacks an authoritative item-level Munda/Mundari identifier crosswalk, collection methodology, item-level rights, speaker consent/provenance and cultural-access disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Authoritative Mundarica scans, independent hashes and complete page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
     "Official LSI Jharkhand complete PDF bytes, independent checksum and actual page-image/PDF-index verification remain incomplete.",
-    "C-16/ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion.",
     "Karya ELR-1000 licence-scope conflict and participant/privacy/community/cultural-access review remain unresolved before content-level use.",
     "Other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
     "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada lawful full-text/rights reconciliation remains incomplete where applicable.",
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
     "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-143 status head."
+    "Fresh four-workflow verification is required for the newest Run-144 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -142,9 +142,9 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation.",
+    "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion, including PC11_C16-20 and PC11_C16city-20.",
     "Locate an institutional catalogue or inspectable title-page/colophon for the Archer Catholic Press/Ranchi candidate and reconcile it with the 1942 United Press/Patna manifestation before deeper ingestion.",
     "Resolve WEB-MUN-0088 item-level taxonomy/collection provenance and speaker/item rights before any content-level use.",
-    "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
     "Acquire and independently hash the official LSI Jharkhand PDF and verify the Mundari printed-page-71 locator against the actual page image/PDF index.",
     "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
     "Resolve remaining lawful full-text/rights/participant/cultural-access streams, prioritizing authoritative obtainable bytes.",
