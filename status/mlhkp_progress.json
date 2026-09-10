@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T21:38:00Z",
+  "updated_utc": "2026-09-10T21:46:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 182,
-  "cycle_result": "Run 182 advanced Mundarica Volume II acquisition/page accounting by directly verifying an exact secondary Digital Library of India/Internet Archive digitized manifestation (dli.bengal.10689.21001): upstream West Bengal Public Library Network handle 10689/21001, Krishnanagar Public Library source, C-DAC Kolkata scan provenance, DteLS digital republication, 2011-12-22 digital-publication date, 406 catalogued scan pages, ABBYY FineReader 11 Extended OCR provenance, and listed PDF/PDF-with-text/JP2/full-text derivatives. This is intentionally not counted as an authoritative release scan, not hash-verified, not page-compared to an authoritative physical copy, and not verified transcription. Rau 2019 independent byte hashing was retried but byte-preserving acquisition failed in the available execution transport; no hash or licence claim was upgraded. Counts remain unchanged.",
+  "latest_run": 183,
+  "cycle_result": "Run 183 returned to the requested non-Mundarica census stream and resolved the previously open authoritative licence-metadata blocker for Felix Rau's 2019 Munda cognate dataset: Zenodo DOI 10.5281/zenodo.3380874 explicitly states Creative Commons Zero v1.0 Universal (CC0-1.0) in Rights > License. The exact CSV filename and repository MD5 remain source-verified, but byte-preserving acquisition failed in the available execution transport, so independent checksum verification and row-level ingestion remain open. A fresh all-class census sweep was logged. No permanent identity, lexical row, cultural claim, participant record or evidence node was added, and release counts remain unchanged.",
   "cycle_commits": {
-    "mundarica_volume_ii_manifestation_audit": "96fb2c75082ea6b9d018de10cd9d5b969513217b",
-    "regression_test": "cea63a16bb1331b3f2c4d998aa6d0a7b98253870",
-    "search_log": "5db7901248d2f0d1fb6c803b6d07fc0909a31952",
-    "work_head_before_status_sync": "5db7901248d2f0d1fb6c803b6d07fc0909a31952"
+    "rau_cc0_rights_audit": "46221ec1bd0d9abe32e93b310b2de2960cfa242a",
+    "search_log": "9c57fdf5db0604d4aa978b930e520199df51f510",
+    "regression_test": "4b7db936e780d83ab541b8df94dfd7d9cd052a23",
+    "work_head_before_status_sync": "4b7db936e780d83ab541b8df94dfd7d9cd052a23"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -24,11 +24,11 @@
     "ocr_is_not_verified_transcription": true,
     "per_volume_state": {
       "I": "324 working page blocks; page accounting only; no authoritative scan comparison; not OCR/transcription verified complete",
-      "II": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.bengal.10689.21001 verified; 406 catalogued scan pages; C-DAC Kolkata/ABBYY OCR provenance recorded; no authoritative physical-copy comparison or independent hash; not verified complete",
+      "II": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.bengal.10689.21001 verified in Run 182; 406 catalogued scan pages; no authoritative physical-copy comparison or independent hash; not verified complete",
       "III-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run182_change": "Volume II advanced from locator-only to exact secondary digitized-manifestation metadata and 406-page scan accounting. Authoritative scan count and verified-complete count remain zero; OCR was not promoted to verified transcription."
+    "run183_change": "No Mundarica ingestion or expansion in Run 183; this cycle is restricted to the requested non-Mundarica source-census stream."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -41,12 +41,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000182",
-    "latest_search_log": "data/source_census/search_log_run182.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_volume_ii_secondary_manifestation_run182_2026-09-11.json",
-    "run182_reconciliation": {
-      "source": "Encyclopaedia Mundarica Volume II secondary digitized manifestation",
-      "decision": "exact secondary manifestation and scan-page accounting verified without assigning a new permanent source identity, claiming authoritative scan status, or ingesting OCR/cultural passages",
+    "latest_search_id": "MMSC-SEARCH-000183",
+    "latest_search_log": "data/source_census/search_log_run183.jsonl",
+    "latest_source_audit": "data/source_census/rau_2019_cc0_rights_resolution_run183_2026-09-11.json",
+    "run183_reconciliation": {
+      "source": "Felix Rau 2019 Munda cognate set with proto-Munda reconstructions",
+      "decision": "Resolve authoritative dataset-level CC0-1.0 rights metadata while retaining the existing source identity; do not claim independent hash verification or ingest rows until byte-preserving manifestation acquisition succeeds.",
       "source_identities_added": 0,
       "counts_changed": false
     },
@@ -64,11 +64,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run182": 0,
-    "claims_added_run182": 0,
-    "evidence_records_added_run182": 0,
-    "evidence_links_added_run182": 0,
-    "verification_audits_added_run182": 1
+    "source_identities_added_run183": 0,
+    "claims_added_run183": 0,
+    "evidence_records_added_run183": 0,
+    "evidence_links_added_run183": 0,
+    "verification_audits_added_run183": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -79,7 +79,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run182_change": "No exposure expansion; all 42 modules and universal search/evidence/report/owner-console mappings remain unchanged because Run 182 adds bounded manifestation/page-accounting metadata only."
+    "run183_change": "No exposure expansion. All 42 modules plus universal search, evidence drill-down, reports/downloads and owner-console mappings remain count-synchronized because Run 183 changes rights/provenance state only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -89,12 +89,16 @@
     "article_or_thesis_reuse_terms_treated_as_participant_consent": false,
     "article_or_thesis_reuse_terms_treated_as_community_validation": false,
     "article_or_thesis_reuse_terms_treated_as_cultural_access_permission": false,
-    "rau_exact_license_value_verified": false,
+    "rau_exact_license_value_verified": true,
+    "rau_exact_license": "CC0-1.0",
     "rau_row_level_reuse_permitted": false,
-    "mundarica_ii_secondary_download_visibility_treated_as_reuse_permission": false,
-    "mundarica_ii_cultural_access_inferred": false,
-    "participant_records_ingested_run182": 0,
-    "full_text_or_lexical_rows_ingested_run182": 0
+    "rau_row_level_hold_reason": "Authoritative dataset-level CC0 is verified, but the current run did not retain a byte-preserving local manifestation for independent integrity verification; row-level promotion is deferred rather than overstated.",
+    "rau_underlying_source_rights_inferred": false,
+    "rau_participant_consent_inferred": false,
+    "rau_community_validation_inferred": false,
+    "rau_cultural_access_inferred": false,
+    "participant_records_ingested_run183": 0,
+    "full_text_or_lexical_rows_ingested_run183": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -106,9 +110,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 182; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release metric changed; no table/figure count regeneration required. Mundarica II manifestation/page-accounting verification strengthens the reproducibility audit trail without changing release counts.",
-    "build_state": "Run-181 exact final head 497f4427aeb0d185d2b0f0fd1f6292c58bf5b4cd is independently verified 4/4 green. Fresh Run-182 final-head CI must be checked before claiming the new head green."
+    "generated_metrics_state": "No count-bearing change in Run 183; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release metric changed, so count-bearing tables/figures require no numerical regeneration. Run 183 strengthens the source-rights audit trail by resolving Rau 2019 CC0 metadata.",
+    "build_state": "Run-181 exact final head 497f4427aeb0d185d2b0f0fd1f6292c58bf5b4cd remains the last independently recorded 4/4 green head in status. Fresh Run-183 final-head CI must be checked before calling the new head green."
   },
   "ci": {
     "last_independently_verified_green_head": "497f4427aeb0d185d2b0f0fd1f6292c58bf5b4cd",
@@ -119,13 +123,12 @@
       "migration_audit": {"run_number": 1458, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1572, "conclusion": "success"}
     },
-    "run182_tests_added": "tests/test_run182_mundarica_volume_ii_secondary_manifestation.py",
+    "run183_tests_added": "tests/test_run183_rau_cc0_rights_resolution.py",
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica Volume II now has an exact secondary DLI/Internet Archive manifestation with 406 catalogued scan pages and OCR provenance, but authoritative-copy/page-image comparison, independent hashes and rights review remain incomplete; it is not a verified-complete volume.",
-    "Rau 2019 CSV manifestation remains directly readable and its Mundari fields/header plus repository MD5 are verified, but exact authoritative licence value/licence URL remains unresolved and byte-preserving independent acquisition failed again in Run 182; lexical rows remain un-ingested.",
+    "Rau 2019 dataset-level licence is now authoritatively resolved as CC0-1.0, but byte-preserving acquisition and independent checksum verification remain incomplete; zero lexical rows were ingested in Run 183.",
     "Proietti 2025 thesis exact Creative Commons variant/licence URL, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration.",
     "MMLoSo reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; no authoritative reconciliation has been verified.",
@@ -156,12 +159,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "73 unresolved source dispositions plus authoritative Mundarica scan/page comparisons, direct thesis/dataset/grammar/Census/LSI manifestations, primary-source checks and unresolved consent/community/cultural-access gates remain."
+    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, primary-source checks and unresolved consent/community/cultural-access gates remain. Rau's authoritative licence is resolved, but its independent byte/hash verification is not."
   },
   "next_parallel_tasks": [
-    "Extend exact secondary-manifestation/page accounting across Mundarica III-XIII while separately pursuing authoritative/institutional scans and never promoting OCR without page comparison.",
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/catalogue exact matches and obtainable lawful manifestations.",
-    "Resolve Rau 2019 exact licence metadata and obtain a byte-preserving lawful copy for independent checksum verification before row-level reuse.",
+    "Retry byte-preserving acquisition of Rau 2019 from the authoritative Zenodo file endpoint, independently recompute MD5, then consider narrowly scoped row-level exact-locator promotion under CC0 while retaining underlying-source/cultural uncertainty.",
     "Resolve Proietti 2025 exact Creative Commons variant/licence URL and, where lawful, acquire PDF bytes/checksum and page-level locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo shared-task dataset manifestation/version/file metadata before row-level ingestion or dataset registration.",
     "Retry direct Zenodo v1.1 manifestation/file/checksum retrieval for Lexibank Peiros.",
