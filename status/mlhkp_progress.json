@@ -4,18 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T09:45:00Z",
+  "updated_utc": "2026-09-10T10:34:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 159,
-  "head_at_cycle_start": "152ea805653a6b275c91be02fa4a645c4dca58f2",
-  "head_before_final_status_sync": "78a049a378dd1d2689ba1a94b092321acdb36c0a",
+  "latest_run": 160,
+  "head_at_cycle_start": "cc83da3dd003cc734ad5e35912d2a3c6717df6f9",
+  "head_before_final_status_sync": "458ee828959712e608cea629fc8947e94d63ef38",
   "cycle_commits": [
-    "dbc4ad202eb9f72d3ccb5168e4083b3bb136e359",
-    "d2a17bc5775bf177bb9cce6c6a533f843138bd79",
-    "78a049a378dd1d2689ba1a94b092321acdb36c0a"
+    "af2be839e69345253e0481edf963b83236606c11",
+    "bc5d46941cf561f31c049f47402a9a4df98aa2de",
+    "458ee828959712e608cea629fc8947e94d63ef38"
   ],
-  "cycle_result": "Converted existing discovery lead WEB-MUN-0020 from catalogue-only discovery into an exact-locator national-library provenance audit for the 1914 Ranchi Mundari audio object; only archival metadata was promoted and audio/content reuse remains gated.",
+  "cycle_result": "Verified WEB-MUN-0082 Birsaite Dharam article at its exact Taylor & Francis DOI/pagination/abstract locator and encoded the rights, consent, community-validation and cultural-access boundary; no participant-derived or sensitive cultural material was ingested and permanent identity promotion remains deferred until an atomic census/evidence synchronization transaction.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -36,7 +36,7 @@
     "volumes_II_XIII": "historical_external_locators_verified_but_authoritative_scans_not_registered_and_not_verified_complete",
     "volumes_XIV_XVI": "pending_locator_or_manifestation_resolution_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "run159_change": "No Mundarica verification state was upgraded; this sprint remained non-Mundarica and no authoritative Mundarica scan/hash/page-image evidence was obtained."
+    "run160_change": "No Mundarica verification state was upgraded; no authoritative Mundarica scan/hash/page-image evidence was obtained in this sprint, so page/OCR/structuring states remain conservatively unchanged."
   },
   "mmsc": {
     "audited_source_identities": 41,
@@ -47,12 +47,12 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 13,
     "unresolved_unique_web_leads": 74,
-    "latest_search_id": "MMSC-SEARCH-000159",
+    "latest_search_id": "MMSC-SEARCH-000160",
     "latest_exact_locator_advance": {
-      "raw_id": "WEB-MUN-0020",
-      "audit_file": "data/source_census/bnf_durang_kahani_audio_exact_locator_run159_2026-09-10.json",
-      "catalogue_id": "ark:/12148/cb42562690s / FRBNF42562690",
-      "decision": "promote national-library archive metadata and exact holdings/recording locators only; do not ingest audio or song content without rights, consent and cultural-access clearance"
+      "raw_id": "WEB-MUN-0082",
+      "audit_file": "data/source_census/birsaite_dharam_exact_locator_audit_2026-09-10.json",
+      "catalogue_id": "doi:10.1080/14631369.2025.2589154",
+      "decision": "verify publisher identity, volume/issue/pages, abstract, publication chronology and access boundary only; do not promote participant-derived, ritual or other sensitive cultural material without exact-passage provenance plus rights/consent/community/cultural-access clearance"
     },
     "duplicate_set": [
       "WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL",
@@ -61,6 +61,7 @@
     ],
     "run158_duplicate_audit": "data/source_census/muntts_duplicate_reconciliation_run158_2026-09-10.json",
     "run159_audit": "data/source_census/bnf_durang_kahani_audio_exact_locator_run159_2026-09-10.json",
+    "run160_audit": "data/source_census/birsaite_dharam_exact_locator_audit_2026-09-10.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -75,10 +76,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run159": 0,
-    "numeric_claims_added_run159": 0,
-    "source_metadata_exact_locator_records_added_run159": 1,
-    "run159_boundary": "BnF archival metadata for WEB-MUN-0020 was promoted as exact-locator source evidence without creating a cultural proposition or increasing claim/evidence-graph counts."
+    "cultural_claims_added_run160": 0,
+    "numeric_claims_added_run160": 0,
+    "source_metadata_exact_locator_records_added_run160": 1,
+    "run160_boundary": "Publisher-level source identity and abstract scope for WEB-MUN-0082 were verified without increasing claim/evidence counts or treating participant-derived notes as reusable evidence."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -89,17 +90,17 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run159_change": "No module-count change; universal search/modules remain mapped to canonical repository data. The new exact-locator audit is repository-searchable while restricted audio/content remains unexposed."
+    "run160_change": "No redesign or module-count change. The exact-locator audit is repository-searchable while participant-derived and culturally sensitive material remains excluded from public exposure."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "participant_audio_or_transcripts_ingested_run159": false,
-    "consent_inferred_run159": false,
-    "community_validation_inferred_run159": false,
-    "run159_boundary": "BnF catalogues a digital holding and online consultation route, but that does not establish performer consent for modern secondary reuse, unrestricted redistribution, machine-learning use, or community cultural clearance."
+    "participant_audio_or_transcripts_ingested_run160": false,
+    "consent_inferred_run160": false,
+    "community_validation_inferred_run160": false,
+    "run160_boundary": "Taylor & Francis publisher metadata/abstract availability does not establish MLHKP secondary-use consent for interviewees, unrestricted article reuse, community endorsement, or culturally unrestricted access."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -111,34 +112,34 @@
     "canonicalized_web_leads": 13,
     "unresolved_unique_web_leads": 74,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "count-stable in run159; no release metric regeneration required because no count-bearing identity, claim or evidence node changed",
-    "build_state": "Run-158 final head independently verified 4/4 green; fresh CI required on run-159 final status head."
+    "generated_metrics_state": "count-stable in run160; manuscript metrics remain synchronized because no count-bearing permanent identity, claim or evidence node changed",
+    "build_state": "Run-159 final head cc83da3dd003cc734ad5e35912d2a3c6717df6f9 independently verified 4/4 green; fresh CI required on run-160 final status head."
   },
   "ci": {
-    "last_independently_verified_green_head": "152ea805653a6b275c91be02fa4a645c4dca58f2",
-    "run158_verified": {
-      "source_register": "success",
-      "migration": "success",
-      "streamlit": "success",
-      "publication": "success",
+    "last_independently_verified_green_head": "cc83da3dd003cc734ad5e35912d2a3c6717df6f9",
+    "run159_verified": {
+      "source_register": "success (run #1281)",
+      "migration": "success (run #1331)",
+      "streamlit": "success (run #1445)",
+      "publication": "success (run #1298)",
       "green_4_of_4": true,
-      "verification_basis": "GitHub Actions query for head 152ea805653a6b275c91be02fa4a645c4dca58f2 returned total_count=4 with status=success"
+      "verification_basis": "GitHub Actions query on 2026-09-10 for head cc83da3dd003cc734ad5e35912d2a3c6717df6f9 returned all four PR workflows completed successfully"
     },
-    "run159_tests_added": "tests/test_run159_bnf_audio_exact_locator.py",
+    "run160_tests_added": "tests/test_run160_birsaite_exact_locator.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run159": false
+    "green_4_of_4_claimed_for_run160": false
   },
   "blockers": [
-    "74 unique web leads require deterministic disposition/canonicalization.",
+    "74 unique web leads require deterministic disposition/canonicalization; WEB-MUN-0082 now has exact publisher identity/locator verification but remains in this count until permanent-register promotion is performed atomically and tested.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
     "Official LSI West Bengal Part I indexed Mundari locator is recorded, but authoritative PDF bytes/hash/page-image verification remains incomplete after retrieval failure.",
     "WEB-MUN-0020 BnF archive identity/holdings are exact-locator verified, but actual audio bytes, checksum, item-level reuse terms, performer secondary-use consent, community validation and cultural-access clearance remain unverified.",
     "The BnF catalogue points to a 1916 Linguistic Survey of India transcription/translation publication for the historical recordings; its exact manifestation and page/record correspondence remain to be independently verified before textual ingestion.",
     "Mundarica has zero authoritative scans registered; scan hashes, page-image comparison and verification for I-XVI remain incomplete.",
-    "Participant-derived audio/video/dataset material remains gated by consent, privacy, community and cultural-access review.",
+    "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community and cultural-access review.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact locators.",
-    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing.",
+    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized from status prose.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation.",
     "Nirang Pajhra lacks authoritative PRGI/RNI manifestation and issue-level provenance.",
     "MunTTS paper reports 26,868 final sentence-recording pairs whereas the Karya corpus repository reports 26,870 recordings; version/curation explanation remains unverified."
@@ -162,12 +163,12 @@
     "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, consent/cultural-access gates and incomplete source manifestations remain."
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-159 final status head and repair any failure without touching main.",
-    "Continue deterministic disposition of the 74 unresolved unique web leads, prioritizing exact DOI/handle/catalogue matches and duplicate detection before assigning new identities.",
-    "Follow the BnF/Gallica WEB-MUN-0020 digital manifestation only to the level permitted by item rights; independently resolve the cited 1916 transcription/translation publication and exact record/page correspondence before textual ingestion.",
+    "Verify all four workflows on the run-160 final status head and repair any failure without touching main.",
+    "Perform the atomic permanent-register/census/evidence-chain transaction for WEB-MUN-0082 only if deterministic deduplication against all permanent identities remains clear; otherwise retain it as exact-locator discovery metadata.",
+    "Continue deterministic disposition of the remaining unresolved unique web leads, prioritizing exact DOI/handle/catalogue matches and duplicate detection before assigning new identities.",
     "Retry authoritative Census workbook acquisition and record independent hashes, worksheet names, exact Munda/Mundari row and numeric-cell locators before promoting demographic values.",
     "Retry official LSI Jharkhand and West Bengal PDF byte acquisition and page-image verification; preserve indexed-text locators as metadata-only until bytes are verified.",
     "Advance lawful full-text/exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
-    "Keep the 42-module Streamlit surface, evidence graph, completeness/gap matrix and publication metrics synchronized after every count-bearing change."
+    "Keep Mundarica states conservative until authoritative scans/hashes/page comparisons exist; continue all 42-module, evidence graph, completeness/gap matrix and publication synchronization checks after every count-bearing change."
   ]
 }
