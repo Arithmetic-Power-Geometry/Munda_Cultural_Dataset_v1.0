@@ -4,15 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T23:36:00Z",
+  "updated_utc": "2026-09-10T23:43:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 186,
-  "cycle_result": "Run 186 advanced the Mundarica verification stream by exact-locating Volume III as Internet Archive/Digital Library of India item in.ernet.dli.2015.14921. Repository metadata directly records a 1930 manifestation, DLI handle 2015/14921, LBS National Academy of Administration source library, C-DAC Noida scanning, 264 total pages, ABBYY FineReader 11 OCR, 600 PPI and listed PDF/text/JP2 derivatives. The repository-supplied Out_of_copyright label is recorded only as repository metadata, not independently adjudicated reuse permission. No OCR was promoted to verified transcription; no authoritative scan, independent hash, verified-complete volume, cultural passage, claim, participant record or evidence-graph node was added. Run-185 exact head 277cabe31dfc9e256f28f737b3b27146c495cade was independently verified 4/4 green before Run-186 writes.",
+  "latest_run": 187,
+  "cycle_result": "Run 187 completed a fresh non-Mundarica all-class census and advanced Felix Rau's 2019 Munda cognate dataset from manifestation/schema verification to row-level exact-locator evidence. The authoritative Zenodo plaintext CSV exposes record #A0001 with gloss water, Mundari mu_form da:, and source pointer mu_source BMED.p31. This is preserved only as a source-attributed dataset-row observation. Independent byte-preserving acquisition/checksum recomputation and the underlying BMED page remain unverified, so no permanent SRC-MMSC registration, evidence-graph node, generalized lexical truth, participant record or cultural claim was added.",
   "cycle_commits": {
-    "mundarica_volume_iii_secondary_manifestation": "e9a14fab05ab5aa144e00cd41e35ea88bfdd4f58",
-    "run186_regression_test": "ce2cc7b6725fe80c84d941034b49db33a255ff75",
-    "work_head_before_status_sync": "ce2cc7b6725fe80c84d941034b49db33a255ff75"
+    "rau_row_level_exact_locator": "f7b1f002dd24058cee632cb7998349696a50f1db",
+    "run187_search_log": "fd800472dfede767c1623cf99d31a043f364b92a",
+    "run187_regression_test": "4f8ebe5855cbfb15e345e71b0f6f22494c1ca706",
+    "work_head_before_status_sync": "4f8ebe5855cbfb15e345e71b0f6f22494c1ca706"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -28,7 +29,7 @@
       "IV-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run186_change": "Volume III now has exact secondary manifestation and page-accounting metadata. Authoritative-scan and verified-completeness totals remain zero."
+    "run187_change": "none; Run 187 is non-Mundarica only"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -41,12 +42,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000185",
-    "latest_search_log": "data/source_census/search_log_run185.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_volume_iii_secondary_manifestation_run186_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000187",
+    "latest_search_log": "data/source_census/search_log_run187.jsonl",
+    "latest_source_audit": "data/source_census/rau_2019_row_level_exact_locator_run187_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run186_count_change": "none"
+    "run187_count_change": "none; row-level exact locator strengthened without premature permanent registration"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -59,12 +60,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run186": 0,
-    "claims_added_run186": 0,
-    "evidence_records_added_run186": 0,
-    "evidence_links_added_run186": 0,
-    "verification_audits_added_run186": 1,
-    "run186_note": "Manifestation/page-accounting verification only; no cultural-evidence promotion."
+    "source_identities_added_run187": 0,
+    "claims_added_run187": 0,
+    "evidence_records_added_run187": 0,
+    "evidence_links_added_run187": 0,
+    "verification_audits_added_run187": 1,
+    "run187_note": "A source-attributed row locator is preserved in the source-census audit. The evidence graph is intentionally unchanged because Rau lacks a permanent SRC-MMSC identity and independent byte integrity remains unresolved."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -75,7 +76,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run186_change": "No exposure expansion or count-bearing schema change; all 42 modules and search/evidence/report/owner surfaces remain mapped to existing release metrics."
+    "run187_change": "No count-bearing schema or exposure change; all 42 modules and universal-search/evidence/report/owner surfaces remain synchronized with existing release metrics."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -85,20 +86,23 @@
     "article_or_thesis_reuse_terms_treated_as_participant_consent": false,
     "article_or_thesis_reuse_terms_treated_as_community_validation": false,
     "article_or_thesis_reuse_terms_treated_as_cultural_access_permission": false,
-    "mundarica_iii_repository_rights_label": "Out_of_copyright",
-    "mundarica_iii_repository_rights_label_independently_adjudicated": false,
-    "mundarica_iii_full_text_reuse_permission_inferred": false,
-    "mundarica_iii_community_validation_inferred": false,
-    "mundarica_iii_cultural_access_inferred": false,
     "rau_exact_license_value_verified": true,
     "rau_exact_license": "CC0-1.0",
     "rau_authoritative_plaintext_manifestation_verified": true,
+    "rau_row_level_exact_locator_verified": true,
+    "rau_example_record_id": "#A0001",
     "rau_independent_hash_verified": false,
-    "rau_row_level_reuse_permitted": false,
+    "rau_repository_md5_treated_as_independent": false,
+    "rau_license_extended_to_underlying_BMED": false,
+    "rau_underlying_BMED_page_verified": false,
+    "rau_row_level_corpus_ingestion_performed": false,
+    "rau_participant_consent_inferred": false,
+    "rau_community_validation_inferred": false,
+    "rau_cultural_access_inferred": false,
     "saboo_publisher_access_state": "restricted",
     "saboo_open_license_verified": false,
-    "participant_records_ingested_run186": 0,
-    "full_text_or_lexical_rows_ingested_run186": 0
+    "participant_records_ingested_run187": 0,
+    "full_text_or_lexical_rows_ingested_run187": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -110,9 +114,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 186; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required for Run 186; source-audit trail now includes Volume III manifestation/page accounting.",
-    "build_state": "Exact Run-185 head 277cabe31dfc9e256f28f737b3b27146c495cade independently verified 4/4 green; fresh Run-186 final-head CI required before newest head is called green."
+    "generated_metrics_state": "No count-bearing change in Run 187; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required for Run 187; audit trail now includes authoritative Rau row/column exact-locator evidence while integrity and underlying-source gaps remain explicit.",
+    "build_state": "Run-185 exact head 277cabe31dfc9e256f28f737b3b27146c495cade remains the last independently verified 4/4 green head recorded in the ledger; fresh Run-187 final-head CI is required before newest head is called green."
   },
   "ci": {
     "last_independently_verified_green_head": "277cabe31dfc9e256f28f737b3b27146c495cade",
@@ -123,14 +127,13 @@
       "migration_audit": {"run_number": 1492, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1606, "conclusion": "success"}
     },
-    "run186_tests_added": ["tests/test_run186_mundarica_volume_iii_manifestation.py"],
+    "run187_tests_added": ["tests/test_run187_rau_row_exact_locator.py"],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica I remains working-page accounting only; II and III now have exact secondary manifestations, but all XVI slots still lack authoritative release scans and none is verified complete.",
-    "Mundarica III Internet Archive metadata supplies an Out_of_copyright label, but MLHKP has not treated that repository field alone as an independent rights adjudication or cultural-access permission.",
-    "Rau 2019 authoritative CSV endpoint and plaintext schema are directly verified, but byte-preserving acquisition and independent checksum verification remain incomplete; zero lexical rows were ingested.",
+    "Rau 2019 authoritative CSV plaintext and row #A0001 exact locator are verified, but byte-preserving acquisition and independent checksum verification remain incomplete; the underlying BMED.p31 passage is unverified and zero lexical rows were imported into the corpus/evidence graph.",
+    "Mundarica I remains working-page accounting only; II and III have exact secondary manifestations, but all XVI slots still lack authoritative release scans and none is verified complete.",
     "Saboo Munda land-inheritance article is exact-located but publisher full text is restricted; no substantive cultural claim or participant record was promoted.",
     "Proietti 2025 thesis exact Creative Commons variant/licence URL, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task dataset manifestation/version/file metadata remains unresolved, including the 16,000-versus-15,999 evaluation/test discrepancy.",
@@ -161,16 +164,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, no authoritative/verified-complete Mundarica volume, unresolved dataset/grammar/Census/LSI manifestations and unresolved consent/community/cultural-access gates. Run 186 strengthens Volume III page-accounting provenance without overstating verification."
+    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, and unresolved consent/community/cultural-access gates. Run 187 strengthens non-Mundarica row-level provenance without overstating verification."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches and lawful manifestations.",
-    "Extend exact Mundarica secondary manifestation/page accounting from Volume III through IV-XIII while separately pursuing authoritative copies; never equate OCR with verified transcription.",
-    "Retry byte-preserving acquisition of Rau 2019 and independently recompute MD5 before any narrowly scoped row-level promotion.",
+    "Acquire Rau 2019 byte-preservingly, independently recompute MD5, verify the underlying BMED exact page/rights relationship, then decide permanent SRC-MMSC registration and narrowly source-attributed graph ingestion atomically.",
     "Resolve Proietti 2025 exact licence variant and lawful PDF integrity/page locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo and Lexibank Peiros manifestations/version/file metadata before row-level ingestion or registration.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
     "Retry authoritative Census workbook and official LSI PDF byte/hash/page-image verification.",
+    "Continue books/dictionaries/grammars/articles/theses/archives/newspapers/audio/video/maps/media searches, logging restricted or blocked sources rather than marking them complete.",
     "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics and tests synchronized after every count-bearing change."
   ]
 }
