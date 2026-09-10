@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "MLHKP-RUN174-MMLoSo-MANIFESTATION",
+  "checked_utc": "2026-09-10T17:40:00Z",
+  "scope": "Deterministic identity and rights-boundary reconciliation for the MMLoSo 2025 shared-task paper and related dataset manifestations before any count-bearing registration or row ingestion.",
+  "paper": {
+    "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "authors": ["Pooja Singh", "Sandeep Chatterjee", "Gullal S. Cheema", "Amrit Singh Bedi", "Tanmoy Chakraborty", "Sandeep Kumar", "Ankita Shukla"],
+    "year": 2025,
+    "anthology_id": "2025.mmloso-1.14",
+    "pages": "121-129",
+    "publisher": "Association for Computational Linguistics",
+    "canonical_url": "https://aclanthology.org/2025.mmloso-1.14/",
+    "pdf_url": "https://aclanthology.org/2025.mmloso-1.14.pdf",
+    "identity_verified": true,
+    "mundari_in_scope": true,
+    "paper_level_public_access_verified": true
+  },
+  "paper_reported_dataset_facts": {
+    "languages_include": ["Bhili", "Mundari", "Gondi", "Santali"],
+    "training_sentence_pairs_per_language_reported": 20000,
+    "evaluation_sentences_abstract_reported": 16000,
+    "test_sentences_section3_reported": 15999,
+    "count_discrepancy_preserved": true,
+    "paper_reported_distribution_license": "CC BY-SA 4.0",
+    "note": "These are source-attributed statements from the paper and are not independently reinterpreted as row-level rights or completeness facts."
+  },
+  "related_manifestation": {
+    "name": "AdiBhasha / related current Hugging Face dataset manifestation",
+    "card_reported_license": "CC BY-NC-SA 4.0",
+    "file_access_state": "gated_contact_information_acceptance_required",
+    "same_manifestation_as_paper_release_verified": false,
+    "version_lineage_verified": false,
+    "row_level_license_equivalence_verified": false
+  },
+  "deterministic_register_reconciliation": {
+    "paper_identity_collision_with_existing_permanent_mmsc_record_found": false,
+    "paper_identity_collision_with_preserved_canonical_master_record_found": false,
+    "permanent_registration_this_run": false,
+    "reason": "Paper identity is stable, but the release manifestation/version/licence relationship must be resolved before representing the paper-reported dataset as an ingestible source manifestation. Registration is deferred to avoid conflating bibliographic identity with dataset rights."
+  },
+  "governance_boundary": {
+    "paper_public_access_does_not_imply_dataset_redistribution_permission": true,
+    "dataset_card_license_does_not_establish_participant_consent": true,
+    "dataset_card_license_does_not_establish_community_validation": true,
+    "copyright_or_technical_entitlement_does_not_override_cultural_access": true,
+    "parallel_rows_ingested": false,
+    "participant_material_ingested": false,
+    "cultural_claims_promoted": false,
+    "community_validation_claimed": false
+  },
+  "count_effect": {
+    "audited_source_identities_delta": 0,
+    "claims_delta": 0,
+    "evidence_records_delta": 0,
+    "evidence_links_delta": 0
+  },
+  "next_safe_action": "Resolve the exact repository/file manifestation and licence lineage for the shared-task data. Only then decide whether to register the ACL paper as a standalone bibliographic source and the dataset as a distinct versioned source object; keep their rights states separate."
+}
