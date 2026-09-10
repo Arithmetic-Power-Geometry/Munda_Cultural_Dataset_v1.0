@@ -1,0 +1,53 @@
+{
+  "audit_id": "MLHKP-RUN176-MMLOSO-ADIBHASHA-NON-EQUIVALENCE",
+  "run": 176,
+  "checked_utc": "2026-09-10T18:31:00Z",
+  "branch_scope": "mlhkp-v2 only",
+  "shared_task_paper": {
+    "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "acl_anthology_id": "2025.mmloso-1.14",
+    "languages": ["Bhili", "Mundari", "Gondi", "Santali"],
+    "paper_reported_parallel_pairs_per_language": 20000,
+    "paper_reported_evaluation_sentences": 16000
+  },
+  "current_related_dataset_card": {
+    "repository": "misniitdelhi/AdiBhasha",
+    "title": "AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages",
+    "gated_access": true,
+    "reported_total_parallel_sentences": 80000,
+    "reported_mundari_train_pairs_approx": 20150,
+    "reported_license": "CC BY-NC-SA 4.0",
+    "reported_languages": ["Bhili", "Gondi", "Mundari", "Santali"],
+    "card_citation_target": "arXiv:2512.04765"
+  },
+  "deterministic_reconciliation": {
+    "same_manifestation_verified": false,
+    "same_version_verified": false,
+    "same_row_set_verified": false,
+    "license_equivalence_verified": false,
+    "reason": "The current AdiBhasha card describes a later, gated 80,000-sentence benchmark with approximately 20,150 Mundari training pairs and CC BY-NC-SA 4.0, while the shared-task paper reports 20,000 parallel pairs per language and a 16,000-sentence evaluation set. These differences prevent treating the current card as the exact shared-task manifestation without direct file/version lineage evidence."
+  },
+  "promotion_decision": {
+    "paper_identity_may_remain_distinct_source_object": true,
+    "dataset_rows_ingested": 0,
+    "new_cultural_claims_promoted": 0,
+    "permanent_dataset_registration": "deferred",
+    "paper_to_dataset_identity_collapse": false
+  },
+  "rights_governance": {
+    "public_card_visibility_is_permission": false,
+    "gated_access_overridden": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "release_effect": {
+    "audited_source_identity_count_change": 0,
+    "web_lead_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "blocker_narrowed": true,
+    "remaining_blocker": "Obtain direct shared-task dataset manifestation/version/file metadata and establish or reject exact lineage to the current AdiBhasha repository before row-level ingestion or dataset identity registration."
+  }
+}
