@@ -4,19 +4,16 @@
   "pr": 1,
   "merge_policy": "NEVER merge main",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T05:47:00Z",
+  "updated_utc": "2026-09-10T05:55:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 150,
-  "head_at_cycle_start": "a7e95635d71c0d67aa8367bd52815d03d61a41f2",
-  "preliminary_status_sync_commit": "f4f4e7a4bb5155df96576e54f9467e991da49b83",
-  "head_before_final_status_sync": "6edfd8e6e39fa80054a04eacceeca8277d70db1b",
+  "latest_run": 151,
+  "head_at_cycle_start": "60841e19d5884f5aab6f81f4b6de509300760c28",
   "cycle_commits_before_final_status_sync": [
-    "f224c9ec64a33e949087a85e30158f06365b12b3",
-    "a0d2d1edccfbd74605691550787cc358a4432b5c",
-    "f4f4e7a4bb5155df96576e54f9467e991da49b83",
-    "2a901d81da3b9bae47d569b822a76a11b056c40b",
-    "6edfd8e6e39fa80054a04eacceeca8277d70db1b"
+    "623b496b5b9d6f067fd4a32be6ba271041356fbf",
+    "7a8c1889124b2436889bcbca48069f8dc17e3099",
+    "0b75dc4a6f476337ba7e7f5283ea941acf92941b",
+    "ccc88003a6623affd8212249952bfef58c8f48f7"
   ],
   "A_mundarica": {
     "expected_release_slots": 16,
@@ -40,7 +37,7 @@
     },
     "ocr_is_not_verified_transcription": true,
     "human_review_attestations_preserved_without_machine_upgrade": true,
-    "run150_change": "No Mundarica verification state was upgraded; CI reconfirmed Volume I has 324 contiguous page blocks but explicitly does not certify scan comparison, transcription accuracy or verified completeness."
+    "run151_change": "No Mundarica verification state was upgraded; this sprint is non-Mundarica and preserved all existing scan/transcription boundaries."
   },
   "B_mmsc": {
     "status": "federated_census_canonicalization_and_ingestion_active",
@@ -52,9 +49,9 @@
     "web_discovery_duplicate_records": 1,
     "web_discovery_leads_counted_in_audited_identity_total": 13,
     "web_discovery_unique_leads_remaining_outside_audited_identity_total": 74,
-    "latest_search_id": "MMSC-SEARCH-000150",
-    "latest_search_record_path": "data/source_census/search_log_run150.jsonl",
-    "latest_verification": "Run 150 verified from authoritative ORGI C-17 Jharkhand catalogue metadata that both 'Language - Total speakers - MUNDA' and 'Language - Total speakers - MUNDARI' are explicit table-row labels under HS_Q10. Workbook bytes, checksum, worksheet, physical row numbers, numeric cells and values remain unverified. No new identity or numeric/cultural claim was created.",
+    "latest_search_id": "MMSC-SEARCH-000151",
+    "latest_search_record_path": "data/source_census/search_log_run151.jsonl",
+    "latest_verification": "Run 151 resolved the authoritative ORGI C-17 Jharkhand workbook download endpoint to catalog/10282/download/13394/DDW-C17-2000.XLSX. Direct retrieval timed out, so workbook bytes, independent hash, worksheet, physical rows, exact cells and numeric values remain explicitly unverified. Existing Proietti, Raonka and Karya streams were deduplicated rather than recounted; Nirang Pajhra remained candidate-only because authoritative registration/issue manifestation was not established in this sweep.",
     "systematic_census_documented_for_release": true,
     "source_complete_claim": false
   },
@@ -64,7 +61,7 @@
     "schema_category_representation_percent": 100.0,
     "evidence_graph": "active",
     "source_to_domain_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
-    "run150_graph_change": "none; official Census schema-metadata refinement only"
+    "run151_graph_change": "none; access-provenance refinement only, with no new claim-bearing evidence node"
   },
   "D_streamlit": {
     "registered_modules": 42,
@@ -75,14 +72,14 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run150_ui_change": "none required; CI failure occurred before Streamlit smoke execution because publication-sync compatibility key was missing, and that compatibility defect was repaired."
+    "run151_ui_change": "none required because audited counts and module/evidence schema did not change"
   },
   "E_rights_access_consent": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_access": true,
-    "run150_boundary": "ORGI catalogue metadata was used only for source/schema provenance. No reuse right, sensitive cultural access permission, participant consent or community validation was inferred."
+    "run151_boundary": "ORGI catalogue/download metadata was used only for provenance; no Census download availability, secondary media visibility, research consent or licence metadata was converted into cultural permission or community validation."
   },
   "F_publication": {
     "sources_discovered": 41,
@@ -96,9 +93,9 @@
     "evidence_records": 52,
     "evidence_links": 52,
     "metrics_changed_this_cycle": false,
-    "metrics_change_reason": "C-17 catalogue schema metadata strengthened without count/evidence inflation; publication generator restored backward-compatible raw-lead alias while preserving 88 raw records versus 87 unique leads.",
+    "metrics_change_reason": "No new audited identity or claim-bearing evidence was defensibly promoted. Run 151 repaired the LaTeX compatibility macro without changing raw/unique web-discovery semantics.",
     "release_metrics_json_tex_synced": true,
-    "latex_manuscript_state": "Q1-target manuscript present; fresh publication build on final Run 150 head required",
+    "latex_manuscript_state": "Publication generator now emits MLHKPWebDiscoveryLeads as an explicit alias for 88 raw records; fresh build on the Run 151 final head is required.",
     "repository_metrics_sync_state": "synchronized for unchanged quantitative metrics and raw/unique web-lead semantics"
   },
   "G_evidence": {
@@ -106,38 +103,37 @@
     "evidence_records": 52,
     "evidence_links": 52,
     "all_public_factual_claims_provenance_linked": true,
-    "cultural_claims_added_run150": 0,
-    "numeric_claims_added_run150": 0,
-    "promotion_state": "official_catalogue_schema_metadata_only"
+    "cultural_claims_added_run151": 0,
+    "numeric_claims_added_run151": 0,
+    "promotion_state": "official_catalogue_and_exact_download_endpoint_metadata_only"
   },
   "H_ci_tests": {
-    "pre_repair_head": "f4f4e7a4bb5155df96576e54f9467e991da49b83",
-    "pre_repair_results": {
-      "MLHKP Source Register Audit": "success run 1198",
-      "MLHKP Migration Audit": "success run 1248",
-      "MLHKP Streamlit Smoke Test": "failure run 1349 at publication-sync contract before Streamlit smoke tests",
-      "MLHKP Publication Build": "in_progress when failure was diagnosed"
+    "verified_run150_final_head": "60841e19d5884f5aab6f81f4b6de509300760c28",
+    "verified_run150_results": {
+      "MLHKP Migration Audit": "success run 1251",
+      "MLHKP Source Register Audit": "success run 1201",
+      "MLHKP Streamlit Smoke Test": "success run 1354",
+      "MLHKP Publication Build": "failure run 1207"
     },
-    "failure_root_cause": "tests/test_publication_sync.py required backward-compatible release_metrics key web_discovery_leads_observed while the generated release metrics exposed only web_discovery_records_observed after raw-versus-unique metric refinement.",
-    "repair_commits": ["2a901d81da3b9bae47d569b822a76a11b056c40b", "6edfd8e6e39fa80054a04eacceeca8277d70db1b"],
-    "repair": "Generator and checked-in release metrics now retain web_discovery_leads_observed as an explicit backward-compatible alias equal to raw observed records (88), while web_discovery_unique_leads remains 87. No count was changed to force a pass.",
+    "publication_failure_root_cause": "XeLaTeX stopped on undefined control sequence MLHKPWebDiscoveryLeads in publication/main.tex. The JSON backward-compatible key existed, but publication/generated/release_metrics.tex did not emit the matching legacy macro.",
+    "run151_repair_commits": ["623b496b5b9d6f067fd4a32be6ba271041356fbf", "7a8c1889124b2436889bcbca48069f8dc17e3099"],
+    "repair": "publication/generate_release_metrics.py now emits MLHKPWebDiscoveryLeads as an explicit alias of web_discovery_records_observed, and checked-in release_metrics.tex is synchronized with MLHKPWebDiscoveryLeads=88. No metric was changed to force the build.",
     "required_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
-    "fresh_head_status": "all four workflows queued on repair head 6edfd8e6e39fa80054a04eacceeca8277d70db1b before final status sync; final status commit requires its own fresh CI verification",
+    "fresh_head_status": "fresh CI required on the final Run 151 status head",
     "four_of_four_green_claim_for_final_head": false
   },
-  "run150_changes": [
-    "Verified authoritative C-17 Jharkhand catalogue row labels for MUNDA and MUNDARI under HS_Q10.",
-    "Added census_2011_c17_jharkhand_munda_mundari_row_labels_run150_2026-09-10.json with explicit verification boundaries.",
-    "Added MMSC-SEARCH-000150 and reused the existing Census identity without count inflation.",
-    "Preserved 41 audited identities, 88 raw web records, 87 unique web leads, 1 duplicate record, 13 canonicalized web leads, 74 unresolved unique leads and 52/52/52 claim-evidence-provenance metrics.",
-    "Did not promote Census numeric values because authoritative workbook bytes, independent checksum, worksheet and exact numeric cell coordinates remain unverified.",
-    "Carried forward exact Mundarica per-volume states without false OCR/scan verification.",
-    "Diagnosed the Run 150 Streamlit-workflow failure as a publication metric compatibility defect, not an application/data failure.",
-    "Repaired publication metric compatibility by restoring the legacy raw-lead key as a semantic alias, without collapsing 88 raw records and 87 unique leads or changing audited counts."
+  "run151_changes": [
+    "Verified that the Run 150 final head was 3/4 green and that Publication Build failed specifically at XeLaTeX on undefined MLHKPWebDiscoveryLeads.",
+    "Repaired the publication generator to emit the legacy MLHKPWebDiscoveryLeads macro as the raw-record alias (88), preserving 87 unique leads and 74 unresolved unique leads.",
+    "Synchronized checked-in publication/generated/release_metrics.tex without changing any audited count.",
+    "Resolved and recorded the exact authoritative ORGI C-17 Jharkhand workbook download endpoint; retrieval timed out, so no workbook bytes/hash/cells/values were fabricated.",
+    "Added MMSC-SEARCH-000151 covering books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media.",
+    "Deterministically reused existing Proietti, Raonka and Karya identities and kept Nirang Pajhra candidate-only pending authoritative manifestation evidence.",
+    "Preserved 41 audited identities, 88 raw web records, 87 unique web leads, 1 duplicate, 13 canonicalized web leads, 74 unresolved unique leads and 52/52/52 claim-evidence-provenance metrics."
   ],
   "blockers": [
     "74 unique web-discovery leads still require deterministic disposition/canonicalization.",
-    "C-16/C-17/ST-15/ST-16 workbook bytes, independent hashes and exact worksheet/row/cell numeric locators remain unverified; C-17 MUNDA/MUNDARI catalogue row labels are now verified.",
+    "C-16/C-17/ST-15/ST-16 workbook bytes, independent hashes and exact worksheet/row/cell numeric locators remain unverified; C-17 exact download endpoint is now resolved but timed out in this runtime.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
     "Mundarica authoritative scans/hashes and scan-to-page verification remain absent from the registered corpus bundle; Volumes II-XVI have no repository artifacts in the completeness audit.",
     "Bangladesh Multiling item-level language identity, provenance, speaker consent, contributor authority and cultural-access boundaries remain unresolved.",
@@ -145,7 +141,7 @@
     "Lawful full manifestations and exact locators remain incomplete for multiple grammar/dictionary/TRI/scholarly sources.",
     "Original primary search logs MMSC-SEARCH-000034 through 000038 and 000041 remain missing from the normalized primary log.",
     "Reported 1941 Mundari hockey booklet still lacks an independently verified primary manifestation.",
-    "Fresh four-workflow CI verification is required on the final Run 150 status head after the publication-sync repair."
+    "Fresh four-workflow CI verification is required on the final Run 151 status head after the publication macro repair."
   ],
   "deadline_progress": {
     "deadline_ist": "2026-09-21T23:59:00+05:30",
@@ -163,9 +159,9 @@
     "reason": "Outstanding source-identity dispositions, authoritative byte/hash/page verification, rights/consent/cultural-access gates, incomplete Mundarica artifact coverage and fresh final-head CI remain."
   },
   "next_priority": [
-    "Verify all four workflows on the final Run 150 status head and repair any remaining failure without touching main.",
+    "Verify all four workflows on the final Run 151 status head and repair any remaining failure without touching main.",
     "Continue deterministic disposition of the 74 unique unresolved web leads without count inflation.",
-    "Acquire/verify official Census workbook bytes and exact numeric cell locators where obtainable, beginning with C-17 now that MUNDA/MUNDARI catalogue row labels are explicit.",
+    "Retry authoritative Census workbook acquisition and verify bytes/hash/worksheet/exact numeric cells when obtainable.",
     "Obtain official LSI Jharkhand bytes and verify printed pages 16 and 71 against page images.",
     "Advance lawful full-text/exact-locator ingestion for high-quality non-participant or clearly permitted sources.",
     "Formalize authoritative Mundarica scan/hash/page evidence where lawfully obtainable; do not convert human attestations into machine verification."
