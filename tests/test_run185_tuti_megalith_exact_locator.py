@@ -7,23 +7,28 @@ LOG = ROOT / "data/source_census/search_log_run185.jsonl"
 STATUS = ROOT / "status/mlhkp_progress.json"
 
 
-def test_run185_source_identity_and_exact_locator_boundary():
+def test_run185_tuti_is_reverification_not_duplicate_promotion():
     d = json.loads(AUDIT.read_text(encoding="utf-8"))
     assert d["run"] == 185
     assert d["branch"] == "mlhkp-v2"
     assert d["source"]["doi"] == "10.30884/seh/2025.02.01"
     assert d["source"]["publication_month"] == "September 2025"
     assert d["source"]["peer_reviewed_article"] is True
-    assert d["release_effect"]["discovery_only"] is False
-    assert d["release_effect"]["exact_locator_level_reached"] is True
-    assert len(d["exact_locators"]) >= 4
+    assert d["canonical_identity"]["canonical_source_id"] == "SRC-MMSC-000002"
+    assert d["canonical_identity"]["duplicate_web_source_id"] == "WEB-MUN-0089"
+    assert d["canonical_identity"]["decision"] == "duplicate_of_existing_permanent_identity"
+    assert d["deduplication"]["matching_existing_exact_locator_audit_found_before_run185"] is True
+    assert len(d["canonical_existing_records"]) == 3
+    assert d["count_effect"]["source_identity_added_run185"] is False
+    assert d["count_effect"]["canonicalized_lead_added_run185"] is False
+    assert d["count_effect"]["cultural_claims_added_run185"] == 0
 
 
-def test_run185_rights_consent_and_cultural_access_not_overclaimed():
+def test_run185_tuti_rights_consent_and_cultural_access_not_overclaimed():
     d = json.loads(AUDIT.read_text(encoding="utf-8"))
     g = d["rights_access_consent_cultural_uncertainty"]
-    assert g["publisher_full_html_access_observed"] is True
-    assert g["article_license_value_verified"] is False
+    assert g["publisher_full_text_access_observed"] is True
+    assert g["open_license_verified"] is False
     assert g["reuse_permission_inferred_from_public_access"] is False
     assert g["study_verbal_consent_reported_by_authors"] is True
     assert g["study_consent_treated_as_mlkhp_secondary_reuse_consent"] is False
@@ -31,9 +36,6 @@ def test_run185_rights_consent_and_cultural_access_not_overclaimed():
     assert g["sensitive_cultural_content_ingested"] is False
     assert g["community_validation_inferred"] is False
     assert g["cultural_access_permission_inferred"] is False
-    assert d["evidence_boundary"]["cultural_claims_added_run185"] == 0
-    assert d["evidence_boundary"]["participant_records_added_run185"] == 0
-    assert d["evidence_boundary"]["count_bearing_change"] is False
 
 
 def test_run185_census_has_all_release_classes():
