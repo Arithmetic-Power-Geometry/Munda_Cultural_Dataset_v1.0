@@ -4,18 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T10:44:00Z",
+  "updated_utc": "2026-09-10T11:37:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 161,
-  "head_at_cycle_start": "604200cd7317b8af8d79903aa54cccc1c3761856",
-  "head_before_final_status_sync": "f54ca311b285ae31babdd25b4cc00abcac1d2624",
+  "latest_run": 162,
+  "head_at_cycle_start": "daf9567a9845093e604c1541c21cf8d21d2c3e4b",
+  "head_before_final_status_sync": "dbfb233f47c9e7252e224ae2a6584df44124c611",
   "cycle_commits": [
-    "79dcaec0354c8fc3c32be900859242f26b0cb5f8",
-    "e1f2421fdaec7651bc14dfb7804fa979dc020b03",
-    "f54ca311b285ae31babdd25b4cc00abcac1d2624"
+    "cf25bb3d5e1541a2f34275dca3f6f3b77b782983",
+    "971adbed67a6ed6866f414a1f0b707fb4451ee7c",
+    "dbfb233f47c9e7252e224ae2a6584df44124c611"
   ],
-  "cycle_result": "Deepened the already-canonicalized EZCC/Wikimedia audiovisual source into a manifestation- and rights-exact audit: repository creator/date/origin ID, technical manifestation metadata, exact Munda/Mundari timestamp catalogue labels, CC BY 3.0 file-level licensing, and the Commons reviewer provenance were recorded. No participant-derived audiovisual content, cultural interpretation, biometric/person data, or community-wide claim was ingested.",
+  "cycle_result": "Strengthened the Nirang Pajhra source-census disposition without promoting unsupported registration, language-by-issue content, rights or cultural permission. Targeted PRGI/RNI searches did not resolve an authoritative registration manifestation; an independent journalists' source corroborates only historical print-outlet existence. The candidate therefore remains blocked pending authoritative registration or an issue-level manifestation, with zero source/evidence/claim count change.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -36,7 +36,7 @@
     "volumes_II_XIII": "historical_external_locators_verified_but_authoritative_scans_not_registered_and_not_verified_complete",
     "volumes_XIV_XVI": "pending_locator_or_manifestation_resolution_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "run161_change": "No Mundarica verification state was upgraded; this sprint is non-Mundarica and authoritative Mundarica scan/hash/page-image evidence remains unavailable."
+    "run162_change": "No Mundarica verification state was upgraded; authoritative Mundarica scan/hash/page-image evidence remains unavailable."
   },
   "mmsc": {
     "audited_source_identities": 41,
@@ -47,13 +47,13 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 13,
     "unresolved_unique_web_leads": 74,
-    "latest_search_id": "MMSC-SEARCH-000161",
-    "latest_exact_locator_advance": {
-      "canonical_source_id": "SRC-MMSC-000015",
-      "raw_id": "WEB-MUN-0047",
-      "audit_file": "data/source_census/ezcc_folk_dances_manifestation_rights_exact_locator_run161_2026-09-10.json",
-      "catalogue_id": "commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm",
-      "decision": "Promote repository identity, technical manifestation metadata, exact timestamp catalogue labels and file-level CC BY 3.0 review provenance only; retain participant consent, privacy/publicity, community validation and cultural-access gates."
+    "latest_search_id": "MMSC-SEARCH-000162",
+    "latest_source_audit": {
+      "candidate": "Nirang Pajhra",
+      "audit_file": "data/source_census/nirang_pajhra_authoritative_registration_retry_run162_2026-09-10.json",
+      "reported_registration_identifier_from_secondary_source": "WBMUL00610",
+      "authoritative_registration_resolved": false,
+      "decision": "Keep candidate blocked pending authoritative PRGI/RNI registration or issue-level manifestation. Secondary corroboration supports historical print-outlet existence only and cannot establish registration, issue chronology, Mundari language-by-issue content, rights, contributor consent, community validation or cultural access."
     },
     "duplicate_set": [
       "WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL",
@@ -64,6 +64,7 @@
     "run159_audit": "data/source_census/bnf_durang_kahani_audio_exact_locator_run159_2026-09-10.json",
     "run160_audit": "data/source_census/birsaite_dharam_exact_locator_audit_2026-09-10.json",
     "run161_audit": "data/source_census/ezcc_folk_dances_manifestation_rights_exact_locator_run161_2026-09-10.json",
+    "run162_audit": "data/source_census/nirang_pajhra_authoritative_registration_retry_run162_2026-09-10.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -78,10 +79,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run161": 0,
-    "numeric_claims_added_run161": 0,
-    "source_metadata_exact_locator_records_added_run161": 1,
-    "run161_boundary": "Exact audiovisual manifestation and rights provenance was strengthened without treating file licensing as participant consent or culturally unrestricted reuse and without increasing claim/evidence counts."
+    "cultural_claims_added_run162": 0,
+    "numeric_claims_added_run162": 0,
+    "source_metadata_exact_locator_records_added_run162": 1,
+    "run162_boundary": "Secondary historical-existence corroboration was recorded as census metadata only; no issue content, registration fact, cultural claim, rights state, community validation or evidence node was promoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -92,18 +93,17 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run161_change": "No module-count change. The new source-census audit is repository-searchable; participant-derived audiovisual material remains excluded from public evidence exposure."
+    "run162_change": "No module-count or UI redesign change; the new source-census audit is repository-searchable while unverified Nirang Pajhra content remains outside public evidence exposure."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "participant_audio_or_transcripts_ingested_run161": false,
-    "consent_inferred_run161": false,
-    "community_validation_inferred_run161": false,
-    "file_level_license_verified_run161": "CC BY 3.0 Unported for the Commons audiovisual file",
-    "run161_boundary": "The Commons-reviewed file license authorizes copyright reuse subject to attribution, but does not establish participant/performance consent, privacy/publicity clearance, community endorsement, culturally unrestricted use, or ML-training consent."
+    "nirang_pajhra_rights_verified_run162": false,
+    "nirang_pajhra_community_validation_verified_run162": false,
+    "nirang_pajhra_cultural_access_verified_run162": false,
+    "run162_boundary": "Secondary evidence of a historical outlet is not permission to reproduce issue content and does not establish contributor consent, community endorsement, language-by-issue provenance or culturally unrestricted reuse."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -115,37 +115,44 @@
     "canonicalized_web_leads": 13,
     "unresolved_unique_web_leads": 74,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "count-stable in run161; publication tables/figures/metrics remain synchronized because no count-bearing identity, claim or evidence node changed",
-    "build_state": "Run-160 final head 604200cd7317b8af8d79903aa54cccc1c3761856 independently verified 4/4 green; fresh CI required on run-161 final status head."
+    "generated_metrics_state": "count-stable in run162; publication metrics remain synchronized because no count-bearing identity, claim or evidence node changed",
+    "build_state": "Run-161 final head daf9567a9845093e604c1541c21cf8d21d2c3e4b independently verified 4/4 green; run-162 pre-status head dbfb233f47c9e7252e224ae2a6584df44124c611 has fresh workflows, with migration already successful at the latest check. Fresh CI is required on the final run-162 status commit."
   },
   "ci": {
-    "last_independently_verified_green_head": "604200cd7317b8af8d79903aa54cccc1c3761856",
-    "run160_verified": {
-      "source_register": "success (run #1287)",
-      "migration": "success (run #1337)",
-      "streamlit": "success (run #1451)",
-      "publication": "success (run #1304)",
+    "last_independently_verified_green_head": "daf9567a9845093e604c1541c21cf8d21d2c3e4b",
+    "run161_verified": {
+      "source_register": "success (run #1293)",
+      "migration": "success (run #1343)",
+      "streamlit": "success (run #1457)",
+      "publication": "success (run #1310)",
       "green_4_of_4": true,
-      "verification_basis": "GitHub Actions query on 2026-09-10 for head 604200cd7317b8af8d79903aa54cccc1c3761856 returned all four PR workflows completed successfully"
+      "verification_basis": "GitHub Actions query for exact head daf9567a9845093e604c1541c21cf8d21d2c3e4b returned all four PR workflows completed successfully."
     },
-    "run161_tests_added": "tests/test_run161_ezcc_av_rights_exact_locator.py",
+    "run162_pre_status_head": "dbfb233f47c9e7252e224ae2a6584df44124c611",
+    "run162_pre_status_observed": {
+      "migration": "success (run #1348)",
+      "source_register": "fresh run present; final state to be rechecked",
+      "streamlit": "fresh run present; final state to be rechecked",
+      "publication": "fresh run present; final state to be rechecked"
+    },
+    "run162_tests_added": "tests/test_run162_nirang_pajhra_registration_boundary.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run161": false
+    "green_4_of_4_claimed_for_run162": false
   },
   "blockers": [
     "74 unique web leads require deterministic disposition/canonicalization.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
     "Official LSI West Bengal Part I indexed Mundari locator is recorded, but authoritative PDF bytes/hash/page-image verification remains incomplete after retrieval failure.",
-    "SRC-MMSC-000015 / WEB-MUN-0047 now has exact file-level licence and timestamp provenance, but participant/performance consent, privacy/publicity, community validation and cultural-access clearance remain distinct unresolved gates for content-level ingestion.",
+    "SRC-MMSC-000015 / WEB-MUN-0047 has exact file-level licence and timestamp provenance, but participant/performance consent, privacy/publicity, community validation and cultural-access clearance remain unresolved for content-level ingestion.",
     "WEB-MUN-0020 BnF archive identity/holdings are exact-locator verified, but actual audio bytes, checksum, item-level reuse terms, performer secondary-use consent, community validation and cultural-access clearance remain unverified.",
-    "The BnF catalogue points to a 1916 Linguistic Survey of India transcription/translation publication for the historical recordings; its exact manifestation and page/record correspondence remain to be independently verified before textual ingestion.",
+    "The BnF catalogue points to a 1916 Linguistic Survey of India transcription/translation publication for the historical recordings; its exact manifestation and page/record correspondence remain unverified before textual ingestion.",
     "Mundarica has zero authoritative scans registered; scan hashes, page-image comparison and verification for I-XVI remain incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community and cultural-access review.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact locators.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized from status prose.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation.",
-    "Nirang Pajhra lacks authoritative PRGI/RNI manifestation and issue-level provenance.",
+    "Nirang Pajhra has secondary corroboration as a historical print outlet, but authoritative PRGI/RNI registration, issue-level manifestation, language-by-issue provenance, rights and cultural-access status remain unresolved.",
     "MunTTS paper reports 26,868 final sentence-recording pairs whereas the Karya corpus repository reports 26,870 recordings; version/curation explanation remains unverified."
   ],
   "deadline_progress": {
@@ -167,10 +174,10 @@
     "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, consent/cultural-access gates and incomplete source manifestations remain."
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-161 final status head and repair any failure without touching main.",
+    "Verify all four workflows on the run-162 final status head and repair any failure without touching main.",
     "Continue deterministic disposition of the 74 unresolved unique web leads, prioritizing exact DOI/handle/catalogue matches and duplicate detection before assigning new identities.",
-    "Advance only source-level metadata from audiovisual repositories unless participant/performance consent, privacy/publicity and cultural-access review supports content-level ingestion.",
-    "Retry authoritative Census workbook acquisition and record independent hashes, worksheet names, exact Munda/Mundari row and numeric-cell locators before promoting demographic values.",
+    "Retry authoritative PRGI/RNI lookup for Nirang Pajhra and search library/newspaper catalogues for issue-level manifestations; do not promote the secondary-reported registration identifier or Mundari content until independently verified.",
+    "Retry authoritative Census workbook acquisition and record independent hashes, worksheet names, exact Munda/Mundari rows and numeric-cell locators before promoting demographic values.",
     "Retry official LSI Jharkhand and West Bengal PDF byte acquisition and page-image verification; preserve indexed-text locators as metadata-only until bytes are verified.",
     "Advance lawful full-text/exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
     "Keep all 42 modules, evidence graph, completeness/gap matrix and publication metrics synchronized after every count-bearing change."
