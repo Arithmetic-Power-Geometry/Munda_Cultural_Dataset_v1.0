@@ -20,7 +20,7 @@
     "description": "For each mother tongue, the table reports speakers and classification by additional languages spoken; total/rural/urban are combined at India/State level."
   },
   "relevance_to_mlhkp": {
-    "munda_mundari_categories_expected_in_c17_schema": true,
+    "munda_mundari_rows_in_jharkhand_workbook_verified_this_run": false,
     "scope": "language/bilingualism provenance only",
     "numeric_values_promoted": false,
     "reason_numeric_values_not_promoted": "Authoritative workbook bytes, independent checksum, worksheet name, exact Munda/Mundari row(s), and exact numeric cell coordinates have not yet been independently verified in this run."
