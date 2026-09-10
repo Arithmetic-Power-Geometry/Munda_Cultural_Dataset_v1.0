@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T00:46:00Z",
-  "observed_head_before_status_sync": "e971730d0f3b83c5ca614646c23e891f4afe7a87",
+  "updated_utc": "2026-09-10T01:34:00Z",
+  "observed_head_before_status_sync": "e074031291e55fbdbd2af646ee6f65fb2264dc51",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -21,7 +21,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 141 is non-Mundarica focused; all Mundarica conservative machine-verification states remain unchanged and no unsupported scan/hash/page/OCR promotion was made."
+      "cycle_state": "Run 142 did not alter conservative Mundarica scan/hash/page/OCR states."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -32,10 +32,10 @@
       "web_discovery_leads_observed": 88,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
-      "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000141",
-      "latest_search_record_path": "data/source_census/search_log_run141.jsonl",
-      "latest_verification": "Run 141 registered WEB-MUN-0088 for the Bangladesh government-hosted Munda / Multiling Cloud archive. The two public access routes were deduplicated to one candidate lead; the page-reported 860 transcription/audio records were preserved as source metadata only. Munda-versus-Mundari identity, item-level rights, speaker consent, provenance and cultural-access status remain unresolved, so no audio, transcription or cultural proposition was promoted.",
+      "search_log_entries_primary": 29,
+      "latest_search_id": "MMSC-SEARCH-000142",
+      "latest_search_record_path": "data/source_census/search_log_run142.jsonl",
+      "latest_verification": "Run 142 strengthened WEB-MUN-0088 taxonomy evidence: the Bangladesh government-hosted Munda page describes its linguistic heritage as Mundari, while an external language reference identifies Mundari as ISO 639-3 unr / Glottocode mund1320 and records presence in Bangladesh. Because the archive collection label remains Munda and no authoritative item-level crosswalk was obtained, deterministic merge remains blocked and no content was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign. Run 141 adds a discovery-layer archive lead and rights/scope audit only; no unsupported cultural graph object, claim or evidence edge was created."
+      "cycle_state": "No redesign and no unsupported cultural graph object, claim or evidence edge created."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -55,14 +55,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules remain mapped. Universal discovery search reads the synchronized MMSC discovery index, which now includes expansion run20 / WEB-MUN-0088; no module remapping is required because the lead is discovery-only."
+      "sync_note": "42/42 modules remain mapped; Run 142 changes are audit/provenance metadata only."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Bangladesh Munda archive is explicitly gated: public index visibility and an all-rights-reserved page do not authorize redistribution; language identity, speaker consent, recording provenance, privacy/publicity, community validation and cultural-access review are all unresolved."
+      "cycle_state": "WEB-MUN-0088 remains gated for item-level reuse terms, speaker consent/privacy/publicity, community validation and cultural-access classification despite public archive visibility."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -72,9 +72,9 @@
       "claims": 52,
       "evidence_records": 52,
       "evidence_links": 52,
-      "metrics_changed_this_cycle": true,
+      "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-140 status head bda86b523bd2f183a71779fe6ece5e24c8db5db1 is independently verified 4/4 green: Source Register Audit 1130, Migration Audit 1180, Streamlit Smoke Test 1276, Publication Build 1129. Run-141 changes synchronize the web-discovery metric from 87 to 88; fresh CI is required for the newest status head."
+      "manuscript_build_state": "Run-141 status head 21d3b31a4650025a73f97420ccb77d3cd37d7a4d independently verified 4/4 green: Source Register Audit 1141, Migration Audit 1191, Streamlit Smoke Test 1289, Publication Build 1142. Run-142 audit commits require fresh CI."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,30 +82,28 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run141_advanced_source": "Bangladesh government-hosted Munda / Multiling Cloud archive discovery and scope-rights audit",
-      "promotion_boundary": "Discovery/provenance metadata only. One web lead was added, but no audited source identity, cultural claim, evidence row or provenance link was promoted."
+      "run142_advanced_source": "WEB-MUN-0088 Bangladesh Munda/Mundari taxonomy reconciliation",
+      "promotion_boundary": "Discovery/provenance metadata only; no source identity, cultural claim, evidence row or provenance link promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "bda86b523bd2f183a71779fe6ece5e24c8db5db1",
+    "last_verified_all_four_green_commit": "21d3b31a4650025a73f97420ccb77d3cd37d7a4d",
     "four_of_four_green_claim_for_that_head": true,
-    "verified_runs_for_that_head": {"source_register_audit":1130,"migration_audit":1180,"streamlit_smoke_test":1276,"publication_build":1129},
-    "new_commits_this_cycle_before_status_sync": ["7eaca7cce20e0f782e7e330b50a007795dffe7f4","ff4394f8dbfa01a927906d8afa254f8089b3d98d","84166fad2282f13ffc597f430adb6e0d10c7a067","5e1ccf44cdbdcf850ae0f74463856284b61a48cd","d08597475d913e36c9b4ab3241da6cef21ecbb3e","e971730d0f3b83c5ca614646c23e891f4afe7a87"],
-    "new_head_ci_state_at_status_write": "Run-141 status-sync commit requires fresh CI; Run-140 4/4 green is not projected onto the new head."
+    "verified_runs_for_that_head": {"source_register_audit":1141,"migration_audit":1191,"streamlit_smoke_test":1289,"publication_build":1142},
+    "new_commits_this_cycle_before_status_sync": ["c11d585d70119fa0e56c46464362c0ebb53d9272","e074031291e55fbdbd2af646ee6f65fb2264dc51"],
+    "new_head_ci_state_at_status_write": "Run-142 status-sync commit requires fresh CI; Run-141 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Added WEB-MUN-0088 in data/source_census/web_discovery_expansion_2026-09-10_run20.json for the Bangladesh government-hosted Munda / Multiling Cloud archive.",
-    "Added data/source_census/bangladesh_munda_multiling_archive_scope_rights_run141_2026-09-10.json with exact access locators, reported archive density 860, identity uncertainty, rights and consent gates.",
-    "Deterministically deduplicated lob.bangla.gov.bd and multiling.cloud access routes as one candidate archive lead rather than two sources.",
-    "Did not equate Bangladesh Munda with Indian Mundari [unr] and did not ingest audio, transcriptions, speaker data or cultural claims.",
-    "Added data/source_census/search_log_run141.jsonl with full requested-class crosscheck.",
-    "Synchronized MMSC discovery-layer count from 87 to 88 observed leads; 13 remain canonicalized and 75 remain outside the audited identity total.",
-    "Synchronized publication/generated/release_metrics.json and release_metrics.tex to 88 observed web leads while keeping 41 audited identities / 52 claims / 52 evidence / 52 provenance links / 42 modules unchanged.",
-    "Verified Run-140 head bda86b523bd2f183a71779fe6ece5e24c8db5db1 as 4/4 green."
+    "Verified Run-141 head 21d3b31a4650025a73f97420ccb77d3cd37d7a4d as 4/4 green.",
+    "Added data/source_census/bangladesh_munda_taxonomy_reconciliation_run142_2026-09-10.json.",
+    "Recorded that the Bangladesh government archive labels the collection Munda but describes its linguistic heritage as Mundari.",
+    "Recorded external evidence identifying Mundari as ISO 639-3 unr / Glottocode mund1320 with Bangladesh presence.",
+    "Kept WEB-MUN-0088 unmerged because no authoritative item-level taxonomy crosswalk, collection audit or speaker-level provenance was obtained.",
+    "Added data/source_census/search_log_run142.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
   ],
   "blockers": [
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "WEB-MUN-0088 requires authoritative language-identity/taxonomy reconciliation before any Munda-to-Mundari merge; collection methodology, item-level rights, speaker consent/provenance and cultural-access status remain unresolved.",
+    "WEB-MUN-0088 taxonomy is partially reconciled but still lacks an authoritative item-level Munda/Mundari identifier crosswalk, collection methodology, item-level rights, speaker consent/provenance and cultural-access disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Authoritative Mundarica scans, independent hashes and complete page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
     "Official LSI Jharkhand complete PDF bytes, independent checksum and actual page-image/PDF-index verification remain incomplete.",
@@ -116,7 +114,7 @@
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
     "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-141 status head."
+    "Fresh four-workflow verification is required for the newest Run-142 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -143,7 +141,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation.",
-    "Resolve WEB-MUN-0088 taxonomy/collection provenance and speaker/item rights before any content-level use.",
+    "Resolve WEB-MUN-0088 item-level taxonomy/collection provenance and speaker/item rights before any content-level use.",
     "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
     "Acquire and independently hash the official LSI Jharkhand PDF and verify the Mundari printed-page-71 locator against the actual page image/PDF index.",
     "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
