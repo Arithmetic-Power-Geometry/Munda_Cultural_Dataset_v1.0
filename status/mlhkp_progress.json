@@ -4,17 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T18:40:00Z",
+  "updated_utc": "2026-09-10T19:41:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 177,
-  "head_at_cycle_start": "c9169619f426cbf2f944db7e3035fd4a4dbbeed8",
+  "latest_run": 178,
+  "head_at_cycle_start": "02bc5ff97b7cfae58a7d40aba8411649475f809e",
+  "status_snapshot_parent_head": "51d92f095c97f604186ff7c45f0e23a63a17f230",
   "cycle_commits": [
-    "6ea07a09e65b319d41d48ee29ca152080d0559b7",
-    "20afd40d7bd169ff647b7370f588042165bc8d4c",
-    "07383ef0ddc27e2d917e14abdfdb9ab3fec0a9e7"
+    "4bea1fa5cde2283923c0a4ecea1ffd223e022cd1",
+    "4fed1af031d6924010f07b39eed122305ac3579f",
+    "51d92f095c97f604186ff7c45f0e23a63a17f230"
   ],
-  "cycle_result": "Run 177 promoted a publisher-verified exact-locator audit for Kumari & Rahman (2021), DOI 10.35784/pe.2021.1.19, pages 181-185. Publisher metadata, abstract scope and CC BY-SA 4.0 are verified. No cultural proposition was generalized beyond the source, no participant/community/cultural permission was inferred, and permanent MMSC registration is deferred pending deterministic reconciliation. Direct LSI Jharkhand PDF retrieval returned HTTP 502 and remains an explicit gap. Counts remain unchanged.",
+  "cycle_result": "Run 178 closed a stale Run-177 administrative blocker: DOI 10.35784/pe.2021.1.19 had already been deterministically reconciled in Run 172 to permanent identity SRC-MMSC-000003. No duplicate identity, claim, evidence record or evidence link was created. A regression test now enforces the existing-identity decision and cultural-access boundary. Lexibank Peiros v1.1 direct file-level manifestation/checksum evidence was not obtained and remains blocked rather than inferred. Counts remain unchanged.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -22,7 +23,12 @@
     "authoritative_scans_registered": 0,
     "verified_complete_volumes": 0,
     "ocr_is_not_verified_transcription": true,
-    "run177_change": "No Mundarica verification state was upgraded; non-Mundarica source-census work continued independently."
+    "per_volume_state": {
+      "I": "324 working page blocks; page accounting only; no authoritative scan comparison; not OCR/transcription verified complete",
+      "II-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
+      "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
+    },
+    "run178_change": "No Mundarica acquisition/OCR/page-verification state was upgraded without authoritative scan evidence."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -35,31 +41,15 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 29,
     "still_to_acquire_additional_discoveries": 28,
-    "latest_search_id": "MMSC-SEARCH-000177",
-    "latest_canonicalization": {
-      "web_source_id": "WEB-MUN-0086",
-      "canonical_source_id": "SRC-MMSC-000016",
-      "dedupe_key": "doi:10.1177/23210249221127832",
-      "scope": "publisher metadata/abstract identity only; no exact Munda-specific passage promoted"
-    },
-    "latest_source_audit": "data/source_census/kumari_rahman_2021_livelihood_exact_locator_run177_2026-09-11.json",
-    "latest_search_log": "data/source_census/search_log_run177.jsonl",
-    "run177_kumari_rahman_state": {
+    "latest_search_id": "MMSC-SEARCH-000178",
+    "latest_search_log": "data/source_census/search_log_run178.jsonl",
+    "latest_source_audit": "data/source_census/kumari_rahman_run177_stale_blocker_resolution_run178_2026-09-11.json",
+    "run178_reconciliation": {
       "doi": "10.35784/pe.2021.1.19",
-      "publisher_identity_verified": true,
-      "pages": "181-185",
-      "publisher_license": "CC BY-SA 4.0",
-      "abstract_scope_verified": true,
-      "permanent_registration": "deferred_pending_deterministic_register_reconciliation",
-      "cultural_claims_added": 0,
-      "counts_changed": false
-    },
-    "run177_lsi_jharkhand_retry": {
-      "official_pdf_target": "LSI_JHARKHAND.pdf",
-      "direct_retrieval_result": "HTTP 502",
-      "pdf_bytes_verified": false,
-      "hash_verified": false,
-      "page_image_verified": false,
+      "canonical_source_id": "SRC-MMSC-000003",
+      "decision": "already_registered_permanent_identity",
+      "run177_pending_registration_blocker": "stale_and_closed",
+      "source_identities_added": 0,
       "counts_changed": false
     },
     "systematic_census_documented_for_release": true,
@@ -76,11 +66,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run177": 0,
-    "claims_added_run177": 0,
-    "evidence_records_added_run177": 0,
-    "evidence_links_added_run177": 0,
-    "verification_audits_added_run177": 1
+    "source_identities_added_run178": 0,
+    "claims_added_run178": 0,
+    "evidence_records_added_run178": 0,
+    "evidence_links_added_run178": 0,
+    "verification_audits_added_run178": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -91,20 +81,18 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run177_change": "No module-count or exposure change; all 42 mappings and universal-search/evidence-drilldown release functions remain synchronized while source verification advanced."
+    "run178_change": "No redesign or exposure expansion; 42/42 mappings and release functions remain synchronized while verification accounting was corrected."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "run177_article_license": "CC BY-SA 4.0",
-    "article_license_treated_as_participant_consent": false,
-    "article_license_treated_as_community_validation": false,
-    "article_license_treated_as_cultural_access_permission": false,
-    "underlying_references_assumed_to_inherit_article_license": false,
-    "participant_records_ingested_run177": 0,
-    "full_text_passages_ingested_run177": 0
+    "article_reuse_terms_treated_as_participant_consent": false,
+    "article_reuse_terms_treated_as_community_validation": false,
+    "article_reuse_terms_treated_as_cultural_access_permission": false,
+    "participant_records_ingested_run178": 0,
+    "full_text_passages_ingested_run178": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -116,26 +104,31 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 177; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical source/evidence metric changed in Run 177, so generated release tables/figures require no count regeneration.",
-    "build_state": "Run-176 final-head CI has not been independently re-verified in this cycle; no fresh green claim is made for Run 177."
+    "generated_metrics_state": "No count-bearing change in Run 178; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release metric changed; no count regeneration required.",
+    "build_state": "Exact cycle-start head 02bc5ff97b7cfae58a7d40aba8411649475f809e independently verified 4/4 green before Run-178 writes; fresh final-head CI pending."
   },
   "ci": {
-    "last_independently_verified_green_head": "b87712d1271441c671d5bdfab057abad861adaaf",
+    "last_independently_verified_green_head": "02bc5ff97b7cfae58a7d40aba8411649475f809e",
     "green_4_of_4": true,
-    "run177_tests_added": "tests/test_run177_kumari_rahman_exact_locator.py",
+    "verified_workflows": {
+      "source_register_audit": {"run_number": 1384, "conclusion": "success"},
+      "migration_audit": {"run_number": 1434, "conclusion": "success"},
+      "streamlit_smoke": {"run_number": 1548, "conclusion": "success"},
+      "publication_build": {"run_number": 1401, "conclusion": "success"}
+    },
+    "run178_tests_added": "tests/test_run178_kumari_rahman_stale_blocker.py",
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Kumari & Rahman 2021 is exact-locator audited but permanent count-bearing registration remains deferred until deterministic reconciliation against existing MMSC/WEB-MUN identities.",
     "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration.",
     "MMLoSo reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; no authoritative reconciliation has been verified.",
-    "Lexibank Peiros v1.1 direct Zenodo manifestation/file-level metadata remains unverified.",
+    "Lexibank Peiros v1.1 direct Zenodo manifestation/file-level metadata and checksums remain unverified.",
     "WALS/Grambank permanent source registration remains a synchronized count-bearing transaction; Sinha/Osada underlying grammar passages are not yet direct page-verified.",
     "Rau 2019 Zenodo dataset licence is unresolved in the available authoritative retrieval path and its repository-reported MD5 is not independently recomputed.",
     "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
-    "Official 2023 LSI Jharkhand direct PDF retrieval returned HTTP 502 in Run 177; authoritative bytes/hash/page-image verification remains incomplete. LSI West Bengal byte/hash/page-image verification also remains incomplete.",
+    "Official 2023 LSI Jharkhand authoritative bytes/hash/page-image verification remains incomplete after prior HTTP 502; LSI West Bengal byte/hash/page-image verification also remains incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
@@ -143,9 +136,9 @@
     "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
     "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation."
   ],
-  "resolved_blockers_run177": [
-    "The 2021 Kumari-Rahman livelihood-paper candidate now has publisher-verified identity, DOI, pages, abstract scope and explicit CC BY-SA 4.0 rights metadata.",
-    "The Run-177 source-class sweep is explicitly logged across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media."
+  "resolved_blockers_run178": [
+    "Run-177 pending permanent registration for Kumari & Rahman 2021 was stale: Run 172 already reconciled exact DOI 10.35784/pe.2021.1.19 to SRC-MMSC-000003, so no duplicate registration is permitted.",
+    "Exact cycle-start head CI uncertainty is closed: all four release workflows succeeded for 02bc5ff97b7cfae58a7d40aba8411649475f809e."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -163,16 +156,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, primary-source checks and unresolved consent/community/cultural-access gates remain."
+    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, authoritative Mundarica scans, primary-source checks and unresolved consent/community/cultural-access gates remain."
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile DOI 10.35784/pe.2021.1.19 against MMSC and WEB-MUN registers and register atomically only if it is a genuinely new permanent source identity.",
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/catalogue exact matches and obtainable lawful manifestations.",
     "Obtain direct MMLoSo shared-task dataset manifestation/version/file metadata before row-level ingestion or dataset registration.",
-    "Retry direct Zenodo v1.1 manifestation retrieval for Lexibank Peiros and resolve Rau licensing/checksum.",
+    "Retry direct Zenodo v1.1 manifestation/file/checksum retrieval for Lexibank Peiros and resolve Rau licensing/checksum.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
     "Retry authoritative Census workbook and official LSI PDF byte/hash/page-image verification; blocked endpoints remain explicit gaps.",
     "Advance lawful exact-locator ingestion for grammar/dictionary/TRI/thesis/scholarly sources while preserving source attribution and cultural uncertainty.",
+    "Acquire authoritative Mundarica I-XVI manifestations where obtainable and verify page/hash/OCR states without treating OCR as verified transcription.",
     "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics/tables/figures and tests synchronized after every count-bearing change."
   ]
 }
