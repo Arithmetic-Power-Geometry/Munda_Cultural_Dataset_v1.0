@@ -1,0 +1,27 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-10",
+  "purpose": "Additive non-Mundarica discovery of a Bangladesh government-hosted Munda-language digital archive. The resource is retained as a scope-uncertain lead and is not canonicalized to Indian Mundari until language identity, collection provenance, speaker consent and cultural-access boundaries are independently resolved.",
+  "records": [
+    {
+      "id": "WEB-MUN-0088",
+      "title": "Munda | Multiling Cloud digital archive",
+      "source_class": "government_hosted_language_archive_audio_transcriptions",
+      "publisher": "Multiling Cloud / Government of Bangladesh domain (bangla.gov.bd)",
+      "url": "https://lob.bangla.gov.bd/languages/munda",
+      "alternate_url": "https://multiling.cloud/languages/munda",
+      "year": 2026,
+      "notes": "The live resource labels the language Munda, lists Bangladesh locations, identifies a Community Contributors / Munda Field Recording section, and reports a Full Archive resource density of 860 with phonetic transcriptions and audio recordings. The page does not, by itself, establish equivalence with the Indian Mundari [unr] corpus or the consent/reuse scope of individual recordings.",
+      "verification_state": "government_domain_and_live_archive_metadata_verified_scope_identity_unresolved",
+      "access_class": "PUBLIC_ARCHIVE_INDEX_CONTENT_REUSE_AND_CONSENT_UNRESOLVED",
+      "rights_note": "The public page displays an all-rights-reserved notice. Public playback/index visibility is not treated as permission to redistribute recordings or transcriptions. Speaker consent, privacy/publicity, contributor authority, community validation and culturally appropriate secondary use remain unresolved.",
+      "scope_note": "Potentially relevant Bangladesh Munda-language archive. Do not merge with Mundari [unr], Munda [unx], or any MLHKP language identity solely from the page label; taxonomy and collection documentation require independent reconciliation.",
+      "canonicalization": {
+        "status": "unresolved_new_web_lead_not_counted_in_audited_identity_total",
+        "canonical_source_id": null,
+        "dedupe_key": "url:lob.bangla.gov.bd/languages/munda",
+        "decision": "Retain as one new discovery lead only. Government-domain and multiling.cloud access points are treated as manifestations/access routes of the same archive page, not two sources."
+      }
+    }
+  ]
+}
