@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T02:42:00Z",
-  "observed_head_before_status_sync": "734e7df882beccd850f33c8d458fd2615f4c7ddb",
+  "updated_utc": "2026-09-10T03:30:00Z",
+  "observed_head_before_status_sync": "2c20cac71d94768fa442bdec439e24fb926b21c8",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -21,7 +21,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 145 did not alter conservative Mundarica scan/hash/page/OCR states; blocked authoritative-byte work remains explicit while a historical LSI map manifestation advanced."
+      "cycle_state": "Run 146 did not alter conservative Mundarica scan/hash/page/OCR states; blocked authoritative-byte work remains explicit while an independent Census provenance stream advanced."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -32,10 +32,10 @@
       "web_discovery_leads_observed": 88,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
-      "search_log_entries_primary": 31,
-      "latest_search_id": "MMSC-SEARCH-000145",
-      "latest_search_record_path": "data/source_census/search_log_run145.jsonl",
-      "latest_verification": "Run 145 promoted Grierson's 1906 LSI map of Munda languages to exact-locator/rights provenance: LSI volume 4, map facing printed page 7, with a separately hosted public-domain digital image manifestation. It remains canonicalized as a component of the existing Grierson LSI witness rather than a new source identity.",
+      "search_log_entries_primary": 32,
+      "latest_search_id": "MMSC-SEARCH-000146",
+      "latest_search_record_path": "data/source_census/search_log_run146.jsonl",
+      "latest_verification": "Run 146 verified the authoritative ORGI catalogue manifestation PC11_C17-20 for Jharkhand Census 2011 C-17, including listed workbook DDW-C17-2000.XLSX and state-level bilingualism/trilingualism-by-mother-tongue scope. It remains canonicalized within the existing Census 2011 language-source stream rather than becoming a duplicate source identity; no numeric value was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign and no unsupported cultural graph object, claim or evidence edge created; the historical LSI map remains source/manifestation provenance and is not treated as current demographic evidence."
+      "cycle_state": "No redesign and no unsupported cultural graph object, claim, indicator, domain assertion or evidence edge created; C-17 remains catalogue-level source provenance until workbook-level verification."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -55,14 +55,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules remain mapped; Run 145 changes are source-census/provenance metadata only and require no module remap."
+      "sync_note": "42/42 modules remain mapped; Run 146 changes are source-census/provenance metadata only and require no module remap."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "The Grierson map manifestation is repository-marked public domain, but that status is not treated as community validation, present-day authority, or permission to infer current cultural boundaries."
+      "cycle_state": "Public ORGI catalogue accessibility was not treated as dataset reuse permission, participant consent or community validation; cultural-access override remains controlling for any sensitive derivative."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -74,7 +74,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-144 status head 0163f927e6baea7d6d061aff9740920fc236e848 independently verified as 4/4 successful via GitHub Actions success-filtered head query. Run-145 commits require fresh CI."
+      "manuscript_build_state": "Run-145 status head 21ea3d01a28caa93c1f4a1f64728522867ee56c5 independently verified as 4/4 successful via GitHub Actions. Run-146 commits require fresh CI; manuscript metrics remain unchanged because no source identity, claim, evidence or link count changed."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,29 +82,29 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run145_advanced_source": "Existing Grierson 1906 Linguistic Survey of India volume 4 stream: Munda-languages map facing printed page 7",
-      "promotion_boundary": "Exact historical-map source/manifestation and rights provenance only; no present-day population, territorial, cultural or community-validated claim promoted."
+      "run146_advanced_source": "Existing Census of India 2011 language-source stream: C-17 Jharkhand catalogue manifestation PC11_C17-20",
+      "promotion_boundary": "Authoritative catalogue/source-manifestation provenance only; no Munda/Mundari numeric bilingualism/trilingualism claim promoted without workbook bytes, independent checksum and exact worksheet/row/cell locators."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "0163f927e6baea7d6d061aff9740920fc236e848",
+    "last_verified_all_four_green_commit": "21ea3d01a28caa93c1f4a1f64728522867ee56c5",
     "four_of_four_green_claim_for_that_head": true,
-    "verification_method": "GitHub Actions query restricted to branch mlhkp-v2, head_sha 0163f927e6baea7d6d061aff9740920fc236e848, status=success returned total_count=4",
-    "new_commits_this_cycle_before_status_sync": ["cf63a3c7bd6c7e624e6a5a105a34d2d0fb05e934","734e7df882beccd850f33c8d458fd2615f4c7ddb"],
-    "new_head_ci_state_at_status_write": "Run-145 status-sync commit requires fresh CI; Run-144 4/4 green is not projected onto the new head."
+    "verification_method": "GitHub Actions returned four completed successful pull-request workflow runs for head 21ea3d01a28caa93c1f4a1f64728522867ee56c5: Source Register Audit #1161, Migration Audit #1211, Streamlit Smoke Test #1309, Publication Build #1162.",
+    "new_commits_this_cycle_before_status_sync": ["81e12cf4927667290cb5be095dd59a94824b24f6","2bf38eeec691974f3cce2e6a399503bd3663cd2f","2c20cac71d94768fa442bdec439e24fb926b21c8"],
+    "new_head_ci_state_at_status_write": "Run-146 status-sync commit requires fresh CI; Run-145 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Verified Run-144 status head 0163f927e6baea7d6d061aff9740920fc236e848 as 4/4 successful.",
-    "Added data/source_census/grierson_1906_lsi_munda_languages_map_exact_locator_run145_2026-09-10.json.",
-    "Verified historical locator LSI volume 4, map facing printed page 7; recorded digital manifestation dimensions, reported byte size, repository-reported checksum and public-domain status.",
-    "Canonicalized the map as a component/manifestation of the existing Grierson LSI volume 4 witness rather than creating a duplicate audited source identity.",
-    "Did not promote present-day demographic, territorial or cultural claims from a 1906 historical map.",
-    "Added data/source_census/search_log_run145.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
+    "Verified Run-145 status head 21ea3d01a28caa93c1f4a1f64728522867ee56c5 as 4/4 successful.",
+    "Added data/source_census/census_2011_c17_jharkhand_exact_catalogue_run146_2026-09-10.json and tightened its verification boundary before status sync.",
+    "Verified authoritative ORGI C-17 Jharkhand catalogue identity PC11_C17-20, reference PC11_C17, listed workbook DDW-C17-2000.XLSX, state granularity and bilingualism/trilingualism-by-mother-tongue purpose.",
+    "Canonicalized C-17 as a manifestation/component of the existing Census 2011 language-source stream rather than creating a duplicate audited source identity.",
+    "Did not promote numeric Munda/Mundari values because authoritative workbook bytes, independent hash, worksheet, exact rows and cell coordinates remain unverified.",
+    "Added data/source_census/search_log_run146.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
   ],
   "blockers": [
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
-    "C-16 state/subdistrict and town-level catalogue manifestations are verified, but authoritative workbook bytes, independent checksums, worksheets, exact Mundari rows and numeric cell coordinates remain pending before numeric promotion; ST-15/ST-16/C-17 require the same standard.",
-    "The 1906 Grierson LSI Munda-languages map now has exact historical and digital locators, but authoritative parent-volume scan cross-check and an independent SHA-256 of acquired bytes remain optional audit-strengthening steps; it must not be used as a current demographic map.",
+    "C-16 state/subdistrict and town-level catalogue manifestations and C-17 Jharkhand catalogue manifestation are verified, but authoritative workbook bytes, independent checksums, worksheets, exact Munda/Mundari rows and numeric cell coordinates remain pending before numeric promotion; ST-15/ST-16 require the same standard.",
+    "The 1906 Grierson LSI Munda-languages map has exact historical and digital locators, but authoritative parent-volume scan cross-check and an independent SHA-256 of acquired bytes remain optional audit-strengthening steps; it must not be used as a current demographic map.",
     "The Archer song-book Catholic Press/Ranchi candidate lacks an authoritative title-page/colophon or institutional catalogue crosswalk to the verified 1942 United Press/Patna manifestation; lawful inspectable bytes, independent checksum/page accounting, song-level rights and cultural-access review are also missing.",
     "WEB-MUN-0088 taxonomy is partially reconciled but still lacks an authoritative item-level Munda/Mundari identifier crosswalk, collection methodology, item-level rights, speaker consent/provenance and cultural-access disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
@@ -116,7 +116,7 @@
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
     "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-145 status head."
+    "Fresh four-workflow verification is required for the newest Run-146 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -143,7 +143,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation.",
-    "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion, including PC11_C16-20 and PC11_C16city-20.",
+    "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion, prioritizing PC11_C16-20, PC11_C16city-20 and PC11_C17-20.",
     "Cross-check the 1906 Munda-languages map against an authoritative scan of LSI volume 4 facing page 7 and independently hash acquired bytes if retained in the audited package.",
     "Locate an institutional catalogue or inspectable title-page/colophon for the Archer Catholic Press/Ranchi candidate and reconcile it with the 1942 United Press/Patna manifestation before deeper ingestion.",
     "Resolve WEB-MUN-0088 item-level taxonomy/collection provenance and speaker/item rights before any content-level use.",
