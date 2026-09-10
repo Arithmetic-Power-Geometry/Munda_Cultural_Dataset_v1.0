@@ -1,4 +1,5 @@
 {
+  "record_type": "deterministic_reverification_of_existing_exact_locator_source",
   "run": 185,
   "branch": "mlhkp-v2",
   "date_utc": "2026-09-10T22:42:00Z",
@@ -10,63 +11,51 @@
     "issue": "2",
     "publication_month": "September 2025",
     "doi": "10.30884/seh/2025.02.01",
-    "publisher_article_url": "https://www.sociostudies.org/journal/articles/3997182/",
     "scope_classification": "Munda-specific contemporary cultural/ethnographic study in Ranchi, Jharkhand",
     "peer_reviewed_article": true
   },
-  "exact_locators": [
-    {
-      "locator": "publisher HTML lines 12-32 / title-abstract metadata",
-      "supports": "title, authors, journal issue, DOI, Munda/Jharkhand study scope",
-      "promotion": "bibliographic and source-attributed abstract-scope evidence only"
-    },
-    {
-      "locator": "publisher HTML lines 96-101 / Research Gap objectives",
-      "supports": "the paper states objectives to document contemporary Munda megalith practices, examine effects of modern development, and explore gender/social identity/oral transmission",
-      "promotion": "study-design evidence; not a generalized cultural fact"
-    },
-    {
-      "locator": "publisher HTML lines 103-111 / Research Design, Site Selection, Participant Selection",
-      "supports": "qualitative ethnographic/participatory design; multiple Munda villages in Ranchi; 15 Munda participants aged 18-70; snowball recruitment",
-      "promotion": "methods metadata only; participant-derived statements are not ingested"
-    },
-    {
-      "locator": "publisher HTML lines 116-124 / Data Collection and Ethical Considerations",
-      "supports": "participant observation, interviews and oral narratives are reported; paper states participants were informed, verbal consent was obtained, withdrawal was allowed, identities were protected, sensitive cultural information required express permission, and community leaders/elders were consulted",
-      "promotion": "source-attributed ethics/methods metadata only"
-    }
+  "fresh_reverification": {
+    "publisher_full_text_rechecked": true,
+    "metadata_methods_ethics_reconfirmed": true,
+    "new_substantive_cultural_evidence_promoted": false,
+    "note": "Fresh discovery initially appeared to be a new candidate, but deterministic DOI/title reconciliation found that MLHKP had already exact-located and permanently reconciled this source. Run 185 therefore records reverification only and explicitly prevents duplicate promotion."
+  },
+  "canonical_existing_records": [
+    "data/source_census/tuti_2025_munda_megaliths_exact_locator_upgrade_2026-09-09.json",
+    "data/source_census/tuti_et_al_2025_munda_megaliths_methods_ethics_exact_locator_run153_2026-09-10.json",
+    "data/source_census/run154_tuti_deterministic_duplicate_reconciliation_2026-09-10.json"
   ],
+  "canonical_identity": {
+    "canonical_source_id": "SRC-MMSC-000002",
+    "duplicate_web_source_id": "WEB-MUN-0089",
+    "identifier": "doi:10.30884/seh/2025.02.01",
+    "decision": "duplicate_of_existing_permanent_identity"
+  },
   "rights_access_consent_cultural_uncertainty": {
-    "publisher_full_html_access_observed": true,
-    "article_license_value_verified": false,
+    "publisher_full_text_access_observed": true,
+    "open_license_verified": false,
     "reuse_permission_inferred_from_public_access": false,
-    "underlying_interview_or_oral_narrative_republication_rights_inferred": false,
     "study_verbal_consent_reported_by_authors": true,
     "study_consent_treated_as_mlkhp_secondary_reuse_consent": false,
     "participant_level_content_ingested": false,
     "sensitive_cultural_content_ingested": false,
     "community_validation_inferred": false,
-    "cultural_access_permission_inferred": false,
-    "legal_or_technical_access_overrides_cultural_access": false
+    "cultural_access_permission_inferred": false
   },
-  "evidence_boundary": {
+  "count_effect": {
     "source_identity_added_run185": false,
-    "count_bearing_change": false,
+    "raw_web_record_added_run185": false,
+    "canonicalized_lead_added_run185": false,
     "cultural_claims_added_run185": 0,
     "participant_records_added_run185": 0,
-    "exact_locator_audit_added": true,
-    "reason": "The publisher-hosted full text supports exact bibliographic, study-design and ethics locators. Cultural findings and participant-derived narratives remain source-attributed and gated; public full-text access alone does not establish a reusable licence or MLHKP cultural-access permission."
+    "evidence_graph_change": "none"
   },
   "deduplication": {
-    "doi_key": "10.30884/seh/2025.02.01",
-    "title_key": "stories of ancient stones a living tradition of indigenous people mundas in jharkhand india",
-    "matching_existing_exact_locator_audit_found_before_run185": false,
-    "action": "retain as exact-located federated source candidate pending atomic permanent-register reconciliation; do not create duplicate count-bearing identity"
+    "matching_existing_exact_locator_audit_found_before_run185": true,
+    "action": "reconcile_to_SRC-MMSC-000002_and_existing_exact_locator_chain; do_not_create_duplicate_identity_or_claim"
   },
   "release_effect": {
-    "discovery_only": false,
-    "exact_locator_level_reached": true,
-    "participant_content_release_eligible": false,
+    "existing_exact_locator_reconfirmed": true,
     "release_gate_changed": false
   }
 }
