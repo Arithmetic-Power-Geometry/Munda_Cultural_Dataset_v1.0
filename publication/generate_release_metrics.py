@@ -39,6 +39,10 @@ def metrics():
         "generated_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "sources_discovered": mm["sources_discovered"],
         "web_discovery_records_observed": raw_web,
+        # Backward-compatible alias retained because publication-sync contracts and
+        # downstream releases before schema 1.2 used this exact key for raw WEB-MUN
+        # observations. It is intentionally equal to raw records, not unique leads.
+        "web_discovery_leads_observed": raw_web,
         "web_discovery_unique_leads": unique_web,
         "web_discovery_duplicate_records": mm.get("web_discovery_duplicate_records", raw_web - unique_web),
         "web_discovery_leads_counted_in_audited_identity_total": mm["web_discovery_leads_counted_in_audited_identity_total"],
