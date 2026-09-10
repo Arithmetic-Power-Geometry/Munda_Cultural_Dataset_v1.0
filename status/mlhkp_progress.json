@@ -4,20 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T07:56:00Z",
+  "updated_utc": "2026-09-10T08:35:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 155,
-  "head_at_cycle_start": "36bb8963c090db82c601a5779cb888a7ba38e3a2",
-  "head_before_final_status_sync": "7eaf5d59919d60539c436e23f403d99ddc563a57",
+  "latest_run": 156,
+  "head_at_cycle_start": "7314bb048ca3832f4005c5871e6078a54819a806",
+  "head_before_final_status_sync": "4178629927a1db928a98ed6ba1706ba73e342696",
   "cycle_commits": [
-    "619b560ebd56f6a7ff9c332bc6eafb56ff414dd4",
-    "7c1adba5c43de20a03b3fea0c51a9e67f5a379b4",
-    "cbb4cefc39ac654c489b6955917bd0c7b1e7443b",
-    "19ad400b774675683448e4337e8f64c6221a4184",
-    "b066166b303677dbab4dcacfb7207b4688f5ee05",
-    "4980fb49633620fef9f3e87c21f5897c3c733921",
-    "7eaf5d59919d60539c436e23f403d99ddc563a57"
+    "1035ddb2e19a3f78ad131969f5cd43c8aeb2267e",
+    "0f7f56e7fa80e095b8ea4a07eaf25d51dc64b91e",
+    "4178629927a1db928a98ed6ba1706ba73e342696"
   ],
   "mundarica": {
     "expected_release_slots": 16,
@@ -27,7 +23,7 @@
     "volume_I": {"state":"working_transcription","page_blocks_detected":324,"declared_scan_pages":324,"page_accounting_complete":true,"source_scan_present":false,"scan_comparison_complete":false,"structured_ingestion_complete":false,"verified_complete":false},
     "volumes_II_XVI": "pending_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "run155_change": "No Mundarica verification state was upgraded; this run remained non-Mundarica as requested."
+    "run156_change": "No Mundarica verification state was upgraded because no new authoritative scan/hash/page-image evidence was obtained in this cycle."
   },
   "mmsc": {
     "audited_source_identities": 41,
@@ -38,9 +34,10 @@
     "duplicate_web_records": 2,
     "canonicalized_unique_web_leads": 13,
     "unresolved_unique_web_leads": 75,
-    "latest_search_id": "MMSC-SEARCH-000155",
-    "latest_unique_web_lead": {"raw_id":"WEB-MUN-0090","title":"MunTTS: A Text-to-Speech System for Mundari","dedupe_key":"doi:10.18653/v1/2024.computel-1.11","decision":"unique unresolved web lead; exact-locator methodology audit completed; not yet a count-bearing audited identity"},
+    "latest_search_id": "MMSC-SEARCH-000156",
+    "latest_unique_web_lead": {"raw_id":"WEB-MUN-0090","title":"MunTTS: A Text-to-Speech System for Mundari","dedupe_key":"doi:10.18653/v1/2024.computel-1.11","decision":"unique peer-reviewed paper source object; explicitly related to but not collapsed into the Karya Mundari TTS dataset repository; permanent SRC-MMSC assignment deferred until atomic register/metric update"},
     "latest_duplicate_reconciliation": {"raw_id":"WEB-MUN-0089","canonical_source_id":"SRC-MMSC-000002","dedupe_key":"doi:10.30884/seh/2025.02.01","decision":"preserve raw audit observation but do not count as unique, unresolved or new audited identity"},
+    "run156_relationship_audit": "data/source_census/muntts_paper_karya_dataset_relationship_run156_2026-09-10.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -53,9 +50,10 @@
     "schema_category_representation_percent": 100.0,
     "module_schema_domain_mapping_percent": 100.0,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run155": 0,
-    "numeric_claims_added_to_claim_graph_run155": 0,
-    "run155_exact_locator_artifact": "data/source_census/muntts_2024_mundari_dataset_methods_exact_locator_run155_2026-09-10.json"
+    "cultural_claims_added_run156": 0,
+    "numeric_claims_added_to_claim_graph_run156": 0,
+    "run156_exact_locator_artifact": "data/source_census/muntts_paper_karya_dataset_relationship_run156_2026-09-10.json",
+    "run156_count_discrepancy_preserved": "paper audit reports 26,868 final sentence-recording pairs; upstream dataset README reports 26,870 recordings; no unverified equivalence/version explanation asserted"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -66,14 +64,15 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run155_change": "MMSC/release metrics synchronized; existing universal-search and module mapping contracts retained."
+    "run156_change": "No redesign performed; existing 42-module, search, evidence-drilldown, report/download, owner-console and cultural-access contracts retained."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "muntts_boundary": "ACL paper methodology and aggregate dataset metadata may be cited as source-attributed evidence; public paper/code/data pointers do not establish MLHKP secondary-use consent or culturally unrestricted reuse of participant-derived audio/transcripts."
+    "muntts_boundary": "ACL paper and Karya dataset repository are related distinct source objects. Paper access does not confer dataset reuse rights; Karya dataset licence does not establish participant consent, privacy clearance, community validation or culturally unrestricted secondary use.",
+    "run156_audio_or_transcripts_ingested": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -85,17 +84,18 @@
     "canonicalized_web_leads": 13,
     "unresolved_unique_web_leads": 75,
     "claims_evidence_links": "52/52/52",
-    "build_state": "Fresh CI required on run-155 final status head; generated JSON/TeX metrics synchronized to 90/88/2/13/75 web-discovery accounting."
+    "build_state": "Run-155 final head verified green before this cycle. Run-156 does not change count-bearing release metrics or manuscript numerics; fresh CI required on the final run-156 status head."
   },
   "ci": {
-    "precycle_head_36bb896": {"source_register":"success #1238","migration":"success #1288","streamlit":"success #1397","publication":"success #1250","green_4_of_4":true},
-    "run155_tests_added": "tests/test_run155_muntts_ingestion.py",
+    "precycle_head_7314bb0": {"source_register":"success #1250","migration":"success #1300","streamlit":"success #1411","publication":"success #1264","green_4_of_4":true},
+    "run156_tests_added": "tests/test_run156_muntts_relationship.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run155": false
+    "green_4_of_4_claimed_for_run156": false
   },
   "blockers": [
     "75 unique web leads require deterministic disposition/canonicalization.",
-    "WEB-MUN-0090 remains outside the audited identity total pending master-register reconciliation and participant-data rights/consent/cultural-access review.",
+    "WEB-MUN-0090 relationship to the Karya Mundari TTS corpus is now explicit, but permanent source assignment remains pending an atomic standalone-register/census-metric update.",
+    "The MunTTS paper reports 26,868 final sentence-recording pairs while the Karya corpus README reports 26,870 recordings; version/curation explanation remains unverified.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
     "Participant-derived audio/video/dataset material remains gated by consent, privacy, community and cultural-access review.",
@@ -119,10 +119,11 @@
     "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, consent/cultural-access gates and incomplete source manifestations remain."
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-155 final status head and repair any failure without touching main.",
+    "Verify all four workflows on the run-156 final status head and repair any failure without touching main.",
+    "Atomically reconcile WEB-MUN-0090 into the standalone MMSC register only if register tests and count-bearing metrics can be updated together without rights overclaim.",
     "Continue deterministic disposition of 75 unresolved unique web leads with DOI/handle/catalogue identity checks first.",
-    "Reconcile WEB-MUN-0090 against source-register policy and retain participant-derived speech content behind explicit consent/cultural-access gates.",
     "Retry authoritative Census workbook bytes/hash/cell acquisition and official LSI PDF byte/page verification.",
-    "Advance lawful full-text/exact-locator evidence ingestion where rights and cultural access permit."
+    "Advance lawful full-text/exact-locator evidence ingestion where rights and cultural access permit.",
+    "Retain Mundarica volumes as unverified until authoritative scan/hash/page-image comparison is actually available."
   ]
 }
