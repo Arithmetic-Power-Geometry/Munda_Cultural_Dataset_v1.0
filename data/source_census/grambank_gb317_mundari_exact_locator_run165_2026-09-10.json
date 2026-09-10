@@ -1,0 +1,47 @@
+{
+  "record_type": "licensed_typological_database_exact_datapoint_audit",
+  "stream": "datasets_grammars_linguistics",
+  "run": 165,
+  "checked_utc": "2026-09-10T12:42:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "Mundari typological database coding and source locator only; no direct grammar-text or cultural generalization",
+  "source": {
+    "database": "Grambank",
+    "language_name": "Mundari",
+    "language_locator": "https://grambank.clld.org/languages/mund1320",
+    "glottocode": "mund1320",
+    "contributors_reported": ["Tim Witte", "Janis Reimringer"],
+    "database_license": "Creative Commons Attribution 4.0 International"
+  },
+  "exact_datapoint": {
+    "locator": "https://grambank.clld.org/valuesets/GB317-mund1320",
+    "feature_id": "GB317",
+    "feature": "Is dual number regularly marked in the noun phrase by a dedicated phonologically free element?",
+    "coding": "absent",
+    "source_locator_reported_by_grambank": "Osada 2008: 107-108",
+    "contribution": "Dataset for Mundari by Tim Witte and Janis Reimringer"
+  },
+  "verification_state": {
+    "grambank_language_identity_verified": true,
+    "exact_valueset_verified": true,
+    "database_license_verified": true,
+    "underlying_osada_pages_directly_inspected": false,
+    "underlying_grammar_text_reuse_permission_verified": false,
+    "new_permanent_source_identity_assigned": false,
+    "counts_changed": false
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "database_coding_reuse_supported_with_attribution": true,
+    "underlying_grammar_rights_transferred_by_database_license": false,
+    "participant_content_ingested": false,
+    "participant_secondary_use_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false
+  },
+  "permitted_evidence": {
+    "statement": "Grambank codes Mundari valueset GB317-mund1320 as absent and reports Osada 2008:107-108 as its source locator.",
+    "evidence_type": "licensed_database_coded_datapoint_with_reported_primary_locator",
+    "use_constraint": "Attribute the coding to Grambank. Do not present the result as an independently verified page-level finding from Osada 2008 until the cited pages are lawfully inspected."
+  },
+  "release_value": "Advances the licensed database stream from language-level bibliography to an exact valueset with a reported page locator while preserving the primary-source and rights boundary."
+}
