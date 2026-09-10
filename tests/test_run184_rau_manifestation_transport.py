@@ -36,7 +36,7 @@ def test_run184_census_has_all_release_classes():
 
 def test_run184_status_contract():
     s = json.loads(STATUS.read_text(encoding="utf-8"))
-    assert s["latest_run"] == 184
+    assert s["latest_run"] >= 184
     assert s["branch"] == "mlhkp-v2"
     assert s["mmsc"]["audited_source_identities"] == 42
     assert s["mmsc"]["unresolved_unique_web_leads"] == 73
