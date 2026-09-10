@@ -4,49 +4,46 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T14:50:00Z",
+  "updated_utc": "2026-09-10T14:53:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 168,
-  "head_at_cycle_start": "d7c2c8312c44d0fee81f2cad9dd02a4a48bb46e8",
-  "cycle_result": "Run-167 final head d7c2c8312c44d0fee81f2cad9dd02a4a48bb46e8 is independently verified 4/4 green. Run 168 completed a full requested-class non-Mundarica sweep and advanced the Lexibank Peiros Austroasiatic CLDF Mundari language record to an exact licensed dataset locator. The source page supports Mundari, Glottocode mund1320, ISO 639-3 unr, dataset peirosaustroasiatic v1.0, Zenodo DOI 10.5281/zenodo.5127536, WGS84 metadata 22.55/85.09 and database licence CC BY 4.0. No lexical rows, cognate assignments, participant material or cultural claims were ingested; permanent registration and count changes remain deferred until deterministic reconciliation is completed as one synchronized transaction. Counts remain unchanged and main was not modified.",
+  "latest_run": 169,
+  "head_at_cycle_start": "a79617c6e20a7ba9e0b3118dc6e6e495859b5c45",
+  "head_before_final_status_sync": "007573dfe5585c6116e5e407914015bf72af89a7",
+  "cycle_commits": ["3f69548e9ac1578ee3cd1fe30755f552c694a3d4", "007573dfe5585c6116e5e407914015bf72af89a7"],
+  "cycle_result": "Run-168 final head a79617c6e20a7ba9e0b3118dc6e6e495859b5c45 is independently verified 4/4 green. Run 169 deterministically canonicalized WEB-MUN-0086 as SRC-MMSC-000016 using exact SAGE DOI/title/author/journal/volume/issue/page metadata while preserving the scope boundary that the public abstract concerns Jharkhand tribal women broadly and does not itself verify a Munda-specific factual passage. The initial count-bearing head exposed a real Source Register Audit failure because the immutable WEB-MUN-0086 record lacked its canonicalization pointer; commit 007573dfe5585c6116e5e407914015bf72af89a7 repaired that provenance pointer. No restricted full text, participant-derived content, cultural claim, community validation or cultural-access permission was fabricated or ingested. Main was not modified.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
     "human_review_attestations": 16,
     "authoritative_scans_registered": 0,
     "verified_complete_volumes": 0,
+    "volume_states": {
+      "I": {"state":"working_transcription","page_blocks_detected":324,"declared_scan_pages":324,"page_accounting_complete":true,"source_scan_present":false,"scan_comparison_complete":false,"ocr_verified_against_scan":false,"structured_ingestion_complete":false,"verified_complete":false},
+      "II-XIII": "historical external locators verified; authoritative scans not registered; OCR/transcription not verified complete",
+      "XIV-XVI": "locator or authoritative manifestation unresolved; not verified complete"
+    },
     "ocr_is_not_verified_transcription": true,
-    "run168_change": "No Mundarica verification state was upgraded; this sprint remains non-Mundarica."
+    "run169_change": "No Mundarica verification state was upgraded; authoritative scan registration remains zero."
   },
   "mmsc": {
-    "audited_source_identities": 41,
+    "audited_source_identities": 42,
     "canonical_master_records": 14,
-    "standalone_mmsc_discoveries": 15,
+    "standalone_mmsc_discoveries": 16,
     "raw_web_discovery_records": 90,
     "unique_web_discovery_leads": 87,
     "duplicate_web_records": 3,
-    "canonicalized_unique_web_leads": 13,
-    "unresolved_unique_web_leads": 74,
-    "latest_search_id": "MMSC-SEARCH-000168",
-    "latest_source_audit": {
-      "candidate": "Lexibank peirosaustroasiatic Mundari language record",
-      "audit_files": ["data/source_census/lexibank_peiros_mundari_exact_locator_run168_2026-09-10.json"],
-      "exact_locator_promoted": true,
-      "participant_content_ingested": false,
-      "new_permanent_identity_created": false,
-      "counts_changed": false,
-      "decision": "Promote licensed dataset-language identity/identifier/version/DOI/coordinate metadata only. Keep lexical rows and cognate assignments un-ingested and defer permanent source counting until deterministic reconciliation against all immutable leads is complete."
-    },
-    "duplicate_set": [
-      "WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL",
-      "WEB-MUN-0089 duplicates SRC-MMSC-000002 by exact DOI/title/author/year",
-      "WEB-MUN-0090 duplicates SRC-MMSC-000012 by exact DOI/title/author/year/ACL Anthology identity"
-    ],
-    "run168_audit": "data/source_census/lexibank_peiros_mundari_exact_locator_run168_2026-09-10.json",
-    "run168_search_log": "data/source_census/search_log_run168.jsonl",
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "additional_federated_discoveries": 28,
+    "still_to_acquire_additional_discoveries": 27,
+    "latest_search_id": "MMSC-SEARCH-000169",
+    "latest_canonicalization": {"web_source_id":"WEB-MUN-0086","canonical_source_id":"SRC-MMSC-000016","dedupe_key":"doi:10.1177/23210249221127832","scope":"publisher metadata/abstract identity only; no exact Munda-specific passage promoted"},
+    "latest_source_audit": "data/source_census/web_mun_0086_canonicalization_run169_2026-09-10.json",
+    "latest_search_log": "data/source_census/search_log_run169.jsonl",
     "systematic_census_documented_for_release": true,
-    "absolute_or_future_proof_completeness_claimed": false
+    "absolute_or_future_proof_completeness_claimed": false,
+    "duplicate_set": ["WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL","WEB-MUN-0089 duplicates SRC-MMSC-000002 by exact DOI/title/author/year","WEB-MUN-0090 duplicates SRC-MMSC-000012 by exact DOI/title/author/year/ACL Anthology identity"]
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -59,10 +56,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run168": 0,
-    "numeric_claims_added_run168": 0,
-    "exact_locator_audits_added_run168": 1,
-    "run168_boundary": "Only Lexibank-attributed dataset identity, identifiers, version, DOI, coordinates and licence metadata are promoted. No lexical row, cognate assignment, cultural proposition or participant material was ingested."
+    "cultural_claims_added_run169": 0,
+    "numeric_claims_added_run169": 0,
+    "source_identities_added_run169": 1,
+    "run169_boundary": "Identity-level source promotion only. No SAGE restricted full text, participant-derived material, customary-law proposition or Munda-specific cultural claim was promoted without an exact passage."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -73,85 +70,70 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run168_change": "No module-count or restricted-content change. Run-168 audit/search-log files are repository-searchable; no lexical dataset rows or participant material were exposed."
+    "run169_change": "No redesign or module-count change; new source identity/audit remains searchable while restricted source content is not exposed."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "lexibank_database_license_verified_run168": "CC BY 4.0",
-    "underlying_historical_source_rights_inferred": false,
-    "participant_consent_inferred_run168": false,
-    "community_validation_verified_run168": false,
-    "cultural_access_verified_run168": false,
-    "run168_boundary": "Lexibank CC BY 4.0 supports database reuse subject to attribution but is not treated as participant consent, community validation, a precise territorial claim, or blanket rights in every underlying source."
+    "web_mun_0086_full_text_state": "SAGE restricted/get-access; not ingested",
+    "web_mun_0086_munda_specific_passage_verified": false,
+    "participant_consent_inferred_run169": false,
+    "community_validation_verified_run169": false,
+    "cultural_access_verified_run169": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
     "release_metrics_json_tex_synced": true,
-    "sources": 41,
+    "sources": 42,
     "raw_web_records": 90,
     "unique_web_leads": 87,
     "duplicate_web_records": 3,
-    "canonicalized_web_leads": 13,
-    "unresolved_unique_web_leads": 74,
+    "canonicalized_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Count-stable in run168; publication metrics/tables/figures remain synchronized because no count-bearing source, claim or evidence node changed.",
-    "build_state": "Run-167 final head d7c2c8312c44d0fee81f2cad9dd02a4a48bb46e8 independently verified 4/4 green. Fresh CI is required on the final run-168 status commit."
+    "generated_metrics_state": "Synchronized to the Run-169 count-bearing transaction: sources 42, canonicalized web leads 14, unresolved unique web leads 73; evidence counts unchanged.",
+    "build_state": "Run-168 final head independently verified 4/4 green. Fresh Run-169 Publication Build is required on the repaired/final head."
   },
   "ci": {
-    "last_independently_verified_green_head": "d7c2c8312c44d0fee81f2cad9dd02a4a48bb46e8",
-    "run167_verified": {
-      "green_4_of_4": true,
-      "verification_basis": "GitHub Actions query restricted to exact run-167 head with status=success returned total_count=4."
-    },
-    "run168_tests_added": "tests/test_run168_lexibank_exact_locator.py",
+    "last_independently_verified_green_head": "a79617c6e20a7ba9e0b3118dc6e6e495859b5c45",
+    "run168_verified": {"green_4_of_4":true,"workflows":{"publication_build":1351,"migration_audit":1384,"source_register_audit":1334,"streamlit_smoke_test":1498}},
+    "run169_initial_count_head": "3f69548e9ac1578ee3cd1fe30755f552c694a3d4",
+    "run169_initial_ci": {"migration_audit":1386,"migration_conclusion":"success","streamlit_smoke_test":1500,"streamlit_conclusion":"success","source_register_audit":1336,"source_register_conclusion":"failure_due_to_missing_WEB_MUN_0086_canonicalization_pointer","publication_build":1353,"publication_state_at_check":"in_progress"},
+    "run169_repair_head": "007573dfe5585c6116e5e407914015bf72af89a7",
+    "run169_repair_workflows": {"source_register_audit":1338,"publication_build":1355,"migration_audit":1388,"streamlit_smoke_test":1502,"state_at_status_sync":"queued"},
+    "run169_tests_added": "tests/test_run169_web_mun_0086_canonicalization.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run168": false
+    "green_4_of_4_claimed_for_run169": false
   },
   "blockers": [
-    "74 unique web leads require deterministic disposition/canonicalization.",
-    "Lexibank Peiros Mundari exact locator is verified and CC BY 4.0 is stated for the database, but permanent registration remains deferred until deterministic reconciliation and synchronized count-bearing updates are complete.",
-    "Rau 2019 Zenodo dataset licence remains unresolved in the available authoritative retrieval path; rows remain un-ingested and its repository-reported MD5 has not been independently recomputed.",
-    "WALS/Grambank permanent source registration remains a count-bearing transaction requiring synchronized standalone MMSC register, MMSC totals, publication metrics and regression contracts.",
-    "Grambank GB317-mund1320 reports Osada 2008:107-108, but those primary grammar pages have not yet been lawfully inspected.",
+    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Lexibank Peiros Mundari exact locator is verified and database CC BY 4.0 is recorded, but permanent identity registration remains deferred until deterministic reconciliation against permanent and immutable WEB-MUN identities is complete.",
+    "WALS/Grambank permanent source registration remains a count-bearing synchronized transaction; underlying Sinha/Osada grammar passages are not yet direct page-verified.",
+    "Rau 2019 Zenodo dataset licence remains unresolved in the available authoritative retrieval path; rows remain un-ingested and repository-reported MD5 is not independently recomputed.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes, worksheets and exact numeric cells remain unverified.",
-    "Official 2023 LSI Jharkhand and LSI West Bengal PDF byte/hash/page-image verification remain incomplete.",
+    "Official 2023 LSI Jharkhand and LSI West Bengal authoritative PDF bytes/hash/page-image verification remain incomplete.",
+    "Mundarica has zero authoritative scans registered; scan hashes, page-image comparison and verified transcription for I-XVI remain incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community and cultural-access review.",
-    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact locators.",
-    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized from status prose.",
-    "1941 Mundari hockey booklet has strong secondary journalistic evidence but lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
-    "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation.",
-    "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation."
+    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators.",
+    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
+    "1941 Mundari hockey booklet lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
+    "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
+    "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation.",
+    "WEB-MUN-0086 is now identity-canonicalized, but exact Munda-specific passages and content reuse permission remain unavailable; therefore no Munda-specific claim/evidence node was added."
   ],
-  "deadline_progress": {
-    "status": "on_target_but_gate_open",
-    "deadline": "2026-09-21T23:59:00+05:30",
-    "principle": "deadline never authorizes marking unavailable, restricted or unverified material complete"
-  },
-  "release_gate": {
-    "status": "NOT_PASS",
-    "schema_category_representation_100": true,
-    "ui_mapping_100": true,
-    "systematic_census_documented": true,
-    "all_obtainable_permitted_sources_processed_to_declared_level": false,
-    "all_public_claims_provenance_linked": true,
-    "gaps_enumerated": true,
-    "no_restricted_leakage_known": true,
-    "no_false_ocr_verification_known": true,
-    "automated_completeness_audit_pass": false,
-    "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, primary-source grammar checks, consent/cultural-access gates and incomplete source manifestations remain."
-  },
+  "deadline_progress": {"status":"on_target_but_gate_open","deadline":"2026-09-21T23:59:00+05:30","principle":"deadline never authorizes marking unavailable, restricted or unverified material complete"},
+  "release_gate": {"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"all_public_claims_provenance_linked":true,"gaps_enumerated":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false,"reason":"73 unresolved source dispositions plus authoritative byte/hash/page verification, primary-source grammar checks, Mundarica scan verification, consent/community/cultural-access gates and incomplete source manifestations remain."},
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-168 final status head and repair any failure without touching main.",
-    "Deterministically reconcile the Lexibank Peiros Mundari dataset against all permanent identities and immutable WEB-MUN observations before any count-bearing registration.",
-    "Resolve the Rau 2019 Zenodo dataset licence and independently verify dataset bytes/checksum before any lexical-content ingestion.",
-    "Continue deterministic disposition of the 74 unresolved unique web leads.",
-    "Lawfully inspect Osada 2008 pages 107-108 and Sinha 1975/Osada 1992 primary passages underlying licensed database codings.",
-    "Retry authoritative Census workbook acquisition and record independent hashes, worksheets and exact Munda/Mundari cells before demographic-value promotion.",
-    "Retry official LSI Jharkhand and West Bengal PDF byte acquisition/page-image verification.",
-    "Advance lawful full-text/exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
-    "Keep all 42 modules, evidence graph, completeness/gap matrix and publication metrics synchronized after every count-bearing change."
+    "Verify all four workflows on the Run-169 final status head and repair any remaining failure without touching main.",
+    "Continue deterministic disposition of the 73 remaining unique web leads, prioritizing exact DOI/handle/catalogue matches before new discovery expansion.",
+    "Deterministically reconcile Lexibank Peiros and execute permanent registration only as a synchronized count-bearing transaction if non-duplicate.",
+    "Perform the WALS/Grambank permanent-source transaction with synchronized MMSC/publication/test updates; keep database coding distinct from direct grammar-page verification.",
+    "Resolve Rau 2019 licence and independently verify dataset bytes/checksum before lexical-content ingestion.",
+    "Retry authoritative Census workbook acquisition and exact Munda/Mundari worksheet/cell verification.",
+    "Retry official LSI Jharkhand/West Bengal PDF byte/hash/page-image verification and authoritative Mundarica scan acquisition.",
+    "Advance lawful exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
+    "Keep all 42 modules, evidence graph, completeness/gap matrix and Q1 manuscript metrics synchronized after every count-bearing change."
   ]
 }
