@@ -4,18 +4,19 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T12:36:00Z",
+  "updated_utc": "2026-09-10T12:47:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 164,
-  "head_at_cycle_start": "04e59522e0d1b68770db9cffa96ed07530a3e883",
-  "head_before_final_status_sync": "f6b44e38940ed6376c859214324b28ae1313fb14",
+  "latest_run": 165,
+  "head_at_cycle_start": "d15201e617eae63c99cc43a4c57018d7d25f079f",
+  "head_before_final_status_sync": "06645ae505566ac59d9fea2664e7518c90032813",
   "cycle_commits": [
-    "433d6c75c5583a5d8ba1d23c7701238e4f9a2b37",
-    "31448583900a173ca9edc250d9c435c513e94dba",
-    "f6b44e38940ed6376c859214324b28ae1313fb14"
+    "2e389b01a0d77e125f62f8fcbcf34c64afa081a0",
+    "8c0c93e8f76967326627b7f2c340a773ffd814d0",
+    "ba0d371975e8517905d5711266eafd6da26a8793",
+    "06645ae505566ac59d9fea2664e7518c90032813"
   ],
-  "cycle_result": "Closed the Run-163 deterministic duplicate-check precondition for WALS and Grambank without inflating counts. The standalone MMSC register contains neither database identity; repository search found no WALS occurrence in the pre-existing discovery corpus, and branch-only WEB-MUN-0082 through WEB-MUN-0090 were directly inspected and are different sources. Added a reconciliation audit, MMSC-SEARCH-000164 log, and regression tests. Permanent identity creation remains a separate atomic count-bearing transaction so MMSC, publication metrics and tests cannot drift.",
+  "cycle_result": "Advanced two non-discovery-only evidence streams without count inflation. Grambank Mundari valueset GB317-mund1320 is now an exact licensed database locator with coding 'absent' and Grambank-reported source locator Osada 2008:107-108; this remains database-attributed rather than direct grammar verification. The MunTTS/Karya 26,868-versus-26,870 recording-count discrepancy is now an explicit cross-manifestation audit, including Karya's repository-provided SHA1 provenance, without pretending the full archive hash was independently recomputed. Added a full requested-class MMSC-SEARCH-000165 sweep and regression tests. Run-164 final head was independently verified 4/4 green before these changes.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -36,7 +37,7 @@
     "volumes_II_XIII": "historical_external_locators_verified_but_authoritative_scans_not_registered_and_not_verified_complete",
     "volumes_XIV_XVI": "pending_locator_or_manifestation_resolution_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "run164_change": "No Mundarica verification state was upgraded; authoritative scan/hash/page-image evidence remains unavailable, so no OCR or working transcription is labelled verified."
+    "run165_change": "No Mundarica verification state was upgraded; this sprint remains non-Mundarica and no OCR or working transcription is labelled verified."
   },
   "mmsc": {
     "audited_source_identities": 41,
@@ -47,15 +48,18 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 13,
     "unresolved_unique_web_leads": 74,
-    "latest_search_id": "MMSC-SEARCH-000164",
+    "latest_search_id": "MMSC-SEARCH-000165",
     "latest_source_audit": {
-      "candidate": "WALS / Grambank deterministic identity reconciliation",
-      "audit_file": "data/source_census/wals_grambank_deterministic_reconciliation_run164_2026-09-10.json",
-      "duplicate_precondition_closed": true,
-      "existing_permanent_identity_found": false,
-      "existing_immutable_web_observation_found": false,
+      "candidate": "Grambank GB317-mund1320 exact datapoint plus MunTTS/Karya manifestation discrepancy",
+      "audit_files": [
+        "data/source_census/grambank_gb317_mundari_exact_locator_run165_2026-09-10.json",
+        "data/source_census/muntts_karya_count_manifestation_audit_run165_2026-09-10.json"
+      ],
+      "exact_locator_promoted": true,
+      "participant_content_ingested": false,
+      "new_permanent_identity_created": false,
       "counts_changed": false,
-      "decision": "The duplicate precondition is closed. Do not partially register either database; perform permanent identity creation only as an atomic transaction that synchronizes standalone MMSC records, census totals, publication metrics and regression contracts."
+      "decision": "Promote licensed database-coded and cross-manifestation provenance evidence only. Keep primary grammar verification, participant rights and cultural-access questions open."
     },
     "duplicate_set": [
       "WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL",
@@ -69,6 +73,10 @@
     "run162_audit": "data/source_census/nirang_pajhra_authoritative_registration_retry_run162_2026-09-10.json",
     "run163_audit": "data/source_census/wals_grambank_mundari_typology_exact_locator_run163_2026-09-10.json",
     "run164_audit": "data/source_census/wals_grambank_deterministic_reconciliation_run164_2026-09-10.json",
+    "run165_audits": [
+      "data/source_census/grambank_gb317_mundari_exact_locator_run165_2026-09-10.json",
+      "data/source_census/muntts_karya_count_manifestation_audit_run165_2026-09-10.json"
+    ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -83,10 +91,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run164": 0,
-    "numeric_claims_added_run164": 0,
-    "source_reconciliation_records_added_run164": 1,
-    "run164_boundary": "Reconciliation establishes candidate identity absence only. It does not upgrade the WALS coded datapoint into direct grammar evidence and does not add a cultural, demographic or policy claim."
+    "cultural_claims_added_run165": 0,
+    "numeric_claims_added_run165": 0,
+    "exact_locator_audits_added_run165": 2,
+    "run165_boundary": "The Grambank coding is database-attributed evidence, not an independently inspected Osada grammar finding. The 26,868/26,870 figures are source-reported manifestation counts, not a synthesized authoritative corpus count."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -97,7 +105,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run164_change": "No module-count or public-content change. The new reconciliation audit/search log is repository-searchable and exposes no restricted or unverified grammar/cultural content."
+    "run165_change": "No module-count or restricted-content change. New source-census audits/search log are repository-searchable; no participant audio/transcript or unverified grammar text is exposed."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -105,11 +113,13 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "wals_database_license_verified_run163": true,
-    "grambank_database_license_verified_run163": true,
+    "grambank_database_license_verified_run163_and_rechecked_run165": true,
+    "karya_repository_license_observed_run165": "BY-NC-SA-FS 1.0 non-commercial as repository reports",
     "underlying_grammar_reuse_permission_inferred": false,
-    "community_validation_verified_run164": false,
-    "cultural_access_verified_run164": false,
-    "run164_boundary": "Identity reconciliation changes no entitlement. CC BY 4.0 database metadata does not transfer rights in underlying grammar texts or establish participant/community consent or cultural clearance."
+    "speaker_or_transcript_secondary_use_consent_verified_run165": false,
+    "community_validation_verified_run165": false,
+    "cultural_access_verified_run165": false,
+    "run165_boundary": "CC BY 4.0 permits use of Grambank database metadata with attribution but does not transfer rights in Osada 2008. Karya repository licensing does not by itself establish speaker privacy/publicity, participant secondary-use consent or community cultural clearance."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -121,27 +131,24 @@
     "canonicalized_web_leads": 13,
     "unresolved_unique_web_leads": 74,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "count-stable in run164; publication metrics/tables/figures remain synchronized because no count-bearing source, claim or evidence node changed",
-    "build_state": "Run-163 final head 04e59522e0d1b68770db9cffa96ed07530a3e883 independently verified 4/4 green. Fresh CI is required on the final run-164 status commit."
+    "generated_metrics_state": "count-stable in run165; publication metrics/tables/figures remain synchronized because no count-bearing source, claim or evidence node changed",
+    "build_state": "Run-164 final head d15201e617eae63c99cc43a4c57018d7d25f079f independently verified 4/4 green. Fresh CI is required on the final run-165 status commit."
   },
   "ci": {
-    "last_independently_verified_green_head": "04e59522e0d1b68770db9cffa96ed07530a3e883",
-    "run163_verified": {
+    "last_independently_verified_green_head": "d15201e617eae63c99cc43a4c57018d7d25f079f",
+    "run164_verified": {
       "green_4_of_4": true,
-      "source_register_audit_run": 1305,
-      "migration_audit_run": 1355,
-      "streamlit_smoke_test_run": 1469,
-      "publication_build_run": 1322,
-      "verification_basis": "All four GitHub Actions workflow runs for exact head 04e59522e0d1b68770db9cffa96ed07530a3e883 completed successfully."
+      "verification_basis": "GitHub Actions query restricted to exact head d15201e617eae63c99cc43a4c57018d7d25f079f and status=success returned four successful workflow runs."
     },
-    "run164_pre_status_head": "f6b44e38940ed6376c859214324b28ae1313fb14",
-    "run164_tests_added": "tests/test_run164_wals_grambank_reconciliation.py",
+    "run165_pre_status_head": "06645ae505566ac59d9fea2664e7518c90032813",
+    "run165_tests_added": "tests/test_run165_exact_locator_and_manifestation_audit.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run164": false
+    "green_4_of_4_claimed_for_run165": false
   },
   "blockers": [
     "74 unique web leads require deterministic disposition/canonicalization.",
     "WALS/Grambank duplicate reconciliation is complete, but permanent source registration remains an atomic count-bearing transaction requiring synchronized MMSC and manuscript-metric updates; no partial count change is claimed.",
+    "Grambank GB317-mund1320 reports Osada 2008:107-108, but those primary grammar pages have not yet been lawfully inspected; database coding must not be mislabeled as direct grammar verification.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
     "Official LSI West Bengal Part I indexed Mundari locator is recorded, but authoritative PDF bytes/hash/page-image verification remains incomplete after retrieval failure.",
@@ -154,7 +161,7 @@
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized from status prose.",
     "1941 Mundari hockey booklet has strong secondary journalistic evidence and a photographed surviving copy, but lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
     "Nirang Pajhra has secondary corroboration as a historical print outlet, but authoritative PRGI/RNI registration, issue-level manifestation, language-by-issue provenance, rights and cultural-access status remain unresolved.",
-    "MunTTS paper reports 26,868 final sentence-recording pairs whereas the Karya corpus repository reports 26,870 recordings; version/curation explanation remains unverified."
+    "MunTTS/Karya 26,868-versus-26,870 discrepancy is now exactly documented, but an authoritative version/curation explanation for the two-recording difference remains unverified; neither count is silently normalized."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -175,10 +182,11 @@
     "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, primary-source grammar checks, consent/cultural-access gates and incomplete source manifestations remain."
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-164 final status head and repair any failure without touching main.",
-    "Perform the WALS/Grambank permanent-source transaction atomically: standalone identities, MMSC totals, publication metrics and regression contracts together, with no cultural or primary-grammar overclaim.",
+    "Verify all four workflows on the run-165 final status head and repair any failure without touching main.",
+    "Perform the WALS/Grambank permanent-source transaction atomically only when standalone register, MMSC totals, publication metrics and regression contracts can be updated together without drift.",
     "Continue deterministic disposition of the 74 unresolved unique web leads, prioritizing exact DOI/handle/catalogue matches and duplicate detection before assigning new identities.",
-    "Obtain lawful inspectable manifestations for Sinha 1975 and Osada 1992 and verify exact passages underlying WALS 83A-mun before treating typological coding as direct grammar evidence.",
+    "Lawfully inspect Osada 2008 pages 107-108 and Sinha 1975/Osada 1992 passages underlying licensed database codings before treating them as direct primary grammar evidence.",
+    "Seek an authoritative MunTTS/Karya version or curation note explaining the 26,868 versus 26,870 recording-count difference; retain both attributed counts meanwhile.",
     "Retry authoritative Census workbook acquisition and record independent hashes, worksheet names, exact Munda/Mundari rows and numeric-cell locators before promoting demographic values.",
     "Retry official LSI Jharkhand and West Bengal PDF byte acquisition and page-image verification; preserve indexed-text locators as metadata-only until bytes are verified.",
     "Advance lawful full-text/exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
