@@ -1,0 +1,43 @@
+{
+  "record_type": "deterministic_duplicate_reconciliation_audit",
+  "run": 158,
+  "checked_utc": "2026-09-10T09:28:12Z",
+  "branch": "mlhkp-v2",
+  "raw_observation": "WEB-MUN-0090",
+  "canonical_source_id": "SRC-MMSC-000012",
+  "title": "MunTTS: A Text-to-Speech System for Mundari",
+  "dedupe_key": "doi:10.18653/v1/2024.computel-1.11",
+  "deterministic_match": {
+    "doi": true,
+    "title": true,
+    "authors": true,
+    "year": true,
+    "acl_anthology_identity": true
+  },
+  "decision": "duplicate_existing_permanent_identity",
+  "count_effect": {
+    "raw_web_observations": 90,
+    "unique_web_leads_before_correction": 88,
+    "unique_web_leads_after_correction": 87,
+    "duplicate_records_before_correction": 2,
+    "duplicate_records_after_correction": 3,
+    "canonicalized_unique_leads": 13,
+    "unresolved_unique_leads_before_correction": 75,
+    "unresolved_unique_leads_after_correction": 74,
+    "audited_source_identities": 41
+  },
+  "rights_and_governance_boundary": {
+    "paper_identity_reconciliation_changes_content_entitlement": false,
+    "participant_audio_ingested": false,
+    "participant_transcripts_ingested": false,
+    "consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "evidence_basis": [
+    "data/source_census/mmsc_discoveries.json:SRC-MMSC-000012",
+    "data/source_census/web_discovery_expansion_2026-09-10_run22.json:WEB-MUN-0090",
+    "data/source_census/muntts_paper_karya_dataset_relationship_run156_2026-09-10.json"
+  ],
+  "caution": "This correction removes a duplicate from unique/unresolved counts. It does not add a new audited identity, does not verify participant consent or community validation, and does not authorize reuse of underlying speech or transcript material."
+}
