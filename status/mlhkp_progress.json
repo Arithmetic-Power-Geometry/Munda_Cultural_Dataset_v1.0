@@ -4,40 +4,67 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T08:49:00Z",
+  "updated_utc": "2026-09-10T09:34:19Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 157,
-  "head_at_cycle_start": "9e0cee504777742cd981fda0e81bc0bac571dd00",
-  "head_before_final_status_sync": "2596df70370446aa0d258258a3b5f6210b52a636",
+  "latest_run": 158,
+  "head_at_cycle_start": "665d41cac386e68d26c148ea602dd4856e9c3552",
+  "head_before_final_status_sync": "ae2f21feae154eef21a2c80cbcf15e5aa36868e4",
   "cycle_commits": [
-    "53da59684c4563ece5a8abf4c0a7be693d8e6976",
-    "4281abee61fcc9ad1014a4c63e8b1ef6f573eee4",
-    "2596df70370446aa0d258258a3b5f6210b52a636"
+    "0ec89cf1f8c0e2b6262caecf06ff12848faeefee",
+    "5a866c778d67cfb488862e94489ef31f30348dcb",
+    "9ba5f39e08604a0fb5e64a091ba25eca6e2645ba",
+    "287741d91b3bfb8794e0d5d7de8439594a0f64ac",
+    "80d9ab6699fd6363839a6184466a6fe7a4dddb58",
+    "b3d51dd1ee848aae33af25a6e56d39a051cd633f",
+    "d81ad724850ee7d7713f60f0350288b419ec50b9",
+    "ae2f21feae154eef21a2c80cbcf15e5aa36868e4"
   ],
+  "cycle_result": "Deterministic duplicate reconciliation corrected WEB-MUN-0090 from unique/unresolved to an immutable duplicate observation of existing permanent identity SRC-MMSC-000012; no source identity, evidence or rights count was inflated.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
+    "human_review_attestations": 16,
     "authoritative_scans_registered": 0,
     "verified_complete_volumes": 0,
-    "volume_I": {"state":"working_transcription","page_blocks_detected":324,"declared_scan_pages":324,"page_accounting_complete":true,"source_scan_present":false,"scan_comparison_complete":false,"structured_ingestion_complete":false,"verified_complete":false},
-    "volumes_II_XVI": "pending_not_verified_complete",
+    "volume_I": {
+      "state": "working_transcription",
+      "page_blocks_detected": 324,
+      "declared_scan_pages": 324,
+      "page_accounting_complete": true,
+      "source_scan_present": false,
+      "scan_comparison_complete": false,
+      "ocr_verified_against_scan": false,
+      "structured_ingestion_complete": false,
+      "verified_complete": false
+    },
+    "volumes_II_XIII": "historical_external_locators_verified_but_authoritative_scans_not_registered_and_not_verified_complete",
+    "volumes_XIV_XVI": "pending_locator_or_manifestation_resolution_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "run157_change": "No Mundarica verification state was upgraded; this sprint remains non-Mundarica and no authoritative Mundarica scan/hash/page-image evidence was obtained."
+    "run158_change": "No Mundarica verification state was upgraded because no authoritative scan/hash/page-image evidence was obtained."
   },
   "mmsc": {
     "audited_source_identities": 41,
     "canonical_master_records": 14,
     "standalone_mmsc_discoveries": 15,
     "raw_web_discovery_records": 90,
-    "unique_web_discovery_leads": 88,
-    "duplicate_web_records": 2,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 13,
-    "unresolved_unique_web_leads": 75,
-    "latest_search_id": "MMSC-SEARCH-000157",
-    "latest_unique_web_lead": {"raw_id":"WEB-MUN-0090","title":"MunTTS: A Text-to-Speech System for Mundari","dedupe_key":"doi:10.18653/v1/2024.computel-1.11","decision":"unique peer-reviewed paper source object; explicitly related to but not collapsed into the Karya Mundari TTS dataset repository; permanent SRC-MMSC assignment remains pending an atomic register/metric update"},
-    "latest_duplicate_reconciliation": {"raw_id":"WEB-MUN-0089","canonical_source_id":"SRC-MMSC-000002","dedupe_key":"doi:10.30884/seh/2025.02.01","decision":"preserve raw audit observation but do not count as unique, unresolved or new audited identity"},
-    "run157_exact_locator_audit": "data/source_census/lsi_west_bengal_part1_mundari_exact_locator_run157_2026-09-10.json",
+    "unresolved_unique_web_leads": 74,
+    "latest_search_id": "MMSC-SEARCH-000158",
+    "latest_duplicate_reconciliation": {
+      "raw_id": "WEB-MUN-0090",
+      "canonical_source_id": "SRC-MMSC-000012",
+      "dedupe_key": "doi:10.18653/v1/2024.computel-1.11",
+      "decision": "preserve raw audit observation but do not count as unique, unresolved or new audited identity"
+    },
+    "duplicate_set": [
+      "WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL",
+      "WEB-MUN-0089 duplicates SRC-MMSC-000002 by exact DOI/title/author/year",
+      "WEB-MUN-0090 duplicates SRC-MMSC-000012 by exact DOI/title/author/year/ACL Anthology identity"
+    ],
+    "run158_audit": "data/source_census/muntts_duplicate_reconciliation_run158_2026-09-10.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -49,11 +76,12 @@
     "source_to_domain_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
     "schema_category_representation_percent": 100.0,
     "module_schema_domain_mapping_percent": 100.0,
+    "information_model_record_families": 24,
+    "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run157": 0,
-    "numeric_claims_added_to_claim_graph_run157": 0,
-    "run157_exact_locator_artifact": "data/source_census/lsi_west_bengal_part1_mundari_exact_locator_run157_2026-09-10.json",
-    "run157_boundary": "Official Census indexed text supports a bounded printed-page-44 locator for the LSI West Bengal Part I MUNDARI status block; authoritative PDF bytes, checksum and actual page-image verification remain open, so no new claim/evidence node was added."
+    "cultural_claims_added_run158": 0,
+    "numeric_claims_added_run158": 0,
+    "run158_boundary": "Identity deduplication only. No participant-derived recordings, transcripts or cultural propositions were promoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -64,48 +92,62 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run157_change": "No redesign required; existing 42-module mapping, universal search, evidence drill-down, reports/downloads, owner console and cultural-access contracts remain synchronized because audited counts did not change."
+    "run158_change": "No redesign; UI remains mapped to canonical repository data and corrected generated release metrics."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "lsi_wb_boundary": "Indexed government PDF text can support source-attributed locator metadata, but PDF visibility/indexing does not establish unrestricted redistribution or convert historical survey statements into current policy facts.",
-    "run157_audio_or_transcripts_ingested": false
+    "participant_audio_or_transcripts_ingested_run158": false,
+    "consent_inferred_run158": false,
+    "community_validation_inferred_run158": false,
+    "run158_boundary": "Reconciliation of a bibliographic identity does not alter copyright, participant consent, privacy, community validation or cultural-access status for underlying MunTTS/Karya materials."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
     "release_metrics_json_tex_synced": true,
     "sources": 41,
     "raw_web_records": 90,
-    "unique_web_leads": 88,
-    "duplicate_web_records": 2,
+    "unique_web_leads": 87,
+    "duplicate_web_records": 3,
     "canonicalized_web_leads": 13,
-    "unresolved_unique_web_leads": 75,
+    "unresolved_unique_web_leads": 74,
     "claims_evidence_links": "52/52/52",
-    "build_state": "Run-156 final head independently verified 4/4 green. Run-157 does not change count-bearing release metrics, evidence counts or manuscript numerics; fresh CI is required on the final run-157 status head."
+    "generated_metrics_state": "synchronized after run158 duplicate correction",
+    "build_state": "Run-157 final head independently verified 4/4 green; fresh CI required on run-158 final status head."
   },
   "ci": {
-    "run156_final_head_9e0cee5": {"source_register":"success #1256","migration":"success #1306","streamlit":"success #1417","publication":"success #1270","green_4_of_4":true},
-    "run157_tests_added": "tests/test_run157_lsi_wb_audit.py",
+    "last_independently_verified_green_head": "665d41cac386e68d26c148ea602dd4856e9c3552",
+    "run157_verified": {
+      "source_register": "success #1262",
+      "migration": "success #1312",
+      "streamlit": "success #1423",
+      "publication": "success #1276",
+      "green_4_of_4": true
+    },
+    "run158_tests_added": "tests/test_run158_muntts_duplicate_reconciliation.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run157": false
+    "green_4_of_4_claimed_for_run158": false
   },
   "blockers": [
-    "75 unique web leads require deterministic disposition/canonicalization.",
-    "WEB-MUN-0090 is a distinct verified MunTTS paper source but permanent SRC-MMSC assignment remains pending an atomic standalone-register/census-metric update.",
-    "The MunTTS paper reports 26,868 final sentence-recording pairs while the Karya corpus README reports 26,870 recordings; version/curation explanation remains unverified.",
-    "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
+    "74 unique web leads require deterministic disposition/canonicalization.",
+    "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
-    "Official LSI West Bengal Part I indexed Mundari locator is now recorded at printed page 44, but authoritative PDF retrieval returned HTTP 502; bytes/hash/page-image verification remains incomplete.",
+    "Official LSI West Bengal Part I indexed Mundari locator is recorded, but authoritative PDF bytes/hash/page-image verification remains incomplete after retrieval failure.",
+    "Mundarica has zero authoritative scans registered; scan hashes, page-image comparison and verification for I-XVI remain incomplete.",
     "Participant-derived audio/video/dataset material remains gated by consent, privacy, community and cultural-access review.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact locators.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation.",
-    "Nirang Pajhra lacks authoritative PRGI/RNI manifestation and issue-level provenance."
+    "Nirang Pajhra lacks authoritative PRGI/RNI manifestation and issue-level provenance.",
+    "MunTTS paper reports 26,868 final sentence-recording pairs whereas the Karya corpus repository reports 26,870 recordings; version/curation explanation remains unverified."
   ],
-  "deadline_progress": {"status":"on_target_but_gate_open","principle":"deadline never authorizes marking unavailable, restricted or unverified material complete"},
+  "deadline_progress": {
+    "status": "on_target_but_gate_open",
+    "deadline": "2026-09-21T23:59:00+05:30",
+    "principle": "deadline never authorizes marking unavailable, restricted or unverified material complete"
+  },
   "release_gate": {
     "status": "NOT_PASS",
     "schema_category_representation_100": true,
@@ -120,11 +162,12 @@
     "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, consent/cultural-access gates and incomplete source manifestations remain."
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-157 final status head and repair any failure without touching main.",
-    "Atomically reconcile WEB-MUN-0090 into the standalone MMSC register only when the full register and all count-bearing metrics/tests can be updated consistently without rights overclaim.",
-    "Continue deterministic disposition of 75 unresolved unique web leads with DOI/handle/catalogue identity checks first.",
-    "Retry authoritative Census workbook bytes/hash/cell acquisition and official LSI Jharkhand and West Bengal PDF byte/page verification.",
-    "Advance lawful full-text/exact-locator evidence ingestion where rights and cultural access permit, prioritizing public-domain grammar/book manifestations and institutional theses.",
-    "Retain unavailable, restricted and culturally uncertain media as explicit gaps rather than treating discoverability as permission."
+    "Verify all four workflows on the run-158 final status head and repair any failure without touching main.",
+    "Continue deterministic disposition of the 74 unresolved unique web leads, prioritizing exact DOI/handle/catalogue matches and duplicate detection before assigning new identities.",
+    "Retry authoritative Census workbook acquisition and record independent hashes, worksheet names, exact Munda/Mundari row and numeric-cell locators before promoting demographic values.",
+    "Retry official LSI Jharkhand and West Bengal PDF byte acquisition and page-image verification; preserve indexed-text locators as metadata-only until bytes are verified.",
+    "Advance authoritative Mundarica scan/hash/page accounting and structuring volume by volume without treating OCR or human attestation as scan verification.",
+    "Advance lawful full-text/exact-locator evidence ingestion where rights and cultural access permit while retaining participant/community-sensitive material behind governance gates.",
+    "Keep the 42-module Streamlit surface and Q1 manuscript synchronized from canonical metrics after every count-bearing change."
   ]
 }
