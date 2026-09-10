@@ -1,0 +1,56 @@
+{
+  "verification_id": "MMSC-VERIFY-MULLICK-2000-RUN148",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-10T04:31:15Z",
+  "source_class": "peer_reviewed_ethnographic_gender_article",
+  "title": "Gender Relations and Witches among the Indigenous Communities of Jharkhand, India",
+  "creator": "Samar Bosu Mullick",
+  "year": 2000,
+  "journal": "Gender, Technology and Development",
+  "volume": 4,
+  "issue": 3,
+  "pages": "333-358",
+  "doi": "10.1177/097185240000400301",
+  "publisher": "SAGE Publications",
+  "canonical_url": "https://journals.sagepub.com/doi/10.1177/097185240000400301",
+  "publisher_verification": {
+    "exact_doi_verified": true,
+    "title_author_year_verified": true,
+    "volume_issue_pages_verified": true,
+    "first_published_month": "November 2000",
+    "publisher_labels_restricted_access": true,
+    "publisher_permissions_route_present": true
+  },
+  "scope_boundary": {
+    "publisher_abstract_mentions_munda_and_ho_in_jharkhand": true,
+    "publisher_abstract_describes_analysis_of_myths_legends_and_witch_songs": true,
+    "cultural_content_promoted": false,
+    "participant_or_community_material_ingested": false,
+    "bounded_use": "Bibliographic identity, study scope and access/rights boundary only. No myth, legend, witch-song content, participant/community-derived material, or cultural proposition is ingested from this candidate in this run."
+  },
+  "deduplication": {
+    "audited_standalone_registry_exact_doi_or_title_match": false,
+    "mmsc_index_exact_doi_or_title_match": false,
+    "raw_88_lead_corpus_exhaustive_match_check_complete": false,
+    "new_web_id_assigned": false,
+    "new_audited_identity_created": false,
+    "count_change": false,
+    "disposition": "Retain as a verified restricted candidate pending exhaustive deterministic comparison against every raw web-discovery lead before any WEB-MUN identifier or audited identity is assigned."
+  },
+  "rights_access_governance": {
+    "access_state": "publisher_restricted_access",
+    "permissions_state": "publisher_request_permissions_route_verified",
+    "unrestricted_reuse_inferred": false,
+    "public_metadata_treated_as_content_permission": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "community_validation_claimed": false,
+    "content_level_ingestion_allowed_now": false
+  },
+  "integrity": {
+    "cultural_fact_fabricated": false,
+    "rights_fabricated": false,
+    "community_validation_fabricated": false,
+    "completeness_claimed": false,
+    "restricted_content_exposed": false
+  }
+}
