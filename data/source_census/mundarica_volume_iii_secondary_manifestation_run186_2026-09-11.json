@@ -1,0 +1,78 @@
+{
+  "project": "MLHKP",
+  "run": 186,
+  "branch": "mlhkp-v2",
+  "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
+  "work": {
+    "title_as_catalogued": "Encyclopedia Mundarica Vol-iii (1930)",
+    "creator_as_catalogued": "Superintendent Government Printing Bihar And Orissa, Patna",
+    "publication_year_as_catalogued": 1930,
+    "publisher_as_catalogued": "Superintendent Government Printing Bihar And Orissa, Patna"
+  },
+  "secondary_digitized_manifestation": {
+    "repository": "Internet Archive",
+    "item_identifier": "in.ernet.dli.2015.14921",
+    "ark": "ark:/13960/t3907ds0b",
+    "upstream_source_label": "Digital Library of India Item 2015.14921",
+    "upstream_source_handle": "http://www.new.dli.ernet.in/handle/2015/14921",
+    "upstream_source_library": "Lbs National Academy Of Administration",
+    "scanning_centre": "C-DAC, Noida",
+    "digital_republisher": "Digital Library Of India",
+    "digital_publication_date": "2006-11-15",
+    "internet_archive_added_date": "2017-01-19",
+    "catalogued_total_pages": 264,
+    "ocr_engine_as_catalogued": "ABBYY FineReader 11.0",
+    "ppi_as_catalogued": 600,
+    "repository_rights_label_as_catalogued": "Out_of_copyright",
+    "pdf_download_listed": true,
+    "pdf_with_text_download_listed": true,
+    "single_page_processed_jp2_zip_listed": true,
+    "full_text_download_listed": true,
+    "manifestation_page_images_independently_compared_to_physical_authoritative_copy": false,
+    "manifestation_hash_verified": false,
+    "authoritative_release_scan": false
+  },
+  "mundarica_release_accounting": {
+    "volume": "III",
+    "previous_state": "historical locator recorded; no authoritative registered scan; not verified complete",
+    "new_defensible_state": "historical locator plus exact secondary DLI/Internet Archive manifestation metadata verified; 264 catalogued scan pages; OCR provenance recorded; no authoritative physical-copy comparison or independent hash; not verified complete",
+    "authoritative_scans_registered_delta": 0,
+    "verified_complete_volumes_delta": 0,
+    "ocr_promoted_to_verified_transcription": false
+  },
+  "rights_and_cultural_access": {
+    "repository_rights_label_recorded_as_metadata_only": true,
+    "repository_rights_label_treated_as_independently_adjudicated_rights": false,
+    "repository_download_visibility_treated_as_reuse_permission": false,
+    "full_text_redistribution_permission_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "cultural_access_overrides_technical_or_repository_availability": true
+  },
+  "evidence_boundary": {
+    "promoted": [
+      "exact secondary digitized manifestation identity",
+      "catalogued bibliographic metadata",
+      "upstream DLI handle and source-library metadata",
+      "catalogued 264-page scan accounting",
+      "catalogued OCR engine, PPI and listed derivative formats",
+      "repository-supplied Out_of_copyright label recorded without independent legal adjudication"
+    ],
+    "cultural_passages_ingested": false,
+    "ocr_text_ingested_as_verified": false,
+    "page_level_cultural_claim_promoted": false,
+    "evidence_graph_count_changed": false,
+    "source_identity_count_changed": false
+  },
+  "blockers": [
+    "Obtain and register an authoritative or institutionally authoritative scan/manifestation suitable for physical/page comparison.",
+    "Acquire byte-preserving permitted files and independently verify hashes before claiming manifestation integrity.",
+    "Compare scan pagination/page images to an authoritative physical or institutional copy before declaring Volume III verified complete.",
+    "Independently review legal reuse status and MLHKP cultural-access rules before passage-level reuse or redistribution; do not elevate the repository metadata label alone into a legal determination.",
+    "Do not treat ABBYY OCR availability as verified transcription."
+  ],
+  "source_verification": {
+    "verified_url": "https://archive.org/details/in.ernet.dli.2015.14921",
+    "verified_utc": "2026-09-10T23:37:00Z"
+  }
+}
