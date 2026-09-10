@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T01:34:00Z",
-  "observed_head_before_status_sync": "e074031291e55fbdbd2af646ee6f65fb2264dc51",
+  "updated_utc": "2026-09-10T01:52:00Z",
+  "observed_head_before_status_sync": "498d8d712aa07746e118d515606cf8478195a925",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -21,7 +21,7 @@
       "per_volume_state": {
         "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 142 did not alter conservative Mundarica scan/hash/page/OCR states."
+      "cycle_state": "Run 143 is non-Mundarica and did not alter conservative Mundarica scan/hash/page/OCR states."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -33,9 +33,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 29,
-      "latest_search_id": "MMSC-SEARCH-000142",
-      "latest_search_record_path": "data/source_census/search_log_run142.jsonl",
-      "latest_verification": "Run 142 strengthened WEB-MUN-0088 taxonomy evidence: the Bangladesh government-hosted Munda page describes its linguistic heritage as Mundari, while an external language reference identifies Mundari as ISO 639-3 unr / Glottocode mund1320 and records presence in Bangladesh. Because the archive collection label remains Munda and no authoritative item-level crosswalk was obtained, deterministic merge remains blocked and no content was promoted.",
+      "latest_search_id": "MMSC-SEARCH-000143",
+      "latest_search_record_path": "data/source_census/search_log_run143.jsonl",
+      "latest_verification": "Run 143 upgraded the existing W. G. Archer A Munda song book stream by separating the two-catalogue-verified 1942 United Press/Patna manifestation (OL6506296M; LCCN 46029131; OCLC 4512074; catalogued 550 pages) from an undated Catholic Press/Ranchi bookseller-listed manifestation candidate. No new audited identity or web-lead count was created.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -55,14 +55,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules remain mapped; Run 142 changes are audit/provenance metadata only."
+      "sync_note": "42/42 modules remain mapped; Run 143 changes are source-census/provenance metadata only and require no module remap."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "WEB-MUN-0088 remains gated for item-level reuse terms, speaker consent/privacy/publicity, community validation and cultural-access classification despite public archive visibility."
+      "cycle_state": "Archer song-book catalogue discoverability and a secondary bookseller listing are not treated as song-level reuse permission, participant/collector consent, community validation, or culturally unrestricted access. No song text or semantic cultural claim was ingested."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -74,7 +74,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-141 status head 21d3b31a4650025a73f97420ccb77d3cd37d7a4d independently verified 4/4 green: Source Register Audit 1141, Migration Audit 1191, Streamlit Smoke Test 1289, Publication Build 1142. Run-142 audit commits require fresh CI."
+      "manuscript_build_state": "Run-142 status head 2743c60150c114b8230115fe2ac5c8c66b4302f4 independently verified 4/4 green: Source Register Audit 1146, Migration Audit 1196, Streamlit Smoke Test 1294, Publication Build 1147. Run-143 commits require fresh CI."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,27 +82,28 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run142_advanced_source": "WEB-MUN-0088 Bangladesh Munda/Mundari taxonomy reconciliation",
-      "promotion_boundary": "Discovery/provenance metadata only; no source identity, cultural claim, evidence row or provenance link promoted."
+      "run143_advanced_source": "Existing W. G. Archer A Munda song book source stream: 1942 United Press/Patna manifestation versus Catholic Press/Ranchi manifestation candidate",
+      "promotion_boundary": "Bibliographic manifestation/provenance metadata only; no song content, cultural claim, evidence row or provenance link promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "21d3b31a4650025a73f97420ccb77d3cd37d7a4d",
+    "last_verified_all_four_green_commit": "2743c60150c114b8230115fe2ac5c8c66b4302f4",
     "four_of_four_green_claim_for_that_head": true,
-    "verified_runs_for_that_head": {"source_register_audit":1141,"migration_audit":1191,"streamlit_smoke_test":1289,"publication_build":1142},
-    "new_commits_this_cycle_before_status_sync": ["c11d585d70119fa0e56c46464362c0ebb53d9272","e074031291e55fbdbd2af646ee6f65fb2264dc51"],
-    "new_head_ci_state_at_status_write": "Run-142 status-sync commit requires fresh CI; Run-141 4/4 green is not projected onto the new head."
+    "verified_runs_for_that_head": {"source_register_audit":1146,"migration_audit":1196,"streamlit_smoke_test":1294,"publication_build":1147},
+    "new_commits_this_cycle_before_status_sync": ["843ca82fc71453fb3184dc191d16c73914ad16c8","498d8d712aa07746e118d515606cf8478195a925"],
+    "new_head_ci_state_at_status_write": "Run-143 status-sync commit requires fresh CI; Run-142 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Verified Run-141 head 21d3b31a4650025a73f97420ccb77d3cd37d7a4d as 4/4 green.",
-    "Added data/source_census/bangladesh_munda_taxonomy_reconciliation_run142_2026-09-10.json.",
-    "Recorded that the Bangladesh government archive labels the collection Munda but describes its linguistic heritage as Mundari.",
-    "Recorded external evidence identifying Mundari as ISO 639-3 unr / Glottocode mund1320 with Bangladesh presence.",
-    "Kept WEB-MUN-0088 unmerged because no authoritative item-level taxonomy crosswalk, collection audit or speaker-level provenance was obtained.",
-    "Added data/source_census/search_log_run142.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
+    "Verified Run-142 status head 2743c60150c114b8230115fe2ac5c8c66b4302f4 as 4/4 green.",
+    "Added data/source_census/archer_munda_song_book_manifestation_reconciliation_run143_2026-09-10.json.",
+    "Preserved OL6506296M / LCCN 46029131 / OCLC 4512074 as deterministic identifiers for the 1942 United Press/Patna manifestation.",
+    "Separated an undated Catholic Press/Ranchi bookseller-listed copy as a manifestation candidate pending institutional or primary-object edition/reprint evidence.",
+    "Did not duplicate the existing Archer source stream, did not add a web lead, and did not promote song text, song count, contributor roles beyond verified catalogue responsibility, reuse permission or cultural claims.",
+    "Added data/source_census/search_log_run143.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links."
   ],
   "blockers": [
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "The Archer song-book Catholic Press/Ranchi candidate lacks an authoritative title-page/colophon or institutional catalogue crosswalk to the verified 1942 United Press/Patna manifestation; lawful inspectable bytes, independent checksum/page accounting, song-level rights and cultural-access review are also missing.",
     "WEB-MUN-0088 taxonomy is partially reconciled but still lacks an authoritative item-level Munda/Mundari identifier crosswalk, collection methodology, item-level rights, speaker consent/provenance and cultural-access disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Authoritative Mundarica scans, independent hashes and complete page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
@@ -114,7 +115,7 @@
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
     "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-142 status head."
+    "Fresh four-workflow verification is required for the newest Run-143 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -141,6 +142,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation.",
+    "Locate an institutional catalogue or inspectable title-page/colophon for the Archer Catholic Press/Ranchi candidate and reconcile it with the 1942 United Press/Patna manifestation before deeper ingestion.",
     "Resolve WEB-MUN-0088 item-level taxonomy/collection provenance and speaker/item rights before any content-level use.",
     "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
     "Acquire and independently hash the official LSI Jharkhand PDF and verify the Mundari printed-page-71 locator against the actual page image/PDF index.",
