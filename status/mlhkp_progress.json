@@ -4,15 +4,19 @@
   "pr": 1,
   "merge_policy": "NEVER merge main",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T05:39:00Z",
+  "updated_utc": "2026-09-10T05:47:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "latest_run": 150,
   "head_at_cycle_start": "a7e95635d71c0d67aa8367bd52815d03d61a41f2",
-  "head_before_status_sync": "a0d2d1edccfbd74605691550787cc358a4432b5c",
-  "cycle_commits_before_status_sync": [
+  "preliminary_status_sync_commit": "f4f4e7a4bb5155df96576e54f9467e991da49b83",
+  "head_before_final_status_sync": "6edfd8e6e39fa80054a04eacceeca8277d70db1b",
+  "cycle_commits_before_final_status_sync": [
     "f224c9ec64a33e949087a85e30158f06365b12b3",
-    "a0d2d1edccfbd74605691550787cc358a4432b5c"
+    "a0d2d1edccfbd74605691550787cc358a4432b5c",
+    "f4f4e7a4bb5155df96576e54f9467e991da49b83",
+    "2a901d81da3b9bae47d569b822a76a11b056c40b",
+    "6edfd8e6e39fa80054a04eacceeca8277d70db1b"
   ],
   "A_mundarica": {
     "expected_release_slots": 16,
@@ -36,7 +40,7 @@
     },
     "ocr_is_not_verified_transcription": true,
     "human_review_attestations_preserved_without_machine_upgrade": true,
-    "run150_change": "No Mundarica verification state was upgraded; authoritative scan/hash/page comparison remains blocked."
+    "run150_change": "No Mundarica verification state was upgraded; CI reconfirmed Volume I has 324 contiguous page blocks but explicitly does not certify scan comparison, transcription accuracy or verified completeness."
   },
   "B_mmsc": {
     "status": "federated_census_canonicalization_and_ingestion_active",
@@ -50,7 +54,7 @@
     "web_discovery_unique_leads_remaining_outside_audited_identity_total": 74,
     "latest_search_id": "MMSC-SEARCH-000150",
     "latest_search_record_path": "data/source_census/search_log_run150.jsonl",
-    "latest_verification": "Run 150 verified from the authoritative ORGI C-17 Jharkhand catalogue that both 'Language - Total speakers - MUNDA' and 'Language - Total speakers - MUNDARI' are explicit table-row labels under HS_Q10. This is metadata/schema verification only: workbook bytes, checksum, worksheet, physical row numbers, numeric cells and values remain unverified. No new identity or numeric/cultural claim was created.",
+    "latest_verification": "Run 150 verified from authoritative ORGI C-17 Jharkhand catalogue metadata that both 'Language - Total speakers - MUNDA' and 'Language - Total speakers - MUNDARI' are explicit table-row labels under HS_Q10. Workbook bytes, checksum, worksheet, physical row numbers, numeric cells and values remain unverified. No new identity or numeric/cultural claim was created.",
     "systematic_census_documented_for_release": true,
     "source_complete_claim": false
   },
@@ -71,7 +75,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run150_ui_change": "none required; evidence and release metrics remain mapped"
+    "run150_ui_change": "none required; CI failure occurred before Streamlit smoke execution because publication-sync compatibility key was missing, and that compatibility defect was repaired."
   },
   "E_rights_access_consent": {
     "public_availability_is_not_permission": true,
@@ -83,6 +87,7 @@
   "F_publication": {
     "sources_discovered": 41,
     "web_discovery_records_observed": 88,
+    "web_discovery_leads_observed_backward_compatible_alias": 88,
     "web_discovery_unique_leads": 87,
     "web_discovery_duplicate_records": 1,
     "canonicalized_web_leads": 13,
@@ -91,10 +96,10 @@
     "evidence_records": 52,
     "evidence_links": 52,
     "metrics_changed_this_cycle": false,
-    "metrics_change_reason": "C-17 catalogue schema metadata strengthened without count or evidence inflation",
+    "metrics_change_reason": "C-17 catalogue schema metadata strengthened without count/evidence inflation; publication generator restored backward-compatible raw-lead alias while preserving 88 raw records versus 87 unique leads.",
     "release_metrics_json_tex_synced": true,
-    "latex_manuscript_state": "Q1-target manuscript present; build state requires fresh CI on Run 150 head",
-    "repository_metrics_sync_state": "synchronized for unchanged quantitative metrics"
+    "latex_manuscript_state": "Q1-target manuscript present; fresh publication build on final Run 150 head required",
+    "repository_metrics_sync_state": "synchronized for unchanged quantitative metrics and raw/unique web-lead semantics"
   },
   "G_evidence": {
     "source_claims": 52,
@@ -106,19 +111,29 @@
     "promotion_state": "official_catalogue_schema_metadata_only"
   },
   "H_ci_tests": {
-    "cycle_start_head": "a7e95635d71c0d67aa8367bd52815d03d61a41f2",
-    "cycle_start_migration_audit": "success (run 1243 verified)",
-    "fresh_head_status": "pending verification after Run 150 status sync",
-    "required_workflows": ["Source Register Audit", "Migration Audit", "Streamlit Smoke Test", "Publication Build"],
+    "pre_repair_head": "f4f4e7a4bb5155df96576e54f9467e991da49b83",
+    "pre_repair_results": {
+      "MLHKP Source Register Audit": "success run 1198",
+      "MLHKP Migration Audit": "success run 1248",
+      "MLHKP Streamlit Smoke Test": "failure run 1349 at publication-sync contract before Streamlit smoke tests",
+      "MLHKP Publication Build": "in_progress when failure was diagnosed"
+    },
+    "failure_root_cause": "tests/test_publication_sync.py required backward-compatible release_metrics key web_discovery_leads_observed while the generated release metrics exposed only web_discovery_records_observed after raw-versus-unique metric refinement.",
+    "repair_commits": ["2a901d81da3b9bae47d569b822a76a11b056c40b", "6edfd8e6e39fa80054a04eacceeca8277d70db1b"],
+    "repair": "Generator and checked-in release metrics now retain web_discovery_leads_observed as an explicit backward-compatible alias equal to raw observed records (88), while web_discovery_unique_leads remains 87. No count was changed to force a pass.",
+    "required_workflows": ["MLHKP Source Register Audit", "MLHKP Migration Audit", "MLHKP Streamlit Smoke Test", "MLHKP Publication Build"],
+    "fresh_head_status": "all four workflows queued on repair head 6edfd8e6e39fa80054a04eacceeca8277d70db1b before final status sync; final status commit requires its own fresh CI verification",
     "four_of_four_green_claim_for_final_head": false
   },
   "run150_changes": [
     "Verified authoritative C-17 Jharkhand catalogue row labels for MUNDA and MUNDARI under HS_Q10.",
-    "Added census_2011_c17_jharkhand_munda_mundari_row_labels_run150_2026-09-10.json with an explicit verification boundary.",
-    "Added MMSC-SEARCH-000150 search log and preserved existing Census canonical identity without count inflation.",
-    "Preserved 41 audited identities, 87 unique web leads, 74 unresolved unique leads and 52/52/52 claim-evidence-provenance metrics.",
+    "Added census_2011_c17_jharkhand_munda_mundari_row_labels_run150_2026-09-10.json with explicit verification boundaries.",
+    "Added MMSC-SEARCH-000150 and reused the existing Census identity without count inflation.",
+    "Preserved 41 audited identities, 88 raw web records, 87 unique web leads, 1 duplicate record, 13 canonicalized web leads, 74 unresolved unique leads and 52/52/52 claim-evidence-provenance metrics.",
     "Did not promote Census numeric values because authoritative workbook bytes, independent checksum, worksheet and exact numeric cell coordinates remain unverified.",
-    "Carried forward exact Mundarica per-volume release states without false OCR/scan verification."
+    "Carried forward exact Mundarica per-volume states without false OCR/scan verification.",
+    "Diagnosed the Run 150 Streamlit-workflow failure as a publication metric compatibility defect, not an application/data failure.",
+    "Repaired publication metric compatibility by restoring the legacy raw-lead key as a semantic alias, without collapsing 88 raw records and 87 unique leads or changing audited counts."
   ],
   "blockers": [
     "74 unique web-discovery leads still require deterministic disposition/canonicalization.",
@@ -130,7 +145,7 @@
     "Lawful full manifestations and exact locators remain incomplete for multiple grammar/dictionary/TRI/scholarly sources.",
     "Original primary search logs MMSC-SEARCH-000034 through 000038 and 000041 remain missing from the normalized primary log.",
     "Reported 1941 Mundari hockey booklet still lacks an independently verified primary manifestation.",
-    "Fresh four-workflow CI verification is required on the final Run 150 head."
+    "Fresh four-workflow CI verification is required on the final Run 150 status head after the publication-sync repair."
   ],
   "deadline_progress": {
     "deadline_ist": "2026-09-21T23:59:00+05:30",
@@ -144,16 +159,15 @@
     "systematic_census_documented": true,
     "all_public_claims_provenance_linked": true,
     "unavailable_restricted_unverified_gaps_enumerated": true,
-    "no_broken_ids_or_provenance_claimed_without_fresh_audit": true,
     "completeness_audit_pass": false,
-    "reason": "Outstanding source-identity dispositions, authoritative byte/hash/page verification, rights/consent/cultural-access gates, incomplete Mundarica artifact coverage and fresh CI remain."
+    "reason": "Outstanding source-identity dispositions, authoritative byte/hash/page verification, rights/consent/cultural-access gates, incomplete Mundarica artifact coverage and fresh final-head CI remain."
   },
   "next_priority": [
+    "Verify all four workflows on the final Run 150 status head and repair any remaining failure without touching main.",
     "Continue deterministic disposition of the 74 unique unresolved web leads without count inflation.",
     "Acquire/verify official Census workbook bytes and exact numeric cell locators where obtainable, beginning with C-17 now that MUNDA/MUNDARI catalogue row labels are explicit.",
     "Obtain official LSI Jharkhand bytes and verify printed pages 16 and 71 against page images.",
     "Advance lawful full-text/exact-locator ingestion for high-quality non-participant or clearly permitted sources.",
-    "Formalize authoritative Mundarica scan/hash/page evidence where lawfully obtainable; do not convert human attestations into machine verification.",
-    "Verify all four GitHub workflows on the final Run 150 head and repair any failure without touching main."
+    "Formalize authoritative Mundarica scan/hash/page evidence where lawfully obtainable; do not convert human attestations into machine verification."
   ]
 }
