@@ -1,0 +1,57 @@
+{
+  "audit_id": "MLHKP-RUN168-LEXIBANK-PEIROS-MUNDARI",
+  "run": 168,
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-10T14:45:00Z",
+  "source_class": "licensed_linguistic_dataset",
+  "source": {
+    "title": "CLDF dataset derived from Peiros' Genetic classification of Austro-Asiatic languages",
+    "dataset_key": "peirosaustroasiatic",
+    "version": "v1.0",
+    "repository": "Lexibank",
+    "zenodo_doi": "10.5281/zenodo.5127536",
+    "mundari_variety_page": "https://lexibank.clld.org/languages/peirosaustroasiatic-Mundari",
+    "language_name": "Mundari",
+    "glottocode": "mund1320",
+    "iso639_3": "unr",
+    "coordinates_wgs84": {"latitude": 22.55, "longitude": 85.09},
+    "database_license": "CC BY 4.0"
+  },
+  "exact_locator": {
+    "kind": "dataset_language_record",
+    "locator": "Lexibank language page peirosaustroasiatic-Mundari",
+    "supports": [
+      "language identity Mundari",
+      "Glottocode mund1320",
+      "ISO 639-3 unr",
+      "dataset DOI 10.5281/zenodo.5127536",
+      "dataset version v1.0",
+      "WGS84 coordinates 22.55, 85.09",
+      "Lexibank database license CC BY 4.0"
+    ]
+  },
+  "promotion": {
+    "exact_locator_promoted": true,
+    "dataset_rows_ingested": false,
+    "lexical_forms_ingested": false,
+    "cognate_assignments_ingested": false,
+    "cultural_claims_added": 0,
+    "numeric_cultural_claims_added": 0,
+    "new_permanent_identity_created": false,
+    "counts_changed": false
+  },
+  "rights_and_uncertainty": {
+    "database_license_verified_from_lexibank_page": true,
+    "underlying_source_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "coordinate_interpretation_boundary": "Coordinates are retained as dataset metadata only and are not treated as a precise cultural boundary, settlement claim, participant location, or contemporary territorial assertion.",
+    "reuse_boundary": "CC BY 4.0 supports reuse of the Lexibank database content subject to attribution, but does not by itself establish rights in every underlying historical source, participant-derived material, or culturally sensitive content."
+  },
+  "dedupe_state": {
+    "decision": "candidate_exact_locator_audit_only",
+    "permanent_registration_deferred": true,
+    "reason": "Run 168 advances the discoverable source to an exact licensed dataset-language locator without changing permanent census counts until the source is deterministically reconciled against all immutable WEB-MUN observations and standalone identities in one synchronized count-bearing transaction."
+  }
+}
