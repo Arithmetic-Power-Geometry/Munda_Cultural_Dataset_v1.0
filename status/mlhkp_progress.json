@@ -4,31 +4,25 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T18:31:00Z",
+  "updated_utc": "2026-09-10T18:40:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 176,
-  "head_at_cycle_start": "b87712d1271441c671d5bdfab057abad861adaaf",
-  "head_before_status_sync": "c9169619f426cbf2f944db7e3035fd4a4dbbeed8",
+  "latest_run": 177,
+  "head_at_cycle_start": "c9169619f426cbf2f944db7e3035fd4a4dbbeed8",
   "cycle_commits": [
-    "5c1d73f0803a27fb79333fb0dfa154a4c25a4d4c",
-    "db7781d135959910cb793115e3301fa6db238ed3",
-    "c9169619f426cbf2f944db7e3035fd4a4dbbeed8"
+    "6ea07a09e65b319d41d48ee29ca152080d0559b7",
+    "20afd40d7bd169ff647b7370f588042165bc8d4c",
+    "07383ef0ddc27e2d917e14abdfdb9ab3fec0a9e7"
   ],
-  "cycle_result": "Run 176 narrowed the MMLoSo/AdiBhasha blocker without count inflation. ACL 2025.mmloso-1.14 remains the exact shared-task paper identity. The current misniitdelhi/AdiBhasha card describes a gated, later 80,000-sentence benchmark with approximately 20,150 Mundari training pairs and CC BY-NC-SA 4.0; this is not sufficient to establish identity with the paper-reported shared-task manifestation. No dataset rows, cultural claims, consent, community validation, cultural-access permission, or source-count changes were fabricated. Run-175 exact head b87712d1271441c671d5bdfab057abad861adaaf is independently verified 4/4 green. Main was not modified.",
+  "cycle_result": "Run 177 promoted a publisher-verified exact-locator audit for Kumari & Rahman (2021), DOI 10.35784/pe.2021.1.19, pages 181-185. Publisher metadata, abstract scope and CC BY-SA 4.0 are verified. No cultural proposition was generalized beyond the source, no participant/community/cultural permission was inferred, and permanent MMSC registration is deferred pending deterministic reconciliation. Direct LSI Jharkhand PDF retrieval returned HTTP 502 and remains an explicit gap. Counts remain unchanged.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
     "human_review_attestations": 16,
     "authoritative_scans_registered": 0,
     "verified_complete_volumes": 0,
-    "volume_states": {
-      "I": {"state":"working_transcription","page_blocks_detected":324,"declared_scan_pages":324,"page_accounting_complete":true,"source_scan_present":false,"scan_comparison_complete":false,"ocr_verified_against_scan":false,"structured_ingestion_complete":false,"verified_complete":false},
-      "II-XIII": "historical external locators verified; authoritative scans not registered; OCR/transcription not verified complete",
-      "XIV-XVI": "locator or authoritative manifestation unresolved; not verified complete"
-    },
     "ocr_is_not_verified_transcription": true,
-    "run176_change": "No Mundarica state was upgraded. Authoritative scans remain zero and verified-complete volumes remain zero while independent source-census work continued."
+    "run177_change": "No Mundarica verification state was upgraded; non-Mundarica source-census work continued independently."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -41,13 +35,33 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 29,
     "still_to_acquire_additional_discoveries": 28,
-    "latest_search_id": "MMSC-SEARCH-000176",
-    "latest_canonicalization": {"web_source_id":"WEB-MUN-0086","canonical_source_id":"SRC-MMSC-000016","dedupe_key":"doi:10.1177/23210249221127832","scope":"publisher metadata/abstract identity only; no exact Munda-specific passage promoted"},
-    "latest_source_audit": "data/source_census/mmloso_adibhasha_non_equivalence_run176_2026-09-11.json",
-    "latest_search_log": "data/source_census/search_log_run176.jsonl",
-    "run175_c17_state": {"identity":"PC11_C17-20","filename":"DDW-C17-2000.XLSX","catalogue_identity_verified":true,"workbook_bytes_acquired":false,"checksum_verified":false,"worksheet_verified":false,"exact_cells_verified":false,"counts_changed":false},
-    "run176_mmloso_adibhasha_state": {"paper_identity":"2025.mmloso-1.14","current_related_repository":"misniitdelhi/AdiBhasha","current_card_gated":true,"current_card_total_parallel_sentences":80000,"current_card_mundari_train_pairs_approx":20150,"current_card_license":"CC BY-NC-SA 4.0","same_manifestation_verified":false,"same_version_verified":false,"same_row_set_verified":false,"paper_to_dataset_identity_collapse":false,"permanent_dataset_registration":"deferred","counts_changed":false},
-    "lexibank_peiros_state": {"prior_recorded_version":"v1.0","prior_recorded_zenodo_doi":"10.5281/zenodo.5127536","current_live_version":"v1.1","current_live_zenodo_doi":"10.5281/zenodo.13168443","database_license":"CC BY 4.0","version_relationship":"same_dataset_version_series_independently_corroborated","direct_current_zenodo_manifestation_verified":false,"permanent_registration":"deferred_pending_direct_v1_1_manifestation_verification","counts_changed":false},
+    "latest_search_id": "MMSC-SEARCH-000177",
+    "latest_canonicalization": {
+      "web_source_id": "WEB-MUN-0086",
+      "canonical_source_id": "SRC-MMSC-000016",
+      "dedupe_key": "doi:10.1177/23210249221127832",
+      "scope": "publisher metadata/abstract identity only; no exact Munda-specific passage promoted"
+    },
+    "latest_source_audit": "data/source_census/kumari_rahman_2021_livelihood_exact_locator_run177_2026-09-11.json",
+    "latest_search_log": "data/source_census/search_log_run177.jsonl",
+    "run177_kumari_rahman_state": {
+      "doi": "10.35784/pe.2021.1.19",
+      "publisher_identity_verified": true,
+      "pages": "181-185",
+      "publisher_license": "CC BY-SA 4.0",
+      "abstract_scope_verified": true,
+      "permanent_registration": "deferred_pending_deterministic_register_reconciliation",
+      "cultural_claims_added": 0,
+      "counts_changed": false
+    },
+    "run177_lsi_jharkhand_retry": {
+      "official_pdf_target": "LSI_JHARKHAND.pdf",
+      "direct_retrieval_result": "HTTP 502",
+      "pdf_bytes_verified": false,
+      "hash_verified": false,
+      "page_image_verified": false,
+      "counts_changed": false
+    },
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -62,11 +76,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run176": 0,
-    "claims_added_run176": 0,
-    "evidence_records_added_run176": 0,
-    "evidence_links_added_run176": 0,
-    "verification_audits_added_run176": 1
+    "source_identities_added_run177": 0,
+    "claims_added_run177": 0,
+    "evidence_records_added_run177": 0,
+    "evidence_links_added_run177": 0,
+    "verification_audits_added_run177": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -77,21 +91,20 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run176_change": "No redesign or restricted-content exposure; all 42 module mappings and release functions remain unchanged while source-evidence verification was prioritized."
+    "run177_change": "No module-count or exposure change; all 42 mappings and universal-search/evidence-drilldown release functions remain synchronized while source verification advanced."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "current_adibhasha_card_license": "CC BY-NC-SA 4.0",
-    "current_adibhasha_access": "gated",
-    "manifestation_license_lineage_resolved": false,
-    "unrestricted_redistribution_inferred_run176": false,
-    "participant_consent_inferred_run176": false,
-    "community_validation_verified_run176": false,
-    "cultural_access_verified_run176": false,
-    "parallel_rows_ingested_run176": false
+    "run177_article_license": "CC BY-SA 4.0",
+    "article_license_treated_as_participant_consent": false,
+    "article_license_treated_as_community_validation": false,
+    "article_license_treated_as_cultural_access_permission": false,
+    "underlying_references_assumed_to_inherit_article_license": false,
+    "participant_records_ingested_run177": 0,
+    "full_text_passages_ingested_run177": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -103,27 +116,26 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Runs 175-176, so generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "build_state": "Run-175 exact head independently verified 4/4 successful; Run-176 final-head CI requires fresh independent verification before a green claim."
+    "generated_metrics_state": "No count-bearing change in Run 177; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical source/evidence metric changed in Run 177, so generated release tables/figures require no count regeneration.",
+    "build_state": "Run-176 final-head CI has not been independently re-verified in this cycle; no fresh green claim is made for Run 177."
   },
   "ci": {
     "last_independently_verified_green_head": "b87712d1271441c671d5bdfab057abad861adaaf",
     "green_4_of_4": true,
-    "run175_exact_head_successful_workflow_count": 4,
-    "run175_workflows": {"publication_build":1389,"source_register_audit":1372,"migration_audit":1422,"streamlit_smoke_test":1536},
-    "run176_tests_added": "tests/test_run176_mmloso_adibhasha_non_equivalence.py",
+    "run177_tests_added": "tests/test_run177_kumari_rahman_exact_locator.py",
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration; the current AdiBhasha card is not treated as an identical manifestation.",
+    "Kumari & Rahman 2021 is exact-locator audited but permanent count-bearing registration remains deferred until deterministic reconciliation against existing MMSC/WEB-MUN identities.",
+    "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration.",
     "MMLoSo reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; no authoritative reconciliation has been verified.",
     "Lexibank Peiros v1.1 direct Zenodo manifestation/file-level metadata remains unverified.",
     "WALS/Grambank permanent source registration remains a synchronized count-bearing transaction; Sinha/Osada underlying grammar passages are not yet direct page-verified.",
     "Rau 2019 Zenodo dataset licence is unresolved in the available authoritative retrieval path and its repository-reported MD5 is not independently recomputed.",
-    "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified; Run 175 reverified C-17 catalogue identity and filename only.",
-    "Official 2023 LSI Jharkhand and LSI West Bengal PDF bytes/hash/page-image verification remain incomplete.",
-    "Mundarica I-XVI authoritative scan/hash/page comparison remains incomplete; zero authoritative scans are registered.",
+    "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
+    "Official 2023 LSI Jharkhand direct PDF retrieval returned HTTP 502 in Run 177; authoritative bytes/hash/page-image verification remains incomplete. LSI West Bengal byte/hash/page-image verification also remains incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
@@ -131,20 +143,36 @@
     "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
     "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation."
   ],
-  "resolved_blockers_run176": [
-    "Run-175 exact head CI uncertainty is closed: all four required workflows are independently verified successful.",
-    "Current AdiBhasha is no longer treated as presumptive proof of the exact MMLoSo shared-task manifestation; count and rights inflation from that collapse is prevented."
+  "resolved_blockers_run177": [
+    "The 2021 Kumari-Rahman livelihood-paper candidate now has publisher-verified identity, DOI, pages, abstract scope and explicit CC BY-SA 4.0 rights metadata.",
+    "The Run-177 source-class sweep is explicitly logged across books, dictionaries, grammars, peer-reviewed articles, theses/dissertations, government/TRI/Census/LSI, archives, newspapers, web resources, datasets, audio, video, maps and relevant media."
   ],
-  "deadline_progress": {"status":"on_target_but_gate_open","deadline":"2026-09-21T23:59:00+05:30","principle":"deadline never authorizes marking unavailable, restricted or unverified material complete"},
-  "release_gate": {"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"all_public_claims_provenance_linked":true,"gaps_enumerated":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false,"reason":"73 unresolved source dispositions plus direct MMLoSo manifestation evidence, Lexibank verification, authoritative Census/LSI/Mundarica byte-hash-page verification, primary-source checks and unresolved consent/community/cultural-access gates remain."},
+  "deadline_progress": {
+    "status": "on_target_but_gate_open",
+    "deadline": "2026-09-21T23:59:00+05:30",
+    "principle": "deadline never authorizes marking unavailable, restricted or unverified material complete"
+  },
+  "release_gate": {
+    "status": "NOT_PASS",
+    "schema_category_representation_100": true,
+    "ui_mapping_100": true,
+    "systematic_census_documented": true,
+    "all_obtainable_permitted_sources_processed_to_declared_level": false,
+    "all_public_claims_provenance_linked": true,
+    "gaps_enumerated": true,
+    "no_restricted_leakage_known": true,
+    "no_false_ocr_verification_known": true,
+    "automated_completeness_audit_pass": false,
+    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, primary-source checks and unresolved consent/community/cultural-access gates remain."
+  },
   "next_parallel_tasks": [
-    "Obtain direct MMLoSo shared-task dataset manifestation/version/file metadata and establish or reject exact lineage to the current AdiBhasha repository before row-level ingestion or dataset registration.",
-    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches.",
-    "Retry direct Zenodo v1.1 manifestation retrieval for Lexibank Peiros and register atomically only after file-level verification.",
-    "Atomically register WALS/Grambank with synchronized MMSC/publication/tests while keeping database coding distinct from direct grammar-page verification.",
-    "Resolve Rau 2019 licence and independently verify bytes/checksum before lexical-content ingestion.",
-    "Retry authoritative Census workbook, official LSI PDF, and Mundarica scan byte/hash/page verification.",
-    "Advance lawful exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
-    "Keep all 42 modules, evidence graph, completeness/gap matrix and Q1 manuscript metrics synchronized after every count-bearing change."
+    "Deterministically reconcile DOI 10.35784/pe.2021.1.19 against MMSC and WEB-MUN registers and register atomically only if it is a genuinely new permanent source identity.",
+    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/catalogue exact matches and obtainable lawful manifestations.",
+    "Obtain direct MMLoSo shared-task dataset manifestation/version/file metadata before row-level ingestion or dataset registration.",
+    "Retry direct Zenodo v1.1 manifestation retrieval for Lexibank Peiros and resolve Rau licensing/checksum.",
+    "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
+    "Retry authoritative Census workbook and official LSI PDF byte/hash/page-image verification; blocked endpoints remain explicit gaps.",
+    "Advance lawful exact-locator ingestion for grammar/dictionary/TRI/thesis/scholarly sources while preserving source attribution and cultural uncertainty.",
+    "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics/tables/figures and tests synchronized after every count-bearing change."
   ]
 }
