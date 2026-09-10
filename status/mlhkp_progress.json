@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T00:31:00Z",
-  "observed_head_before_status_sync": "d9006459df4b173e3d02ba76d9de4ef3027330b7",
+  "updated_utc": "2026-09-10T00:46:00Z",
+  "observed_head_before_status_sync": "e971730d0f3b83c5ca614646c23e891f4afe7a87",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,24 +19,9 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "per_volume_state": {
-        "I":"located_not_machine_verified_complete",
-        "II":"located_not_machine_verified_complete",
-        "III":"located_not_machine_verified_complete",
-        "IV":"located_not_machine_verified_complete",
-        "V":"located_not_machine_verified_complete",
-        "VI":"located_not_machine_verified_complete",
-        "VII":"located_not_machine_verified_complete",
-        "VIII":"located_not_machine_verified_complete",
-        "IX":"located_not_machine_verified_complete",
-        "X":"located_not_machine_verified_complete",
-        "XI":"located_not_machine_verified_complete",
-        "XII":"located_not_machine_verified_complete",
-        "XIII":"located_library_origin_manifestation_not_machine_verified_complete",
-        "XIV":"modern_manifestation_observed_historical_relationship_unresolved",
-        "XV":"modern_manifestation_observed_historical_relationship_unresolved",
-        "XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
+        "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 140 preserved all 16 human-review attestations and all conservative machine-verification states; no unsupported scan/hash/page/OCR promotion was made."
+      "cycle_state": "Run 141 is non-Mundarica focused; all Mundarica conservative machine-verification states remain unchanged and no unsupported scan/hash/page/OCR promotion was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -44,13 +29,13 @@
       "canonical_master_records": 14,
       "verified_external_mundarica_locators": 13,
       "standalone_mmsc_discoveries": 15,
-      "web_discovery_leads_observed": 87,
+      "web_discovery_leads_observed": 88,
       "web_discovery_leads_counted_in_audited_identity_total": 13,
-      "web_discovery_leads_remaining_outside_audited_identity_total": 74,
+      "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000140",
-      "latest_search_record_path": "data/source_census/search_log_run140.jsonl",
-      "latest_verification": "Run 140 reconciled an exact rights-scope conflict for already-observed Karya ELR-1000: GitHub repository metadata and root LICENSE identify MIT, while the same repository README explicitly states KPL BY-NC-SA-FS 1.0 for the ELR-1000 dataset/work. The conflict was preserved rather than silently resolved; MIT was not treated as a dataset-content licence and no recipe/audio/image/text content was ingested.",
+      "latest_search_id": "MMSC-SEARCH-000141",
+      "latest_search_record_path": "data/source_census/search_log_run141.jsonl",
+      "latest_verification": "Run 141 registered WEB-MUN-0088 for the Bangladesh government-hosted Munda / Multiling Cloud archive. The two public access routes were deduplicated to one candidate lead; the page-reported 860 transcription/audio records were preserved as source metadata only. Munda-versus-Mundari identity, item-level rights, speaker consent, provenance and cultural-access status remain unresolved, so no audio, transcription or cultural proposition was promoted.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -59,7 +44,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign. Run 140 added rights/provenance audit evidence for an existing source identity without creating unsupported cultural graph objects or count-bearing claims."
+      "cycle_state": "No schema redesign. Run 141 adds a discovery-layer archive lead and rights/scope audit only; no unsupported cultural graph object, claim or evidence edge was created."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -70,26 +55,26 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules and shared search/evidence/report/owner-console functions remain mapped; Run 140 changes are provenance-only and require no UI remapping."
+      "sync_note": "42/42 modules remain mapped. Universal discovery search reads the synchronized MMSC discovery index, which now includes expansion run20 / WEB-MUN-0088; no module remapping is required because the lead is discovery-only."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "ELR-1000 now has an explicit licence-scope ambiguity record: root MIT versus README dataset KPL BY-NC-SA-FS 1.0. MLHKP applies the conservative dataset-content boundary, does not infer participant/privacy/community permission from either licence, and ingests no participant-derived cultural content pending scope clarification and cultural-access review."
+      "cycle_state": "Bangladesh Munda archive is explicitly gated: public index visibility and an all-rights-reserved page do not authorize redistribution; language identity, speaker consent, recording provenance, privacy/publicity, community validation and cultural-access review are all unresolved."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
       "sources_discovered": 41,
-      "web_discovery_leads_observed": 87,
+      "web_discovery_leads_observed": 88,
       "canonicalized_web_leads": 13,
       "claims": 52,
       "evidence_records": 52,
       "evidence_links": 52,
-      "metrics_changed_this_cycle": false,
+      "metrics_changed_this_cycle": true,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-139 status head 02f8038c84fb74b18eaf5c14ec80e690d9ee26b4 is independently verified 4/4 green after the previously cancelled Publication Build was rerun successfully: Source Register Audit 1125, Migration Audit 1175, Streamlit Smoke Test 1271, Publication Build 1124. Fresh CI is required for the Run-140 status head; manuscript metrics remain count-stable."
+      "manuscript_build_state": "Run-140 status head bda86b523bd2f183a71779fe6ece5e24c8db5db1 is independently verified 4/4 green: Source Register Audit 1130, Migration Audit 1180, Streamlit Smoke Test 1276, Publication Build 1129. Run-141 changes synchronize the web-discovery metric from 87 to 88; fresh CI is required for the newest status head."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -97,48 +82,41 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run140_advanced_source": "Karya ELR-1000 repository/dataset licence-scope reconciliation",
-      "promotion_boundary": "Rights-and-licence-scope provenance only. No new public cultural fact, participant-derived item, claim, evidence row, provenance link, source identity, or discovery lead was promoted."
+      "run141_advanced_source": "Bangladesh government-hosted Munda / Multiling Cloud archive discovery and scope-rights audit",
+      "promotion_boundary": "Discovery/provenance metadata only. One web lead was added, but no audited source identity, cultural claim, evidence row or provenance link was promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "02f8038c84fb74b18eaf5c14ec80e690d9ee26b4",
+    "last_verified_all_four_green_commit": "bda86b523bd2f183a71779fe6ece5e24c8db5db1",
     "four_of_four_green_claim_for_that_head": true,
-    "verified_runs_for_that_head": {
-      "source_register_audit": 1125,
-      "migration_audit": 1175,
-      "streamlit_smoke_test": 1271,
-      "publication_build": 1124
-    },
-    "new_commits_this_cycle_before_status_sync": [
-      "5e6462db989586c4c6f6d116e71e5f0a8075cd26",
-      "d9006459df4b173e3d02ba76d9de4ef3027330b7"
-    ],
-    "new_head_ci_state_at_status_write": "Run-140 status-sync commit requires fresh CI; Run-139 4/4 green is not projected onto the new head."
+    "verified_runs_for_that_head": {"source_register_audit":1130,"migration_audit":1180,"streamlit_smoke_test":1276,"publication_build":1129},
+    "new_commits_this_cycle_before_status_sync": ["7eaca7cce20e0f782e7e330b50a007795dffe7f4","ff4394f8dbfa01a927906d8afa254f8089b3d98d","84166fad2282f13ffc597f430adb6e0d10c7a067","5e1ccf44cdbdcf850ae0f74463856284b61a48cd","d08597475d913e36c9b4ab3241da6cef21ecbb3e","e971730d0f3b83c5ca614646c23e891f4afe7a87"],
+    "new_head_ci_state_at_status_write": "Run-141 status-sync commit requires fresh CI; Run-140 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/karya_elr1000_license_scope_conflict_run140_2026-09-10.json.",
-    "Added data/source_census/search_log_run140.jsonl with MMSC-SEARCH-000140.",
-    "Verified upstream karya-inc/elr-1000 head fc5f659f1d18bdc70c19d2c77ea814c2dce63884.",
-    "Verified root repository LICENSE is MIT while README explicitly declares KPL BY-NC-SA-FS 1.0 for ELR-1000 dataset/work and describes noncommercial/commercial-contact terms.",
-    "Recorded exact licence-scope conflict and did not treat MIT as permission for ELR-1000 dataset content.",
-    "Preserved participant consent, privacy/publicity, community validation and cultural-access gates; no recipes, audio, images or participant-derived text were ingested.",
-    "Verified Run-139 head 02f8038c84fb74b18eaf5c14ec80e690d9ee26b4 as 4/4 green after successful Publication Build rerun.",
-    "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
+    "Added WEB-MUN-0088 in data/source_census/web_discovery_expansion_2026-09-10_run20.json for the Bangladesh government-hosted Munda / Multiling Cloud archive.",
+    "Added data/source_census/bangladesh_munda_multiling_archive_scope_rights_run141_2026-09-10.json with exact access locators, reported archive density 860, identity uncertainty, rights and consent gates.",
+    "Deterministically deduplicated lob.bangla.gov.bd and multiling.cloud access routes as one candidate archive lead rather than two sources.",
+    "Did not equate Bangladesh Munda with Indian Mundari [unr] and did not ingest audio, transcriptions, speaker data or cultural claims.",
+    "Added data/source_census/search_log_run141.jsonl with full requested-class crosscheck.",
+    "Synchronized MMSC discovery-layer count from 87 to 88 observed leads; 13 remain canonicalized and 75 remain outside the audited identity total.",
+    "Synchronized publication/generated/release_metrics.json and release_metrics.tex to 88 observed web leads while keeping 41 audited identities / 52 claims / 52 evidence / 52 provenance links / 42 modules unchanged.",
+    "Verified Run-140 head bda86b523bd2f183a71779fe6ece5e24c8db5db1 as 4/4 green."
   ],
   "blockers": [
-    "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "WEB-MUN-0088 requires authoritative language-identity/taxonomy reconciliation before any Munda-to-Mundari merge; collection methodology, item-level rights, speaker consent/provenance and cultural-access status remain unresolved.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
     "Authoritative Mundarica scans, independent hashes and complete page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
     "Official LSI Jharkhand complete PDF bytes, independent checksum and actual page-image/PDF-index verification remain incomplete.",
     "C-16/ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion.",
-    "Karya ELR-1000 has an exact unresolved licence-scope conflict: root MIT versus README dataset KPL BY-NC-SA-FS 1.0; authoritative scope clarification plus participant/privacy/community/cultural-access review is required before content-level ingestion.",
-    "Other Karya and participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
+    "Karya ELR-1000 licence-scope conflict and participant/privacy/community/cultural-access review remain unresolved before content-level use.",
+    "Other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
     "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada lawful full-text/rights reconciliation remains incomplete where applicable.",
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
     "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-140 status head."
+    "Fresh four-workflow verification is required for the newest Run-141 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -164,11 +142,11 @@
     "release_gate": "NOT_PASS"
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the remaining 74 web leads without duplicate identity creation.",
+    "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation.",
+    "Resolve WEB-MUN-0088 taxonomy/collection provenance and speaker/item rights before any content-level use.",
     "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
-    "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation while formalizing existing 16/16 human attestations where supporting artifacts permit.",
     "Acquire and independently hash the official LSI Jharkhand PDF and verify the Mundari printed-page-71 locator against the actual page image/PDF index.",
-    "Seek authoritative Karya clarification of ELR-1000 MIT-versus-KPL scope and separately resolve participant/privacy/community/cultural-access boundaries before content use.",
+    "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
     "Resolve remaining lawful full-text/rights/participant/cultural-access streams, prioritizing authoritative obtainable bytes.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest head and run automated completeness/provenance checks before any release-gate change."
