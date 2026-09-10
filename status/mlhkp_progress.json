@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T03:42:15Z",
-  "observed_head_before_status_sync": "4f2d439f521c6a3ee87017b57b7f3d1bcad57964",
+  "updated_utc": "2026-09-10T04:31:15Z",
+  "observed_head_before_status_sync": "5185cd1724586e8941734b9565e1ace3314ff1a6",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,9 +19,24 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "per_volume_state": {
-        "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
+        "I":"located_not_machine_verified_complete",
+        "II":"located_not_machine_verified_complete",
+        "III":"located_not_machine_verified_complete",
+        "IV":"located_not_machine_verified_complete",
+        "V":"located_not_machine_verified_complete",
+        "VI":"located_not_machine_verified_complete",
+        "VII":"located_not_machine_verified_complete",
+        "VIII":"located_not_machine_verified_complete",
+        "IX":"located_not_machine_verified_complete",
+        "X":"located_not_machine_verified_complete",
+        "XI":"located_not_machine_verified_complete",
+        "XII":"located_not_machine_verified_complete",
+        "XIII":"located_library_origin_manifestation_not_machine_verified_complete",
+        "XIV":"modern_manifestation_observed_historical_relationship_unresolved",
+        "XV":"modern_manifestation_observed_historical_relationship_unresolved",
+        "XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 147 did not alter conservative Mundarica scan/hash/page/OCR states; non-Mundarica official LSI provenance advanced independently."
+      "cycle_state": "Run 148 preserved all conservative Mundarica states while independent MMSC rights/deduplication work advanced; no scan, OCR, page or historical XIV-XVI state was falsely upgraded."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -33,9 +48,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 75,
       "search_log_entries_primary": 33,
-      "latest_search_id": "MMSC-SEARCH-000147",
-      "latest_search_record_path": "data/source_census/search_log_run147.jsonl",
-      "latest_verification": "Run 147 converted the existing 2023 LSI Jharkhand stream into a tighter exact-table provenance record: printed page 16, Mother Tongue wise Rural–Urban Population, Mundari row, with source-attributed total/rural/urban and sex-disaggregated 2011 counts. Direct official PDF retrieval returned HTTP 502, so actual page-image/PDF-index and independent byte-hash verification remain explicit gaps.",
+      "latest_search_id": "MMSC-SEARCH-000148",
+      "latest_search_record_path": "data/source_census/search_log_run148.jsonl",
+      "latest_verification": "Run 148 verified Samar Bosu Mullick's 2000 SAGE article DOI 10.1177/097185240000400301, exact bibliographic metadata, restricted-access state and permissions route. No exact DOI/title match was found in the audited standalone MMSC registry or MMSC index. Exhaustive raw 88-lead comparison remains pending, so no WEB-MUN ID, audited identity or count change was made.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +59,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No redesign and no unsupported cultural graph object, claim, indicator, domain assertion or evidence edge created; Run-147 LSI aggregate demographic provenance remains outside permanent graph promotion pending independent PDF byte/page-image verification."
+      "cycle_state": "No redesign or unsupported graph object was created. The newly verified restricted candidate remains metadata/scope only and is not promoted into the permanent evidence graph."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -55,14 +70,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules remain mapped; Run 147 adds source-census/exact-locator provenance only and requires no module remap."
+      "sync_note": "42/42 modules remain mapped; Run 148 adds source-census audit metadata only and requires no UI remap."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "Official Census/LSI aggregate-table visibility was not treated as unrestricted redistribution permission. A restricted SAGE Munda/Ho gender-witchcraft candidate was logged without promoting myths, songs, participant/community material or cultural propositions."
+      "cycle_state": "SAGE restricted-access and request-permissions boundaries were verified for the Mullick 2000 candidate. The publisher abstract's references to Munda/Ho, myths, legends and witch songs were treated only as study-scope metadata; no protected cultural content, participant/community material or community validation was inferred."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -74,7 +89,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-146 status head a98e1d5da9932cd58a9f0e7e429e0d8d8f68b44c independently verified as 4/4 successful via GitHub Actions. Run-147 commits require fresh CI; publication counts/tables/figures remain valid and count-stable because no source identity, claim, evidence or link count changed."
+      "manuscript_build_state": "Run-147 status head e8d2675f061cabcc124a67c3822057568af5953e is independently verified 4/4 successful. Run-148 changes are count-stable and therefore do not require manuscript metric regeneration; the newest Run-148 status head requires fresh CI before any green claim is projected to it."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,43 +97,42 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run147_advanced_source": "Existing 2023 Linguistic Survey of India - Jharkhand source stream: printed-page-16 rural/urban Mundari demographic table",
-      "promotion_boundary": "Exact official-PDF indexed aggregate row and provenance are recorded; permanent evidence-graph promotion is deferred until actual official PDF bytes/page image and independent checksum are verified under the audited-release standard."
+      "run148_advanced_source": "Mullick 2000 SAGE article candidate: exact bibliographic identity, restricted-access state and cultural-access boundary",
+      "promotion_boundary": "Metadata and study-scope verification only. No permanent evidence-graph claim was added because full-text reuse, participant/community implications, cultural-access disposition and exhaustive raw-lead deduplication remain unresolved."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "a98e1d5da9932cd58a9f0e7e429e0d8d8f68b44c",
+    "last_verified_all_four_green_commit": "e8d2675f061cabcc124a67c3822057568af5953e",
     "four_of_four_green_claim_for_that_head": true,
-    "verification_method": "GitHub Actions returned four completed successful workflow runs for head a98e1d5da9932cd58a9f0e7e429e0d8d8f68b44c: Source Register Audit #1168, Migration Audit #1218, Streamlit Smoke Test #1316, Publication Build #1169.",
-    "new_commits_this_cycle_before_status_sync": ["3144d5bc6632611c2f9cac8773e2c9f4a48a46ef","4f2d439f521c6a3ee87017b57b7f3d1bcad57964"],
-    "new_head_ci_state_at_status_write": "Run-147 status-sync commit requires fresh CI; Run-146 4/4 green is not projected onto the new head."
+    "verification_method": "GitHub Actions returned four completed successful workflow runs for head e8d2675f061cabcc124a67c3822057568af5953e: Source Register Audit #1173, Migration Audit #1223, Streamlit Smoke Test #1321, Publication Build #1174.",
+    "new_commits_this_cycle_before_status_sync": [
+      "956dad41ad83ac6f6432f04aa2b5be65eb7c6162",
+      "5185cd1724586e8941734b9565e1ace3314ff1a6"
+    ],
+    "new_head_ci_state_at_status_write": "Run-148 status-sync commit requires fresh CI; the verified Run-147 4/4-green result is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Verified Run-146 status head a98e1d5da9932cd58a9f0e7e429e0d8d8f68b44c as independently 4/4 successful.",
-    "Added data/source_census/lsi_jharkhand_2023_mundari_rural_urban_exact_table_run147_2026-09-10.json.",
-    "Verified from the search-indexed official Census PDF the printed-page-16 table 'RURAL URBAN DISTRIBUTION OF MOTHER TONGUES IN JHARKHAND – 2011' and its Mundari row: total 9,41,965 (male 4,70,496; female 4,71,469), rural 8,66,920 (male 4,33,519; female 4,33,401), urban 75,045 (male 36,977; female 38,068).",
-    "Recorded these only as source-attributed 2011 aggregate demographic values; no current-population, territorial or cultural inference was added.",
-    "Direct official LSI PDF retrieval returned HTTP 502; actual page-image/PDF-index verification, complete bytes and independent checksum remain explicit gaps.",
-    "Logged Samar Bosu Mullick's 2000 SAGE article DOI 10.1177/097185240000400301 as a restricted candidate requiring deterministic comparison against the existing 88-lead discovery layer before any identity/count change; no cultural proposition was promoted.",
-    "Added data/source_census/search_log_run147.jsonl; counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence / 52 links / 42 modules."
+    "Verified current Run-147 head e8d2675f061cabcc124a67c3822057568af5953e as independently 4/4 successful across Source Register Audit #1173, Migration Audit #1223, Streamlit Smoke Test #1321 and Publication Build #1174.",
+    "Retried the official 2023 LSI Jharkhand PDF retrieval path; complete bytes/page-image verification remains externally blocked, so no hash/page state was upgraded.",
+    "Verified SAGE publisher metadata for Samar Bosu Mullick, 'Gender Relations and Witches among the Indigenous Communities of Jharkhand, India,' Gender, Technology and Development 4(3), 333-358, DOI 10.1177/097185240000400301, first published November 2000.",
+    "Verified SAGE restricted-access and request-permissions boundary; no unrestricted reuse right was inferred.",
+    "Verified that the publisher abstract scopes the study to Munda and Ho in Jharkhand and says it analyzes myths, legends and witch songs; none of that cultural content was ingested or promoted as an MLHKP cultural claim.",
+    "Compared the exact DOI/title against the audited standalone MMSC registry and MMSC index with no match. Exhaustive comparison against every raw web-discovery record remains pending, so no new WEB-MUN ID or audited identity was assigned.",
+    "Added data/source_census/mullick_2000_gender_witches_sage_candidate_audit_run148_2026-09-10.json and data/source_census/search_log_run148.jsonl.",
+    "Counts remain 41 audited identities / 88 observed leads / 13 canonicalized web leads / 75 unresolved leads / 52 claims / 52 evidence records / 52 evidence links / 42 modules."
   ],
   "blockers": [
     "Seventy-five web-discovery leads remain outside the audited identity total pending deterministic disposition.",
+    "The Mullick 2000 SAGE candidate is now exact-metadata and rights-boundary verified but still requires exhaustive comparison against all raw 88 discovery records before any WEB-MUN ID or count change; content remains restricted/cultural-access gated.",
     "C-16 state/subdistrict and town-level catalogue manifestations and C-17 Jharkhand catalogue manifestation are verified, but authoritative workbook bytes, independent checksums, worksheets, exact Munda/Mundari rows and numeric cell coordinates remain pending before numeric promotion; ST-15/ST-16 require the same standard.",
-    "The 2023 LSI Jharkhand printed-page-16 Mundari aggregate demographic row is text-index verified, but direct official PDF retrieval returned HTTP 502; actual page image/PDF index, complete bytes and independent checksum remain unverified.",
-    "The 1906 Grierson LSI Munda-languages map has exact historical and digital locators, but authoritative parent-volume scan cross-check and an independent SHA-256 of acquired bytes remain optional audit-strengthening steps; it must not be used as a current demographic map.",
-    "The Archer song-book Catholic Press/Ranchi candidate lacks an authoritative title-page/colophon or institutional catalogue crosswalk to the verified 1942 United Press/Patna manifestation; lawful inspectable bytes, independent checksum/page accounting, song-level rights and cultural-access review are also missing.",
-    "WEB-MUN-0088 taxonomy is partially reconciled but still lacks an authoritative item-level Munda/Mundari identifier crosswalk, collection methodology, item-level rights, speaker consent/provenance and cultural-access disposition.",
-    "Samar Bosu Mullick's 2000 SAGE article is publisher-restricted and must first be deterministically reconciled against the existing web-discovery layer; myths, legends, witch songs and community/participant-derived material remain rights/cultural-access gated.",
-    "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
+    "The 2023 LSI Jharkhand printed-page-16 Mundari aggregate demographic row is text-index verified, but actual official PDF page image/PDF index, complete bytes and independent checksum remain unverified because the direct retrieval path is unavailable.",
     "Authoritative Mundarica scans, independent hashes and complete page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
+    "WEB-MUN-0088 still lacks authoritative item-level language-identity crosswalk, collection methodology, item-level rights, speaker consent/provenance and cultural-access disposition.",
     "Karya ELR-1000 licence-scope conflict and participant/privacy/community/cultural-access review remain unresolved before content-level use.",
-    "Other participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
-    "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada lawful full-text/rights reconciliation remains incomplete where applicable.",
-    "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
-    "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
+    "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
+    "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer, Proietti and other lawful full-text/rights/participant/cultural-access reconciliations remain incomplete where applicable.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-147 status head."
+    "Fresh four-workflow verification is required for the newest Run-148 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -144,13 +158,12 @@
     "release_gate": "NOT_PASS"
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation, including reconciliation of the Mullick 2000 SAGE candidate before assigning any WEB-MUN ID.",
+    "Complete exhaustive deterministic DOI/title/URL comparison of the Mullick 2000 candidate against all 88 raw web-discovery records; assign a new WEB-MUN ID only if uniqueness is proven.",
+    "Continue deterministic disposition of the remaining 75 web leads without duplicate identity creation.",
     "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion, prioritizing PC11_C16-20, PC11_C16city-20 and PC11_C17-20.",
     "Acquire and independently hash the official LSI Jharkhand PDF and verify printed page 16 and the Mundari printed-page-71 language section against actual page images/PDF indexes.",
-    "Cross-check the 1906 Munda-languages map against an authoritative scan of LSI volume 4 facing page 7 and independently hash acquired bytes if retained in the audited package.",
-    "Locate an institutional catalogue or inspectable title-page/colophon for the Archer Catholic Press/Ranchi candidate and reconcile it with the 1942 United Press/Patna manifestation before deeper ingestion.",
-    "Resolve WEB-MUN-0088 item-level taxonomy/collection provenance and speaker/item rights before any content-level use.",
     "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
+    "Resolve WEB-MUN-0088 item-level taxonomy/collection provenance and speaker/item rights before any content-level use.",
     "Resolve remaining lawful full-text/rights/participant/cultural-access streams, prioritizing authoritative obtainable bytes.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest head and run automated completeness/provenance checks before any release-gate change."
