@@ -4,18 +4,11 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T19:41:00Z",
+  "updated_utc": "2026-09-10T19:48:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 178,
-  "head_at_cycle_start": "02bc5ff97b7cfae58a7d40aba8411649475f809e",
-  "status_snapshot_parent_head": "51d92f095c97f604186ff7c45f0e23a63a17f230",
-  "cycle_commits": [
-    "4bea1fa5cde2283923c0a4ecea1ffd223e022cd1",
-    "4fed1af031d6924010f07b39eed122305ac3579f",
-    "51d92f095c97f604186ff7c45f0e23a63a17f230"
-  ],
-  "cycle_result": "Run 178 closed a stale Run-177 administrative blocker: DOI 10.35784/pe.2021.1.19 had already been deterministically reconciled in Run 172 to permanent identity SRC-MMSC-000003. No duplicate identity, claim, evidence record or evidence link was created. A regression test now enforces the existing-identity decision and cultural-access boundary. Lexibank Peiros v1.1 direct file-level manifestation/checksum evidence was not obtained and remains blocked rather than inferred. Counts remain unchanged.",
+  "latest_run": 179,
+  "cycle_result": "Run 179 added an exact-locator thesis audit for Marilena Proietti (2025), Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s, reconciling the national legal-deposit handle 20.500.14242/212639 and Sapienza IRIS handle 11573/1740709 as manifestations of one thesis identity. Repository metadata verifies the NBN, open-access date, reported PDF manifestation and multi-community Munda-relevant scope. Exact Creative Commons variant, PDF bytes/checksum and page-level passages remain unverified, so no cultural claims, participant records or permanent count-bearing identity were promoted. Counts remain unchanged.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -28,7 +21,7 @@
       "II-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run178_change": "No Mundarica acquisition/OCR/page-verification state was upgraded without authoritative scan evidence."
+    "run179_change": "No Mundarica acquisition/OCR/page-verification state was upgraded without authoritative scan evidence."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -39,16 +32,16 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "additional_federated_discoveries": 29,
-    "still_to_acquire_additional_discoveries": 28,
-    "latest_search_id": "MMSC-SEARCH-000178",
-    "latest_search_log": "data/source_census/search_log_run178.jsonl",
-    "latest_source_audit": "data/source_census/kumari_rahman_run177_stale_blocker_resolution_run178_2026-09-11.json",
-    "run178_reconciliation": {
-      "doi": "10.35784/pe.2021.1.19",
-      "canonical_source_id": "SRC-MMSC-000003",
-      "decision": "already_registered_permanent_identity",
-      "run177_pending_registration_blocker": "stale_and_closed",
+    "additional_federated_discoveries": 30,
+    "still_to_acquire_additional_discoveries": 29,
+    "latest_search_id": "MMSC-SEARCH-000179",
+    "latest_search_log": "data/source_census/search_log_run179.jsonl",
+    "latest_source_audit": "data/source_census/proietti_2025_adivasi_women_thesis_exact_locator_run179_2026-09-11.json",
+    "run179_reconciliation": {
+      "source": "Proietti 2025 doctoral thesis",
+      "national_handle": "20.500.14242/212639",
+      "institutional_handle": "11573/1740709",
+      "decision": "two repository locators treated as one thesis identity pending branch-wide permanent-register reconciliation",
       "source_identities_added": 0,
       "counts_changed": false
     },
@@ -66,11 +59,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run178": 0,
-    "claims_added_run178": 0,
-    "evidence_records_added_run178": 0,
-    "evidence_links_added_run178": 0,
-    "verification_audits_added_run178": 1
+    "source_identities_added_run179": 0,
+    "claims_added_run179": 0,
+    "evidence_records_added_run179": 0,
+    "evidence_links_added_run179": 0,
+    "verification_audits_added_run179": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -81,18 +74,18 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run178_change": "No redesign or exposure expansion; 42/42 mappings and release functions remain synchronized while verification accounting was corrected."
+    "run179_change": "No exposure expansion; universal search/modules remain synchronized because Run 179 created a non-count-bearing audit record only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "article_reuse_terms_treated_as_participant_consent": false,
-    "article_reuse_terms_treated_as_community_validation": false,
-    "article_reuse_terms_treated_as_cultural_access_permission": false,
-    "participant_records_ingested_run178": 0,
-    "full_text_passages_ingested_run178": 0
+    "article_or_thesis_reuse_terms_treated_as_participant_consent": false,
+    "article_or_thesis_reuse_terms_treated_as_community_validation": false,
+    "article_or_thesis_reuse_terms_treated_as_cultural_access_permission": false,
+    "participant_records_ingested_run179": 0,
+    "full_text_passages_ingested_run179": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -104,41 +97,32 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 178; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release metric changed; no count regeneration required.",
-    "build_state": "Exact cycle-start head 02bc5ff97b7cfae58a7d40aba8411649475f809e independently verified 4/4 green before Run-178 writes; fresh final-head CI pending."
+    "generated_metrics_state": "No count-bearing change in Run 179; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release metric changed; no table/figure count regeneration required.",
+    "build_state": "Fresh Run-179 CI must be checked on the final head before claiming green."
   },
   "ci": {
     "last_independently_verified_green_head": "02bc5ff97b7cfae58a7d40aba8411649475f809e",
     "green_4_of_4": true,
-    "verified_workflows": {
-      "source_register_audit": {"run_number": 1384, "conclusion": "success"},
-      "migration_audit": {"run_number": 1434, "conclusion": "success"},
-      "streamlit_smoke": {"run_number": 1548, "conclusion": "success"},
-      "publication_build": {"run_number": 1401, "conclusion": "success"}
-    },
-    "run178_tests_added": "tests/test_run178_kumari_rahman_stale_blocker.py",
+    "run179_tests_added": "tests/test_run179_proietti_thesis_exact_locator.py",
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Proietti 2025 thesis exact Creative Commons variant, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration.",
     "MMLoSo reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; no authoritative reconciliation has been verified.",
     "Lexibank Peiros v1.1 direct Zenodo manifestation/file-level metadata and checksums remain unverified.",
     "WALS/Grambank permanent source registration remains a synchronized count-bearing transaction; Sinha/Osada underlying grammar passages are not yet direct page-verified.",
     "Rau 2019 Zenodo dataset licence is unresolved in the available authoritative retrieval path and its repository-reported MD5 is not independently recomputed.",
     "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
-    "Official 2023 LSI Jharkhand authoritative bytes/hash/page-image verification remains incomplete after prior HTTP 502; LSI West Bengal byte/hash/page-image verification also remains incomplete.",
+    "Official 2023 LSI Jharkhand authoritative bytes/hash/page-image verification remains incomplete; LSI West Bengal byte/hash/page-image verification also remains incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
     "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
     "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation."
-  ],
-  "resolved_blockers_run178": [
-    "Run-177 pending permanent registration for Kumari & Rahman 2021 was stale: Run 172 already reconciled exact DOI 10.35784/pe.2021.1.19 to SRC-MMSC-000003, so no duplicate registration is permitted.",
-    "Exact cycle-start head CI uncertainty is closed: all four release workflows succeeded for 02bc5ff97b7cfae58a7d40aba8411649475f809e."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -156,16 +140,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, authoritative Mundarica scans, primary-source checks and unresolved consent/community/cultural-access gates remain."
+    "reason": "73 unresolved source dispositions plus direct thesis/dataset/grammar/Census/LSI manifestations, authoritative Mundarica scans, primary-source checks and unresolved consent/community/cultural-access gates remain."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/catalogue exact matches and obtainable lawful manifestations.",
+    "Resolve Proietti 2025 exact Creative Commons variant and, where lawful, acquire PDF bytes/checksum and page-level locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo shared-task dataset manifestation/version/file metadata before row-level ingestion or dataset registration.",
     "Retry direct Zenodo v1.1 manifestation/file/checksum retrieval for Lexibank Peiros and resolve Rau licensing/checksum.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
     "Retry authoritative Census workbook and official LSI PDF byte/hash/page-image verification; blocked endpoints remain explicit gaps.",
     "Advance lawful exact-locator ingestion for grammar/dictionary/TRI/thesis/scholarly sources while preserving source attribution and cultural uncertainty.",
-    "Acquire authoritative Mundarica I-XVI manifestations where obtainable and verify page/hash/OCR states without treating OCR as verified transcription.",
     "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics/tables/figures and tests synchronized after every count-bearing change."
   ]
 }
