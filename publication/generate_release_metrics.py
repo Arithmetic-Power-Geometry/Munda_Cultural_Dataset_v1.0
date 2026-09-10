@@ -80,6 +80,8 @@ def main():
     macros = {
         "MLHKPSourcesDiscovered": data["sources_discovered"],
         "MLHKPWebDiscoveryRecords": data["web_discovery_records_observed"],
+        # Legacy manuscript macro retained as an explicit raw-record alias.
+        "MLHKPWebDiscoveryLeads": data["web_discovery_records_observed"],
         "MLHKPWebDiscoveryUnique": data["web_discovery_unique_leads"],
         "MLHKPWebDiscoveryDuplicates": data["web_discovery_duplicate_records"],
         "MLHKPWebDiscoveryCounted": data["web_discovery_leads_counted_in_audited_identity_total"],
