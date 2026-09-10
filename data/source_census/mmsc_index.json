@@ -45,11 +45,11 @@
     "provenance": {"repository":"Wikimedia Commons / Eastern Zonal Cultural Centre","checked_utc":"2026-09-08T06:45:00Z","caution":"Only repository metadata and timestamp catalogue labels are promoted; participant consent, community validation and segment-content reuse remain separately governed."}
   },
   "latest_canonicalization": {
-    "web_source_id": "WEB-MUN-0089",
-    "canonical_source_id": "SRC-MMSC-000002",
-    "dedupe_key": "doi:10.30884/seh/2025.02.01",
-    "verification_state": "duplicate_raw_web_observation_reconciled_to_existing_permanent_identity",
-    "exact_locator": "Prior MMSC verification MMSC-VERIFY-TUTI-SEH-2026-09-09-RUN111 plus publisher DOI 10.30884/seh/2025.02.01; identical title, author set and year."
+    "web_source_id": "WEB-MUN-0047",
+    "canonical_source_id": "SRC-MMSC-000015",
+    "dedupe_key": "commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm",
+    "verification_state": "commons_repository_identity_creator_date_duration_youtube_id_license_and_three_munda_mundari_timestamp_labels_verified",
+    "exact_locator": "Wikimedia Commons file page; timestamp catalogue labels 4:28 Paika (Munda community), 6:00 Mundari, 11:12 Mundari (Marriage); source date 27 September 2022; YouTube ID jcaVTX0BCtQ; file-level CC BY 3.0"
   },
   "latest_duplicate_reconciliation": {
     "web_source_id": "WEB-MUN-0089",
