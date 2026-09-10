@@ -4,14 +4,13 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T16:40:00Z",
+  "updated_utc": "2026-09-10T17:02:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 172,
-  "head_at_cycle_start": "d3af97c885e6642084dce8612b7f534ebbf5bb3b",
-  "head_before_final_status_sync": "71bc3a206f349755a2ff4f390c3f5a4913e78b63",
-  "cycle_commits": ["c764df60b613cac617b921dc51a7bb633d780051", "1ae01d673c91a96a654e7326a612445205b08dd7", "71bc3a206f349755a2ff4f390c3f5a4913e78b63"],
-  "cycle_result": "Run 172 closed a real Run-171 census blocker without count inflation. Fresh publisher verification confirmed the 2021 article 'Munda Tribe Perception Towards Livelihood Through Sustainable Development' (DOI 10.35784/pe.2021.1.19; Vol. 16 No. 1; pp. 181-185), and deterministic repository reconciliation showed that the same intellectual work is already permanently registered as SRC-MMSC-000003 in mmsc_discoveries.json. The candidate is therefore not a new source identity. No duplicate source, claim, evidence node, rights entitlement, community validation, or cultural-access permission was created. Direct retrieval of Lexibank Peiros Zenodo v1.1 record 13168443 timed out again, so file-level verification and permanent registration remain deferred. Run-171 final head d3af97c885e6642084dce8612b7f534ebbf5bb3b is now independently verified 4/4 green. Main was not modified.",
+  "latest_run": 173,
+  "head_at_cycle_start": "e4250c8c9d80f5ec474063b3dffec0bf80924983",
+  "cycle_commits": ["b375bc89786a63a5d993cba725d73d15d8b23fc7", "8dfc835970be7db1e773ff06cc33b0987a6539a9", "1320897a68bcad55febd1217684a56d8f6fd4f94"],
+  "cycle_result": "Run 173 converted a newly discovered 2025 ACL MMLoSo Mundari machine-translation benchmark source from discovery into exact-locator technical evidence without count inflation. ACL Anthology metadata and the authoritative 9-page PDF verify Anthology ID 2025.mmloso-1.14, pp. 121-129, Mundari-Hindi task schema, dataset/preprocessing descriptions, and the paper-stated CC BY-SA 4.0 data distribution term. The source itself contains a 16,000 evaluation-set versus 15,999 test-sentences discrepancy; both values are preserved as source-attributed rather than silently reconciled. A related current Hugging Face AdiBhasha manifestation reports CC BY-NC-SA 4.0 and gated file access, so manifestation/version/licence equivalence is explicitly unresolved. No parallel sentence rows, participant material, cultural claims, community validation or cultural-access permission were ingested. Direct Lexibank Peiros Zenodo v1.1 retrieval timed out again and remains a gap. Main was not modified.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -24,7 +23,7 @@
       "XIV-XVI": "locator or authoritative manifestation unresolved; not verified complete"
     },
     "ocr_is_not_verified_transcription": true,
-    "run172_change": "No Mundarica state upgraded; authoritative scan registration remains zero while independent census reconciliation continued."
+    "run173_change": "No Mundarica state upgraded; authoritative scan registration remains zero while non-Mundarica source census and exact-locator ingestion continued."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -35,14 +34,15 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "additional_federated_discoveries": 28,
-    "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000172",
+    "additional_federated_discoveries": 29,
+    "still_to_acquire_additional_discoveries": 28,
+    "latest_search_id": "MMSC-SEARCH-000173",
     "latest_canonicalization": {"web_source_id":"WEB-MUN-0086","canonical_source_id":"SRC-MMSC-000016","dedupe_key":"doi:10.1177/23210249221127832","scope":"publisher metadata/abstract identity only; no exact Munda-specific passage promoted"},
-    "latest_source_audit": "data/source_census/kumari_rahman_2021_existing_identity_reconciliation_run172_2026-09-10.json",
-    "latest_search_log": "data/source_census/search_log_run172.jsonl",
-    "run172_existing_identity_reconciliation": {"candidate_doi":"10.35784/pe.2021.1.19","existing_source_id":"SRC-MMSC-000003","decision":"already_registered_permanent_identity","counts_changed":false,"new_claims":0,"new_evidence_records":0,"new_evidence_links":0},
-    "lexibank_peiros_state": {"prior_recorded_version":"v1.0","prior_recorded_zenodo_doi":"10.5281/zenodo.5127536","current_live_version":"v1.1","current_live_zenodo_doi":"10.5281/zenodo.13168443","database_license":"CC BY 4.0","version_relationship":"same_dataset_version_series_independently_corroborated","direct_current_zenodo_manifestation_verified":false,"permanent_registration":"deferred_pending_direct_v1_1_manifestation_verification","run172_direct_fetch":"timeout","counts_changed":false},
+    "latest_source_audit": "data/source_census/mmloso_2025_mundari_mt_exact_locator_run173_2026-09-10.json",
+    "latest_search_log": "data/source_census/search_log_run173.jsonl",
+    "run173_new_exact_locator_candidate": {"anthology_id":"2025.mmloso-1.14","title":"Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages","identity_verified":true,"authoritative_pdf_verified":true,"permanent_registration":"deferred_pending_full_register_and_manifestation_reconciliation","counts_changed":false,"new_claims":0,"new_evidence_records":0,"new_evidence_links":0},
+    "mmloso_adibhasha_manifestation_gap": {"mmloso_paper_reported_data_license":"CC BY-SA 4.0","huggingface_adibhasha_card_license":"CC BY-NC-SA 4.0","huggingface_file_access":"gated_contact_information_acceptance_required","same_manifestation_verified":false,"row_ingestion_allowed":false},
+    "lexibank_peiros_state": {"prior_recorded_version":"v1.0","prior_recorded_zenodo_doi":"10.5281/zenodo.5127536","current_live_version":"v1.1","current_live_zenodo_doi":"10.5281/zenodo.13168443","database_license":"CC BY 4.0","version_relationship":"same_dataset_version_series_independently_corroborated","direct_current_zenodo_manifestation_verified":false,"permanent_registration":"deferred_pending_direct_v1_1_manifestation_verification","run173_direct_fetch":"timeout","counts_changed":false},
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -57,10 +57,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run172": 0,
-    "claims_added_run172": 0,
-    "evidence_records_added_run172": 0,
-    "evidence_links_added_run172": 0
+    "source_identities_added_run173": 0,
+    "claims_added_run173": 0,
+    "evidence_records_added_run173": 0,
+    "evidence_links_added_run173": 0,
+    "exact_locator_metadata_audits_added_run173": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -71,19 +72,22 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run172_change": "No redesign or restricted-content exposure; Run-172 audit/search/test artifacts are repository-searchable and 42-module mapping remains unchanged."
+    "run173_change": "No redesign or restricted-content exposure; Run-173 audit/search/test artifacts are repository-searchable and 42-module mapping remains unchanged."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "publisher_pdf_access_observed_run172": true,
-    "unrestricted_redistribution_inferred_run172": false,
-    "participant_consent_inferred_run172": false,
-    "community_validation_verified_run172": false,
-    "cultural_access_verified_run172": false,
-    "existing_identity_reconciliation_does_not_expand_entitlement": true
+    "publisher_pdf_access_observed_run173": true,
+    "paper_reported_dataset_license_observed_run173": "CC BY-SA 4.0",
+    "related_huggingface_license_observed_run173": "CC BY-NC-SA 4.0",
+    "manifestation_license_conflict_resolved": false,
+    "unrestricted_redistribution_inferred_run173": false,
+    "participant_consent_inferred_run173": false,
+    "community_validation_verified_run173": false,
+    "cultural_access_verified_run173": false,
+    "parallel_rows_ingested_run173": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -95,22 +99,23 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 172; generated manuscript metrics remain synchronized to source census 42/90/87/3/14/73 and evidence 52/52/52.",
-    "build_state": "Run-171 final head d3af97c885e6642084dce8612b7f534ebbf5bb3b is independently verified 4/4 successful. Run-172 work-head workflows are fresh and were queued at status synchronization; no forward success is claimed."
+    "generated_metrics_state": "No count-bearing change in Run 173; generated manuscript metrics remain synchronized to source census 42/90/87/3/14/73 and evidence 52/52/52. The new MMLoSo exact-locator audit is provenance-strengthening, not a permanent-identity or evidence-graph count change.",
+    "build_state": "Run-171 was independently verified 4/4 successful before this cycle. Run-172/173 final-head CI must be verified independently before any newer green claim."
   },
   "ci": {
     "last_independently_verified_green_head": "d3af97c885e6642084dce8612b7f534ebbf5bb3b",
     "green_4_of_4": true,
     "run171_exact_head_successful_workflow_count": 4,
     "run171_workflows": {"publication_build":1369,"source_register_audit":1352,"migration_audit":1402,"streamlit_smoke_test":1516},
-    "run172_work_head": "71bc3a206f349755a2ff4f390c3f5a4913e78b63",
-    "run172_tests_added": "tests/test_run172_kumari_rahman_reconciliation.py",
-    "run172_workflow_state_at_sync": "Source Register #1357 queued; Streamlit #1521 queued; Publication #1374 queued; Migration run had not yet appeared in exact-head query.",
+    "run173_tests_added": "tests/test_run173_mmloso_exact_locator.py",
     "fresh_final_head_ci_projected": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Lexibank Peiros v1.0/v1.1 is independently corroborated as one dataset version series, but permanent registration remains blocked until the current Zenodo v1.1 manifestation/file-level metadata can be directly retrieved and verified; direct fetch timed out again in Run 172.",
+    "The newly exact-located MMLoSo 2025 Mundari benchmark is not yet a permanent count-bearing identity; repository-wide register reconciliation and dataset manifestation/version reconciliation are required first.",
+    "MMLoSo 2025 reports CC BY-SA 4.0 for its task data, while the related current Hugging Face AdiBhasha card reports CC BY-NC-SA 4.0 and gated file access; equivalence, version lineage and applicable row-level licence must be resolved before ingestion.",
+    "MMLoSo 2025 internally reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; the discrepancy remains source-attributed and unresolved.",
+    "Lexibank Peiros v1.0/v1.1 is independently corroborated as one dataset version series, but permanent registration remains blocked until the current Zenodo v1.1 manifestation/file-level metadata can be directly retrieved and verified; direct fetch timed out again in Run 173.",
     "WALS/Grambank permanent source registration remains a synchronized count-bearing transaction; Sinha/Osada underlying grammar passages are not yet direct page-verified.",
     "Rau 2019 Zenodo dataset licence is unresolved in the available authoritative retrieval path and its repository-reported MD5 is not independently recomputed.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -121,15 +126,15 @@
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
     "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
-    "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation.",
-    "WEB-MUN-0086 is source-identity canonicalized, but exact Munda-specific passages/content reuse permission remain unavailable; therefore no Munda-specific claim/evidence node was added."
+    "MunTTS/Karya 26,868-versus-26,870 discrepancy remains attributed but lacks an authoritative version/curation explanation."
   ],
-  "resolved_blockers_run172": [
-    "Run-171 candidate DOI 10.35784/pe.2021.1.19 required deterministic repository reconciliation: resolved as already registered SRC-MMSC-000003; no duplicate source or count change."
+  "resolved_blockers_run173": [
+    "A fresh ACL peer-reviewed source was moved beyond discovery-only state into exact-locator technical evidence at printed pp. 121-123 with explicit rights and non-ingestion boundaries."
   ],
   "deadline_progress": {"status":"on_target_but_gate_open","deadline":"2026-09-21T23:59:00+05:30","principle":"deadline never authorizes marking unavailable, restricted or unverified material complete"},
-  "release_gate": {"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"all_public_claims_provenance_linked":true,"gaps_enumerated":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false,"reason":"73 unresolved source dispositions plus direct Lexibank v1.1 manifestation verification, authoritative byte/hash/page verification, primary-source grammar checks, Mundarica scan verification, consent/community/cultural-access gates and incomplete source manifestations remain."},
+  "release_gate": {"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"all_public_claims_provenance_linked":true,"gaps_enumerated":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false,"reason":"73 unresolved source dispositions plus MMLoSo/AdiBhasha manifestation reconciliation, direct Lexibank v1.1 verification, authoritative byte/hash/page verification, primary-source grammar checks, Mundarica scan verification, consent/community/cultural-access gates and incomplete source manifestations remain."},
   "next_parallel_tasks": [
+    "Deterministically reconcile MMLoSo 2025 and AdiBhasha releases using repository/file manifests, licence history and row counts before any row-level ingestion or permanent source count change.",
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches before discovery expansion.",
     "Retry direct Zenodo v1.1 manifestation retrieval for Lexibank Peiros; if verified, choose the version-aware canonical identifier and perform permanent registration atomically with MMSC/publication/tests.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests and keep database coding distinct from direct grammar-page verification.",
