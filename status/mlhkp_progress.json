@@ -1,11 +1,43 @@
 {
   "project": "MLHKP",
   "branch": "mlhkp-v2",
+  "pr": 1,
+  "merge_policy": "NEVER merge main",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-10T04:58:00Z",
+  "updated_utc": "2026-09-10T05:39:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 149,
+  "latest_run": 150,
+  "head_at_cycle_start": "a7e95635d71c0d67aa8367bd52815d03d61a41f2",
+  "head_before_status_sync": "a0d2d1edccfbd74605691550787cc358a4432b5c",
+  "cycle_commits_before_status_sync": [
+    "f224c9ec64a33e949087a85e30158f06365b12b3",
+    "a0d2d1edccfbd74605691550787cc358a4432b5c"
+  ],
+  "A_mundarica": {
+    "expected_release_slots": 16,
+    "per_volume_states": {
+      "I": {"artifact_state": "working_transcription", "repository_artifact": "Mundarika1.md", "declared_scan_pages": 324, "page_blocks_detected": 324, "page_accounting_complete": true, "source_scan_present": false, "scan_comparison_complete": false, "structured_ingestion_complete": false, "verified_complete": false},
+      "II": {"artifact_state": "pending", "verified_complete": false},
+      "III": {"artifact_state": "pending", "verified_complete": false},
+      "IV": {"artifact_state": "pending", "verified_complete": false},
+      "V": {"artifact_state": "pending", "verified_complete": false},
+      "VI": {"artifact_state": "pending", "verified_complete": false},
+      "VII": {"artifact_state": "pending", "verified_complete": false},
+      "VIII": {"artifact_state": "pending", "verified_complete": false},
+      "IX": {"artifact_state": "pending", "verified_complete": false},
+      "X": {"artifact_state": "pending", "verified_complete": false},
+      "XI": {"artifact_state": "pending", "verified_complete": false},
+      "XII": {"artifact_state": "pending", "verified_complete": false},
+      "XIII": {"artifact_state": "pending", "verified_complete": false},
+      "XIV": {"artifact_state": "pending", "verified_complete": false},
+      "XV": {"artifact_state": "pending", "verified_complete": false},
+      "XVI": {"artifact_state": "pending", "verified_complete": false}
+    },
+    "ocr_is_not_verified_transcription": true,
+    "human_review_attestations_preserved_without_machine_upgrade": true,
+    "run150_change": "No Mundarica verification state was upgraded; authoritative scan/hash/page comparison remains blocked."
+  },
   "B_mmsc": {
     "status": "federated_census_canonicalization_and_ingestion_active",
     "audited_source_identities_discovered": 41,
@@ -16,33 +48,37 @@
     "web_discovery_duplicate_records": 1,
     "web_discovery_leads_counted_in_audited_identity_total": 13,
     "web_discovery_unique_leads_remaining_outside_audited_identity_total": 74,
-    "latest_search_id": "MMSC-SEARCH-000149",
-    "latest_search_record_path": "data/source_census/search_log_run149.jsonl",
-    "latest_verification": "Run 149 deterministically reconciled Samar Bosu Mullick 2000 DOI 10.1177/097185240000400301 to existing WEB-MUN-0081 and WEB-MUN-0088 to existing WEB-MUN-0032 by identical canonical URL. No new WEB-MUN identity or cultural claim was created.",
+    "latest_search_id": "MMSC-SEARCH-000150",
+    "latest_search_record_path": "data/source_census/search_log_run150.jsonl",
+    "latest_verification": "Run 150 verified from the authoritative ORGI C-17 Jharkhand catalogue that both 'Language - Total speakers - MUNDA' and 'Language - Total speakers - MUNDARI' are explicit table-row labels under HS_Q10. This is metadata/schema verification only: workbook bytes, checksum, worksheet, physical row numbers, numeric cells and values remain unverified. No new identity or numeric/cultural claim was created.",
+    "systematic_census_documented_for_release": true,
     "source_complete_claim": false
   },
   "C_information_model": {
     "registered_modules": 42,
     "module_schema_domain_mapping_percent": 100.0,
+    "schema_category_representation_percent": 100.0,
     "evidence_graph": "active",
-    "run149_graph_change": "none; identity/count reconciliation only"
+    "source_to_domain_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
+    "run150_graph_change": "none; official Census schema-metadata refinement only"
   },
   "D_streamlit": {
     "registered_modules": 42,
     "mapped_modules": 42,
+    "module_ui_mapping_percent": 100.0,
     "universal_search": true,
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run149_ui_change": "none required; underlying MMSC/release metrics synchronized"
+    "run150_ui_change": "none required; evidence and release metrics remain mapped"
   },
   "E_rights_access_consent": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_access": true,
-    "run149_boundary": "Bangladesh Multiling remains all-rights-reserved at site level; speaker consent, contributor authority, privacy/publicity and item-level cultural-access remain unresolved. Mullick article remains publisher-restricted for full-text/sensitive claim extraction."
+    "run150_boundary": "ORGI catalogue metadata was used only for source/schema provenance. No reuse right, sensitive cultural access permission, participant consent or community validation was inferred."
   },
   "F_publication": {
     "sources_discovered": 41,
@@ -54,47 +90,70 @@
     "claims": 52,
     "evidence_records": 52,
     "evidence_links": 52,
-    "metrics_changed_this_cycle": true,
-    "metrics_change_reason": "corrected duplicate counting; no evidence inflation",
-    "release_metrics_json_tex_synced": true
+    "metrics_changed_this_cycle": false,
+    "metrics_change_reason": "C-17 catalogue schema metadata strengthened without count or evidence inflation",
+    "release_metrics_json_tex_synced": true,
+    "latex_manuscript_state": "Q1-target manuscript present; build state requires fresh CI on Run 150 head",
+    "repository_metrics_sync_state": "synchronized for unchanged quantitative metrics"
   },
   "G_evidence": {
     "source_claims": 52,
     "evidence_records": 52,
     "evidence_links": 52,
-    "cultural_claims_added_run149": 0,
-    "promotion_state": "metadata_identity_reconciliation_only"
+    "all_public_factual_claims_provenance_linked": true,
+    "cultural_claims_added_run150": 0,
+    "numeric_claims_added_run150": 0,
+    "promotion_state": "official_catalogue_schema_metadata_only"
   },
-  "run149_changes": [
-    "Added deterministic duplicate-reconciliation audit record.",
-    "Resolved Mullick 2000 candidate to existing WEB-MUN-0081; no new discovery ID.",
-    "Canonicalized WEB-MUN-0088 as duplicate metadata refresh of WEB-MUN-0032 using identical canonical government URL.",
-    "Separated 88 raw WEB-MUN audit records from 87 unique web leads; unique unresolved queue corrected from 75 to 74.",
-    "Reverified official Census C-16/ST-15/ST-16 catalogue identities; workbook bytes, independent hashes and exact worksheet/cell locators remain open.",
-    "Synchronized MMSC index, publication metric generator, generated JSON/TeX metrics, Run 149 search log and duplicate-reconciliation tests."
+  "H_ci_tests": {
+    "cycle_start_head": "a7e95635d71c0d67aa8367bd52815d03d61a41f2",
+    "cycle_start_migration_audit": "success (run 1243 verified)",
+    "fresh_head_status": "pending verification after Run 150 status sync",
+    "required_workflows": ["Source Register Audit", "Migration Audit", "Streamlit Smoke Test", "Publication Build"],
+    "four_of_four_green_claim_for_final_head": false
+  },
+  "run150_changes": [
+    "Verified authoritative C-17 Jharkhand catalogue row labels for MUNDA and MUNDARI under HS_Q10.",
+    "Added census_2011_c17_jharkhand_munda_mundari_row_labels_run150_2026-09-10.json with an explicit verification boundary.",
+    "Added MMSC-SEARCH-000150 search log and preserved existing Census canonical identity without count inflation.",
+    "Preserved 41 audited identities, 87 unique web leads, 74 unresolved unique leads and 52/52/52 claim-evidence-provenance metrics.",
+    "Did not promote Census numeric values because authoritative workbook bytes, independent checksum, worksheet and exact numeric cell coordinates remain unverified.",
+    "Carried forward exact Mundarica per-volume release states without false OCR/scan verification."
   ],
   "blockers": [
     "74 unique web-discovery leads still require deterministic disposition/canonicalization.",
-    "C-16/C-17/ST-15/ST-16 workbook bytes, independent hashes and exact worksheet/row/cell locators remain unverified.",
+    "C-16/C-17/ST-15/ST-16 workbook bytes, independent hashes and exact worksheet/row/cell numeric locators remain unverified; C-17 MUNDA/MUNDARI catalogue row labels are now verified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
+    "Mundarica authoritative scans/hashes and scan-to-page verification remain absent from the registered corpus bundle; Volumes II-XVI have no repository artifacts in the completeness audit.",
     "Bangladesh Multiling item-level language identity, provenance, speaker consent, contributor authority and cultural-access boundaries remain unresolved.",
     "Karya and other participant-derived audio/video/dataset streams require participant/consent and cultural-access review before ingestion.",
     "Lawful full manifestations and exact locators remain incomplete for multiple grammar/dictionary/TRI/scholarly sources.",
     "Original primary search logs MMSC-SEARCH-000034 through 000038 and 000041 remain missing from the normalized primary log.",
     "Reported 1941 Mundari hockey booklet still lacks an independently verified primary manifestation.",
-    "Fresh CI is required for the Run 149 head before any 4/4-green claim."
+    "Fresh four-workflow CI verification is required on the final Run 150 head."
   ],
+  "deadline_progress": {
+    "deadline_ist": "2026-09-21T23:59:00+05:30",
+    "status": "on_target_but_gate_open",
+    "principle": "deadline does not authorize marking unavailable, restricted or unverified material complete"
+  },
   "release_gate": {
     "status": "NOT_PASS",
+    "schema_category_representation_100": true,
+    "ui_mapping_100": true,
+    "systematic_census_documented": true,
     "all_public_claims_provenance_linked": true,
+    "unavailable_restricted_unverified_gaps_enumerated": true,
+    "no_broken_ids_or_provenance_claimed_without_fresh_audit": true,
     "completeness_audit_pass": false,
-    "reason": "Outstanding source-identity dispositions, byte-level official-source verification, rights/consent/cultural-access gates and fresh CI remain."
+    "reason": "Outstanding source-identity dispositions, authoritative byte/hash/page verification, rights/consent/cultural-access gates, incomplete Mundarica artifact coverage and fresh CI remain."
   },
   "next_priority": [
     "Continue deterministic disposition of the 74 unique unresolved web leads without count inflation.",
-    "Acquire/verify official Census workbook bytes and exact cell locators where obtainable.",
+    "Acquire/verify official Census workbook bytes and exact numeric cell locators where obtainable, beginning with C-17 now that MUNDA/MUNDARI catalogue row labels are explicit.",
     "Obtain official LSI Jharkhand bytes and verify printed pages 16 and 71 against page images.",
     "Advance lawful full-text/exact-locator ingestion for high-quality non-participant or clearly permitted sources.",
-    "Run and verify repository audits/publication/Streamlit workflows on the Run 149 head."
+    "Formalize authoritative Mundarica scan/hash/page evidence where lawfully obtainable; do not convert human attestations into machine verification.",
+    "Verify all four GitHub workflows on the final Run 150 head and repair any failure without touching main."
   ]
 }
