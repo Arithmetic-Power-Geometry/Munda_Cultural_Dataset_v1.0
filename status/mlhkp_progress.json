@@ -2,8 +2,8 @@
   "project": "MLHKP",
   "branch": "mlhkp-v2",
   "module_status": "in_progress",
-  "updated_utc": "2026-09-09T23:42:00Z",
-  "observed_head_before_status_sync": "009ff27dce03f8ddac8fd9c5c264f5596ecba2b1",
+  "updated_utc": "2026-09-10T00:31:00Z",
+  "observed_head_before_status_sync": "d9006459df4b173e3d02ba76d9de4ef3027330b7",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "workstreams": {
@@ -19,9 +19,24 @@
       "human_review_attested_volumes": 16,
       "ocr_is_not_verified_transcription": true,
       "per_volume_state": {
-        "I":"located_not_machine_verified_complete","II":"located_not_machine_verified_complete","III":"located_not_machine_verified_complete","IV":"located_not_machine_verified_complete","V":"located_not_machine_verified_complete","VI":"located_not_machine_verified_complete","VII":"located_not_machine_verified_complete","VIII":"located_not_machine_verified_complete","IX":"located_not_machine_verified_complete","X":"located_not_machine_verified_complete","XI":"located_not_machine_verified_complete","XII":"located_not_machine_verified_complete","XIII":"located_library_origin_manifestation_not_machine_verified_complete","XIV":"modern_manifestation_observed_historical_relationship_unresolved","XV":"modern_manifestation_observed_historical_relationship_unresolved","XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
+        "I":"located_not_machine_verified_complete",
+        "II":"located_not_machine_verified_complete",
+        "III":"located_not_machine_verified_complete",
+        "IV":"located_not_machine_verified_complete",
+        "V":"located_not_machine_verified_complete",
+        "VI":"located_not_machine_verified_complete",
+        "VII":"located_not_machine_verified_complete",
+        "VIII":"located_not_machine_verified_complete",
+        "IX":"located_not_machine_verified_complete",
+        "X":"located_not_machine_verified_complete",
+        "XI":"located_not_machine_verified_complete",
+        "XII":"located_not_machine_verified_complete",
+        "XIII":"located_library_origin_manifestation_not_machine_verified_complete",
+        "XIV":"modern_manifestation_observed_historical_relationship_unresolved",
+        "XV":"modern_manifestation_observed_historical_relationship_unresolved",
+        "XVI":"modern_manifestation_verified_isbn_historical_relationship_unresolved"
       },
-      "cycle_state": "Run 139 remained non-Mundarica-focused and preserved all Mundarica states and 16/16 human-review attestations; no unsupported scan/hash/page/OCR promotion was made."
+      "cycle_state": "Run 140 preserved all 16 human-review attestations and all conservative machine-verification states; no unsupported scan/hash/page/OCR promotion was made."
     },
     "B_mmsc": {
       "status": "federated_census_canonicalization_and_ingestion_active",
@@ -33,9 +48,9 @@
       "web_discovery_leads_counted_in_audited_identity_total": 13,
       "web_discovery_leads_remaining_outside_audited_identity_total": 74,
       "search_log_entries_primary": 28,
-      "latest_search_id": "MMSC-SEARCH-000139",
-      "latest_search_record_path": "data/source_census/search_log_run139.jsonl",
-      "latest_verification": "Run 139 advanced the official 2023 ORGI Linguistic Survey of India-Jharkhand from discovery to exact-locator provenance: Census NADA catalog 45248, Reference ID LSI_JHARKHAND, official file LSI_JHARKHAND.pdf, download ID 48955, and indexed printed page 71 for the Mundari section. The indexed text supports bounded survey-attributed statements on four named dialects and 2011 speaker counts, but direct official PDF retrieval timed out and the mirror exceeded the current fetch-size limit; complete bytes, independent checksum and actual page-image verification therefore remain pending.",
+      "latest_search_id": "MMSC-SEARCH-000140",
+      "latest_search_record_path": "data/source_census/search_log_run140.jsonl",
+      "latest_verification": "Run 140 reconciled an exact rights-scope conflict for already-observed Karya ELR-1000: GitHub repository metadata and root LICENSE identify MIT, while the same repository README explicitly states KPL BY-NC-SA-FS 1.0 for the ELR-1000 dataset/work. The conflict was preserved rather than silently resolved; MIT was not treated as a dataset-content licence and no recipe/audio/image/text content was ingested.",
       "source_complete_claim": false
     },
     "C_information_model": {
@@ -44,7 +59,7 @@
       "master_schema_category_representation_percent": 100.0,
       "evidence_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
       "ontology_entities_evidence_graph_active": true,
-      "cycle_state": "No schema redesign. Run 139 added exact government-source locator evidence and explicit manifestation/page-verification boundaries without creating unsupported count-bearing graph objects."
+      "cycle_state": "No redesign. Run 140 added rights/provenance audit evidence for an existing source identity without creating unsupported cultural graph objects or count-bearing claims."
     },
     "D_streamlit": {
       "registered_modules": 42,
@@ -55,14 +70,14 @@
       "cultural_access_overrides_entitlement": true,
       "empty_modules_truthfully_marked": true,
       "ui_mapping_percent": 100.0,
-      "sync_note": "42/42 modules plus universal search/evidence drilldown remain mapped. Run 139 changes are provenance/exact-locator artifacts and require no new module or public count surface."
+      "sync_note": "42/42 modules and shared search/evidence/report/owner-console functions remain mapped; Run 140 changes are provenance-only and require no UI remapping."
     },
     "E_rights_governance_community_validation": {
       "cultural_access_overrides_legal_or_technical_entitlement": true,
       "public_availability_treated_as_reuse_permission": false,
       "community_validation_fabricated": false,
       "restricted_material_exposed": false,
-      "cycle_state": "The ORGI LSI catalogue and public download locator were not treated as an open-content licence. Only bibliographic metadata, exact locators, bounded survey-attributed propositions and uncertainty notes were promoted; no bulk PDF/text redistribution or community-validation claim was made."
+      "cycle_state": "ELR-1000 now has an explicit licence-scope ambiguity record: root MIT versus README dataset KPL BY-NC-SA-FS 1.0. MLHKP applies the conservative dataset-content boundary, does not infer participant/privacy/community permission from either licence, and ingests no participant-derived cultural content pending scope clarification and cultural-access review."
     },
     "F_publication_readiness": {
       "repository_derived_metrics": true,
@@ -74,7 +89,7 @@
       "evidence_links": 52,
       "metrics_changed_this_cycle": false,
       "json_and_tex_metrics_synchronized": true,
-      "manuscript_build_state": "Run-138 status head 54e31908b970b7048158cc4cfd9c69f38a152b17 is independently verified 4/4 green: Source Register Audit 1120, Migration Audit 1170, Streamlit Smoke Test 1266, Publication Build 1119. Fresh CI is required for the Run-139 status head; publication tables/figures remain count-stable because no audited identity/claim/evidence count changed."
+      "manuscript_build_state": "Run-139 status head 02f8038c84fb74b18eaf5c14ec80e690d9ee26b4 is independently verified 4/4 green after the previously cancelled Publication Build was rerun successfully: Source Register Audit 1125, Migration Audit 1175, Streamlit Smoke Test 1271, Publication Build 1124. Fresh CI is required for the Run-140 status head; manuscript metrics remain count-stable."
     },
     "G_evidence_population": {
       "source_claims": 52,
@@ -82,40 +97,48 @@
       "evidence_links": 52,
       "latest_evidence_bearing_source": "SRC-MMSC-000005",
       "latest_evidence_chain": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
-      "run139_advanced_source": "ORGI 2023 Linguistic Survey of India-Jharkhand official catalogue/direct-PDF identity and Mundari printed-page-71 exact locator",
-      "promotion_boundary": "Exact government-source provenance and bounded survey-attributed locator evidence only. Full PDF bytes/checksum/page image are not yet independently verified; no unqualified cultural claim or new count-bearing evidence-chain object was created."
+      "run140_advanced_source": "Karya ELR-1000 repository/dataset licence-scope reconciliation",
+      "promotion_boundary": "Rights-and-licence-scope provenance only. No new public cultural fact, participant-derived item, claim, evidence row, provenance link, source identity, or discovery lead was promoted."
     }
   },
   "tests_and_workflows": {
-    "last_verified_all_four_green_commit": "54e31908b970b7048158cc4cfd9c69f38a152b17",
+    "last_verified_all_four_green_commit": "02f8038c84fb74b18eaf5c14ec80e690d9ee26b4",
     "four_of_four_green_claim_for_that_head": true,
-    "verified_runs_for_that_head": {"source_register_audit":1120,"migration_audit":1170,"streamlit_smoke_test":1266,"publication_build":1119},
-    "new_commits_this_cycle_before_status_sync": ["6d93dce0aa74b72a650d1757761e79d24f942b4f","009ff27dce03f8ddac8fd9c5c264f5596ecba2b1"],
-    "new_head_ci_state_at_status_write": "Run-139 status-sync commit requires fresh CI; prior 4/4 green is not projected onto the new head."
+    "verified_runs_for_that_head": {
+      "source_register_audit": 1125,
+      "migration_audit": 1175,
+      "streamlit_smoke_test": 1271,
+      "publication_build": 1124
+    },
+    "new_commits_this_cycle_before_status_sync": [
+      "5e6462db989586c4c6f6d116e71e5f0a8075cd26",
+      "d9006459df4b173e3d02ba76d9de4ef3027330b7"
+    ],
+    "new_head_ci_state_at_status_write": "Run-140 status-sync commit requires fresh CI; Run-139 4/4 green is not projected onto the new head."
   },
   "changes_this_cycle": [
-    "Added data/source_census/lsi_jharkhand_2023_mundari_exact_locator_run139_2026-09-10.json.",
-    "Added data/source_census/search_log_run139.jsonl covering all requested source classes and blocked/non-promotion states.",
-    "Verified official ORGI Census NADA catalog 45248 / Reference ID LSI_JHARKHAND / publication date 2023-08-01 / file LSI_JHARKHAND.pdf / download ID 48955.",
-    "Converted the LSI stream beyond discovery-only by recording indexed printed page 71 in the Mundari section as an exact locator for survey-attributed dialect and 2011 speaker-count statements.",
-    "Logged official direct-PDF timeout and mirror size-limit failure; complete bytes, independent checksum and actual page-image verification remain explicit gaps.",
-    "Rechecked peer-reviewed, dataset/audio, media and map candidates in parallel; restricted or participant-derived streams were not promoted without rights/consent/cultural-access support.",
-    "Verified Run-138 head 54e31908b970b7048158cc4cfd9c69f38a152b17 as 4/4 green.",
+    "Added data/source_census/karya_elr1000_license_scope_conflict_run140_2026-09-10.json.",
+    "Added data/source_census/search_log_run140.jsonl with MMSC-SEARCH-000140.",
+    "Verified upstream karya-inc/elr-1000 head fc5f659f1d18bdc70c19d2c77ea814c2dce63884.",
+    "Verified root repository LICENSE is MIT while README explicitly declares KPL BY-NC-SA-FS 1.0 for ELR-1000 dataset/work and describes noncommercial/commercial-contact terms.",
+    "Recorded exact licence-scope conflict and did not treat MIT as permission for ELR-1000 dataset content.",
+    "Preserved participant consent, privacy/publicity, community validation and cultural-access gates; no recipes, audio, images or participant-derived text were ingested.",
+    "Verified Run-139 head 02f8038c84fb74b18eaf5c14ec80e690d9ee26b4 as 4/4 green after successful Publication Build rerun.",
     "Preserved permanent metrics at 41 audited identities / 87 observed leads / 13 counted web leads / 74 unresolved leads / 52 claims / 52 evidence / 52 provenance links / 42 modules."
   ],
   "blockers": [
     "Seventy-four web-discovery leads remain outside the audited identity total pending deterministic disposition.",
     "Original MMSC search records 000034-000038 and 000041 remain unrecovered.",
-    "Authoritative Mundarica scans, hashes and complete page accounting remain incomplete.",
-    "Official LSI Jharkhand catalogue/direct-PDF identity and indexed printed page 71 are now verified, but complete official PDF bytes, independent checksum and actual page-image/PDF-index verification remain incomplete.",
+    "Authoritative Mundarica scans, independent hashes and complete page accounting remain incomplete; historical XIV-XVI equivalence is not established.",
+    "Official LSI Jharkhand complete PDF bytes, independent checksum and actual page-image/PDF-index verification remain incomplete.",
     "C-16/ST-15/ST-16/C-17 workbook bytes/checksums/worksheet/exact rows/numeric cell coordinates remain pending before numeric promotion.",
+    "Karya ELR-1000 has an exact unresolved licence-scope conflict: root MIT versus README dataset KPL BY-NC-SA-FS 1.0; authoritative scope clarification plus participant/privacy/community/cultural-access review is required before content-level ingestion.",
+    "Other Karya and participant-derived audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
     "DRMTWRI, Raonka, Ramdayal Munda, Patar, Mundu, Sinha, Evans-Osada, Cook, Bhaduri, TRI, Archer and Osada lawful full-text/rights reconciliation remains incomplete where applicable.",
     "Proietti exact Creative Commons variant, complete file checksum/page accounting, participant reuse consent and cultural-access disposition remain unresolved.",
-    "Karya and related audio/video/datasets remain item-level licence/provenance/consent/cultural-access gated.",
-    "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level CC BY.",
-    "Shrivastava and other restricted publisher full texts remain content/participant/cultural-access gated.",
+    "Ghosh-Jerath participant-derived supplementary/traditional-knowledge components remain separately gated despite article-level open licensing.",
     "The reported 1941 Mundari hockey booklet remains secondary-report-only without a verified primary manifestation.",
-    "Fresh four-workflow verification is required for the newest Run-139 head."
+    "Fresh four-workflow verification is required for the newest Run-140 status head."
   ],
   "integrity": {
     "ocr_treated_as_verified": false,
@@ -141,11 +164,12 @@
     "release_gate": "NOT_PASS"
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the remaining 74 web leads.",
-    "Obtain/hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
-    "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation.",
+    "Continue deterministic disposition of the remaining 74 web leads without duplicate identity creation.",
+    "Obtain and independently hash official Census workbooks and record exact worksheet/row/cell locators before numeric promotion.",
+    "Continue authoritative Mundarica scan/hash/page accounting and historical/modern manifestation reconciliation while formalizing existing 16/16 human attestations where supporting artifacts permit.",
     "Acquire and independently hash the official LSI Jharkhand PDF and verify the Mundari printed-page-71 locator against the actual page image/PDF index.",
-    "Resolve lawful full-text/rights/participant/cultural-access boundaries for remaining source streams, prioritizing authoritative obtainable bytes.",
+    "Seek authoritative Karya clarification of ELR-1000 MIT-versus-KPL scope and separately resolve participant/privacy/community/cultural-access boundaries before content use.",
+    "Resolve remaining lawful full-text/rights/participant/cultural-access streams, prioritizing authoritative obtainable bytes.",
     "Recover original search records 000034-000038 and 000041 without reconstructing them from prose.",
     "Verify all four CI workflows on the newest head and run automated completeness/provenance checks before any release-gate change."
   ]
