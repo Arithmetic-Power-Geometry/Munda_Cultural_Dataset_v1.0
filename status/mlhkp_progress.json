@@ -4,153 +4,107 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "module_status": "in_progress",
-  "updated_utc": "2026-09-10T07:45:00Z",
+  "updated_utc": "2026-09-10T08:02:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "latest_run": 154,
   "head_at_cycle_start": "9d984e3d62ce41f55d20dc8c7dff8a9de5dfd2ee",
-  "cycle_commits_before_final_status_sync": [
+  "head_before_final_status_sync": "223222f0af3b6627c6c52db3d6d929758c07aa4b",
+  "cycle_commits": [
     "c7d274bc249fd22f260a377c631386db3e716cb1",
     "641158ea63ff1ba9de9b17d4d8ff4708b7ed7e83",
     "5e9cfa6b9d06d282e108243eb87a5754372266c6",
     "6956a207db2c8de14cf0c3c5e0d508dd696bf824",
     "305988394e59ef6e342d9de657ff716b67f9874d",
-    "dfbfba63cf1762ed6c196a1f2e74f7939db51efb"
+    "dfbfba63cf1762ed6c196a1f2e74f7939db51efb",
+    "4941db36b2ba12c4fd3aa3e98e029da543c3319c",
+    "223222f0af3b6627c6c52db3d6d929758c07aa4b"
   ],
-  "A_mundarica": {
+  "mundarica": {
     "expected_release_slots": 16,
-    "per_volume_states": {
-      "I": {"artifact_state":"working_transcription","repository_artifact":"Mundarika1.md","declared_scan_pages":324,"page_blocks_detected":324,"page_accounting_complete":true,"source_scan_present":false,"scan_comparison_complete":false,"structured_ingestion_complete":false,"verified_complete":false},
-      "II": {"artifact_state":"pending","verified_complete":false},
-      "III": {"artifact_state":"pending","verified_complete":false},
-      "IV": {"artifact_state":"pending","verified_complete":false},
-      "V": {"artifact_state":"pending","verified_complete":false},
-      "VI": {"artifact_state":"pending","verified_complete":false},
-      "VII": {"artifact_state":"pending","verified_complete":false},
-      "VIII": {"artifact_state":"pending","verified_complete":false},
-      "IX": {"artifact_state":"pending","verified_complete":false},
-      "X": {"artifact_state":"pending","verified_complete":false},
-      "XI": {"artifact_state":"pending","verified_complete":false},
-      "XII": {"artifact_state":"pending","verified_complete":false},
-      "XIII": {"artifact_state":"pending","verified_complete":false},
-      "XIV": {"artifact_state":"pending","verified_complete":false},
-      "XV": {"artifact_state":"pending","verified_complete":false},
-      "XVI": {"artifact_state":"pending","verified_complete":false}
-    },
     "historical_volume_locators_verified": 12,
     "authoritative_scans_registered": 0,
     "verified_complete_volumes": 0,
+    "volume_I": {"state":"working_transcription","page_blocks_detected":324,"declared_scan_pages":324,"page_accounting_complete":true,"source_scan_present":false,"scan_comparison_complete":false,"structured_ingestion_complete":false,"verified_complete":false},
+    "volumes_II_XVI": "pending_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "human_review_attestations_preserved_without_machine_upgrade": true,
-    "run154_change": "No Mundarica state was upgraded because no authoritative scan/hash/page-image comparison became available in this cycle."
+    "run154_change": "No Mundarica verification state was upgraded without authoritative scan/hash/page-image evidence."
   },
-  "B_mmsc": {
-    "status": "federated_census_canonicalization_and_ingestion_active",
-    "audited_source_identities_discovered": 41,
+  "mmsc": {
+    "audited_source_identities": 41,
     "canonical_master_records": 14,
     "standalone_mmsc_discoveries": 15,
-    "web_discovery_records_observed": 89,
-    "web_discovery_unique_leads": 87,
-    "web_discovery_duplicate_records": 2,
-    "web_discovery_leads_counted_in_audited_identity_total": 13,
-    "web_discovery_unique_leads_remaining_outside_audited_identity_total": 74,
+    "raw_web_discovery_records": 89,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 2,
+    "canonicalized_unique_web_leads": 13,
+    "unresolved_unique_web_leads": 74,
     "latest_search_id": "MMSC-SEARCH-000154",
-    "latest_search_record_path": "data/source_census/search_log_run154.jsonl",
-    "latest_duplicate_reconciliation": "WEB-MUN-0089 deterministically reconciled to existing permanent identity SRC-MMSC-000002 by exact DOI 10.30884/seh/2025.02.01, identical title, author set and year. Raw audit record retained; it no longer inflates unique or unresolved counts.",
+    "latest_duplicate_reconciliation": {"raw_id":"WEB-MUN-0089","canonical_source_id":"SRC-MMSC-000002","dedupe_key":"doi:10.30884/seh/2025.02.01","decision":"preserve raw audit observation but do not count as unique, unresolved or new audited identity"},
     "systematic_census_documented_for_release": true,
-    "source_complete_claim": false
+    "absolute_or_future_proof_completeness_claimed": false
   },
-  "C_information_model": {
-    "registered_modules": 42,
-    "module_schema_domain_mapping_percent": 100.0,
-    "schema_category_representation_percent": 100.0,
-    "evidence_graph": "active",
+  "evidence_and_schema": {
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "all_public_factual_claims_provenance_linked": true,
     "source_to_domain_chain": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
+    "schema_category_representation_percent": 100.0,
+    "module_schema_domain_mapping_percent": 100.0,
     "broken_ids_or_provenance_known": false,
-    "run154_graph_change": "none; duplicate reconciliation changed identity accounting only"
+    "cultural_claims_added_run154": 0,
+    "numeric_claims_added_run154": 0
   },
-  "D_streamlit": {
+  "streamlit": {
     "registered_modules": 42,
     "mapped_modules": 42,
-    "module_ui_mapping_percent": 100.0,
+    "ui_mapping_percent": 100.0,
     "universal_search": true,
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run154_ui_change": "no redesign; repository metrics synchronized to corrected raw/unique/duplicate/unresolved census semantics"
+    "run154_change": "No redesign; metrics and identity accounting synchronized."
   },
-  "E_rights_access_consent": {
+  "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
-    "cultural_access_overrides_legal_or_technical_access": true,
-    "run154_boundary": "Tuti et al. remains governed by the existing SRC-MMSC-000002 rights/cultural-access boundary. Publisher readability and study-reported verbal consent do not establish unrestricted redistribution, MLHKP secondary-use consent or community-wide validation."
+    "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "tuti_boundary": "Publisher readability and study-reported consent do not establish unrestricted redistribution, MLHKP secondary-use consent or community-wide validation."
   },
-  "F_publication": {
-    "sources_discovered": 41,
-    "web_discovery_records_observed": 89,
-    "web_discovery_leads_observed_backward_compatible_alias": 89,
-    "web_discovery_unique_leads": 87,
-    "web_discovery_duplicate_records": 2,
-    "canonicalized_web_leads": 13,
-    "unique_unresolved_web_leads": 74,
-    "claims": 52,
-    "evidence_records": 52,
-    "evidence_links": 52,
+  "publication": {
+    "q1_target_manuscript": "repository_synchronized_reproducible_latex",
     "release_metrics_json_tex_synced": true,
-    "latex_manuscript_state": "Generated JSON/TeX metrics synchronized to 41 sources, 89 raw web records, 87 unique leads, 2 duplicates, 13 canonicalized leads, 74 unresolved unique leads and 52/52/52 claims-evidence-links.",
-    "repository_metrics_sync_state": "synchronized after deterministic duplicate correction; audited identity and evidence counts unchanged"
+    "sources": 41,
+    "raw_web_records": 89,
+    "unique_web_leads": 87,
+    "duplicate_web_records": 2,
+    "canonicalized_web_leads": 13,
+    "unresolved_unique_web_leads": 74,
+    "claims_evidence_links": "52/52/52",
+    "build_state": "Publication Build run 1249 in progress on repaired head 223222f0af3b6627c6c52db3d6d929758c07aa4b at final status sync."
   },
-  "G_evidence": {
-    "source_claims": 52,
-    "evidence_records": 52,
-    "evidence_links": 52,
-    "all_public_factual_claims_provenance_linked": true,
-    "cultural_claims_added_run154": 0,
-    "numeric_claims_added_run154": 0,
-    "promotion_state": "identity_metadata_reconciliation_only"
+  "ci": {
+    "precycle_head_9d984e3": {"source_register":"success #1224","migration":"success #1274","streamlit":"success #1381","publication":"success #1234","green_4_of_4":true},
+    "initial_run154_head_4941db3": {"source_register":"failed MMSC contract","migration":"success","streamlit":"superseded_by_repair","publication":"superseded_by_repair","green_4_of_4":false},
+    "repair": "latest_canonicalization restored to last canonicalized_new_identity WEB-MUN-0047; WEB-MUN-0089 retained only under latest_duplicate_reconciliation. Correct 89/87/2/74 counts retained.",
+    "repaired_head_223222f": {"source_register":"success #1237","migration":"success #1287","streamlit":"in_progress #1396","publication":"in_progress #1249","fresh_failures_known":0,"green_4_of_4_claimed":false},
+    "fresh_ci_required_on_final_status_commit": true
   },
-  "H_ci_tests": {
-    "verified_precycle_head": "9d984e3d62ce41f55d20dc8c7dff8a9de5dfd2ee",
-    "verified_precycle_results": {
-      "MLHKP Source Register Audit": "success run 1224",
-      "MLHKP Migration Audit": "success run 1274",
-      "MLHKP Streamlit Smoke Test": "success run 1381",
-      "MLHKP Publication Build": "success run 1234"
-    },
-    "required_workflows": ["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],
-    "fresh_head_status": "fresh CI required on final Run 154 status head",
-    "four_of_four_green_claim_for_verified_precycle_head": true,
-    "four_of_four_green_claim_for_final_head": false
-  },
-  "run154_changes": [
-    "Verified the Run 153 final head 9d984e3d62ce41f55d20dc8c7dff8a9de5dfd2ee independently 4/4 green.",
-    "Detected that WEB-MUN-0089 duplicated pre-existing permanent identity SRC-MMSC-000002 despite Run 153 having labelled it new.",
-    "Preserved WEB-MUN-0089 as an immutable raw publisher-manifestation audit observation while correcting its canonicalization to SRC-MMSC-000002.",
-    "Corrected MMSC counts from 89 raw/88 unique/1 duplicate/75 unresolved to 89 raw/87 unique/2 duplicates/74 unresolved; audited identities remain 41.",
-    "Synchronized publication release_metrics.json and release_metrics.tex to the corrected census counts without changing 52/52/52 claim-evidence-provenance totals.",
-    "Retained all participant, rights, community-validation and cultural-access restrictions; no cultural or Census numeric claim was promoted."
-  ],
   "blockers": [
-    "74 unique web-discovery leads still require deterministic disposition/canonicalization.",
-    "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes and exact worksheet/row/cell numeric locators remain unverified; the official C-17 catalogue is verified but workbook bytes were not obtained in Run 154.",
+    "74 unique web leads require deterministic disposition/canonicalization.",
+    "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
-    "Mundarica authoritative scans/hashes and scan-to-page verification remain absent; Volumes II-XVI have no repository artifacts in the completeness audit.",
-    "Bangladesh Multiling item-level language identity, provenance, speaker consent, contributor authority and cultural-access boundaries remain unresolved.",
-    "Karya and other participant-derived audio/video/dataset streams require participant/consent and cultural-access review before ingestion.",
-    "Lawful full manifestations and exact locators remain incomplete for multiple grammar/dictionary/TRI/scholarly sources.",
-    "Original primary search logs MMSC-SEARCH-000034 through 000038 and 000041 remain missing from the normalized primary log.",
-    "Reported 1941 Mundari hockey booklet still lacks an independently verified primary manifestation.",
-    "Nirang Pajhra still lacks an independently resolved authoritative PRGI/RNI registration manifestation and issue-level provenance.",
-    "Fresh four-workflow CI verification is required on the final Run 154 status head."
+    "Mundarica authoritative scans/hashes/scan-to-page verification remain absent; II-XVI lack release-grade artifacts.",
+    "Participant-derived audio/video/dataset material remains gated by consent, privacy, community and cultural-access review.",
+    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact locators.",
+    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing.",
+    "1941 Mundari hockey booklet lacks independently verified primary manifestation.",
+    "Nirang Pajhra lacks authoritative PRGI/RNI manifestation and issue-level provenance."
   ],
-  "deadline_progress": {
-    "deadline_ist": "2026-09-21T23:59:00+05:30",
-    "status": "on_target_but_gate_open",
-    "principle": "deadline does not authorize marking unavailable, restricted or unverified material complete"
-  },
+  "deadline_progress": {"status":"on_target_but_gate_open","principle":"deadline never authorizes marking unavailable, restricted or unverified material complete"},
   "release_gate": {
     "status": "NOT_PASS",
     "schema_category_representation_100": true,
@@ -158,19 +112,17 @@
     "systematic_census_documented": true,
     "all_obtainable_permitted_sources_processed_to_declared_level": false,
     "all_public_claims_provenance_linked": true,
-    "unavailable_restricted_unverified_gaps_enumerated": true,
+    "gaps_enumerated": true,
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
-    "completeness_audit_pass": false,
-    "reason": "Outstanding source dispositions, authoritative byte/hash/page verification, rights/consent/cultural-access gates and incomplete Mundarica artifact coverage remain; final-head CI must also pass."
+    "automated_completeness_audit_pass": false,
+    "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, consent/cultural-access gates and incomplete Mundarica artifact coverage remain."
   },
-  "next_priority": [
-    "Verify all four workflows on the final Run 154 head and repair any failure without touching main.",
-    "Continue deterministic disposition of the 74 unique unresolved web leads, checking permanent identities before assigning any new discovery identity.",
-    "Retry authoritative Census workbook acquisition and verify bytes/hash/worksheet/exact numeric cells only when obtainable.",
-    "Obtain official LSI Jharkhand bytes and verify printed pages against page images.",
-    "Advance lawful full-text/exact-locator ingestion for high-quality non-participant or clearly permitted sources.",
-    "Advance Mundarica only from authoritative scans/hashes/page comparison; never equate OCR/page blocks with verified transcription.",
-    "Keep participant-derived ethnographic/audio/video material behind secondary-use consent and cultural-access gates even when publicly readable."
+  "next_parallel_tasks": [
+    "Verify all four workflows on the final status head and repair any failure without touching main.",
+    "Continue deterministic disposition of 74 unresolved unique web leads with permanent-identity checks first.",
+    "Retry authoritative Census workbook bytes/hash/cell acquisition and official LSI PDF byte/page verification.",
+    "Advance lawful full-text/exact-locator evidence ingestion where rights and cultural access permit.",
+    "Advance Mundarica only from authoritative scans/hashes/page comparison; never equate OCR with verification."
   ]
 }
