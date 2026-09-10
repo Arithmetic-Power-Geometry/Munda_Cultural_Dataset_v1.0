@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T20:28:20Z",
+  "updated_utc": "2026-09-10T20:45:38Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 180,
-  "cycle_result": "Run 180 tightened the Proietti 2025 thesis rights/manifestation boundary. Authoritative UNITESI metadata reconfirms the thesis handle/NBN, reported 47.18 MB PDF, open-access date 2026-05-27 and generic Creative Commons label, while the repository also states documents are copyright-protected/all rights reserved unless otherwise indicated. Because the retrieved metadata does not expose an exact CC variant or licence URL, redistribution, derivative-use, machine-learning permission and participant/community/cultural-access permissions remain unverified. No full-text passages, cultural claims, participant records or count-bearing source identities were promoted. Counts remain unchanged.",
+  "latest_run": 181,
+  "cycle_result": "Run 181 advanced Felix Rau's 2019 Munda cognate dataset from landing-page-only manifestation metadata to direct authoritative CSV manifestation access. Zenodo's download endpoint rendered pMunda_cognate_set_2019-08-29.csv as text; the header was directly verified and includes mu_form and mu_source Mundari fields. The repository continues to report 34.9 kB and MD5 07e1d945a0fc6cafc4fc7afd3f1ff144. The exact licence value remains absent from the retrieved authoritative Rights section and no byte-preserving local copy was retained for independent hashing, so zero lexical rows, reconstructions, participant material or cultural claims were ingested. Counts remain unchanged.",
   "cycle_commits": {
-    "rights_audit": "22a86e7b16d32068813b017725b638c944e6910e",
-    "regression_test": "ad3dc3c090b9cec6da1d305c25484d1d5cf4e04e",
-    "search_log": "eff6e75573923fa40447ec9880f2e62396585f31",
-    "work_head_before_status_sync": "eff6e75573923fa40447ec9880f2e62396585f31"
+    "manifestation_audit": "4dbb8a41528af9ee22f2862246f6687f16769d23",
+    "search_log": "4e1f939d5ee5003aa803be56a829a5560f6f2dba",
+    "regression_test": "772cf193d54fbf508c1e88e83c6d0e6e41294f78",
+    "work_head_before_status_sync": "772cf193d54fbf508c1e88e83c6d0e6e41294f78"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -27,7 +27,7 @@
       "II-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run180_change": "No Mundarica acquisition/OCR/page-verification state was upgraded without authoritative scan evidence."
+    "run181_change": "No Mundarica acquisition/OCR/page-verification state was upgraded; this sprint remains non-Mundarica."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -40,12 +40,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000180",
-    "latest_search_log": "data/source_census/search_log_run180.jsonl",
-    "latest_source_audit": "data/source_census/proietti_2025_rights_resolution_run180_2026-09-11.json",
-    "run180_reconciliation": {
-      "source": "Proietti 2025 doctoral thesis",
-      "decision": "bibliographic identity remains exact-located; generic Creative Commons label is insufficient for exact redistribution/derivative permission",
+    "latest_search_id": "MMSC-SEARCH-000181",
+    "latest_search_log": "data/source_census/search_log_run181.jsonl",
+    "latest_source_audit": "data/source_census/rau_2019_csv_manifestation_access_run181_2026-09-11.json",
+    "run181_reconciliation": {
+      "source": "Felix Rau 2019 Munda cognate dataset",
+      "decision": "existing Run-167 identity reconciled to a directly readable authoritative CSV manifestation; no new permanent identity assigned and no row-level ingestion until exact licence and independent checksum are resolved",
       "source_identities_added": 0,
       "counts_changed": false
     },
@@ -63,11 +63,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run180": 0,
-    "claims_added_run180": 0,
-    "evidence_records_added_run180": 0,
-    "evidence_links_added_run180": 0,
-    "verification_audits_added_run180": 1
+    "source_identities_added_run181": 0,
+    "claims_added_run181": 0,
+    "evidence_records_added_run181": 0,
+    "evidence_links_added_run181": 0,
+    "verification_audits_added_run181": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -78,7 +78,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run180_change": "No exposure expansion; all 42 modules and universal search/evidence/report/owner-console mappings remain unchanged because Run 180 is a non-count-bearing rights audit."
+    "run181_change": "No exposure expansion; all 42 modules and universal search/evidence/report/owner-console mappings remain unchanged because Run 181 is a non-count-bearing manifestation-verification advance."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -88,9 +88,10 @@
     "article_or_thesis_reuse_terms_treated_as_participant_consent": false,
     "article_or_thesis_reuse_terms_treated_as_community_validation": false,
     "article_or_thesis_reuse_terms_treated_as_cultural_access_permission": false,
-    "proietti_exact_cc_variant_verified": false,
-    "participant_records_ingested_run180": 0,
-    "full_text_passages_ingested_run180": 0
+    "rau_exact_license_value_verified": false,
+    "rau_row_level_reuse_permitted": false,
+    "participant_records_ingested_run181": 0,
+    "full_text_or_lexical_rows_ingested_run181": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -102,9 +103,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 180; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release metric changed; no table/figure count regeneration required.",
-    "build_state": "Run-179 exact head 6da982be64e4a2fcbcdd14077a4aa31e5417f393 independently passed all four workflows; fresh Run-180 final-head CI must be checked before claiming green."
+    "generated_metrics_state": "No count-bearing change in Run 181; generated manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release metric changed; no table/figure count regeneration required. Rau manifestation verification strengthens the audit trail without changing plotted/reported counts.",
+    "build_state": "Run-179 exact head 6da982be64e4a2fcbcdd14077a4aa31e5417f393 remains the last independently recorded 4/4-green head in the progress record; fresh Run-181 final-head CI must be checked before claiming green."
   },
   "ci": {
     "last_independently_verified_green_head": "6da982be64e4a2fcbcdd14077a4aa31e5417f393",
@@ -115,17 +116,17 @@
       "migration_audit": {"run_number": 1446, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1560, "conclusion": "success"}
     },
-    "run180_tests_added": "tests/test_run180_proietti_rights_boundary.py",
+    "run181_tests_added": "tests/test_run181_rau_manifestation_access.py",
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Rau 2019 CSV manifestation is now directly readable and its Mundari fields are header-verified, but the exact authoritative licence value/licence URL remains unresolved and the repository-reported MD5 has not been independently recomputed from a retained byte copy; lexical rows remain un-ingested.",
     "Proietti 2025 thesis exact Creative Commons variant/licence URL, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration.",
     "MMLoSo reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; no authoritative reconciliation has been verified.",
     "Lexibank Peiros v1.1 direct Zenodo manifestation/file-level metadata and checksums remain unverified.",
     "WALS/Grambank permanent source registration remains a synchronized count-bearing transaction; Sinha/Osada underlying grammar passages are not yet direct page-verified.",
-    "Rau 2019 Zenodo dataset licence is unresolved in the available authoritative retrieval path and its repository-reported MD5 is not independently recomputed.",
     "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand authoritative bytes/hash/page-image verification remains incomplete; LSI West Bengal byte/hash/page-image verification also remains incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
@@ -155,9 +156,10 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/catalogue exact matches and obtainable lawful manifestations.",
+    "Resolve Rau 2019 exact licence metadata and obtain a byte-preserving lawful local copy for independent checksum verification before row-level reuse.",
     "Resolve Proietti 2025 exact Creative Commons variant/licence URL and, where lawful, acquire PDF bytes/checksum and page-level locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo shared-task dataset manifestation/version/file metadata before row-level ingestion or dataset registration.",
-    "Retry direct Zenodo v1.1 manifestation/file/checksum retrieval for Lexibank Peiros and resolve Rau licensing/checksum.",
+    "Retry direct Zenodo v1.1 manifestation/file/checksum retrieval for Lexibank Peiros.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
     "Retry authoritative Census workbook and official LSI PDF byte/hash/page-image verification; blocked endpoints remain explicit gaps.",
     "Advance lawful exact-locator ingestion for grammar/dictionary/TRI/thesis/scholarly sources while preserving source attribution and cultural uncertainty.",
