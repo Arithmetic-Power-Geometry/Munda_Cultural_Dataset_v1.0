@@ -4,17 +4,22 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T22:34:00Z",
+  "updated_utc": "2026-09-10T22:49:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 184,
-  "cycle_result": "Run 184 directly verified that the authoritative Zenodo download endpoint for Felix Rau's 2019 Munda cognate dataset returns plaintext CSV with the expected schema including a Mundari column, while preserving the repository-declared filename, 34.9 kB size, MD5 07e1d945a0fc6cafc4fc7afd3f1ff144, version 0.1.0, and description reporting 127 cognates. A separate byte-preserving container download attempt failed, so independent checksum recomputation remains blocked and no lexical rows or cultural claims were promoted. The all-class MMSC census sweep was logged. No count-bearing identity/evidence change occurred.",
+  "latest_run": 185,
+  "cycle_result": "Run 185 performed another all-class non-Mundarica census pass, deterministically caught a fresh Tuti et al. 2025 discovery hit as an already-canonicalized duplicate of SRC-MMSC-000002/WEB-MUN-0089 rather than inflating counts, and exact-located a separate restricted SAGE article by Shalini Saboo on land inheritance among Munda women in Jharkhand (DOI 10.1177/0019556120982196). SAGE directly verifies title, author, DOI, volume/issue, pages, publication dates, abstract scope, restricted-access state, copyright and permissions requirement. Because full text was not lawfully obtained in this run, only bibliographic, rights and source-attributed abstract-scope metadata were promoted; zero cultural claims or participant records were added. Counts, evidence graph, Streamlit modules and publication release metrics remain unchanged and synchronized.",
   "cycle_commits": {
-    "rau_manifestation_transport_audit": "f9a965244143b8a391153ba674de755ee199bbdd",
-    "run183_forward_compat_test": "f1cb8df63d7b26fe48b20be3ed9650fa5aa1be83",
-    "search_log": "0f12e15708df538a4b0d888d8f5569ae55cf03f3",
-    "run184_regression_test": "eaee7c5c83e4e6b34501bb729e44b2e79a2113ce",
-    "work_head_before_status_sync": "eaee7c5c83e4e6b34501bb729e44b2e79a2113ce"
+    "tuti_initial_reverification_record": "b5cb08272620f8f5b54dcc98c9a7466d0f928b96",
+    "search_log_initial": "95ffb5eefd0ac3aa666889b125458314c0da6499",
+    "run184_forward_compat_test": "21bef72948515ec5365c1839c283c9f6e5460b08",
+    "run185_initial_test": "3cb000e38749a06d79127e9025dc929c4d0bd80e",
+    "saboo_exact_locator_audit": "a4077f445f8d8bf305624d651a2ff4e546a98e3c",
+    "tuti_reconciliation_correction": "9e7f443b71b61c2fefbcca26a2a24069e67cb894",
+    "search_log_reconciled": "33baf39a5b9f139a8efb3ab6ad6479c3910ad6e6",
+    "tuti_reconciliation_test": "8f0e093b6a99e0bd698769c63f60749ec1fe9b08",
+    "saboo_regression_test": "b13adb8ca9967b534495d7cfd35c3e3d8b508536",
+    "work_head_before_status_sync": "b13adb8ca9967b534495d7cfd35c3e3d8b508536"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -29,7 +34,7 @@
       "III-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run184_change": "No Mundarica material was promoted. The independent stream remains open while the census/evidence stream advanced safely."
+    "run185_change": "No Mundarica material was promoted. The requested non-Mundarica census/evidence stream advanced while the independent Mundarica verification stream remains open."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -42,9 +47,10 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000184",
-    "latest_search_log": "data/source_census/search_log_run184.jsonl",
-    "latest_source_audit": "data/source_census/rau_2019_manifestation_transport_audit_run184_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000185",
+    "latest_search_log": "data/source_census/search_log_run185.jsonl",
+    "latest_source_audit": "data/source_census/saboo_2020_munda_land_inheritance_exact_locator_run185_2026-09-11.json",
+    "latest_duplicate_reconciliation": "data/source_census/tuti_et_al_2025_munda_megaliths_exact_locator_run185_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -59,11 +65,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run184": 0,
-    "claims_added_run184": 0,
-    "evidence_records_added_run184": 0,
-    "evidence_links_added_run184": 0,
-    "verification_audits_added_run184": 1
+    "source_identities_added_run185": 0,
+    "claims_added_run185": 0,
+    "evidence_records_added_run185": 0,
+    "evidence_links_added_run185": 0,
+    "verification_audits_added_run185": 2,
+    "run185_note": "One new restricted-source exact-locator metadata audit (Saboo) plus one deterministic reverification/reconciliation audit (Tuti); neither changes claim-bearing evidence counts."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -74,7 +81,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run184_change": "No exposure expansion; all 42 modules and owner/search/evidence/report surfaces remain synchronized with unchanged count-bearing metrics."
+    "run185_change": "No exposure expansion; all 42 modules and universal-search/evidence/report surfaces remain synchronized because Run 185 made no count-bearing source or evidence-graph promotion."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -94,8 +101,14 @@
     "rau_participant_consent_inferred": false,
     "rau_community_validation_inferred": false,
     "rau_cultural_access_inferred": false,
-    "participant_records_ingested_run184": 0,
-    "full_text_or_lexical_rows_ingested_run184": 0
+    "saboo_publisher_access_state": "restricted",
+    "saboo_open_license_verified": false,
+    "saboo_full_text_obtained_run185": false,
+    "saboo_participant_consent_inferred": false,
+    "saboo_community_validation_inferred": false,
+    "saboo_cultural_access_inferred": false,
+    "participant_records_ingested_run185": 0,
+    "full_text_or_lexical_rows_ingested_run185": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -107,9 +120,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 184; manuscript metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release metric changed; Run 184 strengthens the source-manifestation audit trail without numerical regeneration.",
-    "build_state": "Exact Run-183 final head c51939e9ce735d7a4c09c5c3fa148d5bb860e6d9 is independently 4/4 green. Fresh Run-184 final-head CI must complete before the new head is called green."
+    "generated_metrics_state": "No count-bearing change in Run 185; manuscript/release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release metric changed; publication tables/figures therefore require no numerical regeneration for Run 185. The source-census audit trail strengthened through a restricted-source exact locator and explicit duplicate reconciliation.",
+    "build_state": "Exact Run-183 final head c51939e9ce735d7a4c09c5c3fa148d5bb860e6d9 was independently 4/4 green in the prior status. Fresh Run-185 final-head CI must complete before the new head is called green."
   },
   "ci": {
     "last_independently_verified_green_head": "c51939e9ce735d7a4c09c5c3fa148d5bb860e6d9",
@@ -120,12 +133,16 @@
       "migration_audit": {"run_number": 1470, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1584, "conclusion": "success"}
     },
-    "run184_tests_added": "tests/test_run184_rau_manifestation_transport.py",
+    "run185_tests_added": [
+      "tests/test_run185_tuti_megalith_exact_locator.py",
+      "tests/test_run185_saboo_exact_locator.py"
+    ],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Rau 2019 authoritative CSV endpoint and plaintext schema are directly verified, but byte-preserving acquisition and independent checksum verification remain incomplete; zero lexical rows were ingested in Run 184.",
+    "Saboo 2020/2021 Munda land-inheritance article is exact-located at publisher metadata/abstract/rights level, but SAGE marks full text restricted and requests permissions; exact substantive passages, participant/method details and reuse rights remain unverified and no cultural claim was promoted.",
+    "Rau 2019 authoritative CSV endpoint and plaintext schema are directly verified, but byte-preserving acquisition and independent checksum verification remain incomplete; zero lexical rows were ingested.",
     "Proietti 2025 thesis exact Creative Commons variant/licence URL, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task paper identity is exact-located, but direct shared-task dataset manifestation/version/file metadata is still required before row ingestion or permanent dataset registration.",
     "MMLoSo reports 16,000 evaluation sentences in the abstract and 15,999 test sentences in section 3; no authoritative reconciliation has been verified.",
@@ -156,12 +173,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, primary-source checks and unresolved consent/community/cultural-access gates remain. Rau's authoritative plaintext manifestation is now directly confirmed, but independent byte/hash verification is not."
+    "reason": "73 unresolved source dispositions plus direct dataset/grammar/Census/LSI manifestations, primary-source checks and unresolved consent/community/cultural-access gates remain. Run 185 adds a defensible restricted-source locator and catches a duplicate without count inflation, but does not close those release blockers."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches and lawful manifestations.",
+    "Seek a lawful full manifestation or authoritative richer metadata for Saboo DOI 10.1177/0019556120982196; keep substantive cultural/participant assertions unpromoted unless exact locators and rights/consent/cultural-access boundaries support them.",
     "Retry byte-preserving acquisition of Rau 2019 and independently recompute MD5; only then consider narrowly scoped row-level locator promotion while preserving underlying-source and cultural-access uncertainty.",
-    "Advance Mundarica III-XIII exact secondary manifestation/page accounting while continuing pursuit of authoritative scans; never equate OCR with verified transcription.",
     "Resolve Proietti 2025 exact licence variant and lawful PDF integrity/page locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo and Lexibank Peiros manifestations/version/file metadata before row-level ingestion or registration.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
