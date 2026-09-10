@@ -1,0 +1,54 @@
+{
+  "audit_id": "MLHKP-CENSUS-C17-JH-2011-RUN146",
+  "date_utc": "2026-09-10",
+  "workstream": "Master Munda Source Census / Census provenance",
+  "canonicalization": {
+    "treatment": "manifestation/component of the existing Census of India 2011 language-source stream; do not create a duplicate audited source identity solely for this table",
+    "duplicate_identity_created": false
+  },
+  "authoritative_catalogue": {
+    "publisher": "Office of the Registrar General & Census Commissioner, India",
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "reference_id": "PC11_C17-20",
+    "reference_number": "PC11_C17",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "listed_download_filename": "DDW-C17-2000.XLSX",
+    "geographic_granularity": "state",
+    "statistics": "counts",
+    "unit_of_observation": "individual (person)",
+    "universe": "all individuals in Jharkhand",
+    "description": "For each mother tongue, the table reports speakers and classification by additional languages spoken; total/rural/urban are combined at India/State level."
+  },
+  "relevance_to_mlhkp": {
+    "munda_mundari_categories_expected_in_c17_schema": true,
+    "scope": "language/bilingualism provenance only",
+    "numeric_values_promoted": false,
+    "reason_numeric_values_not_promoted": "Authoritative workbook bytes, independent checksum, worksheet name, exact Munda/Mundari row(s), and exact numeric cell coordinates have not yet been independently verified in this run."
+  },
+  "rights_and_access": {
+    "catalogue_publicly_accessible": true,
+    "public_availability_treated_as_reuse_permission": false,
+    "dataset_reuse_rights_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_override_required_for_sensitive_derivatives": true
+  },
+  "verification_boundary": {
+    "verified": [
+      "authoritative ORGI catalogue identity",
+      "Jharkhand state scope",
+      "2011 census period",
+      "listed workbook filename DDW-C17-2000.XLSX",
+      "table purpose: bilingualism and trilingualism by mother tongue"
+    ],
+    "not_verified": [
+      "workbook bytes",
+      "independent SHA-256",
+      "worksheet name",
+      "exact Munda/Mundari data rows",
+      "numeric values",
+      "cell coordinates"
+    ]
+  },
+  "promotion_decision": "Catalogue-level provenance promoted; no factual numeric claim or evidence-chain record created from unverified workbook contents.",
+  "source_complete_claim": false
+}
