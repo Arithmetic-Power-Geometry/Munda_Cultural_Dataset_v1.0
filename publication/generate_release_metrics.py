@@ -28,18 +28,28 @@ def metrics():
     model = load("data/information_model.json")
     vols = audit["volumes"]
     model_domains = {d for family in model["record_families"] for d in family.get("domains", [])}
+    mm = mmsc["metrics"]
+    raw_web = mm.get("web_discovery_records_observed", mm.get("web_discovery_leads_observed", 0))
+    unique_web = mm.get("web_discovery_unique_leads", raw_web)
+    unique_unresolved = mm.get(
+        "web_discovery_unique_leads_remaining_outside_audited_identity_total",
+        unique_web - mm["web_discovery_leads_counted_in_audited_identity_total"],
+    )
     return {
         "generated_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "sources_discovered": mmsc["metrics"]["sources_discovered"],
-        "web_discovery_leads_observed": mmsc["metrics"]["web_discovery_leads_observed"],
-        "web_discovery_leads_counted_in_audited_identity_total": mmsc["metrics"]["web_discovery_leads_counted_in_audited_identity_total"],
-        "canonical_master_records": mmsc["metrics"]["canonical_master_records"],
-        "additional_federated_discoveries": mmsc["metrics"]["additional_federated_discoveries"],
-        "still_to_acquire_additional_discoveries": mmsc["metrics"]["still_to_acquire_additional_discoveries"],
+        "sources_discovered": mm["sources_discovered"],
+        "web_discovery_records_observed": raw_web,
+        "web_discovery_unique_leads": unique_web,
+        "web_discovery_duplicate_records": mm.get("web_discovery_duplicate_records", raw_web - unique_web),
+        "web_discovery_leads_counted_in_audited_identity_total": mm["web_discovery_leads_counted_in_audited_identity_total"],
+        "web_discovery_unique_leads_remaining_outside_audited_identity_total": unique_unresolved,
+        "canonical_master_records": mm["canonical_master_records"],
+        "additional_federated_discoveries": mm["additional_federated_discoveries"],
+        "still_to_acquire_additional_discoveries": mm["still_to_acquire_additional_discoveries"],
         "mundarica_expected_volumes": audit["expected_volumes"],
         "mundarica_verified_complete_volumes": sum(bool(v.get("verified_complete")) for v in vols),
         "mundarica_page_accounting_complete_volumes": sum(bool(v.get("page_accounting_complete")) for v in vols),
-        "mundarica_authoritative_scans_registered": mmsc["metrics"]["mundarica_authoritative_scans_registered"],
+        "mundarica_authoritative_scans_registered": mm["mundarica_authoritative_scans_registered"],
         "registered_streamlit_modules": len(modules["modules"]),
         "coverage_matrix_rows": len(coverage.get("rows", coverage.get("coverage", []))),
         "information_model_record_families": len(model["record_families"]),
@@ -65,8 +75,11 @@ def main():
     OUT_JSON.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     macros = {
         "MLHKPSourcesDiscovered": data["sources_discovered"],
-        "MLHKPWebDiscoveryLeads": data["web_discovery_leads_observed"],
+        "MLHKPWebDiscoveryRecords": data["web_discovery_records_observed"],
+        "MLHKPWebDiscoveryUnique": data["web_discovery_unique_leads"],
+        "MLHKPWebDiscoveryDuplicates": data["web_discovery_duplicate_records"],
         "MLHKPWebDiscoveryCounted": data["web_discovery_leads_counted_in_audited_identity_total"],
+        "MLHKPWebDiscoveryUnresolvedUnique": data["web_discovery_unique_leads_remaining_outside_audited_identity_total"],
         "MLHKPCanonicalSources": data["canonical_master_records"],
         "MLHKPAdditionalDiscoveries": data["additional_federated_discoveries"],
         "MLHKPStillToAcquire": data["still_to_acquire_additional_discoveries"],
