@@ -4,18 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-10T11:37:00Z",
+  "updated_utc": "2026-09-10T12:00:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 162,
-  "head_at_cycle_start": "daf9567a9845093e604c1541c21cf8d21d2c3e4b",
-  "head_before_final_status_sync": "dbfb233f47c9e7252e224ae2a6584df44124c611",
+  "latest_run": 163,
+  "head_at_cycle_start": "bce2039bb3bb1bdccbb92aff23837f00d33e0615",
+  "head_before_final_status_sync": "ff8d758b6c42ea9c1595f971e9130fdf41203c5e",
   "cycle_commits": [
-    "cf25bb3d5e1541a2f34275dca3f6f3b77b782983",
-    "971adbed67a6ed6866f414a1f0b707fb4451ee7c",
-    "dbfb233f47c9e7252e224ae2a6584df44124c611"
+    "1a90220a26e375143d4601c278e821977ccbaea1",
+    "8942d2a4eeb53202d958ce0d6960ee0c04496cc8",
+    "ff8d758b6c42ea9c1595f971e9130fdf41203c5e"
   ],
-  "cycle_result": "Strengthened the Nirang Pajhra source-census disposition without promoting unsupported registration, language-by-issue content, rights or cultural permission. Targeted PRGI/RNI searches did not resolve an authoritative registration manifestation; an independent journalists' source corroborates only historical print-outlet existence. The candidate therefore remains blocked pending authoritative registration or an issue-level manifestation, with zero source/evidence/claim count change.",
+  "cycle_result": "Advanced the licensed dataset/grammar stream beyond generic bibliography by recording a WALS exact valueset locator for Mundari (83A-mun, Order of Object and Verb = OV) together with WALS-reported Sinha 1975 and Osada 1992 provenance, and triangulated Mundari source bibliography through Grambank. Both databases state CC BY 4.0. No underlying grammar text, participant material, community validation or cultural claim was inferred. Counts remain stable pending deterministic branch-wide reconciliation of whether these database manifestations already occur in immutable WEB-MUN observations.",
   "mundarica": {
     "expected_release_slots": 16,
     "historical_volume_locators_verified": 12,
@@ -36,7 +36,7 @@
     "volumes_II_XIII": "historical_external_locators_verified_but_authoritative_scans_not_registered_and_not_verified_complete",
     "volumes_XIV_XVI": "pending_locator_or_manifestation_resolution_not_verified_complete",
     "ocr_is_not_verified_transcription": true,
-    "run162_change": "No Mundarica verification state was upgraded; authoritative Mundarica scan/hash/page-image evidence remains unavailable."
+    "run163_change": "No Mundarica verification state was upgraded; authoritative Mundarica scan/hash/page-image evidence remains unavailable."
   },
   "mmsc": {
     "audited_source_identities": 41,
@@ -47,13 +47,15 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 13,
     "unresolved_unique_web_leads": 74,
-    "latest_search_id": "MMSC-SEARCH-000162",
+    "latest_search_id": "MMSC-SEARCH-000163",
     "latest_source_audit": {
-      "candidate": "Nirang Pajhra",
-      "audit_file": "data/source_census/nirang_pajhra_authoritative_registration_retry_run162_2026-09-10.json",
-      "reported_registration_identifier_from_secondary_source": "WBMUL00610",
-      "authoritative_registration_resolved": false,
-      "decision": "Keep candidate blocked pending authoritative PRGI/RNI registration or issue-level manifestation. Secondary corroboration supports historical print-outlet existence only and cannot establish registration, issue chronology, Mundari language-by-issue content, rights, contributor consent, community validation or cultural access."
+      "candidate": "WALS / Grambank Mundari typology and grammar provenance",
+      "audit_file": "data/source_census/wals_grambank_mundari_typology_exact_locator_run163_2026-09-10.json",
+      "authoritative_database_locator_resolved": true,
+      "wals_valueset": "83A-mun",
+      "wals_value": "OV",
+      "license": "CC BY 4.0 on WALS and Grambank database pages",
+      "decision": "Promote only the licensed database-coded datapoint and database bibliography/provenance. Do not treat it as direct verification of the underlying Sinha or Osada grammar passages, and do not assign a new permanent identity until deterministic reconciliation against all immutable WEB-MUN observations is complete."
     },
     "duplicate_set": [
       "WEB-MUN-0088 duplicates WEB-MUN-0032 by exact canonical URL",
@@ -65,6 +67,7 @@
     "run160_audit": "data/source_census/birsaite_dharam_exact_locator_audit_2026-09-10.json",
     "run161_audit": "data/source_census/ezcc_folk_dances_manifestation_rights_exact_locator_run161_2026-09-10.json",
     "run162_audit": "data/source_census/nirang_pajhra_authoritative_registration_retry_run162_2026-09-10.json",
+    "run163_audit": "data/source_census/wals_grambank_mundari_typology_exact_locator_run163_2026-09-10.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false
   },
@@ -79,10 +82,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "cultural_claims_added_run162": 0,
-    "numeric_claims_added_run162": 0,
-    "source_metadata_exact_locator_records_added_run162": 1,
-    "run162_boundary": "Secondary historical-existence corroboration was recorded as census metadata only; no issue content, registration fact, cultural claim, rights state, community validation or evidence node was promoted."
+    "cultural_claims_added_run163": 0,
+    "numeric_claims_added_run163": 0,
+    "source_metadata_exact_locator_records_added_run163": 1,
+    "run163_boundary": "The WALS coded datapoint is retained as licensed database evidence with exact locator and references; the underlying grammar passages and any cultural interpretation remain unverified and unpromoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -93,17 +96,19 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run162_change": "No module-count or UI redesign change; the new source-census audit is repository-searchable while unverified Nirang Pajhra content remains outside public evidence exposure."
+    "run163_change": "No module-count change. The new source-census audit and search log are repository-searchable; no unverified grammar text or cultural content is exposed."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "nirang_pajhra_rights_verified_run162": false,
-    "nirang_pajhra_community_validation_verified_run162": false,
-    "nirang_pajhra_cultural_access_verified_run162": false,
-    "run162_boundary": "Secondary evidence of a historical outlet is not permission to reproduce issue content and does not establish contributor consent, community endorsement, language-by-issue provenance or culturally unrestricted reuse."
+    "wals_database_license_verified_run163": true,
+    "grambank_database_license_verified_run163": true,
+    "underlying_grammar_reuse_permission_inferred_run163": false,
+    "community_validation_verified_run163": false,
+    "cultural_access_verified_run163": false,
+    "run163_boundary": "CC BY 4.0 supports attributed reuse of the WALS/Grambank database material exposed by those pages; it does not transfer rights in underlying grammar texts or create participant/community consent."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -115,32 +120,23 @@
     "canonicalized_web_leads": 13,
     "unresolved_unique_web_leads": 74,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "count-stable in run162; publication metrics remain synchronized because no count-bearing identity, claim or evidence node changed",
-    "build_state": "Run-161 final head daf9567a9845093e604c1541c21cf8d21d2c3e4b independently verified 4/4 green; run-162 pre-status head dbfb233f47c9e7252e224ae2a6584df44124c611 has fresh workflows, with migration already successful at the latest check. Fresh CI is required on the final run-162 status commit."
+    "generated_metrics_state": "count-stable in run163; publication metrics/tables/figures remain synchronized because no count-bearing identity, claim or evidence node changed",
+    "build_state": "Run-162 final head bce2039bb3bb1bdccbb92aff23837f00d33e0615 independently verified 4/4 green via GitHub Actions success-filter query. Fresh CI is required on the final run-163 status commit."
   },
   "ci": {
-    "last_independently_verified_green_head": "daf9567a9845093e604c1541c21cf8d21d2c3e4b",
-    "run161_verified": {
-      "source_register": "success (run #1293)",
-      "migration": "success (run #1343)",
-      "streamlit": "success (run #1457)",
-      "publication": "success (run #1310)",
+    "last_independently_verified_green_head": "bce2039bb3bb1bdccbb92aff23837f00d33e0615",
+    "run162_verified": {
       "green_4_of_4": true,
-      "verification_basis": "GitHub Actions query for exact head daf9567a9845093e604c1541c21cf8d21d2c3e4b returned all four PR workflows completed successfully."
+      "verification_basis": "GitHub Actions query for exact head bce2039bb3bb1bdccbb92aff23837f00d33e0615 with status=success returned total_count 4."
     },
-    "run162_pre_status_head": "dbfb233f47c9e7252e224ae2a6584df44124c611",
-    "run162_pre_status_observed": {
-      "migration": "success (run #1348)",
-      "source_register": "fresh run present; final state to be rechecked",
-      "streamlit": "fresh run present; final state to be rechecked",
-      "publication": "fresh run present; final state to be rechecked"
-    },
-    "run162_tests_added": "tests/test_run162_nirang_pajhra_registration_boundary.py",
+    "run163_pre_status_head": "ff8d758b6c42ea9c1595f971e9130fdf41203c5e",
+    "run163_tests_added": "tests/test_run163_wals_grambank_exact_locator.py",
     "fresh_ci_required_on_final_status_commit": true,
-    "green_4_of_4_claimed_for_run162": false
+    "green_4_of_4_claimed_for_run163": false
   },
   "blockers": [
     "74 unique web leads require deterministic disposition/canonicalization.",
+    "WALS/Grambank exact database provenance is verified, but deterministic reconciliation against all immutable WEB-MUN observations is still required before assigning a new permanent identity or changing source counts.",
     "C-16/C-17/ST-15/ST-16 authoritative workbook bytes, independent hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand PDF bytes/hash/page-image verification remains incomplete.",
     "Official LSI West Bengal Part I indexed Mundari locator is recorded, but authoritative PDF bytes/hash/page-image verification remains incomplete after retrieval failure.",
@@ -151,7 +147,7 @@
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community and cultural-access review.",
     "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact locators.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized from status prose.",
-    "1941 Mundari hockey booklet lacks independently verified primary manifestation.",
+    "1941 Mundari hockey booklet has strong secondary journalistic evidence and a photographed surviving copy, but lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
     "Nirang Pajhra has secondary corroboration as a historical print outlet, but authoritative PRGI/RNI registration, issue-level manifestation, language-by-issue provenance, rights and cultural-access status remain unresolved.",
     "MunTTS paper reports 26,868 final sentence-recording pairs whereas the Karya corpus repository reports 26,870 recordings; version/curation explanation remains unverified."
   ],
@@ -171,12 +167,13 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, consent/cultural-access gates and incomplete source manifestations remain."
+    "reason": "Unresolved source dispositions, authoritative byte/hash/page verification, primary-source grammar checks, consent/cultural-access gates and incomplete source manifestations remain."
   },
   "next_parallel_tasks": [
-    "Verify all four workflows on the run-162 final status head and repair any failure without touching main.",
+    "Verify all four workflows on the run-163 final status head and repair any failure without touching main.",
     "Continue deterministic disposition of the 74 unresolved unique web leads, prioritizing exact DOI/handle/catalogue matches and duplicate detection before assigning new identities.",
-    "Retry authoritative PRGI/RNI lookup for Nirang Pajhra and search library/newspaper catalogues for issue-level manifestations; do not promote the secondary-reported registration identifier or Mundari content until independently verified.",
+    "Reconcile WALS and Grambank against immutable WEB-MUN observations; if absent, register them atomically with count and publication-metric updates, otherwise canonicalize without inflation.",
+    "Obtain lawful inspectable manifestations for Sinha 1975 and Osada 1992 and verify the exact passage(s) underlying WALS 83A-mun before treating the typological coding as direct grammar evidence.",
     "Retry authoritative Census workbook acquisition and record independent hashes, worksheet names, exact Munda/Mundari rows and numeric-cell locators before promoting demographic values.",
     "Retry official LSI Jharkhand and West Bengal PDF byte acquisition and page-image verification; preserve indexed-text locators as metadata-only until bytes are verified.",
     "Advance lawful full-text/exact-locator evidence ingestion for grammar/dictionary/TRI/scholarly sources where rights and cultural access permit.",
