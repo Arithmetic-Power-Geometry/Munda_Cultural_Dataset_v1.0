@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T06:27:00Z",
+  "updated_utc": "2026-09-11T06:46:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 199,
-  "cycle_result": "Run 199 advanced two non-Mundarica CIIL/Bhasha Sanchika Mundari-language resources from discovery to exact institutional-repository manifestation metadata plus direct one-page cover verification: BVP04859 (Mundri Bhasha Ka Bashik Sanrachana / मुण्डारी भाषा का भाषिक संरचना, 2017) and BVP00242 (Mundari Word Book, 2006). Both direct PDFs expose one observed cover page only and are not treated as complete books. No open licence, independent byte hash, full-text sequence, grammar proposition, lexical row, cultural claim, participant consent, community validation, model-training permission, or cultural-access permission was inferred. The all-class source census was logged, counts remain unchanged, and the release gate remains NOT_PASS.",
+  "latest_run": 200,
+  "cycle_result": "Run 200 advanced two non-Mundarica CIIL/Bhasha Sanchika Mundari grammar resources from catalogue discovery to exact institutional-repository manifestation metadata plus direct one-page cover verification: N.K. Sinha's Mundari Grammar (1975; CIILP0091; handle 20.500.14705/8179) and Sikradas Tirki's Mundari Beyakaran (2015; BVP03961; handle 20.500.14705/8450). The repository catalogues Sinha's work with extent 176, but the direct retrievable PDF observed in this run contains one page only; catalogue extent is not treated as retrieved completeness. Tirki is catalogued with Sikradas Tirki as rights holder. Both records expose a 14-byte license.txt bundle, but its exact text was not resolved, so public visibility was not treated as reuse permission. No grammar rule, lexical row, cultural claim, participant material, community validation, model-training permission or cultural-access permission was inferred. The all-class census was logged, controlled counts remain unchanged, and the release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run199_ciil_manifestation_audit": "5addd49962ad88db4bc08bd16348c08b1a9ba23f",
-    "run199_search_log": "40cd556f3719d6e9fefc2dcd7b8836c0966f2d1a",
-    "run199_regression_test": "f1874e096c195ec2b0e1ef6cb31e19efa8d54587",
-    "work_head_before_status_sync": "f1874e096c195ec2b0e1ef6cb31e19efa8d54587"
+    "run200_ciil_grammar_manifestation_audit": "0859b4bd8bd7793937f6a5b01d2220f57b587ce3",
+    "run200_search_log": "1b2191205a9eeb10e22fa84363dd8a5d5256f0af",
+    "run200_regression_test": "ac1a3db5dce4acd2f5391857be39fc2a3c26903f",
+    "work_head_before_status_sync": "ac1a3db5dce4acd2f5391857be39fc2a3c26903f"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -40,7 +40,7 @@
       "XV": "authoritative release manifestation unresolved; not verified complete",
       "XVI": "authoritative release manifestation unresolved; not verified complete"
     },
-    "run199_change": "No Mundarica count or verification promotion in Run 199. The stream was kept active through blocker review while evidence population proceeded on independent CIIL sources."
+    "run200_change": "No Mundarica count or verification promotion in Run 200; the non-Mundarica source stream was advanced while existing Mundarica blockers remained explicit."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -53,12 +53,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000199",
-    "latest_search_log": "data/source_census/search_log_run199.jsonl",
-    "latest_source_audit": "data/source_census/ciil_sanchika_mundari_language_books_manifestation_run199_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000200",
+    "latest_search_log": "data/source_census/search_log_run200.jsonl",
+    "latest_source_audit": "data/source_census/ciil_sinha_tirki_mundari_grammar_manifestation_run200_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run199_count_change": "none; two exact institutional manifestations were audited as non-count-bearing candidates pending permanent-register reconciliation and full rights/content verification"
+    "run200_count_change": "none; two exact CIIL grammar manifestations were audited without permanent-source, claim, evidence or UI count inflation"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -71,12 +71,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run199": 0,
-    "claims_added_run199": 0,
-    "evidence_records_added_run199": 0,
-    "evidence_links_added_run199": 0,
-    "verification_audits_added_run199": 1,
-    "run199_note": "Cover-only institutional manifestations were not promoted into the cultural evidence graph; zero dangling nodes were created."
+    "source_identities_added_run200": 0,
+    "claims_added_run200": 0,
+    "evidence_records_added_run200": 0,
+    "evidence_links_added_run200": 0,
+    "verification_audits_added_run200": 1,
+    "run200_note": "The two CIIL grammar records were promoted only to exact manifestation/gap evidence; no cultural evidence-graph nodes were created."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -87,7 +87,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run199_change": "No count-bearing UI change; all 42 modules and cross-cutting search/evidence/report/owner-console functions remain synchronized. CIIL candidates remain acquisition-layer records until lawful promotion is justified."
+    "run200_change": "No count-bearing UI change; all 42 modules and cross-cutting search/evidence/report/owner-console functions remain synchronized. Run-200 CIIL grammar manifestations remain acquisition/audit-layer records until lawful content-level promotion is justified."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -96,17 +96,20 @@
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "ciil_bvp04859_institutional_identity_verified": true,
     "ciil_bvp00242_institutional_identity_verified": true,
-    "ciil_direct_bitstreams_resolved": true,
-    "ciil_cover_pages_visually_verified": true,
-    "ciil_retrieved_one_page_pdfs_treated_as_complete_books": false,
-    "ciil_open_license_verified": false,
-    "ciil_independent_byte_hash_verified": false,
-    "ciil_full_text_verified": false,
-    "ciil_public_visibility_treated_as_reuse_permission": false,
-    "ciil_model_training_permission_inferred": false,
-    "ciil_participant_consent_inferred": false,
-    "ciil_community_validation_inferred": false,
-    "ciil_cultural_access_inferred": false,
+    "ciil_ciilp0091_institutional_identity_verified": true,
+    "ciil_bvp03961_institutional_identity_verified": true,
+    "ciil_run200_direct_bitstreams_resolved": true,
+    "ciil_run200_cover_pages_visually_verified": true,
+    "ciil_run200_retrieved_one_page_pdfs_treated_as_complete_books": false,
+    "ciil_run200_catalogued_extent_treated_as_retrieved_page_count": false,
+    "ciil_run200_exact_license_text_verified": false,
+    "ciil_run200_independent_byte_hash_verified": false,
+    "ciil_run200_full_text_verified": false,
+    "ciil_run200_public_visibility_treated_as_reuse_permission": false,
+    "ciil_run200_model_training_permission_inferred": false,
+    "ciil_run200_participant_consent_inferred": false,
+    "ciil_run200_community_validation_inferred": false,
+    "ciil_run200_cultural_access_inferred": false,
     "rau_exact_license_value_verified": true,
     "rau_exact_license": "CC0-1.0",
     "rau_authoritative_plaintext_manifestation_verified": true,
@@ -121,8 +124,8 @@
     "bnf_a_kahani_byte_or_physical_identity_verified": false,
     "bnf_prodigal_son_bl_identity_reconciled": true,
     "bnf_prodigal_son_byte_or_physical_identity_verified": false,
-    "participant_records_ingested_run199": 0,
-    "full_text_or_lexical_rows_ingested_run199": 0
+    "participant_records_ingested_run200": 0,
+    "full_text_or_lexical_rows_ingested_run200": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -134,9 +137,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 199; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required. Run 199 adds exact CIIL manifestation/gap evidence only.",
-    "build_state": "Run-199 code-bearing head f1874e096c195ec2b0e1ef6cb31e19efa8d54587 independently verified 4/4 green before status synchronization."
+    "generated_metrics_state": "No count-bearing change in Run 200; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required. Run 200 adds exact CIIL grammar manifestation/gap evidence only.",
+    "build_state": "Run-200 test-bearing head ac1a3db5dce4acd2f5391857be39fc2a3c26903f committed; fresh workflow conclusions must be checked before claiming final-head green."
   },
   "ci": {
     "last_independently_verified_green_head": "f1874e096c195ec2b0e1ef6cb31e19efa8d54587",
@@ -147,13 +150,14 @@
       "migration_audit": {"run_number": 1579, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1693, "conclusion": "success"}
     },
-    "run199_tests_added": ["tests/test_run199_ciil_sanchika_manifestation_boundary.py"],
+    "run200_tests_added": ["tests/test_run200_ciil_sinha_tirki_manifestation.py"],
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "The status-sync commit follows the independently green code-bearing Run-199 head; its exact workflow state must be checked after synchronization before claiming that final head is 4/4 green."
+    "fresh_final_head_ci_note": "Run-200 status synchronization follows the new audit/search/test commits; final-head workflow state must be checked before claiming 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "CIIL BVP04859 and BVP00242 exact handles/files/direct bitstreams are verified, but retrieved PDFs expose one observed cover page only; full-book sequence, open licence, independent byte hash, content-level extraction permission and cultural-access state remain unresolved.",
+    "CIIL BVP04859, BVP00242, CIILP0091 and BVP03961 have exact handles/files/direct bitstreams, but retrieved PDFs expose one observed cover page only; full-book sequences, exact licence text where unresolved, independent byte hashes, content-level extraction permission and cultural-access state remain unresolved.",
+    "Sinha 1975 is catalogued with extent 176, but the directly retrieved CIILP0091 PDF in Run 200 contained one observed page; the catalogue extent is not treated as byte-level/full-book verification and direct grammar passages remain unverified.",
     "Mundarica I remains working-page accounting only; II, III, VI, VII, VIII, X and XIII have exact secondary manifestations; IV and V exact digital manifestation acquisition remain blocked; IX, XI and XII remain locator-only; all XVI release slots lack authoritative registered scans and none is verified complete.",
     "C-16 Jharkhand official catalogue identity/workbook locator is reconfirmed, but authoritative workbook bytes, independent hash, worksheet names, workbook row numbers and numeric cells remain unverified.",
     "C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -188,11 +192,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Mundarica coverage, unresolved Census/LSI and dataset manifestations/integrity, and unresolved participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Mundarica coverage, unresolved Census/LSI and dataset manifestations/integrity, incomplete grammar full manifestations/page locators, and unresolved participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue/matrix identity and lawful manifestations.",
-    "Resolve CIIL BVP04859/BVP00242 full manifestation, sequence, hash and exact reuse terms before any content extraction or permanent count-bearing registration.",
+    "Resolve CIIL BVP04859/BVP00242/CIILP0091/BVP03961 full manifestations, sequence, independent hashes and exact reuse terms before content extraction or count-bearing registration.",
+    "Seek a complete lawful Sinha 1975 manifestation and direct page locators for grammar propositions used by WALS/Grambank; do not infer them from repository abstract text.",
     "Extend exact secondary Mundarica manifestation verification through IX, XI and XII and retry IV-V while separately pursuing authoritative release scans; never treat repository OCR as verified transcription.",
     "Retry authoritative C-16/C-17/ST-15/ST-16 workbook downloads; after byte-preserving acquisition compute independent hashes and map exact workbook cells before numeric promotion.",
     "Acquire Rau 2019 byte-preservingly, independently recompute checksum, verify underlying BMED page/rights relationship, then decide narrowly source-attributed graph ingestion atomically.",
