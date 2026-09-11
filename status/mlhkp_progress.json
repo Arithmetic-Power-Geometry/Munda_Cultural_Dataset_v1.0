@@ -4,16 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T00:38:00Z",
+  "updated_utc": "2026-09-11T00:52:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 188,
-  "cycle_result": "Run 188 independently verified the Run-187 exact head as 4/4 CI green and retried Mundarica Volume IV acquisition/page-accounting. Fresh exact-title/volume searches did not yield a defensible exact Volume IV digital manifestation; returned material was generic bibliographic/syllabus mention or unrelated LSI Volume IV material. The blocker is now machine-recorded with a regression guard. No page count, OCR, scan authority, rights, cultural-access, source identity, claim or evidence node was fabricated or promoted.",
+  "latest_run": 189,
+  "cycle_result": "Run 189 independently verified the Run-188 exact head as 4/4 CI green, completed an all-requested-class non-Mundarica census pass, and strengthened the official Census 2011 C-16 Jharkhand stream to catalogue-level exact locators. ORGI metadata verifies PC11_C16-20 / PC11_C16, workbook DDW-C16-STMT-MDDS-2000.xlsx, and catalogue row labels 91 MUNDA and 92 MUNDARI. Direct authoritative page/workbook retrieval returned transient HTTP 502, so workbook bytes, independent hash, sheet names, workbook row numbers, numeric cells and numeric values remain unverified and unpromoted. No cultural claim, source identity, participant material or evidence node was fabricated.",
   "cycle_commits": {
-    "mundarica_volume_iv_acquisition_retry": "1cc35b209dda4ff9d2907e6b1d21806fff3a8702",
-    "run188_regression_test": "81df86b291f57e4b11f9442e454c722be37efec1",
-    "run188_search_log": "1a1750b9958a4d95d6a39b45d334ebe8c395a5e8",
-    "work_head_before_status_sync": "1a1750b9958a4d95d6a39b45d334ebe8c395a5e8"
+    "c16_manifestation_audit_initial": "0b08dcafa2b4c79783a38579fd713d7fc61c5372",
+    "run189_search_log": "2a73db08a200f95b60c89f2a74ca94b5a8203ec4",
+    "run189_regression_test_initial": "196a9ab19dcb53551f6fd9e60152075c7ac1ff7c",
+    "c16_catalogue_row_promotion": "b344806d139ef39ab18050c03903c5ea08c16df5",
+    "run189_regression_test_final": "6ee7312d9d338d018c98b4b0dcfbfc076140a705",
+    "work_head_before_status_sync": "6ee7312d9d338d018c98b4b0dcfbfc076140a705"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -30,7 +32,7 @@
       "V-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run188_change": "Volume IV acquisition retry explicitly audited as blocked; no count-bearing or verification-state promotion."
+    "run189_change": "No Mundarica verification-state promotion; Run 189 was non-Mundarica Census/source-census focused."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -43,12 +45,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000188",
-    "latest_search_log": "data/source_census/search_log_run188.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_volume_iv_acquisition_retry_run188_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000189",
+    "latest_search_log": "data/source_census/search_log_run189.jsonl",
+    "latest_source_audit": "data/source_census/census_2011_c16_jharkhand_manifestation_audit_run189_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run188_count_change": "none; acquisition blocker documented without source-count inflation"
+    "run189_count_change": "none; C-16 official catalogue identity/row-locator verification strengthened without source-count inflation"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -61,12 +63,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run188": 0,
-    "claims_added_run188": 0,
-    "evidence_records_added_run188": 0,
-    "evidence_links_added_run188": 0,
-    "verification_audits_added_run188": 1,
-    "run188_note": "No Volume IV cultural material entered the graph because no exact manifestation/page-level source was verified."
+    "source_identities_added_run189": 0,
+    "claims_added_run189": 0,
+    "evidence_records_added_run189": 0,
+    "evidence_links_added_run189": 0,
+    "verification_audits_added_run189": 1,
+    "run189_note": "C-16 catalogue identity, workbook filename and row labels 91 MUNDA / 92 MUNDARI are verified from official catalogue metadata; no workbook numeric cell or cultural proposition entered the evidence graph."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -77,7 +79,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run188_change": "No redesign or exposure expansion; all 42 modules and search/evidence/report/owner surfaces retain synchronized mappings."
+    "run189_change": "No count-bearing or exposure change; all 42 modules and universal search/evidence/report/owner mappings remain synchronized."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -103,8 +105,13 @@
     "saboo_publisher_access_state": "restricted",
     "saboo_open_license_verified": false,
     "mundarica_iv_rights_or_cultural_access_inferred": false,
-    "participant_records_ingested_run188": 0,
-    "full_text_or_lexical_rows_ingested_run188": 0
+    "c16_public_catalogue_access_observed": true,
+    "c16_workbook_reuse_rights_independently_verified": false,
+    "c16_public_availability_treated_as_permission": false,
+    "c16_catalogue_row_labels_verified": true,
+    "c16_numeric_values_promoted": false,
+    "participant_records_ingested_run189": 0,
+    "full_text_or_lexical_rows_ingested_run189": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -116,24 +123,25 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 188; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required; the audit/gap layer now records the Volume IV acquisition failure explicitly.",
-    "build_state": "Run-187 exact head f72181123de34b057740e0bef4859d3495d2ce02 is independently verified 4/4 green. Fresh Run-188 final-head CI is required before the newest head is called green."
+    "generated_metrics_state": "No count-bearing change in Run 189; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required; the completeness/gap layer now records C-16 catalogue-level row-locator progress while retaining workbook-byte/cell gaps.",
+    "build_state": "Run-188 exact head 9d02b3cf7c127091411f6e6a9abf7da1f783f636 is independently verified 4/4 green. Fresh Run-189 final-head CI is required before the newest head is called green."
   },
   "ci": {
-    "last_independently_verified_green_head": "f72181123de34b057740e0bef4859d3495d2ce02",
+    "last_independently_verified_green_head": "9d02b3cf7c127091411f6e6a9abf7da1f783f636",
     "green_4_of_4": true,
     "verified_workflows": {
-      "publication_build": {"run_number": 1469, "conclusion": "success"},
-      "source_register_audit": {"run_number": 1452, "conclusion": "success"},
-      "migration_audit": {"run_number": 1502, "conclusion": "success"},
-      "streamlit_smoke_test": {"run_number": 1616, "conclusion": "success"}
+      "publication_build": {"run_number": 1475, "conclusion": "success"},
+      "source_register_audit": {"run_number": 1458, "conclusion": "success"},
+      "migration_audit": {"run_number": 1508, "conclusion": "success"},
+      "streamlit_smoke_test": {"run_number": 1622, "conclusion": "success"}
     },
-    "run188_tests_added": ["tests/test_run188_mundarica_iv_no_false_promotion.py"],
+    "run189_tests_added": ["tests/test_run189_c16_manifestation_boundary.py"],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "C-16 Jharkhand official catalogue identity, workbook filename and catalogue row labels 91 MUNDA / 92 MUNDARI are verified, but authoritative workbook bytes, independent hash, worksheet names, workbook row numbers and numeric cells remain unverified after transient HTTP 502 retrieval failure.",
     "Rau 2019 authoritative CSV plaintext and row #A0001 exact locator are verified, but byte-preserving acquisition and independent checksum verification remain incomplete; the underlying BMED.p31 passage is unverified and zero lexical rows were imported into the corpus/evidence graph.",
     "Mundarica I remains working-page accounting only; II and III have exact secondary manifestations; Volume IV exact-manifestation retry remains blocked; all XVI slots still lack authoritative release scans and none is verified complete.",
     "Saboo Munda land-inheritance article is exact-located but publisher full text is restricted; no substantive cultural claim or participant record was promoted.",
@@ -141,10 +149,10 @@
     "MMLoSo shared-task dataset manifestation/version/file metadata remains unresolved, including the 16,000-versus-15,999 evaluation/test discrepancy.",
     "Lexibank Peiros v1.1 direct Zenodo manifestation/file-level metadata and checksums remain unverified.",
     "WALS/Grambank permanent source registration remains a synchronized count-bearing transaction; Sinha/Osada underlying grammar passages are not yet direct page-verified.",
-    "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
+    "C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand and LSI West Bengal authoritative bytes/hash/page-image verification remain incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
-    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators.",
+    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators; Bhaduri dictionary editions are already reconciled, but Rau's BMED.p31 underlying page remains unverified.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
     "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
@@ -166,16 +174,17 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, a newly re-confirmed Volume IV manifestation blocker, and unresolved consent/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, C-16 workbook-byte/numeric-cell verification still blocked, and unresolved consent/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches and lawful manifestations.",
+    "Retry authoritative C-16 workbook download; after byte-preserving acquisition compute an independent hash, inspect sheets and map verified 91 MUNDA / 92 MUNDARI catalogue labels to exact workbook cells before any numeric promotion.",
     "Continue Mundarica IV-XIII exact manifestation/page-accounting searches while separately pursuing authoritative physical/digital copies; never promote generic mentions to scans/OCR/page counts.",
     "Acquire Rau 2019 byte-preservingly, independently recompute MD5, verify the underlying BMED exact page/rights relationship, then decide permanent SRC-MMSC registration and narrowly source-attributed graph ingestion atomically.",
     "Resolve Proietti 2025 exact licence variant and lawful PDF integrity/page locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo and Lexibank Peiros manifestations/version/file metadata before row-level ingestion or registration.",
     "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests; separately verify direct Osada/Sinha grammar pages.",
-    "Retry authoritative Census workbook and official LSI PDF byte/hash/page-image verification.",
+    "Retry C-17/ST-15/ST-16 authoritative Census workbooks and official LSI PDF byte/hash/page-image verification.",
     "Continue books/dictionaries/grammars/articles/theses/archives/newspapers/audio/video/maps/media searches, logging restricted or blocked sources rather than marking them complete.",
     "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics and tests synchronized after every count-bearing change."
   ]
