@@ -4,18 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T19:55:00Z",
+  "updated_utc": "2026-09-11T20:35:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 226,
-  "work_head_before_status_sync": "aaa3e391ab0c80c58146342b66b2bce3492c53d4",
-  "previous_final_head": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499",
-  "cycle_result": "Run 226 returned to the requested non-Mundarica census. Evans & Osada 2005 author response was advanced from an existing discovery candidate to an independently reconciled ANU article-level exact locator using DOI 10.1515/lity.2005.9.3.442, handle 1885/32609, Linguistic Typology 9(3):442-457, ANU Open Access status, and reported repository file metadata. Direct item open returned HTTP 403 in the audit environment, so bitstream bytes, independent hash, page image and claim-level page locators remain unverified. All discoverable classes were swept; blocked paths were logged and the run continued. No controlled count was inflated and the release gate remains NOT_PASS.",
+  "latest_run": 227,
+  "work_head_before_status_sync": "b42cf39b24e814b2ff7dffbcd794f1a2501b7c50",
+  "previous_final_head": "4c8c322af09cb106a694c5d12a4e1c5766fe9803",
+  "cycle_result": "Run 227 advanced Mundarica Volume IV page accounting without false manifestation closure. The SAGE publisher page for Samar Bosu Mullick (2000), DOI 10.1177/097185240000400301, directly exposes a reference entry citing Encyclopaedia Mundarica Vol. IV-D, deonra, pp. 1022-1039, Government Printing Press, Patna. This is recorded only as peer-reviewed secondary page-locator corroboration. The exact Volume-IV digital manifestation, authoritative scan, bytes/hash, scan sequence, OCR, transcription and verified completeness remain unverified; the known archive alias in.ernet.dli.2015.14921 remains explicitly assigned to Volume III and must not be reused for Volume IV. No public cultural proposition or controlled count was promoted.",
   "cycle_commits": {
-    "run226_evans_osada_author_response_audit": "226be798d686e5b9abd625b561b8d1eae8e6de6d",
-    "run226_search_log": "f7d0b7b59e58186e0cca6ef96796cf5a4a7f451f",
-    "run226_regression_test": "aaa3e391ab0c80c58146342b66b2bce3492c53d4",
-    "previous_run225_work_head": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499"
+    "run227_mundarica_iv_locator_audit": "c86eb7f27732cf2879d9e436df2b448c142e77b5",
+    "run227_search_log": "3c5e5fa32e68c3195027553ee1cc2ff3899c3e11",
+    "run227_regression_test": "b42cf39b24e814b2ff7dffbcd794f1a2501b7c50",
+    "previous_run226_final_head": "4c8c322af09cb106a694c5d12a4e1c5766fe9803"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -28,19 +28,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000226",
-    "latest_search_log": "data/source_census/search_log_run226.jsonl",
-    "latest_source_audit": "data/source_census/evans_osada_2005_author_response_exact_locator_run226_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000227",
+    "latest_search_log": "data/source_census/search_log_run227.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_volume_iv_secondary_page_locator_audit_run227_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run226_count_change": "none"
+    "run227_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 225,
-    "run226_change": "none; Run 226 is non-Mundarica by scope",
+    "last_mundarica_run": 227,
+    "run227_change": "Volume IV gained peer-reviewed secondary printed-page corroboration: Vol. IV-D, deonra, pp. 1022-1039. Exact Volume-IV digital manifestation and all integrity/OCR/completeness gates remain open.",
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"]
   },
   "evidence_and_schema": {
@@ -54,12 +54,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run226": 0,
-    "claims_added_run226": 0,
-    "evidence_records_added_run226": 0,
-    "evidence_links_added_run226": 0,
-    "verification_audits_added_run226": 1,
-    "run226_boundary": "Exact article-level locator promoted; no claim/evidence-graph proposition promoted because bitstream/page-image verification remains unavailable."
+    "source_identities_added_run227": 0,
+    "claims_added_run227": 0,
+    "evidence_records_added_run227": 0,
+    "evidence_links_added_run227": 0,
+    "verification_audits_added_run227": 1,
+    "run227_boundary": "Secondary Volume-IV page locator verified; no source-text cultural proposition promoted because exact manifestation/page-image verification remains unavailable."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -70,7 +70,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run226_change": "No module-count or public-evidence change; existing 42-module universal-search mapping remains numerically synchronized."
+    "run227_change": "No module-count or public-evidence change; existing 42-module universal-search and evidence-drilldown mapping remains synchronized."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -78,7 +78,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run226_change": "No coverage-state promotion. Peer-reviewed-source verification depth improved while ANU bitstream/page-level verification remains an explicit gap."
+    "run227_change": "Mundarica IV page-accounting provenance improved while exact manifestation/integrity/OCR remains an explicit gap."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -86,10 +86,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run226": 0,
-    "full_text_or_lexical_rows_ingested_run226": 0,
-    "community_validation_inferred_run226": false,
-    "cultural_access_permission_inferred_run226": false
+    "participant_records_ingested_run227": 0,
+    "full_text_or_lexical_rows_ingested_run227": 0,
+    "community_validation_inferred_run227": false,
+    "cultural_access_permission_inferred_run227": false,
+    "publisher_reference_visibility_treated_as_reuse_permission": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -101,20 +102,26 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 226; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 226.",
-    "build_state": "Fresh Run-226 final-head CI must conclude before the head can be called green."
+    "generated_metrics_state": "No count-bearing change in Run 227; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 227.",
+    "build_state": "Run-226 final head is independently 4/4 green; fresh Run-227 test-bearing/final-head CI must conclude before Run 227 can be called green."
   },
   "ci": {
-    "previous_final_head": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499",
-    "previous_final_head_4_of_4_green": false,
-    "run226_tests_added": ["tests/test_run226_evans_osada_author_response.py"],
-    "fresh_run226_final_head_ci_verified": false,
-    "fresh_run226_final_head_ci_note": "Do not claim Run-226 4/4 green until commit-associated workflow conclusions are independently checked."
+    "previous_final_head": "4c8c322af09cb106a694c5d12a4e1c5766fe9803",
+    "previous_final_head_4_of_4_green": true,
+    "previous_final_head_workflows": {
+      "MLHKP Streamlit Smoke Test": "success #1858",
+      "MLHKP Publication Build": "success #1711",
+      "MLHKP Migration Audit": "success #1744",
+      "MLHKP Source Register Audit": "success #1693"
+    },
+    "run227_tests_added": ["tests/test_run227_mundarica_volume_iv_locator_boundaries.py"],
+    "fresh_run227_final_head_ci_verified": false,
+    "fresh_run227_final_head_ci_note": "Do not claim Run-227 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Evans & Osada 2005 author-response ANU bitstream bytes, independent hash, page-image inspection and claim-level exact-page locator remain unverified after direct item open returned HTTP 403 in this audit environment.",
+    "Mundarica Volume IV has a peer-reviewed secondary page locator but still lacks a verified exact authoritative digital manifestation, independent byte/hash integrity, scan-sequence verification, OCR verification and completeness verification.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 remains secondary locator evidence only.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -123,7 +130,7 @@
     "Rau independent MD5 recomputation, underlying BMED pages and explicit reuse licensing remain incomplete; zero lexical rows are imported.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
-    "Mundarica I-XVI remains a separate open stream; Run 226 intentionally did not treat it as part of the requested non-Mundarica census."
+    "Mundarica IX and XI-XVI still require stronger manifestation/integrity/OCR closure; no volume is verified complete."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -142,11 +149,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved direct Osada page verification, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved direct Osada page verification, and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Acquire the Evans & Osada 2005 author-response bitstream through a lawful byte-preserving route; independently hash and inspect exact pages before proposition-level promotion.",
+    "Locate the true exact Volume-IV manifestation using directly resolved title/identifier/ARK metadata; acquire lawfully and independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
+    "Advance Mundarica IX and XI-XVI manifestation, page-accounting and OCR verification without converting bibliographic locators into authoritative-scan claims.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly; independently hash/count before row-level ingestion.",
