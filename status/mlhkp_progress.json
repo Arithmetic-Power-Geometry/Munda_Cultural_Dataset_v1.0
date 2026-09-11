@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T18:30:00Z",
+  "updated_utc": "2026-09-11T18:43:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 223,
-  "cycle_result": "Run 223 advanced deterministic language-identity canonicalization: current Glottolog Mundari is verified as active mund1320/unr, while Glottolog Munda mund1321/unx is a retired bookkeeping entry. The repository now preserves those identifiers separately and forbids silent conflation or provenance rewriting. The known WALS Bhumij overlap warning is retained. No cultural proposition, underlying reference text, community validation, rights claim, source-count increment, or evidence-graph claim was promoted. Counts remain frozen and the audited release gate remains NOT_PASS.",
+  "latest_run": 224,
+  "cycle_result": "Run 224 advanced a non-Mundarica audiovisual source from discovery into an exact-locator verification record. The Eastern Zonal Cultural Centre documentary Folk Dances of Jharkhand is verified through its Wikimedia Commons manifestation, with original YouTube ID jcaVTX0BCtQ, publication date 2022-09-27, exact locators 00:04:28 Paika (Munda community), 00:06:00 Mundari and 00:11:12 Mundari (Marriage), Commons-reported SHA-1 eb3421c6428ea386f8f340520ab9aa0672de6000, and CC BY 3.0 attribution to Eastern Zonal Cultural Centre. The reported SHA-1 has not been independently recomputed. Reuse permission was not treated as participant consent, community validation or cultural-access clearance, and no cultural proposition or participant identity was promoted. COV-008 oral_story_song_media advanced from structure_ready to live_partial. Controlled counts remain frozen and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run223_glottolog_identity_audit": "fadefca86ba650d20d7c416c9a513bbed919f212",
-    "run223_search_log": "7e1cad75afeadc52c447a3ba1e0c56a54f4cc3c8",
-    "run223_regression_test": "869d37c7ae40d32ac3f8049c267af87b131791a5",
-    "work_head_before_status_sync": "869d37c7ae40d32ac3f8049c267af87b131791a5",
-    "previous_work_head_4_of_4_green": "5cc9365e5c5d99d0f11939f528f8f5818759373b"
+    "run224_media_audit": "29f38fc97b4efffa89c5f3968814fb14b19eaffd",
+    "run224_search_log": "54705744e128243fe9e1ac16375a598637510116",
+    "run224_regression_test": "7fc6b4ec64327cfef6181cba65803ec605c2c97c",
+    "run224_coverage_sync": "18265cd5281169b01391810f6abdc651408b83c0",
+    "previous_run223_final_head": "d077f62f21057ca111df87d38de6a3a0f30d68ca"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,18 +27,18 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000223",
-    "latest_search_log": "data/source_census/search_log_run223.jsonl",
-    "latest_source_audit": "data/source_census/glottolog_mundari_identity_boundary_run223_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000224",
+    "latest_search_log": "data/source_census/search_log_run224.jsonl",
+    "latest_source_audit": "data/source_census/ezcc_jharkhand_mundari_video_exact_locator_run224_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run223_count_change": "none"
+    "run224_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "run223_change": "No Mundarica volume was promoted this cycle; unresolved manifestation, authoritative-copy, byte-integrity, scan-sequence, OCR and verification gaps remain explicit.",
+    "run224_change": "No Mundarica volume was promoted this cycle; unresolved manifestation, authoritative-copy, byte-integrity, scan-sequence, OCR and verification gaps remain explicit.",
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"]
   },
   "evidence_and_schema": {
@@ -52,12 +52,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run223": 0,
-    "claims_added_run223": 0,
-    "evidence_records_added_run223": 0,
-    "evidence_links_added_run223": 0,
-    "verification_audits_added_run223": 1,
-    "identity_boundaries_added_run223": 1
+    "source_identities_added_run224": 0,
+    "claims_added_run224": 0,
+    "evidence_records_added_run224": 0,
+    "evidence_links_added_run224": 0,
+    "verification_audits_added_run224": 1,
+    "exact_media_locators_added_run224": 3
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,27 +68,32 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run223_change": "No UI redesign or count-bearing promotion; all 42 modules remain mapped and the new identity boundary is repository-side provenance protection."
+    "run224_change": "No module-count or UI-code change required; all 42 modules remain mapped. Media Archive coverage state is now live_partial because a rights-supported exact-locator media manifestation is verified, while cultural claims remain gated."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
+    "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run223_change": "Language-identity canonicalization improved; source acquisition and claim-level evidence coverage remain incomplete."
+    "run224_change": "COV-008 oral_story_song_media advanced from structure_ready to live_partial; consent/community/cultural-access gaps remain explicit."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "ezcc_documentary_manifestation_verified": true,
+    "ezcc_commons_license": "CC BY 3.0 Unported",
+    "ezcc_commons_reported_sha1": "eb3421c6428ea386f8f340520ab9aa0672de6000",
+    "ezcc_sha1_independently_recomputed": false,
+    "ezcc_participant_consent_inferred": false,
+    "ezcc_community_validation_inferred": false,
+    "ezcc_cultural_access_clearance_inferred": false,
     "glottolog_active_mundari_identity_verified": true,
     "glottolog_retired_munda_identity_verified": true,
-    "glottolog_database_license_observed": "CC BY 4.0",
-    "glottolog_license_applied_to_underlying_reference_texts": false,
     "wals_bhumij_collapsed_into_mundari": false,
     "tri_jharkhand_official_munda_page_verified": true,
-    "tri_jharkhand_explicit_open_reuse_license_observed": false,
     "tri_jharkhand_cultural_claims_promoted": false,
     "lsi_jharkhand_secondary_manifestation_verified": true,
     "lsi_jharkhand_page_image_verified": false,
@@ -104,10 +109,10 @@
     "mmloso_exact_competition_bytes_verified": false,
     "rau_direct_row_locator_verified": true,
     "rau_independent_hash_verified": false,
-    "participant_records_ingested_run223": 0,
-    "full_text_or_lexical_rows_ingested_run223": 0,
-    "community_validation_inferred_run223": false,
-    "cultural_access_permission_inferred_run223": false
+    "participant_records_ingested_run224": 0,
+    "full_text_or_lexical_rows_ingested_run224": 0,
+    "community_validation_inferred_run224": false,
+    "cultural_access_permission_inferred_run224": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -119,34 +124,20 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 223; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required; Run 223 adds a deterministic identifier/canonicalization boundary.",
-    "build_state": "Run-222 work head 5cc9365e5c5d99d0f11939f528f8f5818759373b is independently verified 4/4 green. Run-223 work/final heads must not be called green until fresh workflows conclude."
+    "generated_metrics_state": "No count-bearing change in Run 224; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required; Run 224 changes media coverage state only.",
+    "build_state": "Run-224 files and coverage state committed; fresh CI must conclude before the final Run-224 head can be called green."
   },
   "ci": {
-    "previous_verified_work_head": {
-      "head": "5cc9365e5c5d99d0f11939f528f8f5818759373b",
-      "all_four_green": true,
-      "publication_build": "success #1684",
-      "source_register_audit": "success #1667",
-      "migration_audit": "success #1717",
-      "streamlit_smoke_test": "success #1831"
-    },
-    "run223_tests_added": ["tests/test_run223_glottolog_mundari_identity_boundary.py"],
-    "work_head_ci": {
-      "head": "869d37c7ae40d32ac3f8049c267af87b131791a5",
-      "publication_build": "queued #1690",
-      "source_register_audit": "queued #1673",
-      "migration_audit": "queued #1723",
-      "streamlit_smoke_test": "queued #1837",
-      "state": "fresh_workflows_queued"
-    },
+    "previous_run223_workflows_observed": "Four workflow runs exist for the Run-223 work head; at least the Streamlit Smoke Test is independently observed completed-success. Full four-workflow Run-223 conclusion should be checked before claiming 4/4.",
+    "run224_tests_added": ["tests/test_run224_ezcc_mundari_video_locator.py"],
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-223 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-224 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; unresolved exact manifestations, byte integrity, page accounting, OCR and structuring remain.",
+    "EZCC documentary exact locators and CC BY 3.0 reuse status are verified, but participant consent, community validation, cultural-access clearance and independent SHA-1 recomputation remain open before cultural propositions or participant-derived content are promoted.",
     "Official TRI cultural assertions require claim-level corroboration plus rights/community/cultural-access review before evidence promotion.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete; PARI is retained as a secondary manifestation only.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 is secondary locator evidence only.",
@@ -179,7 +170,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, retaining original identifiers and provenance through alias/canonical joins.",
-    "Continue Mundarica I-XVI exact-manifestation acquisition, byte/hash verification, page accounting and OCR verification without promoting secondary locators to authoritative status.",
+    "Independently acquire/hash the rights-supported EZCC Commons manifestation if practical, but do not promote participant/community cultural claims solely from licensing.",
     "Acquire official LSI_JHARKHAND.pdf byte-preservingly, independently hash it, visually verify the Mundari page, and compare official and mirror hashes.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence; keep Osada 1992 and 2008 identities distinct.",
     "Acquire exact Census workbooks byte-preservingly, independently hash and verify only directly observed cells.",
