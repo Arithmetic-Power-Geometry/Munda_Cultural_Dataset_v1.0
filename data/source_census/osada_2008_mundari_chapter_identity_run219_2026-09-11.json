@@ -1,0 +1,63 @@
+{
+  "run": 219,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "purpose": "Resolve the bibliographic identity behind Grambank's Osada 2008 citation without promoting uninspected grammar-page content into the public evidence graph.",
+  "source_identity": {
+    "title": "Mundari",
+    "author": "Toshiki Osada",
+    "year": 2008,
+    "container_title": "The Munda languages",
+    "editor": "Gregory D. S. Anderson",
+    "pages": "99-164",
+    "publisher": "Routledge",
+    "series": "Routledge language family series",
+    "isbn": "9780415328906",
+    "glottolog_reference_id": "477414",
+    "glottolog_url": "https://glottolog.org/resource/reference/id/477414",
+    "language_code": "unr",
+    "document_type": "grammar sketch"
+  },
+  "cross_resource_reconciliation": {
+    "grambank_datapoint": "GB317-mund1320",
+    "grambank_displayed_citation": "Osada 2008: 107-108",
+    "grambank_coding_observed": "absent",
+    "wals_separate_reference_observed": "Osada 1992, A Reference Grammar of Mundari",
+    "interpretation": "Osada 2008 is a chapter in Anderson's The Munda languages, not the 1992 monograph A Reference Grammar of Mundari. These identities must remain distinct in canonicalization.",
+    "pages_107_108_directly_inspected": false,
+    "underlying_proposition_promoted": false
+  },
+  "rights_governance": {
+    "glottolog_metadata_license_observed": "CC BY 4.0 for Glottolog bibliographic metadata",
+    "book_or_chapter_full_text_open_license_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "verification_boundary": {
+    "bibliographic_identity_verified": true,
+    "chapter_range_verified": true,
+    "grambank_exact_secondary_locator_verified": true,
+    "pages_107_108_directly_verified": false,
+    "local_bytes_verified": false,
+    "independent_hash_verified": false,
+    "linguistic_claim_promoted_to_public_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "source_identity_count_changed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}
