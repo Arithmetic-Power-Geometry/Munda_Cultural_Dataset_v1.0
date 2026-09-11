@@ -4,18 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T23:29:08Z",
+  "updated_utc": "2026-09-11T23:48:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 233,
-  "work_head_before_status_sync": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
-  "previous_final_head": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
-  "cycle_result": "Run 233 independently verified both the Run-232 test-bearing head dedbea473e81135f40bbb9aa066df683193e6d9f and Run-232 final head 40ed3d33b67bef34d2e4eb8630584f268c9601db as 4/4 green across Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test. No source, cultural fact, count, right, OCR state, community validation or completeness state was promoted in this CI-verification cycle.",
+  "latest_run": 234,
+  "work_head_before_status_sync": "1fb04c4a2083321873db34817d01891aa2f34a29",
+  "previous_final_head": "792a9afd2b62d071d038a32d1064ce0aeadb4181",
+  "cycle_result": "Run 234 advanced three CIIL/Bhasha Sanchika Mundari resources (BVP04859, BVP06110, BVP00242) from loose discovery to exact institutional item UUID/repository-identifier/declared-file manifestations and reverified official ORGI Assam C-16 catalogue PC11_C16-18. No source count, grammatical/lexical proposition, demographic value, participant record, cultural claim, right, OCR state, community validation or completeness state was fabricated or promoted beyond direct support.",
   "cycle_commits": {
-    "run232_map_audit": "940253dd6407cf3f6b962793e6ce330552ac8f49",
-    "run232_search_log": "2d007d39bfb31e7eb0bc578dd924cabc2ddda00c",
-    "run232_regression_test": "dedbea473e81135f40bbb9aa066df683193e6d9f",
-    "run232_final_head_verified": "40ed3d33b67bef34d2e4eb8630584f268c9601db"
+    "run234_ciil_audit": "a7a8a69f9664bfb98c592664c406e2d78d3e13a8",
+    "run234_search_log": "e910e3ac18c8a11c0a4db240219957ce79838244",
+    "run234_regression_test": "1fb04c4a2083321873db34817d01891aa2f34a29"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -28,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000232",
-    "latest_search_log": "data/source_census/search_log_run232.jsonl",
-    "latest_source_audit": "data/source_census/wikimedia_mundari_assam_distribution_map_run232_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000234",
+    "latest_search_log": "data/source_census/search_log_run234.jsonl",
+    "latest_source_audit": "data/source_census/ciil_sanchika_additional_mundari_resources_run234_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run233_count_change": "none"
+    "run234_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -54,10 +53,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run233": 0,
-    "evidence_records_added_run233": 0,
-    "evidence_links_added_run233": 0,
-    "verification_audits_added_run233": 0
+    "claims_added_run234": 0,
+    "evidence_records_added_run234": 0,
+    "evidence_links_added_run234": 0,
+    "verification_audits_added_run234": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,14 +67,15 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run233_change": "No UI redesign or count change; CI verification confirms the existing 42-module application still passes its smoke workflow on the Run-232 final head."
+    "run234_change": "No module/count redesign; exact CIIL manifestation audits remain verification metadata until deterministic controlled-register reconciliation supports count-bearing promotion."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
-    "completeness_gap_state": "live_partial"
+    "completeness_gap_state": "live_partial",
+    "run234_change": "none"
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -83,10 +83,10 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run233": 0,
-    "full_text_or_lexical_rows_ingested_run233": 0,
-    "community_validation_inferred_run233": false,
-    "cultural_access_permission_inferred_run233": false,
+    "participant_records_ingested_run234": 0,
+    "full_text_or_lexical_rows_ingested_run234": 0,
+    "community_validation_inferred_run234": false,
+    "cultural_access_permission_inferred_run234": false,
     "secondary_map_substituted_for_primary_census_evidence": false
   },
   "publication": {
@@ -99,37 +99,25 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 233; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 233.",
-    "build_state": "Run-232 final head 40ed3d33b67bef34d2e4eb8630584f268c9601db independently verified Publication Build success (#1749)."
+    "generated_metrics_state": "No count-bearing change in Run 234; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 234.",
+    "build_state": "Previous verified test-bearing release state was 4/4 green through Run 232; fresh Run-234 head requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "run232_test_bearing_head": "dedbea473e81135f40bbb9aa066df683193e6d9f",
-    "run232_test_bearing_head_all_four_green": true,
-    "run232_test_bearing_workflows": {
-      "publication_build": {"run_number": 1748, "conclusion": "success"},
-      "source_register_audit": {"run_number": 1730, "conclusion": "success"},
-      "migration_audit": {"run_number": 1781, "conclusion": "success"},
-      "streamlit_smoke_test": {"run_number": 1895, "conclusion": "success"}
-    },
-    "run232_final_head": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
-    "run232_final_head_all_four_green": true,
-    "run232_final_head_workflows": {
-      "publication_build": {"run_number": 1749, "conclusion": "success"},
-      "source_register_audit": {"run_number": 1731, "conclusion": "success"},
-      "migration_audit": {"run_number": 1782, "conclusion": "success"},
-      "streamlit_smoke_test": {"run_number": 1896, "conclusion": "success"}
-    },
-    "fresh_run233_status_sync_head_ci_verified": false,
-    "fresh_run233_status_sync_head_ci_note": "The status-sync commit created by Run 233 requires its own commit-associated workflows before that new head may be called 4/4 green."
+    "previous_verified_head": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
+    "previous_verified_head_all_four_green": true,
+    "run234_test_bearing_head": "1fb04c4a2083321873db34817d01891aa2f34a29",
+    "fresh_run234_final_head_ci_verified": false,
+    "fresh_run234_final_head_ci_note": "Run-234 commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the new final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Run-234 CIIL BVP04859, BVP06110 and BVP00242 are exact metadata/file-manifestation records but still require byte-preserving acquisition, independent hashes and exact internal-page inspection before proposition or lexical-row promotion.",
     "The Run-232 Commons Assam Mundari map has exact metadata/licensing/original-file locator, but byte-preserving acquisition and independent hashing remain unresolved; its underlying Census C-16 workbook/cells are not yet primary-verified.",
     "CIIL BVP03961, CIILP0091, BVP00202 and BVP04856 still require byte-preserving acquisition, independent hashes, full-work completeness checks and exact internal-page verification before passage promotion.",
     "Mundarica IV, IX and XI-XVI still require stronger exact manifestation/integrity/OCR closure; no volume is verified complete.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
-    "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
+    "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified; Assam C-16 PC11_C16-18 metadata/file name is verified but bytes/cells are still blocked.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
     "Lexibank Peiros v1.1 byte-preserving acquisition and independent hash recomputation remain unresolved.",
     "MMLoSo exact competition bytes/version, independent hash and direct file row counts remain unresolved.",
@@ -154,10 +142,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved internal-page verification for CIIL grammars, unresolved direct Osada page verification, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved internal-page verification for CIIL resources, unresolved direct Osada page verification, and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
+    "Acquire exact CIIL BVP04859, BVP06110 and BVP00242 manifestations byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
     "Acquire the exact Run-232 Commons SVG byte-preservingly, independently hash it, and acquire/verify the declared Assam C-16 workbook/cells before any demographic claim promotion.",
     "Acquire exact permitted CIIL grammar bitstreams byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
     "Locate and lawfully acquire exact Mundarica IV, IX and XI-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
