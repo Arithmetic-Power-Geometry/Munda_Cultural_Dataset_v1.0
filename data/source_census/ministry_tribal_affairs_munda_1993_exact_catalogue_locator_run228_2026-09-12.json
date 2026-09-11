@@ -1,0 +1,84 @@
+{
+  "run": 228,
+  "search_id": "MMSC-SEARCH-000228",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and exact-locator advancement",
+  "audited_at_utc": "2026-09-11T20:45:00Z",
+  "source": {
+    "canonical_title": "Munda",
+    "record_id": "DRMTWRI/1993/0007",
+    "document_type": "Book",
+    "researcher": "Soma Singh Munda",
+    "researcher_role": "Ex. Assistant Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "editor_author": "Ranendra Kumar, IAS Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "guide": "Chintu Doraiburu, Dy. Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "completed_date": "Mar-1993",
+    "pagination": "1-44",
+    "sector": "Tribal Life",
+    "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "repository": "Ministry of Tribal Affairs, Government of India - Tribal Digital Document Repository",
+    "repository_url": "https://repository.tribal.gov.in/handle/123456789/74865",
+    "reported_file": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+    "reported_file_size": "247.29 kB",
+    "reported_format": "Adobe PDF"
+  },
+  "identity_verification": {
+    "official_government_repository_record": true,
+    "record_id_verified": true,
+    "title_verified": true,
+    "document_type_verified": true,
+    "institutional_authorship_roles_verified": true,
+    "pagination_verified_from_repository_metadata": true,
+    "reported_file_name_verified_from_repository_metadata": true
+  },
+  "locator_state": {
+    "catalogue_level_exact_locator_verified": true,
+    "repository_handle_verified": true,
+    "reported_file_manifest_verified": true,
+    "page_range_verified_from_metadata": true,
+    "bitstream_bytes_acquired": false,
+    "independent_hash_computed": false,
+    "page_image_inspected": false,
+    "claim_level_page_locator_verified": false,
+    "blocker": "The repository's View/Open bitstream URL returned HTTP 404 in this audit environment. No alternate bytes were substituted and no source-text proposition was inferred."
+  },
+  "rights_and_governance": {
+    "repository_rights_statement": "Items in Ministry of Tribal Affairs are protected by copyright, with all rights reserved, unless otherwise indicated.",
+    "public_availability_treated_as_permission": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "classification": {
+    "source_class": "government/TRI book",
+    "language_scope": "Munda/Mundari community, language and cultural documentation as described by repository metadata",
+    "cultural_claim_scope": "none promoted",
+    "non_mundarica": true
+  },
+  "deduplication": {
+    "canonical_key": "motarepo:DRMTWRI/1993/0007",
+    "aliases": ["handle:123456789/74865", "file:DRMTWRI_1993_0007_MUNDAJATIRaman.pdf"],
+    "repository_code_search_found_existing_exact_record_id": false,
+    "new_identity_count_increment_permitted": false,
+    "reason": "The exact record was not found by repository code search, but controlled-register absence was not proven across every canonical registry; this run therefore advances an exact-locator audit without inflating counts."
+  },
+  "promotion": {
+    "promoted_beyond_discovery_only": true,
+    "promotion_level": "official government repository exact catalogue/file-manifest locator",
+    "promoted_to_claim_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "linguistic_proposition_promoted": false,
+    "full_text_ingested": false,
+    "lexical_rows_ingested": 0
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "coverage_state_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}
