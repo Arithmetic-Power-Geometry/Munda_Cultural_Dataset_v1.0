@@ -4,18 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T20:50:00Z",
+  "updated_utc": "2026-09-11T21:42:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 228,
-  "work_head_before_status_sync": "d1f192ee5444d0637312523243d5f05ab1ef3278",
-  "previous_final_head": "919fbfce9566a15303512bf86a5bdeea2bf38bfa",
-  "cycle_result": "Run 228 returned to the requested non-Mundarica census. The official Ministry of Tribal Affairs Tribal Digital Document Repository record DRMTWRI/1993/0007 (Munda, Mar-1993) was verified with document type Book, TRI institutional roles, pagination 1-44, and reported PDF DRMTWRI_1993_0007_MUNDAJATIRaman.pdf (247.29 kB). The repository explicitly states copyright/all-rights-reserved unless otherwise indicated. The View/Open bitstream returned HTTP 404 in this audit environment, so no page image, independent hash, source-text linguistic/cultural proposition, participant record, or lexical row was promoted. The exact catalogue/file-manifest locator is retained as evidence of source identity/access state, while byte acquisition remains an explicit gap.",
+  "latest_run": 229,
+  "work_head_before_status_sync": "3d0b9f8e299e7332aadc7de6d7655022205e02fd",
+  "previous_final_head": "89d5a150f3d2b6a20123be16f6b81d8a6466baf3",
+  "cycle_result": "Run 229 advanced Mundarica Volume IX page accounting without false manifestation closure. The Supreme Court of India judgment Bhaiya Ram Munda vs Anirudh Patar & Ors (14 Aug 1970; 1971 AIR 2533; 1971 SCR (1) 804), as rendered by Indian Kanoon, explicitly cites Encyclopaedia Mundarica Vol. IX at printed pages 2881 and 2756. These are recorded only as judicial secondary page locators. No exact authoritative Volume IX manifestation, bytes/hash, scan sequence, page image, OCR, transcription, completeness, reuse permission, community validation or cultural-access permission was inferred or promoted. No public cultural proposition or controlled count was added.",
   "cycle_commits": {
-    "run228_tri_catalogue_audit": "0d866c8e66ded74bfecb01832e672acfac0797ec",
-    "run228_search_log": "b39a37983c3b29c23eb129d4ef0c10cf084bedfd",
-    "run228_regression_test": "d1f192ee5444d0637312523243d5f05ab1ef3278",
-    "previous_run227_final_head": "919fbfce9566a15303512bf86a5bdeea2bf38bfa"
+    "run229_mundarica_ix_locator_audit": "e8414fb001ae0ad4b299be10cf4861e15e8d0e7e",
+    "run229_search_log": "813bc94688ee3b3f35173adc45aba26640da9154",
+    "run229_regression_test": "3d0b9f8e299e7332aadc7de6d7655022205e02fd",
+    "previous_run228_final_head": "89d5a150f3d2b6a20123be16f6b81d8a6466baf3"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -28,19 +28,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000228",
-    "latest_search_log": "data/source_census/search_log_run228.jsonl",
-    "latest_source_audit": "data/source_census/ministry_tribal_affairs_munda_1993_exact_catalogue_locator_run228_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000229",
+    "latest_search_log": "data/source_census/search_log_run229.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_volume_ix_supreme_court_secondary_locator_run229_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run228_count_change": "none"
+    "run229_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 227,
-    "run228_change": "No Mundarica work performed; Run 228 is explicitly non-Mundarica.",
+    "last_mundarica_run": 229,
+    "run229_change": "Volume IX gained judicial secondary printed-page corroboration for pages 2756 and 2881; exact Volume IX digital manifestation and all integrity/OCR/completeness gates remain open.",
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"]
   },
   "evidence_and_schema": {
@@ -54,12 +54,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run228": 0,
-    "claims_added_run228": 0,
-    "evidence_records_added_run228": 0,
-    "evidence_links_added_run228": 0,
-    "verification_audits_added_run228": 1,
-    "run228_boundary": "Official Ministry/TRI exact catalogue and file-manifest locator verified; no source-text proposition promoted because the reported bitstream was unavailable and rights are all-rights-reserved unless otherwise indicated."
+    "source_identities_added_run229": 0,
+    "claims_added_run229": 0,
+    "evidence_records_added_run229": 0,
+    "evidence_links_added_run229": 0,
+    "verification_audits_added_run229": 1,
+    "run229_boundary": "Judicial secondary Volume IX page locators verified; no source-text cultural or linguistic proposition promoted because the exact Volume IX manifestation/page images remain unavailable."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -70,7 +70,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run228_change": "No module-count or public-evidence count change; existing 42-module universal-search/evidence-drilldown mapping remains synchronized."
+    "run229_change": "No module-count or public-evidence count change; existing 42-module universal-search/evidence-drilldown mapping remains synchronized."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -78,7 +78,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run228_change": "Government/TRI bibliographic and access-state coverage improved with an official 1993 record; bitstream integrity and page-level evidence remain explicit gaps."
+    "run229_change": "Mundarica IX page-accounting provenance improved while exact manifestation/integrity/OCR remains an explicit gap."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -86,12 +86,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run228": 0,
-    "full_text_or_lexical_rows_ingested_run228": 0,
-    "community_validation_inferred_run228": false,
-    "cultural_access_permission_inferred_run228": false,
-    "government_repository_visibility_treated_as_reuse_permission": false,
-    "run228_repository_rights": "all rights reserved unless otherwise indicated"
+    "participant_records_ingested_run229": 0,
+    "full_text_or_lexical_rows_ingested_run229": 0,
+    "community_validation_inferred_run229": false,
+    "cultural_access_permission_inferred_run229": false,
+    "judgment_visibility_treated_as_mundarica_reuse_permission": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -103,18 +102,26 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 228; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 228.",
-    "build_state": "Fresh Run-228 final-head CI must conclude before Run 228 can be called green."
+    "generated_metrics_state": "No count-bearing change in Run 229; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 229.",
+    "build_state": "Run-228 final head is independently 4/4 green; fresh Run-229 test-bearing/final-head CI must conclude before Run 229 can be called green."
   },
   "ci": {
-    "previous_final_head": "919fbfce9566a15303512bf86a5bdeea2bf38bfa",
-    "run228_tests_added": ["tests/test_run228_ministry_tri_munda_catalogue.py"],
-    "fresh_run228_final_head_ci_verified": false,
-    "fresh_run228_final_head_ci_note": "Do not claim Run-228 green until commit-associated workflow conclusions are independently checked."
+    "previous_final_head": "89d5a150f3d2b6a20123be16f6b81d8a6466baf3",
+    "previous_final_head_4_of_4_green": true,
+    "previous_final_head_workflows": {
+      "MLHKP Streamlit Smoke Test": "success #1870",
+      "MLHKP Publication Build": "success #1723",
+      "MLHKP Migration Audit": "success #1756",
+      "MLHKP Source Register Audit": "success #1705"
+    },
+    "run229_tests_added": ["tests/test_run229_mundarica_ix_locator_boundaries.py"],
+    "fresh_run229_final_head_ci_verified": false,
+    "fresh_run229_final_head_ci_note": "Do not claim Run-229 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Mundarica Volume IX now has judicial secondary printed-page locators for pages 2756 and 2881 but still lacks a verified exact authoritative digital manifestation, independent byte/hash integrity, scan-sequence verification, OCR verification and completeness verification.",
     "Ministry of Tribal Affairs record DRMTWRI/1993/0007 has a verified official catalogue/file manifest, but its reported PDF bitstream returned HTTP 404; bytes, independent hash, page images and claim-level locators remain unavailable.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 remains secondary locator evidence only.",
@@ -124,7 +131,7 @@
     "Rau independent MD5 recomputation, underlying BMED pages and explicit reuse licensing remain incomplete; zero lexical rows are imported.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
-    "Mundarica IX and XI-XVI still require stronger manifestation/integrity/OCR closure; no volume is verified complete."
+    "Mundarica IV and XI-XVI still require stronger manifestation/integrity/OCR closure; no volume is verified complete."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -143,10 +150,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, incomplete Census/LSI and scholarly/dataset byte integrity, the newly verified TRI 1993 catalogue has an unavailable PDF bitstream, unresolved direct Osada page verification, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved direct Osada page verification, and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
+    "Locate and lawfully acquire the exact Volume IX manifestation corresponding to printed-page locators 2756 and 2881; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
+    "Locate the true exact Volume-IV manifestation and advance Mundarica XI-XVI manifestation/page-accounting/OCR verification without converting bibliographic locators into authoritative-scan claims.",
     "Retry the official Ministry/TRI DRMTWRI/1993/0007 bitstream through lawful repository endpoints or preserved official manifestations; independently hash before any page-text promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
