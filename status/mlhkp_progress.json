@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T15:36:00Z",
+  "updated_utc": "2026-09-11T15:47:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 217,
-  "cycle_result": "Run 217 independently corroborated the official ORGI Linguistic Survey of India-Jharkhand Mundari locator using a readable People's Archive of Rural India/Rural India Online copy. Indexed page marker 71 contains the Mundari section and the same topic cluster observed from the official indexed endpoint. Neither official nor mirror PDF bytes were acquired byte-preservingly in this run, no independent checksum was computed, page-image verification remains incomplete, and no numeric, linguistic or cultural proposition was promoted. Count-bearing release metrics remain frozen and the audited release gate remains NOT_PASS.",
+  "latest_run": 218,
+  "cycle_result": "Run 218 advanced Evans and Osada 2005 from repository-level metadata to an exact article-page locator through the ANU institutional repository: DOI 10.1515/lity.2005.9.3.351, handle 1885/54663, article pp.351-390, published-version PDF 234.31 KB, and indexed repository text at article page 385. The direct bitstream open returned HTTP 403 in the audit environment, so page-image verification, byte-preserving acquisition and independent hashing remain incomplete. ORGI Census/LSI catalogue identities were rechecked but direct opens again timed out or returned gateway errors; no Census numeric cell or linguistic/cultural proposition was promoted. Count-bearing release metrics remain frozen and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run217_lsi_mirror_audit": "9d801a4c5f21a7c0fe9ad636ee60176aa515b977",
-    "run217_search_log": "44f7762ad6e7f6ab5a57f530f095af2af7b5869c",
-    "run217_regression_test": "5b1cb164e0edb458198e39ab24d4342c4ee7d045",
-    "work_head_before_status_sync": "5b1cb164e0edb458198e39ab24d4342c4ee7d045",
+    "run218_evans_osada_audit": "b136ac99f4bb8f6105bc64eebc1ae3b4911c39d4",
+    "run218_search_log": "514789194f5c793a3157bcffcf77b46771712f80",
+    "run218_regression_test": "e07e9c9fe3cc4622a66c5db975307efb2ea89079",
+    "work_head_before_status_sync": "e07e9c9fe3cc4622a66c5db975307efb2ea89079",
     "previous_final_head_4_of_4_green": "3591adb35e455faa4d5ea8032ebfd52339ce135b"
   },
   "mmsc": {
@@ -27,18 +27,18 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000217",
-    "latest_search_log": "data/source_census/search_log_run217.jsonl",
-    "latest_source_audit": "data/source_census/lsi_jharkhand_mirror_corroboration_run217_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000218",
+    "latest_search_log": "data/source_census/search_log_run218.jsonl",
+    "latest_source_audit": "data/source_census/evans_osada_2005_anu_exact_page_locator_run218_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run217_count_change": "none"
+    "run218_count_change": "none"
   },
   "mundarica": {
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "state_summary": "No Mundarica volume state changed in Run 217. Existing exact-secondary and locator-level manifestations remain bounded by prior audits; authoritative-copy, scan-sequence, OCR/transcription, rights and community-validation gates remain open where previously recorded.",
-    "run217_change": "none"
+    "state_summary": "No Mundarica volume state changed in Run 218. Existing exact-secondary and locator-level manifestations remain bounded by prior audits; authoritative-copy, scan-sequence, OCR/transcription, rights and community-validation gates remain open where previously recorded.",
+    "run218_change": "none"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -51,12 +51,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run217": 0,
-    "claims_added_run217": 0,
-    "evidence_records_added_run217": 0,
-    "evidence_links_added_run217": 0,
-    "verification_audits_added_run217": 1,
-    "exact_locator_or_rights_records_advanced_run217": 1
+    "source_identities_added_run218": 0,
+    "claims_added_run218": 0,
+    "evidence_records_added_run218": 0,
+    "evidence_links_added_run218": 0,
+    "verification_audits_added_run218": 1,
+    "exact_locator_or_rights_records_advanced_run218": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,20 +67,28 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run217_change": "No count-bearing promotion or UI redesign; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized to unchanged release metrics."
+    "run218_change": "No count-bearing promotion or UI redesign; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized to unchanged release metrics."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run217_change": "No matrix row-state change was warranted. Independent readable-copy corroboration does not satisfy authoritative byte/hash/page-image verification and does not remove unavailable/restricted/unverified gaps."
+    "run218_change": "No matrix row-state change was warranted. The ANU exact indexed-page advancement does not satisfy local byte/hash/page-image verification; ORGI direct-access failures leave authoritative Census/LSI byte gaps open."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "evans_osada_2005_identity_verified": true,
+    "evans_osada_2005_doi": "10.1515/lity.2005.9.3.351",
+    "evans_osada_2005_anu_handle": "1885/54663",
+    "evans_osada_2005_exact_indexed_page": 385,
+    "evans_osada_2005_page_image_verified": false,
+    "evans_osada_2005_bytes_verified": false,
+    "evans_osada_2005_independent_hash_verified": false,
+    "evans_osada_2005_general_redistribution_license_inferred": false,
     "lsi_jharkhand_official_catalogue_verified": true,
     "lsi_jharkhand_official_filename": "LSI_JHARKHAND.pdf",
     "lsi_jharkhand_indexed_mundari_page_marker": 71,
@@ -91,16 +99,15 @@
     "lsi_jharkhand_open_license_observed": false,
     "official_and_mirror_bytes_proven_identical": false,
     "osada_2008_pages_107_108_directly_verified": false,
-    "evans_osada_2005_pdf_bytes_verified": false,
     "evans_osada_2011_repository_restriction_until": "2037-12-31",
     "lexibank_peiros_independent_md5_recomputed": false,
     "mmloso_exact_competition_bytes_verified": false,
     "rau_direct_row_locator_verified": true,
     "rau_independent_hash_verified": false,
-    "participant_records_ingested_run217": 0,
-    "full_text_or_lexical_rows_ingested_run217": 0,
-    "community_validation_inferred_run217": false,
-    "cultural_access_permission_inferred_run217": false
+    "participant_records_ingested_run218": 0,
+    "full_text_or_lexical_rows_ingested_run218": 0,
+    "community_validation_inferred_run218": false,
+    "cultural_access_permission_inferred_run218": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -112,9 +119,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 217; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 217 adds a bounded independent corroboration record while preserving official-byte, page-image, checksum and rights gaps.",
-    "build_state": "Previous final head 3591adb35e455faa4d5ea8032ebfd52339ce135b independently verified 4/4 green. Run-217 test-bearing head 5b1cb164e0edb458198e39ab24d4342c4ee7d045 has fresh workflows queued and must not be called green until they conclude."
+    "generated_metrics_state": "No count-bearing change in Run 218; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 218 adds a bounded exact-page verification record while preserving byte, page-image, checksum and rights gaps.",
+    "build_state": "Previous final head 3591adb35e455faa4d5ea8032ebfd52339ce135b independently verified 4/4 green. Run-218 test-bearing head e07e9c9fe3cc4622a66c5db975307efb2ea89079 had no workflow runs registered at status-sync check and must not be called green until fresh workflows conclude."
   },
   "ci": {
     "previous_final_head": {
@@ -125,21 +132,22 @@
       "streamlit_smoke_test": "success #1796",
       "all_four_green": true
     },
-    "run217_tests_added": ["tests/test_run217_lsi_jharkhand_mirror_boundary.py"],
+    "run218_tests_added": ["tests/test_run218_evans_osada_exact_locator.py"],
     "work_head_ci": {
-      "head": "5b1cb164e0edb458198e39ab24d4342c4ee7d045",
-      "publication_build": "queued #1654",
-      "source_register_audit": "queued #1637",
-      "migration_audit": "queued #1687",
-      "streamlit_smoke_test": "queued #1801",
-      "state": "fresh_workflows_not_yet_independently_concluded_at_status_sync"
+      "head": "e07e9c9fe3cc4622a66c5db975307efb2ea89079",
+      "publication_build": "not_yet_registered",
+      "source_register_audit": "not_yet_registered",
+      "migration_audit": "not_yet_registered",
+      "streamlit_smoke_test": "not_yet_registered",
+      "state": "fresh_workflows_not_yet_registered_at_status_sync"
     },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-217 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-218 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "LSI_JHARKHAND.pdf is official-catalogue verified and its Mundari locator is independently text-corroborated at page marker 71, but official byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
+    "Evans and Osada 2005 has an exact indexed article-page locator at p.385, but direct bitstream open returned HTTP 403; byte-preserving acquisition, independent hash and page-image verification remain incomplete.",
+    "LSI_JHARKHAND.pdf is official-catalogue verified and text-corroborated at page marker 71, but official byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
     "Official and mirror LSI PDF bytes have not been proven identical.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved.",
@@ -166,16 +174,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Census/LSI byte integrity, unresolved direct grammar-page and dataset integrity checks, and unresolved participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Census/LSI and scholarly-source byte integrity, unresolved direct grammar-page and dataset integrity checks, and unresolved participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
+    "Acquire the Evans-Osada 2005 ANU bitstream byte-preservingly through a lawful working route, independently hash it and visually verify p.385 before any evidence-graph promotion.",
     "Acquire official LSI_JHARKHAND.pdf byte-preservingly, independently hash it, visually verify the Mundari page, and compare official and mirror hashes before any byte-identity claim.",
     "Acquire exact Census workbooks byte-preservingly, independently hash and verify only directly observed cells.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly, independently hash/count before row-level ingestion.",
     "Acquire Rau bytes through a byte-preserving path, recompute MD5, and directly verify BMED pages before any narrow source-attributed lexical ingestion.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
-    "Continue Mundarica IV/IX/XI-XVI manifestation and authoritative-copy closure without promoting unverified OCR or completeness.",
     "Keep all 42 Streamlit modules, evidence graph, coverage/gap matrix, generated release metrics, reproducible manuscript and tests synchronized after every count-bearing change."
   ]
 }
