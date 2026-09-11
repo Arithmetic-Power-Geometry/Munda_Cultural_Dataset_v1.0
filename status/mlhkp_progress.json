@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T22:38:00Z",
+  "updated_utc": "2026-09-11T22:50:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 231,
-  "work_head_before_status_sync": "6e9d35fb4826bba0acc901840916315a74f1122a",
-  "previous_final_head": "1521f54522c966da7e995a8b754e498519e7da8c",
-  "cycle_result": "Run 231 advanced Sikradas Tirki (2015) Mundari Beyakaran as a distinct Bhasha Sanchika/CIIL institutional manifestation, repository identifier BVP03961, handle 20.500.14705/8450, publisher K. K. Publications Allahabad, with rights-holder metadata naming Sikradas Tirki. No byte-preserving acquisition, independent hash, internal-page proposition, unrestricted reuse right, community validation or cultural-access permission was inferred. Controlled counts remain frozen pending deterministic canonical-register reconciliation.",
+  "latest_run": 232,
+  "work_head_before_status_sync": "dedbea473e81135f40bbb9aa066df683193e6d9f",
+  "previous_final_head": "e27a86786f8a6f5a2df8e30eaa2f1918e0edc975",
+  "cycle_result": "Run 232 advanced Wikimedia Commons 'Mundari language distribution - Assam.svg' as an exact rights-supported media/map manifestation with stable file page, permanent revision oldid 978695735, original SVG URL, author/date/file-history metadata, declared Census C-16 Assam 2011 source and CC BY-SA 4.0 licence. The original SVG download failed through the execution path, so no checksum was fabricated; the underlying authoritative Census workbook/cells remain unverified and no demographic proposition entered the evidence graph. Controlled counts remain frozen pending deterministic canonical-register reconciliation.",
   "cycle_commits": {
-    "run231_ciil_beyakaran_audit": "20ff0bd1e688475e698f0568d43f08e9562226c1",
-    "run231_search_log": "976d01c593ddddc177843b1c9b4cca3fe71bbd4e",
-    "run231_regression_test": "6e9d35fb4826bba0acc901840916315a74f1122a"
+    "run232_map_audit": "940253dd6407cf3f6b962793e6ce330552ac8f49",
+    "run232_search_log": "2d007d39bfb31e7eb0bc578dd924cabc2ddda00c",
+    "run232_regression_test": "dedbea473e81135f40bbb9aa066df683193e6d9f"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000231",
-    "latest_search_log": "data/source_census/search_log_run231.jsonl",
-    "latest_source_audit": "data/source_census/ciil_sanchika_mundari_beyakaran_run231_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000232",
+    "latest_search_log": "data/source_census/search_log_run232.jsonl",
+    "latest_source_audit": "data/source_census/wikimedia_mundari_assam_distribution_map_run232_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run231_count_change": "none"
+    "run232_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -53,11 +53,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run231": 0,
-    "evidence_records_added_run231": 0,
-    "evidence_links_added_run231": 0,
-    "verification_audits_added_run231": 1,
-    "run231_boundary": "BVP03961 advanced only to institutional repository metadata manifestation; no internal grammatical proposition entered the public evidence graph."
+    "claims_added_run232": 0,
+    "evidence_records_added_run232": 0,
+    "evidence_links_added_run232": 0,
+    "verification_audits_added_run232": 1,
+    "run232_boundary": "The Commons map is promoted as a rights-supported media manifestation only; no Census-derived demographic proposition entered the evidence graph without primary workbook/cell verification."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,7 +68,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run231_change": "No module-count or public-evidence count change; no full grammar text exposed."
+    "run232_change": "No module-count or public-evidence count change; discovery/verification metadata remains distinguishable from primary evidence and no demographic value was exposed from the secondary map."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -76,7 +76,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run231_change": "One additional CIIL grammar manifestation was institutionally resolved while byte/hash/internal-page verification remains an explicit gap."
+    "run232_change": "Exact permitted map/media manifestation added at the audit layer, but COV-010 remains structure_ready because the underlying primary Census workbook/cells and local map bytes/hash are still unresolved."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -84,11 +84,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run231": 0,
-    "full_text_or_lexical_rows_ingested_run231": 0,
-    "community_validation_inferred_run231": false,
-    "cultural_access_permission_inferred_run231": false,
-    "rights_holder_metadata_treated_as_redistribution_permission": false
+    "participant_records_ingested_run232": 0,
+    "full_text_or_lexical_rows_ingested_run232": 0,
+    "community_validation_inferred_run232": false,
+    "cultural_access_permission_inferred_run232": false,
+    "licensed_map_reuse_verified_run232": "CC BY-SA 4.0 subject to attribution/share-alike terms",
+    "secondary_map_substituted_for_primary_census_evidence": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -100,25 +101,20 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 231; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 231.",
-    "build_state": "Fresh Run-231 CI instantiated on test-bearing head; do not claim final-head 4/4 green until all four conclusions are independently observed."
+    "generated_metrics_state": "No count-bearing change in Run 232; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 232; the rights-supported map is not substituted for a primary Census figure in publication outputs.",
+    "build_state": "Fresh Run-232 CI must be checked on the test-bearing/final head before any green claim."
   },
   "ci": {
-    "previous_final_head": "1521f54522c966da7e995a8b754e498519e7da8c",
-    "run231_tests_added": ["tests/test_run231_ciil_mundari_beyakaran.py"],
-    "run231_test_bearing_head": "6e9d35fb4826bba0acc901840916315a74f1122a",
-    "run231_test_bearing_workflows": {
-      "MLHKP Source Register Audit": "queued #1724",
-      "MLHKP Migration Audit": "queued #1775",
-      "MLHKP Streamlit Smoke Test": "queued #1889",
-      "MLHKP Publication Build": "queued #1742"
-    },
-    "fresh_run231_final_head_ci_verified": false,
-    "fresh_run231_final_head_ci_note": "Do not claim Run-231 final head 4/4 green until commit-associated workflow conclusions are independently checked after status synchronization."
+    "previous_final_head": "e27a86786f8a6f5a2df8e30eaa2f1918e0edc975",
+    "run232_tests_added": ["tests/test_run232_wikimedia_mundari_assam_map.py"],
+    "run232_test_bearing_head": "dedbea473e81135f40bbb9aa066df683193e6d9f",
+    "fresh_run232_final_head_ci_verified": false,
+    "fresh_run232_final_head_ci_note": "Do not claim Run-232 final head 4/4 green until commit-associated workflow conclusions are independently checked after status synchronization."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "The Run-232 Commons Assam Mundari map has exact metadata/licensing/original-file locator, but byte-preserving acquisition and independent hashing remain unresolved; its underlying Census C-16 workbook/cells are not yet primary-verified.",
     "CIIL BVP03961 now has stable institutional metadata but byte-preserving acquisition, independent hash, full-work completeness and exact internal-page locators remain unresolved.",
     "Previously advanced CIIL grammars CIILP0091, BVP00202 and BVP04856 still lack independent byte/hash/full-work/internal-page verification.",
     "Mundarica IV, IX and XI-XVI still require stronger exact manifestation/integrity/OCR closure; no volume is verified complete.",
@@ -152,6 +148,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
+    "Acquire the exact Run-232 Commons SVG byte-preservingly, independently hash it, and acquire/verify the declared Assam C-16 workbook/cells before any demographic claim promotion.",
     "Reconcile BVP03961, CIILP0091, BVP00202 and BVP04856 against every controlled canonical identity registry; acquire exact permitted bitstreams byte-preservingly, independently hash them and promote only exact permitted internal passages.",
     "Locate and lawfully acquire exact Mundarica IV, IX and XI-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
