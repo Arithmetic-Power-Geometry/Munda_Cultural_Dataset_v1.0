@@ -4,18 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T21:49:00Z",
+  "updated_utc": "2026-09-11T22:38:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 230,
-  "work_head_before_status_sync": "9bae609b95b5c0672829573b5a398e23b725064c",
-  "previous_final_head": "39be413b417fcd640959472bdcd186d0b9aa3dac",
-  "cycle_result": "Run 230 advanced three non-Mundarica Mundari grammar manifestations beyond discovery-only status through Bhasha Sanchika/CIIL: N.K. Sinha (1975) Mundari Grammar CIILP0091, Ramdayal Munda (2013) Mundari-Vyakaran BVP00202, and Mansidh Baraiud (2017) Nava Hodo Jagar Mundi BVP04856. Stable institutional metadata and direct PDF cover manifestations were verified visually. Byte-preserving acquisition failed in the execution environment, so no independent hash, full-work completeness, internal-page grammatical proposition, unrestricted reuse right, community validation or cultural-access permission was inferred. Controlled source/evidence/UI counts remain unchanged pending deterministic canonical-register reconciliation.",
+  "latest_run": 231,
+  "work_head_before_status_sync": "6e9d35fb4826bba0acc901840916315a74f1122a",
+  "previous_final_head": "1521f54522c966da7e995a8b754e498519e7da8c",
+  "cycle_result": "Run 231 advanced Sikradas Tirki (2015) Mundari Beyakaran as a distinct Bhasha Sanchika/CIIL institutional manifestation, repository identifier BVP03961, handle 20.500.14705/8450, publisher K. K. Publications Allahabad, with rights-holder metadata naming Sikradas Tirki. No byte-preserving acquisition, independent hash, internal-page proposition, unrestricted reuse right, community validation or cultural-access permission was inferred. Controlled counts remain frozen pending deterministic canonical-register reconciliation.",
   "cycle_commits": {
-    "run230_ciil_grammar_manifestation_audit": "170c43e7ece2a3be700214d0d2dfe39e48c45b6e",
-    "run230_search_log": "762ee24ab87ad7a57ff8711b608c3febea14f963",
-    "run230_regression_test": "9bae609b95b5c0672829573b5a398e23b725064c",
-    "previous_run229_final_head": "39be413b417fcd640959472bdcd186d0b9aa3dac"
+    "run231_ciil_beyakaran_audit": "20ff0bd1e688475e698f0568d43f08e9562226c1",
+    "run231_search_log": "976d01c593ddddc177843b1c9b4cca3fe71bbd4e",
+    "run231_regression_test": "6e9d35fb4826bba0acc901840916315a74f1122a"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -28,20 +27,20 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000230",
-    "latest_search_log": "data/source_census/search_log_run230.jsonl",
-    "latest_source_audit": "data/source_census/ciil_sanchika_mundari_grammar_manifestations_run230_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000231",
+    "latest_search_log": "data/source_census/search_log_run231.jsonl",
+    "latest_source_audit": "data/source_census/ciil_sanchika_mundari_beyakaran_run231_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run230_count_change": "none"
+    "run231_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 229,
-    "run229_change": "Volume IX gained judicial secondary printed-page corroboration for pages 2756 and 2881; exact Volume IX digital manifestation and all integrity/OCR/completeness gates remain open.",
-    "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"]
+    "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"],
+    "state": "Bibliographic/page locators exist for several volumes, but no volume is promoted to authoritative registered scan or verified complete without exact manifestation, byte/hash, scan-sequence and OCR verification."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -54,12 +53,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run230": 0,
-    "claims_added_run230": 0,
-    "evidence_records_added_run230": 0,
-    "evidence_links_added_run230": 0,
-    "verification_audits_added_run230": 1,
-    "run230_boundary": "Three CIIL grammar manifestations advanced to institutional-metadata plus directly rendered cover verification. No internal grammatical proposition entered the evidence graph because byte integrity/full-work manifestation and exact internal pages remain unresolved."
+    "claims_added_run231": 0,
+    "evidence_records_added_run231": 0,
+    "evidence_links_added_run231": 0,
+    "verification_audits_added_run231": 1,
+    "run231_boundary": "BVP03961 advanced only to institutional repository metadata manifestation; no internal grammatical proposition entered the public evidence graph."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -70,7 +68,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run230_change": "No module-count or public-evidence count change; existing 42-module universal-search/evidence-drilldown mapping remains synchronized and no full grammar text was exposed."
+    "run231_change": "No module-count or public-evidence count change; no full grammar text exposed."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -78,7 +76,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run230_change": "Bibliographic/grammar manifestation provenance improved for three CIIL records while byte/hash/full-work/internal-page verification remains an explicit gap; no coverage-state inflation was made."
+    "run231_change": "One additional CIIL grammar manifestation was institutionally resolved while byte/hash/internal-page verification remains an explicit gap."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -86,12 +84,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run230": 0,
-    "full_text_or_lexical_rows_ingested_run230": 0,
-    "community_validation_inferred_run230": false,
-    "cultural_access_permission_inferred_run230": false,
-    "ciil_terms_verified_run230": true,
-    "ciil_personal_research_access_treated_as_unrestricted_redistribution_permission": false
+    "participant_records_ingested_run231": 0,
+    "full_text_or_lexical_rows_ingested_run231": 0,
+    "community_validation_inferred_run231": false,
+    "cultural_access_permission_inferred_run231": false,
+    "rights_holder_metadata_treated_as_redistribution_permission": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -103,39 +100,36 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 230; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 230.",
-    "build_state": "Run-229 final head 39be413b417fcd640959472bdcd186d0b9aa3dac is independently 4/4 green; fresh Run-230 test-bearing/final-head CI must conclude before Run 230 can be called green."
+    "generated_metrics_state": "No count-bearing change in Run 231; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 231.",
+    "build_state": "Fresh Run-231 CI instantiated on test-bearing head; do not claim final-head 4/4 green until all four conclusions are independently observed."
   },
   "ci": {
-    "previous_final_head": "39be413b417fcd640959472bdcd186d0b9aa3dac",
-    "previous_final_head_4_of_4_green": true,
-    "previous_final_head_workflows": {
-      "MLHKP Streamlit Smoke Test": "success #1876",
-      "MLHKP Publication Build": "success #1729",
-      "MLHKP Migration Audit": "success #1762",
-      "MLHKP Source Register Audit": "success #1711"
+    "previous_final_head": "1521f54522c966da7e995a8b754e498519e7da8c",
+    "run231_tests_added": ["tests/test_run231_ciil_mundari_beyakaran.py"],
+    "run231_test_bearing_head": "6e9d35fb4826bba0acc901840916315a74f1122a",
+    "run231_test_bearing_workflows": {
+      "MLHKP Source Register Audit": "queued #1724",
+      "MLHKP Migration Audit": "queued #1775",
+      "MLHKP Streamlit Smoke Test": "queued #1889",
+      "MLHKP Publication Build": "queued #1742"
     },
-    "run230_tests_added": ["tests/test_run230_ciil_mundari_grammar_manifestations.py"],
-    "run230_test_bearing_head": "9bae609b95b5c0672829573b5a398e23b725064c",
-    "run230_test_bearing_ci_observed": "fresh workflows instantiated; Publication Build was in progress at latest check",
-    "fresh_run230_final_head_ci_verified": false,
-    "fresh_run230_final_head_ci_note": "Do not claim Run-230 final head 4/4 green until commit-associated workflow conclusions are independently checked after status synchronization."
+    "fresh_run231_final_head_ci_verified": false,
+    "fresh_run231_final_head_ci_note": "Do not claim Run-231 final head 4/4 green until commit-associated workflow conclusions are independently checked after status synchronization."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "CIIL grammar records CIILP0091, BVP00202 and BVP04856 now have stable institutional metadata and visually verified cover manifestations, but byte-preserving acquisition, independent hashes, proof of full-work completeness and exact internal-page locators remain unresolved.",
-    "Mundarica Volume IX has judicial secondary printed-page locators for pages 2756 and 2881 but still lacks a verified exact authoritative digital manifestation, independent byte/hash integrity, scan-sequence verification, OCR verification and completeness verification.",
-    "Ministry of Tribal Affairs record DRMTWRI/1993/0007 has a verified official catalogue/file manifest, but its reported PDF bitstream returned HTTP 404; bytes, independent hash, page images and claim-level locators remain unavailable.",
-    "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete; indexed Mundari table content is not promoted as a verified numeric claim while direct PDF access remains unstable.",
-    "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 remains secondary locator evidence only.",
+    "CIIL BVP03961 now has stable institutional metadata but byte-preserving acquisition, independent hash, full-work completeness and exact internal-page locators remain unresolved.",
+    "Previously advanced CIIL grammars CIILP0091, BVP00202 and BVP04856 still lack independent byte/hash/full-work/internal-page verification.",
+    "Mundarica IV, IX and XI-XVI still require stronger exact manifestation/integrity/OCR closure; no volume is verified complete.",
+    "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
-    "Lexibank Peiros v1.1 byte-preserving acquisition and independent MD5 recomputation remain unresolved.",
+    "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
+    "Lexibank Peiros v1.1 byte-preserving acquisition and independent hash recomputation remain unresolved.",
     "MMLoSo exact competition bytes/version, independent hash and direct file row counts remain unresolved.",
-    "Rau independent MD5 recomputation, underlying BMED pages and explicit reuse licensing remain incomplete; zero lexical rows are imported.",
+    "Rau independent hash recomputation, underlying BMED pages and explicit reuse licensing remain incomplete; zero lexical rows are imported.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
-    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
-    "Mundarica IV and XI-XVI still require stronger manifestation/integrity/OCR closure; no volume is verified complete."
+    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -154,18 +148,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved full-work/internal-page verification for newly advanced CIIL grammars, unresolved direct Osada page verification, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved internal-page verification for CIIL grammars, unresolved direct Osada page verification, and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Reconcile CIILP0091, BVP00202 and BVP04856 against every controlled canonical identity registry; acquire exact permitted bitstreams byte-preservingly, independently hash them, verify full-work page accounting and then promote only exact permitted internal passages.",
-    "Locate and lawfully acquire the exact Mundarica Volume IX manifestation corresponding to printed-page locators 2756 and 2881; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
-    "Locate the true exact Volume-IV manifestation and advance Mundarica XI-XVI manifestation/page-accounting/OCR verification without converting bibliographic locators into authoritative-scan claims.",
-    "Retry the official Ministry/TRI DRMTWRI/1993/0007 bitstream through lawful repository endpoints or preserved official manifestations; independently hash before any page-text promotion.",
+    "Reconcile BVP03961, CIILP0091, BVP00202 and BVP04856 against every controlled canonical identity registry; acquire exact permitted bitstreams byte-preservingly, independently hash them and promote only exact permitted internal passages.",
+    "Locate and lawfully acquire exact Mundarica IV, IX and XI-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly; independently hash/count before row-level ingestion.",
-    "Acquire Rau bytes through a byte-preserving path, recompute MD5, and directly verify BMED pages before narrow source-attributed lexical ingestion.",
+    "Acquire Rau bytes through a byte-preserving path, recompute hash, and directly verify BMED pages before narrow source-attributed lexical ingestion.",
     "Keep all 42 Streamlit modules, evidence graph, governance gates, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
 }
