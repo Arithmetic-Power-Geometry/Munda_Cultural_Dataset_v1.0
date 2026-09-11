@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T07:55:00Z",
+  "updated_utc": "2026-09-11T08:32:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 202,
-  "cycle_result": "Run 202 advanced the Lexibank Peiros Austroasiatic v1.1 stream from an unresolved manifestation lead to an exact tagged-release/licence/language-table audit. GitHub release v1.1 verifies DOI 10.5281/zenodo.13168443; the tagged README states CC-BY-4.0 and reports 109 varieties, 100 concepts, 10,706 lexemes and one source; cldf/languages.csv exactly verifies the Mundari row (ID/Name Mundari, Glottocode mund1320, ISO unr, Austroasiatic, subgroup MUNDA). CLDF Meta independently cross-links the DOI and v1.1 tag. Direct Zenodo archive filename/checksum and byte-preserving archive acquisition remain unresolved, so no forms.csv lexical rows, cultural claims, participant material or evidence-graph nodes were ingested. Controlled counts remain unchanged and the release gate remains NOT_PASS.",
+  "latest_run": 203,
+  "cycle_result": "Run 203 narrowed the Lexibank Peiros v1.1 integrity blocker using the direct Zenodo record. Zenodo now directly verifies the exact archive filename lexibank/peirosaustroasiatic-v1.1.zip, displayed size 637.3 kB, and repository-reported MD5 cff41a8a9db0f74e14550d2330a56483. Direct binary acquisition was attempted but did not succeed in current tooling, so this MD5 is recorded strictly as repository metadata and not as an independently recomputed checksum. No forms.csv rows, cultural facts, participant material, claims, evidence nodes or source identities were added. Counts remain unchanged and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run202_lexibank_peiros_exact_locator_audit": "698be7b902ea0ad1bd305340d920af51f51e0597",
-    "run202_search_log": "72851e47499ec698fa722662879bc3d135c5dfed",
-    "run202_regression_test": "af0378dd53cc82f960acca46fb22d37b70ceebd7",
-    "work_head_before_status_sync": "af0378dd53cc82f960acca46fb22d37b70ceebd7"
+    "run203_peiros_zenodo_manifest_audit": "19cfe25abd5903cef0b18190bfec393703c00117",
+    "run203_regression_test": "3f8ea4e3d763d032e7857a5ba35c3ae00096a879",
+    "run203_search_log": "2e2b05e89effdfa28fc4789ddcefdddd9dba9bf0",
+    "work_head_before_status_sync": "2e2b05e89effdfa28fc4789ddcefdddd9dba9bf0"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -40,7 +40,7 @@
       "XV": "authoritative release manifestation unresolved; not verified complete",
       "XVI": "authoritative release manifestation unresolved; not verified complete"
     },
-    "run202_change": "No Mundarica count or verification promotion in Run 202."
+    "run203_change": "No Mundarica count, OCR-verification or completeness promotion in Run 203."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -53,12 +53,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000202",
-    "latest_search_log": "data/source_census/search_log_run202.jsonl",
-    "latest_source_audit": "data/source_census/lexibank_peiros_v1_1_mundari_exact_locator_run202_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000203",
+    "latest_search_log": "data/source_census/search_log_run203.jsonl",
+    "latest_source_audit": "data/source_census/lexibank_peiros_v1_1_zenodo_manifest_run203_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run202_count_change": "none"
+    "run203_count_change": "none"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -71,12 +71,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run202": 0,
-    "claims_added_run202": 0,
-    "evidence_records_added_run202": 0,
-    "evidence_links_added_run202": 0,
-    "verification_audits_added_run202": 1,
-    "run202_note": "Lexibank Peiros v1.1 advanced to exact release/licence and exact Mundari language-table locator; no lexical rows or cultural graph nodes were created."
+    "source_identities_added_run203": 0,
+    "claims_added_run203": 0,
+    "evidence_records_added_run203": 0,
+    "evidence_links_added_run203": 0,
+    "verification_audits_added_run203": 1,
+    "run203_note": "Peiros v1.1 exact Zenodo archive metadata advanced; independent bytes/hash and lexical rows remain blocked."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -87,7 +87,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run202_change": "No count-bearing UI change; 42 modules and cross-cutting functions remain synchronized."
+    "run203_change": "No count-bearing UI change; 42 modules and cross-cutting functions remain synchronized."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -98,8 +98,13 @@
     "lexibank_peiros_version_doi": "10.5281/zenodo.13168443",
     "lexibank_peiros_repository_license_statement": "CC-BY-4.0",
     "lexibank_peiros_mundari_language_row_verified": true,
-    "lexibank_peiros_exact_zenodo_archive_checksum_verified": false,
+    "lexibank_peiros_zenodo_archive_filename_verified": true,
+    "lexibank_peiros_zenodo_archive_filename": "lexibank/peirosaustroasiatic-v1.1.zip",
+    "lexibank_peiros_zenodo_archive_size_display": "637.3 kB",
+    "lexibank_peiros_repository_reported_md5": "cff41a8a9db0f74e14550d2330a56483",
+    "lexibank_peiros_repository_md5_metadata_verified": true,
     "lexibank_peiros_release_archive_bytes_verified": false,
+    "lexibank_peiros_independent_md5_recomputed": false,
     "lexibank_peiros_underlying_peiros_rights_inferred": false,
     "mmloso_official_task_page_verified": true,
     "mmloso_task_page_license_statement": "Creative Commons BY-SA 4.0",
@@ -115,8 +120,8 @@
     "rau_authoritative_plaintext_manifestation_verified": true,
     "rau_independent_hash_verified": false,
     "rau_underlying_BMED_page_verified": false,
-    "participant_records_ingested_run202": 0,
-    "full_text_or_lexical_rows_ingested_run202": 0
+    "participant_records_ingested_run203": 0,
+    "full_text_or_lexical_rows_ingested_run203": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -128,27 +133,34 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 202; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required; Run 202 adds exact Lexibank Peiros v1.1 release/licence/language-table audit only.",
-    "build_state": "Run-202 test-bearing head af0378dd53cc82f960acca46fb22d37b70ceebd7 committed; fresh final-head workflows must be checked before claiming green."
+    "generated_metrics_state": "No count-bearing change in Run 203; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required; Run 203 adds exact Peiros Zenodo archive metadata only.",
+    "build_state": "Run-203 test-bearing work head 2e2b05e89effdfa28fc4789ddcefdddd9dba9bf0 committed; four workflows instantiated and must conclude before final-head green is claimed."
   },
   "ci": {
-    "last_independently_verified_green_head": "40e046a6414a2752efbc55c75edf1b402b1d3a9b",
+    "last_independently_verified_green_head": "c90321ffef0500351e9aa4fbf12753f1211b0e26",
     "green_4_of_4": true,
     "verified_workflows": {
-      "publication_build": {"run_number": 1553, "conclusion": "success"},
-      "source_register_audit": {"run_number": 1536, "conclusion": "success"},
-      "migration_audit": {"run_number": 1586, "conclusion": "success"},
-      "streamlit_smoke_test": {"run_number": 1700, "conclusion": "success"}
+      "publication_build": {"run_number": 1565, "conclusion": "success"},
+      "source_register_audit": {"run_number": 1548, "conclusion": "success"},
+      "migration_audit": {"run_number": 1598, "conclusion": "success"},
+      "streamlit_smoke_test": {"run_number": 1712, "conclusion": "success"}
     },
-    "run202_tests_added": ["tests/test_run202_lexibank_peiros_exact_locator.py"],
+    "run203_tests_added": ["tests/test_run203_lexibank_peiros_zenodo_manifest.py"],
+    "work_head_ci": {
+      "head": "2e2b05e89effdfa28fc4789ddcefdddd9dba9bf0",
+      "publication_build": {"run_number": 1570, "state": "queued_at_status_sync"},
+      "source_register_audit": {"run_number": 1553, "state": "queued_at_status_sync"},
+      "migration_audit": {"run_number": 1603, "state": "queued_at_status_sync"},
+      "streamlit_smoke_test": {"run_number": 1717, "state": "queued_at_status_sync"}
+    },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Run-202 audit/search/test/status commits require commit-associated workflow conclusions before final-head green can be claimed."
+    "fresh_final_head_ci_note": "Do not claim Run-203 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica I remains working-page accounting only; II, III, VI, VII, VIII, X and XIII have exact secondary manifestations; IV-V acquisition remains blocked; IX, XI and XII remain locator-only; all XVI release slots lack authoritative registered scans and none is verified complete.",
-    "Lexibank Peiros v1.1 DOI/tag/licence and exact Mundari language-table row are verified; exact Zenodo archive filename/checksum, byte-preserving acquisition and forms.csv lexical-row verification remain unresolved.",
+    "Lexibank Peiros v1.1 exact Zenodo archive filename, displayed size and repository-reported MD5 are now verified as metadata; byte-preserving acquisition, independent MD5 recomputation, archive inspection and forms.csv lexical-row/source-pointer verification remain unresolved.",
     "MMLoSo exact competition bytes/version, independent hash/file row count and the 16,000-versus-15,999 discrepancy remain unresolved.",
     "CIIL grammar/book manifestations remain cover-only where previously observed; full sequences, hashes, exact reuse scope and content-level cultural access remain unresolved.",
     "C-16/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -181,7 +193,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
-    "Retrieve exact Zenodo v1.1 archive metadata/checksum for Lexibank Peiros, acquire bytes, verify forms.csv Mundari rows/source pointers, then perform only lawful synchronized row-level ingestion.",
+    "Acquire the exact Peiros v1.1 Zenodo archive byte-preservingly, independently recompute MD5 cff41a8a9db0f74e14550d2330a56483, inspect forms.csv Mundari rows/source pointers, then perform only lawful synchronized row-level ingestion.",
     "Acquire exact MMLoSo competition dataset manifestation/version, independently hash/count mundari-train.csv and reconcile the 16,000-versus-15,999 discrepancy before row ingestion.",
     "Extend exact secondary Mundarica manifestation verification through IX, XI and XII and retry IV-V while separately pursuing authoritative release scans.",
     "Retry authoritative Census workbook downloads and map exact cells only after byte-preserving acquisition/hash verification.",
