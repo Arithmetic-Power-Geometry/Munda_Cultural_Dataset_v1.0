@@ -1,7 +1,7 @@
 {
   "audit_id": "MMSC-AUDIT-C16-JH-2011-RUN189",
   "run": 189,
-  "checked_utc": "2026-09-11T00:43:00Z",
+  "checked_utc": "2026-09-11T00:49:00Z",
   "source_class": "government_census_table",
   "scope": "non-Mundarica source census; language-demographic reference only",
   "identity": {
@@ -16,13 +16,18 @@
   "catalogue_verified": true,
   "catalogue_metadata_verified_from_official_search_index": true,
   "official_direct_page_fetch_state": "blocked_transient_http_502",
+  "catalogue_row_locators": [
+    {"catalogue_label": "91 MUNDA", "child_labels": ["Kol", "Munda", "91 Others"], "variable": "HS_Q10"},
+    {"catalogue_label": "92 MUNDARI", "child_labels": ["Mundari", "92 Others"], "variable": "HS_Q10"}
+  ],
+  "catalogue_munda_mundari_row_labels_verified": true,
   "workbook_bytes_acquired": false,
   "independent_checksum_verified": false,
   "worksheet_names_verified": false,
-  "munda_mundari_exact_rows_verified": false,
+  "workbook_row_numbers_verified": false,
   "numeric_cells_verified": false,
   "numeric_values_promoted": false,
-  "exact_locator_level": "catalogue_and_manifestation_filename_only",
+  "exact_locator_level": "official_catalogue_identity_manifestation_filename_and_row-label metadata; no workbook cells",
   "table_description_source_attributed": "The official catalogue describes C-16 as population distribution by mother tongue and sex, with total/rural/urban geography and alphabetically arranged mother tongues.",
   "rights_access": {
     "public_catalogue_access_observed": true,
@@ -39,9 +44,9 @@
   "canonicalization": {
     "new_permanent_source_identity_created": false,
     "count_bearing": false,
-    "reason": "C-16 is already an explicit Census acquisition gap in the synchronized MLHKP ledger; this run strengthens its official catalogue/manifestation identity without claiming workbook possession or cells."
+    "reason": "C-16 is already an explicit Census acquisition gap in the synchronized MLHKP ledger; this run strengthens its official catalogue/manifestation identity and catalogue row structure without claiming workbook possession or numeric cells."
   },
-  "blocker": "Authoritative direct catalogue/workbook retrieval returned HTTP 502 in this run; workbook bytes, hash, sheet names, exact Munda/Mundari rows and numeric cells remain unverified.",
-  "next_safe_action": "Retry the official download; only after byte-preserving acquisition compute an independent hash, inspect workbook structure, and promote exact cells with source-attributed semantics.",
-  "fabrication_guard": "No census number, cell locator, checksum, licence, cultural fact, consent state or completeness state was inferred."
+  "blocker": "Authoritative direct catalogue/workbook retrieval returned HTTP 502 in this run; workbook bytes, independent hash, worksheet names, physical workbook row numbers and numeric cells remain unverified.",
+  "next_safe_action": "Retry the official download; only after byte-preserving acquisition compute an independent hash, inspect workbook structure, reconcile catalogue labels to workbook row/cell coordinates, and promote exact cells with source-attributed semantics.",
+  "fabrication_guard": "No census number, workbook cell locator, checksum, licence, cultural fact, consent state or completeness state was inferred."
 }
