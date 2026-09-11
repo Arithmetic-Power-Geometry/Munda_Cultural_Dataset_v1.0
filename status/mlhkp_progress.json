@@ -4,18 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T00:52:00Z",
+  "updated_utc": "2026-09-11T01:36:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 189,
-  "cycle_result": "Run 189 independently verified the Run-188 exact head as 4/4 CI green, completed an all-requested-class non-Mundarica census pass, and strengthened the official Census 2011 C-16 Jharkhand stream to catalogue-level exact locators. ORGI metadata verifies PC11_C16-20 / PC11_C16, workbook DDW-C16-STMT-MDDS-2000.xlsx, and catalogue row labels 91 MUNDA and 92 MUNDARI. Direct authoritative page/workbook retrieval returned transient HTTP 502, so workbook bytes, independent hash, sheet names, workbook row numbers, numeric cells and numeric values remain unverified and unpromoted. No cultural claim, source identity, participant material or evidence node was fabricated.",
+  "latest_run": 190,
+  "cycle_result": "Run 190 retried official Census 2011 C-16 Jharkhand acquisition and an exact Mundarica Volume V manifestation search while preserving all verification and cultural-access boundaries. Official ORGI/Census search-index metadata continues to expose PC11_C16-20 / PC11_C16 and workbook DDW-C16-STMT-MDDS-2000.xlsx, but direct authoritative retrieval again returned HTTP 502. No workbook bytes, checksum, sheet/cell values or numeric Census values were promoted. No defensible exact Mundarica Volume V digital manifestation was promoted. Counts remain unchanged and the audited-release gate remains open.",
   "cycle_commits": {
-    "c16_manifestation_audit_initial": "0b08dcafa2b4c79783a38579fd713d7fc61c5372",
-    "run189_search_log": "2a73db08a200f95b60c89f2a74ca94b5a8203ec4",
-    "run189_regression_test_initial": "196a9ab19dcb53551f6fd9e60152075c7ac1ff7c",
-    "c16_catalogue_row_promotion": "b344806d139ef39ab18050c03903c5ea08c16df5",
-    "run189_regression_test_final": "6ee7312d9d338d018c98b4b0dcfbfc076140a705",
-    "work_head_before_status_sync": "6ee7312d9d338d018c98b4b0dcfbfc076140a705"
+    "run190_c16_retry_audit": "dec8c0558c822a70d31c02e0b4f9018b2d200b4f",
+    "run190_search_log": "d77208e61341d37ce2a0cea5dfec4b6bc243c916",
+    "run190_regression_test": "b658e528896f7eac737f92b2c4d90e43b33b6a0f",
+    "work_head_before_status_sync": "b658e528896f7eac737f92b2c4d90e43b33b6a0f"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -28,11 +26,12 @@
       "I": "324 working page blocks; page accounting only; no authoritative scan comparison; not OCR/transcription verified complete",
       "II": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.bengal.10689.21001; 406 catalogued scan pages; no authoritative physical-copy comparison or independent hash; not verified complete",
       "III": "historical locator plus exact secondary DLI/Internet Archive manifestation in.ernet.dli.2015.14921; 264 catalogued scan pages; ABBYY OCR and 600 PPI catalogued; no authoritative physical-copy comparison or independent hash; not verified complete",
-      "IV": "historical locator retained; Run 188 exact-manifestation retry found no defensible exact digital item; no page count/OCR/rights/completeness promotion; not verified complete",
-      "V-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
+      "IV": "historical locator retained; exact-manifestation retry found no defensible exact digital item; no page count/OCR/rights/completeness promotion; not verified complete",
+      "V": "historical locator retained; Run 190 exact-title/volume search found no defensible exact digital manifestation to promote; no page count/OCR/rights/completeness promotion; not verified complete",
+      "VI-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run189_change": "No Mundarica verification-state promotion; Run 189 was non-Mundarica Census/source-census focused."
+    "run190_change": "Volume V exact-manifestation acquisition was retried without defensible promotion; authoritative scans and verified-complete volumes remain zero."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -45,12 +44,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000189",
-    "latest_search_log": "data/source_census/search_log_run189.jsonl",
-    "latest_source_audit": "data/source_census/census_2011_c16_jharkhand_manifestation_audit_run189_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000190",
+    "latest_search_log": "data/source_census/search_log_run190.jsonl",
+    "latest_source_audit": "data/source_census/census_2011_c16_jharkhand_retry_audit_run190_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run189_count_change": "none; C-16 official catalogue identity/row-locator verification strengthened without source-count inflation"
+    "run190_count_change": "none; C-16 authoritative retrieval was blocked and Mundarica V had no defensible manifestation promotion"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -63,12 +62,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run189": 0,
-    "claims_added_run189": 0,
-    "evidence_records_added_run189": 0,
-    "evidence_links_added_run189": 0,
-    "verification_audits_added_run189": 1,
-    "run189_note": "C-16 catalogue identity, workbook filename and row labels 91 MUNDA / 92 MUNDARI are verified from official catalogue metadata; no workbook numeric cell or cultural proposition entered the evidence graph."
+    "source_identities_added_run190": 0,
+    "claims_added_run190": 0,
+    "evidence_records_added_run190": 0,
+    "evidence_links_added_run190": 0,
+    "verification_audits_added_run190": 1,
+    "run190_note": "C-16 identity/workbook locator was reconfirmed only at search-index/catalogue-metadata level; direct authoritative retrieval failed, so no workbook numeric cell or cultural proposition entered the evidence graph."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -79,7 +78,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run189_change": "No count-bearing or exposure change; all 42 modules and universal search/evidence/report/owner mappings remain synchronized."
+    "run190_change": "No count-bearing or exposure change; all 42 modules and universal search/evidence/report/owner mappings remain synchronized."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -104,14 +103,13 @@
     "rau_cultural_access_inferred": false,
     "saboo_publisher_access_state": "restricted",
     "saboo_open_license_verified": false,
-    "mundarica_iv_rights_or_cultural_access_inferred": false,
     "c16_public_catalogue_access_observed": true,
     "c16_workbook_reuse_rights_independently_verified": false,
     "c16_public_availability_treated_as_permission": false,
     "c16_catalogue_row_labels_verified": true,
     "c16_numeric_values_promoted": false,
-    "participant_records_ingested_run189": 0,
-    "full_text_or_lexical_rows_ingested_run189": 0
+    "participant_records_ingested_run190": 0,
+    "full_text_or_lexical_rows_ingested_run190": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -123,9 +121,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 189; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required; the completeness/gap layer now records C-16 catalogue-level row-locator progress while retaining workbook-byte/cell gaps.",
-    "build_state": "Run-188 exact head 9d02b3cf7c127091411f6e6a9abf7da1f783f636 is independently verified 4/4 green. Fresh Run-189 final-head CI is required before the newest head is called green."
+    "generated_metrics_state": "No count-bearing change in Run 190; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required; the completeness/gap layer records the repeated C-16 authoritative-retrieval blocker and the unsuccessful Mundarica V manifestation search.",
+    "build_state": "Run-188 exact head 9d02b3cf7c127091411f6e6a9abf7da1f783f636 remains the last independently verified 4/4 green head in the synchronized ledger; fresh final-head CI must pass before Run 190 is called green."
   },
   "ci": {
     "last_independently_verified_green_head": "9d02b3cf7c127091411f6e6a9abf7da1f783f636",
@@ -136,14 +134,14 @@
       "migration_audit": {"run_number": 1508, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1622, "conclusion": "success"}
     },
-    "run189_tests_added": ["tests/test_run189_c16_manifestation_boundary.py"],
+    "run190_tests_added": ["tests/test_run190_c16_retry_boundary.py"],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "C-16 Jharkhand official catalogue identity, workbook filename and catalogue row labels 91 MUNDA / 92 MUNDARI are verified, but authoritative workbook bytes, independent hash, worksheet names, workbook row numbers and numeric cells remain unverified after transient HTTP 502 retrieval failure.",
+    "C-16 Jharkhand official catalogue identity/workbook locator is reconfirmed, but authoritative workbook bytes, independent hash, worksheet names, workbook row numbers and numeric cells remain unverified after repeated HTTP 502 retrieval failure.",
     "Rau 2019 authoritative CSV plaintext and row #A0001 exact locator are verified, but byte-preserving acquisition and independent checksum verification remain incomplete; the underlying BMED.p31 passage is unverified and zero lexical rows were imported into the corpus/evidence graph.",
-    "Mundarica I remains working-page accounting only; II and III have exact secondary manifestations; Volume IV exact-manifestation retry remains blocked; all XVI slots still lack authoritative release scans and none is verified complete.",
+    "Mundarica I remains working-page accounting only; II and III have exact secondary manifestations; IV and V exact digital manifestation acquisition remain blocked; all XVI slots still lack authoritative release scans and none is verified complete.",
     "Saboo Munda land-inheritance article is exact-located but publisher full text is restricted; no substantive cultural claim or participant record was promoted.",
     "Proietti 2025 thesis exact Creative Commons variant/licence URL, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task dataset manifestation/version/file metadata remains unresolved, including the 16,000-versus-15,999 evaluation/test discrepancy.",
@@ -152,7 +150,7 @@
     "C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official 2023 LSI Jharkhand and LSI West Bengal authoritative bytes/hash/page-image verification remain incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
-    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators; Bhaduri dictionary editions are already reconciled, but Rau's BMED.p31 underlying page remains unverified.",
+    "Several grammar/dictionary/TRI/scholarly sources still lack lawful full manifestations or exact page locators; Rau's BMED.p31 underlying page remains unverified.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
     "1941 Mundari hockey booklet lacks independently verified primary manifestation/title-page/catalogue/rights evidence.",
     "Nirang Pajhra lacks authoritative PRGI/RNI registration and issue-level manifestation/language/rights verification.",
@@ -174,11 +172,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, C-16 workbook-byte/numeric-cell verification still blocked, and unresolved consent/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, C-16 workbook-byte/numeric-cell verification blocked, and unresolved consent/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches and lawful manifestations.",
-    "Retry authoritative C-16 workbook download; after byte-preserving acquisition compute an independent hash, inspect sheets and map verified 91 MUNDA / 92 MUNDARI catalogue labels to exact workbook cells before any numeric promotion.",
+    "Retry authoritative C-16 workbook download; only after byte-preserving acquisition compute an independent hash, inspect sheets and map catalogue labels to exact workbook cells before any numeric promotion.",
     "Continue Mundarica IV-XIII exact manifestation/page-accounting searches while separately pursuing authoritative physical/digital copies; never promote generic mentions to scans/OCR/page counts.",
     "Acquire Rau 2019 byte-preservingly, independently recompute MD5, verify the underlying BMED exact page/rights relationship, then decide permanent SRC-MMSC registration and narrowly source-attributed graph ingestion atomically.",
     "Resolve Proietti 2025 exact licence variant and lawful PDF integrity/page locators without promoting participant-derived material absent appropriate review.",
