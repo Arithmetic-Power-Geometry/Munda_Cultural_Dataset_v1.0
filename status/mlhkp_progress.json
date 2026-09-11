@@ -4,18 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T02:46:00Z",
+  "updated_utc": "2026-09-11T02:55:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 192,
-  "cycle_result": "Run 192 closed the stale Run-191 Unicode source-register reconciliation by deterministically matching the exact Nag Mundari chart audit to existing permanent identity SRC-MMSC-000011 with zero count, claim, evidence or rights inflation. In parallel, it verified an exact secondary Digital Library of India/Internet Archive manifestation for Mundarica Volume VI (dli.bengal.10689.20084), with 344 catalogued scan pages, 600 PPI and ABBYY FineReader 11 Extended OCR metadata. Volume VI remains secondary-only: no authoritative physical-copy comparison, independent byte hash, OCR-transcription verification or completeness promotion. A BnF catalogue candidate, A kahani : in Mundari (ark:/12148/cb41463717x), was independently located and logged but not registered or ingested pending deterministic identity disposition and governance review. Counts remain unchanged and the audited-release gate remains open.",
+  "latest_run": 193,
+  "cycle_result": "Run 193 converted a newly surfaced historical Mundari audio lead into an exact cross-catalogue archival reconciliation. British Library IOR/S/2/1/17 (record 040-000091091; MDARK ark:/81055/vdc_100000000502.0x00030c) catalogues Songs (1) Durang Kahani: Alope Joma (2) Tuia accompaniment to the Mundari marriage song as Kherwari (Mundari dialect), 1914, extent 1 gramophone record. BnF ark:/12148/cb42562690s / FRBNF42562690 catalogues the corresponding 1914 Ranchi LSI recording, matrix 3306Y, digital-copy identifier NUMAUD-130038 and physical copy AP-2554. The pair is treated as a high-confidence historical recording cluster, not as byte-identical manifestations: BL does not expose matrix 3306Y in the retrieved record and no audio/physical-disc comparison was performed. Rights/reuse, historical participant consent, community validation and cultural-access permission remain unresolved, so no audio, transcript, translation, participant record or cultural interpretation was ingested and counts remain unchanged.",
   "cycle_commits": {
-    "run192_unicode_reconciliation": "b0d2c37f1888e44e00c0d40e412772fec921b290",
-    "run192_unicode_regression_test": "ed6d1ed23fd6c1c08576d145f325b59698488bf4",
-    "run192_mundarica_vi_manifestation": "7c89e89267daad64757707cd245261cf8d27b9e8",
-    "run192_mundarica_vi_regression_test": "919395e50e127f11e00089e0a3a14ed9d9428bf7",
-    "run192_search_log": "201ecf00affae6f2113cbcf7effb38b54241de7c",
-    "work_head_before_status_sync": "201ecf00affae6f2113cbcf7effb38b54241de7c"
+    "run193_archival_reconciliation": "e1e183b7b95639da4e7e00c9ac9429230e128d7a",
+    "run193_search_log": "777084f7630a037d729bc805bae5f1259898c630",
+    "run193_regression_test": "5d25e74534b9d140bb32392c37139e09c86d2657",
+    "work_head_before_status_sync": "5d25e74534b9d140bb32392c37139e09c86d2657"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -34,7 +32,7 @@
       "VII-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run192_change": "Volume VI gained exact secondary manifestation/page accounting only. Authoritative scans remain 0 and verified-complete volumes remain 0; no OCR was promoted to verified transcription."
+    "run193_change": "none; Run 193 is non-Mundarica archival source-census work"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -47,12 +45,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000192",
-    "latest_search_log": "data/source_census/search_log_run192.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_volume_vi_secondary_manifestation_run192_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000193",
+    "latest_search_log": "data/source_census/search_log_run193.jsonl",
+    "latest_source_audit": "data/source_census/bl_bnf_durang_kahani_alope_joma_cross_catalogue_run193_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run192_count_change": "none; Run-191 Unicode audit deterministically reconciled to existing SRC-MMSC-000011, Mundarica VI is manifestation/page-accounting evidence for an existing historical volume slot, and BnF A kahani remains non-count-bearing pending deterministic disposition"
+    "run193_count_change": "none; BL/BnF archival records were reconciled as a cross-catalogue historical recording cluster but not promoted to a new unique cultural-source identity pending stronger physical/matrix/byte identity and governance resolution"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -65,12 +63,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run192": 0,
-    "claims_added_run192": 0,
-    "evidence_records_added_run192": 0,
-    "evidence_links_added_run192": 0,
-    "verification_audits_added_run192": 2,
-    "run192_note": "Unicode exact-locator evidence is now explicitly attached by reconciliation to existing SRC-MMSC-000011 rather than awaiting a second identity. Mundarica VI acquisition evidence is manifestation/page-accounting metadata only and creates no cultural proposition or dangling evidence-graph node."
+    "source_identities_added_run193": 0,
+    "claims_added_run193": 0,
+    "evidence_records_added_run193": 0,
+    "evidence_links_added_run193": 0,
+    "verification_audits_added_run193": 1,
+    "run193_note": "Exact archival catalogue locators were promoted as verification metadata only. No audio-derived or cultural proposition was added, so the evidence graph remains numerically unchanged and has no new dangling node."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -81,7 +79,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run192_change": "No count-bearing module change; all 42 modules and universal search/evidence drilldown/reports-downloads/owner-console mappings remain synchronized. The new audits stay in the source-census/acquisition layer and do not bypass cultural access controls."
+    "run193_change": "No count-bearing module change; all 42 modules and universal search/evidence drilldown/reports-downloads/owner-console mappings remain synchronized. The archival audit remains in source-census/acquisition metadata and does not bypass cultural access controls."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -124,8 +122,14 @@
     "mundarica_vi_cultural_access_inferred": false,
     "bnf_a_kahani_audio_ingested": false,
     "bnf_a_kahani_consent_or_community_validation_inferred": false,
-    "participant_records_ingested_run192": 0,
-    "full_text_or_lexical_rows_ingested_run192": 0
+    "run193_bl_bnf_audio_rights_independently_verified": false,
+    "run193_bl_bnf_participant_consent_verified": false,
+    "run193_bl_bnf_community_validation_verified": false,
+    "run193_bl_bnf_cultural_access_permission_verified": false,
+    "run193_bl_bnf_audio_ingested": false,
+    "run193_bl_bnf_transcript_ingested": false,
+    "participant_records_ingested_run193": 0,
+    "full_text_or_lexical_rows_ingested_run193": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -137,9 +141,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 192; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required. The completeness/gap narrative now records Unicode reconciliation to SRC-MMSC-000011 and a 344-page secondary Mundarica VI manifestation while retaining the authoritative-scan/OCR/integrity limitations.",
-    "build_state": "The synchronized ledger retains the last independently verified 4/4 green head until exact Run-192 final-head CI completes; fresh final-head CI is never inferred from workflow triggering."
+    "generated_metrics_state": "No count-bearing change in Run 193; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required. Completeness/gap state now records the exact BL/BnF historical Mundari gramophone cluster and preserves rights/consent/community/cultural-access and byte-identity limitations.",
+    "build_state": "The synchronized ledger retains the last independently verified 4/4 green head until exact Run-193 final-head CI completes; fresh final-head CI is never inferred from workflow triggering."
   },
   "ci": {
     "last_independently_verified_green_head": "9d02b3cf7c127091411f6e6a9abf7da1f783f636",
@@ -152,10 +156,12 @@
     },
     "run191_tests_added": ["tests/test_run191_unicode_nag_mundari_exact_locator.py"],
     "run192_tests_added": ["tests/test_run192_unicode_existing_identity_reconciliation.py", "tests/test_run192_mundarica_volume_vi_secondary_manifestation.py"],
+    "run193_tests_added": ["tests/test_run193_bl_bnf_archival_reconciliation.py"],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
-    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization; the newly verified BnF A kahani catalogue candidate is not count-bearing until that transaction is completed.",
+    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization; BnF A kahani remains non-count-bearing until deterministic identity/governance review is complete.",
+    "Run-193 BL/BnF Durang Kahani: Alope Joma cross-catalogue cluster is exact-located, but British Library metadata retrieved does not expose BnF matrix 3306Y; no byte-level audio or physical-disc-label comparison has verified manifestation identity, and reuse/consent/community/cultural-access remain unresolved.",
     "C-16 Jharkhand official catalogue identity/workbook locator is reconfirmed, but authoritative workbook bytes, independent hash, worksheet names, workbook row numbers and numeric cells remain unverified after repeated HTTP 502 retrieval failure.",
     "Rau 2019 authoritative CSV plaintext and row #A0001 exact locator are verified, but byte-preserving acquisition and independent checksum verification remain incomplete; the underlying BMED.p31 passage is unverified and zero lexical rows were imported into the corpus/evidence graph.",
     "Mundarica I remains working-page accounting only; II, III and VI have exact secondary manifestations; IV and V exact digital manifestation acquisition remain blocked; VII-XIII remain locator-only; all XVI slots still lack authoritative release scans and none is verified complete.",
@@ -189,10 +195,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, C-16 workbook-byte/numeric-cell verification blocked, and unresolved consent/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, C-16 workbook-byte/numeric-cell verification blocked, and unresolved audiovisual rights/consent/community/cultural-access gates including the newly exact-located historical gramophone cluster."
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, including exact-match/collision review for BnF A kahani, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
+    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
+    "For BL IOR/S/2/1/17 and BnF FRBNF42562690, verify matrix/physical-label or technical/byte identity and obtain authoritative reuse/access terms before any audio/transcript ingestion; preserve participant/community/cultural-access uncertainty.",
     "Extend exact secondary manifestation/page accounting to Mundarica VII-XIII while separately pursuing authoritative release scans; do not treat DLI/Internet Archive OCR as verified transcription.",
     "Retry authoritative C-16 workbook download; only after byte-preserving acquisition compute an independent hash, inspect sheets and map catalogue labels to exact workbook cells before numeric promotion.",
     "Acquire Rau 2019 byte-preservingly, independently recompute MD5, verify underlying BMED exact page/rights relationship, then decide narrowly source-attributed graph ingestion atomically.",
