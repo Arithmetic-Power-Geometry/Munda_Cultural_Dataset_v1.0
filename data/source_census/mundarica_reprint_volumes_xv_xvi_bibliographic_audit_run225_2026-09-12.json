@@ -1,0 +1,56 @@
+{
+  "run": 225,
+  "date": "2026-09-12",
+  "branch": "mlhkp-v2",
+  "source_class": "books/bibliographic manifestations",
+  "series": "Encyclopaedia Mundarica",
+  "authors_as_listed": ["Hoffman S.J. John", "Artur Van", "S.J. Emelen"],
+  "publisher": "Gyan Publishing House",
+  "edition_scope": "modern reprint bibliographic evidence only",
+  "records": [
+    {
+      "volume": "XV",
+      "isbn_13": "9788121203197",
+      "reported_year": 2009,
+      "reported_pages": 135,
+      "source": "AbeBooks/Gyan Books listing surfaced in systematic web census",
+      "historical_original_manifestation_verified": false
+    },
+    {
+      "volume": "XVI",
+      "isbn_13": "9788121203227",
+      "reported_year": 2009,
+      "reported_pages": 43,
+      "source": "AbeBooks/Gyan Books listing surfaced in systematic web census",
+      "historical_original_manifestation_verified": false
+    }
+  ],
+  "cross_check": {
+    "institutional_or_secondary_context": "A JIVAN article describes Volume 16 as pictorial plates and treats it as appendix-like supporting material; this is contextual corroboration, not manifestation verification.",
+    "reprint_set_listing": "A separate 16-volume-set listing reports ISBN 9788121203043 and 5085 pages for the set; set-level pagination must not be attributed to an individual volume.",
+    "volume_16_google_books_record_seen": true,
+    "individual_volume_16_vs_set_metadata_must_not_be_collapsed": true
+  },
+  "promotion": {
+    "bibliographic_locator_verified": true,
+    "exact_historical_scan_verified": false,
+    "authoritative_registered_scan": false,
+    "byte_integrity_verified": false,
+    "scan_sequence_verified": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "verified_complete_volume": false,
+    "public_cultural_claim_promoted": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "deduplication": {
+    "rule": "Keep modern Gyan reprint manifestations distinct from historical Government Printing manifestations; keep individual-volume ISBNs distinct from 16-volume-set ISBN 9788121203043.",
+    "count_increment_permitted": false
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "mundarica_priority_effect": "XV and XVI now have additional reprint-level bibliographic locators, but remain open for historical manifestation, authoritative-copy, byte/hash, page-sequence, OCR and completeness verification.",
+    "release_gate": "NOT_PASS"
+  }
+}
