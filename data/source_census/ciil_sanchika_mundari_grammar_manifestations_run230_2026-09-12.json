@@ -1,0 +1,132 @@
+{
+  "run": 230,
+  "search_id": "MMSC-SEARCH-000230",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and exact-manifestation advancement",
+  "audited_at_utc": "2026-09-11T21:55:00Z",
+  "repository": {
+    "name": "Bhasha Sanchika",
+    "institution": "Central Institute of Indian Languages (CIIL), Department of Higher Education, Ministry of Education, Government of India",
+    "base_url": "https://sanchika.ciil.org/",
+    "policy_url": "https://sanchika.ciil.org/info/end-user-agreement"
+  },
+  "sources": [
+    {
+      "canonical_key": "ciil:CIILP0091",
+      "title": "Mundari Grammar",
+      "author": "Sinha, N.K.",
+      "editor": "Annamalai, E.",
+      "year": 1975,
+      "handle": "https://hdl.handle.net/20.500.14705/8179",
+      "item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "repository_identifier": "CIILP0091",
+      "reported_extent_pages": 176,
+      "languages": ["English", "Mundari"],
+      "series": "Grammars",
+      "reported_file": "CIILP0091.pdf",
+      "reported_file_size": "9.63 KB",
+      "bitstream_url": "https://sanchika.ciil.org/bitstreams/89ef3da1-d891-409b-8736-b416da17ec57/download",
+      "direct_pdf_rendered": true,
+      "rendered_pages_exposed_by_audit_browser": 1,
+      "cover_visually_verified": true,
+      "cover_observation": "Rendered cover identifies Mundari Grammar, N. K. Sinha, CIIL Grammar Series-3 and Central Institute of Indian Languages, Mysore.",
+      "byte_preserving_download_acquired": false,
+      "independent_hash_computed": false,
+      "full_176_page_manifestation_verified": false,
+      "claim_level_locator_promoted": false
+    },
+    {
+      "canonical_key": "ciil:BVP00202",
+      "title": "मुण्डारी-व्याकरण | Mundari-Vyakaran",
+      "author": "Ramdayal Munda",
+      "year": 2013,
+      "publisher": "Rumbul Ranchi Jharkhand",
+      "handle": "https://hdl.handle.net/20.500.14705/8429",
+      "item_url": "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+      "repository_identifier": "BVP00202",
+      "rights_holder": "RUMBUL",
+      "languages": ["Mundari", "Hindi"],
+      "subject_type": "Grammar",
+      "reported_file": "BVP00202.pdf",
+      "reported_file_size": "9.04 KB",
+      "bitstream_url": "https://sanchika.ciil.org/bitstreams/d8130cd5-8f45-4368-8d89-ade07c736191/download",
+      "direct_pdf_rendered": true,
+      "rendered_pages_exposed_by_audit_browser": 1,
+      "cover_visually_verified": true,
+      "cover_observation": "Rendered cover identifies मुण्डारी-व्याकरण, Dr. Ramdayal Munda and publisher Rumbul in Ranchi, Jharkhand.",
+      "byte_preserving_download_acquired": false,
+      "independent_hash_computed": false,
+      "full_book_manifestation_verified": false,
+      "claim_level_locator_promoted": false
+    },
+    {
+      "canonical_key": "ciil:BVP04856",
+      "title": "नवा होड़ो जगर मुंडि (नवीन मुण्डारी व्याकरण)",
+      "author": "Mansidh Baraiud",
+      "year": 2017,
+      "publisher": "Catholic Press, Ranchi",
+      "item_url": "https://sanchika.ciil.org/items/15f0b9a2-d921-48b8-906e-c445332ae32b",
+      "repository_identifier": "BVP04856",
+      "subject_type": "Mundari grammar",
+      "reported_file": "BVP04856.pdf",
+      "reported_file_size": "289.84 KB",
+      "bitstream_url": "https://sanchika.ciil.org/bitstreams/70f07451-62d0-40dd-8383-0c1fab00350c/download",
+      "direct_pdf_rendered": true,
+      "rendered_pages_exposed_by_audit_browser": 1,
+      "cover_visually_verified": true,
+      "cover_observation": "Rendered cover identifies नवा होड़ो जगर मुंडि / नवीन मुण्डारी व्याकरण.",
+      "byte_preserving_download_acquired": false,
+      "independent_hash_computed": false,
+      "full_book_manifestation_verified": false,
+      "claim_level_locator_promoted": false
+    }
+  ],
+  "identity_verification": {
+    "institutional_repository_verified": true,
+    "stable_item_metadata_verified": true,
+    "direct_bitstream_endpoints_verified_renderable": true,
+    "visual_cover_manifestations_verified": 3,
+    "full_text_verified": false
+  },
+  "rights_and_governance": {
+    "platform_end_user_agreement_verified": true,
+    "policy_summary": "CIIL states that site content is provided for information/personal use, content legally and primarily belongs to creating organizations/institutions/depositors, and properly accessed content may be downloaded or printed for personal educational/research and non-commercial use subject to attribution and other terms; rights not expressly granted are reserved.",
+    "public_availability_treated_as_permission": false,
+    "unrestricted_redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "deduplication": {
+    "canonicalization_basis": "repository_identifier first; stable handle/item UUID and bitstream UUID retained as aliases",
+    "directory_level_prior_exact_record_filename_match_found": false,
+    "new_identity_count_increment_permitted": false,
+    "reason": "The three repository manifestations are newly audit-resolved in this run, but absence from every controlled canonical identity registry was not independently proven; counts therefore remain frozen pending deterministic register reconciliation."
+  },
+  "promotion": {
+    "promoted_beyond_discovery_only": true,
+    "promotion_level": "institutional repository metadata plus direct visually verified cover manifestations",
+    "promoted_to_claim_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "linguistic_proposition_promoted": false,
+    "full_text_ingested": false,
+    "lexical_rows_ingested": 0,
+    "exact_page_content_ingested": 0
+  },
+  "blocked_or_partial_actions": [
+    "Byte-preserving acquisition through the execution environment failed, so no independent hashes are recorded.",
+    "The direct repository render exposed one cover page per tested bitstream; this does not prove that the repository bitstream is the complete reported work.",
+    "No grammatical proposition is promoted until exact internal pages can be directly inspected and the manifestation/integrity boundary is resolved."
+  ],
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "evidence_graph_count_changed": false,
+    "coverage_state_changed": false,
+    "coverage_matrix_remains_synchronized": true,
+    "release_gate": "NOT_PASS"
+  }
+}
