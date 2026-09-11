@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T04:38:00Z",
+  "updated_utc": "2026-09-11T04:44:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 196,
-  "cycle_result": "Run 196 directly verified exact secondary DLI/Internet Archive manifestations for Encyclopaedia Mundarica Volumes VII and VIII. Volume VII is dli.bengal.10689.20088 / handle 10689/20088 / ark:/13960/t3sv4wt0d with 274 catalogued scan pages; Volume VIII is dli.bengal.10689.20080 / handle 10689/20080 / ark:/13960/t6rz6kh2x with 422 catalogued scan pages. Both catalogue ABBYY FineReader 11.0 Extended OCR, 600 PPI, State Central Library Kolkata provenance and C-DAC Kolkata scanning. These are secondary manifestation/page-accounting verifications only: no authoritative physical-copy comparison, independent byte hash, verified transcription, verified-complete volume, reuse permission, participant consent, community validation or cultural-access permission was inferred. No cultural passages, claims, evidence records or source identities were added. Counts remain unchanged and the release gate remains open.",
+  "latest_run": 197,
+  "cycle_result": "Run 197 directly verified an exact secondary DLI/Internet Archive manifestation for Encyclopaedia Mundarica Volume XIII: dli.ernet.14932 / ark:/13960/t6r01q423, catalogued as 1941, Superintendent Government Printing Bihar, Patna, sourced from Digital Library of India, scanned at C-DAC Noida from Lbs National Academy Of Administration, with 600 PPI metadata, abbyy-to-hocr 1.1.37 OCR metadata, page-number confidence 77, and an explicit PDF degradation warning invalid-jp2-headers. This is manifestation metadata only: no authoritative physical-copy comparison, independent byte hash, verified scan-page total, verified transcription, verified-complete volume, reuse permission, participant consent, community validation or cultural-access permission was inferred. No cultural passages, claims, evidence records or source identities were added. Counts remain unchanged and the release gate remains open.",
   "cycle_commits": {
-    "run196_mundarica_vii_viii_audit": "c895dd1f52aaa93c26fed4f51c0a632157f7b9f4",
-    "run196_regression_test": "efaa893aabc30103a982da5c754eaf75967f0b70",
-    "run196_search_log": "9cf909e6ea63f58eb99d9e2bcce0e8fe3e73d047",
-    "work_head_before_status_sync": "9cf909e6ea63f58eb99d9e2bcce0e8fe3e73d047"
+    "run197_mundarica_xiii_audit": "d5d919f0d91759b6816a4dba60a69968ec04c0c7",
+    "run197_search_log": "06c25434bf06b69e3bf7efbd347e5a9814617325",
+    "run197_regression_test": "57988cf29355b1f66166e6d461de6267262aeab2",
+    "work_head_before_status_sync": "57988cf29355b1f66166e6d461de6267262aeab2"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -31,10 +31,11 @@
       "VI": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.bengal.10689.20084; 344 catalogued scan pages; source library State Central Library Kolkata; C-DAC Kolkata scanning; ABBYY FineReader 11 Extended OCR and 600 PPI catalogued; no authoritative physical-copy comparison or independent hash; OCR not treated as verified transcription; not verified complete",
       "VII": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.bengal.10689.20088; 274 catalogued scan pages; State Central Library Kolkata source; C-DAC Kolkata scanning; ABBYY FineReader 11 Extended OCR and 600 PPI catalogued; no authoritative physical-copy comparison or independent hash; OCR not treated as verified transcription; not verified complete",
       "VIII": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.bengal.10689.20080; 422 catalogued scan pages; State Central Library Kolkata source; C-DAC Kolkata scanning; ABBYY FineReader 11 Extended OCR and 600 PPI catalogued; no authoritative physical-copy comparison or independent hash; OCR not treated as verified transcription; not verified complete",
-      "IX-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
+      "IX-XII": "historical locators recorded; direct secondary manifestations remain to verify; no authoritative registered scans; not verified complete",
+      "XIII": "historical locator plus exact secondary DLI/Internet Archive manifestation dli.ernet.14932 / ark:/13960/t6r01q423; 1941 catalogue date; DLI source; C-DAC Noida scanning; Lbs National Academy Of Administration source library; 600 PPI and abbyy-to-hocr metadata; PDF degradation warning invalid-jp2-headers preserved; no authoritative physical-copy comparison, independent hash or verified scan-page total; OCR not treated as verified transcription; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run196_change": "Direct secondary manifestation/page accounting is now verified for Volumes VII and VIII, replacing VII candidate-only and VIII locator-only states. Authoritative scans remain 0 and verified-complete volumes remain 0; no OCR was promoted to verified transcription."
+    "run197_change": "Volume XIII advanced from locator-only to direct secondary manifestation metadata. Authoritative scans remain 0 and verified-complete volumes remain 0; no OCR was promoted to verified transcription."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -47,12 +48,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000196",
-    "latest_search_log": "data/source_census/search_log_run196.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_volumes_vii_viii_secondary_manifestations_run196_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000197",
+    "latest_search_log": "data/source_census/search_log_run197.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_volume_xiii_secondary_manifestation_run197_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run196_count_change": "none; Volumes VII and VIII were manifestation/page-accounting verifications for existing Mundarica release slots and did not create new source identities"
+    "run197_count_change": "none; Volume XIII was a manifestation verification for an existing Mundarica release slot and did not create a new source identity"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -65,12 +66,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run196": 0,
-    "claims_added_run196": 0,
-    "evidence_records_added_run196": 0,
-    "evidence_links_added_run196": 0,
-    "verification_audits_added_run196": 1,
-    "run196_note": "Only source-manifestation/page-accounting verification metadata was added. No OCR-derived cultural proposition, full-text passage, participant material or evidence-graph node was promoted, so counts and provenance topology remain unchanged."
+    "source_identities_added_run197": 0,
+    "claims_added_run197": 0,
+    "evidence_records_added_run197": 0,
+    "evidence_links_added_run197": 0,
+    "verification_audits_added_run197": 1,
+    "run197_note": "Only exact secondary source-manifestation metadata was added. No OCR-derived cultural proposition, full-text passage, participant material or evidence-graph node was promoted, so counts and provenance topology remain unchanged."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -81,7 +82,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run196_change": "No count-bearing module change; all 42 modules plus universal search, evidence drilldown, reports/downloads and owner console remain synchronized. New Mundarica manifestation metadata stays in the acquisition/audit layer and does not bypass cultural-access controls."
+    "run197_change": "No count-bearing module change; all 42 modules plus universal search, evidence drilldown, reports/downloads and owner console remain synchronized. Volume XIII manifestation metadata stays in the acquisition/audit layer and does not bypass cultural-access controls."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -128,6 +129,11 @@
     "mundarica_viii_repository_visibility_treated_as_permission": false,
     "mundarica_viii_ocr_treated_as_verified_transcription": false,
     "mundarica_viii_cultural_access_inferred": false,
+    "mundarica_xiii_repository_visibility_treated_as_permission": false,
+    "mundarica_xiii_download_visibility_treated_as_permission": false,
+    "mundarica_xiii_ocr_treated_as_verified_transcription": false,
+    "mundarica_xiii_pdf_degradation_warning_preserved": true,
+    "mundarica_xiii_cultural_access_inferred": false,
     "bnf_a_kahani_bl_identity_reconciled": true,
     "bnf_a_kahani_matrix_match": "3292Y",
     "bnf_a_kahani_byte_or_physical_identity_verified": false,
@@ -151,8 +157,8 @@
     "run193_bl_bnf_cultural_access_permission_verified": false,
     "run193_bl_bnf_audio_ingested": false,
     "run193_bl_bnf_transcript_ingested": false,
-    "participant_records_ingested_run196": 0,
-    "full_text_or_lexical_rows_ingested_run196": 0
+    "participant_records_ingested_run197": 0,
+    "full_text_or_lexical_rows_ingested_run197": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -164,18 +170,18 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 196; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required. Completeness/gap state now records exact secondary manifestation/page accounting for Mundarica VII and VIII while preserving authoritative-copy, hash, OCR-verification, rights and cultural-access limitations.",
-    "build_state": "Run-195 exact final head 2ce17617081c6d4abe13ea6b3ca9fa4639aaf40a is independently verified 4/4 green. Run-196 final-head CI must be independently checked before it is declared green."
+    "generated_metrics_state": "No count-bearing change in Run 197; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required. Completeness/gap state now records an exact secondary manifestation for Mundarica XIII while preserving authoritative-copy, hash, scan-page-count, OCR-verification, PDF-degradation, rights and cultural-access limitations.",
+    "build_state": "Run-196 exact final head dde63c521dd29147d7e667c82ab89ecfb793cc71 is independently verified 4/4 green. Run-197 final-head CI must be independently checked before it is declared green."
   },
   "ci": {
-    "last_independently_verified_green_head": "2ce17617081c6d4abe13ea6b3ca9fa4639aaf40a",
+    "last_independently_verified_green_head": "dde63c521dd29147d7e667c82ab89ecfb793cc71",
     "green_4_of_4": true,
     "verified_workflows": {
-      "publication_build": {"run_number": 1523, "conclusion": "success"},
-      "source_register_audit": {"run_number": 1506, "conclusion": "success"},
-      "migration_audit": {"run_number": 1556, "conclusion": "success"},
-      "streamlit_smoke_test": {"run_number": 1670, "conclusion": "success"}
+      "publication_build": {"run_number": 1529, "conclusion": "success"},
+      "source_register_audit": {"run_number": 1512, "conclusion": "success"},
+      "migration_audit": {"run_number": 1562, "conclusion": "success"},
+      "streamlit_smoke_test": {"run_number": 1676, "conclusion": "success"}
     },
     "run191_tests_added": ["tests/test_run191_unicode_nag_mundari_exact_locator.py"],
     "run192_tests_added": ["tests/test_run192_unicode_existing_identity_reconciliation.py", "tests/test_run192_mundarica_volume_vi_secondary_manifestation.py"],
@@ -183,6 +189,7 @@
     "run194_tests_added": ["tests/test_run194_bl_bnf_a_kahani_reconciliation.py"],
     "run195_tests_added": ["tests/test_run195_bl_bnf_prodigal_son_reconciliation.py"],
     "run196_tests_added": ["tests/test_run196_mundarica_volumes_vii_viii_secondary_manifestations.py"],
+    "run197_tests_added": ["tests/test_run197_mundarica_volume_xiii_secondary_manifestation.py"],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
@@ -192,7 +199,7 @@
     "Run-193 BL/BnF Durang Kahani: Alope Joma cross-catalogue cluster is exact-located, but British Library metadata retrieved does not expose BnF matrix 3306Y; no byte-level audio or physical-disc-label comparison has verified manifestation identity, and reuse/consent/community/cultural-access remain unresolved.",
     "C-16 Jharkhand official catalogue identity/workbook locator is reconfirmed, but authoritative workbook bytes, independent hash, worksheet names, workbook row numbers and numeric cells remain unverified after repeated retrieval failure.",
     "Rau 2019 authoritative CSV plaintext and row #A0001 exact locator are verified, but byte-preserving acquisition and independent checksum verification remain incomplete; the underlying BMED.p31 passage is unverified and zero lexical rows were imported into the corpus/evidence graph.",
-    "Mundarica I remains working-page accounting only; II, III, VI, VII and VIII have exact secondary manifestations; IV and V exact digital manifestation acquisition remain blocked; IX-XIII remain locator-only; all XVI release slots still lack authoritative registered scans and none is verified complete.",
+    "Mundarica I remains working-page accounting only; II, III, VI, VII, VIII and XIII have exact secondary manifestations; IV and V exact digital manifestation acquisition remain blocked; IX-XII remain locator-only; all XVI release slots still lack authoritative registered scans and none is verified complete. Volume XIII additionally carries the catalogue PDF-degradation warning invalid-jp2-headers.",
     "Saboo Munda land-inheritance article is exact-located but publisher full text is restricted; no substantive cultural claim or participant record was promoted.",
     "Proietti 2025 thesis exact Creative Commons variant/licence URL, PDF bytes/checksum and page-level passages remain unverified; participant-derived material remains gated.",
     "MMLoSo shared-task dataset manifestation/version/file metadata remains unresolved, including the 16,000-versus-15,999 evaluation/test discrepancy.",
@@ -223,12 +230,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, Mundarica IV-V and IX-XIII direct manifestations unresolved, C-16/C-17/ST-15/ST-16 workbook-byte/numeric-cell verification blocked, and unresolved audiovisual rights/consent/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, unresolved dataset/grammar/Census/LSI manifestations, incomplete Rau byte integrity/underlying-page verification, no authoritative/verified-complete Mundarica volume, Mundarica IV-V and IX-XII direct manifestations unresolved, C-16/C-17/ST-15/ST-16 workbook-byte/numeric-cell verification blocked, and unresolved audiovisual rights/consent/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue/matrix identity and lawful manifestations.",
     "For BL/BnF historical audio clusters, obtain authoritative reuse/access terms and, where needed, physical-label or technical/byte identity before any audio/transcript ingestion; preserve participant/community/cultural-access uncertainty.",
-    "Extend exact secondary Mundarica manifestation/page accounting through IX-XIII and retry IV-V while separately pursuing authoritative release scans; do not treat DLI/Internet Archive OCR as verified transcription.",
+    "Extend exact secondary Mundarica manifestation verification through IX-XII and retry IV-V while separately pursuing authoritative release scans; preserve XIII PDF-degradation warning and do not treat DLI/Internet Archive OCR as verified transcription.",
     "Retry authoritative C-16/C-17/ST-15/ST-16 workbook downloads; only after byte-preserving acquisition compute independent hashes, inspect sheets and map catalogue labels to exact workbook cells before numeric promotion.",
     "Acquire Rau 2019 byte-preservingly, independently recompute MD5, verify underlying BMED exact page/rights relationship, then decide narrowly source-attributed graph ingestion atomically.",
     "Resolve Proietti 2025 exact licence variant and lawful PDF integrity/page locators without promoting participant-derived material absent appropriate review.",
