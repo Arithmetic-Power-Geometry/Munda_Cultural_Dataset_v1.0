@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T10:40:00Z",
+  "updated_utc": "2026-09-11T11:32:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 208,
-  "cycle_result": "Run 208 added an official catalogue-level exact locator for Census of India C-16 City: Population by mother tongue (town level), Jharkhand - 2011. ORGI identifies PC11_C16city-20 / PC11_C16city and workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX with state/district/town geography and mother-tongue population columns. Authoritative workbook bytes, hash, worksheets, exact Munda/Mundari rows and numeric cells were not verified, so no numeric or cultural claim was promoted. Existing Census, grammar, dictionary, periodical and audiovisual leads were deterministically reused rather than duplicated. The audited release gate remains NOT_PASS.",
+  "latest_run": 209,
+  "cycle_result": "Run 209 verified exact WALS Mundari, WALS Bhumij, Grambank Mundari, Grambank GB317-mund1320 and Glottolog Mundari locators, and recorded a deterministic identity boundary: the WALS Bhumij lect must not be collapsed into WALS Mundari merely because the page displays mund1320/unr. Grambank GB317 displays a database coding and Osada 2008:107-108 source locator, but the underlying grammar pages were not directly inspected, so no linguistic/cultural claim or count-bearing source/evidence registration was promoted. Exact Mundarica IV/V/IX/XI/XII manifestations were not newly established. The audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run208_c16_city_catalogue_audit": "545dd6b5049074cfd72ec8fd81650396bae05587",
-    "run208_search_log": "9a6d1e85b4cf4ffe5d352d4fad2897d5f55f0945",
-    "run208_regression_test": "6b2881982240865286de6f58cc36704f56ba6305",
-    "work_head_before_status_sync": "6b2881982240865286de6f58cc36704f56ba6305"
+    "run209_wals_grambank_identity_audit": "1da6f46037ec72b33a46df78b00f1e6fc7240856",
+    "run209_search_log": "1717d3521ba552b1c32b176c54b101ade84264fb",
+    "run209_regression_test": "91d354608aaeb65efa125d24bae99bc8b1071c11",
+    "work_head_before_status_sync": "91d354608aaeb65efa125d24bae99bc8b1071c11"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,12 +26,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000208",
-    "latest_search_log": "data/source_census/search_log_run208.jsonl",
-    "latest_source_audit": "data/source_census/census_c16_city_jharkhand_catalogue_exact_locator_run208_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000209",
+    "latest_search_log": "data/source_census/search_log_run209.jsonl",
+    "latest_source_audit": "data/source_census/wals_grambank_mundari_identity_boundary_run209_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run208_count_change": "none"
+    "run209_count_change": "none"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -58,7 +58,7 @@
       "XV": "authoritative release manifestation unresolved; not verified complete",
       "XVI": "authoritative release manifestation unresolved; not verified complete"
     },
-    "run208_change": "No Mundarica state change; Run 208 is a non-Mundarica official Census exact-locator promotion."
+    "run209_change": "No Mundarica state change; exact lawful manifestations for IV/V/IX/XI/XII were not newly established and no completeness/OCR claim was promoted."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -71,11 +71,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run208": 0,
-    "claims_added_run208": 0,
-    "evidence_records_added_run208": 0,
-    "evidence_links_added_run208": 0,
-    "verification_audits_added_run208": 1
+    "source_identities_added_run209": 0,
+    "claims_added_run209": 0,
+    "evidence_records_added_run209": 0,
+    "evidence_links_added_run209": 0,
+    "verification_audits_added_run209": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -86,13 +86,20 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run208_change": "No count-bearing UI change; all 42 modules and cross-cutting functions remain synchronized."
+    "run209_change": "No count-bearing UI change; all 42 modules and cross-cutting functions remain synchronized."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "wals_mundari_exact_locator_verified": true,
+    "wals_bhumij_identity_boundary_recorded": true,
+    "grambank_mundari_exact_locator_verified": true,
+    "grambank_GB317_source_page_locator_observed": "Osada 2008: 107-108",
+    "grambank_underlying_grammar_pages_directly_verified": false,
+    "wals_grambank_database_licence_observed": "CC BY 4.0",
+    "typological_value_promoted_run209": false,
     "lexibank_peiros_v1_1_release_verified": true,
     "lexibank_peiros_repository_reported_md5": "cff41a8a9db0f74e14550d2330a56483",
     "lexibank_peiros_independent_md5_recomputed": false,
@@ -104,12 +111,8 @@
     "rau_authoritative_plaintext_manifestation_verified": true,
     "rau_independent_hash_verified": false,
     "rau_underlying_BMED_page_verified": false,
-    "participant_records_ingested_run208": 0,
-    "full_text_or_lexical_rows_ingested_run208": 0,
-    "c16_city_public_catalogue_is_permission": false,
-    "c16_city_numeric_cells_promoted": false,
-    "c16_city_community_validation_inferred": false,
-    "c16_city_cultural_access_permission_inferred": false
+    "participant_records_ingested_run209": 0,
+    "full_text_or_lexical_rows_ingested_run209": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -121,35 +124,35 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 208; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release-metric regeneration required; Run 208 adds a bounded official Census C-16 City catalogue audit without changing source/evidence totals.",
-    "build_state": "Run-208 test-bearing work head 6b2881982240865286de6f58cc36704f56ba6305 committed; fresh workflows must conclude before final-head green is claimed."
+    "generated_metrics_state": "No count-bearing change in Run 209; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release-metric regeneration required; Run 209 adds a bounded typological-database identity audit without changing source/evidence totals.",
+    "build_state": "Run-209 test-bearing work head 91d354608aaeb65efa125d24bae99bc8b1071c11 committed; fresh workflows must conclude before final-head green is claimed."
   },
   "ci": {
-    "last_independently_verified_green_head": "bd145ab0f936a892ee470bc8cf0374b9b898ff57",
+    "last_independently_verified_green_head": "1b6ae04fc41e1f6d443e679f32c5e5920c0bb2c0",
     "green_4_of_4": true,
     "verified_workflows": {
-      "publication_build": {"run_number": 1589, "conclusion": "success"},
-      "source_register_audit": {"run_number": 1572, "conclusion": "success"},
-      "migration_audit": {"run_number": 1622, "conclusion": "success"},
-      "streamlit_smoke_test": {"run_number": 1736, "conclusion": "success"}
+      "publication_build": {"run_number": 1601, "conclusion": "success"},
+      "source_register_audit": {"run_number": 1584, "conclusion": "success"},
+      "migration_audit": {"run_number": 1634, "conclusion": "success"},
+      "streamlit_smoke_test": {"run_number": 1748, "conclusion": "success"}
     },
-    "run208_tests_added": ["tests/test_run208_c16_city_jharkhand_boundary.py"],
+    "run209_tests_added": ["tests/test_run209_wals_grambank_identity_boundary.py"],
     "work_head_ci": {
-      "head": "6b2881982240865286de6f58cc36704f56ba6305",
+      "head": "91d354608aaeb65efa125d24bae99bc8b1071c11",
       "state": "fresh_workflows_not_yet_independently_verified_at_status_sync"
     },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-208 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-209 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica I remains working-page accounting only; II, III, VI, VII, VIII, X and XIII have exact secondary manifestations; IX has secondary page locators; XI-XII have secondary bibliographic internal-page ranges but still no exact manifestations; IV-V remain blocked; all XVI release slots lack authoritative registered scans and none is verified complete.",
+    "WALS/Grambank exact database locators are now verified, but underlying cited grammar pages remain not directly page-verified and the WALS Bhumij/mund1320 identity ambiguity must not be collapsed automatically.",
     "Lexibank Peiros v1.1 byte-preserving acquisition and independent MD5 recomputation remain unresolved.",
     "MMLoSo exact competition bytes/version, independent hash and direct file row counts remain unresolved.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Rau independent checksum and underlying BMED.p31 page remain incomplete; zero lexical rows were imported.",
-    "WALS/Grambank permanent registration remains a synchronized count-bearing transaction; underlying grammar passages are not yet direct page-verified.",
     "Official 2023 LSI Jharkhand and LSI West Bengal authoritative bytes/hash/page-image verification remain incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
@@ -173,17 +176,17 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Mundarica coverage, unresolved Census/LSI and dataset file integrity, incomplete grammar manifestations/page locators, and unresolved participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Mundarica coverage, unresolved Census/LSI and dataset file integrity, incomplete direct grammar-page verification, and unresolved participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
-    "Acquire the exact C-16 City Jharkhand workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX byte-preservingly, independently hash it and map only directly verified Munda/Mundari rows/cells.",
+    "Directly verify the underlying Osada/Cook grammar pages cited by Grambank/WALS before any typological value is promoted into the evidence graph; preserve WALS Bhumij as a separate lect record unless reconciliation supports a canonical relationship.",
     "Acquire exact lawful Mundarica XI and XII manifestations and compare internal pagination against 3175-3456 and 3457-3707; retry IX, IV and V while separately pursuing authoritative scans.",
+    "Acquire the exact C-16 City Jharkhand workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX byte-preservingly, independently hash it and map only directly verified Munda/Mundari rows/cells.",
     "Acquire the exact Peiros v1.1 Zenodo archive byte-preservingly, independently recompute MD5 and inspect forms.csv before any lawful synchronized row-level ingestion.",
     "Acquire the exact MMLoSo competition dataset manifestation/version, independently hash/count test.csv and mundari-train.csv before row ingestion.",
     "Retry authoritative Census C-16/C-17/ST-15/ST-16 workbook downloads and map exact cells only after byte-preserving acquisition/hash verification.",
     "Acquire Rau byte-preservingly and verify BMED page before any narrow source-attributed ingestion.",
-    "Atomically register WALS/Grambank only with synchronized MMSC/publication/tests and direct grammar-page verification.",
     "Retry official LSI PDF byte/hash/page-image verification.",
     "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics and tests synchronized after every count-bearing change."
   ]
