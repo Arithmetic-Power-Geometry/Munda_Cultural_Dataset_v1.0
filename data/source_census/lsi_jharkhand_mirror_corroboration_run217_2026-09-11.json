@@ -1,0 +1,65 @@
+{
+  "run": 217,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "purpose": "Corroborate the official ORGI LSI-Jharkhand Mundari locator with an independently hosted readable copy without conflating mirror accessibility with official bytes, rights, or verification.",
+  "official_identity": {
+    "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+    "year": 2023,
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "reference_id": "LSI_JHARKHAND",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+    "official_filename": "LSI_JHARKHAND.pdf"
+  },
+  "independent_readable_copy": {
+    "host": "People's Archive of Rural India / ruralindiaonline.org",
+    "resource_page": "https://ruralindiaonline.org/en/library/resource/linguistic-survey-of-india--jharkhand/",
+    "pdf_url_observed": "https://wagtail.ruralindiaonline.org/media/documents/Linguistic_Survey_of_India-_Jharkhand.pdf",
+    "indexed_page_marker": 71,
+    "indexed_text_contains_mundari_section": true,
+    "directly_observed_topics": [
+      "Mundari is discussed as an Austro-Asiatic language in the Jharkhand survey.",
+      "The indexed text names Hasada, Naguri, Tamaria and Kera as Mundari dialect labels used by the survey.",
+      "The indexed text attributes India and Jharkhand Mundari speaker counts to Census 2011.",
+      "The indexed text discusses scripts used for writing Mundari and geographical concentration in Jharkhand."
+    ],
+    "binary_download_completed_in_this_run": false,
+    "page_image_screenshot_verified_in_this_run": false,
+    "independent_checksum_computed": false
+  },
+  "verification_boundary": {
+    "official_catalogue_identity_verified": true,
+    "official_exact_download_endpoint_verified": true,
+    "independent_host_textual_corroboration_verified": true,
+    "official_and_mirror_bytes_proven_identical": false,
+    "official_pdf_bytes_acquired_byte_preservingly": false,
+    "mirror_pdf_bytes_acquired_byte_preservingly": false,
+    "exact_numeric_values_promoted_to_public_evidence": false,
+    "linguistic_proposition_promoted": false,
+    "cultural_proposition_promoted": false,
+    "source_identity_count_changed": false
+  },
+  "rights_governance": {
+    "public_access_is_not_reuse_permission": true,
+    "mirror_access_does_not_override_official_rights": true,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}
