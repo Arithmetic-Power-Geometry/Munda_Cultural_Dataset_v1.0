@@ -1,0 +1,47 @@
+{
+  "audit_id": "MMSC-AUDIT-C16-JH-2011-RUN189",
+  "run": 189,
+  "checked_utc": "2026-09-11T00:43:00Z",
+  "source_class": "government_census_table",
+  "scope": "non-Mundarica source census; language-demographic reference only",
+  "identity": {
+    "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+    "reference_id": "PC11_C16-20",
+    "reference_number": "PC11_C16",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "data_source": "Population Census 2011",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10207",
+    "workbook_filename": "DDW-C16-STMT-MDDS-2000.xlsx"
+  },
+  "catalogue_verified": true,
+  "catalogue_metadata_verified_from_official_search_index": true,
+  "official_direct_page_fetch_state": "blocked_transient_http_502",
+  "workbook_bytes_acquired": false,
+  "independent_checksum_verified": false,
+  "worksheet_names_verified": false,
+  "munda_mundari_exact_rows_verified": false,
+  "numeric_cells_verified": false,
+  "numeric_values_promoted": false,
+  "exact_locator_level": "catalogue_and_manifestation_filename_only",
+  "table_description_source_attributed": "The official catalogue describes C-16 as population distribution by mother tongue and sex, with total/rural/urban geography and alphabetically arranged mother tongues.",
+  "rights_access": {
+    "public_catalogue_access_observed": true,
+    "workbook_reuse_rights_independently_verified": false,
+    "public_availability_treated_as_permission": false
+  },
+  "cultural_governance": {
+    "cultural_claims_promoted": 0,
+    "participant_records_ingested": 0,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "canonicalization": {
+    "new_permanent_source_identity_created": false,
+    "count_bearing": false,
+    "reason": "C-16 is already an explicit Census acquisition gap in the synchronized MLHKP ledger; this run strengthens its official catalogue/manifestation identity without claiming workbook possession or cells."
+  },
+  "blocker": "Authoritative direct catalogue/workbook retrieval returned HTTP 502 in this run; workbook bytes, hash, sheet names, exact Munda/Mundari rows and numeric cells remain unverified.",
+  "next_safe_action": "Retry the official download; only after byte-preserving acquisition compute an independent hash, inspect workbook structure, and promote exact cells with source-attributed semantics.",
+  "fabrication_guard": "No census number, cell locator, checksum, licence, cultural fact, consent state or completeness state was inferred."
+}
