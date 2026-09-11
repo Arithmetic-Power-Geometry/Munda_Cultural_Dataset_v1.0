@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T17:47:00Z",
+  "updated_utc": "2026-09-11T18:30:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 222,
-  "cycle_result": "Run 222 advanced a non-Mundarica official-government source: the Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand MUNDA page is verified as an official TRI HTML manifestation with stable section-level locators for Etymology, History, Culture and Tradition, Economic Condition, Literature and Studies, and Notable Mundas. Because the page does not expose sufficient claim-level citations or an explicit open-reuse licence for wholesale cultural extraction, no cultural proposition, participant material, source-count increment or evidence-graph claim was promoted. Counts remain frozen and the audited release gate remains NOT_PASS.",
+  "latest_run": 223,
+  "cycle_result": "Run 223 advanced deterministic language-identity canonicalization: current Glottolog Mundari is verified as active mund1320/unr, while Glottolog Munda mund1321/unx is a retired bookkeeping entry. The repository now preserves those identifiers separately and forbids silent conflation or provenance rewriting. The known WALS Bhumij overlap warning is retained. No cultural proposition, underlying reference text, community validation, rights claim, source-count increment, or evidence-graph claim was promoted. Counts remain frozen and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run222_tri_official_html_audit": "92fadcaca3186fbe90d567638c00bdd39fc893b4",
-    "run222_search_log": "82d6233d5fff7d5d845c01f8a024c880618281bf",
-    "run222_regression_test": "5cc9365e5c5d99d0f11939f528f8f5818759373b",
-    "work_head_before_status_sync": "5cc9365e5c5d99d0f11939f528f8f5818759373b",
-    "previous_work_head_4_of_4_green": "3254a471245f5f23c6279f19524cd8a20dcd47ea"
+    "run223_glottolog_identity_audit": "fadefca86ba650d20d7c416c9a513bbed919f212",
+    "run223_search_log": "7e1cad75afeadc52c447a3ba1e0c56a54f4cc3c8",
+    "run223_regression_test": "869d37c7ae40d32ac3f8049c267af87b131791a5",
+    "work_head_before_status_sync": "869d37c7ae40d32ac3f8049c267af87b131791a5",
+    "previous_work_head_4_of_4_green": "5cc9365e5c5d99d0f11939f528f8f5818759373b"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,12 +27,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000222",
-    "latest_search_log": "data/source_census/search_log_run222.jsonl",
-    "latest_source_audit": "data/source_census/tri_jharkhand_munda_official_html_locator_run222_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000223",
+    "latest_search_log": "data/source_census/search_log_run223.jsonl",
+    "latest_source_audit": "data/source_census/glottolog_mundari_identity_boundary_run223_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run222_count_change": "none"
+    "run223_count_change": "none"
+  },
+  "mundarica": {
+    "series_target_volumes": "I-XVI",
+    "authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "run223_change": "No Mundarica volume was promoted this cycle; unresolved manifestation, authoritative-copy, byte-integrity, scan-sequence, OCR and verification gaps remain explicit.",
+    "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"]
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -45,12 +52,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run222": 0,
-    "claims_added_run222": 0,
-    "evidence_records_added_run222": 0,
-    "evidence_links_added_run222": 0,
-    "verification_audits_added_run222": 1,
-    "official_tri_manifestations_verified_run222": 1
+    "source_identities_added_run223": 0,
+    "claims_added_run223": 0,
+    "evidence_records_added_run223": 0,
+    "evidence_links_added_run223": 0,
+    "verification_audits_added_run223": 1,
+    "identity_boundaries_added_run223": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -61,22 +68,26 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run222_change": "No count-bearing promotion or UI redesign; all 42 mapped modules and universal search remain synchronized to unchanged release metrics."
+    "run223_change": "No UI redesign or count-bearing promotion; all 42 modules remain mapped and the new identity boundary is repository-side provenance protection."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run222_change": "Official Jharkhand TRI web coverage advanced to a verified section-level manifestation; claim-level cultural verification, explicit reuse permission, and community/cultural-access validation remain gaps."
+    "run223_change": "Language-identity canonicalization improved; source acquisition and claim-level evidence coverage remain incomplete."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "glottolog_active_mundari_identity_verified": true,
+    "glottolog_retired_munda_identity_verified": true,
+    "glottolog_database_license_observed": "CC BY 4.0",
+    "glottolog_license_applied_to_underlying_reference_texts": false,
+    "wals_bhumij_collapsed_into_mundari": false,
     "tri_jharkhand_official_munda_page_verified": true,
-    "tri_jharkhand_section_locators_verified": true,
     "tri_jharkhand_explicit_open_reuse_license_observed": false,
     "tri_jharkhand_cultural_claims_promoted": false,
     "lsi_jharkhand_secondary_manifestation_verified": true,
@@ -93,10 +104,10 @@
     "mmloso_exact_competition_bytes_verified": false,
     "rau_direct_row_locator_verified": true,
     "rau_independent_hash_verified": false,
-    "participant_records_ingested_run222": 0,
-    "full_text_or_lexical_rows_ingested_run222": 0,
-    "community_validation_inferred_run222": false,
-    "cultural_access_permission_inferred_run222": false
+    "participant_records_ingested_run223": 0,
+    "full_text_or_lexical_rows_ingested_run223": 0,
+    "community_validation_inferred_run223": false,
+    "cultural_access_permission_inferred_run223": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -108,29 +119,34 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 222; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 222 adds an official TRI exact-locator verification boundary.",
-    "build_state": "Run-220 verified work head remains the last independently recorded 4/4-green baseline. Run-222 work/final head must not be called green until fresh workflows conclude."
+    "generated_metrics_state": "No count-bearing change in Run 223; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required; Run 223 adds a deterministic identifier/canonicalization boundary.",
+    "build_state": "Run-222 work head 5cc9365e5c5d99d0f11939f528f8f5818759373b is independently verified 4/4 green. Run-223 work/final heads must not be called green until fresh workflows conclude."
   },
   "ci": {
     "previous_verified_work_head": {
-      "head": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
-      "all_four_green": true
-    },
-    "run222_tests_added": ["tests/test_run222_tri_jharkhand_munda_official_html.py"],
-    "work_head_ci": {
       "head": "5cc9365e5c5d99d0f11939f528f8f5818759373b",
-      "publication_build": "not_yet_verified",
-      "source_register_audit": "not_yet_verified",
-      "migration_audit": "not_yet_verified",
-      "streamlit_smoke_test": "not_yet_verified",
-      "state": "fresh_workflows_pending_independent_check"
+      "all_four_green": true,
+      "publication_build": "success #1684",
+      "source_register_audit": "success #1667",
+      "migration_audit": "success #1717",
+      "streamlit_smoke_test": "success #1831"
+    },
+    "run223_tests_added": ["tests/test_run223_glottolog_mundari_identity_boundary.py"],
+    "work_head_ci": {
+      "head": "869d37c7ae40d32ac3f8049c267af87b131791a5",
+      "publication_build": "queued #1690",
+      "source_register_audit": "queued #1673",
+      "migration_audit": "queued #1723",
+      "streamlit_smoke_test": "queued #1837",
+      "state": "fresh_workflows_queued"
     },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-222 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-223 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; unresolved exact manifestations, byte integrity, page accounting, OCR and structuring remain.",
     "Official TRI cultural assertions require claim-level corroboration plus rights/community/cultural-access review before evidence promotion.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete; PARI is retained as a secondary manifestation only.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 is secondary locator evidence only.",
@@ -159,16 +175,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, incomplete authoritative Census/LSI and scholarly-source byte integrity, unresolved direct Osada 2008 page verification, dataset integrity checks, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, zero authoritative/verified-complete Mundarica volumes, incomplete authoritative Census/LSI and scholarly-source byte integrity, unresolved direct Osada 2008 page verification, dataset integrity checks, and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
-    "Corroborate individual TRI cultural propositions against primary/peer-reviewed sources before any evidence-graph promotion; do not infer reuse rights from public HTML access.",
+    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, retaining original identifiers and provenance through alias/canonical joins.",
+    "Continue Mundarica I-XVI exact-manifestation acquisition, byte/hash verification, page accounting and OCR verification without promoting secondary locators to authoritative status.",
     "Acquire official LSI_JHARKHAND.pdf byte-preservingly, independently hash it, visually verify the Mundari page, and compare official and mirror hashes.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence; keep Osada 1992 and 2008 identities distinct.",
     "Acquire exact Census workbooks byte-preservingly, independently hash and verify only directly observed cells.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly, independently hash/count before row-level ingestion.",
-    "Acquire Rau bytes through a byte-preserving path, recompute MD5, and directly verify BMED pages before any narrow source-attributed lexical ingestion.",
+    "Acquire Rau bytes through a byte-preserving path, recompute MD5, and directly verify BMED pages before narrow source-attributed lexical ingestion.",
     "Keep all 42 Streamlit modules, evidence graph, coverage/gap matrix, generated release metrics, reproducible manuscript and tests synchronized after every count-bearing change."
   ]
 }
