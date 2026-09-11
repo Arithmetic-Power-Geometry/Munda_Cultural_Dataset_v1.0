@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T12:48:00Z",
+  "updated_utc": "2026-09-11T13:30:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 212,
-  "cycle_result": "Run 212 pinned the Karya Mundari TTS source to upstream revision ea515f4d034a37e41e5b8619e1df62de0c7ee830, verified the exact published SHA-1 manifest for dataset-mundari-tts-full.tgz, rechecked the repository's internally consistent 26,870-recording total (19,868 female + 7,002 male), and verified the Karya BY-NC-SA-FS 1.0 license text. The full archive was not acquired or independently hashed/count-verified, participant consent/community validation/cultural-access permission were not inferred, and the historical 26,868-versus-26,870 discrepancy remains explicit. Systematic all-class census logging continued; all count-bearing release metrics remain frozen and the audited release gate remains NOT_PASS.",
+  "latest_run": 213,
+  "cycle_result": "Run 213 verified an exact secondary DLI/Internet Archive manifestation for Encyclopaedia Mundarica Volume V: in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66, with 278 catalogued pages, 1932 publication metadata, C-DAC Noida scanning, 600 PPI, ABBYY-derived OCR metadata and an invalid-jp2-headers degradation warning. No authoritative-scan, independent-hash, scan-sequence, OCR/transcription, completeness, community-validation or cultural-access claim was made. Systematic all-class census logging continued; all count-bearing release metrics remain frozen and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run212_karya_integrity_audit": "677d7bde0df269cdabbb50e04ded069702621511",
-    "run212_search_log": "a536ab02add23df9b4410b127cef00b57431d429",
-    "run212_regression_test": "9327e08a35fe6fe24be251ccf6bd5a040dc9ce9f",
-    "work_head_before_status_sync": "9327e08a35fe6fe24be251ccf6bd5a040dc9ce9f"
+    "run213_mundarica_v_audit": "74d6823cae3c1c80da058b1bef9d2d7151b3d935",
+    "run213_search_log": "ed4b72dc46f1527c011bbefda4f760a359f557d3",
+    "run213_regression_test": "81b1a507de2d01489e233e8070699ee46ce38070",
+    "work_head_before_status_sync": "81b1a507de2d01489e233e8070699ee46ce38070"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,12 +26,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000212",
-    "latest_search_log": "data/source_census/search_log_run212.jsonl",
-    "latest_source_audit": "data/source_census/karya_mundari_tts_integrity_manifest_run212_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000213",
+    "latest_search_log": "data/source_census/search_log_run213.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_volume_v_manifestation_audit_run213_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run212_count_change": "none"
+    "run213_count_change": "none"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -45,7 +45,7 @@
       "II": "exact secondary DLI/Internet Archive manifestation dli.bengal.10689.21001; 406 catalogued scan pages; not verified complete",
       "III": "exact secondary DLI/Internet Archive manifestation in.ernet.dli.2015.14921; 264 catalogued scan pages; not verified complete",
       "IV": "historical locator retained; no defensible exact digital manifestation promoted; not verified complete",
-      "V": "historical locator retained; no defensible exact digital manifestation promoted; not verified complete",
+      "V": "exact secondary DLI/Internet Archive manifestation in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66; 278 catalogued pages; PDF degradation invalid-jp2-headers preserved; not verified complete",
       "VI": "exact secondary DLI/Internet Archive manifestation dli.bengal.10689.20084; 344 catalogued scan pages; not verified complete",
       "VII": "exact secondary DLI/Internet Archive manifestation dli.bengal.10689.20088; 274 catalogued scan pages; not verified complete",
       "VIII": "exact secondary DLI/Internet Archive manifestation dli.bengal.10689.20080; 422 catalogued scan pages; not verified complete",
@@ -58,7 +58,7 @@
       "XV": "authoritative release manifestation unresolved; not verified complete",
       "XVI": "authoritative release manifestation unresolved; not verified complete"
     },
-    "run212_change": "No Mundarica state promotion. All volume states were preserved while independent non-Mundarica dataset integrity verification proceeded; no page/OCR/completeness value was invented."
+    "run213_change": "Volume V advanced from historical-locator-only to exact secondary manifestation with 278 catalogue pages. No authoritative-scan, OCR/transcription, independent-integrity or completeness promotion was made."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -71,12 +71,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run212": 0,
-    "claims_added_run212": 0,
-    "evidence_records_added_run212": 0,
-    "evidence_links_added_run212": 0,
-    "verification_audits_added_run212": 1,
-    "exact_locator_or_rights_records_advanced_run212": 1
+    "source_identities_added_run213": 0,
+    "claims_added_run213": 0,
+    "evidence_records_added_run213": 0,
+    "evidence_links_added_run213": 0,
+    "verification_audits_added_run213": 1,
+    "exact_locator_or_rights_records_advanced_run213": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -87,64 +87,37 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run212_change": "No count-bearing UI redesign or promotion; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized with controlled source/evidence counts."
+    "run213_change": "No count-bearing UI redesign or promotion; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "osada_2008_exact_bibliographic_range": "99-164",
-    "grambank_osada_locator_range_containment_verified": "107-108 within 99-164",
+    "mundarica_v_archive_rights_label_observed": "Out_of_copyright",
+    "mundarica_v_archive_rights_label_is_not_community_permission": true,
+    "mundarica_v_independent_hash_verified": false,
+    "mundarica_v_ocr_verified_as_transcription": false,
     "osada_2008_pages_107_108_directly_verified": false,
-    "evans_osada_2005_doi": "10.1515/lity.2005.9.3.351",
-    "evans_osada_2005_anu_handle": "1885/54663",
-    "evans_osada_2005_bibliographic_pages": "351-390",
-    "evans_osada_2005_bibliographic_page_span": 40,
-    "evans_osada_2005_anu_repository_filename_observed": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
-    "evans_osada_2005_anu_repository_file_size_observed": "234.31 KB",
-    "evans_osada_2005_access_statement_observed": "Open Access",
-    "evans_osada_2005_repository_rights_note_verified": true,
     "evans_osada_2005_pdf_bytes_verified": false,
     "evans_osada_2005_independent_checksum_verified": false,
-    "evans_osada_2005_internal_page_sequence_verified": false,
-    "evans_osada_2011_anu_handle": "1885/24925",
     "evans_osada_2011_repository_restriction_until": "2037-12-31",
-    "restricted_access_circumvented_run212": false,
-    "unauthorized_mirrors_used_for_evidence_run212": false,
-    "participant_consent_inferred_run212": false,
-    "community_validation_inferred_run212": false,
-    "cultural_access_permission_inferred_run212": false,
     "wals_mundari_exact_locator_verified": true,
     "wals_bhumij_identity_boundary_recorded": true,
     "grambank_mundari_exact_locator_verified": true,
-    "grambank_GB317_source_page_locator_observed": "Osada 2008: 107-108",
-    "grambank_underlying_grammar_pages_directly_verified": false,
-    "wals_grambank_database_licence_observed": "CC BY 4.0",
     "lexibank_peiros_v1_1_release_verified": true,
-    "lexibank_peiros_repository_reported_md5": "cff41a8a9db0f74e14550d2330a56483",
     "lexibank_peiros_independent_md5_recomputed": false,
-    "mmloso_publication_exact_test_sentences": 15999,
     "mmloso_exact_competition_bytes_verified": false,
     "mmloso_independent_hash_verified": false,
-    "mmloso_independent_row_count_verified": false,
-    "rau_exact_license": "CC0-1.0",
     "rau_authoritative_plaintext_manifestation_verified": true,
     "rau_independent_hash_verified": false,
-    "rau_underlying_BMED_page_verified": false,
     "karya_mundari_tts_repository_head_verified": "ea515f4d034a37e41e5b8619e1df62de0c7ee830",
-    "karya_mundari_tts_readme_total": 26870,
-    "karya_mundari_tts_readme_female": 19868,
-    "karya_mundari_tts_readme_male": 7002,
     "karya_mundari_tts_upstream_sha1": "46c8bfceb5cf25decc8523479378793537f2bad7",
-    "karya_mundari_tts_full_archive_filename": "dataset-mundari-tts-full.tgz",
-    "karya_mundari_tts_license": "BY-NC-SA-FS 1.0",
     "karya_mundari_tts_full_archive_bytes_verified": false,
-    "karya_mundari_tts_independent_sha1_verified": false,
-    "karya_mundari_tts_direct_audio_count_verified": false,
-    "karya_mundari_tts_26868_vs_26870_discrepancy_resolved": false,
-    "participant_records_ingested_run212": 0,
-    "full_text_or_lexical_rows_ingested_run212": 0
+    "participant_records_ingested_run213": 0,
+    "full_text_or_lexical_rows_ingested_run213": 0,
+    "community_validation_inferred_run213": false,
+    "cultural_access_permission_inferred_run213": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -156,50 +129,45 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 212; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release-metric regeneration required; Run 212 adds a bounded dataset integrity/rights audit without changing source/evidence totals.",
-    "build_state": "Run-212 test-bearing work head 9327e08a35fe6fe24be251ccf6bd5a040dc9ce9f committed; four commit-associated workflows are instantiated and must conclude before exact-head green is claimed."
+    "generated_metrics_state": "No count-bearing change in Run 213; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release-metric regeneration required; Run 213 adds a bounded Mundarica manifestation audit without changing source/evidence totals.",
+    "build_state": "Run-213 test-bearing work head 81b1a507de2d01489e233e8070699ee46ce38070 committed; fresh commit-associated workflows must conclude before exact-head green is claimed."
   },
   "ci": {
-    "last_independently_verified_green_head": "6db949f6347e893c4f478cc42c6d99b72123961d",
+    "last_independently_verified_green_head": "9327e08a35fe6fe24be251ccf6bd5a040dc9ce9f",
     "green_4_of_4": true,
     "verified_workflows": {
-      "run211_work_head": {
-        "head": "6db949f6347e893c4f478cc42c6d99b72123961d",
+      "run212_work_head": {
+        "head": "9327e08a35fe6fe24be251ccf6bd5a040dc9ce9f",
         "workflow_count": 4,
+        "publication_build": 1624,
+        "source_register_audit": 1607,
+        "migration_audit": 1657,
+        "streamlit_smoke_test": 1771,
         "state": "all four workflow runs completed successfully"
       }
     },
-    "run212_tests_added": [
-      "tests/test_run212_karya_mundari_tts_integrity_manifest.py"
-    ],
+    "run213_tests_added": ["tests/test_run213_mundarica_volume_v_manifestation.py"],
     "work_head_ci": {
-      "head": "9327e08a35fe6fe24be251ccf6bd5a040dc9ce9f",
-      "workflow_count": 4,
-      "publication_build": {
-        "run_number": 1624,
-        "status_at_sync": "in_progress"
-      },
-      "state": "fresh_workflows_instantiated_not_yet_all_concluded_at_status_sync"
+      "head": "81b1a507de2d01489e233e8070699ee46ce38070",
+      "state": "fresh_workflows_not_yet_independently_concluded_at_status_sync"
     },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-212 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-213 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; only exact chapter identity/range and locator containment are verified.",
-    "Evans & Osada 2005 bibliographic identity, ANU manifestation metadata, Open Access label and repository rights note are verified, but exact PDF bytes, independent checksum and internal page sequence remain unverified.",
-    "Evans & Osada 2011 is repository-restricted until 2037-12-31 and must not be circumvented.",
-    "Mundarica I remains working-page accounting only; II, III, VI, VII, VIII, X and XIII have exact secondary manifestations; IX has secondary page locators; XI-XII have secondary bibliographic internal-page ranges but still no exact manifestations; IV-V remain blocked; all XVI release slots lack authoritative registered scans and none is verified complete.",
+    "Mundarica V now has an exact secondary manifestation, but independent file integrity, scan sequence, OCR/transcription accuracy and verified completeness remain open.",
+    "Mundarica I remains working-page accounting only; II, III, V, VI, VII, VIII, X and XIII have exact secondary manifestations; IX has secondary page locators; XI-XII have secondary bibliographic ranges; IV remains blocked; XIV-XVI remain unresolved; all sixteen release slots lack authoritative registered scans and none is verified complete.",
+    "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved.",
+    "Evans & Osada 2005 exact PDF bytes, independent checksum and internal page sequence remain unverified; Evans & Osada 2011 is restricted until 2037-12-31 and must not be circumvented.",
     "Lexibank Peiros v1.1 byte-preserving acquisition and independent MD5 recomputation remain unresolved.",
     "MMLoSo exact competition bytes/version, independent hash and direct file row counts remain unresolved.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Rau independent checksum and underlying BMED.p31 page remain incomplete; zero lexical rows were imported.",
     "Official 2023 LSI Jharkhand and LSI West Bengal authoritative bytes/hash/page-image verification remain incomplete.",
     "Participant-derived audio/video/dataset/interview material remains gated by consent, privacy, community validation and cultural access.",
-    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
-    "1941 Mundari hockey booklet and Nirang Pajhra still lack sufficient authoritative manifestation/registration/rights evidence.",
-    "Karya Mundari TTS exact upstream SHA-1 manifest is verified at repository revision, but full archive bytes, independent SHA-1, direct file count, consent/community/cultural-access review and the 26,868-versus-26,870 cross-source discrepancy remain unresolved."
+    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -222,15 +190,11 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
-    "Acquire the Karya dataset-mundari-tts-full.tgz through the publisher-provided route if permitted, independently recompute SHA-1 46c8bfceb5cf25decc8523479378793537f2bad7, and count files/transcripts before resolving the 26,868-versus-26,870 discrepancy.",
-    "Acquire Evans & Osada 2005 ANU PDF byte-preservingly if the repository endpoint permits it; recompute checksum and verify internal page sequence before any substantive extraction.",
-    "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank GB317; continue direct WALS/Grambank source-page verification.",
-    "Continue Mundarica IV-V/IX/XI-XII exact-manifestation acquisition plus authoritative-copy verification for all sixteen slots; keep OCR and completeness boundaries explicit.",
-    "Acquire exact C-16 City Jharkhand workbook DDW-C16-TOWN-STMT-MDDS-2000.XLSX byte-preservingly, independently hash it and map only directly verified Munda/Mundari rows/cells.",
-    "Acquire exact Peiros v1.1 Zenodo archive byte-preservingly, independently recompute MD5 and inspect forms.csv before lawful row-level ingestion.",
-    "Acquire exact MMLoSo competition dataset manifestation/version, independently hash/count test.csv and mundari-train.csv before row ingestion.",
-    "Retry authoritative Census C-16/C-17/ST-15/ST-16 workbook downloads and official LSI PDF byte/hash/page-image verification.",
-    "Acquire Rau byte-preservingly and verify BMED page before any narrow source-attributed ingestion.",
+    "Continue Mundarica IV/IX/XI-XVI exact-manifestation acquisition plus authoritative-copy verification for all sixteen slots; independently verify Volume V file integrity and scan sequence; keep OCR and completeness boundaries explicit.",
+    "Acquire exact Census/LSI workbook/PDF bytes byte-preservingly, independently hash and verify only directly observed cells/pages.",
+    "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly, independently hash/count before any row-level ingestion.",
+    "Acquire Rau byte-preservingly and verify BMED page before narrow source-attributed ingestion.",
+    "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank GB317.",
     "Keep all 42 Streamlit modules, evidence graph, completeness/gap matrix, generated release metrics, reproducible manuscript and tests synchronized after every count-bearing change."
   ]
 }
