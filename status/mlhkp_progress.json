@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T16:55:00Z",
+  "updated_utc": "2026-09-11T17:36:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 220,
-  "cycle_result": "Run 220 advanced the 2023 Linguistic Survey of India-Jharkhand through a stable PARI secondary manifestation. The page verifies the Language Division, Office of the Registrar General, Government of India as author/copyright holder, publication date 2023-08-01, document structure, and a Mundari-specific factoid locator. This is secondary-manifestation evidence only: official LSI_JHARKHAND.pdf bytes, independent hash, direct page-image verification, and byte identity between official and mirror manifestations remain unresolved. No numeric, linguistic, or cultural proposition was promoted. Counts remain frozen and the audited release gate remains NOT_PASS.",
+  "latest_run": 221,
+  "cycle_result": "Run 221 closed a Mundarica canonicalization hazard: the surfaced archive candidate in.ernet.dli.2015.14921, sometimes linked as Volume IV, directly resolves to Encyclopedia Mundarica Vol-iii (1930), ARK ark:/13960/t3907ds0b, DLI handle 2015/14921, with 264 catalogued pages. A deterministic false-manifestation guard now prevents this identifier from being assigned to Volume IV. Volume IV remains unresolved; no OCR, transcription, cultural fact, source claim or completeness promotion was made. Counts remain frozen and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run220_lsi_pari_audit": "24ddacbe74b102c8be52f5a531b199509981ee9e",
-    "run220_search_log": "38eb30a177b49e54fae78f9a218ad74e493bd095",
-    "run220_regression_test": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
-    "work_head_before_status_sync": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
-    "previous_final_head_4_of_4_green": "3591adb35e455faa4d5ea8032ebfd52339ce135b"
+    "run221_mundarica_false_manifestation_audit": "2f739ebca4223de19d26fb045133da281498f87b",
+    "run221_search_log": "4c7e9e6551ac24ea2b6dfcb4277dc16c18bc724d",
+    "run221_regression_test": "0d9dff36a0798fb879bf0c05901a8b06edddcb19",
+    "work_head_before_status_sync": "0d9dff36a0798fb879bf0c05901a8b06edddcb19",
+    "previous_work_head_4_of_4_green": "3254a471245f5f23c6279f19524cd8a20dcd47ea"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,18 +27,18 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000220",
-    "latest_search_log": "data/source_census/search_log_run220.jsonl",
-    "latest_source_audit": "data/source_census/lsi_jharkhand_pari_secondary_manifestation_run220_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000221",
+    "latest_search_log": "data/source_census/search_log_run221.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_volume_iv_false_manifestation_guard_run221_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run220_count_change": "none"
+    "run221_count_change": "none"
   },
   "mundarica": {
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "state_summary": "No Mundarica volume state changed in Run 220. Existing exact-secondary and locator-level manifestations remain bounded by prior audits; authoritative-copy, scan-sequence, OCR/transcription, rights and community-validation gates remain open where previously recorded.",
-    "run220_change": "none"
+    "state_summary": "Run 221 adds a deterministic manifestation guard: in.ernet.dli.2015.14921 is verified as the exact secondary manifestation for Volume III, not Volume IV. Volume IV remains manifestation-blocked. Existing volume states remain bounded by prior audits; authoritative-copy, scan-sequence, OCR/transcription, rights and community-validation gates remain open.",
+    "run221_change": "False Volume-IV candidate rejected and canonicalized to Volume III; no completeness promotion."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -51,12 +51,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run220": 0,
-    "claims_added_run220": 0,
-    "evidence_records_added_run220": 0,
-    "evidence_links_added_run220": 0,
-    "verification_audits_added_run220": 1,
-    "exact_locator_or_rights_records_advanced_run220": 1
+    "source_identities_added_run221": 0,
+    "claims_added_run221": 0,
+    "evidence_records_added_run221": 0,
+    "evidence_links_added_run221": 0,
+    "verification_audits_added_run221": 1,
+    "canonicalization_guards_added_run221": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,23 +67,26 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run220_change": "No count-bearing promotion or UI redesign; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized to unchanged release metrics."
+    "run221_change": "No count-bearing promotion or UI redesign; all 42 mapped modules and cross-cutting functions remain synchronized to unchanged release metrics."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run220_change": "LSI-Jharkhand now has a verified secondary HTML manifestation and Mundari-specific locator, while official PDF byte/hash/page-image verification remains an explicit gap; no matrix state promotion to complete is warranted."
+    "run221_change": "Mundarica Volume IV false-positive risk reduced by rejecting a directly contradicted archive mapping; true Volume IV exact manifestation remains an enumerated gap."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "mundarica_volume_iii_secondary_manifestation_verified": true,
+    "mundarica_volume_iv_false_candidate_rejected": true,
+    "mundarica_volume_iv_exact_manifestation_verified": false,
+    "mundarica_volume_iii_pdf_independent_hash_verified": false,
+    "mundarica_volume_iii_ocr_verified": false,
     "lsi_jharkhand_secondary_manifestation_verified": true,
-    "lsi_jharkhand_secondary_manifestation_url": "https://wagtail.ruralindiaonline.org/en/library/resource/linguistic-survey-of-india--jharkhand/",
-    "lsi_jharkhand_mundari_secondary_locator_verified": true,
     "lsi_jharkhand_page_image_verified": false,
     "lsi_jharkhand_bytes_verified": false,
     "lsi_jharkhand_independent_hash_verified": false,
@@ -97,10 +100,10 @@
     "mmloso_exact_competition_bytes_verified": false,
     "rau_direct_row_locator_verified": true,
     "rau_independent_hash_verified": false,
-    "participant_records_ingested_run220": 0,
-    "full_text_or_lexical_rows_ingested_run220": 0,
-    "community_validation_inferred_run220": false,
-    "cultural_access_permission_inferred_run220": false
+    "participant_records_ingested_run221": 0,
+    "full_text_or_lexical_rows_ingested_run221": 0,
+    "community_validation_inferred_run221": false,
+    "cultural_access_permission_inferred_run221": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -112,22 +115,22 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 220; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 220 adds a secondary-manifestation audit boundary for LSI-Jharkhand.",
-    "build_state": "Previous final head 3591adb35e455faa4d5ea8032ebfd52339ce135b remains the last independently recorded 4/4 green head in the progress ledger. Run-220 work head 3254a471245f5f23c6279f19524cd8a20dcd47ea must not be called green until fresh workflows conclude."
+    "generated_metrics_state": "No count-bearing change in Run 221; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 221 adds a Mundarica manifestation-canonicalization boundary.",
+    "build_state": "Run-220 work head 3254a471245f5f23c6279f19524cd8a20dcd47ea is independently 4/4 green. Run-221 work head 0d9dff36a0798fb879bf0c05901a8b06edddcb19 must not be called green until fresh workflows conclude."
   },
   "ci": {
-    "previous_final_head": {
-      "head": "3591adb35e455faa4d5ea8032ebfd52339ce135b",
-      "publication_build": "success #1649",
-      "source_register_audit": "success #1632",
-      "migration_audit": "success #1682",
-      "streamlit_smoke_test": "success #1796",
+    "previous_verified_work_head": {
+      "head": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
+      "publication_build": "success #1672",
+      "source_register_audit": "success #1655",
+      "migration_audit": "success #1705",
+      "streamlit_smoke_test": "success #1819",
       "all_four_green": true
     },
-    "run220_tests_added": ["tests/test_run220_lsi_pari_secondary_manifestation.py"],
+    "run221_tests_added": ["tests/test_run221_mundarica_volume_iv_false_manifestation_guard.py"],
     "work_head_ci": {
-      "head": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
+      "head": "0d9dff36a0798fb879bf0c05901a8b06edddcb19",
       "publication_build": "not_yet_verified",
       "source_register_audit": "not_yet_verified",
       "migration_audit": "not_yet_verified",
@@ -135,12 +138,13 @@
       "state": "fresh_workflows_pending_independent_check"
     },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-220 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-221 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Mundarica Volume IV exact manifestation remains unresolved; in.ernet.dli.2015.14921 is explicitly Volume III and must not be reused as Volume IV.",
+    "Mundarica authoritative-copy, independent-integrity, scan-sequence, OCR/transcription and verified-completeness gates remain open across the series.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete; PARI is retained as a secondary manifestation only.",
-    "Official and mirror LSI PDF bytes have not been proven identical.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 is secondary locator evidence only.",
     "Evans and Osada 2005 byte-preserving acquisition, independent hash and page-image verification remain incomplete.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -171,6 +175,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
+    "Locate the true Encyclopaedia Mundarica Volume IV manifestation using resolved identifier/title metadata; never reuse in.ernet.dli.2015.14921 for Volume IV.",
     "Acquire official LSI_JHARKHAND.pdf byte-preservingly, independently hash it, visually verify the Mundari page, and compare official and mirror hashes.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence; keep Osada 1992 and 2008 identities distinct.",
     "Acquire exact Census workbooks byte-preservingly, independently hash and verify only directly observed cells.",
