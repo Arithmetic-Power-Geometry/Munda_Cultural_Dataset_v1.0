@@ -1,0 +1,61 @@
+{
+  "run": 223,
+  "date": "2026-09-12",
+  "branch": "mlhkp-v2",
+  "purpose": "Prevent deterministic source/entity canonicalization from conflating active Mundari with the retired Glottolog Munda bookkeeping entry while preserving source, rights, and evidence-promotion boundaries.",
+  "active_identity": {
+    "name": "Mundari",
+    "glottocode": "mund1320",
+    "iso_639_3": "unr",
+    "glottolog_url": "https://glottolog.org/resource/languoid/id/mund1320",
+    "status_observed": "Spoken L1 Language",
+    "countries_observed": ["Bangladesh", "India", "Nepal"],
+    "retrieved_date": "2026-09-12"
+  },
+  "retired_identity": {
+    "name": "Munda",
+    "glottocode": "mund1321",
+    "iso_639_3": "unx",
+    "glottolog_url": "https://glottolog.org/resource/languoid/id/mund1321",
+    "status_observed": "retired bookkeeping entry",
+    "glottolog_note_observed": "entry retired; Glottolog notes historical Ethnologue Munda and Mundari entries are part of the same language and points to Mundari unr",
+    "retrieved_date": "2026-09-12"
+  },
+  "canonicalization_rule": {
+    "collapse_active_and_retired_records": false,
+    "preferred_active_language_key": "glottocode:mund1320|iso639-3:unr",
+    "retired_key_retained_for_alias_history_only": "glottocode:mund1321|iso639-3:unx",
+    "rule": "Never rewrite an observed mund1321/unx historical or bookkeeping citation into a mund1320/unr source assertion without retaining the original identifier and provenance. For current language joins, use mund1320/unr as the active Glottolog identity.",
+    "wals_bhumij_overlap_warning": "Do not collapse WALS Bhumij into Mundari merely because WALS displays mund1320/unr for that lect; preserve WALS lect identity separately."
+  },
+  "rights_governance": {
+    "glottolog_database_license_observed": "CC BY 4.0",
+    "license_scope_treated_as_underlying_reference_text_license": false,
+    "public_availability_treated_as_cultural_access_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "verification_boundary": {
+    "active_identity_verified_from_current_glottolog_page": true,
+    "retired_identity_verified_from_current_glottolog_page": true,
+    "identity_join_rule_verified": true,
+    "underlying_bibliographic_references_individually_verified": false,
+    "cultural_claim_promoted_to_public_evidence_graph": false,
+    "source_identity_count_changed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}
