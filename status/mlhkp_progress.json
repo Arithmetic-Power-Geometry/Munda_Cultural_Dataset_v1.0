@@ -4,17 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T22:50:00Z",
+  "updated_utc": "2026-09-11T23:29:08Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 232,
-  "work_head_before_status_sync": "dedbea473e81135f40bbb9aa066df683193e6d9f",
-  "previous_final_head": "e27a86786f8a6f5a2df8e30eaa2f1918e0edc975",
-  "cycle_result": "Run 232 advanced Wikimedia Commons 'Mundari language distribution - Assam.svg' as an exact rights-supported media/map manifestation with stable file page, permanent revision oldid 978695735, original SVG URL, author/date/file-history metadata, declared Census C-16 Assam 2011 source and CC BY-SA 4.0 licence. The original SVG download failed through the execution path, so no checksum was fabricated; the underlying authoritative Census workbook/cells remain unverified and no demographic proposition entered the evidence graph. Controlled counts remain frozen pending deterministic canonical-register reconciliation.",
+  "latest_run": 233,
+  "work_head_before_status_sync": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
+  "previous_final_head": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
+  "cycle_result": "Run 233 independently verified both the Run-232 test-bearing head dedbea473e81135f40bbb9aa066df683193e6d9f and Run-232 final head 40ed3d33b67bef34d2e4eb8630584f268c9601db as 4/4 green across Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test. No source, cultural fact, count, right, OCR state, community validation or completeness state was promoted in this CI-verification cycle.",
   "cycle_commits": {
     "run232_map_audit": "940253dd6407cf3f6b962793e6ce330552ac8f49",
     "run232_search_log": "2d007d39bfb31e7eb0bc578dd924cabc2ddda00c",
-    "run232_regression_test": "dedbea473e81135f40bbb9aa066df683193e6d9f"
+    "run232_regression_test": "dedbea473e81135f40bbb9aa066df683193e6d9f",
+    "run232_final_head_verified": "40ed3d33b67bef34d2e4eb8630584f268c9601db"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -32,7 +33,7 @@
     "latest_source_audit": "data/source_census/wikimedia_mundari_assam_distribution_map_run232_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run232_count_change": "none"
+    "run233_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -53,11 +54,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run232": 0,
-    "evidence_records_added_run232": 0,
-    "evidence_links_added_run232": 0,
-    "verification_audits_added_run232": 1,
-    "run232_boundary": "The Commons map is promoted as a rights-supported media manifestation only; no Census-derived demographic proposition entered the evidence graph without primary workbook/cell verification."
+    "claims_added_run233": 0,
+    "evidence_records_added_run233": 0,
+    "evidence_links_added_run233": 0,
+    "verification_audits_added_run233": 0
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,15 +68,14 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run232_change": "No module-count or public-evidence count change; discovery/verification metadata remains distinguishable from primary evidence and no demographic value was exposed from the secondary map."
+    "run233_change": "No UI redesign or count change; CI verification confirms the existing 42-module application still passes its smoke workflow on the Run-232 final head."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
-    "completeness_gap_state": "live_partial",
-    "run232_change": "Exact permitted map/media manifestation added at the audit layer, but COV-010 remains structure_ready because the underlying primary Census workbook/cells and local map bytes/hash are still unresolved."
+    "completeness_gap_state": "live_partial"
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -84,11 +83,10 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run232": 0,
-    "full_text_or_lexical_rows_ingested_run232": 0,
-    "community_validation_inferred_run232": false,
-    "cultural_access_permission_inferred_run232": false,
-    "licensed_map_reuse_verified_run232": "CC BY-SA 4.0 subject to attribution/share-alike terms",
+    "participant_records_ingested_run233": 0,
+    "full_text_or_lexical_rows_ingested_run233": 0,
+    "community_validation_inferred_run233": false,
+    "cultural_access_permission_inferred_run233": false,
     "secondary_map_substituted_for_primary_census_evidence": false
   },
   "publication": {
@@ -101,22 +99,34 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 232; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 232; the rights-supported map is not substituted for a primary Census figure in publication outputs.",
-    "build_state": "Fresh Run-232 CI must be checked on the test-bearing/final head before any green claim."
+    "generated_metrics_state": "No count-bearing change in Run 233; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 233.",
+    "build_state": "Run-232 final head 40ed3d33b67bef34d2e4eb8630584f268c9601db independently verified Publication Build success (#1749)."
   },
   "ci": {
-    "previous_final_head": "e27a86786f8a6f5a2df8e30eaa2f1918e0edc975",
-    "run232_tests_added": ["tests/test_run232_wikimedia_mundari_assam_map.py"],
     "run232_test_bearing_head": "dedbea473e81135f40bbb9aa066df683193e6d9f",
-    "fresh_run232_final_head_ci_verified": false,
-    "fresh_run232_final_head_ci_note": "Do not claim Run-232 final head 4/4 green until commit-associated workflow conclusions are independently checked after status synchronization."
+    "run232_test_bearing_head_all_four_green": true,
+    "run232_test_bearing_workflows": {
+      "publication_build": {"run_number": 1748, "conclusion": "success"},
+      "source_register_audit": {"run_number": 1730, "conclusion": "success"},
+      "migration_audit": {"run_number": 1781, "conclusion": "success"},
+      "streamlit_smoke_test": {"run_number": 1895, "conclusion": "success"}
+    },
+    "run232_final_head": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
+    "run232_final_head_all_four_green": true,
+    "run232_final_head_workflows": {
+      "publication_build": {"run_number": 1749, "conclusion": "success"},
+      "source_register_audit": {"run_number": 1731, "conclusion": "success"},
+      "migration_audit": {"run_number": 1782, "conclusion": "success"},
+      "streamlit_smoke_test": {"run_number": 1896, "conclusion": "success"}
+    },
+    "fresh_run233_status_sync_head_ci_verified": false,
+    "fresh_run233_status_sync_head_ci_note": "The status-sync commit created by Run 233 requires its own commit-associated workflows before that new head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "The Run-232 Commons Assam Mundari map has exact metadata/licensing/original-file locator, but byte-preserving acquisition and independent hashing remain unresolved; its underlying Census C-16 workbook/cells are not yet primary-verified.",
-    "CIIL BVP03961 now has stable institutional metadata but byte-preserving acquisition, independent hash, full-work completeness and exact internal-page locators remain unresolved.",
-    "Previously advanced CIIL grammars CIILP0091, BVP00202 and BVP04856 still lack independent byte/hash/full-work/internal-page verification.",
+    "CIIL BVP03961, CIILP0091, BVP00202 and BVP04856 still require byte-preserving acquisition, independent hashes, full-work completeness checks and exact internal-page verification before passage promotion.",
     "Mundarica IV, IX and XI-XVI still require stronger exact manifestation/integrity/OCR closure; no volume is verified complete.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -149,7 +159,7 @@
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
     "Acquire the exact Run-232 Commons SVG byte-preservingly, independently hash it, and acquire/verify the declared Assam C-16 workbook/cells before any demographic claim promotion.",
-    "Reconcile BVP03961, CIILP0091, BVP00202 and BVP04856 against every controlled canonical identity registry; acquire exact permitted bitstreams byte-preservingly, independently hash them and promote only exact permitted internal passages.",
+    "Acquire exact permitted CIIL grammar bitstreams byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
     "Locate and lawfully acquire exact Mundarica IV, IX and XI-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
