@@ -1,0 +1,72 @@
+{
+  "run": 215,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "record": {
+    "title": "Bibliography of Marginal Indian Languages",
+    "editors": ["Sabita Pradhan", "Arimardan Kumar Tripathi"],
+    "publisher": "Centre for Endangered Languages, Visva-Bharati, Santiniketan",
+    "edition": "First Edition",
+    "year": 2022,
+    "isbn": "978-81-957226-2-4",
+    "institutional_manifestation": "https://www.cfelvb.in/uploads/pdf/1669185567-Bibliography%20of%20Marginal%20Indian%20Languages.pdf",
+    "pdf_pages_observed_by_retrieval": 435
+  },
+  "mundari_section": {
+    "section_heading_directly_observed": true,
+    "section_starts_pdf_page_index": 298,
+    "section_printed_page": 299,
+    "observed_categories": ["Research", "Book", "Dictionary"],
+    "observed_range_pdf_pages": [298, 304],
+    "examples_directly_observed": [
+      "Cook, S.J. Walter Anthony (1965) A Descriptive Analysis of Mundari",
+      "Evans, Nicholas & Toshiki Osada (2005) Mundari and argumentation in word-class analysis",
+      "Osada, Toshiki (1992) A Reference Grammar of Mundari",
+      "Bhaduri, Manindra Bhusan (1931) A Mundari-English Dictionary"
+    ]
+  },
+  "mundarica_reconciliation": {
+    "citation_a_directly_observed": "Hoffmann, Johann, Arthur Van Emelen & Peter Hipp (1950) Encyclopedia Mundarica. Volume-1-13, Reprint Year-1930-1941.",
+    "citation_b_directly_observed": "Hoffmann, John & Arthur van Emelen (1928) Encyclopedia Mundarica. Volume-1-16, Reprint Year-1990.",
+    "conflicting_volume_descriptions_present": true,
+    "canonical_volume_count_resolved_by_this_source": false,
+    "authoritative_scan_verified": false,
+    "verified_complete_volume_verified": false,
+    "new_mundarica_volume_state_promoted": false,
+    "rule": "Treat the two bibliography entries as secondary bibliographic evidence and preserve the discrepancy; do not collapse or use either entry alone to assert authoritative series completeness."
+  },
+  "verification": {
+    "institutional_publication_page_verified": true,
+    "institutional_pdf_text_manifestation_verified": true,
+    "mundari_heading_directly_observed": true,
+    "mundari_bibliography_entries_directly_observed": true,
+    "pdf_bytes_independently_hashed": false,
+    "bibliographic_entries_independently_resolved_to_all_underlying_sources": false,
+    "cultural_claim_promoted": false,
+    "linguistic_claim_promoted": false,
+    "source_identity_count_changed": false
+  },
+  "rights_access_consent_cultural_governance": {
+    "copyright_notice_observed": "©Visva-Bharati",
+    "open_license_inferred": false,
+    "bibliographic_listing_is_not_reuse_permission": true,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}
