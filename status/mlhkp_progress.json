@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T16:34:00Z",
+  "updated_utc": "2026-09-11T16:55:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 219,
-  "cycle_result": "Run 219 resolved a bibliographic canonicalization risk around Toshiki Osada: Glottolog reference 477414 verifies Osada 2008 as the chapter 'Mundari' in Gregory D. S. Anderson (ed.), The Munda languages, pp.99-164, Routledge, ISBN 9780415328906, while WALS separately identifies Osada 1992 as A Reference Grammar of Mundari. Grambank datapoint GB317-mund1320 displays the secondary locator Osada 2008:107-108, but those underlying pages were not directly inspected, so no typological proposition was promoted. Counts remain frozen and the audited release gate remains NOT_PASS.",
+  "latest_run": 220,
+  "cycle_result": "Run 220 advanced the 2023 Linguistic Survey of India-Jharkhand through a stable PARI secondary manifestation. The page verifies the Language Division, Office of the Registrar General, Government of India as author/copyright holder, publication date 2023-08-01, document structure, and a Mundari-specific factoid locator. This is secondary-manifestation evidence only: official LSI_JHARKHAND.pdf bytes, independent hash, direct page-image verification, and byte identity between official and mirror manifestations remain unresolved. No numeric, linguistic, or cultural proposition was promoted. Counts remain frozen and the audited release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run219_osada_identity_audit": "938dabc9b3cbbd1f91a67a48085a2369046c662f",
-    "run219_search_log": "053ae8abf0f71ab976d8eca29bab52ae5820ae57",
-    "run219_regression_test": "d2c2adb13de4574eb2fcec5546dacb2f23c53f41",
-    "work_head_before_status_sync": "d2c2adb13de4574eb2fcec5546dacb2f23c53f41",
+    "run220_lsi_pari_audit": "24ddacbe74b102c8be52f5a531b199509981ee9e",
+    "run220_search_log": "38eb30a177b49e54fae78f9a218ad74e493bd095",
+    "run220_regression_test": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
+    "work_head_before_status_sync": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
     "previous_final_head_4_of_4_green": "3591adb35e455faa4d5ea8032ebfd52339ce135b"
   },
   "mmsc": {
@@ -27,18 +27,18 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000219",
-    "latest_search_log": "data/source_census/search_log_run219.jsonl",
-    "latest_source_audit": "data/source_census/osada_2008_mundari_chapter_identity_run219_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000220",
+    "latest_search_log": "data/source_census/search_log_run220.jsonl",
+    "latest_source_audit": "data/source_census/lsi_jharkhand_pari_secondary_manifestation_run220_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run219_count_change": "none"
+    "run220_count_change": "none"
   },
   "mundarica": {
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "state_summary": "No Mundarica volume state changed in Run 219. Existing exact-secondary and locator-level manifestations remain bounded by prior audits; authoritative-copy, scan-sequence, OCR/transcription, rights and community-validation gates remain open where previously recorded.",
-    "run219_change": "none"
+    "state_summary": "No Mundarica volume state changed in Run 220. Existing exact-secondary and locator-level manifestations remain bounded by prior audits; authoritative-copy, scan-sequence, OCR/transcription, rights and community-validation gates remain open where previously recorded.",
+    "run220_change": "none"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -51,12 +51,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run219": 0,
-    "claims_added_run219": 0,
-    "evidence_records_added_run219": 0,
-    "evidence_links_added_run219": 0,
-    "verification_audits_added_run219": 1,
-    "exact_locator_or_rights_records_advanced_run219": 1
+    "source_identities_added_run220": 0,
+    "claims_added_run220": 0,
+    "evidence_records_added_run220": 0,
+    "evidence_links_added_run220": 0,
+    "verification_audits_added_run220": 1,
+    "exact_locator_or_rights_records_advanced_run220": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,44 +67,40 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run219_change": "No count-bearing promotion or UI redesign; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized to unchanged release metrics."
+    "run220_change": "No count-bearing promotion or UI redesign; all 42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized to unchanged release metrics."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
     "sync_contract_verified": true,
     "government_archive_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run219_change": "Bibliographic identity reconciliation prevents Osada 1992 and Osada 2008 from being collapsed; no matrix row-state promotion was warranted because pp.107-108 remain uninspected."
+    "run220_change": "LSI-Jharkhand now has a verified secondary HTML manifestation and Mundari-specific locator, while official PDF byte/hash/page-image verification remains an explicit gap; no matrix state promotion to complete is warranted."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "osada_2008_identity_verified": true,
-    "osada_2008_glottolog_reference_id": "477414",
-    "osada_2008_chapter_pages": "99-164",
-    "osada_2008_pages_107_108_directly_verified": false,
-    "osada_1992_and_2008_canonicalized_as_distinct": true,
-    "grambank_gb317_secondary_locator_verified": true,
-    "grambank_underlying_proposition_promoted": false,
-    "glottolog_metadata_cc_by_4_observed": true,
-    "osada_2008_chapter_open_license_inferred": false,
-    "evans_osada_2005_page_image_verified": false,
-    "evans_osada_2005_bytes_verified": false,
-    "evans_osada_2005_independent_hash_verified": false,
+    "lsi_jharkhand_secondary_manifestation_verified": true,
+    "lsi_jharkhand_secondary_manifestation_url": "https://wagtail.ruralindiaonline.org/en/library/resource/linguistic-survey-of-india--jharkhand/",
+    "lsi_jharkhand_mundari_secondary_locator_verified": true,
     "lsi_jharkhand_page_image_verified": false,
     "lsi_jharkhand_bytes_verified": false,
     "lsi_jharkhand_independent_hash_verified": false,
     "official_and_mirror_bytes_proven_identical": false,
+    "osada_2008_identity_verified": true,
+    "osada_2008_pages_107_108_directly_verified": false,
+    "evans_osada_2005_page_image_verified": false,
+    "evans_osada_2005_bytes_verified": false,
+    "evans_osada_2005_independent_hash_verified": false,
     "lexibank_peiros_independent_md5_recomputed": false,
     "mmloso_exact_competition_bytes_verified": false,
     "rau_direct_row_locator_verified": true,
     "rau_independent_hash_verified": false,
-    "participant_records_ingested_run219": 0,
-    "full_text_or_lexical_rows_ingested_run219": 0,
-    "community_validation_inferred_run219": false,
-    "cultural_access_permission_inferred_run219": false
+    "participant_records_ingested_run220": 0,
+    "full_text_or_lexical_rows_ingested_run220": 0,
+    "community_validation_inferred_run220": false,
+    "cultural_access_permission_inferred_run220": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -116,9 +112,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 219; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 219 adds a bibliographic/canonicalization audit boundary.",
-    "build_state": "Previous final head 3591adb35e455faa4d5ea8032ebfd52339ce135b remains the last independently recorded 4/4 green head in the progress ledger. Run-219 work head d2c2adb13de4574eb2fcec5546dacb2f23c53f41 had no workflow runs registered at status-sync check and must not be called green until fresh workflows conclude."
+    "generated_metrics_state": "No count-bearing change in Run 220; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical release-metric regeneration required because counts did not change; Run 220 adds a secondary-manifestation audit boundary for LSI-Jharkhand.",
+    "build_state": "Previous final head 3591adb35e455faa4d5ea8032ebfd52339ce135b remains the last independently recorded 4/4 green head in the progress ledger. Run-220 work head 3254a471245f5f23c6279f19524cd8a20dcd47ea must not be called green until fresh workflows conclude."
   },
   "ci": {
     "previous_final_head": {
@@ -129,24 +125,24 @@
       "streamlit_smoke_test": "success #1796",
       "all_four_green": true
     },
-    "run219_tests_added": ["tests/test_run219_osada_2008_identity.py"],
+    "run220_tests_added": ["tests/test_run220_lsi_pari_secondary_manifestation.py"],
     "work_head_ci": {
-      "head": "d2c2adb13de4574eb2fcec5546dacb2f23c53f41",
-      "publication_build": "not_yet_registered",
-      "source_register_audit": "not_yet_registered",
-      "migration_audit": "not_yet_registered",
-      "streamlit_smoke_test": "not_yet_registered",
-      "state": "fresh_workflows_not_yet_registered_at_status_sync"
+      "head": "3254a471245f5f23c6279f19524cd8a20dcd47ea",
+      "publication_build": "not_yet_verified",
+      "source_register_audit": "not_yet_verified",
+      "migration_audit": "not_yet_verified",
+      "streamlit_smoke_test": "not_yet_verified",
+      "state": "fresh_workflows_pending_independent_check"
     },
     "fresh_final_head_ci_verified": false,
-    "fresh_final_head_ci_note": "Do not claim Run-219 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
+    "fresh_final_head_ci_note": "Do not claim Run-220 final-head 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete; PARI is retained as a secondary manifestation only.",
+    "Official and mirror LSI PDF bytes have not been proven identical.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 is secondary locator evidence only.",
     "Evans and Osada 2005 byte-preserving acquisition, independent hash and page-image verification remain incomplete.",
-    "LSI_JHARKHAND.pdf official byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
-    "Official and mirror LSI PDF bytes have not been proven identical.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Lexibank Peiros v1.1 byte-preserving acquisition and independent MD5 recomputation remain unresolved.",
     "MMLoSo exact competition bytes/version, independent hash and direct file row counts remain unresolved.",
@@ -175,9 +171,8 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing DOI/handle/ARK/catalogue identity and lawful manifestations.",
-    "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence; keep Osada 1992 and 2008 identities distinct.",
-    "Acquire exact Mundarica manifestations and authoritative copies where obtainable, then independently hash, account pages and verify OCR/transcription without inferring completeness.",
     "Acquire official LSI_JHARKHAND.pdf byte-preservingly, independently hash it, visually verify the Mundari page, and compare official and mirror hashes.",
+    "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence; keep Osada 1992 and 2008 identities distinct.",
     "Acquire exact Census workbooks byte-preservingly, independently hash and verify only directly observed cells.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly, independently hash/count before row-level ingestion.",
     "Acquire Rau bytes through a byte-preserving path, recompute MD5, and directly verify BMED pages before any narrow source-attributed lexical ingestion.",
