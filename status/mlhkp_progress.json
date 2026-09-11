@@ -4,16 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T01:36:00Z",
+  "updated_utc": "2026-09-11T01:42:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 190,
-  "cycle_result": "Run 190 retried official Census 2011 C-16 Jharkhand acquisition and an exact Mundarica Volume V manifestation search while preserving all verification and cultural-access boundaries. Official ORGI/Census search-index metadata continues to expose PC11_C16-20 / PC11_C16 and workbook DDW-C16-STMT-MDDS-2000.xlsx, but direct authoritative retrieval again returned HTTP 502. No workbook bytes, checksum, sheet/cell values or numeric Census values were promoted. No defensible exact Mundarica Volume V digital manifestation was promoted. Counts remain unchanged and the audited-release gate remains open.",
+  "latest_run": 191,
+  "cycle_result": "Run 191 performed a fresh all-class non-Mundarica source census and promoted the primary Unicode Standard Nag Mundari code chart from discoverable web material to an exact-locator audit. The Unicode 17.0 chart directly verifies block U+1E4D0-U+1E4FF, letter names, five signs and digits U+1E4F0-U+1E4F9 on PDF page 2 (printed p. 1780). Unicode Terms of Use are preserved as a rights boundary: no chart/font bytes or glyph images were redistributed, no participant/community/cultural permissions were inferred, and no count-bearing identity or cultural claim was created. Counts remain unchanged and the audited-release gate remains open.",
   "cycle_commits": {
-    "run190_c16_retry_audit": "dec8c0558c822a70d31c02e0b4f9018b2d200b4f",
-    "run190_search_log": "d77208e61341d37ce2a0cea5dfec4b6bc243c916",
-    "run190_regression_test": "b658e528896f7eac737f92b2c4d90e43b33b6a0f",
-    "work_head_before_status_sync": "b658e528896f7eac737f92b2c4d90e43b33b6a0f"
+    "run191_unicode_exact_locator": "f10e1067fbcd62d7840aa0737cb37cd4fe7747a4",
+    "run191_search_log": "78dce70f78120944524f00d71f7507054f8d4561",
+    "run191_regression_test": "b592114a553383ec2d763b0c92839ebe6d8b40f7",
+    "work_head_before_status_sync": "b592114a553383ec2d763b0c92839ebe6d8b40f7"
   },
   "mundarica": {
     "expected_release_slots": 16,
@@ -31,7 +31,7 @@
       "VI-XIII": "historical locators recorded; no authoritative registered scans; not verified complete",
       "XIV-XVI": "authoritative release manifestations unresolved; not verified complete"
     },
-    "run190_change": "Volume V exact-manifestation acquisition was retried without defensible promotion; authoritative scans and verified-complete volumes remain zero."
+    "run191_change": "No Mundarica count/completeness change; this cycle was restricted to the non-Mundarica census and exact-locator promotion."
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -44,12 +44,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000190",
-    "latest_search_log": "data/source_census/search_log_run190.jsonl",
-    "latest_source_audit": "data/source_census/census_2011_c16_jharkhand_retry_audit_run190_2026-09-11.json",
+    "latest_search_id": "MMSC-SEARCH-000191",
+    "latest_search_log": "data/source_census/search_log_run191.jsonl",
+    "latest_source_audit": "data/source_census/unicode_nag_mundari_exact_locator_run191_2026-09-11.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run190_count_change": "none; C-16 authoritative retrieval was blocked and Mundarica V had no defensible manifestation promotion"
+    "run191_count_change": "none; Unicode primary-standard material was promoted to exact-locator audit without permanent identity/count inflation pending deterministic source-register reconciliation"
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -62,12 +62,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run190": 0,
-    "claims_added_run190": 0,
-    "evidence_records_added_run190": 0,
-    "evidence_links_added_run190": 0,
-    "verification_audits_added_run190": 1,
-    "run190_note": "C-16 identity/workbook locator was reconfirmed only at search-index/catalogue-metadata level; direct authoritative retrieval failed, so no workbook numeric cell or cultural proposition entered the evidence graph."
+    "source_identities_added_run191": 0,
+    "claims_added_run191": 0,
+    "evidence_records_added_run191": 0,
+    "evidence_links_added_run191": 0,
+    "verification_audits_added_run191": 1,
+    "run191_note": "Primary Unicode Standard evidence is now exact-located at PDF page/code-point level. It is standards/script evidence, not a generalized cultural proposition; no dangling evidence-graph node was created."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -78,7 +78,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run190_change": "No count-bearing or exposure change; all 42 modules and universal search/evidence/report/owner mappings remain synchronized."
+    "run191_change": "No count-bearing module change; all 42 modules and universal search/evidence/report/owner mappings remain synchronized. Unicode audit is retained in the source-census layer pending permanent source registration."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -108,8 +108,15 @@
     "c16_public_availability_treated_as_permission": false,
     "c16_catalogue_row_labels_verified": true,
     "c16_numeric_values_promoted": false,
-    "participant_records_ingested_run190": 0,
-    "full_text_or_lexical_rows_ingested_run190": 0
+    "unicode_nag_mundari_primary_chart_verified": true,
+    "unicode_nag_mundari_exact_locator": "Unicode 17.0 Nag Mundari chart PDF page 2 (printed p. 1780), U+1E4D0-U+1E4FF",
+    "unicode_public_redistribution_assumed_permitted": false,
+    "unicode_chart_or_font_bytes_ingested": false,
+    "unicode_participant_consent_inferred": false,
+    "unicode_community_validation_inferred": false,
+    "unicode_cultural_access_inferred": false,
+    "participant_records_ingested_run191": 0,
+    "full_text_or_lexical_rows_ingested_run191": 0
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -121,9 +128,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 190; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required; the completeness/gap layer records the repeated C-16 authoritative-retrieval blocker and the unsuccessful Mundarica V manifestation search.",
-    "build_state": "Run-188 exact head 9d02b3cf7c127091411f6e6a9abf7da1f783f636 remains the last independently verified 4/4 green head in the synchronized ledger; fresh final-head CI must pass before Run 190 is called green."
+    "generated_metrics_state": "No count-bearing change in Run 191; manuscript numerical release metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required; completeness/gap state now records a verified primary Unicode Nag Mundari exact locator while retaining all unresolved manifestation, rights and consent gaps.",
+    "build_state": "Run-188 exact head 9d02b3cf7c127091411f6e6a9abf7da1f783f636 remains the last independently verified 4/4 green head in the synchronized ledger; fresh final-head CI must pass before Run 191 is called green."
   },
   "ci": {
     "last_independently_verified_green_head": "9d02b3cf7c127091411f6e6a9abf7da1f783f636",
@@ -134,7 +141,7 @@
       "migration_audit": {"run_number": 1508, "conclusion": "success"},
       "streamlit_smoke_test": {"run_number": 1622, "conclusion": "success"}
     },
-    "run190_tests_added": ["tests/test_run190_c16_retry_boundary.py"],
+    "run191_tests_added": ["tests/test_run191_unicode_nag_mundari_exact_locator.py"],
     "fresh_final_head_ci_verified": false
   },
   "blockers": [
@@ -176,8 +183,8 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads, prioritizing exact DOI/handle/catalogue matches and lawful manifestations.",
+    "Deterministically reconcile the Unicode Nag Mundari primary-standard audit against the permanent source register before any count-bearing registration; retain Unicode Terms of Use boundaries and do not redistribute chart/font material without permission.",
     "Retry authoritative C-16 workbook download; only after byte-preserving acquisition compute an independent hash, inspect sheets and map catalogue labels to exact workbook cells before any numeric promotion.",
-    "Continue Mundarica IV-XIII exact manifestation/page-accounting searches while separately pursuing authoritative physical/digital copies; never promote generic mentions to scans/OCR/page counts.",
     "Acquire Rau 2019 byte-preservingly, independently recompute MD5, verify the underlying BMED exact page/rights relationship, then decide permanent SRC-MMSC registration and narrowly source-attributed graph ingestion atomically.",
     "Resolve Proietti 2025 exact licence variant and lawful PDF integrity/page locators without promoting participant-derived material absent appropriate review.",
     "Obtain direct MMLoSo and Lexibank Peiros manifestations/version/file metadata before row-level ingestion or registration.",
