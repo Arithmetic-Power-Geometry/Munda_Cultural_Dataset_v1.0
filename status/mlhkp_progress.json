@@ -4,18 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T19:28:00Z",
+  "updated_utc": "2026-09-11T19:55:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 225,
-  "work_head_before_status_sync": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499",
-  "previous_final_head": "c2ca38956929cc1378e0a403f1f27deba9517109",
-  "cycle_result": "Run 225 strengthened Mundarica XV-XVI acquisition/canonicalization using modern Gyan reprint bibliographic locators while explicitly preventing reprint or set-level metadata from being treated as historical authoritative manifestations, verified-complete volumes, OCR verification, community validation, cultural-access clearance, or count-bearing source promotion. Previous Run-224 final head is independently 4/4 CI green. Controlled counts remain frozen and release gate remains NOT_PASS.",
+  "latest_run": 226,
+  "work_head_before_status_sync": "aaa3e391ab0c80c58146342b66b2bce3492c53d4",
+  "previous_final_head": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499",
+  "cycle_result": "Run 226 returned to the requested non-Mundarica census. Evans & Osada 2005 author response was advanced from an existing discovery candidate to an independently reconciled ANU article-level exact locator using DOI 10.1515/lity.2005.9.3.442, handle 1885/32609, Linguistic Typology 9(3):442-457, ANU Open Access status, and reported repository file metadata. Direct item open returned HTTP 403 in the audit environment, so bitstream bytes, independent hash, page image and claim-level page locators remain unverified. All discoverable classes were swept; blocked paths were logged and the run continued. No controlled count was inflated and the release gate remains NOT_PASS.",
   "cycle_commits": {
-    "run225_mundarica_reprint_audit": "1a670e5e5d08e28b24530481299063da06b99bad",
-    "run225_search_log": "2e611c5473adbe4977983a5479e77ff894437669",
-    "run225_regression_test": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499",
-    "previous_run224_final_head": "c2ca38956929cc1378e0a403f1f27deba9517109"
+    "run226_evans_osada_author_response_audit": "226be798d686e5b9abd625b561b8d1eae8e6de6d",
+    "run226_search_log": "f7d0b7b59e58186e0cca6ef96796cf5a4a7f451f",
+    "run226_regression_test": "aaa3e391ab0c80c58146342b66b2bce3492c53d4",
+    "previous_run225_work_head": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -28,36 +28,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000225",
-    "latest_search_log": "data/source_census/search_log_run225.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_reprint_volumes_xv_xvi_bibliographic_audit_run225_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000226",
+    "latest_search_log": "data/source_census/search_log_run226.jsonl",
+    "latest_source_audit": "data/source_census/evans_osada_2005_author_response_exact_locator_run226_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run225_count_change": "none"
+    "run226_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "run225_change": "Volumes XV and XVI gained additional modern-reprint bibliographic locators: XV ISBN 9788121203197, reported 135 pages, 2009; XVI ISBN 9788121203227, reported 43 pages, 2009. These are acquisition aids only and are not historical authoritative manifestations. Set ISBN 9788121203043 and set-level 5085-page metadata are explicitly barred from individual-volume attribution.",
-    "per_volume_states": {
-      "I": "manifestation work exists; authoritative-copy/integrity/OCR verification open",
-      "II": "manifestation work exists; authoritative-copy/integrity/OCR verification open",
-      "III": "exact DLI identity distinguished from false Volume-IV link; authoritative-copy/integrity/OCR open",
-      "IV": "exact historical manifestation unresolved; prior identifier collision rejected",
-      "V": "exact secondary DLI/IA manifestation verified; authoritative-copy/hash/scan-sequence/OCR open",
-      "VI": "secondary manifestation work exists; authoritative-copy/integrity/OCR open",
-      "VII": "secondary manifestation work exists; authoritative-copy/integrity/OCR open",
-      "VIII": "secondary manifestation work exists; authoritative-copy/integrity/OCR open",
-      "IX": "secondary internal-page locators exist; exact authoritative manifestation/integrity/OCR open",
-      "X": "secondary manifestation work exists; authoritative-copy/integrity/OCR open",
-      "XI": "secondary historical page range corroborated; exact authoritative manifestation/integrity/OCR open",
-      "XII": "secondary historical page range corroborated; exact authoritative manifestation/integrity/OCR open",
-      "XIII": "bibliographic/secondary manifestation evidence exists; authoritative-copy/integrity/OCR open",
-      "XIV": "historical authoritative manifestation/integrity/OCR unresolved",
-      "XV": "modern reprint bibliographic locator verified; historical authoritative manifestation/integrity/OCR unresolved",
-      "XVI": "modern reprint bibliographic locator verified; historical authoritative manifestation/integrity/OCR unresolved"
-    },
+    "last_mundarica_run": 225,
+    "run226_change": "none; Run 226 is non-Mundarica by scope",
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"]
   },
   "evidence_and_schema": {
@@ -71,11 +54,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "source_identities_added_run225": 0,
-    "claims_added_run225": 0,
-    "evidence_records_added_run225": 0,
-    "evidence_links_added_run225": 0,
-    "verification_audits_added_run225": 1
+    "source_identities_added_run226": 0,
+    "claims_added_run226": 0,
+    "evidence_records_added_run226": 0,
+    "evidence_links_added_run226": 0,
+    "verification_audits_added_run226": 1,
+    "run226_boundary": "Exact article-level locator promoted; no claim/evidence-graph proposition promoted because bitstream/page-image verification remains unavailable."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -86,7 +70,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run225_change": "No redesign or module-count change; all 42 modules and required cross-cutting functions remain mapped. Evidence verification was prioritized."
+    "run226_change": "No module-count or public-evidence change; existing 42-module universal-search mapping remains numerically synchronized."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -94,20 +78,18 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run225_change": "No coverage-state promotion; Mundarica XV-XVI bibliographic locators improve acquisition readiness only."
+    "run226_change": "No coverage-state promotion. Peer-reviewed-source verification depth improved while ANU bitstream/page-level verification remains an explicit gap."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "modern_reprint_metadata_treated_as_cultural_permission": false,
-    "modern_reprint_metadata_treated_as_community_validation": false,
-    "mundarica_xv_xvi_historical_manifestations_verified": false,
-    "participant_records_ingested_run225": 0,
-    "full_text_or_lexical_rows_ingested_run225": 0,
-    "community_validation_inferred_run225": false,
-    "cultural_access_permission_inferred_run225": false
+    "open_access_treated_as_blanket_redistribution_license": false,
+    "participant_records_ingested_run226": 0,
+    "full_text_or_lexical_rows_ingested_run226": 0,
+    "community_validation_inferred_run226": false,
+    "cultural_access_permission_inferred_run226": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -119,27 +101,20 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 225; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 225.",
-    "build_state": "Run-224 final head independently passed all four workflows. Run-225 fresh CI must conclude before the Run-225 head can be called green."
+    "generated_metrics_state": "No count-bearing change in Run 226; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 226.",
+    "build_state": "Fresh Run-226 final-head CI must conclude before the head can be called green."
   },
   "ci": {
-    "previous_final_head": "c2ca38956929cc1378e0a403f1f27deba9517109",
-    "previous_final_head_4_of_4_green": true,
-    "previous_workflows": {
-      "MLHKP Publication Build": {"run_number": 1699, "conclusion": "success"},
-      "MLHKP Source Register Audit": {"run_number": 1681, "conclusion": "success"},
-      "MLHKP Migration Audit": {"run_number": 1732, "conclusion": "success"},
-      "MLHKP Streamlit Smoke Test": {"run_number": 1846, "conclusion": "success"}
-    },
-    "run225_tests_added": ["tests/test_run225_mundarica_reprint_boundaries.py"],
-    "fresh_run225_final_head_ci_verified": false,
-    "fresh_run225_final_head_ci_note": "Do not claim Run-225 4/4 green until commit-associated workflow conclusions are independently checked."
+    "previous_final_head": "534b4c0fcb249a53a3f5b54ac34c836c23d8f499",
+    "previous_final_head_4_of_4_green": false,
+    "run226_tests_added": ["tests/test_run226_evans_osada_author_response.py"],
+    "fresh_run226_final_head_ci_verified": false,
+    "fresh_run226_final_head_ci_note": "Do not claim Run-226 4/4 green until commit-associated workflow conclusions are independently checked."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; unresolved exact historical manifestations, byte integrity, page accounting, OCR and structuring remain.",
-    "Mundarica XV-XVI modern reprint bibliographic records do not close historical manifestation, byte/hash, scan-sequence, OCR, completeness, rights, community-validation or cultural-access gates.",
+    "Evans & Osada 2005 author-response ANU bitstream bytes, independent hash, page-image inspection and claim-level exact-page locator remain unverified after direct item open returned HTTP 403 in this audit environment.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank GB317 remains secondary locator evidence only.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
@@ -147,7 +122,8 @@
     "MMLoSo exact competition bytes/version, independent hash and direct file row counts remain unresolved.",
     "Rau independent MD5 recomputation, underlying BMED pages and explicit reuse licensing remain incomplete; zero lexical rows are imported.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
-    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
+    "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized.",
+    "Mundarica I-XVI remains a separate open stream; Run 226 intentionally did not treat it as part of the requested non-Mundarica census."
   ],
   "deadline_progress": {
     "status": "on_target_but_gate_open",
@@ -166,12 +142,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, zero authoritative/verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved direct Osada page verification, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved direct Osada page verification, and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Use XV/XVI reprint ISBNs as acquisition locators only; seek exact historical manifestations and independently verify bytes/hash/page sequence before OCR promotion.",
-    "Resolve true Mundarica IV and authoritative manifestations for IX, XI-XVI; do not reuse the known Volume-III identifier collision.",
+    "Acquire the Evans & Osada 2005 author-response bitstream through a lawful byte-preserving route; independently hash and inspect exact pages before proposition-level promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly; independently hash/count before row-level ingestion.",
