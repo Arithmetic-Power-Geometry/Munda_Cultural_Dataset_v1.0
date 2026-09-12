@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T00:43:00Z",
+  "updated_utc": "2026-09-12T00:43:24Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 235,
-  "work_head_before_status_sync": "f2cd4e43d3b94b5390e513dff4e2423b5d5fc728",
-  "previous_final_head": "c31104cd5713345ba707f332e817c67985a21aa0",
-  "cycle_result": "Run 235 directly inspected an ARSI-hosted 1938 Jesuit bibliography and strengthened Mundarica XI-XII page accounting: Volume XI is recorded as P, Patna 1938, printed pages 3175-3456; Volume XII as R, 1938, printed pages 3457-3707. This is bibliographic/page-locator advancement only. No historical volume manifestation, byte/hash integrity, scan sequence, OCR verification, cultural fact, linguistic proposition, right, community validation or completeness state was fabricated or promoted.",
+  "latest_run": 236,
+  "work_head_before_status_sync": "2577509c7885a60cf96ce14c72e1365516a60770",
+  "previous_final_head": "dace8554f0accac7c01c7db12d04a00140b813c3",
+  "cycle_result": "Run 236 completed a non-Mundarica exact-locator and governance-boundary audit of Karya's Endangered Recipes Translated 500 dataset. The public dataset card verifies a distinct translated release related to but not identical with ELR-1000, a Mundari aggregate row of 50 recipes / 315 images / 6.30 average images / 783 sentence pairs, a translated-release CC BY 4.0 declaration, explicit separate licensing for source ELR-1000, and gated file access. Zero recipe rows, translations, images, participant material or cultural propositions were ingested because gated files were not accessed and participant-level consent/community validation/cultural access were not independently verified. The run also corrects stale status-only additional-federated/still-to-acquire values to the canonical MMSC/publication values 28/27; no controlled source/evidence/module count changed.",
   "cycle_commits": {
-    "run235_mundarica_xi_xii_audit": "e1d99e8bf0effc26c6afd5e0545d691e1b19ab55",
-    "run235_search_log": "f2cd4e43d3b94b5390e513dff4e2423b5d5fc728"
+    "run236_karya_translated_recipes_audit": "21fb739a6128043cfecff4b3d431d41cb4e7d77c",
+    "run236_search_log": "c4a33519c4bf7a59f5fb76464f99ded688161cd1",
+    "run236_regression_test": "2577509c7885a60cf96ce14c72e1365516a60770"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -24,14 +25,14 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "additional_federated_discoveries": 30,
-    "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000235",
-    "latest_search_log": "data/source_census/search_log_run235.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_xi_xii_jesuit_bibliographic_page_accounting_run235_2026-09-12.json",
+    "additional_federated_discoveries": 28,
+    "still_to_acquire_additional_discoveries": 27,
+    "latest_search_id": "MMSC-SEARCH-000236",
+    "latest_search_log": "data/source_census/search_log_run236.jsonl",
+    "latest_source_audit": "data/source_census/karya_endangered_recipes_translated500_mundari_scope_run236_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run235_count_change": "none"
+    "run236_count_change": "none; status-only 30/29 drift corrected to canonical mmsc_index and publication metrics values 28/27"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -43,7 +44,7 @@
       "XI": "P; Patna 1938; printed pages 3175-3456; inclusive bibliographic range arithmetic 282 pages",
       "XII": "R; 1938; printed pages 3457-3707; inclusive bibliographic range arithmetic 251 pages"
     },
-    "state": "Bibliographic/page locators exist for several volumes, with XI-XII now directly verified against an ARSI-hosted 1938 bibliography. No volume is promoted to authoritative registered scan or verified complete without exact manifestation, byte/hash, scan-sequence and OCR verification."
+    "state": "Bibliographic/page locators exist for several volumes, with XI-XII directly verified against an ARSI-hosted 1938 bibliography in Run 235. Run 236 is non-Mundarica and does not alter this state. No volume is promoted to authoritative registered scan or verified complete without exact manifestation, byte/hash, scan-sequence and OCR verification."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -56,10 +57,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run235": 0,
-    "evidence_records_added_run235": 0,
-    "evidence_links_added_run235": 0,
-    "verification_audits_added_run235": 1
+    "claims_added_run236": 0,
+    "evidence_records_added_run236": 0,
+    "evidence_links_added_run236": 0,
+    "verification_audits_added_run236": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -70,7 +71,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run235_change": "No redesign. The new Mundarica XI-XII audit is verification metadata only and does not alter public claim or module counts."
+    "run236_change": "No module redesign or public-content insertion. The new Karya translated-recipe audit is verification metadata only; gated record-level content is not inserted into universal-search evidence results, and the 42-module mapping remains synchronized."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -78,7 +79,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run235_change": "Mundarica XI-XII bibliographic/page-accounting confidence strengthened; manifestation/integrity/OCR gaps remain explicit."
+    "run236_change": "No coverage row is upgraded from the gated translated-recipe release. A new explicit manifestation gap is recorded: gated access, byte/hash validation, record-level provenance and MLHKP cultural-access review are required before recipe-content ingestion."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -86,11 +87,14 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run235": 0,
-    "full_text_or_lexical_rows_ingested_run235": 0,
-    "community_validation_inferred_run235": false,
-    "cultural_access_permission_inferred_run235": false,
-    "secondary_locator_substituted_for_internal_mundarica_evidence": false
+    "participant_records_ingested_run236": 0,
+    "full_text_or_lexical_rows_ingested_run236": 0,
+    "recipe_rows_ingested_run236": 0,
+    "media_items_ingested_run236": 0,
+    "community_validation_inferred_run236": false,
+    "cultural_access_permission_inferred_run236": false,
+    "dataset_card_consent_statement_treated_as_independent_participant_audit": false,
+    "translated_release_license_inferred_to_original_elr1000": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -101,10 +105,12 @@
     "duplicate_web_records": 3,
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
+    "additional_federated_discoveries": 28,
+    "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 235; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 235.",
-    "build_state": "Run-234 final head c31104cd5713345ba707f332e817c67985a21aa0 is independently 4/4 green. Fresh Run-235 head requires its own workflow conclusions before being called green."
+    "generated_metrics_state": "No controlled count-bearing change in Run 236. Canonical publication metrics remain 42/90/87/3/14/73, additional federated/still-to-acquire 28/27, and evidence 52/52/52. The prior progress-ledger-only 30/29 drift has been corrected here to match mmsc_index.json and generated release_metrics.json.",
+    "tables_figures_state": "No numerical regeneration required in Run 236 because canonical controlled counts did not change.",
+    "build_state": "Run-234 final head c31104cd5713345ba707f332e817c67985a21aa0 was previously independently 4/4 green. Fresh Run-236 final head requires its own workflow conclusions before being called green."
   },
   "ci": {
     "previous_verified_head": "c31104cd5713345ba707f332e817c67985a21aa0",
@@ -115,12 +121,13 @@
       "migration_audit": "#1789 success",
       "streamlit_smoke_test": "#1903 success"
     },
-    "run235_test_bearing_head": "f2cd4e43d3b94b5390e513dff4e2423b5d5fc728",
-    "fresh_run235_final_head_ci_verified": false,
-    "fresh_run235_final_head_ci_note": "Run-235 commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the new final head may be called 4/4 green."
+    "run236_test_bearing_head": "2577509c7885a60cf96ce14c72e1365516a60770",
+    "fresh_run236_final_head_ci_verified": false,
+    "fresh_run236_final_head_ci_note": "Run-236 audit/search/test/status commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the new final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Karya endangered-recipes-translated-500 has an exact public card, distinct-release relationship, translated-release CC BY 4.0 declaration and Mundari aggregate locator, but data files are gated. Byte-preserving acquisition, independent integrity checks, record-level provenance and MLHKP cultural-access review remain required before any recipe, translation, image, participant material or cultural note is ingested.",
     "Run-235 directly verifies Mundarica XI-XII bibliographic printed page ranges, but exact lawful historical manifestations, byte hashes, scan sequence and OCR verification remain unresolved; neither volume is verified complete.",
     "Run-234 CIIL BVP04859, BVP06110 and BVP00242 are exact metadata/file-manifestation records but still require byte-preserving acquisition, independent hashes and exact internal-page inspection before proposition or lexical-row promotion.",
     "The Run-232 Commons Assam Mundari map has exact metadata/licensing/original-file locator, but byte-preserving acquisition and independent hashing remain unresolved; its underlying Census C-16 workbook/cells are not yet primary-verified.",
@@ -152,15 +159,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved internal-page verification for CIIL resources, unresolved direct Osada page verification, and participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved internal-page verification for CIIL resources, unresolved direct Osada page verification, gated Karya translated-recipe bytes/records and participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Locate and lawfully acquire exact Mundarica XI-XII historical manifestations matching the now-directly-verified 1938 page accounting; independently hash and verify scan sequence before OCR/completeness promotion.",
+    "Obtain lawful gated access to the exact Karya endangered-recipes-translated-500 manifestation; independently verify bytes/integrity and record-level provenance, then promote only content that also passes MLHKP consent/community/cultural-access review.",
+    "Locate and lawfully acquire exact Mundarica XI-XII historical manifestations matching the directly verified 1938 page accounting; independently hash and verify scan sequence before OCR/completeness promotion.",
     "Acquire exact CIIL BVP04859, BVP06110 and BVP00242 manifestations byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
     "Acquire the exact Run-232 Commons SVG byte-preservingly, independently hash it, and acquire/verify the declared Assam C-16 workbook/cells before any demographic claim promotion.",
     "Acquire exact permitted CIIL grammar bitstreams byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
-    "Locate and lawfully acquire exact Mundarica IV, IX and XIII-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly; independently hash/count before row-level ingestion.",
