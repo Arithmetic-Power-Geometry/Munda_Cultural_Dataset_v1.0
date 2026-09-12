@@ -1,0 +1,97 @@
+{
+  "run_id": 263,
+  "date_utc": "2026-09-12",
+  "stream": "government LSI / grammar / fieldwork-provenance source census",
+  "scope_class": ["government_TRI_Census_LSI", "grammars", "books", "web_resources"],
+  "purpose": "Promote the official ORGI LSI-West Bengal Mundari section beyond discovery-only status to exact catalogue/download/section locator evidence, while preserving participant, reuse, OCR, and cultural-access uncertainty.",
+  "source": {
+    "title": "LINGUISTIC SURVEY OF INDIA-WEST BENGAL (PART-I)",
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "catalogue_id": "LSI_WB_PART_I",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/34826",
+    "direct_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/34826/download/38514/LSI_WB_PART_I.pdf",
+    "declared_download": "LSI_WB_PART_I.pdf",
+    "date_published": "2016-08-01",
+    "resource_type": "book",
+    "series": "LINGUISTIC SURVEY OF INDIA",
+    "mundari_section_author_as_rendered": "SIBASIS MUKHERJEE",
+    "official_owner_context": "ORGI Digital Library / Language Division"
+  },
+  "exact_locators": [
+    {
+      "locator": "LSI_WB_PART_I.pdf, printed/PDF section page 391, heading MUNDARI / 1. INTRODUCTION",
+      "supported_metadata_or_scope": "The official ORGI indexed rendering exposes the Mundari chapter heading, section author, introductory section and the page number 391.",
+      "promotion_boundary": "Locator and chapter identity only; no lexical, grammatical or cultural proposition is promoted from the chapter text."
+    },
+    {
+      "locator": "LSI_WB_PART_I.pdf, p.391, fieldwork-provenance paragraph",
+      "supported_metadata_or_scope": "The official indexed rendering states that the West Bengal LSI Mundari study used elicited field data from Jhargram in Midnapore district and places collection in August 1995.",
+      "promotion_boundary": "Survey provenance only; no elicited item, participant-derived utterance, or cultural assertion is ingested."
+    },
+    {
+      "locator": "LSI_WB_PART_I.pdf, p.391, subsection 1.1 FAMILY AFFILIATION",
+      "supported_metadata_or_scope": "Stable subsection identity is visible in the first-party indexed rendering.",
+      "promotion_boundary": "Subsection locator only; the linguistic classification text is not promoted into the controlled claim graph in this run."
+    },
+    {
+      "locator": "LSI_WB_PART_I.pdf, p.391, subsection 1.2 LOCATION",
+      "supported_metadata_or_scope": "Stable subsection identity is visible in the first-party indexed rendering.",
+      "promotion_boundary": "Subsection locator only; geographic or demographic assertions are not promoted without independent source reconciliation."
+    }
+  ],
+  "participant_and_sensitive_context": {
+    "named_historical_informants_visible_in_public_source": true,
+    "names_repeated_into_controlled_dataset": false,
+    "participant_consent_independently_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "participant_derived_content_ingested": false,
+    "reason": "Public historical publication of informant names or elicited material is not treated as present-day MLHKP consent, community validation, or cultural-access permission."
+  },
+  "rights_access_integrity_boundary": {
+    "first_party_catalogue_verified": true,
+    "first_party_direct_pdf_identity_verified": true,
+    "public_indexed_text_visible": true,
+    "complete_pdf_bytes_acquired_byte_preservingly": false,
+    "independent_cryptographic_hash_verified": false,
+    "page_image_verified_in_this_run": false,
+    "ocr_against_page_image_verified": false,
+    "explicit_redistribution_license_verified": false,
+    "model_training_permission_verified": false,
+    "public_availability_treated_as_blanket_permission": false
+  },
+  "blocked_attempts": [
+    {
+      "source": "LSI_WB_PART_I.pdf direct ORGI PDF open",
+      "observation": "Direct PDF fetch timed out during this run even though the first-party indexed rendering and catalogue metadata remained accessible.",
+      "disposition": "Keep exact catalogue/download/section locators; do not claim byte-level, page-image or OCR verification; continue other sources immediately."
+    }
+  ],
+  "deduplication": {
+    "canonical_key": "orgi:LSI_WB_PART_I",
+    "catalogue_and_direct_pdf_same_work_family": true,
+    "identity_count_change": false,
+    "reason_count_neutral": "This run strengthens a first-party LSI manifestation and exact locator evidence while the 73 unresolved WEB-MUN leads are not yet fully dispositioned; no unique controlled identity increment is asserted."
+  },
+  "promotion": {
+    "discovery_only": false,
+    "level": "exact first-party catalogue + direct-download + section locator evidence",
+    "exact_locator_records_promoted": 4,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "lexical_rows_promoted": 0,
+    "grammatical_propositions_promoted": 0,
+    "demographic_values_promoted": 0,
+    "participant_derived_records_promoted": 0,
+    "cultural_claims_promoted": 0
+  },
+  "explicit_gaps": [
+    "Byte-preserving acquisition and independent hash of LSI_WB_PART_I.pdf",
+    "Page-image verification and printed-page/PDF-page reconciliation for the Mundari section",
+    "OCR verification against page images before any text-level extraction",
+    "Explicit redistribution/model-training licence determination separate from public access",
+    "Participant/community/cultural-access review before any elicited or culturally sensitive material is promoted",
+    "Deterministic reconciliation of this work family against the 73 unresolved WEB-MUN leads"
+  ]
+}
