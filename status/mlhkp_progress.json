@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T19:27:00Z",
+  "updated_utc": "2026-09-12T19:48:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 272,
-  "previous_final_head": "0c80011a034a07a4ce6c3c8213f4305093c2e28d",
-  "work_head_before_status_sync": "35f7657f8b84ed7ef1421aa76707cb5a95745fb9",
-  "cycle_result": "Run 272 pinned an exact Internet Archive / Digital Library of India manifestation for Encyclopaedia Mundarica Volume XI: in.ernet.dli.2015.462388, ARK ark:/13960/t44r3bd9q, repository totalpages=278, 600 PPI, Birchandra State Central Library source and ABBYY FineReader 11.0 OCR metadata. This advances manifestation identity and repository page accounting only. Scan bytes/hash, printed-page-to-image concordance, scan completeness and OCR correctness remain unverified. The archive rights field 'In Public Domain' is retained as repository metadata and is not treated as blanket MLHKP redistribution, model-training, community or cultural-access permission. All 14 controlled source-census classes were rechecked in MMSC-SEARCH-000272; blocked or insufficiently verified materials remain explicit gaps.",
+  "latest_run": 273,
+  "previous_final_head": "50e9725618d8fd29d05a4a762a7d01a4f43ada91",
+  "work_head_before_status_sync": "000fb354561dfbc6ee0007c7d450a3a4a82fc312",
+  "cycle_result": "Run 273 advanced the non-Mundarica census by verifying the official Bangladesh Multiling Cloud Munda profile at lob.bangla.gov.bd as an exact government-domain source locator. The profile/index reports 860 archive units/sentences and 280 minutes for Munda, while directed-sentence, spontaneous-speech and dictionary-word subcategories display zero on the current profile. The site carries a 2026 BCC-ICTD all-rights-reserved notice. No individual audio/transcription bytes, participant records or cultural claims were ingested because record-level rights, consent, community validation and cultural-access conditions remain unverified. The source is classified as comparative/contextual outside the Jharkhand core geography and remains count-neutral until deterministic reconciliation against the unresolved WEB-MUN set. All 14 controlled source-census classes were rechecked in MMSC-SEARCH-000273.",
   "cycle_commits": {
-    "run272_mundarica_xi_manifestation_audit": "4e3452eed2f5b8e8574215b7ce1d5c58de0a18a5",
-    "run272_all_class_search_log": "35f7657f8b84ed7ef1421aa76707cb5a95745fb9"
+    "run273_multiling_munda_archive_audit": "2fe78c87d85cb5ee5bfadeab2bfd0abcbf0f28b8",
+    "run273_all_class_search_log": "d69ec63aec39ceea47f2855601dc0882a0f056aa",
+    "run273_boundary_tests": "000fb354561dfbc6ee0007c7d450a3a4a82fc312"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,20 +27,20 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000272",
-    "latest_search_log": "data/source_census/search_log_run272.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_vol11_exact_manifestation_audit_run272_2026-09-13.json",
+    "latest_search_id": "MMSC-SEARCH-000273",
+    "latest_search_log": "data/source_census/search_log_run273.jsonl",
+    "latest_source_audit": "data/source_census/bangladesh_multiling_munda_archive_exact_locator_run273_2026-09-13.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run272_count_change": "none; Volume XI exact-manifestation strengthening is count-neutral"
+    "run273_count_change": "none; official Bangladesh Munda archive exact-locator strengthening is count-neutral pending deterministic WEB-MUN reconciliation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 272,
-    "per_volume_state": "Volume XI now has exact Internet Archive/DLI identity in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278, 600 PPI, source library Birchandra State Central Library, Tripura, and ABBYY FineReader 11.0 OCR-engine metadata. Its previously audited printed-page range 3175-3456 is retained separately; no equivalence between repository totalpages and printed-page completeness is inferred. Volume XII retains printed-page range 3457-3707. Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. I-XVI otherwise retain previously documented states.",
-    "state": "Manifestation/page-accounting evidence improved for Volume XI, but authoritative-registered-scan and verified-complete counts remain zero."
+    "per_volume_state": "Volume XI retains exact Internet Archive/DLI identity in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278, 600 PPI, source library Birchandra State Central Library, Tripura, and ABBYY FineReader 11.0 OCR-engine metadata. Its previously audited printed-page range 3175-3456 is retained separately; no equivalence between repository totalpages and printed-page completeness is inferred. Volume XII retains printed-page range 3457-3707. Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. I-XVI otherwise retain previously documented states.",
+    "state": "No Mundarica count changed in Run 273; authoritative-registered-scan and verified-complete counts remain zero."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -52,11 +53,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run272": 0,
-    "evidence_records_added_run272": 0,
-    "evidence_links_added_run272": 0,
-    "verification_audits_added_run272": 1,
-    "run272_promotion_level": "Mundarica XI exact manifestation plus repository page-accounting/integrity metadata; zero cultural-claim or OCR-verification promotion"
+    "claims_added_run273": 0,
+    "evidence_records_added_run273": 0,
+    "evidence_links_added_run273": 0,
+    "verification_audits_added_run273": 1,
+    "run273_promotion_level": "official government-domain source locator plus archive cardinality/access-rights boundary; zero participant, audio, transcription or cultural-claim promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,7 +68,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run272_change": "No module-count change; manifestation audit remains compatible with universal search and evidence drilldown."
+    "run273_change": "No module-count change; the new source audit/search log remains discoverable through the existing universal-search/evidence-drilldown file surfaces without creating unsupported public content rows."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -75,12 +76,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "catalogue_metadata_treated_as_blanket_redistribution_permission": false,
-    "redistribution_permission_inferred_run272": false,
-    "model_training_permission_inferred_run272": false,
-    "participant_consent_inferred_run272": false,
-    "community_validation_inferred_run272": false,
-    "cultural_access_permission_inferred_run272": false,
-    "archive_rights_field_retained_without_blanket_permission_inference": true,
+    "redistribution_permission_inferred_run273": false,
+    "model_training_permission_inferred_run273": false,
+    "participant_consent_inferred_run273": false,
+    "community_validation_inferred_run273": false,
+    "cultural_access_permission_inferred_run273": false,
+    "multiling_cloud_rights_notice": "© 2026 BCC - ICTD. All rights reserved.",
     "derived_peiros_license_verified": "CC-BY-4.0",
     "peiros_underlying_source_blanket_permission_inferred": false
   },
@@ -94,9 +95,9 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing metric changed in Run 272; manuscript release metrics remain synchronized.",
+    "generated_metrics_state": "No count-bearing metric changed in Run 273; manuscript release metrics remain synchronized.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 271 final head is independently 4/4 green; Run 272 final-head workflows must complete before the newest head is labelled green."
+    "build_state": "Run 271 final head was independently 4/4 green; Run 272/273 newest heads must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
     "previous_green_head": "0c80011a034a07a4ce6c3c8213f4305093c2e28d",
@@ -107,13 +108,14 @@
       "MLHKP Migration Audit": "success #2001",
       "MLHKP Streamlit Smoke Test": "success #2115"
     },
-    "run272_test_bearing_head": "35f7657f8b84ed7ef1421aa76707cb5a95745fb9",
-    "fresh_run272_final_head_ci_verified": false,
-    "fresh_run272_final_head_ci_note": "Run 272 audit/search/status files are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
+    "run273_test_bearing_head": "000fb354561dfbc6ee0007c7d450a3a4a82fc312",
+    "fresh_run273_final_head_ci_verified": false,
+    "fresh_run273_final_head_ci_note": "Run 273 audit/search/test/status files are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes. Volume XI now has an exact archive manifestation and repository totalpages metadata, but scan bytes/hash, printed-page-image concordance, completeness and OCR verification remain open.",
+    "The official Bangladesh Multiling Cloud Munda archive now has an exact source locator and displayed 860-unit/280-minute archive cardinality, but individual record locators/bytes/hashes plus participant consent, community validation and cultural-access conditions remain unverified; it is contextual rather than Jharkhand-core evidence.",
+    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes. Volume XI has an exact archive manifestation and repository totalpages metadata, but scan bytes/hash, printed-page-image concordance, completeness and OCR verification remain open.",
     "ORGI Jharkhand C-17 DDW-C17-2000.XLSX bytes, hash, worksheet inventory, exact rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before content promotion.",
     "Evans & Osada (2005) still requires controlled bitstream/hash/page-image verification before passage-level ingestion.",
@@ -142,7 +144,7 @@
     "reason": "Gate remains open because 73 unresolved source dispositions, zero verified-complete Mundarica volumes, C-17 workbook byte/hash/cell gaps, LSI/Atlas integrity gaps, remaining Peiros 181-row reconciliation and other scholarly/dataset integrity work, plus audiovisual/community/cultural-access gates remain unresolved."
   },
   "next_parallel_tasks": [
-    "Acquire permitted Mundarica Volume XI bytes and independently hash them; reconcile scan sequence against printed pages 3175-3456 before any OCR/passages are promoted.",
+    "Deterministically reconcile gov-bd:multiling-cloud:munda against the unresolved WEB-MUN set; if retained, acquire only permitted record-level metadata with stable locators and explicit participant/consent/cultural-access states.",
     "Reconcile the remaining 181 of 202 exact Language_ID=Mundari Peiros v1.1 FormTable rows against pinned sources.bib and parameters.csv, then persist complete reconciliation and attribution before lexical-row promotion.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI Person/Male/Female cells before value promotion.",
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join only proven aliases.",
