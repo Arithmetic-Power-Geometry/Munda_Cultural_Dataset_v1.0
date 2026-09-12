@@ -1,0 +1,126 @@
+{
+  "run_id": 260,
+  "date_utc": "2026-09-12",
+  "stream": "Mundarica I-XVI acquisition/page-accounting/structuring",
+  "purpose": "promote exact archive manifestations and repository-level scan metadata without promoting OCR correctness, printed completeness, rights, community validation or cultural content",
+  "verified_manifestations": [
+    {
+      "volume": "II",
+      "archive_identifier": "dli.bengal.10689.21001",
+      "ark": "ark:/13960/t45r27p2m",
+      "title_rendered": "ENCYCLOPAEDIA MUNDARICA VOL. 2",
+      "publication_date_rendered": "1950",
+      "publisher_rendered": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "source_network": "West Bengal Public Library Network",
+      "source_library": "KRISHNANAGAR PUBLIC LIBRARY",
+      "scanning_centre": "C-DAC KOLKATA",
+      "repository_totalpages": 406,
+      "ppi": 72,
+      "ocr_engine_metadata": "ABBYY FineReader 11.0 (Extended OCR)",
+      "locator": "https://archive.org/details/dli.bengal.10689.21001",
+      "integrity_note": "Repository totalpages is not equivalent to verified printed completeness. Displayed 72 PPI is an OCR/integrity risk signal. Local byte-preserving acquisition, independent hash, scan-to-printed-page reconciliation and OCR verification remain open."
+    },
+    {
+      "volume": "III",
+      "archive_identifier": "in.ernet.dli.2015.14921",
+      "ark": "ark:/13960/t3907ds0b",
+      "title_rendered": "Encyclopedia Mundarica Vol-iii (1930)",
+      "publication_date_rendered": "1930",
+      "publisher_rendered": "Superintendent Government Printing Bihar And Orissa, Patna",
+      "source_library": "Lbs National Academy Of Administration",
+      "scanning_centre": "C-DAC, Noida",
+      "repository_totalpages": 264,
+      "ppi": 600,
+      "archive_rights_metadata": "Out_of_copyright",
+      "ocr_engine_metadata": "ABBYY FineReader 11.0",
+      "locator": "https://archive.org/details/in.ernet.dli.2015.14921",
+      "integrity_note": "Archive rights metadata is retained as source metadata only and is not treated as blanket MLHKP redistribution, model-training or cultural-access permission. Local bytes/hash/page reconciliation/OCR verification remain open."
+    },
+    {
+      "volume": "VII",
+      "archive_identifier": "dli.bengal.10689.20088",
+      "ark": "ark:/13960/t3sv4wt0d",
+      "title_rendered": "ENCYCLOPAEDIA MUNDARICA VOL. 7",
+      "publication_date_rendered": "1950",
+      "publisher_rendered": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "source_network": "West Bengal Public Library Network",
+      "source_library": "STATE CENTRAL LIBRARY, KOLKATA",
+      "scanning_centre": "C-DAC KOLKATA",
+      "repository_totalpages": 274,
+      "ppi": 600,
+      "ocr_engine_metadata": "ABBYY FineReader 11.0 (Extended OCR)",
+      "locator": "https://archive.org/details/dli.bengal.10689.20088",
+      "integrity_note": "This supersedes catalogue-only manifestation evidence with an exact archive identifier, but does not establish printed completeness or verified OCR."
+    },
+    {
+      "volume": "VIII",
+      "archive_identifier": "dli.bengal.10689.20080",
+      "ark": "ark:/13960/t6rz6kh2x",
+      "title_rendered": "ENCYCLOPAEDIA MUNDARICA VOL. 8",
+      "publication_date_rendered": "1950",
+      "publisher_rendered": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "source_network": "West Bengal Public Library Network",
+      "source_library": "STATE CENTRAL LIBRARY, KOLKATA",
+      "scanning_centre": "C-DAC KOLKATA",
+      "repository_totalpages": 422,
+      "ppi": 600,
+      "ocr_engine_metadata": "ABBYY FineReader 11.0 (Extended OCR)",
+      "locator": "https://archive.org/details/dli.bengal.10689.20080",
+      "integrity_note": "This strengthens earlier Google Books contents-anchor evidence with an exact DLI/IA manifestation; local byte/hash/page reconciliation/OCR verification remain open."
+    },
+    {
+      "volume": "XIII",
+      "archive_identifier": "dli.ernet.14932",
+      "ark": "ark:/13960/t6r01q423",
+      "title_rendered": "Encyclopedia Mundarica Vol-xiii (1941)",
+      "publication_date_rendered": "1941",
+      "publisher_rendered": "Superintendent Government Printing Bihar, Patna",
+      "source_library": "Lbs National Academy Of Administration",
+      "scanning_centre": "C-DAC, Noida",
+      "ppi": 600,
+      "page_number_confidence": 77,
+      "pdf_degraded_metadata": "invalid-jp2-headers",
+      "locator": "https://archive.org/details/dli.ernet.14932",
+      "integrity_note": "The archive explicitly flags degraded PDF metadata (invalid-jp2-headers); page-number confidence 77 and repository OCR derivatives are not sufficient for verified page accounting or OCR. Independent byte/hash and scan-level review remain mandatory."
+    }
+  ],
+  "unverified_leads_not_promoted": [
+    {
+      "volume": "V",
+      "candidate_archive_identifier": "in.ernet.dli.2015.14925",
+      "basis": "secondary external-link chain",
+      "disposition": "not promoted because direct archive metadata could not be independently retrieved in this cycle"
+    },
+    {
+      "volume": "XI",
+      "candidate_archive_identifier": "in.ernet.dli.2015.462388",
+      "basis": "secondary external-link chain",
+      "disposition": "not promoted because direct archive metadata could not be independently retrieved in this cycle"
+    }
+  ],
+  "rights_governance_boundary": {
+    "public_archive_availability_is_permission": false,
+    "archive_rights_metadata_is_blanket_redistribution_permission": false,
+    "model_training_permission_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "participant_consent_inferred": false
+  },
+  "promotion": {
+    "level": "exact archive manifestation + repository scan metadata",
+    "volumes_strengthened": ["II", "III", "VII", "VIII", "XIII"],
+    "authoritative_registered_scans_added": 0,
+    "verified_complete_volumes_added": 0,
+    "verified_ocr_volumes_added": 0,
+    "cultural_claims_added": 0,
+    "evidence_claim_count_change": false
+  },
+  "explicit_gaps": [
+    "byte-preserving acquisition and independent cryptographic hash for each manifestation",
+    "scan-image count versus repository totalpages reconciliation",
+    "printed-page mapping and terminal-page completeness verification",
+    "OCR quality verification against page images",
+    "rights assessment beyond archive display metadata",
+    "community validation and cultural-access review before culturally sensitive content ingestion"
+  ]
+}
