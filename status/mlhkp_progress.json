@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T02:38:00Z",
+  "updated_utc": "2026-09-12T02:49:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 238,
-  "work_head_before_status_sync": "94fdd81a191cf106c91eea334c71e05093a83bd3",
-  "previous_final_head": "0b409930148c2d2cb287d1536ed825242852cafa",
-  "cycle_result": "Run 238 directly resolved the Digital Library of India/Internet Archive manifestation for Encyclopaedia Mundarica Volume XIII as item dli.ernet.14932 (ARK ark:/13960/t6r01q423), displayed as 1941 and published by Superintendent Government Printing Bihar, Patna. The archive reports 600 ppi metadata and explicitly flags Pdf_degraded=invalid-jp2-headers. This strengthens manifestation identity only. No byte-preserving acquisition, independent hash, scan-sequence verification, OCR verification, passage ingestion, cultural claim, rights determination, community validation or completeness promotion was made.",
+  "latest_run": 239,
+  "work_head_before_status_sync": "26b8be881e7b67e6a96cb51c2ba7494846048b6e",
+  "previous_final_head": "8c97e31e6173ab2979abc9f22642a2015c958f5b",
+  "cycle_result": "Run 239 verified the official ORGI Census of India 2011 Language Atlas catalogue manifestation (catalog 42561, reference Language_Atlas_2011, declared file Language_Atlas_2011.pdf) and the ORGI Language Division provenance context. Direct PDF acquisition was attempted but the declared ORGI download path returned an HTTP 502/gateway failure, so no internal page/map locator, demographic number, checksum, OCR statement, Munda/Mundari claim or cultural proposition was promoted. The all-class non-Mundarica search continued across books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI, archives, periodicals, web resources, datasets, audio, video, maps and media; blocked sources were logged and the run moved on to other leads.",
   "cycle_commits": {
-    "run238_mundarica_xiii_manifestation_audit": "94cc28a03ad735fe1031a79ff584430acedddede",
-    "run238_search_log": "94fdd81a191cf106c91eea334c71e05093a83bd3"
+    "run239_orgi_language_atlas_audit": "9c3fd653dcf11ffb92831936d43f759b4c0af328",
+    "run239_all_class_search_log": "716e4d79d29e09a40fa8ca8916fb185d78a5931d",
+    "run239_regression_test": "26b8be881e7b67e6a96cb51c2ba7494846048b6e"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,12 +27,38 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000238",
-    "latest_search_log": "data/source_census/search_log_run238.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_xiii_manifestation_audit_run238_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000239",
+    "latest_search_log": "data/source_census/search_log_run239.jsonl",
+    "latest_source_audit": "data/source_census/orgi_language_atlas_2011_manifestation_run239_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run238_count_change": "none; Volume XIII received an exact DLI/Internet Archive manifestation locator, but no new audited source identity or claim/evidence record was created"
+    "run239_count_change": "none; ORGI Language Atlas 2011 received an exact official catalogue/file-manifest locator, but the blocked PDF prevented claim/evidence promotion and no controlled identity count was changed"
+  },
+  "non_mundarica_run239": {
+    "primary_source": "Census of India 2011 - LANGUAGE ATLAS - INDIA",
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "catalog_id": 42561,
+    "reference_id": "Language_Atlas_2011",
+    "declared_file": "Language_Atlas_2011.pdf",
+    "catalog_manifestation_verified": true,
+    "declared_pdf_locator_verified": true,
+    "byte_acquisition_completed": false,
+    "byte_acquisition_blocker": "HTTP 502/gateway failure",
+    "independent_hash_verified": false,
+    "page_image_verified": false,
+    "internal_munda_mundari_locators_promoted": 0,
+    "numeric_values_promoted": 0,
+    "secondary_west_bengal_atlas_toc_discovery": {
+      "munda_section_discovered": true,
+      "mundari_section_discovered": true,
+      "direct_manifestation_fetch_blocked": true,
+      "values_promoted": 0
+    },
+    "other_rechecked_classes": {
+      "dataset": "lexibank/lsi discovered/rechecked; no row-level ingestion pending deterministic reconciliation and source provenance review",
+      "audio": "MegaVoice M035419 and M0B9476 exact listings discovered; content not ingested because rights/participant/community/cultural-access and byte integrity are unresolved",
+      "map": "known Wikimedia Mundari Assam map recognized as prior lead and not duplicated"
+    }
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -39,24 +66,7 @@
     "verified_complete_volumes": 0,
     "last_mundarica_run": 238,
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"],
-    "per_volume_update_run238": {
-      "XIII": {
-        "exact_manifestation_locator_verified": true,
-        "internet_archive_identifier": "dli.ernet.14932",
-        "ark": "ark:/13960/t6r01q423",
-        "displayed_year": 1941,
-        "displayed_publisher": "Superintendent Government Printing Bihar, Patna",
-        "source_project": "Digital Library of India",
-        "source_library": "Lbs National Academy Of Administration",
-        "ppi_metadata": 600,
-        "pdf_degraded_flag": "invalid-jp2-headers",
-        "byte_hash_verified": false,
-        "scan_sequence_verified": false,
-        "ocr_verified": false,
-        "verified_complete": false
-      }
-    },
-    "state": "Volume XIII now has a directly resolved historical digital manifestation locator, but no volume is promoted to authoritative registered scan or verified complete without exact lawful bytes, independent hash, scan-sequence/page accounting and OCR verification."
+    "state": "Run 239 is non-Mundarica. The Run-238 Volume XIII manifestation locator remains valid, but no Mundarica volume is promoted to authoritative registered scan or verified complete without exact lawful bytes, independent hash, scan-sequence/page accounting and OCR verification."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -69,10 +79,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run238": 0,
-    "evidence_records_added_run238": 0,
-    "evidence_links_added_run238": 0,
-    "verification_audits_added_run238": 1
+    "claims_added_run239": 0,
+    "evidence_records_added_run239": 0,
+    "evidence_links_added_run239": 0,
+    "verification_audits_added_run239": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -83,7 +93,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run238_change": "No redesign. Volume-XIII manifestation metadata is audit material only; no unverified OCR, passage or culturally sensitive content was exposed through public modules."
+    "run239_change": "No module-count or public-content change. ORGI atlas catalogue metadata is audit material only until the official PDF and exact internal evidence are directly verified."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -91,7 +101,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run238_change": "Mundarica XIII manifestation discovery is stronger, but byte integrity, scan sequence, exact page accounting, OCR verification, item-level rights and cultural-access review remain explicit gaps."
+    "run239_change": "Government/Census manifestation identity strengthened, but official Language Atlas 2011 PDF bytes, hash, page/map locators and directly observed Munda/Mundari values remain explicit gaps. No coverage-state promotion was justified."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -99,10 +109,10 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "mundarica_passages_ingested_run238": 0,
-    "community_validation_inferred_run238": false,
-    "cultural_access_permission_inferred_run238": false,
-    "redistribution_permission_inferred_run238": false
+    "redistribution_permission_inferred_run239": false,
+    "participant_consent_inferred_run239": false,
+    "community_validation_inferred_run239": false,
+    "cultural_access_permission_inferred_run239": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -116,33 +126,25 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 238; manuscript numerical regeneration is not required for this manifestation-verification cycle.",
+    "generated_metrics_state": "No count-bearing change in Run 239; release_metrics JSON/TeX numerical regeneration is not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-237 final head 0b409930148c2d2cb287d1536ed825242852cafa is independently 4/4 green. Fresh Run-238 heads require their own workflow conclusions before being called green."
+    "build_state": "Run-238 status head was not independently promoted to green in this ledger. Run-239 final head requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_verified_head": "0b409930148c2d2cb287d1536ed825242852cafa",
-    "previous_verified_head_all_four_green": true,
-    "previous_verified_workflows": {
-      "publication_build": "#1773 success",
-      "source_register_audit": "#1755 success",
-      "migration_audit": "#1806 success",
-      "streamlit_smoke_test": "#1920 success"
-    },
-    "run238_test_bearing_head": "94fdd81a191cf106c91eea334c71e05093a83bd3",
-    "fresh_run238_final_head_ci_verified": false,
-    "fresh_run238_final_head_ci_note": "Run-238 audit/search/status commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the new final head may be called 4/4 green."
+    "run239_test_bearing_head": "26b8be881e7b67e6a96cb51c2ba7494846048b6e",
+    "fresh_run239_final_head_ci_verified": false,
+    "fresh_run239_final_head_ci_note": "Run-239 audit/search/test/status commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
-    "Mundarica Volume XIII exact manifestation locator is now verified as dli.ernet.14932 / ark:/13960/t6r01q423, but the archive explicitly reports Pdf_degraded=invalid-jp2-headers; independent byte hash, scan sequence, printed-page mapping and OCR verification remain unresolved.",
+    "Official ORGI Language_Atlas_2011.pdf is catalogued exactly but direct byte acquisition returned a gateway failure; independent hash, page/map locators and directly observed Munda/Mundari values remain unresolved.",
     "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
+    "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
     "CIIL resources still require byte-preserving acquisition, independent hashes and exact internal-page verification before passage promotion.",
     "Lexibank Peiros v1.1, MMLoSo and Rau still require independent byte/integrity closure before row-level ingestion.",
-    "WEB-MUN-0018/0019/0020 have strengthened archival locators but exact audio bytes, rights, performer/participant consent, community validation and MLHKP cultural-access review remain unresolved before content ingestion.",
+    "Historical and contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and MLHKP cultural-access review before content ingestion.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
   ],
@@ -163,16 +165,16 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, zero verified-complete Mundarica volumes, incomplete Census/LSI and scholarly/dataset byte integrity, unresolved CIIL internal-page verification, unresolved direct Osada page verification, unresolved historical-audio byte/rights/consent/cultural-access gates and participant/community-validation gates."
+    "reason": "The release still has 73 unresolved source dispositions, blocked official Language Atlas/Census/LSI byte-level verification, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity, unresolved CIIL and Osada exact-page verification, and unresolved audiovisual/participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "For Mundarica XIII, pursue lawful byte-preserving acquisition and independent hashing, then audit scan sequence and printed-page mapping; treat the archive PDF-degraded flag as a mandatory integrity blocker until resolved.",
-    "Locate and lawfully acquire exact Mundarica IV/IX/XI/XII/XIV/XV/XVI manifestations, independently hash and verify scan sequence before OCR/completeness promotion.",
+    "Retry official Language_Atlas_2011.pdf byte-preserving acquisition; independently hash it and verify exact Munda/Mundari pages/maps before promoting any values.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Acquire exact permitted CIIL manifestations byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
     "Acquire exact Peiros v1.1, MMLoSo and Rau manifestations byte-preservingly; independently hash/count before row-level ingestion.",
-    "Keep all 42 Streamlit modules, evidence graph, governance gates, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
+    "Continue audiovisual census but keep rights, performer/participant consent, community validation and cultural access as separate mandatory gates.",
+    "Keep all 42 Streamlit modules, evidence graph, coverage/gap matrix, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
 }
