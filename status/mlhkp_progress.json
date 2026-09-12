@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T08:31:45Z",
+  "updated_utc": "2026-09-12T08:45:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 250,
-  "work_head_before_status_sync": "c8262536cefa4f9ea9037e2682689f33f445338f",
-  "previous_final_head": "123a3a49a9b0bfffd5575874cef20029bc2ddc9b",
-  "cycle_result": "Run 250 strengthened Mundarica Volume XI manifestation/page accounting using Google Books record nnzW-Dy4NowC. The record identifies Encyclopaedia Mundarica Volume 11, Johann Hoffmann and Arthur van Emelen, Superintendent government printing Bihar and Orissa, original from the University of Minnesota, digitized 2020-02-25, and directly exposes contents anchors 3173, 3175 and 3183. These anchors are consistent with earlier bibliographic page accounting around 3175-3456 but do not establish complete scan pagination, OCR correctness, byte integrity or rights. No cultural or linguistic content was promoted. All other streams were rechecked and blockers carried forward without fabrication.",
+  "latest_run": 251,
+  "work_head_before_status_sync": "931b8a6c82efcb4675ae2f6a2121ae2509341451",
+  "previous_final_head": "36e92988efedd092bec1e1d2522627e42b6dc6e7",
+  "cycle_result": "Run 251 advanced N. K. Sinha's 1974 Mundari Phonetic Reader beyond discovery-only status to exact bibliographic/manifestation and contents-locator evidence. CiNii NCID BA72929895, two independent Google Books manifestations (hITRAAAAMAAJ and Rn8KAQAAIAAJ), Cambridge/Language review DOI 10.2307/413041, and ERIC ED228863 corroborate the work family. Google Books exposes stable contents anchors at printed pages 1, 12 and 18. Reported extent conflicts (viii/xi/xii front matter and 102/103 pages) are preserved explicitly rather than normalized. No lexical, phonetic-example, grammatical or cultural content was promoted because lawful complete bytes, hash, page-sequence/OCR verification, reuse rights and cultural-access review remain open.",
   "cycle_commits": {
-    "run250_mundarica_xi_manifestation": "32b537616c8865a9fe17f811eab7f1121c3b78fb",
-    "run250_all_class_search_log": "c8262536cefa4f9ea9037e2682689f33f445338f"
+    "run251_sinha_phonetic_reader_locator": "d074a0805949097e9fb6040b91c5e9327cc466d8",
+    "run251_all_class_search_log": "8ebd0df3560a149c1845a856d97cd7c808066d60",
+    "run251_boundary_tests": "931b8a6c82efcb4675ae2f6a2121ae2509341451"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000250",
-    "latest_search_log": "data/source_census/search_log_run250.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_vol11_google_books_manifestation_run250_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000251",
+    "latest_search_log": "data/source_census/search_log_run251.jsonl",
+    "latest_source_audit": "data/source_census/sinha_1974_mundari_phonetic_reader_exact_locator_run251_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run250_count_change": "none; Volume XI gained manifestation/page-structure corroboration without identity inflation"
+    "run251_count_change": "none; Sinha 1974 gained exact work-family/manifestation and contents-locator corroboration without identity inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -69,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run250": 0,
-    "evidence_records_added_run250": 0,
-    "evidence_links_added_run250": 0,
-    "verification_audits_added_run250": 1,
-    "run250_promotion_level": "manifestation/page-structure locator only; zero passages/OCR/linguistic/cultural claims"
+    "claims_added_run251": 0,
+    "evidence_records_added_run251": 0,
+    "evidence_links_added_run251": 0,
+    "verification_audits_added_run251": 1,
+    "run251_promotion_level": "exact bibliographic/manifestation and contents-locator evidence only; zero text/phonetic examples/linguistic/cultural claims"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -84,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run250_change": "No module-count or public-data change; Volume XI locator remains audit metadata only."
+    "run251_change": "No module-count or public-data change; Sinha 1974 locator remains audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -92,12 +93,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run250": false,
-    "model_training_permission_inferred_run250": false,
-    "participant_consent_inferred_run250": false,
-    "community_validation_inferred_run250": false,
-    "cultural_access_permission_inferred_run250": false,
-    "run250_metadata_rights_note": "Google Books catalogue/snippet visibility is used only for manifestation/page-structure corroboration and is not permission to ingest, train on or redistribute the underlying volume."
+    "redistribution_permission_inferred_run251": false,
+    "model_training_permission_inferred_run251": false,
+    "participant_consent_inferred_run251": false,
+    "community_validation_inferred_run251": false,
+    "cultural_access_permission_inferred_run251": false,
+    "run251_metadata_rights_note": "Institutional catalogue, review and snippet visibility is used only for identity/manifestation/contents-location corroboration and is not permission to ingest, train on or redistribute the underlying work."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -111,9 +112,9 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 250; release metrics numerical regeneration not required.",
+    "generated_metrics_state": "No count-bearing change in Run 251; release metrics numerical regeneration not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-249 final head is independently verified 4/4 green; Run-250 test-bearing/final heads require their own workflow conclusions before being called green."
+    "build_state": "Run-249 final head was independently verified 4/4 green in the prior ledger; Run-251 test-bearing/final heads require their own workflow conclusions before being called green."
   },
   "ci": {
     "previous_green_head": "123a3a49a9b0bfffd5575874cef20029bc2ddc9b",
@@ -124,26 +125,21 @@
       "MLHKP Migration Audit #1875",
       "MLHKP Streamlit Smoke Test #1989"
     ],
-    "run250_test_bearing_head": "c8262536cefa4f9ea9037e2682689f33f445338f",
-    "run250_test_bearing_head_workflows_at_status_sync": {
-      "MLHKP Publication Build #1846": "in_progress",
-      "MLHKP Source Register Audit #1828": "in_progress",
-      "MLHKP Migration Audit #1879": "in_progress",
-      "MLHKP Streamlit Smoke Test #1993": "in_progress"
-    },
-    "fresh_run250_final_head_ci_verified": false,
-    "fresh_run250_final_head_ci_note": "Run-250 final status commit requires its own four commit-associated workflow conclusions before it may be called 4/4 green."
+    "run251_test_bearing_head": "931b8a6c82efcb4675ae2f6a2121ae2509341451",
+    "run251_test_bearing_head_workflows_at_status_sync": {},
+    "fresh_run251_final_head_ci_verified": false,
+    "fresh_run251_final_head_ci_note": "No commit-associated workflow conclusions were returned for the Run-251 test-bearing head at status-sync time; do not call Run 251 4/4 green until fresh conclusions exist."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
-    "Mundarica Volume XI now has Google Books manifestation/page anchors and University of Minnesota provenance, but lawful complete bytes, independent hash, full scan/page reconciliation, OCR verification and rights/cultural-access review remain open.",
+    "Sinha 1974 Mundari Phonetic Reader now has exact institutional/review/Google Books manifestations and contents anchors, but lawful complete bytes, independent hash, full scan/page reconciliation, OCR verification, rights and cultural-access review remain open; conflicting extent statements are unresolved.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
     "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete.",
     "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
-    "CIIL resources still require byte-preserving acquisition, independent hashes and exact internal-page verification before passage promotion.",
+    "Other CIIL resources still require byte-preserving acquisition, independent hashes and exact internal-page verification before passage promotion.",
     "Lexibank Peiros v1.1, MMLoSo and Rau still require independent byte/integrity closure before row-level ingestion.",
     "Historical and contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and MLHKP cultural-access review before content ingestion.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
@@ -170,7 +166,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "For Mundarica XI, acquire a lawful complete bitstream if obtainable, independently hash it and reconcile every scan image to printed pagination before OCR/passages are promoted.",
+    "Acquire a lawful complete Sinha 1974 Mundari Phonetic Reader manifestation if obtainable, independently hash it, reconcile front matter/printed pagination and verify exact page images/OCR before promoting any phonetic examples.",
     "For Mundarica I-XVI, continue exact manifestation acquisition, page accounting and verification without treating catalogue visibility as completeness.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
