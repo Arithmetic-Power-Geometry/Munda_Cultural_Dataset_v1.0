@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T02:49:00Z",
+  "updated_utc": "2026-09-12T03:31:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 239,
-  "work_head_before_status_sync": "26b8be881e7b67e6a96cb51c2ba7494846048b6e",
-  "previous_final_head": "8c97e31e6173ab2979abc9f22642a2015c958f5b",
-  "cycle_result": "Run 239 verified the official ORGI Census of India 2011 Language Atlas catalogue manifestation (catalog 42561, reference Language_Atlas_2011, declared file Language_Atlas_2011.pdf) and the ORGI Language Division provenance context. Direct PDF acquisition was attempted but the declared ORGI download path returned an HTTP 502/gateway failure, so no internal page/map locator, demographic number, checksum, OCR statement, Munda/Mundari claim or cultural proposition was promoted. The all-class non-Mundarica search continued across books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI, archives, periodicals, web resources, datasets, audio, video, maps and media; blocked sources were logged and the run moved on to other leads.",
+  "latest_run": 240,
+  "work_head_before_status_sync": "c78e258b4682826072e8da0c028bf635b559a03b",
+  "previous_final_head": "aeafdd6477fc375434c397bd82e15648d5dd5c84",
+  "cycle_result": "Run 240 verified the official ORGI C-17 India 2011 catalogue/workbook manifestation (PC11_C17-00; DDW-C17-0000.XLSX) and its catalog-level bilingualism/trilingualism schema. No numeric Munda/Mundari values were promoted because workbook bytes, worksheet names and exact rows/cells were not independently acquired and inspected. LSI_JHARKHAND.pdf and Language_Atlas_2011.pdf remained gateway-blocked, so those blockers were retained and work continued on another safe official source.",
   "cycle_commits": {
-    "run239_orgi_language_atlas_audit": "9c3fd653dcf11ffb92831936d43f759b4c0af328",
-    "run239_all_class_search_log": "716e4d79d29e09a40fa8ca8916fb185d78a5931d",
-    "run239_regression_test": "26b8be881e7b67e6a96cb51c2ba7494846048b6e"
+    "run240_orgi_c17_audit": "76917b3be4153e0a92f3e667fa07aa2de501e9c0",
+    "run240_all_class_search_log": "c78e258b4682826072e8da0c028bf635b559a03b"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,38 +26,25 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000239",
-    "latest_search_log": "data/source_census/search_log_run239.jsonl",
-    "latest_source_audit": "data/source_census/orgi_language_atlas_2011_manifestation_run239_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000240",
+    "latest_search_log": "data/source_census/search_log_run240.jsonl",
+    "latest_source_audit": "data/source_census/orgi_c17_india_manifestation_run240_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run239_count_change": "none; ORGI Language Atlas 2011 received an exact official catalogue/file-manifest locator, but the blocked PDF prevented claim/evidence promotion and no controlled identity count was changed"
+    "run240_count_change": "none; C-17 received an exact official catalogue/workbook manifestation and catalog-level schema, but no controlled identity or public evidence count changed"
   },
-  "non_mundarica_run239": {
-    "primary_source": "Census of India 2011 - LANGUAGE ATLAS - INDIA",
-    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
-    "catalog_id": 42561,
-    "reference_id": "Language_Atlas_2011",
-    "declared_file": "Language_Atlas_2011.pdf",
+  "non_mundarica_run240": {
+    "primary_source": "C-17: Population by bilingualism and trilingualism, India - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "reference_id": "PC11_C17-00",
+    "declared_file": "DDW-C17-0000.XLSX",
     "catalog_manifestation_verified": true,
-    "declared_pdf_locator_verified": true,
+    "catalog_schema_verified": true,
     "byte_acquisition_completed": false,
-    "byte_acquisition_blocker": "HTTP 502/gateway failure",
     "independent_hash_verified": false,
-    "page_image_verified": false,
-    "internal_munda_mundari_locators_promoted": 0,
-    "numeric_values_promoted": 0,
-    "secondary_west_bengal_atlas_toc_discovery": {
-      "munda_section_discovered": true,
-      "mundari_section_discovered": true,
-      "direct_manifestation_fetch_blocked": true,
-      "values_promoted": 0
-    },
-    "other_rechecked_classes": {
-      "dataset": "lexibank/lsi discovered/rechecked; no row-level ingestion pending deterministic reconciliation and source provenance review",
-      "audio": "MegaVoice M035419 and M0B9476 exact listings discovered; content not ingested because rights/participant/community/cultural-access and byte integrity are unresolved",
-      "map": "known Wikimedia Mundari Assam map recognized as prior lead and not duplicated"
-    }
+    "worksheet_names_verified": false,
+    "exact_munda_mundari_rows_verified": false,
+    "numeric_values_promoted": 0
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -66,7 +52,7 @@
     "verified_complete_volumes": 0,
     "last_mundarica_run": 238,
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"],
-    "state": "Run 239 is non-Mundarica. The Run-238 Volume XIII manifestation locator remains valid, but no Mundarica volume is promoted to authoritative registered scan or verified complete without exact lawful bytes, independent hash, scan-sequence/page accounting and OCR verification."
+    "state": "No Mundarica volume is promoted to authoritative registered scan or verified complete without exact lawful bytes, independent hash, scan-sequence/page accounting and OCR verification."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -79,10 +65,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run239": 0,
-    "evidence_records_added_run239": 0,
-    "evidence_links_added_run239": 0,
-    "verification_audits_added_run239": 1
+    "claims_added_run240": 0,
+    "evidence_records_added_run240": 0,
+    "evidence_links_added_run240": 0,
+    "verification_audits_added_run240": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -93,7 +79,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run239_change": "No module-count or public-content change. ORGI atlas catalogue metadata is audit material only until the official PDF and exact internal evidence are directly verified."
+    "run240_change": "No module-count or public-content change; C-17 metadata remains audit material until exact workbook rows/cells are verified."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -101,7 +87,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run239_change": "Government/Census manifestation identity strengthened, but official Language Atlas 2011 PDF bytes, hash, page/map locators and directly observed Munda/Mundari values remain explicit gaps. No coverage-state promotion was justified."
+    "run240_change": "Government/Census manifestation coverage strengthened, but byte/hash/row-level verification remains open."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -109,10 +95,10 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run239": false,
-    "participant_consent_inferred_run239": false,
-    "community_validation_inferred_run239": false,
-    "cultural_access_permission_inferred_run239": false
+    "redistribution_permission_inferred_run240": false,
+    "participant_consent_inferred_run240": false,
+    "community_validation_inferred_run240": false,
+    "cultural_access_permission_inferred_run240": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -126,20 +112,24 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 239; release_metrics JSON/TeX numerical regeneration is not required.",
+    "generated_metrics_state": "No count-bearing change in Run 240; release_metrics JSON/TeX numerical regeneration is not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-238 status head was not independently promoted to green in this ledger. Run-239 final head requires its own workflow conclusions before being called green."
+    "build_state": "Run-239 final head aeafdd6477fc375434c397bd82e15648d5dd5c84 is independently 4/4 green. Run-240 final head requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "run239_test_bearing_head": "26b8be881e7b67e6a96cb51c2ba7494846048b6e",
-    "fresh_run239_final_head_ci_verified": false,
-    "fresh_run239_final_head_ci_note": "Run-239 audit/search/test/status commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the final head may be called 4/4 green."
+    "previous_green_head": "aeafdd6477fc375434c397bd82e15648d5dd5c84",
+    "previous_green_head_four_of_four": true,
+    "previous_green_checks": ["Publication Build", "Source Register Audit", "Migration Audit", "Streamlit Smoke Test"],
+    "run240_test_bearing_head": "c78e258b4682826072e8da0c028bf635b559a03b",
+    "fresh_run240_final_head_ci_verified": false,
+    "fresh_run240_final_head_ci_note": "Run-240 audit/search/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Official ORGI Language_Atlas_2011.pdf is catalogued exactly but direct byte acquisition returned a gateway failure; independent hash, page/map locators and directly observed Munda/Mundari values remain unresolved.",
-    "C-16/C-16 City/C-17/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
-    "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete.",
+    "Official DDW-C17-0000.XLSX bytes, independent hash, worksheet names and exact Munda/Mundari rows/cells remain unverified.",
+    "Official ORGI Language_Atlas_2011.pdf remains gateway-blocked; independent hash, page/map locators and directly observed Munda/Mundari values remain unresolved.",
+    "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
+    "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete because direct fetch is gateway-blocked in the current environment.",
     "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
     "CIIL resources still require byte-preserving acquisition, independent hashes and exact internal-page verification before passage promotion.",
@@ -165,16 +155,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, blocked official Language Atlas/Census/LSI byte-level verification, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity, unresolved CIIL and Osada exact-page verification, and unresolved audiovisual/participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, blocked/unverified official Census/Atlas/LSI byte-level sources, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and unresolved audiovisual/participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Retry official Language_Atlas_2011.pdf byte-preserving acquisition; independently hash it and verify exact Munda/Mundari pages/maps before promoting any values.",
-    "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
-    "Acquire exact permitted CIIL manifestations byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
-    "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
-    "Acquire exact Peiros v1.1, MMLoSo and Rau manifestations byte-preservingly; independently hash/count before row-level ingestion.",
-    "Continue audiovisual census but keep rights, performer/participant consent, community validation and cultural access as separate mandatory gates.",
+    "Acquire DDW-C17-0000.XLSX byte-preservingly; independently hash it and verify exact Munda/Mundari rows/cells before promoting any value.",
+    "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
+    "Acquire exact permitted CIIL manifestations and Peiros v1.1/MMLoSo/Rau datasets byte-preservingly; independently hash before passage/row-level ingestion.",
+    "Continue Mundarica I-XVI exact manifestation, page-accounting and OCR closure without equating catalog metadata with verified complete scans.",
+    "Continue audiovisual census while keeping rights, performer/participant consent, community validation and cultural access as separate mandatory gates.",
     "Keep all 42 Streamlit modules, evidence graph, coverage/gap matrix, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
 }
