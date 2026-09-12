@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T14:48:00Z",
+  "updated_utc": "2026-09-12T15:34:22Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 263,
-  "work_head_before_status_sync": "a87560ab01c6882ee4b982b28b3c27e99b7a5fe5",
-  "previous_final_head": "46eeac25cb839215a6076f1dde97a6bff94f4f79",
-  "cycle_result": "Run 263 promoted the official ORGI LSI-West Bengal Mundari chapter beyond discovery-only status to exact first-party catalogue/download/section locator evidence. LSI_WB_PART_I is verified as a 2016 ORGI book with declared file LSI_WB_PART_I.pdf; the official indexed rendering exposes the Mundari section at p.391, section author SIBASIS MUKHERJEE, fieldwork-provenance text for Jhargram/Midnapore in August 1995, and subsection identities 1.1 FAMILY AFFILIATION and 1.2 LOCATION. Direct PDF fetch timed out, so no byte/hash/page-image/OCR claim was made. Historical informant names and elicited content were not ingested or treated as consented MLHKP participant material. All 14 controlled discovery classes were rechecked in MMSC-SEARCH-000263. No source, claim, evidence, module or Mundarica completeness count was inflated.",
+  "latest_run": 264,
+  "work_head_before_status_sync": "e882d656ccc7191d26dd24af03f583045e9adf68",
+  "previous_final_head": "aa36747aea0d56de0d9c9401e0a2ad0a9a771f88",
+  "cycle_result": "Run 264 promoted official ORGI Jharkhand C-17 structure beyond file-identity-only status: catalogue PC11_C17-20 declares DDW-C17-2000.XLSX and exposes exact MUNDA/MUNDARI total-speaker, first-subsidiary-language and second-subsidiary-language row categories plus the table column families. No population value was promoted because workbook bytes, independent hash, worksheet names and exact cells remain unverified. All 14 controlled discovery classes were rechecked in MMSC-SEARCH-000264. No source, claim, evidence, module or Mundarica completeness count was inflated.",
   "cycle_commits": {
-    "run263_lsi_west_bengal_locator_audit": "2fbd7b5b0de302c9a5c211222b00ca53bf83f379",
-    "run263_all_class_search_log": "7cef5cd465077b8eeb2cd79a614006828f3c72bf",
-    "run263_boundary_tests": "a87560ab01c6882ee4b982b28b3c27e99b7a5fe5"
+    "run264_orgi_c17_structure_audit": "9186dfd86e3f877f252f5b76ba628937d3f0a40c",
+    "run264_all_class_search_log": "e882d656ccc7191d26dd24af03f583045e9adf68"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,19 +26,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000263",
-    "latest_search_log": "data/source_census/search_log_run263.jsonl",
-    "latest_source_audit": "data/source_census/lsi_west_bengal_mundari_exact_locator_run263_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000264",
+    "latest_search_log": "data/source_census/search_log_run264.jsonl",
+    "latest_source_audit": "data/source_census/orgi_c17_munda_mundari_structure_run264_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run263_count_change": "none; exact LSI locator/provenance strengthening is count-neutral until deterministic reconciliation of unresolved WEB-MUN leads closes"
+    "run264_count_change": "none; first-party C-17 schema/category strengthening is count-neutral until deterministic reconciliation of unresolved WEB-MUN leads closes"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 260,
-    "state": "Unchanged in Run 263. Zero volumes are verified complete because byte-preserving acquisition, independent hashes, page reconciliation and OCR verification remain open."
+    "state": "Unchanged in Run 264. Zero volumes are verified complete because byte-preserving acquisition, independent hashes, page reconciliation and OCR verification remain open."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -52,11 +51,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run263": 0,
-    "evidence_records_added_run263": 0,
-    "evidence_links_added_run263": 0,
-    "verification_audits_added_run263": 1,
-    "run263_promotion_level": "exact first-party catalogue + direct-download + p.391 section/provenance locator evidence only; zero elicited-content, grammar, demographic, participant-derived or cultural claims promoted"
+    "claims_added_run264": 0,
+    "evidence_records_added_run264": 0,
+    "evidence_links_added_run264": 0,
+    "verification_audits_added_run264": 1,
+    "run264_promotion_level": "exact first-party catalogue + declared workbook + table-schema + MUNDA/MUNDARI category locator evidence only; zero numeric, demographic or cultural claims promoted"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,7 +66,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run263_change": "No module-count or controlled evidence-row change. All 42 modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 263 adds count-neutral audit metadata only."
+    "run264_change": "No module-count or controlled evidence-row change. All 42 modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 264 adds count-neutral audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -79,11 +78,11 @@
     "commercial_bibliographic_availability_treated_as_permission": false,
     "publisher_abstract_treated_as_full_text_reuse_permission": false,
     "historical_publication_of_informant_names_treated_as_current_consent": false,
-    "redistribution_permission_inferred_run263": false,
-    "model_training_permission_inferred_run263": false,
-    "participant_consent_inferred_run263": false,
-    "community_validation_inferred_run263": false,
-    "cultural_access_permission_inferred_run263": false
+    "redistribution_permission_inferred_run264": false,
+    "model_training_permission_inferred_run264": false,
+    "participant_consent_inferred_run264": false,
+    "community_validation_inferred_run264": false,
+    "cultural_access_permission_inferred_run264": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -97,23 +96,23 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing release-metric change in Run 263; official LSI West Bengal locator/provenance evidence was strengthened without changing controlled totals.",
+    "generated_metrics_state": "No count-bearing release-metric change in Run 264; official C-17 table structure/category locator evidence was strengthened without changing controlled totals.",
     "tables_figures_state": "unchanged and synchronized; controlled numerical release metrics did not change",
-    "build_state": "Run 261 final head d1049afa94c2e5b1189325e95d42757c58af3bf5 was previously independently 4/4 green. Fresh workflows are required for Run 263 commits; do not label the new final head green until all four commit-associated workflows conclude successfully."
+    "build_state": "Run 263 final head aa36747aea0d56de0d9c9401e0a2ad0a9a771f88 is independently 4/4 green. Fresh workflows are required for Run 264 commits; do not label the new final head green until all four commit-associated workflows conclude successfully."
   },
   "ci": {
-    "previous_green_head": "d1049afa94c2e5b1189325e95d42757c58af3bf5",
+    "previous_green_head": "aa36747aea0d56de0d9c9401e0a2ad0a9a771f88",
     "previous_green_head_four_of_four": true,
-    "run263_test_bearing_head": "a87560ab01c6882ee4b982b28b3c27e99b7a5fe5",
-    "run263_workflows_instantiated": false,
-    "fresh_run263_final_head_ci_verified": false,
-    "fresh_run263_final_head_ci_note": "Fresh checks are required after this status commit; do not label Run 263 4/4 green until all four workflows succeed on the final head."
+    "run264_test_bearing_head": "e882d656ccc7191d26dd24af03f583045e9adf68",
+    "run264_workflows_instantiated": false,
+    "fresh_run264_final_head_ci_verified": false,
+    "fresh_run264_final_head_ci_note": "Fresh checks are required after this status commit; do not label Run 264 4/4 green until all four workflows succeed on the final head."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica still has zero authoritative registered scans and zero verified-complete volumes; local byte/hash/page/OCR closure remains open.",
+    "Official Jharkhand C-17 DDW-C17-2000.XLSX identity, table schema and MUNDA/MUNDARI category locators are exact, but workbook bytes, independent hash, worksheets and exact numeric cells remain unverified.",
     "LSI_WB_PART_I.pdf exact first-party identity and p.391 Mundari locators are known, but complete bytes, independent hash, page-image verification, OCR reconciliation, explicit reuse terms and participant/community/cultural-access review remain incomplete.",
-    "Official Jharkhand C-17 DDW-C17-2000.XLSX identity is exact, but workbook bytes, independent hash, worksheets and exact MUNDA/MUNDARI cells remain unverified.",
     "Official Language_Atlas_2011.pdf identity and catalogue rights attribution are exact, but byte-preserving acquisition, independent hash and exact Mundari page/map verification remain incomplete.",
     "LSI_JHARKHAND.pdf exact first-party download identity is known, but bytes, hash, page-image verification and OCR/page reconciliation remain incomplete.",
     "Jharkhand Phase-I Language Mapping report still needs byte-preserving local acquisition, independent hash, explicit reuse/licence determination and image-level re-verification of promoted tables; raw respondent data is not ingested.",
@@ -142,12 +141,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; LSI West Bengal/Jharkhand and Census/Atlas byte/hash/cell/page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 263 strengthens exact official locator evidence without converting indexed text or historical informant visibility into permission or cultural claims."
+    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; C-17/LSI/Atlas byte-hash-cell-page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 264 strengthens exact official C-17 schema/category evidence without converting catalogue structure into unverified numeric claims."
   },
   "next_parallel_tasks": [
+    "Acquire DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join exact aliases without changing counts unless identity equivalence is proven.",
     "Acquire LSI_WB_PART_I.pdf byte-preservingly; independently hash it and reconcile p.391 against the page image/OCR before any content-level promotion.",
-    "Acquire DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Acquire Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preservingly; independently hash and verify exact Mundari pages/maps/page images before promotion.",
     "Continue lawful Mundarica I-XVI byte/hash/page/OCR closure, prioritizing already exact DLI/Internet Archive manifestations and known integrity-risk volumes.",
     "Pursue lawful byte-preserving acquisition of TRI/CIIL manifestations and Peiros v1.1/MMLoSo/Rau; independently hash before passage/row-level ingestion.",
