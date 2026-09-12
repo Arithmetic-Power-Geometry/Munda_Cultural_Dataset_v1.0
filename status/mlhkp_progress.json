@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T08:45:00Z",
+  "updated_utc": "2026-09-12T09:35:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 251,
-  "work_head_before_status_sync": "931b8a6c82efcb4675ae2f6a2121ae2509341451",
-  "previous_final_head": "36e92988efedd092bec1e1d2522627e42b6dc6e7",
-  "cycle_result": "Run 251 advanced N. K. Sinha's 1974 Mundari Phonetic Reader beyond discovery-only status to exact bibliographic/manifestation and contents-locator evidence. CiNii NCID BA72929895, two independent Google Books manifestations (hITRAAAAMAAJ and Rn8KAQAAIAAJ), Cambridge/Language review DOI 10.2307/413041, and ERIC ED228863 corroborate the work family. Google Books exposes stable contents anchors at printed pages 1, 12 and 18. Reported extent conflicts (viii/xi/xii front matter and 102/103 pages) are preserved explicitly rather than normalized. No lexical, phonetic-example, grammatical or cultural content was promoted because lawful complete bytes, hash, page-sequence/OCR verification, reuse rights and cultural-access review remain open.",
+  "latest_run": 252,
+  "work_head_before_status_sync": "d4fb0d8b50e0199f1b29aea78647da95485fca0e",
+  "previous_final_head": "af2795b8ca546651d5b4974f65b2e35f569748ff",
+  "cycle_result": "Run 252 added first-party CIIL catalogue corroboration for N. K. Sinha's 1974 Mundari Phonetic Reader. The official catalogue extraction records N.K. Sinha, Phonetic Reader Series, 102 pages, 1974, English content language and Mundari subject language, while Run-251 independent records retain conflicting extent statements. The discrepancy is preserved rather than normalized. No source identity, passage, phonetic example, linguistic proposition, cultural claim, right, community validation or cultural-access permission was promoted. Direct catalogue PDF retrieval was too large for the research backend and screenshot inspection was unavailable on that path, so the CIIL observation is explicitly catalogue-metadata corroboration rather than page-image verification.",
   "cycle_commits": {
-    "run251_sinha_phonetic_reader_locator": "d074a0805949097e9fb6040b91c5e9327cc466d8",
-    "run251_all_class_search_log": "8ebd0df3560a149c1845a856d97cd7c808066d60",
-    "run251_boundary_tests": "931b8a6c82efcb4675ae2f6a2121ae2509341451"
+    "run252_ciil_catalogue_audit": "c2f6bc2c061c3da8450ca9978a4d628fa995e83e",
+    "run252_all_class_search_log": "21a7697d021860948b2bb416df8e5a893efddf94",
+    "run252_boundary_tests": "d4fb0d8b50e0199f1b29aea78647da95485fca0e"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000251",
-    "latest_search_log": "data/source_census/search_log_run251.jsonl",
-    "latest_source_audit": "data/source_census/sinha_1974_mundari_phonetic_reader_exact_locator_run251_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000252",
+    "latest_search_log": "data/source_census/search_log_run252.jsonl",
+    "latest_source_audit": "data/source_census/sinha_1974_mundari_phonetic_reader_ciil_catalogue_run252_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run251_count_change": "none; Sinha 1974 gained exact work-family/manifestation and contents-locator corroboration without identity inflation"
+    "run252_count_change": "none; official CIIL catalogue corroborates the existing Sinha 1974 work family without identity inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -70,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run251": 0,
-    "evidence_records_added_run251": 0,
-    "evidence_links_added_run251": 0,
-    "verification_audits_added_run251": 1,
-    "run251_promotion_level": "exact bibliographic/manifestation and contents-locator evidence only; zero text/phonetic examples/linguistic/cultural claims"
+    "claims_added_run252": 0,
+    "evidence_records_added_run252": 0,
+    "evidence_links_added_run252": 0,
+    "verification_audits_added_run252": 1,
+    "run252_promotion_level": "official institutional catalogue corroboration only; zero text/phonetic examples/linguistic/cultural claims"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run251_change": "No module-count or public-data change; Sinha 1974 locator remains audit metadata only."
+    "run252_change": "No module-count or public-data change; official CIIL catalogue metadata remains audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -93,12 +93,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run251": false,
-    "model_training_permission_inferred_run251": false,
-    "participant_consent_inferred_run251": false,
-    "community_validation_inferred_run251": false,
-    "cultural_access_permission_inferred_run251": false,
-    "run251_metadata_rights_note": "Institutional catalogue, review and snippet visibility is used only for identity/manifestation/contents-location corroboration and is not permission to ingest, train on or redistribute the underlying work."
+    "redistribution_permission_inferred_run252": false,
+    "model_training_permission_inferred_run252": false,
+    "participant_consent_inferred_run252": false,
+    "community_validation_inferred_run252": false,
+    "cultural_access_permission_inferred_run252": false,
+    "run252_metadata_rights_note": "Official catalogue visibility is identity and bibliographic corroboration only; it is not permission to ingest, train on, redistribute or culturally release the underlying work."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -112,28 +112,33 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 251; release metrics numerical regeneration not required.",
+    "generated_metrics_state": "No count-bearing change in Run 252; release metrics numerical regeneration not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-249 final head was independently verified 4/4 green in the prior ledger; Run-251 test-bearing/final heads require their own workflow conclusions before being called green."
+    "build_state": "Run-251 final head af2795b8ca546651d5b4974f65b2e35f569748ff is independently verified 4/4 green; Run-252 test-bearing/final heads require their own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "123a3a49a9b0bfffd5575874cef20029bc2ddc9b",
+    "previous_green_head": "af2795b8ca546651d5b4974f65b2e35f569748ff",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": [
-      "MLHKP Publication Build #1842",
-      "MLHKP Source Register Audit #1824",
-      "MLHKP Migration Audit #1875",
-      "MLHKP Streamlit Smoke Test #1989"
+      "audit success",
+      "smoke success",
+      "audit success",
+      "build success"
     ],
-    "run251_test_bearing_head": "931b8a6c82efcb4675ae2f6a2121ae2509341451",
-    "run251_test_bearing_head_workflows_at_status_sync": {},
-    "fresh_run251_final_head_ci_verified": false,
-    "fresh_run251_final_head_ci_note": "No commit-associated workflow conclusions were returned for the Run-251 test-bearing head at status-sync time; do not call Run 251 4/4 green until fresh conclusions exist."
+    "run252_test_bearing_head": "d4fb0d8b50e0199f1b29aea78647da95485fca0e",
+    "run252_test_bearing_head_workflows_at_status_sync": {
+      "total_count": 4,
+      "state": "queued_at_status_sync",
+      "completed_success": 0
+    },
+    "fresh_run252_final_head_ci_verified": false,
+    "fresh_run252_final_head_ci_note": "All four commit-associated checks registered for the Run-252 test-bearing head but were queued at status-sync time; do not call Run 252 4/4 green until fresh conclusions exist."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
-    "Sinha 1974 Mundari Phonetic Reader now has exact institutional/review/Google Books manifestations and contents anchors, but lawful complete bytes, independent hash, full scan/page reconciliation, OCR verification, rights and cultural-access review remain open; conflicting extent statements are unresolved.",
+    "Sinha 1974 Mundari Phonetic Reader now has first-party CIIL catalogue corroboration plus Run-251 institutional/review/Google Books manifestations, but lawful complete bytes, independent hash, full scan/page reconciliation, OCR verification, rights and cultural-access review remain open; conflicting extent statements remain unresolved.",
+    "The official CIIL detailed catalogue PDF was too large for direct retrieval through the research backend and screenshot inspection was unavailable on that path; Run-252 therefore records catalogue extraction metadata only, not page-image verification.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
     "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete.",
