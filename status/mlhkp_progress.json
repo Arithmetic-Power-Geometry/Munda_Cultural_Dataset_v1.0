@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-11T23:48:00Z",
+  "updated_utc": "2026-09-12T00:43:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 234,
-  "work_head_before_status_sync": "1fb04c4a2083321873db34817d01891aa2f34a29",
-  "previous_final_head": "792a9afd2b62d071d038a32d1064ce0aeadb4181",
-  "cycle_result": "Run 234 advanced three CIIL/Bhasha Sanchika Mundari resources (BVP04859, BVP06110, BVP00242) from loose discovery to exact institutional item UUID/repository-identifier/declared-file manifestations and reverified official ORGI Assam C-16 catalogue PC11_C16-18. No source count, grammatical/lexical proposition, demographic value, participant record, cultural claim, right, OCR state, community validation or completeness state was fabricated or promoted beyond direct support.",
+  "latest_run": 235,
+  "work_head_before_status_sync": "f2cd4e43d3b94b5390e513dff4e2423b5d5fc728",
+  "previous_final_head": "c31104cd5713345ba707f332e817c67985a21aa0",
+  "cycle_result": "Run 235 directly inspected an ARSI-hosted 1938 Jesuit bibliography and strengthened Mundarica XI-XII page accounting: Volume XI is recorded as P, Patna 1938, printed pages 3175-3456; Volume XII as R, 1938, printed pages 3457-3707. This is bibliographic/page-locator advancement only. No historical volume manifestation, byte/hash integrity, scan sequence, OCR verification, cultural fact, linguistic proposition, right, community validation or completeness state was fabricated or promoted.",
   "cycle_commits": {
-    "run234_ciil_audit": "a7a8a69f9664bfb98c592664c406e2d78d3e13a8",
-    "run234_search_log": "e910e3ac18c8a11c0a4db240219957ce79838244",
-    "run234_regression_test": "1fb04c4a2083321873db34817d01891aa2f34a29"
+    "run235_mundarica_xi_xii_audit": "e1d99e8bf0effc26c6afd5e0545d691e1b19ab55",
+    "run235_search_log": "f2cd4e43d3b94b5390e513dff4e2423b5d5fc728"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,20 +26,24 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 30,
     "still_to_acquire_additional_discoveries": 29,
-    "latest_search_id": "MMSC-SEARCH-000234",
-    "latest_search_log": "data/source_census/search_log_run234.jsonl",
-    "latest_source_audit": "data/source_census/ciil_sanchika_additional_mundari_resources_run234_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000235",
+    "latest_search_log": "data/source_census/search_log_run235.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_xi_xii_jesuit_bibliographic_page_accounting_run235_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run234_count_change": "none"
+    "run235_count_change": "none"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 229,
+    "last_mundarica_run": 235,
     "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"],
-    "state": "Bibliographic/page locators exist for several volumes, but no volume is promoted to authoritative registered scan or verified complete without exact manifestation, byte/hash, scan-sequence and OCR verification."
+    "run235_direct_bibliographic_page_accounting": {
+      "XI": "P; Patna 1938; printed pages 3175-3456; inclusive bibliographic range arithmetic 282 pages",
+      "XII": "R; 1938; printed pages 3457-3707; inclusive bibliographic range arithmetic 251 pages"
+    },
+    "state": "Bibliographic/page locators exist for several volumes, with XI-XII now directly verified against an ARSI-hosted 1938 bibliography. No volume is promoted to authoritative registered scan or verified complete without exact manifestation, byte/hash, scan-sequence and OCR verification."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -53,10 +56,10 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run234": 0,
-    "evidence_records_added_run234": 0,
-    "evidence_links_added_run234": 0,
-    "verification_audits_added_run234": 1
+    "claims_added_run235": 0,
+    "evidence_records_added_run235": 0,
+    "evidence_links_added_run235": 0,
+    "verification_audits_added_run235": 1
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,7 +70,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run234_change": "No module/count redesign; exact CIIL manifestation audits remain verification metadata until deterministic controlled-register reconciliation supports count-bearing promotion."
+    "run235_change": "No redesign. The new Mundarica XI-XII audit is verification metadata only and does not alter public claim or module counts."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -75,7 +78,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run234_change": "none"
+    "run235_change": "Mundarica XI-XII bibliographic/page-accounting confidence strengthened; manifestation/integrity/OCR gaps remain explicit."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -83,11 +86,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "participant_records_ingested_run234": 0,
-    "full_text_or_lexical_rows_ingested_run234": 0,
-    "community_validation_inferred_run234": false,
-    "cultural_access_permission_inferred_run234": false,
-    "secondary_map_substituted_for_primary_census_evidence": false
+    "participant_records_ingested_run235": 0,
+    "full_text_or_lexical_rows_ingested_run235": 0,
+    "community_validation_inferred_run235": false,
+    "cultural_access_permission_inferred_run235": false,
+    "secondary_locator_substituted_for_internal_mundarica_evidence": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -99,19 +102,26 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 234; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
-    "tables_figures_state": "No numerical regeneration required in Run 234.",
-    "build_state": "Previous verified test-bearing release state was 4/4 green through Run 232; fresh Run-234 head requires its own workflow conclusions before being called green."
+    "generated_metrics_state": "No count-bearing change in Run 235; manuscript numerical metrics remain synchronized at 42/90/87/3/14/73 and evidence 52/52/52.",
+    "tables_figures_state": "No numerical regeneration required in Run 235.",
+    "build_state": "Run-234 final head c31104cd5713345ba707f332e817c67985a21aa0 is independently 4/4 green. Fresh Run-235 head requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_verified_head": "40ed3d33b67bef34d2e4eb8630584f268c9601db",
+    "previous_verified_head": "c31104cd5713345ba707f332e817c67985a21aa0",
     "previous_verified_head_all_four_green": true,
-    "run234_test_bearing_head": "1fb04c4a2083321873db34817d01891aa2f34a29",
-    "fresh_run234_final_head_ci_verified": false,
-    "fresh_run234_final_head_ci_note": "Run-234 commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the new final head may be called 4/4 green."
+    "previous_verified_workflows": {
+      "publication_build": "#1756 success",
+      "source_register_audit": "#1738 success",
+      "migration_audit": "#1789 success",
+      "streamlit_smoke_test": "#1903 success"
+    },
+    "run235_test_bearing_head": "f2cd4e43d3b94b5390e513dff4e2423b5d5fc728",
+    "fresh_run235_final_head_ci_verified": false,
+    "fresh_run235_final_head_ci_note": "Run-235 commits require commit-associated Publication Build, Source Register Audit, Migration Audit and Streamlit Smoke Test conclusions before the new final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Run-235 directly verifies Mundarica XI-XII bibliographic printed page ranges, but exact lawful historical manifestations, byte hashes, scan sequence and OCR verification remain unresolved; neither volume is verified complete.",
     "Run-234 CIIL BVP04859, BVP06110 and BVP00242 are exact metadata/file-manifestation records but still require byte-preserving acquisition, independent hashes and exact internal-page inspection before proposition or lexical-row promotion.",
     "The Run-232 Commons Assam Mundari map has exact metadata/licensing/original-file locator, but byte-preserving acquisition and independent hashing remain unresolved; its underlying Census C-16 workbook/cells are not yet primary-verified.",
     "CIIL BVP03961, CIILP0091, BVP00202 and BVP04856 still require byte-preserving acquisition, independent hashes, full-work completeness checks and exact internal-page verification before passage promotion.",
@@ -146,10 +156,11 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
+    "Locate and lawfully acquire exact Mundarica XI-XII historical manifestations matching the now-directly-verified 1938 page accounting; independently hash and verify scan sequence before OCR/completeness promotion.",
     "Acquire exact CIIL BVP04859, BVP06110 and BVP00242 manifestations byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
     "Acquire the exact Run-232 Commons SVG byte-preservingly, independently hash it, and acquire/verify the declared Assam C-16 workbook/cells before any demographic claim promotion.",
     "Acquire exact permitted CIIL grammar bitstreams byte-preservingly, independently hash them and promote only directly verified permitted internal passages.",
-    "Locate and lawfully acquire exact Mundarica IV, IX and XI-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
+    "Locate and lawfully acquire exact Mundarica IV, IX and XIII-XVI manifestations; independently verify bytes/hash/scan sequence before OCR or completeness promotion.",
     "Acquire official LSI_JHARKHAND.pdf and exact Census workbooks byte-preservingly; independently hash and verify only directly observed pages/cells.",
     "Directly and lawfully inspect Osada 2008 pp.107-108 before promoting Grambank-derived typological evidence.",
     "Acquire exact Peiros v1.1 and MMLoSo manifestations byte-preservingly; independently hash/count before row-level ingestion.",
