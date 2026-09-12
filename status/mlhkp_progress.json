@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T07:43:00Z",
+  "updated_utc": "2026-09-12T08:31:45Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 249,
-  "work_head_before_status_sync": "63c2b31aa182a7da17d3f18ab3033204277f4d9a",
-  "previous_final_head": "0bcf329ce5e82bff75d089482d665da156a1b047",
-  "cycle_result": "Run 249 established an exact bibliographic/digital catalogue locator for Johannes Baptist Hoffmann's 1903 Mundari grammar. Google Books records V9cj0AEACAAJ and KfIitwAACAAJ corroborate the same historical work family, including Bengal Secretariat Press, 1903, with the first record reporting 222 pages. These records were deterministically canonicalized as manifestations/records of one work family rather than separate source identities. Full lawful bytes, independent hash, scan-sequence/page reconciliation, verified OCR, redistribution rights, participant/source-context review, community validation and cultural-access permission remain unresolved. ORGI C-17 Jharkhand and LSI Jharkhand catalogues were rechecked; byte-preserving workbook/PDF acquisition remains unclosed. No linguistic or cultural content was promoted.",
+  "latest_run": 250,
+  "work_head_before_status_sync": "c8262536cefa4f9ea9037e2682689f33f445338f",
+  "previous_final_head": "123a3a49a9b0bfffd5575874cef20029bc2ddc9b",
+  "cycle_result": "Run 250 strengthened Mundarica Volume XI manifestation/page accounting using Google Books record nnzW-Dy4NowC. The record identifies Encyclopaedia Mundarica Volume 11, Johann Hoffmann and Arthur van Emelen, Superintendent government printing Bihar and Orissa, original from the University of Minnesota, digitized 2020-02-25, and directly exposes contents anchors 3173, 3175 and 3183. These anchors are consistent with earlier bibliographic page accounting around 3175-3456 but do not establish complete scan pagination, OCR correctness, byte integrity or rights. No cultural or linguistic content was promoted. All other streams were rechecked and blockers carried forward without fabrication.",
   "cycle_commits": {
-    "run249_hoffmann_1903_locator": "4bd59b06c8e464774aee01e8c8dd0f61cda722a5",
-    "run249_all_class_search_log": "7276d08eee57fff13c7774b26a1a15557a69bf51",
-    "run249_boundary_tests": "63c2b31aa182a7da17d3f18ab3033204277f4d9a"
+    "run250_mundarica_xi_manifestation": "32b537616c8865a9fe17f811eab7f1121c3b78fb",
+    "run250_all_class_search_log": "c8262536cefa4f9ea9037e2682689f33f445338f"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,32 +26,32 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000249",
-    "latest_search_log": "data/source_census/search_log_run249.jsonl",
-    "latest_source_audit": "data/source_census/hoffmann_1903_mundari_grammar_exact_locator_run249_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000250",
+    "latest_search_log": "data/source_census/search_log_run250.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_vol11_google_books_manifestation_run250_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run249_count_change": "none; an historical Mundari grammar work-family gained an exact bibliographic/digital catalogue locator without identity/evidence inflation"
+    "run250_count_change": "none; Volume XI gained manifestation/page-structure corroboration without identity inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 248,
+    "last_mundarica_run": 250,
     "per_volume_states": {
       "I": "open_unverified",
       "II": "open_unverified; secondary printed-page locator pp. 511-521 recorded; exact lawful manifestation/bytes/hash/scan/OCR remain open",
-      "III": "open_unverified; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 provides independent manifestation corroboration, but exact lawful bytes/hash/scan sequence/printed-page mapping/OCR remain open",
-      "IV": "open_unverified; secondary printed-page locators include pp. 1022-1039 and pp. 1238-1241; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 provides independent manifestation corroboration; exact lawful bytes/hash/scan mapping/OCR remain open",
-      "V": "open_unverified; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 provides independent manifestation corroboration, but separate-volume completeness/bytes/hash/scan mapping/OCR remain open",
+      "III": "open_unverified; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 corroborates manifestation only; exact lawful bytes/hash/scan/page/OCR remain open",
+      "IV": "open_unverified; secondary printed-page locators include pp. 1022-1039 and pp. 1238-1241; Google Books Volumes 3-5 corroborates manifestation only",
+      "V": "open_unverified; Google Books/NYPL-origin Volumes 3-5 manifestation corroboration exists; separate-volume completeness remains open",
       "VI": "open_unverified",
       "VII": "open_unverified",
       "VIII": "open_unverified",
       "IX": "open_unverified; judicial secondary printed-page locators exist but exact manifestation/bytes/hash/OCR remain open",
       "X": "open_unverified",
-      "XI": "open_unverified; bibliographic printed range 3175-3456 recorded, not scan completeness",
+      "XI": "open_unverified; Google Books nnzW-Dy4NowC independently exposes contents anchors 3173, 3175 and 3183 and University of Minnesota provenance; earlier bibliographic range 3175-3456 remains page-accounting evidence only; complete bytes/hash/scan mapping/OCR remain open",
       "XII": "open_unverified; bibliographic printed range 3457-3707 recorded, not scan completeness",
-      "XIII": "open_unverified; DLI/Internet Archive exact locator is independently corroborated by Google Books/NYPL-origin metadata for Volume 13, 1941; complete bytes/hash/scan mapping/OCR/rights remain open",
+      "XIII": "open_unverified; DLI/Internet Archive locator independently corroborated by Google Books/NYPL-origin metadata; complete bytes/hash/scan mapping/OCR/rights remain open",
       "XIV": "open_unverified",
       "XV": "open_unverified; modern reprint bibliographic locator exists, historical authoritative manifestation unresolved",
       "XVI": "open_unverified; modern reprint bibliographic locator exists, historical authoritative manifestation unresolved"
@@ -70,11 +69,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run249": 0,
-    "evidence_records_added_run249": 0,
-    "evidence_links_added_run249": 0,
-    "verification_audits_added_run249": 1,
-    "run249_promotion_level": "bibliographic/digital catalogue locator only; zero passages/OCR/linguistic/cultural claims"
+    "claims_added_run250": 0,
+    "evidence_records_added_run250": 0,
+    "evidence_links_added_run250": 0,
+    "verification_audits_added_run250": 1,
+    "run250_promotion_level": "manifestation/page-structure locator only; zero passages/OCR/linguistic/cultural claims"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,15 +84,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run249_change": "No module-count or public-data change; new Hoffmann grammar locator remains audit metadata only."
-  },
-  "coverage_and_gaps": {
-    "coverage_matrix": "data/coverage_matrix.json",
-    "sync_contract_verified": true,
-    "government_archive_coverage_state": "live_partial",
-    "oral_story_song_media_coverage_state": "live_partial",
-    "completeness_gap_state": "live_partial",
-    "run249_change": "Historical Mundari grammar bibliographic coverage strengthened; byte/hash/page/OCR/rights and source-context closure remain open."
+    "run250_change": "No module-count or public-data change; Volume XI locator remains audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -101,12 +92,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run249": false,
-    "model_training_permission_inferred_run249": false,
-    "participant_consent_inferred_run249": false,
-    "community_validation_inferred_run249": false,
-    "cultural_access_permission_inferred_run249": false,
-    "run249_metadata_rights_note": "Google Books bibliographic visibility is used only for work-family/manifestation corroboration and is not treated as permission to ingest, train on or redistribute the underlying grammar."
+    "redistribution_permission_inferred_run250": false,
+    "model_training_permission_inferred_run250": false,
+    "participant_consent_inferred_run250": false,
+    "community_validation_inferred_run250": false,
+    "cultural_access_permission_inferred_run250": false,
+    "run250_metadata_rights_note": "Google Books catalogue/snippet visibility is used only for manifestation/page-structure corroboration and is not permission to ingest, train on or redistribute the underlying volume."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -120,37 +111,37 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 249; release_metrics JSON/TeX numerical regeneration not required.",
+    "generated_metrics_state": "No count-bearing change in Run 250; release metrics numerical regeneration not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-247 final head was independently verified 4/4 green in the preceding ledger; Run-249 test-bearing/final heads require their own workflow conclusions before being called green."
+    "build_state": "Run-249 final head is independently verified 4/4 green; Run-250 test-bearing/final heads require their own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "0461f6624f69cdfa79832432df84803422101164",
+    "previous_green_head": "123a3a49a9b0bfffd5575874cef20029bc2ddc9b",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": [
-      "MLHKP Publication Build #1830",
-      "MLHKP Source Register Audit #1812",
-      "MLHKP Migration Audit #1863",
-      "MLHKP Streamlit Smoke Test #1977"
+      "MLHKP Publication Build #1842",
+      "MLHKP Source Register Audit #1824",
+      "MLHKP Migration Audit #1875",
+      "MLHKP Streamlit Smoke Test #1989"
     ],
-    "run249_test_bearing_head": "63c2b31aa182a7da17d3f18ab3033204277f4d9a",
-    "fresh_run249_final_head_ci_verified": false,
-    "fresh_run249_final_head_ci_note": "Run-249 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
+    "run250_test_bearing_head": "c8262536cefa4f9ea9037e2682689f33f445338f",
+    "run250_test_bearing_head_workflows_at_status_sync": {
+      "MLHKP Publication Build #1846": "in_progress",
+      "MLHKP Source Register Audit #1828": "in_progress",
+      "MLHKP Migration Audit #1879": "in_progress",
+      "MLHKP Streamlit Smoke Test #1993": "in_progress"
+    },
+    "fresh_run250_final_head_ci_verified": false,
+    "fresh_run250_final_head_ci_note": "Run-250 final status commit requires its own four commit-associated workflow conclusions before it may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Hoffmann 1903 Mundari grammar now has exact Google Books bibliographic manifestations, but lawful complete bytes, independent hash, scan/page reconciliation, OCR verification, exact passage locators, reuse boundary and source-context/cultural-access review remain open.",
-    "Google Books record H3T9md87HvcC strengthens Mundarica III-V manifestation discovery but does not establish separately complete volumes, lawful complete bytes, independent hashes, scan sequence/page mapping or verified OCR.",
-    "Cook 1965 dissertation has a verified canonical bibliographic identity and CC BY 4.0 metadata source, but lawful complete full text, reuse boundary, byte-preserving acquisition, independent hash, exact pages and field-material consent/cultural-access review remain open.",
-    "Mundarica Volume XIII is independently corroborated bibliographically, but byte-preserving complete acquisition, independent hash, scan sequence/page mapping, OCR verification and rights/cultural-access review remain open.",
-    "Mundarica Vol. II pp. 511-521 and Vol. IV pp. 1238-1241 are secondary locators only; underlying lawful manifestations, bytes, hashes, scan mapping and OCR remain unverified.",
-    "Bhaduri dictionary full-text rights, lawful complete bytes, independent hash and exact lexical entry/page locators remain unresolved; 1929-versus-1931 catalogue-note conflict requires primary bibliographic resolution.",
+    "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
+    "Mundarica Volume XI now has Google Books manifestation/page anchors and University of Minnesota provenance, but lawful complete bytes, independent hash, full scan/page reconciliation, OCR verification and rights/cultural-access review remain open.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
-    "Official ORGI Language_Atlas_2011.pdf remains gateway-blocked; independent hash, page/map locators and directly observed Munda/Mundari values remain unresolved.",
+    "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete.",
     "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
-    "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete because direct fetch is gateway-blocked in the current environment.",
-    "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
     "CIIL resources still require byte-preserving acquisition, independent hashes and exact internal-page verification before passage promotion.",
     "Lexibank Peiros v1.1, MMLoSo and Rau still require independent byte/integrity closure before row-level ingestion.",
@@ -175,18 +166,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, unverified official Census/Atlas/LSI bytes and cells, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity, unresolved historical grammar/dictionary/dissertation full-text and integrity issues and unresolved audiovisual/participant/community/cultural-access gates."
+    "reason": "Release still has 73 unresolved source dispositions, unverified official Census/Atlas/LSI bytes and cells, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and unresolved audiovisual/participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "For Hoffmann 1903, locate a lawful complete manifestation, establish reuse boundary, independently hash bytes and reconcile scan sequence to printed pagination before OCR or grammatical/lexical passage promotion.",
-    "For Mundarica III-V, determine whether exact lawful complete manifestations can be acquired separately or from the NYPL-origin Google Books record; independently hash bytes and reconcile scan sequence to printed pagination before OCR/passages are promoted.",
-    "For Mundarica XIII, acquire a lawful complete bitstream if obtainable, independently hash it, reconcile scan sequence to printed pagination and verify OCR before any passage promotion.",
-    "For Cook 1965, locate a lawful complete manifestation, establish reuse boundary, independently hash bytes and create exact page locators before any linguistic or participant-derived proposition is promoted.",
-    "Resolve Bhaduri 1929-versus-1931 primary bibliographic history; locate a lawful complete manifestation, establish reuse rights, independently hash bytes and verify exact entry/page locators before lexical promotion.",
-    "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
+    "For Mundarica XI, acquire a lawful complete bitstream if obtainable, independently hash it and reconcile every scan image to printed pagination before OCR/passages are promoted.",
+    "For Mundarica I-XVI, continue exact manifestation acquisition, page accounting and verification without treating catalogue visibility as completeness.",
+    "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
     "Acquire exact permitted CIIL manifestations and Peiros v1.1/MMLoSo/Rau datasets byte-preservingly; independently hash before passage/row-level ingestion.",
-    "Keep all 42 Streamlit modules, evidence graph, coverage/gap matrix, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
+    "Keep all 42 Streamlit modules, evidence graph, governance controls, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
 }
