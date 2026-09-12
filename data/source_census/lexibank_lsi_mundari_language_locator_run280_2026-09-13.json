@@ -6,7 +6,6 @@
     "repository": "lexibank/lsi",
     "pinned_commit_sha": "bfae847565dc6810af05c11bf612457e5861009e",
     "languages_path": "cldf/languages.csv",
-    "languages_git_blob_sha": "13e9e1d646a6f61b1e92494d37a19318f7856db0",
     "readme_path": "README.md",
     "readme_git_blob_sha": "12af57b315885e754cae42a295500f6ff2df4859"
   },
@@ -35,7 +34,7 @@
   "canonicalization": {
     "canonical_key": "LEXIBANK:LSI:master@bfae847565dc6810af05c11bf612457e5861009e",
     "new_controlled_source_identity": false,
-    "reason": "This is a pinned derived-dataset locator refinement for an already tracked LSI source family, not a new primary-source identity."
+    "reason": "Pinned derived-dataset locator refinement for an already tracked LSI family, not a new primary-source identity."
   },
   "promotion": {
     "controlled_source_identity_count_change": false,
