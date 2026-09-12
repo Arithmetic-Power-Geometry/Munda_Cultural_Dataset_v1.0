@@ -1,0 +1,76 @@
+{
+  "audit_id": "MLHKP-RUN254-MUNDARICA-VII-VIII-GOOGLE-BOOKS-MANIFESTATION",
+  "run_id": 254,
+  "date_utc": "2026-09-12T10:30:00Z",
+  "stream": "Mundarica I-XVI acquisition/OCR/page accounting/structuring",
+  "volumes": ["VII", "VIII"],
+  "verified_locators": [
+    {
+      "volume": "VII",
+      "provider": "Google Books",
+      "book_id": "AUGY0QEACAAJ",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AUGY0QEACAAJ",
+      "displayed_title": "Encyclopaedia Mundarica: I-J, Volume 7",
+      "author": "Johann Hoffmann",
+      "publisher": "Superintendent Government Printing, Bihar and Orissa",
+      "displayed_publication_year": 1950,
+      "displayed_length_pages": 265,
+      "subject_label": "Munda (Indic people)",
+      "verification_level": "public catalogue metadata only"
+    },
+    {
+      "volume": "VIII",
+      "provider": "Google Books",
+      "book_id": "vAWmtdk21wEC",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=vAWmtdk21wEC",
+      "displayed_title": "Encyclopaedia Mundarica, Volume 8",
+      "authors": ["Johann Hoffmann", "Arthur van Emelen"],
+      "publisher": "Superintendent government printing, Bihar and Orissa",
+      "displayed_publication_year": 1930,
+      "original_from": "University of Minnesota",
+      "digitized": "2020-02-25",
+      "directly_exposed_contents_anchors": [2147, 2151, 2208],
+      "verification_level": "public catalogue metadata plus exposed contents anchors only"
+    }
+  ],
+  "page_accounting_interpretation": {
+    "volume_vii_265_pages_is_catalogue_length_not_scan_image_count": true,
+    "volume_viii_contents_anchors_are_printed_structure_evidence_not_completeness": true,
+    "scan_sequence_verified": false,
+    "printed_page_to_scan_image_reconciliation_complete": false
+  },
+  "deduplication": {
+    "canonical_relation": "corroborating manifestations for existing Encyclopaedia Mundarica volume work identities",
+    "new_source_identity": false,
+    "identity_count_change": false,
+    "count_inflation_prohibited": true
+  },
+  "rights_access_cultural_boundary": {
+    "catalogue_or_snippet_visibility_is_permission": false,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "promotion": {
+    "level": "manifestation and page-accounting metadata only",
+    "passages_promoted": 0,
+    "claims_promoted": 0,
+    "indicators_promoted": 0,
+    "content_evidence_promoted": false,
+    "count_bearing_change": false
+  },
+  "open_gaps": [
+    "lawful byte-preserving acquisition of exact manifestations",
+    "independent cryptographic hashes",
+    "complete scan-sequence accounting",
+    "printed-page to scan-image reconciliation for each volume",
+    "verified OCR or direct page-image transcription",
+    "reuse/redistribution boundary for exact digital manifestations",
+    "community-validation and cultural-access review before substantive cultural promotion"
+  ]
+}
