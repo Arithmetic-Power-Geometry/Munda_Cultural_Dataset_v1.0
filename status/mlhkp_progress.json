@@ -4,21 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T21:05:00Z",
+  "updated_utc": "2026-09-12T21:36:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 275,
-  "previous_final_head": "9363bd4ea5b985733745c75b3dc2cd5f019c3739",
-  "work_head_before_status_sync": "66847c07a634420cc323ad457e7e4e445fa3816d",
-  "cycle_result": "Run 275 corrected a material Peiros v1.1 cardinality error before audited release. The immutable forms.csv has 101 distinct Language_ID=Mundari rows. The previously reported 202 value was a connector-representation double count because the GitHub fetch response exposes the same decoded CSV once in top-level content and again in structuredContent.content. Restricting the audit to the single top-level CSV representation yields 101 hits; the 21 previously sampled Source/Parameter_ID reconciliations remain valid, so the correct unreconciled remainder is 80, not 181. The historical Run 269 and Run 271 audit artifacts and regression assertions were corrected accordingly. All 14 controlled source-census classes were freshly rechecked in MMSC-SEARCH-000275. No lexical, audio, participant or cultural claim was promoted.",
+  "latest_run": 276,
+  "previous_final_head": "ca845c94841cd9291685c81cf22fc40a0ed1d627",
+  "work_head_before_status_sync": "fdcb1c423dcbaf3ac9d91bcc5ca27b9ea60d94d0",
+  "cycle_result": "Run 276 reverified all controlled census classes, pinned the public Karya Mundari TTS repository as an exact dataset/audio locator with repository-declared package metadata and explicit rights/cultural boundaries, reverified official ORGI C-17 and LSI catalogue identities, and retained Peiros at the corrected 101 distinct Mundari rows with 80 unreconciled. No audio bytes, transcripts, lexical rows, demographic values or cultural propositions were promoted.",
   "cycle_commits": {
-    "run275_peiros_cardinality_correction": "a8d685a2b500f2800440fef6e06a70d3901a7ce8",
-    "run275_all_class_search_log": "9198d411aa1cc4a469eb43e2c5f3ad34b6256ee5",
-    "run275_correction_tests": "3acf07b8fd4b2605025eb4f89eb206225aa3bad9",
-    "run269_audit_correction": "a57d8d08aae8c0a293b3742375e984b1f2a20f9b",
-    "run269_test_correction": "bc748a4b89bcb5046963e65a480808005441a876",
-    "run271_audit_correction": "a0fc0310f9c9954496a7f33ce749b2e94e73fbcc",
-    "run271_test_correction": "66847c07a634420cc323ad457e7e4e445fa3816d"
+    "run276_karya_mundari_tts_audit": "dac0b99c83edb4ad0d029a643feff49b54c74b95",
+    "run276_all_class_search_log": "fdcb1c423dcbaf3ac9d91bcc5ca27b9ea60d94d0"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -31,24 +26,24 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000275",
-    "latest_search_log": "data/source_census/search_log_run275.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000276",
+    "latest_search_log": "data/source_census/search_log_run276.jsonl",
     "latest_source_audits": [
+      "data/source_census/karya_mundari_tts_exact_locator_run276_2026-09-13.json",
       "data/source_census/lexibank_peiros_cardinality_correction_run275_2026-09-13.json",
-      "data/source_census/rau_proto_munda_zenodo_integrity_locator_run274_2026-09-13.json",
-      "data/source_census/bangladesh_multiling_webmun_reconciliation_run274_2026-09-13.json"
+      "data/source_census/rau_proto_munda_zenodo_integrity_locator_run274_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run275_count_change": "no controlled MMSC count change; Peiros internal FormTable cardinality corrected from connector-wide 202 hits to 101 distinct CSV rows"
+    "run276_count_change": "none; Karya locator retained count-neutral pending deterministic alias/discovery reconciliation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 272,
-    "per_volume_state": "Volume XI retains exact Internet Archive/DLI identity in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278, 600 PPI, source library Birchandra State Central Library, Tripura, and ABBYY FineReader 11.0 OCR-engine metadata. Its separately audited printed-page range is 3175-3456; no equivalence between repository totalpages and printed-page completeness is inferred. Volume XII retains printed-page range 3457-3707. Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. Other I-XVI states remain as previously documented.",
-    "state": "No Mundarica count changed in Run 275; authoritative-registered-scan and verified-complete counts remain zero."
+    "per_volume_state": "Volume XI remains pinned to in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278 and separately audited printed-page range 3175-3456; no equivalence or completeness inferred. Volume XII retains printed-page range 3457-3707. Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. Other I-XVI states remain as previously audited.",
+    "state": "No Mundarica verification count changed in Run 276; scan-byte/hash/page-image/OCR closure remains open."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -61,11 +56,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run275": 0,
-    "evidence_records_added_run275": 0,
-    "evidence_links_added_run275": 0,
-    "verification_audits_added_run275": 1,
-    "run275_promotion_level": "audit correction only: Peiros connector representation separated from distinct CSV-row cardinality; zero lexical/audio/participant/cultural-content promotion"
+    "claims_added_run276": 0,
+    "evidence_records_added_run276": 0,
+    "evidence_links_added_run276": 0,
+    "verification_audits_added_run276": 1,
+    "run276_promotion_level": "exact locator/package metadata audit only; zero participant-derived, lexical, demographic or cultural-content promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -76,7 +71,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run275_change": "No module-count or public-content-row change; corrected audit/search artifacts are available through existing repository evidence/search surfaces without bypassing access gates."
+    "run276_change": "No module-count or public-content-row change; new audit/search artifacts remain behind existing evidence/governance surfaces."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -84,12 +79,13 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "catalogue_or_repository_metadata_treated_as_blanket_redistribution_permission": false,
-    "redistribution_permission_inferred_run275": false,
-    "model_training_permission_inferred_run275": false,
-    "participant_consent_inferred_run275": false,
-    "community_validation_inferred_run275": false,
-    "cultural_access_permission_inferred_run275": false,
-    "bangladesh_multiling_rights_notice": "© 2026 BCC - ICTD. All rights reserved.",
+    "redistribution_permission_inferred_run276": false,
+    "model_training_permission_inferred_run276": false,
+    "participant_consent_inferred_run276": false,
+    "community_validation_inferred_run276": false,
+    "cultural_access_permission_inferred_run276": false,
+    "karya_repository_license": "Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0, repository-declared",
+    "karya_license_treated_as_participant_or_cultural_permission": false,
     "rau_repository_checksum_treated_as_independent_hash": false,
     "derived_peiros_license_verified": "CC-BY-4.0",
     "peiros_underlying_source_blanket_permission_inferred": false
@@ -104,34 +100,29 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No controlled count-bearing publication metric changed in Run 275; the Peiros internal dataset-cardinality note is corrected to 101 distinct Mundari rows with 80 remaining after the 21-row sample reconciliation.",
-    "tables_figures_state": "unchanged and synchronized; no chart/table should display the superseded 202-row connector hit count as CSV cardinality",
-    "build_state": "Run 273 final head 3ae51a21e90a8d630de2197513b2d182dc0e2766 was independently 4/4 green; newer heads must not be labelled green until commit-associated workflows complete."
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized; Peiros cardinality is 101 distinct Mundari rows with 80 unreconciled, not the superseded 202/181 connector-wide figures.",
+    "tables_figures_state": "unchanged and synchronized; no table/figure may use superseded Peiros counts",
+    "build_state": "Run 275 final head ca845c94841cd9291685c81cf22fc40a0ed1d627 is independently 4/4 green; Run 276 final status head must not be labelled green until its commit-associated workflows complete."
   },
   "ci": {
-    "previous_green_head": "3ae51a21e90a8d630de2197513b2d182dc0e2766",
+    "previous_green_head": "ca845c94841cd9291685c81cf22fc40a0ed1d627",
     "previous_green_head_four_of_four": true,
-    "previous_green_workflows": {
-      "MLHKP Publication Build": "success #1979",
-      "MLHKP Source Register Audit": "success #1961",
-      "MLHKP Migration Audit": "success #2012",
-      "MLHKP Streamlit Smoke Test": "success #2126"
-    },
-    "run275_test_bearing_head": "66847c07a634420cc323ad457e7e4e445fa3816d",
-    "fresh_run275_final_head_ci_verified": false,
-    "fresh_run275_final_head_ci_note": "Run 275 correction audit/search/tests/status and historical cardinality/remainder corrections are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
+    "previous_green_check_summary": "4 commit-associated GitHub checks completed successfully: build, two audit jobs, and smoke",
+    "run276_work_head": "fdcb1c423dcbaf3ac9d91bcc5ca27b9ea60d94d0",
+    "fresh_run276_final_head_ci_verified": false,
+    "fresh_run276_final_head_ci_note": "Do not claim the Run 276 status head green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
-    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization; WEB-MUN-0088 has an exact-locator linkage but remains in this unresolved pool until taxonomy/provenance/rights gates close.",
-    "The Bangladesh Multiling Cloud Munda archive has exact source and discovery-lead linkage plus displayed 860-unit/280-minute archive cardinality, but item-level language crosswalk, individual record locators/bytes/hashes, participant consent, community validation and cultural-access conditions remain unverified.",
-    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes. Volume XI has an exact archive manifestation and repository totalpages metadata, but scan bytes/hash, printed-page-image concordance, completeness and OCR verification remain open.",
-    "ORGI Jharkhand C-17 DDW-C17-2000.XLSX bytes, hash, worksheet inventory, exact rows/cells and numeric values remain unverified.",
+    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; scan bytes/hash, printed-page-image concordance, completeness and OCR verification remain open.",
+    "ORGI Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact MUNDA/MUNDARI rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before content promotion.",
-    "Evans & Osada (2005) still requires controlled bitstream/hash/page-image verification before passage-level ingestion.",
-    "TRI and CIIL dictionary/reader manifestations remain incomplete at byte/internal-locator level.",
-    "Peiros v1.1 has 101 distinct Mundari FormTable rows. Source and Parameter_ID reconciliation is closed for the 21 previously sampled rows, leaving 80 distinct rows before any bulk lexical promotion. The earlier 202/181 figures are superseded as a connector-response double count and their Run 269/271 audit/test surfaces have been corrected.",
-    "Rau Zenodo record/file/repository-declared MD5 is pinned, but exact bytes have not been independently acquired and hashed and row-level underlying-source attribution remains open. MMLoSo also requires controlled version/integrity closure.",
-    "Historical and contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and MLHKP cultural-access review.",
+    "Peiros v1.1 has 101 distinct Mundari FormTable rows; 21 sampled rows are reconciled and 80 remain before bulk lexical promotion.",
+    "Rau Zenodo file has a repository-declared MD5 but exact bytes have not been independently acquired/hashed and row-level source attribution remains open.",
+    "Karya Mundari TTS repository states 26,870 utterance files from two speakers and exposes sample/integrity metadata, but corpus/sample bytes, independent hashes, participant consent, community validation and MLHKP cultural-access permission remain unverified.",
+    "MMLoSo paper-level task metadata is verifiable, but exact released dataset version/integrity/rights closure remains separate.",
+    "TRI/CIIL dictionary-reader manifestations and Evans & Osada controlled bitstream/page verification remain incomplete.",
+    "Historical/contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and cultural-access review.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
   ],
   "deadline_progress": {
@@ -151,14 +142,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Gate remains open because 73 unresolved source dispositions, zero verified-complete Mundarica volumes, C-17 workbook byte/hash/cell gaps, LSI/Atlas integrity gaps, remaining Peiros 80-row reconciliation, Rau independent-byte/hash and row-attribution work, other scholarly/dataset integrity work, plus audiovisual/community/cultural-access gates remain unresolved."
+    "reason": "Gate remains open because unresolved source dispositions, zero verified-complete Mundarica volumes, official Census/LSI/Atlas byte/cell/page gaps, remaining Peiros reconciliation, Rau independent-byte/hash work, dataset/audio consent and cultural-access gates, and other scholarly integrity closures remain unresolved."
   },
   "next_parallel_tasks": [
-    "Reconcile the remaining 80 of 101 distinct Language_ID=Mundari Peiros v1.1 FormTable rows against pinned sources.bib and parameters.csv before lexical-row promotion.",
-    "Acquire pMunda_cognate_set_2019-08-29.csv through the permitted Zenodo path and independently verify the repository-declared MD5 before row-level Rau ingestion.",
-    "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI Person/Male/Female cells before value promotion.",
-    "Deterministically disposition the unresolved WEB-MUN leads and join only proven aliases.",
+    "Reconcile the remaining 80 of 101 distinct Language_ID=Mundari Peiros v1.1 rows against pinned sources.bib and parameters.csv.",
+    "Deterministically match the Karya Mundari TTS locator against existing WEB-MUN/federated identities before any MMSC count change; then verify sample/full-corpus integrity and governance through permitted paths.",
+    "Acquire pMunda_cognate_set_2019-08-29.csv through the permitted Zenodo path and independently verify its repository-declared MD5 before row-level ingestion.",
+    "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI cells before value promotion.",
+    "Deterministically disposition unresolved WEB-MUN leads and join only proven aliases.",
     "Acquire Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf byte-preservingly and verify exact Mundari pages/maps.",
-    "Pursue TRI/CIIL, MMLoSo and audiovisual consent/community/cultural-access closure while keeping all 42 modules, ontology/evidence graph, manuscript metrics and CI synchronized."
+    "Continue Mundarica scan/hash/page/OCR closure and TRI/CIIL/MMLoSo/audiovisual consent-community-cultural-access closure while keeping manuscript metrics and all 42 modules synchronized."
   ]
 }
