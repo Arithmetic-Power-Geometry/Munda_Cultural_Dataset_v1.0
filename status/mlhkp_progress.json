@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T06:43:00Z",
+  "updated_utc": "2026-09-12T07:27:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 247,
-  "work_head_before_status_sync": "a292975fec8945d397ea04a651bd03e6cc6f01df",
-  "previous_final_head": "f8358d70b2c3399649a37ec8ac735bcc6e27dfb4",
-  "cycle_result": "Run 247 independently verified Walter Anthony Cook's 1965 Georgetown University dissertation A Descriptive Analysis of Mundari through two Glottolog reference identities, the University of Kiel ISFAS Mundari bibliography, and the ORGI Linguistic Survey of India Jharkhand bibliography. Glottolog metadata is CC BY 4.0 and is retained as rights-safe bibliographic evidence. The two Glottolog IDs are canonicalized as aliases of one dissertation work family. No mirror-hosted dissertation text, lexical rows, grammatical propositions, cultural claims, participant-derived material, or full-text rights were promoted.",
+  "latest_run": 248,
+  "work_head_before_status_sync": "6b454441d42702c0e11599d876b607d465442c0b",
+  "previous_final_head": "0461f6624f69cdfa79832432df84803422101164",
+  "cycle_result": "Run 248 independently corroborated a Google Books digital/bibliographic manifestation labelled Encyclopaedia Mundarica, Volumes 3-5, with 1930 Superintendent government printing, Bihar and Orissa metadata, original-from New York Public Library metadata, and Google Books ID H3T9md87HvcC. This strengthens manifestation discovery for Volumes III-V but does not establish three separately complete volumes, scan completeness, printed-page reconciliation, OCR accuracy, lawful byte acquisition, redistribution rights, community validation, or cultural-access permission. ORGI C-17 Jharkhand metadata was also rechecked; direct byte-preserving workbook acquisition remains unclosed. No cultural or linguistic content was promoted.",
   "cycle_commits": {
-    "run247_cook_dissertation_locator": "c01c63a4af309cbd673517282dbeaaaaaa1c072d",
-    "run247_all_class_search_log": "d7af6eb78c8b45e12ca16a3d5c735bf34267139d",
-    "run247_boundary_tests": "a292975fec8945d397ea04a651bd03e6cc6f01df"
+    "run248_mundarica_manifestation_audit": "fb92c2d8c87f961a0df0a5b8565d96ad733db056",
+    "run248_all_class_search_log": "ff31eff6abf54d957b8682e6d4f568ec05d9925d",
+    "run248_boundary_tests": "6b454441d42702c0e11599d876b607d465442c0b"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,24 +27,24 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000247",
-    "latest_search_log": "data/source_census/search_log_run247.jsonl",
-    "latest_source_audit": "data/source_census/cook_1965_mundari_dissertation_exact_locator_run247_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000248",
+    "latest_search_log": "data/source_census/search_log_run248.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_volumes_3_5_googlebooks_nypl_manifestation_run248_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run247_count_change": "none; one dissertation work family received stronger exact bibliographic canonicalization without identity/evidence inflation"
+    "run248_count_change": "none; an existing Mundarica work-family gained stronger independent manifestation corroboration without identity/evidence inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 246,
+    "last_mundarica_run": 248,
     "per_volume_states": {
       "I": "open_unverified",
       "II": "open_unverified; secondary printed-page locator pp. 511-521 recorded; exact lawful manifestation/bytes/hash/scan/OCR remain open",
-      "III": "open_unverified; known DLI item must not be misassigned to IV",
-      "IV": "open_unverified; secondary printed-page locators include pp. 1022-1039 and pp. 1238-1241; exact lawful manifestation/bytes/hash/OCR remain open",
-      "V": "open_unverified",
+      "III": "open_unverified; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 provides independent manifestation corroboration, but exact lawful bytes/hash/scan sequence/printed-page mapping/OCR remain open",
+      "IV": "open_unverified; secondary printed-page locators include pp. 1022-1039 and pp. 1238-1241; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 provides independent manifestation corroboration; exact lawful bytes/hash/scan mapping/OCR remain open",
+      "V": "open_unverified; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 provides independent manifestation corroboration, but separate-volume completeness/bytes/hash/scan mapping/OCR remain open",
       "VI": "open_unverified",
       "VII": "open_unverified",
       "VIII": "open_unverified",
@@ -70,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run247": 0,
-    "evidence_records_added_run247": 0,
-    "evidence_links_added_run247": 0,
-    "verification_audits_added_run247": 1,
-    "run247_promotion_level": "exact bibliographic/source-identity locator and deterministic alias canonicalization only; zero full-text/passages/linguistic/cultural claims"
+    "claims_added_run248": 0,
+    "evidence_records_added_run248": 0,
+    "evidence_links_added_run248": 0,
+    "verification_audits_added_run248": 1,
+    "run248_promotion_level": "bibliographic/digital-manifestation locator only; zero passages/OCR/linguistic/cultural claims"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run247_change": "No module-count or public-data change; Cook dissertation locator remains audit metadata only."
+    "run248_change": "No module-count or public-data change; new Mundarica manifestation locator remains audit metadata only."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -93,7 +93,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run247_change": "Theses/dissertations coverage gained a stronger canonical Cook 1965 locator; lawful full-text, exact pages, participant provenance and cultural-access closure remain open."
+    "run248_change": "Mundarica III-V manifestation discovery strengthened through an independent NYPL-origin Google Books record; bitstream/OCR/rights closure remains open."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -101,12 +101,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run247": false,
-    "model_training_permission_inferred_run247": false,
-    "participant_consent_inferred_run247": false,
-    "community_validation_inferred_run247": false,
-    "cultural_access_permission_inferred_run247": false,
-    "run247_metadata_rights_note": "Glottolog bibliographic metadata is CC BY 4.0; that metadata license is not propagated to Cook dissertation full text or field materials."
+    "redistribution_permission_inferred_run248": false,
+    "model_training_permission_inferred_run248": false,
+    "participant_consent_inferred_run248": false,
+    "community_validation_inferred_run248": false,
+    "cultural_access_permission_inferred_run248": false,
+    "run248_metadata_rights_note": "Google Books bibliographic/preview visibility is used only for manifestation corroboration and is not treated as permission to ingest or redistribute the underlying work."
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -120,28 +120,28 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 247; release_metrics JSON/TeX numerical regeneration not required.",
+    "generated_metrics_state": "No count-bearing change in Run 248; release_metrics JSON/TeX numerical regeneration not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-247 final status-sync head requires its own four workflow conclusions before being called green."
+    "build_state": "Run-247 final head independently verified 4/4 green; Run-248 test-bearing/final heads require their own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "e0193e743306e9679235525845f6632e96ae289d",
+    "previous_green_head": "0461f6624f69cdfa79832432df84803422101164",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": [
-      "MLHKP Publication Build #1819",
-      "MLHKP Source Register Audit #1801",
-      "MLHKP Migration Audit #1852",
-      "MLHKP Streamlit Smoke Test #1966"
+      "MLHKP Publication Build #1830",
+      "MLHKP Source Register Audit #1812",
+      "MLHKP Migration Audit #1863",
+      "MLHKP Streamlit Smoke Test #1977"
     ],
-    "run247_test_bearing_head": "a292975fec8945d397ea04a651bd03e6cc6f01df",
-    "fresh_run247_final_head_ci_verified": false,
-    "fresh_run247_final_head_ci_note": "Run-247 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
+    "run248_test_bearing_head": "6b454441d42702c0e11599d876b607d465442c0b",
+    "fresh_run248_final_head_ci_verified": false,
+    "fresh_run248_final_head_ci_note": "Run-248 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Google Books record H3T9md87HvcC strengthens Mundarica III-V manifestation discovery but does not establish separately complete volumes, lawful complete bytes, independent hashes, scan sequence/page mapping or verified OCR.",
     "Cook 1965 dissertation has a verified canonical bibliographic identity and CC BY 4.0 metadata source, but lawful complete full text, reuse boundary, byte-preserving acquisition, independent hash, exact pages and field-material consent/cultural-access review remain open.",
     "Mundarica Volume XIII is independently corroborated bibliographically, but byte-preserving complete acquisition, independent hash, scan sequence/page mapping, OCR verification and rights/cultural-access review remain open.",
-    "Phillips & Harrison 2017 has exact publisher section/example locators, but byte-preserving full-text acquisition/hash, underlying field-material permissions and legacy-source page verification remain open.",
     "Mundarica Vol. II pp. 511-521 and Vol. IV pp. 1238-1241 are secondary locators only; underlying lawful manifestations, bytes, hashes, scan mapping and OCR remain unverified.",
     "Bhaduri dictionary full-text rights, lawful complete bytes, independent hash and exact lexical entry/page locators remain unresolved; 1929-versus-1931 catalogue-note conflict requires primary bibliographic resolution.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
@@ -178,10 +178,10 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "For Cook 1965, locate a lawful complete manifestation, establish reuse boundary, independently hash bytes and create exact page locators before any linguistic or participant-derived proposition is promoted.",
+    "For Mundarica III-V, determine whether exact lawful complete manifestations can be acquired separately or from the NYPL-origin Google Books record; independently hash bytes and reconcile scan sequence to printed pagination before OCR/passages are promoted.",
     "For Mundarica XIII, acquire a lawful complete bitstream if obtainable, independently hash it, reconcile scan sequence to printed pagination and verify OCR before any passage promotion.",
     "Locate exact lawful Mundarica II and IV manifestations and map verified scan images to corroborated printed-page ranges before OCR/passages are promoted.",
-    "Resolve Phillips & Harrison 2017 underlying source chain and verify cited legacy/field sources before lexical promotion.",
+    "For Cook 1965, locate a lawful complete manifestation, establish reuse boundary, independently hash bytes and create exact page locators before any linguistic or participant-derived proposition is promoted.",
     "Resolve Bhaduri 1929-versus-1931 primary bibliographic history; locate a lawful complete manifestation, establish reuse rights, independently hash bytes and verify exact entry/page locators before lexical promotion.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
