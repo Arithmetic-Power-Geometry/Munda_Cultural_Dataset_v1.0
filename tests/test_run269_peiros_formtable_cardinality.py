@@ -12,7 +12,8 @@ def test_run269_peiros_mundari_cardinality_and_pin():
     assert d["source"]["tag_commit_sha"] == "b4d2e4dcee173494c90328f7cafd78c9851c0956"
     assert d["source"]["forms_git_blob_sha"] == "28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5"
     assert d["exact_selector_audit"]["selector"] == "Language_ID == Mundari"
-    assert d["exact_selector_audit"]["matches_in_pinned_blob"] == 202
+    assert d["exact_selector_audit"]["matches_in_pinned_blob"] == 101
+    assert "connector-resource double count" in d["exact_selector_audit"]["correction_run275"]
 
 
 def test_run269_sample_locators_are_exact_and_no_bulk_promotion():
