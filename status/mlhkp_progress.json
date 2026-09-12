@@ -4,17 +4,21 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T20:55:00Z",
+  "updated_utc": "2026-09-12T21:05:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
   "latest_run": 275,
   "previous_final_head": "9363bd4ea5b985733745c75b3dc2cd5f019c3739",
-  "work_head_before_status_sync": "3acf07b8fd4b2605025eb4f89eb206225aa3bad9",
-  "cycle_result": "Run 275 corrected a material Peiros v1.1 cardinality error before audited release. The immutable forms.csv has 101 distinct Language_ID=Mundari rows. The previously reported 202 value was a connector-representation double count because the GitHub fetch response exposes the same decoded CSV once in top-level content and again in structuredContent.content. Restricting the audit to the single top-level CSV representation yields 101 hits; the 21 previously sampled Source/Parameter_ID reconciliations remain valid, so the correct unreconciled remainder is 80, not 181. All 14 controlled source-census classes were freshly rechecked in MMSC-SEARCH-000275. No lexical, audio, participant or cultural claim was promoted.",
+  "work_head_before_status_sync": "66847c07a634420cc323ad457e7e4e445fa3816d",
+  "cycle_result": "Run 275 corrected a material Peiros v1.1 cardinality error before audited release. The immutable forms.csv has 101 distinct Language_ID=Mundari rows. The previously reported 202 value was a connector-representation double count because the GitHub fetch response exposes the same decoded CSV once in top-level content and again in structuredContent.content. Restricting the audit to the single top-level CSV representation yields 101 hits; the 21 previously sampled Source/Parameter_ID reconciliations remain valid, so the correct unreconciled remainder is 80, not 181. The historical Run 269 and Run 271 audit artifacts and regression assertions were corrected accordingly. All 14 controlled source-census classes were freshly rechecked in MMSC-SEARCH-000275. No lexical, audio, participant or cultural claim was promoted.",
   "cycle_commits": {
     "run275_peiros_cardinality_correction": "a8d685a2b500f2800440fef6e06a70d3901a7ce8",
     "run275_all_class_search_log": "9198d411aa1cc4a469eb43e2c5f3ad34b6256ee5",
-    "run275_correction_tests": "3acf07b8fd4b2605025eb4f89eb206225aa3bad9"
+    "run275_correction_tests": "3acf07b8fd4b2605025eb4f89eb206225aa3bad9",
+    "run269_audit_correction": "a57d8d08aae8c0a293b3742375e984b1f2a20f9b",
+    "run269_test_correction": "bc748a4b89bcb5046963e65a480808005441a876",
+    "run271_audit_correction": "a0fc0310f9c9954496a7f33ce749b2e94e73fbcc",
+    "run271_test_correction": "66847c07a634420cc323ad457e7e4e445fa3816d"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -113,9 +117,9 @@
       "MLHKP Migration Audit": "success #2012",
       "MLHKP Streamlit Smoke Test": "success #2126"
     },
-    "run275_test_bearing_head": "3acf07b8fd4b2605025eb4f89eb206225aa3bad9",
+    "run275_test_bearing_head": "66847c07a634420cc323ad457e7e4e445fa3816d",
     "fresh_run275_final_head_ci_verified": false,
-    "fresh_run275_final_head_ci_note": "Run 275 correction audit/search/tests/status are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
+    "fresh_run275_final_head_ci_note": "Run 275 correction audit/search/tests/status and historical cardinality/remainder corrections are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization; WEB-MUN-0088 has an exact-locator linkage but remains in this unresolved pool until taxonomy/provenance/rights gates close.",
@@ -125,7 +129,7 @@
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before content promotion.",
     "Evans & Osada (2005) still requires controlled bitstream/hash/page-image verification before passage-level ingestion.",
     "TRI and CIIL dictionary/reader manifestations remain incomplete at byte/internal-locator level.",
-    "Peiros v1.1 has 101 distinct Mundari FormTable rows. Source and Parameter_ID reconciliation is closed for the 21 previously sampled rows, leaving 80 distinct rows before any bulk lexical promotion. The earlier 202/181 figures are superseded as a connector-response double count.",
+    "Peiros v1.1 has 101 distinct Mundari FormTable rows. Source and Parameter_ID reconciliation is closed for the 21 previously sampled rows, leaving 80 distinct rows before any bulk lexical promotion. The earlier 202/181 figures are superseded as a connector-response double count and their Run 269/271 audit/test surfaces have been corrected.",
     "Rau Zenodo record/file/repository-declared MD5 is pinned, but exact bytes have not been independently acquired and hashed and row-level underlying-source attribution remains open. MMLoSo also requires controlled version/integrity closure.",
     "Historical and contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and MLHKP cultural-access review.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
@@ -151,7 +155,6 @@
   },
   "next_parallel_tasks": [
     "Reconcile the remaining 80 of 101 distinct Language_ID=Mundari Peiros v1.1 FormTable rows against pinned sources.bib and parameters.csv before lexical-row promotion.",
-    "Correct or explicitly supersede historical Run 269/271 202/181 wording wherever surfaced so no release surface repeats the connector double count.",
     "Acquire pMunda_cognate_set_2019-08-29.csv through the permitted Zenodo path and independently verify the repository-declared MD5 before row-level Rau ingestion.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI Person/Male/Female cells before value promotion.",
     "Deterministically disposition the unresolved WEB-MUN leads and join only proven aliases.",
