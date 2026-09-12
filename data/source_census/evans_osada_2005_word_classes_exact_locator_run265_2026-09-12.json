@@ -1,0 +1,88 @@
+{
+  "run_id": 265,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica peer-reviewed source census / exact-locator evidence verification",
+  "scope_class": ["peer_reviewed_articles", "archives", "web_resources"],
+  "purpose": "Move Evans & Osada (2005) beyond discovery-only status using publisher and institutional-repository metadata plus the repository-hosted published-version bitstream locator, while withholding row-level linguistic/cultural ingestion until exact page-image/text reconciliation and reuse boundaries are fully audited.",
+  "source": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "journal": "Linguistic Typology",
+    "volume": "9",
+    "issue": "3",
+    "year": 2005,
+    "page_range": "351-390",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "publisher": "Walter de Gruyter",
+    "publisher_url": "https://www.degruyterbrill.com/document/doi/10.1515/lity.2005.9.3.351/html",
+    "anu_item_uri": "http://hdl.handle.net/1885/54663",
+    "anu_repository_item": "https://openresearch-repository.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "anu_bitstream_url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/44a04bba-cc31-42d0-825c-c246efc99a93/content",
+    "anu_filename": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "anu_reported_size": "234.31 KB",
+    "anu_type": "Journal article",
+    "anu_access_statement": "Open Access"
+  },
+  "verified_identity_and_locators": {
+    "doi_verified_from_publisher_and_anu": true,
+    "journal_volume_issue_pages_verified": true,
+    "publisher_page_range": "351-390",
+    "anu_repository_handle": "1885/54663",
+    "anu_bitstream_uuid": "44a04bba-cc31-42d0-825c-c246efc99a93",
+    "anu_published_version_status": true,
+    "article_start_page_locator": 351,
+    "article_end_page_locator": 390,
+    "first_page_exposes": ["title", "authors", "abstract", "keywords", "section 1 Introduction"],
+    "publisher_abstract_scope": "The publisher and ANU metadata identify the paper as an analysis of Mundari word-class claims using Hoffmann's corpus and additional data.",
+    "internal_section_locator_from_indexed_published_version": {
+      "page": 366,
+      "section": "3.1 Equivalent combinatorics",
+      "next_section_page": 367,
+      "next_section": "3.2 Compositionality"
+    }
+  },
+  "rights_access_integrity_boundary": {
+    "anu_access_statement_open_access": true,
+    "anu_rights_metadata_observed": "ANU metadata states that the publisher's version/PDF may be used on an author's personal website, editor's personal website or institutional repository, citing SHERPA/RoMEO as at 24/10/17.",
+    "public_repository_copy_treated_as_blanket_redistribution_license": false,
+    "public_repository_copy_treated_as_model_training_permission": false,
+    "bitstream_bytes_acquired_and_independently_hashed_in_repo": false,
+    "page_image_verification_complete": false,
+    "ocr_or_text_layer_reconciliation_complete": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "The institutional bitstream endpoint was discoverable and indexed, but direct retrieval through the audit browser returned a 403 during this cycle; therefore no byte/hash or image-level verification is claimed."
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1515/lity.2005.9.3.351",
+    "joined_manifestations": [
+      "De Gruyter publisher article record",
+      "ANU Open Research Repository item/handle",
+      "ANU repository published-version bitstream",
+      "Glottolog reference 131399"
+    ],
+    "separate_identity_count_for_manifestations": false,
+    "identity_count_change": false,
+    "reason_count_neutral": "The cycle verifies and canonicalizes one article work-family but does not yet prove its relationship to any of the 73 unresolved WEB-MUN lead identities."
+  },
+  "promotion": {
+    "level": "exact DOI + publisher pagination + institutional repository handle/bitstream + article/section locator audit",
+    "exact_locator_records_promoted": 5,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "lexical_rows_added": 0,
+    "grammatical_propositions_added": 0,
+    "participant_derived_records_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Byte-preserving acquisition of the ANU published-version PDF into the controlled ingestion workspace",
+    "Independent cryptographic hash and file-type/size verification",
+    "Page-image verification of pp.351-390 and reconciliation against the indexed text layer",
+    "Exact passage-level provenance for any future linguistic proposition before controlled-claim promotion",
+    "Reuse/licence determination for any redistribution beyond repository-hosted access",
+    "Source-data/participant provenance and culturally appropriate access review before any participant-derived or sensitive material is ingested"
+  ]
+}
