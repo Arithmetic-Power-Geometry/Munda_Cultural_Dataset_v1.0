@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T10:33:00Z",
+  "updated_utc": "2026-09-12T10:43:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 254,
-  "work_head_before_status_sync": "9ace6575f842137befbdd8569232d3d785892ff7",
-  "previous_final_head": "6b52d7eee31e190f68429e96c8258cfdf6cbb88b",
-  "cycle_result": "Run 254 strengthened Mundarica VII-VIII manifestation/page accounting. Google Books identifies Volume VII as Encyclopaedia Mundarica: I-J, Volume 7, Johann Hoffmann, Superintendent Government Printing, Bihar and Orissa, 1950, with a displayed catalogue length of 265 pages. Google Books independently identifies Volume VIII, Johann Hoffmann and Arthur van Emelen, Superintendent government printing, Bihar and Orissa, displayed year 1930, original from University of Minnesota, digitized 2020-02-25, and exposes contents anchors 2147, 2151 and 2208. These are catalogue/structure observations only: no full bytes, hash, scan completeness, OCR, passage, cultural fact, rights, consent, community validation or cultural-access permission was promoted.",
+  "latest_run": 255,
+  "work_head_before_status_sync": "3f4e2851e93f57ef3f0b465d2eb9393ca7d5fd4b",
+  "previous_final_head": "bda8fb1d2a9bd93793d583cc4ad2a710ec90b47d",
+  "cycle_result": "Run 255 promoted J. C. Whitley's 1873 A Mundári Primer from loose discovery to an exact institutional digital-manifestation locator. Deutsche Digitale Bibliothek/Bayerische Staatsbibliothek verifies Calcutta, Bengal Secretariat Press, 1873, holding L.as. 386 n, persistent URN urn:nbn:de:bvb:12-bsb11159896-3 and extent 3 leaves + 35 pages. The DDB record displays 'Kein Urheberrechtsschutz - Nur nicht kommerzielle Nutzung erlaubt'; MLHKP preserves both the no-copyright statement and the non-commercial digitization-use restriction. No source-text bytes, hash, OCR, lexical row, grammatical proposition, cultural claim, participant consent, community validation or cultural-access permission was inferred or promoted. Repository code search returned no Whitley occurrence but marked results incomplete, so the run remains count-neutral until deterministic reconciliation against the unresolved WEB-MUN lead set is proven.",
   "cycle_commits": {
-    "run254_mundarica_vii_viii_audit": "8c6df9602af0d0336988a374b27a02bfceb3c064",
-    "run254_all_class_search_log": "e596b86de246a2a590be87e2cb852be76952e141",
-    "run254_boundary_tests": "9ace6575f842137befbdd8569232d3d785892ff7"
+    "run255_whitley_exact_locator": "61a64a0bd0ad04106af24c49e7ca932675e135f9",
+    "run255_all_class_search_log": "1dd525543b7fb1b5671dace7d6664b81ee57c997",
+    "run255_boundary_tests": "3f4e2851e93f57ef3f0b465d2eb9393ca7d5fd4b"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000254",
-    "latest_search_log": "data/source_census/search_log_run254.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_vol7_vol8_google_books_manifestation_run254_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000255",
+    "latest_search_log": "data/source_census/search_log_run255.jsonl",
+    "latest_source_audit": "data/source_census/whitley_1873_mundari_primer_exact_locator_run255_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run254_count_change": "none; both observations join existing Mundarica volume work identities"
+    "run255_count_change": "none; exact-locator audit retained count-neutral pending deterministic join against the complete unresolved WEB-MUN lead set"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -70,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run254": 0,
-    "evidence_records_added_run254": 0,
-    "evidence_links_added_run254": 0,
-    "verification_audits_added_run254": 1,
-    "run254_promotion_level": "Mundarica VII-VIII manifestation/page-accounting metadata only; zero passage/content/cultural claim promotion"
+    "claims_added_run255": 0,
+    "evidence_records_added_run255": 0,
+    "evidence_links_added_run255": 0,
+    "verification_audits_added_run255": 1,
+    "run255_promotion_level": "Whitley 1873 exact institutional bibliographic/digital-manifestation locator metadata only; zero passage/content/cultural claim promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run254_change": "No module-count or public-data change; new Mundarica observations remain audit metadata only."
+    "run255_change": "No module-count or public-data change; Whitley remains source-audit metadata pending count-bearing deterministic reconciliation and content-level permission/integrity closure."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -93,11 +93,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run254": false,
-    "model_training_permission_inferred_run254": false,
-    "participant_consent_inferred_run254": false,
-    "community_validation_inferred_run254": false,
-    "cultural_access_permission_inferred_run254": false
+    "redistribution_permission_inferred_run255": false,
+    "model_training_permission_inferred_run255": false,
+    "participant_consent_inferred_run255": false,
+    "community_validation_inferred_run255": false,
+    "cultural_access_permission_inferred_run255": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -111,29 +111,32 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 254; numerical manuscript metrics unchanged.",
+    "generated_metrics_state": "No count-bearing change in Run 255; numerical manuscript metrics unchanged.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-253 final head 6b52d7eee31e190f68429e96c8258cfdf6cbb88b independently verified 4/4 green; Run-254 requires its own workflow conclusions before being called green."
+    "build_state": "Run-254 final head bda8fb1d2a9bd93793d583cc4ad2a710ec90b47d independently verified 4/4 green; Run-255 requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "6b52d7eee31e190f68429e96c8258cfdf6cbb88b",
+    "previous_green_head": "bda8fb1d2a9bd93793d583cc4ad2a710ec90b47d",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": [
-      "MLHKP Migration Audit #1898 success",
-      "MLHKP Source Register Audit #1847 success",
-      "MLHKP Streamlit Smoke Test #2012 success",
-      "MLHKP Publication Build #1865 success"
+      "MLHKP Migration Audit #1904 success",
+      "MLHKP Source Register Audit #1853 success",
+      "MLHKP Streamlit Smoke Test #2018 success",
+      "MLHKP Publication Build #1871 success"
     ],
-    "run254_test_bearing_head": "9ace6575f842137befbdd8569232d3d785892ff7",
-    "run254_test_bearing_head_workflows_at_status_sync": {
-      "state": "not_yet_registered",
-      "completed_success": 0
+    "run255_test_bearing_head": "3f4e2851e93f57ef3f0b465d2eb9393ca7d5fd4b",
+    "run255_test_bearing_head_workflows_at_status_sync": {
+      "state": "four_workflows_instantiated_not_complete",
+      "completed_success": 0,
+      "in_progress": 3,
+      "queued": 1
     },
-    "fresh_run254_final_head_ci_verified": false,
-    "fresh_run254_final_head_ci_note": "Run-253 is independently 4/4 green. Fresh Run-254 commit-associated conclusions are required before calling its final head green."
+    "fresh_run255_final_head_ci_verified": false,
+    "fresh_run255_final_head_ci_note": "Run-254 is independently 4/4 green. Run-255 test-bearing workflows were three in progress and one queued at status synchronization; the status commit itself requires fresh conclusions before it can be called green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Whitley 1873 now has an exact institutional holding/URN/extent/rights locator, but complete digitized bytes, independent hash, scan-to-page accounting, OCR, MLHKP reuse permission and cultural-access review remain unresolved.",
     "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
@@ -166,7 +169,8 @@
     "reason": "Release still has 73 unresolved source dispositions, unverified official Census/Atlas/LSI bytes and cells, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and unresolved audiovisual/participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
-    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
+    "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins; specifically reconcile Whitley 1873 before any identity-count change.",
+    "Attempt lawful byte-preserving acquisition of the Whitley BSB manifestation within its displayed use boundary; independently hash and reconcile scan sequence to 3 leaves + 35 pages before extracting any exact page evidence.",
     "For Mundarica I-XVI, continue exact lawful manifestation acquisition, independent hashing, scan/page accounting and OCR verification; prioritize still-sparse I, VI, IX, X, XII and XIV while not treating catalogue visibility as completeness.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
