@@ -1,0 +1,64 @@
+{
+  "run_id": 280,
+  "date_utc": "2026-09-13",
+  "stream": "government_LSI / derived-dataset locator audit",
+  "source": {
+    "repository": "lexibank/lsi",
+    "pinned_commit_sha": "bfae847565dc6810af05c11bf612457e5861009e",
+    "languages_path": "cldf/languages.csv",
+    "languages_git_blob_sha": "13e9e1d646a6f61b1e92494d37a19318f7856db0",
+    "readme_path": "README.md",
+    "readme_git_blob_sha": "12af57b315885e754cae42a295500f6ff2df4859"
+  },
+  "verified_locator": {
+    "Language_ID": "MUNDARI",
+    "Name": "MUNDARI",
+    "Glottocode": "mund1320",
+    "Glottolog_Name": "Mundari",
+    "ISO639P3code": "unr",
+    "Family": "Austroasiatic",
+    "NameInSource": "Muṇḍārī",
+    "NumberInSource": "16.",
+    "Order": 36,
+    "FamilyInSource": "Austro-Asiatic",
+    "SubGroup": "Munda"
+  },
+  "dataset_context": {
+    "declared_original_source": "Grierson, George Abraham (1928): Linguistic Survey of India. Comparative Vocabulary. Calcutta: Government of India Central Publication Branch.",
+    "derived_dataset_license": "CC-BY-4.0",
+    "declared_digitization_process": "typed from scanned book tables, then parsed and converted to CLDF with orthography profiles, Glottolog links and Concepticon links",
+    "declared_dataset_varieties": 363,
+    "declared_dataset_concepts": 168,
+    "declared_dataset_lexemes": 60533,
+    "declared_dataset_sources": 1
+  },
+  "canonicalization": {
+    "canonical_key": "LEXIBANK:LSI:master@bfae847565dc6810af05c11bf612457e5861009e",
+    "new_controlled_source_identity": false,
+    "reason": "This is a pinned derived-dataset locator refinement for an already tracked LSI source family, not a new primary-source identity."
+  },
+  "promotion": {
+    "controlled_source_identity_count_change": false,
+    "lexical_rows_promoted": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "promotion_level": "language-identity and dataset-provenance locator only"
+  },
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license_verified_from_readme": true,
+    "derived_license_treated_as_primary_scan_blanket_permission": false,
+    "derived_license_treated_as_participant_consent": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "public_repository_access_treated_as_model_training_permission": false,
+    "restricted_or_participant_derived_content_exposed": false
+  },
+  "explicit_gaps": [
+    "Pin a released Lexibank LSI version/DOI before publication-grade derived-row citation where feasible; this run pins the current master commit only.",
+    "Reconcile exact Mundari FormTable rows and Parameter_ID/Concepticon locators before promoting lexical evidence.",
+    "Keep derived CLDF provenance separate from direct LSI page-image verification; LSI_JHARKHAND.pdf, LSI_WB_PART_I.pdf and Language_Atlas_2011.pdf byte/hash/page-image/OCR closure remain open.",
+    "Do not infer community validation, participant consent or MLHKP cultural-access permission from CC-BY-4.0 alone."
+  ]
+}
