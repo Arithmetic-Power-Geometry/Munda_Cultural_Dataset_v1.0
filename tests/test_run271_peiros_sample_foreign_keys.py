@@ -12,12 +12,13 @@ def test_run271_peiros_sample_foreign_key_reconciliation():
     assert d["source"]["tag_commit_sha"] == "b4d2e4dcee173494c90328f7cafd78c9851c0956"
     assert d["source"]["sources_git_blob_sha"] == "0629a9d2536b09f6c615aa33c471a6550e274acd"
     assert d["source"]["parameters_git_blob_sha"] == "f13b1827b4ee61f6f38b5031afe7a7d5fa027692"
+    assert d["source"]["mundari_form_rows_total"] == 101
     s = d["sample_reconciliation"]
     assert s["sample_rows"] == 21
     assert s["source_key_verified_rows"] == 21
     assert s["parameter_key_verified_rows"] == 21
-    assert s["unresolved_rows_remaining"] == 181
-    assert s["bulk_202_row_reconciliation_complete"] is False
+    assert s["unresolved_rows_remaining"] == 80
+    assert s["bulk_101_row_reconciliation_complete"] is False
 
 
 def test_run271_exact_source_and_parameter_keys():
