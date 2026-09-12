@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "run": 242,
+  "search_id": "MMSC-SEARCH-000242",
+  "checked_utc": "2026-09-12T04:30:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "official ORGI Jharkhand-specific C-17 manifestation and schema locator; no numeric cell promotion",
+  "source": {
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "reference_id": "PC11_C17-20",
+    "reference_number": "PC11_C17",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "publisher": "Office of the Registrar General & Census Commissioner, India",
+    "affiliation": "Ministry of Home Affairs, Government of India",
+    "year": 2011,
+    "geographic_unit": "Jharkhand",
+    "geographic_code": "20",
+    "catalog_locator": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "declared_download_filename": "DDW-C17-2000.XLSX"
+  },
+  "identity_and_schema_verification": {
+    "official_catalog_verified": true,
+    "jharkhand_specific_manifestation_verified": true,
+    "declared_workbook_filename_verified": true,
+    "geographic_granularity_verified": "state",
+    "unit_of_observation_verified": "Individual (person)",
+    "universe_verified": "All individuals in Jharkhand",
+    "munda_total_speakers_row_label_present_in_catalog_schema": true,
+    "mundari_total_speakers_row_label_present_in_catalog_schema": true,
+    "munda_first_subsidiary_language_row_label_present_in_catalog_schema": true,
+    "mundari_first_subsidiary_language_row_label_present_in_catalog_schema": true,
+    "munda_second_subsidiary_language_row_label_present_in_catalog_schema": true,
+    "mundari_second_subsidiary_language_row_label_present_in_catalog_schema": true,
+    "deterministic_identity_key": "orgi:PC11_C17-20",
+    "relationship_to_india_manifestation": "state-specific companion to PC11_C17-00; do not collapse workbook identities because geographic scope and declared filenames differ"
+  },
+  "byte_and_cell_integrity": {
+    "official_workbook_bytes_acquired": false,
+    "independent_sha256_verified": false,
+    "worksheet_names_verified_from_bytes": false,
+    "exact_munda_rows_verified_from_workbook_bytes": false,
+    "exact_mundari_rows_verified_from_workbook_bytes": false,
+    "numeric_cells_promoted": 0,
+    "reason": "The official catalogue establishes workbook identity and row-label/schema availability but does not substitute for byte-preserving acquisition and exact workbook-cell verification."
+  },
+  "evidence_promotion_boundary": {
+    "source_identity_or_manifestation_locator_promoted": true,
+    "schema_locator_promoted": true,
+    "numeric_population_or_bilingualism_claims_promoted": false,
+    "public_factual_claims_added": 0,
+    "evidence_records_added": 0,
+    "provenance_links_added": 0,
+    "rule": "Do not place any C-17 Munda/Mundari value in SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN until exact official workbook bytes, independent hash, worksheet and row/cell coordinates are verified."
+  },
+  "rights_and_governance": {
+    "public_catalog_visibility_is_redistribution_permission": false,
+    "redistribution_permission_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "synchronization_decision": {
+    "mmsc_audited_source_identity_count_change": 0,
+    "raw_web_discovery_record_count_change": 0,
+    "canonicalized_web_lead_count_change": 0,
+    "source_claim_count_change": 0,
+    "evidence_record_count_change": 0,
+    "evidence_link_count_change": 0,
+    "streamlit_module_count_change": 0,
+    "publication_numeric_regeneration_required": false,
+    "coverage_or_gap_change": "official Jharkhand C-17 manifestation and target-row schema are now exact-locatable; byte/hash/cell verification remains open"
+  },
+  "promotion_boundary": "Promote only the official Jharkhand-specific C-17 identity, filename, scope and catalogue-declared row-label schema. Do not promote numerical values until workbook bytes and exact cells are independently verified."
+}
