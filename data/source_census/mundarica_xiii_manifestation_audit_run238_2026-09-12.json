@@ -1,0 +1,42 @@
+{
+  "audit_id": "MLHKP-RUN238-MUNDARICA-XIII-MANIFESTATION",
+  "checked_utc": "2026-09-12T02:34:00Z",
+  "scope": "Manifestation-level verification for Encyclopaedia Mundarica Volume XIII using the directly resolved Internet Archive/Digital Library of India item. No cultural proposition, passage, OCR text or completeness state is promoted by this audit.",
+  "volume": "XIII",
+  "resolved_manifestation": {
+    "title_displayed": "Encyclopedia Mundarica Vol-xiii (1941)",
+    "publication_date_displayed": "1941",
+    "publisher_displayed": "Superintendent Government Printing Bihar, Patna",
+    "source_project": "Digital Library of India",
+    "scanning_centre": "C-DAC, Noida",
+    "source_library": "Lbs National Academy Of Administration",
+    "internet_archive_identifier": "dli.ernet.14932",
+    "ark": "ark:/13960/t6r01q423",
+    "ppi_displayed": 600,
+    "ocr_converted_displayed": "abbyy-to-hocr 1.1.37",
+    "page_number_confidence_displayed": 77,
+    "pdf_degraded_displayed": "invalid-jp2-headers",
+    "item_size_displayed": "1.2G"
+  },
+  "verification_state": "exact_dli_internet_archive_manifestation_locator_verified_metadata_only",
+  "risk_flags": [
+    "Internet Archive explicitly reports Pdf_degraded=invalid-jp2-headers for this item.",
+    "Displayed OCR conversion metadata is not evidence that OCR text is accurate.",
+    "Displayed page-number confidence is not a verified page-accounting result.",
+    "No byte-preserving local acquisition or independent cryptographic hash was completed in this run.",
+    "No scan-sequence audit or printed-page-to-image mapping was completed in this run.",
+    "No item-level rights determination or MLHKP cultural-access approval was inferred from public availability."
+  ],
+  "promotion_boundary": {
+    "authoritative_registered_scan": false,
+    "verified_complete_volume": false,
+    "ocr_verified": false,
+    "passages_ingested": 0,
+    "public_cultural_claims_added": 0,
+    "redistribution_permission_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "count_effect": "none; manifestation locator strengthened for Volume XIII, but source/evidence/claim counts are unchanged",
+  "source": "https://archive.org/details/dli.ernet.14932"
+}
