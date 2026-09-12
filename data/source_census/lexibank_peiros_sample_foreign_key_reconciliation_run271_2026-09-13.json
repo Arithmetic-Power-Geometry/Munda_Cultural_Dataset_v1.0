@@ -3,7 +3,7 @@
   "date_utc": "2026-09-13",
   "stream": "dataset / Lexibank / sampled Mundari FormTable foreign-key reconciliation",
   "scope_class": ["datasets", "dictionaries", "web_resources", "theses_dissertations"],
-  "purpose": "Advance the pinned Peiros Austroasiatic v1.1 Mundari ingestion from sampled row locators to verified Source and Parameter_ID foreign-key reconciliation without overstating the unresolved remainder of the 202-row set.",
+  "purpose": "Advance the pinned Peiros Austroasiatic v1.1 Mundari ingestion from sampled row locators to verified Source and Parameter_ID foreign-key reconciliation without overstating the unresolved remainder of the distinct 101-row set.",
   "source": {
     "repository": "lexibank/peirosaustroasiatic",
     "release_tag": "v1.1",
@@ -15,8 +15,9 @@
     "forms_git_blob_sha": "28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5",
     "sources_git_blob_sha": "0629a9d2536b09f6c615aa33c471a6550e274acd",
     "parameters_git_blob_sha": "f13b1827b4ee61f6f38b5031afe7a7d5fa027692",
-    "mundari_form_rows_total": 202,
-    "derived_dataset_license": "CC-BY-4.0"
+    "mundari_form_rows_total": 101,
+    "derived_dataset_license": "CC-BY-4.0",
+    "correction_run275": "The original 202 count was a GitHub connector-response double count. Run 275 verified 101 distinct rows in one decoded CSV representation."
   },
   "source_foreign_key": {
     "key": "Peiros2004a",
@@ -32,9 +33,9 @@
     "sample_rows": 21,
     "source_key_verified_rows": 21,
     "parameter_key_verified_rows": 21,
-    "unresolved_rows_remaining": 181,
+    "unresolved_rows_remaining": 80,
     "all_sample_source_keys_equal": "Peiros2004a",
-    "bulk_202_row_reconciliation_complete": false
+    "bulk_101_row_reconciliation_complete": false
   },
   "rows": [
     {"ID":"Mundari-1_all-1","Parameter_ID":"1_all","Parameter_Name":"all","Concepticon_ID":"98","Concepticon_Gloss":"ALL","Source":"Peiros2004a"},
@@ -84,8 +85,8 @@
     "cultural_claims_added": 0
   },
   "explicit_gaps": [
-    "Reconcile the remaining 181 of 202 Mundari FormTable rows against pinned sources.bib and parameters.csv.",
-    "Persist the complete 202-row reconciliation package without truncation.",
+    "Reconcile the remaining 80 of 101 distinct Mundari FormTable rows against pinned sources.bib and parameters.csv.",
+    "Persist the complete 101-row reconciliation package without connector-level duplication.",
     "Package attribution and provenance for any later lexical-row release.",
     "Apply MLHKP cultural-access review before public exposure or downstream use."
   ]
