@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T15:34:22Z",
+  "updated_utc": "2026-09-12T15:48:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 264,
-  "work_head_before_status_sync": "e882d656ccc7191d26dd24af03f583045e9adf68",
-  "previous_final_head": "aa36747aea0d56de0d9c9401e0a2ad0a9a771f88",
-  "cycle_result": "Run 264 promoted official ORGI Jharkhand C-17 structure beyond file-identity-only status: catalogue PC11_C17-20 declares DDW-C17-2000.XLSX and exposes exact MUNDA/MUNDARI total-speaker, first-subsidiary-language and second-subsidiary-language row categories plus the table column families. No population value was promoted because workbook bytes, independent hash, worksheet names and exact cells remain unverified. All 14 controlled discovery classes were rechecked in MMSC-SEARCH-000264. No source, claim, evidence, module or Mundarica completeness count was inflated.",
+  "latest_run": 265,
+  "work_head_before_status_sync": "9a399d3a24882b4f19560b19495ce1fbd10d6901",
+  "previous_final_head": "729d95de309194b5a44d9067f85a516e087220b7",
+  "cycle_result": "Run 265 promoted Evans & Osada (2005), Mundari: The myth of a language without word classes, beyond discovery-only status using exact DOI 10.1515/lity.2005.9.3.351, publisher pagination 351-390, ANU handle 1885/54663, stable published-version bitstream identity, and indexed internal section locators. The ANU item is marked Open Access and retains repository-use rights metadata, but public availability was not converted into blanket redistribution, model-training, participant-consent, community-validation or cultural-access permission. Direct audit-browser retrieval of the bitstream returned 403, so no byte/hash/page-image verification is claimed. All 14 controlled discovery classes were rechecked in MMSC-SEARCH-000265. No source, controlled claim, evidence-row, module or Mundarica completeness count was inflated.",
   "cycle_commits": {
-    "run264_orgi_c17_structure_audit": "9186dfd86e3f877f252f5b76ba628937d3f0a40c",
-    "run264_all_class_search_log": "e882d656ccc7191d26dd24af03f583045e9adf68"
+    "run265_evans_osada_exact_locator_audit": "ef6152ffa9cd04c16a3776be9cf204457e15956a",
+    "run265_all_class_search_log": "275dcb75e43ae32ff43a02786de425d3ebae8bc7",
+    "run265_boundary_tests": "9a399d3a24882b4f19560b19495ce1fbd10d6901"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,19 +27,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000264",
-    "latest_search_log": "data/source_census/search_log_run264.jsonl",
-    "latest_source_audit": "data/source_census/orgi_c17_munda_mundari_structure_run264_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000265",
+    "latest_search_log": "data/source_census/search_log_run265.jsonl",
+    "latest_source_audit": "data/source_census/evans_osada_2005_word_classes_exact_locator_run265_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run264_count_change": "none; first-party C-17 schema/category strengthening is count-neutral until deterministic reconciliation of unresolved WEB-MUN leads closes"
+    "run265_count_change": "none; exact article/repository/section-locator strengthening is count-neutral until deterministic reconciliation of unresolved WEB-MUN leads closes"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 260,
-    "state": "Unchanged in Run 264. Zero volumes are verified complete because byte-preserving acquisition, independent hashes, page reconciliation and OCR verification remain open."
+    "state": "Unchanged in Run 265. Zero volumes are verified complete because byte-preserving acquisition, independent hashes, page reconciliation and OCR verification remain open."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -51,11 +52,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run264": 0,
-    "evidence_records_added_run264": 0,
-    "evidence_links_added_run264": 0,
-    "verification_audits_added_run264": 1,
-    "run264_promotion_level": "exact first-party catalogue + declared workbook + table-schema + MUNDA/MUNDARI category locator evidence only; zero numeric, demographic or cultural claims promoted"
+    "claims_added_run265": 0,
+    "evidence_records_added_run265": 0,
+    "evidence_links_added_run265": 0,
+    "verification_audits_added_run265": 1,
+    "run265_promotion_level": "exact DOI + publisher pagination + institutional-repository handle/bitstream + indexed article/section locator audit only; zero linguistic, participant-derived or cultural claims promoted"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -66,7 +67,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run264_change": "No module-count or controlled evidence-row change. All 42 modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 264 adds count-neutral audit metadata only."
+    "run265_change": "No module-count or controlled evidence-row change. All 42 modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 265 adds count-neutral audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -78,11 +79,11 @@
     "commercial_bibliographic_availability_treated_as_permission": false,
     "publisher_abstract_treated_as_full_text_reuse_permission": false,
     "historical_publication_of_informant_names_treated_as_current_consent": false,
-    "redistribution_permission_inferred_run264": false,
-    "model_training_permission_inferred_run264": false,
-    "participant_consent_inferred_run264": false,
-    "community_validation_inferred_run264": false,
-    "cultural_access_permission_inferred_run264": false
+    "redistribution_permission_inferred_run265": false,
+    "model_training_permission_inferred_run265": false,
+    "participant_consent_inferred_run265": false,
+    "community_validation_inferred_run265": false,
+    "cultural_access_permission_inferred_run265": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -96,21 +97,22 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing release-metric change in Run 264; official C-17 table structure/category locator evidence was strengthened without changing controlled totals.",
+    "generated_metrics_state": "No count-bearing release-metric change in Run 265; exact scholarly-source and repository locator evidence was strengthened without changing controlled totals.",
     "tables_figures_state": "unchanged and synchronized; controlled numerical release metrics did not change",
-    "build_state": "Run 263 final head aa36747aea0d56de0d9c9401e0a2ad0a9a771f88 is independently 4/4 green. Fresh workflows are required for Run 264 commits; do not label the new final head green until all four commit-associated workflows conclude successfully."
+    "build_state": "Run 263 final head aa36747aea0d56de0d9c9401e0a2ad0a9a771f88 was previously verified 4/4 green. Fresh workflows are required for Run 265 commits; do not label the new final head green until all four commit-associated workflows conclude successfully."
   },
   "ci": {
     "previous_green_head": "aa36747aea0d56de0d9c9401e0a2ad0a9a771f88",
     "previous_green_head_four_of_four": true,
-    "run264_test_bearing_head": "e882d656ccc7191d26dd24af03f583045e9adf68",
-    "run264_workflows_instantiated": false,
-    "fresh_run264_final_head_ci_verified": false,
-    "fresh_run264_final_head_ci_note": "Fresh checks are required after this status commit; do not label Run 264 4/4 green until all four workflows succeed on the final head."
+    "run265_test_bearing_head": "9a399d3a24882b4f19560b19495ce1fbd10d6901",
+    "run265_workflows_instantiated": false,
+    "fresh_run265_final_head_ci_verified": false,
+    "fresh_run265_final_head_ci_note": "Fresh checks are required after this status commit; do not label Run 265 4/4 green until all four workflows succeed on the final head."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica still has zero authoritative registered scans and zero verified-complete volumes; local byte/hash/page/OCR closure remains open.",
+    "Evans & Osada (2005) now has exact DOI/pagination/ANU repository and indexed section locators, but controlled bitstream acquisition, independent hash, page-image verification, text-layer reconciliation and downstream reuse boundaries remain incomplete.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX identity, table schema and MUNDA/MUNDARI category locators are exact, but workbook bytes, independent hash, worksheets and exact numeric cells remain unverified.",
     "LSI_WB_PART_I.pdf exact first-party identity and p.391 Mundari locators are known, but complete bytes, independent hash, page-image verification, OCR reconciliation, explicit reuse terms and participant/community/cultural-access review remain incomplete.",
     "Official Language_Atlas_2011.pdf identity and catalogue rights attribution are exact, but byte-preserving acquisition, independent hash and exact Mundari page/map verification remain incomplete.",
@@ -141,9 +143,10 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; C-17/LSI/Atlas byte-hash-cell-page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 264 strengthens exact official C-17 schema/category evidence without converting catalogue structure into unverified numeric claims."
+    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; C-17/LSI/Atlas byte-hash-cell-page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 265 strengthens exact peer-reviewed/article-repository locator evidence without converting Open Access availability into unsupported reuse or cultural claims."
   },
   "next_parallel_tasks": [
+    "Acquire the ANU Evans-Osada published-version PDF byte-preservingly through a permitted path; independently hash and reconcile pp.351-390 plus the indexed section locators before any passage-level linguistic claim promotion.",
     "Acquire DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join exact aliases without changing counts unless identity equivalence is proven.",
     "Acquire LSI_WB_PART_I.pdf byte-preservingly; independently hash it and reconcile p.391 against the page image/OCR before any content-level promotion.",
