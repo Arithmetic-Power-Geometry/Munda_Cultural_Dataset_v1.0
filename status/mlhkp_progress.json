@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T13:47:00Z",
+  "updated_utc": "2026-09-12T14:31:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 261,
-  "work_head_before_status_sync": "026f3d73e99bb1cffbf5d03ece58d6211214ca87",
-  "previous_final_head": "148931f8b5fca3b04887450156beab4e0393cd27",
-  "cycle_result": "Run 261 returned to the non-Mundarica census and promoted the Jharkhand Phase-I Language Mapping survey from web discovery to exact PDF/table/methodology locator evidence. The direct 48-page LLF-hosted report identifies JEPC/JCERT institutional context, a seven-district 8,244-school survey frame, January-February 2024 data collection, explicit methodological limitations, Mundari 7.32% in Table 1, Khunti/Mundari aggregate teacher-proficiency counts in Table 2, and Mundari among listed link languages in Table 4. Public PDF access was not treated as redistribution/model-training permission; no individual respondent record or cultural claim was ingested. A screenshot retry failed intermittently and was logged rather than represented as image-level verification. The 14 requested discovery classes were searched/rechecked and synchronized in MMSC-SEARCH-000261.",
+  "latest_run": 262,
+  "work_head_before_status_sync": "ef4d1fa4f1936d5beca4eb61ec6d3d8f9bb4ef9f",
+  "previous_final_head": "d1049afa94c2e5b1189325e95d42757c58af3bf5",
+  "cycle_result": "Run 262 strengthened the government Census/LSI/Atlas stream with exact first-party ORGI catalogue/download identities while preserving verification boundaries. PC11_C17-20 declares DDW-C17-2000.XLSX; Language_Atlas_2011 declares Language_Atlas_2011.pdf and Map Division rights attribution; and the exact LSI_JHARKHAND.pdf download endpoint was reconfirmed. Direct LSI PDF page rendering returned a transient 502, so no page-image/OCR claim was made. All 14 controlled discovery classes were rechecked in MMSC-SEARCH-000262. No source, claim, evidence, module or Mundarica completeness count was inflated.",
   "cycle_commits": {
-    "run261_exact_locator_audit": "1a98e8ad85a114de5562ca1630f95f7e21851502",
-    "run261_all_class_search_log": "7af8408bddd4d2580a55d48b6dde5f82145eb695",
-    "run261_boundary_tests": "026f3d73e99bb1cffbf5d03ece58d6211214ca87"
+    "run262_orgi_catalogue_audit": "5c334579d5adc17ccb8b7ae762d858fc6d1b4ebe",
+    "run262_all_class_search_log": "ef4d1fa4f1936d5beca4eb61ec6d3d8f9bb4ef9f"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,19 +26,19 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000261",
-    "latest_search_log": "data/source_census/search_log_run261.jsonl",
-    "latest_source_audit": "data/source_census/jharkhand_language_mapping_phase1_mundari_exact_locator_run261_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000262",
+    "latest_search_log": "data/source_census/search_log_run262.jsonl",
+    "latest_source_audit": "data/source_census/orgi_language_resources_catalogue_audit_run262_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run261_count_change": "none; exact-locator promotion remains count-neutral until deterministic reconciliation against the 73 unresolved WEB-MUN leads closes"
+    "run262_count_change": "none; first-party manifestation/catalogue strengthening is count-neutral until deterministic reconciliation and byte/cell/page verification close"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 260,
-    "state": "Unchanged in Run 261. Run 260 exact-manifestation strengthening remains valid; zero verified-complete volumes and zero authoritative registered scans remain until byte/hash/page/OCR closure."
+    "state": "Unchanged in Run 262. Exact-manifestation work from Run 260 remains valid, but zero volumes are verified complete because byte-preserving acquisition, independent hashes, page reconciliation and OCR verification remain open."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -52,12 +51,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run261": 0,
-    "evidence_records_added_run261": 0,
-    "evidence_links_added_run261": 0,
-    "verification_audits_added_run261": 1,
-    "exact_locator_audits_added_run261": 5,
-    "run261_promotion_level": "exact PDF/table/methodology locator evidence only; zero cultural-claim and zero respondent-row promotion"
+    "claims_added_run262": 0,
+    "evidence_records_added_run262": 0,
+    "evidence_links_added_run262": 0,
+    "verification_audits_added_run262": 1,
+    "run262_promotion_level": "exact first-party catalogue/download identity evidence only; zero numeric Census cells, PDF-page/OCR claims or cultural claims promoted"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,7 +66,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run261_change": "No public module-count or controlled claim/evidence-row change. Universal search, 42 modules, evidence drilldown, reports/downloads and owner console remain synchronized because Run 261 adds count-neutral audit metadata only."
+    "run262_change": "No module-count or controlled evidence-row change. All 42 modules, universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 262 adds count-neutral audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -79,11 +77,11 @@
     "archive_rights_metadata_retained_not_overread": true,
     "commercial_bibliographic_availability_treated_as_permission": false,
     "publisher_abstract_treated_as_full_text_reuse_permission": false,
-    "redistribution_permission_inferred_run261": false,
-    "model_training_permission_inferred_run261": false,
-    "participant_consent_inferred_run261": false,
-    "community_validation_inferred_run261": false,
-    "cultural_access_permission_inferred_run261": false
+    "redistribution_permission_inferred_run262": false,
+    "model_training_permission_inferred_run262": false,
+    "participant_consent_inferred_run262": false,
+    "community_validation_inferred_run262": false,
+    "cultural_access_permission_inferred_run262": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -97,25 +95,26 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing release-metric change in Run 261; exact survey locators were strengthened without changing source/claim/evidence totals.",
+    "generated_metrics_state": "No count-bearing release-metric change in Run 262; official ORGI manifestation identities were strengthened without changing controlled totals.",
     "tables_figures_state": "unchanged and synchronized; controlled numerical release metrics did not change",
-    "build_state": "Run 261 test-bearing head 026f3d73e99bb1cffbf5d03ece58d6211214ca87 instantiated fresh workflows; at latest verification Streamlit Smoke Test was in progress. Do not call the final Run-261 status head green until all four commit-associated workflows conclude successfully."
+    "build_state": "Run 261 final head d1049afa94c2e5b1189325e95d42757c58af3bf5 is independently 4/4 green. Fresh workflows are required for Run 262 commits; do not label the new final head green until all four commit-associated workflows conclude successfully."
   },
   "ci": {
-    "previous_green_head": "ae5b028409b60ed48ba1ba7421e217df33ab6e2d",
+    "previous_green_head": "d1049afa94c2e5b1189325e95d42757c58af3bf5",
     "previous_green_head_four_of_four": true,
-    "run261_test_bearing_head": "026f3d73e99bb1cffbf5d03ece58d6211214ca87",
-    "run261_workflows_instantiated": true,
-    "fresh_run261_final_head_ci_verified": false,
-    "fresh_run261_final_head_ci_note": "Fresh checks are required after this status commit; do not label Run 261 4/4 green until all four workflows succeed on the final head."
+    "run262_test_bearing_head": "ef4d1fa4f1936d5beca4eb61ec6d3d8f9bb4ef9f",
+    "run262_workflows_instantiated": true,
+    "fresh_run262_final_head_ci_verified": false,
+    "fresh_run262_final_head_ci_note": "Fresh checks are required after this status commit; do not label Run 262 4/4 green until all four workflows succeed on the final head."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Jharkhand Phase-I Language Mapping report still needs byte-preserving local acquisition, independent hash, explicit reuse/licence determination and image-level re-verification of promoted tables; raw respondent data is not ingested.",
     "Mundarica still has zero authoritative registered scans and zero verified-complete volumes; local byte/hash/page/OCR closure remains open.",
+    "Official Jharkhand C-17 DDW-C17-2000.XLSX identity is exact, but workbook bytes, independent hash, worksheets and exact MUNDA/MUNDARI cells remain unverified.",
+    "Official Language_Atlas_2011.pdf identity and catalogue rights attribution are exact, but byte-preserving acquisition, independent hash and exact Mundari page/map verification remain incomplete.",
+    "LSI_JHARKHAND.pdf exact first-party download identity is known, but direct page rendering returned a transient 502; bytes, hash, page-image verification and OCR/page reconciliation remain incomplete.",
+    "Jharkhand Phase-I Language Mapping report still needs byte-preserving local acquisition, independent hash, explicit reuse/licence determination and image-level re-verification of promoted tables; raw respondent data is not ingested.",
     "TRI dictionary/conversation-guide year/edition and byte-level gaps remain open; TRI Munda (1993) and Anayum Durang bytes/internal locators remain unverified.",
-    "Official Jharkhand C-17 DDW-C17-2000.XLSX and India C-17 workbook bytes, hashes, worksheets and exact MUNDA/MUNDARI cells remain unverified.",
-    "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete.",
     "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
     "CIIL resources including Sinha 1974/1975 still require lawful byte-preserving acquisition, independent hashes and exact internal-page verification before content promotion.",
@@ -140,13 +139,13 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; Census/Atlas/LSI byte/cell/page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 261 adds exact aggregate survey locators without converting them into false Census, consent or cultural claims."
+    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; C-17/Atlas/LSI byte/cell/page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 262 strengthens official source identities without converting catalogue availability into numeric, OCR, rights or cultural claims."
   },
   "next_parallel_tasks": [
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join exact aliases without changing counts unless identity equivalence is proven.",
-    "Acquire/hash the Jharkhand Phase-I Language Mapping report byte-preservingly and reverify Table 1, Table 2 and Table 4 at image level when the page renderer is stable.",
-    "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
-    "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
+    "Acquire DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
+    "Acquire Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preservingly; independently hash and verify exact Mundari pages/maps/page images before promotion.",
+    "Continue lawful Mundarica I-XVI byte/hash/page/OCR closure, prioritizing already exact DLI/Internet Archive manifestations and known integrity-risk volumes.",
     "Pursue lawful byte-preserving acquisition of TRI/CIIL manifestations and Peiros v1.1/MMLoSo/Rau; independently hash before passage/row-level ingestion.",
     "Keep all 42 Streamlit modules, evidence graph, governance controls, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
