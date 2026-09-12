@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "run": 241,
+  "search_id": "MMSC-SEARCH-000241",
+  "checked_utc": "2026-09-12T03:46:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica peer-reviewed article exact bibliographic/abstract locator with participant-derived media boundary",
+  "source": {
+    "title": "Expressives and the multimodal depiction of social types in Mundari",
+    "author": "Nishaant Choksi",
+    "journal": "Language in Society",
+    "volume": 49,
+    "issue": 3,
+    "publication_month_year": "June 2020",
+    "published_online": "2019-11-28",
+    "pages": "379-398",
+    "doi": "10.1017/S0047404519000824",
+    "publisher": "Cambridge University Press",
+    "canonical_locator": "https://doi.org/10.1017/S0047404519000824",
+    "publisher_locator": "https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A"
+  },
+  "identity_and_metadata_verification": {
+    "publisher_page_verified": true,
+    "author_verified": true,
+    "journal_volume_issue_pages_verified": true,
+    "doi_verified": true,
+    "article_type_verified": "Article",
+    "copyright_statement_verified": "Copyright © Cambridge University Press 2019",
+    "deterministic_dedup_key": "doi:10.1017/S0047404519000824",
+    "repository_search_found_same_doi_before_run": false,
+    "controlled_identity_promotion_this_run": false,
+    "dedup_decision": "Use DOI as canonical identity key; any publisher share/read-only pages, indexes, mirrors or citations must alias to the DOI identity rather than form new source identities."
+  },
+  "exact_locator_evidence": {
+    "bibliographic_locator_promoted": true,
+    "abstract_level_scope_verified": true,
+    "abstract_reports_mundari_video_interview_data": true,
+    "abstract_reports_lab_and_ethnographic_interviews": true,
+    "abstract_reports_ethics_agency_materiality_scope": true,
+    "footnote_identifies_primary_consultant": true,
+    "claim_level_internal_page_locator_promoted": false,
+    "full_text_bytes_acquired": false,
+    "independent_hash_recomputed": false,
+    "raw_video_or_interview_content_ingested": false,
+    "linguistic_or_cultural_propositions_promoted": 0,
+    "reason": "Publisher metadata, abstract and footnote are directly accessible and exact-locatable; full article text and underlying participant-derived recordings are not treated as openly ingestible evidence."
+  },
+  "participant_and_cultural_boundary": {
+    "publisher_abstract_mentions_video_interviews_with_mundari_speakers": true,
+    "publisher_footnote_mentions_primary_consultant_madhu_purti_and_family": true,
+    "participant_consent_independently_audited": false,
+    "raw_recording_rights_verified": false,
+    "community_validation_independently_audited": false,
+    "cultural_access_permission_verified": false,
+    "promotion_rule": "Do not ingest or expose underlying interview/video content, participant-derived examples, identities beyond already-public bibliographic acknowledgements, or culturally sensitive material without separate rights, consent, community and cultural-access review."
+  },
+  "rights_and_access": {
+    "full_text_access_state": "publisher access controlled",
+    "copyright_holder_as_displayed": "Cambridge University Press",
+    "public_availability_is_permission": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "synchronization_decision": {
+    "mmsc_audited_source_identity_count_change": 0,
+    "raw_web_discovery_record_count_change": 0,
+    "canonicalized_web_lead_count_change": 0,
+    "source_claim_count_change": 0,
+    "evidence_record_count_change": 0,
+    "evidence_link_count_change": 0,
+    "streamlit_module_count_change": 0,
+    "publication_numeric_regeneration_required": false,
+    "coverage_or_gap_change": "scholarly exact-locator coverage strengthened; participant-derived audiovisual content remains explicitly gated"
+  },
+  "promotion_boundary": "Promote the DOI-resolved bibliographic record and directly observable publisher abstract/footnote metadata only. Do not promote internal article passages or underlying video/interview claims until lawful full-text acquisition and participant/community/cultural-access review support them."
+}
