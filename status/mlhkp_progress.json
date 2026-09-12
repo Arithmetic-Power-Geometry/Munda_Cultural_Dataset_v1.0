@@ -4,17 +4,18 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T22:50:00Z",
+  "updated_utc": "2026-09-13T00:02:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 279,
-  "previous_final_head": "57349bdfff2bb95b9faf7ae55dc42026ab78945b",
-  "work_head_before_status_sync": "8b8c98f0c8cfb5b1b24937e1ed4673864a924494",
-  "cycle_result": "Run 279 re-searched all 14 controlled non-Mundarica classes and strengthened the pinned Lexibank Peiros Austroasiatic v1.1 provenance chain. At release commit b4d2e4dcee173494c90328f7cafd78c9851c0956, the sole cmd_makecldf form-generation path assigns Source=[Peiros2004a] to every generated form and cognate. This closes source-key provenance structurally for the 101-row Mundari subset without pretending that the remaining 80 rows have individually parsed Parameter_ID/Concepticon locators. No lexical row, cultural claim, participant-derived record or controlled evidence row was promoted.",
+  "latest_run": 280,
+  "previous_final_head": "46b161980025870410f275818864c2cd07818741",
+  "work_head_before_status_sync": "aae938331b451ba284e6bb1c338e9477e2032669",
+  "cycle_result": "Run 280 re-searched all 14 controlled non-Mundarica classes and pinned a reproducible Lexibank LSI derived-dataset locator at commit bfae847565dc6810af05c11bf612457e5861009e. The pinned cldf/languages.csv explicitly identifies MUNDARI as glottocode mund1320, ISO unr, source number 16, subgroup Munda; the pinned README states the dataset is derived from Grierson 1928, is CC-BY-4.0, and declares 363 varieties, 168 concepts, 60,533 lexemes and one source. This closes a language-identity/dataset-provenance locator only. No lexical row, cultural claim, primary LSI page, rights, consent, community validation or cultural-access state was promoted.",
   "cycle_commits": {
-    "run279_peiros_global_source_assignment": "430de0ee61a03421234686b6bc41befad8d00f09",
-    "run279_all_class_search_log": "5696cc15a6a41ae325209c7df63249a114a8de9d",
-    "run279_boundary_tests": "8b8c98f0c8cfb5b1b24937e1ed4673864a924494"
+    "run280_lsi_locator_initial": "8b7b3f6eadc04130a497eb02e0cc6384d4c718d3",
+    "run280_lsi_locator_corrected": "fc5a619adf99c92fb090c2cccc87723de1b035d1",
+    "run280_all_class_search_log": "5f522b56228fb890aefb0ab2d7b1d4d979762b8f",
+    "run280_boundary_tests": "aae938331b451ba284e6bb1c338e9477e2032669"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,24 +28,24 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000279",
-    "latest_search_log": "data/source_census/search_log_run279.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000280",
+    "latest_search_log": "data/source_census/search_log_run280.jsonl",
     "latest_source_audits": [
+      "data/source_census/lexibank_lsi_mundari_language_locator_run280_2026-09-13.json",
       "data/source_census/lexibank_peiros_global_source_assignment_run279_2026-09-13.json",
-      "data/source_census/mundarica_volume_xii_reprint_locator_run278_2026-09-13.json",
-      "data/source_census/ncert_ciet_barkhaa_mundari_audio_locator_run277_2026-09-13.json"
+      "data/source_census/mundarica_volume_xii_reprint_locator_run278_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run279_count_change": "none; Peiros v1.1 is an existing canonical dataset family and this run closes a provenance property rather than adding a new controlled source identity"
+    "run280_count_change": "none; the Lexibank LSI audit refines an already tracked LSI family and does not add a new controlled identity"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 278,
-    "per_volume_state": "Volume XII retains both a historical bibliographic printed-page range 3457-3707 and a separately identified 2009 Gyan Publishing House reprint manifestation, ISBN-13 9788121203166 / ISBN-10 8121203163, reported by one independent retail bibliographic source as 250 pages. These pagination observations are not treated as equivalent. Volume XI remains pinned to in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278 and separately audited printed pages 3175-3456. Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. Other I-XVI states remain as previously audited.",
-    "state": "No Mundarica scan-verification count changed in Run 279. Historical scan-byte/hash/page-image/OCR closure remains open."
+    "per_volume_state": "Volume XII retains historical printed-page range 3457-3707 and a separate 2009 reprint identity; Volume XI remains pinned to in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278 and separately audited printed pages 3175-3456; Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. Other I-XVI states remain as previously audited.",
+    "state": "No Mundarica scan-verification count changed in Run 280. Historical scan-byte/hash/page-image/OCR closure remains open."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -57,11 +58,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run279": 0,
-    "evidence_records_added_run279": 0,
-    "evidence_links_added_run279": 0,
-    "verification_audits_added_run279": 1,
-    "run279_promotion_level": "pinned generator/source-key structural provenance closure only; zero lexical/content/cultural promotion"
+    "claims_added_run280": 0,
+    "evidence_records_added_run280": 0,
+    "evidence_links_added_run280": 0,
+    "verification_audits_added_run280": 1,
+    "run280_promotion_level": "pinned language-identity/dataset-provenance locator only; zero lexical/content/cultural promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -72,7 +73,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run279_change": "No module-count or public-content-row change; the new Peiros provenance audit/search artifacts remain behind the existing evidence/governance surfaces and universal search can discover them through the source-census layer."
+    "run280_change": "No module-count or public-content-row change; the LSI audit/search artifacts remain governed by existing evidence and owner-console surfaces."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -80,14 +81,15 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "catalogue_or_repository_metadata_treated_as_blanket_redistribution_permission": false,
-    "redistribution_permission_inferred_run279": false,
-    "model_training_permission_inferred_run279": false,
-    "participant_consent_inferred_run279": false,
-    "community_validation_inferred_run279": false,
-    "cultural_access_permission_inferred_run279": false,
+    "redistribution_permission_inferred_run280": false,
+    "model_training_permission_inferred_run280": false,
+    "participant_consent_inferred_run280": false,
+    "community_validation_inferred_run280": false,
+    "cultural_access_permission_inferred_run280": false,
+    "lexibank_lsi_derived_license_verified": "CC-BY-4.0",
+    "lexibank_lsi_license_treated_as_primary_scan_permission": false,
     "derived_peiros_license_verified": "CC-BY-4.0",
     "peiros_underlying_source_blanket_permission_inferred": false,
-    "peiros_source_key_structurally_verified_for_generated_forms": true,
     "peiros_parameter_locator_reconciliation_complete": false,
     "commercial_reprint_availability_treated_as_permission": false,
     "ciet_public_page_treated_as_audio_redistribution_permission": false,
@@ -104,28 +106,29 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged. Run 279 closes Peiros generated-form source-key provenance structurally; Peiros remains 101 distinct Mundari rows with 21 exact row-parameter reconciliations and 80 exact row-parameter locators open.",
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged. Run 280 adds a pinned LSI derived-dataset locator without changing controlled counts.",
     "tables_figures_state": "unchanged and synchronized; no controlled count change warrants a table/figure metric change",
-    "build_state": "Run 277 work head b38c47e4b0b0730d342d5e60ae6c90d2eedae1db was independently 4/4 green; Run 279 final head must not be labelled green until commit-associated workflows complete."
+    "build_state": "Run 279 final head 46b161980025870410f275818864c2cd07818741 is independently 4/4 green; Run 280 final head must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
-    "previous_green_head": "b38c47e4b0b0730d342d5e60ae6c90d2eedae1db",
+    "previous_green_head": "46b161980025870410f275818864c2cd07818741",
     "previous_green_head_four_of_four": true,
-    "previous_green_check_summary": "Run 277 work head: Source Register Audit #1991, Migration Audit #2042, Streamlit Smoke Test #2156 and Publication Build #2009 all completed successfully.",
-    "run279_work_head": "8b8c98f0c8cfb5b1b24937e1ed4673864a924494",
-    "fresh_run279_final_head_ci_verified": false,
-    "fresh_run279_final_head_ci_note": "Do not claim Run 279 green until all four commit-associated workflows complete successfully."
+    "previous_green_check_summary": "Run 279 final head has four GitHub check runs, all completed with conclusion=success (two audit checks, smoke, build).",
+    "run280_work_head": "aae938331b451ba284e6bb1c338e9477e2032669",
+    "fresh_run280_final_head_ci_verified": false,
+    "fresh_run280_final_head_ci_note": "Do not claim Run 280 green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; Volume XII's modern reprint identity does not close historical scan bytes/hash, page-image concordance, completeness or OCR verification.",
+    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes.",
     "ORGI Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact MUNDA/MUNDARI rows/cells and numeric values remain unverified.",
-    "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before content promotion.",
-    "Peiros v1.1 has 101 distinct Mundari FormTable rows. Global Source=Peiros2004a assignment is now structurally verified at the pinned generator commit; 21 rows have exact source+parameter reconciliation and 80 exact row-level Parameter_ID/Concepticon locators remain before bulk lexical promotion.",
+    "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before direct content promotion; the Lexibank LSI locator does not substitute for this.",
+    "Lexibank LSI exact Mundari FormTable rows and Parameter_ID/Concepticon locators remain to be reconciled before lexical promotion.",
+    "Peiros v1.1 has 101 distinct Mundari FormTable rows; 21 exact row-parameter reconciliations are complete and 80 remain.",
     "Rau Zenodo file has repository-declared MD5 07e1d945a0fc6cafc4fc7afd3f1ff144 but exact bytes have not been independently acquired/hashed and row-level source attribution remains open.",
     "Karya Mundari TTS corpus/sample bytes, independent hashes, participant consent, community validation and MLHKP cultural-access permission remain unverified.",
     "CIET/NCERT Barkhaa audio bytes, hashes, recording provenance, downstream rights, performer/participant consent, community validation and MLHKP cultural-access permission remain unverified.",
-    "MMLoSo paper-level task metadata is verifiable, but exact released dataset version/integrity/rights closure remains separate.",
+    "MMLoSo exact released dataset version/integrity/rights closure remains separate.",
     "TRI/CIIL dictionary-reader manifestations and Evans & Osada controlled bitstream/page verification remain incomplete.",
     "Historical/contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and cultural-access review.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
@@ -147,10 +150,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Gate remains open because unresolved source dispositions, zero verified-complete Mundarica volumes, official Census/LSI/Atlas byte/cell/page gaps, remaining Peiros exact parameter locators, Rau independent-byte/hash work, audiovisual/dataset rights-consent-community-cultural-access gates, and other scholarly integrity closures remain unresolved."
+    "reason": "Gate remains open because unresolved source dispositions, zero verified-complete Mundarica volumes, official Census/LSI/Atlas byte/cell/page gaps, remaining Peiros and LSI exact parameter locators, Rau independent-byte/hash work, audiovisual/dataset rights-consent-community-cultural-access gates, and other scholarly integrity closures remain unresolved."
   },
   "next_parallel_tasks": [
-    "Reconcile the remaining 80 of 101 distinct Language_ID=Mundari Peiros v1.1 rows against pinned parameters.csv; Source=Peiros2004a no longer needs row-by-row rediscovery because the pinned sole generator path assigns it globally.",
+    "Reconcile exact Mundari FormTable and Parameter_ID/Concepticon locators in pinned Lexibank LSI before any lexical promotion.",
+    "Reconcile the remaining 80 of 101 distinct Language_ID=Mundari Peiros v1.1 rows against pinned parameters.csv.",
     "Acquire pMunda_cognate_set_2019-08-29.csv through a permitted byte-preserving Zenodo path and independently verify repository-declared MD5 before row-level ingestion.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI cells before value promotion.",
     "Deterministically disposition unresolved WEB-MUN leads and join only proven aliases.",
