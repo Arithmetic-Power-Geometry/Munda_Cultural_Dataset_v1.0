@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T12:54:00Z",
+  "updated_utc": "2026-09-12T13:28:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 259,
-  "work_head_before_status_sync": "a7d42ed6d7acf64a0797d81a3fa33b3ad7b46018",
-  "previous_final_head": "a43364a50827b8c9814192478122b5858d990290",
-  "cycle_result": "Run 259 returned to the non-Mundarica stream and promoted the already-discovered Shrivastava 2013 Mundari Khuntkatti paper from discovery-only to exact publisher-locator evidence. SAGE verifies DOI 10.1177/0972558X1301300205, The Oriental Anthropologist 13(2), pp. 267-280, first published online 2013-07-01, and a public abstract identifying empirical investigation in Gutuhatu and Salga villages of Khunti district. The publisher reference list was retained as a source-chain locator. No full-text passage, land-tenure conclusion, cultural proposition or participant-derived material was promoted. The official LSI Jharkhand PDF route was retried; indexed text associated with page 71 was visible in search, but the direct Census PDF fetch returned HTTP 502, so no page-image or numeric claim was promoted. A 14-class systematic search log and rights/deduplication boundary tests were added.",
+  "latest_run": 260,
+  "work_head_before_status_sync": "3193a6a3d833e63490bd7a884b80babd3b9a9cb0",
+  "previous_final_head": "ae5b028409b60ed48ba1ba7421e217df33ab6e2d",
+  "cycle_result": "Run 260 materially strengthened Mundarica acquisition/page-accounting by independently verifying exact DLI/Internet Archive manifestations for Volumes II, III, VII, VIII and XIII. Exact archive identifiers, ARKs, source/scanning institutions and repository scan metadata were recorded. Volume II exposes repository totalpages=406 but only 72 PPI; Volume III exposes totalpages=264, 600 PPI and archive rights metadata Out_of_copyright; Volume VII exposes totalpages=274 and 600 PPI; Volume VIII exposes totalpages=422 and 600 PPI; Volume XIII exposes 600 PPI, page-number confidence 77 and explicit pdf_degraded=invalid-jp2-headers. These values strengthen manifestation and integrity accounting only: none is treated as verified printed completeness, verified OCR, redistribution/model-training permission, community validation or cultural-access permission. Candidate archive identifiers for V and XI were retained as unverified because direct metadata retrieval did not independently close in this cycle. ORGI Language Atlas and LSI official catalogue identities were rechecked; direct retrieval remained unstable, so no page/map/numeric promotion occurred. A 14-class systematic MMSC log was added.",
   "cycle_commits": {
-    "run259_shrivastava_exact_locator_audit": "1495a2ff4e14254777afa0ca43b85f8fecf77c3f",
-    "run259_all_class_search_log": "e9cb45ad1f6d2564a6ff1eaf698bfb422188707a",
-    "run259_boundary_tests": "a7d42ed6d7acf64a0797d81a3fa33b3ad7b46018"
+    "run260_mundarica_exact_manifestation_audit": "5dcff4fc5396b1b0afc7cc0119fbf23e89200164",
+    "run260_all_class_search_log": "3193a6a3d833e63490bd7a884b80babd3b9a9cb0"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,37 +26,37 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000259",
-    "latest_search_log": "data/source_census/search_log_run259.jsonl",
-    "latest_source_audit": "data/source_census/shrivastava_2013_mundari_khuntkatti_exact_locator_run259_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000260",
+    "latest_search_log": "data/source_census/search_log_run260.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_ii_iii_vii_viii_xiii_exact_manifestations_run260_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run259_count_change": "none; Shrivastava 2013 was already present as a Run-257 discovery candidate and is now promoted to exact locator evidence without creating a second identity; controlled identity totals remain frozen until deterministic reconciliation against the 73 unresolved WEB-MUN leads"
+    "run260_count_change": "none; exact manifestation strengthening of already-known Mundarica identities is count-neutral; the 73 unresolved WEB-MUN leads remain outside controlled audited identity totals pending deterministic reconciliation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 258,
+    "last_mundarica_run": 260,
     "per_volume_states": {
       "I": "open_unverified; exact IA/DLI manifestation dli.ernet.14919, ARK ark:/13960/t3hz0t57g, 600 PPI and OCR/page-number derivative metadata verified; local bytes/hash/scan-page reconciliation/OCR verification remain open",
-      "II": "open_unverified; secondary printed-page locator pp. 511-521 recorded; exact lawful manifestation/bytes/hash/scan/OCR remain open",
-      "III": "open_unverified; Google Books/NYPL-origin 1930 record labelled Volumes 3-5 corroborates manifestation only; exact lawful bytes/hash/scan/page/OCR remain open",
-      "IV": "open_unverified; secondary printed-page locators include pp. 1022-1039 and pp. 1238-1241; Google Books Volumes 3-5 corroborates manifestation only",
-      "V": "open_unverified; Google Books/NYPL-origin Volumes 3-5 manifestation corroboration exists; separate-volume completeness remains open",
+      "II": "open_unverified; exact IA/DLI/WBPLN manifestation dli.bengal.10689.21001, ARK ark:/13960/t45r27p2m, repository totalpages=406, source Krishnanagar Public Library, C-DAC Kolkata and displayed PPI=72 verified; 72 PPI is an integrity/OCR risk signal and printed completeness/OCR remain unverified",
+      "III": "open_unverified; exact IA/DLI manifestation in.ernet.dli.2015.14921, ARK ark:/13960/t3907ds0b, repository totalpages=264, 600 PPI, C-DAC Noida and archive rights metadata Out_of_copyright verified; archive rights metadata is not blanket MLHKP or cultural permission",
+      "IV": "open_unverified; secondary printed-page locators include pp.1022-1039 and pp.1238-1241; Google Books Volumes 3-5 corroborates manifestation only; separate exact lawful volume-IV bytes/hash/scan/OCR remain open",
+      "V": "open_unverified; Google Books/NYPL-origin Volumes 3-5 manifestation corroboration exists; candidate IA identifier in.ernet.dli.2015.14925 was observed through a secondary link chain but not independently promoted in Run 260",
       "VI": "open_unverified; exact IA/DLI/WBPLN manifestation dli.bengal.10689.20084 verified with repository totalpages=344 and 600 PPI; totalpages is not treated as verified printed completeness",
-      "VII": "open_unverified; Google Books AUGY0QEACAAJ corroborates Volume 7/I-J, 1950 and displays catalogue length 265 pages; this is not scan-image count or verified completeness",
-      "VIII": "open_unverified; Google Books vAWmtdk21wEC corroborates Volume 8 and exposes printed contents anchors 2147/2151/2208; complete bytes/hash/scan-page reconciliation/OCR remain open",
+      "VII": "open_unverified; exact IA/DLI/WBPLN manifestation dli.bengal.10689.20088, ARK ark:/13960/t3sv4wt0d, repository totalpages=274, State Central Library Kolkata, C-DAC Kolkata and 600 PPI verified; printed completeness and OCR remain unverified",
+      "VIII": "open_unverified; exact IA/DLI/WBPLN manifestation dli.bengal.10689.20080, ARK ark:/13960/t6rz6kh2x, repository totalpages=422, State Central Library Kolkata, C-DAC Kolkata and 600 PPI verified; earlier Google Books anchors 2147/2151/2208 remain page-accounting evidence only",
       "IX": "open_unverified; exact IA/DLI manifestation in.ernet.dli.2015.14924 verified with repository totalpages=346, 600 PPI and rights metadata Out_of_copyright; rights metadata is not blanket MLHKP/cultural permission",
       "X": "open_unverified; exact IA/DLI/WBPLN manifestation dli.bengal.10689.20997 verified with repository totalpages=288 and displayed PPI=72; low PPI is an integrity-review signal and OCR/completeness remain unverified",
-      "XI": "open_unverified; Google Books nnzW-Dy4NowC exposes anchors 3173/3175/3183; earlier bibliographic range 3175-3456 remains page-accounting evidence only",
-      "XII": "open_unverified; exact IA/DLI manifestation dli.ernet.14931, ARK ark:/13960/t08x2wb2j and 600 PPI verified; displayed page-number confidence 51.75 explicitly blocks reliable pagination/OCR inference; bibliographic range 3457-3707 remains unverified against scan",
-      "XIII": "open_unverified; DLI/Internet Archive locator independently corroborated by Google Books/NYPL-origin metadata; complete bytes/hash/scan mapping/OCR/rights remain open",
+      "XI": "open_unverified; Google Books nnzW-Dy4NowC exposes anchors 3173/3175/3183; candidate IA identifier in.ernet.dli.2015.462388 was observed through a secondary link chain but not independently promoted in Run 260",
+      "XII": "open_unverified; exact IA/DLI manifestation dli.ernet.14931, ARK ark:/13960/t08x2wb2j and 600 PPI verified; displayed page-number confidence 51.75 explicitly blocks reliable pagination/OCR inference",
+      "XIII": "open_unverified; exact IA/DLI manifestation dli.ernet.14932, ARK ark:/13960/t6r01q423, C-DAC Noida/LBSNAA provenance and 600 PPI verified; archive metadata page-number confidence=77 and pdf_degraded=invalid-jp2-headers are explicit integrity warnings, so complete page accounting/OCR remain unverified",
       "XIV": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203180 with reported extent 603 pages; historical authoritative manifestation, exact bytes/hash/scan-page reconciliation/OCR remain open",
       "XV": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203197 with reported extent 135 pages; historical authoritative manifestation and byte/scan/OCR completeness remain open",
-      "XVI": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203227 with reported extent 43 pages; this extent is not treated as independently verified historical-volume completeness and historical manifestation/bytes/OCR remain open"
+      "XVI": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203227 with reported extent 43 pages; extent is not treated as independently verified historical-volume completeness"
     },
-    "state": "Run 258 strengthened XIV-XVI from generic modern-reprint locators to exact 2009 bibliographic manifestations. Run 259 was non-Mundarica and made no Mundarica state change."
+    "state": "Run 260 upgraded II, III, VII, VIII and XIII from secondary/catalogue-level manifestation evidence to exact DLI/Internet Archive manifestations while preserving zero verified-complete volumes and zero authoritative registered scans pending local byte/hash/page/OCR validation."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -70,13 +69,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run259": 0,
-    "evidence_records_added_run259": 0,
-    "evidence_links_added_run259": 0,
-    "verification_audits_added_run259": 1,
-    "catalogue_evidence_records_added_run259": 0,
-    "exact_locator_audits_added_run259": 1,
-    "run259_promotion_level": "exact publisher DOI/abstract/pagination/reference-list locator evidence for Shrivastava 2013; zero full-text/cultural/legal claim promotion"
+    "claims_added_run260": 0,
+    "evidence_records_added_run260": 0,
+    "evidence_links_added_run260": 0,
+    "verification_audits_added_run260": 1,
+    "exact_locator_audits_added_run260": 5,
+    "run260_promotion_level": "exact archive manifestation and repository scan-metadata evidence only; zero passage/cultural/numeric claim promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -87,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run259_change": "No module-count or public-content change. Universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 259 added audit/locator metadata only and no count-bearing public evidence row."
+    "run260_change": "No public module-count or claim/evidence-row change; all 42 modules and universal search/evidence drilldown/reports/downloads/owner console remain synchronized with the controlled data because Run 260 added count-neutral audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -98,11 +96,11 @@
     "archive_rights_metadata_retained_not_overread": true,
     "commercial_bibliographic_availability_treated_as_permission": false,
     "publisher_abstract_treated_as_full_text_reuse_permission": false,
-    "redistribution_permission_inferred_run259": false,
-    "model_training_permission_inferred_run259": false,
-    "participant_consent_inferred_run259": false,
-    "community_validation_inferred_run259": false,
-    "cultural_access_permission_inferred_run259": false
+    "redistribution_permission_inferred_run260": false,
+    "model_training_permission_inferred_run260": false,
+    "participant_consent_inferred_run260": false,
+    "community_validation_inferred_run260": false,
+    "cultural_access_permission_inferred_run260": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -116,29 +114,41 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing release-metric change in Run 259; Shrivastava 2013 was promoted from an already-observed discovery lead to exact publisher-locator audit metadata and does not alter controlled source/claim/evidence totals.",
-    "tables_figures_state": "unchanged and synchronized; controlled numerical metrics did not change",
-    "build_state": "Run 259 test-bearing head a7d42ed6d7acf64a0797d81a3fa33b3ad7b46018 instantiated all four workflows; they were queued at the latest verification and must conclude before this cycle is called green."
+    "generated_metrics_state": "No count-bearing release-metric change in Run 260; exact Mundarica manifestation metadata was strengthened without changing source/claim/evidence totals.",
+    "tables_figures_state": "unchanged and synchronized; controlled numerical release metrics did not change",
+    "build_state": "Run 259 final head ae5b028409b60ed48ba1ba7421e217df33ab6e2d is independently 4/4 green. Run 260 work head 3193a6a3d833e63490bd7a884b80babd3b9a9cb0 has all four workflows instantiated and queued at the latest verification; do not call Run 260 green until they complete successfully."
   },
   "ci": {
-    "previous_green_head": "06568021e72a76a9f917e226b9c57aa3fe5e6056",
+    "previous_green_head": "ae5b028409b60ed48ba1ba7421e217df33ab6e2d",
     "previous_green_head_four_of_four": true,
-    "previous_green_checks": ["MLHKP Migration Audit success #1921", "MLHKP Source Register Audit success #1870", "MLHKP Streamlit Smoke Test success #2035", "MLHKP Publication Build success #1888"],
-    "run259_test_bearing_head": "a7d42ed6d7acf64a0797d81a3fa33b3ad7b46018",
-    "run259_test_bearing_workflows_instantiated": ["MLHKP Source Register Audit #1880", "MLHKP Migration Audit #1931", "MLHKP Streamlit Smoke Test #2045", "MLHKP Publication Build #1898"],
-    "fresh_run259_final_head_ci_verified": false,
-    "fresh_run259_final_head_ci_note": "Fresh checks are required for the Run-259 final status head; do not call it green until all four commit-associated workflows conclude successfully."
+    "previous_green_checks": [
+      "MLHKP Migration Audit success #1932",
+      "MLHKP Source Register Audit success #1881",
+      "MLHKP Streamlit Smoke Test success #2046",
+      "MLHKP Publication Build success #1899"
+    ],
+    "run260_test_bearing_head": "3193a6a3d833e63490bd7a884b80babd3b9a9cb0",
+    "run260_test_bearing_workflows_instantiated": [
+      "MLHKP Migration Audit #1936 queued",
+      "MLHKP Source Register Audit #1885 queued",
+      "MLHKP Publication Build #1903 queued",
+      "MLHKP Streamlit Smoke Test #2050 queued"
+    ],
+    "fresh_run260_final_head_ci_verified": false,
+    "fresh_run260_final_head_ci_note": "Fresh checks are required for the Run-260 final status head after this status commit; do not call it green until all four commit-associated workflows conclude successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica still has zero authoritative registered scans and zero verified-complete volumes; XIV-XVI now have exact 2009 reprint identities but historical authoritative manifestations remain unresolved.",
-    "TRI Mundari - Hindi Sabdhkosh, Hindi - Mundari Sabdhkosh and Mundari Vartalap Nirdeshika have official catalogue identities but no download exposed and no authoritative year/edition in the register.",
+    "Mundarica still has zero authoritative registered scans and zero verified-complete volumes; Run 260 pinned exact manifestations for II, III, VII, VIII and XIII but local byte/hash/page/OCR closure remains open.",
+    "Mundarica II displays 72 PPI and XIII explicitly reports pdf_degraded=invalid-jp2-headers; these require heightened scan/OCR integrity review.",
+    "Candidate exact archive identifiers for Mundarica V and XI were surfaced only through a secondary link chain and were not independently promoted.",
+    "TRI Mundari-Hindi Sabdhkosh, Hindi-Mundari Sabdhkosh and Mundari Vartalap Nirdeshika have official catalogue identities but no download exposed and no authoritative year/edition in the register.",
     "TRI Munda (1993) and Anayum Durang official download targets redirected to a host unavailable to the current fetch path; exact bytes, hashes and internal locators remain unverified.",
-    "Anayum Durang and any other participant/performer-derived cultural media require rights, consent, community validation and MLHKP cultural-access review before content ingestion.",
-    "Shrivastava 2013 now has exact DOI/abstract/pagination/reference-list locators, but lawful full-text bytes/hash, passage-level verification, redistribution/model-training rights, field-data provenance and independent participant/community/cultural review remain open before substantive content promotion.",
+    "Anayum Durang and other participant/performer-derived cultural media require rights, consent, community validation and MLHKP cultural-access review before content ingestion.",
+    "Shrivastava 2013 has exact DOI/abstract/pagination/reference-list locators, but lawful full-text bytes/hash, passage verification, rights, field-data provenance and community/cultural review remain open.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
-    "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete; Run 259 direct LSI PDF fetch returned HTTP 502.",
+    "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete; direct official retrieval remained unstable in Run 260.",
     "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
     "CIIL resources including Sinha 1974/1975 still require lawful byte-preserving acquisition, independent hashes and exact internal-page verification before content promotion.",
@@ -163,15 +173,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; Census/Atlas/LSI byte/cell/page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 259 strengthened one peer-reviewed source to exact locator evidence but does not close those release blockers."
+    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; Census/Atlas/LSI byte/cell/page gaps; incomplete scholarly/dataset integrity; and audiovisual/participant/community/cultural-access gates. Run 260 materially strengthens five Mundarica manifestations but deliberately does not convert archive metadata into false completeness/OCR/rights claims."
   },
   "next_parallel_tasks": [
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join exact manifestation aliases without changing counts unless identity equivalence is proven.",
-    "Continue converting already-discovered non-Mundarica scholarly leads from discovery-only to exact DOI/page/section evidence where lawful access permits, while keeping author interpretations distinct from community-validated cultural claims.",
+    "Acquire byte-preserving copies for exact Mundarica manifestations and independently hash them; prioritize II and XIII integrity review because II is 72 PPI and XIII carries invalid-jp2-headers metadata.",
+    "Independently verify candidate exact manifestations for Mundarica V and XI, then continue IV/XIV-XVI historical-manifestation closure without treating reprints as historical scan proof.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
-    "Pursue lawful byte-preserving acquisition of TRI Munda (1993) and Anayum Durang through allowed official routes; keep folk-song content culturally gated pending consent/community review.",
-    "Acquire exact permitted CIIL manifestations and Peiros v1.1/MMLoSo/Rau datasets byte-preservingly; independently hash before passage/row-level ingestion.",
+    "Pursue lawful byte-preserving acquisition of TRI Munda (1993), CIIL manifestations and Peiros v1.1/MMLoSo/Rau; independently hash before passage/row-level ingestion.",
     "Keep all 42 Streamlit modules, evidence graph, governance controls, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
 }
