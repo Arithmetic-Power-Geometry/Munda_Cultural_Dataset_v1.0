@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T11:44:00Z",
+  "updated_utc": "2026-09-12T12:40:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 257,
-  "work_head_before_status_sync": "913ee484b943ebf9f544290e69a69fb4919e1664",
-  "previous_final_head": "cf46023c69e215de32f99f20f858ccca19306d73",
-  "cycle_result": "Run 257 resumed the non-Mundarica stream and verified the official Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand publication register. Five exact in-scope catalogue records were promoted: Mundari - Hindi Sabdhkosh (S. Prasad, serial 1), Hindi - Mundari Sabdhkosh (S. Prasad, serial 2), Mundari Vartalap Nirdeshika (S. Prasad, serial 14), Munda (Soma Singh Munda, 1993, serial 19), and Anayum Durang (Mundari folk song, serial 88). The first three display Download=NA. The latter two expose official Google Drive download targets, but their redirects could not be safely fetched in this run. Five exact catalogue evidence records were therefore ingested while content-level evidence remained zero. No dictionary entries, conversation examples, anthropological propositions, song text/audio, participant-derived records or cultural claims were promoted without bytes, rights, consent and cultural-access review.",
+  "latest_run": 258,
+  "work_head_before_status_sync": "641dd9171e7253a2c910f057c7c9930bd88dedae",
+  "previous_final_head": "06568021e72a76a9f917e226b9c57aa3fe5e6056",
+  "cycle_result": "Run 258 returned to the Mundarica stream and replaced vague XIV-XVI modern-reprint locators with exact bibliographic identities while preserving the historical-source boundary. Volume XIV is pinned to the 2009 Gyan reprint ISBN 9788121203180 with reported extent 603 pages; Volume XV to ISBN 9788121203197 with reported extent 135 pages; and Volume XVI to ISBN 9788121203227 with reported extent 43 pages. Independent bibliographic/retail records corroborate these identities. No historical authoritative manifestation, complete bytes, scan sequence, OCR, rights, community validation, or cultural-access permission was inferred. A systematic all-class MMSC search log was added with zero unsupported content promotion.",
   "cycle_commits": {
-    "run257_tri_publication_register": "65adf9e207ba3d3f1a10896f14a69541aa9bf3f2",
-    "run257_all_class_search_log": "3fa59363a421e3498543b27fea7896eee8943c39",
-    "run257_boundary_tests": "913ee484b943ebf9f544290e69a69fb4919e1664"
+    "run258_mundarica_xiv_xv_xvi_reprint_audit": "42e99fd2afa68074c488b2b6fcb2f3cb2b21de06",
+    "run258_all_class_search_log": "641dd9171e7253a2c910f057c7c9930bd88dedae"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,18 +26,18 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000257",
-    "latest_search_log": "data/source_census/search_log_run257.jsonl",
-    "latest_source_audit": "data/source_census/tri_jharkhand_mundari_publication_register_run257_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000258",
+    "latest_search_log": "data/source_census/search_log_run258.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_xiv_xv_xvi_reprint_manifestations_run258_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run257_count_change": "none; five exact TRI catalogue evidence records were added but audited identity totals remain frozen until deterministic reconciliation against all 73 unresolved WEB-MUN leads"
+    "run258_count_change": "none; XIV-XVI modern-reprint manifestations were made exact but audited identity totals remain frozen until deterministic reconciliation against the 73 unresolved WEB-MUN leads"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 256,
+    "last_mundarica_run": 258,
     "per_volume_states": {
       "I": "open_unverified; exact IA/DLI manifestation dli.ernet.14919, ARK ark:/13960/t3hz0t57g, 600 PPI and OCR/page-number derivative metadata verified; local bytes/hash/scan-page reconciliation/OCR verification remain open",
       "II": "open_unverified; secondary printed-page locator pp. 511-521 recorded; exact lawful manifestation/bytes/hash/scan/OCR remain open",
@@ -53,11 +52,11 @@
       "XI": "open_unverified; Google Books nnzW-Dy4NowC exposes anchors 3173/3175/3183; earlier bibliographic range 3175-3456 remains page-accounting evidence only",
       "XII": "open_unverified; exact IA/DLI manifestation dli.ernet.14931, ARK ark:/13960/t08x2wb2j and 600 PPI verified; displayed page-number confidence 51.75 explicitly blocks reliable pagination/OCR inference; bibliographic range 3457-3707 remains unverified against scan",
       "XIII": "open_unverified; DLI/Internet Archive locator independently corroborated by Google Books/NYPL-origin metadata; complete bytes/hash/scan mapping/OCR/rights remain open",
-      "XIV": "open_unverified",
-      "XV": "open_unverified; modern reprint bibliographic locator exists, historical authoritative manifestation unresolved",
-      "XVI": "open_unverified; modern reprint bibliographic locator exists, historical authoritative manifestation unresolved"
+      "XIV": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203180 with reported extent 603 pages; historical authoritative manifestation, exact bytes/hash/scan-page reconciliation/OCR remain open",
+      "XV": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203197 with reported extent 135 pages; historical authoritative manifestation and byte/scan/OCR completeness remain open",
+      "XVI": "open_unverified; exact modern Gyan Publishing House 2009 reprint identity pinned as ISBN 9788121203227 with reported extent 43 pages; this extent is not treated as independently verified historical-volume completeness and historical manifestation/bytes/OCR remain open"
     },
-    "state": "Run 257 did not modify Mundarica state; Run 256 remains the latest Mundarica manifestation audit."
+    "state": "Run 258 strengthened XIV-XVI from generic modern-reprint locators to exact 2009 bibliographic manifestations. No authoritative scan, verified-complete volume, or OCR-verified volume was promoted."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -70,12 +69,12 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run257": 0,
-    "evidence_records_added_run257": 0,
-    "evidence_links_added_run257": 0,
-    "verification_audits_added_run257": 1,
-    "catalogue_evidence_records_added_run257": 5,
-    "run257_promotion_level": "exact official TRI publication-register locator evidence; zero content/cultural claim promotion"
+    "claims_added_run258": 0,
+    "evidence_records_added_run258": 0,
+    "evidence_links_added_run258": 0,
+    "verification_audits_added_run258": 1,
+    "catalogue_evidence_records_added_run258": 3,
+    "run258_promotion_level": "exact modern-reprint manifestation metadata for XIV-XVI; zero cultural/content claim promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -86,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run257_change": "No module-count or public-content change. Universal-search/module and evidence-drilldown metrics remain synchronized because Run 257 added source-audit catalogue metadata only and did not add public content records."
+    "run258_change": "No module-count or public-content change. Universal search, evidence drilldown, reports/downloads and owner console remain synchronized because Run 258 added audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -95,13 +94,12 @@
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
     "archive_rights_metadata_retained_not_overread": true,
-    "tri_catalogue_visibility_treated_as_permission": false,
-    "tri_download_link_treated_as_reuse_permission": false,
-    "redistribution_permission_inferred_run257": false,
-    "model_training_permission_inferred_run257": false,
-    "participant_consent_inferred_run257": false,
-    "community_validation_inferred_run257": false,
-    "cultural_access_permission_inferred_run257": false
+    "commercial_bibliographic_availability_treated_as_permission": false,
+    "redistribution_permission_inferred_run258": false,
+    "model_training_permission_inferred_run258": false,
+    "participant_consent_inferred_run258": false,
+    "community_validation_inferred_run258": false,
+    "cultural_access_permission_inferred_run258": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -115,24 +113,24 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing release-metric change in Run 257; five exact catalogue evidence records are audit metadata and do not alter controlled source/claim/evidence totals until deterministic lead reconciliation/content promotion.",
+    "generated_metrics_state": "No count-bearing release-metric change in Run 258; three exact XIV-XVI reprint manifestation records are audit metadata and do not alter controlled source/claim/evidence totals until deterministic reconciliation/content promotion.",
     "tables_figures_state": "unchanged and synchronized; controlled numerical metrics did not change",
-    "build_state": "Run 257 test-bearing and final heads require their own workflow conclusions before being called green."
+    "build_state": "Run 257 final head is independently 4/4 green. Run 258 work and final heads require their own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "f7b09de95d59d5081631d75c923e9a643f2ea5e5",
+    "previous_green_head": "06568021e72a76a9f917e226b9c57aa3fe5e6056",
     "previous_green_head_four_of_four": true,
-    "previous_green_checks": ["smoke success", "source-register audit success", "publication build success", "migration audit success"],
-    "run257_test_bearing_head": "913ee484b943ebf9f544290e69a69fb4919e1664",
-    "fresh_run257_final_head_ci_verified": false,
-    "fresh_run257_final_head_ci_note": "Fresh checks are required for the Run-257 final status head; do not call it green until all four commit-associated workflows conclude successfully."
+    "previous_green_checks": ["MLHKP Migration Audit success #1921", "MLHKP Source Register Audit success #1870", "MLHKP Streamlit Smoke Test success #2035", "MLHKP Publication Build success #1888"],
+    "run258_test_bearing_head": "641dd9171e7253a2c910f057c7c9930bd88dedae",
+    "fresh_run258_final_head_ci_verified": false,
+    "fresh_run258_final_head_ci_note": "Fresh checks are required for the Run-258 final status head; do not call it green until all four commit-associated workflows conclude successfully."
   },
   "blockers": [
-    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization, including deterministic joins for the five TRI Run-257 catalogue entries.",
+    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Mundarica still has zero authoritative registered scans and zero verified-complete volumes; XIV-XVI now have exact 2009 reprint identities but historical authoritative manifestations remain unresolved.",
     "TRI Mundari - Hindi Sabdhkosh, Hindi - Mundari Sabdhkosh and Mundari Vartalap Nirdeshika have official catalogue identities but no download exposed and no authoritative year/edition in the register.",
     "TRI Munda (1993) and Anayum Durang official download targets redirected to a host unavailable to the current fetch path; exact bytes, hashes and internal locators remain unverified.",
     "Anayum Durang and any other participant/performer-derived cultural media require rights, consent, community validation and MLHKP cultural-access review before content ingestion.",
-    "Mundarica still has zero authoritative registered scans and zero verified-complete volumes.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
     "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete.",
@@ -160,15 +158,14 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Release still has 73 unresolved source dispositions; newly exact-located TRI resources need deterministic joins and, where potentially downloadable, byte/hash/internal-locator and rights/cultural review; official Census/Atlas/LSI byte/cell gaps, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and audiovisual/participant/community/cultural-access gates also remain."
+    "reason": "Release still has 73 unresolved source dispositions; zero verified-complete Mundarica volumes; XIV-XVI historical manifestation/byte/OCR closure remains open despite exact modern-reprint identities; Census/Atlas/LSI byte/cell gaps, incomplete scholarly/dataset integrity and audiovisual/participant/community/cultural-access gates also remain."
   },
   "next_parallel_tasks": [
-    "Deterministically reconcile the five Run-257 TRI publication entries against all 73 unresolved WEB-MUN leads, retaining original identifiers and aliases and changing counts only where proven.",
-    "Pursue lawful byte-preserving acquisition of TRI Munda (1993) and Anayum Durang through an allowed official route; independently hash before internal-locator extraction, and keep the folk-song resource culturally gated pending consent/community review.",
-    "Locate authoritative year/edition/catalogue manifestations for S. Prasad's two Mundari dictionaries and Mundari Vartalap Nirdeshika without inventing missing metadata.",
-    "Continue deterministic disposition of the remaining WEB-MUN leads across books, dictionaries, grammars, articles, theses, government/TRI/Census/LSI, archives, periodicals, web, datasets, audio, video, maps and media.",
+    "Deterministically disposition the 73 unresolved WEB-MUN leads and join exact manifestation aliases without changing counts unless identity equivalence is proven.",
+    "Pursue institutionally preserved historical manifestations for Mundarica XIV-XVI and lawful byte-preserving acquisition/hash/page/OCR closure across I-XVI.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
+    "Pursue lawful byte-preserving acquisition of TRI Munda (1993) and Anayum Durang through allowed official routes; keep folk-song content culturally gated pending consent/community review.",
     "Acquire exact permitted CIIL manifestations and Peiros v1.1/MMLoSo/Rau datasets byte-preservingly; independently hash before passage/row-level ingestion.",
     "Keep all 42 Streamlit modules, evidence graph, governance controls, release metrics, reproducible manuscript and four CI workflows synchronized after every count-bearing change."
   ]
