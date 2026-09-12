@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T09:51:00Z",
+  "updated_utc": "2026-09-12T10:33:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 253,
-  "work_head_before_status_sync": "bab9bda283429f34b0cf213457a4bbf8b4bc15c7",
-  "previous_final_head": "b2a01d332b9819a7cc5b140d6d6a3329f5816955",
-  "cycle_result": "Run 253 strengthened the already-audited N. K. Sinha 1975 Mundari Grammar work-family without creating a duplicate identity. Bharatavani corroborates title, author, year, Mundari/Grammar classification, CIIL partner/publisher, a reported 117.39 MB PDF manifestation and a Login to Read gate; CiNii independently supplies NCID BA46909970, LCCN 76901792, CIIL Grammar Series 2, extent xii+163+[1] pages and bibliography p. [164]; WALS and Helka/Finna independently corroborate the 1975 CIIL work-family. Run 206 remains the canonical prior audit. No full-text bytes, hash, scan-page mapping, OCR, grammar proposition, lexical row, linguistic claim, cultural claim, participant consent, community validation or cultural-access permission was promoted.",
+  "latest_run": 254,
+  "work_head_before_status_sync": "9ace6575f842137befbdd8569232d3d785892ff7",
+  "previous_final_head": "6b52d7eee31e190f68429e96c8258cfdf6cbb88b",
+  "cycle_result": "Run 254 strengthened Mundarica VII-VIII manifestation/page accounting. Google Books identifies Volume VII as Encyclopaedia Mundarica: I-J, Volume 7, Johann Hoffmann, Superintendent Government Printing, Bihar and Orissa, 1950, with a displayed catalogue length of 265 pages. Google Books independently identifies Volume VIII, Johann Hoffmann and Arthur van Emelen, Superintendent government printing, Bihar and Orissa, displayed year 1930, original from University of Minnesota, digitized 2020-02-25, and exposes contents anchors 2147, 2151 and 2208. These are catalogue/structure observations only: no full bytes, hash, scan completeness, OCR, passage, cultural fact, rights, consent, community validation or cultural-access permission was promoted.",
   "cycle_commits": {
-    "run253_multisource_reconciliation": "8484fe6f7404a8d99e9fd0d2ea21f8556f248b1a",
-    "run253_all_class_search_log": "cc4ee8fe7a93f3a17828782f9ce172ef0700ba83",
-    "run253_boundary_tests": "bab9bda283429f34b0cf213457a4bbf8b4bc15c7"
+    "run254_mundarica_vii_viii_audit": "8c6df9602af0d0336988a374b27a02bfceb3c064",
+    "run254_all_class_search_log": "e596b86de246a2a590be87e2cb852be76952e141",
+    "run254_boundary_tests": "9ace6575f842137befbdd8569232d3d785892ff7"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,18 +27,18 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000253",
-    "latest_search_log": "data/source_census/search_log_run253.jsonl",
-    "latest_source_audit": "data/source_census/sinha_1975_mundari_grammar_multisource_reconciliation_run253_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000254",
+    "latest_search_log": "data/source_census/search_log_run254.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_vol7_vol8_google_books_manifestation_run254_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run253_count_change": "none; independent Bharatavani/CiNii/WALS/Finna corroboration was deterministically joined to the existing Run-206 Sinha 1975 work-family"
+    "run254_count_change": "none; both observations join existing Mundarica volume work identities"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 250,
+    "last_mundarica_run": 254,
     "per_volume_states": {
       "I": "open_unverified",
       "II": "open_unverified; secondary printed-page locator pp. 511-521 recorded; exact lawful manifestation/bytes/hash/scan/OCR remain open",
@@ -46,11 +46,11 @@
       "IV": "open_unverified; secondary printed-page locators include pp. 1022-1039 and pp. 1238-1241; Google Books Volumes 3-5 corroborates manifestation only",
       "V": "open_unverified; Google Books/NYPL-origin Volumes 3-5 manifestation corroboration exists; separate-volume completeness remains open",
       "VI": "open_unverified",
-      "VII": "open_unverified",
-      "VIII": "open_unverified",
+      "VII": "open_unverified; Google Books AUGY0QEACAAJ corroborates Volume 7/I-J, 1950 and displays catalogue length 265 pages; this is not scan-image count or verified completeness",
+      "VIII": "open_unverified; Google Books vAWmtdk21wEC corroborates Volume 8 and exposes printed contents anchors 2147/2151/2208; complete bytes/hash/scan-page reconciliation/OCR remain open",
       "IX": "open_unverified; judicial secondary printed-page locators exist but exact manifestation/bytes/hash/OCR remain open",
       "X": "open_unverified",
-      "XI": "open_unverified; Google Books nnzW-Dy4NowC independently exposes contents anchors 3173, 3175 and 3183 and University of Minnesota provenance; earlier bibliographic range 3175-3456 remains page-accounting evidence only; complete bytes/hash/scan mapping/OCR remain open",
+      "XI": "open_unverified; Google Books nnzW-Dy4NowC exposes anchors 3173/3175/3183; earlier bibliographic range 3175-3456 remains page-accounting evidence only",
       "XII": "open_unverified; bibliographic printed range 3457-3707 recorded, not scan completeness",
       "XIII": "open_unverified; DLI/Internet Archive locator independently corroborated by Google Books/NYPL-origin metadata; complete bytes/hash/scan mapping/OCR/rights remain open",
       "XIV": "open_unverified",
@@ -70,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run253": 0,
-    "evidence_records_added_run253": 0,
-    "evidence_links_added_run253": 0,
-    "verification_audits_added_run253": 1,
-    "run253_promotion_level": "exact multi-source bibliographic/access-state corroboration of an existing work-family only; zero text/grammar examples/lexical rows/linguistic or cultural claims"
+    "claims_added_run254": 0,
+    "evidence_records_added_run254": 0,
+    "evidence_links_added_run254": 0,
+    "verification_audits_added_run254": 1,
+    "run254_promotion_level": "Mundarica VII-VIII manifestation/page-accounting metadata only; zero passage/content/cultural claim promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run253_change": "No module-count or public-data change; Sinha 1975 multisource reconciliation remains audit metadata and gap-state information only."
+    "run254_change": "No module-count or public-data change; new Mundarica observations remain audit metadata only."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -93,12 +93,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run253": false,
-    "model_training_permission_inferred_run253": false,
-    "participant_consent_inferred_run253": false,
-    "community_validation_inferred_run253": false,
-    "cultural_access_permission_inferred_run253": false,
-    "run253_metadata_rights_note": "Bharatavani reports Login to Read and a page-level all-rights-reserved notice. Catalogue/login visibility is not permission to ingest, train on, redistribute or culturally release the underlying work."
+    "redistribution_permission_inferred_run254": false,
+    "model_training_permission_inferred_run254": false,
+    "participant_consent_inferred_run254": false,
+    "community_validation_inferred_run254": false,
+    "cultural_access_permission_inferred_run254": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -112,38 +111,36 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 253; release metrics numerical regeneration not required.",
+    "generated_metrics_state": "No count-bearing change in Run 254; numerical manuscript metrics unchanged.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-252 final head b2a01d332b9819a7cc5b140d6d6a3329f5816955 is independently verified 4/4 green; Run-253 test-bearing/final heads require their own workflow conclusions before being called green."
+    "build_state": "Run-253 final head 6b52d7eee31e190f68429e96c8258cfdf6cbb88b independently verified 4/4 green; Run-254 requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "b2a01d332b9819a7cc5b140d6d6a3329f5816955",
+    "previous_green_head": "6b52d7eee31e190f68429e96c8258cfdf6cbb88b",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": [
-      "MLHKP Migration Audit success",
-      "MLHKP Source Register Audit success",
-      "MLHKP Streamlit Smoke Test success",
-      "MLHKP Publication Build success"
+      "MLHKP Migration Audit #1898 success",
+      "MLHKP Source Register Audit #1847 success",
+      "MLHKP Streamlit Smoke Test #2012 success",
+      "MLHKP Publication Build #1865 success"
     ],
-    "run253_test_bearing_head": "bab9bda283429f34b0cf213457a4bbf8b4bc15c7",
-    "run253_test_bearing_head_workflows_at_status_sync": {
-      "state": "not_yet_claimed_green",
+    "run254_test_bearing_head": "9ace6575f842137befbdd8569232d3d785892ff7",
+    "run254_test_bearing_head_workflows_at_status_sync": {
+      "state": "not_yet_registered",
       "completed_success": 0
     },
-    "fresh_run253_final_head_ci_verified": false,
-    "fresh_run253_final_head_ci_note": "Run-252 is now independently verified 4/4 green. Run-253 has new audit/search/test commits; fresh commit-associated conclusions are required before calling its final head green."
+    "fresh_run254_final_head_ci_verified": false,
+    "fresh_run254_final_head_ci_note": "Run-253 is independently 4/4 green. Fresh Run-254 commit-associated conclusions are required before calling its final head green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica has zero authoritative registered scans and zero verified-complete volumes; exact lawful manifestations, byte hashes, scan sequence and OCR verification remain unresolved.",
-    "Sinha 1975 Mundari Grammar is now independently corroborated across Bharatavani, CiNii, WALS and Helka/Finna and deterministically joined to the existing Run-206 work-family; Bharatavani remains Login to Read and no lawful complete bytes, independent hash, scan/page reconciliation, OCR, redistribution/training permission, participant provenance, community validation or cultural-access clearance has been verified.",
-    "Sinha 1974 Mundari Phonetic Reader has first-party CIIL catalogue corroboration plus institutional/review/Google Books manifestations, but lawful complete bytes, independent hash, full scan/page reconciliation, OCR verification, rights and cultural-access review remain open; conflicting extent statements remain unresolved.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
     "Official ORGI Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition, independent hashes and exact page/map verification remain incomplete.",
     "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Direct lawful inspection of Osada 2008 pp.107-108 remains unresolved; Grambank remains secondary locator evidence only.",
-    "Other CIIL resources still require byte-preserving acquisition, independent hashes and exact internal-page verification before passage promotion.",
+    "CIIL resources including Sinha 1974/1975 still require lawful byte-preserving acquisition, independent hashes and exact internal-page verification before content promotion.",
     "Lexibank Peiros v1.1, MMLoSo and Rau still require independent byte/integrity closure before row-level ingestion.",
     "Historical and contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and MLHKP cultural-access review before content ingestion.",
     "Participant-derived material remains gated by consent, privacy, community validation and cultural access.",
@@ -170,9 +167,7 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Acquire a lawful complete Sinha 1975 Mundari Grammar manifestation if obtainable, independently hash it, reconcile scan sequence/front matter/printed pagination and verify exact page images/OCR before promoting any grammar example.",
-    "Acquire a lawful complete Sinha 1974 Mundari Phonetic Reader manifestation if obtainable, independently hash it, reconcile front matter/printed pagination and verify exact page images/OCR before promoting any phonetic examples.",
-    "For Mundarica I-XVI, continue exact manifestation acquisition, page accounting and verification without treating catalogue visibility as completeness.",
+    "For Mundarica I-XVI, continue exact lawful manifestation acquisition, independent hashing, scan/page accounting and OCR verification; prioritize still-sparse I, VI, IX, X, XII and XIV while not treating catalogue visibility as completeness.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash and verify worksheet names plus exact MUNDA/MUNDARI rows/cells before promoting any value.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
     "Acquire exact permitted CIIL manifestations and Peiros v1.1/MMLoSo/Rau datasets byte-preservingly; independently hash before passage/row-level ingestion.",
