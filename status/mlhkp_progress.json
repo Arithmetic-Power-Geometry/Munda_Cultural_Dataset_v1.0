@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T05:28:56Z",
+  "updated_utc": "2026-09-12T05:42:08Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 244,
-  "work_head_before_status_sync": "f4aafa6194a42b7a6585b0d6b7a34d110e505f16",
+  "latest_run": 245,
+  "work_head_before_status_sync": "0429f6e4d7289aeb498e605a3c80a9278dac5876",
   "previous_final_head": "31ca755ca8f337e35e44d53a63079089e21d846a",
-  "cycle_result": "Run 244 strengthened Mundarica Volumes II and IV page accounting from an independently observable secondary report. The report cites Vol. II pp. 511-521 and Vol. IV pp. 1238-1241. These are recorded strictly as secondary printed-page locators; no underlying Mundarica page, OCR, passage, cultural proposition, rights, consent, community validation or cultural-access permission was inferred or promoted.",
+  "cycle_result": "Run 245 promoted Phillips & Harrison (2017), Munda mimetic reduplication, from discovery-level awareness to a publisher-rendered exact scholarly locator. DOI 10.1017/cnj.2017.13, journal metadata, pp. 221-242, article sections and exact numbered Mundari/Kera Mundari example locators were directly verified from Cambridge and cross-checked against Swarthmore. No lexical forms, participant-derived material, recordings or cultural propositions were ingested; copyright, consent, community-validation and cultural-access gates remain explicit.",
   "cycle_commits": {
-    "run244_mundarica_ii_iv_secondary_locator": "b0876caf56c9526ac399721533298daed6aa093f",
-    "run244_all_class_search_log": "8fd18051cfb9761129f181a02c3869a1732dd4ef",
-    "run244_regression_test": "f4aafa6194a42b7a6585b0d6b7a34d110e505f16"
+    "run245_phillips_harrison_exact_locator": "c2da51b9b6640bbcb850030770520cc7a3b0cca6",
+    "run245_all_class_search_log": "30b0b38f9275e7bf221fab03b7b7e8f2853f4d14",
+    "run245_regression_test": "0429f6e4d7289aeb498e605a3c80a9278dac5876"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000244",
-    "latest_search_log": "data/source_census/search_log_run244.jsonl",
-    "latest_source_audit": "data/source_census/mundarica_vol_ii_iv_secondary_page_locator_run244_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000245",
+    "latest_search_log": "data/source_census/search_log_run245.jsonl",
+    "latest_source_audit": "data/source_census/phillips_harrison_2017_munda_mimetic_reduplication_run245_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run244_count_change": "none; Mundarica II/IV page-accounting corroboration strengthened without source-identity or evidence inflation"
+    "run245_count_change": "none; exact peer-reviewed source locator strengthened without source-identity or evidence inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -70,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run244": 0,
-    "evidence_records_added_run244": 0,
-    "evidence_links_added_run244": 0,
-    "verification_audits_added_run244": 1,
-    "run244_promotion_level": "secondary printed-page locator only; zero Mundarica passage or cultural-content promotion"
+    "claims_added_run245": 0,
+    "evidence_records_added_run245": 0,
+    "evidence_links_added_run245": 0,
+    "verification_audits_added_run245": 1,
+    "run245_promotion_level": "publisher-rendered exact bibliographic/section/example locator only; zero lexical rows or cultural-content promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run244_change": "No module-count or public-data change; new Mundarica II/IV page locators remain audit metadata only."
+    "run245_change": "No module-count or public-data change; new article locators remain audit metadata only."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -93,7 +93,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run244_change": "Mundarica II/IV bibliographic page accounting strengthened; direct page-image and OCR verification remain open."
+    "run245_change": "Peer-reviewed linguistic source coverage strengthened with exact publisher locators; full-text bytes/hash and underlying field/legacy-source verification remain open."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -101,11 +101,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run244": false,
-    "model_training_permission_inferred_run244": false,
-    "participant_consent_inferred_run244": false,
-    "community_validation_inferred_run244": false,
-    "cultural_access_permission_inferred_run244": false
+    "redistribution_permission_inferred_run245": false,
+    "model_training_permission_inferred_run245": false,
+    "participant_consent_inferred_run245": false,
+    "community_validation_inferred_run245": false,
+    "cultural_access_permission_inferred_run245": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -119,20 +119,21 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 244; release_metrics JSON/TeX numerical regeneration is not required.",
+    "generated_metrics_state": "No count-bearing change in Run 245; release_metrics JSON/TeX numerical regeneration is not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-244 final status-sync head requires its own workflow conclusions before being called green."
+    "build_state": "Run-245 final status-sync head requires its own workflow conclusions before being called green."
   },
   "ci": {
     "previous_green_head": "31ca755ca8f337e35e44d53a63079089e21d846a",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": ["Publication Build", "Source Register Audit", "Migration Audit", "Streamlit Smoke Test"],
-    "run244_test_bearing_head": "f4aafa6194a42b7a6585b0d6b7a34d110e505f16",
-    "fresh_run244_final_head_ci_verified": false,
-    "fresh_run244_final_head_ci_note": "Run-244 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
+    "run245_test_bearing_head": "0429f6e4d7289aeb498e605a3c80a9278dac5876",
+    "fresh_run245_final_head_ci_verified": false,
+    "fresh_run245_final_head_ci_note": "Run-245 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Phillips & Harrison 2017 has exact publisher section/example locators, but byte-preserving full-text acquisition/hash, underlying field-material permissions and legacy-source page verification remain open.",
     "Mundarica Vol. II pp. 511-521 and Vol. IV pp. 1238-1241 are secondary locators only; underlying lawful manifestations, bytes, hashes, scan mapping and OCR remain unverified.",
     "Bhaduri dictionary full-text rights, lawful complete bytes, independent hash and exact lexical entry/page locators remain unresolved; 1929-versus-1931 catalogue-note conflict requires primary bibliographic resolution.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
@@ -169,7 +170,8 @@
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Locate exact lawful Mundarica II and IV manifestations and map verified scan images to the newly corroborated printed-page ranges before any OCR/passages are promoted.",
+    "Resolve Phillips & Harrison 2017 underlying source chain: verify lawful full-text bytes/hash where obtainable, then separately verify Hoffmann/Hoffman 1950 and Anderson-Harrison Kera Mundari exact source pages and permissions before lexical promotion.",
+    "Locate exact lawful Mundarica II and IV manifestations and map verified scan images to the corroborated printed-page ranges before any OCR/passages are promoted.",
     "Resolve Bhaduri 1929-versus-1931 primary bibliographic history; locate a lawful complete manifestation, establish reuse rights, independently hash bytes and verify exact entry/page locators before lexical promotion.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI total/first-subsidiary/second-subsidiary rows and cells before promoting any value.",
     "Cross-check Jharkhand C-17 against India-level DDW-C17-0000.XLSX only after both exact official bitstreams are independently verified; never substitute a third-party mirror for authoritative bytes.",
