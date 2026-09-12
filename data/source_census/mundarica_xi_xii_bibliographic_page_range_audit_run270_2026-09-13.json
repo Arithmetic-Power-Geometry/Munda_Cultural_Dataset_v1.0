@@ -1,0 +1,71 @@
+{
+  "run_id": 270,
+  "date_utc": "2026-09-12",
+  "stream": "Mundarica I-XVI / bibliographic page accounting",
+  "scope": ["books", "archives", "web_resources"],
+  "purpose": "Strengthen printed-page accounting for Encyclopaedia Mundarica Volumes XI and XII from a contemporaneous Jesuit bibliographic record without promoting scan, OCR, rights or cultural-access verification.",
+  "source": {
+    "title": "Index Bibliographicus Societatis Iesu 1938",
+    "host": "Archivum Romanum Societatis Iesu",
+    "url": "https://arsi.jesuits.global/wp-content/uploads/2022/05/IBSI-1938.pdf",
+    "pdf_pages": 201,
+    "observed_pdf_page_index_zero_based": 5,
+    "observed_printed_page": 8,
+    "entry_number": 9
+  },
+  "bibliographic_observation": {
+    "authors_as_printed": "Hoffmann, John.-Emelen, Arthur van",
+    "work": "Encyclopaedia Mundarica",
+    "volume_xi": {
+      "letter": "P",
+      "publisher_place_year_as_printed": "Superintendent Government Printing, Bihar, Patna 1938",
+      "printed_page_range": "3175-3456",
+      "range_span_inclusive": 282
+    },
+    "volume_xii": {
+      "letter": "R",
+      "year": 1938,
+      "printed_page_range": "3457-3707",
+      "range_span_inclusive": 251
+    },
+    "physical_size_as_printed": "25 x 17",
+    "recorded_as": "2 vol."
+  },
+  "cross_checks": {
+    "google_books_volume_xi_catalogue": {
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=nnzW-Dy4NowC",
+      "observed_contents_anchors": [3173, 3175, 3183],
+      "relationship": "Independent catalogue evidence is compatible with the XI range beginning around the 3170s but is not used to override the contemporaneous bibliography."
+    }
+  },
+  "verification_boundary": {
+    "printed_page_range_bibliographically_verified": true,
+    "scan_bytes_verified": false,
+    "independent_hash_verified": false,
+    "scan_completeness_verified": false,
+    "printed_to_scan_page_mapping_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_facts_promoted": 0
+  },
+  "release_effect": {
+    "authoritative_registered_scans_change": 0,
+    "verified_complete_volumes_change": 0,
+    "source_identity_count_change": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "verification_audits_added": 1,
+    "note": "This is page-accounting evidence only. Volumes XI-XII remain open for lawful byte acquisition, independent hashes, scan completeness, printed-to-image reconciliation and OCR verification."
+  },
+  "blockers": [
+    "No byte-preserving XI/XII scan was acquired or hashed in this run.",
+    "No scan-page to printed-page concordance was verified.",
+    "No OCR text was promoted as verified.",
+    "No rights, community-validation or cultural-access status was inferred from bibliographic availability."
+  ]
+}
