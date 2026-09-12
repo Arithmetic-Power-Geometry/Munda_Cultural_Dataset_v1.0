@@ -18,10 +18,11 @@
   "exact_selector_audit": {
     "selector": "Language_ID == Mundari",
     "exact_text_token": ",Mundari,",
-    "matches_in_pinned_blob": 202,
-    "interpretation": "202 exact FormTable rows carry Language_ID=Mundari in the pinned v1.1 forms.csv blob.",
+    "matches_in_pinned_blob": 101,
+    "interpretation": "101 distinct FormTable rows carry Language_ID=Mundari in the pinned v1.1 forms.csv blob.",
     "full_rows_bulk_promoted": false,
-    "reason": "The immutable blob is queryable and cardinality is closed, but exhaustive row-by-row source-column reconciliation, attribution packaging and MLHKP exposure review remain open."
+    "reason": "The immutable blob is queryable and cardinality is closed, but exhaustive row-by-row source-column reconciliation, attribution packaging and MLHKP exposure review remain open.",
+    "correction_run275": "The earlier value 202 was a connector-resource double count caused by the same decoded CSV appearing in top-level content and structuredContent.content. Run 275 restricted the audit to one CSV representation and verified 101 distinct rows."
   },
   "sample_exact_row_locators": [
     {"ID":"Mundari-1_all-1","Language_ID":"Mundari","Parameter_ID":"1_all","Value":"soben","Form":"soben","Source":"Peiros2004a"},
@@ -71,7 +72,7 @@
     "cultural_claims_added": 0
   },
   "explicit_gaps": [
-    "Enumerate and persist all 202 exact Mundari FormTable rows from the pinned blob without truncation.",
+    "Enumerate and persist all 101 distinct Mundari FormTable rows from the pinned blob without connector-level duplication.",
     "Reconcile every extracted row's Source field and parameter foreign key against pinned sources.bib and parameters.csv.",
     "Package attribution and provenance for any later lexical-row release.",
     "Apply MLHKP cultural-access review before exposing any item later determined to be culturally restricted or sensitive."
