@@ -1,0 +1,77 @@
+{
+  "audit_id": "MLHKP-RUN249-HOFFMANN1903-MUNDARI-GRAMMAR-LOCATOR",
+  "run_id": 249,
+  "date_utc": "2026-09-12T07:43:00Z",
+  "stream": "non-Mundarica source census: books and grammars",
+  "work": {
+    "author": "Johannes Baptist Hoffmann",
+    "year": 1903,
+    "title": "Mundari grammar",
+    "publisher": "Bengal Secretariat Press",
+    "extent_google_books": "222 pages",
+    "language_scope": "Mundari"
+  },
+  "verified_locators": [
+    {
+      "provider": "Google Books",
+      "book_id": "V9cj0AEACAAJ",
+      "url": "https://books.google.com/books/about/Mundari_grammar.html?id=V9cj0AEACAAJ",
+      "verified_metadata": [
+        "title Mundari grammar",
+        "author Johannes Baptist Hoffmann",
+        "publisher Bengal Secretariat Press",
+        "publication year 1903",
+        "reported extent 222 pages"
+      ]
+    },
+    {
+      "provider": "Google Books",
+      "book_id": "KfIitwAACAAJ",
+      "url": "https://books.google.com/books/about/Mundari_Grammar_by_the_Revd_J_Hoffmann.html?id=KfIitwAACAAJ",
+      "verified_metadata": [
+        "title variant Mundari Grammar, by the Revd. J. Hoffmann",
+        "author name variant John Hoffmann",
+        "publisher Bengal Secretariat Press",
+        "publication year 1903"
+      ]
+    }
+  ],
+  "deduplication": {
+    "canonical_key": "hoffmann|1903|mundari-grammar|bengal-secretariat-press",
+    "google_books_manifestation_relation": "V9cj0AEACAAJ and KfIitwAACAAJ are treated as bibliographic manifestations/records of the same 1903 work family unless future page-level evidence proves otherwise; do not count as two source identities",
+    "modern_reprints": "must remain manifestations of the historical work family unless materially revised edition evidence is established"
+  },
+  "scope_classification": {
+    "primary_class": "grammar",
+    "secondary_class": "book",
+    "geographic_scope": "India; historical colonial-era source",
+    "source_context_note": "historical linguistic description; source-specific colonial, missionary and participant-context uncertainty must be preserved before substantive cultural use"
+  },
+  "rights_access_boundary": {
+    "bibliographic_visibility_is_permission": false,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "page_image_sequence_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "promotion_level": "exact bibliographic/digital catalogue locator only",
+  "content_evidence_promoted": false,
+  "lexical_rows_promoted": 0,
+  "grammatical_propositions_promoted": 0,
+  "cultural_claims_promoted": 0,
+  "identity_count_change": false,
+  "evidence_claim_count_change": false,
+  "open_gaps": [
+    "lawful complete byte-preserving manifestation",
+    "independent cryptographic hash",
+    "scan-sequence and printed-page reconciliation",
+    "verified OCR or direct page-image transcription",
+    "reuse and redistribution boundary for the exact manifestation",
+    "participant/source-context and cultural-access review before promotion of historical linguistic or cultural content"
+  ]
+}
