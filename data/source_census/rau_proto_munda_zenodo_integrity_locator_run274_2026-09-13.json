@@ -1,0 +1,52 @@
+{
+  "run_id": 274,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica / scholarly dataset / exact repository integrity locator",
+  "purpose": "Strengthen the Rau proto-Munda dataset census entry with an exact first-party Zenodo record, file identity, repository-declared checksum and explicit verification boundary without promoting lexical content.",
+  "source": {
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "creator": "Felix Rau",
+    "version": "0.1.0",
+    "published": "2019-08-29",
+    "record_url": "https://zenodo.org/records/3380874",
+    "doi": "10.5281/zenodo.3380874",
+    "file_name": "pMunda_cognate_set_2019-08-29.csv",
+    "file_size_displayed": "34.9 kB",
+    "repository_declared_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "repository_description_scope": "127 cognates with proto-Munda reconstructions and references to MKCD and Pinnow (1959); languages listed by the repository include Mundari among other Munda languages"
+  },
+  "verification": {
+    "zenodo_record_verified": true,
+    "creator_version_date_verified": true,
+    "exact_file_name_verified": true,
+    "repository_declared_md5_verified_from_record": true,
+    "independent_byte_download_completed": false,
+    "independent_md5_recomputed": false,
+    "row_level_content_verified": false,
+    "mundari_row_subset_verified": false,
+    "underlying_source_attribution_verified_row_by_row": false
+  },
+  "rights_and_cultural_boundary": {
+    "repository_access_treated_as_blanket_reuse_permission": false,
+    "underlying_source_rights_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "lexical_rows_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "note": "This audit pins repository-level integrity metadata only. The repository-declared checksum is not represented as an independently recomputed hash, and no lexical/cultural content is promoted without row-level provenance, rights and cultural-access review."
+  },
+  "promotion": {
+    "level": "exact Zenodo record plus exact CSV identity and repository-declared checksum",
+    "controlled_identity_delta": 0,
+    "controlled_claim_delta": 0,
+    "controlled_evidence_delta": 0,
+    "controlled_provenance_link_delta": 0,
+    "verification_audits_added": 1
+  },
+  "next_verification": [
+    "Acquire the exact CSV through the permitted Zenodo route and independently recompute its checksum before calling bitstream integrity closed.",
+    "Inventory rows and isolate Mundari-bearing records only after byte-level integrity closure.",
+    "Reconcile each promoted row to the cited underlying source and preserve rights/cultural-access state separately from technical availability."
+  ],
+  "completeness_claim": false
+}
