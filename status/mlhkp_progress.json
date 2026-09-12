@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T18:44:00Z",
+  "updated_utc": "2026-09-12T19:27:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 271,
-  "previous_final_head": "e46dda654025cdebe0afa9e91de82a9e1c7b514c",
-  "work_head_before_status_sync": "ac86717d438a2a7169758db2c35b7242ef2d1aa1",
-  "cycle_result": "Run 271 advanced the pinned Lexibank Peiros Austroasiatic v1.1 Mundari ingestion from sampled row locators to verified foreign-key provenance for 21 sampled FormTable rows. The pinned cldf/sources.bib verifies source key Peiros2004a as Ilia I. Peiros's 2004 PhD thesis at Russian State University for the Humanities, and the pinned cldf/parameters.csv verifies all 21 sampled Parameter_ID keys and Concepticon mappings. This closes source/parameter reconciliation for the 21 sampled rows only; 181 of the 202 exact Mundari FormTable rows remain unreconciled. No lexical row, participant consent, community validation, cultural permission, or underlying-source blanket licence was inferred. All 14 controlled source-census classes were rechecked in MMSC-SEARCH-000271; blocked or insufficiently verified materials remain explicit gaps.",
+  "latest_run": 272,
+  "previous_final_head": "0c80011a034a07a4ce6c3c8213f4305093c2e28d",
+  "work_head_before_status_sync": "35f7657f8b84ed7ef1421aa76707cb5a95745fb9",
+  "cycle_result": "Run 272 pinned an exact Internet Archive / Digital Library of India manifestation for Encyclopaedia Mundarica Volume XI: in.ernet.dli.2015.462388, ARK ark:/13960/t44r3bd9q, repository totalpages=278, 600 PPI, Birchandra State Central Library source and ABBYY FineReader 11.0 OCR metadata. This advances manifestation identity and repository page accounting only. Scan bytes/hash, printed-page-to-image concordance, scan completeness and OCR correctness remain unverified. The archive rights field 'In Public Domain' is retained as repository metadata and is not treated as blanket MLHKP redistribution, model-training, community or cultural-access permission. All 14 controlled source-census classes were rechecked in MMSC-SEARCH-000272; blocked or insufficiently verified materials remain explicit gaps.",
   "cycle_commits": {
-    "run271_peiros_sample_foreign_key_audit": "66a2a35468807a2a41a84b32b59165a22d1fbbb0",
-    "run271_all_class_search_log": "f62d69deaf9137652c0a7ce14c5f206863784027",
-    "run271_boundary_tests": "ac86717d438a2a7169758db2c35b7242ef2d1aa1"
+    "run272_mundarica_xi_manifestation_audit": "4e3452eed2f5b8e8574215b7ce1d5c58de0a18a5",
+    "run272_all_class_search_log": "35f7657f8b84ed7ef1421aa76707cb5a95745fb9"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,20 +26,20 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000271",
-    "latest_search_log": "data/source_census/search_log_run271.jsonl",
-    "latest_source_audit": "data/source_census/lexibank_peiros_sample_foreign_key_reconciliation_run271_2026-09-13.json",
+    "latest_search_id": "MMSC-SEARCH-000272",
+    "latest_search_log": "data/source_census/search_log_run272.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_vol11_exact_manifestation_audit_run272_2026-09-13.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run271_count_change": "none; Peiros sampled foreign-key reconciliation is count-neutral"
+    "run272_count_change": "none; Volume XI exact-manifestation strengthening is count-neutral"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 270,
-    "per_volume_state": "Volumes XI and XII retain contemporaneous bibliographic printed-page ranges: XI (P) 3175-3456 and XII (R) 3457-3707. This does not close scan-byte/hash, scan-completeness, printed-page mapping or OCR verification. Volume V retains exact archive identity in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with repository totalpages=278, 600 PPI, page-number confidence=85 and pdf_degraded=invalid-jp2-headers; I-XVI otherwise retain previously documented states.",
-    "state": "No Mundarica count change in Run 271; authoritative-registered-scan and verified-complete counts remain zero."
+    "last_mundarica_run": 272,
+    "per_volume_state": "Volume XI now has exact Internet Archive/DLI identity in.ernet.dli.2015.462388 / ark:/13960/t44r3bd9q with repository totalpages=278, 600 PPI, source library Birchandra State Central Library, Tripura, and ABBYY FineReader 11.0 OCR-engine metadata. Its previously audited printed-page range 3175-3456 is retained separately; no equivalence between repository totalpages and printed-page completeness is inferred. Volume XII retains printed-page range 3457-3707. Volume V retains in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with pdf_degraded=invalid-jp2-headers. I-XVI otherwise retain previously documented states.",
+    "state": "Manifestation/page-accounting evidence improved for Volume XI, but authoritative-registered-scan and verified-complete counts remain zero."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -53,11 +52,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run271": 0,
-    "evidence_records_added_run271": 0,
-    "evidence_links_added_run271": 0,
-    "verification_audits_added_run271": 1,
-    "run271_promotion_level": "21 sampled Peiros Mundari FormTable rows now have verified Source and Parameter_ID foreign keys against pinned v1.1 release files; zero lexical or cultural-claim promotion"
+    "claims_added_run272": 0,
+    "evidence_records_added_run272": 0,
+    "evidence_links_added_run272": 0,
+    "verification_audits_added_run272": 1,
+    "run272_promotion_level": "Mundarica XI exact manifestation plus repository page-accounting/integrity metadata; zero cultural-claim or OCR-verification promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,7 +67,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run271_change": "No module-count change; provenance-integrity audit is compatible with universal-search/evidence-drilldown architecture."
+    "run272_change": "No module-count change; manifestation audit remains compatible with universal search and evidence drilldown."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -76,11 +75,12 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "catalogue_metadata_treated_as_blanket_redistribution_permission": false,
-    "redistribution_permission_inferred_run271": false,
-    "model_training_permission_inferred_run271": false,
-    "participant_consent_inferred_run271": false,
-    "community_validation_inferred_run271": false,
-    "cultural_access_permission_inferred_run271": false,
+    "redistribution_permission_inferred_run272": false,
+    "model_training_permission_inferred_run272": false,
+    "participant_consent_inferred_run272": false,
+    "community_validation_inferred_run272": false,
+    "cultural_access_permission_inferred_run272": false,
+    "archive_rights_field_retained_without_blanket_permission_inference": true,
     "derived_peiros_license_verified": "CC-BY-4.0",
     "peiros_underlying_source_blanket_permission_inferred": false
   },
@@ -94,31 +94,31 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing metric changed in Run 271; manuscript release metrics remain synchronized.",
+    "generated_metrics_state": "No count-bearing metric changed in Run 272; manuscript release metrics remain synchronized.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 270 final head is independently 4/4 green; Run 271 final-head workflows must complete before the newest head is labelled green."
+    "build_state": "Run 271 final head is independently 4/4 green; Run 272 final-head workflows must complete before the newest head is labelled green."
   },
   "ci": {
-    "previous_green_head": "e46dda654025cdebe0afa9e91de82a9e1c7b514c",
+    "previous_green_head": "0c80011a034a07a4ce6c3c8213f4305093c2e28d",
     "previous_green_head_four_of_four": true,
     "previous_green_workflows": {
-      "MLHKP Publication Build": "success #1962",
-      "MLHKP Source Register Audit": "success #1944",
-      "MLHKP Migration Audit": "success #1995",
-      "MLHKP Streamlit Smoke Test": "success #2109"
+      "MLHKP Publication Build": "success #1968",
+      "MLHKP Source Register Audit": "success #1950",
+      "MLHKP Migration Audit": "success #2001",
+      "MLHKP Streamlit Smoke Test": "success #2115"
     },
-    "run271_test_bearing_head": "ac86717d438a2a7169758db2c35b7242ef2d1aa1",
-    "fresh_run271_final_head_ci_verified": false,
-    "fresh_run271_final_head_ci_note": "Run 271 files and tests are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
+    "run272_test_bearing_head": "35f7657f8b84ed7ef1421aa76707cb5a95745fb9",
+    "fresh_run272_final_head_ci_verified": false,
+    "fresh_run272_final_head_ci_note": "Run 272 audit/search/status files are pushed; do not claim the final status head green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; XI-XII printed-page ranges are bibliographically strengthened but scan-byte/hash/page-image/OCR reconciliation remains open.",
+    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes. Volume XI now has an exact archive manifestation and repository totalpages metadata, but scan bytes/hash, printed-page-image concordance, completeness and OCR verification remain open.",
     "ORGI Jharkhand C-17 DDW-C17-2000.XLSX bytes, hash, worksheet inventory, exact rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before content promotion.",
     "Evans & Osada (2005) still requires controlled bitstream/hash/page-image verification before passage-level ingestion.",
     "TRI and CIIL dictionary/reader manifestations remain incomplete at byte/internal-locator level.",
-    "Peiros v1.1 release/version/language-row integrity and exact Mundari FormTable cardinality are closed at 202 rows; Source and Parameter_ID reconciliation is now closed for the 21 sampled rows, leaving 181 rows to reconcile before any bulk lexical promotion. MMLoSo and Rau still require controlled version/integrity closure.",
+    "Peiros v1.1 release/version/language-row integrity and exact Mundari FormTable cardinality are closed at 202 rows; Source and Parameter_ID reconciliation is closed for 21 sampled rows, leaving 181 rows to reconcile before any bulk lexical promotion. MMLoSo and Rau still require controlled version/integrity closure.",
     "Historical and contemporary audiovisual material requires exact bytes plus rights, performer/participant consent, community validation and MLHKP cultural-access review.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
   ],
@@ -139,15 +139,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Gate remains open because 73 unresolved source dispositions, zero verified-complete Mundarica volumes, C-17 workbook byte/hash/cell gaps, LSI/Atlas integrity gaps, remaining Peiros 181-row foreign-key reconciliation plus other scholarly/dataset integrity work, and audiovisual/community/cultural-access gates remain unresolved."
+    "reason": "Gate remains open because 73 unresolved source dispositions, zero verified-complete Mundarica volumes, C-17 workbook byte/hash/cell gaps, LSI/Atlas integrity gaps, remaining Peiros 181-row reconciliation and other scholarly/dataset integrity work, plus audiovisual/community/cultural-access gates remain unresolved."
   },
   "next_parallel_tasks": [
-    "Reconcile the remaining 181 of 202 exact Language_ID=Mundari Peiros v1.1 FormTable rows against pinned sources.bib and parameters.csv, then persist the complete reconciliation package and attribution before lexical-row promotion.",
+    "Acquire permitted Mundarica Volume XI bytes and independently hash them; reconcile scan sequence against printed pages 3175-3456 before any OCR/passages are promoted.",
+    "Reconcile the remaining 181 of 202 exact Language_ID=Mundari Peiros v1.1 FormTable rows against pinned sources.bib and parameters.csv, then persist complete reconciliation and attribution before lexical-row promotion.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI Person/Male/Female cells before value promotion.",
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join only proven aliases.",
-    "Continue Mundarica I-XVI lawful byte/hash/page/OCR closure, prioritizing already pinned manifestations and integrity-risk volumes.",
+    "Continue Mundarica I-XVI lawful byte/hash/page/OCR closure across already pinned manifestations and integrity-risk volumes.",
     "Acquire Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf byte-preservingly and verify exact Mundari pages/maps.",
-    "Pursue TRI/CIIL and MMLoSo/Rau integrity closure and audiovisual consent/community/cultural-access review.",
-    "Keep all 42 Streamlit modules, ontology/evidence graph, release metrics, manuscript and four CI workflows synchronized after every count-bearing change."
+    "Pursue TRI/CIIL, MMLoSo/Rau and audiovisual consent/community/cultural-access closure while keeping all 42 modules, ontology/evidence graph, manuscript metrics and CI synchronized."
   ]
 }
