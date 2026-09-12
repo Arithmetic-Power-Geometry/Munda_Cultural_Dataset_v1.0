@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T17:50:00Z",
+  "updated_utc": "2026-09-12T18:30:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 269,
-  "previous_final_head": "14c58b52e7e587767fa6bc0b5df0bc2e3fd17ae9",
-  "work_head_before_status_sync": "1ee1e71e9cc7cce6be40c3c27d6a0045ed44dbd8",
-  "cycle_result": "Run 269 advanced the pinned Lexibank Peiros Austroasiatic v1.1 source from release/language-row integrity to exact Mundari FormTable cardinality. Querying immutable blob 28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5 establishes 202 exact occurrences of Language_ID=Mundari in cldf/forms.csv. Twenty-one exact sample row locators were persisted for auditability. Bulk lexical promotion remains withheld pending exhaustive row/source/parameter reconciliation, attribution packaging and MLHKP exposure review. All 14 controlled source-census classes were rechecked in MMSC-SEARCH-000269; blocked or insufficiently verified materials remain explicit gaps.",
+  "latest_run": 270,
+  "previous_final_head": "fc34d254ef06376531acfd62e2bc574616bccd37",
+  "work_head_before_status_sync": "135aa81c52089c1e1aa0f9224f52e5cd3c9a1247",
+  "cycle_result": "Run 270 strengthened Mundarica XI-XII printed-page accounting from a contemporaneous 1938 Jesuit bibliography. The bibliographic entry records Volume XI (P) as pp. 3175-3456 and Volume XII (R) as pp. 3457-3707, with independent compatibility from Google Books XI contents anchors. This is page-accounting evidence only: no scan bytes, hashes, scan completeness, printed-to-image concordance, OCR, redistribution rights, community validation or cultural-access permission were inferred. All 14 controlled source-census classes were rechecked in MMSC-SEARCH-000270; blocked or insufficiently verified materials remain explicit gaps.",
   "cycle_commits": {
-    "run269_peiros_formtable_cardinality_audit": "3deda6d440962c56cf00f3a6599d9f1ce78db8df",
-    "run269_all_class_search_log": "d33a9eb08a448fbae510bbb62846bbd59db92567",
-    "run269_boundary_tests": "1ee1e71e9cc7cce6be40c3c27d6a0045ed44dbd8"
+    "run270_mundarica_xi_xii_page_range_audit": "b0088f2d7ed356ac916ecac9f10537a9f27b69d0",
+    "run270_all_class_search_log": "11050cb802949aac866e4f6f85745d9199f31ccf",
+    "run270_boundary_tests": "135aa81c52089c1e1aa0f9224f52e5cd3c9a1247"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,20 +27,20 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000269",
-    "latest_search_log": "data/source_census/search_log_run269.jsonl",
-    "latest_source_audit": "data/source_census/lexibank_peiros_mundari_formtable_rowcount_run269_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000270",
+    "latest_search_log": "data/source_census/search_log_run270.jsonl",
+    "latest_source_audit": "data/source_census/mundarica_xi_xii_bibliographic_page_range_audit_run270_2026-09-13.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run269_count_change": "none; Peiros FormTable cardinality strengthening is count-neutral"
+    "run270_count_change": "none; Mundarica XI-XII page-accounting strengthening is count-neutral"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
-    "last_mundarica_run": 268,
-    "per_volume_state": "Volume V retains exact archive identity in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with repository totalpages=278, 600 PPI, page-number confidence=85 and pdf_degraded=invalid-jp2-headers; it remains open_unverified for byte/hash, printed-page completeness and OCR. I-XVI otherwise retain previously documented states.",
-    "state": "No Mundarica count change in Run 269; verified-complete count remains zero."
+    "last_mundarica_run": 270,
+    "per_volume_state": "Volumes XI and XII now have contemporaneous bibliographic printed-page ranges: XI (P) 3175-3456 and XII (R) 3457-3707. This does not close scan-byte/hash, scan-completeness, printed-page mapping or OCR verification. Volume V retains exact archive identity in.ernet.dli.2015.14925 / ark:/13960/t1mh2xz66 with repository totalpages=278, 600 PPI, page-number confidence=85 and pdf_degraded=invalid-jp2-headers; I-XVI otherwise retain previously documented states.",
+    "state": "Run 270 improves XI-XII page accounting only; authoritative-registered-scan and verified-complete counts remain zero."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -53,11 +53,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run269": 0,
-    "evidence_records_added_run269": 0,
-    "evidence_links_added_run269": 0,
-    "verification_audits_added_run269": 1,
-    "run269_promotion_level": "Peiros exact Mundari FormTable cardinality + 21 sampled immutable row locators; zero controlled lexical/cultural-claim promotion"
+    "claims_added_run270": 0,
+    "evidence_records_added_run270": 0,
+    "evidence_links_added_run270": 0,
+    "verification_audits_added_run270": 1,
+    "run270_promotion_level": "Mundarica XI-XII bibliographic printed-page ranges only; zero cultural-claim, OCR, rights or completeness promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,7 +68,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run269_change": "No module-count change; source-census audit remains compatible with universal-search/evidence-drilldown architecture."
+    "run270_change": "No module-count change; source-census/page-accounting audit remains compatible with universal-search/evidence-drilldown architecture."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -76,11 +76,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "catalogue_metadata_treated_as_blanket_redistribution_permission": false,
-    "redistribution_permission_inferred_run269": false,
-    "model_training_permission_inferred_run269": false,
-    "participant_consent_inferred_run269": false,
-    "community_validation_inferred_run269": false,
-    "cultural_access_permission_inferred_run269": false,
+    "redistribution_permission_inferred_run270": false,
+    "model_training_permission_inferred_run270": false,
+    "participant_consent_inferred_run270": false,
+    "community_validation_inferred_run270": false,
+    "cultural_access_permission_inferred_run270": false,
     "derived_peiros_license_verified": "CC-BY-4.0",
     "peiros_underlying_source_blanket_permission_inferred": false
   },
@@ -94,26 +94,26 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing metric changed in Run 269; manuscript release metrics remain synchronized.",
+    "generated_metrics_state": "No count-bearing metric changed in Run 270; manuscript release metrics remain synchronized.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 269 final-head workflows must complete before the newest head is labelled green."
+    "build_state": "Run 269 final head is independently 4/4 green; Run 270 final-head workflows must complete before the newest head is labelled green."
   },
   "ci": {
-    "previous_green_head": "b66d394b65beda99e4ccc2632d64a0c6c8a0edfe",
+    "previous_green_head": "fc34d254ef06376531acfd62e2bc574616bccd37",
     "previous_green_head_four_of_four": true,
     "previous_green_workflows": {
-      "MLHKP Publication Build": "success #1944",
-      "MLHKP Source Register Audit": "success #1926",
-      "MLHKP Migration Audit": "success #1977",
-      "MLHKP Streamlit Smoke Test": "success #2091"
+      "MLHKP Publication Build": "success #1956",
+      "MLHKP Source Register Audit": "success #1938",
+      "MLHKP Migration Audit": "success #1989",
+      "MLHKP Streamlit Smoke Test": "success #2103"
     },
-    "run269_test_bearing_head": "1ee1e71e9cc7cce6be40c3c27d6a0045ed44dbd8",
-    "fresh_run269_final_head_ci_verified": false,
-    "fresh_run269_final_head_ci_note": "Await commit-associated workflows after status synchronization; do not claim green before all four succeed."
+    "run270_test_bearing_head": "135aa81c52089c1e1aa0f9224f52e5cd3c9a1247",
+    "fresh_run270_final_head_ci_verified": false,
+    "fresh_run270_final_head_ci_note": "No commit-associated workflows had registered on the test-bearing head at the first check after push; do not claim green until all four complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; Volume V has a pinned manifestation but still lacks independent byte/hash/page/OCR reconciliation.",
+    "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; XI-XII printed-page ranges are now bibliographically strengthened but scan-byte/hash/page-image/OCR reconciliation remains open.",
     "ORGI Jharkhand C-17 DDW-C17-2000.XLSX bytes, hash, worksheet inventory, exact rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before content promotion.",
     "Evans & Osada (2005) still requires controlled bitstream/hash/page-image verification before passage-level ingestion.",
@@ -142,6 +142,7 @@
     "reason": "Gate remains open because 73 unresolved source dispositions, zero verified-complete Mundarica volumes, C-17 workbook byte/hash/cell gaps, LSI/Atlas integrity gaps, remaining Peiros 202-row reconciliation plus other scholarly/dataset integrity work, and audiovisual/community/cultural-access gates remain unresolved."
   },
   "next_parallel_tasks": [
+    "Acquire or directly verify lawful XI/XII scan manifestations byte-preservingly; hash them and reconcile scan images against the now-audited printed-page ranges 3175-3456 and 3457-3707 before any OCR-complete status.",
     "Enumerate all 202 exact Language_ID=Mundari Peiros v1.1 FormTable rows from the pinned blob, reconcile Source and Parameter_ID foreign keys against pinned sources.bib and parameters.csv, and package attribution before lexical-row promotion.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash, inventory worksheets and verify exact MUNDA/MUNDARI Person/Male/Female cells before value promotion.",
     "Deterministically disposition the 73 unresolved WEB-MUN leads and join only proven aliases.",
