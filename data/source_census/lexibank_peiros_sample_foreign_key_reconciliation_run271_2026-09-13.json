@@ -1,0 +1,92 @@
+{
+  "run_id": 271,
+  "date_utc": "2026-09-13",
+  "stream": "dataset / Lexibank / sampled Mundari FormTable foreign-key reconciliation",
+  "scope_class": ["datasets", "dictionaries", "web_resources", "theses_dissertations"],
+  "purpose": "Advance the pinned Peiros Austroasiatic v1.1 Mundari ingestion from sampled row locators to verified Source and Parameter_ID foreign-key reconciliation without overstating the unresolved remainder of the 202-row set.",
+  "source": {
+    "repository": "lexibank/peirosaustroasiatic",
+    "release_tag": "v1.1",
+    "release_doi": "10.5281/zenodo.13168443",
+    "tag_commit_sha": "b4d2e4dcee173494c90328f7cafd78c9851c0956",
+    "forms_path": "cldf/forms.csv",
+    "sources_path": "cldf/sources.bib",
+    "parameters_path": "cldf/parameters.csv",
+    "forms_git_blob_sha": "28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5",
+    "sources_git_blob_sha": "0629a9d2536b09f6c615aa33c471a6550e274acd",
+    "parameters_git_blob_sha": "f13b1827b4ee61f6f38b5031afe7a7d5fa027692",
+    "mundari_form_rows_total": 202,
+    "derived_dataset_license": "CC-BY-4.0"
+  },
+  "source_foreign_key": {
+    "key": "Peiros2004a",
+    "type": "PhD thesis",
+    "author": "Peiros, Ilia I.",
+    "title": "Genetičeskaja klassifikacija avstroaziatskix jazykov [Genetic classification of Austro-Asiatic language]",
+    "school": "Russian State University for the Humanities",
+    "address": "Moscow",
+    "year": 2004,
+    "verified_in_pinned_sources_bib": true
+  },
+  "sample_reconciliation": {
+    "sample_rows": 21,
+    "source_key_verified_rows": 21,
+    "parameter_key_verified_rows": 21,
+    "unresolved_rows_remaining": 181,
+    "all_sample_source_keys_equal": "Peiros2004a",
+    "bulk_202_row_reconciliation_complete": false
+  },
+  "rows": [
+    {"ID":"Mundari-1_all-1","Parameter_ID":"1_all","Parameter_Name":"all","Concepticon_ID":"98","Concepticon_Gloss":"ALL","Source":"Peiros2004a"},
+    {"ID":"Mundari-2_ashes-1","Parameter_ID":"2_ashes","Parameter_Name":"ashes","Concepticon_ID":"646","Concepticon_Gloss":"ASH","Source":"Peiros2004a"},
+    {"ID":"Mundari-3_bark-1","Parameter_ID":"3_bark","Parameter_Name":"bark","Concepticon_ID":"1204","Concepticon_Gloss":"BARK","Source":"Peiros2004a"},
+    {"ID":"Mundari-3_bark-2","Parameter_ID":"3_bark","Parameter_Name":"bark","Concepticon_ID":"1204","Concepticon_Gloss":"BARK","Source":"Peiros2004a"},
+    {"ID":"Mundari-4_belly-1","Parameter_ID":"4_belly","Parameter_Name":"belly","Concepticon_ID":"1251","Concepticon_Gloss":"BELLY","Source":"Peiros2004a"},
+    {"ID":"Mundari-5_big-1","Parameter_ID":"5_big","Parameter_Name":"big","Concepticon_ID":"1202","Concepticon_Gloss":"BIG","Source":"Peiros2004a"},
+    {"ID":"Mundari-6_bird-1","Parameter_ID":"6_bird","Parameter_Name":"bird","Concepticon_ID":"937","Concepticon_Gloss":"BIRD","Source":"Peiros2004a"},
+    {"ID":"Mundari-7_bite-1","Parameter_ID":"7_bite","Parameter_Name":"bite","Concepticon_ID":"1403","Concepticon_Gloss":"BITE","Source":"Peiros2004a"},
+    {"ID":"Mundari-8_black-1","Parameter_ID":"8_black","Parameter_Name":"black","Concepticon_ID":"163","Concepticon_Gloss":"BLACK","Source":"Peiros2004a"},
+    {"ID":"Mundari-9_blood-1","Parameter_ID":"9_blood","Parameter_Name":"blood","Concepticon_ID":"946","Concepticon_Gloss":"BLOOD","Source":"Peiros2004a"},
+    {"ID":"Mundari-10_bone-1","Parameter_ID":"10_bone","Parameter_Name":"bone","Concepticon_ID":"1394","Concepticon_Gloss":"BONE","Source":"Peiros2004a"},
+    {"ID":"Mundari-12_burntr-1","Parameter_ID":"12_burntr","Parameter_Name":"burn tr.","Concepticon_ID":"141","Concepticon_Gloss":"BURN (SOMETHING)","Source":"Peiros2004a"},
+    {"ID":"Mundari-13_clawnail-1","Parameter_ID":"13_clawnail","Parameter_Name":"claw (nail)","Concepticon_ID":"2128","Concepticon_Gloss":"CLAW OR NAIL","Source":"Peiros2004a"},
+    {"ID":"Mundari-14_cloud-1","Parameter_ID":"14_cloud","Parameter_Name":"cloud","Concepticon_ID":"1489","Concepticon_Gloss":"CLOUD","Source":"Peiros2004a"},
+    {"ID":"Mundari-15_cold-1","Parameter_ID":"15_cold","Parameter_Name":"cold","Concepticon_ID":"1287","Concepticon_Gloss":"COLD","Source":"Peiros2004a"},
+    {"ID":"Mundari-16_come-1","Parameter_ID":"16_come","Parameter_Name":"come","Concepticon_ID":"1446","Concepticon_Gloss":"COME","Source":"Peiros2004a"},
+    {"ID":"Mundari-17_die-1","Parameter_ID":"17_die","Parameter_Name":"die","Concepticon_ID":"1494","Concepticon_Gloss":"DIE","Source":"Peiros2004a"},
+    {"ID":"Mundari-18_dog-1","Parameter_ID":"18_dog","Parameter_Name":"dog","Concepticon_ID":"2009","Concepticon_Gloss":"DOG","Source":"Peiros2004a"},
+    {"ID":"Mundari-19_drink-1","Parameter_ID":"19_drink","Parameter_Name":"drink","Concepticon_ID":"1401","Concepticon_Gloss":"DRINK","Source":"Peiros2004a"},
+    {"ID":"Mundari-20_dry-1","Parameter_ID":"20_dry","Parameter_Name":"dry","Concepticon_ID":"1398","Concepticon_Gloss":"DRY","Source":"Peiros2004a"},
+    {"ID":"Mundari-21_ear-1","Parameter_ID":"21_ear","Parameter_Name":"ear","Concepticon_ID":"1247","Concepticon_Gloss":"EAR","Source":"Peiros2004a"}
+  ],
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license_verified": "CC-BY-4.0",
+    "underlying_source_blanket_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "controlled_lexical_rows_promoted": 0,
+    "controlled_cultural_claims_promoted": 0,
+    "note": "Foreign-key and attribution reconciliation is provenance integrity evidence only. No lexical row is promoted to the controlled MLHKP release until the entire selected release package is reconciled and exposure/cultural-access review is complete."
+  },
+  "deduplication": {
+    "canonical_key": "lexibank:peirosaustroasiatic:v1.1",
+    "identity_count_change": false,
+    "reason_count_neutral": "This strengthens an existing canonical dataset family."
+  },
+  "promotion": {
+    "level": "21 sampled Mundari FormTable rows now have verified Source and Parameter_ID foreign keys against pinned release files",
+    "verification_audits_added": 1,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "lexical_rows_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Reconcile the remaining 181 of 202 Mundari FormTable rows against pinned sources.bib and parameters.csv.",
+    "Persist the complete 202-row reconciliation package without truncation.",
+    "Package attribution and provenance for any later lexical-row release.",
+    "Apply MLHKP cultural-access review before public exposure or downstream use."
+  ]
+}
