@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T03:46:00Z",
+  "updated_utc": "2026-09-12T04:30:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 241,
-  "work_head_before_status_sync": "9014de2be22c50373927187f0a8fc6593f6663eb",
-  "previous_final_head": "9b95814e42c7359818d6e552465dc7afc1d2fa70",
-  "cycle_result": "Run 241 promoted Nishaant Choksi's peer-reviewed Mundari expressives article beyond discovery-only status to a DOI-resolved exact bibliographic/abstract/footnote locator. Cambridge verifies the author, publication date, Language in Society 49(3), pp.379-398, DOI 10.1017/S0047404519000824, copyright and access-controlled state. The publisher abstract reports video interviews with Mundari speakers and lab/ethnographic interviews; the public footnote identifies a primary consultant. No internal article passages, raw recordings, participant-derived examples or cultural propositions were ingested because full-text access, recording rights, independent consent, community validation and cultural-access clearance remain separate gates.",
+  "latest_run": 242,
+  "work_head_before_status_sync": "ef88a35f7a8e1e4fbd05ff74bf2d597c2f680293",
+  "previous_final_head": "4a24d29d5703fb3575d18a0543273e80d1f95805",
+  "cycle_result": "Run 242 resolved an official Jharkhand-specific ORGI C-17 manifestation/schema locator: PC11_C17-20, declared workbook DDW-C17-2000.XLSX. The official catalogue explicitly exposes MUNDA and MUNDARI as total-speaker row labels and as subsidiary-language row labels. This narrows the future verification target to one state-specific official workbook, but no numeric Census value was promoted because official workbook bytes, independent hash, worksheet names and exact row/cell coordinates remain unverified.",
   "cycle_commits": {
-    "run241_choksi_exact_locator_audit": "04417fae53698d18a401eae0354a3a992c989488",
-    "run241_all_class_search_log": "5043af4cb268910f98fc1e12b646597fb2645110",
-    "run241_regression_tests": "9014de2be22c50373927187f0a8fc6593f6663eb"
+    "run242_orgi_c17_jharkhand_audit": "1ab8a5a9a2651fd663970c41c66bd0ca308f112f",
+    "run242_all_class_search_log": "386e806cd722f7ff4c2a6e742e6067ccbf6f604d",
+    "run242_regression_tests": "ef88a35f7a8e1e4fbd05ff74bf2d597c2f680293"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,34 +27,36 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000241",
-    "latest_search_log": "data/source_census/search_log_run241.jsonl",
-    "latest_source_audit": "data/source_census/choksi_2020_mundari_expressives_exact_locator_run241_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000242",
+    "latest_search_log": "data/source_census/search_log_run242.jsonl",
+    "latest_source_audit": "data/source_census/orgi_c17_jharkhand_manifestation_run242_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run241_count_change": "none; the article received an exact DOI/publisher locator and participant-media boundary audit, but no controlled identity or public evidence count changed"
-  },
-  "non_mundarica_run241": {
-    "primary_source": "Expressives and the multimodal depiction of social types in Mundari",
-    "author": "Nishaant Choksi",
-    "journal": "Language in Society",
-    "doi": "10.1017/S0047404519000824",
-    "pages": "379-398",
-    "publisher_metadata_verified": true,
-    "abstract_level_scope_verified": true,
-    "publisher_footnote_verified": true,
-    "full_text_bytes_acquired": false,
-    "independent_hash_verified": false,
-    "raw_participant_media_ingested": false,
-    "participant_consent_independently_audited": false,
-    "cultural_claims_promoted": 0
+    "run242_count_change": "none; exact official state-level manifestation and schema locator strengthened without unsupported identity or evidence inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 238,
-    "priority_open_volumes": ["IV", "IX", "XI", "XII", "XIII", "XIV", "XV", "XVI"],
+    "per_volume_states": {
+      "I": "open_unverified",
+      "II": "open_unverified",
+      "III": "open_unverified; known DLI item must not be misassigned to IV",
+      "IV": "open_unverified; secondary printed-page locator exists but exact lawful manifestation/bytes/hash/OCR remain open",
+      "V": "open_unverified",
+      "VI": "open_unverified",
+      "VII": "open_unverified",
+      "VIII": "open_unverified",
+      "IX": "open_unverified; judicial secondary printed-page locators exist but exact manifestation/bytes/hash/OCR remain open",
+      "X": "open_unverified",
+      "XI": "open_unverified; bibliographic printed range 3175-3456 recorded, not scan completeness",
+      "XII": "open_unverified; bibliographic printed range 3457-3707 recorded, not scan completeness",
+      "XIII": "open_unverified; exact DLI/Internet Archive locator identified with degraded-PDF metadata, not authoritative or verified complete",
+      "XIV": "open_unverified",
+      "XV": "open_unverified; modern reprint bibliographic locator exists, historical authoritative manifestation unresolved",
+      "XVI": "open_unverified; modern reprint bibliographic locator exists, historical authoritative manifestation unresolved"
+    },
     "state": "No Mundarica volume is promoted to authoritative registered scan or verified complete without exact lawful bytes, independent hash, scan-sequence/page accounting and OCR verification."
   },
   "evidence_and_schema": {
@@ -68,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run241": 0,
-    "evidence_records_added_run241": 0,
-    "evidence_links_added_run241": 0,
-    "verification_audits_added_run241": 1,
-    "run241_promotion_level": "exact bibliographic/abstract/footnote locator; no participant-derived or internal-passage evidence promotion"
+    "claims_added_run242": 0,
+    "evidence_records_added_run242": 0,
+    "evidence_links_added_run242": 0,
+    "verification_audits_added_run242": 1,
+    "run242_promotion_level": "official manifestation and catalogue-schema locator only; zero numeric cell promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -83,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run241_change": "No module-count or public-content change. The Choksi article remains source-audit material until exact passage-level access and participant/cultural gates support further promotion."
+    "run242_change": "No module-count or public-data change; future C-17 values remain blocked from UI until exact official workbook-cell verification."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -91,7 +93,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run241_change": "Peer-reviewed scholarly locator coverage strengthened. Participant-derived audiovisual evidence remains explicitly gated, so no coverage-state inflation was made."
+    "run242_change": "Jharkhand-specific official Census target strengthened from national-table identity to exact state workbook identity/schema; numerical evidence remains unverified."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -99,11 +101,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run241": false,
-    "model_training_permission_inferred_run241": false,
-    "participant_consent_inferred_run241": false,
-    "community_validation_inferred_run241": false,
-    "cultural_access_permission_inferred_run241": false
+    "redistribution_permission_inferred_run242": false,
+    "model_training_permission_inferred_run242": false,
+    "participant_consent_inferred_run242": false,
+    "community_validation_inferred_run242": false,
+    "cultural_access_permission_inferred_run242": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -117,22 +119,22 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 241; release_metrics JSON/TeX numerical regeneration is not required.",
+    "generated_metrics_state": "No count-bearing change in Run 242; release_metrics JSON/TeX numerical regeneration is not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-241 final status-sync head requires its own workflow conclusions before being called green."
+    "build_state": "Run-242 final status-sync head requires its own workflow conclusions before being called green."
   },
   "ci": {
-    "previous_green_head": "aeafdd6477fc375434c397bd82e15648d5dd5c84",
+    "previous_green_head": "4a24d29d5703fb3575d18a0543273e80d1f95805",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": ["Publication Build", "Source Register Audit", "Migration Audit", "Streamlit Smoke Test"],
-    "run241_test_bearing_head": "9014de2be22c50373927187f0a8fc6593f6663eb",
-    "fresh_run241_final_head_ci_verified": false,
-    "fresh_run241_final_head_ci_note": "Run-241 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
+    "run242_test_bearing_head": "ef88a35f7a8e1e4fbd05ff74bf2d597c2f680293",
+    "fresh_run242_final_head_ci_verified": false,
+    "fresh_run242_final_head_ci_note": "Run-242 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "The Choksi 2020 article full text is access-controlled; exact internal passages and underlying interview/video data are not ingested. Recording rights, independent participant consent, community validation and cultural-access permission remain unverified.",
-    "Official DDW-C17-0000.XLSX bytes, independent hash, worksheet names and exact Munda/Mundari rows/cells remain unverified.",
+    "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
+    "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
     "Official ORGI Language_Atlas_2011.pdf remains gateway-blocked; independent hash, page/map locators and directly observed Munda/Mundari values remain unresolved.",
     "C-16/C-16 City/ST-15/ST-16 authoritative Census workbook bytes, hashes, worksheets and exact numeric cells remain unverified.",
     "Official LSI_JHARKHAND.pdf byte-preserving acquisition, independent hash and direct page-image verification remain incomplete because direct fetch is gateway-blocked in the current environment.",
@@ -161,13 +163,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, blocked/unverified official Census/Atlas/LSI byte-level sources, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and unresolved audiovisual/participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, unverified official Census/Atlas/LSI bytes and cells, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and unresolved audiovisual/participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
-    "Resolve the newly verified DOI 10.1017/S0047404519000824 against all controlled source registries; acquire full text only where lawful and promote exact internal passages only when access and evidence quality permit.",
-    "Keep the Choksi participant-derived recordings out of public evidence until recording rights, participant consent, community validation and cultural-access review are independently supported.",
-    "Acquire DDW-C17-0000.XLSX byte-preservingly; independently hash it and verify exact Munda/Mundari rows/cells before promoting any value.",
+    "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI total/first-subsidiary/second-subsidiary rows and cells before promoting any value.",
+    "Cross-check Jharkhand C-17 against India-level DDW-C17-0000.XLSX only after both exact official bitstreams are independently verified; never substitute a third-party mirror for authoritative bytes.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
     "Acquire exact permitted CIIL manifestations and Peiros v1.1/MMLoSo/Rau datasets byte-preservingly; independently hash before passage/row-level ingestion.",
     "Continue Mundarica I-XVI exact manifestation, page-accounting and OCR closure without equating catalog metadata with verified complete scans.",
