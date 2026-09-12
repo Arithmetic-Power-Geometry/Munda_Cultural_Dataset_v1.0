@@ -4,17 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-12T04:30:00Z",
+  "updated_utc": "2026-09-12T04:45:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 242,
-  "work_head_before_status_sync": "ef88a35f7a8e1e4fbd05ff74bf2d597c2f680293",
-  "previous_final_head": "4a24d29d5703fb3575d18a0543273e80d1f95805",
-  "cycle_result": "Run 242 resolved an official Jharkhand-specific ORGI C-17 manifestation/schema locator: PC11_C17-20, declared workbook DDW-C17-2000.XLSX. The official catalogue explicitly exposes MUNDA and MUNDARI as total-speaker row labels and as subsidiary-language row labels. This narrows the future verification target to one state-specific official workbook, but no numeric Census value was promoted because official workbook bytes, independent hash, worksheet names and exact row/cell coordinates remain unverified.",
+  "latest_run": 243,
+  "work_head_before_status_sync": "d500bedec45db6f7445bfc17579aff92aa827ab5",
+  "previous_final_head": "30d58c62a72d68a1731559a16d3433385f3ea87f",
+  "cycle_result": "Run 243 promoted Manindra Bhusan Bhaduri's A Mundari-English Dictionary from loose discovery into an exact bibliographic work-family/manifestation audit. Independent institutional catalogues support a 1931 Calcutta University Press original and later 1983/1994 reprints; a 2002 catalogue manifestation preserves a conflicting 1929-original note. The conflict is retained explicitly. No lexical entry, passage, cultural claim, content hash, redistribution permission, model-training permission, participant consent, community validation or cultural-access permission was inferred or promoted.",
   "cycle_commits": {
-    "run242_orgi_c17_jharkhand_audit": "1ab8a5a9a2651fd663970c41c66bd0ca308f112f",
-    "run242_all_class_search_log": "386e806cd722f7ff4c2a6e742e6067ccbf6f604d",
-    "run242_regression_tests": "ef88a35f7a8e1e4fbd05ff74bf2d597c2f680293"
+    "run243_bhaduri_dictionary_audit": "45e6fdb7685dafc4852ea83b05847acadbf02ae3",
+    "run243_all_class_search_log": "9fce57a24c211749dbaaa5b2572ace8fc751a4a9",
+    "run243_regression_tests": "d500bedec45db6f7445bfc17579aff92aa827ab5"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,12 +27,12 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000242",
-    "latest_search_log": "data/source_census/search_log_run242.jsonl",
-    "latest_source_audit": "data/source_census/orgi_c17_jharkhand_manifestation_run242_2026-09-12.json",
+    "latest_search_id": "MMSC-SEARCH-000243",
+    "latest_search_log": "data/source_census/search_log_run243.jsonl",
+    "latest_source_audit": "data/source_census/bhaduri_mundari_english_dictionary_exact_locator_run243_2026-09-12.json",
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run242_count_change": "none; exact official state-level manifestation and schema locator strengthened without unsupported identity or evidence inflation"
+    "run243_count_change": "none; exact dictionary work-family and manifestation locators strengthened without unsupported identity or evidence inflation"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -70,11 +70,11 @@
     "information_model_record_families": 24,
     "information_model_domain_homes": 153,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run242": 0,
-    "evidence_records_added_run242": 0,
-    "evidence_links_added_run242": 0,
-    "verification_audits_added_run242": 1,
-    "run242_promotion_level": "official manifestation and catalogue-schema locator only; zero numeric cell promotion"
+    "claims_added_run243": 0,
+    "evidence_records_added_run243": 0,
+    "evidence_links_added_run243": 0,
+    "verification_audits_added_run243": 1,
+    "run243_promotion_level": "exact bibliographic/catalogue work-family locator only; zero lexical or cultural content promotion"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -85,7 +85,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run242_change": "No module-count or public-data change; future C-17 values remain blocked from UI until exact official workbook-cell verification."
+    "run243_change": "No module-count or public-data change; the Bhaduri work-family locator is audit metadata only until full-text rights, bytes, hashes and exact entry/page locators are verified."
   },
   "coverage_and_gaps": {
     "coverage_matrix": "data/coverage_matrix.json",
@@ -93,7 +93,7 @@
     "government_archive_coverage_state": "live_partial",
     "oral_story_song_media_coverage_state": "live_partial",
     "completeness_gap_state": "live_partial",
-    "run242_change": "Jharkhand-specific official Census target strengthened from national-table identity to exact state workbook identity/schema; numerical evidence remains unverified."
+    "run243_change": "Dictionary bibliography coverage strengthened with deterministic work-family/manifestation reconciliation; content-level lexical evidence remains unverified."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -101,11 +101,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "open_access_treated_as_blanket_redistribution_license": false,
-    "redistribution_permission_inferred_run242": false,
-    "model_training_permission_inferred_run242": false,
-    "participant_consent_inferred_run242": false,
-    "community_validation_inferred_run242": false,
-    "cultural_access_permission_inferred_run242": false
+    "redistribution_permission_inferred_run243": false,
+    "model_training_permission_inferred_run243": false,
+    "participant_consent_inferred_run243": false,
+    "community_validation_inferred_run243": false,
+    "cultural_access_permission_inferred_run243": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -119,20 +119,21 @@
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "No count-bearing change in Run 242; release_metrics JSON/TeX numerical regeneration is not required.",
+    "generated_metrics_state": "No count-bearing change in Run 243; release_metrics JSON/TeX numerical regeneration is not required.",
     "tables_figures_state": "unchanged; controlled numerical metrics did not change",
-    "build_state": "Run-242 final status-sync head requires its own workflow conclusions before being called green."
+    "build_state": "Run-243 final status-sync head requires its own workflow conclusions before being called green."
   },
   "ci": {
     "previous_green_head": "4a24d29d5703fb3575d18a0543273e80d1f95805",
     "previous_green_head_four_of_four": true,
     "previous_green_checks": ["Publication Build", "Source Register Audit", "Migration Audit", "Streamlit Smoke Test"],
-    "run242_test_bearing_head": "ef88a35f7a8e1e4fbd05ff74bf2d597c2f680293",
-    "fresh_run242_final_head_ci_verified": false,
-    "fresh_run242_final_head_ci_note": "Run-242 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
+    "run243_test_bearing_head": "d500bedec45db6f7445bfc17579aff92aa827ab5",
+    "fresh_run243_final_head_ci_verified": false,
+    "fresh_run243_final_head_ci_note": "Run-243 audit/search/test/status commits require commit-associated conclusions for all four workflows before the final head may be called 4/4 green."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Bhaduri dictionary full-text rights, lawful complete bytes, independent hash and exact lexical entry/page locators remain unresolved; 1929-versus-1931 catalogue-note conflict requires primary bibliographic resolution.",
     "Official Jharkhand C-17 DDW-C17-2000.XLSX bytes, independent hash, worksheet names and exact MUNDA/MUNDARI rows/cells remain unverified; no numeric claim may be promoted yet.",
     "Official India C-17 DDW-C17-0000.XLSX bytes and exact cells remain unverified.",
     "Official ORGI Language_Atlas_2011.pdf remains gateway-blocked; independent hash, page/map locators and directly observed Munda/Mundari values remain unresolved.",
@@ -163,10 +164,11 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "The release still has 73 unresolved source dispositions, unverified official Census/Atlas/LSI bytes and cells, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity and unresolved audiovisual/participant/community/cultural-access gates."
+    "reason": "The release still has 73 unresolved source dispositions, unverified official Census/Atlas/LSI bytes and cells, zero verified-complete Mundarica volumes, incomplete scholarly/dataset integrity, unresolved dictionary full-text/integrity issues and unresolved audiovisual/participant/community/cultural-access gates."
   },
   "next_parallel_tasks": [
     "Continue deterministic disposition of the 73 remaining unique WEB-MUN leads while retaining original identifiers and provenance through alias/canonical joins.",
+    "Resolve Bhaduri 1929-versus-1931 primary bibliographic history; locate a lawful complete manifestation, establish reuse rights, independently hash bytes and verify exact entry/page locators before lexical promotion.",
     "Acquire official DDW-C17-2000.XLSX byte-preservingly; independently hash it and verify worksheet names plus exact MUNDA/MUNDARI total/first-subsidiary/second-subsidiary rows and cells before promoting any value.",
     "Cross-check Jharkhand C-17 against India-level DDW-C17-0000.XLSX only after both exact official bitstreams are independently verified; never substitute a third-party mirror for authoritative bytes.",
     "Retry official Language_Atlas_2011.pdf and LSI_JHARKHAND.pdf byte-preserving acquisition; independently hash and verify exact pages/maps before promotion.",
