@@ -1,0 +1,46 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified government-series and peer-reviewed source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0073",
+      "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+      "source_class": "official_government_linguistic_survey_volume",
+      "publisher": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+      "author": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "year": 2023,
+      "notes": "The official Census of India/ORGI digital catalogue identifies reference ID LSI_JHARKHAND, published 1 August 2023, as a book in the Linguistic Survey of India series devoted to Jharkhand, with an official downloadable PDF. Register as a high-value government language-survey lead for later Mundari/Munda language, dialect, script, geography and demographic-context review. Catalogue discovery alone does not establish any specific Mundari statement; any later structured evidence requires the exact PDF page/table/map locator, edition/version, historical or survey-period scope, and verification against the cited underlying data.",
+      "verification_state": "official_government_catalogue_metadata_verified",
+      "access_class": "public_government_catalogue_and_download_rights_reuse_terms_require_review",
+      "rights_note": "Official public download availability does not by itself establish unrestricted redistribution, derivative-database extraction, figure/map reuse, model training, or commercial reuse. ORGI/Census terms, source attribution and any third-party material must be reviewed before reuse; cultural-access governance remains independent of legal or technical availability."
+    },
+    {
+      "id": "WEB-MUN-0074",
+      "title": "LINGUISTIC SURVEY OF INDIA-WEST BENGAL (PART-I)",
+      "source_class": "official_government_linguistic_survey_volume",
+      "publisher": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/34826",
+      "author": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "year": 2016,
+      "notes": "The official Census of India/ORGI digital catalogue identifies reference ID LSI_WB_PART_I, published 1 August 2016, as a book in the Linguistic Survey of India series on West Bengal. Independent indexing of the volume identifies Mundari among the languages discussed, making it a relevant comparative/geographic source lead. No speaker count, script statement, vitality assessment, dialect claim or other language proposition is ingested from discovery metadata. Later use requires exact PDF page/table/map locators, survey-period framing and reconciliation with the corresponding Census source tables.",
+      "verification_state": "official_government_catalogue_metadata_verified_relevance_cross_indexed",
+      "access_class": "public_government_catalogue_and_download_rights_reuse_terms_require_review",
+      "rights_note": "Official public download availability does not establish unrestricted redistribution, derivative extraction, map/figure reuse or commercial reuse. ORGI/Census terms and any embedded third-party rights require item-level review. Historical and geographic language descriptions must remain source-attributed and period-bounded."
+    },
+    {
+      "id": "WEB-MUN-0075",
+      "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+      "source_class": "peer_reviewed_land_customary_governance_article",
+      "publisher": "The Oriental Anthropologist / SAGE Publications",
+      "url": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+      "author": "Mukesh Kumar Shrivastava",
+      "year": 2013,
+      "notes": "SAGE publisher metadata verifies this article in The Oriental Anthropologist, volume 13 issue 2, pages 267-280, DOI 10.1177/0972558X1301300205, first published online 1 July 2013. The abstract states that the study is based on empirical investigation of two Mundari Khuntkatti villages, Gutuhatu and Salga, in Khunti district. Register as a land/customary-law/governance research lead only. Findings must remain sample-, place-, method- and period-bounded; no abstract statement is promoted as a universal or current Munda institution claim without exact passage evidence, legal/historical cross-checking, contradiction/variant linkage and community-aware review.",
+      "verification_state": "publisher_metadata_and_doi_verified",
+      "access_class": "publisher_metadata_public_full_text_and_reuse_conditions_unresolved",
+      "rights_note": "Publisher metadata and abstract access do not establish permission to redistribute article text, tables, figures, field data or derivative datasets. SAGE permissions and any participant/community-sensitive material require separate review; cultural-access restrictions may be more restrictive than publication access."
+    }
+  ]
+}

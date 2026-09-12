@@ -1,0 +1,62 @@
+{
+  "run_id": 277,
+  "date_utc": "2026-09-12",
+  "stream": "government / audio / educational-media source census",
+  "source": {
+    "institution": "Central Institute of Educational Technology (CIET), a constituent unit of NCERT",
+    "title": "Barkhaa Audio",
+    "url": "https://ciet.ncert.gov.in/barkhaa_audio",
+    "source_class": ["government_TRI_Census_LSI", "audio", "relevant_media"],
+    "page_level": "Level 1",
+    "mundari_exact_title_locators": [
+      {"title": "Chhupan Chhupaai", "variants_shown": ["Mundari"]},
+      {"title": "Gilli Danda", "variants_shown": ["Mundari"]},
+      {"title": "Mzza Aa Gya", "variants_shown": ["Mundari"]},
+      {"title": "Milli ka Gubbara", "variants_shown": ["Mundari"]},
+      {"title": "Mithai", "variants_shown": ["Mundari", "Mundari-Mix"]},
+      {"title": "Mithe Mithe Gulgule", "variants_shown": ["Mundari", "Mundari-Mix"]},
+      {"title": "Munmun Aur Munnu", "variants_shown": ["Mundari"]},
+      {"title": "Phooli Roti", "variants_shown": ["Mundari"]},
+      {"title": "Rani Bhi", "variants_shown": ["Mundari"]}
+    ],
+    "verified_level1_titles_with_mundari": 9,
+    "metadata_verification": "first-party CIET/NCERT page rendering",
+    "access_observation": "public catalogue/player page exposes language-labelled audio links; this run did not acquire or hash media bytes"
+  },
+  "verification_level": "exact first-party page/title/language locator audit",
+  "canonicalization": {
+    "canonical_key": "CIET-NCERT:BARKHAA-AUDIO:MUNDARI",
+    "count_change_allowed": false,
+    "reason": "must first reconcile against existing WEB-MUN/federated discovery identities and any earlier NCERT/CIET media leads"
+  },
+  "promotion": {
+    "controlled_source_identity_count_change": false,
+    "audio_bytes_promoted": 0,
+    "transcript_rows_promoted": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "cultural_claims_promoted": 0
+  },
+  "rights_and_cultural_boundary": {
+    "public_page_treated_as_redistribution_permission": false,
+    "public_page_treated_as_model_training_permission": false,
+    "participant_or_performer_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "restricted_or_participant_derived_content_exposed": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "integrity_boundary": {
+    "audio_bytes_acquired": false,
+    "independent_hashes_computed": false,
+    "recording_provenance_verified_beyond_page_metadata": false,
+    "transcript_alignment_verified": false
+  },
+  "explicit_gaps": [
+    "Deterministically reconcile this canonical locator against the 73 unresolved WEB-MUN leads and federated discoveries before changing source counts.",
+    "Resolve item-level rights/licence and downstream reuse conditions before any byte-level ingestion or redistribution.",
+    "Verify performer/participant consent, community validation and MLHKP cultural-access conditions before exposing audio or transcripts.",
+    "If permitted, acquire original audio bytes, compute independent hashes and create exact time/segment locators; otherwise retain discovery/locator-only status."
+  ]
+}

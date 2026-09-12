@@ -1,0 +1,40 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records verified from publisher or institutional repository metadata. These records are discovery leads only unless separately canonicalized and evidence-linked; cultural assertions remain source-reported and scope-bounded.",
+  "records": [
+    {
+      "id": "WEB-MUN-0082",
+      "title": "Religion as everyday resistance: Birsaite Dharam in contemporary Jharkhand",
+      "source_class": "peer_reviewed_contemporary_religion_politics_article",
+      "publisher": "Asian Ethnicity / Taylor & Francis",
+      "url": "https://doi.org/10.1080/14631369.2025.2589154",
+      "author": "publisher metadata verified; author list requires full bibliographic capture before canonicalization",
+      "year": 2025,
+      "notes": "Publisher abstract is now accessible and verifies a contemporary Jharkhand study of Birsaite Dharam based on fieldwork. The abstract describes continuity, adaptation, collective identity and everyday resistance among Birsaites. Register only as a contemporary religion/politics/identity source lead. No theological, political, territorial, historical or community-wide proposition is promoted without exact passage, method/sample, participant context, contradiction/variant review and community-aware cultural-access assessment.",
+      "verification_state": "publisher_doi_and_abstract_verified_author_bibliography_pending_full_capture",
+      "access_class": "publisher_abstract_public_full_text_access_and_reuse_conditions_vary",
+      "rights_note": "Publisher abstract visibility does not establish full-text redistribution, participant-data reuse, image/table reuse, commercial reuse or community authorization. Fieldwork-derived and religious material requires separate consent/cultural-access review."
+    },
+    {
+      "id": "WEB-MUN-0083",
+      "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+      "source_class": "doctoral_thesis_adivasi_women_social_movements",
+      "publisher": "Sapienza Università di Roma institutional doctoral repository",
+      "url": "https://hdl.handle.net/20.500.14242/212639",
+      "author": "Marilena Proietti",
+      "year": 2025,
+      "notes": "Institutional repository metadata verifies a 2025 doctoral thesis examining Adivasi women's movements in eastern India from the 1980s onward, explicitly including Oraon, Munda, Santal and Ho communities. A second Sapienza record independently confirms the thesis and open-access file. MLHKP promotes only this comparative source scope, not Munda-specific findings.",
+      "verification_state": "institutional_repository_metadata_abstract_two_handles_open_access_file_and_license_label_verified",
+      "access_class": "institutional_repository_open_access_item_item_level_licence_and_embedded_material_review_required",
+      "rights_note": "Repository open access and Creative Commons metadata do not override third-party/participant material, consent, dignity or MLHKP cultural-access restrictions. Comparative Adivasi evidence is not automatically Munda-specific evidence.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000010",
+        "dedupe_key": "handle:20.500.14242/212639",
+        "alternate_identifier": "handle:11573/1740709",
+        "decision": "Exact title/author/year and two institutional repository records match; registered once as a standalone audited MMSC identity and not double-counted in the discovery layer."
+      }
+    }
+  ]
+}

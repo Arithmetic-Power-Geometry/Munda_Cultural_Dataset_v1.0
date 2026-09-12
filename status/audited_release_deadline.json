@@ -1,0 +1,64 @@
+{
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "deadline_ist": "2026-09-21T23:59:00+05:30",
+  "release_type": "strongest_defensible_audited_release",
+  "absolute_or_future_proof_completeness_claimed": false,
+  "policy": "Blocked, unavailable, restricted, culturally controlled or unverified material remains an explicit gap and never becomes complete by deadline pressure.",
+  "parallel_workstreams": [
+    {
+      "id": "mundarica",
+      "goal": "Acquire, page-account, OCR/transcribe, structure and audit Encyclopaedia Mundarica I-XVI without conflating human review, OCR and machine VERIFIED COMPLETE.",
+      "current": {"slots": 16, "located_or_working": 13, "page_accounted": 1, "machine_verified_complete": 0, "pending_exact_locators": [14, 15, 16]}
+    },
+    {
+      "id": "mmsc",
+      "goal": "Systematic source census, deterministic canonicalization and permitted evidence ingestion across all source classes.",
+      "current": {"audited_source_identities": 27, "canonical_master_records": 14, "external_discovery_leads": 77, "discovery_leads_counted_as_audited_identities": 0}
+    },
+    {
+      "id": "evidence_graph",
+      "goal": "Populate SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN with exact locators, scope, uncertainty and access controls."
+    },
+    {
+      "id": "streamlit",
+      "goal": "Keep all registered information-architecture modules mapped and progressively evidence-populated with universal search, evidence drilldown, reports/downloads and authenticated research tooling.",
+      "current": {"registered_modules": 42, "module_schema_mapping_percent": 100.0, "master_schema_category_representation_percent": 100.0}
+    },
+    {
+      "id": "rights_governance",
+      "goal": "Preserve provenance, consent, cultural access, safety, rights/licence and commercial-reuse decisions; cultural access always overrides entitlement."
+    },
+    {
+      "id": "publication",
+      "goal": "Keep the Q1-target manuscript reproducible and repository-metric synchronized; no manually inflated counts or unsupported completion claims."
+    }
+  ],
+  "release_gates": {
+    "schema_category_representation_percent": 100.0,
+    "all_data_domains_mapped_to_ui": true,
+    "systematic_source_census_documented_for_release": false,
+    "all_obtainable_permitted_sources_processed_to_declared_level": false,
+    "all_public_factual_claims_provenance_linked": false,
+    "unavailable_restricted_unverified_and_fieldwork_gaps_enumerated": true,
+    "no_broken_ids_or_provenance": "enforced_by_tests",
+    "no_restricted_leakage": "enforced_by_tests",
+    "no_false_ocr_verification": "enforced_by_tests",
+    "automated_completeness_audit_pass": false
+  },
+  "current_ci_baseline": {
+    "head": "b18b913f31e65c16978c8d1db26a5abb923ac632",
+    "migration_audit": "PASS",
+    "source_register_audit": "PASS",
+    "streamlit_smoke": "PASS",
+    "publication_build": "PASS"
+  },
+  "next_release_critical_tasks": [
+    "Resolve exact authoritative locators for Mundarica XIV-XVI without guessing identifiers.",
+    "Register and reconcile an authoritative Volume I scan before any scan-verified transcription claim.",
+    "Deterministically canonicalize the 77 discovery leads and promote only justified source identities.",
+    "Convert high-value permitted sources from discovery metadata into exact-locator evidence records.",
+    "Increase evidence population across currently architecture-ready modules while preserving empty-state truthfulness.",
+    "Regenerate manuscript metrics/tables/figures after each audited identity or evidence promotion and keep all CI green."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "audit_id": "MLHKP-RUN210-OSADA-ANU-NONMUNDARICA",
+  "run": 210,
+  "audit_date": "2026-09-11",
+  "scope": "non-Mundarica grammar/article exact-locator and access-boundary audit",
+  "source_classes": ["books", "grammars", "peer-reviewed articles", "web resources"],
+  "records": {
+    "osada_2008_mundari_chapter": {
+      "author": "Toshiki Osada",
+      "year": 2008,
+      "title": "Mundari",
+      "container": "The Munda Languages",
+      "editor": "Gregory D. S. Anderson",
+      "publisher": "Routledge",
+      "pages": "99-164",
+      "isbn_observed_via_glottolog": "9780415328906",
+      "glottolog_reference_id": "477414",
+      "glottolog_url": "https://glottolog.org/resource/reference/id/477414",
+      "publisher_url": "https://www.routledge.com/The-Munda-Languages/Anderson/p/book/9780415741835",
+      "document_type": "grammar sketch",
+      "language_code_observed": "unr",
+      "grambank_locator_reconciled": "Osada 2008: 107-108",
+      "locator_validity": "Pages 107-108 fall inside the independently verified chapter range 99-164.",
+      "underlying_pages_107_108_directly_inspected": false,
+      "blocked_reason": "No lawful directly inspectable publisher/author manuscript of the cited pages was established in this run; unauthorized mirrors were not used for evidence promotion."
+    },
+    "evans_osada_2005_word_classes": {
+      "authors": ["Nicholas Evans", "Toshiki Osada"],
+      "year": 2005,
+      "title": "Mundari: The myth of a language without word classes",
+      "journal": "Linguistic Typology",
+      "volume": "9",
+      "issue": "3",
+      "pages": "351-390",
+      "doi": "10.1515/lity.2005.9.3.351",
+      "anu_handle": "1885/54663",
+      "anu_item_url": "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+      "anu_access_statement_observed": "Open Access",
+      "repository_file_observed": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+      "repository_file_size_observed": "234.31 KB",
+      "direct_pdf_bytes_acquired": false,
+      "direct_pdf_pages_inspected": false,
+      "promotion_note": "Identity, DOI, repository handle, access statement and repository filename are supported; no article proposition is promoted solely from metadata/abstract."
+    },
+    "evans_osada_2011_reciprocals": {
+      "authors": ["Nicholas Evans", "Toshiki Osada"],
+      "year": 2011,
+      "title": "Mundari reciprocals",
+      "book_title": "Reciprocals and Semantic Typology",
+      "doi_observed": "10.1075/tsl.98.06eva",
+      "anu_handle": "1885/24925",
+      "anu_item_url": "https://openresearch-repository.anu.edu.au/items/e5bca652-24c9-4840-957c-8104c5ee8eab",
+      "repository_files_observed": ["01_Evans_Mundari_reciprocals_2011.pdf", "02_Evans_Mundari_reciprocals_2011.pdf"],
+      "repository_restriction_observed_until": "2037-12-31",
+      "direct_pdf_bytes_acquired": false,
+      "promotion_note": "Restricted-access state is retained explicitly; no circumvention and no substantive evidence ingestion."
+    }
+  },
+  "verification": {
+    "osada_2008_exact_bibliographic_identity_verified": true,
+    "osada_2008_chapter_range_verified": true,
+    "grambank_107_108_range_containment_verified": true,
+    "osada_2008_pages_107_108_directly_verified": false,
+    "evans_osada_2005_exact_metadata_and_open_access_record_verified": true,
+    "evans_osada_2005_pdf_bytes_verified": false,
+    "evans_osada_2011_exact_metadata_and_restriction_verified": true,
+    "linguistic_claim_promoted": false,
+    "cultural_claim_promoted": false,
+    "count_bearing_registration_performed": false
+  },
+  "deduplication": {
+    "osada_2008_glottolog_and_routledge_collapsed_as_same_bibliographic_work": true,
+    "database_records_collapsed_into_source_identity_count": false,
+    "evans_osada_2005_and_2011_collapsed": false,
+    "reason": "Publisher/catalogue/repository manifestations are reconciled at bibliographic-work level while retaining manifestation and access-state provenance."
+  },
+  "rights_access_consent_cultural_governance": {
+    "public_metadata_is_not_reuse_permission": true,
+    "open_access_label_is_not_assumed_to_cover_uninspected_third_party_material": true,
+    "restricted_2011_files_circumvented": false,
+    "unauthorized_mirrors_used_for_evidence": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "evidence_promotion": {
+    "new_source_identities": 0,
+    "new_cultural_claims": 0,
+    "new_linguistic_claims": 0,
+    "new_evidence_records": 0,
+    "new_evidence_links": 0,
+    "new_streamlit_modules": 0,
+    "exact_locator_records_advanced": 3
+  },
+  "release_boundary": "Run 210 upgrades non-Mundarica grammar/article identity and access-state evidence. Grambank's Osada 2008:107-108 locator is now reconciled to the exact 99-164 Routledge chapter, but those pages must still be directly and lawfully inspected before any typological value is promoted."
+}

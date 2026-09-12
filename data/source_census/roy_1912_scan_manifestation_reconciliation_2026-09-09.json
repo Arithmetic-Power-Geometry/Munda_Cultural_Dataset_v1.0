@@ -1,0 +1,85 @@
+{
+  "record_type": "exact_locator_manifestation_reconciliation",
+  "checked_utc": "2026-09-08T23:46:15Z",
+  "branch": "mlhkp-v2",
+  "canonical_source_id": "SRC-000005",
+  "related_index_source_id": "SRC-000006",
+  "work": {
+    "title": "The Mundas and Their Country",
+    "creator": "Sarat Chandra Roy",
+    "year": 1912,
+    "scope": "historical ethnographic monograph; Chota Nagpur",
+    "deduplication_result": "existing canonical work identity; no new source identity created"
+  },
+  "verified_manifestations": [
+    {
+      "locator": "https://commons.wikimedia.org/wiki/File:The_mundas_and_their_country.pdf",
+      "source_repository": "Wikimedia Commons / Internet Archive",
+      "internet_archive_identifier": "dli.ministry.04532",
+      "publisher_as_catalogued": "The Kuntaline",
+      "publication_year": 1912,
+      "file_size_bytes": 45198531,
+      "file_size_display": "43.1 MB",
+      "pdf_pages": 662,
+      "sha1": "74720e51a1445d4c4c3946885e247609bda9bbd1",
+      "rights_state": "Commons marks the mechanical scan and underlying work public domain / free of known copyright restrictions",
+      "ocr_conversion_metadata": "ABBYY FineReader 8.0 Professional Edition",
+      "authority_boundary": "Page image is authoritative over OCR or Wikisource transcription. The Commons/Wikisource scan is marked unverified as a scan workflow state, so transcription quality is not inferred."
+    },
+    {
+      "locator": "https://commons.wikimedia.org/wiki/File:The_Mundas_And_Their_Country.pdf",
+      "source_repository": "Wikimedia Commons / Central Secretariat Library, Government of India / Internet Archive",
+      "internet_archive_identifier": "dli.csl.5314",
+      "publisher_as_catalogued": "Kuntaline Press, Calcutta",
+      "publication_year": 1912,
+      "file_size_display": "167.06 MB",
+      "pdf_pages": 649,
+      "rights_state": "Commons identifies the file as public-domain material",
+      "ocr_conversion_metadata": "ABBYY FineReader 12",
+      "authority_boundary": "Distinct scan manifestation; differing PDF page count is not treated as a distinct work or edition without edition-level evidence."
+    }
+  ],
+  "bibliographic_cross_checks": [
+    {
+      "authority": "Open Library",
+      "edition_id": "OL6461303M",
+      "year": 1912,
+      "publisher_as_catalogued": "[Jogendra Nath Sarkar at the City book society]",
+      "pagination_as_catalogued": "ii, x, 546, lxxxiii, vii p.",
+      "identifiers": {"LCCN": "43045615", "OCLC": "3732483"},
+      "interpretation": "bibliographic pagination differs from scan-container page counts and must not be conflated"
+    },
+    {
+      "authority": "WorldCat",
+      "year": 1912,
+      "publisher_as_catalogued": "[Jogendra Nath Sarkar at the City Book Society]",
+      "publication_place_as_catalogued": "[Calcutta]",
+      "interpretation": "independent work-level bibliographic corroboration"
+    }
+  ],
+  "existing_evidence_relationship": {
+    "source_claims": ["CLM-000031", "CLM-000032", "CLM-000033", "CLM-000034"],
+    "current_locator_basis": "SRC-000006 Wikisource index",
+    "run91_action": "manifestation provenance strengthened only; no cultural claim text changed because direct PDF page-image inspection did not complete"
+  },
+  "pdf_visual_verification": {
+    "attempted": true,
+    "result": "blocked",
+    "blocker": "direct original-PDF fetch returned a cache-miss error; screenshot/page-image verification could not be established in this run",
+    "promotion_effect": "no page-image-dependent cultural proposition, quotation, OCR line or page-specific substantive claim added"
+  },
+  "rights_access_cultural_boundary": {
+    "redistribution_right_for_verified_commons_scan": "public-domain status verified at file page",
+    "historical_context_required": true,
+    "present_day_representativeness_inferred": false,
+    "community_validation_inferred": false,
+    "sensitive_or_sacred_material_clearance_inferred": false
+  },
+  "counts_effect": {
+    "permanent_ids_added": 0,
+    "audited_source_count_changed": false,
+    "claims_added": 0,
+    "evidence_rows_added": 0,
+    "reason": "This is an exact-manifestation reconciliation for an already canonical source, not a new source or cultural claim."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "audit_id": "MLHKP-KARYA-MUNDARI-TTS-RUN131",
+  "run": 131,
+  "date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "source_class": ["dataset", "audio", "speech corpus", "web resource"],
+  "canonical_work": {
+    "title": "Mundari TTS Dataset Corpus",
+    "repository": "karya-inc/dataset-mundari-tts",
+    "canonical_url": "https://github.com/karya-inc/dataset-mundari-tts",
+    "identity_rule": "Repository landing page, README, LICENSE.txt, COPYRIGHT.txt, sample archive and checksum file are manifestations/components of one dataset release and must not be counted as separate source identities."
+  },
+  "verified_exact_locators": [
+    {
+      "locator": "README.md",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts/blob/main/README.md",
+      "blob_sha": "c10e12d2ddb8a9c942209ac534102ac89689b537",
+      "supports": [
+        "Dataset title and corpus description",
+        "26,870 recordings stated by publisher repository",
+        "two speakers stated by publisher repository",
+        "sample/full-corpus access distinction",
+        "repository component inventory",
+        "human-readable BY-NC-SA-FS 1.0 summary"
+      ]
+    },
+    {
+      "locator": "LICENSE.txt",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts/blob/main/LICENSE.txt",
+      "blob_sha": "ba4d2674108b11ac3530a7bbe8a7f0d5394a36e1",
+      "supports": [
+        "Exact licence name: Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+        "Licensed rights are limited by the licence terms and by rights the licensor has authority to license",
+        "Noncommercial reproduction/sharing/adaptation/incorporation terms"
+      ]
+    },
+    {
+      "locator": "COPYRIGHT.txt",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts/blob/main/COPYRIGHT.txt",
+      "blob_sha": "111f8632fff7ab6a77a99ca4e9fbb7c8b985f5b2",
+      "supports": [
+        "Copyright statement: © 2023 DAIA Tech Pvt Ltd.",
+        "KPL BY-NC-SA-FS 1.0 licence statement",
+        "named corpus collaborators"
+      ]
+    },
+    {
+      "locator": "dataset-mundari-tts-full.sha1",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts/blob/main/dataset-mundari-tts-full.sha1",
+      "blob_sha": "00b0722863093ffd2f13e00473ac3e517b76b53e",
+      "supports": [
+        "Publisher-repository supplied SHA-1 for dataset-mundari-tts-full.tgz: 46c8bfceb5cf25decc8523479378793537f2bad7"
+      ]
+    }
+  ],
+  "manifestation_and_hash_state": {
+    "full_archive_filename": "dataset-mundari-tts-full.tgz",
+    "publisher_supplied_sha1": "46c8bfceb5cf25decc8523479378793537f2bad7",
+    "independently_downloaded_full_archive": false,
+    "independently_recomputed_sha1": false,
+    "sample_present_in_repository": true,
+    "full_archive_access_method_stated_in_readme": "request link by email from data@karya.in",
+    "hash_interpretation": "The SHA-1 is an exact publisher-repository checksum locator, not an independently reproduced checksum in MLHKP."
+  },
+  "rights_access_consent_cultural_boundary": {
+    "technical_licence_verified": true,
+    "technical_licence": "KPL BY-NC-SA-FS 1.0",
+    "commercial_use_permitted_by_licence": false,
+    "participant_consent_for_mlhkp_redistribution_verified": false,
+    "participant_consent_for_secondary_cultural_reuse_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_classification_completed": false,
+    "speaker_privacy_publicity_moral_rights_cleared_for_mlhkp": false,
+    "audio_ingested_into_mlhkp": false,
+    "transcripts_ingested_into_mlhkp": false,
+    "cultural_claims_promoted": false,
+    "rule": "Technical copyright licensing does not substitute for participant consent, privacy/publicity review, community validation or cultural-access review. No participant audio, transcripts or inferred cultural claims are promoted by this audit record."
+  },
+  "scope_classification": {
+    "relevant_to": ["Mundari language technology", "speech data", "TTS reproducibility", "dataset provenance"],
+    "not_established_by_this_record": ["representativeness of Munda communities", "cultural practice", "ritual knowledge", "speaker identity", "community endorsement", "permission for unrestricted redistribution"]
+  },
+  "deduplication": {
+    "work_key": "karya-inc/dataset-mundari-tts",
+    "components_not_separate_sources": ["README.md", "LICENSE.txt", "COPYRIGHT.txt", "data-sample.tgz", "dataset-mundari-tts-full.sha1"],
+    "count_bearing_identity_change": false
+  },
+  "promotion_state": {
+    "promoted": true,
+    "promotion_type": "exact-locator rights/reproducibility provenance only",
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "provenance_link_delta": 0,
+    "audited_identity_delta": 0,
+    "reason_no_content_promotion": "Participant-level consent, cultural-access and independent full-archive verification remain unresolved."
+  },
+  "open_gaps": [
+    "Obtain the full archive lawfully and independently recompute its checksum if release auditing requires byte-level verification.",
+    "Document participant consent/provenance terms sufficient for the contemplated MLHKP use before any audio/transcript ingestion.",
+    "Complete cultural-access and privacy/publicity review independently of the technical licence.",
+    "Do not infer community-wide language/cultural claims from two-speaker corpus metadata."
+  ],
+  "integrity": {
+    "fabricated_counts": false,
+    "fabricated_cultural_claims": false,
+    "licence_treated_as_participant_consent": false,
+    "public_repository_treated_as_unrestricted_permission": false,
+    "publisher_hash_claimed_as_independently_recomputed": false
+  }
+}

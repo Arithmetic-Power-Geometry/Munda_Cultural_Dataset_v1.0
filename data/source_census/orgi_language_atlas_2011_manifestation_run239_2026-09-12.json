@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "run": 239,
+  "search_id": "MMSC-SEARCH-000239",
+  "checked_utc": "2026-09-12T02:45:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica government/Census source-census and exact-locator ingestion boundary audit",
+  "source": {
+    "title": "Census of India 2011 - LANGUAGE ATLAS - INDIA",
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "reference_id": "Language_Atlas_2011",
+    "catalog_id": 42561,
+    "published": "2022-04",
+    "resource_type": "book",
+    "canonical_catalog_locator": "https://censusindia.gov.in/nada/index.php/catalog/42561",
+    "declared_file": "Language_Atlas_2011.pdf",
+    "declared_download_locator": "https://censusindia.gov.in/nada/index.php/catalog/42561/download/46187/Language_Atlas_2011.pdf",
+    "rights_holder_as_catalogued": "Office of the Registrar General & Census Commissioner, India (ORGI) - Map Division",
+    "spatial_coverage": "India"
+  },
+  "identity_and_metadata_verification": {
+    "official_catalog_record_verified": true,
+    "official_producer_verified": true,
+    "reference_id_verified": true,
+    "declared_pdf_filename_verified": true,
+    "catalog_description_verified": "Language Atlas represent all the languages of country recorded and published as a part of Census 2011.",
+    "language_division_context_verified": true,
+    "language_division_context": "ORGI Language Division states that the Language Atlas presents geographical distribution of the languages of India and is produced in coordination with the ORGI Map Division.",
+    "deterministic_dedup_decision": "canonicalize_as_official_ORGI_Language_Atlas_2011_manifestation; do not create duplicate identity for secondary citations or mirrors",
+    "controlled_identity_promotion_this_run": false
+  },
+  "exact_locator_evidence": {
+    "catalog_level_locator_promoted": true,
+    "catalog_id": 42561,
+    "reference_id": "Language_Atlas_2011",
+    "declared_file": "Language_Atlas_2011.pdf",
+    "declared_download_id": 46187,
+    "internal_page_or_map_locators_verified_from_official_pdf": [],
+    "numeric_values_promoted": 0,
+    "mundari_or_munda_demographic_claims_promoted": 0,
+    "reason": "The official catalogue and declared file identity are directly verified, but the PDF download returned a gateway failure in this audit environment; exact internal pages/maps and demographic values therefore remain unverified."
+  },
+  "blocked_acquisition": {
+    "byte_preserving_acquisition_completed": false,
+    "download_attempted": true,
+    "observed_failure": "HTTP 502 / gateway failure on declared ORGI PDF download path",
+    "independent_hash_recomputed": false,
+    "page_count_independently_verified": false,
+    "page_image_verification_completed": false,
+    "ocr_or_text_extraction_verified": false,
+    "action": "logged blocker and continued parallel source census rather than substituting unverified secondary values"
+  },
+  "secondary_manifestations_and_related_locators": {
+    "west_bengal_2011_atlas_mobile_toc_discovered": true,
+    "west_bengal_toc_has_explicit_munda_section": "DISTRIBUTION OF MUNDA SPEAKERS 2011",
+    "west_bengal_toc_has_explicit_mundari_section": "DISTRIBUTION OF MUNDARI SPEAKERS 2011",
+    "west_bengal_manifestation_role": "supporting discovery/section locator only until official pages are directly acquired and verified",
+    "secondary_values_promoted": 0
+  },
+  "rights_and_governance": {
+    "public_availability_is_permission": false,
+    "catalog_rights_holder_preserved": true,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "Government publication metadata and public catalogue access do not by themselves establish unrestricted redistribution or override MLHKP cultural-access controls."
+  },
+  "scope_classification": {
+    "class": "government_Census_language_atlas",
+    "relevance": ["language_distribution", "Munda", "Mundari", "geographic_context", "Census_2011"],
+    "evidence_state": "exact official catalogue/file-manifest locator; internal content pending",
+    "cultural_uncertainty_preserved": true
+  },
+  "synchronization_decision": {
+    "mmsc_audited_source_identity_count_change": 0,
+    "raw_web_discovery_record_count_change": 0,
+    "canonicalized_web_lead_count_change": 0,
+    "source_claim_count_change": 0,
+    "evidence_record_count_change": 0,
+    "evidence_link_count_change": 0,
+    "streamlit_module_count_change": 0,
+    "coverage_matrix_state_change": "none; government/archive coverage already live_partial and internal atlas evidence remains unverified",
+    "publication_numeric_regeneration_required": false,
+    "tables_figures_regeneration_required": false,
+    "gap_added_or_strengthened": "official Language Atlas 2011 PDF bytes, independent hash, page/map locators and directly observed Munda/Mundari values remain required"
+  },
+  "promotion_boundary": "Promote only the exact official ORGI catalogue identity, declared PDF manifestation and verified section-level discovery context. Do not promote demographic numbers, map-derived assertions, internal page locators or cultural claims until the official PDF is acquired and directly verified."
+}

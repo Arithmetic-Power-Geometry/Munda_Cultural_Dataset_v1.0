@@ -1,0 +1,42 @@
+{
+  "record_type": "source_census_exact_locator_verification",
+  "checked_utc": "2026-09-08T19:47:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "government_census",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "reference_id": "PC11_ST16-20",
+  "reference_series": "PC11_ST16",
+  "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+  "download_filename": "ST-20-00-16-DDW-2011.XLSX",
+  "geographic_scope": "Jharkhand",
+  "time_scope": "2011",
+  "catalogue_metadata_verified": {
+    "geographic_granularity": "state / UT",
+    "unit_of_observation": "Individual (person)",
+    "universe": "Individuals from scheduled tribes in Jharkhand",
+    "statistics": "Counts",
+    "series": ["Scheduled Tribes", "Languages"]
+  },
+  "evidence_boundary": {
+    "promoted_now": "official catalogue identity, scope and workbook filename only",
+    "numeric_claims_promoted": false,
+    "workbook_bytes_obtained_in_repository": false,
+    "checksum_verified": false,
+    "worksheet_verified": false,
+    "row_verified": false,
+    "cell_coordinates_verified": false,
+    "reason": "No bilingualism count may be promoted until the official workbook bytes are captured and exact worksheet/row/cell locators are independently verified."
+  },
+  "rights_governance": {
+    "public_catalogue_access_not_treated_as_redistribution_permission": true,
+    "cultural_access_overrides_entitlement": true,
+    "community_validation_inferred": false
+  },
+  "deduplication": {
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "instruction": "Reconcile this exact locator against the existing unresolved Census/ST-16 discovery identity before any permanent source-ID promotion."
+  },
+  "release_use": "Supports deterministic Census-source identity resolution and future exact-cell evidence extraction; does not itself support a public cultural or demographic numeric claim."
+}

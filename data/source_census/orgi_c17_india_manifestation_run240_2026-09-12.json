@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "run": 240,
+  "search_id": "MMSC-SEARCH-000240",
+  "checked_utc": "2026-09-12T03:31:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica government/Census exact-manifestation and evidence-boundary audit",
+  "source": {
+    "title": "C-17: Population by bilingualism and trilingualism, India - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "reference_id": "PC11_C17-00",
+    "reference_number": "PC11_C17",
+    "canonical_catalog_locator": "https://censusindia.gov.in/nada/index.php/catalog/10262",
+    "declared_file": "DDW-C17-0000.XLSX",
+    "time_period": "2011"
+  },
+  "identity_and_metadata_verification": {
+    "official_catalog_record_verified": true,
+    "official_producer_verified": true,
+    "reference_id_verified": true,
+    "declared_workbook_filename_verified": true,
+    "table_description_verified": "For each mother tongue, the table reports speakers who are bilingual and classifies them by additional languages spoken; data are presented for total/rural/urban combined at India/State level.",
+    "deterministic_dedup_decision": "canonicalize secondary citations and mirrors to official ORGI PC11_C17-00; do not create a second source identity for the same workbook",
+    "controlled_identity_promotion_this_run": false
+  },
+  "schema_level_evidence": {
+    "catalog_exposes_column_schema": true,
+    "verified_column_families": [
+      "state code and state name",
+      "total speakers of languages: language code/name and person/male/female",
+      "first subsidiary language: language code/name and person/male/female",
+      "second subsidiary language: language code/name and person/male/female"
+    ],
+    "numeric_cells_promoted": 0,
+    "munda_or_mundari_numeric_claims_promoted": 0,
+    "reason": "The official catalogue and workbook manifestation are verified, but the workbook bytes and exact relevant rows/cells have not yet been independently acquired and inspected in this run."
+  },
+  "acquisition_state": {
+    "byte_preserving_acquisition_completed": false,
+    "independent_hash_recomputed": false,
+    "worksheet_names_verified_from_bytes": false,
+    "exact_munda_mundari_rows_verified_from_bytes": false,
+    "exact_numeric_cells_verified_from_bytes": false,
+    "action": "retain as an exact official workbook locator and continue to other independent tasks until byte-level inspection is completed"
+  },
+  "rights_and_governance": {
+    "public_availability_is_permission": false,
+    "redistribution_permission_inferred": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "Official public catalogue visibility does not override MLHKP rights, provenance, participant or cultural-access gates."
+  },
+  "synchronization_decision": {
+    "mmsc_audited_source_identity_count_change": 0,
+    "raw_web_discovery_record_count_change": 0,
+    "canonicalized_web_lead_count_change": 0,
+    "source_claim_count_change": 0,
+    "evidence_record_count_change": 0,
+    "evidence_link_count_change": 0,
+    "streamlit_module_count_change": 0,
+    "publication_numeric_regeneration_required": false,
+    "gap_added_or_strengthened": "official DDW-C17-0000.XLSX bytes, independent hash, worksheet structure and exact Munda/Mundari rows/cells remain required"
+  },
+  "promotion_boundary": "Promote only the exact ORGI catalogue/workbook manifestation and catalog-level schema. Do not promote numerical values or row-level claims until the official workbook is acquired byte-preservingly and exact cells are directly verified."
+}

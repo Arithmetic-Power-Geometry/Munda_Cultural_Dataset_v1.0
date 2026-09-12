@@ -1,0 +1,72 @@
+{
+  "record_type": "source_census_exact_locator",
+  "run": 127,
+  "branch": "mlhkp-v2",
+  "verified_utc": "2026-09-09T17:52:00Z",
+  "work": {
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "author": "Pallavi Raonka",
+    "repository_date": "2021-02-02",
+    "degree_work_identity": "Doctoral dissertation, Sociology, Virginia Polytechnic Institute and State University",
+    "dissertation_title_page_date": "2020-08-20",
+    "publisher_repository": "Virginia Tech"
+  },
+  "authoritative_locator": {
+    "repository": "VTechWorks, Virginia Tech",
+    "item_url": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041",
+    "persistent_handle": "http://hdl.handle.net/10919/111386",
+    "filename": "Raonka_P_D_2021.pdf",
+    "reported_file_size": "2.33 MB",
+    "direct_text_manifestation_url": "https://vtechworks.lib.vt.edu/server/api/core/bitstreams/266ed102-6b74-4701-94c0-63e51c8e99b9/content"
+  },
+  "verified_scope": {
+    "repository_abstract_method": "fifteen-month ethnographic study conducted May 2017 to December 2018 using several forms of qualitative data",
+    "repository_keywords": ["Indigenous", "Adivasi", "Munda", "Tribal", "Jharkhand", "Neoliberalism"],
+    "content_scope_note": "The work concerns Munda politics, land, identity, gender and Adivasi-State relations in Jharkhand; these are source-scope statements only, not promoted community-wide cultural claims."
+  },
+  "verification": {
+    "institutional_repository_identity_verified": true,
+    "persistent_handle_verified": true,
+    "filename_and_reported_size_verified": true,
+    "direct_manifestation_text_layer_observed": true,
+    "title_page_identity_observed": true,
+    "independent_checksum_verified": false,
+    "page_image_verification_completed": false,
+    "participant_derived_content_ingested": false,
+    "cultural_claims_promoted": false
+  },
+  "rights_consent_cultural_access": {
+    "copyright_notice_observed": "Copyright ©2020 Pallavi Raonka",
+    "open_license_variant_verified": false,
+    "participant_consent_for_mlkhp_redistribution_verified": false,
+    "community_validation_verified": false,
+    "interviews_fieldnotes_quotations_extracted": false,
+    "public_repository_access_treated_as_reuse_permission": false,
+    "cultural_access_gate": "participant-derived ethnographic material remains separately gated even if repository access is public"
+  },
+  "scope_classification": {
+    "classes": ["thesis/dissertation", "institutional repository", "ethnographic research"],
+    "geography": "Jharkhand, India",
+    "community_scope": "Munda / Adivasi",
+    "temporal_scope": "fieldwork May 2017–December 2018; dissertation 2020; repository record 2021"
+  },
+  "deduplication": {
+    "canonical_key": "hdl:10919/111386",
+    "related_media_not_same_manifestation": "Virginia Tech 2019 event video 'Munda, Land, and Gender: Understanding Indigeneity in the Neoliberal State of Jharkhand, India' (hdl:10919/95821)",
+    "count_bearing_change": false,
+    "reason": "Exact locator/provenance depth improved, but master-register identity and participant/cultural-access disposition must be reconciled before any permanent-count promotion."
+  },
+  "blocked": [
+    "No exact open licence was verified from the repository record in this run.",
+    "No independent checksum was computed.",
+    "Participant-derived qualitative materials require separate consent, rights and cultural-access review.",
+    "No community-wide proposition is inferred from the dissertation."
+  ],
+  "integrity": {
+    "fabricated_counts": false,
+    "fabricated_cultural_claims": false,
+    "participant_consent_inferred": false,
+    "public_availability_treated_as_reuse_permission": false,
+    "community_validation_inferred": false
+  }
+}

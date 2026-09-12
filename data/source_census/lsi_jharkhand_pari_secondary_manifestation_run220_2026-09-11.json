@@ -1,0 +1,56 @@
+{
+  "run": 220,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "purpose": "Advance the 2023 Linguistic Survey of India-Jharkhand beyond catalogue-only discovery using a stable secondary manifestation while preserving the official-PDF verification boundary.",
+  "source_identity": {
+    "title": "Linguistic Survey of India- Jharkhand",
+    "author": "Language Division, Office of the Registrar General, Government of India",
+    "publication_date": "2023-08-01",
+    "copyright_holder_displayed": "Language Division, Office of the Registrar General, Government of India",
+    "secondary_manifestation": "People's Archive of Rural India (PARI)",
+    "url": "https://wagtail.ruralindiaonline.org/en/library/resource/linguistic-survey-of-india--jharkhand/"
+  },
+  "exact_locator": {
+    "manifestation_type": "secondary HTML resource page",
+    "mundari_factoid_number": 5,
+    "mundari_section_observed": true,
+    "document_structure_observed": "14 main chapters; chapters 2-7 grammatical descriptions of six languages; chapter 14 comparative lexicon of 500 lexical items",
+    "official_author_attribution_observed": true,
+    "official_copyright_attribution_observed": true
+  },
+  "rights_governance": {
+    "secondary_page_publicly_accessible": true,
+    "public_availability_treated_as_permission": false,
+    "official_pdf_redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "verification_boundary": {
+    "secondary_manifestation_identity_verified": true,
+    "mundari_specific_locator_verified": true,
+    "official_pdf_bytes_verified": false,
+    "official_pdf_independent_hash_verified": false,
+    "official_page_image_verified": false,
+    "official_and_secondary_manifestations_proven_byte_identical": false,
+    "numeric_or_linguistic_claim_promoted_to_public_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "source_identity_count_changed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

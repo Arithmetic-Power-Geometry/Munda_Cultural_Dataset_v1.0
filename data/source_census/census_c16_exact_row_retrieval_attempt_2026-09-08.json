@@ -1,0 +1,31 @@
+{
+  "record_type": "source_retrieval_attempt",
+  "stream": "official_census_government",
+  "checked_utc": "2026-09-07T20:32:57Z",
+  "branch": "mlhkp-v2",
+  "sources": [
+    {
+      "catalogue_id": "PC11_C16-20",
+      "reference": "PC11_C16",
+      "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+      "workbook": "DDW-C16-STMT-MDDS-2000.xlsx",
+      "verified_catalogue_dimensions": ["state", "district", "subdistrict", "area of residence", "mother tongue", "sex", "counts"]
+    },
+    {
+      "catalogue_id": "PC11_C16city-20",
+      "reference": "PC11_C16city",
+      "title": "C-16 City: Population by mother tongue (town level), Jharkhand - 2011",
+      "workbook": "DDW-C16-TOWN-STMT-MDDS-2000.XLSX",
+      "verified_catalogue_dimensions": ["state", "district", "town", "mother tongue", "sex", "counts"]
+    }
+  ],
+  "fresh_retrieval_result": "Official ORGI catalogue metadata remained independently discoverable and verified, but direct catalogue opening/download resolution returned an HTTP 502 during this cycle, so workbook bytes and exact Munda/Mundari rows were not obtained.",
+  "promotion_state": "blocked_no_numeric_evidence_promoted",
+  "integrity_boundaries": [
+    "No Munda or Mundari population count is asserted without exact workbook row/cell provenance.",
+    "No Census mother-tongue label is treated as equivalent to community, ethnicity, identity, consent or cultural validation.",
+    "Catalogue download filenames are verified metadata, not proof that workbook bytes were acquired or reviewed.",
+    "A transient retrieval blocker does not mark this source complete; work continues on independent streams."
+  ],
+  "next_safe_action": "Retry official workbook acquisition; if obtained, preserve workbook checksum, sheet name, exact row/cell coordinates and raw label before any evidence promotion."
+}

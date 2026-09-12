@@ -1,0 +1,28 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-10",
+  "purpose": "Non-Mundarica discovery metadata refresh for a Bangladesh government-hosted Munda-language digital archive. Deterministic reconciliation shows this record duplicates the canonical URL already registered as WEB-MUN-0032; it is preserved as an audit trail and is not a new unique source lead or audited identity.",
+  "records": [
+    {
+      "id": "WEB-MUN-0088",
+      "title": "Munda | Multiling Cloud digital archive",
+      "source_class": "government_hosted_language_archive_audio_transcriptions",
+      "publisher": "Multiling Cloud / Government of Bangladesh domain (bangla.gov.bd)",
+      "url": "https://lob.bangla.gov.bd/languages/munda",
+      "alternate_url": "https://multiling.cloud/languages/munda",
+      "year": 2026,
+      "notes": "The live resource labels the language Munda, lists Bangladesh locations, identifies a Community Contributors / Munda Field Recording section, and reports a Full Archive resource density of 860 with phonetic transcriptions and audio recordings. The same government-domain language-page URL was already registered as WEB-MUN-0032. This record is therefore a metadata refresh/alternate access manifestation, not a new unique discovery lead. The page does not establish equivalence with Indian Mundari [unr] or consent/reuse scope of individual recordings.",
+      "verification_state": "government_domain_and_live_archive_metadata_verified_scope_identity_unresolved_duplicate_lead_reconciled",
+      "access_class": "PUBLIC_ARCHIVE_INDEX_CONTENT_REUSE_AND_CONSENT_UNRESOLVED",
+      "rights_note": "The public page displays an all-rights-reserved notice. Public playback/index visibility is not treated as permission to redistribute recordings or transcriptions. Speaker consent, privacy/publicity, contributor authority, community validation and culturally appropriate secondary use remain unresolved.",
+      "scope_note": "Potentially relevant Bangladesh Munda-language archive. Do not merge with Mundari [unr], Munda [unx], or any MLHKP language identity solely from the page label; taxonomy and collection documentation require independent reconciliation.",
+      "canonicalization": {
+        "status": "canonicalized_duplicate_web_lead",
+        "canonical_web_source_id": "WEB-MUN-0032",
+        "canonical_source_id": null,
+        "dedupe_key": "url:lob.bangla.gov.bd/languages/munda",
+        "decision": "Preserve WEB-MUN-0088 as a later metadata-refresh record only. It is deterministically duplicate to WEB-MUN-0032 and must not increase unique-lead, audited-identity, claim, evidence or provenance counts."
+      }
+    }
+  ]
+}

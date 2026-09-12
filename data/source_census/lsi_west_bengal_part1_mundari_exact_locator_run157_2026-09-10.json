@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "MLHKP-LSI-WB-MUNDARI-RUN157",
+  "checked_utc": "2026-09-10T08:45:00Z",
+  "source": {
+    "title": "Linguistic Survey of India - West Bengal (Part I)",
+    "corporate_author": "Language Division, Office of the Registrar General, Government of India",
+    "publication_year": 2016,
+    "official_catalogue_id": "34826",
+    "official_download_id": "38514",
+    "official_filename": "LSI_WB_PART_I.pdf",
+    "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/34826",
+    "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/34826/download/38514/LSI_WB_PART_I.pdf"
+  },
+  "scope": {
+    "source_class": "government_linguistic_survey",
+    "geography": ["West Bengal", "India"],
+    "language_focus": ["Mundari"],
+    "non_mundarica": true
+  },
+  "exact_locator": {
+    "indexed_heading": "MUNDARI",
+    "printed_page": 44,
+    "locator_basis": "Census India indexed text for the official PDF search result",
+    "bounded_source_attributed_points": [
+      "The survey's Mundari status block states that Mundari had not been introduced in the educational system of West Bengal at the survey/reporting context.",
+      "The same block states that Mundari is written in Bengali script in West Bengal.",
+      "The same block states that Mundari was not used administratively and had no legal recognition in West Bengal in the survey/reporting context."
+    ],
+    "temporal_scope_warning": "These are historical/source-attributed survey statements and must not be represented as current 2026 policy or timeless cultural facts."
+  },
+  "verification": {
+    "official_indexed_text_found": true,
+    "official_pdf_bytes_acquired": false,
+    "independent_checksum_computed": false,
+    "pdf_page_image_inspected": false,
+    "pdf_index_to_physical_page_verified": false,
+    "download_attempt_result": "HTTP 502 Bad Gateway in current retrieval runtime",
+    "secondary_crosscheck": "People's Archive of Rural India describes the volume as a Language Division/Office of the Registrar General survey and identifies Mundari among the surveyed Austro-Asiatic languages."
+  },
+  "rights_and_cultural_governance": {
+    "copyright_holder_as_secondary_catalogued": "Language Division, Office of the Registrar General, Government of India",
+    "open_reuse_license_verified": false,
+    "full_text_redistribution_authorized": false,
+    "participant_level_material_ingested": false,
+    "community_validation_inferred": false,
+    "cultural_access_clearance_inferred": false,
+    "permitted_promotion": "bibliographic provenance plus bounded source-attributed factual locator only"
+  },
+  "ingestion_decision": {
+    "state": "exact_locator_audit_created_full_manifestation_still_blocked",
+    "promote_to_claim_graph_this_run": false,
+    "reason": "Exact indexed locator is available, but authoritative PDF bytes/page-image verification and item-level reuse terms remain incomplete. Preserve as an auditable source-attributed locator without inflating claim/evidence counts."
+  },
+  "gaps": [
+    "Acquire authoritative official PDF bytes.",
+    "Compute and record an independent cryptographic checksum.",
+    "Inspect the actual page image containing printed page 44.",
+    "Resolve PDF-index/physical-page mapping.",
+    "Recheck whether any status statements have changed in current West Bengal law/education policy before any present-tense use."
+  ]
+}

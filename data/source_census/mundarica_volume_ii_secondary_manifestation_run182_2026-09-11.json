@@ -1,0 +1,73 @@
+{
+  "project": "MLHKP",
+  "run": 182,
+  "branch": "mlhkp-v2",
+  "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
+  "work": {
+    "title": "ENCYCLOPAEDIA MUNDARICA VOL. 2",
+    "creator_as_catalogued": "HOFFMANN, JOHN",
+    "publication_year_as_catalogued": 1950,
+    "publisher_as_catalogued": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA"
+  },
+  "secondary_digitized_manifestation": {
+    "repository": "Internet Archive",
+    "item_identifier": "dli.bengal.10689.21001",
+    "ark": "ark:/13960/t45r27p2m",
+    "upstream_source_label": "West Bengal Public Library Network",
+    "upstream_source_handle": "http://hdl.handle.net/10689/21001",
+    "upstream_source_library": "KRISHNANAGAR PUBLIC LIBRARY",
+    "scanning_centre": "C-DAC KOLKATA",
+    "scanning_number": "SC-02",
+    "digital_republisher": "DteLS",
+    "digital_publication_date": "2011-12-22",
+    "internet_archive_added_date": "2018-11-02",
+    "catalogued_total_pages": 406,
+    "ocr_engine_as_catalogued": "ABBYY FineReader 11.0 (Extended OCR)",
+    "ppi_as_catalogued": 72,
+    "pdf_download_listed": true,
+    "pdf_with_text_download_listed": true,
+    "single_page_processed_jp2_zip_listed": true,
+    "full_text_download_listed": true,
+    "manifestation_page_images_independently_compared_to_physical_authoritative_copy": false,
+    "manifestation_hash_verified": false,
+    "authoritative_release_scan": false
+  },
+  "mundarica_release_accounting": {
+    "volume": "II",
+    "previous_state": "historical locator recorded; no authoritative registered scan; not verified complete",
+    "new_defensible_state": "historical locator plus exact secondary DLI/Internet Archive digitized manifestation metadata verified; 406 catalogued scan pages; OCR provenance recorded; no authoritative physical-copy comparison; not verified complete",
+    "authoritative_scans_registered_delta": 0,
+    "verified_complete_volumes_delta": 0,
+    "ocr_promoted_to_verified_transcription": false
+  },
+  "rights_and_cultural_access": {
+    "repository_download_visibility_treated_as_reuse_permission": false,
+    "copyright_or_public_domain_status_inferred": false,
+    "full_text_redistribution_permission_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "cultural_access_overrides_technical_availability": true
+  },
+  "evidence_boundary": {
+    "promoted": [
+      "exact secondary digitized manifestation identity",
+      "catalogued bibliographic metadata",
+      "upstream library/handle and scan provenance",
+      "catalogued 406-page scan accounting",
+      "catalogued OCR engine and listed derivative formats"
+    ],
+    "cultural_passages_ingested": false,
+    "ocr_text_ingested_as_verified": false,
+    "page_level_cultural_claim_promoted": false,
+    "evidence_graph_count_changed": false,
+    "source_identity_count_changed": false
+  },
+  "blockers": [
+    "Obtain and register an authoritative or institutionally authoritative scan/manifestation suitable for physical/page comparison.",
+    "Acquire byte-preserving permitted files and independently verify hashes before claiming manifestation integrity.",
+    "Compare scan pagination/page images to an authoritative copy before declaring Volume II verified complete.",
+    "Review rights and MLHKP cultural-access rules before any passage-level reuse or redistribution.",
+    "Do not treat ABBYY OCR availability as verified transcription."
+  ],
+  "checked_utc": "2026-09-10T21:35:00Z"
+}

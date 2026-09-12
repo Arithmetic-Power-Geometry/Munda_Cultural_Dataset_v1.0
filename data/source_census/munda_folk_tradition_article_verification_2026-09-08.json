@@ -1,0 +1,39 @@
+{
+  "verification_id": "MMSC-VERIFY-MUNDA-FOLK-TRADITION-20260908",
+  "verified_date": "2026-09-08",
+  "source_class": "peer_reviewed_journal_article_candidate",
+  "title": "Study of literary of munda folk tradition",
+  "creator": "Ajit Munda",
+  "journal": "The Asian Man",
+  "year": 2023,
+  "volume": "17",
+  "issue": "1and2spl",
+  "pages": "137-141",
+  "doi": "10.5958/0975-6884.2023.00017.8",
+  "publisher_page": "https://indianjournals.com/article/am-17-1and2spl-016",
+  "metadata_verified": true,
+  "verified_metadata_scope": [
+    "title",
+    "author",
+    "year",
+    "volume",
+    "issue",
+    "page_range",
+    "DOI",
+    "author affiliation",
+    "publisher-supplied abstract and keywords"
+  ],
+  "deduplication_state": "not yet promoted to a new audited source identity; DOI/title were absent from the currently inspected standalone MMSC discovery register, but full reconciliation against all 87 historical web-discovery leads remains required",
+  "promotion_state": "publisher_metadata_and_abstract_candidate_only",
+  "cultural_claims_promoted": false,
+  "full_text_ingested": false,
+  "rights_reuse_status": "publisher page visibility verified; protected article-text reuse permission not established",
+  "cultural_access_governance": {
+    "community_validation": "not established",
+    "participant_consent": "not inferred",
+    "cultural_access_override": true,
+    "scope_caution": "The publisher abstract contains broad cultural and identity characterizations. These are retained as source-reported framing only and are not promoted as MLHKP cultural facts without stronger corroboration, exact textual locators, rights review and appropriate community validation."
+  },
+  "integrity_boundary": "Do not promote identity, religion, customary-life, ecological, historical or representativeness claims from the abstract as universal/current Munda facts. Bibliographic verification is not community endorsement or permission to reuse article text.",
+  "next_action": "Deterministically compare DOI/title/author against every web-discovery lead; if unique, canonicalize the source identity. Inspect permitted article text only if lawful access and reuse boundaries allow exact-locator evidence extraction."
+}

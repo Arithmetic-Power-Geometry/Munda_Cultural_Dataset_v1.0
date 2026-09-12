@@ -1,0 +1,58 @@
+{
+  "mcd_schema": "2.0",
+  "record_type": "corpus_completeness_audit",
+  "collection_id": "SRC-COL-MUNDARICA",
+  "expected_volumes": 16,
+  "policy": {
+    "verified_complete_requires": [
+      "source_scan_present",
+      "page_accounting_complete",
+      "all_pages_visually_compared_to_scan",
+      "unresolved_readings_reviewed",
+      "structured_ingestion_complete",
+      "integrity_checks_pass"
+    ],
+    "ocr_is_not_verified_transcription": true,
+    "absence_is_not_zero": true
+  },
+  "volumes": [
+    {
+      "volume": 1,
+      "source_id": "SRC-MUN-V01",
+      "repository_artifact": "Mundarika1.md",
+      "artifact_state": "working_transcription",
+      "declared_scan_pages": 324,
+      "page_blocks_detected": 324,
+      "first_page_block": 1,
+      "last_page_block": 324,
+      "missing_page_blocks": 0,
+      "duplicate_page_blocks": 0,
+      "out_of_range_page_blocks": 0,
+      "page_order_complete": true,
+      "source_scan_present": false,
+      "page_accounting_complete": true,
+      "all_pages_visually_compared_to_scan": false,
+      "unresolved_readings_reviewed": false,
+      "structured_ingestion_complete": false,
+      "integrity_checks_pass": false,
+      "verified_complete": false,
+      "page_accounting_evidence": "Deterministic repository validator confirmed exactly one ordered page block for every integer 1..324; GitHub smoke and audit checks passed for commit 5b898e92c09f74d28b01be6f58fbf0898dfc66b3. This certifies structural page-block continuity only, not scan comparison or transcription accuracy.",
+      "blocker": "The repository contains the working transcription artifact but no authoritative scan artifact is registered in this corpus bundle. Scan comparison and verified-complete status therefore cannot be asserted."
+    },
+    {"volume": 2, "source_id": "SRC-MUN-V02", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 3, "source_id": "SRC-MUN-V03", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 4, "source_id": "SRC-MUN-V04", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 5, "source_id": "SRC-MUN-V05", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 6, "source_id": "SRC-MUN-V06", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 7, "source_id": "SRC-MUN-V07", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 8, "source_id": "SRC-MUN-V08", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 9, "source_id": "SRC-MUN-V09", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 10, "source_id": "SRC-MUN-V10", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 11, "source_id": "SRC-MUN-V11", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 12, "source_id": "SRC-MUN-V12", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 13, "source_id": "SRC-MUN-V13", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 14, "source_id": "SRC-MUN-V14", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 15, "source_id": "SRC-MUN-V15", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false},
+    {"volume": 16, "source_id": "SRC-MUN-V16", "repository_artifact": null, "artifact_state": "pending", "verified_complete": false}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "run": 175,
+  "checked_utc": "2026-09-10T17:50:00Z",
+  "branch": "mlhkp-v2",
+  "base_progress_run": 174,
+  "base_head": "dd0e2caeb38a687c284d7695dd718293b320b8fb",
+  "change_type": "manifestation_retry_and_gap_hardening",
+  "new_audit": "data/source_census/census_2011_c17_jharkhand_manifestation_retry_run175_2026-09-10.json",
+  "new_search_log": "data/source_census/search_log_run175.jsonl",
+  "new_test": "tests/test_run175_c17_manifestation_retry.py",
+  "metrics": {
+    "audited_source_identities": 42,
+    "web_discovery_records": 90,
+    "web_discovery_unique_leads": 87,
+    "web_discovery_duplicate_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42
+  },
+  "metrics_changed": false,
+  "release_gate": "NOT_PASS",
+  "c17_state": "ORGI catalogue identity and workbook filename reverified; direct catalogue retrieval timed out; workbook bytes/hash/worksheet/cell locators unresolved; no numerical evidence promoted",
+  "governance": "No rights, participant consent, community validation, cultural access, or reuse permission inferred from catalogue visibility.",
+  "primary_progress_file_sync_state": "requires next safe full-file regeneration; this sidecar records the exact Run-175 delta without destructively replacing the structured Run-174 progress document"
+}

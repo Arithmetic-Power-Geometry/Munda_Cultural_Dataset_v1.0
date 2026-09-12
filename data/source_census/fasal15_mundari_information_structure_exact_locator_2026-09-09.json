@@ -1,0 +1,68 @@
+{
+  "record_type": "exact_locator_verification",
+  "branch": "mlhkp-v2",
+  "verified_utc_date": "2026-09-09",
+  "candidate_source": {
+    "title": "Towards a typology of information structuring in Munda languages",
+    "authors": [
+      "Gregory D. S. Anderson",
+      "Bikram Jora",
+      "Moses Oyeleye",
+      "Izza Armand",
+      "Tara Shabazaz",
+      "Luke Horo"
+    ],
+    "publication": "Proceedings of FASAL-15 / Formal Approaches to South Asian Languages",
+    "issue_label": "2025: Proceedings of FASAL-15",
+    "publication_date": "2026-04-09",
+    "article_pages": "37-59",
+    "publisher_article_locator": "https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/en/article/view/346",
+    "publisher_pdf_locator": "https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/article/download/346/208"
+  },
+  "scope_classification": {
+    "class": "peer-reviewed/proceedings linguistic research",
+    "language_scope": ["Mundari", "Sora"],
+    "mlhkp_scope": "non-Mundarica comparative/linguistic evidence",
+    "cultural_claim_scope": "none promoted"
+  },
+  "exact_locator_evidence": [
+    {
+      "locator": "publisher article page, abstract",
+      "supported_statement": "The paper explicitly compares information structuring in Sora and Mundari and states that morpholexical, syntactic and prosodic means are examined."
+    },
+    {
+      "locator": "publisher PDF p. 47, section 4.2 'Mundari prosody and focus'",
+      "supported_statement": "The PDF text layer reports that Mundari disyllables show no consistent acoustic cue of lexical prominence and describes recordings in isolation, sentential/phrasal, non-focal and focal contexts."
+    }
+  ],
+  "identity_and_deduplication": {
+    "permanent_src_mmsc_id_assigned": false,
+    "reason": "Candidate must be reconciled against the authoritative discovery/master layer before a new permanent identity is counted.",
+    "manifestation_rule": "Article HTML and publisher PDF are manifestations/locators of one intellectual work, not separate source identities."
+  },
+  "rights_access_and_ethics": {
+    "publisher_page_publicly_readable": true,
+    "publisher_pdf_discoverable": true,
+    "reuse_license_verified_for_this_article": false,
+    "participant_consent_verified": false,
+    "underlying_audio_reuse_permission_verified": false,
+    "cultural_access_clearance_verified": false,
+    "restriction": "No underlying recordings, transcripts, elicitation materials, speaker identities, lexical examples or participant-derived material are ingested or redistributed. Public readability is not treated as permission."
+  },
+  "promotion_decision": {
+    "identity_metadata": "verified",
+    "exact_locator": "verified to publisher abstract and PDF text-layer page 47",
+    "content_evidence_promoted": "bounded linguistic-method/result statement only",
+    "cultural_evidence_promoted": false,
+    "numeric_population_claim_promoted": false,
+    "source_count_increment": false,
+    "claim_count_increment": false,
+    "evidence_count_increment": false
+  },
+  "verification_notes": [
+    "The publisher article page verifies authors, title, publication date, issue and abstract.",
+    "The publisher PDF search result exposes exact page 47 and section 4.2 text; direct PDF open was blocked in this environment, so no visual-layout-dependent assertion is made.",
+    "Article page range 37-59 is corroborated by independent bibliographic indexing but is retained as bibliographic metadata rather than a page-image audit.",
+    "No claim of community-wide linguistic uniformity, cultural representativeness, consent, endorsement or unrestricted reuse is made."
+  ]
+}

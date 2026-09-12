@@ -1,0 +1,84 @@
+{
+  "run_id": 262,
+  "date_utc": "2026-09-12",
+  "stream": "government Census/LSI/Atlas acquisition and source census",
+  "scope_class": ["government_TRI_Census_LSI", "maps", "datasets", "web_resources"],
+  "purpose": "Strengthen exact first-party manifestation/catalogue locators for priority ORGI language resources without promoting unverified workbook cells, PDF pages, OCR, reuse rights, or cultural claims.",
+  "sources": [
+    {
+      "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "catalogue_id": "PC11_C17-20",
+      "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+      "declared_download": "DDW-C17-2000.XLSX",
+      "declared_scope": "State-level total/rural/urban-combined bilingualism and trilingualism table by mother tongue and additional languages",
+      "verification_level": "first-party ORGI catalogue metadata",
+      "not_verified": ["workbook bytes", "cryptographic hash", "worksheet names", "exact MUNDA/MUNDARI row positions", "exact numeric cells", "cell-level extraction reproducibility"]
+    },
+    {
+      "title": "Census of India 2011 - LANGUAGE ATLAS - INDIA",
+      "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "catalogue_id": "Language_Atlas_2011",
+      "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/42561",
+      "declared_download": "Language_Atlas_2011.pdf",
+      "declared_date_published": "2022-04",
+      "declared_rights": "Office of the Registrar General & Census Commissioner, India (ORGI) - Map Division",
+      "verification_level": "first-party ORGI catalogue metadata",
+      "not_verified": ["PDF bytes", "cryptographic hash", "exact Mundari map/page locators", "page-image verification", "redistribution permission beyond the catalogue rights statement"]
+    },
+    {
+      "title": "LINGUISTIC SURVEY OF INDIA - JHARKHAND",
+      "producer": "Language Division, Office of the Registrar General, India",
+      "catalogue_download_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "declared_download": "LSI_JHARKHAND.pdf",
+      "verification_level": "first-party ORGI direct-download identity located; search index exposes Mundari-study text, but direct PDF rendering was not stable in this run",
+      "not_verified": ["PDF bytes", "cryptographic hash", "page-image verification", "exact printed/page-image pagination", "OCR fidelity", "reuse licence", "community validation", "cultural-access permission"]
+    }
+  ],
+  "current_ORGI_platform_context": {
+    "census_data_page": "https://censusindia.gov.in/census.website/en/data",
+    "observation": "ORGI states that Census tables are distributed as Excel files through Census Tables/Digital Library and that most table content is also available through its API.",
+    "promotion_boundary": "platform capability/context only; no numeric value is promoted without exact source-cell verification"
+  },
+  "deduplication": {
+    "canonicalization_action": "Treat catalogue page, direct-download endpoint, Census Tables listing and API representation as manifestations/interfaces of the same underlying ORGI resource identity where identifiers match; do not inflate source counts.",
+    "identity_count_change": false,
+    "reason_count_neutral": "Existing controlled source totals already include ORGI/Census source families and the 73 unresolved WEB-MUN leads are not fully dispositioned."
+  },
+  "rights_access_cultural_boundary": {
+    "public_catalogue_access_is_redistribution_permission": false,
+    "catalogue_rights_statement_is_blanket_cultural_access_permission": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_or_sensitive_content_ingested": false,
+    "numeric_cells_promoted": false,
+    "cultural_claims_promoted": false
+  },
+  "blocked_attempts": [
+    {
+      "source": "LSI_JHARKHAND.pdf direct ORGI endpoint",
+      "observation": "Direct PDF open returned a transient 502 during page-render verification; screenshot resolution could therefore not be completed in this run.",
+      "disposition": "Record the exact first-party download identity only, keep page/image/OCR verification open, and continue safe independent streams."
+    }
+  ],
+  "promotion": {
+    "level": "exact first-party catalogue/download identity evidence",
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "numeric_census_values_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "evidence_claim_count_change": false
+  },
+  "explicit_gaps": [
+    "Byte-preserving acquisition and independent hash of DDW-C17-2000.XLSX",
+    "Worksheet names and exact MUNDA/MUNDARI rows/cells in DDW-C17-2000.XLSX",
+    "Byte-preserving acquisition and independent hash of Language_Atlas_2011.pdf",
+    "Exact Mundari page/map image verification in Language_Atlas_2011.pdf",
+    "Byte-preserving acquisition and independent hash of LSI_JHARKHAND.pdf",
+    "Exact page-image verification and OCR/page reconciliation for the Mundari section of LSI_JHARKHAND.pdf",
+    "Explicit reuse/licence determination separate from public availability",
+    "Community/cultural-access review before any culturally sensitive content promotion"
+  ]
+}

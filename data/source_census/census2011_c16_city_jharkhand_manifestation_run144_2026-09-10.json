@@ -1,0 +1,56 @@
+{
+  "audit_run": 144,
+  "date_utc": "2026-09-10",
+  "stream": "Census 2011 language-table provenance",
+  "disposition": "verified_official_manifestation_metadata_only",
+  "source_identity_action": "no_new_audited_identity_created",
+  "canonical_stream": "existing ORGI Census 2011 C-16 Jharkhand stream",
+  "official_record": {
+    "title": "C-16 City: Population by mother tongue (town level), Jharkhand - 2011",
+    "reference_id": "PC11_C16city-20",
+    "reference_number": "PC11_C16city",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "publisher_authority": "Ministry of Home Affairs, Government of India",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10246",
+    "listed_download_filename": "DDW-C16-TOWN-STMT-MDDS-2000.XLSX",
+    "geographic_granularity": ["state", "district", "town"],
+    "universe": "All individuals in Jharkhand",
+    "statistics": "Counts",
+    "unit_of_observation": "Individual (person)",
+    "table_columns_reported": [
+      "State code",
+      "District code",
+      "Town code",
+      "Area name",
+      "Mother tongue code",
+      "Mother tongue name",
+      "Total - Person / Male / Female",
+      "Rural - Person / Male / Female",
+      "Urban - Person / Male / Female"
+    ]
+  },
+  "verification_boundary": {
+    "workbook_bytes_obtained": false,
+    "independent_checksum_computed": false,
+    "worksheet_verified": false,
+    "mundari_row_verified_from_workbook": false,
+    "numeric_cells_verified": false,
+    "population_number_promoted": false,
+    "reuse_rights_inferred": false,
+    "community_validation_inferred": false
+  },
+  "audit_interpretation": "This record is an official town-level manifestation within the existing Census 2011 C-16 provenance stream. It improves locator and geographic-granularity documentation only. It does not establish any Mundari numeric value until the authoritative workbook bytes, checksum, worksheet, exact row and cell coordinates are independently verified.",
+  "canonicalization_rule": "Do not create a duplicate cultural-source identity solely because ORGI publishes state/subdistrict and town-level C-16 manifestations; retain separate manifestation locators under the same Census provenance stream unless content-level identity rules require otherwise.",
+  "release_effect": {
+    "audited_identity_count_change": 0,
+    "observed_web_lead_count_change": 0,
+    "claims_change": 0,
+    "evidence_change": 0,
+    "provenance_links_change": 0
+  },
+  "sources_checked": [
+    "https://censusindia.gov.in/nada/index.php/catalog/10246",
+    "https://censusindia.gov.in/nada/index.php/catalog/10246/study-description",
+    "https://censusindia.gov.in/nada/index.php/catalog/10207"
+  ]
+}

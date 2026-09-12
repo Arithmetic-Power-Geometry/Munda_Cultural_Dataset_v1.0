@@ -1,0 +1,96 @@
+{
+  "record_type": "thesis_manifestation_and_rights_locator_verification",
+  "run_id": 121,
+  "verified_on": "2026-09-09",
+  "work": {
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "author": "Marilena Proietti",
+    "year": 2025,
+    "institution": "Università degli Studi di Roma La Sapienza",
+    "doctoral_program": "Civiltà dell'Asia e dell'Africa",
+    "publication_date": "2025-05-26",
+    "language": "English"
+  },
+  "verified_manifestations": [
+    {
+      "repository": "Sapienza IRIS",
+      "persistent_identifier": "https://hdl.handle.net/11573/1740709",
+      "file_name": "Tesi_dottorato_Proietti.pdf",
+      "access_label": "Open Access dal 27/05/2026",
+      "license_label_as_displayed": "Creative commons",
+      "file_size_as_displayed": "47.18 MB",
+      "format_as_displayed": "Adobe PDF",
+      "manifestation_role": "institutional repository record"
+    },
+    {
+      "repository": "UNITesi / legal-deposit doctoral thesis repository",
+      "persistent_identifier": "https://hdl.handle.net/20.500.14242/212639",
+      "nbn": "URN:NBN:IT:UNIROMA1-212639",
+      "file_name": "Tesi_dottorato_Proietti.pdf",
+      "access_label": "Open Access dal 27/05/2026",
+      "license_label_as_displayed": "Creative Commons",
+      "file_size_as_displayed": "47.18 MB",
+      "format_as_displayed": "Adobe PDF",
+      "manifestation_role": "legal-deposit metadata record"
+    }
+  ],
+  "scope_classification": {
+    "source_class": "thesis_dissertation",
+    "relevance": "Munda-relevant within a multi-community Adivasi study covering Oraon, Munda, Santal and Ho communities in south Bihar/Jharkhand",
+    "not_munda_exclusive": true,
+    "participant_or_fieldwork_sensitive": true
+  },
+  "deterministic_identity_decision": {
+    "decision": "Treat the IRIS and UNITesi records as manifestations/metadata records of one doctoral thesis work, not as separate source identities.",
+    "canonical_work_key": "proietti-2025-adivasi-womens-movements-eastern-india",
+    "duplicate_source_identity_increment": false
+  },
+  "exact_locator_evidence": [
+    {
+      "locator": "UNITesi record lines/fields: title, author, publication year/date, supervisors, publisher/institution, file block, handle and NBN",
+      "supported_fact": "Institutional identity and manifestation metadata"
+    },
+    {
+      "locator": "UNITesi file block",
+      "supported_fact": "Tesi_dottorato_Proietti.pdf; Open Access from 2026-05-27; generic Creative Commons label; 47.18 MB; Adobe PDF"
+    },
+    {
+      "locator": "IRIS institutional record file block",
+      "supported_fact": "Same PDF filename, same 47.18 MB size, open-access label and generic Creative Commons label"
+    }
+  ],
+  "rights_and_access_boundary": {
+    "open_access_verified": true,
+    "open_access_effective_date": "2026-05-27",
+    "creative_commons_label_verified": true,
+    "exact_cc_variant_verified": false,
+    "generic_cc_label_treated_as_blanket_derivative_permission": false,
+    "repository_disclaimer_observed": "UNITesi states documents are copyright-protected/all rights reserved unless otherwise indicated.",
+    "content_level_redistribution_authorized_from_metadata_alone": false,
+    "participant_consent_inferred_from_repository_access": false,
+    "community_validation_inferred": false,
+    "cultural_access_override_required_for_sensitive_or_participant_derived_material": true
+  },
+  "not_promoted": [
+    "participant quotations",
+    "interview material",
+    "field notes",
+    "sensitive cultural knowledge",
+    "community-wide propositions",
+    "exact Creative Commons permissions beyond the generic repository label",
+    "participant consent",
+    "community validation"
+  ],
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "gap_narrowed": "The thesis now has reconciled institutional and legal-deposit manifestation metadata, persistent handles, NBN, file name, size and open-access date. The exact Creative Commons variant and participant/cultural-access boundaries remain unresolved before content-level ingestion."
+  },
+  "sources_checked": [
+    "https://iris.uniroma1.it/handle/11573/1740709",
+    "https://tesidottorato.depositolegale.it/handle/20.500.14242/212639",
+    "https://phd.uniroma1.it/web/MARILENA-PROIETTI_nP1538257_EN.aspx"
+  ]
+}

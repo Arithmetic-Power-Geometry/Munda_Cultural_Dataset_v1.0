@@ -1,0 +1,58 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "branch": "mlhkp-v2",
+  "source_class": "government_TRI_dictionary_catalogue",
+  "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand",
+  "canonical_url": "https://www.trijharkhand.in/en/publications",
+  "identity_state": "official TRI catalogue surface verified; permanent MLHKP source identities not assigned until deterministic comparison against the preserved discovery corpus and work/edition reconciliation are complete",
+  "verified_catalogue_entries": [
+    {
+      "catalogue_serial": 1,
+      "title_as_displayed": "Mundari - Hindi Sabdhkosh",
+      "author_as_displayed": "Mrs. S. Prasad",
+      "year_as_displayed": "NA",
+      "category_as_displayed": "Tribal Language and Literature",
+      "price_as_displayed": "6.00",
+      "download_as_displayed": "NA"
+    },
+    {
+      "catalogue_serial": 2,
+      "title_as_displayed": "Hindi - Mundari Sabdhkosh",
+      "author_as_displayed": "Mrs. S. Prasad",
+      "year_as_displayed": "NA",
+      "category_as_displayed": "Tribal Language and Literature",
+      "price_as_displayed": "10.00",
+      "download_as_displayed": "NA"
+    }
+  ],
+  "scope_classification": {
+    "primary": ["dictionary", "Mundari_language", "official_TRI_publication_catalogue"],
+    "not_established": ["edition", "publication_year", "ISBN", "page_count", "lexical_entry_content", "dialect_scope", "community_validation", "current_usage_representativeness"]
+  },
+  "rights_access_consent": {
+    "catalogue_access": "public official web catalogue",
+    "full_text_download": "not exposed for either verified entry on the catalogue surface",
+    "reuse_license": "not established",
+    "lexical_extraction_permission": "not established",
+    "cultural_access_gate": "required before downstream publication or reuse of culturally sensitive lexical material; cultural access overrides technical or legal entitlement"
+  },
+  "evidence_promotion": {
+    "promoted_cultural_claim": false,
+    "promoted_lexical_entry": false,
+    "promoted_dictionary_text": false,
+    "permitted_current_evidence": "existence in the official TRI publications catalogue of a Mundari-Hindi dictionary and a Hindi-Mundari dictionary attributed on the catalogue to Mrs. S. Prasad"
+  },
+  "deduplication_boundary": {
+    "new_permanent_source_id_assigned": false,
+    "reason": "must be compared deterministically against all preserved discovery leads and existing canonical dictionary/work records before atomic source promotion",
+    "work_edition_reconciliation_required": true
+  },
+  "integrity": {
+    "catalogue_listing_treated_as_full_text_permission": false,
+    "price_treated_as_rights_grant": false,
+    "missing_year_fabricated": false,
+    "lexical_content_fabricated": false,
+    "community_validation_fabricated": false
+  }
+}

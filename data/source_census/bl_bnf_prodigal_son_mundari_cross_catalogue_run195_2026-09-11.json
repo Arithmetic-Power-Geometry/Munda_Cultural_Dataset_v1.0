@@ -1,0 +1,101 @@
+{
+  "audit_id": "RUN195-BL-BNF-PRODIGAL-SON-MUNDARI",
+  "run": 195,
+  "date_utc": "2026-09-11",
+  "scope": "non-Mundarica source census; archival/audio manifestation reconciliation",
+  "title_normalized": "The Prodigal Son in Mundari",
+  "identity_evidence": {
+    "british_library": {
+      "catalogue": "British Library Archives and Manuscripts Catalogue",
+      "shelfmark": "IOR/S/2/1/2",
+      "record_id": "040-000091076",
+      "mdark": "ark:/81055/vdc_100000000502.0x0002fd",
+      "title": "Parable of the Prodigal Son",
+      "language_catalogued": "Kherwari (Mundari dialect)",
+      "date_range": "1913-1914",
+      "extent": "1 gramophone record",
+      "former_external_reference": "3290-Y",
+      "digitised_content_field": "blank/no digitised content exposed in retrieved catalogue record",
+      "legal_status_catalogued": "Public Record(s)",
+      "catalogue_text_license_note": "British Library catalogue page states its text is CC-BY except where otherwise stated; this is not treated as a reuse licence for the sound recording",
+      "url": "https://searcharchives.bl.uk/catalog/040-000091076"
+    },
+    "bnf": {
+      "catalogue": "Bibliotheque nationale de France, Catalogue general",
+      "ark": "ark:/12148/cb414605823",
+      "notice_number": "FRBNF41460582",
+      "digital_copy_identifier": "NUMAUD-129811",
+      "additional_digital_identifier": "NUMAV-352902",
+      "physical_copy_identifier": "AP-2102",
+      "title": "The Prodigal son : in Mundari",
+      "editor": "Sir George Grierson",
+      "collection_context": "Linguistic Survey of India",
+      "recording_place": "Ranchi",
+      "date": "1914",
+      "duration": "3 min 5 s",
+      "language_catalogued": "Mundari",
+      "matrix_number": "3290Y",
+      "genre_catalogued": "spoken recording",
+      "digital_access": "digital sound manifestation listed as consultable online via Gallica",
+      "physical_copy_access": "AP-2102 marked document non diffusable",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb414605823"
+    }
+  },
+  "reconciliation": {
+    "decision": "same historical recording identity cluster at catalogue level; do not create a second source identity",
+    "confidence": "high; matrix identifier matches deterministically after punctuation normalization (BL 3290-Y = BnF 3290Y), with compatible Mundari/Kherwari language, Prodigal Son title, LSI Bihar and Orissa context, and overlapping 1913-1914/1914 dating",
+    "deterministic_keys": [
+      "matrix 3290Y after punctuation normalization",
+      "Mundari/Kherwari language attribution",
+      "Parable/The Prodigal Son title identity",
+      "Linguistic Survey of India Bihar and Orissa context",
+      "overlapping 1913-1914/1914 date"
+    ],
+    "byte_or_physical_identity_verified": false,
+    "reason_byte_identity_not_verified": "no byte-level comparison of digital audio and no physical-disc label comparison was performed"
+  },
+  "evidence_promotion": {
+    "promoted": [
+      "catalogue identity metadata",
+      "exact BL shelfmark/record/MDARK locator",
+      "exact BnF ARK/notice/digital-copy/physical-copy locators",
+      "catalogue-attributed Mundari/Kherwari language/date/recording type",
+      "matrix 3290Y cross-catalogue match"
+    ],
+    "not_promoted": [
+      "audio samples or acoustic features",
+      "transcription",
+      "translation",
+      "cultural interpretation",
+      "speaker identity beyond catalogue uncertainty",
+      "participant consent",
+      "community validation",
+      "cultural-access permission"
+    ],
+    "count_bearing": false,
+    "source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "evidence_link_count_change": 0
+  },
+  "rights_governance": {
+    "public_availability_is_permission": false,
+    "bl_catalogue_text_cc_by_treated_as_audio_license": false,
+    "bl_public_record_status_treated_as_reuse_license": false,
+    "bnf_online_access_treated_as_reuse_license": false,
+    "sound_recording_reuse_terms_independently_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "audio_ingested": false,
+    "transcript_ingested": false,
+    "translation_ingested": false,
+    "policy": "cultural access overrides legal or technical availability; retain catalogue metadata and deterministic identity reconciliation only until reuse, consent/privacy and community/cultural-access review support deeper use"
+  },
+  "release_gap": "The Mundari Prodigal Son discovery is now deterministically reconciled at matrix/catalogue level and does not require a duplicate source identity. Byte/physical manifestation equivalence, sound-recording reuse rights, historical participant consent, community validation and cultural-access permission remain unresolved; no audio-derived evidence is promoted.",
+  "sources_checked": [
+    "British Library IOR/S/2/1/2 catalogue record",
+    "BnF ark:/12148/cb414605823 catalogue record",
+    "British Library IOR/S/2/1 Bihar and Orissa hierarchy for contextual reconciliation"
+  ]
+}

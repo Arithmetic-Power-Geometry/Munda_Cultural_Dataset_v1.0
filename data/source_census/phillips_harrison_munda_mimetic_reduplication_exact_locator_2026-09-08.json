@@ -1,0 +1,50 @@
+{
+  "artifact_id": "MMSC-EXACT-LOCATOR-2026-09-08-PHILLIPS-HARRISON",
+  "created_utc": "2026-09-08T07:36:00Z",
+  "candidate_source": {
+    "title": "Munda Mimetic Reduplication",
+    "authors": ["Jacob B. Phillips", "K. David Harrison"],
+    "year": 2017,
+    "journal": "Canadian Journal of Linguistics/Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13"
+  },
+  "authoritative_locators": [
+    {
+      "repository": "Cambridge Core",
+      "locator_type": "publisher_article_abstract",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58",
+      "verified_elements": ["title", "authors", "publication date", "journal", "volume", "issue", "page range", "DOI", "abstract"]
+    },
+    {
+      "repository": "Swarthmore College Works",
+      "locator_type": "institutional_repository_metadata_and_abstract",
+      "url": "https://works.swarthmore.edu/fac-linguistics/223/",
+      "verified_elements": ["title", "authors", "publication date", "journal", "volume", "issue", "page range", "DOI", "abstract"]
+    }
+  ],
+  "supported_bounded_proposition": "The article abstract states that its empirical typology covers seven Munda languages and explicitly includes Kera Mundari and Mundari among them.",
+  "scope_classification": "comparative_Munda_language_family_research_with_explicit_Mundari_inclusion",
+  "candidate_domain": "DOM-14",
+  "evidence_level": "publisher_and_institutional_abstract_exact_locator",
+  "rights_access": {
+    "metadata_and_abstract_publicly_accessible": true,
+    "publisher_full_text_open_reuse_established": false,
+    "copyright_notice_observed": "Canadian Linguistic Association/Association canadienne de linguistique 2017",
+    "redistribution_permission_inferred": false
+  },
+  "cultural_governance": {
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "present_day_representativeness_inferred": false,
+    "cultural_access_gate_required_for_participant_or_sensitive_material": true
+  },
+  "promotion_state": "exact-locator evidence candidate ready for atomic canonical promotion only after deterministic comparison against every historical discovery artifact and canonical source ledger",
+  "prohibited_inferences": [
+    "Do not generalize comparative Munda-language-family findings to all Munda people or cultural practice.",
+    "Do not ingest or redistribute protected full text or field elicitation material without item-level rights and cultural-access review.",
+    "Do not interpret publication availability as community validation or consent."
+  ]
+}

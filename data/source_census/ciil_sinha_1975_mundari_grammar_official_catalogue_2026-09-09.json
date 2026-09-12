@@ -1,0 +1,64 @@
+{
+  "record_type": "official_institution_bibliographic_verification",
+  "branch": "mlhkp-v2",
+  "verified_utc_date": "2026-09-09",
+  "candidate_source": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "publication_year": 1975,
+    "publisher_or_institution": "Central Institute of Indian Languages (CIIL), Mysore",
+    "official_catalogue_source": "https://www.ciil.org/publications?page=6",
+    "official_catalogue_row": 95,
+    "catalogue_price_rupees": 10,
+    "isbn": null
+  },
+  "independent_bibliographic_corroboration": [
+    {
+      "source": "Christian-Albrechts-Universitaet zu Kiel South Asia Bibliography",
+      "statement_scope": "bibliographic identity only",
+      "recorded_form": "Sinha, N.K. 1975. Mundari Grammar. Mysore: Central Institute of Indian Languages"
+    },
+    {
+      "source": "SEALS32 abstracts book, 2023",
+      "statement_scope": "citation identity only",
+      "recorded_form": "Sinha, N.K. 1975. Mundari Grammar. Mysore: Central Institute of Indian Languages"
+    }
+  ],
+  "identity_and_deduplication": {
+    "bibliographic_identity_verified": true,
+    "permanent_source_count_increment": false,
+    "reason": "This work is already represented in the MLHKP discovery/census layer and must be deterministically reconciled against the canonical master before any count change.",
+    "work_manifestation_rule": "The 1975 CIIL catalogue record is treated as evidence for the intellectual work and its CIIL publication manifestation; later references or citations are not separate source identities."
+  },
+  "file_and_locator_state": {
+    "official_full_text_file_verified": false,
+    "file_bytes_obtained": false,
+    "sha256_recorded": false,
+    "pagination_verified": false,
+    "page_images_verified": false,
+    "exact_page_locator_verified": false,
+    "ocr_verified_transcription": false
+  },
+  "rights_access_and_ethics": {
+    "official_catalogue_publicly_readable": true,
+    "full_text_reuse_permission_verified": false,
+    "derivative_reuse_permission_verified": false,
+    "participant_or_consultant_rights_applicable_and_verified": false,
+    "cultural_access_clearance_verified": false,
+    "restriction": "Catalogue metadata may be used for source census and identity reconciliation. No grammar rule, example sentence, lexical item, cultural proposition, participant-derived material or page-level content is ingested until file provenance, locators, reuse status and applicable cultural-access gates are resolved."
+  },
+  "promotion_decision": {
+    "identity_metadata": "verified at official catalogue level",
+    "content_evidence_promoted": false,
+    "cultural_evidence_promoted": false,
+    "claim_count_increment": false,
+    "evidence_count_increment": false,
+    "provenance_link_count_increment": false
+  },
+  "verification_notes": [
+    "CIIL's official publications catalogue lists Mundari Grammar by N. K. Sinha, year 1975, as row 95.",
+    "Independent bibliographic sources corroborate the same author-title-year-institution identity.",
+    "No ISBN is displayed in the official CIIL catalogue row.",
+    "No inference is made from catalogue availability to copyright status, derivative reuse permission, page-level verification, cultural representativeness or community validation."
+  ]
+}

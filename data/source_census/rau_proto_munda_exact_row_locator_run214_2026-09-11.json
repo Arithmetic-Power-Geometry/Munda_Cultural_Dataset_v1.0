@@ -1,0 +1,65 @@
+{
+  "run": 214,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "record": {
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "creator": "Felix Rau",
+    "publisher": "Zenodo",
+    "version": "0.1.0",
+    "published": "2019-08-29",
+    "doi": "10.5281/zenodo.3380874",
+    "record_url": "https://zenodo.org/records/3380874",
+    "file": "pMunda_cognate_set_2019-08-29.csv",
+    "upstream_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "zenodo_reported_file_size": "34.9 kB",
+    "zenodo_description_reported_cognate_sets": 127
+  },
+  "exact_locator_verification": {
+    "direct_text_manifestation_url": "https://zenodo.org/records/3380874/files/pMunda_cognate_set_2019-08-29.csv?download=1",
+    "header_directly_observed": true,
+    "mundari_columns_directly_observed": ["mu_form", "mu_source"],
+    "first_record_id": "#A0001",
+    "first_record_gloss": "water",
+    "first_record_mundari_form": "da:",
+    "first_record_mundari_source_locator": "BMED.p31",
+    "last_record_id": "#A0127",
+    "last_record_gloss": "dirt",
+    "last_record_mundari_form": "humu",
+    "last_record_mundari_source_locator": "BMED.p73",
+    "direct_manifestation_exposes_A0001_through_A0127": true,
+    "exact_row_locator_status": "verified_from_direct_Zenodo_text_manifestation"
+  },
+  "deterministic_reconciliation": {
+    "same_source_as_existing_rau_lead": true,
+    "new_source_identity_created": false,
+    "upstream_md5_was_already_known": true,
+    "new_promotion": "exact row-level locator boundary verified for the direct Zenodo text manifestation",
+    "BMED_p31_underlying_source_page_directly_verified": false
+  },
+  "verification": {
+    "zenodo_record_identity_verified": true,
+    "direct_file_text_manifestation_verified": true,
+    "row_A0001_exact_locator_verified": true,
+    "row_A0127_exact_locator_verified": true,
+    "independent_md5_recomputed_from_acquired_bytes": false,
+    "byte_preserving_local_acquisition_verified": false,
+    "csv_parser_row_count_independently_verified": false,
+    "underlying_BMED_pages_verified": false,
+    "lexical_claim_promoted": false,
+    "cultural_claim_promoted": false,
+    "evidence_graph_node_added": false
+  },
+  "rights_access_consent_cultural_governance": {
+    "zenodo_record_access_state": "Dataset Open",
+    "explicit_license_text_observed_on_record": false,
+    "open_access_is_not_assumed_to_equal_redistribution_or_training_permission": true,
+    "underlying_source_rights_inferred": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "row_level_content_redistributed_into_release": false
+  },
+  "audit_conclusion": "The Rau source is no longer discovery-only at the row-locator level: the direct Zenodo text manifestation exposes the CSV header and exact source-attributed Mundari row locators, including #A0001 water -> mu_form da: -> BMED.p31 and #A0127 dirt -> mu_form humu -> BMED.p73. However, independent byte hashing, parser-level row counting, underlying BMED page verification and explicit reuse licensing remain unresolved; therefore no lexical or cultural claim is promoted and no row payload is redistributed into the release.",
+  "release_gate_effect": "NOT_PASS"
+}

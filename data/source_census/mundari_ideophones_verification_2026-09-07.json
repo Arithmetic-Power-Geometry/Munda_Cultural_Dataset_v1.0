@@ -1,0 +1,28 @@
+{
+  "record_type": "source_verification_candidate",
+  "snapshot_date": "2026-09-07",
+  "web_source_id": "WEB-MUN-0023",
+  "title": "Mundari Ideophones",
+  "creator": "Bonnie McLean",
+  "year": 2016,
+  "collection_id": "BMM1",
+  "source_type": ["dataset", "sound_recording", "podcast"],
+  "publisher": "PARADISEC / Australian National University",
+  "doi": "10.4225/72/585bea79cf9dd",
+  "handle": "1885/146448",
+  "canonical_url": "https://openresearch-repository.anu.edu.au/items/fb2cbb6c-f595-4a07-9fc0-cb514d145c5c",
+  "verification": {
+    "metadata_state": "verified_against_anu_institutional_repository",
+    "checked_utc": "2026-09-07T17:35:00Z",
+    "verified_scope": "ANU identifies BMM1 as a Mundari ideophone collection investigating semantics and use in discourse, song and narrative, with India and Hasada keywords.",
+    "exact_locator": "ANU Open Research repository item fb2cbb6c-f595-4a07-9fc0-cb514d145c5c; DOI 10.4225/72/585bea79cf9dd; Handle 1885/146448"
+  },
+  "rights_and_access": {
+    "repository_access": "Open Access",
+    "collection_license": "CC BY-SA 4.0 as reported by the ANU item record",
+    "item_level_boundary": "Collection-level openness is not treated as automatic permission for every recording, annotation, consultant-derived statement, performance, song, narrative or culturally sensitive item.",
+    "participant_and_cultural_boundary": "Before item ingestion MLHKP must preserve speaker/consultant provenance, consent/access conditions, culturally sensitive restrictions, dignity and community-validation state. Cultural access overrides technical entitlement."
+  },
+  "promotion_state": "metadata_verified_item_level_review_required_before_evidence_promotion",
+  "evidence_boundary": "No lexical, grammatical, song, narrative, consultant-level or cultural claim is promoted from the collection in this record."
+}

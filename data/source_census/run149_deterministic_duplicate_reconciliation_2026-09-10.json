@@ -1,0 +1,39 @@
+{
+  "record_type": "deterministic_web_discovery_duplicate_reconciliation",
+  "run": 149,
+  "checked_utc": "2026-09-10T04:50:00Z",
+  "scope": "non-Mundarica MMSC web-discovery identity layer",
+  "method": "Exact DOI/title and canonical-URL comparison against the registered web-discovery layer before assigning any new WEB-MUN identifier. No cultural proposition is promoted by this record.",
+  "findings": [
+    {
+      "candidate": "Samar Bosu Mullick (2000), Gender Relations and Witches among the Indigenous Communities of Jharkhand, India",
+      "identifier": "doi:10.1177/097185240000400301",
+      "decision": "existing_lead_not_new",
+      "canonical_web_source_id": "WEB-MUN-0081",
+      "evidence": "The repository web-discovery layer already resolves WEB-MUN-0081 to DOI 10.1177/097185240000400301. Run 148 therefore must not assign a new WEB-MUN ID or increase discovery counts.",
+      "rights_boundary": "Publisher-restricted article metadata may be recorded; sensitive participant/cultural claims require lawful full-text access, exact passage locators and heightened contextual/community review before evidence promotion."
+    },
+    {
+      "candidate": "Munda | Multiling Cloud digital archive, Bangladesh",
+      "canonical_url": "https://lob.bangla.gov.bd/languages/munda",
+      "decision": "duplicate_web_lead_metadata_refresh",
+      "duplicate_web_source_id": "WEB-MUN-0088",
+      "canonical_web_source_id": "WEB-MUN-0032",
+      "evidence": "WEB-MUN-0032 and WEB-MUN-0088 use the identical canonical government-domain language-page URL. WEB-MUN-0088 adds a multiling.cloud alternate access route and fresher interface metadata but does not represent a new source identity.",
+      "rights_boundary": "The live archive is public-facing but displays an all-rights-reserved notice; item-level speaker consent, contributor authority, privacy/publicity, community validation and cultural-access permissions remain unresolved. No recordings or transcriptions are ingested."
+    }
+  ],
+  "count_effect": {
+    "raw_web_discovery_records": 88,
+    "unique_web_discovery_leads": 87,
+    "canonicalized_into_audited_identity_total": 13,
+    "unique_web_discovery_leads_remaining_outside_audited_identity_total": 74,
+    "audited_source_identities": 41,
+    "claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "registered_modules": 42
+  },
+  "promotion_decision": "metadata_and_identity_reconciliation_only",
+  "cultural_claims_added": 0
+}

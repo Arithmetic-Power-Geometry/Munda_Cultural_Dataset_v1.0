@@ -1,0 +1,122 @@
+{
+  "run_id": 251,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and ingestion",
+  "scope_class": ["books", "grammars", "phonetics", "language_learning"],
+  "work": {
+    "canonical_title": "Mundari Phonetic Reader",
+    "author": "N. K. Sinha",
+    "year": 1974,
+    "publisher": "Central Institute of Indian Languages",
+    "publication_place": "Mysore",
+    "series": "CIIL phonetic reader series",
+    "series_number": 13,
+    "language": ["English", "Mundari"],
+    "subject": "Mundari language -- Phonetics"
+  },
+  "verified_locators": [
+    {
+      "provider": "CiNii Books",
+      "record_id": "BA72929895",
+      "url": "https://ci.nii.ac.jp/ncid/BA72929895",
+      "extent": "viii, 102 p.",
+      "size": "22 cm",
+      "lccn": "76901806",
+      "classification": ["LCC PL4559", "DC 495.9/5"],
+      "holdings_observed": 3,
+      "verification_level": "institutional bibliographic record"
+    },
+    {
+      "provider": "Google Books",
+      "book_id": "hITRAAAAMAAJ",
+      "url": "https://books.google.com/books?id=hITRAAAAMAAJ",
+      "extent": "102 pages",
+      "original_from": "University of Michigan",
+      "digitized": "2009-02-18",
+      "contents_anchors": [
+        {"heading": "INTRODUCTION", "printed_page": 1},
+        {"heading": "A SUMMARY OF MUNDARI PHONOLOGY", "printed_page": 12},
+        {"heading": "PRODUCTION OF MUNDARI SOUNDS", "printed_page": 18}
+      ],
+      "verification_level": "catalogue/snippet manifestation and contents anchors"
+    },
+    {
+      "provider": "Google Books",
+      "book_id": "Rn8KAQAAIAAJ",
+      "url": "https://books.google.com/books?id=Rn8KAQAAIAAJ",
+      "extent": "102 pages",
+      "original_from": "University of California",
+      "digitized": "2009-02-20",
+      "contents_anchors": [
+        {"heading": "INTRODUCTION", "printed_page": 1},
+        {"heading": "A SUMMARY OF MUNDARI PHONOLOGY", "printed_page": 12},
+        {"heading": "PRODUCTION OF MUNDARI SOUNDS", "printed_page": 18}
+      ],
+      "verification_level": "independent catalogue/snippet manifestation and contents anchors"
+    },
+    {
+      "provider": "Cambridge Core / Language review",
+      "doi": "10.2307/413041",
+      "url": "https://www.cambridge.org/core/journals/language/article/abs/kuvi-phonetic-reader-by-b-ramakrishna-reddy-susheela-p-upadhyaya-and-joy-reddy-ciil-phonetic-reader-series-11-mysore-central-institute-of-indian-languages-1974-pp-xi-77-rs-600-mundari-phonetic-reader-by-n-k-sinha-ciil-phonetic-reader-series-13-mysore-central-institute-of-indian-languages-1974-pp-xi-103-rs-500/C002A1499AC8DC9AC15F58AC30C8A5A2",
+      "review_author": "William Bright",
+      "journal": "Language",
+      "volume": 54,
+      "issue": 1,
+      "review_pages": "249-250",
+      "review_bibliographic_extent": "xi, 103 pp.",
+      "verification_level": "peer-reviewed bibliographic corroboration"
+    },
+    {
+      "provider": "ERIC",
+      "record": "ED228863",
+      "url": "https://files.eric.ed.gov/fulltext/ED228863.pdf",
+      "bibliographic_note": "lists Sinha 1974, CIIL phonetic reader series 13, xii, 103 pp.; describes production of Mundari speech sounds, phonetic exercises, and a script suggestion/sample",
+      "verification_level": "secondary government-indexed bibliographic guide; descriptive summary only"
+    }
+  ],
+  "metadata_conflicts": [
+    {
+      "field": "extent/front matter",
+      "observations": ["CiNii: viii, 102 p.", "Google Books: 102 pages", "Cambridge review: xi, 103 pp.", "ERIC guide: xii, 103 pp."],
+      "disposition": "retain all observations; do not normalize to a single complete-pagination claim until a lawful complete manifestation is inspected"
+    }
+  ],
+  "deduplication": {
+    "canonical_key": "sinha-nk|1974|mundari-phonetic-reader|ciil-series-13",
+    "work_family_rule": "Google Books hITRAAAAMAAJ and Rn8KAQAAIAAJ plus CiNii BA72929895 and review/index records are manifestations or bibliographic records of one underlying work, not separate source identities",
+    "identity_count_change": false
+  },
+  "rights_access_boundary": {
+    "catalogue_metadata_retainable_with_provenance": true,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "scan_sequence_to_printed_pagination_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "note": "Public catalogue/snippet visibility and historical publication age are not treated as blanket permission to redistribute, train on, or culturally release the underlying text."
+  },
+  "promotion": {
+    "level": "exact bibliographic/manifestation and contents-locator evidence",
+    "content_evidence_promoted": false,
+    "lexical_rows_promoted": 0,
+    "phonetic_examples_promoted": 0,
+    "grammatical_propositions_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "evidence_claim_count_change": false,
+    "reason": "Exact source identity and internal contents anchors are supported, but full lawful bytes, hashes, scan/page reconciliation, OCR, reuse rights and cultural-access review remain open."
+  },
+  "explicit_gaps": [
+    "lawful complete source bytes",
+    "independent cryptographic hash",
+    "front-matter and printed-page reconciliation",
+    "page-image sequence verification",
+    "OCR verification",
+    "exact page-level phonetic example verification",
+    "redistribution/model-training permission",
+    "historical source/participant provenance and cultural-access review"
+  ]
+}

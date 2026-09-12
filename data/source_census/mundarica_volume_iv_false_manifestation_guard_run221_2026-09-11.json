@@ -1,0 +1,64 @@
+{
+  "run": 221,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "purpose": "Prevent a surfaced secondary-link error from being canonicalized as Encyclopaedia Mundarica Volume IV and preserve the exact Volume III manifestation identity.",
+  "observed_candidate": {
+    "candidate_claim": "A surfaced secondary listing labels https://archive.org/details/in.ernet.dli.2015.14921 as Volume IV.",
+    "candidate_url": "https://archive.org/details/in.ernet.dli.2015.14921",
+    "direct_resolution_checked": true
+  },
+  "direct_manifestation_identity": {
+    "internet_archive_identifier": "in.ernet.dli.2015.14921",
+    "ark": "ark:/13960/t3907ds0b",
+    "displayed_title": "Encyclopedia Mundarica Vol-iii (1930)",
+    "publication_date_displayed": "1930",
+    "publisher_displayed": "Superintendent Government Printing Bihar And Orissa, Patna",
+    "dli_handle_displayed": "2015/14921",
+    "dli_barcode_displayed": "99999990159771",
+    "catalogued_total_pages": 264,
+    "scanning_centre_displayed": "C-DAC, Noida",
+    "source_library_displayed": "Lbs National Academy Of Administration",
+    "ppi_displayed": 600,
+    "ocr_engine_displayed": "ABBYY FineReader 11.0",
+    "rights_metadata_displayed": "Out_of_copyright"
+  },
+  "deterministic_disposition": {
+    "canonical_volume_for_this_identifier": "III",
+    "may_be_used_as_volume_iv_manifestation": false,
+    "volume_iv_manifestation_closed": false,
+    "reason": "The directly resolved archive item explicitly identifies itself as Volume III; a secondary link label cannot override the manifestation metadata.",
+    "deduplication_rule": "Canonicalize by resolved manifestation identifier/title/ARK/handle before volume-number assignment; reject link-label-only volume assignment on conflict."
+  },
+  "rights_governance": {
+    "repository_rights_metadata_recorded_as_metadata_only": true,
+    "public_availability_treated_as_permission": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "verification_boundary": {
+    "volume_iii_secondary_manifestation_identity_verified": true,
+    "volume_iv_exact_manifestation_verified_by_this_record": false,
+    "pdf_bytes_acquired_and_independently_hashed": false,
+    "scan_sequence_verified": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "verified_complete_volume": false,
+    "cultural_fact_promoted": false,
+    "source_claim_promoted": false
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "release_gate": "NOT_PASS"
+  }
+}

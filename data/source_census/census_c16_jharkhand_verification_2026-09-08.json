@@ -1,0 +1,41 @@
+{
+  "audit_type": "non_mundarica_government_dataset_identity_and_locator_verification",
+  "checked_utc": "2026-09-07T19:35:00Z",
+  "candidate_title": "C-16: Population by mother tongue, Jharkhand - 2011",
+  "producer": "Office of the Registrar General & Census Commissioner, India",
+  "publisher": "Office of the Registrar General & Census Commissioner, India, Ministry of Home Affairs, Government of India",
+  "source_class": "official_census_language_table",
+  "reference_id": "PC11_C16-20",
+  "reference_number": "PC11_C16",
+  "workbook_filename": "DDW-C16-STMT-MDDS-2000.xlsx",
+  "canonical_locator": "https://censusindia.gov.in/nada/index.php/catalog/10207/study-description",
+  "time_period": "2011",
+  "geographic_scope": "Jharkhand, India",
+  "documented_dimensions": [
+    "area name",
+    "area of residence (urban/rural)",
+    "mother tongue (code and name)",
+    "sex (male/female/total)"
+  ],
+  "documented_granularity": ["state", "district", "subdistrict"],
+  "unit_of_observation": "individual (person)",
+  "universe_as_documented": "all individuals in Jharkhand",
+  "verification_state": "official_jharkhand_dataset_identity_reference_id_workbook_filename_dimensions_and_scope_verified",
+  "extraction_state": "dataset_metadata_verified_exact_munda_mundari_rows_not_yet_extracted",
+  "promotion_state": "verification_artifact_only_not_counted_as_new_audited_identity_pending_deterministic_duplicate_comparison",
+  "rights_access": {
+    "catalogue_metadata_access": "public official government catalogue",
+    "workbook_download_identity": "verified from official catalogue",
+    "workbook_row_extraction_completed": false,
+    "reuse_permission_inferred": false,
+    "mlhkp_ingestion_boundary": "metadata and table-structure facts may be cited to the official catalogue; no Munda/Mundari population value is promoted until the workbook rows are retrieved and checked exactly"
+  },
+  "cultural_governance": {
+    "community_validation_inferred": false,
+    "census_category_treated_as_community_self_definition": false,
+    "cultural_claims_promoted": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "blocker": "Exact Munda/Mundari workbook rows and values have not yet been retrieved and verified in-repository; therefore no population count, district value, sex split, rural/urban split, or equivalence between labels is asserted.",
+  "notes": "This replaces the weaker generic/failed-fetch state with a verified Jharkhand-specific official dataset locator. It does not resolve the pending exact-row evidence task."
+}

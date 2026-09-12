@@ -1,0 +1,64 @@
+{
+  "run": 224,
+  "date": "2026-09-12",
+  "branch": "mlhkp-v2",
+  "source_class": "video/relevant media",
+  "title": "Folk Dances of Jharkhand | Documentary | EZCC",
+  "creator": "Eastern Zonal Cultural Centre",
+  "institutional_context": "Eastern Zonal Cultural Centre, Kolkata",
+  "original_platform": "YouTube",
+  "youtube_video_id": "jcaVTX0BCtQ",
+  "commons_manifestation": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+  "publication_date": "2022-09-27",
+  "manifestation": {
+    "media_type": "video/webm",
+    "duration_seconds": 2370.695,
+    "display_duration": "39 min 31 s",
+    "dimensions": "720x480",
+    "reported_size_bytes": 531678981,
+    "reported_sha1": "eb3421c6428ea386f8f340520ab9aa0672de6000",
+    "independent_sha1_recomputed": false
+  },
+  "exact_locators": [
+    {"timestamp": "00:04:28", "label": "Paika (Munda community)"},
+    {"timestamp": "00:06:00", "label": "Mundari"},
+    {"timestamp": "00:11:12", "label": "Mundari (Marriage)"}
+  ],
+  "rights": {
+    "commons_license": "CC BY 3.0 Unported",
+    "attribution": "Eastern Zonal Cultural Centre",
+    "license_reviewed_on_commons": "2023-01-20",
+    "license_review_note": "Wikimedia Commons records that a reviewer confirmed the source video was available under the stated Creative Commons license on that date.",
+    "reuse_permission_supported_for_file": true,
+    "public_availability_treated_as_participant_consent": false,
+    "public_availability_treated_as_community_validation": false,
+    "license_treated_as_cultural_access_clearance": false
+  },
+  "scope_classification": {
+    "geography": "Jharkhand",
+    "community_scope": "multi-community documentary with explicitly labelled Munda/Mundari segments",
+    "munda_relevant": true,
+    "mundari_language_content_verified_from_audio": false,
+    "cultural_claims_verified_from_primary_community_authority": false
+  },
+  "promotion": {
+    "discovery_only": false,
+    "exact_locator_evidence_record_created": true,
+    "media_manifestation_identity_verified": true,
+    "rights_metadata_verified": true,
+    "public_cultural_claim_promoted": false,
+    "media_payload_ingested": false,
+    "participant_identity_ingested": false,
+    "reason": "The source, manifestation metadata, license and exact Munda/Mundari timestamps are supported. Cultural propositions visible or audible in the documentary remain outside the public evidence graph until claim-level corroboration and cultural/participant review are adequate."
+  },
+  "deduplication": {
+    "canonical_key": "youtube:jcaVTX0BCtQ|commons:folk-dances-of-jharkhand-documentary-ezcc",
+    "count_increment_permitted": false,
+    "reason": "This run advances a media manifestation and exact locators without rebuilding the controlled identity census; existing discovery leads must be deterministically joined before any audited source-count increment."
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "coverage_change": "oral_story_song_media advanced from structure_ready to live_partial",
+    "release_gate": "NOT_PASS"
+  }
+}

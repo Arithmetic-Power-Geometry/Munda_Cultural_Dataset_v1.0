@@ -1,0 +1,59 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified bibliographic, government-dataset, academic, or web/media source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0053",
+      "title": "C-16: Population by mother tongue, India - 2011",
+      "source_class": "government_census_language_dataset",
+      "publisher": "Office of the Registrar General & Census Commissioner, India, Ministry of Home Affairs",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/10191",
+      "author": "Office of the Registrar General & Census Commissioner, India",
+      "year": 2011,
+      "notes": "Official Census India catalogue record PC11_C16. The table is a national mother-tongue dataset and explicitly includes MUNDA and MUNDARI categories, with population by mother tongue and sex and geographic breakdowns in the Census series. Register as a demographic/language-vitality source lead. Any numerical use in MLHKP must be derived from the exact downloaded table, preserve the Census category labels and geography, and avoid treating a census language return as a complete measure of cultural identity, community membership, vitality, or present-day practice.",
+      "verification_state": "official_census_catalogue_verified",
+      "access_class": "public_government_dataset_catalogue",
+      "rights_note": "Public Census catalogue/download availability does not by itself establish unrestricted redistribution, repackaging, derivative database, or commercial-reuse rights. Source terms and attribution requirements must be checked before redistributing table content."
+    },
+    {
+      "id": "WEB-MUN-0054",
+      "title": "Language Atlas of India 1991",
+      "source_class": "government_language_atlas_bibliographic_record",
+      "publisher": "Office of the Registrar General & Census Commissioner, India / Controller of Publications",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007623754",
+      "author": "R. P. Singh; Jayant Kumar Banthia; Office of the Registrar General & Census Commissioner, India",
+      "year": 2004,
+      "notes": "National Diet Library bibliographic metadata verifies the Census of India language atlas issued by the Registrar General & Census Commissioner, with technical direction by R. P. Singh, general direction by Jayant Kumar Banthia, published in Delhi by Controller of Publications in 2004, xii + 247 pages with colour maps. The Census Language Division independently identifies the Language Atlas as based on the classified language inventory of the 1991 Census and produced with the ORGI Map Division. Register as a historical demographic/geolinguistic map source lead. Mundari/Munda map or table evidence requires exact atlas page/map locators before use and must remain period-specific to the 1991 Census inventory.",
+      "verification_state": "national_library_and_official_government_description_verified",
+      "access_class": "public_bibliographic_metadata_copy_access_varies",
+      "rights_note": "Bibliographic access and third-party scan availability do not establish permission to redistribute atlas maps, scans, tables, or derivative cartography. The atlas is a Government of India publication; item-level and governmental reuse terms must be checked before reproduction or commercial use."
+    },
+    {
+      "id": "WEB-MUN-0055",
+      "title": "A Description of the Phonology and Morphology of Kɔɖa, An Endangered Language of Bangladesh",
+      "source_class": "doctoral_dissertation_comparative_munda_language",
+      "publisher": "CUNY Graduate Center Academic Works",
+      "url": "https://academicworks.cuny.edu/gc_etds/4413/",
+      "author": "Ahmed Shamim",
+      "year": 2021,
+      "notes": "CUNY Graduate Center metadata verifies a 2021 PhD dissertation in Linguistics describing Kɔɖa/Koda, a Munda language of Bangladesh, with chapters on phonology, morphology and language contact; the repository keywords include Koda, Munda, Mundari, phonology and morphology. Register only as a comparative Munda-language and regional research lead, not as direct evidence about Mundari or Munda community practice. Any comparative proposition must identify the target language explicitly and must not transfer Kɔɖa findings to Mundari without independent evidence.",
+      "verification_state": "institutional_dissertation_metadata_verified",
+      "access_class": "public_institutional_dissertation_record",
+      "rights_note": "Institutional repository access does not automatically authorize redistribution of the dissertation, field materials, participant data, recordings, elicitation materials, or derivative datasets. Any participant-derived or community-linked materials require dissertation-specific rights, consent and cultural-access review."
+    },
+    {
+      "id": "WEB-MUN-0056",
+      "title": "Mundari.in — Mundari website with cultural, worship, song, video and image materials",
+      "source_class": "community_oriented_web_media_portal",
+      "publisher": "Mundari.in",
+      "url": "https://www.mundari.in/en",
+      "author": "Not established from the public landing page",
+      "year": 2020,
+      "notes": "The public landing page identifies itself as a Mundari website and states that it hosts Mundari cultural and worship videos, songs and pictures, with English and Mundari viewing options. Register as a contemporary web/media discovery lead only. The site is not treated as an authoritative representation of all Munda communities, and individual songs, videos, images, religious material, speakers, performers and statements require item-level provenance, date, creator/custodian identification, consent/cultural-access review and exact URL/timecode before evidence use.",
+      "verification_state": "public_website_identity_and_content_classes_verified",
+      "access_class": "public_web_portal_item_rights_and_provenance_unresolved",
+      "rights_note": "The landing page's availability and download language do not establish MLHKP redistribution, commercial-reuse, transcription, dataset-extraction, model-training, or recontextualization rights. Item-level copyright, performer/speaker consent, community protocol and cultural-access restrictions must be resolved before ingestion or reuse."
+    }
+  ]
+}

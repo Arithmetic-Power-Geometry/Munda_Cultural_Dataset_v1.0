@@ -1,0 +1,57 @@
+{
+  "run": 192,
+  "audit_type": "deterministic_existing_identity_reconciliation",
+  "checked_utc": "2026-09-11T02:31:00Z",
+  "branch": "mlhkp-v2",
+  "input_audit": "data/source_census/unicode_nag_mundari_exact_locator_run191_2026-09-11.json",
+  "result": "EXISTING_IDENTITY_CONFIRMED_NO_NEW_SOURCE",
+  "existing_source": {
+    "source_id": "SRC-MMSC-000011",
+    "title": "The Unicode Standard, Version 17.0 — Nag Mundari",
+    "creator": "The Unicode Consortium",
+    "year": 2025,
+    "identifier": {
+      "scheme": "UNICODE_SECTION",
+      "value": "17.0.0/13.12"
+    },
+    "canonical_catalogue_url": "https://www.unicode.org/versions/Unicode17.0.0/UnicodeStandard-17.0.pdf",
+    "codepoint_range": "U+1E4D0-U+1E4FF"
+  },
+  "run191_locator": {
+    "chart_url": "https://www.unicode.org/charts/PDF/U1E4D0.pdf",
+    "chart_pdf_page": 2,
+    "printed_page": 1780,
+    "block_range": "U+1E4D0-U+1E4FF"
+  },
+  "deterministic_match": {
+    "publisher_creator_match": true,
+    "standard_version_match": true,
+    "script_block_match": true,
+    "codepoint_range_match": true,
+    "relationship": "exact chart locator is subordinate manifestation/evidence for existing SRC-MMSC-000011, not a new bibliographic identity"
+  },
+  "count_effect": {
+    "source_identity_added": false,
+    "audited_source_identities_delta": 0,
+    "canonicalized_web_leads_delta": 0,
+    "unresolved_web_leads_delta": 0,
+    "claims_delta": 0,
+    "evidence_records_delta": 0,
+    "evidence_links_delta": 0
+  },
+  "rights_and_governance": {
+    "unicode_terms_still_apply": true,
+    "public_availability_treated_as_permission": false,
+    "chart_or_font_bytes_ingested": false,
+    "glyph_images_redistributed": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "closure": {
+    "stale_blocker_closed": "Run 191 instruction to reconcile the Unicode primary-standard audit against the permanent source register is satisfied by SRC-MMSC-000011.",
+    "remaining_integrity_gap": "Run 191 did not retain chart bytes or compute an independent checksum; this does not create a second source identity and remains a manifestation-integrity limitation only.",
+    "release_gate_effect": "No release-gate promotion. The audited release remains NOT_PASS for unrelated unresolved sources, Mundarica authoritative manifestations, Census/LSI integrity work, Rau underlying-page/integrity work, and consent/community/cultural-access gaps."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "run": 231,
+  "search_id": "MMSC-SEARCH-000231",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica Mundari grammar manifestation advancement",
+  "audited_at_utc": "2026-09-11T22:34:00Z",
+  "source": {
+    "canonical_key": "ciil:BVP03961",
+    "title": "मुण्डारी बेयाकरण | Mundari Beyakaran",
+    "author": "Sikradas Tirki",
+    "year": 2015,
+    "publisher": "K. K. Publications, Allahabad",
+    "handle": "https://hdl.handle.net/20.500.14705/8450",
+    "item_url": "https://sanchika.ciil.org/items/688fba05-30b7-40ca-af70-51764a10efe4",
+    "repository_identifier": "BVP03961",
+    "rights_holder": "Sikradas Tirki",
+    "languages": ["Mundari", "Hindi"],
+    "subject_type": "Grammar",
+    "reported_file": "BVP03961.pdf",
+    "reported_file_size": "24.04 KB",
+    "institutional_metadata_verified": true,
+    "byte_preserving_download_acquired": false,
+    "independent_hash_computed": false,
+    "full_book_manifestation_verified": false,
+    "claim_level_locator_promoted": false
+  },
+  "rights_and_governance": {
+    "public_availability_treated_as_permission": false,
+    "rights_holder_metadata_treated_as_redistribution_license": false,
+    "unrestricted_redistribution_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "deduplication": {
+    "canonicalization_basis": "repository identifier BVP03961 first; stable handle/item UUID retained as aliases",
+    "repository_code_search_exact_identifier_match_found_before_write": false,
+    "new_identity_count_increment_permitted": false,
+    "reason": "The institutional manifestation is newly audit-resolved, but absence from every controlled canonical identity registry is not independently proven; controlled counts remain frozen pending deterministic reconciliation."
+  },
+  "promotion": {
+    "promoted_beyond_discovery_only": true,
+    "promotion_level": "institutional repository metadata manifestation",
+    "promoted_to_claim_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "linguistic_proposition_promoted": false,
+    "full_text_ingested": false,
+    "lexical_rows_ingested": 0,
+    "exact_page_content_ingested": 0
+  },
+  "blocked_or_partial_actions": [
+    "Byte-preserving PDF acquisition and independent hashing were not completed in this run.",
+    "No internal page was directly verified; therefore no grammatical proposition is promoted.",
+    "Repository rights-holder metadata is not interpreted as a blanket redistribution or cultural-access permission."
+  ],
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "evidence_graph_count_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

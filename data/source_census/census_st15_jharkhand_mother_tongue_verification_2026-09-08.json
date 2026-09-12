@@ -1,0 +1,37 @@
+{
+  "verification_id": "MMSC-VERIFY-ST15-JH-20260908",
+  "verified_date": "2026-09-08",
+  "source_class": "government_census_table",
+  "institution": "Office of the Registrar General & Census Commissioner, India",
+  "catalogue_title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+  "catalogue_identity_verified": true,
+  "official_download_filename_verified": "ST-20-00-15-DDW-2011.XLSX",
+  "official_reference_id": "PC11_ST15-20",
+  "official_series_reference": "PC11_ST15",
+  "official_producer": "Office of the Registrar General & Census Commissioner, India",
+  "official_data_source": "Population Census 2011",
+  "scope_verified": {
+    "geography": "Jharkhand",
+    "census_year": 2011,
+    "table_family": "ST-15",
+    "contains_mother_tongue_categories": ["Munda", "Mundari"],
+    "contains_scheduled_tribe_by_mother_tongue_structure": true
+  },
+  "exact_locator_state": "catalogue-level identity, official downloadable workbook filename and Munda/Mundari category locators verified; workbook sheet/row/cell locators not yet extracted",
+  "promotion_state": "exact_file_locator_metadata_evidence_candidate_only",
+  "numeric_values_promoted": false,
+  "cultural_claims_promoted": false,
+  "deduplication_key": "CENSUSINDIA|2011|ST-15|JHARKHAND|PC11_ST15-20|ST-20-00-15-DDW-2011.XLSX",
+  "rights_access_governance": {
+    "public_catalogue_access": true,
+    "official_download_filename_publicly_exposed": true,
+    "underlying_workbook_reuse_rights_verified": false,
+    "participant_consent_applicable_to_catalogue_metadata": false,
+    "cultural_access_override": true,
+    "note": "Public catalogue visibility and an exposed download filename are not treated as blanket permission for downstream reuse or interpretation. Numeric promotion requires direct workbook inspection with sheet/row/cell locators and source-level verification."
+  },
+  "integrity_boundary": "Do not infer or publish Munda/Mundari population values from snippets, secondary summaries, or neighbouring tables. Retain only verified catalogue identity, official file locator, table scope, geography, census year and the presence of Munda/Mundari mother-tongue categories until the workbook itself is inspected.",
+  "blocker": "Direct workbook content inspection and checksum/sheet/row/cell extraction not completed in this cycle.",
+  "next_action": "Retrieve ST-20-00-15-DDW-2011.XLSX directly from the official Census catalogue, record checksum and sheet name, identify exact Munda/Mundari rows and cells, then promote only verified numeric evidence with provenance."
+}

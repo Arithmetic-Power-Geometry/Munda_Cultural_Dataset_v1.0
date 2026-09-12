@@ -1,0 +1,56 @@
+name: MLHKP Ingest & Validate
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'imports/pending/**/*.json'
+      - 'ingestion/**'
+      - 'schemas/**'
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run universal ingestion
+        run: python ingestion/ingest.py imports/pending
+
+      - name: Run tests
+        run: |
+          if [ -d tests ]; then
+            python -m pytest -q
+          fi
+
+      - name: Show import report
+        if: always()
+        run: |
+          if [ -f imports/reports/latest_import_report.json ]; then
+            cat imports/reports/latest_import_report.json
+          fi
+
+      - name: Commit accepted ingestion results
+        if: success()
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No repository changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source_bundles data/registry imports/pending imports/reports
+          git commit -m "chore(mlhkp): ingest validated source bundles"
+          git push

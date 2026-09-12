@@ -1,0 +1,54 @@
+{
+  "record_type": "licensed_typological_database_exact_locator_audit",
+  "stream": "datasets_grammars_linguistics",
+  "run": 163,
+  "checked_utc": "2026-09-10T11:55:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "Mundari linguistic typology and reference provenance only; no cultural generalization",
+  "wals": {
+    "language_locator": "https://wals.info/languoid/lect/wals_code_mun",
+    "language_name": "Mundari",
+    "wals_code": "mun",
+    "iso_639_3": "unr",
+    "exact_datapoint": {
+      "locator": "https://wals.info/valuesets/83A-mun",
+      "feature": "Order of Object and Verb",
+      "value": "OV",
+      "references_reported_by_wals": ["Sinha 1975", "Osada 1992"]
+    },
+    "osada_reference_locator": "https://wals.info/refdb/record/Osada-1992",
+    "osada_bibliography_as_wals_reports": "Osada, Toshiki. 1992. A Reference Grammar of Mundari. Tokyo: Institute for the Study of Languages and Cultures of Asia and Africa.",
+    "license": "Creative Commons Attribution 4.0 International",
+    "promotion_boundary": "The MLHKP may record the WALS database's own coded datapoint and provenance under CC BY 4.0 with attribution. This does not substitute for inspection of the cited Sinha or Osada grammar passages and does not authorize reproduction of independently copyrighted grammar text."
+  },
+  "grambank": {
+    "language_locator": "https://grambank.clld.org/languages/mund1320",
+    "language_name": "Mundari",
+    "glottocode": "mund1320",
+    "contributors_reported": ["Tim Witte", "Janis Reimringer"],
+    "sources_reported": ["Cook 1965", "Osada 1992", "Osada 2008"],
+    "license": "Creative Commons Attribution 4.0 International",
+    "promotion_boundary": "Grambank is used here to triangulate database identity, source bibliography and reusable database metadata. No feature value is promoted from a row that was not independently exposed and verified in this run."
+  },
+  "identity_reconciliation": {
+    "new_permanent_source_identity_assigned": false,
+    "counts_changed": false,
+    "reason": "This run strengthens the source-census and exact-locator evidence layer for licensed typological databases and known Mundari grammar bibliography. It does not yet establish that WALS or Grambank is absent from all immutable WEB-MUN raw observations, so no new permanent identity or WEB-MUN number is assigned without deterministic branch-wide reconciliation."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "database_metadata_reuse_supported": true,
+    "database_license_basis": "CC BY 4.0 as displayed on WALS and Grambank pages",
+    "underlying_grammar_fulltext_rights_inferred": false,
+    "participant_content_present_in_promoted_record": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "current_language_policy_or_population_claim_inferred": false
+  },
+  "permitted_evidence": {
+    "statement": "WALS records Mundari (WALS code mun; ISO 639-3 unr) with valueset 83A-mun, Order of Object and Verb = OV, citing Sinha 1975 and Osada 1992.",
+    "evidence_type": "licensed_database_coded_datapoint",
+    "exact_locator": "WALS valueset 83A-mun",
+    "use_constraint": "Attribute to WALS; retain as database-coded typological evidence. Do not present it as a newly verified direct quotation or page-level finding from the underlying grammars until those source passages are inspected."
+  },
+  "release_value": "Moves a discoverable dataset/grammar stream beyond generic bibliography to a licensed exact valueset locator while preserving the primary-source and cultural-governance boundary."
+}

@@ -1,0 +1,63 @@
+{
+  "verification_id": "MMSC-VERIFY-FOODS-2022-FINGER-MILLET",
+  "checked_utc": "2026-09-07T20:40:48Z",
+  "source": {
+    "proposed_source_id": "SRC-MMSC-000013",
+    "title": "Leveraging Nutrient-Rich Traditional Foods to Improve Diets among Indigenous Populations in India: Value Chain Analysis of Finger Millet and Kionaar Leaves",
+    "authors": [
+      "Shauna M. Downs",
+      "Ridhima Kapoor",
+      "Emily V. Merchant",
+      "Tamara Sullivan",
+      "Geetanjali Singh",
+      "Jessica Fanzo",
+      "Suparna Ghosh-Jerath"
+    ],
+    "journal": "Foods",
+    "year": 2022,
+    "volume": "11",
+    "issue": "23",
+    "article_number": "3774",
+    "doi": "10.3390/foods11233774",
+    "pmid": "36496581",
+    "pmcid": "PMC9736962",
+    "published": "2022-11-23"
+  },
+  "identity_verification": {
+    "doi_title_author_year_match": true,
+    "pmid_pmcid_match": true,
+    "duplicate_check": {
+      "mmsc_discoveries_exact_doi_match": false,
+      "canonical_master_register_exact_doi_match": false,
+      "dedupe_key": "doi:10.3390/foods11233774"
+    }
+  },
+  "exact_locator_evidence": {
+    "permitted_promotion_level": "study_design_and_scope_only",
+    "locators": [
+      "PMC9736962, Methods section 2.1: exploratory study with two value-chain case studies; finger millet case situated in a Munda community",
+      "PMC9736962, Methods section 2.4: in-person semi-structured interviews January-April 2022; 12 interviews for the Munda finger-millet case; purposive selection based on finger-millet farming experience",
+      "PMC9736962, Methods ethics paragraph: institutional ethics approvals, administrative approvals, cluster-level village-leader consent, and individual written or witnessed verbal consent documented by the article"
+    ],
+    "claim_boundary": "The record may state only what the article documents about its own study design, sample and methods. It must not convert interview content into generalized Munda cultural facts."
+  },
+  "rights_and_governance": {
+    "article_license": "CC BY 4.0",
+    "article_open_access": true,
+    "underlying_participant_material_reuse_permission": "not_established_by_article_license",
+    "interview_recordings_or_transcripts_reuse_permission": "not_established",
+    "community_validation": "not_established",
+    "cultural_access": "separate_gate_required_and_may_be_more_restrictive_than_copyright_entitlement",
+    "third_party_material": "item_credit_review_required_before_reuse"
+  },
+  "promotion_decision": "SUPPORTED_FOR_BOUNDED_PUBLIC_STUDY_SCOPE_EVIDENCE",
+  "excluded_from_promotion": [
+    "participant quotations",
+    "interview transcripts or recordings",
+    "participant-level data",
+    "substantive cultural claims derived from interviews",
+    "community endorsement or validation",
+    "universal claims about Munda food practice",
+    "third-party images or materials without item-level rights review"
+  ]
+}

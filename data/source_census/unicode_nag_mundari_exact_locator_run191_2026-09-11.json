@@ -1,0 +1,69 @@
+{
+  "run": 191,
+  "audit_type": "primary_standard_exact_locator",
+  "scope": "non-Mundarica",
+  "source_class": "web resources / standards / relevant media",
+  "identity": {
+    "title": "Nag Mundari code chart",
+    "publisher": "Unicode, Inc.",
+    "standard": "The Unicode Standard, Version 17.0",
+    "block": "Nag Mundari",
+    "range": "U+1E4D0-U+1E4FF",
+    "canonical_url": "https://www.unicode.org/charts/PDF/U1E4D0.pdf"
+  },
+  "verification": {
+    "primary_unicode_pdf_opened": true,
+    "pdf_pages": 2,
+    "page_image_checked": true,
+    "exact_locator": "PDF page 2 (printed p. 1780), Nag Mundari U+1E4D0-U+1E4FF",
+    "range_verified": true,
+    "letters_verified": {
+      "start": "U+1E4D0 NAG MUNDARI LETTER O",
+      "end": "U+1E4EA NAG MUNDARI LETTER ELL"
+    },
+    "signs_verified": [
+      "U+1E4EB NAG MUNDARI SIGN OJOD",
+      "U+1E4EC NAG MUNDARI SIGN MUHOR",
+      "U+1E4ED NAG MUNDARI SIGN TOYOR",
+      "U+1E4EE NAG MUNDARI SIGN IKIR",
+      "U+1E4EF NAG MUNDARI SIGN SUTUH"
+    ],
+    "digits_verified": {
+      "start": "U+1E4F0 NAG MUNDARI DIGIT ZERO",
+      "end": "U+1E4F9 NAG MUNDARI DIGIT NINE"
+    }
+  },
+  "rights_and_access": {
+    "publicly_accessible": true,
+    "copyright_notice_present": true,
+    "terms_locator": "PDF page 1, Terms of Use",
+    "public_redistribution_of_chart_assumed_permitted": false,
+    "chart_or_font_bytes_ingested": false,
+    "glyph_images_redistributed": false,
+    "rights_note": "Unicode states that reproduction/modification/public distribution is governed by its Terms of Use; this audit records metadata and exact locators only and does not redistribute the chart or font data."
+  },
+  "scope_classification": {
+    "relevance": "direct evidence for the standardized Nag Mundari character block used for Mundari writing",
+    "cultural_claim": false,
+    "participant_derived": false,
+    "community_validation_claimed": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "promotion": {
+    "level": "exact-locator evidence audit",
+    "source_identity_added": false,
+    "count_bearing": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "streamlit_module_added": false,
+    "reason": "Promoted from discoverable web lead to verified primary-standard exact locator without creating a new count-bearing source identity until deterministic source-register reconciliation is performed."
+  },
+  "integrity": {
+    "pdf_bytes_retained_locally": false,
+    "independent_checksum_verified": false,
+    "unverified_hash_fabricated": false
+  },
+  "release_effect": "Strengthens the script/standardization evidence layer and reduces discovery-only dependence; release gate remains open because unrelated source dispositions and manifestation/consent gaps remain."
+}

@@ -1,0 +1,57 @@
+{
+  "record_id": "MMSC-VERIFY-LSI-JHARKHAND-RUN116",
+  "date_utc": "2026-09-09",
+  "source_family": "Office of the Registrar General & Census Commissioner, India / Linguistic Survey of India",
+  "canonical_identity": {
+    "reference_id": "LSI_JHARKHAND",
+    "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "date_published": "2023-08-01",
+    "resource_type": "book",
+    "filename": "LSI_JHARKHAND.pdf",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "direct_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf"
+  },
+  "verified_observations": [
+    "The official ORGI NADA catalogue identifies LSI_JHARKHAND, the title, producer, publication date, and downloadable filename LSI_JHARKHAND.pdf.",
+    "The web-indexed representation of the official PDF exposes a Mundari section and shows printed page marker [278] associated with Mundari location/family material.",
+    "The indexed extraction is useful as a locator lead but is not treated as a page-image inspection or authoritative OCR verification."
+  ],
+  "page_image_attempt": {
+    "attempted": true,
+    "result": "blocked_timeout",
+    "detail": "Opening the official direct PDF endpoint for screenshot/page-image inspection returned a fetch timeout in this run; a screenshot could therefore not be resolved as application/pdf.",
+    "page_image_verified": false,
+    "ocr_or_text_layer_treated_as_verified_transcription": false
+  },
+  "rights_boundary": {
+    "catalogue_rights_text": "For any Suggestion/Clarification on the above study please write to the Senior Research Officer, Language Division, ORGI.",
+    "open_derivative_reuse_license_verified": false,
+    "public_download_is_reuse_permission": false,
+    "cultural_access_review_required_before_sensitive_content_promotion": true
+  },
+  "promotion_boundary": {
+    "bibliographic_identity_verified": true,
+    "direct_pdf_locator_verified": true,
+    "mundari_section_locator_lead_verified": true,
+    "exact_page_image_verified": false,
+    "content_claim_promoted": false,
+    "numeric_claim_promoted": false,
+    "community_validation_claimed": false,
+    "reason": "No exact official page-image inspection was completed in this run and reuse/cultural-access boundaries remain unresolved for content-level ingestion."
+  },
+  "deduplication_rule": "Treat the ORGI catalogue record and its direct PDF as manifestations/access locators for one LSI_JHARKHAND work identity; do not double-count them as separate sources.",
+  "release_effect": "Narrows the LSI blocker from identity/locator uncertainty to page-image and rights/cultural-access verification. No permanent SOURCE/CLAIM/EVIDENCE count is increased by this artifact alone.",
+  "sources_checked": [
+    "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+    "https://censusindia.gov.in/census.website/data/LSI"
+  ],
+  "integrity": {
+    "fabricated_fact": false,
+    "fabricated_count": false,
+    "fabricated_rights": false,
+    "fabricated_verification": false,
+    "absolute_completeness_claimed": false
+  }
+}

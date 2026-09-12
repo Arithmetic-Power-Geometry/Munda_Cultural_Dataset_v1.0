@@ -1,0 +1,100 @@
+{
+  "record_type": "source_manifestation_reconciliation",
+  "run_id": 135,
+  "verified_on": "2026-09-10",
+  "work": {
+    "title": "मुण्डारी-व्याकरण / Mundari-Vyakaran",
+    "author": "Ramdayal Munda",
+    "language": ["Mundari", "Hindi"],
+    "genre": "grammar"
+  },
+  "verified_manifestations_and_catalogues": [
+    {
+      "source": "Bhasha Sanchika — Central Institute of Indian Languages",
+      "persistent_id": "https://hdl.handle.net/20.500.14705/8429",
+      "repository_item_id": "38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+      "identifier_other": "BVP00202",
+      "year": 2013,
+      "publisher": "Rumbul, Ranchi, Jharkhand",
+      "rights_holder": "RUMBUL",
+      "filename": "BVP00202.pdf",
+      "reported_file_size": "9.04 KB",
+      "access_state": "public catalogue/item page with linked PDF object",
+      "rights_observation": "Bhasha Sanchika displays All Rights Reserved; no open licence for book content was verified.",
+      "content_level_ingestion_permitted": false
+    },
+    {
+      "source": "Bharatavani — Ministry of Education / CIIL project",
+      "year": 2013,
+      "author": "Ramdayal Munda",
+      "publisher": "Rumbul, Ranchi, Jharkhand",
+      "content_partner": "RUMBUL",
+      "book_type": "Grammar",
+      "reported_pdf_size": "0.17 MB",
+      "access_state": "Login to Read",
+      "rights_observation": "Bharatavani access is login-gated and its site copyright notice is All Rights Reserved; this is not treated as redistribution permission.",
+      "content_level_ingestion_permitted": false
+    },
+    {
+      "source": "Bharatavani Jnanakosha catalogue index",
+      "catalogue_title": "Rumbul Mundari Vyakaran",
+      "author": "Dr. Ramdayal Munda",
+      "catalogue_year": 1978,
+      "catalogue_sequence": 5161,
+      "role": "edition-history lead only"
+    },
+    {
+      "source": "Paul Sidwell — Austroasiatic Bibliographic Resources",
+      "bibliographic_entry": "Munda, Ram Dayal. 1988. muNDArI-vyAkaraN. rAMcI: choTAnAgpur prakASan kendra.",
+      "role": "independent bibliographic edition/manifestation lead only"
+    }
+  ],
+  "deterministic_identity_decision": {
+    "canonical_work_key": "munda_ramdayal|mundari_vyakaran|grammar",
+    "decision": "Treat the CIIL/Bhasha Sanchika and Bharatavani 2013 records as catalogue/access manifestations of the same 2013 Rumbul grammar object. Do not create separate source identities for the two portals.",
+    "edition_history_state": "unresolved",
+    "edition_history_note": "Bharatavani's index exposes a 1978 Rumbul Mundari Vyakaran entry, while an independent Austroasiatic bibliography lists a 1988 Ranchi edition/manifestation. These dates are preserved as edition-history leads and are not forced into a first/second/third-edition sequence without title-page or publisher evidence.",
+    "manifestation_discrepancy": "Bhasha Sanchika reports BVP00202.pdf as 9.04 KB whereas Bharatavani reports the 2013 PDF as 0.17 MB. The small repository object must not be assumed to be the complete grammar until bytes and page accounting are independently verified.",
+    "complete_manifestation_verified": false
+  },
+  "exact_locator_evidence_permitted_now": [
+    "CIIL handle 20.500.14705/8429",
+    "repository item 38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+    "identifier BVP00202",
+    "filename BVP00202.pdf and reported size 9.04 KB",
+    "Bharatavani 2013 metadata, RUMBUL content-partner identity and reported size 0.17 MB",
+    "Bharatavani catalogue sequence 5161 for the 1978 edition-history lead"
+  ],
+  "not_promoted": [
+    "grammar rules",
+    "lexical entries",
+    "example sentences",
+    "page-dependent propositions",
+    "bulk text or scans",
+    "redistribution rights",
+    "community-wide cultural claims",
+    "unverified edition sequence"
+  ],
+  "rights_and_cultural_boundary": {
+    "public_catalogue_access_is_reuse_permission": false,
+    "login_read_access_is_reuse_permission": false,
+    "open_licence_verified": false,
+    "participant_or_community_consent_inferred": false,
+    "cultural_access_override_required_for_sensitive_material": true
+  },
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "gap_narrowed": "Ramdayal Munda grammar now has exact CIIL handle/item/file metadata, Bharatavani manifestation metadata, and an explicit unresolved edition-history boundary. Complete lawful bytes, independent checksum, page accounting and edition-title-page evidence remain pending."
+  },
+  "sources_checked": [
+    "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+    "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636/full",
+    "https://hdl.handle.net/20.500.14705/8429",
+    "https://bharatavani.in/home/book?id=मुण्डारी-व्याकरण%20%7C%20Mundari-Vyakaran",
+    "https://sec.bharatavani.in/home/jnanakosha?page=323",
+    "https://sites.google.com/view/paulsidwell/austroasiatic-bibliographic-resources"
+  ]
+}

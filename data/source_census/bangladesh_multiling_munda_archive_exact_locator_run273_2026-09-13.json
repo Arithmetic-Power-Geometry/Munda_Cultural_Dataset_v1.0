@@ -1,0 +1,78 @@
+{
+  "run_id": 273,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica / government web archive / audio-dataset exact locator",
+  "scope_class": ["government_TRI_Census_LSI", "web_resources", "datasets", "audio", "relevant_media"],
+  "purpose": "Promote the official Bangladesh Multiling Cloud Munda archive from a discoverable lead to a source-level exact locator and bounded archive-cardinality record without importing participant-derived or cultural content.",
+  "source": {
+    "title": "Munda | Multiling Cloud",
+    "publisher_context": "Bangladesh government Multiling Cloud / EBLICT; BCC - ICTD",
+    "canonical_url": "https://lob.bangla.gov.bd/languages/munda",
+    "archive_index_url": "https://lob.bangla.gov.bd/languages",
+    "contact_domain": "bangla.gov.bd",
+    "language_family_displayed": "Austroasiatic",
+    "display_name": "Munda",
+    "bangla_display_name": "মুন্ডা",
+    "listed_locations": ["Naogaon", "Dinajpur", "Khulna", "Rajshahi", "Sylhet", "Maulvibazar"],
+    "full_archive_units_displayed": 860,
+    "archive_index_sentences_displayed": 860,
+    "archive_index_minutes_displayed": 280,
+    "directed_sentences_displayed": 0,
+    "spontaneous_speech_displayed": 0,
+    "dictionary_words_displayed": 0,
+    "rights_notice": "© 2026 BCC - ICTD. All rights reserved.",
+    "access_surface": "public catalogue/profile page; archive items not acquired in this run"
+  },
+  "verification": {
+    "official_domain_verified": true,
+    "language_profile_verified": true,
+    "archive_cardinality_verified_from_profile": true,
+    "archive_index_cardinality_and_minutes_verified": true,
+    "individual_record_bytes_acquired": false,
+    "individual_record_hashes_verified": false,
+    "individual_transcriptions_verified": false,
+    "individual_audio_locators_verified": false,
+    "speaker_metadata_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false
+  },
+  "scope_classification": {
+    "mlhkp_core_geography": false,
+    "classification": "comparative/contextual Mundari-Munda language evidence outside the Jharkhand core geography",
+    "permitted_use_in_this_run": "source metadata, archive cardinality and explicit gap documentation only",
+    "cultural_claim_promotion_allowed": false
+  },
+  "rights_and_cultural_boundary": {
+    "rights_status": "all rights reserved on the official site",
+    "public_access_treated_as_redistribution_permission": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "audio_units_promoted": 0,
+    "transcription_rows_promoted": 0,
+    "participant_rows_promoted": 0,
+    "controlled_cultural_claims_promoted": 0,
+    "note": "The archive is valuable discovery and source-level evidence, but the site-wide all-rights-reserved notice and absence of record-level consent/access verification prevent content ingestion in this run."
+  },
+  "deduplication": {
+    "canonical_key": "gov-bd:multiling-cloud:munda",
+    "identity_count_change": false,
+    "reason_count_neutral": "The candidate has not yet been reconciled against all 73 unresolved WEB-MUN leads; no new controlled identity is counted until deterministic disposition is complete."
+  },
+  "promotion": {
+    "level": "exact official source locator plus archive cardinality/access-rights boundary",
+    "verification_audits_added": 1,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "audio_units_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Deterministically reconcile gov-bd:multiling-cloud:munda against the 73 unresolved WEB-MUN leads before any identity-count change.",
+    "Acquire record-level metadata only through a permitted path and preserve stable individual locators.",
+    "Verify record-level rights, speaker/participant consent and community/cultural-access conditions before any audio or transcription ingestion.",
+    "Do not generalize Bangladesh Munda archive observations to Jharkhand Munda communities without separately supported evidence."
+  ]
+}

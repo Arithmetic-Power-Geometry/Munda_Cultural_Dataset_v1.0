@@ -1,0 +1,94 @@
+{
+  "record_type": "exact_locator_open_access_manifestation_verification",
+  "run_id": "MMSC-SEARCH-000123",
+  "scope": "non-Mundarica MMSC source census",
+  "work_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "journal": "Linguistic Typology",
+    "volume": "9",
+    "issue": "3",
+    "publication_year": 2005,
+    "printed_pages": "351-390",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "canonicalization_key": "doi:10.1515/lity.2005.9.3.351"
+  },
+  "verified_manifestations": [
+    {
+      "authority": "Australian National University Open Research Repository",
+      "manifestation": "institutional repository item and downloadable PDF metadata",
+      "url": "https://openresearch-repository.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+      "persistent_uri": "http://hdl.handle.net/1885/54663",
+      "access_statement": "Open Access",
+      "repository_file": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+      "repository_reported_file_size": "234.31 KB",
+      "full_pdf_bytes_independently_hashed": false,
+      "pdf_content_inspected_this_run": false,
+      "blocker": "repository item open via search/index metadata but direct fetch returned HTTP 403 during this run"
+    },
+    {
+      "authority": "De Gruyter Mouton",
+      "manifestation": "publisher article record",
+      "url": "https://www.degruyter.com/document/doi/10.1515/lity.2005.9.3.351/html",
+      "doi": "10.1515/lity.2005.9.3.351",
+      "publisher_online_date": "2005-12-21",
+      "publisher_print_date": "2005-12-12",
+      "pagination": "351-390"
+    },
+    {
+      "authority": "ANU Research Portal",
+      "manifestation": "institutional bibliographic record",
+      "url": "https://researchportalplus.anu.edu.au/en/publications/mundari-the-myth-of-a-language-without-word-classes/",
+      "pagination": "351-390",
+      "number_of_pages": 40,
+      "publication_month": "2005-12"
+    }
+  ],
+  "exact_locators": [
+    {
+      "locator": "publisher abstract",
+      "supported_observation": "The article evaluates earlier claims that Mundari lacks stable word classes and states that the analysis uses Hoffmann's corpus together with substantial new data, including a large lexical sample.",
+      "promotion_class": "article_scope_and_method_provenance"
+    },
+    {
+      "locator": "publisher abstract",
+      "supported_observation": "The authors report their article-level conclusion that Mundari has definable word classes, including open noun and verb classes and a closed adjective class, while noting productive predicative uses.",
+      "promotion_class": "bounded_peer_reviewed_linguistic_claim"
+    },
+    {
+      "locator": "ANU repository item metadata",
+      "supported_observation": "ANU marks the repository manifestation Open Access and lists a downloadable PDF named 01_Evans_Mundari:_The_myth_of_a_2005.pdf at 234.31 KB.",
+      "promotion_class": "manifestation_access_provenance"
+    }
+  ],
+  "deduplication": {
+    "decision": "canonicalize ANU Open Research Repository, ANU Research Portal, De Gruyter, Glottolog and other bibliographic manifestations to one work identity by DOI",
+    "do_not_merge_with": ["Hoffmann 1903 Mundari Grammar", "Osada Reference Grammar of Mundari", "underlying Evans/Osada lexical or field datasets"],
+    "reason": "citation, source use or authorship overlap does not establish work or dataset identity"
+  },
+  "rights_consent_cultural_access": {
+    "repository_open_access_is_blanket_reuse_permission": false,
+    "exact_open_licence_variant_verified": false,
+    "publisher_text_redistributed": false,
+    "bulk_lexical_material_ingested": false,
+    "underlying_field_data_ingested": false,
+    "participant_consent_inferred_from_article_publication": false,
+    "community_validation_inferred": false,
+    "cultural_access_review_required_for_participant_or_sensitive_material": true
+  },
+  "promotion_boundary": "Promote bibliographic identity, repository manifestation/access state, publisher abstract-level methodological provenance and bounded peer-reviewed article conclusion only. Do not ingest or redistribute underlying lexical samples, field records, participant-derived material, or publisher text without separate rights/consent/cultural-access review.",
+  "verification_state": {
+    "identity_verified": true,
+    "doi_verified": true,
+    "pagination_verified": true,
+    "institutional_open_access_manifestation_verified": true,
+    "repository_pdf_filename_and_reported_size_verified": true,
+    "pdf_bytes_independently_hashed": false,
+    "full_text_exact_page_locators_verified": false,
+    "exact_open_reuse_licence_verified": false,
+    "safe_for_bounded_metadata_and_abstract_level_promotion": true,
+    "safe_for_underlying_data_ingestion": false
+  },
+  "sources_checked_utc_date": "2026-09-09",
+  "integrity_note": "Direct repository fetch was blocked by HTTP 403 after authoritative search/index metadata exposed the item. The blockage is recorded rather than bypassed. No page-level locator, checksum, licence variant, participant consent or community-wide cultural generalization is fabricated."
+}
