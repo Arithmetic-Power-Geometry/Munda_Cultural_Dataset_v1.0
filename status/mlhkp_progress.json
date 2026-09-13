@@ -3,16 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T17:48:00Z",
+  "updated_utc": "2026-09-13T18:38:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 316,
-  "previous_final_head": "d4829f499333e3e0e675dd0aef0b9bac4499c030",
-  "work_head_before_status_sync": "f40b04aee81c18a3d2ddf249e626bebd2ff29045",
+  "latest_run": 317,
+  "previous_final_head": "0156c4b77323ee81a4935bd64280a76c2a9e6120",
+  "work_head_before_status_sync": "f02c75c3fc38d21de87e99d3777d990253ea8eab",
   "cycle_commits": [
-    "8ee01466f4088537c2910dae7b9f9a596ddffa49",
-    "358a282cd3998bded39613a415a827159736a5d7",
-    "2fcc9b30050663a2bd2b68f2ba6c2941f360c79a",
-    "f40b04aee81c18a3d2ddf249e626bebd2ff29045"
+    "c6395cb8d98d1e0544765dad899b9fb6b9b9c20d",
+    "f02c75c3fc38d21de87e99d3777d990253ea8eab"
   ],
   "mmsc": {
     "audited_source_identities": 42,
@@ -21,9 +19,34 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000316",
+    "latest_search_id": "MMSC-SEARCH-000317",
     "controlled_classes_refreshed_this_run": 14,
-    "systematic_census_documented_for_release": true
+    "systematic_census_documented_for_release": true,
+    "run317_candidate_publication_reconciliation_pending": true
+  },
+  "mundarica": {
+    "authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0,
+    "false_ocr_verification_known": false,
+    "per_volume_states": {
+      "I": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
+      "II": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
+      "III": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
+      "IV": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
+      "V": "primary bytes/hash/page-image/OCR closure pending",
+      "VI": "primary bytes/hash/page-image/OCR closure pending",
+      "VII": "primary bytes/hash/page-image/OCR closure pending",
+      "VIII": "historical page anchors recorded previously; primary bytes/hash/page-image/OCR closure pending",
+      "IX": "grouped historical page-accounting context recorded previously; individual primary closure pending",
+      "X": "grouped historical page-accounting context recorded previously; individual primary closure pending",
+      "XI": "historical page anchors recorded previously; primary bytes/hash/page-image/OCR closure pending",
+      "XII": "modern reprint pagination metadata recorded previously; primary historical manifestation closure pending",
+      "XIII": "historical manifestation locator recorded previously; primary bytes/hash/page-image/OCR closure pending",
+      "XIV": "primary bytes/hash/page-image/OCR closure pending",
+      "XV": "primary bytes/hash/page-image/OCR closure pending",
+      "XVI": "pagination conflict recorded previously; primary manifestation resolution and OCR closure pending"
+    }
   },
   "evidence": {
     "claims": 52,
@@ -32,7 +55,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run316_count_neutral_locator_only": true
+    "run317_count_neutral_publication_locator_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -42,27 +65,30 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run316_no_module_mutation_required": true
+    "count_neutral_run317_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
     "restricted_content_not_exposed": true,
     "community_validation_not_fabricated": true,
+    "bmc_2025_article_version_of_record_verified": true,
+    "bmc_2025_article_license": "CC BY 4.0",
+    "bmc_2025_underlying_participant_data_publicly_downloadable": false,
+    "bmc_2025_participant_consent_not_treated_as_dataset_reuse_permission": true,
+    "bmc_2025_community_validation_not_inferred": true,
     "rau_2019_zenodo_exact_manifestation_locator_verified": true,
-    "rau_2019_doi": "10.5281/zenodo.3380874",
-    "rau_2019_filename": "pMunda_cognate_set_2019-08-29.csv",
     "rau_2019_publisher_declared_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
     "rau_2019_independent_hash_recomputed": false,
     "rau_2019_explicit_license_text_verified": false,
-    "rau_open_status_not_treated_as_reuse_permission": true
+    "rau_run317_direct_byte_retrieval_attempt_failed": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "Run 316 is count-neutral: Rau 2019 was upgraded to an exact Zenodo manifestation locator with publisher-declared MD5 metadata. Independent bytes/hash and explicit license remain unresolved; controlled evidence/source/module totals and publication metrics therefore remain unchanged and synchronized."
+    "build_state": "Run 317 remains metric-neutral. A 2025 BMC Nutrition Munda-community publication was verified at version-of-record and article-rights level, while its underlying participant dataset remains request-only. No new controlled claim/evidence/source identity was promoted pending deterministic numbered-register reconciliation and cultural-access review."
   },
   "ci": {
-    "previous_green_head": "e3fe357bb4dee4f00004a6ed1e70063ca481ea48",
+    "previous_green_head": "0156c4b77323ee81a4935bd64280a76c2a9e6120",
     "previous_green_head_four_of_four": true,
     "previous_green_workflows": [
       "MLHKP Source Register Audit",
@@ -70,10 +96,13 @@
       "MLHKP Streamlit Smoke Test",
       "MLHKP Publication Build"
     ],
-    "fresh_run316_final_head_ci_verified": false
+    "run316_actions_total": 4,
+    "fresh_run317_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved WEB-MUN leads",
+    "deterministic reconciliation of the Run 317 BMC publication against the numbered MMSC/WEB-MUN register",
+    "Mundarica I-XVI primary-byte acquisition/hash/page-image concordance/OCR verification",
     "ST-20-00-15-DDW-2011.XLSX permitted acquisition/hash/sheet/numeric-cell verification",
     "DDW-C17-2000.XLSX acquisition/hash/sheet/numeric-cell verification",
     "LSI/Atlas primary-page verification",
@@ -94,9 +123,15 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 316 refreshed all 14 controlled non-Mundarica source classes and upgraded Felix Rau's 2019 Munda cognate set to an exact Zenodo manifestation locator. Zenodo verifies DOI 10.5281/zenodo.3380874, version 0.1.0, 127 cognate sets including Mundari, exact CSV filename pMunda_cognate_set_2019-08-29.csv, declared size 34.9 kB and publisher-declared MD5 07e1d945a0fc6cafc4fc7afd3f1ff144. Independent byte acquisition/hash recomputation and explicit license terms remain unresolved, so no lexical rows, controlled evidence or cultural claims were promoted and counts remain unchanged.",
+  "cycle_note": "Run 317 refreshed all 14 MMSC classes and verified the 2025 BMC Nutrition article 'Indigenous food environment and dietary patterns of Munda community of Jharkhand, India' as a public version of record under CC BY 4.0. The article reports ethics/consent and states that study datasets are available only from the corresponding author on reasonable request. Article openness and participant consent are therefore not treated as permission to ingest unpublished participant data, community validation, or cultural-access clearance. The candidate remains count-neutral until deterministic numbered-register reconciliation. A direct Rau CSV byte retrieval attempt failed again, so the publisher-declared MD5 remains metadata and is not represented as an independent hash. Mundarica I-XVI per-volume states are now explicit in the progress ledger; no scan or OCR completeness was promoted.",
+  "deadline_progress": {
+    "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
+    "gate_passed": false,
+    "absolute_or_future_proof_source_completeness_claimed": false
+  },
   "next_parallel_tasks": [
-    "numbered WEB-MUN disposition",
+    "numbered WEB-MUN disposition and Run 317 publication reconciliation",
+    "Mundarica primary-byte/hash/page-image/OCR closure",
     "Rau independent byte/hash and license verification",
     "ST-15 workbook permitted acquisition and independent verification",
     "C-17 workbook permitted acquisition and independent verification",
