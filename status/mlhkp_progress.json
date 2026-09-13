@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-13T08:38:00Z",
+  "updated_utc": "2026-09-13T09:00:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 297,
-  "previous_final_head": "0c2dce66e00c2d45b66a6b9ac680dfd0286454d1",
-  "work_head_before_status_sync": "f1f478e86d48243dfa80884156c520b7a55fbcc2",
-  "cycle_result": "Run 297 refreshed all 14 controlled MMSC classes and pinned the official ORGI LSI_JHARKHAND.pdf Mundari source locator as first-party discovery evidence. The official Census host exposes Mundari-section indexed text, but a direct PDF retrieval attempt returned HTTP 502 Bad Gateway. Therefore no PDF bytes, independent hash, page-image concordance, OCR verification, cultural facts, counts, language forms, participant consent, community validation or cultural-access permission were promoted. The failure is recorded as a byte-integrity blocker while other independent streams remain active.",
+  "latest_run": 298,
+  "previous_final_head": "779102ea7c03ce6d4b4fe2a5720826bf3dffec8b",
+  "work_head_before_status_sync": "67f41407465bb380d4292c7e5c6176b19e11e43b",
+  "cycle_result": "Run 298 refreshed all 14 controlled MMSC classes and promoted an exact first-party repository manifestation locator for SCSTRTI's 2016 Mundari handbook: record SCST/2016/0055, handle 123456789/73851, file SCST_2016_handbook_0055.pdf, declared pagination 28, ISBN 978-93-80705-53-8. The first-party indexed record is verified at metadata level, while the direct handle fetch failed from the current path and PDF bytes, independent hash, page-image concordance, OCR, bulk-reuse rights and cultural-governance closure remain unverified. No cultural proposition, linguistic form, participant-derived content or controlled evidence row was promoted. LSI West Bengal byte retrieval was retried and remained transport-blocked; that gap remains explicit.",
   "cycle_commits": {
-    "run297_lsi_jharkhand_locator_audit": "87985d1340f503a7c61effae0353ead240b90b10",
-    "run297_all_class_search_log": "f1f478e86d48243dfa80884156c520b7a55fbcc2"
+    "run298_scstrti_mundari_handbook_locator": "2494eca0be0bf03017a86cb4f994af85c34bb2a5",
+    "run298_all_class_search_log": "34b3231fe4ed6c956d60bbb1c4e03429910f4bba",
+    "run298_boundary_tests": "67f41407465bb380d4292c7e5c6176b19e11e43b"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,27 +27,22 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000297",
-    "latest_search_log": "data/source_census/search_log_run297.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000298",
+    "latest_search_log": "data/source_census/search_log_run298.jsonl",
     "latest_source_audits": [
+      "data/source_census/scstrti_mundari_photo_handbook_exact_locator_run298_2026-09-13.json",
       "data/source_census/lsi_jharkhand_mundari_official_locator_run297_2026-09-13.json",
-      "data/source_census/lsi_west_bengal_mundari_primary_page_locator_run296_2026-09-13.json",
-      "data/source_census/mundari_name_collision_south_sudan_exclusion_run295_2026-09-13.json"
+      "data/source_census/lsi_west_bengal_mundari_primary_page_locator_run296_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run297_count_change": "none; the LSI Jharkhand locator reconciles to an existing ORGI/LSI source family and no exact numbered WEB-MUN lead match was proven"
+    "run298_count_change": "none; the SCSTRTI manifestation locator is deliberately count-neutral until an exact numbered WEB-MUN/register reconciliation is proven"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 291,
-    "per_volume_state": {
-      "I-XIII": "Historical scan-byte/hash/page-image/OCR closure remains open; no verified-complete volume.",
-      "XIV": "2009 Gyan manifestation cross-checked: ISBN-13 9788121203180, ISBN-10 812120318X, 603 modern-reprint pages; historical primary bytes/hash/page concordance/OCR remain unverified.",
-      "XV-XVI": "Historical scan-byte/hash/page-image/OCR closure remains open; no verified-complete volume."
-    },
     "state": "0 authoritative registered scans; 0 verified-complete volumes; unavailable historical bytes are not marked complete and modern reprint pagination is not substituted for historical scan accounting."
   },
   "evidence_and_schema": {
@@ -60,11 +56,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run297": 0,
-    "evidence_records_added_run297": 0,
-    "evidence_links_added_run297": 0,
-    "verification_audits_added_run297": 1,
-    "run297_promotion_level": "first-party official source locator only"
+    "claims_added_run298": 0,
+    "evidence_records_added_run298": 0,
+    "evidence_links_added_run298": 0,
+    "verification_audits_added_run298": 1,
+    "run298_promotion_level": "exact first-party repository manifestation metadata locator only"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -75,21 +71,22 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run297_change": "No module-count or public-content-row change; locator and blocker artifacts remain separated from controlled evidence surfaces until integrity and governance gates pass."
+    "run298_change": "No module-count or public-content-row change; the new locator remains searchable/auditable source-census metadata and is not exposed as controlled cultural evidence until integrity, rights and governance gates pass."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "participant_consent_inferred_run297": false,
-    "community_validation_inferred_run297": false,
-    "cultural_access_permission_inferred_run297": false,
+    "participant_consent_inferred_run298": false,
+    "community_validation_inferred_run298": false,
+    "cultural_access_permission_inferred_run298": false,
+    "scstrti_mundari_handbook_repository_metadata_verified": true,
+    "scstrti_mundari_handbook_pdf_bytes_verified": false,
+    "scstrti_mundari_handbook_independent_hash_verified": false,
+    "scstrti_mundari_handbook_content_promoted": false,
     "lsi_jharkhand_official_locator_verified": true,
     "lsi_jharkhand_independent_bytes_verified": false,
-    "lsi_jharkhand_independent_hash_verified": false,
-    "lsi_jharkhand_ocr_verified": false,
-    "lsi_jharkhand_indexed_content_promoted": false,
     "lsi_wb_mundari_primary_page_locator_verified": true,
     "lsi_wb_mundari_independent_bytes_verified": false,
     "language_atlas_2011_first_party_catalogue_and_ebook_locator_verified": true,
@@ -110,22 +107,22 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 297 deepens first-party source-locator verification without changing controlled counts.",
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 298 adds a count-neutral exact first-party TRI manifestation locator without manufacturing a source identity or evidence row.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 296 final head 0c2dce66e00c2d45b66a6b9ac680dfd0286454d1 is independently verified 4/4 green. Run 297 final-head CI must not be labelled green until commit-associated workflows complete."
+    "build_state": "Run 298 final-head CI must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
     "previous_green_head": "0c2dce66e00c2d45b66a6b9ac680dfd0286454d1",
     "previous_green_head_four_of_four": true,
-    "previous_green_check_summary": "Four commit-associated GitHub Actions checks completed successfully on Run 296: two audit jobs, Streamlit smoke, and publication build.",
-    "run297_work_head": "f1f478e86d48243dfa80884156c520b7a55fbcc2",
-    "fresh_run297_final_head_ci_verified": false,
-    "fresh_run297_final_head_ci_note": "Do not claim Run 297 green until all four commit-associated workflows complete successfully."
+    "run298_work_head": "67f41407465bb380d4292c7e5c6176b19e11e43b",
+    "fresh_run298_final_head_ci_verified": false,
+    "fresh_run298_final_head_ci_note": "Do not claim Run 298 green until all commit-associated workflows on the final status-sync head complete successfully."
   },
   "blockers": [
-    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization; Run 297 did not decrement this count without a proven numbered-lead match.",
-    "LSI_JHARKHAND.pdf has a verified official ORGI locator and indexed Mundari-section text, but direct PDF retrieval returned HTTP 502 during Run 297; bytes/hash/page inventory/page-image/OCR and governance closure remain open.",
-    "LSI_WB_PART_I.pdf has a first-party Mundari exact-page locator at printed page 391, but independent PDF bytes/hash, complete page inventory, page concordance/OCR and participant/community/cultural-access review remain open before elicited content promotion.",
+    "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization; Run 298 did not decrement this count without a proven numbered-lead match.",
+    "SCSTRTI 2016 Mundari handbook record SCST/2016/0055 is pinned to exact first-party manifestation metadata, but PDF bytes, independent hash, page-image concordance/OCR, bulk-reuse rights and cultural-governance review remain open.",
+    "LSI_JHARKHAND.pdf has a verified official ORGI locator, but bytes/hash/page inventory/page-image/OCR and governance closure remain open.",
+    "LSI_WB_PART_I.pdf has a first-party Mundari exact-page locator at printed page 391, but independent PDF bytes/hash, complete page inventory, page concordance/OCR and participant/community/cultural-access review remain open; Run 298 retry remained transport-blocked.",
     "Language_Atlas_2011 has a verified first-party ORGI catalogue/eBook and Mundari Speakers 2011 target, but independent PDF bytes/hash/exact map-page verification remain open.",
     "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes.",
     "ORGI DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact MUNDA/MUNDARI rows/cells and numeric values remain unverified.",
@@ -153,12 +150,12 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Gate remains open because unresolved source dispositions, Mundarica and other primary-manifestation/hash gaps, Census workbook gaps, LSI/Atlas byte and primary-page gaps, remaining Peiros/LSI reconciliation, Rau integrity work, and audiovisual/dataset rights-consent-community-cultural-access gates remain unresolved."
+    "reason": "Gate remains open because unresolved source dispositions, primary manifestation/hash gaps, Census workbook gaps, LSI/Atlas byte and primary-page gaps, remaining Peiros/LSI reconciliation, Rau integrity work, and audiovisual/dataset rights-consent-community-cultural-access gates remain unresolved."
   },
   "next_parallel_tasks": [
     "Match unresolved WEB-MUN records by exact numbered identity before decrementing the 73-lead backlog.",
-    "Retry permitted LSI_JHARKHAND.pdf byte acquisition; independently hash and verify page-image/page-number concordance before content promotion.",
-    "Acquire LSI_WB_PART_I.pdf through a permitted byte-preserving path, independently hash it and verify printed-page/PDF-page concordance before promoting elicited content.",
+    "Acquire and independently hash SCST_2016_handbook_0055.pdf through a permitted path; verify page-image concordance and rights/cultural-access status before content promotion.",
+    "Retry permitted LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf byte acquisition and independently verify hashes/page concordance.",
     "Retry permitted official Language_Atlas_2011.pdf acquisition and verify the exact Mundari Speakers 2011 map page and hash.",
     "Continue exact MUNDARI row/Parameter_ID/Concepticon reconciliation in pinned Lexibank LSI and independently verify primary page images.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash and verify exact MUNDA/MUNDARI cells.",
