@@ -1,0 +1,69 @@
+{
+  "run_id": 298,
+  "audit_type": "official_repository_manifestation_locator",
+  "scope": "non-Mundarica",
+  "canonical_work": {
+    "title": "Mundari",
+    "document_type": "Hand Book",
+    "authors_editors": ["AB Ota", "SC Mohanty", "Soumalin Mohanty"],
+    "completed_date": "2016-07",
+    "publisher_repository_context": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Bhubaneswar; Ministry of Tribal Affairs repository",
+    "record_id": "SCST/2016/0055",
+    "handle": "123456789/73851",
+    "file_name": "SCST_2016_handbook_0055.pdf",
+    "declared_file_size": "108.3 MB",
+    "declared_pagination": 28,
+    "isbn_13": "978-93-80705-53-8",
+    "tribal_research_institute": "SC/ST Research & Training Institute, Odisha",
+    "sector": "Ethnographic studies"
+  },
+  "verification": {
+    "first_party_repository_search_result_verified": true,
+    "exact_record_id_verified": true,
+    "exact_handle_verified": true,
+    "exact_file_name_verified": true,
+    "declared_file_size_verified_as_repository_metadata": true,
+    "declared_pagination_verified_as_repository_metadata": true,
+    "isbn_verified_as_repository_metadata": true,
+    "direct_handle_fetch_this_run": "404 from current fetch path after indexed first-party result was returned",
+    "pdf_bytes_acquired": false,
+    "independent_sha256_computed": false,
+    "page_image_concordance_verified": false,
+    "ocr_verified": false,
+    "content_claims_promoted": false
+  },
+  "scope_classification": {
+    "source_class": "government_TRI_Census_LSI",
+    "secondary_classes": ["books", "relevant_media"],
+    "geographic_scope": "Odisha",
+    "population_scope": "Mundari/Munda-related ethnographic handbook",
+    "use_in_mlhkp": "exact source/manifestation locator and acquisition target only until integrity and governance gates pass"
+  },
+  "rights_access_governance": {
+    "public_repository_listing_is_not_reuse_permission": true,
+    "rights_for_bulk_text_or_image_redistribution_verified": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_claims_promoted": false,
+    "restricted_or_sensitive_content_exposed": false
+  },
+  "deduplication": {
+    "canonicalization_key": "SCSTRTI|SCST/2016/0055|978-93-80705-53-8|Mundari|2016",
+    "new_controlled_source_identity_counted": false,
+    "reason": "No exact numbered WEB-MUN lead reconciliation was proven in this run; the locator is retained count-neutral until deterministic register reconciliation."
+  },
+  "promotion": {
+    "level": "exact first-party repository manifestation metadata locator",
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "permitted_promoted_fields": ["title", "document type", "authors/editors", "completed date", "record ID", "handle", "file name", "declared file size", "declared pagination", "ISBN", "repository/institute identity"],
+    "withheld_until_verified": ["PDF text", "page images", "OCR", "ethnographic assertions", "linguistic forms", "participant-derived material", "cultural claims"]
+  },
+  "source": {
+    "url": "https://repository.tribal.gov.in/handle/123456789/73851",
+    "retrieved_date": "2026-09-13",
+    "repository": "Ministry of Tribal Affairs repository"
+  }
+}
