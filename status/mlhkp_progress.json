@@ -4,17 +4,16 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-13T05:45:00Z",
+  "updated_utc": "2026-09-13T06:30:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 292,
-  "previous_final_head": "7e35266e645f2639187850e0f2055bb2206f2ff4",
-  "work_head_before_status_sync": "283f25a3378eefe57bc712f076af2b27d5db6d4b",
-  "cycle_result": "Run 292 searched all 14 controlled MMSC classes and advanced the non-Mundarica CIIL grammar stream from generic discovery to an exact first-party repository/file locator. N. K. Sinha's 1975 Mundari Grammar is verified at Bhasha Sanchika with persistent handle 20.500.14705/8179 and file locator CIILP0091.pdf. The available direct bitstream retrieval path failed, the repository carries an All Rights Reserved notice, and bytes/hash/pages/OCR/reuse permission were therefore not promoted. No linguistic example, cultural claim, consent state, community validation or cultural-access permission was fabricated.",
+  "latest_run": 293,
+  "previous_final_head": "188654b2c14926568d3e0d10f730d6d38b69f712",
+  "work_head_before_status_sync": "ea9cd35e268c5f548ac3fcef8a7e7afb73248df2",
+  "cycle_result": "Run 293 searched all 14 controlled MMSC classes and advanced the CIIL Sinha 1975 grammar stream from file-locator-only to direct bitstream-render verification. The repository file link resolved to a PDF whose renderer reports one page; the visible page is a cover identifying Mundari Grammar, N. K. Sinha, and the Central Institute of Indian Languages. This one-page render is explicitly NOT treated as a verified-complete copy of the 1975 grammar. No byte-preserving acquisition, independent hash, OCR, linguistic examples, cultural claims, reuse rights, participant consent, community validation or cultural-access permission were promoted.",
   "cycle_commits": {
-    "run292_ciil_sinha_grammar_locator": "a17b5ef24e6e5463b622e0948f76fe0fcad8dd52",
-    "run292_all_class_search_log": "827aa2bf7583b433e4baac8d18bd895e43581a95",
-    "run292_boundary_tests": "283f25a3378eefe57bc712f076af2b27d5db6d4b"
+    "run293_ciil_sinha_bitstream_render_audit": "61af6298e225c2a31fbf8d172d104b4c76063141",
+    "run293_all_class_search_log": "ea9cd35e268c5f548ac3fcef8a7e7afb73248df2"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -27,16 +26,16 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000292",
-    "latest_search_log": "data/source_census/search_log_run292.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000293",
+    "latest_search_log": "data/source_census/search_log_run293.jsonl",
     "latest_source_audits": [
+      "data/source_census/ciil_sinha_mundari_grammar_bitstream_render_audit_run293_2026-09-13.json",
       "data/source_census/ciil_sinha_mundari_grammar_exact_repository_locator_run292_2026-09-13.json",
-      "data/source_census/mundarica_vol14_manifestation_lineage_run291_2026-09-13.json",
-      "data/source_census/bhaduri_mundari_english_dictionary_edition_lineage_run290_2026-09-13.json"
+      "data/source_census/mundarica_vol14_manifestation_lineage_run291_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run292_count_change": "none; exact repository/file-locator refinement only"
+    "run293_count_change": "none; bitstream-render verification and all-class census refresh only"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -61,11 +60,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run292": 0,
-    "evidence_records_added_run292": 0,
-    "evidence_links_added_run292": 0,
-    "verification_audits_added_run292": 1,
-    "run292_promotion_level": "exact first-party repository + persistent-handle + file locator evidence only"
+    "claims_added_run293": 0,
+    "evidence_records_added_run293": 0,
+    "evidence_links_added_run293": 0,
+    "verification_audits_added_run293": 1,
+    "run293_promotion_level": "direct repository bitstream render + visual cover/page-count audit only"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -76,20 +75,24 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run292_change": "No module-count or public-content-row change; new audit/search artifacts remain compatible with existing universal-search and evidence surfaces."
+    "run293_change": "No module-count or public-content-row change; new audit/search artifacts remain compatible with existing universal-search and evidence surfaces."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "participant_consent_inferred_run292": false,
-    "community_validation_inferred_run292": false,
-    "cultural_access_permission_inferred_run292": false,
+    "participant_consent_inferred_run293": false,
+    "community_validation_inferred_run293": false,
+    "cultural_access_permission_inferred_run293": false,
     "ciil_sinha_repository_locator_verified": true,
+    "ciil_sinha_bitstream_render_verified": true,
+    "ciil_sinha_renderer_reported_pages": 1,
+    "ciil_sinha_one_page_render_treated_as_complete_grammar": false,
     "ciil_sinha_pdf_bytes_verified": false,
     "ciil_sinha_independent_hash_verified": false,
     "ciil_sinha_ocr_verified": false,
+    "census_c17_catalogue_munda_mundari_rows_verified": true,
     "census_c17_workbook_bytes_verified": false,
     "census_c17_numeric_cells_verified": false,
     "lexibank_lsi_exact_primary_page_images_verified": false,
@@ -106,23 +109,23 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 292 advances CIIL audit depth without changing controlled counts.",
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 293 advances CIIL verification depth without changing controlled counts.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 291 final head 7e35266e645f2639187850e0f2055bb2206f2ff4 is independently verified 4/4 green; Run 292 final-head CI must not be labelled green until commit-associated workflows complete."
+    "build_state": "Run 292 final head 188654b2c14926568d3e0d10f730d6d38b69f712 is independently verified 4/4 green; Run 293 final-head CI must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
-    "previous_green_head": "7e35266e645f2639187850e0f2055bb2206f2ff4",
+    "previous_green_head": "188654b2c14926568d3e0d10f730d6d38b69f712",
     "previous_green_head_four_of_four": true,
-    "previous_green_check_summary": "MLHKP Source Register Audit #2074, Migration Audit #2125, Streamlit Smoke Test #2239 and Publication Build #2092 completed successfully.",
-    "run292_work_head": "283f25a3378eefe57bc712f076af2b27d5db6d4b",
-    "fresh_run292_final_head_ci_verified": false,
-    "fresh_run292_final_head_ci_note": "Do not claim Run 292 green until all four commit-associated workflows complete successfully."
+    "previous_green_check_summary": "MLHKP Migration Audit #2131, Source Register Audit #2080, Streamlit Smoke Test #2245 and Publication Build #2098 completed successfully.",
+    "run293_work_head": "ea9cd35e268c5f548ac3fcef8a7e7afb73248df2",
+    "fresh_run293_final_head_ci_verified": false,
+    "fresh_run293_final_head_ci_note": "Do not claim Run 293 green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
-    "CIIL Sinha 1975 Mundari Grammar now has exact first-party repository/handle/file locators, but CIILP0091.pdf bytes, independent hash, page inventory/OCR and bulk reuse conditions remain unverified.",
+    "CIIL Sinha 1975 Mundari Grammar now has an exact first-party repository/handle/file locator and a directly rendered one-page cover bitstream, but a verified-complete grammar manifestation, byte-preserving acquisition, independent hash, OCR and bulk reuse conditions remain unverified.",
     "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; Volume XIV has cross-checked modern manifestation metadata only.",
-    "ORGI Jharkhand C-17 workbook DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact rows/cells and numeric values remain unverified.",
+    "ORGI Jharkhand C-17 catalogue explicitly enumerates MUNDA and MUNDARI rows, but DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf require byte/hash/page-image/OCR closure before direct content promotion.",
     "Lexibank LSI has 31 exact Mundari derived rows reconciled across 26 parameters, but remaining rows and direct primary page-image verification remain open.",
     "Peiros v1.1 has 101 distinct Mundari FormTable rows; 21 exact row-parameter reconciliations are complete and 80 remain.",
@@ -154,12 +157,12 @@
     "reason": "Gate remains open because unresolved source dispositions, primary-manifestation/hash gaps, Census workbook byte/hash/cell gaps, LSI/Atlas primary-page gaps, remaining Peiros and LSI reconciliation, Rau independent-byte/hash work, CIIL/TRI/MMLoSo integrity and reuse conditions, audiovisual/dataset rights-consent-community-cultural-access gates, and other closures remain unresolved."
   },
   "next_parallel_tasks": [
-    "Retry permitted byte-preserving acquisition of CIILP0091.pdf; independently hash bytes and verify PDF/page structure before any text/OCR promotion.",
+    "Locate an authorized complete manifestation of Sinha 1975 Mundari Grammar; independently hash bytes and verify PDF/page structure before any OCR/text promotion.",
     "Continue exact MUNDARI row/Parameter_ID/Concepticon reconciliation in pinned Lexibank LSI and independently verify primary page images.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash and verify exact MUNDA/MUNDARI cells.",
     "Reconcile the remaining 80 of 101 distinct Mundari Peiros rows.",
     "Retry permitted byte-preserving Rau CSV acquisition and independently recompute MD5 before row-level ingestion.",
     "Deterministically disposition unresolved WEB-MUN leads and join only proven aliases.",
-    "Continue TRI/CIIL/MMLoSo/audiovisual consent-community-cultural-access closure while keeping manuscript metrics and all 42 modules synchronized."
+    "Continue Mundarica I-XVI acquisition/page/OCR work and TRI/CIIL/MMLoSo/audiovisual consent-community-cultural-access closure while keeping manuscript metrics and all 42 modules synchronized."
   ]
 }
