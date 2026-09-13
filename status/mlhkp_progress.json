@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-13T02:35:00Z",
+  "updated_utc": "2026-09-13T02:44:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 285,
-  "previous_final_head": "028335e4762d492e62827ab8bda671ecbc252f3b",
-  "work_head_before_status_sync": "c70e4e734a9dae35be7682dad27f5c38d500d1be",
-  "cycle_result": "Run 285 re-searched all 14 controlled non-Mundarica classes and advanced the pinned Lexibank LSI Mundari derived-row audit by four exact rows across two additional parameters (114_and and 37_back). The rows, Concepticon foreign keys and deterministic DSAL primary-page/scan locators are reconciled at the pinned derived-dataset state. Direct primary LSI page-image/byte verification remains open; therefore no public lexical, cultural, rights, consent or community-validation claim was promoted.",
+  "latest_run": 286,
+  "previous_final_head": "4812e312a0bc2fd8199e7d6a9e73c6b790ab3dd6",
+  "work_head_before_status_sync": "87562aa50995c73c161f67ed64b5e192a0923c49",
+  "cycle_result": "Run 286 re-searched all 14 controlled non-Mundarica classes and advanced the pinned Lexibank LSI Mundari derived-row audit by ten exact, non-duplicate rows across ten additional parameters: cat, child, cock, come, cow, cultivator, daughter, deer, devil and die. Computed-row identities, Parameter_ID foreign keys, Concepticon IDs and deterministic DSAL primary-page/scan locators are reconciled at the pinned derived-dataset state. Direct primary LSI page-image/byte verification remains open; therefore no public lexical, cultural, rights, consent or community-validation claim was promoted.",
   "cycle_commits": {
-    "run285_lsi_exact_row_audit": "13d676a5eb97230925cad1b887482da1425fa318",
-    "run285_all_class_search_log": "c70e4e734a9dae35be7682dad27f5c38d500d1be"
+    "run286_lsi_exact_row_audit": "1b0962cc8be90da57a303d48706f2a178a65585b",
+    "run286_all_class_search_log": "eb82a7dd4c2dea7a93f266c25a15e127a3640245",
+    "run286_regression_test": "87562aa50995c73c161f67ed64b5e192a0923c49"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,17 +27,17 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000285",
-    "latest_search_log": "data/source_census/search_log_run285.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000286",
+    "latest_search_log": "data/source_census/search_log_run286.jsonl",
     "latest_source_audits": [
+      "data/source_census/lexibank_lsi_mundari_exact_row_locator_run286_2026-09-13.json",
       "data/source_census/lexibank_lsi_mundari_exact_row_locator_run285_2026-09-13.json",
       "data/source_census/census_c17_jharkhand_exact_variable_locator_run284_2026-09-13.json",
-      "data/source_census/lexibank_lsi_mundari_exact_row_locator_run283_2026-09-13.json",
-      "data/source_census/rau_zenodo_rights_integrity_audit_run282_2026-09-13.json"
+      "data/source_census/lexibank_lsi_mundari_exact_row_locator_run283_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run285_count_change": "none; Run 285 deepens the already tracked pinned Lexibank LSI source with exact derived-row and primary-page locators"
+    "run286_count_change": "none; Run 286 deepens the already tracked pinned Lexibank LSI source with ten additional exact derived-row and primary-page locators"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -44,7 +45,7 @@
     "verified_complete_volumes": 0,
     "last_mundarica_run": 278,
     "per_volume_state": "No non-Mundarica run changed the previously audited Mundarica volume states.",
-    "state": "No Mundarica scan-verification count changed in Run 285; historical scan-byte/hash/page-image/OCR closure remains open."
+    "state": "No Mundarica scan-verification count changed in Run 286; historical scan-byte/hash/page-image/OCR closure remains open."
   },
   "evidence_and_schema": {
     "source_claims": 52,
@@ -57,11 +58,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run285": 0,
-    "evidence_records_added_run285": 0,
-    "evidence_links_added_run285": 0,
-    "verification_audits_added_run285": 1,
-    "run285_promotion_level": "four exact pinned Lexibank LSI MUNDARI derived rows + two Parameter_ID mappings + Concepticon IDs + DSAL primary-page/scan locators; zero direct-primary lexical/cultural promotion pending page-image/byte verification"
+    "claims_added_run286": 0,
+    "evidence_records_added_run286": 0,
+    "evidence_links_added_run286": 0,
+    "verification_audits_added_run286": 1,
+    "run286_promotion_level": "ten exact pinned Lexibank LSI MUNDARI derived rows + ten Parameter_ID mappings + Concepticon IDs + DSAL primary-page/scan locators; zero direct-primary lexical/cultural promotion pending page-image/byte verification"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -72,7 +73,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run285_change": "No module-count or public-content-row change; new audit/search artifacts remain discoverable through existing evidence/owner-console surfaces after normal repository indexing."
+    "run286_change": "No module-count or public-content-row change; new audit/search artifacts remain discoverable through existing evidence/owner-console surfaces after normal repository indexing."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -80,11 +81,11 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "catalogue_or_repository_metadata_treated_as_blanket_redistribution_permission": false,
-    "redistribution_permission_inferred_run285": false,
-    "model_training_permission_inferred_run285": false,
-    "participant_consent_inferred_run285": false,
-    "community_validation_inferred_run285": false,
-    "cultural_access_permission_inferred_run285": false,
+    "redistribution_permission_inferred_run286": false,
+    "model_training_permission_inferred_run286": false,
+    "participant_consent_inferred_run286": false,
+    "community_validation_inferred_run286": false,
+    "cultural_access_permission_inferred_run286": false,
     "census_c17_catalogue_verified": true,
     "census_c17_declared_workbook_filename": "DDW-C17-2000.XLSX",
     "census_c17_munda_mundari_variable_locators_verified": true,
@@ -115,24 +116,24 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged. Run 285 increases verified LSI locator depth but does not change controlled publication counts.",
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged. Run 286 increases verified LSI locator depth but does not change controlled publication counts.",
     "tables_figures_state": "unchanged and synchronized; no controlled count change warrants a release table/figure metric change",
-    "build_state": "Run 284 final head is independently verified 4/4 green; Run 285 final head must not be labelled green until commit-associated workflows complete."
+    "build_state": "Run 285 final head is independently verified 4/4 green; Run 286 final head must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
-    "previous_green_head": "028335e4762d492e62827ab8bda671ecbc252f3b",
+    "previous_green_head": "4812e312a0bc2fd8199e7d6a9e73c6b790ab3dd6",
     "previous_green_head_four_of_four": true,
-    "previous_green_check_summary": "Run 284 final head completed MLHKP Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build successfully.",
-    "run285_work_head": "c70e4e734a9dae35be7682dad27f5c38d500d1be",
-    "fresh_run285_final_head_ci_verified": false,
-    "fresh_run285_final_head_ci_note": "Do not claim Run 285 green until all four commit-associated workflows complete successfully."
+    "previous_green_check_summary": "Run 285 final head completed MLHKP Migration Audit, Source Register Audit, Streamlit Smoke Test and Publication Build successfully.",
+    "run286_work_head": "87562aa50995c73c161f67ed64b5e192a0923c49",
+    "fresh_run286_final_head_ci_verified": false,
+    "fresh_run286_final_head_ci_note": "Do not claim Run 286 green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes.",
     "ORGI Jharkhand C-17 source identity, workbook filename DDW-C17-2000.XLSX and six MUNDA/MUNDARI variable locators are verified; workbook bytes, independent hash, worksheets, exact rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf still require byte/hash/page-image/OCR closure before direct content promotion.",
-    "Lexibank LSI now has 17 exact Mundari derived rows reconciled across 12 parameters, but remaining MUNDARI rows and direct primary LSI page-image verification remain open.",
+    "Lexibank LSI now has 27 exact Mundari derived rows reconciled across 22 parameters, but remaining MUNDARI rows and direct primary LSI page-image verification remain open.",
     "Peiros v1.1 has 101 distinct Mundari FormTable rows; 21 exact row-parameter reconciliations are complete and 80 remain.",
     "Rau Zenodo rights metadata is verified as CC0-1.0 and its exact CSV/checksum locator is pinned, but independent hash recomputation and row-level source attribution remain open.",
     "Karya Mundari TTS corpus/sample bytes, independent hashes, participant consent, community validation and MLHKP cultural-access permission remain unverified.",
