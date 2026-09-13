@@ -3,14 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T22:33:00Z",
+  "updated_utc": "2026-09-13T22:55:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 323,
-  "previous_final_head": "73d0a4abc48d9dfb9cabb74a777fdd19a9abd756",
-  "run323_work_head_before_status": "33c63e9792777cce88ff63e29f89666426af0893",
-  "run323_commits": {
-    "mundarica_v_viii_provider_manifestation_audit": "aa4c4ea9371dac7d483a5cf45454dbd8ba828681",
-    "mmsc_refresh": "33c63e9792777cce88ff63e29f89666426af0893"
+  "latest_run": 324,
+  "previous_final_head": "92775432eabbc85bfe073df5af7ed56b092c4fda",
+  "run324_work_head_before_status": "e6bdf526ddebc46eeee3d3eb5c17cd8439b63aab",
+  "run324_commits": {
+    "ciet_ncert_barkhaa_manifestation_audit": "49dafcc5d43f140b4a7c1440cf4e0d6ff7a325bf",
+    "mmsc_refresh": "1089864b7e6b31f56b5ae58be042edbc99928c86",
+    "boundary_test": "e6bdf526ddebc46eeee3d3eb5c17cd8439b63aab"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -19,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000323",
+    "latest_search_id": "MMSC-SEARCH-000324",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -29,7 +30,7 @@
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
     "false_ocr_verification_known": false,
-    "provider_manifestations_located_this_run": ["V", "VI", "VII", "VIII"],
+    "provider_manifestations_located_this_run": [],
     "per_volume_states": {
       "I": "historical_group_page_accounting_only; primary bytes/hash/OCR unverified",
       "II": "provider manifestation located; 406-page provider metadata; primary bytes/hash/page concordance/OCR unverified",
@@ -56,8 +57,8 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run323_new_public_factual_claims_promoted": 0,
-    "run323_reason": "Mundarica provider metadata and fresh MMSC observations were recorded at audit/discovery level only; independent bytes, page concordance, OCR verification, rights/community validation and deterministic register reconciliation remain incomplete."
+    "run324_new_public_factual_claims_promoted": 0,
+    "run324_reason": "CIET/NCERT Barkhaa was upgraded from generic audiovisual discovery to nine exact first-party Level-1 Mundari title locators. Individual audio bytes/hashes, reuse rights, participant consent, community validation and cultural-access permission remain unresolved, so no content-level evidence or cultural/linguistic claims were promoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,8 +68,8 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run323_module_redesign_performed": false,
-    "priority_reason": "Evidence population and verification prioritized over redesign."
+    "run324_module_redesign_performed": false,
+    "priority_reason": "Count-neutral exact-locator audit; controlled evidence/module population unchanged."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -77,19 +78,25 @@
     "provider_rights_labels_do_not_override_cultural_access": true,
     "commercial_or_public_availability_does_not_establish_ingestion_permission": true,
     "census2011_c17_workbook_bytes_acquired": false,
-    "census2011_st15_workbook_bytes_acquired": false
+    "census2011_st15_workbook_bytes_acquired": false,
+    "ciet_barkhaa_title_level_mundari_manifestations_verified": 9,
+    "ciet_barkhaa_individual_audio_bytes_verified": false,
+    "ciet_barkhaa_explicit_audio_reuse_rights_verified": false,
+    "ciet_barkhaa_participant_community_cultural_access_verified": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run323": false,
-    "build_state": "Metric-neutral Run 323; manuscript controlled counts unchanged. Run 322 Publication Build verified green. Run 323 Publication Build must be verified on the final Run-323 head before green status is claimed."
+    "manuscript_metric_sync_required_from_run324": false,
+    "build_state": "Metric-neutral Run 324; controlled source/evidence/module totals and publication tables/figures remain unchanged. Exact Run-324 final-head CI must be verified before green status is claimed."
   },
   "ci": {
     "run322_final_head_ci_verified": true,
     "run322_four_of_four_green": true,
     "run323_final_head_ci_verified": false,
+    "run323_exact_head_workflow_runs_seen_at_run324_check": 0,
+    "run324_final_head_ci_verified": false,
     "required_workflows": [
       "Migration Audit",
       "Source Register Audit",
@@ -106,8 +113,9 @@
     "2001 C-17 permitted workbook acquisition/hash/sheet/numeric-cell verification",
     "LSI/Atlas primary-page verification",
     "remaining lexical reconciliation",
-    "Rau 2019 independent byte acquisition/hash and explicit license-text verification",
+    "Rau 2019 independent byte acquisition/hash and explicit license-text verification; direct download retry timed out/failed in Run 324",
     "CIIL/SCSTRTI source-byte and rights verification",
+    "CIET/NCERT Barkhaa individual Mundari audio byte/hash and explicit reuse-rights verification plus participant/community/cultural-access review",
     "audiovisual consent/community/cultural-access review and fieldwork gaps"
   ],
   "release_gate": {
@@ -122,7 +130,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 323 verified Run 322 as 4/4 CI green; recorded Internet Archive/DLI provider manifestations and scan-page metadata for Mundarica V-VIII without upgrading them to independently verified scans/OCR; and refreshed all 14 MMSC classes while preserving controlled counts pending deterministic numbered-register reconciliation. No cultural facts, rights, consent, community validation or completeness were inferred from provider/public availability.",
+  "cycle_note": "Run 324 refreshed all 14 controlled non-Mundarica classes and upgraded the official CIET/NCERT Barkhaa stream to exact title-level manifestations: nine Level-1 titles currently expose a Mundari audio label. No individual audio bytes, hashes, reuse-right claims, speaker/performer consent, community validation or cultural-access permission were inferred. Rau 2019 direct byte acquisition was retried but failed/timed out, so its publisher-declared MD5 remains unverified independently. Controlled counts remain unchanged pending deterministic numbered-register reconciliation.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -130,13 +138,13 @@
   },
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
-    "attempt permitted Mundarica V-VIII primary-byte acquisition and independent hash/page-image concordance; never equate provider OCR with verified OCR",
-    "continue Mundarica I-IV and IX-XVI manifestation/page-accounting closure",
+    "resolve CIET/NCERT Barkhaa individual Mundari audio locators/bytes/hashes and explicit reuse-rights boundary before any content promotion",
+    "retry Rau 2019 permitted byte acquisition and independently verify publisher MD5; inspect explicit license text",
     "retry permitted Census workbook acquisition and only then hash/sheet/cell verification",
     "LSI/Atlas primary verification",
-    "lexical reconciliation and Rau independent byte/hash/license closure",
+    "remaining lexical reconciliation",
     "CIIL/SCSTRTI source-byte and rights closure",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on the exact Run-323 final head"
+    "verify all four CI workflows on the exact Run-324 final head"
   ]
 }
