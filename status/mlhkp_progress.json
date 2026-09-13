@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-13T04:33:00Z",
+  "updated_utc": "2026-09-13T04:47:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 289,
-  "previous_final_head": "1b415023aa5ac8de7f591832c7144a1a3e4cb744",
-  "work_head_before_status_sync": "cbc991e6e400ff75737cb5036891d5c88a236a27",
-  "cycle_result": "Run 289 re-searched all 14 controlled non-Mundarica source classes and advanced the pinned Lexibank-LSI Mundari stream by reconciling four additional exact derived rows (But, Dog, Down, Duck) to Parameter_ID, Concepticon and deterministic DSAL primary-page/scan locators. Direct primary page-image/byte verification remains open, so no public lexical or cultural claim was promoted.",
+  "latest_run": 290,
+  "previous_final_head": "2a0dd32b08ebcfd67beabe7baf634a79f26d2e98",
+  "work_head_before_status_sync": "f3f644e85adea7e54406737c4e036935b299df08",
+  "cycle_result": "Run 290 searched all 14 controlled non-Mundarica source classes and added an independently cross-checked bibliographic/manifestation-lineage audit for Manindra Bhusan Bhaduri's A Mundari-English dictionary. The 1931 Calcutta University Press work is reconciled with 1983, 1994 and 2002 reprint manifestations without treating them as distinct works. No dictionary entries or cultural claims were promoted because primary bytes, independent hashes and intended-use rights remain open.",
   "cycle_commits": {
-    "run289_lsi_exact_row_audit": "03fd1b8753d1a1f105b85796b3736c183fe8f3d4",
-    "run289_all_class_search_log": "cbc991e6e400ff75737cb5036891d5c88a236a27"
+    "run290_bhaduri_dictionary_audit": "b2f5e7f4d387341a8b84ad6ce6cf3ee5f32e0aa9",
+    "run290_boundary_test": "b7ff5c6fcb559e70d31792b6a66467433eac855e",
+    "run290_all_class_search_log": "f3f644e85adea7e54406737c4e036935b299df08"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,23 +27,23 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000289",
-    "latest_search_log": "data/source_census/search_log_run289.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000290",
+    "latest_search_log": "data/source_census/search_log_run290.jsonl",
     "latest_source_audits": [
+      "data/source_census/bhaduri_mundari_english_dictionary_edition_lineage_run290_2026-09-13.json",
       "data/source_census/lexibank_lsi_mundari_exact_row_locator_run289_2026-09-13.json",
-      "data/source_census/dilbar_hans_mundari_hockey_rulebook_locator_run288_2026-09-13.json",
-      "data/source_census/census_c17_jharkhand_exact_variable_locator_run284_2026-09-13.json"
+      "data/source_census/dilbar_hans_mundari_hockey_rulebook_locator_run288_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run289_count_change": "none; exact-row refinement of an already tracked canonical LSI-derived source family"
+    "run290_count_change": "none; manifestation-lineage refinement of an already discoverable dictionary work without creating an unverified new controlled identity"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "last_mundarica_run": 287,
-    "per_volume_state": "Run 289 is non-Mundarica and changes no volume verification state.",
+    "per_volume_state": "Run 290 is non-Mundarica and changes no volume verification state.",
     "state": "Historical scan-byte/hash/page-image/OCR closure remains open; no volume is marked verified-complete."
   },
   "evidence_and_schema": {
@@ -56,11 +57,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run289": 0,
-    "evidence_records_added_run289": 0,
-    "evidence_links_added_run289": 0,
-    "verification_audits_added_run289": 1,
-    "run289_promotion_level": "exact derived-row + parameter + Concepticon + primary-page locator evidence only"
+    "claims_added_run290": 0,
+    "evidence_records_added_run290": 0,
+    "evidence_links_added_run290": 0,
+    "verification_audits_added_run290": 1,
+    "run290_promotion_level": "exact bibliographic + manifestation-lineage locator evidence only"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -71,7 +72,7 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run289_change": "No module-count or public-content-row change; audit/search artifacts remain compatible with existing evidence and owner-console surfaces."
+    "run290_change": "No module-count or public-content-row change; new audit/search artifacts remain compatible with existing universal-search/evidence surfaces."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
@@ -79,14 +80,16 @@
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
     "derived_cc_by_treated_as_primary_scan_permission": false,
-    "participant_consent_inferred_run289": false,
-    "community_validation_inferred_run289": false,
-    "cultural_access_permission_inferred_run289": false,
+    "participant_consent_inferred_run290": false,
+    "community_validation_inferred_run290": false,
+    "cultural_access_permission_inferred_run290": false,
     "census_c17_workbook_bytes_verified": false,
     "census_c17_numeric_cells_verified": false,
     "lexibank_lsi_exact_primary_page_images_verified": false,
     "peiros_parameter_locator_reconciliation_complete": false,
-    "rau_repository_checksum_treated_as_independent_hash": false
+    "rau_repository_checksum_treated_as_independent_hash": false,
+    "bhaduri_primary_1931_bytes_verified": false,
+    "bhaduri_bulk_lexical_redistribution_rights_verified": false
   },
   "publication": {
     "q1_target_manuscript": "repository_synchronized_reproducible_latex",
@@ -98,29 +101,30 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 289 advances audit depth without changing controlled counts.",
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 290 advances audit depth without changing controlled counts.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 288 final head is independently verified 4/4 green; Run 289 final-head CI must not be labelled green until commit-associated workflows complete."
+    "build_state": "Run 288 remains the last independently verified 4/4-green final head; Run 290 final-head CI must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
     "previous_green_head": "1b415023aa5ac8de7f591832c7144a1a3e4cb744",
     "previous_green_head_four_of_four": true,
-    "previous_green_check_summary": "Run 288 final head completed MLHKP Source Register Audit #2058, Migration Audit #2109, Streamlit Smoke Test #2223 and Publication Build #2076 successfully.",
-    "run289_work_head": "cbc991e6e400ff75737cb5036891d5c88a236a27",
-    "fresh_run289_final_head_ci_verified": false,
-    "fresh_run289_final_head_ci_note": "Do not claim Run 289 green until all four commit-associated workflows complete successfully."
+    "previous_green_check_summary": "Run 288 final head completed all four controlled workflows successfully.",
+    "run290_work_head": "f3f644e85adea7e54406737c4e036935b299df08",
+    "fresh_run290_final_head_ci_verified": false,
+    "fresh_run290_final_head_ci_note": "Do not claim Run 290 green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
     "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes.",
     "ORGI Jharkhand C-17 workbook DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact rows/cells and numeric values remain unverified.",
     "Language_Atlas_2011.pdf, LSI_JHARKHAND.pdf and LSI_WB_PART_I.pdf require byte/hash/page-image/OCR closure before direct content promotion.",
-    "Lexibank LSI now has 31 exact Mundari derived rows reconciled across 26 parameters, but remaining rows and direct primary page-image verification remain open.",
+    "Lexibank LSI has 31 exact Mundari derived rows reconciled across 26 parameters, but remaining rows and direct primary page-image verification remain open.",
     "Peiros v1.1 has 101 distinct Mundari FormTable rows; 21 exact row-parameter reconciliations are complete and 80 remain.",
     "Rau exact CSV/checksum locator is pinned, but independent hash recomputation and row-level attribution remain open.",
     "Karya and CIET/NCERT audiovisual material still requires byte integrity, participant/performer consent, community validation and MLHKP cultural-access review.",
     "MMLoSo exact released dataset version/integrity/rights closure remains separate.",
     "TRI/CIIL dictionary-reader manifestations and Evans & Osada controlled bitstream/page verification remain incomplete.",
+    "Bhaduri A Mundari-English dictionary work/reprint lineage is now reconciled, but the primary 1931 manifestation, independently recomputed hash and bulk lexical reuse rights remain unverified.",
     "The 1941 Dilbar Hans Mundari hockey rule book has an exact secondary locator, but its primary manifestation, bytes/hash/page concordance and rights/access state remain unverified.",
     "Normalized primary MMSC search logs 000034-000038 and 000041 remain missing and must not be synthesized."
   ],
@@ -141,15 +145,15 @@
     "no_restricted_leakage_known": true,
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false,
-    "reason": "Gate remains open because unresolved source dispositions, Mundarica primary-manifestation/OCR gaps, Census workbook byte/hash/cell gaps, LSI/Atlas primary-page gaps, remaining Peiros and LSI reconciliation, Rau independent-byte/hash work, audiovisual/dataset rights-consent-community-cultural-access gates, and other integrity closures remain unresolved."
+    "reason": "Gate remains open because unresolved source dispositions, primary-manifestation/hash gaps, Census workbook byte/hash/cell gaps, LSI/Atlas primary-page gaps, remaining Peiros and LSI reconciliation, Rau independent-byte/hash work, audiovisual/dataset rights-consent-community-cultural-access gates, and other integrity closures remain unresolved."
   },
   "next_parallel_tasks": [
     "Continue exact MUNDARI row/Parameter_ID/Concepticon reconciliation in pinned Lexibank LSI and independently verify primary page images.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash and verify exact MUNDA/MUNDARI cells.",
     "Reconcile the remaining 80 of 101 distinct Mundari Peiros rows.",
+    "Acquire a permitted Bhaduri 1931 primary manifestation and independently verify bytes/title-imprint/pagination/hash before lexical ingestion.",
     "Retry permitted byte-preserving Rau CSV acquisition and independently recompute MD5 before row-level ingestion.",
     "Deterministically disposition unresolved WEB-MUN leads and join only proven aliases.",
-    "Continue Mundarica I-XVI permitted manifestation acquisition/page accounting/OCR verification without false-complete promotion.",
     "Continue TRI/CIIL/MMLoSo/audiovisual consent-community-cultural-access closure while keeping manuscript metrics and all 42 modules synchronized."
   ]
 }
