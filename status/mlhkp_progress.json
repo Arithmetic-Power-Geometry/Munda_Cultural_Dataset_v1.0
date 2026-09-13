@@ -3,15 +3,17 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T14:31:00Z",
+  "updated_utc": "2026-09-13T14:55:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 309,
+  "latest_run": 310,
   "previous_final_head": "18c25997a1603c07de44927e09c7c129f3d17edf",
-  "work_head_before_status_sync": "754e2086307c33d0fd1c2f1ed42498ef58523e36",
+  "work_head_before_status_sync": "9abcd29d45d199178bf7b0a2e9a0ec3514d187bd",
   "cycle_commits": [
-    "db1020f86e02e2fd672998477f5b2c7711265d2a",
-    "1ee966fd6b8e76088ac826fa122a2fdd2f2c8de7",
-    "754e2086307c33d0fd1c2f1ed42498ef58523e36"
+    "2cfc5dd6a8dcc7186ca424568023228e84c91235",
+    "90ce381d0b7d8f8780d27b112a7f1a2f8bf6814c",
+    "d3a9cda56d8a44220eb1c24c6acc3b5f130d702e",
+    "f43bdab9db68488874e108af7c28312aa10bed5a",
+    "9abcd29d45d199178bf7b0a2e9a0ec3514d187bd"
   ],
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +22,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000309",
+    "latest_search_id": "MMSC-SEARCH-000310",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
   },
@@ -57,7 +59,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run309_count_neutral_locator_only": true
+    "run310_count_neutral_locator_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -67,7 +69,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run309_no_module_mutation_required": true
+    "count_neutral_run310_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -80,12 +82,13 @@
     "karya_kpl_license_not_treated_as_participant_consent": true,
     "karya_privacy_publicity_and_cultural_access_remain_open": true,
     "historical_and_modern_mundarica_manifestations_not_collapsed": true,
-    "volume16_reprint_pagination_conflict_preserved": true
+    "volume16_reprint_pagination_conflict_preserved": true,
+    "census_download_availability_not_treated_as_blanket_reuse_permission": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "run309 is count-neutral: controlled evidence/source/module totals are unchanged; manuscript metrics, tables and figures remain synchronized; exact final-head CI pending"
+    "build_state": "Run 310 is count-neutral: controlled evidence/source/module totals remain unchanged; C-17 exact first-party catalogue/schema locator added; manuscript metrics, tables and figures remain synchronized; exact final-head CI pending"
   },
   "ci": {
     "previous_green_head": "18c25997a1603c07de44927e09c7c129f3d17edf",
@@ -96,14 +99,14 @@
       "MLHKP Streamlit Smoke Test",
       "MLHKP Publication Build"
     ],
-    "fresh_run309_final_head_ci_verified": false
+    "fresh_run310_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved web leads",
     "Mundarica primary scans and verification",
     "Mundarica printed-page to scan-image concordance",
     "Mundarica Volume XVI modern-reprint pagination conflict",
-    "C-17 workbook verification",
+    "C-17 official DDW-C17-2000.XLSX byte acquisition, independent hash, sheet inventory and exact numeric-cell verification",
     "LSI and Atlas byte/page verification",
     "remaining lexical reconciliation",
     "Rau independent hash",
@@ -127,9 +130,10 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "All 14 controlled MMSC source classes were refreshed. Run309 added a manifestation-level Mundarica reconciliation: a 1941 historical Volume XIII Government Printing/New York Public Library Google Books locator was distinguished from modern Gyan reprint manifestations; Volume XII reprint metadata reports 250 pages; Volume XVI retail metadata conflicts between 43 and 96 pages and remains unresolved. Historical and modern manifestations are explicitly not collapsed for page accounting. No scan, OCR, cultural claim, controlled evidence record, source identity count, or provenance-link count was promoted.",
+  "cycle_note": "Run 310 performed a fresh 14-class non-Mundarica sweep and upgraded the official ORGI Census 2011 C-17 Jharkhand source to an exact first-party catalogue/schema locator: reference PC11_C17-20, declared download DDW-C17-2000.XLSX, geographic code 20, and six exact MUNDA/MUNDARI schema positions covering total, first-subsidiary and second-subsidiary language fields. The official XLSX bytes were not independently acquired or hashed, sheet inventory and exact numeric cells were not verified, and no numeric or cultural claims were promoted. Other archive/article/web/dataset/audio/video/media leads were retained at their existing defensible levels. Run 309 Mundarica manifestation findings remain preserved separately.",
   "next_parallel_tasks": [
     "numbered WEB-MUN lead disposition",
+    "acquire official DDW-C17-2000.XLSX through a permitted route, compute independent hash, inventory sheets and verify exact MUNDA/MUNDARI cells",
     "Mundarica I-XVI permitted primary-byte acquisition and independent hashing",
     "Mundarica printed-page/scan-image concordance",
     "resolve Volume XVI reprint pagination conflict without using it as historical pagination",
@@ -141,7 +145,6 @@
     "CIIL grammar authorized byte acquisition/hash/page inventory",
     "SCSTRTI Sarala Munda byte/hash/page verification",
     "Soy 2017 complete manifestation and license inspection",
-    "C-17 verification",
     "LSI/Atlas primary-page verification",
     "lexical reconciliation",
     "rights and community-access review"
