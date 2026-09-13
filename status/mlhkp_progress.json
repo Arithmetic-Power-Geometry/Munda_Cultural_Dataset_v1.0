@@ -3,15 +3,16 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T17:31:00Z",
+  "updated_utc": "2026-09-13T17:48:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 315,
-  "previous_final_head": "e3fe357bb4dee4f00004a6ed1e70063ca481ea48",
-  "work_head_before_status_sync": "34a09ca96339b339beaeef70902a201b856f1e38",
+  "latest_run": 316,
+  "previous_final_head": "d4829f499333e3e0e675dd0aef0b9bac4499c030",
+  "work_head_before_status_sync": "f40b04aee81c18a3d2ddf249e626bebd2ff29045",
   "cycle_commits": [
-    "1a8661cc44385f8e233372e301fb432d0d5676f9",
-    "8296d934bfe4a500c6ac9afa02ccf883623d9ee0",
-    "34a09ca96339b339beaeef70902a201b856f1e38"
+    "8ee01466f4088537c2910dae7b9f9a596ddffa49",
+    "358a282cd3998bded39613a415a827159736a5d7",
+    "2fcc9b30050663a2bd2b68f2ba6c2941f360c79a",
+    "f40b04aee81c18a3d2ddf249e626bebd2ff29045"
   ],
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,17 +21,9 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000315",
+    "latest_search_id": "MMSC-SEARCH-000316",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
-  },
-  "mundarica": {
-    "series_target_volumes": "I-XVI",
-    "authoritative_registered_scans": 0,
-    "verified_complete_volumes": 0,
-    "verified_ocr_volumes": 0,
-    "per_volume_state": "I-XVI remain acquisition/page/OCR incomplete unless separately documented by existing manifestation/page-accounting audits; no new scan or OCR verification in Run 315",
-    "note": "Run 315 prioritized a government workbook locator while preserving all Mundarica incompleteness boundaries."
   },
   "evidence": {
     "claims": 52,
@@ -39,7 +32,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run315_count_neutral_locator_only": true
+    "run316_count_neutral_locator_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -49,23 +42,24 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run315_no_module_mutation_required": true
+    "count_neutral_run316_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
     "restricted_content_not_exposed": true,
     "community_validation_not_fabricated": true,
-    "orgi_st15_exact_catalogue_locator_verified": true,
-    "orgi_st15_reference_id": "PC11_ST15-20",
-    "orgi_st15_declared_workbook": "ST-20-00-15-DDW-2011.XLSX",
-    "orgi_st15_workbook_bytes_independently_acquired": false,
-    "orgi_st15_numeric_cells_verified": false,
-    "orgi_public_access_not_treated_as_reuse_permission": true
+    "rau_2019_zenodo_exact_manifestation_locator_verified": true,
+    "rau_2019_doi": "10.5281/zenodo.3380874",
+    "rau_2019_filename": "pMunda_cognate_set_2019-08-29.csv",
+    "rau_2019_publisher_declared_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "rau_2019_independent_hash_recomputed": false,
+    "rau_2019_explicit_license_text_verified": false,
+    "rau_open_status_not_treated_as_reuse_permission": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "Run 315 is count-neutral: ORGI ST-15 Jharkhand upgraded to an exact first-party catalogue/workbook locator with explicit byte/hash/sheet/cell verification boundary; controlled evidence/source/module metrics remain synchronized; no manuscript numerical mutation required; exact final-head CI pending"
+    "build_state": "Run 316 is count-neutral: Rau 2019 was upgraded to an exact Zenodo manifestation locator with publisher-declared MD5 metadata. Independent bytes/hash and explicit license remain unresolved; controlled evidence/source/module totals and publication metrics therefore remain unchanged and synchronized."
   },
   "ci": {
     "previous_green_head": "e3fe357bb4dee4f00004a6ed1e70063ca481ea48",
@@ -76,18 +70,16 @@
       "MLHKP Streamlit Smoke Test",
       "MLHKP Publication Build"
     ],
-    "fresh_run315_final_head_ci_verified": false
+    "fresh_run316_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved WEB-MUN leads",
     "ST-20-00-15-DDW-2011.XLSX permitted acquisition/hash/sheet/numeric-cell verification",
     "DDW-C17-2000.XLSX acquisition/hash/sheet/numeric-cell verification",
-    "Mundarica I-XVI permitted primary scan/hash/page-image/OCR closure",
     "LSI/Atlas primary-page verification",
     "remaining lexical reconciliation",
-    "Rau independent hash",
-    "CIIL Sinha 1975 CIILP0091.pdf independent byte acquisition/hash/page inventory and completeness verification",
-    "CIIL/SCSTRTI/CIET source-byte and rights verification",
+    "Rau 2019 independent byte acquisition/hash and explicit license-text verification",
+    "CIIL/SCSTRTI source-byte and rights verification",
     "audiovisual consent/community/cultural-access review"
   ],
   "release_gate": {
@@ -102,16 +94,15 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 315 refreshed all 14 controlled MMSC classes and verified the first-party ORGI catalogue locator for Jharkhand ST-15: reference PC11_ST15-20 with declared workbook ST-20-00-15-DDW-2011.XLSX. The workbook bytes were not independently acquired, hashed, sheet-inventoried, or cell-verified, so no numerical, linguistic, demographic, cultural, consent, community-validation, reuse-right, or cultural-access claim was promoted. Counts remain unchanged.",
+  "cycle_note": "Run 316 refreshed all 14 controlled non-Mundarica source classes and upgraded Felix Rau's 2019 Munda cognate set to an exact Zenodo manifestation locator. Zenodo verifies DOI 10.5281/zenodo.3380874, version 0.1.0, 127 cognate sets including Mundari, exact CSV filename pMunda_cognate_set_2019-08-29.csv, declared size 34.9 kB and publisher-declared MD5 07e1d945a0fc6cafc4fc7afd3f1ff144. Independent byte acquisition/hash recomputation and explicit license terms remain unresolved, so no lexical rows, controlled evidence or cultural claims were promoted and counts remain unchanged.",
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition",
+    "Rau independent byte/hash and license verification",
     "ST-15 workbook permitted acquisition and independent verification",
     "C-17 workbook permitted acquisition and independent verification",
-    "Mundarica I-XVI permitted scan/hash/page/OCR closure",
-    "CIIL Sinha 1975 permitted byte acquisition/hash/page inventory/completeness verification",
     "LSI/Atlas verification",
     "lexical reconciliation",
-    "Rau independent hashing",
+    "CIIL/SCSTRTI source-byte closure",
     "rights/community-access review"
   ]
 }
