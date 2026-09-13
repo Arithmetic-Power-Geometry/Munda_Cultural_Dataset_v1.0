@@ -1,0 +1,82 @@
+{
+  "run": 309,
+  "date": "2026-09-13",
+  "scope": "non-Mundarica government/Census exact-locator evidence",
+  "source_class": "government/TRI/Census/LSI",
+  "canonical_source": {
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "reference_id": "PC11_C17-20",
+    "series_reference": "PC11_C17",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "publisher": "Office of the Registrar General & Census Commissioner, India",
+    "country": "India",
+    "geographic_unit": "Jharkhand",
+    "geographic_code": "20",
+    "geographic_granularity": "state",
+    "time_period": "2011",
+    "unit_of_observation": "Individual (person)",
+    "universe": "All individuals in Jharkhand",
+    "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "declared_download_filename": "DDW-C17-2000.XLSX"
+  },
+  "exact_schema_locators": [
+    "Language - Total speakers - MUNDA",
+    "Language - Total speakers - MUNDARI",
+    "1st subsidiary language - MUNDA",
+    "1st subsidiary language - MUNDARI",
+    "2nd subsidiary language - MUNDA",
+    "2nd subsidiary language - MUNDARI"
+  ],
+  "table_column_model": [
+    "State code",
+    "State name",
+    "Total speakers of languages - Language code",
+    "Total speakers of languages - Language name",
+    "Total speakers of languages - Person / Male / Female",
+    "Number of speakers speaking subsidiary languages (1st language) - Language code",
+    "Number of speakers speaking subsidiary languages (1st language) - 1st subsidiary languages",
+    "Number of speakers speaking subsidiary languages (1st language) - Person / Male / Female",
+    "Number of speakers speaking subsidiary languages (2nd language) - Language code",
+    "Number of speakers speaking subsidiary languages (2nd language) - 2nd subsidiary languages",
+    "Number of speakers speaking subsidiary languages (2nd language) - Person / Male / Female"
+  ],
+  "verification": {
+    "official_catalogue_identity_verified": true,
+    "official_declared_filename_verified": true,
+    "mundari_schema_presence_verified": true,
+    "munda_schema_presence_verified": true,
+    "xlsx_bytes_independently_acquired": false,
+    "xlsx_sha256_independently_computed": false,
+    "sheet_inventory_verified": false,
+    "exact_numeric_cells_verified": false,
+    "numeric_values_promoted": false
+  },
+  "evidence_promotion": {
+    "promoted_level": "official catalogue + exact table-schema locator only",
+    "new_controlled_cultural_claims": 0,
+    "new_controlled_numeric_claims": 0,
+    "new_evidence_records": 0,
+    "new_provenance_links": 0,
+    "count_neutral": true
+  },
+  "rights_and_governance": {
+    "public_government_catalogue_metadata": true,
+    "download_availability_not_treated_as_blanket_reuse_permission": true,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "open_gap": "Acquire the official DDW-C17-2000.XLSX through a permitted route; independently hash it; inventory sheets; verify exact MUNDA/MUNDARI rows and cells before promoting any numeric values.",
+  "sources": [
+    {
+      "type": "first-party official catalogue",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+      "verified_on": "2026-09-13"
+    },
+    {
+      "type": "first-party official Census tables portal",
+      "url": "https://censusindia.gov.in/census.website/en/data/census-tables",
+      "verified_on": "2026-09-13"
+    }
+  ]
+}
