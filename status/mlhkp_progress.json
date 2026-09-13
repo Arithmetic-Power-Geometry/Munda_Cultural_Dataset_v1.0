@@ -3,17 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T14:55:00Z",
+  "updated_utc": "2026-09-13T15:30:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 310,
-  "previous_final_head": "18c25997a1603c07de44927e09c7c129f3d17edf",
-  "work_head_before_status_sync": "9abcd29d45d199178bf7b0a2e9a0ec3514d187bd",
+  "latest_run": 311,
+  "previous_final_head": "bf19280bc6682f8832dac8e58a0d65d80ab0d957",
+  "work_head_before_status_sync": "67b423b345b94a2e6ad037910f531c1573001e20",
   "cycle_commits": [
-    "2cfc5dd6a8dcc7186ca424568023228e84c91235",
-    "90ce381d0b7d8f8780d27b112a7f1a2f8bf6814c",
-    "d3a9cda56d8a44220eb1c24c6acc3b5f130d702e",
-    "f43bdab9db68488874e108af7c28312aa10bed5a",
-    "9abcd29d45d199178bf7b0a2e9a0ec3514d187bd"
+    "e2b17477c922ff0e4111b880aca1889ee6a519b6",
+    "bece7e9548fb649f52393797229d72570b609272",
+    "67b423b345b94a2e6ad037910f531c1573001e20"
   ],
   "mmsc": {
     "audited_source_identities": 42,
@@ -22,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000310",
+    "latest_search_id": "MMSC-SEARCH-000311",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
   },
@@ -33,17 +31,22 @@
     "historical_printed_page_locator_anchors_added_run307": 6,
     "run309_manifestation_reconciliation_added": true,
     "run309_volume16_reprint_pagination_conflict": [43, 96],
+    "run311_grouped_historical_page_accounting": {
+      "I-IV": "v + 1271",
+      "VIII-X": "2147-3173",
+      "individual_volume_boundaries_inferred": false
+    },
     "per_volume": {
-      "I": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
-      "II": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
-      "III": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
-      "IV": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
+      "I": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "grouped_historical_pagination_support": "I-IV: v + 1271; individual boundary not inferred"},
+      "II": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "grouped_historical_pagination_support": "I-IV: v + 1271; individual boundary not inferred"},
+      "III": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "grouped_historical_pagination_support": "I-IV: v + 1271; individual boundary not inferred"},
+      "IV": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "grouped_historical_pagination_support": "I-IV: v + 1271; individual boundary not inferred"},
       "V": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
       "VI": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
       "VII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
-      "VIII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "printed_page_anchors": [2147, 2151, 2208], "locator_source": "Google Books vAWmtdk21wEC"},
-      "IX": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
-      "X": {"registered_scan": false, "verified_complete": false, "ocr_verified": false},
+      "VIII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "printed_page_anchors": [2147, 2151, 2208], "locator_source": "Google Books vAWmtdk21wEC", "grouped_historical_range_support": "VIII-X: 2147-3173"},
+      "IX": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "grouped_historical_range_support": "VIII-X: 2147-3173; individual boundary not inferred"},
+      "X": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "grouped_historical_range_support": "VIII-X: 2147-3173; individual boundary not inferred"},
       "XI": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "printed_page_anchors": [3173, 3175, 3183], "locator_source": "Google Books nnzW-Dy4NowC"},
       "XII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "modern_reprint_pages_reported": 250},
       "XIII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "historical_manifestation_locator_verified": true, "historical_year": 1941},
@@ -59,7 +62,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run310_count_neutral_locator_only": true
+    "run311_count_neutral_page_accounting_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -69,7 +72,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run310_no_module_mutation_required": true
+    "count_neutral_run311_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -83,15 +86,17 @@
     "karya_privacy_publicity_and_cultural_access_remain_open": true,
     "historical_and_modern_mundarica_manifestations_not_collapsed": true,
     "volume16_reprint_pagination_conflict_preserved": true,
-    "census_download_availability_not_treated_as_blanket_reuse_permission": true
+    "census_download_availability_not_treated_as_blanket_reuse_permission": true,
+    "grouped_historical_pagination_not_treated_as_per_volume_scan_completeness": true,
+    "south_sudan_nilotic_mundari_collision_excluded": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "Run 310 is count-neutral: controlled evidence/source/module totals remain unchanged; C-17 exact first-party catalogue/schema locator added; manuscript metrics, tables and figures remain synchronized; exact final-head CI pending"
+    "build_state": "Run 311 is count-neutral: controlled evidence/source/module totals remain unchanged; historical Mundarica grouped page-accounting support was strengthened without inferring individual-volume boundaries or scan/OCR completion; manuscript metrics remain synchronized; exact final-head CI pending"
   },
   "ci": {
-    "previous_green_head": "18c25997a1603c07de44927e09c7c129f3d17edf",
+    "previous_green_head": "bf19280bc6682f8832dac8e58a0d65d80ab0d957",
     "previous_green_head_four_of_four": true,
     "previous_green_workflows": [
       "MLHKP Source Register Audit",
@@ -99,12 +104,13 @@
       "MLHKP Streamlit Smoke Test",
       "MLHKP Publication Build"
     ],
-    "fresh_run310_final_head_ci_verified": false
+    "fresh_run311_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved web leads",
     "Mundarica primary scans and verification",
     "Mundarica printed-page to scan-image concordance",
+    "Mundarica individual-volume boundary accounting where grouped ranges are the only verified support",
     "Mundarica Volume XVI modern-reprint pagination conflict",
     "C-17 official DDW-C17-2000.XLSX byte acquisition, independent hash, sheet inventory and exact numeric-cell verification",
     "LSI and Atlas byte/page verification",
@@ -130,13 +136,14 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 310 performed a fresh 14-class non-Mundarica sweep and upgraded the official ORGI Census 2011 C-17 Jharkhand source to an exact first-party catalogue/schema locator: reference PC11_C17-20, declared download DDW-C17-2000.XLSX, geographic code 20, and six exact MUNDA/MUNDARI schema positions covering total, first-subsidiary and second-subsidiary language fields. The official XLSX bytes were not independently acquired or hashed, sheet inventory and exact numeric cells were not verified, and no numeric or cultural claims were promoted. Other archive/article/web/dataset/audio/video/media leads were retained at their existing defensible levels. Run 309 Mundarica manifestation findings remain preserved separately.",
+  "cycle_note": "Run 311 refreshed all 14 MMSC source classes and strengthened historical Mundarica page accounting using independent scholarly notices: Vols. I-IV are reported as letters A-D with grouped pagination v + 1271 (1930 manifestation), and Vols. VIII-X as letters K-O with grouped printed pages 2147-3173 (1933-1934 manifestations). These are bibliographic/page-accounting anchors only. No individual-volume boundary was guessed; no primary scan bytes were registered; no independent hashes, scan-image concordance, OCR verification, complete-volume verification, cultural claims, evidence records or provenance links were promoted. The sweep also re-observed a South Sudan Nilotic 'Mundari' video collision and retained its exclusion from the Austroasiatic Munda/Mundari graph.",
   "next_parallel_tasks": [
     "numbered WEB-MUN lead disposition",
-    "acquire official DDW-C17-2000.XLSX through a permitted route, compute independent hash, inventory sheets and verify exact MUNDA/MUNDARI cells",
     "Mundarica I-XVI permitted primary-byte acquisition and independent hashing",
+    "derive individual-volume printed-page boundaries only from verified manifestations, never from grouped-range interpolation",
     "Mundarica printed-page/scan-image concordance",
     "resolve Volume XVI reprint pagination conflict without using it as historical pagination",
+    "acquire official DDW-C17-2000.XLSX through a permitted route, compute independent hash, inventory sheets and verify exact MUNDA/MUNDARI cells",
     "Karya deterministic numbered-register reconciliation and permitted full-archive hash verification",
     "Karya participant/privacy/community/cultural-access review before participant-derived content promotion",
     "Koshy 2024 stable PDF byte/hash/page-image verification and example provenance separation",
