@@ -3,16 +3,10 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T19:35:00Z",
+  "updated_utc": "2026-09-13T19:48:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 319,
-  "previous_final_head": "3c2c3df7caa96dded52cb13932c5b5062567d37c",
-  "work_head_before_status_sync": "d1d060b92da0f27d10b8d3d67d8d2b7cdc784a05",
-  "cycle_commits": [
-    "8423441f3e26d2f71ad5d9d9f0a4c0fd51d88919",
-    "3bc6b9043065c4bd91c29cda1a71ae667f9dfbe8",
-    "d1d060b92da0f27d10b8d3d67d8d2b7cdc784a05"
-  ],
+  "latest_run": 320,
+  "previous_final_head": "e689e229d1942372ab70a9c9ea674690149b81d5",
   "mmsc": {
     "audited_source_identities": 42,
     "raw_web_discovery_records": 90,
@@ -20,36 +14,16 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000319",
+    "latest_search_id": "MMSC-SEARCH-000320",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
-    "run317_bmc_numbered_register_reconciliation_pending": true,
-    "run318_census2001_c17_numbered_register_reconciliation_pending": true,
-    "run319_census2011_st15_numbered_register_reconciliation_pending": true
+    "run320_census_cross_table_audit_added": true
   },
   "mundarica": {
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
-    "false_ocr_verification_known": false,
-    "per_volume_states": {
-      "I": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
-      "II": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
-      "III": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
-      "IV": "locator/page-accounting context only; primary bytes/hash/page-image/OCR closure pending",
-      "V": "primary bytes/hash/page-image/OCR closure pending",
-      "VI": "primary bytes/hash/page-image/OCR closure pending",
-      "VII": "primary bytes/hash/page-image/OCR closure pending",
-      "VIII": "historical page anchors recorded previously; primary bytes/hash/page-image/OCR closure pending",
-      "IX": "grouped historical page-accounting context recorded previously; individual primary closure pending",
-      "X": "grouped historical page-accounting context recorded previously; individual primary closure pending",
-      "XI": "historical page anchors recorded previously; primary bytes/hash/page-image/OCR closure pending",
-      "XII": "modern reprint pagination metadata recorded previously; primary historical manifestation closure pending",
-      "XIII": "historical manifestation locator recorded previously; primary bytes/hash/page-image/OCR closure pending",
-      "XIV": "primary bytes/hash/page-image/OCR closure pending",
-      "XV": "primary bytes/hash/page-image/OCR closure pending",
-      "XVI": "pagination conflict recorded previously; primary manifestation resolution and OCR closure pending"
-    }
+    "false_ocr_verification_known": false
   },
   "evidence": {
     "claims": 52,
@@ -58,7 +32,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run319_count_neutral_catalogue_schema_metadata_only": true
+    "run320_count_neutral_catalogue_metadata_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,26 +42,20 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run319_no_module_mutation_required": true
+    "count_neutral_run320_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
     "restricted_content_not_exposed": true,
     "community_validation_not_fabricated": true,
-    "bmc_2025_article_version_of_record_verified": true,
-    "bmc_2025_article_license": "CC BY 4.0",
-    "bmc_2025_underlying_participant_data_publicly_downloadable": false,
-    "bmc_2025_participant_consent_not_treated_as_dataset_reuse_permission": true,
-    "bmc_2025_community_validation_not_inferred": true,
-    "rau_2019_zenodo_exact_manifestation_locator_verified": true,
-    "rau_2019_publisher_declared_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
-    "rau_2019_independent_hash_recomputed": false,
-    "rau_2019_explicit_license_text_verified": false,
-    "rau_direct_byte_retrieval_remains_blocked": true,
     "census2001_c17_jharkhand_catalogue_identity_verified": true,
     "census2001_c17_declared_workbook": "PC01_C17_20.xls",
     "census2001_c17_workbook_bytes_acquired": false,
     "census2001_c17_numeric_claims_promoted": 0,
+    "census2011_c17_jharkhand_catalogue_identity_verified": true,
+    "census2011_c17_declared_workbook": "DDW-C17-2000.XLSX",
+    "census2011_c17_workbook_bytes_acquired": false,
+    "census2011_c17_numeric_claims_promoted": 0,
     "census2011_st15_jharkhand_catalogue_identity_verified": true,
     "census2011_st15_declared_workbook": "ST-20-00-15-DDW-2011.XLSX",
     "census2011_st15_munda_patar_row_label_verified_from_catalogue_metadata": true,
@@ -100,27 +68,19 @@
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "Run 319 is metric-neutral. ORGI Census 2011 ST-15 Jharkhand metadata was re-verified at the exact first-party catalogue level (PC11_ST15-20; declared ST-20-00-15-DDW-2011.XLSX), including the Munda/Patar tribe label and Munda/Mundari mother-tongue labels in the catalogue schema. Workbook bytes/hash/sheets/exact numeric cells remain unverified. No controlled claim/evidence/source count was incremented, so publication metrics/tables/figures remain synchronized with the controlled corpus."
+    "build_state": "Run 320 is metric-neutral. The three ORGI Jharkhand Census streams PC01_C17-20, PC11_C17-20 and PC11_ST15-20 were consolidated into one exact first-party catalogue cross-table audit. Workbook bytes, hashes and exact numerical cells remain unverified; no controlled counts changed."
   },
   "ci": {
     "previous_green_head": "3c2c3df7caa96dded52cb13932c5b5062567d37c",
     "previous_green_head_four_of_four": true,
-    "previous_green_workflows": [
-      "MLHKP Source Register Audit",
-      "MLHKP Migration Audit",
-      "MLHKP Streamlit Smoke Test",
-      "MLHKP Publication Build"
-    ],
-    "run318_actions_total": 4,
-    "fresh_run319_final_head_ci_verified": false
+    "fresh_run320_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved WEB-MUN leads",
-    "deterministic reconciliation of Run 317 BMC publication, Run 318 Census 2001 C-17 locator and Run 319 Census 2011 ST-15 metadata audit against the numbered MMSC/WEB-MUN register",
-    "Mundarica I-XVI primary-byte acquisition/hash/page-image concordance/OCR verification",
+    "deterministic numbered-register reconciliation for recent verified locators",
     "PC01_C17_20.xls permitted acquisition/hash/sheet/MUNDA-MUNDARI numeric-cell verification",
+    "DDW-C17-2000.XLSX permitted acquisition/hash/sheet/MUNDA-MUNDARI numeric-cell verification",
     "ST-20-00-15-DDW-2011.XLSX permitted acquisition/hash/sheet/exact Munda-Patar and Munda-Mundari numeric-cell verification",
-    "DDW-C17-2000.XLSX acquisition/hash/sheet/numeric-cell verification",
     "LSI/Atlas primary-page verification",
     "remaining lexical reconciliation",
     "Rau 2019 independent byte acquisition/hash and explicit license-text verification",
@@ -139,18 +99,17 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 319 refreshed all 14 controlled MMSC source classes and re-verified the first-party ORGI Census 2011 ST-15 Jharkhand catalogue at the exact metadata level: reference PC11_ST15-20, declared workbook ST-20-00-15-DDW-2011.XLSX, Scheduled Tribe label Munda/Patar, and catalogue mother-tongue labels/codes 91 MUNDA and 92 MUNDARI. The workbook itself was not independently acquired, hashed, sheet-inventoried or cell-audited, so zero numerical or cultural claims were promoted and all controlled corpus counts remain unchanged. Rights, participant consent, community validation and cultural authorization were not inferred from public catalogue visibility. Mundarica remains at zero authoritative registered scans, zero verified-complete volumes and zero verified OCR pages. Streamlit, evidence graph and manuscript metrics remain count-synchronized.",
+  "cycle_note": "Run 320 refreshed all 14 controlled non-Mundarica classes and added a cross-table audit for ORGI Census Jharkhand C-17 2001, C-17 2011 and ST-15 2011. Exact first-party catalogue identities and declared workbook names are verified. ST-15 catalogue metadata verifies the Munda/Patar tribe label and MUNDA/MUNDARI mother-tongue labels. No numerical or cultural claims were promoted because workbook bytes and exact cells remain unverified.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "numbered WEB-MUN disposition plus Run 317/318/319 deterministic register reconciliation",
+    "numbered WEB-MUN disposition and deterministic register reconciliation",
     "Census 2001 C-17 workbook permitted acquisition and exact MUNDA/MUNDARI cell verification",
-    "Census 2011 ST-15 workbook permitted acquisition, independent hash, sheet inventory and exact Munda/Patar plus Munda/Mundari numeric-cell verification",
-    "Census 2011 C-17 workbook permitted acquisition and independent verification",
-    "Mundarica I-XVI primary-byte/hash/page-image/OCR closure",
+    "Census 2011 C-17 workbook permitted acquisition and exact MUNDA/MUNDARI cell verification",
+    "Census 2011 ST-15 workbook permitted acquisition and exact Munda/Patar plus MUNDA/MUNDARI cell verification",
     "LSI/Atlas verification",
     "lexical reconciliation and Rau independent byte/hash/license closure",
     "CIIL/SCSTRTI source-byte closure",
