@@ -1,23 +1,114 @@
 {
-  "project":"MLHKP",
-  "branch":"mlhkp-v2",
-  "pr":1,
-  "pr_state_verified":"open_unmerged_base_main",
-  "updated_utc":"2026-09-13T16:32:00Z",
-  "deadline_ist":"2026-09-21T23:59:00+05:30",
-  "latest_run":313,
-  "previous_final_head":"77bdc9f3900c4b80574620d52acefd926388571a",
-  "work_head_before_status_sync":"3d5cb1dfaa81b44c54c9d23d95baf48cf2623b18",
-  "cycle_commits":["87c1051a0b23735528dc6b359416f530f22a5dfb","3d5cb1dfaa81b44c54c9d23d95baf48cf2623b18"],
-  "mmsc":{"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73,"latest_search_id":"MMSC-SEARCH-000313","controlled_classes_refreshed_this_run":14,"systematic_census_documented_for_release":true},
-  "mundarica":{"series_target_volumes":"I-XVI","authoritative_registered_scans":0,"verified_complete_volumes":0,"verified_ocr_volumes":0,"per_volume":{"I":"scan:no;complete:no;ocr:no","II":"scan:no;complete:no;ocr:no","III":"scan:no;complete:no;ocr:no","IV":"scan:no;complete:no;ocr:no","V":"scan:no;complete:no;ocr:no","VI":"scan:no;complete:no;ocr:no","VII":"scan:no;complete:no;ocr:no","VIII":"scan:no;complete:no;ocr:no;anchors:2147,2151,2208","IX":"scan:no;complete:no;ocr:no","X":"scan:no;complete:no;ocr:no","XI":"scan:no;complete:no;ocr:no;anchors:3173,3175,3183","XII":"scan:no;complete:no;ocr:no;modern_reprint_pages_reported:250","XIII":"scan:no;complete:no;ocr:no;historical_locator:1941","XIV":"scan:no;complete:no;ocr:no","XV":"scan:no;complete:no;ocr:no","XVI":"scan:no;complete:no;ocr:no;reprint_pages_conflict:43|96"}},
-  "evidence":{"claims":52,"records":52,"links":52,"schema_category_representation_percent":100.0,"all_public_factual_claims_provenance_linked":true,"broken_ids_or_provenance_known":false},
-  "streamlit":{"registered_modules":42,"mapped_modules":42,"ui_mapping_percent":100.0,"universal_search":true,"evidence_drilldown":true,"reports_downloads":true,"owner_console":true},
-  "governance":{"cultural_access_overrides_entitlement":true,"restricted_content_not_exposed":true,"community_validation_not_fabricated":true,"c17_catalogue_is_locator_only":true,"workbook_reuse_permission_not_inferred":true},
-  "publication":{"q1_target":true,"metrics_synced":true,"build_state":"Run 313 count-neutral; C-17 Jharkhand upgraded to exact ORGI catalogue/schema locator; no unverified workbook numbers promoted; final-head CI pending"},
-  "ci":{"previous_green_head":"77bdc9f3900c4b80574620d52acefd926388571a","previous_green_head_four_of_four":true,"previous_green_workflows":["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],"fresh_run313_final_head_ci_verified":false},
-  "blockers":["73 unresolved WEB-MUN leads","Mundarica I-XVI primary bytes/hash/page-image/OCR verification","Mundarica Volume XVI reprint pagination conflict","DDW-C17-2000.XLSX acquisition/hash/sheet/numeric-cell verification","ST-20-00-15-DDW-2011.XLSX acquisition/hash/sheet/numeric-cell verification","LSI/Atlas primary-page verification","remaining lexical reconciliation","Rau independent hash","audiovisual consent/community/cultural-access review","CIIL/SCSTRTI/CIET source-byte and rights verification"],
-  "release_gate":{"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"gaps_enumerated":true,"no_broken_ids_or_provenance_known":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false},
-  "cycle_note":"Run 313 refreshed all 14 MMSC classes and verified ORGI C-17 Jharkhand catalogue identity PC11_C17-20, declared workbook DDW-C17-2000.XLSX, and MUNDA/MUNDARI subsidiary-language schema locators. Workbook bytes, hash, sheets and numeric cells remain unverified, so no numeric, linguistic or cultural claim and no controlled count increment was made.",
-  "next_parallel_tasks":["numbered WEB-MUN disposition","C-17 workbook permitted acquisition and independent verification","ST-15 workbook permitted acquisition and independent verification","Mundarica I-XVI primary-byte/hash/page/OCR closure","Mundarica printed-page to scan-image concordance","LSI/Atlas verification","lexical reconciliation","rights/community-access review"]
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "pr_state_verified": "open_unmerged_base_main",
+  "updated_utc": "2026-09-13T16:44:00Z",
+  "deadline_ist": "2026-09-21T23:59:00+05:30",
+  "latest_run": 314,
+  "previous_final_head": "4f27b75fde65f8953d4784972e342f335d257724",
+  "work_head_before_status_sync": "b5c3e7a719071462e36e878eb2a84da997f41046",
+  "cycle_commits": [
+    "a2788ec9e9b739d1acdea9a4fc817c58e38e0539",
+    "2563f2e8e76302b71a43d5d1721fce1468b2a58a",
+    "b5c3e7a719071462e36e878eb2a84da997f41046"
+  ],
+  "mmsc": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "latest_search_id": "MMSC-SEARCH-000314",
+    "controlled_classes_refreshed_this_run": 14,
+    "systematic_census_documented_for_release": true
+  },
+  "mundarica": {
+    "series_target_volumes": "I-XVI",
+    "authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_volumes": 0,
+    "note": "Non-Mundarica sprint did not promote Mundarica content; existing gaps remain explicit."
+  },
+  "evidence": {
+    "claims": 52,
+    "records": 52,
+    "links": 52,
+    "schema_category_representation_percent": 100.0,
+    "all_public_factual_claims_provenance_linked": true,
+    "broken_ids_or_provenance_known": false,
+    "run314_count_neutral_locator_only": true
+  },
+  "streamlit": {
+    "registered_modules": 42,
+    "mapped_modules": 42,
+    "ui_mapping_percent": 100.0,
+    "universal_search": true,
+    "evidence_drilldown": true,
+    "reports_downloads": true,
+    "owner_console": true,
+    "count_neutral_run314_no_module_mutation_required": true
+  },
+  "governance": {
+    "cultural_access_overrides_entitlement": true,
+    "restricted_content_not_exposed": true,
+    "community_validation_not_fabricated": true,
+    "c17_catalogue_is_locator_only": true,
+    "workbook_reuse_permission_not_inferred": true,
+    "ciil_sinha_1975_exact_repository_locator_verified": true,
+    "ciil_sinha_1975_repository_reported_file_size": "9.63 KB",
+    "ciil_sinha_1975_complete_book_not_inferred_from_repository_file_object": true,
+    "ciil_public_access_not_treated_as_reuse_permission": true
+  },
+  "publication": {
+    "q1_target": true,
+    "metrics_synced": true,
+    "build_state": "Run 314 is count-neutral: CIIL Sinha 1975 upgraded to exact first-party manifestation locator with explicit 9.63 KB completeness warning; controlled evidence/source/module totals remain unchanged and synchronized; exact final-head CI pending"
+  },
+  "ci": {
+    "previous_green_head": "77bdc9f3900c4b80574620d52acefd926388571a",
+    "previous_green_head_four_of_four": true,
+    "previous_green_workflows": [
+      "MLHKP Source Register Audit",
+      "MLHKP Migration Audit",
+      "MLHKP Streamlit Smoke Test",
+      "MLHKP Publication Build"
+    ],
+    "fresh_run314_final_head_ci_verified": false
+  },
+  "blockers": [
+    "73 unresolved WEB-MUN leads",
+    "DDW-C17-2000.XLSX acquisition/hash/sheet/numeric-cell verification",
+    "ST-20-00-15-DDW-2011.XLSX acquisition/hash/sheet/numeric-cell verification",
+    "LSI/Atlas primary-page verification",
+    "remaining lexical reconciliation",
+    "Rau independent hash",
+    "CIIL Sinha 1975 CIILP0091.pdf independent byte acquisition/hash/page inventory and completeness verification",
+    "CIIL/SCSTRTI/CIET source-byte and rights verification",
+    "audiovisual consent/community/cultural-access review"
+  ],
+  "release_gate": {
+    "status": "NOT_PASS",
+    "schema_category_representation_100": true,
+    "ui_mapping_100": true,
+    "systematic_census_documented": true,
+    "all_obtainable_permitted_sources_processed_to_declared_level": false,
+    "gaps_enumerated": true,
+    "no_broken_ids_or_provenance_known": true,
+    "no_restricted_leakage_known": true,
+    "no_false_ocr_verification_known": true,
+    "automated_completeness_audit_pass": false
+  },
+  "cycle_note": "Run 314 refreshed all 14 controlled non-Mundarica MMSC classes. The first-party CIIL/Bhasha Sanchika record for N. K. Sinha (1975), Mundari Grammar, was upgraded to an exact manifestation locator: handle 20.500.14705/8179, file CIILP0091.pdf, repository-reported size 9.63 KB, English/Mundari scope, and All Rights Reserved repository notice. Because the exposed file object is only 9.63 KB and full bytes/page inventory were not independently verified, the object was not treated as a complete copy of the grammar. No internal examples, linguistic claims, cultural claims, controlled evidence records, source-count increments, reuse permission, participant consent, community validation, or cultural-access permission were inferred.",
+  "next_parallel_tasks": [
+    "numbered WEB-MUN disposition",
+    "C-17 workbook permitted acquisition and independent verification",
+    "ST-15 workbook permitted acquisition and independent verification",
+    "CIIL Sinha 1975 permitted byte acquisition/hash/page inventory/completeness verification",
+    "LSI/Atlas verification",
+    "lexical reconciliation",
+    "Rau independent hashing",
+    "rights/community-access review"
+  ]
 }
