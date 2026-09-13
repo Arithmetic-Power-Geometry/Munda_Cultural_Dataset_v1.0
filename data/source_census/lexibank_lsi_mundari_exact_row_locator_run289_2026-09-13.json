@@ -1,0 +1,59 @@
+{
+  "run_id": 289,
+  "date_utc": "2026-09-13",
+  "stream": "government_LSI / derived-dataset exact-row locator audit",
+  "source": {
+    "repository": "lexibank/lsi",
+    "pinned_commit_sha": "bfae847565dc6810af05c11bf612457e5861009e",
+    "computed_path": "computed/Austroasiatic.tsv",
+    "computed_git_blob_sha": "6b74d97032e3e228b6519aa8d597a790305dd340",
+    "parameters_path": "cldf/parameters.csv",
+    "parameters_git_blob_sha": "6e37638677321a4b3bf85974889f224176ebf391",
+    "language_id": "MUNDARI",
+    "glottocode": "mund1320"
+  },
+  "verified_exact_rows": [
+    {"computed_id":"23654","Parameter_ID":"115_but","Concept":"But","VALUE":"män-då","FORM":"män-då","GLOTTOLOG":"mund1320","CONCEPTICON":"3843","parameter_locator":{"Concepticon_ID":"3843","Concepticon_Gloss":"BUT","primary_lsi_page_numbers":"230-231","scan_numbers":"272 273","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/272/mode/2up"}},
+    {"computed_id":"57041","Parameter_ID":"56_dog","Concept":"Dog","VALUE":"setā","FORM":"setā","GLOTTOLOG":"mund1320","CONCEPTICON":"2009","parameter_locator":{"Concepticon_ID":"2009","Concepticon_Gloss":"DOG","primary_lsi_page_numbers":"112-113","scan_numbers":"154 155","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/154/mode/2up"}},
+    {"computed_id":"20031","Parameter_ID":"106_down","Concept":"Down","VALUE":"lātār","FORM":"lātār","GLOTTOLOG":"mund1320","CONCEPTICON":"1326","parameter_locator":{"Concepticon_ID":"1326","Concepticon_Gloss":"DOWN","primary_lsi_page_numbers":"212-213","scan_numbers":"254 255","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/254/mode/2up"}},
+    {"computed_id":"58626","Parameter_ID":"60_duck","Concept":"Duck","VALUE":"gäḍä","FORM":"gäḍä","GLOTTOLOG":"mund1320","CONCEPTICON":"1360","parameter_locator":{"Concepticon_ID":"1360","Concepticon_Gloss":"DUCK","primary_lsi_page_numbers":"120-121","scan_numbers":"162 163","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/162/mode/2up"}}
+  ],
+  "verification": {
+    "new_exact_computed_rows_verified_this_run": 4,
+    "new_distinct_parameter_ids_verified_this_run": 4,
+    "cumulative_exact_computed_rows_verified_across_runs_281_283_285_286_289": 31,
+    "cumulative_distinct_parameter_ids_verified_across_runs_281_283_285_286_289": 26,
+    "parameter_foreign_keys_reconciled": true,
+    "concepticon_ids_reconciled": true,
+    "primary_page_and_scan_locators_reconciled_from_pinned_parameters_table": true,
+    "direct_primary_page_image_verified_this_run": false,
+    "direct_primary_scan_bytes_hashed_this_run": false
+  },
+  "canonicalization": {
+    "canonical_key": "LEXIBANK:LSI:master@bfae847565dc6810af05c11bf612457e5861009e",
+    "new_controlled_source_identity": false,
+    "reason": "Exact-row refinement of the already tracked LSI derived-dataset family; not a new source identity."
+  },
+  "promotion": {
+    "promotion_level": "exact derived-row + parameter + Concepticon + primary-page locator evidence",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "reason_for_no_public_lexical_promotion": "Derived rows and primary-page locators are reproducible, but direct primary LSI page-image/byte verification and cultural-governance review remain open."
+  },
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license": "CC-BY-4.0",
+    "derived_license_treated_as_primary_scan_permission": false,
+    "derived_license_treated_as_participant_consent": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "public_repository_access_treated_as_model_training_permission": false
+  },
+  "explicit_gaps": [
+    "Continue exact reconciliation of remaining MUNDARI rows in the pinned Lexibank LSI dataset.",
+    "Independently verify corresponding primary LSI page images/bytes before direct-source lexical promotion.",
+    "Do not infer community validation, participant consent or cultural-access permission from the derived CC-BY-4.0 licence."
+  ]
+}
