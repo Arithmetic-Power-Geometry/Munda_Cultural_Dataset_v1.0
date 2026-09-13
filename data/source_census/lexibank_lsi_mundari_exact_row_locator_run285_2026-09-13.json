@@ -1,0 +1,117 @@
+{
+  "run_id": 285,
+  "date_utc": "2026-09-13",
+  "stream": "government_LSI / derived-dataset exact-row locator audit",
+  "source": {
+    "repository": "lexibank/lsi",
+    "pinned_commit_sha": "bfae847565dc6810af05c11bf612457e5861009e",
+    "computed_path": "computed/Austroasiatic.tsv",
+    "parameters_path": "cldf/parameters.csv",
+    "language_id": "MUNDARI",
+    "glottocode": "mund1320"
+  },
+  "verified_exact_rows": [
+    {
+      "computed_id": "23276",
+      "Parameter_ID": "114_and",
+      "Concept": "And",
+      "VALUE": "oṛo",
+      "FORM": "oṛo",
+      "GLOTTOLOG": "mund1320",
+      "CONCEPTICON": "1577",
+      "parameter_locator": {
+        "Concepticon_ID": "1577",
+        "Concepticon_Gloss": "AND",
+        "primary_lsi_page_numbers": "228-229",
+        "scan_numbers": "270 271",
+        "dsal_locator": "https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/270/mode/2up"
+      }
+    },
+    {
+      "computed_id": "23277",
+      "Parameter_ID": "114_and",
+      "Concept": "And",
+      "VALUE": "aᵗ",
+      "FORM": "aᵗ",
+      "GLOTTOLOG": "mund1320",
+      "CONCEPTICON": "1577",
+      "parameter_locator": {
+        "Concepticon_ID": "1577",
+        "Concepticon_Gloss": "AND",
+        "primary_lsi_page_numbers": "228-229",
+        "scan_numbers": "270 271",
+        "dsal_locator": "https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/270/mode/2up"
+      }
+    },
+    {
+      "computed_id": "51846",
+      "Parameter_ID": "37_back",
+      "Concept": "Back",
+      "VALUE": "dea",
+      "FORM": "dea",
+      "GLOTTOLOG": "mund1320",
+      "CONCEPTICON": "1291",
+      "parameter_locator": {
+        "Concepticon_ID": "1291",
+        "Concepticon_Gloss": "BACK",
+        "primary_lsi_page_numbers": "74-75",
+        "scan_numbers": "116 117",
+        "dsal_locator": "https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/116/mode/2up"
+      }
+    },
+    {
+      "computed_id": "51847",
+      "Parameter_ID": "37_back",
+      "Concept": "Back",
+      "VALUE": "då̃yā",
+      "FORM": "då̃yā",
+      "GLOTTOLOG": "mund1320",
+      "CONCEPTICON": "1291",
+      "parameter_locator": {
+        "Concepticon_ID": "1291",
+        "Concepticon_Gloss": "BACK",
+        "primary_lsi_page_numbers": "74-75",
+        "scan_numbers": "116 117",
+        "dsal_locator": "https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/116/mode/2up"
+      }
+    }
+  ],
+  "verification": {
+    "new_exact_computed_rows_verified_this_run": 4,
+    "new_distinct_parameter_ids_verified_this_run": 2,
+    "cumulative_exact_computed_rows_verified_across_runs_281_283_285": 17,
+    "cumulative_distinct_parameter_ids_verified_across_runs_281_283_285": 12,
+    "parameter_foreign_keys_reconciled": true,
+    "concepticon_ids_reconciled": true,
+    "primary_page_and_scan_locators_reconciled_from_pinned_parameters_table": true,
+    "direct_primary_page_image_verified_this_run": false,
+    "direct_primary_scan_bytes_hashed_this_run": false
+  },
+  "canonicalization": {
+    "canonical_key": "LEXIBANK:LSI:master@bfae847565dc6810af05c11bf612457e5861009e",
+    "new_controlled_source_identity": false,
+    "reason": "Exact-row refinement of the already tracked LSI derived-dataset family; not a new source identity."
+  },
+  "promotion": {
+    "promotion_level": "exact derived-row + parameter + Concepticon + primary-page locator evidence",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "reason_for_no_public_lexical_promotion": "Derived rows and primary-page locators are reproducible, but direct primary LSI page-image/byte verification and cultural-governance review remain open."
+  },
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license": "CC-BY-4.0",
+    "derived_license_treated_as_primary_scan_permission": false,
+    "derived_license_treated_as_participant_consent": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "public_repository_access_treated_as_model_training_permission": false
+  },
+  "explicit_gaps": [
+    "Continue exact reconciliation of remaining MUNDARI rows in the pinned Lexibank LSI dataset.",
+    "Independently verify corresponding primary LSI page images/bytes before direct-source lexical promotion.",
+    "Do not infer community validation, participant consent or cultural-access permission from the derived CC-BY-4.0 licence."
+  ]
+}
