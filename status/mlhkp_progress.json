@@ -3,21 +3,136 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T12:55:00Z",
+  "updated_utc": "2026-09-13T13:31:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 306,
-  "previous_final_head": "d96276f8a9f1cf5afdba9e6ed0b128fe6ea03e12",
-  "work_head_before_status_sync": "18b0e4b9bb544143498d905a44dc5bf761cb52f5",
-  "cycle_commits": ["35d30089389fabfc68e0b40c4e86f548abfe29d5", "45da35c104bcdd07af4cbc49847bd225210fcce4", "18b0e4b9bb544143498d905a44dc5bf761cb52f5"],
-  "mmsc": {"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73,"latest_search_id":"MMSC-SEARCH-000306","systematic_census_documented_for_release":true},
-  "mundarica": {"series_target_volumes":"I-XVI","authoritative_registered_scans":0,"verified_complete_volumes":0},
-  "evidence": {"claims":52,"records":52,"links":52,"schema_category_representation_percent":100.0,"all_public_factual_claims_provenance_linked":true,"broken_ids_or_provenance_known":false},
-  "streamlit": {"registered_modules":42,"mapped_modules":42,"ui_mapping_percent":100.0,"universal_search":true,"evidence_drilldown":true,"reports_downloads":true,"owner_console":true,"count_neutral_run306_no_module_mutation_required":true},
-  "governance": {"cultural_access_overrides_entitlement":true,"restricted_content_not_exposed":true,"community_validation_not_fabricated":true,"ciil_license_bundle_boundary_audited":true,"ciet_barkhaa_rights_boundary_audited":true,"koshy_2024_article_license_not_treated_as_fieldwork_consent":true},
-  "publication": {"q1_target":true,"metrics_synced":true,"build_state":"run305 final head confirmed 4/4 green; run306 final-head CI pending; controlled evidence/source/module counts unchanged, so release tables/figures remain count-synchronized"},
-  "ci": {"previous_green_head":"d96276f8a9f1cf5afdba9e6ed0b128fe6ea03e12","previous_green_head_four_of_four":true,"previous_green_workflows":["MLHKP Source Register Audit","MLHKP Migration Audit","MLHKP Streamlit Smoke Test","MLHKP Publication Build"],"fresh_run306_final_head_ci_verified":false},
-  "blockers": ["73 unresolved web leads","Mundarica primary scans and verification","C-17 workbook verification","LSI and Atlas byte/page verification","remaining lexical reconciliation","Rau independent hash","audiovisual consent/community/access review","Soy 2017 complete authorized manifestation and license-text verification","SCSTRTI Sarala Munda PDF byte/hash/page verification and repository approval-state reconciliation","CIIL grammar BVP03961 BVP00202 BVP04856 bytes/hash/page/license verification","CIET NCERT Barkhaa individual Mundari audio file and reuse-rights verification","Koshy 2024 stable PDF byte/hash and page-image verification plus separation of published-source examples from possible fieldwork-derived material"],
-  "release_gate": {"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"gaps_enumerated":true,"no_broken_ids_or_provenance_known":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false},
-  "cycle_note": "All 14 controlled MMSC source classes were refreshed. Koshy 2024 (Indian Journal of Language and Linguistics 5(3):62-75, DOI 10.54392/ijll2436, CC BY 4.0) was newly exact-located in the census. Printed pages 62-64 explicitly establish Mundari scope and describe the study's source basis. Because the paper states that data were supplemented by fieldwork where possible, no linguistic examples, fieldwork-derived material, participant/community permissions, cultural claims, controlled evidence records or controlled counts were promoted. PDF visual screenshot retrieval failed transiently, so byte/hash/page-image closure remains explicit.",
-  "next_parallel_tasks": ["numbered WEB-MUN lead disposition","Koshy 2024 stable PDF byte/hash/page-image verification and example provenance separation","resolve CIET NCERT Barkhaa individual Mundari audio manifestations and reuse rights","inspect exact CIIL license text through a permitted route","CIIL grammar authorized byte acquisition/hash/page inventory","SCSTRTI Sarala Munda byte/hash/page verification","Soy 2017 complete manifestation and license inspection","Mundarica primary document acquisition and hashing","C-17 verification","LSI/Atlas primary-page verification","lexical reconciliation","rights and community-access review"]
+  "latest_run": 307,
+  "previous_final_head": "8b5c16cef3e9a28f91235be49ba4b27030c899cb",
+  "work_head_before_status_sync": "6eb175c0a5eb06dab18a6669dcdd5834be1afc0c",
+  "cycle_commits": [
+    "0c55c84231212c8bc54f2f58131d364eccc7c782",
+    "1c8e727cb62d21604c0074b3c8570ae6ec467936",
+    "6eb175c0a5eb06dab18a6669dcdd5834be1afc0c"
+  ],
+  "mmsc": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "latest_search_id": "MMSC-SEARCH-000307",
+    "controlled_classes_refreshed_this_run": 14,
+    "systematic_census_documented_for_release": true
+  },
+  "mundarica": {
+    "series_target_volumes": "I-XVI",
+    "authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "historical_printed_page_locator_anchors_added_run307": 6,
+    "per_volume": {
+      "I": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "II": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "III": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "IV": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "V": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "VI": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "VII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "VIII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": true, "printed_page_anchors": [2147, 2151, 2208], "locator_source": "Google Books vAWmtdk21wEC"},
+      "IX": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "X": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "XI": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": true, "printed_page_anchors": [3173, 3175, 3183], "locator_source": "Google Books nnzW-Dy4NowC"},
+      "XII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "XIII": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "XIV": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "XV": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false},
+      "XVI": {"registered_scan": false, "verified_complete": false, "ocr_verified": false, "run307_new_page_locator": false}
+    }
+  },
+  "evidence": {
+    "claims": 52,
+    "records": 52,
+    "links": 52,
+    "schema_category_representation_percent": 100.0,
+    "all_public_factual_claims_provenance_linked": true,
+    "broken_ids_or_provenance_known": false,
+    "run307_count_neutral_locator_only": true
+  },
+  "streamlit": {
+    "registered_modules": 42,
+    "mapped_modules": 42,
+    "ui_mapping_percent": 100.0,
+    "universal_search": true,
+    "evidence_drilldown": true,
+    "reports_downloads": true,
+    "owner_console": true,
+    "count_neutral_run307_no_module_mutation_required": true
+  },
+  "governance": {
+    "cultural_access_overrides_entitlement": true,
+    "restricted_content_not_exposed": true,
+    "community_validation_not_fabricated": true,
+    "ciil_license_bundle_boundary_audited": true,
+    "ciet_barkhaa_rights_boundary_audited": true,
+    "koshy_2024_article_license_not_treated_as_fieldwork_consent": true,
+    "mundarica_metadata_snippets_not_treated_as_cultural_evidence": true
+  },
+  "publication": {
+    "q1_target": true,
+    "metrics_synced": true,
+    "build_state": "run306 final head confirmed 4/4 green; run307 final-head CI pending; controlled evidence/source/module counts unchanged, so manuscript release metrics remain count-synchronized"
+  },
+  "ci": {
+    "previous_green_head": "8b5c16cef3e9a28f91235be49ba4b27030c899cb",
+    "previous_green_head_four_of_four": true,
+    "previous_green_workflows": [
+      "MLHKP Source Register Audit",
+      "MLHKP Migration Audit",
+      "MLHKP Streamlit Smoke Test",
+      "MLHKP Publication Build"
+    ],
+    "fresh_run307_final_head_ci_verified": false
+  },
+  "blockers": [
+    "73 unresolved web leads",
+    "Mundarica primary scans and verification",
+    "Mundarica printed-page to scan-image concordance",
+    "C-17 workbook verification",
+    "LSI and Atlas byte/page verification",
+    "remaining lexical reconciliation",
+    "Rau independent hash",
+    "audiovisual consent/community/access review",
+    "Soy 2017 complete authorized manifestation and license-text verification",
+    "SCSTRTI Sarala Munda PDF byte/hash/page verification and repository approval-state reconciliation",
+    "CIIL grammar BVP03961 BVP00202 BVP04856 bytes/hash/page/license verification",
+    "CIET NCERT Barkhaa individual Mundari audio file and reuse-rights verification",
+    "Koshy 2024 stable PDF byte/hash and page-image verification plus separation of published-source examples from possible fieldwork-derived material"
+  ],
+  "release_gate": {
+    "status": "NOT_PASS",
+    "schema_category_representation_100": true,
+    "ui_mapping_100": true,
+    "systematic_census_documented": true,
+    "all_obtainable_permitted_sources_processed_to_declared_level": false,
+    "gaps_enumerated": true,
+    "no_broken_ids_or_provenance_known": true,
+    "no_restricted_leakage_known": true,
+    "no_false_ocr_verification_known": true,
+    "automated_completeness_audit_pass": false
+  },
+  "cycle_note": "All 14 controlled MMSC source classes were freshly swept. Historical Google Books manifestations for Encyclopaedia Mundarica Volumes VIII and XI exposed six printed-page section anchors (VIII: 2147, 2151, 2208; XI: 3173, 3175, 3183). These are acquisition/page-accounting locators only. No source bytes were acquired or hashed, no page-image concordance or OCR was verified, no rights/community/cultural-access permission was inferred, and no controlled cultural claims/evidence/counts were promoted. Run306 final head is independently confirmed 4/4 green.",
+  "next_parallel_tasks": [
+    "numbered WEB-MUN lead disposition",
+    "Mundarica VIII/XI permitted byte acquisition, independent hashing and printed-page/scan-image concordance",
+    "Mundarica I-XVI primary document acquisition and page/OCR accounting",
+    "Koshy 2024 stable PDF byte/hash/page-image verification and example provenance separation",
+    "resolve CIET NCERT Barkhaa individual Mundari audio manifestations and reuse rights",
+    "inspect exact CIIL license text through a permitted route",
+    "CIIL grammar authorized byte acquisition/hash/page inventory",
+    "SCSTRTI Sarala Munda byte/hash/page verification",
+    "Soy 2017 complete manifestation and license inspection",
+    "C-17 verification",
+    "LSI/Atlas primary-page verification",
+    "lexical reconciliation",
+    "rights and community-access review"
+  ]
 }
