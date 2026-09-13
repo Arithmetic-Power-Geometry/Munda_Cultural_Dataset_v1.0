@@ -4,16 +4,17 @@
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
   "merge_policy": "NEVER merge main",
-  "updated_utc": "2026-09-13T06:30:00Z",
+  "updated_utc": "2026-09-13T06:42:00Z",
   "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
   "release_target": "strongest_defensible_audited_release",
-  "latest_run": 293,
-  "previous_final_head": "188654b2c14926568d3e0d10f730d6d38b69f712",
-  "work_head_before_status_sync": "ea9cd35e268c5f548ac3fcef8a7e7afb73248df2",
-  "cycle_result": "Run 293 searched all 14 controlled MMSC classes and advanced the CIIL Sinha 1975 grammar stream from file-locator-only to direct bitstream-render verification. The repository file link resolved to a PDF whose renderer reports one page; the visible page is a cover identifying Mundari Grammar, N. K. Sinha, and the Central Institute of Indian Languages. This one-page render is explicitly NOT treated as a verified-complete copy of the 1975 grammar. No byte-preserving acquisition, independent hash, OCR, linguistic examples, cultural claims, reuse rights, participant consent, community validation or cultural-access permission were promoted.",
+  "latest_run": 294,
+  "previous_final_head": "88b1110d72a0cdec31050353c85dff431eddd592",
+  "work_head_before_status_sync": "e678667be82ab877195b4964286f6a9e370c7678",
+  "cycle_result": "Run 294 searched all 14 controlled MMSC classes and advanced N. K. Sinha's 1974 Mundari Phonetic Reader from general discovery to a deterministic canonical-work and bibliographic/manifestation metadata audit. A first-party CIIL catalogue entry, a peer-reviewed Language review and a CiNii union-catalogue record agree on title, author, publisher, place, year and CIIL series number 13. Their extent statements differ (102 pages; viii, 102 p.; xi, 103 pp.), so the discrepancy is preserved rather than collapsed. No primary book bytes, independent hash, OCR, phonetic inventory, lexical material, participant-derived content or cultural claim was promoted.",
   "cycle_commits": {
-    "run293_ciil_sinha_bitstream_render_audit": "61af6298e225c2a31fbf8d172d104b4c76063141",
-    "run293_all_class_search_log": "ea9cd35e268c5f548ac3fcef8a7e7afb73248df2"
+    "run294_sinha_phonetic_reader_audit": "e33a5d7701a1fa185710442f56b32924748ee48c",
+    "run294_all_class_search_log": "a111b44cf93e9d39c72b128fa23aed65fa0d7fbb",
+    "run294_boundary_test": "e678667be82ab877195b4964286f6a9e370c7678"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -26,16 +27,16 @@
     "unresolved_unique_web_leads": 73,
     "additional_federated_discoveries": 28,
     "still_to_acquire_additional_discoveries": 27,
-    "latest_search_id": "MMSC-SEARCH-000293",
-    "latest_search_log": "data/source_census/search_log_run293.jsonl",
+    "latest_search_id": "MMSC-SEARCH-000294",
+    "latest_search_log": "data/source_census/search_log_run294.jsonl",
     "latest_source_audits": [
+      "data/source_census/ciil_sinha_mundari_phonetic_reader_metadata_audit_run294_2026-09-13.json",
       "data/source_census/ciil_sinha_mundari_grammar_bitstream_render_audit_run293_2026-09-13.json",
-      "data/source_census/ciil_sinha_mundari_grammar_exact_repository_locator_run292_2026-09-13.json",
-      "data/source_census/mundarica_vol14_manifestation_lineage_run291_2026-09-13.json"
+      "data/source_census/ciil_sinha_mundari_grammar_exact_repository_locator_run292_2026-09-13.json"
     ],
     "systematic_census_documented_for_release": true,
     "absolute_or_future_proof_completeness_claimed": false,
-    "run293_count_change": "none; bitstream-render verification and all-class census refresh only"
+    "run294_count_change": "none; canonical-work metadata closure and all-class census refresh only"
   },
   "mundarica": {
     "series_target_volumes": "I-XVI",
@@ -60,11 +61,11 @@
     "information_model_domain_homes": 153,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "claims_added_run293": 0,
-    "evidence_records_added_run293": 0,
-    "evidence_links_added_run293": 0,
-    "verification_audits_added_run293": 1,
-    "run293_promotion_level": "direct repository bitstream render + visual cover/page-count audit only"
+    "claims_added_run294": 0,
+    "evidence_records_added_run294": 0,
+    "evidence_links_added_run294": 0,
+    "verification_audits_added_run294": 1,
+    "run294_promotion_level": "exact bibliographic and manifestation-metadata evidence only"
   },
   "streamlit": {
     "registered_modules": 42,
@@ -75,16 +76,20 @@
     "reports_downloads": true,
     "owner_console": true,
     "cultural_access_overrides_entitlement": true,
-    "run293_change": "No module-count or public-content-row change; new audit/search artifacts remain compatible with existing universal-search and evidence surfaces."
+    "run294_change": "No module-count or public-content-row change; new audit/search artifacts remain compatible with existing universal-search and evidence surfaces."
   },
   "rights_governance": {
     "public_availability_is_not_permission": true,
     "community_validation_not_fabricated": true,
     "restricted_content_not_exposed": true,
     "cultural_access_overrides_legal_or_technical_entitlement": true,
-    "participant_consent_inferred_run293": false,
-    "community_validation_inferred_run293": false,
-    "cultural_access_permission_inferred_run293": false,
+    "participant_consent_inferred_run294": false,
+    "community_validation_inferred_run294": false,
+    "cultural_access_permission_inferred_run294": false,
+    "ciil_sinha_phonetic_reader_canonical_identity_verified": true,
+    "ciil_sinha_phonetic_reader_primary_bytes_verified": false,
+    "ciil_sinha_phonetic_reader_independent_hash_verified": false,
+    "ciil_sinha_phonetic_reader_pagination_discrepancy_preserved": true,
     "ciil_sinha_repository_locator_verified": true,
     "ciil_sinha_bitstream_render_verified": true,
     "ciil_sinha_renderer_reported_pages": 1,
@@ -109,20 +114,21 @@
     "canonicalized_web_leads": 14,
     "unresolved_unique_web_leads": 73,
     "claims_evidence_links": "52/52/52",
-    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 293 advances CIIL verification depth without changing controlled counts.",
+    "generated_metrics_state": "Controlled manuscript metrics remain synchronized and unchanged; Run 294 deepens source verification without changing controlled counts.",
     "tables_figures_state": "unchanged and synchronized",
-    "build_state": "Run 292 final head 188654b2c14926568d3e0d10f730d6d38b69f712 is independently verified 4/4 green; Run 293 final-head CI must not be labelled green until commit-associated workflows complete."
+    "build_state": "Run 292 final head 188654b2c14926568d3e0d10f730d6d38b69f712 remains the latest independently verified 4/4 green head recorded in status. Run 293 has four associated workflow runs, but this cycle did not independently re-verify all four conclusions. Run 294 final-head CI must not be labelled green until commit-associated workflows complete."
   },
   "ci": {
     "previous_green_head": "188654b2c14926568d3e0d10f730d6d38b69f712",
     "previous_green_head_four_of_four": true,
     "previous_green_check_summary": "MLHKP Migration Audit #2131, Source Register Audit #2080, Streamlit Smoke Test #2245 and Publication Build #2098 completed successfully.",
-    "run293_work_head": "ea9cd35e268c5f548ac3fcef8a7e7afb73248df2",
-    "fresh_run293_final_head_ci_verified": false,
-    "fresh_run293_final_head_ci_note": "Do not claim Run 293 green until all four commit-associated workflows complete successfully."
+    "run294_work_head": "e678667be82ab877195b4964286f6a9e370c7678",
+    "fresh_run294_final_head_ci_verified": false,
+    "fresh_run294_final_head_ci_note": "Do not claim Run 294 green until all four commit-associated workflows complete successfully."
   },
   "blockers": [
     "73 unique web leads remain outside the audited identity total and require deterministic disposition/canonicalization.",
+    "Sinha 1974 Mundari Phonetic Reader now has deterministic canonical-work identity and corroborated bibliographic metadata, but primary bytes, independent hash, exact physical pagination/page structure, OCR and bulk reuse conditions remain unverified; extent statements differ across sources and are preserved as uncertainty.",
     "CIIL Sinha 1975 Mundari Grammar now has an exact first-party repository/handle/file locator and a directly rendered one-page cover bitstream, but a verified-complete grammar manifestation, byte-preserving acquisition, independent hash, OCR and bulk reuse conditions remain unverified.",
     "Mundarica I-XVI still has zero authoritative registered scans and zero verified-complete volumes; Volume XIV has cross-checked modern manifestation metadata only.",
     "ORGI Jharkhand C-17 catalogue explicitly enumerates MUNDA and MUNDARI rows, but DDW-C17-2000.XLSX bytes, independent hash, worksheets, exact rows/cells and numeric values remain unverified.",
@@ -157,6 +163,7 @@
     "reason": "Gate remains open because unresolved source dispositions, primary-manifestation/hash gaps, Census workbook byte/hash/cell gaps, LSI/Atlas primary-page gaps, remaining Peiros and LSI reconciliation, Rau independent-byte/hash work, CIIL/TRI/MMLoSo integrity and reuse conditions, audiovisual/dataset rights-consent-community-cultural-access gates, and other closures remain unresolved."
   },
   "next_parallel_tasks": [
+    "Acquire an authorized primary manifestation of Sinha 1974 Mundari Phonetic Reader; independently hash bytes and resolve extent/page-structure discrepancy before any page-exact phonetic evidence promotion.",
     "Locate an authorized complete manifestation of Sinha 1975 Mundari Grammar; independently hash bytes and verify PDF/page structure before any OCR/text promotion.",
     "Continue exact MUNDARI row/Parameter_ID/Concepticon reconciliation in pinned Lexibank LSI and independently verify primary page images.",
     "Acquire DDW-C17-2000.XLSX through a permitted official path; independently hash and verify exact MUNDA/MUNDARI cells.",
