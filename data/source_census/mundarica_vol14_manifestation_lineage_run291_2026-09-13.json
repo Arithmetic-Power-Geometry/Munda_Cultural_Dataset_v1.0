@@ -1,0 +1,72 @@
+{
+  "run_id": 291,
+  "date_utc": "2026-09-13",
+  "stream": "Mundarica I-XVI acquisition/page-accounting/manifestation audit",
+  "volume": "XIV",
+  "verified_metadata": {
+    "modern_reprint_title": "Encyclopaedia Mundarica, Vol. 14",
+    "publisher": "Gyan Publishing House",
+    "publication_year": 2009,
+    "binding": "Hardcover",
+    "language": "English",
+    "isbn_13": "9788121203180",
+    "isbn_10": "812120318X",
+    "modern_reprint_page_count": 603,
+    "modern_reprint_page_count_scope": "modern 2009 manifestation only; not historical printed-page/scan concordance"
+  },
+  "independent_cross_checks": [
+    {
+      "source": "Atlantic Books",
+      "url": "https://atlanticbooks.com/products/encyclopaedia-mundarica-9788121203180",
+      "supports": ["ISBN-13 9788121203180", "Gyan Publishing House", "2009", "603 pages", "English", "Hardcover"]
+    },
+    {
+      "source": "AbeBooks listing supplied by Gyan Books Pvt. Ltd.",
+      "url": "https://www.abebooks.co.uk/book-search/author/hoffman-s-j-john-artur-van-s-j-emelen-foreword-by-k-s-singh/",
+      "supports": ["Volume 14", "ISBN-10 812120318X", "ISBN-13 9788121203180", "Gyan Publishing House", "2009", "603 pages"]
+    },
+    {
+      "source": "Sudhir Chandra, Foundations of Ethnobotany: 21st Century Perspective (2017), secondary bibliographic statement",
+      "url": "https://dokumen.pub/foundations-of-ethnobotany-21st-century-perspective.html",
+      "supports": ["secondary statement that Vols. 14 and 15 were compiled by Rev. P. Ponette, S.J."],
+      "boundary": "secondary-source statement only; not treated as primary-volume authorship/page-content verification"
+    }
+  ],
+  "verification_state": {
+    "modern_manifestation_identity_cross_checked": true,
+    "modern_reprint_pagination_cross_checked": true,
+    "historical_primary_manifestation_acquired": false,
+    "historical_scan_bytes_verified": false,
+    "independent_hash_computed": false,
+    "printed_page_to_scan_image_concordance_verified": false,
+    "ocr_verified": false,
+    "structured_passages_created": false,
+    "verified_complete_volume": false
+  },
+  "canonicalization": {
+    "new_controlled_source_identity": false,
+    "reason": "Manifestation-level refinement of the already tracked Encyclopaedia Mundarica series; the 2009 reprint is not counted as a distinct intellectual work."
+  },
+  "rights_and_cultural_boundary": {
+    "retail_availability_treated_as_redistribution_permission": false,
+    "copyright_or_public_domain_status_inferred": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "promotion": {
+    "level": "bibliographic/manifestation locator only",
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "cultural_facts_promoted": 0
+  },
+  "blockers": [
+    "Acquire a permitted historical/authoritative Volume XIV manifestation or scan.",
+    "Compute an independent byte hash after acquisition.",
+    "Reconcile historical printed pagination to scan-image numbering.",
+    "Run OCR only on permitted bytes and keep OCR unverified until page-level review passes.",
+    "Do not treat 603 modern-reprint pages as historical printed-page or scan-image count."
+  ]
+}
