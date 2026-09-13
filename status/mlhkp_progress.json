@@ -3,14 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T18:38:00Z",
+  "updated_utc": "2026-09-13T18:46:23Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 317,
-  "previous_final_head": "0156c4b77323ee81a4935bd64280a76c2a9e6120",
-  "work_head_before_status_sync": "f02c75c3fc38d21de87e99d3777d990253ea8eab",
+  "latest_run": 318,
+  "previous_final_head": "c587b51992ebd911c3e926624176024d29f783bc",
+  "work_head_before_status_sync": "c806ef27f0826e8d21e19333c476a8524fda87b8",
   "cycle_commits": [
-    "c6395cb8d98d1e0544765dad899b9fb6b9b9c20d",
-    "f02c75c3fc38d21de87e99d3777d990253ea8eab"
+    "d293597641a1cdd75ed92784035410265d063ceb",
+    "315ffb1e0ea6556f74565a5868700cc45628f462",
+    "c806ef27f0826e8d21e19333c476a8524fda87b8"
   ],
   "mmsc": {
     "audited_source_identities": 42,
@@ -19,10 +20,10 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000317",
+    "latest_search_id": "MMSC-SEARCH-000318",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
-    "run317_candidate_publication_reconciliation_pending": true
+    "run318_census2001_c17_numbered_register_reconciliation_pending": true
   },
   "mundarica": {
     "authoritative_registered_scans": 0,
@@ -55,7 +56,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run317_count_neutral_publication_locator_only": true
+    "run318_count_neutral_catalogue_locator_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -65,7 +66,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run317_no_module_mutation_required": true
+    "count_neutral_run318_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -80,15 +81,20 @@
     "rau_2019_publisher_declared_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
     "rau_2019_independent_hash_recomputed": false,
     "rau_2019_explicit_license_text_verified": false,
-    "rau_run317_direct_byte_retrieval_attempt_failed": true
+    "rau_direct_byte_retrieval_remains_blocked": true,
+    "census2001_c17_jharkhand_catalogue_identity_verified": true,
+    "census2001_c17_declared_workbook": "PC01_C17_20.xls",
+    "census2001_c17_workbook_bytes_acquired": false,
+    "census2001_c17_numeric_claims_promoted": 0,
+    "south_sudan_mundari_homonym_false_positives_excluded": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "Run 317 remains metric-neutral. A 2025 BMC Nutrition Munda-community publication was verified at version-of-record and article-rights level, while its underlying participant dataset remains request-only. No new controlled claim/evidence/source identity was promoted pending deterministic numbered-register reconciliation and cultural-access review."
+    "build_state": "Run 318 is metric-neutral. The ORGI Census 2001 C-17 Jharkhand source was upgraded to an exact first-party catalogue locator (PC01_C17-20; declared PC01_C17_20.xls), but workbook bytes/hash/sheets/MUNDA-MUNDARI cells remain unverified. No controlled claim/evidence/source count was incremented, so publication metrics/tables/figures remain synchronized with the controlled corpus."
   },
   "ci": {
-    "previous_green_head": "0156c4b77323ee81a4935bd64280a76c2a9e6120",
+    "previous_green_head": "c587b51992ebd911c3e926624176024d29f783bc",
     "previous_green_head_four_of_four": true,
     "previous_green_workflows": [
       "MLHKP Source Register Audit",
@@ -96,13 +102,14 @@
       "MLHKP Streamlit Smoke Test",
       "MLHKP Publication Build"
     ],
-    "run316_actions_total": 4,
-    "fresh_run317_final_head_ci_verified": false
+    "run317_actions_total": 4,
+    "fresh_run318_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved WEB-MUN leads",
-    "deterministic reconciliation of the Run 317 BMC publication against the numbered MMSC/WEB-MUN register",
+    "deterministic reconciliation of Run 317 BMC publication and Run 318 Census 2001 C-17 locator against the numbered MMSC/WEB-MUN register",
     "Mundarica I-XVI primary-byte acquisition/hash/page-image concordance/OCR verification",
+    "PC01_C17_20.xls permitted acquisition/hash/sheet/MUNDA-MUNDARI numeric-cell verification",
     "ST-20-00-15-DDW-2011.XLSX permitted acquisition/hash/sheet/numeric-cell verification",
     "DDW-C17-2000.XLSX acquisition/hash/sheet/numeric-cell verification",
     "LSI/Atlas primary-page verification",
@@ -123,20 +130,19 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 317 refreshed all 14 MMSC classes and verified the 2025 BMC Nutrition article 'Indigenous food environment and dietary patterns of Munda community of Jharkhand, India' as a public version of record under CC BY 4.0. The article reports ethics/consent and states that study datasets are available only from the corresponding author on reasonable request. Article openness and participant consent are therefore not treated as permission to ingest unpublished participant data, community validation, or cultural-access clearance. The candidate remains count-neutral until deterministic numbered-register reconciliation. A direct Rau CSV byte retrieval attempt failed again, so the publisher-declared MD5 remains metadata and is not represented as an independent hash. Mundarica I-XVI per-volume states are now explicit in the progress ledger; no scan or OCR completeness was promoted.",
+  "cycle_note": "Run 318 refreshed all 14 controlled non-Mundarica MMSC classes. A new first-party government source was upgraded to an exact catalogue locator: ORGI Census 2001 C-17 Jharkhand, reference PC01_C17-20, declared workbook PC01_C17_20.xls. The catalogue identifies Jharkhand, Census 2001, counts at individual level, and the bilingualism/trilingualism table structure. The workbook itself was not independently acquired, hashed or cell-audited, so zero numerical, linguistic or cultural claims were promoted. Search-result homonym noise from the unrelated South Sudan Mandari/Mundari language/community was explicitly classified out of MLHKP scope. Tribal Lingua was retained as discovery-only because upstream provenance/rights/community validation were not independently verified. Rau direct byte/hash closure remains blocked. Controlled evidence, Streamlit modules, evidence graph and publication metrics remain count-synchronized and unchanged.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "numbered WEB-MUN disposition and Run 317 publication reconciliation",
-    "Mundarica primary-byte/hash/page-image/OCR closure",
-    "Rau independent byte/hash and license verification",
-    "ST-15 workbook permitted acquisition and independent verification",
-    "C-17 workbook permitted acquisition and independent verification",
+    "numbered WEB-MUN disposition plus Run 317/318 deterministic register reconciliation",
+    "Census 2001 C-17 workbook permitted acquisition and exact MUNDA/MUNDARI cell verification",
+    "Census 2011 ST-15 workbook permitted acquisition and independent verification",
+    "Census 2011 C-17 workbook permitted acquisition and independent verification",
     "LSI/Atlas verification",
-    "lexical reconciliation",
+    "lexical reconciliation and Rau independent byte/hash/license closure",
     "CIIL/SCSTRTI source-byte closure",
     "rights/community-access review"
   ]
