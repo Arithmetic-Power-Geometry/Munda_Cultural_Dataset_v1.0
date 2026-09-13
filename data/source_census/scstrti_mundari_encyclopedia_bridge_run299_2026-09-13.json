@@ -1,0 +1,57 @@
+{
+  "audit_id": "MLHKP-SCSTRTI-MUNDARI-BRIDGE-RUN299",
+  "run": 299,
+  "date": "2026-09-13",
+  "scope": "source-census manifestation/locator verification only",
+  "source": {
+    "repository_host": "repository.tribal.gov.in",
+    "repository_collection": "Government of India Tribal Repository",
+    "indexed_pdf_url": "https://www.repository.tribal.gov.in/upload/bitstream/123456789/62081/1/SCST_2021_book_0498.pdf",
+    "indexed_title": "Encyclopedia",
+    "indexed_year": 2021
+  },
+  "mundari_bridge": {
+    "indexed_section_heading": "MUNDARI",
+    "indexed_authors": [
+      "A. B. Ota",
+      "S. C. Mohanty",
+      "Saumalini Mohanty"
+    ],
+    "indexed_internal_note": "Published in the Photo Handbook on Mundari, SCSTRTI, Bhubaneswar, 2016",
+    "indexed_pdf_internal_page_marker": 150,
+    "relationship": "secondary/compiled republication locator pointing back to the 2016 SCSTRTI Mundari photo handbook"
+  },
+  "verification": {
+    "official_repository_search_index_returned_exact_mundari_section": true,
+    "official_repository_search_index_exposed_2016_handbook_attribution": true,
+    "direct_pdf_fetch_succeeded": false,
+    "independent_pdf_bytes_verified": false,
+    "independent_hash_verified": false,
+    "page_image_verified": false,
+    "ocr_verified": false,
+    "full_manifestation_completeness_verified": false,
+    "bulk_reuse_rights_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false
+  },
+  "promotion_decision": {
+    "source_identity_count_change": 0,
+    "public_factual_claims_added": 0,
+    "evidence_rows_added": 0,
+    "allowed_use": "locator and manifestation-relationship metadata only",
+    "disallowed_use": "do not promote cultural, linguistic, demographic, biological or participant-derived propositions from indexed text until integrity, rights and cultural-governance gates are satisfied"
+  },
+  "retrieval_attempt": {
+    "web_open_result": "timeout/failed",
+    "container_direct_download_result": "failed",
+    "blocker": "byte-preserving acquisition unavailable through the paths attempted in this run"
+  },
+  "governance_boundary": "Cultural access overrides legal or technical entitlement. Public discoverability is not treated as permission, consent, community validation, or cultural authorization.",
+  "next_actions": [
+    "Acquire the 2021 encyclopedia PDF through a permitted byte-preserving path and independently hash it.",
+    "Verify the exact Mundari page image and page-number concordance before using the encyclopedia as direct evidence.",
+    "Reconcile the encyclopedia section against SCST/2016/0055 and SCST_2016_handbook_0055.pdf without creating a duplicate source identity.",
+    "Review reuse rights and MLHKP cultural-access status before any content promotion."
+  ]
+}
