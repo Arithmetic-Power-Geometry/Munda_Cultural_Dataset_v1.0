@@ -3,14 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T21:28:44Z",
+  "updated_utc": "2026-09-13T22:33:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 322,
-  "previous_final_head": "c54c115e73d4e19bb222ab2f630770fd29c64061",
-  "run322_work_head_before_status": "1c39393ce82e56e6046f8ff3c0e6c740ca188313",
-  "run322_commits": {
-    "census_workbook_endpoint_audit": "0f34755adc718e25e2df3ab0f67bb9ea3b1667ee",
-    "mmsc_refresh": "1c39393ce82e56e6046f8ff3c0e6c740ca188313"
+  "latest_run": 323,
+  "previous_final_head": "73d0a4abc48d9dfb9cabb74a777fdd19a9abd756",
+  "run323_work_head_before_status": "33c63e9792777cce88ff63e29f89666426af0893",
+  "run323_commits": {
+    "mundarica_v_viii_provider_manifestation_audit": "aa4c4ea9371dac7d483a5cf45454dbd8ba828681",
+    "mmsc_refresh": "33c63e9792777cce88ff63e29f89666426af0893"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -19,7 +19,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000322",
+    "latest_search_id": "MMSC-SEARCH-000323",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -29,15 +29,16 @@
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
     "false_ocr_verification_known": false,
+    "provider_manifestations_located_this_run": ["V", "VI", "VII", "VIII"],
     "per_volume_states": {
       "I": "historical_group_page_accounting_only; primary bytes/hash/OCR unverified",
       "II": "provider manifestation located; 406-page provider metadata; primary bytes/hash/page concordance/OCR unverified",
       "III": "provider manifestation located; 1930 Government Printing metadata; primary bytes/hash/page concordance/OCR unverified",
       "IV": "historical_group_page_accounting_only; primary bytes/hash/OCR unverified",
-      "V": "primary bytes/hash/page accounting/OCR unverified",
-      "VI": "primary bytes/hash/page accounting/OCR unverified",
-      "VII": "primary bytes/hash/page accounting/OCR unverified",
-      "VIII": "historical printed-page anchors located; primary bytes/hash/page concordance/OCR unverified",
+      "V": "Internet Archive/DLI manifestation located; provider totalpages=278; provider OCR present; primary bytes/hash/page concordance/OCR verification unverified",
+      "VI": "Internet Archive/WBPL/DLI manifestation located; provider totalpages=344; provider OCR present; primary bytes/hash/page concordance/OCR verification unverified",
+      "VII": "Internet Archive/WBPL/DLI manifestation located; provider totalpages=274; provider OCR present; primary bytes/hash/page concordance/OCR verification unverified",
+      "VIII": "Internet Archive/WBPL/DLI manifestation located; provider totalpages=422 plus historical printed-page anchors; primary bytes/hash/page concordance/OCR verification unverified",
       "IX": "historical grouped page accounting only; primary bytes/hash/OCR unverified",
       "X": "historical grouped page accounting only; primary bytes/hash/OCR unverified",
       "XI": "historical printed-page anchors located; primary bytes/hash/page concordance/OCR unverified",
@@ -55,8 +56,8 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run322_new_public_factual_claims_promoted": 0,
-    "run322_reason": "Census workbook endpoints were resolved but bytes were not acquired; fresh MMSC observations remain discovery-level pending deterministic reconciliation."
+    "run323_new_public_factual_claims_promoted": 0,
+    "run323_reason": "Mundarica provider metadata and fresh MMSC observations were recorded at audit/discovery level only; independent bytes, page concordance, OCR verification, rights/community validation and deterministic register reconciliation remain incomplete."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -66,39 +67,29 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run322_module_redesign_performed": false,
-    "priority_reason": "Evidence verification and acquisition blockers prioritized over redesign."
+    "run323_module_redesign_performed": false,
+    "priority_reason": "Evidence population and verification prioritized over redesign."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
     "restricted_content_not_exposed": true,
     "community_validation_not_fabricated": true,
-    "census2011_c17_jharkhand_catalogue_identity_verified": true,
-    "census2011_c17_declared_workbook": "DDW-C17-2000.XLSX",
-    "census2011_c17_exact_first_party_download_endpoint_resolved": true,
+    "provider_rights_labels_do_not_override_cultural_access": true,
+    "commercial_or_public_availability_does_not_establish_ingestion_permission": true,
     "census2011_c17_workbook_bytes_acquired": false,
-    "census2011_c17_hash_verified": false,
-    "census2011_c17_sheet_inventory_verified": false,
-    "census2011_c17_numeric_claims_promoted": 0,
-    "census2011_st15_jharkhand_catalogue_identity_verified": true,
-    "census2011_st15_declared_workbook": "ST-20-00-15-DDW-2011.XLSX",
-    "census2011_st15_exact_first_party_download_endpoint_resolved": true,
-    "census2011_st15_workbook_bytes_acquired": false,
-    "census2011_st15_hash_verified": false,
-    "census2011_st15_sheet_inventory_verified": false,
-    "census2011_st15_exact_numeric_cells_verified": false,
-    "census2011_st15_numeric_claims_promoted": 0
+    "census2011_st15_workbook_bytes_acquired": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run322": false,
-    "build_state": "Metric-neutral Run 322. No manuscript factual metric requires alteration from the repository-controlled counts. Publication Build must be verified on the final Run-322 head before green status is claimed."
+    "manuscript_metric_sync_required_from_run323": false,
+    "build_state": "Metric-neutral Run 323; manuscript controlled counts unchanged. Run 322 Publication Build verified green. Run 323 Publication Build must be verified on the final Run-323 head before green status is claimed."
   },
   "ci": {
-    "previous_green_state_retained_as_historical_only": true,
-    "run322_final_head_ci_verified": false,
+    "run322_final_head_ci_verified": true,
+    "run322_four_of_four_green": true,
+    "run323_final_head_ci_verified": false,
     "required_workflows": [
       "Migration Audit",
       "Source Register Audit",
@@ -109,8 +100,9 @@
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
     "Mundarica I-XVI permitted primary-byte acquisition, independent hashing, printed-page to scan-image concordance and OCR verification",
-    "2011 C-17 exact first-party endpoint resolved but independent workbook retrieval failed; bytes/hash/sheets/numeric cells remain unverified",
-    "2011 ST-15 exact first-party endpoint resolved but independent workbook retrieval failed; bytes/hash/sheets/numeric cells remain unverified",
+    "Mundarica manifestation bibliographic reconciliation where provider dates/editions differ",
+    "2011 C-17 exact first-party endpoint resolved but workbook bytes/hash/sheets/numeric cells remain unverified",
+    "2011 ST-15 exact first-party endpoint resolved but workbook bytes/hash/sheets/numeric cells remain unverified",
     "2001 C-17 permitted workbook acquisition/hash/sheet/numeric-cell verification",
     "LSI/Atlas primary-page verification",
     "remaining lexical reconciliation",
@@ -130,7 +122,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 322 resolved and recorded exact first-party Census India download endpoints for Jharkhand 2011 C-17 and ST-15, attempted independent acquisition, and retained both at blocked/unverified byte level after retrieval failure. A fresh 14-class MMSC sweep was recorded without altering controlled counts because new/reobserved candidates have not yet completed deterministic numbered-register reconciliation. Mundarica verification counts remain 0/0/0 and per-volume states are explicitly enumerated.",
+  "cycle_note": "Run 323 verified Run 322 as 4/4 CI green; recorded Internet Archive/DLI provider manifestations and scan-page metadata for Mundarica V-VIII without upgrading them to independently verified scans/OCR; and refreshed all 14 MMSC classes while preserving controlled counts pending deterministic numbered-register reconciliation. No cultural facts, rights, consent, community validation or completeness were inferred from provider/public availability.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -138,12 +130,13 @@
   },
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
-    "retry permitted Census workbook acquisition from exact first-party endpoints and, only if acquired, hash/sheet/cell verification",
-    "Mundarica I-XVI permitted primary-byte/hash/page-image/OCR closure",
+    "attempt permitted Mundarica V-VIII primary-byte acquisition and independent hash/page-image concordance; never equate provider OCR with verified OCR",
+    "continue Mundarica I-IV and IX-XVI manifestation/page-accounting closure",
+    "retry permitted Census workbook acquisition and only then hash/sheet/cell verification",
     "LSI/Atlas primary verification",
     "lexical reconciliation and Rau independent byte/hash/license closure",
     "CIIL/SCSTRTI source-byte and rights closure",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on the exact Run-322 final head"
+    "verify all four CI workflows on the exact Run-323 final head"
   ]
 }
