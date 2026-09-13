@@ -3,15 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T15:30:00Z",
+  "updated_utc": "2026-09-13T15:54:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 311,
-  "previous_final_head": "bf19280bc6682f8832dac8e58a0d65d80ab0d957",
-  "work_head_before_status_sync": "67b423b345b94a2e6ad037910f531c1573001e20",
+  "latest_run": 312,
+  "previous_final_head": "2b8e18930e7696e1d93b4f032e0fe38440512c07",
+  "work_head_before_status_sync": "949028c75b27f5890872a3c4dff851daca95be10",
   "cycle_commits": [
-    "e2b17477c922ff0e4111b880aca1889ee6a519b6",
-    "bece7e9548fb649f52393797229d72570b609272",
-    "67b423b345b94a2e6ad037910f531c1573001e20"
+    "d52629d30b625e94520197465e3eb1d183f76de3",
+    "0381d64c37652e4373e160011a83c3a52e1ae3db",
+    "949028c75b27f5890872a3c4dff851daca95be10"
   ],
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000311",
+    "latest_search_id": "MMSC-SEARCH-000312",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
   },
@@ -62,7 +62,7 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run311_count_neutral_page_accounting_only": true
+    "run312_count_neutral_locator_only": true
   },
   "streamlit": {
     "registered_modules": 42,
@@ -72,7 +72,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "count_neutral_run311_no_module_mutation_required": true
+    "count_neutral_run312_no_module_mutation_required": true
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -88,12 +88,13 @@
     "volume16_reprint_pagination_conflict_preserved": true,
     "census_download_availability_not_treated_as_blanket_reuse_permission": true,
     "grouped_historical_pagination_not_treated_as_per_volume_scan_completeness": true,
-    "south_sudan_nilotic_mundari_collision_excluded": true
+    "south_sudan_nilotic_mundari_collision_excluded": true,
+    "st15_catalogue_availability_not_treated_as_workbook_verification_or_cultural_permission": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
-    "build_state": "Run 311 is count-neutral: controlled evidence/source/module totals remain unchanged; historical Mundarica grouped page-accounting support was strengthened without inferring individual-volume boundaries or scan/OCR completion; manuscript metrics remain synchronized; exact final-head CI pending"
+    "build_state": "Run 312 is count-neutral: controlled source/evidence/module totals remain unchanged; official ORGI ST-15 Jharkhand was upgraded to an exact first-party catalogue/schema locator without promoting unverified workbook numbers; publication metrics, tables and figures remain synchronized; exact final-head CI pending"
   },
   "ci": {
     "previous_green_head": "bf19280bc6682f8832dac8e58a0d65d80ab0d957",
@@ -104,7 +105,7 @@
       "MLHKP Streamlit Smoke Test",
       "MLHKP Publication Build"
     ],
-    "fresh_run311_final_head_ci_verified": false
+    "fresh_run312_final_head_ci_verified": false
   },
   "blockers": [
     "73 unresolved web leads",
@@ -113,6 +114,7 @@
     "Mundarica individual-volume boundary accounting where grouped ranges are the only verified support",
     "Mundarica Volume XVI modern-reprint pagination conflict",
     "C-17 official DDW-C17-2000.XLSX byte acquisition, independent hash, sheet inventory and exact numeric-cell verification",
+    "ST-15 Jharkhand ST-20-00-15-DDW-2011.XLSX byte acquisition, independent hash, sheet inventory and exact MUNDA/MUNDARI numeric-cell verification",
     "LSI and Atlas byte/page verification",
     "remaining lexical reconciliation",
     "Rau independent hash",
@@ -136,9 +138,10 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 311 refreshed all 14 MMSC source classes and strengthened historical Mundarica page accounting using independent scholarly notices: Vols. I-IV are reported as letters A-D with grouped pagination v + 1271 (1930 manifestation), and Vols. VIII-X as letters K-O with grouped printed pages 2147-3173 (1933-1934 manifestations). These are bibliographic/page-accounting anchors only. No individual-volume boundary was guessed; no primary scan bytes were registered; no independent hashes, scan-image concordance, OCR verification, complete-volume verification, cultural claims, evidence records or provenance links were promoted. The sweep also re-observed a South Sudan Nilotic 'Mundari' video collision and retained its exclusion from the Austroasiatic Munda/Mundari graph.",
+  "cycle_note": "Run 312 refreshed all 14 controlled non-Mundarica MMSC source classes and upgraded the official ORGI Census 2011 ST-15 Jharkhand table to an exact first-party catalogue/schema locator. The catalogue verifies reference PC11_ST15-20, declared workbook ST-20-00-15-DDW-2011.XLSX, and MUNDA (91) and MUNDARI (92) mother-tongue schema rows. The workbook itself was not independently acquired or hashed; sheets and numeric cells remain unverified. Therefore no numerical, linguistic or cultural claims, controlled evidence records, provenance links or source-count increments were promoted. Public government catalogue access was not interpreted as blanket reuse permission, participant consent, community validation or cultural authorization.",
   "next_parallel_tasks": [
     "numbered WEB-MUN lead disposition",
+    "acquire official ST-20-00-15-DDW-2011.XLSX through a permitted route, compute independent hash, inventory sheets and verify exact MUNDA/MUNDARI numeric cells",
     "Mundarica I-XVI permitted primary-byte acquisition and independent hashing",
     "derive individual-volume printed-page boundaries only from verified manifestations, never from grouped-range interpolation",
     "Mundarica printed-page/scan-image concordance",
