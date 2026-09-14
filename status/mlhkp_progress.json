@@ -3,14 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-13T23:50:43Z",
+  "updated_utc": "2026-09-14T00:28:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 326,
-  "previous_final_head": "9f66d662dfb3b79e9567bc65e917b4657238f343",
-  "run326_commits": {
-    "lsi_west_bengal_mundari_locator_audit": "99c8aca1420b18cec7c00855d71a0c500b1d9124",
-    "mmsc_14_class_refresh": "57c837fff724c8f14ffa9ed429d20c3ded1c96a0",
-    "boundary_test": "41dbb887ae9154a4f27e3f1c9712c815bb49569e"
+  "latest_run": 327,
+  "previous_final_head": "535a650133c979cb88c6c7d6148042981da4bf6b",
+  "run327_work_head_before_status_sync": "d8ff61a1b945f70db423defc73b8db94d72e3c9a",
+  "run327_commits": {
+    "bera_2026_peer_reviewed_source_audit": "8bb6745f57c503d76b81aed720e0b72a1b362717",
+    "mmsc_14_class_refresh": "e13197404d1b4463c7c40ac89b6ba5c3aeb96edc",
+    "boundary_test": "d8ff61a1b945f70db423defc73b8db94d72e3c9a"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -19,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000326",
+    "latest_search_id": "MMSC-SEARCH-000327",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -47,7 +48,7 @@
       "XIII": "1941 historical manifestation metadata located; primary bytes/hash/OCR unverified",
       "XIV": "primary bytes/hash/page accounting/OCR unverified",
       "XV": "primary bytes/hash/page accounting/OCR unverified",
-      "XVI": "modern reprint pagination conflict remains open; primary bytes/hash/OCR unverified"
+      "XVI": "modern reprint pagination conflict remains open; secondary literature describes this volume as pictorial plates/appendix-like; primary bytes/hash/page accounting/OCR remain unverified"
     }
   },
   "evidence": {
@@ -57,8 +58,8 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run326_new_public_factual_claims_promoted": 0,
-    "run326_reason": "The ORGI LSI West Bengal Part I identity and indexed MUNDARI section locator at printed p.391 were verified at first-party catalogue/index level only. PDF bytes/hash/page-image concordance and fieldwork governance remain open; no content-level linguistic or cultural claim was promoted."
+    "run327_new_public_factual_claims_promoted": 0,
+    "run327_reason": "Bera 2026 peer-reviewed article identity, DOI and publisher metadata were audited, but fieldwork content, underlying primary data, participant consent, community validation and cultural-access authorization were not inferred or promoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,8 +69,8 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run326_module_redesign_performed": false,
-    "priority_reason": "Count-neutral exact-locator verification was prioritized; no controlled source/evidence/module totals changed, so universal search/module cardinality remains synchronized."
+    "run327_module_redesign_performed": false,
+    "priority_reason": "Evidence verification and source-census reconciliation were prioritized over redesign; controlled source/evidence/module totals remain synchronized."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -86,20 +87,23 @@
     "lsi_west_bengal_first_party_catalog_verified": true,
     "lsi_west_bengal_mundari_printed_page_391_index_locator_verified": true,
     "lsi_west_bengal_pdf_bytes_hash_page_image_verified": false,
-    "lsi_fieldwork_participant_consent_inferred": false,
-    "lsi_fieldwork_community_validation_inferred": false,
-    "lsi_fieldwork_cultural_access_inferred": false
+    "bera_2026_article_identity_verified": true,
+    "bera_2026_underlying_fieldwork_data_acquired": false,
+    "bera_2026_participant_consent_inferred": false,
+    "bera_2026_community_validation_inferred": false,
+    "bera_2026_cultural_access_inferred": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run326": false,
-    "build_state": "Metric-neutral Run 326; controlled source/evidence/module totals and publication tables/figures remain unchanged. Exact Run-326 final-head CI must be verified before green status is claimed."
+    "manuscript_metric_sync_required_from_run327": false,
+    "build_state": "Metric-neutral Run 327; controlled source/evidence/module totals and publication tables/figures remain unchanged. Run 326 final head is verified 4/4 green; exact Run-327 final-head CI must be verified before green status is claimed."
   },
   "ci": {
-    "run325_final_head_ci_verified": false,
-    "run326_final_head_ci_verified": false,
+    "run326_final_head_ci_verified": true,
+    "run326_four_of_four_green": true,
+    "run327_final_head_ci_verified": false,
     "required_workflows": [
       "Migration Audit",
       "Source Register Audit",
@@ -109,12 +113,13 @@
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
+    "Bera 2026 candidate requires numbered-register deduplication/canonicalization before any controlled source-count change; fieldwork/community/cultural-access gates remain open",
     "Mundarica I-XVI permitted primary-byte acquisition, independent hashing, printed-page to scan-image concordance and OCR verification",
-    "Mundarica manifestation bibliographic reconciliation where provider dates/editions differ",
+    "Mundarica manifestation bibliographic reconciliation where provider dates/editions differ, including Volume XVI pagination conflict",
     "2011 C-17 exact first-party endpoint resolved but workbook bytes/hash/sheets/numeric cells remain unverified",
     "2011 ST-15 exact first-party endpoint resolved but workbook bytes/hash/sheets/numeric cells remain unverified",
     "2001 C-17 permitted workbook acquisition/hash/sheet/numeric-cell verification",
-    "LSI West Bengal first-party identity and MUNDARI printed-page-391 index locator verified; PDF bytes/hash/page-image concordance remain unverified; Language Atlas Mundari primary-page verification remains open",
+    "LSI West Bengal PDF bytes/hash/page-image concordance and Language Atlas Mundari primary-page verification remain open",
     "remaining lexical reconciliation",
     "Rau 2019 independent byte acquisition/hash and explicit license-text verification",
     "CIIL/SCSTRTI source-byte and rights verification",
@@ -133,22 +138,23 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 326 refreshed all 14 controlled non-Mundarica source classes and converted the ORGI Linguistic Survey of India-West Bengal (Part-I) stream from generic discovery toward an exact first-party section/page locator. ORGI catalogue identity LSI_WB_PART_I and filename LSI_WB_PART_I.pdf are verified, and the official indexed PDF text places the MUNDARI chapter under Sibasis Mukherjee at printed p.391. The binary endpoint was not successfully acquired in this run, so independent bytes/hash, PDF page inventory and page-image concordance remain open. Indexed fieldwork-derived text was not promoted into linguistic or cultural evidence, and public government access was not interpreted as participant consent, community validation or cultural-access authorization. Controlled counts remain unchanged pending deterministic numbered-register reconciliation.",
+  "cycle_note": "Run 327 refreshed all 14 controlled MMSC source classes and audited the 2026 SAGE article by Mohan Kumar Bera (DOI 10.1177/2455328X261437865) at publisher metadata/abstract level. The article is a relevant fresh Munda identity candidate, but deterministic reconciliation against the numbered WEB-MUN register is not complete and the underlying primary fieldwork data were not acquired. No participant consent, community validation or cultural-access authorization was inferred; no fieldwork-derived cultural claim entered the controlled evidence graph. Run 326 final head was independently verified 4/4 green. Controlled counts remain unchanged.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "numbered WEB-MUN disposition and deterministic register reconciliation",
+    "numbered WEB-MUN disposition and deterministic register reconciliation, including Bera 2026 candidate",
+    "retry permitted Mundarica XIV-XVI primary manifestation acquisition and reconcile Volume XVI pagination/plate-manifestation metadata",
     "retry permitted LSI West Bengal PDF byte acquisition; independently hash, inventory pages and verify printed-p.391/page-image concordance",
     "resolve Language Atlas of India 2011 Mundari map/page locator and primary-page verification",
     "retry permitted Census workbook acquisition and only then hash/sheet/cell verification",
     "retry Rau 2019 permitted byte acquisition and independently verify publisher MD5; inspect explicit license text",
-    "resolve CIET/NCERT Barkhaa individual Mundari audio locators/bytes/hashes and explicit reuse-rights boundary before any content promotion",
+    "resolve CIET/NCERT Barkhaa individual Mundari audio locators/bytes/hashes and explicit reuse-rights boundary before content promotion",
     "remaining lexical reconciliation",
     "CIIL/SCSTRTI source-byte and rights closure",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on the exact Run-326 final head"
+    "verify all four CI workflows on the exact Run-327 final head"
   ]
 }
