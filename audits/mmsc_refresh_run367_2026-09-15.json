@@ -1,0 +1,71 @@
+{
+  "run": 367,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000367",
+  "controlled_classes_refreshed": 14,
+  "refresh_scope": [
+    "books_and_historical_print",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_and_dissertations",
+    "government_TRI_Census_LSI",
+    "archives_and_manuscript_catalogues",
+    "newspapers_and_current_media",
+    "web_resources",
+    "datasets_and_language_technology",
+    "audio",
+    "video",
+    "maps_and_atlases",
+    "cross_border_and_relevant_media"
+  ],
+  "new_exact_locator_progress": [
+    {
+      "name": "Mundari language distribution - Assam.svg",
+      "provider": "Wikimedia Commons",
+      "disposition": "exact derivative-map manifestation and CC BY-SA 4.0 licence promoted; provider-declared C-16 source genealogy recorded; demographic values and geographic claims remain unpromoted pending primary Census verification"
+    }
+  ],
+  "verified_reobservations": [
+    {
+      "name": "N. K. Sinha, Mundari Grammar (1975)",
+      "disposition": "CIIL Sanchika exact identity and CIILP0091.pdf metadata reverified; Bharatavani reports a materially different 117.39 MB manifestation; cross-provider bytes/hash/page reconciliation remains open"
+    },
+    {
+      "name": "Walter Anthony Cook, A descriptive analysis of Mundari (1965)",
+      "disposition": "Georgetown dissertation identity, vi+315 pagination and Mundari [unr] classification reverified through Glottolog; unlicensed third-party downloadable copies remain excluded"
+    },
+    {
+      "name": "Manindra Bhusan Bhaduri, A Mundari-English dictionary",
+      "disposition": "1931 original publication genealogy and later reprint identities remain corroborated; no lexical entry promoted without permitted page-level verification"
+    },
+    {
+      "name": "Mundari.in",
+      "disposition": "provider continues to expose cultural/worship video, song, picture and text streams; item-level provenance, reuse permission, participant consent and cultural-access authorization remain unresolved"
+    },
+    {
+      "name": "Census/LSI/Atlas stream",
+      "disposition": "known official locators remain discoverable; no workbook/PDF numeric or substantive content promoted without primary byte/hash/page/cell verification"
+    }
+  ],
+  "blocked_or_not_promoted": [
+    "unlicensed third-party Cook dissertation full text",
+    "Sinha cross-provider manifestation content pending byte/hash/page reconciliation",
+    "Census demographic values represented only through a derivative map",
+    "audiovisual/media items without item-level rights/consent/cultural-access review",
+    "community/web claims without source provenance and validation"
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason_no_count_change": "Run 367 adds one exact permitted derivative-map locator and refreshes all fourteen census classes but does not reconcile a new numbered identity in the authoritative source register and promotes no new controlled cultural, linguistic or demographic claim.",
+  "systematic_census_documented_for_release": true,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}
