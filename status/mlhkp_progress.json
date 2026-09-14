@@ -3,15 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T13:44:00Z",
+  "updated_utc": "2026-09-14T13:55:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 352,
-  "run351_final_status_head": "9a1d41ce81585ec0efc06fbf3ec6bf822501b054",
-  "run352_work_head_before_status_sync": "3d7acbf6aaff614da1b8832327d08522bef9e54d",
-  "run352_commits": {
-    "wals_mundari_source_boundary_audit": "ecf9f8480441465de327cf43a7c741083efce408",
-    "wals_source_boundary_regression_test": "fe2d7c13694714e92a419b511b0a6e996eada336",
-    "mmsc_14_class_refresh": "3d7acbf6aaff614da1b8832327d08522bef9e54d"
+  "latest_run": 353,
+  "run352_final_status_head": "cd913d3cbb6e9d35aa81b7691c45c27d0ff10a3d",
+  "run353_work_head_before_status_sync": "8bc69058d36e10d14a7e82534d070a183e8fa923",
+  "run353_commits": {
+    "bhaduri_dictionary_exact_locator": "f8430eba36c1e7ebfd339e2a2331a19ebdb5937d",
+    "mmsc_14_class_refresh": "8d79d6374acfed20c1fc7dfd4e1169c9dcd691d3",
+    "bhaduri_boundary_regression_test": "8bc69058d36e10d14a7e82534d070a183e8fa923"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000352",
+    "latest_search_id": "MMSC-SEARCH-000353",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
   },
@@ -30,7 +30,7 @@
     "verified_ocr_pages": 0,
     "provider_generated_ocr_is_not_verified_ocr": true,
     "per_volume": {"I":"incomplete","II":"incomplete","III":"incomplete","IV":"incomplete","V":"incomplete","VI":"incomplete","VII":"incomplete","VIII":"incomplete","IX":"provider metadata only","X":"provider metadata only","XI":"historical locator only","XII":"historical locator only","XIII":"provider locator only","XIV":"unresolved","XV":"unresolved","XVI":"pagination/edition/plates unresolved"},
-    "run352_change": "No independent byte/hash/page/OCR promotion; WALS work was an independent typological source/provenance stream."
+    "run353_change": "No Mundarica promotion; run 353 was non-Mundarica census and exact-locator work."
   },
   "evidence": {
     "claims": 52,
@@ -39,13 +39,13 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run352_new_public_factual_claims_promoted": 0,
-    "run352_locator_level_sources_added": 1
+    "run353_new_public_factual_claims_promoted": 0,
+    "run353_locator_level_sources_added": 1
   },
   "ontology_entities_graph": {
     "pipeline": "SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM->INDICATOR->DOMAIN",
     "schema_category_representation_percent": 100.0,
-    "run352_graph_count_change_required": false
+    "run353_graph_count_change_required": false
   },
   "streamlit": {
     "registered_modules": 42,
@@ -55,8 +55,8 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run352_registration_change_required": false,
-    "run352_reason": "WALS remains source-locator/provenance level only; no independently source-verified feature value was eligible for evidence/module promotion."
+    "run353_registration_change_required": false,
+    "run353_reason": "Bhaduri remains exact bibliographic locator/provenance level only; no verified lexical entry or controlled claim was eligible for module registration."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -69,27 +69,29 @@
     "database_license_does_not_equal_underlying_source_or_participant_authorization": true,
     "archive_visibility_does_not_equal_audio_reuse_consent_or_cultural_authorization": true,
     "rights_holder_metadata_does_not_equal_license_grant": true,
-    "wals_feature_value_requires_underlying_descriptive_source_resolution_before_promotion": true
+    "catalogue_or_preview_availability_does_not_equal_dictionary_entry_verification_or_reuse_permission": true,
+    "munda_unx_is_not_auto_merged_with_mundari_unr": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
     "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules",
-    "run352_tables_figures_change_required": false,
-    "run352_reason": "No controlled numeric claim or evidence-graph count changed; WALS source-boundary audit and MMSC refresh are synchronized in repository status."
+    "run353_tables_figures_change_required": false,
+    "run353_reason": "No controlled numeric claim or graph count changed; source locator and census refresh are synchronized without fabricating count changes."
   },
   "sync_state": {
     "status_metrics_match_controlled_repository_metrics": true,
     "manuscript_metric_change_required": false,
-    "run352_audits_recorded": true
+    "run353_audits_recorded": true,
+    "streamlit_change_required": false,
+    "evidence_graph_change_required": false,
+    "publication_tables_figures_change_required": false
   },
   "ci": {
-    "run351_final_status_head_ci_verified": true,
-    "run351_final_status_head_results": {"Migration Audit":"success","Source Register Audit":"success","Streamlit Smoke Test":"success","Publication Build":"success"},
-    "run352_work_head_ci_verified": false,
-    "run352_work_head_latest_state": {"Migration Audit":"in_progress","Source Register Audit":"in_progress","Streamlit Smoke Test":"in_progress","Publication Build":"in_progress"},
     "run352_final_status_head_ci_verified": false,
+    "run353_work_head_ci_verified": false,
+    "run353_final_status_head_ci_verified": false,
     "required_workflows": ["Migration Audit","Source Register Audit","Streamlit Smoke Test","Publication Build"]
   },
   "blockers": [
@@ -99,9 +101,9 @@
     "LSI/Atlas verification",
     "CIIL BVP00202.pdf independent binary materialization/hash/full-pagination/text verification and reuse/community/cultural-access closure",
     "SCSTRTI verification",
+    "Bhaduri dictionary permitted full-manifestation materialization, independent hash/page verification, exact entry locators and reuse-rights verification",
     "ASJP export byte/hash/row-count and lexical provenance verification",
-    "WALS feature-value source-level verification: each candidate feature must resolve to its cited descriptive source before controlled linguistic claim promotion",
-    "Pinned WALS release export byte/hash verification if local reproducibility is required",
+    "WALS feature-value source-level verification",
     "PHOIBLE inventory/source-level verification before controlled phonological claim promotion",
     "Bangladesh Multiling archive-item endpoint inventory, rights, participant consent and cultural-access review",
     "TRI page reuse terms, community validation and cultural-access authorization not established",
@@ -131,13 +133,12 @@
     "Mundarica XIV-XVI manifestation resolution plus I-XVI byte/hash/page/OCR verification",
     "LSI/Atlas and SCSTRTI verification",
     "materialize and independently hash/page-verify CIIL BVP00202.pdf where permitted",
+    "materialize a permitted Bhaduri dictionary manifestation and add exact page/entry locators before lexical promotion",
     "enumerate Bangladesh Multiling archive-item endpoints and review rights/consent/cultural access",
     "ASJP export-byte/hash and lexical provenance verification",
-    "resolve candidate WALS features to underlying descriptive sources before any controlled feature promotion",
-    "materialize/hash pinned WALS release export if required for reproducibility",
-    "PHOIBLE inventory/source-level verification for any candidate phonological promotion",
+    "resolve WALS/PHOIBLE claims to underlying descriptive sources",
     "TRI and audiovisual rights/community/cultural-access closure",
     "dataset governance closure",
-    "verify four CI workflows on Run 352 final head"
+    "verify four CI workflows on Run 353 final head"
   ]
 }
