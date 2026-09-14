@@ -3,15 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T04:46:00Z",
+  "updated_utc": "2026-09-14T05:30:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 336,
-  "run335_final_head": "3685c2a0d1fcb91b108dcf7a56e05a6ca9297769",
-  "run336_work_head_before_status_sync": "c69452c311021058cea2f46e9d9b99e3e1e0ab5f",
-  "run336_commits": {
-    "census_regional_c16_locators": "1af99f8e05e57c35075cbae47221a1b3c5cd6571",
-    "mmsc_14_class_refresh": "2d61dcae6846f1f025349f6c7646da0a581c1a2f",
-    "census_locator_boundary_test": "c69452c311021058cea2f46e9d9b99e3e1e0ab5f"
+  "latest_run": 337,
+  "run336_final_head": "e38f0a1a3a006cc822e61fb10259b33d4910a124",
+  "run337_work_head_before_status_sync": "2e5e1a686f7fcc3831e4ab8275ea3ced0de4c516",
+  "run337_commits": {
+    "white_rose_mundari_article_audit": "0d9c04595cf6c03984d9e0d1d22dc9c2343d275c",
+    "mmsc_14_class_refresh": "2e5e1a686f7fcc3831e4ab8275ea3ced0de4c516"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +19,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000336",
+    "latest_search_id": "MMSC-SEARCH-000337",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -29,7 +28,25 @@
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
-    "false_ocr_verification_known": false
+    "false_ocr_verification_known": false,
+    "per_volume_states": {
+      "I": "open_not_independently_byte_hash_page_ocr_verified",
+      "II": "provider_manifestation_known_but_not_independently_byte_hash_page_ocr_verified",
+      "III": "provider_manifestation_known_but_not_independently_byte_hash_page_ocr_verified",
+      "IV": "open_not_independently_byte_hash_page_ocr_verified",
+      "V": "provider_manifestation_known_but_not_independently_byte_hash_page_ocr_verified",
+      "VI": "provider_manifestation_known_but_not_independently_byte_hash_page_ocr_verified",
+      "VII": "provider_manifestation_known_but_not_independently_byte_hash_page_ocr_verified",
+      "VIII": "provider_manifestation_known_but_not_independently_byte_hash_page_ocr_verified",
+      "IX": "open_not_independently_byte_hash_page_ocr_verified",
+      "X": "open_not_independently_byte_hash_page_ocr_verified",
+      "XI": "historical_pagination_metadata_known_but_not_independently_byte_hash_page_ocr_verified",
+      "XII": "historical_pagination_metadata_known_but_not_independently_byte_hash_page_ocr_verified",
+      "XIII": "open_not_independently_byte_hash_page_ocr_verified",
+      "XIV": "open_not_independently_byte_hash_page_ocr_verified",
+      "XV": "open_not_independently_byte_hash_page_ocr_verified",
+      "XVI": "open_with_pagination_or_manifestation_reconciliation_gap_not_independently_byte_hash_page_ocr_verified"
+    }
   },
   "evidence": {
     "claims": 52,
@@ -38,15 +55,15 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run336_new_public_factual_claims_promoted": 0,
-    "run336_exact_locator_promotions": 3,
-    "run336_reason": "Run 336 promoted exact first-party ORGI catalogue/file locators for 2011 C-16 Jharkhand, West Bengal and Odisha. Workbook bytes, hashes, sheets, Mundari rows and numerical cells remain unverified; therefore no Census number, linguistic claim or cultural claim was promoted."
+    "run337_new_public_factual_claims_promoted": 0,
+    "run337_source_metadata_audits_added": 1,
+    "run337_reason": "Run 337 verified institutional-repository metadata and the explicit CC-BY 2.5 repository license label for a 2025 peer-reviewed Mundari linguistics article. Article PDF bytes, independent hash, internal page locators and article-derived claims remain unverified; therefore no linguistic or cultural claim was promoted."
   },
   "ontology_entities_graph": {
     "pipeline": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
     "schema_category_representation_percent": 100.0,
     "controlled_graph_counts_changed_this_run": false,
-    "reason": "Run 336 improves exact source-manifestation locators but does not alter controlled claim/evidence/link totals."
+    "reason": "Run 337 adds auditable source metadata but does not alter controlled claim/evidence/link totals."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -56,7 +73,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "functionality_state": "mapped; Run 336 is metric-neutral and requires no module-count change"
+    "functionality_state": "mapped; Run 337 is metric-neutral and requires no module-count change"
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -64,23 +81,24 @@
     "community_validation_not_fabricated": true,
     "provider_rights_labels_do_not_override_cultural_access": true,
     "commercial_or_public_availability_does_not_establish_ingestion_permission": true,
-    "run336_white_rose_article_metadata_verified": true,
-    "run336_white_rose_dedicated_audit_write_blocked": true,
-    "run336_census_numerical_cells_promoted": false
+    "run337_white_rose_repository_metadata_verified": true,
+    "run337_white_rose_license_label_verified": true,
+    "run337_white_rose_pdf_bytes_verified": false,
+    "run337_cultural_or_linguistic_claims_promoted_from_article": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run336": false,
-    "build_state": "Run 336 is controlled-metric neutral; source/evidence/module totals remain synchronized."
+    "manuscript_metric_sync_required_from_run337": false,
+    "build_state": "Run 337 is controlled-metric neutral; source/evidence/module totals remain synchronized."
   },
   "ci": {
-    "run334_four_of_four_green": true,
-    "run334_exact_head": "91332a7ef16c68d8d4d4a68a15ae80d26472a00d",
-    "run336_final_head_ci_verified": false,
+    "run336_four_of_four_green": true,
+    "run336_exact_head": "e38f0a1a3a006cc822e61fb10259b33d4910a124",
+    "run337_final_head_ci_verified": false,
     "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"],
-    "note": "Run 336 final-head workflows must be checked after status synchronization."
+    "note": "Run 337 final-head workflows must be checked after status synchronization."
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
@@ -93,7 +111,7 @@
     "Karya exact-revision complete byte materialization, independent SHA-256 and row recount plus participant/privacy/community/cultural-access review",
     "ELR-1000 exact revision/shard manifest and 1073-versus-1060 version reconciliation plus Mundari item-level governance",
     "CIET/NCERT Barkhaa individual audio endpoint/byte/hash/reuse-rights plus participant/community/cultural-access review",
-    "White Rose Mundari article dedicated audit file write was connector-blocked; PDF bytes/hash/page locators remain open",
+    "White Rose accepted-manuscript PDF independent byte/hash and internal page-locator verification",
     "audiovisual consent/community/cultural-access review and fieldwork gaps"
   ],
   "release_gate": {
@@ -108,7 +126,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 336 refreshed all 14 non-Mundarica classes, committed exact ORGI C-16 locators for Jharkhand, West Bengal and Odisha, added a boundary regression test, and preserved controlled counts. A dedicated White Rose article audit write was blocked and is explicitly not claimed as committed.",
+  "cycle_note": "Run 337 cleared the prior White Rose metadata-write blocker by committing a dedicated institutional-repository audit, refreshed all 14 MMSC source classes, retained conservative controlled counts, and added explicit I-XVI Mundarica states to the canonical progress ledger.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -117,7 +135,7 @@
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
     "acquire permitted Census workbook bytes then independently hash and verify Mundari sheet/row/cell locators",
-    "retry White Rose accepted-manuscript audit/materialization through a permitted channel",
+    "materialize and independently hash the White Rose accepted manuscript before any internal passage promotion",
     "retry exact-revision Karya TSV materialization and deterministic row/column validation",
     "reconcile ELR-1000 fixed revision and 1073-versus-1060 discrepancy",
     "continue Mundarica I-XVI primary manifestation acquisition/hash/page/OCR reconciliation",
@@ -126,6 +144,6 @@
     "retry Rau 2019 byte acquisition/hash/license verification",
     "CIIL/SCSTRTI byte-rights closure and lexical reconciliation",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on exact Run-336 final head"
+    "verify all four CI workflows on exact Run-337 final head"
   ]
 }
