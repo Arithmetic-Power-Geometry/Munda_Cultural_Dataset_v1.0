@@ -3,14 +3,15 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T01:50:00Z",
+  "updated_utc": "2026-09-14T02:31:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 330,
-  "run329_final_head": "0fbb610f9c7dd89249830b32bc32e6e6347f1630",
-  "run330_commits": {
-    "karya_translation_locator": "a9bb9045708b07d9f1d86732c15a3f22349d3e80",
-    "mmsc_14_class_refresh": "c9ec6a85ae1f0a0f4386d7457c658a295262cd6a",
-    "boundary_test": "7b62eebda420660c4774e847fb293473fc59765f"
+  "latest_run": 331,
+  "run330_final_head": "98fa57420cbf46c7d1dd68d7555412578d6a77ea",
+  "run331_work_head_before_status_sync": "0531aaa01ca9c3deeac1ae345508ea9ed0006dc7",
+  "run331_commits": {
+    "karya_object_license_verification": "bacac5bbccea6be454a467c578f8d6fa7e5109aa",
+    "mmsc_14_class_refresh": "0c5e1d03c224c54ef147846d96b2387197cf2987",
+    "boundary_test": "0531aaa01ca9c3deeac1ae345508ea9ed0006dc7"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -19,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000330",
+    "latest_search_id": "MMSC-SEARCH-000331",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -28,7 +29,25 @@
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
-    "false_ocr_verification_known": false
+    "false_ocr_verification_known": false,
+    "per_volume": {
+      "I": "primary bytes/hash/page-image concordance/OCR verification open",
+      "II": "provider manifestation located; independent bytes/hash/page concordance/OCR verification open",
+      "III": "provider manifestation located; independent bytes/hash/page concordance/OCR verification open",
+      "IV": "primary bytes/hash/page-image concordance/OCR verification open",
+      "V": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "VI": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "VII": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "VIII": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "IX": "primary bytes/hash/page-image concordance/OCR verification open",
+      "X": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XI": "historical printed-page locator recorded; primary bytes/hash/page-image concordance/OCR verification open",
+      "XII": "historical printed-page locator recorded; primary bytes/hash/page-image concordance/OCR verification open",
+      "XIII": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XIV": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XV": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XVI": "pagination/manifestation reconciliation and primary bytes/hash/page-image/OCR verification open"
+    }
   },
   "evidence": {
     "claims": 52,
@@ -37,8 +56,8 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run330_new_public_factual_claims_promoted": 0,
-    "run330_reason": "Karya Hindi-Mundari translation corpus was verified at first-party repository/manifestation level only. Exact TSV name and declared 17,826 sentence-pair count were recorded; bytes/hash, independent row verification, participant consent, community validation and cultural-access permission remain unverified, so no translation rows or cultural claims were promoted."
+    "run331_new_public_factual_claims_promoted": 0,
+    "run331_reason": "Karya translation source verification advanced from locator-only to first-party Git object and license metadata verification. GitHub reports object SHA 131c55a5b8197a58d663a7e40d888a92869288c6 and size 3,788,450 bytes; KPL BY-NC-SA-FS 1.0 terms and copyright notice were verified. Independent SHA-256/row recount and participant/community/cultural-access review remain open, so no rows or cultural claims were ingested."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -48,7 +67,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "functionality_state": "mapped and regression-covered; controlled module count unchanged because run 330 is locator-only"
+    "functionality_state": "mapped and regression-covered; controlled module count unchanged in run 331"
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -57,33 +76,37 @@
     "provider_rights_labels_do_not_override_cultural_access": true,
     "commercial_or_public_availability_does_not_establish_ingestion_permission": true,
     "karya_translation_repository_verified": true,
-    "karya_translation_tsv_named": true,
-    "karya_translation_bytes_hash_verified": false,
+    "karya_translation_git_object_verified": true,
+    "karya_translation_github_reported_size_verified": true,
+    "karya_translation_license_metadata_verified": true,
+    "karya_translation_independent_sha256_verified": false,
     "karya_translation_rows_independently_verified": false,
     "karya_translation_participant_consent_verified": false,
     "karya_translation_community_validation_verified": false,
-    "karya_translation_cultural_access_verified": false
+    "karya_translation_cultural_access_verified": false,
+    "karya_translation_ingestion_authorized": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run330": false,
-    "build_state": "Run 330 is metric-neutral; source/evidence/module totals remain synchronized pending exact final-head CI verification."
+    "manuscript_metric_sync_required_from_run331": false,
+    "build_state": "Run 331 is metric-neutral; manuscript source/evidence/module totals remain synchronized."
   },
   "ci": {
-    "run328_four_of_four_green": true,
-    "run330_final_head_ci_verified": false,
+    "run330_four_of_four_green": true,
+    "run331_final_head_ci_verified": false,
     "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"]
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
+    "Mundarica I-XVI independent primary byte/hash/page-image/OCR verification",
     "2011 C-16/ST-16/C-17/ST-15 and 2001 C-17 workbook byte/hash/sheet/cell verification",
     "LSI Jharkhand and West Bengal PDF bytes/hash/page-image concordance",
     "Language Atlas Mundari primary-page verification",
     "remaining lexical reconciliation and Rau 2019 independent byte/hash/license verification",
     "CIIL/SCSTRTI source-byte and rights verification",
-    "Karya Hindi-Mundari translation TSV independent byte/hash/row verification and participant/privacy/community/cultural-access review",
+    "Karya translation independent SHA-256/row recount plus participant/privacy/community/cultural-access review",
     "CIET/NCERT Barkhaa individual audio byte/hash/reuse-rights plus participant/community/cultural-access review",
     "audiovisual consent/community/cultural-access review and fieldwork gaps"
   ],
@@ -99,7 +122,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 330 refreshed all 14 controlled non-Mundarica classes and added an exact first-party locator for Karya's Hindi-Mundari translation corpus. The repository names translation-hi-unr.tsv and declares 17,826 sentence pairs. No rows or cultural claims were promoted because independent bytes/hash/row checks and participant/community/cultural-governance review remain open. Controlled counts remain unchanged pending numbered-register reconciliation.",
+  "cycle_note": "Run 331 verified the Karya translation TSV Git object identity/size and license/copyright metadata, refreshed all 14 MMSC classes, and added a regression boundary test. It did not ingest translation rows or promote cultural claims. Mundarica and other blocked streams remain explicitly open while independent work continues.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -107,13 +130,14 @@
   },
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
-    "attempt permitted Karya translation TSV byte acquisition, independent hash and row-count verification",
+    "retry permitted Karya TSV independent byte materialization, SHA-256 and row-count verification",
+    "continue Mundarica I-XVI primary manifestation acquisition/hash/page/OCR reconciliation",
     "attempt permitted Census workbook acquisition then independent hash/sheet/cell verification",
     "retry LSI Jharkhand and West Bengal byte/hash/page-image verification",
     "resolve Language Atlas Mundari primary-page locator",
     "retry Rau 2019 byte acquisition/hash/license verification",
     "CIIL/SCSTRTI byte-rights closure and lexical reconciliation",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on exact Run-330 final head"
+    "verify all four CI workflows on exact Run-331 final head"
   ]
 }
