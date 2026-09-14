@@ -3,15 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T03:47:00Z",
+  "updated_utc": "2026-09-14T04:31:30Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 334,
-  "run332_final_head": "8efe89e2799cc50349dbfd394d581af95b6f2f53",
-  "run333_final_head": "589d0ae903824503c8c9abc60857a478c7f1a882",
-  "run334_commits": {
-    "karya_fixed_revision_audit": "9acd34f03f1a12b134cd5bfac3f091a10c057349",
-    "mmsc_14_class_refresh": "ff990a191842eb6425dc6a630fae5e1ac6c7f925",
-    "karya_boundary_test": "10806a12e599b4964fa8158ce448c5390795e9cd"
+  "latest_run": 335,
+  "run334_final_head": "91332a7ef16c68d8d4d4a68a15ae80d26472a00d",
+  "run335_work_head_before_status_sync": "aa494fc57aaf2b4f148049ac43c141d9ab33b2e4",
+  "run335_commits": {
+    "karya_materialization_attempt": "6094305c69001fa73b0154b3070ae90ea589e4a1",
+    "mmsc_14_class_refresh": "aa494fc57aaf2b4f148049ac43c141d9ab33b2e4"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +19,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000334",
+    "latest_search_id": "MMSC-SEARCH-000335",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -56,14 +55,14 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run334_new_public_factual_claims_promoted": 0,
-    "run334_reason": "Pinned the Karya Hindi-Mundari translation corpus to exact upstream Git revision 243bb780906750fcf6e2b27693dd24898f0c79d1, TSV blob 131c55a5b8197a58d663a7e40d888a92869288c6 and Git-tree size 3,788,450 bytes. The README declares 17,826 pairs and BY-NC-SA-FS 1.0 non-commercial terms. No rows or linguistic/cultural claims were promoted because independent SHA-256, row recount and MLHKP-specific governance remain open."
+    "run335_new_public_factual_claims_promoted": 0,
+    "run335_reason": "Run 335 independently retried materialization of the exact pinned Karya Hindi-Mundari TSV and documented the execution-channel byte-download blocker. No provider-declared pair count was reclassified as an independent count, no rows were ingested, and no linguistic or cultural claims were promoted."
   },
   "ontology_entities_graph": {
     "pipeline": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
     "schema_category_representation_percent": 100.0,
     "controlled_graph_counts_changed_this_run": false,
-    "reason": "Run 334 improves exact source-manifestation provenance only; controlled evidence graph remains unchanged."
+    "reason": "Run 335 improves source-verification and blocker provenance only; controlled evidence graph remains unchanged."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -73,7 +72,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "functionality_state": "mapped; count-neutral Run 334 requires no module-count change"
+    "functionality_state": "mapped; evidence verification prioritized over redesign in Run 335"
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -97,15 +96,21 @@
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run334": false,
-    "build_state": "Run 334 is metric-neutral; manuscript source/evidence/module totals remain synchronized."
+    "manuscript_metric_sync_required_from_run335": false,
+    "build_state": "Run 335 is metric-neutral; manuscript source/evidence/module totals remain synchronized."
   },
   "ci": {
-    "run332_four_of_four_green": true,
-    "run333_final_head_ci_runs_registered": 4,
-    "run334_final_head_ci_verified": false,
+    "run334_four_of_four_green": true,
+    "run334_exact_head": "91332a7ef16c68d8d4d4a68a15ae80d26472a00d",
+    "run334_verified_workflows": [
+      "MLHKP Migration Audit",
+      "MLHKP Source Register Audit",
+      "MLHKP Streamlit Smoke Test",
+      "MLHKP Publication Build"
+    ],
+    "run335_final_head_ci_verified": false,
     "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"],
-    "note": "Run 334 final-head workflows must be checked after status synchronization."
+    "note": "Run 334 exact head is confirmed 4/4 successful. Run 335 final-head workflows must be checked after status synchronization."
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
@@ -115,7 +120,7 @@
     "Language Atlas Mundari primary-page verification",
     "remaining lexical reconciliation and Rau 2019 independent byte/hash/license verification",
     "CIIL/SCSTRTI source-byte and rights verification",
-    "Karya translation independent SHA-256/row recount plus participant/privacy/community/cultural-access review",
+    "Karya exact-revision complete byte materialization, independent SHA-256 and row recount plus participant/privacy/community/cultural-access review",
     "ELR-1000 exact revision/shard manifest and 1073-versus-1060 version reconciliation plus Mundari item-level governance",
     "CIET/NCERT Barkhaa individual audio endpoint/byte/hash/reuse-rights plus participant/community/cultural-access review",
     "audiovisual consent/community/cultural-access review and fieldwork gaps"
@@ -132,7 +137,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 334 pinned the Karya Hindi-Mundari translation corpus to a deterministic upstream Git revision/blob/byte-size locator, refreshed all 14 non-Mundarica source classes, preserved licensing/consent/community/cultural-access uncertainty, and promoted no unverified rows or cultural claims.",
+  "cycle_note": "Run 335 confirmed Run 334 as 4/4 CI green, retried exact-revision Karya TSV materialization, recorded the binary-download blocker without false independent hashing/recount claims, refreshed all 14 non-Mundarica MMSC classes, and promoted no unverified cultural material.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -140,7 +145,7 @@
   },
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
-    "materialize the exact pinned Karya TSV where permitted, compute independent SHA-256 and recount/validate rows",
+    "retry exact-revision Karya TSV materialization through a binary-capable permitted channel, then compute independent SHA-256 and deterministic row/column validation",
     "complete Karya participant/privacy/community/cultural-access review before any row-level ingestion",
     "reconcile ELR-1000 fixed revision, shard manifest, and 1073-versus-1060 count discrepancy",
     "continue Mundarica I-XVI primary manifestation acquisition/hash/page/OCR reconciliation",
@@ -150,6 +155,6 @@
     "retry Rau 2019 byte acquisition/hash/license verification",
     "CIIL/SCSTRTI byte-rights closure and lexical reconciliation",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on exact Run-334 final head"
+    "verify all four CI workflows on exact Run-335 final head"
   ]
 }
