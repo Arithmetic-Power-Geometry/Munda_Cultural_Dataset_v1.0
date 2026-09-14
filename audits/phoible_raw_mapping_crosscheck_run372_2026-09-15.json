@@ -1,0 +1,40 @@
+{
+  "audit_id": "MLHKP-RUN372-PHOIBLE-RAW-MAPPING-CROSSCHECK",
+  "run": 372,
+  "audited_utc": "2026-09-14T23:35:00Z",
+  "upstream_repository": "phoible/dev",
+  "upstream_commit_observed": "614c823cdf76127550fb2180bdf27a051c2972d5",
+  "upstream_files": [
+    "mappings/InventoryID-LanguageCodes.csv",
+    "mappings/InventoryID-Bibtex.csv",
+    "mappings/InventoryID-Filenames.csv"
+  ],
+  "language_identity": {"glottocode": "mund1320", "iso639_3": "unr"},
+  "inventory_crosscheck": [
+    {"inventory_id": 10, "upstream_language_label": "Mundari", "glottocode": "mund1320", "iso639_3": "unr", "classification": "Mundari-labeled provider manifestation"},
+    {"inventory_id": 602, "upstream_language_label": "MUNDARI", "glottocode": "mund1320", "iso639_3": "unr", "classification": "Mundari-labeled provider manifestation"},
+    {"inventory_id": 1713, "upstream_language_label": "Bhumij", "glottocode": "mund1320", "iso639_3": "unr", "bibtex_mapping": "1713_Ramaswami1992", "filename_mapping": "bhb&unr_Ramaswami1999.pdf", "classification": "provider coding/label conflict requiring separate treatment; not silently promotable as a Mundari inventory claim"},
+    {"inventory_id": 1770, "upstream_language_label": "Mundari", "glottocode": "mund1320", "iso639_3": "unr", "bibtex_mappings": ["1770_Sinha1974", "1770_Osada1992"], "classification": "Mundari-labeled provider manifestation"},
+    {"inventory_id": 2295, "upstream_language_label": "Mundari", "glottocode": "mund1320", "iso639_3": "unr", "classification": "Mundari-labeled provider manifestation"}
+  ],
+  "verification_boundary": {
+    "upstream_mapping_rows_observed_at_pinned_commit": true,
+    "provider_inventory_pages_crosschecked_against_raw_mapping_genealogy": true,
+    "inventory_1713_label_conflict_preserved": true,
+    "inventory_1713_promoted_as_mundari_phonological_evidence": false,
+    "raw_inventory_segment_rows_materialized_and_recounted": false,
+    "upstream_download_archive_sha256_verified": false,
+    "underlying_source_passages_verified": false,
+    "underlying_source_rights_verified": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "new_controlled_linguistic_claims_promoted": 0,
+    "new_controlled_cultural_claims_promoted": 0
+  },
+  "release_effect": "PHOIBLE provenance is narrowed to a pinned upstream mapping revision and a concrete 1713 label/coding conflict. The conflict is preserved as an audit issue rather than normalized away. Segment-level evidence remains blocked pending deterministic materialization/recount and passage-level source verification.",
+  "sources": [
+    "https://github.com/phoible/dev/blob/614c823cdf76127550fb2180bdf27a051c2972d5/mappings/InventoryID-LanguageCodes.csv",
+    "https://github.com/phoible/dev/blob/614c823cdf76127550fb2180bdf27a051c2972d5/mappings/InventoryID-Bibtex.csv",
+    "https://github.com/phoible/dev/blob/614c823cdf76127550fb2180bdf27a051c2972d5/mappings/InventoryID-Filenames.csv"
+  ]
+}
