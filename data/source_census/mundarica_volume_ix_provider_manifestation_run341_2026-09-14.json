@@ -1,0 +1,44 @@
+{
+  "run": 341,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "volume": "IX",
+  "title_as_provider": "Encyclopedia Mundarica Vol-ix (1950)",
+  "provider": "Internet Archive / Digital Library of India",
+  "identifier": "in.ernet.dli.2015.14924",
+  "ark": "ark:/13960/t2w42v22r",
+  "provider_metadata": {
+    "publication_year": 1950,
+    "publisher": "Superintendent Government Printing Bihar, Patna",
+    "barcode": "99999990159773",
+    "scanning_centre": "C-DAC, Noida",
+    "provider_totalpages": 346,
+    "mimetype": "application/pdf",
+    "provider_rights_label": "Out_of_copyright",
+    "source_library": "Lbs National Academy Of Administration",
+    "ocr_engine": "ABBYY FineReader 11.0",
+    "ppi": 600,
+    "item_size": "493.0M"
+  },
+  "provider_download_options_observed": [
+    "ABBYY GZ",
+    "FULL TEXT",
+    "PDF",
+    "PDF WITH TEXT",
+    "SINGLE PAGE PROCESSED JP2 ZIP",
+    "TORRENT"
+  ],
+  "verification_state": "Provider manifestation, identifier and metadata are verified from the Internet Archive item page. Independent local acquisition of primary bytes, cryptographic hash, printed-page-to-scan-image concordance, OCR accuracy and complete-volume verification have not been performed in this run.",
+  "promotion_scope": "provider manifestation and page-accounting metadata only",
+  "not_promoted": [
+    "authoritative independently registered scan",
+    "verified complete volume",
+    "verified OCR pages",
+    "printed-page-to-scan-image concordance",
+    "cultural claims",
+    "linguistic claims"
+  ],
+  "governance_rule": "Provider availability and provider rights labels do not override MLHKP cultural-access, community-validation or provenance requirements.",
+  "cultural_claims_promoted": 0,
+  "linguistic_claims_promoted": 0
+}
