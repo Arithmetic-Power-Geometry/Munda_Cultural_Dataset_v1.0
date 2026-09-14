@@ -3,17 +3,16 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T12:52:00Z",
+  "updated_utc": "2026-09-14T13:02:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 350,
-  "run349_final_status_head": "73738b8755169a6033b694e3bb7410a2e91674eb",
-  "run350_work_head_before_status_sync": "2476796772eb39479b674867088946a24ca4821b",
-  "run350_commits": {
-    "multiling_ciil_exact_locator_audit": "c0b90c83665d0f41aabc8e7a8fcb8245d0a7b166",
-    "mmsc_14_class_refresh": "ed349c4d65609e7f7761fc3b91b00f403fbdc51e",
-    "locator_boundary_test": "2476796772eb39479b674867088946a24ca4821b"
+  "latest_run": 351,
+  "run350_final_status_head": "f0a2017cf3fe7bc5069db56847788c3b542dd14b",
+  "run351_work_head_before_status_sync": "a13a8d19f93e9ccd8df15dbb74e31e160010299b",
+  "run351_commits": {
+    "ciil_bvp00202_exact_bitstream_audit": "b71a0522c0c7d87ccbfef903e08a223ef1e7b966",
+    "mmsc_14_class_refresh": "05ddb7c14fc0adc108f6a0cef58023381bfb99ec",
+    "ciil_locator_governance_boundary_test": "a13a8d19f93e9ccd8df15dbb74e31e160010299b"
   },
-  "run350_sync_manifest_write_blocked": true,
   "mmsc": {
     "audited_source_identities": 42,
     "raw_web_discovery_records": 90,
@@ -21,7 +20,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000350",
+    "latest_search_id": "MMSC-SEARCH-000351",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
   },
@@ -30,7 +29,8 @@
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
     "provider_generated_ocr_is_not_verified_ocr": true,
-    "per_volume": {"I":"incomplete","II":"incomplete","III":"incomplete","IV":"incomplete","V":"incomplete","VI":"incomplete","VII":"incomplete","VIII":"incomplete","IX":"provider metadata only","X":"provider metadata only","XI":"historical locator only","XII":"historical locator only","XIII":"provider locator only","XIV":"unresolved","XV":"unresolved","XVI":"pagination/edition/plates unresolved"}
+    "per_volume": {"I":"incomplete","II":"incomplete","III":"incomplete","IV":"incomplete","V":"incomplete","VI":"incomplete","VII":"incomplete","VIII":"incomplete","IX":"provider metadata only","X":"provider metadata only","XI":"historical locator only","XII":"historical locator only","XIII":"provider locator only","XIV":"unresolved","XV":"unresolved","XVI":"pagination/edition/plates unresolved"},
+    "run351_change": "No independent byte/hash/page/OCR promotion; CIIL grammar work was an independent source stream, not a Mundarica volume."
   },
   "evidence": {
     "claims": 52,
@@ -39,13 +39,13 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run350_new_public_factual_claims_promoted": 0,
-    "run350_locator_level_sources_added": 2
+    "run351_new_public_factual_claims_promoted": 0,
+    "run351_locator_level_sources_added": 1
   },
   "ontology_entities_graph": {
     "pipeline": "SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM->INDICATOR->DOMAIN",
     "schema_category_representation_percent": 100.0,
-    "run350_graph_count_change_required": false
+    "run351_graph_count_change_required": false
   },
   "streamlit": {
     "registered_modules": 42,
@@ -55,8 +55,8 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run350_registration_change_required": false,
-    "run350_reason": "Bangladesh Multiling and CIIL grammar records remain exact-locator metadata only; no controlled evidence module was created."
+    "run351_registration_change_required": false,
+    "run351_reason": "CIIL BVP00202 remains locator/metadata level only; no verified passage/evidence object was eligible for module promotion."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -67,37 +67,43 @@
     "open_license_does_not_equal_community_or_cultural_authorization": true,
     "public_government_webpage_does_not_equal_reuse_or_community_authorization": true,
     "database_license_does_not_equal_underlying_source_or_participant_authorization": true,
-    "archive_visibility_does_not_equal_audio_reuse_consent_or_cultural_authorization": true
+    "archive_visibility_does_not_equal_audio_reuse_consent_or_cultural_authorization": true,
+    "rights_holder_metadata_does_not_equal_license_grant": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
     "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules",
-    "run350_tables_figures_change_required": false,
-    "run350_reason": "No controlled numeric claim or evidence-graph count changed; source-locator additions and open gaps are reflected in MMSC/status only."
+    "run351_tables_figures_change_required": false,
+    "run351_reason": "No controlled numeric claim or evidence-graph count changed; source-locator audit and open verification gaps are synchronized in repository status."
+  },
+  "sync_state": {
+    "status_metrics_match_controlled_repository_metrics": true,
+    "manuscript_metric_change_required": false,
+    "run351_audits_recorded": true
   },
   "ci": {
-    "run347_final_status_head_ci_verified": true,
-    "run347_final_status_head_results": {"Migration Audit":"success","Source Register Audit":"success","Streamlit Smoke Test":"success","Publication Build":"success"},
-    "run350_work_head_ci_verified": false,
-    "run350_final_status_head_ci_verified": false,
+    "run350_final_status_head_ci_verified": true,
+    "run350_final_status_head_results": {"Migration Audit":"success","Source Register Audit":"success","Streamlit Smoke Test":"success","Publication Build":"success"},
+    "run351_work_head_ci_verified": false,
+    "run351_final_status_head_ci_verified": false,
     "required_workflows": ["Migration Audit","Source Register Audit","Streamlit Smoke Test","Publication Build"]
   },
   "blockers": [
-    "73 unresolved WEB-MUN leads; authoritative numbered mapping not recovered by indexed GitHub code search",
+    "73 unresolved WEB-MUN leads; authoritative numbered mapping not fully reconciled",
     "Mundarica I-XVI independent verification, especially XIV-XVI manifestation resolution",
     "Census workbook byte/hash/sheet/row/cell verification",
     "LSI/Atlas verification",
-    "CIIL/SCSTRTI verification, including BVP00202.pdf byte/hash/page/reuse closure",
+    "CIIL BVP00202.pdf independent binary materialization/hash/full-pagination/text verification and reuse/community/cultural-access closure",
+    "SCSTRTI verification",
     "ASJP export byte/hash/row-count and lexical provenance verification",
     "WALS feature-value source-level verification before controlled linguistic claim promotion",
     "PHOIBLE inventory/source-level verification before controlled phonological claim promotion",
     "Bangladesh Multiling archive-item endpoint inventory, rights, participant consent and cultural-access review",
     "TRI page reuse terms, community validation and cultural-access authorization not established",
     "ELAR/PARADISEC exact Mundari package resolution remains open",
-    "dataset and audiovisual governance closure",
-    "run350 synchronization-manifest file write blocked by connector safety layer; canonical status contains equivalent synchronization state"
+    "dataset and audiovisual governance closure"
   ],
   "release_gate": {
     "status": "NOT_PASS",
@@ -120,14 +126,14 @@
     "WEB-MUN deterministic dispositions",
     "Census workbook verification",
     "Mundarica XIV-XVI manifestation resolution plus I-XVI byte/hash/page/OCR verification",
-    "LSI/Atlas and CIIL/SCSTRTI verification",
-    "materialize and verify CIIL BVP00202.pdf where permitted",
+    "LSI/Atlas and SCSTRTI verification",
+    "materialize and independently hash/page-verify CIIL BVP00202.pdf where permitted",
     "enumerate Bangladesh Multiling archive-item endpoints and review rights/consent/cultural access",
     "ASJP export-byte/hash and lexical provenance verification",
     "WALS source-level verification for any candidate feature promotion",
     "PHOIBLE inventory/source-level verification for any candidate phonological promotion",
     "TRI and audiovisual rights/community/cultural-access closure",
     "dataset governance closure",
-    "verify four CI workflows on Run 350 final head"
+    "verify four CI workflows on Run 351 final head"
   ]
 }
