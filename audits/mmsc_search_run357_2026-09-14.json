@@ -1,0 +1,52 @@
+{
+  "search_id": "MMSC-SEARCH-000357",
+  "run": 357,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses","government_TRI_Census_LSI","archives","newspapers","web_resources","datasets","audio","video","maps","relevant_media"],
+  "fresh_reobservations": [
+    {
+      "class": "maps",
+      "title": "Munda languages map.svg",
+      "url": "https://commons.wikimedia.org/wiki/File:Munda_languages_map.svg",
+      "disposition": "promoted_to_exact_provider_locator_metadata_and_licence_only_run357"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "Census of India ST-15 West Bengal 2011",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/12551",
+      "disposition": "official_catalogue_reobserved_mundari_label_visible_but_endpoint_open_returned_502_in_this_run_so_no_new_workbook_or_cell_promotion"
+    },
+    {
+      "class": "web_resources_audio_video_relevant_media",
+      "title": "Mundari.in",
+      "url": "https://www.mundari.in/en",
+      "disposition": "provider_page_verified_as_hosting_Mundari_cultural_and_worship_videos_songs_pictures_and_texts_but_item_level_rights_consent_provenance_and_cultural_access_not_established_no_content_promotion"
+    },
+    {
+      "class": "datasets_audio",
+      "title": "Karya Mundari TTS dataset",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts",
+      "disposition": "known_source_family_reobserved_do_not_increment_counts_without_numbered_register_reconciliation"
+    },
+    {
+      "class": "newspapers",
+      "title": "Nirang Pajhra",
+      "url": "https://en.wikipedia.org/wiki/Nirang_Pajhra",
+      "disposition": "secondary_reference_reobserved_current_primary_RNI_title_level_verification_still_required"
+    }
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the authoritative numbered source register is completed. Reprints, mirrors, provider manifestations, homonyms and non-target Munda-language matches are not counted as new identities without reconciliation.",
+  "rights_access_policy": "Public visibility does not imply permission to ingest underlying text/audio/video/images; participant consent, community validation and cultural-access authorization remain independent gates.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Run 357 established one additional exact manifestation locator but did not establish a deterministic new numbered audited identity or a new controlled cultural/linguistic claim."
+}
