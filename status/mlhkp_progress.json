@@ -3,16 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T01:33:00Z",
+  "updated_utc": "2026-09-14T01:50:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 329,
-  "run328_final_head": "154563132ecf7b1aa581df3cc6c3f8c23a871354",
-  "run328_four_of_four_green": true,
-  "run329_pre_status_head": "8df68dec018c470a898a44904e8f9539d92ec54a",
-  "run329_commits": {
-    "census_c16_st16_locator_audit": "c2132e573cdfb340fc3433505b3528e6859fa555",
-    "mmsc_14_class_refresh": "c3eb23fdc294ebb0dc1d80fc04bbcde3a91f80e6",
-    "boundary_test": "8df68dec018c470a898a44904e8f9539d92ec54a"
+  "latest_run": 330,
+  "run329_final_head": "0fbb610f9c7dd89249830b32bc32e6e6347f1630",
+  "run330_commits": {
+    "karya_translation_locator": "a9bb9045708b07d9f1d86732c15a3f22349d3e80",
+    "mmsc_14_class_refresh": "c9ec6a85ae1f0a0f4386d7457c658a295262cd6a",
+    "boundary_test": "7b62eebda420660c4774e847fb293473fc59765f"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -21,7 +19,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000329",
+    "latest_search_id": "MMSC-SEARCH-000330",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -30,25 +28,7 @@
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
-    "false_ocr_verification_known": false,
-    "per_volume_states": {
-      "I": "historical_group_page_accounting_only; primary bytes/hash/OCR unverified",
-      "II": "provider manifestation located; 406-page provider metadata; primary bytes/hash/page concordance/OCR unverified",
-      "III": "provider manifestation located; 1930 Government Printing metadata; primary bytes/hash/page concordance/OCR unverified",
-      "IV": "historical_group_page_accounting_only; primary bytes/hash/OCR unverified",
-      "V": "Internet Archive/DLI manifestation located; provider totalpages=278; provider OCR present; primary bytes/hash/page concordance/OCR verification unverified",
-      "VI": "Internet Archive/WBPL/DLI manifestation located; provider totalpages=344; provider OCR present; primary bytes/hash/page concordance/OCR verification unverified",
-      "VII": "Internet Archive/WBPL/DLI manifestation located; provider totalpages=274; provider OCR present; primary bytes/hash/page concordance/OCR verification unverified",
-      "VIII": "Internet Archive/WBPL/DLI manifestation located; provider totalpages=422 plus historical printed-page anchors; primary bytes/hash/page concordance/OCR verification unverified",
-      "IX": "historical grouped page accounting only; primary bytes/hash/OCR unverified",
-      "X": "historical grouped page accounting only; primary bytes/hash/OCR unverified",
-      "XI": "1938 historical bibliographic printed-page range 3175-3456 verified at bibliographic level; primary bytes/hash/page-image concordance/OCR unverified",
-      "XII": "1938 historical bibliographic printed-page range 3457-3707 verified at bibliographic level; primary historical bytes/hash/page-image concordance/OCR unverified",
-      "XIII": "1941 historical manifestation metadata located; primary bytes/hash/OCR unverified",
-      "XIV": "primary bytes/hash/page accounting/OCR unverified",
-      "XV": "primary bytes/hash/page accounting/OCR unverified",
-      "XVI": "modern reprint pagination conflict remains open; secondary descriptions are not primary verification; primary bytes/hash/page accounting/OCR unverified"
-    }
+    "false_ocr_verification_known": false
   },
   "evidence": {
     "claims": 52,
@@ -57,8 +37,8 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run329_new_public_factual_claims_promoted": 0,
-    "run329_reason": "ORGI C-16 and ST-16 first-party catalogue identities and declared workbook filenames were verified, but workbook bytes/hash/sheets/cells remain unverified; no numeric or cultural evidence was promoted."
+    "run330_new_public_factual_claims_promoted": 0,
+    "run330_reason": "Karya Hindi-Mundari translation corpus was verified at first-party repository/manifestation level only. Exact TSV name and declared 17,826 sentence-pair count were recorded; bytes/hash, independent row verification, participant consent, community validation and cultural-access permission remain unverified, so no translation rows or cultural claims were promoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -68,7 +48,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "functionality_state": "mapped and regression-covered; no redesign this run because evidence verification was prioritized"
+    "functionality_state": "mapped and regression-covered; controlled module count unchanged because run 330 is locator-only"
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -76,39 +56,34 @@
     "community_validation_not_fabricated": true,
     "provider_rights_labels_do_not_override_cultural_access": true,
     "commercial_or_public_availability_does_not_establish_ingestion_permission": true,
-    "census2011_c16_catalog_verified": true,
-    "census2011_c16_workbook_bytes_acquired": false,
-    "census2011_st16_catalog_verified": true,
-    "census2011_st16_workbook_bytes_acquired": false,
-    "census2011_c17_workbook_bytes_acquired": false,
-    "census2011_st15_workbook_bytes_acquired": false
+    "karya_translation_repository_verified": true,
+    "karya_translation_tsv_named": true,
+    "karya_translation_bytes_hash_verified": false,
+    "karya_translation_rows_independently_verified": false,
+    "karya_translation_participant_consent_verified": false,
+    "karya_translation_community_validation_verified": false,
+    "karya_translation_cultural_access_verified": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run329": false,
-    "build_state": "Run 329 is metric-neutral; controlled source/evidence/module totals remain synchronized. Run 328 Publication Build is verified green; exact Run-329 final-head CI must be rechecked."
+    "manuscript_metric_sync_required_from_run330": false,
+    "build_state": "Run 330 is metric-neutral; source/evidence/module totals remain synchronized pending exact final-head CI verification."
   },
   "ci": {
-    "run328_final_head_ci_verified": true,
     "run328_four_of_four_green": true,
-    "run329_final_head_ci_verified": false,
+    "run330_final_head_ci_verified": false,
     "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"]
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
-    "Mundarica I-XVI permitted primary-byte acquisition, independent hashing, printed-page to scan-image concordance and OCR verification",
-    "Mundarica manifestation reconciliation including Volume XVI pagination conflict",
-    "2011 C-16 workbook bytes/hash/sheets/Munda-Mundari cells unverified",
-    "2011 ST-16 workbook bytes/hash/sheets/Munda cells unverified",
-    "2011 C-17 workbook bytes/hash/sheets/numeric cells unverified",
-    "2011 ST-15 workbook bytes/hash/sheets/numeric cells unverified",
-    "2001 C-17 workbook acquisition/hash/sheet/numeric-cell verification",
+    "2011 C-16/ST-16/C-17/ST-15 and 2001 C-17 workbook byte/hash/sheet/cell verification",
     "LSI Jharkhand and West Bengal PDF bytes/hash/page-image concordance",
     "Language Atlas Mundari primary-page verification",
     "remaining lexical reconciliation and Rau 2019 independent byte/hash/license verification",
     "CIIL/SCSTRTI source-byte and rights verification",
+    "Karya Hindi-Mundari translation TSV independent byte/hash/row verification and participant/privacy/community/cultural-access review",
     "CIET/NCERT Barkhaa individual audio byte/hash/reuse-rights plus participant/community/cultural-access review",
     "audiovisual consent/community/cultural-access review and fieldwork gaps"
   ],
@@ -124,7 +99,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 329 verified two additional first-party ORGI language-table source identities: C-16 Population by mother tongue, Jharkhand (PC11_C16-20; declared DDW-C16-STMT-MDDS-2000.xlsx) and ST-16 Bilingualism for Scheduled Tribes, Jharkhand (PC11_ST16-20; declared ST-20-00-16-DDW-2011.XLSX). Catalogue identity is not workbook verification. All 14 MMSC classes were refreshed, a regression boundary test was added, and controlled counts remain unchanged pending deterministic register reconciliation.",
+  "cycle_note": "Run 330 refreshed all 14 controlled non-Mundarica classes and added an exact first-party locator for Karya's Hindi-Mundari translation corpus. The repository names translation-hi-unr.tsv and declares 17,826 sentence pairs. No rows or cultural claims were promoted because independent bytes/hash/row checks and participant/community/cultural-governance review remain open. Controlled counts remain unchanged pending numbered-register reconciliation.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -132,13 +107,13 @@
   },
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
-    "attempt permitted C-16/ST-16/C-17/ST-15 workbook acquisition then independent hash/sheet/cell verification",
+    "attempt permitted Karya translation TSV byte acquisition, independent hash and row-count verification",
+    "attempt permitted Census workbook acquisition then independent hash/sheet/cell verification",
     "retry LSI Jharkhand and West Bengal byte/hash/page-image verification",
     "resolve Language Atlas Mundari primary-page locator",
-    "continue Mundarica I-XVI primary-byte/hash/page/OCR closure without converting provider OCR into verified OCR",
     "retry Rau 2019 byte acquisition/hash/license verification",
     "CIIL/SCSTRTI byte-rights closure and lexical reconciliation",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on exact Run-329 final head"
+    "verify all four CI workflows on exact Run-330 final head"
   ]
 }
