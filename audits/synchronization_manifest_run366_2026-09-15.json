@@ -1,0 +1,45 @@
+{
+  "run": 366,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "work_head_before_status_sync": "95b8264e7108b0fd21a4a059083193631b92badd",
+  "commits": {
+    "mundarica_manifestation_numbering_audit": "8f3c7fabd158d50f5487e88b559486cf1e562ae9",
+    "mundarica_manifestation_boundary_test": "682cc5d41437a5cdbc60ebafda43cb1ec69dce4b",
+    "mmsc_refresh": "95b8264e7108b0fd21a4a059083193631b92badd"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42,
+    "schema_category_representation_percent": 100.0,
+    "ui_mapping_percent": 100.0
+  },
+  "controlled_metrics_changed": false,
+  "manuscript_metric_change_required": false,
+  "streamlit_change_required": false,
+  "evidence_graph_change_required": false,
+  "publication_tables_figures_change_required": false,
+  "mundarica": {
+    "independently_authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0,
+    "numbering_boundary_strengthened": true
+  },
+  "governance": {
+    "cultural_access_overrides_entitlement": true,
+    "restricted_content_not_exposed": true,
+    "community_validation_not_fabricated": true,
+    "commercial_reprint_numbering_not_equated_to_historical_numbering_without_concordance": true,
+    "bibliographic_visibility_not_counted_as_verified_ocr": true
+  },
+  "release_gate": "NOT_PASS",
+  "absolute_or_future_proof_source_completeness_claimed": false
+}
