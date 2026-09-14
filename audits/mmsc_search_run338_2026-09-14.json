@@ -1,0 +1,21 @@
+{
+  "search_id": "MMSC-SEARCH-000338",
+  "date_utc": "2026-09-14",
+  "scope": "non-Mundarica 14-class MMSC refresh with exact-locator priority",
+  "classes": ["books_monographs","dictionaries_lexica","grammars","peer_reviewed_articles","theses_dissertations","government_tri_census_lsi","archives","newspapers","web_resources","datasets_corpora","audio","video","maps","relevant_media"],
+  "promoted_locator_records_file": "data/source_census/exact_locator_records_run338_2026-09-14.json",
+  "verified_reobservations": [
+    {"class":"grammars","title":"Mundari Grammar","provider":"Bhasha Sanchika — CIIL","locator":"CIILP0091.pdf","state":"exact repository locator verified; bytes/hash/pages pending"},
+    {"class":"books_monographs","title":"मुण्डारी भाषा का भाषिक संरचना","provider":"Bhasha Sanchika — CIIL","locator":"BVP04859.pdf","state":"exact repository locator verified; bytes/hash/pages pending"},
+    {"class":"peer_reviewed_articles","title":"Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis","provider":"White Rose Research Online","locator":"murugesanEtAl_24_Omnivoro.3.pdf","state":"48-page PDF and internal page locators verified; independent local hash pending"},
+    {"class":"peer_reviewed_articles","title":"Mundari: The myth of a language without word classes","provider":"Australian National University repository","doi":"10.1515/lity.2005.9.3.351","state":"open-access manifestation reobserved; register reconciliation pending"},
+    {"class":"theses_dissertations","title":"A descriptive analysis of Mundari","author":"Walter Anthony Cook","year":1965,"state":"dissertation identity verified bibliographically; primary manifestation pending"},
+    {"class":"government_tri_census_lsi","title":"Linguistic Survey of India — Jharkhand: Mundari","provider":"ORGI","state":"first-party indexed PDF reobserved; independent byte/hash/page-image verification pending"},
+    {"class":"datasets_corpora","title":"Mundari TTS dataset corpus","provider":"Karya","state":"provider manifestation reobserved; exact-revision and governance checks pending"},
+    {"class":"dictionaries_lexica","title":"A Mundari-English dictionary","author":"Manindra Bhusan Bhaduri","state":"bibliographic identity reobserved; primary manifestation reconciliation pending"}
+  ],
+  "controlled_counts": {"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73},
+  "counting_rule": "No controlled count changes without deterministic numbered-register reconciliation.",
+  "governance_rule": "Availability does not by itself establish ingestion permission, consent, community validation, or cultural-access authorization.",
+  "false_completeness_claimed": false
+}
