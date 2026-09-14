@@ -3,15 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T00:28:00Z",
+  "updated_utc": "2026-09-14T00:42:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 327,
+  "latest_run": 328,
   "previous_final_head": "535a650133c979cb88c6c7d6148042981da4bf6b",
-  "run327_work_head_before_status_sync": "d8ff61a1b945f70db423defc73b8db94d72e3c9a",
-  "run327_commits": {
-    "bera_2026_peer_reviewed_source_audit": "8bb6745f57c503d76b81aed720e0b72a1b362717",
-    "mmsc_14_class_refresh": "e13197404d1b4463c7c40ac89b6ba5c3aeb96edc",
-    "boundary_test": "d8ff61a1b945f70db423defc73b8db94d72e3c9a"
+  "run328_commits": {
+    "lsi_jharkhand_mundari_distribution_audit": "368dce5a9d8bb13e92f5f67fb97bfb5fe65dc8a7",
+    "mmsc_14_class_refresh": "ead69c2a714365d6147bb109fb7b2f8bbc508e05",
+    "boundary_test": "1511b0144ff10d7304151cb2e92c7b012d93935a"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +19,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000327",
+    "latest_search_id": "MMSC-SEARCH-000328",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -58,8 +57,8 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run327_new_public_factual_claims_promoted": 0,
-    "run327_reason": "Bera 2026 peer-reviewed article identity, DOI and publisher metadata were audited, but fieldwork content, underlying primary data, participant consent, community validation and cultural-access authorization were not inferred or promoted."
+    "run328_new_public_factual_claims_promoted": 0,
+    "run328_reason": "Official ORGI LSI Jharkhand indexed PDF text exposes the Mundari 2011 distribution table and values, but binary/page-image/hash verification failed transiently; no controlled numeric or cultural claim was promoted."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -69,8 +68,8 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run327_module_redesign_performed": false,
-    "priority_reason": "Evidence verification and source-census reconciliation were prioritized over redesign; controlled source/evidence/module totals remain synchronized."
+    "run328_module_redesign_performed": false,
+    "priority_reason": "Exact-locator verification and source-census reconciliation were prioritized; controlled source/evidence/module totals did not change, so UI mappings remain synchronized."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -87,6 +86,9 @@
     "lsi_west_bengal_first_party_catalog_verified": true,
     "lsi_west_bengal_mundari_printed_page_391_index_locator_verified": true,
     "lsi_west_bengal_pdf_bytes_hash_page_image_verified": false,
+    "lsi_jharkhand_first_party_indexed_pdf_locator_verified": true,
+    "lsi_jharkhand_mundari_distribution_table_indexed_text_verified": true,
+    "lsi_jharkhand_pdf_bytes_hash_page_image_verified": false,
     "bera_2026_article_identity_verified": true,
     "bera_2026_underlying_fieldwork_data_acquired": false,
     "bera_2026_participant_consent_inferred": false,
@@ -97,13 +99,13 @@
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run327": false,
-    "build_state": "Metric-neutral Run 327; controlled source/evidence/module totals and publication tables/figures remain unchanged. Run 326 final head is verified 4/4 green; exact Run-327 final-head CI must be verified before green status is claimed."
+    "manuscript_metric_sync_required_from_run328": false,
+    "build_state": "Metric-neutral Run 328; controlled source/evidence/module totals and publication tables/figures remain synchronized. Exact Run-328 final-head CI remains to be verified before green status is claimed."
   },
   "ci": {
     "run326_final_head_ci_verified": true,
     "run326_four_of_four_green": true,
-    "run327_final_head_ci_verified": false,
+    "run328_final_head_ci_verified": false,
     "required_workflows": [
       "Migration Audit",
       "Source Register Audit",
@@ -113,13 +115,15 @@
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
-    "Bera 2026 candidate requires numbered-register deduplication/canonicalization before any controlled source-count change; fieldwork/community/cultural-access gates remain open",
+    "Bera 2026 and other fresh candidates require numbered-register deduplication/canonicalization before any controlled source-count change; fieldwork/community/cultural-access gates remain open where applicable",
     "Mundarica I-XVI permitted primary-byte acquisition, independent hashing, printed-page to scan-image concordance and OCR verification",
     "Mundarica manifestation bibliographic reconciliation where provider dates/editions differ, including Volume XVI pagination conflict",
     "2011 C-17 exact first-party endpoint resolved but workbook bytes/hash/sheets/numeric cells remain unverified",
     "2011 ST-15 exact first-party endpoint resolved but workbook bytes/hash/sheets/numeric cells remain unverified",
     "2001 C-17 permitted workbook acquisition/hash/sheet/numeric-cell verification",
-    "LSI West Bengal PDF bytes/hash/page-image concordance and Language Atlas Mundari primary-page verification remain open",
+    "LSI West Bengal PDF bytes/hash/page-image concordance remain open",
+    "LSI Jharkhand indexed Mundari distribution table now located, but PDF bytes/hash/page-image/page-number verification remain open",
+    "Language Atlas Mundari primary-page verification remains open",
     "remaining lexical reconciliation",
     "Rau 2019 independent byte acquisition/hash and explicit license-text verification",
     "CIIL/SCSTRTI source-byte and rights verification",
@@ -138,15 +142,15 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 327 refreshed all 14 controlled MMSC source classes and audited the 2026 SAGE article by Mohan Kumar Bera (DOI 10.1177/2455328X261437865) at publisher metadata/abstract level. The article is a relevant fresh Munda identity candidate, but deterministic reconciliation against the numbered WEB-MUN register is not complete and the underlying primary fieldwork data were not acquired. No participant consent, community validation or cultural-access authorization was inferred; no fieldwork-derived cultural claim entered the controlled evidence graph. Run 326 final head was independently verified 4/4 green. Controlled counts remain unchanged.",
+  "cycle_note": "Run 328 refreshed all 14 controlled non-Mundarica source classes. The official ORGI LSI Jharkhand PDF endpoint was upgraded from generic government discovery to an exact first-party indexed-PDF/table locator: indexed text explicitly identifies the Distribution of Mundari Language in Jharkhand state as per 2011 Census table and exposes state/district Total-Rural-Urban sex-disaggregated values. The binary endpoint returned a transient fetch failure in this run, so independent hash, page inventory, screenshot/page-image concordance and page number were not verified. No numeric or cultural claim entered the controlled evidence graph. Counts remain unchanged pending numbered-register reconciliation.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "numbered WEB-MUN disposition and deterministic register reconciliation, including Bera 2026 candidate",
-    "retry permitted Mundarica XIV-XVI primary manifestation acquisition and reconcile Volume XVI pagination/plate-manifestation metadata",
+    "numbered WEB-MUN disposition and deterministic register reconciliation",
+    "retry permitted LSI Jharkhand PDF byte acquisition; independently hash, inventory pages and screenshot/verify the Mundari distribution table before controlled numeric promotion",
     "retry permitted LSI West Bengal PDF byte acquisition; independently hash, inventory pages and verify printed-p.391/page-image concordance",
     "resolve Language Atlas of India 2011 Mundari map/page locator and primary-page verification",
     "retry permitted Census workbook acquisition and only then hash/sheet/cell verification",
@@ -155,6 +159,6 @@
     "remaining lexical reconciliation",
     "CIIL/SCSTRTI source-byte and rights closure",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on the exact Run-327 final head"
+    "verify all four CI workflows on the exact Run-328 final head"
   ]
 }
