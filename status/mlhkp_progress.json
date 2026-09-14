@@ -3,15 +3,16 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T13:55:00Z",
+  "updated_utc": "2026-09-14T14:41:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 353,
-  "run352_final_status_head": "cd913d3cbb6e9d35aa81b7691c45c27d0ff10a3d",
-  "run353_work_head_before_status_sync": "8bc69058d36e10d14a7e82534d070a183e8fa923",
-  "run353_commits": {
-    "bhaduri_dictionary_exact_locator": "f8430eba36c1e7ebfd339e2a2331a19ebdb5937d",
-    "mmsc_14_class_refresh": "8d79d6374acfed20c1fc7dfd4e1169c9dcd691d3",
-    "bhaduri_boundary_regression_test": "8bc69058d36e10d14a7e82534d070a183e8fa923"
+  "latest_run": 354,
+  "run353_final_status_head": "abd79fa20ad3f2d71e884153fe520ae90ef0d337",
+  "run354_work_head_before_status_sync": "14ce0c035c13129f01e646c5a325c6cc9c4ce72b",
+  "run354_commits": {
+    "phoible_mundari_source_boundary": "81bf3d88baf4d862d7827805a08b8cc3e0b70e6b",
+    "mundarica_xv_xvi_reprint_locator": "268fc46065b4689a5b957d314521c499e45c4547",
+    "mmsc_14_class_refresh": "42e1fa06b686e2e32cde77f42f03496030da0dc2",
+    "source_boundary_regression_tests": "14ce0c035c13129f01e646c5a325c6cc9c4ce72b"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -20,7 +21,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000353",
+    "latest_search_id": "MMSC-SEARCH-000354",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true
   },
@@ -29,8 +30,25 @@
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
     "provider_generated_ocr_is_not_verified_ocr": true,
-    "per_volume": {"I":"incomplete","II":"incomplete","III":"incomplete","IV":"incomplete","V":"incomplete","VI":"incomplete","VII":"incomplete","VIII":"incomplete","IX":"provider metadata only","X":"provider metadata only","XI":"historical locator only","XII":"historical locator only","XIII":"provider locator only","XIV":"unresolved","XV":"unresolved","XVI":"pagination/edition/plates unresolved"},
-    "run353_change": "No Mundarica promotion; run 353 was non-Mundarica census and exact-locator work."
+    "per_volume": {
+      "I": "incomplete",
+      "II": "incomplete",
+      "III": "incomplete",
+      "IV": "incomplete",
+      "V": "incomplete",
+      "VI": "incomplete",
+      "VII": "incomplete",
+      "VIII": "incomplete",
+      "IX": "provider metadata only",
+      "X": "provider metadata only",
+      "XI": "historical locator only",
+      "XII": "historical locator only",
+      "XIII": "provider locator only",
+      "XIV": "unresolved",
+      "XV": "commercial 2009 reprint bibliographic locator only; primary historical manifestation unresolved",
+      "XVI": "commercial 2009 reprint bibliographic locator only; primary manifestation and pagination/edition/plates unresolved"
+    },
+    "run354_change": "Added XV-XVI commercial reprint bibliographic locators only. No primary historical byte/hash/page/OCR or complete-volume verification was inferred, so controlled completion counts remain zero."
   },
   "evidence": {
     "claims": 52,
@@ -39,13 +57,14 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run353_new_public_factual_claims_promoted": 0,
-    "run353_locator_level_sources_added": 1
+    "run354_new_public_factual_claims_promoted": 0,
+    "run354_locator_or_source_boundary_audits_added": 2
   },
   "ontology_entities_graph": {
     "pipeline": "SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM->INDICATOR->DOMAIN",
     "schema_category_representation_percent": 100.0,
-    "run353_graph_count_change_required": false
+    "run354_graph_count_change_required": false,
+    "run354_reason": "PHOIBLE and Mundarica XV-XVI remain source-locator/verification-boundary records, not controlled content claims."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -55,8 +74,8 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "run353_registration_change_required": false,
-    "run353_reason": "Bhaduri remains exact bibliographic locator/provenance level only; no verified lexical entry or controlled claim was eligible for module registration."
+    "run354_registration_change_required": false,
+    "run354_reason": "No newly verified controlled evidence item was eligible for module registration; evidence verification was prioritized over redesign."
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -70,33 +89,49 @@
     "archive_visibility_does_not_equal_audio_reuse_consent_or_cultural_authorization": true,
     "rights_holder_metadata_does_not_equal_license_grant": true,
     "catalogue_or_preview_availability_does_not_equal_dictionary_entry_verification_or_reuse_permission": true,
-    "munda_unx_is_not_auto_merged_with_mundari_unr": true
+    "secondary_database_inventory_does_not_equal_underlying_descriptive_source_verification": true,
+    "commercial_reprint_listing_does_not_equal_primary_historical_manifestation_or_ocr_verification": true,
+    "munda_unx_is_not_auto_merged_with_mundari_unr": true,
+    "bhumij_or_other_doculect_labels_are_not_auto_collapsed_into_mundari": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
     "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules",
-    "run353_tables_figures_change_required": false,
-    "run353_reason": "No controlled numeric claim or graph count changed; source locator and census refresh are synchronized without fabricating count changes."
+    "run354_tables_figures_change_required": false,
+    "run354_reason": "No controlled numeric claim or graph count changed; source-boundary and census work require no fabricated manuscript metric change."
   },
   "sync_state": {
     "status_metrics_match_controlled_repository_metrics": true,
     "manuscript_metric_change_required": false,
-    "run353_audits_recorded": true,
+    "run354_audits_recorded": true,
     "streamlit_change_required": false,
     "evidence_graph_change_required": false,
     "publication_tables_figures_change_required": false
   },
   "ci": {
-    "run352_final_status_head_ci_verified": false,
-    "run353_work_head_ci_verified": false,
-    "run353_final_status_head_ci_verified": false,
-    "required_workflows": ["Migration Audit","Source Register Audit","Streamlit Smoke Test","Publication Build"]
+    "run353_final_status_head_ci_verified": true,
+    "run353_final_status_head_ci_state": "4/4 success",
+    "run354_work_head_ci_verified": false,
+    "run354_work_head_ci_state_at_ledger_write": {
+      "Migration Audit": "success",
+      "Source Register Audit": "success",
+      "Streamlit Smoke Test": "in_progress",
+      "Publication Build": "in_progress"
+    },
+    "run354_final_status_head_ci_verified": false,
+    "required_workflows": [
+      "Migration Audit",
+      "Source Register Audit",
+      "Streamlit Smoke Test",
+      "Publication Build"
+    ]
   },
   "blockers": [
     "73 unresolved WEB-MUN leads; authoritative numbered mapping not fully reconciled",
-    "Mundarica I-XVI independent verification, especially XIV-XVI manifestation resolution",
+    "Mundarica I-XVI independent verification; XIV remains unresolved and XV-XVI now have commercial reprint locators but primary historical manifestations remain unresolved",
+    "Mundarica XV-XVI permitted primary bytes, independent hash/page accounting, printed-page-to-scan concordance and OCR verification",
     "Census workbook byte/hash/sheet/row/cell verification",
     "LSI/Atlas verification",
     "CIIL BVP00202.pdf independent binary materialization/hash/full-pagination/text verification and reuse/community/cultural-access closure",
@@ -104,7 +139,7 @@
     "Bhaduri dictionary permitted full-manifestation materialization, independent hash/page verification, exact entry locators and reuse-rights verification",
     "ASJP export byte/hash/row-count and lexical provenance verification",
     "WALS feature-value source-level verification",
-    "PHOIBLE inventory/source-level verification before controlled phonological claim promotion",
+    "PHOIBLE Mundari inventory values require resolution to underlying descriptive sources before controlled phonological claim promotion",
     "Bangladesh Multiling archive-item endpoint inventory, rights, participant consent and cultural-access review",
     "TRI page reuse terms, community validation and cultural-access authorization not established",
     "ELAR/PARADISEC exact Mundari package resolution remains open",
@@ -130,15 +165,15 @@
   "next_parallel_tasks": [
     "WEB-MUN deterministic dispositions",
     "Census workbook verification",
-    "Mundarica XIV-XVI manifestation resolution plus I-XVI byte/hash/page/OCR verification",
+    "Mundarica XIV primary manifestation discovery; XV-XVI primary manifestation resolution; I-XVI byte/hash/page/OCR verification",
     "LSI/Atlas and SCSTRTI verification",
     "materialize and independently hash/page-verify CIIL BVP00202.pdf where permitted",
     "materialize a permitted Bhaduri dictionary manifestation and add exact page/entry locators before lexical promotion",
+    "resolve PHOIBLE and WALS candidate values to underlying descriptive sources with exact locators",
     "enumerate Bangladesh Multiling archive-item endpoints and review rights/consent/cultural access",
     "ASJP export-byte/hash and lexical provenance verification",
-    "resolve WALS/PHOIBLE claims to underlying descriptive sources",
     "TRI and audiovisual rights/community/cultural-access closure",
     "dataset governance closure",
-    "verify four CI workflows on Run 353 final head"
+    "verify all four CI workflows on Run 354 work and final status heads"
   ]
 }
