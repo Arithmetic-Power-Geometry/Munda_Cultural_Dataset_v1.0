@@ -1,0 +1,55 @@
+{
+  "run": 331,
+  "search_id": "MMSC-SEARCH-000331",
+  "date_utc": "2026-09-14",
+  "controlled_classes_refreshed": 14,
+  "classes": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_tri_census_lsi",
+    "archives_museums",
+    "newspapers",
+    "web_resources",
+    "datasets",
+    "audio",
+    "video",
+    "maps",
+    "media_heritage"
+  ],
+  "representative_reobservations": [
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Implementation and Implications of the Forest Rights Act, 2006 on Tribal Rights: A Case Study of Munda Tribe in Jharkhand",
+      "published": "2026-04-02",
+      "status": "discovery_only_pending_register_reconciliation"
+    },
+    {
+      "class": "web_resources",
+      "title": "Tribal Lingua Mundari learning resource",
+      "status": "discovery_only_pending_provenance_rights_and_cultural_access_review"
+    },
+    {
+      "class": "datasets_audio",
+      "title": "Karya Mundari TTS",
+      "status": "reobserved_no_count_change"
+    },
+    {
+      "class": "government_tri_census_lsi",
+      "title": "Tribal Welfare Research Institute Jharkhand - Munda",
+      "status": "reobserved_no_count_change"
+    },
+    {
+      "class": "maps",
+      "title": "Linguistic Survey of India map of Munda languages (1906)",
+      "status": "reobserved_primary_page_verification_still_open"
+    }
+  ],
+  "fresh_search_hits_promoted_to_audited_identity": 0,
+  "controlled_count_effect": "none_until_deterministic_numbered_register_reconciliation",
+  "rights_rule": "Public discoverability does not establish ingestion permission; cultural access overrides entitlement.",
+  "community_validation_inferred": false,
+  "absolute_source_completeness_claimed": false
+}
