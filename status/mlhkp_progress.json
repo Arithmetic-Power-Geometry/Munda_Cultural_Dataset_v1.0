@@ -3,13 +3,14 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-14T02:42:00Z",
+  "updated_utc": "2026-09-14T03:34:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 332,
-  "run331_final_head": "194f885eda1b837205b0befa9c1be69206ad17ba",
-  "run332_commits": {
-    "elr1000_manifestation_version_audit": "4890d72b94f13e668c4da7c7111fbc12cfb305b4",
-    "mmsc_14_class_refresh": "16f5c824a6f5b1e812fc51c5e91f893dbf39c338"
+  "latest_run": 333,
+  "run332_final_head": "8efe89e2799cc50349dbfd394d581af95b6f2f53",
+  "run333_work_head_before_status_sync": "c9d744b878c3070c70d5efa30e883d3ce1799c5f",
+  "run333_commits": {
+    "ciet_ncert_barkhaa_catalogue_audit": "56829759ecc10dfd14c64b63abb4d4e85a93c81b",
+    "mmsc_14_class_refresh": "c9d744b878c3070c70d5efa30e883d3ce1799c5f"
   },
   "mmsc": {
     "audited_source_identities": 42,
@@ -18,7 +19,7 @@
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
     "unresolved_unique_web_leads": 73,
-    "latest_search_id": "MMSC-SEARCH-000332",
+    "latest_search_id": "MMSC-SEARCH-000333",
     "controlled_classes_refreshed_this_run": 14,
     "systematic_census_documented_for_release": true,
     "fresh_discovery_does_not_change_counts_without_numbered_register_reconciliation": true
@@ -27,7 +28,25 @@
     "authoritative_registered_scans": 0,
     "verified_complete_volumes": 0,
     "verified_ocr_pages": 0,
-    "false_ocr_verification_known": false
+    "false_ocr_verification_known": false,
+    "per_volume": {
+      "I": "primary bytes/hash/page-image concordance/OCR verification open",
+      "II": "provider manifestation located; independent bytes/hash/page concordance/OCR verification open",
+      "III": "provider manifestation located; independent bytes/hash/page concordance/OCR verification open",
+      "IV": "primary bytes/hash/page-image concordance/OCR verification open",
+      "V": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "VI": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "VII": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "VIII": "provider manifestation/page count located; independent bytes/hash/page concordance/OCR verification open",
+      "IX": "primary bytes/hash/page-image concordance/OCR verification open",
+      "X": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XI": "historical printed-page locator recorded; primary bytes/hash/page-image concordance/OCR verification open",
+      "XII": "historical printed-page locator recorded; primary bytes/hash/page-image concordance/OCR verification open",
+      "XIII": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XIV": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XV": "primary bytes/hash/page-image concordance/OCR verification open",
+      "XVI": "pagination/manifestation reconciliation and primary bytes/hash/page-image/OCR verification open"
+    }
   },
   "evidence": {
     "claims": 52,
@@ -36,8 +55,14 @@
     "schema_category_representation_percent": 100.0,
     "all_public_factual_claims_provenance_linked": true,
     "broken_ids_or_provenance_known": false,
-    "run332_new_public_factual_claims_promoted": 0,
-    "run332_reason": "ELR-1000 was advanced to an exact multi-manifestation metadata audit. Karya/Hugging Face currently state 1,073 recipes and Mundari inclusion, while the peer-reviewed ACL Anthology record states 1,060 recipes. The 13-item difference is preserved as an unresolved version discrepancy rather than normalized. No recipe, translation, image, audio, or cultural claim was ingested."
+    "run333_new_public_factual_claims_promoted": 0,
+    "run333_reason": "CIET/NCERT first-party Barkhaa catalogue verification established that nine Level-1 story entries explicitly list Mundari. This is catalogue metadata only: no audio bytes, hashes, transcript content, participant consent, reuse right, community validation, cultural-access authorization, or item-level cultural claim was inferred or ingested."
+  },
+  "ontology_entities_graph": {
+    "pipeline": "SOURCE→PASSAGE/SEGMENT/EVENT/OBJECT→EVIDENCE→CLAIM→INDICATOR→DOMAIN",
+    "schema_category_representation_percent": 100.0,
+    "controlled_graph_counts_changed_this_run": false,
+    "reason": "Run 333 added provenance/catalogue audit evidence but intentionally promoted no item-level cultural material."
   },
   "streamlit": {
     "registered_modules": 42,
@@ -47,7 +72,7 @@
     "evidence_drilldown": true,
     "reports_downloads": true,
     "owner_console": true,
-    "functionality_state": "mapped and controlled module count unchanged in run 332"
+    "functionality_state": "mapped; no redesign performed in run 333 because evidence verification was prioritized"
   },
   "governance": {
     "cultural_access_overrides_entitlement": true,
@@ -55,26 +80,34 @@
     "community_validation_not_fabricated": true,
     "provider_rights_labels_do_not_override_cultural_access": true,
     "commercial_or_public_availability_does_not_establish_ingestion_permission": true,
-    "elr1000_provider_license_metadata_verified": true,
-    "elr1000_provider_informed_consent_statement_verified": true,
-    "elr1000_item_level_consent_manifest_verified": false,
-    "elr1000_community_validation_for_mlhkp_verified": false,
-    "elr1000_cultural_access_verified": false,
-    "elr1000_item_level_ingestion_authorized": false,
-    "elr1000_version_count_discrepancy_open": true
+    "barkhaa_first_party_catalogue_verified": true,
+    "barkhaa_level1_entries_listing_mundari": 9,
+    "barkhaa_individual_audio_bytes_verified": false,
+    "barkhaa_independent_audio_hashes_verified": false,
+    "barkhaa_item_reuse_rights_verified": false,
+    "barkhaa_participant_consent_verified": false,
+    "barkhaa_community_validation_for_mlhkp_verified": false,
+    "barkhaa_cultural_access_verified": false,
+    "barkhaa_item_level_ingestion_authorized": false
   },
   "publication": {
     "q1_target": true,
     "metrics_synced": true,
     "controlled_metrics_changed_this_run": false,
-    "manuscript_metric_sync_required_from_run332": false,
-    "build_state": "Run 332 is metric-neutral; manuscript source/evidence/module totals remain synchronized."
+    "manuscript_metric_sync_required_from_run333": false,
+    "build_state": "Run 333 is metric-neutral; manuscript source/evidence/module totals remain synchronized."
   },
   "ci": {
-    "run330_four_of_four_green": true,
-    "run332_final_head_ci_verified": false,
+    "run332_four_of_four_green": true,
+    "run332_verified_workflows": [
+      "MLHKP Migration Audit",
+      "MLHKP Source Register Audit",
+      "MLHKP Streamlit Smoke Test",
+      "MLHKP Publication Build"
+    ],
+    "run333_final_head_ci_verified": false,
     "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"],
-    "note": "A proposed dedicated Run-332 regression test write was blocked by the connector safety layer; no claim is made that a new test file landed. Existing CI remains authoritative."
+    "note": "Run 332 exact head 8efe89e2799cc50349dbfd394d581af95b6f2f53 is confirmed 4/4 successful. Run 333 final-head workflows must be checked after status synchronization."
   },
   "blockers": [
     "73 unresolved WEB-MUN leads and deterministic numbered-register reconciliation",
@@ -86,7 +119,7 @@
     "CIIL/SCSTRTI source-byte and rights verification",
     "Karya translation independent SHA-256/row recount plus participant/privacy/community/cultural-access review",
     "ELR-1000 exact revision/shard manifest and 1073-versus-1060 version reconciliation plus Mundari item-level governance",
-    "CIET/NCERT Barkhaa individual audio byte/hash/reuse-rights plus participant/community/cultural-access review",
+    "CIET/NCERT Barkhaa individual audio endpoint/byte/hash/reuse-rights plus participant/community/cultural-access review",
     "audiovisual consent/community/cultural-access review and fieldwork gaps"
   ],
   "release_gate": {
@@ -101,7 +134,7 @@
     "no_false_ocr_verification_known": true,
     "automated_completeness_audit_pass": false
   },
-  "cycle_note": "Run 332 verified the current Karya/Hugging Face ELR-1000 metadata against the peer-reviewed ACL record, preserved the 1,073-versus-1,060 recipe-count discrepancy as an open manifestation/version issue, refreshed all 14 non-Mundarica source classes, and promoted no item-level cultural material.",
+  "cycle_note": "Run 333 verified first-party CIET/NCERT Barkhaa catalogue-level Mundari availability for nine Level-1 story entries, refreshed all 14 MMSC classes, restored explicit Mundarica I-XVI per-volume states to the canonical ledger, preserved governance boundaries, and promoted no unverified cultural material.",
   "deadline_progress": {
     "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
     "gate_passed": false,
@@ -109,14 +142,16 @@
   },
   "next_parallel_tasks": [
     "numbered WEB-MUN disposition and deterministic register reconciliation",
+    "resolve CIET/NCERT Barkhaa individual audio endpoints and item-level reuse/consent/community/cultural-access status before any ingestion",
     "reconcile ELR-1000 fixed revision, shard manifest, and 1073-versus-1060 count discrepancy",
     "retry permitted Karya TSV independent byte materialization, SHA-256 and row-count verification",
+    "continue Mundarica I-XVI primary manifestation acquisition/hash/page/OCR reconciliation",
     "attempt permitted Census workbook acquisition then independent hash/sheet/cell verification",
     "retry LSI Jharkhand and West Bengal byte/hash/page-image verification",
     "resolve Language Atlas Mundari primary-page locator",
     "retry Rau 2019 byte acquisition/hash/license verification",
     "CIIL/SCSTRTI byte-rights closure and lexical reconciliation",
     "audiovisual consent/community/cultural-access review and explicit fieldwork-gap accounting",
-    "verify all four CI workflows on exact Run-332 final head"
+    "verify all four CI workflows on exact Run-333 final head"
   ]
 }
