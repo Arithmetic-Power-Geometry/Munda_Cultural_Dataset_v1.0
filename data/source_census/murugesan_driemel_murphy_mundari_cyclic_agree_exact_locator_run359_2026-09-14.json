@@ -1,0 +1,49 @@
+{
+  "run": 359,
+  "captured_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source_class": "peer_reviewed_articles",
+  "work": {
+    "title": "Omnivorous person, number and gender in Mundari:A Cyclic Agree analysis",
+    "authors": ["Gurujegan Murugesan", "Imke Driemel", "Andrew Murphy"],
+    "journal": "Natural Language & Linguistic Theory",
+    "year": 2025,
+    "pages": "1067-1115",
+    "issn": "1573-0859",
+    "doi": "10.1007/s11049-024-09628-2",
+    "refereed": true,
+    "published_online": "2025-02-03",
+    "published": "2025-04-18"
+  },
+  "exact_manifestation": {
+    "provider": "White Rose Research Online",
+    "repository_item": "https://eprints.whiterose.ac.uk/id/eprint/226042/",
+    "oai_id": "oai:eprints.whiterose.ac.uk:226042",
+    "version": "Accepted Version",
+    "filename": "murugesanEtAl_24_Omnivoro.3.pdf",
+    "licence_as_declared_by_provider": "CC-BY 2.5",
+    "status": "provider-level exact locator verified; bytes and independent SHA-256 not captured in this run"
+  },
+  "scope_classification": "Mundari linguistic scholarship / morphosyntax; not cultural-authority evidence",
+  "verified_this_run": [
+    "exact article identity and authors",
+    "journal and refereed status",
+    "DOI",
+    "publication dates",
+    "accepted-version repository locator and exact filename",
+    "provider-declared CC-BY 2.5 licence for the accepted-version manifestation"
+  ],
+  "not_promoted": [
+    "article linguistic analyses, examples or generalizations as controlled MLHKP claims",
+    "underlying elicitation or corpus data as separately verified evidence",
+    "participant consent",
+    "community validation",
+    "cultural-access authorization",
+    "publisher-version reuse rights",
+    "accepted-version bytes or independent cryptographic hash"
+  ],
+  "governance_boundary": "Open repository access and a manifestation licence support bibliographic and exact-locator promotion only. They do not by themselves validate linguistic propositions, underlying data provenance, participant consent, community validation or cultural-access authorization.",
+  "controlled_claims_added": 0,
+  "controlled_evidence_records_added": 0,
+  "controlled_counts_changed": false
+}
