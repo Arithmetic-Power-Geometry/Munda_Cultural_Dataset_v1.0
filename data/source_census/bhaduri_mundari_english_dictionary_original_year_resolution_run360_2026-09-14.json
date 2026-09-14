@@ -1,0 +1,68 @@
+{
+  "run": 360,
+  "captured_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source_class": "dictionaries",
+  "work": {
+    "title": "A Mundari-English Dictionary",
+    "author": "Manindra Bhusan Bhaduri",
+    "original_publisher": "Calcutta University Press",
+    "preferred_original_year_for_bibliographic_identity": 1931,
+    "preferred_year_basis": "independent catalogue convergence, not direct inspection of an original-edition title page"
+  },
+  "convergent_records": [
+    {
+      "provider": "CiNii Books",
+      "record": "BA31909026",
+      "manifestation": "Asian Educational Services reprint, 1994",
+      "note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931",
+      "pagination": "xv, 228, ii p."
+    },
+    {
+      "provider": "CiNii Books",
+      "record": "BA27135864",
+      "manifestation": "Northern Book Centre reprint, 1983",
+      "note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931",
+      "pagination": "xv, 228, ii p."
+    },
+    {
+      "provider": "National Library of Finland / Finna",
+      "manifestation": "Asian Educational Services reprint, 1994",
+      "note": "Original publication recorded as Calcutta, 1931",
+      "pagination": "xv, 229 pages"
+    },
+    {
+      "provider": "Kiel South Asia Bibliography",
+      "manifestation": "bibliographic reference",
+      "note": "Bhaduri, M.B. 1931. A Mundari-English Dictionary. Calcutta"
+    }
+  ],
+  "retained_anomaly": {
+    "provider": "CiNii Books",
+    "record": "BB09153012",
+    "manifestation": "Gyan Publishing House reprint, 2002",
+    "note": "Reprint. Originally published of 1929 ed. [intro.]",
+    "treatment": "retained as an unresolved introductory-note anomaly; not used to override the stronger 1931 catalogue convergence"
+  },
+  "verified_this_run": [
+    "multiple independent bibliographic records converge on 1931",
+    "Calcutta University Press is repeatedly identified as the original publisher",
+    "1983 and 1994 reprints report xv, 228, ii p. in CiNii",
+    "a 2002 reprint record contains a conflicting 1929-edition introductory note"
+  ],
+  "not_verified": [
+    "direct inspection of an original 1931 title page or colophon",
+    "whether the 1929 introductory note refers to a distinct pre-publication or edition state",
+    "permitted original-edition bytes",
+    "cryptographic hash",
+    "page-image concordance",
+    "OCR accuracy",
+    "dictionary entry-level lexical content",
+    "reuse rights for any digitized manifestation",
+    "community validation or cultural-access authorization"
+  ],
+  "governance_boundary": "The 1931 year is promoted only as the preferred bibliographic identity year based on convergent catalogue evidence. It does not promote dictionary entries, lexical claims, digital manifestation completeness, reuse rights, OCR verification, or cultural/community validation.",
+  "controlled_claims_added": 0,
+  "controlled_evidence_records_added": 0,
+  "controlled_counts_changed": false
+}
