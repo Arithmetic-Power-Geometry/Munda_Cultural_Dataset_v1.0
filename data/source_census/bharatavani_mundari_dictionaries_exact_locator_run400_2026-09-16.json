@@ -1,0 +1,52 @@
+{
+  "run": 400,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dictionary", "government/institutional web resource"],
+  "provider": "Bharatavani",
+  "provider_context": "Government of India language knowledge portal / CIIL-linked institutional resource",
+  "landing_page": "https://bharatavani.in/mundari/dictionaries",
+  "verified_visible_items": [
+    {
+      "title_devanagari": "मुण्डारी मुहावरा कोश",
+      "title_romanized_provider": "Mundari Muhavara Kosh",
+      "resource_type": "dictionary / idiom lexicon"
+    },
+    {
+      "title_devanagari": "टुङकोढारि अर्थात् मुण्डारी शब्दकोश",
+      "title_romanized_provider": "Mundari Dictionary (Mundari-English-Hindi)",
+      "resource_type": "multilingual dictionary"
+    }
+  ],
+  "identity_status": "institutional landing-page identity verified; item-level bibliographic metadata requires manifestation audit",
+  "scope": "direct Mundari linguistic/lexicographic scope",
+  "canonicalization": {
+    "rule": "landing-page browse/search/PDF manifestations for each named dictionary are not separate source identities; canonicalize per underlying work after author/editor/year/edition metadata is resolved",
+    "repository_exact_title_search_before_ingestion": "no exact match for Mundari Muhavara Kosh returned"
+  },
+  "promotion_status": "exact-locator-only",
+  "promoted_claims": 0,
+  "promoted_evidence_records": 0,
+  "rights_access_consent_cultural_uncertainty": {
+    "public_discoverability": true,
+    "redistribution_permission": "unverified at item level",
+    "lexical_reuse_permission": "unverified at item level",
+    "community_or_cultural_access_status": "not established by landing page",
+    "consent": "not inferable from public availability"
+  },
+  "materialization_requirements": [
+    "resolve author/editor, publisher, year and edition for each work",
+    "resolve stable item/PDF URLs",
+    "acquire bytes only where permitted and compute SHA-256",
+    "verify item-level rights/licence and access conditions",
+    "establish stable page/entry locators",
+    "audit lexical/idiom provenance and dialect labels before proposition promotion",
+    "deduplicate against existing CIIL/Bharatavani/WEB-MUN dictionary manifestations"
+  ],
+  "release_policy": "Do not promote dictionary entries, idiom meanings, cultural interpretations or controlled counts until exact manifestation, rights, provenance and locator checks pass.",
+  "blocked_or_unresolved": [
+    "item-level bibliographic metadata not established from the indexed landing page",
+    "item-level licence/reuse terms not established",
+    "no dictionary entry content promoted"
+  ]
+}
