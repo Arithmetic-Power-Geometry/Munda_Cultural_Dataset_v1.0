@@ -1,0 +1,56 @@
+{
+  "run_id": 282,
+  "date_utc": "2026-09-13",
+  "stream": "datasets / Rau proto-Munda cognate-set integrity and rights audit",
+  "source": {
+    "zenodo_record": "3380874",
+    "doi": "10.5281/zenodo.3380874",
+    "version": "0.1.0",
+    "creator": "Felix Rau",
+    "file": "pMunda_cognate_set_2019-08-29.csv",
+    "repository_declared_size": "34.9 kB",
+    "repository_declared_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "repository_description_cognate_count": 127,
+    "mundari_explicitly_listed": true,
+    "license": "CC0-1.0"
+  },
+  "verification": {
+    "record_page_verified": true,
+    "file_identity_verified_from_record": true,
+    "repository_declared_md5_verified_as_metadata": true,
+    "license_metadata_verified": true,
+    "independent_byte_acquisition_this_run": false,
+    "independent_md5_recomputed_this_run": false,
+    "row_level_source_attribution_complete": false
+  },
+  "acquisition_attempt": {
+    "download_url": "https://zenodo.org/records/3380874/files/pMunda_cognate_set_2019-08-29.csv?download=1",
+    "result": "blocked_transient_runtime_fetch",
+    "promotion_after_failure": "none",
+    "note": "The record and download locator are public, but byte-preserving acquisition failed in this run. Repository checksum was therefore not relabelled as an independently verified hash."
+  },
+  "rights_and_cultural_boundary": {
+    "dataset_license_verified": "CC0-1.0",
+    "license_treated_as_participant_consent": false,
+    "license_treated_as_community_validation": false,
+    "license_treated_as_cultural_access_permission": false,
+    "public_availability_treated_as_model_training_permission": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "canonicalization": {
+    "new_controlled_source_identity": false,
+    "reason": "Rights/integrity refinement of the already tracked Rau Zenodo family."
+  },
+  "promotion": {
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0
+  },
+  "explicit_gaps": [
+    "Acquire the exact CSV bytes through a permitted byte-preserving path and independently recompute MD5.",
+    "Reconcile row-level source attribution before SOURCE-to-EVIDENCE promotion.",
+    "Do not infer participant consent, community validation, or cultural-access authorization from CC0 alone."
+  ]
+}

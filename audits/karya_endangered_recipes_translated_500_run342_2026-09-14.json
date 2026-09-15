@@ -1,0 +1,37 @@
+{
+  "run": 342,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source_class": "datasets",
+  "provider": "Karya / Hugging Face",
+  "dataset_id": "karya/endangered-recipes-translated-500",
+  "source_url": "https://huggingface.co/datasets/karya/endangered-recipes-translated-500",
+  "identity_verified": true,
+  "scope": "relevant_non_mundarica",
+  "provider_reported": {
+    "total_recipes": 500,
+    "languages": 10,
+    "recipes_per_language": 50,
+    "mundari_recipes": 50,
+    "mundari_images": 315,
+    "mundari_sentence_pairs": 783,
+    "license": "CC BY 4.0",
+    "access": "gated"
+  },
+  "evidence_state": "provider_metadata_locator_verified_content_not_promoted",
+  "independent_bytes_verified": false,
+  "independent_hash_verified": false,
+  "provider_counts_recomputed": false,
+  "participant_consent_independently_verified": false,
+  "community_validation_independently_verified": false,
+  "cultural_access_review_complete": false,
+  "cultural_or_linguistic_claims_promoted": false,
+  "deduplication_note": "Distinct derivative manifestation from ELR-1000 and from the separately audited Hindi-Mundari translation corpus.",
+  "open_gaps": [
+    "pin immutable dataset revision",
+    "obtain permitted dataset bytes",
+    "compute independent hashes and counts",
+    "complete item-level provenance and governance review"
+  ],
+  "controlled_graph_effect": "none_pending_numbered_register_reconciliation"
+}

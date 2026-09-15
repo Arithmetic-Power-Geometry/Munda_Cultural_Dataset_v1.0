@@ -1,0 +1,72 @@
+{
+  "run": 364,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000364",
+  "controlled_classes_refreshed": 14,
+  "refresh_scope": [
+    "government_and_TRI",
+    "census_and_official_statistics",
+    "grammar_dictionary_and_CIIL_Bharatavani",
+    "Mundarica_and_historical_print",
+    "language_archives_ELAR_PARADISEC_TLA",
+    "speech_and_dataset_resources",
+    "typological_databases_WALS_PHOIBLE_ASJP",
+    "bibliographic_catalogues_Glottolog_OLAC",
+    "peer_reviewed_ethnography_and_cultural_research",
+    "maps_atlases_museum_and_manuscript_catalogues",
+    "community_web_resources",
+    "Bangladesh_and_cross_border_resources",
+    "language_atlas_and_geographic_resources",
+    "recent_peer_reviewed_linguistics"
+  ],
+  "notable_reobservations": [
+    {
+      "name": "ASJP Mundari",
+      "url": "https://asjp.clld.org/languages/MUNDARI",
+      "disposition": "provider manifestation/source genealogy audit strengthened; not a new language identity"
+    },
+    {
+      "name": "ASJP Mundari 2",
+      "url": "https://asjp.clld.org/languages/MUNDARI_2",
+      "disposition": "second provider wordlist manifestation sourced to Encyclopedia Mundarica; canonicalized under same Mundari identity"
+    },
+    {
+      "name": "Karya Mundari TTS",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts",
+      "disposition": "re-observed known dataset family; item-level consent/licensing/cultural-access review remains separate"
+    },
+    {
+      "name": "Bharatavani Mundari dictionaries",
+      "url": "https://bharatavani.in/mundari/dictionaries",
+      "disposition": "re-observed official CIIL/Bharatavani source family; no entry-level promotion"
+    },
+    {
+      "name": "Multiling Cloud",
+      "url": "https://multiling.cloud/",
+      "disposition": "re-observed cross-border archive lead; exact Mundari package and rights/consent review remain unresolved"
+    },
+    {
+      "name": "Tribal Lingua Mundari",
+      "url": "https://www.triballingua.in/learn-mundari/",
+      "disposition": "re-observed discovery-only community/web resource; source provenance and validation remain unresolved"
+    },
+    {
+      "name": "Recent Munda information-structure article",
+      "url": "https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/en/article/view/346",
+      "disposition": "recent scholarly lead re-observed; no proposition promoted without exact passage/source audit"
+    }
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason_no_count_change": "The refresh primarily re-observed already-known source families and clarified ASJP provider manifestation genealogy. Search visibility alone does not create an audited identity or justify promotion.",
+  "systematic_census_documented_for_release": true,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

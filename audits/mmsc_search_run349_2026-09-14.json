@@ -1,0 +1,29 @@
+{
+  "run": 349,
+  "captured_date": "2026-09-14",
+  "search_id": "MMSC-SEARCH-000349",
+  "classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer-reviewed articles","theses","government/TRI/Census/LSI","archives","newspapers","web resources","datasets","audio","video","maps","relevant media"],
+  "fresh_observations": [
+    {"class":"grammars","locator":"https://wals.info/languoid/lect/wals_code_mun","disposition":"WALS Mundari exact language locator verified; source bibliography retained as provider metadata, feature values not promoted"},
+    {"class":"peer-reviewed articles","locator":"https://wals.info/languoid/lect/wals_code_mun","disposition":"WALS bibliography provides canonical scholarly leads; no article-level evidence promoted without source-specific verification"},
+    {"class":"datasets","locator":"https://phoible.org/languages/mund1320","disposition":"PHOIBLE Mundari exact language locator verified with provider identifiers and five listed inventory manifestations; phonological values not promoted"},
+    {"class":"web resources","locator":"https://wals.info/languoid/lect/wals_code_mun","disposition":"provider database identity and CC BY 4.0 statement verified"},
+    {"class":"web resources","locator":"https://phoible.org/languages/mund1320","disposition":"provider database identity and CC BY-SA 3.0 statement verified"},
+    {"class":"archives","locator":"ELAR/PARADISEC targeted search","disposition":"no newly verified exact Mundari archival package promoted in this run; gap retained"},
+    {"class":"government/TRI/Census/LSI","locator":"existing controlled stream","disposition":"no new workbook/cell or TRI cultural-evidence promotion; byte/rights/governance gaps retained"},
+    {"class":"audio","locator":"existing controlled stream","disposition":"no new audio promoted without consent/provenance/cultural-access closure"},
+    {"class":"video","locator":"targeted census refresh","disposition":"no new exact permitted video manifestation promoted"},
+    {"class":"maps","locator":"targeted census refresh","disposition":"no new map promoted; known map leads remain subject to source-specific rights/scope checks"},
+    {"class":"newspapers","locator":"targeted census refresh","disposition":"contextual reporting remains discovery/context only unless exact article evidence is required"},
+    {"class":"books","locator":"WALS source bibliography","disposition":"known book/grammar leads re-observed without double counting"},
+    {"class":"dictionaries","locator":"existing TRI/Bharatavani/CIIL streams","disposition":"known dictionary locators re-observed; content/reuse boundaries unchanged"},
+    {"class":"theses","locator":"existing Cook/Sapienza streams","disposition":"known thesis locators re-observed; no duplicate promotion"},
+    {"class":"relevant media","locator":"targeted census refresh","disposition":"homonym/media false positives kept out of controlled Munda evidence"}
+  ],
+  "homonym_and_false_positive_controls": ["South-Sudan Mundari language/community", "artist/song/title matches", "name-only Munda matches lacking relevant source identity"],
+  "blocked_or_unresolved": ["no newly verified exact ELAR/PARADISEC Mundari package in this run", "authoritative numbered WEB-MUN mapping still not recovered", "underlying-source and cultural-governance checks remain required for database-derived linguistic values"],
+  "controlled_counts_changed": false,
+  "reason": "Two exact provider database locators were promoted at metadata level only. Controlled counts cannot change without deterministic numbered-register reconciliation and claim-level evidence review.",
+  "controlled_counts": {"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73}
+}

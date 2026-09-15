@@ -1,0 +1,32 @@
+{
+  "record_type": "source_verification_candidate",
+  "snapshot_date": "2026-09-07",
+  "web_source_id": "WEB-MUN-0026",
+  "title": "MunTTS official codebase and dataset-access record",
+  "canonical_repository": "https://github.com/microsoft/MunTTS-A-Text-to-Speech-System-For-Mundari",
+  "repository_owner": "microsoft",
+  "repository_state": "public_archived",
+  "verification": {
+    "checked_utc": "2026-09-07T16:45:00Z",
+    "repository_description": "Official Codebase for MunTTS: A Text-to-Speech System for Mundari (published in ComputEL-7)",
+    "code_license": "MIT according to GitHub repository metadata",
+    "dataset_access": "README directs users to Karya data resources for the full dataset, usage and distribution",
+    "dataset_license_label": "Karya License (BY-NC-SA-FS 1.0) as stated in the README",
+    "model_checkpoint_access": "README directs users to Karya data resources for VITS model checkpoints, usage and distribution",
+    "model_checkpoint_license_label": "Karya License (BY-NC-SA-FS 1.0) as stated in the README",
+    "exact_locators": [
+      "GitHub repository metadata: microsoft/MunTTS-A-Text-to-Speech-System-For-Mundari",
+      "README.md section: Dataset (Released under the Karya License (BY-NC-SA-FS 1.0))",
+      "README.md section: Model Checkpoints (Released under the Karya License (BY-NC-SA-FS 1.0))"
+    ]
+  },
+  "rights_and_access_boundary": {
+    "code": "Repository code is identified by GitHub as MIT-licensed, subject to file-level and third-party notices.",
+    "dataset": "The full dataset is not treated as acquired, redistributable, or commercially reusable by MLHKP. The README requires contacting Karya for full dataset usage and distribution.",
+    "model_checkpoints": "Model checkpoints are not treated as acquired or freely redistributable. The README directs users to Karya for usage and distribution.",
+    "participants_and_recordings": "No participant identity, speech recording, annotation, consent status, or consultant-level material is ingested from repository visibility alone.",
+    "cultural_access": "MLHKP cultural-access, dignity, consent and community-validation controls override any broader technical entitlement where applicable."
+  },
+  "promotion_state": "verified_access_and_rights_boundary_not_promoted_as_dataset_evidence",
+  "evidence_boundary": "This record supports only software-repository identity and dataset/model access-governance facts. It does not support linguistic, cultural, demographic, participant-level or performance claims and does not establish acquisition of the underlying Mundari dataset."
+}

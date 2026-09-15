@@ -1,0 +1,50 @@
+{
+  "run": 125,
+  "date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "source_class": "dictionary_catalogue_manifestation",
+  "authority_platform": "Bharatavani, Ministry of Education, Government of India; implemented by Central Institute of Indian Languages (CIIL), Mysuru",
+  "work": {
+    "title_original": "टुङकोढारि अर्थात् मुण्डारी शब्दकोश",
+    "title_english": "Mundari Dictionary (Mundari-English-Hindi)",
+    "author": "Man Masih Mundu",
+    "year": 2017,
+    "languages": ["Mundari", "English", "Hindi"],
+    "book_type": "Dictionary",
+    "content_partner": "Victor Horo",
+    "publisher": "Victor Horo, Ranchi, Jharkhand"
+  },
+  "manifestation": {
+    "catalogue_url": "https://bharatavani.in/home/book?id=%E0%A4%9F%E0%A5%81%E0%A4%99%E0%A4%95%E0%A5%8B%E0%A4%A2%E0%A4%BE%E0%A4%B0%E0%A4%BF+%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A4%E0%A5%8D+%E0%A4%AE%E0%A5%81%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%BE%E0%A4%B0%E0%A5%80+%E0%A4%B6%E0%A4%AC%E0%A5%8D%E0%A4%A6%E0%A4%95%E0%A5%8B%E0%A4%B6+%7C+Mundari+Dictionary+%28Mundari-English-Hindi%29",
+    "catalogue_reported_pdf_size_mb": 293.91,
+    "access_state": "Login to Read",
+    "catalogue_identity_verified": true,
+    "full_pdf_bytes_obtained": false,
+    "independent_checksum_recorded": false,
+    "pagination_verified": false,
+    "page_image_locators_verified": false
+  },
+  "canonicalization": {
+    "work_key": "mundu_2017_tungkodhari_mundari_dictionary_mundari_english_hindi",
+    "catalogue_listing_and_book_page_treated_as_same_work": true,
+    "separate_from_bhaduri_mundari_english_dictionary": true,
+    "separate_from_mundari_muhavara_kosh": true,
+    "new_permanent_source_identity_promoted": false
+  },
+  "rights_and_access": {
+    "platform_notice": "Bharatavani displays All Rights Reserved and the book manifestation is Login to Read.",
+    "public_catalogue_metadata_reusable_as_provenance": true,
+    "book_content_redistribution_permission_verified": false,
+    "derivative_reuse_permission_verified": false,
+    "content_ingested": false,
+    "cultural_access_override_preserved": true
+  },
+  "promotion_boundary": "Only work/manifestation identity, author/year/language/type/content-partner/publisher metadata, catalogue URL, reported file size and access state are promoted. No dictionary entries, definitions, examples, cultural terminology, grammar generalizations or community claims are ingested until lawful complete access, page-level provenance and reuse/cultural-access review permit it.",
+  "integrity": {
+    "fabricated_metadata": false,
+    "public_availability_treated_as_reuse_permission": false,
+    "restricted_material_ingested": false,
+    "community_validation_inferred": false,
+    "absolute_source_completeness_claimed": false
+  }
+}

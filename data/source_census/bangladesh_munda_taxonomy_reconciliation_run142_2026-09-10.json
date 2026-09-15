@@ -1,0 +1,50 @@
+{
+  "audit_id": "MMSC-TAXONOMY-RUN142-BD-MUNDA",
+  "date_utc": "2026-09-10",
+  "candidate_lead": "WEB-MUN-0088",
+  "subject": "Bangladesh government-hosted Munda / Multiling Cloud archive",
+  "purpose": "Resolve whether the discovery lead may be deterministically merged with an Indian Mundari [unr] source identity.",
+  "authoritative_archive_observations": {
+    "government_route": "https://lob.bangla.gov.bd/languages/munda",
+    "platform_route": "https://multiling.cloud/",
+    "archive_label": "Munda",
+    "family_label": "Austroasiatic",
+    "archive_reported_density": 860,
+    "archive_profile_wording": "The archive's Munda profile describes the linguistic heritage using the name Mundari and describes it as spoken by the Munda people in Bangladesh.",
+    "rights_boundary": "Index visibility/open-access wording is not treated as item-level reuse permission, consent, or cultural-access clearance."
+  },
+  "external_taxonomy_observations": [
+    {
+      "source": "Digital Bible Society language research page",
+      "url": "https://dbs.org/zh/research/languages/unr/",
+      "observation": "Identifies Mundari as ISO 639-3 unr / Glottocode mund1320 and states that it is spoken in eastern India and northern Rangpur Division of Bangladesh."
+    },
+    {
+      "source": "Multiling Cloud Sadri profile",
+      "url": "https://lob.bangla.gov.bd/languages/sadri",
+      "observation": "Separately identifies Munda as a community using Sadri as a lingua franca; this is community/context evidence, not proof that every archive item is ISO unr Mundari."
+    }
+  ],
+  "deterministic_disposition": {
+    "merge_with_existing_mundari_identity": false,
+    "promote_to_audited_source_identity": false,
+    "reason": "The Bangladesh archive itself labels the collection Munda while its descriptive prose uses Mundari; external evidence supports Mundari [unr] presence in Bangladesh, but no item-level ISO/glottocode assignment, collection protocol, speaker metadata audit, or authoritative crosswalk was obtained. Automatic identity collapse would therefore be unsafe.",
+    "safe_state": "candidate_lead_taxonomy_partially_reconciled_identity_still_unresolved"
+  },
+  "content_promotion": {
+    "audio_ingested": false,
+    "transcriptions_ingested": false,
+    "speaker_records_ingested": false,
+    "cultural_claims_promoted": false,
+    "community_validation_claimed": false
+  },
+  "remaining_gates": [
+    "Authoritative item-level language identifier or collection crosswalk",
+    "Collection methodology and provenance",
+    "Speaker consent/privacy/publicity review",
+    "Item-level reuse licence/terms",
+    "Community validation evidence",
+    "Cultural-access classification overriding technical availability"
+  ],
+  "completeness_claim": false
+}

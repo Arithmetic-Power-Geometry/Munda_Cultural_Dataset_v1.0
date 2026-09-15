@@ -1,0 +1,87 @@
+{
+  "run": 200,
+  "date": "2026-09-11",
+  "stream": "non_mundarica_grammar_manifestations",
+  "result": "TWO_CIIL_GRAMMAR_MANIFESTATIONS_EXACT_LOCATED_WITH_COVER_ONLY_BOUNDARY",
+  "items": [
+    {
+      "title": "Mundari Grammar",
+      "creator_as_catalogued": "Sinha, N.K.",
+      "editor_as_catalogued": "Annamalai, E.",
+      "publication_year": 1975,
+      "repository": "Bhasha Sanchika / Central Institute of Indian Languages",
+      "handle": "20.500.14705/8179",
+      "repository_identifier": "CIILP0091",
+      "repository_file": "CIILP0091.pdf",
+      "repository_file_size": "9.63 KB",
+      "catalogued_extent": 176,
+      "languages_as_catalogued": ["English", "Mundari"],
+      "series_as_catalogued": "Grammars",
+      "direct_bitstream_url": "https://sanchika.ciil.org/bitstreams/89ef3da1-d891-409b-8736-b416da17ec57/download",
+      "retrieved_pdf_pages_observed": 1,
+      "page_1_visual_verification": "cover visually verified; title Mundari Grammar, N. K. Sinha, and Central Institute of Indian Languages visible",
+      "rights_observation": "repository exposes a 14-byte license.txt bundle but exact licence text was not resolved in this run; repository footer states All Rights Reserved",
+      "promotion_level": "exact repository metadata plus direct one-page cover manifestation locator only"
+    },
+    {
+      "title": "मुण्डारी बेयाकरण",
+      "romanized_catalogue_title": "Mundari Beyakaran",
+      "creator_as_catalogued": "Sikradas Tirki",
+      "publication_year": 2015,
+      "publisher_as_catalogued": "K. K. Publications, Allahabad",
+      "repository": "Bhasha Sanchika / Central Institute of Indian Languages",
+      "handle": "20.500.14705/8450",
+      "repository_item_id": "688fba05-30b7-40ca-af70-51764a10efe4",
+      "repository_identifier": "BVP03961",
+      "repository_file": "BVP03961.pdf",
+      "repository_file_size": "24.04 KB",
+      "rights_holder_as_catalogued": "Sikradas Tirki",
+      "languages_as_catalogued": ["Mundari", "Hindi"],
+      "direct_bitstream_url": "https://sanchika.ciil.org/bitstreams/68a543c5-7cf4-43ad-aa6c-dd0969e086aa/download",
+      "retrieved_pdf_pages_observed": 1,
+      "page_1_visual_verification": "cover visually verified; title मुण्डारी बेयाकरण, author डॉ. सिकरदास तिर्की, and K. K. Publications visible",
+      "rights_observation": "repository records Sikradas Tirki as rights holder and exposes a 14-byte license.txt bundle; exact licence text was not resolved in this run; repository footer states All Rights Reserved",
+      "promotion_level": "exact repository metadata plus direct one-page cover manifestation locator only"
+    }
+  ],
+  "deterministic_reconciliation": {
+    "identity_keys_checked": ["handle", "repository_identifier", "normalized title", "creator", "year"],
+    "new_permanent_source_identity_created": false,
+    "reason": "This run improves manifestation-level verification without inflating the controlled source count. Permanent source registration requires reconciliation against the branch registers and rights/content state as one synchronized transaction."
+  },
+  "verification_boundary": {
+    "institutional_repository_identity_verified": true,
+    "handle_and_file_metadata_verified": true,
+    "direct_bitstreams_resolved": true,
+    "cover_pages_visually_verified": true,
+    "catalogued_extent_treated_as_retrieved_page_count": false,
+    "retrieved_one_page_pdfs_treated_as_complete_books": false,
+    "independent_byte_hash_verified": false,
+    "full_book_page_sequence_verified": false,
+    "grammar_passages_page_verified": false,
+    "grammar_rules_ingested": false,
+    "lexical_entries_ingested": false,
+    "cultural_claims_ingested": false,
+    "participant_material_ingested": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "source_identities_added": 0
+  },
+  "rights_and_governance": {
+    "public_file_visibility_treated_as_reuse_permission": false,
+    "exact_license_text_verified": false,
+    "full_text_redistribution_permission_verified": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_technical_availability": true
+  },
+  "scope_classification": {
+    "relevant_to_mlhkp": true,
+    "classes": ["book", "grammar", "institutional repository"],
+    "non_mundarica": true,
+    "not_promoted": ["grammar propositions", "lexical rows", "cultural propositions", "full-text transcription", "reuse permission", "verified completeness"]
+  }
+}

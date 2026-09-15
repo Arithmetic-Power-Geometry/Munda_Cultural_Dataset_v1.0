@@ -1,0 +1,90 @@
+{
+  "run_id": 255,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and ingestion",
+  "scope_class": ["books", "grammars", "archives", "language_learning"],
+  "work": {
+    "canonical_title": "A Mundári Primer",
+    "author": "J. C. Whitley",
+    "year": 1873,
+    "publication_place": "Calcutta",
+    "publisher": "Bengal Secretariat Press",
+    "language_scope": "Mundari",
+    "historical_work": true
+  },
+  "verified_locators": [
+    {
+      "provider": "Deutsche Digitale Bibliothek",
+      "record_url": "https://www.deutsche-digitale-bibliothek.de/item/3O72DFDYMAX3ADEITK2DEM5XOFNESUZR",
+      "digitization_partner": "Bayerische Staatsbibliothek",
+      "holding_shelfmark": "München, Bayerische Staatsbibliothek -- L.as. 386 n",
+      "urn": "urn:nbn:de:bvb:12-bsb11159896-3",
+      "display_title": "A Mundári Primer : By the Rev. J. C. Whitely",
+      "creator_record": "Whitley, J. C. (Verfasser)",
+      "publication_place": "Calcutta",
+      "publisher": "at the Bengal Secretariat Press",
+      "publication_year": 1873,
+      "extent": "3 Bl. 35 S.",
+      "object_type": "Text",
+      "record_last_updated": "2026-03-17T08:16:00+01:00",
+      "verification_level": "institutional digital-library metadata with persistent URN and holding locator"
+    },
+    {
+      "provider": "Proceedings of the Asiatic Society of Bengal",
+      "publication_year": 1877,
+      "locator": "January 1877, p. 18 in surfaced digitized proceedings",
+      "observation": "contemporary secondary bibliographic mention that Whitley published a Mundari primer in 1873",
+      "verification_level": "historical secondary corroboration only"
+    }
+  ],
+  "metadata_conflicts": [
+    {
+      "field": "author spelling in displayed title versus creator authority field",
+      "observations": ["displayed title: J. C. Whitely", "creator authority: Whitley, J. C."],
+      "disposition": "retain the title transcription exactly as displayed while using the institutional creator authority form J. C. Whitley as canonical author; do not silently erase the variant"
+    }
+  ],
+  "deduplication": {
+    "canonical_key": "whitley-jc|1873|a-mundari-primer|bengal-secretariat-press",
+    "repository_code_search_observation": "No existing repository code occurrence for Whitley was returned in the Run-255 pre-promotion search, but GitHub reported incomplete search results; this is not sufficient to change MMSC identity counts by itself.",
+    "work_family_rule": "The DDB/BSB digital record and historical bibliographic mentions are records of one underlying 1873 work, not separate source identities.",
+    "identity_count_change": false,
+    "reason_count_neutral": "A deterministic join against the complete unresolved WEB-MUN lead set has not yet been proven; the exact-locator audit is preserved without inflating the canonical release count."
+  },
+  "rights_access_boundary": {
+    "ddb_displayed_rights": "Kein Urheberrechtsschutz - Nur nicht kommerzielle Nutzung erlaubt",
+    "rights_interpretation": "The institutional record indicates no copyright protection while also restricting the digitized object's use to non-commercial use; MLHKP preserves both statements and does not infer unrestricted redistribution or model-training permission.",
+    "catalogue_metadata_retainable_with_provenance": true,
+    "complete_digitized_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "scan_sequence_to_printed_pagination_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_verified_for_mlhkp": false,
+    "model_training_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "historical_source_context_uncertain": true
+  },
+  "promotion": {
+    "level": "exact institutional bibliographic/digital-manifestation locator evidence",
+    "content_evidence_promoted": false,
+    "lexical_rows_promoted": 0,
+    "grammatical_propositions_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_derived_records_promoted": 0,
+    "evidence_claim_count_change": false,
+    "reason": "The source identity, holding, persistent URN, publication statement, extent and digitization rights notice are supported, but complete bytes, independent hash, scan/page reconciliation, OCR, MLHKP reuse permission and cultural-access review remain open."
+  },
+  "explicit_gaps": [
+    "complete byte-preserving acquisition of the BSB digitized manifestation",
+    "independent cryptographic hash",
+    "scan-image sequence and 3-leaf/35-page accounting",
+    "OCR/transcription verification",
+    "exact page-level linguistic evidence extraction",
+    "MLHKP redistribution/model-training permission assessment for the digitization",
+    "historical source/participant provenance",
+    "community validation and cultural-access review before any cultural-content promotion",
+    "deterministic reconciliation against all 73 unresolved unique WEB-MUN leads"
+  ]
+}

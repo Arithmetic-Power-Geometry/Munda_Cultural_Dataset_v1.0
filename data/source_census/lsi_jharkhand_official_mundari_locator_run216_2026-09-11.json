@@ -1,0 +1,65 @@
+{
+  "run": 216,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "record": {
+    "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+    "year": 2023,
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "reference_id": "LSI_JHARKHAND",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+    "official_filename": "LSI_JHARKHAND.pdf",
+    "date_published": "2023-08-01",
+    "resource_type": "book"
+  },
+  "mundari_exact_locator": {
+    "official_pdf_indexed_text_verified": true,
+    "indexed_pdf_page_marker": 71,
+    "locator_kind": "official PDF indexed-text page marker",
+    "directly_observed_text_topics": [
+      "Mundari dialect names Hasada, Naguri, Tamaria and Kera",
+      "Mundari speaker counts for India and Jharkhand attributed by the volume to Census 2011",
+      "writing systems mentioned by the volume",
+      "geographic distribution statements within Jharkhand"
+    ],
+    "visual_page_screenshot_verified": false,
+    "reason_visual_not_verified": "The official PDF endpoint was indexed and exact-located, but direct PDF rendering returned a transient gateway failure in this run; no visual-page claim is made.",
+    "numeric_values_promoted_to_public_evidence": false,
+    "linguistic_proposition_promoted": false,
+    "cultural_proposition_promoted": false
+  },
+  "verification": {
+    "official_catalogue_identity_verified": true,
+    "official_download_filename_verified": true,
+    "official_direct_pdf_endpoint_verified_by_search_index": true,
+    "official_pdf_bytes_acquired_byte_preservingly": false,
+    "independent_file_hash_verified": false,
+    "page_image_directly_inspected": false,
+    "exact_indexed_text_locator_advanced": true,
+    "source_identity_count_changed": false
+  },
+  "rights_access_consent_cultural_governance": {
+    "open_license_observed": false,
+    "public_download_is_not_reuse_permission": true,
+    "government_publication_is_not_automatic_model_training_permission": true,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

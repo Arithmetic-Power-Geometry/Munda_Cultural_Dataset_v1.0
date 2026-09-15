@@ -1,0 +1,44 @@
+{
+  "run_id": 295,
+  "audit_date": "2026-09-13",
+  "scope": "deterministic source-census identity collision control",
+  "candidate_label": "Mundari",
+  "target_identity": {
+    "community_language_scope": "Munda/Mundari of eastern India and related documented diaspora contexts",
+    "language_family": "Austroasiatic > Munda",
+    "canonical_scope_rule": "A matching surface label is insufficient for canonicalization; geography, language family, ethnolinguistic identity and source context must agree."
+  },
+  "collision_examined": {
+    "source": "Planeta lidi",
+    "url": "https://www.planetalidi.cz/mundari",
+    "page_date": "2026-05-26",
+    "surface_label": "Mundari",
+    "reported_location": "Central Equatoria, South Sudan",
+    "reported_language": "Kutuk na Mundari",
+    "reported_language_family": "Eastern Nilotic",
+    "reported_ethnolinguistic_context": "Nilotic people of South Sudan"
+  },
+  "deterministic_disposition": {
+    "same_identity_as_munda_mundari": false,
+    "canonicalize_into_mlhkp_mundari": false,
+    "eligible_for_mlhkp_cultural_evidence": false,
+    "disposition": "exclude_name_collision",
+    "reason": "The source concerns a South Sudanese Nilotic group/language context, not the Austroasiatic Munda/Mundari target of MLHKP. Surface-name equality alone cannot establish identity."
+  },
+  "promotion": {
+    "new_controlled_source_identity": false,
+    "new_cultural_claim": false,
+    "new_evidence_record": false,
+    "new_indicator": false,
+    "new_domain_fact": false
+  },
+  "governance": {
+    "prevents_cross_community_contamination": true,
+    "public_availability_treated_as_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "audit_value": "Records an explicit negative identity decision so future search/canonicalization does not contaminate MLHKP with unrelated South Sudanese Mundari material.",
+  "count_effect": "No controlled MMSC count change asserted in this run because this web result was not proven to correspond to one of the 73 already-numbered unresolved WEB-MUN leads."
+}

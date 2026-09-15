@@ -1,0 +1,38 @@
+{
+  "audit_run": 383,
+  "audit_date_utc": "2026-09-15",
+  "stream": "peer_reviewed_article_audiovisual_fieldwork",
+  "scope": "non-Mundarica",
+  "source_identity": {
+    "title": "Expressives and the multimodal depiction of social types in Mundari",
+    "author": "Nishaant Choksi",
+    "journal": "Language in Society",
+    "publisher": "Cambridge University Press",
+    "published_online": "2019-11-28",
+    "language_focus": "Mundari"
+  },
+  "exact_locator": "https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A",
+  "provider_verified_metadata": {
+    "peer_reviewed_article": true,
+    "abstract_states_data_type": "video data from interviews with speakers of Mundari",
+    "author_affiliation_on_provider_page": "Indian Institute of Technology-Gandhinagar"
+  },
+  "promotion_state": "exact_locator_only",
+  "evidence_promoted": false,
+  "reason_not_promoted": "The provider abstract verifies article identity and that the study analyzes interview video, but this audit has not established reusable full-text manifestation rights, underlying recording rights, participant consent/privacy/publicity status, community validation, or cultural-access authorization. No cultural or linguistic proposition is promoted from the abstract alone.",
+  "rights_and_governance": {
+    "article_reuse_permission_verified": false,
+    "underlying_video_reuse_permission_verified": false,
+    "participant_consent_verified": false,
+    "privacy_publicity_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "deduplication_rule": "Treat publisher article, DOI/metadata mirrors, author repository copies, and citation records as manifestations of one work identity after bibliographic reconciliation; do not count the underlying interview videos as separate sources unless item-level identities and governance are independently resolved.",
+  "next_actions": [
+    "reconcile article identity against existing WEB-MUN ledger",
+    "resolve DOI, volume/issue/pages and any permitted full-text manifestation",
+    "if full text is legally obtainable, create page-level passage locators",
+    "do not ingest or expose underlying interview media without item-level rights, consent/privacy and cultural-access review"
+  ]
+}

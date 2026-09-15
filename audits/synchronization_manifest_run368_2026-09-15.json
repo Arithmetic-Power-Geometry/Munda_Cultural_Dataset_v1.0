@@ -1,0 +1,37 @@
+{
+  "run": 368,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "never_merge_main": true,
+  "work_head_before_manifest": "b779385b940f47ac82814b611ff5339716134ea3",
+  "parallel_streams": {
+    "mundarica_i_xvi": "no new primary byte/hash/page/OCR verification this cycle; existing conservative per-volume states retained",
+    "mmsc": "14 controlled classes refreshed; exact Grambank Mundari provenance sheet identity added; deterministic homonym false-positive rejection reconfirmed",
+    "source_to_domain_ingestion": "0 new factual claims promoted because Grambank underlying source passages remain unresolved",
+    "ontology_entities_evidence_graph": "schema representation remains 100%; no graph mutation required because no controlled claim was promoted",
+    "streamlit_42_modules": "42/42 mapping retained; universal search, evidence drilldown, reports/downloads, owner console retained; no redesign prioritized",
+    "rights_governance_community_validation": "derived-dataset licence does not override source-specific verification, community validation, or cultural access",
+    "q1_latex_manuscript": "controlled metrics unchanged, so no numeric manuscript update required; publication build remains CI-controlled"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_discoveries": 90,
+    "unique_leads": 87,
+    "duplicates": 3,
+    "canonicalized": 14,
+    "unresolved": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42,
+    "schema_category_representation_percent": 100.0,
+    "ui_mapping_percent": 100.0
+  },
+  "ci_previous_exact_head": {
+    "sha": "0c0699261f72615c6655104166064cbb1c6514fa",
+    "result": "4_of_4_success",
+    "workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"]
+  },
+  "release_gate": "NOT_PASS",
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

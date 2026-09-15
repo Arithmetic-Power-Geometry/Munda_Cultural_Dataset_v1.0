@@ -1,0 +1,91 @@
+{
+  "run": 350,
+  "captured_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "records": [
+    {
+      "source_key": "BANGLADESH-MULTILING-MUNDA",
+      "class": ["archives", "audio", "web resources", "government/TRI/Census/LSI"],
+      "provider": "Bangladesh Computer Council / ICT Division government domain",
+      "title": "Munda | Multiling Cloud",
+      "locator": "https://lob.bangla.gov.bd/languages/munda",
+      "target_identity": "Munda/Mundari language archive page on bangla.gov.bd",
+      "provider_metadata_verified": {
+        "family_label": "Austroasiatic Language Family",
+        "page_language_label": "Munda",
+        "digital_archive_resource_density_displayed": 860,
+        "archive_categories_displayed": ["Directed Sentences", "Spontaneous Speech", "Dictionary Words"],
+        "rights_notice": "© 2026 BCC - ICTD. All rights reserved."
+      },
+      "scope_classification": "language/archive discovery and exact provider locator; potentially relevant to Bangladesh Mundari/Munda documentation",
+      "promotion_level": "exact_locator_metadata_only",
+      "not_promoted": [
+        "individual audio files",
+        "phonetic transcriptions",
+        "translations",
+        "speaker identities",
+        "speaker consent",
+        "linguistic claims",
+        "cultural claims",
+        "reuse permission",
+        "community validation",
+        "cultural-access authorization"
+      ],
+      "rights_access_consents": {
+        "public_page_access": true,
+        "rights_status": "all_rights_reserved_notice_observed",
+        "reuse_permission_inferred": false,
+        "participant_consent_verified": false,
+        "community_validation_verified": false,
+        "cultural_access_authorized": false
+      },
+      "open_gaps": [
+        "archive-item endpoint inventory and immutable identifiers not independently enumerated",
+        "resource-density figure not treated as independently recomputed item count",
+        "audio/transcription reuse terms not established",
+        "speaker/participant consent documentation not located",
+        "community and cultural-access review not completed"
+      ]
+    },
+    {
+      "source_key": "CIIL-RAMDAYAL-MUNDA-MUNDARI-VYAKARAN-2013",
+      "class": ["books", "grammars", "web resources"],
+      "provider": "Bhasha Sanchika — Central Institute of Indian Languages repository",
+      "title": "मुण्डारी-व्याकरण",
+      "author": "Ramdayal Munda",
+      "date_of_publication": 2013,
+      "locator": "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+      "declared_related_uri": "https://bharatavani.in/bharatavani/home/book?id=मुण्डारी-व्याकरण | Mundari-Vyakaran",
+      "declared_file": "BVP00202.pdf",
+      "provider_description": "The book is about Mundari Grammer.",
+      "promotion_level": "exact_repository_manifestation_locator_metadata_only",
+      "not_promoted": [
+        "PDF bytes",
+        "independent cryptographic hash",
+        "page count",
+        "internal page locators",
+        "grammatical claims",
+        "examples",
+        "reuse permission",
+        "community validation"
+      ],
+      "rights_access_consents": {
+        "repository_metadata_public": true,
+        "reuse_permission_verified": false,
+        "participant_consent_applicable_or_verified": false,
+        "community_validation_verified": false,
+        "cultural_access_authorized": false
+      },
+      "open_gaps": [
+        "materialize provider PDF where permitted",
+        "compute independent hash and page inventory",
+        "establish source-specific reuse conditions",
+        "promote only exact-page evidence after source and governance review"
+      ]
+    }
+  ],
+  "controlled_claims_promoted": 0,
+  "controlled_evidence_records_promoted": 0,
+  "controlled_counts_changed": false,
+  "audit_rule": "Public discoverability, repository presence or a rights notice does not establish consent, community validation, cultural authorization, or permission to reuse source contents."
+}

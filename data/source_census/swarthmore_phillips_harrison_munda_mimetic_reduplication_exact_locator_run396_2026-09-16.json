@@ -1,0 +1,52 @@
+{
+  "run": 396,
+  "stream": "non-Mundarica source census",
+  "audit_date": "2026-09-16",
+  "canonical_work": {
+    "title": "Munda Mimetic Reduplication",
+    "authors": ["J. B. Phillips", "K. David Harrison"],
+    "publication_year": 2017,
+    "journal": "Canadian Journal of Linguistics",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13"
+  },
+  "institutional_locator": {
+    "provider": "Swarthmore College Works",
+    "record_url": "https://works.swarthmore.edu/fac-linguistics/223/",
+    "provider_record_type": "faculty scholarship repository record",
+    "full_text_state": "provider record exposes a Full Text link; manifestation bytes not independently acquired in this run"
+  },
+  "scope": {
+    "mundari_relevance": "explicit",
+    "provider_abstract_scope": "empirical typology of mimetic reduplication across seven Munda languages, explicitly including Kera Mundari and Mundari",
+    "evidence_class": "peer-reviewed scholarly article / linguistic evidence lead"
+  },
+  "canonicalization": {
+    "identity_key": "doi:10.1017/cnj.2017.13",
+    "rule": "DOI, journal manifestation, Swarthmore repository record and any deposited manuscript are manifestations of one scholarly work, not separate source identities",
+    "repository_exact_title_search_before_ingestion": "no result returned"
+  },
+  "rights_access_governance": {
+    "catalog_access": "public",
+    "item_level_reuse_license_verified": false,
+    "redistribution_permitted": false,
+    "participant_or_community_consent_verified": false,
+    "cultural_access_authorization_verified": false,
+    "rule": "public/catalogued availability does not equal redistribution permission, participant consent, community validation or cultural authorization"
+  },
+  "promotion_state": "exact-locator-only",
+  "promoted_public_factual_claims": [],
+  "materialization_requirements": [
+    "resolve permitted full-text manifestation",
+    "capture immutable bytes and SHA-256 where permitted",
+    "verify item-level reuse terms",
+    "establish stable page locators",
+    "trace provenance of Mundari/Kera Mundari examples and lexical data",
+    "review participant/community/cultural-access constraints where applicable",
+    "only then promote supported passage-level evidence"
+  ],
+  "count_policy": "Do not change controlled MMSC/evidence/publication counts from this locator alone; reconcile deterministically against WEB-MUN ledger first.",
+  "audit_note": "No linguistic or cultural proposition is promoted by this record. Metadata and scope are provider-supported; unresolved rights/provenance remain explicit gaps."
+}

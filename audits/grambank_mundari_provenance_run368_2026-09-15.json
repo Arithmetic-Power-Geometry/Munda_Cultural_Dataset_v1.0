@@ -1,0 +1,41 @@
+{
+  "audit_id": "MLHKP-RUN368-GRAMBANK-MUNDARI-PROVENANCE",
+  "run": 368,
+  "audited_utc": "2026-09-14T21:35:00Z",
+  "provider": "Grambank",
+  "release_repository": "https://github.com/grambank/grambank",
+  "release_branch": "master",
+  "release_tree_sha_observed": "37f73da55cf8b426c82383f46a972bc59ce6cf76",
+  "dataset_license_observed": "CC-BY-4.0",
+  "language_table": {
+    "path": "cldf/languages.csv",
+    "blob_sha": "bbf13e1f118eca72c703d8606ad4e5a59ccf20fa",
+    "language_id": "mund1320",
+    "name": "Mundari",
+    "macroarea": "Eurasia",
+    "glottocode": "mund1320",
+    "provenance_sheet": "TWI_mund1320.tsv",
+    "family": "Austroasiatic"
+  },
+  "verification_boundary": {
+    "provider_language_identity_verified": true,
+    "exact_provider_provenance_sheet_name_verified": true,
+    "provider_dataset_license_verified": true,
+    "provenance_sheet_bytes_materialized": false,
+    "provenance_sheet_sha256_verified": false,
+    "feature_rows_deterministically_recounted": false,
+    "underlying_source_bibliography_resolved": false,
+    "underlying_source_passages_verified": false,
+    "feature_values_promoted_to_controlled_evidence": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false
+  },
+  "governance_rule": "Grambank feature visibility and CC-BY-4.0 licensing of the derived dataset do not substitute for verification of the cited underlying descriptive source, passage-level provenance, source-specific reuse conditions, community validation, or cultural-access authorization.",
+  "release_effect": "Narrows the Grambank blocker from unknown Mundari provenance to exact provider sheet identity TWI_mund1320.tsv. No controlled factual claim is promoted until sheet/source/passages are independently resolved.",
+  "sources": [
+    "https://raw.githubusercontent.com/grambank/grambank/master/cldf/languages.csv",
+    "https://github.com/grambank/grambank"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "source_id": "SRC-MMSC-000005",
+  "title": "Munda",
+  "source_class": "government_tri_book",
+  "publisher_repository": "Ministry of Tribal Affairs Tribal Digital Document Repository / Dr. Ramdayal Munda Tribal Welfare Research Institute",
+  "canonical_record": "https://repository.tribal.gov.in/handle/123456789/74865",
+  "record_id": "DRMTWRI/1993/0007",
+  "completed_date_as_catalogued": "1993-03",
+  "pagination_as_catalogued": "1-44",
+  "file_name_as_catalogued": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+  "creator_metadata": {
+    "researcher": "Soma Singh Munda",
+    "editor_author": "Ranendra Kumar",
+    "guide": "Chintu Doraiburu"
+  },
+  "deterministic_identity_state": "already_canonical_as_SRC-MMSC-000005; no new source identity created",
+  "rights_access": {
+    "repository_access": "public catalogue metadata and PDF-link presence",
+    "reuse_status": "repository states items are protected by copyright with all rights reserved unless otherwise indicated",
+    "cultural_access_overrides_entitlement": true,
+    "participant_or_community_consent_inferred": false,
+    "community_validation_inferred": false
+  },
+  "acquisition_state": "official repository metadata and PDF-link presence verified; direct PDF retrieval timed out in this cycle",
+  "promotion_decision": {
+    "permitted_now": [
+      "official repository identity",
+      "record ID",
+      "catalogued completion month/year",
+      "catalogued pagination",
+      "catalogued file name",
+      "catalogued researcher/editor/guide metadata"
+    ],
+    "not_promoted": [
+      "book page text",
+      "OCR",
+      "cultural facts from the book",
+      "participant-derived material",
+      "redistribution permission",
+      "present-day representativeness",
+      "community validation"
+    ]
+  },
+  "evidence_chain_plan": "SRC-MMSC-000005 -> CLM-000052 -> EVD-000052 -> LNK-000052",
+  "claim_scope": "repository provenance metadata only",
+  "count_effect": {
+    "source_identities": 0,
+    "claims": 1,
+    "evidence_records": 1,
+    "evidence_links": 1
+  },
+  "checked_utc": "2026-09-08T16:30:00Z",
+  "notes": "This promotion intentionally converts an already-canonical source from discovery-only metadata into a provenance-linked evidence record while respecting the repository copyright boundary and the failed PDF retrieval. It is not evidence for any substantive cultural statement contained in the book."
+}

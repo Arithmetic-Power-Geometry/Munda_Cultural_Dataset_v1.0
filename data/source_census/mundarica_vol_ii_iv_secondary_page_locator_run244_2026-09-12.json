@@ -1,0 +1,80 @@
+{
+  "run_id": 244,
+  "search_id": "MMSC-SEARCH-000244",
+  "date_utc": "2026-09-12T05:28:56Z",
+  "stream": "Mundarica I-XVI acquisition/page accounting",
+  "source_class": "secondary scholarly/report locator",
+  "secondary_source": {
+    "title": "Towards Mitigation of Distress Migration",
+    "author": "Sebestianus Lakra, S.J.",
+    "host": "MAIN India",
+    "observed_url": "https://mainindia.org/wp-content/uploads/2025/03/Towards-Mitigation-of-Distress-Migration.pdf",
+    "document_context": "Need Assessment of Migrant Workers in Central Zone, November 2021",
+    "directly_observed_locator_statements": [
+      {
+        "mundarica_volume": "IV",
+        "entry": "dipu",
+        "printed_pages": "1238-1241",
+        "reported_volume_label": "D-D"
+      },
+      {
+        "mundarica_volume": "II",
+        "entry": "bhuinar",
+        "printed_pages": "511-521",
+        "reported_volume_label": "B"
+      }
+    ]
+  },
+  "verification_boundary": {
+    "secondary_page_locator_verified": true,
+    "underlying_mundarica_pages_directly_verified": false,
+    "exact_historical_manifestation_verified": false,
+    "lawful_complete_bytes_acquired": false,
+    "independent_content_hash_verified": false,
+    "scan_sequence_verified": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "cultural_claim_promoted": false,
+    "passage_promoted": false
+  },
+  "promotion": {
+    "level": "secondary printed-page locator only",
+    "source_claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "reason": "A secondary citation can strengthen page accounting but cannot substitute for direct inspection of the cited Mundarica manifestation/pages."
+  },
+  "rights_access_governance": {
+    "public_availability_treated_as_permission": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "deduplication": {
+    "count_bearing_identity_added_this_run": false,
+    "reason": "This audit strengthens locators for an already-known canonical Mundarica work-family rather than creating a new source identity."
+  },
+  "unresolved_gaps": [
+    "Locate and lawfully acquire exact Volume II and Volume IV manifestations.",
+    "Compute independent hashes of acquired bytes.",
+    "Map scan-image sequence to printed pagination including pp. 511-521 and 1238-1241.",
+    "Verify OCR/transcription only against directly inspected page images.",
+    "Do not promote cultural propositions from the secondary report as if they were directly verified Mundarica content."
+  ],
+  "controlled_metrics_after_run": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42
+  },
+  "release_gate": "NOT_PASS"
+}

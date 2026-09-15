@@ -1,0 +1,39 @@
+{
+  "search_id": "MMSC-SEARCH-000335",
+  "run": 335,
+  "date": "2026-09-14",
+  "scope": "non-Mundarica source census refresh with deterministic promotion boundary",
+  "classes": [
+    {"class":"books","status":"refreshed","note":"Historical/modern Munda and Mundari book leads reviewed; no controlled count change without numbered-register reconciliation."},
+    {"class":"dictionaries","status":"refreshed","note":"Dictionary/lexicographic leads reviewed; no unsupported lexical row promoted."},
+    {"class":"grammars","status":"refreshed","note":"Grammar leads reviewed; manifestation and canonical-source reconciliation remains required."},
+    {"class":"peer_reviewed_articles","status":"refreshed","note":"Peer-reviewed sources reviewed, including literature on Mundari institutions; underlying field data are not assumed reusable."},
+    {"class":"theses_dissertations","status":"refreshed","note":"Thesis/dissertation discovery refreshed; metadata-only or inaccessible items remain explicit gaps."},
+    {"class":"government_TRI_Census_LSI","status":"refreshed","note":"Government/TRI/Census/LSI streams reviewed; first-party Jharkhand TRI remains a high-priority provenance source while workbook/PDF byte verification gaps remain."},
+    {"class":"archives","status":"refreshed","note":"Archive discovery reviewed; exact manifestation, rights and byte verification required before controlled promotion."},
+    {"class":"newspapers","status":"refreshed","note":"News discovery reviewed only as secondary context; reporting is not treated as primary cultural authority."},
+    {"class":"web_resources","status":"refreshed","note":"Web resources reviewed; canonical identity/provenance resolution required before count changes."},
+    {"class":"datasets","status":"refreshed","note":"Karya exact revision remains pinned; complete independent byte materialization, SHA-256 and row recount are still blocked in this execution environment."},
+    {"class":"audio","status":"refreshed","note":"Audio leads remain subject to rights, consent, community-validation and cultural-access review."},
+    {"class":"video","status":"refreshed","note":"Video/documentary discovery reviewed; target-scope homonym filtering and cultural-access review remain mandatory."},
+    {"class":"maps","status":"refreshed","note":"Map/LSI discovery reviewed; derivative maps are not promoted without source lineage and primary-page verification."},
+    {"class":"relevant_media","status":"refreshed","note":"Museum/heritage/media discovery reviewed; descriptive availability does not establish item-level ingestion permission."}
+  ],
+  "notable_current_sources": [
+    {"name":"Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand","role":"first-party government/TRI provenance candidate","promotion":"discovery/provenance only unless exact item rights and evidence are verified"},
+    {"name":"Karya Hindi to Mundari Translation Dataset Corpus","role":"dataset manifestation","promotion":"exact upstream revision/blob locator only; no row-level ingestion"},
+    {"name":"Mundari Khuntkatti: An Institution of Customary Right over Land","role":"peer-reviewed scholarly source","promotion":"bibliographic discovery/verification only until claim-level extraction is provenance-linked and governance-cleared"}
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "changed_this_run": false
+  },
+  "scope_exclusion": "Nilotic Mundari/Mandari homonyms outside the Indian Munda/Mundari target are excluded unless used solely for disambiguation auditing.",
+  "count_policy": "Fresh discovery, repeated observation, or metadata improvement does not change controlled MMSC totals without deterministic numbered-register reconciliation.",
+  "blocked_policy": "Unavailable, restricted, metadata-only, rights-unclear, consent-unclear, culturally restricted, or independently unverified material remains an explicit gap and is not marked complete."
+}

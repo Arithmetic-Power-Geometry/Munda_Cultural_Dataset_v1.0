@@ -1,0 +1,81 @@
+{
+  "run": 202,
+  "date": "2026-09-11",
+  "stream": "non_mundarica_lexical_dataset_exact_locator_and_rights",
+  "result": "LEXIBANK_PEIROS_V1_1_RELEASE_LICENSE_AND_MUNDARI_LANGUAGE_ROW_VERIFIED_ZENODO_ARCHIVE_BYTES_OPEN",
+  "source_family": "Lexibank / Peiros Austroasiatic CLDF",
+  "authoritative_or_primary_public_metadata": {
+    "github_repository": "https://github.com/lexibank/peirosaustroasiatic",
+    "release_tag": "v1.1",
+    "github_release_url": "https://github.com/lexibank/peirosaustroasiatic/releases/tag/v1.1",
+    "github_release_id": 168427856,
+    "github_release_published_at": "2024-08-02T11:40:36Z",
+    "release_title": "CLDF dataset derived from Peiros' Genetic classification of Austro-Asiatic languages from 2004",
+    "version_doi": "10.5281/zenodo.13168443",
+    "source_citation": "Peiros, I. I. (2004): Geneticeskaja klassifikacija avstroaziatskix jazykov [Genetic classification of Austro-Asiatic languages]. Russian State University for the Humanities, Moscow.",
+    "dataset_license_statement": "CC-BY-4.0",
+    "readme_statistics": {
+      "varieties": 109,
+      "concepts": 100,
+      "lexemes": 10706,
+      "sources": 1
+    },
+    "exact_locator": {
+      "file": "cldf/languages.csv",
+      "tag": "v1.1",
+      "row_identity": {
+        "ID": "Mundari",
+        "Name": "Mundari",
+        "Glottocode": "mund1320",
+        "Glottolog_Name": "Mundari",
+        "ISO639P3code": "unr",
+        "Macroarea": "Eurasia",
+        "Latitude": "22.5517",
+        "Longitude": "85.09258",
+        "Family": "Austroasiatic",
+        "SubGroup": "MUNDA"
+      }
+    },
+    "independent_cross_catalogue_metadata": {
+      "cldf_meta_record": "https://meta.clld.org/contributions/13168443",
+      "cldf_meta_doi": "10.5281/zenodo.13168443",
+      "cldf_meta_github_tag": "https://github.com/lexibank/peirosaustroasiatic/tree/v1.1"
+    }
+  },
+  "verification_boundary": {
+    "v1_1_github_release_verified": true,
+    "version_doi_verified_from_release_body": true,
+    "repository_license_statement_verified": true,
+    "mundari_language_row_exactly_verified": true,
+    "mundari_row_is_metadata_not_lexical_content": true,
+    "zenodo_landing_record_independently_retrieved_this_run": false,
+    "zenodo_release_archive_filename_verified": false,
+    "zenodo_release_archive_checksum_verified": false,
+    "release_archive_bytes_independently_acquired": false,
+    "forms_csv_bytes_independently_acquired": false,
+    "mundari_lexical_rows_ingested": 0,
+    "cultural_claims_added": 0,
+    "evidence_graph_nodes_added": 0,
+    "source_identities_added": 0
+  },
+  "rights_and_governance": {
+    "public_availability_is_not_permission_beyond_stated_license": true,
+    "dataset_license_recorded_as_repository_statement": "CC-BY-4.0",
+    "underlying_peiros_source_rights_not_inferred_from_derived_dataset_license": true,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "deduplication_and_scope": {
+    "canonical_identity_key": "doi:10.5281/zenodo.13168443|github:lexibank/peirosaustroasiatic|tag:v1.1",
+    "scope_class": "derived comparative lexical dataset / CLDF",
+    "mundari_relevance": "exact language-table membership verified; no lexical-row promotion yet",
+    "duplicate_source_identity_created": false
+  },
+  "disposition": {
+    "promotion_level": "exact release/version/licence and exact Mundari language-table locator",
+    "blocker_narrowed": true,
+    "remaining_blocker": "Retrieve the exact Zenodo v1.1 archive/file metadata and checksum, acquire the release archive byte-preservingly, verify CLDF forms rows and source pointers, then ingest only narrowly source-attributed permitted lexical evidence with synchronized source/evidence/publication counts."
+  }
+}

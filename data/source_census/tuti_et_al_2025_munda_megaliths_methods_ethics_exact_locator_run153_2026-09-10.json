@@ -1,0 +1,60 @@
+{
+  "record_type": "exact_locator_rights_scope_audit",
+  "run": 153,
+  "checked_date_utc": "2026-09-10",
+  "source": {
+    "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+    "authors": ["Elizabeth Tuti", "Meena Kumari", "Kumari Vibhuti Nayak", "Shamsher Alam"],
+    "journal": "Social Evolution & History",
+    "volume": "24",
+    "issue": "2",
+    "publication_month": "September 2025",
+    "pages": "3-26",
+    "doi": "10.30884/seh/2025.02.01",
+    "publisher_article_url": "https://www.socionauki.ru/journal/articles/4001085/",
+    "publisher_pdf_url": "https://www.socionauki.ru/upload/socionauki.ru/journal/seh/2025_2/001_Nayak_et_al_(3-26).pdf",
+    "pdf_pages_observed": 24,
+    "copyright_statement": "© 2025 'Uchitel' Publishing House"
+  },
+  "exact_locators": [
+    {
+      "locator": "publisher PDF, printed p. 12 / PDF page index 9, Research Design and Site Selection",
+      "supported_metadata": "Qualitative ethnographic and participatory design; multiple Munda villages in Ranchi are described as the study setting.",
+      "promotion_class": "study_design_metadata_only"
+    },
+    {
+      "locator": "publisher PDF, printed pp. 12-13 / PDF page indexes 9-10, Participant Selection and Table 1",
+      "supported_metadata": "The paper reports participants aged 18-70 from rural Ranchi, snowball recruitment, and 15 Munda participants.",
+      "promotion_class": "study_sample_metadata_only",
+      "restriction": "Do not ingest participant-level rows, pseudonym-linked attributes or statements as reusable cultural evidence without separate secondary-use/cultural-access justification."
+    },
+    {
+      "locator": "publisher PDF, printed pp. 13-14 / PDF page indexes 10-11, Data Collection and Data Analysis",
+      "supported_metadata": "The paper reports participant observation, informal/semi-structured interviews, oral narratives, participatory methods, focus groups/interviews with women, and thematic/narrative analysis.",
+      "promotion_class": "methods_metadata_only"
+    },
+    {
+      "locator": "publisher PDF, printed p. 14 / PDF page index 11, Ethical Considerations",
+      "supported_metadata": "The authors report informing participants about study purpose/role/rights, obtaining verbal consent with withdrawal rights, pseudonymity/confidentiality, express permission for sensitive cultural information, and consultation with community leaders/elders.",
+      "promotion_class": "study_reported_ethics_metadata_only",
+      "restriction": "This does not establish MLHKP secondary-use consent, participant permission for redistribution, or community-wide cultural validation."
+    }
+  ],
+  "rights_access_consent": {
+    "public_pdf_available": true,
+    "open_license_verified": false,
+    "copyrighted": true,
+    "redistribution_permission_verified": false,
+    "participant_secondary_use_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false,
+    "decision": "Promote bibliographic, methods and study-reported ethics metadata with exact locators only. Keep participant-derived cultural assertions, quotations, ritual knowledge and pseudonym-linked data gated."
+  },
+  "evidence_promotion": {
+    "new_cultural_claims": 0,
+    "new_numeric_cultural_claims": 0,
+    "claim_evidence_graph_change": "none",
+    "reason": "The accessible source permits exact-locator provenance for source/method/ethics characterization, but participant-derived cultural content requires a stricter secondary-use and cultural-access review."
+  },
+  "verification_boundary": "Publisher HTML and publisher-hosted PDF were inspected. No local independent byte hash was computed in this run; therefore no checksum claim is made."
+}

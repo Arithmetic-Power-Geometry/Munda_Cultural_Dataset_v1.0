@@ -1,0 +1,57 @@
+{
+  "run": 343,
+  "audit_date": "2026-09-14",
+  "stream": "non_mundarica_source_census",
+  "source_class": "thesis_dissertation",
+  "source_identity": {
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "author": "Marilena Proietti",
+    "year": 2025,
+    "institution": "Università degli Studi di Roma La Sapienza",
+    "persistent_identifier": "https://hdl.handle.net/20.500.14242/212639",
+    "nbn": "URN:NBN:IT:UNIROMA1-212639"
+  },
+  "manifestation": {
+    "repository": "Deposito Legale delle Tesi di Dottorato / Sapienza",
+    "filename": "Tesi_dottorato_Proietti.pdf",
+    "reported_size": "47.18 MB",
+    "format": "Adobe PDF",
+    "repository_access_state": "open_access_from_2026-05-27",
+    "repository_license_label": "Creative Commons",
+    "local_bytes_acquired": false,
+    "independent_sha256_verified": false,
+    "page_inventory_verified": false
+  },
+  "scope": {
+    "in_scope": true,
+    "scope_level": "contextual_munda_community_source",
+    "repository_abstract_mentions": ["Mundas", "Oraons", "Santals", "Hos", "Jharkhand", "south Bihar"],
+    "not_authority_for": ["Mundari lexicon", "Mundari grammar", "Mundari translation", "Mundari phonology", "Mundari orthography"],
+    "promotion_state": "exact_locator_metadata_only"
+  },
+  "rights_governance": {
+    "reuse_rights_fully_resolved": false,
+    "reason": "The repository exposes a generic Creative Commons label in discovery metadata; exact licence variant and any third-party-content restrictions were not independently inspected from the PDF in this run.",
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false,
+    "restricted_or_sensitive_content_promoted": false
+  },
+  "evidence_boundary": {
+    "public_cultural_claims_promoted": 0,
+    "public_linguistic_claims_promoted": 0,
+    "controlled_graph_records_added": 0,
+    "reason": "Identity and manifestation are supportable, but source-internal passages, participant governance, exact licence terms and cultural-access implications require item-level review before evidentiary promotion."
+  },
+  "verification": {
+    "verified_via": "repository landing-page metadata",
+    "verified_on": "2026-09-14",
+    "blocked_or_open_items": [
+      "download and independently hash permitted PDF bytes",
+      "verify exact Creative Commons licence variant",
+      "inventory pages and establish exact passage locators",
+      "review ethics/participant-consent statements before fieldwork-derived use",
+      "review community/cultural-access suitability before cultural evidence promotion"
+    ]
+  }
+}

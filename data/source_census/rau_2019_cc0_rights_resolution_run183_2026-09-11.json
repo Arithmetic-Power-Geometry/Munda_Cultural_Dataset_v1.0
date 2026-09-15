@@ -1,0 +1,71 @@
+{
+  "project": "MLHKP",
+  "run": 183,
+  "branch": "mlhkp-v2",
+  "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
+  "stream": "non-Mundarica source census and ingestion",
+  "source": {
+    "creator": "Felix Rau",
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "year": 2019,
+    "version": "0.1.0",
+    "doi": "10.5281/zenodo.3380874",
+    "publisher": "Zenodo",
+    "resource_type": "Dataset"
+  },
+  "authoritative_exact_locators": {
+    "zenodo_record": "https://zenodo.org/records/3380874",
+    "published_date": "2019-08-29",
+    "filename": "pMunda_cognate_set_2019-08-29.csv",
+    "repository_reported_size": "34.9 kB",
+    "repository_reported_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "source_reported_cognate_sets": 127,
+    "mundari_included": true,
+    "rights_section_locator": "Zenodo record, Rights > License",
+    "license_name": "Creative Commons Zero v1.0 Universal",
+    "license_identifier": "CC0-1.0",
+    "license_value_authoritatively_verified": true
+  },
+  "manifestation_and_hash": {
+    "direct_download_endpoint": "https://zenodo.org/records/3380874/files/pMunda_cognate_set_2019-08-29.csv?download=1",
+    "byte_preserving_download_attempted_run183": true,
+    "byte_preserving_download_succeeded_run183": false,
+    "independent_md5_recomputed": false,
+    "repository_md5_promoted_as_independent": false,
+    "blocked_reason": "The authoritative file link was exposed by Zenodo, but the execution transport returned a cache/download failure; no byte copy was retained for independent hashing."
+  },
+  "rights_and_cultural_access": {
+    "dataset_level_cc0_verified": true,
+    "dataset_level_reuse_restriction_from_zenodo_license": "CC0 dedication verified for this deposited dataset manifestation",
+    "underlying_mkcd_or_pinnow_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "ml_training_permission_beyond_dataset_level_legal_status_inferred": false,
+    "note": "Dataset-level CC0 resolves the prior licence-metadata blocker but does not by itself establish rights in underlying cited works or community/cultural permissions."
+  },
+  "evidence_boundary": {
+    "promoted": [
+      "authoritative Zenodo CC0-1.0 licence value",
+      "exact rights-section locator",
+      "existing DOI/version/file/size/repository-MD5 metadata retained",
+      "explicit distinction between dataset licence and underlying-source/cultural permissions"
+    ],
+    "dataset_rows_ingested_run183": false,
+    "lexical_forms_ingested_run183": false,
+    "proto_reconstructions_ingested_run183": false,
+    "cultural_claims_ingested_run183": false,
+    "participant_material_ingested_run183": false,
+    "reason_rows_not_ingested": "Byte-preserving manifestation acquisition and independent checksum verification remain incomplete; this run therefore resolves rights metadata without overstating manifestation verification."
+  },
+  "deduplication": {
+    "reconciles_run167_and_run181_rau_identity": true,
+    "new_permanent_source_identity_assigned": false,
+    "count_bearing_change": false
+  },
+  "remaining_gaps": [
+    "Acquire a byte-preserving copy from the authoritative Zenodo file endpoint and independently recompute MD5 before claiming independent manifestation integrity.",
+    "If row-level evidence is later promoted, retain exact row/column locators and source-attribution fields and separately review any underlying-source or cultural-access constraints.",
+    "Do not infer participant consent or community validation from CC0."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "run": 357,
+  "captured_date": "2026-09-14",
+  "scope": "non-Mundarica map/media exact provider-level locator",
+  "records": [
+    {
+      "provider": "Wikimedia Commons",
+      "title": "Munda languages map.svg",
+      "landing_page": "https://commons.wikimedia.org/wiki/File:Munda_languages_map.svg",
+      "exact_file_locator": "https://upload.wikimedia.org/wikipedia/commons/2/23/Munda_languages_map.svg",
+      "provider_metadata_verified": [
+        "SVG media type",
+        "nominal dimensions 678 x 457 pixels",
+        "provider-reported current file size 1.46 MB",
+        "current file version timestamp 2020-11-28 23:22",
+        "description identifies the work as a map of Munda languages",
+        "CC BY-SA 3.0 licensing statement"
+      ],
+      "provider_description_boundary": "The provider description says the map depicts traditional North/South Munda classification and taluka-level locations with significant Munda-language concentration; this is recorded as provider metadata, not promoted as an independently verified demographic or geographic claim.",
+      "promotion_level": "exact provider locator, manifestation metadata and licence only",
+      "not_promoted": [
+        "map-derived population counts",
+        "map-derived administrative claims",
+        "map-derived Mundari-specific geographic claims",
+        "independent verification of the source data underlying the map",
+        "community validation",
+        "cultural-access authorization beyond the stated file licence"
+      ]
+    }
+  ],
+  "governance_boundary": "The openly licensed map may be reused subject to CC BY-SA 3.0, but its cartographic content is not treated as authoritative primary Census evidence and does not establish community validation or cultural authority.",
+  "controlled_claims_added": 0,
+  "controlled_evidence_records_added": 0,
+  "controlled_counts_changed": false
+}

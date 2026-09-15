@@ -1,0 +1,49 @@
+{
+  "run": 201,
+  "date": "2026-09-11",
+  "stream": "non_mundarica_dataset_manifestation_and_rights",
+  "result": "MMLoSo_AUTHORITATIVE_METADATA_AND_LICENSE_VERIFIED_FILE_LEVEL_ROW_DISCREPANCY_OPEN",
+  "source_family": "MMLoSo Language Challenge 2025",
+  "authoritative_metadata": {
+    "official_task_page": "https://mmloso-workshop.github.io/task/",
+    "acl_findings_page": "https://aclanthology.org/2025.mmloso-1.14/",
+    "mundari_training_filename": "mundari-train.csv",
+    "mundari_training_columns": ["row_id", "hindi", "mundari"],
+    "declared_training_pairs_per_language_in_acl_findings": 20000,
+    "declared_evaluation_sentences_in_acl_findings": 16000,
+    "task_page_license_statement": "Creative Commons BY-SA 4.0",
+    "task_page_provenance_statement": "parallel corpora distilled from publicly released web-crawls and Wikipedia dumps and post-processed using the NGO-Aligned filtering toolkit",
+    "task_page_courtesy": "Ministry of Tribal Affairs, Government of India"
+  },
+  "verification_boundary": {
+    "official_task_page_verified": true,
+    "acl_findings_metadata_verified": true,
+    "mundari_file_name_and_schema_verified": true,
+    "declared_license_text_verified_at_task_page": true,
+    "declared_20000_training_pairs_verified_as_publication_metadata": true,
+    "declared_16000_evaluation_sentences_verified_as_publication_metadata": true,
+    "kaggle_file_bytes_independently_acquired": false,
+    "mundari_train_csv_independent_checksum_verified": false,
+    "observed_file_row_count_independently_recomputed": false,
+    "existing_16000_vs_15999_discrepancy_resolved": false,
+    "dataset_rows_ingested": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "source_identities_added": 0
+  },
+  "rights_and_governance": {
+    "public_metadata_treated_as_permission_beyond_stated_license": false,
+    "license_scope_recorded_only_as_official_task_page_statement": true,
+    "cultural_access_review_still_required": true,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "disposition": {
+    "promotion_level": "authoritative public metadata and explicit task-page license statement only",
+    "blocker_narrowed": true,
+    "remaining_blocker": "Acquire the exact competition dataset manifestation/version, independently hash and count the relevant CSV rows, and reconcile the repository's observed 16,000-versus-15,999 discrepancy before any row-level ingestion or completeness claim."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "record_type": "staged_exact_locator_evidence",
+  "verification_date": "2026-09-08",
+  "discovery_id": "WEB-MUN-0047",
+  "canonical_source_id": null,
+  "canonical_source_id_state": "pending_atomic_register_promotion",
+  "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+  "source_class": "licensed_audiovisual_cultural_documentary",
+  "creator": "Eastern Zonal Cultural Centre",
+  "canonical_locator": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+  "publication_date": "2022-09-27",
+  "duration": "39:31",
+  "original_youtube_video_id": "jcaVTX0BCtQ",
+  "file_level_license": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+  "license_attribution": "Eastern Zonal Cultural Centre",
+  "exact_locators": [
+    {
+      "locator_type": "timestamp_catalogue_label",
+      "timestamp": "00:04:28",
+      "source_label_verbatim": "Paika (Munda community)",
+      "promotion_boundary": "catalogue label only; no interpretation of performance meaning or present-day representativeness"
+    },
+    {
+      "locator_type": "timestamp_catalogue_label",
+      "timestamp": "00:06:00",
+      "source_label_verbatim": "Mundari",
+      "promotion_boundary": "catalogue label only; no interpretation of performance meaning or present-day representativeness"
+    },
+    {
+      "locator_type": "timestamp_catalogue_label",
+      "timestamp": "00:11:12",
+      "source_label_verbatim": "Mundari (Marriage)",
+      "promotion_boundary": "catalogue label only; no interpretation of marriage practice or community-wide cultural claim"
+    }
+  ],
+  "evidence_scope": "Source identity, publication metadata, duration, original platform identifier, file-level licence and the Commons page's own timestamp labels are directly verifiable source/media metadata.",
+  "excluded_from_promotion": [
+    "dance meaning or ritual interpretation",
+    "participant identity beyond publicly catalogued credits",
+    "participant consent",
+    "community validation or endorsement",
+    "community-wide or present-day representativeness",
+    "segment transcript or translation",
+    "derived clips or performance-content redistribution",
+    "culturally restricted or sensitive performance knowledge"
+  ],
+  "rights_access_governance": {
+    "technical_legal_access": "public_file_with_CC_BY_3_0_file_level_license",
+    "consent_state": "not_established_from_commons_metadata",
+    "community_validation_state": "not_performed",
+    "cultural_access_state": "contextual_review_required_before_segment_content_reuse",
+    "cultural_access_overrides_entitlement": true,
+    "reuse_boundary": "File-level licensing does not establish participant consent, community permission, dignity suitability, or unrestricted cultural reuse."
+  },
+  "deduplication": {
+    "key": "commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm",
+    "identity_rule": "All three timestamps belong to one source identity and must never be counted as separate sources.",
+    "existing_discovery_identity": "WEB-MUN-0047",
+    "new_identity_count_increment": 0
+  },
+  "promotion_state": "exact_locator_metadata_evidence_staged_not_yet_inserted_into_canonical_SOURCE_CLAIM_EVIDENCE_LINK_ledgers",
+  "metric_effect": {
+    "audited_source_identities": 0,
+    "canonicalized_web_leads": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "evidence_links": 0
+  },
+  "verification_sources": [
+    "Wikimedia Commons file page and structured data, rechecked 2026-09-08",
+    "data/source_census/ezcc_commons_munda_dance_verification_2026-09-08.json"
+  ]
+}

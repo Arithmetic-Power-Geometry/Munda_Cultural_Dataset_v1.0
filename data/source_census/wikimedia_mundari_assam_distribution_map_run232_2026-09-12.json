@@ -1,0 +1,71 @@
+{
+  "run": 232,
+  "search_id": "MMSC-SEARCH-000232",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica rights-supported map/media manifestation advancement",
+  "audited_at_utc": "2026-09-11T22:45:00Z",
+  "source": {
+    "canonical_key": "commons:File:Mundari_language_distribution_-_Assam.svg",
+    "title": "Mundari language distribution - Assam.svg",
+    "author": "MaxA-Matrix",
+    "date": "2024-06-28",
+    "current_file_history_timestamp": "2024-06-29T08:00:00Z",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Mundari_language_distribution_-_Assam.svg",
+    "commons_permanent_revision": "https://commons.wikimedia.org/w/index.php?title=File:Mundari_language_distribution_-_Assam.svg&oldid=978695735",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mundari_language_distribution_-_Assam.svg",
+    "media_type": "image/svg+xml",
+    "reported_dimensions": "1414 x 978",
+    "reported_file_size": "471 KB",
+    "description": "Distribution of Mundari (including Munda) language in Assam, 2011 census",
+    "declared_data_source": "C-16: Population by mother tongue, Assam - 2011, Office of the Registrar General & Census Commissioner, India",
+    "derivative_base": "Assam districts map.svg",
+    "metadata_manifestation_verified": true,
+    "file_history_manifestation_verified": true,
+    "byte_preserving_download_acquired": false,
+    "independent_hash_computed": false,
+    "underlying_census_workbook_verified": false
+  },
+  "rights_and_governance": {
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sharing_and_adaptation_permitted_subject_to_license": true,
+    "attribution_required": true,
+    "share_alike_required_for_adaptations": true,
+    "public_availability_treated_as_permission_without_license": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "demographic_claim_promoted_from_secondary_map": false
+  },
+  "deduplication": {
+    "canonicalization_basis": "exact Wikimedia Commons file title plus permanent revision; original upload URL retained as manifestation locator",
+    "new_identity_count_increment_permitted": false,
+    "reason": "The map is audit-resolved as a permitted media manifestation, but controlled-register absence and reconciliation against all existing discovery leads are not independently proven in this run."
+  },
+  "promotion": {
+    "promoted_beyond_discovery_only": true,
+    "promotion_level": "exact rights-supported media/map manifestation with stable page, permanent revision, original-file URL, file-history timestamp and declared upstream Census source",
+    "promoted_to_claim_evidence_graph": false,
+    "reason_not_in_evidence_graph": "The map is a secondary visualization derived from Census C-16. Underlying authoritative workbook bytes/cells remain unverified, so demographic interpretation is not promoted as primary evidence.",
+    "cultural_claim_promoted": false,
+    "demographic_value_promoted": false,
+    "participant_material_ingested": false
+  },
+  "blocked_or_partial_actions": [
+    "Byte-preserving acquisition of the original SVG failed through the execution download path; no checksum is fabricated.",
+    "The authoritative Census C-16 Assam workbook bytes and exact cells underlying the visualization were not independently acquired or verified.",
+    "The CC BY-SA licence supports lawful media reuse under its terms but does not establish community validation or cultural-access permission for unrelated material."
+  ],
+  "coverage_effect": {
+    "map_media_manifestation_available": true,
+    "history_change_place_state_changed": false,
+    "reason": "COV-010 is not upgraded solely from a secondary Census-derived map while the primary workbook remains unverified; gap remains explicit."
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "evidence_graph_count_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

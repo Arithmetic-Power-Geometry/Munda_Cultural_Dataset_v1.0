@@ -1,0 +1,56 @@
+{
+  "run": 207,
+  "date": "2026-09-11",
+  "scope": "Mundarica XI-XII secondary bibliographic pagination corroboration",
+  "work": {
+    "title": "Encyclopaedia Mundarica",
+    "authors": ["John Hoffmann", "Arthur van Emelen"],
+    "publisher_statement": "Superintendent Government Printing, Bihar, Patna",
+    "year": 1938,
+    "new_permanent_source_identity_created": false
+  },
+  "secondary_bibliographic_evidence": {
+    "source": "Index/Bibliography of the Society of Jesus (digitized ARSI copy surfaced through web search)",
+    "url": "https://arsi.jesuits.global/wp-content/uploads/2022/05/IBSI-1938.pdf",
+    "recorded_entry": "Encyclopaedia Mundarica ... Volume XI P. ... 1938. — XII, R. 1938. 3175-3456 et 3457-3707 pp.",
+    "volume_XI_internal_page_range": "3175-3456",
+    "volume_XII_internal_page_range": "3457-3707",
+    "bibliographic_dimensions": "25×17",
+    "exact_digital_manifestation_acquired": false,
+    "authoritative_scan_verified": false,
+    "scan_page_count_verified": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "verified_complete": false
+  },
+  "interpretation_boundary": {
+    "supports_historical_volume_identity": true,
+    "supports_contiguous_internal_pagination": true,
+    "supports_exact_scan_sequence": false,
+    "supports_digital_file_identity": false,
+    "supports_ocr_accuracy": false,
+    "supports_cultural_fact_promotion": false,
+    "supports_rights_or_reuse_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "release_effect": {
+    "volume_XI_state_improved": true,
+    "volume_XII_state_improved": true,
+    "authoritative_scans_added": 0,
+    "verified_complete_volumes_added": 0,
+    "source_identities_added": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "streamlit_modules_added": 0,
+    "count_bearing_change": false
+  },
+  "next_verification": [
+    "Acquire an exact lawful Volume XI digital manifestation and compare internal pagination against 3175-3456.",
+    "Acquire an exact lawful Volume XII digital manifestation and compare internal pagination against 3457-3707.",
+    "Preserve bytes and independently hash any acquired manifestation before promoting scan or OCR state.",
+    "Do not infer cultural-access permission or factual validation from bibliographic pagination alone."
+  ]
+}

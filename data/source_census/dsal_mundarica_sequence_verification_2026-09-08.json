@@ -1,0 +1,36 @@
+{
+  "record_type": "mundarica_bibliographic_sequence_verification",
+  "checked_utc": "2026-09-08T04:20:00Z",
+  "branch": "mlhkp-v2",
+  "source_authority": "Digital Dictionaries of South Asia, University of Chicago",
+  "source_document": "Working List of Dictionaries under Consideration for Conversion in the Digital Dictionaries of South Asia Program",
+  "source_revision_date": "2026-08-18",
+  "source_locator": "https://dsal.uchicago.edu/dictionaries/sa-dicts-list.pdf",
+  "exact_locator": "PDF page 6 (zero-based page index 5 in web extraction), lines 510-521",
+  "verified_bibliographic_statement": {
+    "title": "Encyclopaedia Mundarica",
+    "creator": "Johann Hoffmann (1857-1928)",
+    "publication_statement": "Patna: Superintendent, Secretariat Branch Press, 1950-1979",
+    "physical_description": "15 v. in 16; 24-27 cm",
+    "music_insert_note": "Notation and analysis of Mundari music by Peter Hipp: 38 pages inserted between pages 1164 and 1165 in volume 4.",
+    "plates_note": "Plates 1-48, photocopied from the 1932 edition, are catalogued as bound at the end of volume 15.",
+    "collaboration_note": "By John Hoffmann in collaboration with Arthur van Emelen, assisted by Jesuit missionaries mentioned in the preface."
+  },
+  "reconciliation_effect": {
+    "current_16_slot_model_is_not_treated_as_16_independent_text_volumes": true,
+    "volumes_14_15_16_exact_authoritative_scan_locators_resolved": false,
+    "machine_verified_complete_volumes_increment": 0,
+    "page_accounting_increment": 0,
+    "ocr_verification_increment": 0,
+    "evidence_claim_increment": 0,
+    "required_next_step": "Reconcile original Government Printing physical volumes/parts/plates against the later 16-volume reprint numbering before changing permanent volume IDs or completion denominator."
+  },
+  "integrity_boundaries": [
+    "A bibliographic physical-description record is not an authoritative scan locator.",
+    "The DSAL record does not establish OCR or transcription accuracy.",
+    "The DSAL record does not establish redistribution rights for scans or reprints.",
+    "The DSAL record does not establish community validation or cultural permission for plate content.",
+    "No cultural proposition is promoted from this bibliographic record."
+  ],
+  "verification_state": "metadata_verified_bibliographic_reconciliation_only"
+}

@@ -1,0 +1,78 @@
+{
+  "search_id": "MMSC-SEARCH-000321",
+  "run": 321,
+  "date_utc": "2026-09-13T20:24:00Z",
+  "controlled_classes_refreshed": 14,
+  "classes": [
+    "books",
+    "dictionaries_lexica",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_tri_census_lsi",
+    "archives_museums_objects",
+    "newspapers_media",
+    "web_resources",
+    "datasets_corpora",
+    "audio",
+    "video_documentary",
+    "maps",
+    "cultural_heritage_reports"
+  ],
+  "notable_reobservations": [
+    {
+      "class": "books",
+      "title": "The Munda Languages",
+      "provider": "Routledge",
+      "verified_metadata": "Gregory D. S. Anderson (ed.), 1st edition, copyright 2008, 808 pages; includes Mundari and Kera Mundari chapters",
+      "promotion": "discovery/reconciliation only"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Keeping the state away: democracy, politics, and the state in India's Jharkhand",
+      "provider": "Journal of the Royal Anthropological Institute / Wiley",
+      "verified_metadata": "Alpa Shah; first published 2007-02-08; DOI 10.1111/j.1467-9655.2007.00417.x",
+      "promotion": "discovery/reconciliation only"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+      "provider": "Social Evolution & History",
+      "verified_metadata": "Volume 24(2), September 2025; DOI 10.30884/seh/2025.02.01",
+      "promotion": "discovery/reconciliation only"
+    },
+    {
+      "class": "datasets_corpora",
+      "title": "dataset-mundari-tts",
+      "provider": "Karya GitHub",
+      "verified_metadata": "Repository describes 26,870 audio files with transcripts and two speakers",
+      "promotion": "discovery only pending rights/consent/community/cultural-access reconciliation"
+    },
+    {
+      "class": "government_tri_census_lsi",
+      "title": "Munda",
+      "provider": "Tribal Welfare Research Institute Jharkhand",
+      "verified_metadata": "Current first-party web resource located",
+      "promotion": "discovery/reconciliation only"
+    },
+    {
+      "class": "maps",
+      "title": "LSI map of Munda languages",
+      "provider": "Wikimedia Commons citing Grierson 1906 LSI vol. 4 facing p. 7",
+      "verified_metadata": "Public-domain derivative locator re-observed",
+      "promotion": "no replacement for primary-page verification"
+    }
+  ],
+  "false_positive_controls": [
+    "Mundari people/language of South Sudan must not enter the Austroasiatic Munda/Mundari graph",
+    "Search-result visibility is not evidence of rights, consent, community validation, or cultural-access authorization"
+  ],
+  "count_effect": {
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "counts_changed_this_run": false
+  }
+}

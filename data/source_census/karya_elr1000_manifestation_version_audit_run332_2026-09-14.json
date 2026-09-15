@@ -1,0 +1,82 @@
+{
+  "audit_id": "MLHKP-RUN332-KARYA-ELR1000",
+  "run": 332,
+  "date_utc": "2026-09-14",
+  "stream": "non-Mundarica source census and ingestion",
+  "scope": "dataset / audio / image / text / cultural media metadata",
+  "source_identity": {
+    "title": "ELR-1000: A Community-Generated Dataset for Endangered Indic Indigenous Languages",
+    "publisher_or_provider": "Karya",
+    "github_repository": "https://github.com/karya-inc/elr-1000",
+    "huggingface_dataset": "https://huggingface.co/datasets/karya/ELR-1000",
+    "peer_reviewed_record": "https://aclanthology.org/2025.ijcnlp-long.131/",
+    "doi": "10.18653/v1/2025.ijcnlp-long.131",
+    "acl_anthology_id": "2025.ijcnlp-long.131"
+  },
+  "verified_metadata": {
+    "github_repository_public": true,
+    "github_default_branch": "main",
+    "github_repository_license_field": "MIT",
+    "dataset_content_license_stated_in_readme": "KPL BY-NC-SA-FS 1.0",
+    "huggingface_license": "kpl-by-nc-sa-fs-1.0",
+    "languages_stated_by_provider": [
+      "Assamese",
+      "Bodo",
+      "Ho",
+      "Kaman-Mishmi",
+      "Khasi",
+      "Khortha",
+      "Meitei",
+      "Mundari",
+      "Sadri",
+      "Santhali"
+    ],
+    "modalities_stated_by_provider": ["text", "image", "audio"],
+    "huggingface_total_file_size": "38.1 GB",
+    "provider_readme_recipe_count": 1073,
+    "acl_peer_reviewed_recipe_count": 1060,
+    "acl_pages": "2441-2457",
+    "acl_year": 2025,
+    "provider_readme_informed_consent_statement_present": true,
+    "provider_readme_fair_compensation_statement_present": true
+  },
+  "manifestation_discrepancy": {
+    "status": "OPEN_VERSION_RECONCILIATION_REQUIRED",
+    "field": "total recipe count",
+    "provider_current_dataset_card": 1073,
+    "peer_reviewed_acl_paper": 1060,
+    "difference": 13,
+    "interpretation": "The difference may reflect post-publication dataset growth or another release/version distinction, but no such explanation is inferred without an explicit version manifest.",
+    "release_rule": "Do not use either number as a canonical MLHKP item count until the exact dataset revision and file manifest are reconciled."
+  },
+  "rights_consent_cultural_access": {
+    "provider_license_verified_at_metadata_level": true,
+    "provider_states_informed_consent": true,
+    "provider_states_fair_compensation": true,
+    "provider_statements_are_not_reinterpreted_as_mlhkp_community_validation": true,
+    "provider_license_is_not_reinterpreted_as_blanket_cultural_access": true,
+    "mundari_subset_item_level_consent_manifest_verified": false,
+    "community_validation_for_mlhkp_reuse_verified": false,
+    "culturally_restricted_or_sensitive_item_screening_verified": false,
+    "item_level_ingestion_authorized": false
+  },
+  "promotion": {
+    "level": "exact multi-manifestation metadata locator with explicit version discrepancy",
+    "public_factual_cultural_claims_promoted": 0,
+    "dataset_rows_or_media_ingested": 0,
+    "allowed_for_release": "Source identity, DOI, repository/dataset locators, stated license metadata, stated presence of Mundari, and the documented 1073-versus-1060 discrepancy may be reported as source metadata with provenance. Item-level recipes, translations, images, audio and cultural claims remain unpromoted."
+  },
+  "blocked_or_open": [
+    "Exact Hugging Face revision/commit and 11-shard manifest reconciliation",
+    "Explanation/version provenance for 1073 versus 1060 recipe totals",
+    "Mundari-only row/media count independently recomputed from a fixed revision",
+    "Independent hashes for any permitted downloaded manifestations",
+    "Item-level consent/privacy/community/cultural-access review before MLHKP ingestion"
+  ],
+  "count_effect": {
+    "controlled_source_identity_count_change": 0,
+    "controlled_claim_count_change": 0,
+    "controlled_evidence_count_change": 0,
+    "reason": "Run 332 improves source-manifestation audit quality but does not alter numbered WEB-MUN disposition counts without deterministic register reconciliation."
+  }
+}

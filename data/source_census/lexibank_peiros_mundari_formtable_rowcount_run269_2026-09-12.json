@@ -1,0 +1,80 @@
+{
+  "run_id": 269,
+  "date_utc": "2026-09-12",
+  "stream": "dataset / Lexibank / exact Mundari FormTable row-count and locator verification",
+  "scope_class": ["datasets", "dictionaries", "web_resources"],
+  "purpose": "Advance the pinned Peiros Austroasiatic v1.1 source from release-level integrity to exact Mundari FormTable cardinality and sampled row locators, while withholding bulk lexical promotion until exhaustive row/source reconciliation and downstream governance checks are complete.",
+  "source": {
+    "repository": "lexibank/peirosaustroasiatic",
+    "release_tag": "v1.1",
+    "release_doi": "10.5281/zenodo.13168443",
+    "tag_commit_sha": "b4d2e4dcee173494c90328f7cafd78c9851c0956",
+    "forms_path": "cldf/forms.csv",
+    "forms_git_blob_sha": "28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5",
+    "forms_bytes": 1092739,
+    "declared_total_form_rows": 10706,
+    "derived_dataset_license": "CC-BY-4.0"
+  },
+  "exact_selector_audit": {
+    "selector": "Language_ID == Mundari",
+    "exact_text_token": ",Mundari,",
+    "matches_in_pinned_blob": 101,
+    "interpretation": "101 distinct FormTable rows carry Language_ID=Mundari in the pinned v1.1 forms.csv blob.",
+    "full_rows_bulk_promoted": false,
+    "reason": "The immutable blob is queryable and cardinality is closed, but exhaustive row-by-row source-column reconciliation, attribution packaging and MLHKP exposure review remain open.",
+    "correction_run275": "The earlier value 202 was a connector-resource double count caused by the same decoded CSV appearing in top-level content and structuredContent.content. Run 275 restricted the audit to one CSV representation and verified 101 distinct rows."
+  },
+  "sample_exact_row_locators": [
+    {"ID":"Mundari-1_all-1","Language_ID":"Mundari","Parameter_ID":"1_all","Value":"soben","Form":"soben","Source":"Peiros2004a"},
+    {"ID":"Mundari-2_ashes-1","Language_ID":"Mundari","Parameter_ID":"2_ashes","Value":"toroeʔ","Form":"toroeʔ","Source":"Peiros2004a"},
+    {"ID":"Mundari-3_bark-1","Language_ID":"Mundari","Parameter_ID":"3_bark","Value":"harta","Form":"harta","Source":"Peiros2004a"},
+    {"ID":"Mundari-3_bark-2","Language_ID":"Mundari","Parameter_ID":"3_bark","Value":"harta","Form":"harta","Source":"Peiros2004a"},
+    {"ID":"Mundari-4_belly-1","Language_ID":"Mundari","Parameter_ID":"4_belly","Value":"laʔi","Form":"laʔi","Source":"Peiros2004a"},
+    {"ID":"Mundari-5_big-1","Language_ID":"Mundari","Parameter_ID":"5_big","Value":"maraŋ","Form":"maraŋ","Source":"Peiros2004a"},
+    {"ID":"Mundari-6_bird-1","Language_ID":"Mundari","Parameter_ID":"6_bird","Value":"ceNe","Form":"ceNe","Source":"Peiros2004a"},
+    {"ID":"Mundari-7_bite-1","Language_ID":"Mundari","Parameter_ID":"7_bite","Value":"hua","Form":"hua","Source":"Peiros2004a"},
+    {"ID":"Mundari-8_black-1","Language_ID":"Mundari","Parameter_ID":"8_black","Value":"hende","Form":"hende","Source":"Peiros2004a"},
+    {"ID":"Mundari-9_blood-1","Language_ID":"Mundari","Parameter_ID":"9_blood","Value":"majam","Form":"majam","Source":"Peiros2004a"},
+    {"ID":"Mundari-10_bone-1","Language_ID":"Mundari","Parameter_ID":"10_bone","Value":"ʒaŋ","Form":"ʒaŋ","Source":"Peiros2004a"},
+    {"ID":"Mundari-12_burntr-1","Language_ID":"Mundari","Parameter_ID":"12_burntr","Value":"ro","Form":"ro","Source":"Peiros2004a"},
+    {"ID":"Mundari-13_clawnail-1","Language_ID":"Mundari","Parameter_ID":"13_clawnail","Value":"rama","Form":"rama","Source":"Peiros2004a"},
+    {"ID":"Mundari-14_cloud-1","Language_ID":"Mundari","Parameter_ID":"14_cloud","Value":"rimil","Form":"rimil","Source":"Peiros2004a"},
+    {"ID":"Mundari-15_cold-1","Language_ID":"Mundari","Parameter_ID":"15_cold","Value":"tutukun","Form":"tutukun","Source":"Peiros2004a"},
+    {"ID":"Mundari-16_come-1","Language_ID":"Mundari","Parameter_ID":"16_come","Value":"hiʒuʔ","Form":"hiʒuʔ","Source":"Peiros2004a"},
+    {"ID":"Mundari-17_die-1","Language_ID":"Mundari","Parameter_ID":"17_die","Value":"goʒoʔ","Form":"goʒoʔ","Source":"Peiros2004a"},
+    {"ID":"Mundari-18_dog-1","Language_ID":"Mundari","Parameter_ID":"18_dog","Value":"seta","Form":"seta","Source":"Peiros2004a"},
+    {"ID":"Mundari-19_drink-1","Language_ID":"Mundari","Parameter_ID":"19_drink","Value":"nu","Form":"nu","Source":"Peiros2004a"},
+    {"ID":"Mundari-20_dry-1","Language_ID":"Mundari","Parameter_ID":"20_dry","Value":"roRo","Form":"roRo","Source":"Peiros2004a"},
+    {"ID":"Mundari-21_ear-1","Language_ID":"Mundari","Parameter_ID":"21_ear","Value":"lutur","Form":"lutur","Source":"Peiros2004a"}
+  ],
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license_verified": "CC-BY-4.0",
+    "underlying_source_blanket_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "controlled_lexical_rows_promoted": 0,
+    "controlled_cultural_claims_promoted": 0,
+    "note": "The exact row-count and sampled locators are integrity evidence. They are not treated as proof of participant consent, community validation, cultural permission, or independent licensing of every underlying source beyond the dataset's declared licence scope."
+  },
+  "deduplication": {
+    "canonical_key": "lexibank:peirosaustroasiatic:v1.1",
+    "identity_count_change": false,
+    "reason_count_neutral": "This run strengthens the already tracked Peiros work-family and does not add a new controlled source identity."
+  },
+  "promotion": {
+    "level": "exact Mundari FormTable cardinality + sampled immutable row locators",
+    "verification_audits_added": 1,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "lexical_rows_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Enumerate and persist all 101 distinct Mundari FormTable rows from the pinned blob without connector-level duplication.",
+    "Reconcile every extracted row's Source field and parameter foreign key against pinned sources.bib and parameters.csv.",
+    "Package attribution and provenance for any later lexical-row release.",
+    "Apply MLHKP cultural-access review before exposing any item later determined to be culturally restricted or sensitive."
+  ]
+}

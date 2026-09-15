@@ -1,0 +1,86 @@
+{
+  "run_id": 266,
+  "date_utc": "2026-09-12",
+  "stream": "government / Census / exact schema and category locator verification",
+  "scope_class": ["government_TRI_Census_LSI", "datasets", "web_resources"],
+  "purpose": "Strengthen the official ORGI Jharkhand C-17 evidence from table-level identification to a reproducible schema/category locator audit while withholding every numeric population value until the declared workbook is acquired byte-preservingly, independently hashed, opened, and exact worksheet/cell coordinates are verified.",
+  "source": {
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "reference_id": "PC11_C17-20",
+    "reference_series": "ORGI Census 2011 Tables / PC11_C17",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "declared_download_filename": "DDW-C17-2000.XLSX",
+    "geographic_unit": "Jharkhand",
+    "geographic_code": "20",
+    "statistics": "Counts",
+    "unit_of_observation": "Individual (person)",
+    "universe": "All individuals in Jharkhand"
+  },
+  "verified_schema": {
+    "table_description": "For each mother tongue, the table reports speakers and classifies bilingual and trilingual speakers by the two additional languages spoken.",
+    "declared_columns": [
+      "State code",
+      "State name",
+      "Total speakers of languages - Language code",
+      "Total speakers of languages - Language name",
+      "Total speakers of languages - Person / Male / Female",
+      "Number of speakers speaking subsidiary languages (1st language) - Language code",
+      "Number of speakers speaking subsidiary languages (1st language) - 1st subsidiary languages",
+      "Number of speakers speaking subsidiary languages (1st language) - Person / Male / Female",
+      "Number of speakers speaking subsidiary languages (2nd language) - Language code",
+      "Number of speakers speaking subsidiary languages (2nd language) - 2nd subsidiary languages",
+      "Number of speakers speaking subsidiary languages (2nd language) - Person / Male / Female"
+    ],
+    "target_categories": {
+      "total_speakers": ["MUNDA", "MUNDARI"],
+      "first_subsidiary_language": ["MUNDA", "MUNDARI"],
+      "second_subsidiary_language": ["MUNDA", "MUNDARI"]
+    },
+    "catalogue_variable_name_for_listed_language_rows": "HS_Q10",
+    "munda_and_mundari_are_distinct_catalogue_labels": true,
+    "person_male_female_breakout_declared": true,
+    "numeric_values_verified": false,
+    "worksheet_names_verified": false,
+    "exact_row_numbers_verified": false,
+    "exact_cell_coordinates_verified": false
+  },
+  "integrity_and_rights_boundary": {
+    "workbook_bytes_acquired": false,
+    "independent_cryptographic_hash_verified": false,
+    "xlsx_container_integrity_verified": false,
+    "worksheet_inventory_verified": false,
+    "formula_or_merged_cell_behavior_verified": false,
+    "numeric_cell_values_promoted": false,
+    "catalogue_metadata_treated_as_permission_for_blanket_redistribution": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "The first-party catalogue is sufficient to verify table identity, declared workbook filename, state scope, schema headings, and the existence of MUNDA/MUNDARI labels in total/first-subsidiary/second-subsidiary categories. It is not sufficient to assert any numeric value or exact spreadsheet coordinate."
+  },
+  "deduplication": {
+    "canonical_key": "orgi:PC11_C17-20",
+    "joined_manifestations": [
+      "ORGI NADA catalogue record PC11_C17-20",
+      "declared workbook DDW-C17-2000.XLSX"
+    ],
+    "identity_count_change": false,
+    "reason_count_neutral": "This cycle strengthens an already audited official source identity; it does not establish equivalence with an unresolved WEB-MUN lead or create a new source work-family."
+  },
+  "promotion": {
+    "level": "first-party table identity + declared workbook + full schema headings + MUNDA/MUNDARI category locators",
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "numeric_values_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Byte-preserving acquisition of DDW-C17-2000.XLSX from the official download path",
+    "Independent cryptographic hash, MIME/container and file-size verification",
+    "Worksheet-name and workbook-structure inventory",
+    "Exact MUNDA/MUNDARI row numbers and Person/Male/Female cell coordinates",
+    "Independent cross-check of extracted numeric cells before any demographic claim enters SOURCE→EVIDENCE→CLAIM",
+    "Rights/reuse statement appropriate to any redistributed derivative beyond citation and locator metadata"
+  ]
+}

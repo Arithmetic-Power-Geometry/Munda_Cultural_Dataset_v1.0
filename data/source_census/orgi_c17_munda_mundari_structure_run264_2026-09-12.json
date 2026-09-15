@@ -1,0 +1,81 @@
+{
+  "run_id": 264,
+  "date_utc": "2026-09-12",
+  "stream": "government Census language-table source census / evidence verification",
+  "scope_class": ["government_TRI_Census_LSI", "datasets", "web_resources"],
+  "purpose": "Promote first-party ORGI C-17 Jharkhand table structure and exact MUNDA/MUNDARI category locators beyond file-identity-only status while withholding every numeric value until the declared workbook is acquired and verified byte-preservingly.",
+  "source": {
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "catalogue_id": "PC11_C17-20",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "declared_download": "DDW-C17-2000.XLSX",
+    "reference_number": "PC11_C17",
+    "data_source": "Population Census 2011",
+    "geographic_granularity": "state",
+    "statistics": "Counts",
+    "unit_of_observation": "Individual (person)",
+    "universe_as_catalogued": "All individuals in Jharkhand"
+  },
+  "verified_structure": {
+    "table_purpose_as_catalogued": "For each mother tongue, the catalogue describes counts of speakers who are bilingual, further classified by two additional languages spoken.",
+    "column_families_exposed": [
+      "State code",
+      "State name",
+      "Total speakers of languages - Language code",
+      "Total speakers of languages - Language name",
+      "Total speakers of languages - Person / Male / Female",
+      "Number of speakers speaking subsidiary languages (1st language) - Language code",
+      "Number of speakers speaking subsidiary languages (1st language) - 1st subsidiary languages",
+      "Number of speakers speaking subsidiary languages (1st language) - Person / Male / Female",
+      "Number of speakers speaking subsidiary languages (2nd language) - Language code",
+      "Number of speakers speaking subsidiary languages (2nd language) - 2nd subsidiary languages",
+      "Number of speakers speaking subsidiary languages (2nd language) - Person / Male / Female"
+    ],
+    "exact_row_category_locators": [
+      "Language - Total speakers - MUNDA",
+      "Language - Total speakers - MUNDARI",
+      "1st subsidiary language - MUNDA",
+      "1st subsidiary language - MUNDARI",
+      "2nd subsidiary language - MUNDA",
+      "2nd subsidiary language - MUNDARI"
+    ],
+    "catalogue_variable_name_rendered": "HS_Q10"
+  },
+  "rights_access_integrity_boundary": {
+    "first_party_catalogue_verified": true,
+    "declared_workbook_identity_verified": true,
+    "workbook_bytes_acquired_byte_preservingly": false,
+    "independent_cryptographic_hash_verified": false,
+    "worksheet_names_verified": false,
+    "exact_numeric_cells_verified": false,
+    "workbook_formula_or_type_integrity_verified": false,
+    "explicit_redistribution_license_verified": false,
+    "model_training_permission_verified": false,
+    "public_catalogue_access_treated_as_blanket_permission": false
+  },
+  "deduplication": {
+    "canonical_key": "orgi:PC11_C17-20",
+    "catalogue_and_declared_workbook_same_work_family": true,
+    "identity_count_change": false,
+    "reason_count_neutral": "This cycle strengthens an already known first-party Census work family and does not deterministically resolve any of the 73 unresolved WEB-MUN identities."
+  },
+  "promotion": {
+    "level": "exact first-party catalogue + table-schema + MUNDA/MUNDARI category locator evidence",
+    "structural_locators_promoted": 6,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "numeric_values_promoted": 0,
+    "demographic_claims_promoted": 0,
+    "cultural_claims_promoted": 0
+  },
+  "explicit_gaps": [
+    "Byte-preserving acquisition of DDW-C17-2000.XLSX from the first-party ORGI endpoint",
+    "Independent cryptographic hash of the acquired workbook",
+    "Worksheet-name, dimensions, type and merged-cell inspection",
+    "Exact row/cell verification for MUNDA and MUNDARI including Person/Male/Female and subsidiary-language fields",
+    "Independent reconciliation of any promoted numeric value before release",
+    "Explicit reuse/licence determination separate from public catalogue availability"
+  ]
+}

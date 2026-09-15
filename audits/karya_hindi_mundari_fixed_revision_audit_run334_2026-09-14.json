@@ -1,0 +1,49 @@
+{
+  "audit_id": "MLHKP-RUN334-KARYA-HI-UNR",
+  "run": 334,
+  "date": "2026-09-14",
+  "scope": "non-Mundarica dataset manifestation audit",
+  "source": {
+    "provider": "Karya",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "repository_commit_sha": "243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "manifestation_path": "translation-hi-unr.tsv",
+    "git_blob_sha": "131c55a5b8197a58d663a7e40d888a92869288c6",
+    "git_tree_reported_bytes": 3788450,
+    "readme_declared_sentence_pairs": 17826,
+    "encoding_declared": "UTF-8",
+    "format_declared": "TSV; Hindi column then Mundari column",
+    "license_file": "LICENSE.txt",
+    "license_blob_sha": "ba4d2674108b11ac3530a7bbe8a7f0d5394a36e1",
+    "readme_blob_sha": "f2e3c762895d3620b883a8e06e14d4181584a80a"
+  },
+  "verification": {
+    "upstream_revision_pinned": true,
+    "manifestation_git_object_identity_verified": true,
+    "manifestation_size_from_git_tree_verified": true,
+    "readme_pair_count_provider_declared_only": true,
+    "independent_file_sha256_verified": false,
+    "independent_byte_materialization_verified": false,
+    "independent_row_recount_verified": false,
+    "item_level_content_audited": false
+  },
+  "rights_and_governance": {
+    "provider_readme_license_summary": "Karya Public License BY-NC-SA-FS 1.0, non-commercial; attribution, share-alike and free-software conditions described by provider",
+    "provider_license_is_not_equivalent_to_mlhkp_cultural_authorization": true,
+    "participant_consent_verified_for_this_specific_manifestation": false,
+    "privacy_review_verified": false,
+    "community_validation_for_mlhkp_verified": false,
+    "cultural_access_authorization_verified": false,
+    "item_level_ingestion_authorized": false
+  },
+  "promotion_decision": {
+    "exact_locator_promoted": true,
+    "dataset_rows_promoted": false,
+    "linguistic_claims_promoted": false,
+    "cultural_claims_promoted": false,
+    "controlled_counts_changed": false,
+    "reason": "The upstream Git revision, TSV path, Git blob identity, tree-reported byte size, README metadata and license manifestation can be pinned exactly. Independent content hashing/recount and MLHKP-specific consent/community/cultural-access review remain open, so row-level ingestion is not defensible yet."
+  },
+  "remaining_gap": "Materialize the exact pinned TSV where permitted, independently compute SHA-256 and row/column validation, then complete privacy/participant/community/cultural-access review before any row-level promotion."
+}

@@ -1,0 +1,32 @@
+{
+  "audit_type": "non_mundarica_source_identity_verification",
+  "checked_utc": "2026-09-07T18:50:00Z",
+  "candidate_title": "Mundari Grammar. By J. Hoffmann, S.J. (Calcutta: Bengal Secretariat Press, 1903.)",
+  "creator": "George A. Grierson",
+  "source_class": "historical_book_review_notice",
+  "publication": "Journal of the Royal Asiatic Society",
+  "volume": "40",
+  "issue": "1",
+  "publication_date": "1908-01",
+  "pages": "222-228",
+  "doi": "10.1017/S0035869X00037564",
+  "publisher_locator": "https://doi.org/10.1017/S0035869X00037564",
+  "publisher": "Cambridge University Press / Royal Asiatic Society",
+  "verification_state": "publisher_metadata_title_reviewed_book_reviewer_volume_issue_pages_and_doi_verified",
+  "scope": "Contemporary review notice for Hoffmann's 1903 Mundari Grammar; useful for bibliography, reception history and edition identity checking.",
+  "rights_access": {
+    "publisher_page_access": "public metadata/preview observed",
+    "copyright_notice": "Royal Asiatic Society 1908 as displayed by publisher",
+    "full_text_reuse_permission": "not established",
+    "mlhkp_ingestion_boundary": "metadata and bibliographic/reception scope only unless exact review text is separately accessible and rights-cleared"
+  },
+  "cultural_governance": {
+    "community_validation_inferred": false,
+    "cultural_claims_promoted": false,
+    "historical_review_treated_as_current_community_authority": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "deduplication_state": "candidate checked as a distinct review item rather than the 1903 grammar itself; deterministic comparison against all discovery-layer records remains required before permanent SRC-MMSC assignment",
+  "promotion_state": "verified_discovery_candidate_not_yet_counted",
+  "notes": "No grammar rule, lexical item, ethnographic fact, community endorsement or unrestricted-reuse claim is inferred from publisher metadata."
+}

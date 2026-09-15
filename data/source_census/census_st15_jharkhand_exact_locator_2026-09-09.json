@@ -1,0 +1,40 @@
+{
+  "record_type": "source_census_exact_locator_verification",
+  "checked_utc": "2026-09-08T19:28:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "government_census",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "reference_id": "PC11_ST15-20",
+  "reference_series": "PC11_ST15",
+  "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+  "download_filename": "ST-20-00-15-DDW-2011.XLSX",
+  "geographic_scope": "Jharkhand (state code 20)",
+  "time_scope": "2011",
+  "verified_catalogue_variables": {
+    "scheduled_tribe": ["Munda, Patar"],
+    "mother_tongue_labels": ["91 MUNDA", "92 MUNDARI", "Mundari"],
+    "dimensions": ["state code", "district code", "area name", "scheduled tribe code", "scheduled tribe name", "mother tongue code", "mother tongue name", "total-person/male/female"]
+  },
+  "evidence_boundary": {
+    "promoted_now": "official catalogue identity, scope, filename and schema/variable metadata only",
+    "numeric_claims_promoted": false,
+    "workbook_bytes_obtained_in_repository": false,
+    "checksum_verified": false,
+    "worksheet_verified": false,
+    "row_verified": false,
+    "cell_coordinates_verified": false,
+    "reason": "No population or language count may be promoted until the official workbook bytes are captured and exact worksheet/row/cell locators are independently verified."
+  },
+  "rights_governance": {
+    "public_catalogue_access_not_treated_as_redistribution_permission": true,
+    "cultural_access_overrides_entitlement": true,
+    "community_validation_inferred": false
+  },
+  "deduplication": {
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "instruction": "Reconcile this exact locator against the existing unresolved Census/ST-15 discovery identity before any permanent source-ID promotion."
+  },
+  "release_use": "Supports deterministic Census-source identity resolution and future exact-cell evidence extraction; does not itself support a public cultural or demographic numeric claim."
+}

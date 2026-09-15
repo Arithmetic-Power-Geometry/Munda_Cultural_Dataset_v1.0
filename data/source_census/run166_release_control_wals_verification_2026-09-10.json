@@ -1,0 +1,50 @@
+{
+  "record_type": "release_control_and_licensed_database_reverification",
+  "stream": "release_control_datasets_grammars_linguistics",
+  "run": 166,
+  "checked_utc": "2026-09-10T13:35:00Z",
+  "branch": "mlhkp-v2",
+  "baseline_head": "8ec568770dc05ac638853997e09d74a7ad4e18da",
+  "merge_policy": "NEVER merge main",
+  "ci_baseline": {
+    "exact_head_verified": true,
+    "green_4_of_4": true,
+    "workflows": [
+      {"name": "MLHKP Publication Build", "run_number": 1336, "conclusion": "success"},
+      {"name": "MLHKP Migration Audit", "run_number": 1369, "conclusion": "success"},
+      {"name": "MLHKP Source Register Audit", "run_number": 1319, "conclusion": "success"},
+      {"name": "MLHKP Streamlit Smoke Test", "run_number": 1483, "conclusion": "success"}
+    ]
+  },
+  "wals_reverification": {
+    "canonical_language_locator": "https://wals.info/languoid/lect/wals_code_mun",
+    "exact_datapoint_locator": "https://wals.info/valuesets/83A-mun",
+    "feature": "83A - Order of Object and Verb",
+    "repository_audit_value": "OV",
+    "repository_audit_references_reported_by_wals": ["Sinha 1975", "Osada 1992"],
+    "database_license": "Creative Commons Attribution 4.0 International",
+    "fresh_web_reverification": "The WALS feature/combinations interface was rechecked on 2026-09-10 and continues to identify feature 83A as Order of Object and Verb and display the CC BY 4.0 database license. The exact Mundari value remains supported by the earlier exact-locator repository audit; no underlying grammar passage is reclassified as directly verified in this run."
+  },
+  "registration_transaction_state": {
+    "run164_duplicate_reconciliation_complete": true,
+    "new_permanent_identity_created_this_run": false,
+    "counts_changed": false,
+    "reason": "Permanent WALS/Grambank identity creation remains a count-bearing transaction that must update the standalone register, MMSC totals, publication generated metrics and regression contracts together. This run does not partially alter those states."
+  },
+  "evidence_boundary": {
+    "database_coded_typology_may_be_attributed_to_database": true,
+    "underlying_sinha_or_osada_passages_directly_verified": false,
+    "cultural_claim_promoted": false,
+    "participant_content_ingested": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "public_availability_overrides_cultural_access": false
+  },
+  "mundarica_boundary": {
+    "authoritative_scans_registered": 0,
+    "verified_complete_volumes": 0,
+    "verification_state_upgraded": false
+  },
+  "release_gate": "NOT_PASS",
+  "release_value": "Establishes an independently green Run-165 baseline and refreshes the licensed WALS evidence boundary without source-count inflation or false primary-grammar verification."
+}

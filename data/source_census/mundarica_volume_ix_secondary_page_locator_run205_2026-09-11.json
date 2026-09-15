@@ -1,0 +1,63 @@
+{
+  "audit_id": "MLHKP-MUNDARICA-RUN205-VOLIX-SECONDARY-PAGE-LOCATOR",
+  "run": 205,
+  "date": "2026-09-11",
+  "scope": "Mundarica Volume IX page-locator corroboration only",
+  "work": {
+    "title": "Encyclopaedia Mundarica / Encyclopedia Mundarica",
+    "volume": "IX",
+    "authors_as_reported": ["John Hoffmann", "Arthur van Emelen"],
+    "manifestation_verified_this_run": false,
+    "authoritative_scan_verified": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "verified_complete": false
+  },
+  "secondary_locator_source": {
+    "case": "Bhaiya Ram Munda v. Anirudh Patar & Ors.",
+    "court": "Supreme Court of India",
+    "decision_date": "1970-08-14",
+    "reported_web_locator": "https://indiankanoon.org/docfragment/334683/?formInput=encyclopedia",
+    "source_role": "secondary judicial-text locator corroboration; not a substitute for the Mundarica volume manifestation"
+  },
+  "reported_internal_locators": [
+    {
+      "volume": "IX",
+      "page": 2756,
+      "context": "The reported judgment identifies an entry/page in Volume IX.",
+      "content_promoted": false
+    },
+    {
+      "volume": "IX",
+      "page": 2881,
+      "context": "The reported judgment identifies an entry/page in Volume IX.",
+      "content_promoted": false
+    }
+  ],
+  "verification_boundary": {
+    "what_is_verified": "A discoverable judicial-text rendering reports Volume IX and the two internal page locators 2756 and 2881.",
+    "what_is_not_verified": [
+      "the exact Volume IX digital manifestation",
+      "the authoritative scan sequence",
+      "the printed text on pages 2756 or 2881",
+      "OCR accuracy",
+      "transcription accuracy",
+      "rights or redistribution permission",
+      "cultural-access permission",
+      "community validation",
+      "truth or present-day acceptability of the ethnographic assertions quoted in the judgment"
+    ],
+    "cultural_content_ingested": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "source_identities_added": 0,
+    "count_bearing_change": false
+  },
+  "release_effect": {
+    "volume_ix_locator_state_strengthened": true,
+    "volume_ix_manifestation_state_changed": false,
+    "authoritative_scans_registered_delta": 0,
+    "verified_complete_volumes_delta": 0,
+    "next_required_step": "Acquire an exact Volume IX manifestation and independently compare the scan/page sequence against the reported internal locators before any passage-level promotion."
+  }
+}

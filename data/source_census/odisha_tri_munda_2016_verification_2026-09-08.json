@@ -1,0 +1,32 @@
+{
+  "record_type": "source_identity_verification",
+  "checked_utc": "2026-09-08T06:28:00Z",
+  "title": "Munda",
+  "source_class": "government_TRI_monograph",
+  "repository": "Ministry of Tribal Affairs Tribal Digital Document Repository",
+  "tribal_research_institute": "SC/ST Research & Training Institute, Odisha",
+  "record_id": "SCST/2016/0054",
+  "isbn": "978-93-80705-54-5",
+  "pagination_reported": 32,
+  "canonical_locator": "https://repository.tribal.gov.in/handle/123456789/73853",
+  "verified_scope": "Official repository metadata identifies a 32-page SCSTRTI Odisha monograph titled Munda and describes it as a graphic/documentary overview of Munda communities in Odisha. Repository metadata also identifies Mundari as the mother tongue in the source description. These are repository/source-description facts only.",
+  "geographic_scope": ["Odisha", "India"],
+  "deduplication_state": "No matching canonical identity found in current mmsc_discoveries register by record ID/title repository check; deterministic reconciliation against all historical web-discovery artifacts remains required before assigning a new SRC-MMSC identifier.",
+  "acquisition_state": "official_repository_record_verified_full_text_not_ingested_this_cycle",
+  "rights_reuse_state": "repository availability does not establish unrestricted full-text, image, participant or derivative reuse permission; item-level rights review required",
+  "cultural_access_state": "source content requires passage-level contextual and cultural-access review before cultural-claim promotion",
+  "community_validation_state": "not_performed",
+  "promotion_boundary": "No cultural proposition, participant-derived material, present-day representativeness, community endorsement, image, protected text or unrestricted reuse right is promoted by this verification artifact.",
+  "metric_effect": {
+    "audited_source_identities": 0,
+    "canonicalized_web_leads": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "evidence_links": 0
+  },
+  "blockers": [
+    "deterministic reconciliation against historical discovery files pending",
+    "item-level rights and full-text access review pending",
+    "exact page-level evidence extraction pending"
+  ]
+}

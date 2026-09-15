@@ -1,0 +1,72 @@
+{
+  "run": 303,
+  "date_utc": "2026-09-13",
+  "branch": "mlhkp-v2",
+  "scope": "rights/governance verification for three CIIL Bhasha Sanchika Mundari grammar manifestations already located in run 302",
+  "policy": "Repository discoverability and existence of a license bundle do not imply reuse authorization. Cultural access may further restrict use even where legal entitlement exists. No book content is ingested or promoted in this audit.",
+  "records": [
+    {
+      "repository_identifier": "BVP03961",
+      "canonical_title": "मुण्डारी बेयाकरण / Mundari Beyakaran",
+      "author": "Sikradas Tirki",
+      "handle": "https://hdl.handle.net/20.500.14705/8450",
+      "pdf_locator": "BVP03961.pdf",
+      "repository_reported_pdf_size": "24.04 KB",
+      "license_bundle_visible": true,
+      "license_file": "license.txt",
+      "repository_reported_license_size": "14 B",
+      "license_text_inspected": false,
+      "site_footer_rights_notice": "All Rights Reserved",
+      "reuse_authorized": false,
+      "content_ingested": false,
+      "verification_level": "first-party item metadata + existence/size of license bundle",
+      "open_gaps": ["license.txt exact text", "authorized PDF bytes", "independent hash", "page inventory", "internal locators", "reuse scope", "cultural-access review"]
+    },
+    {
+      "repository_identifier": "BVP00202",
+      "canonical_title": "मुण्डारी-व्याकरण / Mundari-Vyakaran",
+      "author": "Ramdayal Munda",
+      "handle": "https://hdl.handle.net/20.500.14705/8429",
+      "pdf_locator": "BVP00202.pdf",
+      "repository_reported_pdf_size": "9.04 KB",
+      "license_bundle_visible": true,
+      "license_file": "license.txt",
+      "repository_reported_license_size": "14 B",
+      "license_text_inspected": false,
+      "site_footer_rights_notice": "All Rights Reserved",
+      "reuse_authorized": false,
+      "content_ingested": false,
+      "verification_level": "first-party item metadata + existence/size of license bundle",
+      "open_gaps": ["license.txt exact text", "authorized PDF bytes", "independent hash", "page inventory", "internal locators", "reuse scope", "cultural-access review"]
+    },
+    {
+      "repository_identifier": "BVP04856",
+      "canonical_title": "नवा होड़ो जगर मुंडि (नवीन मुण्डारी व्याकरण) / Nava Hoda Jagar Mundi (Naveen Mundari Vyakaran)",
+      "author": "Mansidh Baraiud",
+      "item_url": "https://sanchika.ciil.org/items/15f0b9a2-d921-48b8-906e-c445332ae32b",
+      "pdf_locator": "BVP04856.pdf",
+      "repository_reported_pdf_size": "289.84 KB",
+      "license_bundle_visible_in_indexed_item_view": false,
+      "license_text_inspected": false,
+      "site_footer_rights_notice": "All Rights Reserved",
+      "reuse_authorized": false,
+      "content_ingested": false,
+      "verification_level": "first-party item metadata; no license bundle text verified",
+      "open_gaps": ["full-item license-bundle reconciliation", "license text if present", "authorized PDF bytes", "independent hash", "page inventory", "internal locators", "reuse scope", "cultural-access review"]
+    }
+  ],
+  "audit_result": {
+    "new_public_cultural_claims": 0,
+    "new_public_linguistic_claims": 0,
+    "new_evidence_records": 0,
+    "new_provenance_links": 0,
+    "rights_boundary_strengthened": true,
+    "restricted_or_unverified_content_exposed": false,
+    "count_effect": "none"
+  },
+  "source_urls": [
+    "https://sanchika.ciil.org/items/688fba05-30b7-40ca-af70-51764a10efe4/full",
+    "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636/full",
+    "https://sanchika.ciil.org/items/15f0b9a2-d921-48b8-906e-c445332ae32b"
+  ]
+}

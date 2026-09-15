@@ -1,0 +1,78 @@
+{
+  "audit_id": "MLHKP-RUN247-COOK1965-DISSERTATION-LOCATOR",
+  "run_id": 247,
+  "date_utc": "2026-09-12T06:43:00Z",
+  "stream": "non-Mundarica source census: theses/dissertations and grammars",
+  "work": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According to the Methods of Linguistic Science, with Particular Attention to the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns",
+    "institution": "Georgetown University",
+    "document_type": "Ph.D. dissertation",
+    "extent_glottolog": "vi + 315 pages",
+    "umi_identifier_reported_by_glottolog": "University Microfilms 65-12,509"
+  },
+  "verified_locators": [
+    {
+      "provider": "Glottolog 5.3",
+      "reference_id": "33106",
+      "url": "https://glottolog.org/resource/reference/id/33106",
+      "verified_metadata": ["author", "year", "full title", "Georgetown University dissertation", "extent", "UMI number", "Mundari grammar classification"],
+      "provider_license": "CC BY 4.0"
+    },
+    {
+      "provider": "Glottolog 5.3",
+      "reference_id": "152623",
+      "url": "https://glottolog.org/resource/reference/id/152623",
+      "verified_metadata": ["author", "year", "full title", "Georgetown University", "UMI/Ann Arbor manifestation", "vi+315 pages"],
+      "provider_license": "CC BY 4.0"
+    },
+    {
+      "provider": "University of Kiel ISFAS South Asia bibliography",
+      "url": "https://www.isfas.uni-kiel.de/de/linguistik-und-phonetik/forschung/projekte/southasiabibliography/bibliography/austroasiatic/munda/mundari",
+      "verified_metadata": ["Cook 1965", "A Descriptive Analysis of Mundari", "PhD dissertation", "Georgetown University"]
+    },
+    {
+      "provider": "Office of the Registrar General & Census Commissioner, India, Linguistic Survey of India - Jharkhand bibliography",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "verified_metadata": ["Cook bibliographic citation", "descriptive analysis of Mundari", "University Microfilms/Ann Arbor reference"]
+    }
+  ],
+  "rights_access_boundary": {
+    "bibliographic_metadata_reuse": "Glottolog metadata is published under CC BY 4.0; attribution is required.",
+    "dissertation_full_text_rights": "not established by this run",
+    "unauthorized_or_unclear_mirror_text_ingested": false,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "page_image_sequence_verified": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "model_training_permission_inferred": false
+  },
+  "deduplication": {
+    "canonical_key": "cook|1965|a-descriptive-analysis-of-mundari|georgetown-university",
+    "glottolog_33106_and_152623_relation": "same underlying dissertation/work family; preserve both reference IDs as aliases, do not count as two source identities",
+    "mirror_manifestations": "do not canonicalize as permitted evidence until lawful provenance and rights are established"
+  },
+  "scope_classification": {
+    "primary_class": "thesis_dissertation",
+    "secondary_class": "grammar",
+    "language_scope": "Mundari [unr]",
+    "geographic_scope": "India; historical fieldwork context requires source-level verification before cultural use"
+  },
+  "promotion_level": "exact bibliographic/source-identity locator with rights-safe metadata only",
+  "content_evidence_promoted": false,
+  "lexical_rows_promoted": 0,
+  "grammatical_propositions_promoted": 0,
+  "cultural_claims_promoted": 0,
+  "identity_count_change": false,
+  "evidence_claim_count_change": false,
+  "open_gaps": [
+    "lawful complete dissertation manifestation",
+    "full-text redistribution/reuse boundary",
+    "byte-preserving acquisition and independent hash",
+    "exact page locators from a lawful manifestation",
+    "field-material provenance, participant/performer consent and cultural-access review before any participant-derived evidence promotion"
+  ]
+}

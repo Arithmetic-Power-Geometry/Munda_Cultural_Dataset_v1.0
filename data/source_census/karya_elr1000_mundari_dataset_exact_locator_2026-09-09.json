@@ -1,0 +1,76 @@
+{
+  "artifact_id": "MMSC-VERIFY-RUN81-ELR1000",
+  "checked_utc": "2026-09-08T18:46:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "dataset_multimodal_community_generated",
+  "identity": {
+    "title": "ELR-1000: A Community-Generated Dataset for Endangered Indic Indigenous Languages",
+    "repository": "Hugging Face / karya/ELR-1000",
+    "canonical_url": "https://huggingface.co/datasets/karya/ELR-1000",
+    "paper_identifier": "arXiv:2512.01077",
+    "paper_title": "ELR-1000: A Community-Generated Dataset for Endangered Indic Indigenous Languages",
+    "paper_venue_as_declared_by_dataset_card": "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL 2025)"
+  },
+  "exact_locators": [
+    {
+      "locator_type": "dataset_card_heading",
+      "locator": "Dataset Overview",
+      "supported_metadata": "The card describes 1,073 recipes, 10 languages, 11,213 images and 42 hours of audio across text, image and audio modalities."
+    },
+    {
+      "locator_type": "dataset_card_heading",
+      "locator": "Languages Included",
+      "supported_metadata": "Mundari is explicitly one of the ten listed languages."
+    },
+    {
+      "locator_type": "dataset_card_heading",
+      "locator": "Data Collection",
+      "supported_metadata": "The dataset card states community participation, higher-than-living-wage compensation and explicit consent for contributions to be shared."
+    },
+    {
+      "locator_type": "dataset_card_heading",
+      "locator": "License",
+      "supported_metadata": "The card declares KPL BY-NC-SA-FS 1.0 and describes noncommercial attribution/share-alike/software conditions."
+    }
+  ],
+  "deduplication": {
+    "permanent_source_id_assigned": false,
+    "reason": "No ELR-1000 identity was found in the current standalone MMSC discoveries artifact or named source-census verification artifacts inspected for this run. A permanent source ID is withheld until the complete 87-lead reconciliation namespace is deterministically updated rather than creating a parallel identity opportunistically.",
+    "related_but_not_identical": [
+      "Karya Mundari TTS corpus",
+      "Karya endangered-recipes-translated-500 derivative translation dataset"
+    ]
+  },
+  "rights_access_consent": {
+    "dataset_card_license": "KPL BY-NC-SA-FS 1.0",
+    "access_state": "gated_dataset_card_public_files_require_authorized_access",
+    "consent_statement_present_on_card": true,
+    "consent_not_reinterpreted": true,
+    "cultural_access_review_required": true,
+    "participant_media_ingested": false,
+    "recipe_text_ingested": false,
+    "audio_ingested": false,
+    "images_ingested": false,
+    "community_validation_inferred": false,
+    "license_does_not_override_cultural_access": true
+  },
+  "scope_classification": {
+    "relevant_to_mlhkp": true,
+    "mundari_specific_subset_exists": true,
+    "cultural_domain_candidates": ["food_drink_hospitality", "language_linguistics", "media_audio_visual"],
+    "current_promotable_level": "dataset-card metadata and governance evidence only"
+  },
+  "promotion_decision": {
+    "metadata_evidence_promoted": true,
+    "cultural_fact_promoted": false,
+    "participant_derived_content_promoted": false,
+    "reason": "Public dataset-card metadata is sufficiently exact-located to document corpus identity, declared scope, declared consent and declared license. Underlying recipe, audio, image and participant-derived cultural content remains gated pending item-level access, provenance, cultural-access and redistribution review."
+  },
+  "integrity": {
+    "counts_changed": false,
+    "rights_fabricated": false,
+    "consent_fabricated": false,
+    "cultural_claim_fabricated": false,
+    "future_proof_completeness_claimed": false
+  }
+}

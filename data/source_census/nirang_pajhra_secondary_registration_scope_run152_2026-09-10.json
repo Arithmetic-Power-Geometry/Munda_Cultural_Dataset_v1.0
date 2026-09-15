@@ -1,0 +1,27 @@
+{
+  "run": 152,
+  "date_utc": "2026-09-10",
+  "candidate": "Nirang Pajhra",
+  "candidate_type": "multilingual Adivasi magazine",
+  "secondary_registration_identifier_reported": "WBMUL00610",
+  "secondary_sources_checked": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Nirang_Pajhra",
+      "observed_claims": [
+        "Reports the title as registered with the Government of India.",
+        "Reports RNI identifier WBMUL00610 and date 13 June 2013.",
+        "Reports Mundari among the magazine languages."
+      ]
+    }
+  ],
+  "authoritative_manifestation_found_this_run": false,
+  "deterministic_disposition": "candidate_only",
+  "reason": "The sweep did not independently resolve an authoritative PRGI/RNI registration record or an issue-level manifestation. Secondary evidence is insufficient for audited identity promotion or content ingestion.",
+  "content_ingested": false,
+  "claims_promoted": 0,
+  "rights_verified": false,
+  "community_validation_verified": false,
+  "cultural_access_verified": false,
+  "verification_boundary": "Do not infer registration, publication continuity, language coverage, rights, contributor authority, or cultural permission beyond what is independently verified from authoritative manifestations.",
+  "completion_claim": false
+}

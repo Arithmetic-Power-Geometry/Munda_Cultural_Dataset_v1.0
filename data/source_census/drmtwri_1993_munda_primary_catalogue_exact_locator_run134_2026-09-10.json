@@ -1,0 +1,48 @@
+{
+  "audit_id": "MLHKP-RUN134-DRMTWRI-1993-MUNDA",
+  "audit_date": "2026-09-10",
+  "work_title": "Munda",
+  "catalogue_authority": "Ministry of Tribal Affairs, Government of India repository",
+  "institutional_origin": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+  "record_id": "DRMTWRI/1993/0007",
+  "document_type": "Book",
+  "researcher": "Soma Singh Munda",
+  "editor_author": "Ranendra Kumar",
+  "guide": "Chintu Doraiburu",
+  "completed_date": "1993-03",
+  "pagination_catalogued": "1-44",
+  "collection": "Tribal Affairs",
+  "sector": "Tribal Life",
+  "repository_record_url": "https://repository.tribal.gov.in/handle/123456789/74865",
+  "catalogued_file": {
+    "filename": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+    "reported_size": "247.29 kB",
+    "format": "Adobe PDF",
+    "direct_bytes_acquired_this_run": false,
+    "independent_sha256_computed": false,
+    "page_images_verified": false,
+    "ocr_verified": false
+  },
+  "verification_scope": {
+    "primary_catalogue_manifestation_verified": true,
+    "bibliographic_identity_verified": true,
+    "catalogued_pagination_verified_as_metadata": true,
+    "content_level_cultural_claims_promoted": false,
+    "reuse_permission_verified": false,
+    "community_validation_inferred": false
+  },
+  "rights_and_cultural_access": {
+    "public_repository_presence_is_not_reuse_permission": true,
+    "cultural_access_overrides_technical_or_legal_entitlement": true,
+    "content_ingestion_status": "metadata_only_pending_bytes_hash_page_accounting_reuse_and_cultural_access_review"
+  },
+  "deduplication_note": "Treat this as the authoritative institutional catalogue manifestation for the already-known DRMTWRI 1993 Munda work. Do not create a second work identity merely for the repository PDF manifestation.",
+  "promotion_boundary": "This run promotes only catalogue-level manifestation provenance. It does not promote any cultural proposition, quotation, OCR transcription, page-level claim, redistribution right, or community-validation claim.",
+  "blockers": [
+    "PDF bytes were not independently acquired in this run.",
+    "No independent checksum was computed.",
+    "Catalogue pagination 1-44 is metadata and not yet independently page-accounted from bytes.",
+    "Reuse/licence terms for content-level ingestion remain unresolved.",
+    "Cultural-access disposition remains required before any sensitive or participant-derived material is exposed."
+  ]
+}
