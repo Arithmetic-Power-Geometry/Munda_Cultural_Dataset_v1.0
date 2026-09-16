@@ -1,0 +1,68 @@
+{
+  "run": 412,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["government", "linguistic_survey", "book", "grammar", "lexicon"],
+  "canonical_identity": {
+    "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+    "author_producer": "Office of the Registrar General & Census Commissioner, India (ORGI), Language Division",
+    "publication_date": "2023-08-01",
+    "reference_id": "LSI_JHARKHAND",
+    "catalog_id": "45248",
+    "resource_type": "book",
+    "language": "English",
+    "series": "LINGUISTIC SURVEY OF INDIA"
+  },
+  "authoritative_catalog_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+  "authoritative_pdf_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "scope": {
+    "mundari_chapter_author": "N. Gopalakrishnan",
+    "mundari_printed_pages": "277-338",
+    "chapter_scope": "Mundari descriptive linguistic survey within the Jharkhand volume",
+    "volume_scope": "Six languages and six mother tongues surveyed in erstwhile Bihar/Jharkhand; includes comparative lexicon",
+    "fieldwork_period_reported_for_volume": "1984-2000"
+  },
+  "exact_locator_policy": {
+    "source_identity_locator": "ORGI NADA catalog 45248 / reference ID LSI_JHARKHAND",
+    "manifestation_locator": "official ORGI PDF download 48955/LSI_JHARKHAND.pdf",
+    "passage_locator": "printed page number within Mundari chapter 277-338; PDF page index must be concordanced before evidence promotion",
+    "lexical_locator": "printed page plus table/item position after PDF-to-print concordance"
+  },
+  "canonicalization": {
+    "rule": "ORGI NADA catalogue record, official ORGI PDF, and third-party mirrors/descriptions are manifestations or descriptions of one LSI Jharkhand work, not independent source identities.",
+    "third_party_mirror_observed": "People's Archive of Rural India / Rural India Online",
+    "dedup_status": "canonicalize_to_ORGI_LSI_JHARKHAND"
+  },
+  "verification": {
+    "identity_metadata": "verified_against_official_ORGI_NADA_catalog",
+    "official_pdf_discoverable": true,
+    "mundari_chapter_page_range": "277-338",
+    "mundari_chapter_page_range_basis": "document table-of-contents/indexed text discovery; immutable-byte concordance still required",
+    "sha256": null,
+    "pdf_print_page_concordance_verified": false,
+    "rights_for_redistribution_verified": false,
+    "informant_consent_verified": false,
+    "cultural_access_review_complete": false
+  },
+  "promotion": {
+    "source_identity_promoted_to_controlled_MMSC": false,
+    "public_factual_claim_promoted": false,
+    "passage_evidence_promoted": false,
+    "reason": "Controlled WEB-MUN reconciliation is pending and immutable official PDF bytes/SHA-256, PDF-to-print page concordance, item-level reuse status, fieldwork/informant provenance, consent and cultural-access review are not yet complete. Discovery/catalogue availability is not treated as redistribution or participant consent."
+  },
+  "next_actions": [
+    "materialize the official ORGI PDF at an immutable revision if permitted",
+    "compute SHA-256 and record byte size",
+    "verify PDF-page to printed-page concordance for printed pages 277-338",
+    "audit chapter acknowledgements/methodology for informants, locations, elicitation dates and consent/provenance",
+    "audit reuse/redistribution terms separately from public catalogue access",
+    "promote only exact-locator passages or tables that pass source-quality, rights, provenance, consent and cultural-access gates",
+    "reconcile deterministically against WEB-MUN before changing controlled discovery/audited identity counts"
+  ],
+  "blocked_or_uncertain": [
+    "No immutable byte hash captured in this run",
+    "No assumption that government publication implies unrestricted redistribution",
+    "No assumption that historical/administrative fieldwork implies participant consent for dataset republication",
+    "No cultural proposition inferred from catalogue or secondary descriptions"
+  ]
+}
