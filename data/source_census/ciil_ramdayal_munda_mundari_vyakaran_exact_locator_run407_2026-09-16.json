@@ -1,0 +1,63 @@
+{
+  "audit_run": 407,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": "grammar/book",
+  "canonical_identity": {
+    "title_original": "मुण्डारी-व्याकरण",
+    "title_romanized_provider": "Mundari-Vyakaran",
+    "author": "Ramdayal Munda",
+    "publication_year": 2013,
+    "publisher_provider_citation": "Rumbul Ranchi Jharkhand",
+    "language_scope": "Mundari",
+    "work_identity_status": "bibliographically verified; deterministic WEB-MUN reconciliation pending"
+  },
+  "authoritative_locator": {
+    "provider": "Bhasha Sanchika / Central Institute of Indian Languages",
+    "item_url": "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+    "provider_source_url": "https://bharatavani.in/bharatavani/home/book?id=मुण्डारी-व्याकरण",
+    "provider_file_label": "BVP00202.pdf",
+    "provider_reported_file_size": "9.04 KB",
+    "provider_description": "The book is about Mundari Grammer.",
+    "date_accessioned": "2022-03-14T05:56:01Z"
+  },
+  "canonicalization": {
+    "rule": "CIIL/Bhasha Sanchika item and Bharatavani source locator are manifestations/metadata locators for one 2013 work unless edition-level evidence proves otherwise.",
+    "repository_exact_title_author_search_before_ingestion": "no match returned for Ramdayal Munda Mundari-Vyakaran",
+    "controlled_identity_count_change": 0,
+    "reason_no_count_change": "Runs381-407 require deterministic reconciliation against the WEB-MUN ledger before controlled discovery or audited-identity totals change."
+  },
+  "scope": {
+    "include": true,
+    "reason": "Direct Mundari grammar source from an Indian institutional language repository; non-Mundarica."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "catalogue_or_repository_access_verified": true,
+    "item_level_reuse_rights_verified": false,
+    "immutable_full_text_obtained": false,
+    "sha256_verified": false,
+    "printed_to_pdf_page_concordance_verified": false,
+    "underlying_example_or_informant_provenance_verified": false,
+    "participant_consent_verified": false,
+    "community_or_cultural_access_status_verified": false,
+    "policy": "Public/catalogued availability is not treated as permission, participant consent, or cultural authorization."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "passages_promoted": 0,
+    "reason": "A lawful immutable full-text manifestation, reuse terms, hash, exact page concordance, and source-data provenance review are required before passage-level promotion."
+  },
+  "open_tasks": [
+    "Deterministically reconcile this work against WEB-MUN and existing canonical identities.",
+    "Resolve the apparent tiny provider-file manifestation and determine whether it is metadata/redirect/full content.",
+    "Obtain a permitted immutable full-text manifestation where available and record SHA-256.",
+    "Map printed pages to PDF pages and create exact passage locators only where rights permit.",
+    "Review preface/acknowledgements/method sections for dialect, location, elicitation, contributor/informant provenance, consent and culturally sensitive material before evidence promotion."
+  ],
+  "audit_principles": [
+    "Never fabricate counts or cultural claims.",
+    "Blocked/restricted/unverified material remains an explicit gap.",
+    "Provider metadata is not itself passage evidence."
+  ]
+}
