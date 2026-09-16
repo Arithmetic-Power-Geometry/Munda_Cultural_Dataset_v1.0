@@ -1,0 +1,55 @@
+{
+  "run": 424,
+  "stream": "non-Mundarica source census",
+  "source_class": ["government", "TRI", "handbook", "ethnographic study"],
+  "canonical_identity": {
+    "title": "Mundari",
+    "document_type": "Hand Book",
+    "editor_authors": ["A. B. Ota", "S. C. Mohanty", "Soumalin Mohanty"],
+    "institution": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Bhubaneswar",
+    "completed_date": "2016-07",
+    "record_id": "SCST/2016/0055",
+    "provider": "Ministry of Tribal Affairs, Government of India, Tribal Digital Document Repository",
+    "provider_handle": "123456789/73851",
+    "provider_file": "SCST_2016_handbook_0055.pdf",
+    "provider_reported_size": "108.3 MB"
+  },
+  "canonicalization": {
+    "identity_rule": "The Ministry/TRI catalogue record, handle landing page, and provider PDF are manifestations/locators of one handbook identity, not separate sources.",
+    "repository_precheck": "Exact repository search for SCST_2016_handbook_0055 / Mundari / A. B. Ota returned no matching indexed file before this record was added.",
+    "count_effect": "none until deterministic WEB-MUN reconciliation"
+  },
+  "scope": {
+    "language_or_community": "Mundari/Munda",
+    "geography_from_provider_metadata": ["Odisha", "Sundergarh", "Mayurbhanj", "Keonjhar"],
+    "provider_keywords": ["Mundari", "Munda", "Clusters Of Clans", "Bride Price", "Marriage By Intrusion", "Sing Bonga"],
+    "classification": "directly relevant ethnographic handbook; culturally sensitive assertions require heightened provenance/community review"
+  },
+  "locator": {
+    "catalogue": "https://repository.tribal.gov.in/handle/123456789/73851",
+    "exact_evidence_locator_policy": "provider handle + immutable permitted PDF manifestation/hash + PDF page + printed page/section heading where present",
+    "current_level": "verified provider metadata locator; full PDF bytes/page concordance not yet materialized in repository"
+  },
+  "rights_access_consent": {
+    "public_catalogue_and_view_open": true,
+    "redistribution_permission_verified": false,
+    "item_level_license_verified": false,
+    "participant_or_informant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_status_verified": false,
+    "rule": "Public government repository access does not by itself establish redistribution permission, participant consent, community validation, or unrestricted cultural access."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Catalogue metadata verifies source identity/scope only. Do not promote ethnographic or cultural propositions until lawful immutable bytes, page-level locators, reuse terms, assertion provenance, consent/privacy and cultural-access review are complete."
+  },
+  "open_gates": [
+    "obtain permitted provider PDF bytes and SHA-256",
+    "verify PDF/printed pagination and section headings",
+    "verify item-level reuse/redistribution terms",
+    "audit fieldwork/informant/source provenance for each candidate assertion",
+    "review participant consent/privacy and cultural-access/community-validation status",
+    "deterministically reconcile this identity against WEB-MUN before changing controlled counts"
+  ]
+}
