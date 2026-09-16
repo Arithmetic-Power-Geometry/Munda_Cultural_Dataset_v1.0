@@ -1,0 +1,69 @@
+{
+  "audit_run": 404,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "audio", "peer-reviewed article"],
+  "canonical_identity": {
+    "title": "Mundari TTS dataset corpus",
+    "provider": "Karya",
+    "repository": "https://github.com/karya-inc/dataset-mundari-tts",
+    "associated_article": "Building Text-to-Speech Systems for the Mundari Language",
+    "article_locator": "ACL Anthology, Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages, 2024, pp. 76-82"
+  },
+  "scope": {
+    "language": "Mundari",
+    "iso_639_3": "unr",
+    "geographic_scope_reported_by_article": "Jharkhand, India",
+    "script_reported_by_article": "Devanagari"
+  },
+  "verified_provider_metadata": {
+    "repository_reported_audio_files": 26870,
+    "repository_reported_speakers": 2,
+    "repository_reported_female_recordings": 19868,
+    "repository_reported_male_recordings": 7002,
+    "repository_reported_audio_format": "32-bit PCM, 44.1 kHz",
+    "repository_reported_full_corpus_size": "approximately 17 GB; approximately 7 GB compressed",
+    "repository_sample": "100 recordings from each speaker",
+    "article_reported_recordings": 26868,
+    "article_reported_unique_sentences": 15656,
+    "article_reported_duration_hours": 27.51
+  },
+  "deterministic_discrepancy": {
+    "field": "recording_count",
+    "repository_value": 26870,
+    "peer_reviewed_article_value": 26868,
+    "difference": 2,
+    "resolution": "UNRESOLVED; do not normalize or select either count as controlled MLHKP corpus cardinality until immutable corpus version/revision and manifest are obtained."
+  },
+  "rights_access": {
+    "repository_license": "Karya Public License, non-commercial version (provider statement)",
+    "full_corpus_access": "provider-mediated; repository directs users to request a cloud-storage link",
+    "redistribution_status": "REQUIRES item/license audit before MLHKP redistribution",
+    "speaker_consent_status": "NOT ESTABLISHED from audited public metadata",
+    "community_cultural_access_status": "NOT ESTABLISHED"
+  },
+  "canonicalization": {
+    "rule": "Treat Karya repository, corpus download, associated ACL paper, Microsoft/aka.ms artifact locator and Karya case-study manifestations as one corpus/project family unless immutable manifests prove distinct releases.",
+    "duplicate_status": "No exact repository hit for 'Karya Mundari TTS' found before this audit record was created."
+  },
+  "promotion": {
+    "exact_locator_record": true,
+    "audio_segments_promoted": 0,
+    "transcripts_promoted": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_count_increment": 0,
+    "reason": "Rights/consent and immutable full-corpus manifest/hash are unresolved, and provider/article cardinalities disagree by two recordings."
+  },
+  "materialization_requirements": [
+    "obtain permitted corpus manifestation and immutable revision identifier",
+    "compute file-level or manifest-level SHA-256 hashes",
+    "reconcile 26870 versus 26868 recording count",
+    "verify transcript/audio pairing and deterministic duplicate count",
+    "audit license obligations for derived evidence and redistribution",
+    "establish speaker/worker consent and provenance to the extent available",
+    "classify cultural-access/community-governance constraints",
+    "only then promote exact time/file locators and supported evidence"
+  ],
+  "audit_principle": "Public discoverability and dataset availability are not treated as evidence of unrestricted reuse, consent, or cultural permission."
+}
