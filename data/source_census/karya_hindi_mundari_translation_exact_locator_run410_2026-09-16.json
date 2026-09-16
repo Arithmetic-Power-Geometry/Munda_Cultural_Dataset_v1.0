@@ -1,0 +1,59 @@
+{
+  "run": 410,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "parallel text", "web resource"],
+  "canonical_identity": {
+    "title": "Hindi-Mundari Translation Dataset",
+    "provider": "Karya",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "language_pair": ["Hindi", "Mundari"],
+    "mundari_language_code": "unr"
+  },
+  "verified_provider_metadata": {
+    "sentence_pairs_reported": 17826,
+    "data_file": "translation-hi-unr.tsv",
+    "encoding": "UTF-8",
+    "record_structure": "two tab-separated columns: Hindi sentence and corresponding Mundari translation",
+    "repository_files_reported": ["README.md", "LICENSE.txt", "COPYRIGHT.txt", "translation-hi-unr.tsv"],
+    "license_label_reported": "Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0",
+    "license_summary_reported": "non-commercial reuse with attribution and share-alike obligations; software-system incorporation carries additional GPL terms as described by provider"
+  },
+  "exact_locator_plan": {
+    "manifestation": "translation-hi-unr.tsv",
+    "locator_unit": "TSV line number plus Hindi/Mundari column",
+    "required_before_evidence_promotion": [
+      "pin immutable repository/data revision",
+      "obtain permitted bytes",
+      "record SHA-256",
+      "verify actual row count and header convention rather than assuming README cardinality",
+      "deterministically identify duplicate/near-duplicate sentence pairs",
+      "preserve source line numbers after canonicalization",
+      "verify item/dataset license obligations",
+      "audit worker/speaker/translator provenance and consent documentation",
+      "apply cultural-access review before exposing culturally sensitive text"
+    ]
+  },
+  "deduplication": {
+    "repository_search_before_ingestion": "no exact repository match for dataset-hindi-mundari-translation was returned",
+    "canonicalization_rule": "README, license, copyright file and TSV are manifestations/components of one dataset identity, not separate source identities",
+    "relationship_note": "Do not merge with the Karya Mundari TTS corpus solely because the organizations/language overlap; establish record-level derivation or shared sentence provenance before linking identities."
+  },
+  "rights_access_consent": {
+    "public_repository": true,
+    "commercial_reuse_permitted": false,
+    "public_availability_equals_unrestricted_reuse": false,
+    "copyright_license_equals_participant_consent": false,
+    "consent_status": "not verified in this run",
+    "cultural_access_status": "not verified in this run"
+  },
+  "promotion": {
+    "discovery_only": false,
+    "exact_locator_audit_created": true,
+    "public_factual_or_cultural_claims_promoted": 0,
+    "controlled_identity_count_change": 0,
+    "reason_counts_unchanged": "Must be reconciled deterministically against WEB-MUN and the controlled source ledger before count changes."
+  },
+  "audit_status": "exact-locator-ready; byte/hash/row/provenance/consent/cultural-access verification pending",
+  "source_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation"
+}
