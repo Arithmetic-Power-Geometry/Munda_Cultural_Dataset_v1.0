@@ -1,0 +1,59 @@
+{
+  "run": 435,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica",
+  "source_class": "peer-reviewed article",
+  "canonical_identity": {
+    "title": "Study of literary of munda folk tradition",
+    "author": "Ajit Munda",
+    "journal": "The Asian Man",
+    "year": 2023,
+    "volume": "17",
+    "issue": "1and2spl",
+    "pages": "137-141",
+    "doi": "10.5958/0975-6884.2023.00017.8",
+    "published_online": "2024-04-03"
+  },
+  "identity_verification": {
+    "provider": "IndianJournals.com",
+    "landing_url": "https://indianjournals.com/article/am-17-1and2spl-016",
+    "verified_fields": ["title", "author", "journal", "year", "volume", "issue", "pages", "DOI", "online publication date"],
+    "repository_exact_title_search_before_ingestion": "no match"
+  },
+  "scope": {
+    "in_scope": true,
+    "reason": "Article explicitly concerns Munda folk tradition and cultural/religious heritage; it is not Encyclopaedia Mundarica.",
+    "geographic_scope": "Jharkhand context stated in provider metadata/abstract",
+    "cultural_scope_status": "potentially relevant; proposition-level use requires full-text audit"
+  },
+  "canonicalization": {
+    "dedup_key": "doi:10.5958/0975-6884.2023.00017.8",
+    "manifestation_rule": "publisher landing page, DOI resolution, previews and any lawful article PDF are manifestations of one article identity",
+    "do_not_merge_with": ["Encyclopaedia Mundarica", "other works by Ajit Munda"]
+  },
+  "access_rights": {
+    "landing_metadata_access": "publicly discoverable",
+    "full_text_obtained_in_this_run": false,
+    "reuse_permission_verified": false,
+    "rights_status": "unverified/restricted until item-level terms are established",
+    "redistribution": "not permitted by inference"
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "Only publisher metadata/abstract was verified; cultural propositions must not be promoted without lawful full text, exact locators, source-dependency review and rights/cultural-access checks."
+  },
+  "exact_locator_plan": {
+    "required_manifestation": "lawfully obtained version-of-record or stable permitted full text",
+    "required_integrity": "SHA-256 of immutable bytes",
+    "locator": "journal page number plus passage/paragraph anchor where available",
+    "page_concordance": "verify PDF page index against printed pages 137-141"
+  },
+  "ethics_and_uncertainty": {
+    "consent_privacy": "review if article reports participants, informants, quotations or field-derived material",
+    "cultural_access": "review proposition-by-proposition; publication does not imply unrestricted cultural reuse",
+    "dependency": "trace cited/derived cultural assertions to underlying sources before treating them as independent corroboration"
+  },
+  "release_status": "explicit gap pending full-text/rights/provenance audit",
+  "count_policy": "Do not change controlled MMSC/source/evidence totals from this locator record until deterministic WEB-MUN reconciliation is performed."
+}
