@@ -1,0 +1,43 @@
+{
+  "run": 448,
+  "date_utc": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "dictionary/wordlist", "web resource"],
+  "canonical_identity": {
+    "title": "ASJP Database - Wordlist Mundari",
+    "compiler": "Cecil H. Brown",
+    "database_editors": ["Soren Wichmann", "Cecil H. Brown", "Eric W. Holman", "Matthew S. Dryer", "Qibin Ran"],
+    "canonical_url": "https://asjp.clld.org/languages/MUNDARI",
+    "glottocode": "mund1320",
+    "iso_639_3": "unr",
+    "upstream_source_reported_by_database": "Peiros 1998, Comparative Linguistics in Southeast Asia, Pacific Linguistics C-142, Australian National University"
+  },
+  "identity_verification": {
+    "status": "verified_at_database_landing_page",
+    "observed_outputs": ["JSON", "RDF n3", "RDF nt", "RDF xml", "RDF turtle", "ASJP text format"],
+    "deduplication_rule": "All serialization/download manifestations belong to one ASJP Mundari wordlist identity; upstream Peiros 1998 remains a dependency/source and must not be treated as independent corroboration of the same lexical datum without source tracing."
+  },
+  "scope": {
+    "language": "Mundari",
+    "type": "comparative basic-vocabulary wordlist",
+    "cultural_claim_scope": "none promoted from this audit"
+  },
+  "rights_access": {
+    "database_license_reported": "Creative Commons Attribution 4.0 International",
+    "underlying_source_reuse_permission_verified": false,
+    "note": "Database licence is not assumed to grant independent reuse rights over upstream source content beyond the database's licensed representation."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Before lexical row promotion, obtain a deterministic serialization snapshot, immutable bytes/SHA-256, stable row/concept locator, verify attribution/reuse requirements, and trace each lexical datum's dependency on Peiros 1998 or other upstream material. Cultural-access uncertainty remains explicit."
+  },
+  "release_gap": [
+    "immutable serialization snapshot and SHA-256 not yet registered",
+    "deterministic row/concept inventory not yet reconciled into WEB-MUN",
+    "upstream lexical provenance not yet traced row-by-row",
+    "underlying-source reuse basis not independently established",
+    "no cultural claim may be inferred from lexical presence alone"
+  ],
+  "controlled_count_effect": "none until deterministic reconciliation against WEB-MUN"
+}
