@@ -1,0 +1,62 @@
+{
+  "run": 437,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "source_class": ["thesis/dissertation", "ethnography", "institutional repository"],
+  "canonical_identity": {
+    "author": "Pallavi Raonka",
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "year": 2021,
+    "institution": "Virginia Tech",
+    "type": "doctoral dissertation",
+    "persistent_id": "hdl:10919/111386",
+    "repository": "VTechWorks"
+  },
+  "scope": {
+    "people": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["land", "indigeneity", "politics", "identity", "gender", "historical narrative", "Adivasi-State relations"],
+    "fieldwork_period_reported_in_repository_abstract": "May 2017 to December 2018",
+    "method_reported_in_repository_abstract": "fifteen-month ethnographic study using several forms of qualitative data"
+  },
+  "manifestations": [
+    {
+      "provider": "Virginia Tech VTechWorks",
+      "handle": "http://hdl.handle.net/10919/111386",
+      "filename_reported": "Raonka_P_D_2021.pdf",
+      "size_reported": "2.33 MB",
+      "access_observation": "repository search result exposes a downloadable dissertation file"
+    },
+    {
+      "provider": "Virginia Tech VTechWorks",
+      "kind": "supporting documents",
+      "size_reported": "426.81 KB",
+      "relationship": "supporting manifestation; not a separate source identity"
+    }
+  ],
+  "deduplication": {
+    "repository_exact_lead_search": "no prior exact-title/handle match found before Run437",
+    "rule": "landing page, dissertation PDF, handle resolution and supporting files remain manifestations/components of one dissertation identity unless component provenance establishes a distinct source"
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "public_download_observed": true,
+    "reuse_license_verified": false,
+    "participant_consent_verified": false,
+    "privacy_review_completed": false,
+    "cultural_access_review_completed": false,
+    "community_validation_verified": false,
+    "rule": "public repository availability is not evidence of permission to redistribute participant-derived material or of cultural permission"
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "full immutable dissertation bytes, item-level reuse terms, participant/fieldwork ethics and exact page locators have not yet been audited in this run",
+    "required_locator": "immutable permitted PDF SHA-256 + PDF/printed-page concordance + exact page/passage; for interview/field-derived assertions additionally retain participant/provenance/consent/privacy/cultural-access status"
+  },
+  "quality_notes": [
+    "Institutional doctoral-dissertation repository is stronger discovery metadata than secondary aggregators.",
+    "Repository abstract supports only metadata/method/scope statements at discovery stage; it is not used here to promote cultural propositions.",
+    "Any historical or cultural proposition in the dissertation must retain dependency on the dissertation's cited or fieldwork source rather than being treated as automatically independent evidence."
+  ],
+  "status": "verified source identity; exact-passage promotion pending rights/provenance/materialization audit"
+}
