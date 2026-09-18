@@ -1,0 +1,61 @@
+{
+  "run": 474,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Barkhaa Audio — Mundari language manifestations",
+    "provider": "Central Institute of Educational Technology (CIET), NCERT",
+    "provider_url": "https://ciet.ncert.gov.in/barkhaa_audio",
+    "source_class": ["government educational resource", "audio", "web resource", "relevant media"],
+    "scope": "Mundari-language audio manifestations within the Barkhaa early-reading resource"
+  },
+  "verified_discovery_metadata": {
+    "provider_page_lists_mundari": true,
+    "verified_mundari_level_1_titles": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "note": "Provider page also distinguishes labels such as Mundari-Mix. Title/language labels are discovery metadata only; no linguistic or cultural proposition is inferred from them."
+  },
+  "canonicalization": {
+    "rule": "Treat the CIET Barkhaa page and its linked Mundari audio objects as manifestations/components of the Barkhaa educational resource unless item-level provenance proves a distinct work identity. Do not count repeated language links, mirrors, cached copies, or mixed-language variants as independent corroborating sources.",
+    "existing_repo_search": "No repository code-search hit for exact phrase 'Barkhaa Audio' before creation of this audit record."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "public_discoverability_is_redistribution_permission": false,
+    "government_hosting_is_open_license": false,
+    "participant_or_performer_consent_verified": false,
+    "cultural_permission_verified": false,
+    "reuse_basis_verified": false,
+    "status": "AUDITED_DISCOVERY_BLOCKED_FROM_PROMOTION"
+  },
+  "exact_locator_ingestion_plan": {
+    "required_before_promotion": [
+      "resolve each provider-linked Mundari audio object and stable item identifier/URL",
+      "verify item-level copyright/licence/reuse basis",
+      "obtain only lawfully permitted bytes",
+      "record SHA-256 for permitted immutable bytes",
+      "record exact audio time span and corresponding transcript/page locator where available",
+      "verify language/variant label and whether item is Mundari versus Mundari-Mix",
+      "trace adaptation/translation dependency on Barkhaa source text",
+      "review performer/speaker provenance, privacy and consent",
+      "review cultural-access sensitivity before any cultural assertion"
+    ],
+    "future_locator_template": "<stable-provider-audio-id-or-url>#t=<start>-<end>;sha256=<permitted-file-hash>"
+  },
+  "promotion": {
+    "new_claims": 0,
+    "new_evidence_records": 0,
+    "new_evidence_links": 0,
+    "reason": "The provider page verifies discoverability and language-labelled manifestations but does not by itself establish item-level reuse, immutable audio bytes, transcript concordance, consent, cultural permission, or exact proposition-supporting locators."
+  },
+  "release_gap": "Resolve item-level Barkhaa Mundari audio rights, bytes, hashes, transcript/alignment, provenance and consent; retain unresolved objects as explicit gaps.",
+  "evidence_policy": "Never infer cultural claims from educational story titles, catalogue labels, or public availability."
+}
