@@ -1,0 +1,63 @@
+{
+  "run": 490,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "title": "Mundari Primer",
+    "native_title_visible": "मुंडारी सेंडा पुटिः",
+    "type": ["government publication", "language primer", "educational resource"],
+    "edition": "First Edition",
+    "publication_date": "2024-03-09",
+    "isbn": "978-81-19411-80-1",
+    "publisher": "Central Institute of Indian Languages (CIIL), Mysuru, in collaboration with National Council of Educational Research and Training (NCERT), New Delhi",
+    "editors": ["Dinesh Prasad Saklani", "Shailendra Mohan", "Sujoy Sarkar", "Puspa Thounaojam"],
+    "official_url": "https://ciil.gov.in/primers/Mundari_Primer.pdf"
+  },
+  "identity_verification": {
+    "status": "verified_from_official_provider_pdf_search surface",
+    "provider": "Central Institute of Indian Languages",
+    "visible_front_matter": ["title", "purpose", "editors", "ISBN", "edition date", "publisher", "copyright statement"],
+    "repository_prior_family_search": "No result for exact query 'Mundari Primer' before this audit"
+  },
+  "scope": {
+    "language": "Mundari",
+    "declared_purpose": "basal reader of Mundari alphabet and basic numerals for Balvatika/Anganwadi level and adult literacy programmes",
+    "classification": "direct language-learning/orthography/numeracy source; not independent ethnographic corroboration"
+  },
+  "rights_access": {
+    "access": "officially web-accessible PDF",
+    "copyright_notice": "CIIL & NCERT 2024; All rights reserved",
+    "redistribution_permission_verified": false,
+    "rule": "Official public access does not imply permission to redistribute or extract a derivative corpus. Do not ingest copyrighted page content into the public evidence corpus without a supported permission basis. Metadata and source locator may be retained."
+  },
+  "consent_cultural_review": {
+    "participant_consent_applicable_from_front_matter": "not established",
+    "cultural_access_review": "required for any future content-level promotion if culturally specific material occurs"
+  },
+  "deduplication": {
+    "canonicalization_key": "ciil-ncert|mundari-primer|2024|9788119411801",
+    "manifestation_rule": "CIIL/NCERT mirrors, catalogue entries, cached/search manifestations and copies are manifestations of this work unless edition/content collation proves otherwise",
+    "independent_corroboration_count_from_manifestations": 0
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "records_promoted": 0,
+    "reason": "Copyrighted content; immutable permitted bytes/hash, page-level locator verification and content-level rights/cultural review are not yet satisfied.",
+    "future_exact_locator": "<lawfully-permitted-manifestation>#pdf-page=<n>;printed-page=<n-or-null>;section=<heading>;sha256=<hash>"
+  },
+  "verified_metadata_only": {
+    "purpose_statement": "The official front matter describes the work as a basal reader of Mundari alphabet and basic numerals.",
+    "copyright_status_visible": "all rights reserved"
+  },
+  "gaps": [
+    "item/content-level reuse permission",
+    "immutable permitted file bytes and SHA-256",
+    "PDF-to-printed-page concordance",
+    "passage-level source/dependency provenance",
+    "cultural-access screening where applicable"
+  ],
+  "controlled_metrics": {
+    "change_authorized": false,
+    "note": "Do not alter MMSC/evidence/publication counts from this audit alone; reconcile deterministically against WEB-MUN first."
+  }
+}
