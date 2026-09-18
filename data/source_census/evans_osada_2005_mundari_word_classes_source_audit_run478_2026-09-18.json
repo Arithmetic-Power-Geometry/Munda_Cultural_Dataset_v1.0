@@ -1,0 +1,42 @@
+{
+  "run": 478,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica",
+  "source_class": ["peer-reviewed article", "linguistics", "open-access repository"],
+  "canonical_identity": {
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "title": "Mundari: The myth of a language without word classes",
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "repository_handle": "http://hdl.handle.net/1885/54663"
+  },
+  "verified_provider": {
+    "name": "Australian National University Open Research Repository",
+    "access_statement": "Open Access",
+    "file_listing": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "reported_file_size": "234.31 KB"
+  },
+  "scope": "Direct Mundari linguistic evidence: lexical/word-class analysis; article reports analysis of Hoffmann corpus plus substantial new data including a large lexical sample.",
+  "canonicalization": {
+    "rule": "DOI, ANU item/handle, repository landing pages, publisher metadata and copies are manifestations of one scholarly work unless edition/content collation proves otherwise.",
+    "repository_exact_name_search_before_audit": "No exact Evans Osada myth word classes result returned by connected GitHub code search; branch-specific historical overlap still requires deterministic ledger reconciliation before controlled counts change."
+  },
+  "rights_access": {
+    "discovery_access": "ANU repository labels item Open Access and exposes a PDF download listing.",
+    "redistribution_permission": "not inferred solely from Open Access label; item/file licence must be captured before redistribution",
+    "consent_cultural_access": "not established by repository access; new-data provenance, consultant/participant conditions and cultural sensitivity require review before claim promotion"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "This run verified bibliographic identity and an obtainable OA manifestation but did not yet establish immutable permitted bytes/hash, exact page concordance, passage-level provenance/dependency, or participant/cultural-access status.",
+    "next_exact_locator": "01_Evans_Mundari:_The_myth_of_a_2005.pdf#page=<pdf-page>;printed-page=<journal-page>;sha256=<permitted-file-hash>",
+    "required_gates": ["capture item/file licence", "obtain lawful immutable PDF bytes", "sha256", "PDF-to-journal-page concordance", "extract exact passages/examples", "separate Hoffmann-derived evidence from new lexical data", "participant/consultant provenance review", "cultural-access review", "dependency/overlap reconciliation"]
+  },
+  "audit_principle": "Discovery, open access, and article conclusions are not automatically promoted as MLHKP evidence. Controlled MMSC counts remain unchanged until deterministic reconciliation.",
+  "sources": [
+    "https://openresearch-repository.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "https://doi.org/10.1515/lity.2005.9.3.351"
+  ]
+}
