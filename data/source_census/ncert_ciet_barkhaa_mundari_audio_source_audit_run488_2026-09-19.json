@@ -1,0 +1,59 @@
+{
+  "run": 488,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_source_id": "ncert-ciet-barkhaa-mundari-audio",
+  "source_class": ["government", "web_resource", "audio", "educational_media"],
+  "title": "Barkhaa Audio — Mundari recordings",
+  "institution": "Central Institute of Educational Technology (CIET), NCERT",
+  "canonical_url": "https://ciet.ncert.gov.in/barkhaa_audio",
+  "identity_status": "verified_official_provider_page",
+  "scope": {
+    "language": "Mundari",
+    "level": "Level 1",
+    "verified_visible_items": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "note": "Provider page visibly offers Mundari audio for these Level-1 story/item labels. Mixed-language variants, where separately labelled, must not be silently canonicalized as pure Mundari."
+  },
+  "deduplication": {
+    "rule": "Treat the CIET provider page and any mirrors/embeds/download manifestations as one source family unless byte/item-level collation proves distinct editions or recordings.",
+    "existing_repository_match_search": "No repository code-search match for Barkhaa before this audit."
+  },
+  "rights_access_consent": {
+    "access": "publicly discoverable official provider page",
+    "reuse_permission": "not established by this audit",
+    "copyright_license": "unverified for item-level redistribution",
+    "speaker_performer_consent": "not established from provider page",
+    "cultural_access": "unreviewed",
+    "promotion_gate": "Do not redistribute or promote audio/transcript-derived propositions until item-level rights, provenance and applicable consent/cultural review are established."
+  },
+  "exact_locator_plan": "<stable-item-url-or-lawfully-obtained-file>#item=<provider-label>;sha256=<hash>;time=<start-end>;language_label=Mundari",
+  "promotion": {
+    "evidence_records_added": 0,
+    "claims_added": 0,
+    "reason": "The official page verifies existence and Mundari labelling, but item-level licence, immutable bytes/hash, speaker/provenance metadata, transcripts and exact timestamp locators are not yet established."
+  },
+  "gaps": [
+    "Resolve direct stable URL/identifier for each Mundari audio item.",
+    "Determine item-level copyright/licence and redistribution permission.",
+    "Record speaker/performer provenance and consent where applicable.",
+    "Obtain permitted immutable bytes and SHA-256 where lawful.",
+    "Create timestamp-level locators and transcript alignment where permitted.",
+    "Review mixed-language labels independently rather than merging them with Mundari-only recordings."
+  ],
+  "audit_invariants": [
+    "Discovery is not evidence promotion.",
+    "Government hosting does not by itself establish an open licence.",
+    "Mundari-Mix is not equivalent to Mundari without item-level verification.",
+    "No cultural or linguistic proposition is inferred from a title or language button alone."
+  ]
+}
