@@ -1,0 +1,63 @@
+{
+  "run": 510,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_source": {
+    "title": "ASJP Database - Wordlist Mundari",
+    "compiler": "Cecil H. Brown",
+    "resource_type": "comparative lexical dataset / wordlist",
+    "language_label": "Mundari",
+    "iso_639_3": "unr",
+    "glottocode": "mund1320",
+    "provider": "ASJP Database",
+    "canonical_url": "https://asjp.clld.org/languages/MUNDARI",
+    "declared_source": "Peiros 1998, Comparative Linguistics in Southeast Asia, Pacific Linguistics C-142, Australian National University",
+    "provider_license": "CC BY 4.0 for the ASJP Database"
+  },
+  "scope": {
+    "direct_mundari": true,
+    "mundarica": false,
+    "class": "dataset/dictionary-wordlist/web-resource",
+    "discovery_value": "high",
+    "cultural_claim_authority": false
+  },
+  "identity_and_deduplication": {
+    "repository_exact_term_search_before_creation": "no ASJP match returned",
+    "canonicalization_rule": "ASJP language page and serialized/export manifestations are one database source identity; Peiros 1998 is an upstream source, not an independent manifestation of ASJP.",
+    "independence_rule": "ASJP-derived lexical forms must not count as independent corroboration of Peiros 1998 unless row-level provenance demonstrates another upstream source."
+  },
+  "rights_access_consent": {
+    "database_license_verified_from_provider_page": "CC BY 4.0",
+    "underlying_source_reuse_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_authorization_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "Database licensing does not establish rights or consent for upstream lexical elicitation/source material."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "The provider page verifies source identity, language identifiers and database license, but this pass did not obtain and hash a deterministic Mundari row export or establish row-level upstream provenance. Search-rendered lexical metadata is not promoted as exact-locator evidence.",
+    "required_locator_form": "ASJP release/version + immutable export hash + Mundari row/item identifier + upstream-source field + license/provenance classification"
+  },
+  "verified_metadata": {
+    "coordinates_reported_by_provider": "23.00, 84.67",
+    "speaker_count_reported_by_provider": 1164610,
+    "speaker_count_status": "provider metadata only; not promoted as demographic evidence",
+    "classification_note": "provider presents WALS/Glottolog/Ethnologue classifications; these are derivative metadata, not independent evidence"
+  },
+  "gaps": [
+    "immutable ASJP release/export bytes and local SHA-256 not obtained in this pass",
+    "Mundari wordlist row/item count not independently recomputed",
+    "row-level upstream provenance not audited",
+    "underlying Peiros 1998 rights not resolved from ASJP database license",
+    "no participant/consultant consent or cultural-access conclusion available"
+  ],
+  "audit_invariants": [
+    "database license != underlying source reuse permission",
+    "derived wordlist != independent upstream corroboration",
+    "provider speaker count != independently audited demographic evidence",
+    "public web access != participant consent or community authorization",
+    "search-rendered metadata != exact-locator evidence"
+  ]
+}
