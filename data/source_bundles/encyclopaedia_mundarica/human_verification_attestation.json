@@ -1,0 +1,38 @@
+{
+  "record_type": "human_verification_attestation",
+  "attestation_id": "MUN-HVA-2026-09-06-001",
+  "collection_id": "SRC-COL-MUNDARICA",
+  "scope": {
+    "volumes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+    "work": "Encyclopaedia Mundarica",
+    "review_scope_as_attested": "complete volumes; PDFs/scans and OCR previously read and reviewed"
+  },
+  "attestation": {
+    "status": "human_review_attested",
+    "statement": "The user attests that Dr. Arvind Hans and his review team previously verified all sixteen Encyclopaedia Mundarica volumes through review of the PDFs/scans and OCR.",
+    "recorded_from": "explicit user attestation in project conversation",
+    "recorded_date": "2026-09-06",
+    "original_review_date": null,
+    "original_review_date_status": "not_provided",
+    "named_lead_reviewer": "Dr. Arvind Hans",
+    "review_team_members": [],
+    "review_team_members_status": "not_provided"
+  },
+  "audit_boundaries": {
+    "does_not_auto_verify_ocr": true,
+    "does_not_auto_create_page_level_review_records": true,
+    "does_not_establish_scan_artifact_registration": true,
+    "does_not_establish_redistribution_rights": true,
+    "does_not_establish_commercial_reuse_permission": true,
+    "does_not_establish_community_validation": true,
+    "does_not_establish_cultural_access_approval": true,
+    "does_not_set_verified_complete": true,
+    "verified_complete_requires_machine_readable_completeness_audit_pass": true
+  },
+  "provenance": {
+    "basis": "user-provided retrospective attestation",
+    "evidence_class": "attestation_pending_artifact_level_reconciliation",
+    "uncertainty": "Exact original review dates, individual review-team identities, page-level decisions, source artifact identifiers and unresolved exceptions were not supplied in the attestation and must not be invented.",
+    "next_reconciliation": "Associate the attestation with registered authoritative scan/PDF artifacts and page/unit review records as those artifacts are registered; preserve exceptions explicitly."
+  }
+}

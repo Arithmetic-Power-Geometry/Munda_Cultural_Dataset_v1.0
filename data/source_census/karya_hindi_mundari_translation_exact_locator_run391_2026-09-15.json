@@ -1,0 +1,62 @@
+{
+  "run": 391,
+  "audit_date": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "web_resource", "linguistic_resource"],
+  "canonical_work": {
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "provider": "Karya",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "language_pair": ["Hindi", "Mundari"],
+    "mundari_iso_639_3": "unr"
+  },
+  "exact_locators": {
+    "provider_page": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+    "data_file": "translation-hi-unr.tsv",
+    "license_file": "LICENSE.txt",
+    "copyright_file": "COPYRIGHT.txt"
+  },
+  "provider_reported_metadata": {
+    "sentence_pairs": 17826,
+    "encoding": "UTF-8",
+    "format": "TSV",
+    "columns": ["Hindi sentence", "Mundari translation"],
+    "creators_collaboration": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+    "license_label": "Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0"
+  },
+  "audit_classification": "exact-locator-only",
+  "promotion": {
+    "identity_metadata": true,
+    "provider_reported_count": true,
+    "dataset_rows_as_evidence": false,
+    "cultural_claims": false,
+    "linguistic_claims_from_rows": false
+  },
+  "deduplication": {
+    "canonicalization_rule": "repository + data filename + language pair",
+    "do_not_split": ["README", "LICENSE.txt", "COPYRIGHT.txt", "translation-hi-unr.tsv"],
+    "note": "Files are manifestations/components of one dataset identity, not separate sources."
+  },
+  "rights_access_uncertainty": {
+    "access": "public repository locator verified",
+    "license": "provider declares non-commercial Karya Public License / BY-NC-SA-FS 1.0; full license text must govern reuse",
+    "commercial_reuse": "not assumed permitted",
+    "row_level_provenance": "requires audit",
+    "translator_consent_and_compensation": "not established by this locator record",
+    "community_validation": "not established",
+    "cultural_access_authorization": "not established",
+    "redistribution_in_MLHKP": "not promoted pending compatibility review"
+  },
+  "required_before_evidence_promotion": [
+    "materialize exact TSV revision",
+    "record immutable Git commit/blob identifiers",
+    "compute SHA-256",
+    "deterministically recount rows and malformed/duplicate pairs",
+    "inspect LICENSE.txt and COPYRIGHT.txt verbatim for compatibility",
+    "trace collection/translation provenance and consent statements",
+    "define exact row locators for any permitted evidence",
+    "exclude sensitive/culturally restricted material if encountered"
+  ],
+  "count_policy": "Do not change controlled MMSC totals until deterministic reconciliation against existing WEB-MUN/discovery ledger is complete.",
+  "evidence_policy": "No dataset row or cultural proposition is promoted by this record."
+}

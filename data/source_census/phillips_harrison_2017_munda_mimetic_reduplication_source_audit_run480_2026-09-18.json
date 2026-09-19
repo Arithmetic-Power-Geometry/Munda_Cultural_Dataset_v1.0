@@ -1,0 +1,67 @@
+{
+  "run": 480,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "authors": ["J. B. Phillips", "K. David Harrison"],
+    "title": "Munda Mimetic Reduplication",
+    "year": 2017,
+    "container": "Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13",
+    "document_type": "peer-reviewed article"
+  },
+  "scope": {
+    "status": "in_scope_with_dependency_separation_required",
+    "languages_reported": ["Ho", "Kera Mundari", "Kharia", "Mundari", "Remo (Bondo)", "Santali", "Sora (Savara)"],
+    "topic": ["mimetic reduplication", "sound symbolism", "lexicon", "phonology", "semantics"],
+    "mundari_relevance": "Article explicitly includes both Kera Mundari and Mundari among seven Munda languages. Item-level evidence must preserve which language/variety each form is assigned to."
+  },
+  "verified_metadata": {
+    "institutional_repository": "Swarthmore College Works",
+    "repository_record": "https://works.swarthmore.edu/fac-linguistics/223/",
+    "publication_date_reported": "2017-06-01",
+    "doi": "10.1017/cnj.2017.13",
+    "pages": "221-242"
+  },
+  "canonicalization": {
+    "rule": "DOI, publisher page, Swarthmore repository record, bibliographic indexes, and lawful manuscript/copy manifestations represent one scholarly-work identity unless an independently substantive version is demonstrated.",
+    "independent_corroboration_count": 1,
+    "duplicate_search_note": "Repository code search for exact title returned no prior exact match before this audit."
+  },
+  "rights_access": {
+    "discovery_access": "public institutional repository metadata/abstract page",
+    "full_text": "repository page links to full text but item-level reusable bytes and licence were not established in this run",
+    "redistribution_permission": "unverified",
+    "copyright_assumption": "none",
+    "rule": "Public metadata or a full-text link does not by itself authorize MLHKP redistribution."
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "Exact article text, immutable permitted bytes/hash, printed/PDF-page concordance, and form-level source/dependency provenance have not yet been verified.",
+    "target_locator": "<lawful-file>#pdf-page=<n>;printed-page=<221-242>;language=<language-or-variety>;example-or-table=<id>;sha256=<hash>"
+  },
+  "dependency_and_cultural_controls": [
+    "Do not treat examples for seven languages as Mundari evidence without language/variety attribution.",
+    "Separate Kera Mundari from other Mundari varieties where the article does so.",
+    "Trace each promoted lexical/mimetic form to the article's cited source, fieldwork, consultant, dictionary, or prior publication where stated.",
+    "Do not infer community-wide cultural meaning from lexical semantics or sound-symbolic glosses.",
+    "Apply consent/privacy/cultural-access review to any underlying elicited or recorded material before redistribution."
+  ],
+  "gaps": [
+    "lawful reusable full-text bytes",
+    "file SHA-256",
+    "PDF-to-printed-page concordance",
+    "Mundari/Kera Mundari exact example and table locators",
+    "per-example dependency provenance",
+    "consultant/recording consent status where applicable"
+  ],
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "reason": "New audit is intentionally not promoted into controlled MMSC/evidence metrics before deterministic reconciliation and promotion gates pass.",
+    "release_gate": "unchanged"
+  }
+}

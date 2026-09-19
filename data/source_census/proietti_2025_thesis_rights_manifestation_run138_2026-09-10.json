@@ -1,0 +1,61 @@
+{
+  "run": 138,
+  "date": "2026-09-10",
+  "stream": "thesis manifestation, access and rights verification",
+  "canonical_work_key": "proietti_marilena|adivasi_womens_movements_in_eastern_india|2025",
+  "identity": {
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "author": "Marilena Proietti",
+    "institution": "Sapienza Università di Roma",
+    "discussion_date": "2025-05-26",
+    "institutional_handle": "https://hdl.handle.net/11573/1740709",
+    "legal_deposit_handle": "https://hdl.handle.net/20.500.14242/212639",
+    "legal_deposit_nbn": "URN:NBN:IT:UNIROMA1-212639",
+    "file_name": "Tesi_dottorato_Proietti.pdf",
+    "reported_file_size": "47.18 MB",
+    "reported_format": "Adobe PDF"
+  },
+  "access_rights": {
+    "institutional_repository_state": "Open Access from 2026-05-27",
+    "repository_license_label": "Creative commons",
+    "exact_creative_commons_variant_verified": false,
+    "repository_general_notice": "Documents in IRIS are copyright protected and all rights reserved unless otherwise indicated.",
+    "full_file_bytes_independently_obtained_and_hashed": false,
+    "reuse_boundary": "The repository's generic Creative Commons label is not sufficient to infer CC BY, CC BY-SA, CC BY-NC, CC BY-ND, or another exact variant. No redistribution or derivative-use permission is asserted until the exact licence instrument is verified."
+  },
+  "scope": {
+    "communities_named_in_repository_abstract": ["Oraon", "Munda", "Santal", "Ho"],
+    "geographic_scope_reported": "eastern India, with focus on erstwhile south Bihar and contemporary Jharkhand",
+    "research_topics_reported": ["Adivasi women's movements", "leadership", "women's rights", "community empowerment", "local governance", "collective memory"],
+    "scope_boundary": "Repository abstract metadata is descriptive of the thesis only and is not treated as community validation or permission to reuse participant-derived material."
+  },
+  "participant_and_cultural_access": {
+    "participant_derived_material_expected": true,
+    "participant_reuse_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_status": "unresolved",
+    "content_level_ingestion_allowed": false
+  },
+  "canonicalization": {
+    "institutional_and_legal_deposit_records_same_work": true,
+    "basis": ["same author", "same title", "same 2025 thesis", "same reported PDF filename and size"],
+    "duplicate_source_identity_created": false
+  },
+  "promotion": {
+    "promoted_to_exact_locator_provenance": true,
+    "promoted_to_public_cultural_claim": false,
+    "permitted_ingestion": "bibliographic identity, repository/access metadata, abstract-level scope metadata, and explicit rights uncertainty only"
+  },
+  "blocked_follow_up": [
+    "verify the exact Creative Commons licence variant from authoritative file/licence metadata",
+    "lawfully obtain complete thesis bytes and compute an independent checksum",
+    "page-account the complete file before page-level extraction",
+    "separately review methods, ethics, participant consent and culturally sensitive material before content ingestion"
+  ],
+  "integrity": {
+    "rights_not_inferred_from_open_access": true,
+    "community_validation_not_fabricated": true,
+    "participant_consent_not_inferred": true,
+    "restricted_or_sensitive_content_not_exposed": true
+  }
+}

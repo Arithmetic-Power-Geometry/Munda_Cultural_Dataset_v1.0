@@ -1,0 +1,57 @@
+{
+  "run": 369,
+  "date_utc": "2026-09-14T21:42:00Z",
+  "stream": "government_TRI_ethnographic_handbook",
+  "provider": "Ministry of Tribal Affairs, Government of India - Tribal Repository",
+  "institution": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Bhubaneswar",
+  "record_id": "SCST/2016/0055",
+  "repository_handle": "123456789/73851",
+  "title": "Mundari",
+  "document_type": "Hand Book",
+  "editor_author": ["AB Ota", "SC Mohanty", "Soumalin Mohanty"],
+  "completed_date": "2016-07",
+  "pagination_provider": 32,
+  "file": {
+    "name": "SCST_2016_handbook_0055.pdf",
+    "provider_reported_size": "108.3 MB",
+    "format": "Adobe PDF",
+    "binary_materialized": false,
+    "sha256_verified": false,
+    "page_count_from_binary_verified": false
+  },
+  "identity_verification": {
+    "official_repository_record_verified": true,
+    "institutional_provenance_verified": true,
+    "exact_file_locator_verified": true,
+    "provider_abstract_visible": true
+  },
+  "rights_governance": {
+    "provider_visibility_does_not_equal_reuse_permission": true,
+    "item_level_reuse_license_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false,
+    "participant_consent_applicable_or_verified": false,
+    "promotion_rule": "Promote bibliographic/provider/manifestation metadata only until reuse terms, cultural-access status and exact passage provenance are independently verified."
+  },
+  "scope_classification": {
+    "in_scope": true,
+    "class": "government_TRI_Census_LSI_materials",
+    "subclass": "TRI ethnographic handbook",
+    "non_mundarica": true
+  },
+  "evidence_promotion": {
+    "new_controlled_cultural_claims": 0,
+    "new_controlled_linguistic_claims": 0,
+    "exact_locator_evidence_only": true
+  },
+  "blocked_or_open": [
+    "PDF bytes not independently materialized in this run",
+    "SHA-256 not verified",
+    "binary page inventory not verified",
+    "item-level reuse terms not established",
+    "passage-level provenance not established",
+    "community validation not established",
+    "cultural-access authorization not established"
+  ],
+  "source_url": "https://repository.tribal.gov.in/handle/123456789/73851"
+}

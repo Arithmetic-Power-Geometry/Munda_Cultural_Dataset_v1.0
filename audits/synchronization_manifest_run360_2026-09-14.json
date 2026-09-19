@@ -1,0 +1,31 @@
+{
+  "run": 360,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "main_merged": false,
+  "previous_final_head": "8cece0836308333964b1b2fb4a82fbecdc94c330",
+  "previous_final_head_ci": {
+    "Migration Audit": "success",
+    "Source Register Audit": "success",
+    "Streamlit Smoke Test": "success",
+    "Publication Build": "success"
+  },
+  "run360_component_commits": {
+    "bhaduri_bibliographic_resolution": "b6bcce1d160488ce0126b6a4c3d84d718f86183b",
+    "mmsc_refresh": "7de8297e0ab5f692f6e719061e8a4c154149907b",
+    "invariant_test": "b3882a6e9cd46036d73835441ea1cc05ab093a14"
+  },
+  "stream_checkpoints": {
+    "mundarica_I_XVI": "no state promoted; independent authoritative scan, complete-volume and verified-OCR counts remain zero",
+    "mmsc": "14 controlled classes refreshed; controlled counts unchanged pending deterministic reconciliation",
+    "evidence_pipeline": "52 claims, 52 evidence records and 52 provenance links retained; no substantive claim promoted this run",
+    "ontology_entities_graph": "schema-category representation remains 100 percent",
+    "streamlit": "42 of 42 modules remain mapped; universal search, evidence drilldown, reports/downloads and owner console retained",
+    "governance": "cultural access continues to override entitlement; no catalogue or public access observation treated as community validation or reuse authority",
+    "publication": "controlled metrics unchanged, so manuscript metric tables require no numerical update this run"
+  },
+  "run360_specific_advance": "Bhaduri 1931 is recorded as the preferred bibliographic identity year from convergent independent catalogue evidence while the conflicting 1929 introductory-note record remains unresolved. No entry-level lexical or digital-manifestation verification is claimed.",
+  "release_gate": "NOT_PASS",
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": 307,
+  "audit_date_utc": "2026-09-13T13:32:00Z",
+  "purpose": "Mundarica acquisition/page-accounting locator audit; no scan/OCR verification or cultural-claim promotion",
+  "series": "Encyclopaedia Mundarica",
+  "manifestations": [
+    {
+      "logical_volume": "VIII",
+      "google_books_id": "vAWmtdk21wEC",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=vAWmtdk21wEC",
+      "displayed_title": "Encyclopaedia Mundarica, Volume 8",
+      "displayed_authors": ["Johann Hoffmann", "Arthur van Emelen"],
+      "displayed_publisher": "Superintendent government printing, Bihar and Orissa",
+      "displayed_year": 1930,
+      "displayed_original_from": "University of Minnesota",
+      "displayed_digitized_date": "2020-02-25",
+      "visible_contents_printed_page_anchors": [2147, 2151, 2208],
+      "anchor_scope": "Only the section starts surfaced in the public Google Books metadata view; not a complete contents/page inventory."
+    },
+    {
+      "logical_volume": "XI",
+      "google_books_id": "nnzW-Dy4NowC",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=nnzW-Dy4NowC",
+      "displayed_title": "Encyclopaedia Mundarica, Volume 11",
+      "displayed_authors": ["Johann Hoffmann", "Arthur van Emelen"],
+      "displayed_publisher": "Superintendent government printing, Bihar and Orissa",
+      "displayed_year": 1930,
+      "displayed_original_from": "University of Minnesota",
+      "displayed_digitized_date": "2020-02-25",
+      "visible_contents_printed_page_anchors": [3173, 3175, 3183],
+      "anchor_scope": "Only the section starts surfaced in the public Google Books metadata view; not a complete contents/page inventory."
+    }
+  ],
+  "page_accounting_effect": {
+    "historical_printed_page_anchors_added": 6,
+    "volumes_with_new_locator_anchors": ["VIII", "XI"],
+    "authoritative_registered_scans_added": 0,
+    "verified_complete_volumes_added": 0,
+    "ocr_pages_verified_added": 0
+  },
+  "verification_boundary": {
+    "google_books_metadata_view_verified": true,
+    "source_bytes_acquired_and_hashed": false,
+    "page_images_independently_verified": false,
+    "printed_page_to_scan_image_concordance_verified": false,
+    "ocr_independently_verified": false,
+    "rights_for_bulk_reuse_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false
+  },
+  "promotion": {
+    "new_controlled_source_identities": 0,
+    "new_controlled_cultural_claims": 0,
+    "new_controlled_evidence_records": 0,
+    "new_evidence_links": 0,
+    "count_bearing_change": false
+  },
+  "next_actions": [
+    "Acquire a permitted byte-preserving manifestation for each logical volume.",
+    "Compute independent cryptographic hashes before treating any scan as registered.",
+    "Build printed-page to scan-image concordance and record front-matter offsets.",
+    "Run OCR only after rights and byte integrity are documented; retain page-level verification state.",
+    "Do not use metadata snippets or common-term lists as cultural evidence."
+  ]
+}

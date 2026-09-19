@@ -1,0 +1,49 @@
+{
+  "search_id": "MMSC-SEARCH-000322",
+  "run": 322,
+  "search_date": "2026-09-14",
+  "scope": "Fresh controlled Master Munda Source Census sweep; discovery only unless deterministically reconciled to the numbered register.",
+  "classes": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_TRI_Census_LSI",
+    "archives",
+    "newspapers",
+    "web_resources",
+    "datasets",
+    "audio",
+    "video",
+    "maps",
+    "museum_material_culture_media"
+  ],
+  "notable_reobservations": [
+    {
+      "type": "peer_reviewed_article",
+      "citation_hint": "Alpa Shah, 2007, Journal of the Royal Anthropological Institute, DOI 10.1111/j.1467-9655.2007.00417.x",
+      "state": "discovery_reobservation_pending_register_reconciliation"
+    },
+    {
+      "type": "peer_reviewed_article",
+      "citation_hint": "Shalini Saboo, Indian Journal of Public Administration, DOI 10.1177/0019556120982196",
+      "state": "discovery_reobservation_pending_register_reconciliation"
+    },
+    {
+      "type": "peer_reviewed_article",
+      "citation_hint": "Elizabeth Tuti et al., Social Evolution & History 24(2), 2025, DOI 10.30884/seh/2025.02.01",
+      "state": "discovery_reobservation_pending_register_reconciliation"
+    }
+  ],
+  "controlled_counts": {
+    "audited_identities": 42,
+    "raw_web_records": 90,
+    "unique_leads": 87,
+    "duplicates": 3,
+    "canonicalized": 14,
+    "unresolved": 73
+  },
+  "count_rule": "Fresh search observations do not alter controlled MMSC counts until deterministic deduplication/canonicalization and numbered-register disposition are completed.",
+  "promotion_boundary": "No cultural fact, rights status, consent state, community validation, cultural-access permission, source completeness, or evidence claim is inferred from discovery alone."
+}

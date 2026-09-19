@@ -1,0 +1,56 @@
+{
+  "run": 500,
+  "audit_date": "2026-09-19",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source": {
+    "title": "Kera Mundari Talking Dictionary",
+    "version": "1.0",
+    "date": "2013-03",
+    "producers": ["Gregory D. S. Anderson", "K. David Harrison"],
+    "institution": "Living Tongues Institute for Endangered Languages",
+    "resource_class": ["dictionary", "audio", "web_resource"],
+    "language_scope": "Kera Mundari",
+    "url": "https://talkingdictionary.swarthmore.edu/kera_mundari/"
+  },
+  "verified_provider_metadata": {
+    "entries": 446,
+    "audio_files": 446,
+    "images": 0,
+    "named_speaker_visible_in_provider_examples": "Magan Tirkey",
+    "rights_statement": "All content copyright Kera Mundari community (2013); all rights reserved; do not distribute or reproduce without permission."
+  },
+  "scope_and_identity_controls": {
+    "canonicalization": "Treat interface pages, search-result pages, individual audio endpoints, mirrors and citations as manifestations of one underlying talking-dictionary resource unless provenance demonstrates a distinct source.",
+    "language_qualification": "Kera Mundari must remain explicitly qualified; do not silently generalize an entry to unqualified Mundari.",
+    "independence": "Dictionary entries/audio are one resource, not 446 independent sources."
+  },
+  "rights_consent_cultural_controls": {
+    "redistribution": "blocked_without_permission",
+    "community_rights_holder": "Kera Mundari community",
+    "speaker_consent_for_dataset_reuse": "not_established_by_public_page",
+    "cultural_access_review": "required_before_any_sensitive_item_promotion",
+    "rule": "Public listen/search access does not imply permission to redistribute audio, text, or metadata beyond supported citation/fair-use evidence."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Provider explicitly prohibits distribution/reproduction without permission; item-level consent and cultural-access status are not established. Preserve as a verified but rights-restricted source lead.",
+    "future_exact_locator": "https://talkingdictionary.swarthmore.edu/kera_mundari/#entry=<provider-entry-id-or-headword>;audio=<provider-audio-id>;speaker=<provider-speaker>;accessed=<date>",
+    "promotion_gates": [
+      "permission or documented lawful evidence-use basis",
+      "stable provider entry/audio identifier",
+      "exact headword/entry locator",
+      "speaker/provenance metadata",
+      "consent/access classification",
+      "Kera-vs-general-Mundari scope tag",
+      "cultural-sensitivity review where applicable"
+    ]
+  },
+  "release_invariants_added": [
+    "Kera Mundari evidence != silently unqualified Mundari evidence",
+    "446 entries/audio files != 446 independent sources",
+    "public playback != redistribution permission",
+    "community copyright != demonstrated individual speaker consent for downstream dataset reuse"
+  ],
+  "status": "verified_identity_rights_restricted_not_promoted"
+}

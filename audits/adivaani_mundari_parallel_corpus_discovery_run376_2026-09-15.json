@@ -1,0 +1,20 @@
+{
+  "audit_id": "MLHKP-RUN376-ADIVAANI-MUNDARI-DISCOVERY",
+  "date_utc": "2026-09-15",
+  "source_family": "adivaanihf/adivaani-tribal-english-parallel-corpus",
+  "observed": "Provider metadata lists a Mundari configuration with ISO 639-3 unr and identifies the dataset as derived from a parent corpus.",
+  "status": "DISCOVERY_ONLY",
+  "claims_promoted": 0,
+  "evidence_promoted": 0,
+  "verification": {
+    "bytes_materialized": false,
+    "hash_verified": false,
+    "mundari_row_count_verified": false,
+    "parent_provenance_verified": false,
+    "underlying_rights_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "rule": "Public dataset availability does not establish underlying-source rights, community validation, cultural-access authorization, or sentence-level evidentiary validity.",
+  "next": "Resolve parent provenance and licensing, then materialize only if permitted, pin revision, hash and deterministically recount Mundari records."
+}

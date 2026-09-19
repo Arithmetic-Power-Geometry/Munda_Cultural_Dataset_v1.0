@@ -1,0 +1,27 @@
+{
+  "verification_id": "MMSC-VERIFY-2026-09-08-MAP-001",
+  "candidate_scope": "non-Mundarica map/media source",
+  "title": "Munda languages map.svg",
+  "repository": "Wikimedia Commons",
+  "canonical_url": "https://commons.wikimedia.org/wiki/File:Munda_languages_map.svg",
+  "source_type": "linguistic_map",
+  "creator_as_catalogued": "C1MM",
+  "date_as_catalogued": "2020-11-28",
+  "description_as_catalogued": "Map of the various Munda languages using the traditional North Munda / South Munda classification; the file description states that mapped locations are taluka-level areas with more than 10,000 speakers.",
+  "technical_metadata": {
+    "media_type": "image/svg+xml",
+    "nominal_dimensions": "678 x 457",
+    "license": "CC BY-SA 3.0 Unported"
+  },
+  "source_basis_note": "Commons states that the map is own work based on a derivative map and user-contributed compilation. The map itself is not an official Census product and is not treated as primary demographic evidence.",
+  "rights_and_access": {
+    "file_level_license_verified": true,
+    "license_label": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+    "cultural_access_override_applies": true,
+    "reuse_boundary": "File-level reuse may follow the stated Commons licence, but MLHKP does not infer community validation, authoritative linguistic boundaries, census accuracy, speaker identity, or permission to republish any third-party material beyond the file licence."
+  },
+  "promotion_state": "verification_only_not_counted_as_new_audited_identity",
+  "evidence_boundary": "Only source identity, file metadata, stated description, creation date and file-level licence are verified. No language-distribution value, taluka classification, population number, cultural claim or present-day community boundary is promoted from this map without primary-source reconciliation.",
+  "dedupe_policy": "Before assigning a permanent SRC-MMSC identifier, compare exact Commons filename, canonical URL, creator/date and any source map relationship against all 87 web leads and existing map/media records.",
+  "checked_utc": "2026-09-07T22:42:00Z"
+}

@@ -1,0 +1,54 @@
+{
+  "verification_id": "MMSC-VERIFY-VAANI-000001",
+  "checked_utc": "2026-09-08T17:31:00Z",
+  "branch": "mlhkp-v2",
+  "source": "Project VAANI, IISc Bengaluru / ARTPARK",
+  "official_pages": [
+    "https://vaani.iisc.ac.in/",
+    "https://vaani.iisc.ac.in/dataset",
+    "https://vaani.iisc.ac.in/dataset/Version1"
+  ],
+  "observed_current_jharkhand_summary": {
+    "record_duration_hours": 1310.84,
+    "speaker_count": 6242,
+    "transcription_duration_hours": 108.97,
+    "language_count": 17,
+    "languages_listed": [
+      "Hindi",
+      "Bengali",
+      "Khortha",
+      "Magadhi",
+      "Santali",
+      "Bhojpuri",
+      "English",
+      "KhorthKhotta",
+      "Magahi",
+      "Khorth",
+      "Angika",
+      "Marathi",
+      "Maithili",
+      "MagadhiMagahi",
+      "Kurmali",
+      "Sadri",
+      "Chhattisgarhi"
+    ],
+    "mundari_label_observed": false
+  },
+  "version1_page": {
+    "jharkhand_record_duration_hours": 276.52,
+    "jharkhand_speaker_count": 1768,
+    "jharkhand_transcription_duration_hours": 3.17,
+    "license_label": "CC-BY-4.0"
+  },
+  "deterministic_disposition": "Do not promote the current public Jharkhand aggregate page as a Mundari-specific source. The current state summary does not list Mundari among its 17 displayed language labels. This is an observed-page disposition, not a claim that Project VAANI contains no Mundari material anywhere or will never contain it.",
+  "rights_governance": {
+    "public_page_license_label_recorded": true,
+    "participant_consent_inferred": false,
+    "cultural_access_inferred": false,
+    "audio_or_participant_material_ingested": false,
+    "community_validation_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion_state": "negative/disposition evidence only; no SOURCE identity, cultural claim, audio, transcript, speaker metadata or participant-derived content promoted",
+  "counts_changed": false
+}

@@ -1,0 +1,71 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified source leads, dataset records, map/media records, or publisher/archive records, not extracted cultural claims and not proof of unrestricted redistribution or commercial reuse.",
+  "records": [
+    {
+      "id": "WEB-MUN-0037",
+      "title": "Hindi to Mundari Translation Dataset Corpus",
+      "source_class": "parallel_translation_dataset",
+      "publisher": "Karya / Microsoft Research India / Indian Institute of Technology Kharagpur",
+      "url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+      "author": "Karya dataset collaboration",
+      "notes": "The project repository documents a UTF-8 Hindi-to-Mundari parallel corpus containing 17,826 sentence pairs in translation-hi-unr.tsv. Register as a modern language-technology dataset lead only; sentence-level provenance, contributor conditions and culturally sensitive content must be reviewed before any MLHKP ingestion or public evidence use.",
+      "verification_state": "official_dataset_repository_verified",
+      "access_class": "public_dataset_repository_noncommercial_license",
+      "rights_note": "Repository states Karya Public License BY-NC-SA-FS 1.0: noncommercial use only, attribution required, share-alike applies, and software-incorporation conditions include GPL obligations. No commercial-reuse entitlement is inferred."
+    },
+    {
+      "id": "WEB-MUN-0038",
+      "title": "Expressives and the multimodal depiction of social types in Mundari",
+      "source_class": "peer_reviewed_linguistic_anthropology_article",
+      "publisher": "Language in Society / Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A",
+      "author": "Nishaant Choksi",
+      "year": 2019,
+      "notes": "Publisher metadata verifies the article and its use of video interview data with Mundari speakers to analyse expressives and social-indexical meaning. Register as a peer-reviewed source lead. Interview-derived descriptions and linguistic analyses remain source-reported scholarship and require passage-level evidence plus any applicable participant/data-access review before MLHKP factual use.",
+      "verification_state": "publisher_metadata_verified",
+      "access_class": "public_article_metadata",
+      "rights_note": "Publisher-page visibility does not establish permission to redistribute the article, embedded examples, interview video, transcripts, figures or supplementary data."
+    },
+    {
+      "id": "WEB-MUN-0039",
+      "title": "Munda languages map.svg",
+      "source_class": "linguistic_map_media",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Munda_languages_map.svg",
+      "author": "C1MM (uploaded as own work based on Noahedits; derivative of Dravidian map.svg)",
+      "year": 2020,
+      "notes": "Wikimedia Commons metadata identifies an SVG map dated 28 November 2020 depicting areas with significant concentrations of Munda-language speakers and a North/South Munda classification. Register as a map/media lead only. Geographic assertions require validation against the map's underlying data and authoritative census/geospatial sources before use as MLHKP evidence.",
+      "verification_state": "repository_media_metadata_verified",
+      "access_class": "public_cc_by_sa_media",
+      "rights_note": "The file page states CC BY-SA 3.0. Attribution and share-alike requirements must be preserved, and the licence does not make the map's underlying geographic assertions independently authoritative."
+    },
+    {
+      "id": "WEB-MUN-0040",
+      "title": "How to play hockey, written in 'Mundari': The story of a Jharkhand Bishop and a forgotten rule book",
+      "source_class": "newspaper_feature_historical_source_locator",
+      "publisher": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/",
+      "author": "Soumi Das",
+      "year": 2023,
+      "notes": "Indian Express feature dated 18 October 2023 reports on a rare surviving copy of a Mundari field-hockey rule book associated with Sadanand Abinash Bishram Dilbar Hans and identifies family-held provenance for the surviving copy. Register as a media-led historical source locator, not as verification of the book's contents. The primary rule book requires independent bibliographic identification, owner permission and page-level evidence before ingestion.",
+      "verification_state": "publisher_media_record_verified",
+      "access_class": "public_news_article_primary_object_not_acquired",
+      "rights_note": "News access does not establish reproduction rights for the article, photographs or privately held rule book. Primary-object access, digitization and reuse require separate permission and provenance review."
+    },
+    {
+      "id": "WEB-MUN-0041",
+      "title": "Simdega Heritage Centre museum report with Mundari oral-history material",
+      "source_class": "newspaper_feature_museum_oral_history_locator",
+      "publisher": "The Indian Express",
+      "url": "https://indianexpress.com/article/india/simdega-heritage-centre-museum-jharkhand-history-10636349/lite/",
+      "author": "Manas Srivastava",
+      "year": 2026,
+      "notes": "Indian Express report on the Simdega Heritage Centre describes a museum presentation that juxtaposes colonial archival records with community oral-history material, including a Mundari song associated with First World War labour migration memory. Register as a museum/media discovery lead only. The underlying archival records, song, performers/community custodianship, transcription and museum documentation require separate source records and cultural-access review before evidence ingestion.",
+      "verification_state": "publisher_media_record_verified",
+      "access_class": "public_news_article_underlying_museum_material_not_acquired",
+      "rights_note": "Article access does not grant rights to reproduce museum displays, archival documents, song text/audio, photographs or community-held oral-history material. Item-level rights, consent and cultural access remain controlling."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "audit_id": "MLHKP-RUN179-PROIETTI-2025",
+  "run": 179,
+  "audit_date": "2026-09-11",
+  "source_class": "thesis_dissertation",
+  "identity": {
+    "author": "Marilena Proietti",
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "year": 2025,
+    "institution": "Sapienza Università di Roma",
+    "document_type": "doctoral thesis",
+    "handle_national_repository": "20.500.14242/212639",
+    "handle_institutional_repository": "11573/1740709",
+    "nbn": "URN:NBN:IT:UNIROMA1-212639",
+    "language": "English"
+  },
+  "authoritative_locators": [
+    {
+      "repository": "Italian legal-deposit doctoral-thesis repository",
+      "locator": "https://tesidottorato.depositolegale.it/handle/20.500.14242/212639",
+      "verified_fields": ["author", "title", "year", "institution", "NBN", "file name", "file size", "open-access date", "license label", "abstract scope"]
+    },
+    {
+      "repository": "Sapienza IRIS",
+      "locator": "https://iris.uniroma1.it/handle/11573/1740709",
+      "verified_fields": ["author", "title", "discussion/publication date", "institutional repository identity", "file availability", "abstract scope"]
+    }
+  ],
+  "manifestation": {
+    "filename_reported": "Tesi_dottorato_Proietti.pdf",
+    "size_reported": "47.18 MB",
+    "format_reported": "Adobe PDF",
+    "open_access_from": "2026-05-27",
+    "license_label_reported": "Creative Commons",
+    "exact_cc_variant_verified": false,
+    "bytes_acquired": false,
+    "independent_checksum_computed": false,
+    "page_level_locators_verified": false
+  },
+  "scope_classification": {
+    "relevance": "Munda-relevant but multi-community/regional, not Mundari-language-specific",
+    "communities_named_in_repository_abstract": ["Oraon", "Munda", "Santal", "Ho"],
+    "geographic_scope_reported": "eastern India, especially former south Bihar and contemporary Jharkhand",
+    "temporal_scope_reported": "from the 1980s to the present covered by the thesis",
+    "themes_reported": ["Adivasi women's movements", "gender discrimination", "environmental movements", "social/cultural/legal advocacy", "displacement", "community-level empowerment", "local governance", "collective memory"]
+  },
+  "promotion": {
+    "promoted_to_exact_locator_evidence": true,
+    "promoted_content": ["bibliographic identity", "repository identifiers", "repository-reported access metadata", "repository-abstract scope"],
+    "full_text_passages_ingested": 0,
+    "cultural_claims_promoted": 0,
+    "participant_records_ingested": 0
+  },
+  "rights_consent_cultural_access": {
+    "public_or_open_access_is_not_participant_consent": true,
+    "creative_commons_variant_requires_exact_verification_before full_text_redistribution": true,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "privacy_clearance_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "machine_learning_permission_inferred": false
+  },
+  "deduplication": {
+    "national_and_institutional_handles_treated_as_manifestations_of_one_thesis_identity": true,
+    "new_permanent_mmsc_identity_created": false,
+    "reason": "Run 179 records an exact-locator audit pending deterministic reconciliation against all branch registers before any count-bearing registration."
+  },
+  "gaps": [
+    "Exact Creative Commons licence variant is not established by the retrieved repository metadata.",
+    "PDF bytes and independent checksum were not acquired in this run.",
+    "No page-level passage has been verified from the thesis PDF.",
+    "Claims in the abstract remain thesis-attributed scope statements and are not generalized as MLHKP cultural facts.",
+    "Any interview/participant-derived content remains gated by consent, privacy, community validation and cultural-access review."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "run": 416,
+  "stream": "non-Mundarica source census",
+  "source_class": "peer_reviewed_journal_article",
+  "canonical_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "institutional_repository": "Australian National University Research Publications",
+    "handle": "http://hdl.handle.net/1885/54663",
+    "provider_record": "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "access_status_reported_by_provider": "Open Access",
+    "identity_status": "verified_institutional_repository_metadata"
+  },
+  "scope": {
+    "mundari_relevance": "direct",
+    "content_type": ["linguistics", "word-classes", "morphosyntax", "lexical-analysis"],
+    "provider_abstract_scope": "The institutional record states that the article re-examines claims that Mundari lacks word classes using Hoffmann's corpus and substantial new data, including a large lexical sample.",
+    "classification_note": "Direct Mundari linguistic evidence source; peer-reviewed journal article with institutional repository manifestation."
+  },
+  "exact_locator": {
+    "type": "institutional_repository_item_plus_doi",
+    "locator": "ANU item baea6173-ca4e-4c52-af42-fc09a68e466b; handle 1885/54663; DOI 10.1515/lity.2005.9.3.351; provider-listed PDF 01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "stability": "institutional item/handle/DOI stable; immutable PDF bytes and SHA-256 not yet captured in repository"
+  },
+  "deduplication": {
+    "repository_search_before_ingestion": "no match for 'Evans Osada myth word classes 10.1515/lity.2005.9.3.351'",
+    "canonicalization_rule": "Treat DOI, ANU handle/item and publisher manifestation as one article identity; do not count repository and publisher copies separately."
+  },
+  "rights_access_consent": {
+    "public_access": true,
+    "institutional_access_statement": "Open Access",
+    "redistribution_permission_verified": false,
+    "underlying_field_data_consent_verified": false,
+    "cultural_access_permission_verified": false,
+    "rule": "Open-access article availability does not by itself establish redistribution permission for all underlying examples/data, participant consent, or unrestricted cultural reuse."
+  },
+  "evidence_promotion": {
+    "status": "exact_locator_pending_fulltext_audit",
+    "promoted_claims": 0,
+    "reason": "Identity, DOI, institutional manifestation and topical scope are verified, but exact passage evidence requires lawful immutable full text, SHA-256, page concordance, and review of example/data provenance and applicable consent/cultural-access constraints."
+  },
+  "open_gaps": [
+    "obtain lawful institutional PDF bytes where permitted and record SHA-256",
+    "map PDF pages to journal pagination",
+    "verify manifestation-level reuse terms",
+    "audit acknowledgements/method/data sections for speaker/informant and elicitation provenance",
+    "classify consent and cultural-access status of underlying examples before any example-level promotion"
+  ],
+  "audit_note": "No word-class proposition, lexical example, grammatical generalization, or cultural claim is promoted by this locator record."
+}

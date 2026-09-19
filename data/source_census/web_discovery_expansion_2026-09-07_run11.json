@@ -1,0 +1,59 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified bibliographic, scholarly, historical-book, and contemporary-web source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0066",
+      "title": "A Mundari-English dictionary",
+      "source_class": "historical_bilingual_dictionary",
+      "publisher": "Calcutta University Press; bibliographic metadata cross-checked through Open Library/CiNii",
+      "url": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+      "author": "Manindra Bhusan Bhaduri",
+      "year": 1931,
+      "notes": "Bibliographic records identify the original 1931 Calcutta University Press Mundari-English dictionary by Manindra Bhusan Bhaduri; later reprints preserve the work identity. Register as a high-value historical lexicon/etymology/variant source lead. No lexical entry, gloss, spelling, etymology or usage claim is ingested from catalogue metadata. Any later structured use requires a lawfully accessed edition plus exact page/entry locator, edition identity, historical framing and variant linkage.",
+      "verification_state": "library_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_metadata_copy_access_unresolved",
+      "rights_note": "Catalogue visibility and reprint metadata do not establish permission to reproduce, digitize, redistribute or commercially reuse the dictionary or derivative lexical data. Edition-specific copyright/public-domain status and cultural-access requirements must be assessed before extraction."
+    },
+    {
+      "id": "WEB-MUN-0067",
+      "title": "Munda mimetic reduplication",
+      "source_class": "peer_reviewed_comparative_linguistic_article",
+      "publisher": "Canadian Journal of Linguistics / Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58",
+      "author": "Jacob B. Phillips and K. David Harrison",
+      "year": 2017,
+      "notes": "Cambridge metadata verifies the 2017 peer-reviewed article; Swarthmore's institutional record gives Canadian Journal of Linguistics 62(2):221-242 and DOI 10.1017/cnj.2017.13. The study compares mimetic reduplication across seven Munda languages including Mundari and Kera Mundari. Register as a comparative linguistic source lead only. Cross-language generalizations, example forms, maps and percentages require exact passage/figure/table locators and must remain language- and corpus-scoped rather than universalized.",
+      "verification_state": "publisher_and_institutional_metadata_verified",
+      "access_class": "publisher_metadata_full_text_access_conditions_vary",
+      "rights_note": "Publisher or read-only access does not establish unrestricted redistribution, corpus extraction, figure reuse or commercial reuse. Any examples or underlying lexical data require item-level provenance and applicable publisher/source permissions."
+    },
+    {
+      "id": "WEB-MUN-0068",
+      "title": "The Mundas and Their Country",
+      "source_class": "historical_ethnographic_book",
+      "publisher": "Jogendra Nath Sarkar at the City Book Society, Calcutta; bibliographic identity cross-checked through Open Library and National Library of Finland catalogue",
+      "url": "https://openlibrary.org/books/OL6461303M/The_Mundas_and_their_country",
+      "author": "Sarat Chandra Roy",
+      "year": 1912,
+      "notes": "Library records identify Sarat Chandra Roy's 1912 The Mundas and Their Country, with the Open Library record listing 546 pages plus additional preliminary/back matter, LCCN 43045615 and OCLC 3732483. Register as a major historical ethnographic source lead spanning place, history, social institutions and other documented domains. No statement from the work is treated as a present-day or universal Munda fact. Later extraction requires exact edition/page locator, explicit historical/source-reported framing, contradiction/variant linkage and community review where culturally sensitive.",
+      "verification_state": "multi_library_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_metadata_digitized_copy_locator_requires_rights_review",
+      "rights_note": "A digitized copy locator or old publication date is not, by itself, a complete jurisdiction-specific rights determination for every scan, edition, image or derivative dataset. Reuse must preserve edition provenance and cultural-access restrictions even where copyright entitlement may permit access."
+    },
+    {
+      "id": "WEB-MUN-0069",
+      "title": "Tribal Lingua — Mundari language-learning web resource",
+      "source_class": "contemporary_language_learning_web_resource",
+      "publisher": "Tribal Lingua",
+      "url": "https://triballingua.in/",
+      "author": "Tribal Lingua contributors; individual lesson authorship not established from discovery page",
+      "year": 2026,
+      "notes": "The public Tribal Lingua site advertises Mundari among its supported tribal-language learning paths and describes vocabulary, phrase, pronunciation and cultural-learning features. Register as a contemporary web-resource lead only. No vocabulary item, pronunciation, script practice, cultural description or community-representation claim is ingested until individual lesson provenance, authorship, review status, dialect/language variety, source citations and correction history are established.",
+      "verification_state": "public_web_resource_identity_verified",
+      "access_class": "public_web_resource_item_level_provenance_unresolved",
+      "rights_note": "Public access does not establish permission for scraping, bulk extraction, model training, redistribution or commercial reuse. Site terms, contributor rights, lesson-level provenance and cultural-access/community-review requirements must be checked before reuse."
+    }
+  ]
+}

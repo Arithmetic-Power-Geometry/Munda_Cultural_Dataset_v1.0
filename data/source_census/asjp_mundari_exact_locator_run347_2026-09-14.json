@@ -1,0 +1,48 @@
+{
+  "run": 347,
+  "captured_date": "2026-09-14",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "lexical resource", "web resource", "map/metadata resource"],
+  "title": "ASJP Database - Wordlist Mundari",
+  "provider": "ASJP Database / CLLD",
+  "locator": "https://asjp.clld.org/languages/MUNDARI",
+  "identity": {
+    "language_label": "Mundari",
+    "iso_639_3": "unr",
+    "glottocode": "mund1320",
+    "compiler": "Cecil H. Brown",
+    "source_cited_by_provider": "Peiros 1998, Comparative Linguistics in Southeast Asia, Pacific Linguistics C-142, Australian National University"
+  },
+  "manifestation_metadata_verified_from_provider_page": {
+    "machine_readable_exports_advertised": ["JSON", "RDF n3", "RDF nt", "RDF xml", "RDF turtle", "ASJP text format"],
+    "display_fields": ["Meaning", "Concepticon", "Word", "Loan"],
+    "license_statement": "Creative Commons Attribution 4.0 International"
+  },
+  "verification": {
+    "provider_page_identity_verified": true,
+    "iso_and_glottocode_verified_on_provider_page": true,
+    "license_statement_verified_on_provider_page": true,
+    "export_links_advertised_on_provider_page": true,
+    "export_bytes_downloaded_and_hashed": false,
+    "export_row_count_recomputed": false,
+    "individual_lexical_items_independently_verified": false,
+    "community_validation_verified": false,
+    "participant_consent_applicable_or_verified": false,
+    "cultural_access_authorization_inferred": false
+  },
+  "promotion_boundary": {
+    "promoted": "source identity, provider locator, language identifiers, advertised export modalities, provider license statement",
+    "not_promoted": "individual lexical forms, semantic equivalence, pronunciation, cultural claims, speaker counts, coordinates, community validation or unrestricted cultural entitlement"
+  },
+  "rights_and_governance": {
+    "provider_license": "CC BY 4.0",
+    "license_does_not_imply": ["community validation", "cultural access authorization", "independent linguistic verification"],
+    "restricted_or_sensitive_content_exposed": false
+  },
+  "deduplication": {
+    "repo_code_search_for_ASJP_before_promotion": "no indexed match returned",
+    "canonical_key": "asjp|MUNDARI|unr|mund1320",
+    "count_change_authorized": false,
+    "reason_counts_unchanged": "Authoritative numbered WEB-MUN mapping remains unresolved; this exact locator is retained as run-level audit evidence without inventing a register disposition."
+  }
+}

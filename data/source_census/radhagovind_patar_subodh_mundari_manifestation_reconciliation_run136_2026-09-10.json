@@ -1,0 +1,90 @@
+{
+  "record_type": "source_manifestation_reconciliation",
+  "run_id": 136,
+  "verified_on": "2026-09-10",
+  "work": {
+    "title": "सुबोध मुण्डारी व्याकरण / Subodh Mundari Veyakaran",
+    "author": "Radhagovind Patar",
+    "language": ["Mundari", "Hindi"],
+    "genre": "grammar"
+  },
+  "verified_manifestations_and_catalogues": [
+    {
+      "source": "Bhasha Sanchika — Central Institute of Indian Languages",
+      "repository_item_id": "24494405-081d-4364-ad59-cc2dd0af7d25",
+      "year": 2017,
+      "publisher": "Jharkhand Jharokha Ranchi",
+      "filename": "BVP06110.jpg",
+      "reported_file_size": "49.84 KB",
+      "access_state": "public catalogue/item page",
+      "role": "catalogue/cover-object manifestation metadata only",
+      "content_level_ingestion_permitted": false
+    },
+    {
+      "source": "Bharatavani — Ministry of Education / CIIL project",
+      "year": 2017,
+      "author": "Radhagovind Patar",
+      "publisher": "Jharkhand Jharokha, Ranchi, Jharkhand",
+      "content_partner": "Radhagovind Patar",
+      "book_type": "Grammar",
+      "languages": ["Hindi", "Mundari"],
+      "reported_pdf_size": "118.79 MB",
+      "access_state": "Login to Read",
+      "rights_observation": "Login-to-read/public catalogue availability is not treated as redistribution permission.",
+      "content_level_ingestion_permitted": false
+    },
+    {
+      "source": "OneTouch Book catalogue",
+      "edition_or_reprint": "2022",
+      "isbn13": "978-93-85595-82-0",
+      "author_display": "Radha Govind Patar",
+      "publisher": "Jharkhand Jharokha",
+      "product_id": "580395",
+      "role": "independent modern reprint/edition metadata lead"
+    }
+  ],
+  "deterministic_identity_decision": {
+    "canonical_work_key": "patar_radhagovind|subodh_mundari_veyakaran|grammar",
+    "decision": "Treat the CIIL/Bhasha Sanchika and Bharatavani 2017 records as catalogue/access manifestations of the same 2017 Jharkhand Jharokha grammar work. Preserve the 2022 ISBN-bearing retail record as a later reprint/edition manifestation rather than a separate work identity.",
+    "edition_history_state": "partially_reconciled",
+    "edition_history_note": "A 2017 publication is independently represented by CIIL/Bharatavani metadata, while a 2022 catalogue record explicitly identifies an Edition/Reprint with ISBN 978-93-85595-82-0. The exact textual identity between the 2017 and 2022 physical editions is not asserted without title-page/copyright-page comparison.",
+    "complete_manifestation_verified": false
+  },
+  "exact_locator_evidence_permitted_now": [
+    "CIIL repository item 24494405-081d-4364-ad59-cc2dd0af7d25",
+    "CIIL catalogue filename BVP06110.jpg and reported size 49.84 KB",
+    "Bharatavani 2017 grammar metadata and reported PDF size 118.79 MB",
+    "Bharatavani publisher/content-partner/access metadata",
+    "2022 reprint/edition ISBN 978-93-85595-82-0 and publisher Jharkhand Jharokha"
+  ],
+  "not_promoted": [
+    "grammar rules",
+    "lexical entries",
+    "example sentences",
+    "page-dependent propositions",
+    "bulk text or scans",
+    "redistribution rights",
+    "community-wide cultural claims",
+    "textual identity of 2017 and 2022 editions"
+  ],
+  "rights_and_cultural_boundary": {
+    "public_catalogue_access_is_reuse_permission": false,
+    "login_read_access_is_reuse_permission": false,
+    "open_licence_verified": false,
+    "participant_or_community_consent_inferred": false,
+    "cultural_access_override_required_for_sensitive_material": true
+  },
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "gap_narrowed": "Subodh Mundari Veyakaran now has reconciled 2017 CIIL/Bharatavani manifestation metadata plus an independently identifiable 2022 ISBN-bearing reprint/edition. Complete lawful bytes, independent checksum, page accounting, rights and title-page comparison remain pending before content promotion."
+  },
+  "sources_checked": [
+    "https://sanchika.ciil.org/items/24494405-081d-4364-ad59-cc2dd0af7d25",
+    "https://bharatavani.in/hindi/book?id=सुबोध मुण्डारी व्याकरण | Subodh Mundari Veyakaran&post_category=book",
+    "https://bharatavani.in/mundari/bhashakosha",
+    "https://www.onetouchbook.com/products/subodh-mundari-veyakaran"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "run": 324,
+  "audit_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica",
+  "source_class": ["audio", "web_resource", "relevant_media"],
+  "source": {
+    "institution": "Central Institute of Educational Technology (CIET), NCERT",
+    "title": "Barkhaa Audio",
+    "first_party_locator": "https://ciet.ncert.gov.in/barkhaa_audio",
+    "identity_verified": true,
+    "provider_scope": "official CIET/NCERT web catalogue"
+  },
+  "mundari_manifestations": {
+    "level": 1,
+    "exact_title_count": 9,
+    "titles": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "catalogue_observation": "The current first-party Barkhaa Audio page explicitly lists Mundari among the available language labels for each of these nine Level-1 titles.",
+    "negative_boundary_observation": "Tota is listed at Level 1 but the inspected current catalogue text does not expose a Mundari label for that title.",
+    "individual_audio_byte_urls_verified": false,
+    "individual_audio_bytes_acquired": false,
+    "individual_audio_hashes_verified": false
+  },
+  "rights_and_governance": {
+    "provider_public_availability_verified": true,
+    "explicit_reuse_license_for_individual_mundari_audio_verified": false,
+    "speaker_or_performer_consent_verified": false,
+    "privacy_publicity_clearance_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "rule": "Catalogue availability is an exact manifestation locator only; it is not treated as blanket reuse permission, participant consent, community validation, or cultural-access authorization."
+  },
+  "promotion": {
+    "new_controlled_cultural_claims": 0,
+    "new_controlled_linguistic_claims": 0,
+    "new_evidence_records": 0,
+    "new_source_identity_count_increment": 0,
+    "reason": "Exact title-level audio manifestations are verified at the first-party catalogue layer, but individual media bytes, reuse rights and participant/community/cultural governance remain unresolved."
+  },
+  "release_disposition": "exact_locator_verified_content_ingestion_withheld",
+  "remaining_gap": "Resolve individual audio file locators/bytes/hashes and explicit reuse/consent/community/cultural-access boundaries before content-level promotion."
+}

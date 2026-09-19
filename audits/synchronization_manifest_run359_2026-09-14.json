@@ -1,0 +1,35 @@
+{
+  "run": 359,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "base_run": 358,
+  "base_status_head": "dd8b55e025128269e00322064c89775f5d40964b",
+  "run359_commits_before_status_sync": {
+    "scholarly_exact_locator": "28224512ce721731d96ba792d9bebd27a240bfd3",
+    "mmsc_refresh": "1eb979e1cfa13bd4037d41ec39857a79ea6d4257",
+    "boundary_test": "c4b5fa24477a3d1626c25fc2e2e167a6b7a11ece"
+  },
+  "synchronization": {
+    "mmsc_search_log": "updated to MMSC-SEARCH-000359; 14 controlled classes refreshed",
+    "streamlit_universal_search_and_modules": "no registration or count change required because Run 359 promotes a locator/provenance record rather than a controlled public claim or new numbered source identity; 42 registered/mapped modules preserved",
+    "evidence_graph": "no controlled graph delta; 52 claims, 52 evidence records and 52 provenance links preserved",
+    "completeness_gap_state": "refined: peer-reviewed Mundari article has exact accepted-version locator; Census ST-15 Jharkhand primary workbook remains blocked/unverified at byte/hash/sheet/row/cell/value level; 73 WEB-MUN dispositions remain unresolved",
+    "tests": "new Run 359 invariant test committed",
+    "publication_metrics_tables_figures": "no numerical regeneration required because controlled metrics did not change; build-state metrics preserved",
+    "canonical_status": "to be synchronized after this manifest"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "release_gate": "NOT_PASS",
+  "governance": "No article analysis, Census numeric value, participant consent, community validation or cultural authorization is inferred from discoverability, publication status, catalogue metadata or an open-manifestation licence."
+}

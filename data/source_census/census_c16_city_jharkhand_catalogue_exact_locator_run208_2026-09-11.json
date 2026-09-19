@@ -1,0 +1,61 @@
+{
+  "audit_id": "MLHKP-RUN208-C16CITY-JH-2011",
+  "run": 208,
+  "audit_date": "2026-09-11",
+  "scope": "non-Mundarica source census; official government/Census exact-locator promotion",
+  "source_class": "government/Census",
+  "source": {
+    "title": "C-16 City: Population by mother tongue (town level), Jharkhand - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "reference_id": "PC11_C16city-20",
+    "reference_number": "PC11_C16city",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10246/study-description",
+    "download_filename_catalogued": "DDW-C16-TOWN-STMT-MDDS-2000.XLSX",
+    "geographic_granularity": ["state", "district", "town"],
+    "universe": "All individuals in Jharkhand",
+    "time_period": 2011,
+    "table_columns_catalogued": [
+      "State code",
+      "District code",
+      "Town code",
+      "Area name",
+      "Mother tongue code",
+      "Mother tongue name",
+      "Total - Person / Male / Female",
+      "Rural - Person / Male / Female",
+      "Urban - Person / Male / Female"
+    ]
+  },
+  "verification": {
+    "official_catalogue_identity_verified": true,
+    "catalogue_filename_verified": true,
+    "catalogue_schema_verified": true,
+    "workbook_bytes_acquired": false,
+    "independent_file_hash_verified": false,
+    "worksheet_names_verified": false,
+    "exact_munda_or_mundari_workbook_rows_verified": false,
+    "exact_numeric_cells_verified": false,
+    "numeric_values_promoted": false,
+    "blocked_or_transient_note": "The catalogue is discoverable, but authoritative workbook-byte acquisition and cell-level verification were not completed in this run. No numeric value is reconstructed from secondary sources."
+  },
+  "rights_access_governance": {
+    "public_catalogue_access_is_not_redistribution_permission": true,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "deduplication": {
+    "relationship_to_state_c16": "Distinct official C-16 City/town-level table from PC11_C16-20 state/district/subdistrict C-16 manifestation; do not collapse filenames or reference IDs.",
+    "count_bearing_source_identity_added": false,
+    "reason": "Exact catalogue locator strengthens the existing Census source family, but permanent identity/count changes are deferred until synchronized register reconciliation."
+  },
+  "promotion_state": "exact_catalogue_locator_only",
+  "evidence_promotion": {
+    "new_cultural_claims": 0,
+    "new_evidence_records": 0,
+    "new_evidence_links": 0,
+    "new_streamlit_modules": 0
+  },
+  "release_boundary": "Keep workbook bytes, hashes, worksheets, Munda/Mundari rows and all numeric cells as explicit gaps until directly verified."
+}

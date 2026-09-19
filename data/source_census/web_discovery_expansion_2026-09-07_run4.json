@@ -1,0 +1,59 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified source leads or dataset/catalogue records, not extracted cultural claims and not proof of unrestricted redistribution or commercial reuse.",
+  "records": [
+    {
+      "id": "WEB-MUN-0033",
+      "title": "Mundari Grammar",
+      "source_class": "institutional_language_grammar",
+      "publisher": "Central Institute of Indian Languages (CIIL), Mysore / Bharatavani",
+      "url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "author": "N. K. Sinha",
+      "year": 1975,
+      "notes": "Bharatavani metadata identifies a Mundari-language grammar authored by N. K. Sinha, published by the Central Institute of Indian Languages in 1975. The interface reports a 117.39 MB PDF and requires login to read. Register as an institutional grammar lead; linguistic statements require exact page-level evidence from an authorized copy before public factual use.",
+      "verification_state": "institutional_portal_metadata_verified",
+      "access_class": "login_required_reading_portal",
+      "rights_note": "Catalogue visibility and login-based reading access do not establish permission to download, redistribute, reproduce, create derivatives, or use the work commercially."
+    },
+    {
+      "id": "WEB-MUN-0034",
+      "title": "A Mundari-English dictionary",
+      "source_class": "historical_bilingual_dictionary_catalogue",
+      "publisher": "Calcutta University Press / Open Library catalogue",
+      "url": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+      "author": "Manindra Bhusan Bhaduri",
+      "year": 1931,
+      "notes": "Open Library catalogue metadata identifies the work as A Mundari-English dictionary by Manindra Bhusan Bhaduri, originally published by Calcutta University Press in 1931; the listed reprint has xv + 228 + ii pages and work identifier OL5467157W. Register as a bibliographic/dictionary lead; lexical entries require exact edition and page/entry locators before evidence use.",
+      "verification_state": "library_catalogue_metadata_verified",
+      "access_class": "public_library_metadata",
+      "rights_note": "Library catalogue metadata and any linked borrowing or scan availability do not by themselves establish redistribution, derivative dictionary reuse, or commercial-reuse permission."
+    },
+    {
+      "id": "WEB-MUN-0035",
+      "title": "Munda cognate set with proto-Munda reconstructions",
+      "source_class": "open_comparative_linguistic_dataset",
+      "publisher": "Zenodo",
+      "url": "https://zenodo.org/records/3380874",
+      "author": "Felix Rau",
+      "year": 2019,
+      "notes": "Zenodo record 3380874, version 0.1.0, identifies a downloadable CSV containing 127 comparative cognate sets with proto-Munda reconstructions and materials from multiple Munda languages including Mundari, with references to MKCD and Pinnow (1959). Register as a comparative linguistic dataset lead; individual reconstructed forms are scholarly analyses and must retain dataset provenance and source references rather than being treated as community-validated lexical facts.",
+      "verification_state": "repository_dataset_metadata_verified",
+      "access_class": "public_dataset_repository",
+      "rights_note": "The Zenodo record is publicly downloadable, but MLHKP must preserve the record-level licence and cited-source rights before redistribution or derivative publication; openness of the repository is not itself a commercial-reuse determination."
+    },
+    {
+      "id": "WEB-MUN-0036",
+      "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+      "source_class": "computational_linguistics_benchmark_paper_and_dataset_lead",
+      "publisher": "Association for Computational Linguistics",
+      "url": "https://aclanthology.org/2025.mmloso-1.14/",
+      "author": "Pooja Singh; Sandeep Chatterjee; Gullal S. Cheema; Amrit Singh Bedi; Tanmoy Chakraborty; Sandeep Kumar; Ankita Shukla",
+      "year": 2025,
+      "notes": "ACL Anthology verifies the MMLoSo 2025 shared-task findings paper, pages 121-129. The task includes Mundari among four Indian tribal languages and reports parallel-sentence training/evaluation resources and publicly released datasets, baselines and system outputs. Register as a modern NLP benchmark/dataset lead; dataset files, provenance, sentence origins, contributor conditions and licences must be separately audited before ingestion.",
+      "verification_state": "publisher_metadata_verified",
+      "access_class": "public_open_access_article_dataset_locator_pending",
+      "rights_note": "Open-access publication does not automatically transfer rights for every linked dataset, sentence source, model output or third-party component. Dataset-level licence, provenance and cultural-access review remain required before reuse."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "run": 197,
+  "date": "2026-09-11",
+  "stream": "books_dictionary_encyclopaedia_manifestation",
+  "result": "SECONDARY_DIGITIZED_MANIFESTATION_VERIFIED_NOT_AUTHORITATIVE",
+  "work": {
+    "title_as_catalogued": "Encyclopedia Mundarica Vol-xiii",
+    "publication_year_as_catalogued": 1941,
+    "publisher_as_catalogued": "Superintendent Government Printing Bihar, Patna",
+    "language_as_catalogued": "English"
+  },
+  "manifestation": {
+    "repository": "Internet Archive / Digital Library of India",
+    "internet_archive_identifier": "dli.ernet.14932",
+    "identifier_ark": "ark:/13960/t6r01q423",
+    "source": "Digital Library of India",
+    "scanning_centre": "C-DAC, Noida",
+    "source_library": "Lbs National Academy Of Administration",
+    "date_accessioned_as_catalogued": "2015-06-24",
+    "addeddate_as_catalogued": "2020-10-09 02:49:55",
+    "item_size_as_catalogued": "1.2G",
+    "ppi_as_catalogued": 600,
+    "ocr_converted_as_catalogued": "abbyy-to-hocr 1.1.37",
+    "ocr_module_version_as_catalogued": "0.0.21",
+    "page_number_confidence_as_catalogued": 77,
+    "page_number_module_version_as_catalogued": "1.0.5",
+    "pdf_degraded_as_catalogued": "invalid-jp2-headers",
+    "pdf_module_version_as_catalogued": "0.0.25",
+    "scanner_as_catalogued": "Internet Archive Python library 1.9.5",
+    "catalogue_download_options_observed": [
+      "ABBYY GZ",
+      "CHOCR",
+      "EPUB",
+      "FULL TEXT",
+      "HOCR",
+      "OCR PAGE INDEX",
+      "OCR SEARCH TEXT",
+      "PAGE NUMBERS JSON",
+      "PDF",
+      "PDF WITH TEXT",
+      "SINGLE PAGE PROCESSED JP2 ZIP",
+      "TORRENT"
+    ]
+  },
+  "verification_boundary": {
+    "secondary_item_identity_verified": true,
+    "repository_catalogue_metadata_verified": true,
+    "catalogued_ocr_pipeline_metadata_verified": true,
+    "catalogued_pdf_degradation_warning_preserved": true,
+    "authoritative_physical_copy_comparison": false,
+    "authoritative_scan_registered": false,
+    "independent_byte_hash_verified": false,
+    "catalogued_scan_page_count_verified": false,
+    "ocr_treated_as_verified_transcription": false,
+    "verified_complete_volume": false,
+    "cultural_passages_ingested": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "source_identity_added": false
+  },
+  "rights_and_governance": {
+    "repository_visibility_treated_as_reuse_permission": false,
+    "download_option_visibility_treated_as_reuse_permission": false,
+    "derivative_availability_treated_as_cultural_access_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "scope_classification": {
+    "relevant_to_mlhkp": true,
+    "class": "book/encyclopaedia/historical language-and-culture reference",
+    "promotion_level": "exact repository manifestation metadata only",
+    "not_promoted": [
+      "OCR text",
+      "cultural propositions",
+      "lexical entries",
+      "participant material",
+      "verified completeness",
+      "reuse permission"
+    ]
+  },
+  "source_locator": {
+    "url": "https://archive.org/details/dli.ernet.14932",
+    "verified_fields": [
+      "title",
+      "publication date",
+      "publisher",
+      "identifier",
+      "ARK",
+      "source",
+      "scanning centre",
+      "source library",
+      "OCR pipeline metadata",
+      "PPI",
+      "PDF degradation warning",
+      "download-option presence"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "run": 402,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["book", "grammar", "typological_reference"],
+  "canonical_work": {
+    "author": "Johann Hoffmann",
+    "title": "Mundari Grammar",
+    "year": 1903,
+    "place": "Calcutta",
+    "publisher": "Bengal Secretariat Press",
+    "language_scope": "Mundari",
+    "iso_639_3": "unr"
+  },
+  "verified_locator": {
+    "provider": "WALS Online",
+    "record": "Hoffmann-1903",
+    "url": "https://wals.info/refdb/record/Hoffmann-1903",
+    "provider_metadata": "WALS identifies Hoffmann 1903, Mundari Grammar, Calcutta: Bengal Secretariat Press; ISO unr; WALS code mun."
+  },
+  "scope_classification": "direct Mundari grammar; eligible for bibliographic/source-census identity, passage evidence only after manifestation and locator audit",
+  "deduplication": {
+    "canonicalization_rule": "bibliographic records, scans, catalogue records and later mirrors of Hoffmann 1903 are manifestations of one work unless edition-level evidence establishes otherwise",
+    "repository_exact_search_before_ingestion": "No Hoffmann 1903 code-search match returned by repository search; branch-specific reconciliation still required before controlled count changes."
+  },
+  "rights_access_consent": {
+    "wals_record_license": "WALS Online states CC BY 4.0 for WALS Online; this does not by itself establish reuse rights for scanned/source-book manifestations.",
+    "source_book_reuse": "unverified in this run",
+    "participant_informant_provenance": "unverified in this run",
+    "community_cultural_access": "unverified; no cultural authorization inferred from publication or age"
+  },
+  "promotion": {
+    "bibliographic_identity": true,
+    "linguistic_claims": 0,
+    "cultural_claims": 0,
+    "passage_evidence_records": 0,
+    "reason": "No permitted immutable full-text manifestation with SHA-256 and exact page locator was audited in this run."
+  },
+  "materialization_requirements": [
+    "resolve a lawful stable full-text manifestation",
+    "record manifestation-level rights/reuse status",
+    "acquire permitted bytes and SHA-256",
+    "map PDF/image pages to printed pages",
+    "extract only exact-locator propositions supported by source text",
+    "record historical collector/informant provenance and cultural uncertainty where applicable"
+  ],
+  "controlled_metrics": "UNCHANGED pending deterministic WEB-MUN reconciliation; this locator must not mechanically increment MMSC/evidence/graph/module/publication totals.",
+  "release_gate_effect": "No PASS effect; unresolved manifestation/rights/provenance remain explicit gaps."
+}

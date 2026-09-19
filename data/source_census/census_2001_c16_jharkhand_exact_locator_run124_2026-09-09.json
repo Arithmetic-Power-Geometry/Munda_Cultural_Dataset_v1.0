@@ -1,0 +1,47 @@
+{
+  "run": 124,
+  "date_utc": "2026-09-09",
+  "source_class": "government_census_language_table",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "title": "C-16: Population by mother tongue, Jharkhand - 2001",
+  "reference_id": "PC01_C16-20",
+  "reference_number": "PC01_C16",
+  "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/22861/study-description",
+  "official_download_filename": "PC01_C16_20.xls",
+  "geographic_scope": ["Jharkhand", "state", "district", "sub-district"],
+  "time_period": 2001,
+  "statistics": "counts",
+  "unit_of_observation": "individual_person",
+  "universe": "all individuals in Jharkhand",
+  "catalogue_description": "Distribution of population by mother tongue and sex separately for total, rural and urban areas at State, District and Sub-District levels; mother tongues arranged alphabetically.",
+  "catalogue_columns": [
+    "Area name",
+    "Mother Tongue Code",
+    "Mother Tongue",
+    "Total - Persons, Males, Females",
+    "Rural - Persons, Males, Females",
+    "Urban - Persons, Males, Females"
+  ],
+  "verification_state": {
+    "official_catalogue_identity_verified": true,
+    "official_download_filename_verified": true,
+    "workbook_bytes_acquired_and_hashed": false,
+    "worksheet_verified": false,
+    "mundari_row_verified": false,
+    "exact_numeric_cells_verified": false,
+    "numeric_claim_promoted": false
+  },
+  "promotion_boundary": "This artifact verifies only the official ORGI table identity, scope, schema description and download filename. No numerical population value is promoted until the actual workbook bytes are independently obtained and hashed and the exact worksheet, row, mother-tongue label/code and cells are recorded.",
+  "rights_and_access": {
+    "public_official_catalogue": true,
+    "public_availability_treated_as_derivative_reuse_permission": false,
+    "cultural_access_override_preserved": true
+  },
+  "integrity": {
+    "fabricated_count": false,
+    "unverified_numeric_claim": false,
+    "ocr_claimed": false,
+    "community_validation_inferred": false,
+    "absolute_source_completeness_claimed": false
+  }
+}

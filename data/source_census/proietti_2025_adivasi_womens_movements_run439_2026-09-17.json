@@ -1,0 +1,55 @@
+{
+  "run": 439,
+  "stream": "non-Mundarica source census",
+  "source_class": ["doctoral dissertation", "institutional repository", "ethnography/history", "gender and political movements"],
+  "canonical_identity": {
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "author": "Marilena Proietti",
+    "year": 2025,
+    "institution": "Sapienza Università di Roma",
+    "discussion_date": "2025-05-26",
+    "language": "English",
+    "persistent_identifiers": [
+      "https://hdl.handle.net/20.500.14242/212639",
+      "URN:NBN:IT:UNIROMA1-212639",
+      "https://hdl.handle.net/11573/1740709"
+    ]
+  },
+  "scope": {
+    "classification": "relevant but multi-community; Munda is one of several focal Adivasi communities",
+    "communities_named_in_repository_abstract": ["Oraon", "Munda", "Santal", "Ho"],
+    "topics": ["Adivasi women's movements", "gender discrimination", "environmental movements", "social/cultural/legal advocacy", "displacement", "local governance", "collective memory"],
+    "geography": "eastern India, especially south Bihar and Jharkhand"
+  },
+  "manifestations": {
+    "canonicalization_rule": "Sapienza IRIS record, legal-deposit repository record, handles, NBN and dissertation PDF are manifestations/identifiers of one dissertation identity; do not count separately.",
+    "pdf_name": "Tesi_dottorato_Proietti.pdf",
+    "provider_reported_size_mb": 47.18,
+    "provider_reported_access": "Open Access from 2026-05-27",
+    "provider_reported_license": "Creative Commons (exact variant not established in this run)"
+  },
+  "deduplication": {
+    "repository_exact_lead_search_before_ingest": "no exact Proietti/Adivasi women movements match returned",
+    "status": "new locator candidate pending deterministic WEB-MUN reconciliation"
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "Repository metadata/abstract verifies identity and broad scope but does not justify Munda-specific cultural propositions. Exact PDF license variant, immutable bytes/hash, page concordance, passage-level Munda relevance, underlying-source dependencies and any participant/fieldwork consent/privacy/cultural-access implications must be audited first."
+  },
+  "rights_and_ethics": {
+    "public_access_is_not_blanket_reuse_permission": true,
+    "exact_cc_variant_required": true,
+    "participant_consent_not_inferred_from_repository_access": true,
+    "cultural_permission_not_inferred": true,
+    "community_validation_not_inferred": true
+  },
+  "next_actions": [
+    "lawfully materialize the repository PDF only if the item-level license permits the intended processing",
+    "record immutable bytes and SHA-256",
+    "establish PDF-to-thesis page concordance",
+    "locate Munda-specific passages and distinguish author's analysis from cited/archival/participant-derived assertions",
+    "audit participant/fieldwork provenance, consent, privacy and cultural access before any sensitive proposition promotion",
+    "reconcile this identity deterministically against WEB-MUN before changing controlled counts"
+  ]
+}

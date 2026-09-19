@@ -1,0 +1,52 @@
+{
+  "run": 184,
+  "branch": "mlhkp-v2",
+  "date_utc": "2026-09-10T22:30:00Z",
+  "source": {
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "creator": "Felix Rau",
+    "doi": "10.5281/zenodo.3380874",
+    "version": "0.1.0",
+    "publisher": "Zenodo"
+  },
+  "authoritative_manifestation": {
+    "record_url": "https://zenodo.org/records/3380874",
+    "filename": "pMunda_cognate_set_2019-08-29.csv",
+    "repository_size": "34.9 kB",
+    "repository_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "download_endpoint": "https://zenodo.org/records/3380874/files/pMunda_cognate_set_2019-08-29.csv?download=1",
+    "download_endpoint_returned_plaintext_csv": true,
+    "csv_header_directly_observed": true,
+    "mundari_column_directly_observed": true,
+    "record_description_reports_127_cognates": true,
+    "independent_byte_preserving_download_succeeded": false,
+    "independent_md5_recomputed": false,
+    "repository_md5_promoted_as_independent": false
+  },
+  "transport_result": {
+    "web_plaintext_read": "PASS",
+    "byte_preserving_container_download": "FAIL",
+    "classification": "authoritative manifestation content endpoint verified, independent byte/hash verification still blocked",
+    "blocker_is_transport_not_source_identity": true
+  },
+  "rights_and_cultural_access": {
+    "dataset_level_license_previously_verified": "CC0-1.0",
+    "underlying_source_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "legal_openness_overrides_cultural_access": false
+  },
+  "evidence_boundary": {
+    "dataset_rows_ingested_run184": false,
+    "cultural_claims_ingested_run184": false,
+    "source_identity_added_run184": false,
+    "count_bearing_change": false,
+    "reason": "The authoritative CSV is directly readable and structurally confirmed, but independent byte-preserving acquisition and checksum recomputation did not succeed in this execution transport. No row-level promotion is made until integrity verification is independently completed."
+  },
+  "release_effect": {
+    "rau_manifestation_endpoint_verified": true,
+    "rau_independent_hash_verified": false,
+    "release_gate_changed": false
+  }
+}

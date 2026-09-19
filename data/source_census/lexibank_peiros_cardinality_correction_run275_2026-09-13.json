@@ -1,0 +1,68 @@
+{
+  "run_id": 275,
+  "date_utc": "2026-09-13",
+  "stream": "dataset / Lexibank / Peiros v1.1 cardinality correction and provenance audit",
+  "scope_class": ["datasets", "dictionaries", "web_resources", "theses_dissertations"],
+  "purpose": "Correct a connector-representation double count before audited release and preserve a traceable explanation without promoting lexical content.",
+  "source": {
+    "repository": "lexibank/peirosaustroasiatic",
+    "release_tag": "v1.1",
+    "release_doi": "10.5281/zenodo.13168443",
+    "tag_commit_sha": "b4d2e4dcee173494c90328f7cafd78c9851c0956",
+    "forms_path": "cldf/forms.csv",
+    "forms_git_blob_sha": "28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5",
+    "parameters_path": "cldf/parameters.csv",
+    "sources_path": "cldf/sources.bib",
+    "derived_dataset_license": "CC-BY-4.0"
+  },
+  "correction": {
+    "previous_reported_mundari_matches": 202,
+    "correct_distinct_csv_rows": 101,
+    "error_mechanism": "The GitHub connector response contains the decoded CSV twice: once in top-level content and once in structuredContent.content. A resource-wide text search therefore returned 202 hits. Restricting the search to the first decoded CSV representation, ending before structuredContent begins, returns 101 Mundari row hits.",
+    "verification": {
+      "top_level_csv_line_range_end_before_structured_content": 10708,
+      "mundari_hits_in_single_csv_representation": 101,
+      "mundari_hits_in_full_connector_resource": 202,
+      "connector_representation_multiplier": 2,
+      "parameter_table_keys": 100,
+      "second_form_row_hits_suffix_2": 3,
+      "second_form_row_ids_verified": ["Mundari-3_bark-2", "Mundari-39_hear-2", "Mundari-93_warm-2"],
+      "source_key_sample_and_second_rows": "Peiros2004a",
+      "source_key_exists_in_pinned_sources_bib": true,
+      "parameter_table_pinned_and_verified": true
+    },
+    "sample_reconciliation_rows_already_verified": 21,
+    "correct_unreconciled_rows_remaining": 80,
+    "bulk_reconciliation_complete": false
+  },
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license_verified": "CC-BY-4.0",
+    "underlying_source_blanket_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "controlled_lexical_rows_promoted": 0,
+    "controlled_cultural_claims_promoted": 0,
+    "note": "This correction concerns cardinality and provenance integrity only. No lexical values, participant-derived content, or cultural propositions are promoted by this audit."
+  },
+  "deduplication": {
+    "canonical_key": "lexibank:peirosaustroasiatic:v1.1",
+    "identity_count_change": false,
+    "reason_count_neutral": "The correction changes neither the controlled source identity count nor publication evidence counts."
+  },
+  "promotion": {
+    "level": "audit correction: connector-level duplicate representation separated from distinct CSV-row cardinality",
+    "verification_audits_added": 1,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "lexical_rows_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Reconcile the remaining 80 of 101 distinct Mundari FormTable rows against pinned sources.bib and parameters.csv before any bulk lexical promotion.",
+    "Package attribution/provenance for any later lexical-row release.",
+    "Apply MLHKP exposure and cultural-access review before downstream publication or use.",
+    "Historical Run 269/271 artifacts containing 202/181 require supersession or textual correction so no release surface repeats the connector double count."
+  ]
+}

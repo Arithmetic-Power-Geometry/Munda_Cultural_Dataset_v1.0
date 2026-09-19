@@ -1,0 +1,100 @@
+{
+  "record_type": "source_manifestation_reconciliation",
+  "run_id": 119,
+  "verified_on": "2026-09-09",
+  "work": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "series": "CIIL Grammar Series",
+    "series_volume": "2",
+    "publisher": "Central Institute of Indian Languages",
+    "place": "Mysore",
+    "languages": ["English", "Mundari"]
+  },
+  "verified_manifestations_and_catalogues": [
+    {
+      "source": "Bhasha Sanchika — CIIL Repository",
+      "persistent_id": "https://hdl.handle.net/20.500.14705/8179",
+      "repository_item_id": "fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "filename": "CIILP0091.pdf",
+      "reported_file_size": "9.63 KB",
+      "access_state": "public catalogue/item page with linked PDF object",
+      "rights_observation": "Bhasha Sanchika page displays © 2026 Bhasha Sanchika. All Rights Reserved; no open reuse licence for book content was verified.",
+      "content_level_ingestion_permitted": false
+    },
+    {
+      "source": "Bharatavani, Ministry of Education / CIIL project",
+      "title": "Mundari Grammar",
+      "reported_pdf_size": "117.39 MB",
+      "access_state": "Login to Read",
+      "year": 1975,
+      "author": "N. K. Sinha",
+      "content_partner": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "publisher": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "rights_observation": "Bharatavani page displays © Copyright Bharatavani. All Rights Reserved; login/read access is not treated as redistribution permission.",
+      "content_level_ingestion_permitted": false
+    },
+    {
+      "source": "CiNii Books",
+      "ncid": "BA46909970",
+      "lccn": "76901792",
+      "physical_description": "xii, 163, [1] p.; 22 cm",
+      "bibliography_locator": "p. [164]",
+      "holdings_observed": 4,
+      "text_language_codes": ["eng", "mun"]
+    },
+    {
+      "source": "WALS Online reference database",
+      "bibliographic_role": "independent scholarly reference confirmation",
+      "series": "CIIL Grammar Series, 2",
+      "publisher": "Central Institute of Indian Languages",
+      "year": 1975
+    }
+  ],
+  "deterministic_identity_decision": {
+    "canonical_work_key": "sinha_nk|mundari_grammar|1975|ciil_grammar_series_2",
+    "decision": "Treat CIIL/Bhasha Sanchika, Bharatavani and library/reference records as manifestations/catalogue records of the same 1975 work, not separate source identities.",
+    "basis": "author, exact title, year, CIIL publisher/series identity and independent catalogue alignment",
+    "manifestation_discrepancy": "The CIIL repository reports a 9.63 KB PDF object while Bharatavani reports a 117.39 MB PDF and CiNii records xii, 163, [1] pages. Therefore the 9.63 KB object must not be assumed to be the complete book without byte-level inspection.",
+    "complete_manifestation_verified": false
+  },
+  "exact_locator_evidence_permitted_now": [
+    "CIIL handle 20.500.14705/8179",
+    "CIIL repository filename CIILP0091.pdf and reported size 9.63 KB",
+    "Bharatavani reported PDF size 117.39 MB and login-to-read state",
+    "CiNii pagination xii, 163, [1] p. and bibliography p. [164]",
+    "NCID BA46909970 and LCCN 76901792"
+  ],
+  "not_promoted": [
+    "grammar rules",
+    "lexical entries",
+    "example sentences",
+    "page-dependent propositions from the book",
+    "bulk text",
+    "scans",
+    "redistributable PDF bytes",
+    "community-wide cultural claims"
+  ],
+  "rights_and_cultural_boundary": {
+    "public_catalogue_access_is_reuse_permission": false,
+    "login_read_access_is_reuse_permission": false,
+    "open_licence_verified": false,
+    "participant_or_community_consent_inferred": false,
+    "cultural_access_override_required_for_sensitive_material": true
+  },
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "gap_narrowed": "Sinha 1975 identity, independent pagination and manifestation-size discrepancy are now explicitly reconciled; complete byte acquisition, independent checksum, page-image accounting and reuse terms remain pending."
+  },
+  "sources_checked": [
+    "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "https://hdl.handle.net/20.500.14705/8179",
+    "https://bharatavani.in/home/book?id=Mundari+Grammar",
+    "https://ci.nii.ac.jp/ncid/BA46909970",
+    "https://wals.info/refdb/record/Sinha-1975"
+  ]
+}

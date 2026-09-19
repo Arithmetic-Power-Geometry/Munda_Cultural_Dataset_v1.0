@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "run": 236,
+  "search_id": "MMSC-SEARCH-000236",
+  "checked_utc": "2026-09-12T00:43:24Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and exact-locator ingestion boundary audit",
+  "source": {
+    "title": "Endangered Recipes Translated 500",
+    "creator": "Karya",
+    "year_as_cited_by_dataset_card": 2026,
+    "source_type": "gated_multimodal_translated_dataset",
+    "canonical_locator": "https://huggingface.co/datasets/karya/endangered-recipes-translated-500",
+    "repository_id": "karya/endangered-recipes-translated-500",
+    "related_source_dataset": "karya/ELR-1000",
+    "related_paper": "arXiv:2512.01077"
+  },
+  "deterministic_identity_and_dedup": {
+    "decision": "distinct_release_related_to_but_not_identical_with_ELR_1000",
+    "basis": [
+      "distinct Hugging Face repository identifier",
+      "dataset card explicitly calls this a 500-recipe translated subset of ELR-1000",
+      "translated release and original ELR-1000 explicitly declare separate licences",
+      "existing MLHKP Karya/ELR-1000 and MunTTS records therefore must not be duplicated as this manifestation"
+    ],
+    "controlled_identity_promotion_this_run": false,
+    "reason_not_counted_yet": "The public card is sufficient for a verification audit, but the data files themselves are gated and were not accessed in this run. The audit is retained as an exact repository/card manifestation without changing permanent MMSC identity counts until gated manifestation access and release-governance review are completed."
+  },
+  "exact_locator_evidence": {
+    "dataset_card_sections_verified": [
+      "Dataset Details",
+      "Dataset Sources",
+      "License And Attribution",
+      "Dataset Statistics",
+      "Languages Included",
+      "Per-Language Coverage",
+      "Relationship To ELR-1000",
+      "Data Collection And Translation",
+      "Limitations",
+      "Citation"
+    ],
+    "mundari_aggregate_locator": {
+      "language": "Mundari",
+      "recipes": 50,
+      "images": 315,
+      "average_images_per_recipe": 6.30,
+      "sentence_pairs": 783,
+      "evidence_level": "dataset-card aggregate metadata only"
+    },
+    "release_level_statistics": {
+      "recipes": 500,
+      "languages": 10,
+      "images": 5017,
+      "native_recipe_step_lines": 3559,
+      "translated_recipe_step_lines": 3559,
+      "top_level_translation_pairs": 10998,
+      "modalities": ["text", "images"]
+    },
+    "record_level_rows_or_media_inspected": 0,
+    "record_level_exact_locators_promoted": 0
+  },
+  "access_and_integrity": {
+    "public_card_access": true,
+    "dataset_files_gated": true,
+    "gate_condition_observed": "User must agree to share contact information / accept access conditions before files and content can be accessed.",
+    "byte_preserving_acquisition_completed": false,
+    "independent_hash_recomputed": false,
+    "file_or_row_count_independently_recomputed": false,
+    "blocker": "gated dataset files were not available to this audit session"
+  },
+  "rights_and_governance": {
+    "translated_release_declared_license": "CC BY 4.0",
+    "original_elr1000_license_is_separate": true,
+    "original_elr1000_card_declared_license": "KPL BY-NC-SA-FS 1.0",
+    "public_availability_is_permission": false,
+    "translated_release_license_inferred_to_original_elr1000": false,
+    "dataset_card_reports_informed_consent_and_fair_compensation": true,
+    "participant_level_consent_artifacts_independently_verified": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "sensitive_or_culturally_restricted_recipe_content_ingested": false,
+    "governance_note": "Copyright/licence entitlement does not override MLHKP consent, dignity, community-validation or cultural-access controls. Dataset-card statements about consent are recorded as source-reported process metadata, not independently verified participant-level consent."
+  },
+  "scope_and_uncertainty": {
+    "dataset_card_limitation_preserved": "The translated 500-recipe subset must not be treated as complete coverage of any language or food tradition; recipes, spellings and translations can vary across speakers, families and regions.",
+    "cultural_claims_promoted": 0,
+    "lexical_or_translation_rows_promoted": 0,
+    "participant_records_promoted": 0,
+    "images_or_audio_promoted": 0
+  },
+  "synchronization_decision": {
+    "mmsc_audited_source_identity_count_change": 0,
+    "web_discovery_raw_record_count_change": 0,
+    "source_claim_count_change": 0,
+    "evidence_record_count_change": 0,
+    "evidence_link_count_change": 0,
+    "streamlit_module_count_change": 0,
+    "coverage_matrix_state_change": "none; existing food/media/language coverage is not upgraded by inaccessible record-level content",
+    "publication_numeric_regeneration_required": false,
+    "gap_added": "gated translated-recipe manifestation requires lawful gated access, byte/hash validation, record-level provenance review and MLHKP cultural-access review before content ingestion"
+  },
+  "promotion_boundary": "Promote exact dataset-card identity, release relationship, rights metadata, gating state and Mundari aggregate locator as verification metadata only. Do not ingest or expose individual recipes, translations, cultural notes, images, participant material, or community-wide cultural claims in this run."
+}

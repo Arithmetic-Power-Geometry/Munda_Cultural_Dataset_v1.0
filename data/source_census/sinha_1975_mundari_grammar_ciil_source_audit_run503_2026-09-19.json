@@ -1,0 +1,75 @@
+{
+  "run": 503,
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_id": "sinha-1975-mundari-grammar-ciil",
+  "source_class": ["book", "grammar", "government_language_institute_repository"],
+  "title": "Mundari Grammar",
+  "author": "N. K. Sinha",
+  "year": 1975,
+  "publisher": "Central Institute of Indian Languages",
+  "series": "CIIL Grammar Series",
+  "series_volume": "2",
+  "language_scope": ["Mundari", "English"],
+  "iso_639_3": "unr",
+  "authoritative_repository": {
+    "name": "Bhasha Sanchika — CIIL Repository",
+    "persistent_uri": "https://hdl.handle.net/20.500.14705/8179",
+    "record_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "repository_metadata_verified": true,
+    "repository_file_label": "CIILP0091.pdf"
+  },
+  "independent_metadata_crosscheck": {
+    "name": "WALS Online reference database",
+    "url": "https://wals.info/refdb/record/Sinha-1975",
+    "verified_fields": ["author", "year", "title", "publisher", "series", "series_volume", "iso_639_3"]
+  },
+  "scope": {
+    "classification": "direct_Mundari_linguistic_source",
+    "repository_description_topics": ["noun morphology", "verb morphology", "adjectives", "adverbs", "syntax"],
+    "cultural_claims_inferred_from_metadata": false
+  },
+  "deduplication": {
+    "canonical_work_key": "Sinha|1975|Mundari Grammar|CIIL Grammar Series 2",
+    "rule": "CIIL repository manifestation, handle record, WALS bibliographic record, catalogues, mirrors, scans and citations are manifestations/records of one underlying work unless edition collation proves substantive revision.",
+    "independent_source_count_increment_authorized": false,
+    "reason": "Run-level source audit must be reconciled against WEB-MUN ledger before controlled counts change."
+  },
+  "rights_access_consent": {
+    "public_repository_access_verified": true,
+    "open_redistribution_license_verified": false,
+    "participant_or_consultant_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "rule": "Government/CIIL public access does not itself establish open redistribution, participant consent, or unrestricted cultural permission."
+  },
+  "ingestion": {
+    "state": "metadata_verified_locator_ingestion_pending",
+    "immutable_pdf_bytes_obtained": false,
+    "sha256_verified": false,
+    "pdf_printed_page_concordance_verified": false,
+    "exact_passage_records_promoted": 0,
+    "claims_promoted": 0,
+    "promotion_requirements": [
+      "lawful immutable source bytes or otherwise permitted evidence representation",
+      "SHA-256 of ingested bytes",
+      "PDF-to-printed-page concordance",
+      "exact chapter/section/page/example locator",
+      "passage-level provenance/dependency classification",
+      "applicable reuse basis",
+      "participant/consultant consent assessment where source provenance requires it",
+      "cultural-access/sensitivity review where applicable"
+    ],
+    "target_locator": "<permitted-immutable-file>#pdf-page=<n>;printed-page=<n>;chapter=<heading>;section=<heading>;example=<id-if-any>;sha256=<hash>"
+  },
+  "audit_invariants": [
+    "catalogue_or_repository_record_does_not_equal_independent_source",
+    "government_or_official_public_access_does_not_equal_open_reuse_license",
+    "grammar_example_does_not_equal_independent_cultural_claim",
+    "metadata_topic_does_not_equal_verified_passage_evidence"
+  ],
+  "blocked_or_unresolved": [
+    "Repository metadata exposes a PDF label, but immutable PDF bytes and local SHA-256 were not obtained in this run.",
+    "Item-level reuse terms were not verified.",
+    "Exact passage/example promotion remains blocked pending byte-level and locator audit."
+  ],
+  "audit_date_utc": "2026-09-19T09:44:00Z"
+}

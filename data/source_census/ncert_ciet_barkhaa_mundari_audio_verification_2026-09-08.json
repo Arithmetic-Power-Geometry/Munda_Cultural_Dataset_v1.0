@@ -1,0 +1,55 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "branch": "mlhkp-v2",
+  "source_class": "government_education_audio_web_resource",
+  "title": "Barkhaa Audio — Mundari language items",
+  "publisher": "Central Institute of Educational Technology (CIET), NCERT",
+  "canonical_url": "https://ciet.ncert.gov.in/barkhaa_audio",
+  "identity_state": "official CIET/NCERT web surface verified; permanent MLHKP source identity not yet assigned pending deterministic comparison against all preserved web-discovery expansion records",
+  "verified_metadata": {
+    "institution": "Central Institute of Educational Technology, a constituent unit of NCERT",
+    "surface": "Barkhaa Audio",
+    "mundari_items_observed": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "additional_language_mix_labels_observed": ["Mundari-Mix"]
+  },
+  "scope_classification": {
+    "primary": ["language_education", "audio", "children_reading_material"],
+    "not_established": ["community_representative_cultural_practice", "traditional_or_sacred_status", "dialect_representativeness", "speaker_identity", "speaker_consent", "community_validation"]
+  },
+  "rights_access_consent": {
+    "technical_access": "public official web page",
+    "redistribution_permission": "not established at item level",
+    "derivative_reuse_permission": "not established at item level",
+    "speaker_or_performer_consent_for_dataset_reuse": "not established from the page",
+    "cultural_access_gate": "required before any audio ingestion beyond public metadata; cultural access overrides technical or legal availability",
+    "ingestion_decision": "metadata and locator only until item-level rights, contributor/speaker consent where applicable, and cultural-access conditions are resolved"
+  },
+  "evidence_promotion": {
+    "promoted_cultural_claim": false,
+    "promoted_audio_bytes": false,
+    "promoted_transcript": false,
+    "permitted_current_evidence": "official source existence, institution, page locator, and presence of Mundari-labelled educational audio options"
+  },
+  "blocked_or_uncertain": [
+    "No item-level license or redistribution grant was established from the CIET page in this verification cycle.",
+    "No speaker identity, consent, dialect, provenance chain, recording date or community-validation state is asserted.",
+    "Full deterministic comparison against all 87 preserved web-discovery leads remains required before a permanent source ID is assigned."
+  ],
+  "integrity": {
+    "public_availability_treated_as_reuse_permission": false,
+    "consent_fabricated": false,
+    "community_validation_fabricated": false,
+    "cultural_claim_fabricated": false
+  }
+}

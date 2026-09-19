@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mlhkp.org/schemas/master_source_register.schema.json",
+  "title": "MLHKP Master Source Register",
+  "type": "object",
+  "required": ["schema_version", "register_id", "project_id", "sources"],
+  "properties": {
+    "schema_version": {"const": "2.0"},
+    "register_id": {"const": "MLHKP-MASTER-SOURCE-REGISTER"},
+    "project_id": {"const": "MLHKP"},
+    "description": {"type": "string"},
+    "source_count": {"type": "integer", "minimum": 0},
+    "legacy_source_count": {"type": "integer", "minimum": 0},
+    "sources": {
+      "type": "array",
+      "items": {"$ref": "source_record.schema.json"}
+    }
+  },
+  "additionalProperties": false
+}

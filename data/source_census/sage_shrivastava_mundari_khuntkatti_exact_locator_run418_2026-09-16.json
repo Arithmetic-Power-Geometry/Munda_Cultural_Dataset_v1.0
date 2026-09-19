@@ -1,0 +1,54 @@
+{
+  "run": 418,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed article / customary land institution",
+  "canonical_identity": {
+    "author": "Mukesh Kumar Shrivastava",
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "year": 2013,
+    "journal_volume_issue": "13(2)",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher_platform": "SAGE Journals",
+    "first_published_online": "2013-07-01"
+  },
+  "identity_verification": {
+    "status": "verified_from_publisher_metadata",
+    "canonical_url": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "repository_pre_ingestion_search": "No repository code-search match for 'Mundari Khuntkatti' before this audit record was created."
+  },
+  "scope": {
+    "classification": "direct Munda/Mundari cultural-legal relevance",
+    "publisher_abstract_reports": "Empirical investigation of Mundari Khuntkatti as a customary institution in two villages, Gutuhatu and Salga, in Khunti district, Jharkhand.",
+    "caution": "Publisher abstract statements are source assertions, not independently validated MLHKP cultural claims."
+  },
+  "access_rights": {
+    "publisher_full_text_state": "restricted access / request permissions indicated by publisher result",
+    "redistribution_permission": "not established",
+    "participant_or_community_consent": "not established",
+    "cultural_access_permission": "not established"
+  },
+  "exact_locator_plan": {
+    "current_locator_level": "DOI + publisher article identity + abstract-level scope",
+    "passage_promotion_requires": [
+      "lawfully obtainable full-text manifestation",
+      "immutable manifestation identifier and SHA-256",
+      "journal/PDF page concordance",
+      "item-level reuse-rights review",
+      "method/site/informant provenance audit",
+      "consent/privacy/cultural-access review for community-derived assertions"
+    ]
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1177/0972558X1301300205",
+    "publisher_html_and_pdf": "same article identity; do not count as separate sources",
+    "merge_with_other_khuntkatti_sources": false
+  },
+  "promotion": {
+    "new_public_factual_claims": 0,
+    "new_passage_evidence_records": 0,
+    "reason": "Full text is restricted and underlying community-derived assertions have not passed provenance/rights/consent/cultural-access gates."
+  },
+  "blocked_action": "Full-text evidence promotion blocked; retained as explicit gap and census immediately continues to other source classes.",
+  "controlled_count_policy": "Do not alter MMSC controlled totals until Runs381-418 are deterministically reconciled against the WEB-MUN ledger."
+}

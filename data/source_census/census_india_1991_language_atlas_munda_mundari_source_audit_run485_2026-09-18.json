@@ -1,0 +1,40 @@
+{
+  "run": 485,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Language Atlas of India 1991",
+    "corporate_author": "Census of India / Office of the Registrar General, India",
+    "source_class": ["government", "census", "language_atlas", "map/statistical_reference"],
+    "scope": ["Munda", "Mundari"],
+    "canonicalization_note": "Catalogue records, hosted PDFs, mirrors, OCR/search extracts and derivative web references are manifestations of one underlying Census atlas and must not be counted as independent corroborating sources."
+  },
+  "discovery": {
+    "verified_search_manifestation": "https://ruralindiaonline.org/media/documents/Language_Atlas_of_India_1991.pdf",
+    "observed_content": "Searchable PDF text contains distinct Munda and Mundari entries and reports 1991 speaker totals and state/district distributions.",
+    "identity_status": "verified at document/search-manifestation level; authoritative-edition metadata and exact printed-page concordance still require repository-level verification"
+  },
+  "evidence_policy": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "No cultural or demographic proposition is promoted until an authoritative/lawfully usable manifestation is fixed, immutable bytes are hashed, printed/PDF page concordance is established, and exact table/map/text locators are recorded.",
+    "temporal_scope": "1991 Census only; historical counts/distributions must never be represented as current conditions.",
+    "classification_guard": "MUNDA and MUNDARI are kept as distinct Census labels exactly as reported; no equivalence or aggregation is inferred without an explicit Census rule/source.",
+    "rights_guard": "Public discoverability or government authorship is not treated as blanket redistribution permission. Preserve source terms and redistribute only when permitted.",
+    "cultural_guard": "No ethnographic/cultural inference is licensed by language-count tables alone."
+  },
+  "exact_locator_target": "<authoritative-permitted-file>#pdf-page=<n>;printed-page=<n>;entry-or-table=<identifier>;row=<MUNDA|MUNDARI>;sha256=<hash>",
+  "gaps": [
+    "authoritative Census-hosted manifestation or equivalent edition verification",
+    "lawful immutable bytes and SHA-256",
+    "PDF-to-printed-page concordance",
+    "exact entry/table/map locators",
+    "edition/mirror collation",
+    "dependency check against later Census summaries"
+  ],
+  "release_effect": {
+    "controlled_MMSC_counts_changed": false,
+    "publication_metrics_changed": false,
+    "status": "verified census identity / locator-ready gap; not evidence-promoted"
+  }
+}

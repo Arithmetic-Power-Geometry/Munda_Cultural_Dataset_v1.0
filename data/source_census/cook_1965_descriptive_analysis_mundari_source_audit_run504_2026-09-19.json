@@ -1,0 +1,80 @@
+{
+  "run": 504,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census",
+  "canonical_id": "cook_1965_descriptive_analysis_mundari",
+  "source_class": ["thesis_dissertation", "grammar", "linguistics"],
+  "identity": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A descriptive analysis of Mundari: A study of the structure of the Mundari language according to the methods of linguistic science, with particular attention to the units of sound, the units of meaning, the units of grammar, and their mutually contrastive arrangement patterns",
+    "institution": "Georgetown University",
+    "degree": "Ph.D.",
+    "language": "English",
+    "language_studied": "Mundari [unr]",
+    "pagination": "vi, 315 pages; illustrations/maps reported by Glottolog",
+    "dissertation_microfilm_number": "65-12,509"
+  },
+  "verification": [
+    {
+      "provider": "Glottolog 5.3",
+      "url": "https://glottolog.org/resource/reference/id/33106",
+      "verified_fields": ["author", "year", "title", "Georgetown University dissertation", "pagination", "Mundari [unr]", "document type grammar"]
+    },
+    {
+      "provider": "Census of India / Linguistic Survey of India Jharkhand bibliography",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "verified_fields": ["Cook bibliographic presence", "descriptive analysis of Mundari", "University Microfilms/Ann Arbor manifestation"]
+    },
+    {
+      "provider": "ISFAS Kiel South Asia bibliography",
+      "url": "https://www.isfas.uni-kiel.de/de/linguistik-und-phonetik/forschung/projekte/southasiabibliography/bibliography/austroasiatic/munda/mundari",
+      "verified_fields": ["author", "1965", "title", "PhD dissertation", "Georgetown"]
+    }
+  ],
+  "canonicalization": {
+    "work_identity": "one 1965 Georgetown dissertation",
+    "collapse_manifestations": ["Georgetown dissertation", "University Microfilms/UMI manifestation", "catalogue/bibliography records", "third-party scans"],
+    "rule": "Do not count catalogue records, microfilm manifestations, mirrors, OCR/transcriptions, or scans as independent sources unless substantive edition revision is demonstrated."
+  },
+  "scope": {
+    "status": "verified_in_scope",
+    "basis": "A full descriptive linguistic study explicitly devoted to Mundari phonology, morphology and syntax.",
+    "non_mundarica_caveat": "The dissertation explicitly discusses and uses Hoffmann/Encyclopaedia Mundarica material alongside other material. Passage-level provenance/dependency must therefore be classified before any item can serve as independent non-Mundarica corroboration."
+  },
+  "rights_access_consent": {
+    "copyright_status": "copyright asserted in dissertation manifestation; no open redistribution licence verified in this run",
+    "permitted_redistribution": "unverified",
+    "participant_or_consultant_consent_for_dataset_reuse": "unverified",
+    "cultural_access": "unreviewed at passage/item level",
+    "third_party_scan": "discovery/inspection only; not treated as permission"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No lawful immutable full-text object with verified reuse basis, checksum, page concordance, exact locator and passage-level dependency/provenance was established during this run.",
+    "required_gates": [
+      "lawful/permitted immutable source bytes",
+      "SHA-256",
+      "PDF/microfilm to dissertation-page concordance",
+      "exact page/section/example locator",
+      "passage-level dependency classification: independent | Hoffmann/Mundarica-derived | mixed | unresolved",
+      "reuse-rights basis",
+      "consultant/participant provenance and consent where applicable",
+      "cultural-sensitivity/access review where applicable"
+    ],
+    "target_locator": "<permitted-immutable-object>#dissertation-page=<n>;section=<heading>;example=<id-or-na>;sha256=<hash>;dependency=<independent|hoffmann-derived|mixed|unresolved>"
+  },
+  "release_invariants_added": [
+    "microfilm_or_scan_manifestation_does_not_equal_independent_source",
+    "cook_passage_does_not_equal_independent_non_mundarica_evidence_until_dependency_is_resolved",
+    "bibliographic_discovery_does_not_equal_permission_or_evidence_promotion"
+  ],
+  "blocked_or_unresolved": [
+    "authoritative reusable full-text bytes not obtained",
+    "redistribution/reuse permission not established",
+    "passage-level Mundarica dependency not yet classified",
+    "consultant/participant consent not established"
+  ],
+  "audit_note": "No cultural or linguistic assertion from the dissertation is promoted by this record. Unresolved rights, provenance and dependency remain explicit gaps."
+}

@@ -1,0 +1,41 @@
+{
+  "run": 382,
+  "date_utc": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "source_class": "web_resource_bibliography",
+  "title": "Mundari bibliography",
+  "provider": "Christian-Albrechts-Universitaet zu Kiel, ISFAS South Asia Bibliography",
+  "locator": "https://www.isfas.uni-kiel.de/de/linguistik-und-phonetik/forschung/projekte/southasiabibliography/bibliography/austroasiatic/munda/mundari",
+  "scope": "bibliographic discovery and identity reconciliation only",
+  "verified_provider_metadata": {
+    "bibliography_contains_mundari_specific_entries": true,
+    "examples_reconciled": [
+      "Hoffmann 1893 A Mundari first reader",
+      "Langendoen 1967 Mundari Verb Conjugation",
+      "Munda 1969 Aspects of Mundari verb",
+      "Munda 1976 Some Formal Features of Traditional Mundari Poetry",
+      "Osada 1991 The Demonstrative System in Mundari",
+      "Osada 1999 Experiential constructions in Mundari",
+      "Patel and Tripathy 1993 Mundari [Grammar, Texts, Dictionary]",
+      "Wagner 1904 Some Kolarian Riddles current among the Mundaris",
+      "Wali 1907 Horo Duranko - Mundari Songs",
+      "Zide and Munda 1969 Descriptive Dialogue Songs in Mundari",
+      "Zide and Munda 1970 Structural Influence of Bengali Vaisnava Songs on Traditional Mundari Songs"
+    ]
+  },
+  "promotion_boundary": {
+    "bibliographic_identity_only": true,
+    "underlying_work_manifestation_verified": false,
+    "underlying_work_reuse_rights_verified": false,
+    "passage_level_evidence_promoted": false,
+    "cultural_claims_promoted": false
+  },
+  "deduplication_rule": "Bibliography page is one discovery/reference source; listed works must be reconciled against existing WEB-MUN leads before any new unique identity is counted.",
+  "rights_access_consent": "Public bibliography locator does not establish rights, consent, community validation, or cultural-access permission for listed underlying works.",
+  "next_actions": [
+    "reconcile each listed work against canonical discovery ledger",
+    "resolve authoritative/publisher/library manifestation for unresolved works",
+    "materialize only permitted manifestations",
+    "record exact page/passage locators only after source verification"
+  ]
+}

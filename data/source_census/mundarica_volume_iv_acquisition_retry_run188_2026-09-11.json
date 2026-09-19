@@ -1,0 +1,28 @@
+{
+  "audit_id": "MLHKP-MUNDARICA-IV-RUN188",
+  "run": 188,
+  "checked_utc": "2026-09-11T00:34:00Z",
+  "scope": "Encyclopaedia Mundarica Volume IV acquisition / exact-manifestation / page-accounting retry",
+  "result": "BLOCKED_NO_EXACT_MANIFESTATION_VERIFIED",
+  "searches": [
+    "\"Encyclopaedia Mundarica Vol IV\" Hoffmann Internet Archive",
+    "\"Encyclopedia Mundarica Vol-iv\"",
+    "\"Encyclopaedia Mundarica Volume IV\" 1930"
+  ],
+  "observed_search_result_classes": [
+    "secondary bibliographic mentions",
+    "unrelated Linguistic Survey of India Volume IV references",
+    "syllabus/reference-list mentions"
+  ],
+  "exact_volume_iv_digital_manifestation_verified": false,
+  "page_count_verified": false,
+  "authoritative_scan_verified": false,
+  "ocr_verified_as_transcription": false,
+  "verified_complete": false,
+  "rights_or_cultural_access_inferred": false,
+  "source_identity_added": false,
+  "claim_or_evidence_added": false,
+  "decision": "Do not register a Volume IV manifestation, page count, OCR state, completeness state, rights state, or cultural content from generic references. Preserve the historical locator only and continue acquisition via authoritative catalogues/libraries or an exact digitized-item record.",
+  "parallel_stream_note": "This blocked acquisition does not halt independent census, evidence, governance, UI, publication, or CI work.",
+  "release_effect": "No count-bearing change; blocker made explicit and false-completeness risk reduced."
+}

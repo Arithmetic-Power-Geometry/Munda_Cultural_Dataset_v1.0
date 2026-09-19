@@ -1,0 +1,62 @@
+{
+  "run": 506,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census",
+  "canonical_id": "konow-1911-mundari-phonology-linguistic-survey",
+  "source_class": ["peer-reviewed/scholarly article", "historical linguistic survey critique"],
+  "title": "Mundari Phonology and the Linguistic Survey",
+  "author": "Sten Konow",
+  "year": 1911,
+  "container_title": "Journal and Proceedings of the Asiatic Society of Bengal",
+  "series_issue": "new series, volume 7",
+  "pages": "37-41",
+  "language": "English",
+  "identity_verification": {
+    "provider": "Biodiversity Heritage Library / BioStor",
+    "persistent_part_url": "https://www.biodiversitylibrary.org/part/452153",
+    "biostor_reference": "317635",
+    "status": "verified from provider metadata"
+  },
+  "rights_access": {
+    "provider_statement": "Public domain; BHL considers the work no longer under copyright protection",
+    "article_pdf_available": true,
+    "redistribution_assessment": "provider marks public domain; local immutable bytes and checksum still required before repository evidence promotion"
+  },
+  "scope": {
+    "mundari_direct": true,
+    "mundarica_excluded": true,
+    "note": "Article is directly about Mundari phonology and the Linguistic Survey of India; it is not Encyclopaedia Mundarica. Passage-level dependency on LSI or other cited works must be preserved."
+  },
+  "deduplication": {
+    "repository_exact_title_search_before_creation": "no match",
+    "canonicalization_rule": "BHL part, BioStor representation, journal scan, PDF and metadata exports are manifestations of one article identity, not independent sources"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "This run verified identity, pagination, access and public-domain status but did not obtain and hash immutable article bytes or inspect exact passage locators. No cultural or linguistic proposition is promoted from metadata alone.",
+    "required_next_steps": [
+      "obtain lawful immutable article PDF/image bytes from BHL",
+      "compute SHA-256",
+      "verify scan-page to printed-page concordance for pp. 37-41",
+      "extract only exact-locator passages relevant to Mundari",
+      "classify each passage dependency as primary author analysis, LSI-derived, other-source-derived, mixed, or unresolved",
+      "retain historical/colonial-source uncertainty and do not treat historical description as timeless community fact"
+    ],
+    "planned_locator": "https://www.biodiversitylibrary.org/part/452153#printed-page=<37-41>;scan-page=<n>;sha256=<hash>;dependency=<class>"
+  },
+  "cultural_governance": {
+    "consent": "not applicable/unknown for article authorship; any quoted elicited/community material requires provenance review",
+    "cultural_uncertainty": "historical linguistic source; community self-description and contemporary validity must not be inferred",
+    "invariants": [
+      "public-domain article does not equal contemporary cultural authority",
+      "article manifestation does not equal independent source",
+      "LSI-derived passage does not equal independent corroboration of LSI"
+    ]
+  },
+  "blocked_or_unverified": [
+    "immutable local PDF bytes not materialized in this run",
+    "SHA-256 not computed",
+    "exact passage-level evidence not yet inspected"
+  ]
+}

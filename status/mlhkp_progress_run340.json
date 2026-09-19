@@ -1,0 +1,15 @@
+{
+  "project":"MLHKP",
+  "branch":"mlhkp-v2",
+  "latest_run":340,
+  "work_head":"add1ad1d3d30291c91df6c211d08ddb86bb4eb4d",
+  "deadline_ist":"2026-09-21T23:59:00+05:30",
+  "mmsc":{"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73,"latest_search_id":"MMSC-SEARCH-000340","classes_refreshed":14},
+  "controlled":{"claims":52,"evidence_records":52,"provenance_links":52,"streamlit_modules":42,"ui_mapping_percent":100.0,"schema_category_representation_percent":100.0},
+  "run340":{"exact_locator_records_added":3,"new_controlled_claims":0,"new_controlled_evidence_records":0,"cultural_claims_promoted":0,"linguistic_claims_promoted":0,"publication_metric_change":false,"streamlit_module_count_change":false,"evidence_graph_count_change":false},
+  "release_gate":"NOT_PASS",
+  "primary_blocker":"73 unresolved WEB-MUN leads plus deterministic numbered-register reconciliation",
+  "secondary_blockers":["Census/LSI/CIIL primary-byte and hash verification","Karya/AdiBhashaa/ELR-1000/Rau deterministic manifestation verification without bypassing access controls","audiovisual consent/community/cultural-access review"],
+  "canonical_status_update_state":"blocked_by_connector_safety_layer_during_this_run; canonical status/mlhkp_progress.json remains at Run 339 and must not be represented as synchronized",
+  "ci_state":"four workflows registered on work head; Streamlit Smoke Test observed successful; aggregate commit status still pending at last verification"
+}

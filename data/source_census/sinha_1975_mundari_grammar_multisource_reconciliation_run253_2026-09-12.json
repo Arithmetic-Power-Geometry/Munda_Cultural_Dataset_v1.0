@@ -1,0 +1,120 @@
+{
+  "run_id": 253,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and verification",
+  "source_class": ["books", "grammars", "institutional_catalogue", "typological_bibliography"],
+  "work": {
+    "canonical_title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages",
+    "publication_place": "Mysore",
+    "series": "CIIL Grammar Series",
+    "series_number": 2,
+    "canonical_key": "sinha-nk|1975|mundari-grammar|ciil-grammar-series-2",
+    "already_audited_work_family": true,
+    "prior_audit_run": 206
+  },
+  "verified_locators": [
+    {
+      "provider": "Bharatavani",
+      "url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "provider_type": "Ministry of Education project implemented by CIIL",
+      "observed_title": "Mundari Grammar",
+      "observed_author": "N. K. Sinha",
+      "observed_year": 1975,
+      "observed_language": "Mundari",
+      "observed_book_type": "Grammar",
+      "content_partner": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "publisher": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "reported_pdf_size": "117.39 MB",
+      "access_statement": "Login to Read",
+      "page_copyright_statement": "Copyright Bharatavani. All Rights Reserved",
+      "bytes_acquired": false,
+      "full_text_verified": false
+    },
+    {
+      "provider": "CiNii Books",
+      "url": "https://ci.nii.ac.jp/ncid/BA46909970",
+      "ncid": "BA46909970",
+      "lccn": "76901792",
+      "observed_title": "Mundari grammar",
+      "observed_author": "N. K. Sinha",
+      "observed_publisher": "Central Institute of Indian Languages",
+      "observed_year": 1975,
+      "series": "CIIL grammar series, 2",
+      "place": "Mysore",
+      "extent": "xii, 163, [1] p.",
+      "bibliography_locator": "p. [164]",
+      "text_language_codes": ["eng", "mun"],
+      "subject_heading": "Mundari language -- Grammar",
+      "full_text_verified": false
+    },
+    {
+      "provider": "WALS Online",
+      "url": "https://wals.info/refdb/record/Sinha-1975",
+      "reference_id": "Sinha-1975",
+      "observed_citation": "Sinha, N. K. 1975. Mundari Grammar. (CIIL Grammar Series, 2.) Mansagangotri, Mysore: Central Institute of Indian Languages.",
+      "language": "Mundari",
+      "use_in_this_audit": "bibliographic/work-family corroboration only; WALS-derived structural datapoints are not promoted as primary evidence"
+    },
+    {
+      "provider": "Helka / Finna",
+      "url": "https://www.finna.fi/Record/helka.9911704473506253",
+      "observed_title": "Mundari grammar",
+      "observed_author": "Sinha, N. K.",
+      "observed_publisher": "Mysore : Central Institute of Indian Languages",
+      "observed_year": 1975,
+      "series": "Grammar series, 2 / CIIL grammar series, 2",
+      "extent": "xii, 163 pages : map",
+      "full_text_verified": false
+    }
+  ],
+  "deduplication": {
+    "identity_count_change": false,
+    "reason": "Run 206 already established this Sinha 1975 work-family and reconciled CIIL/Bhasha Sanchika and Bharatavani manifestations. Run 253 adds independent institutional and typological bibliographic corroboration without creating a duplicate identity.",
+    "same_work_supported": true,
+    "same_digital_file_across_providers_claimed": false,
+    "sinha_1974_phonetic_reader_is_distinct_work": true
+  },
+  "rights_access_cultural_boundary": {
+    "public_catalogue_visibility_is_permission": false,
+    "login_access_is_redistribution_permission": false,
+    "page_copyright_respected": true,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "scan_sequence_to_printed_pagination_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion": {
+    "level": "exact multi-source bibliographic and access-state corroboration of existing work-family",
+    "content_evidence_promoted": false,
+    "passages_promoted": 0,
+    "grammar_rules_promoted": 0,
+    "lexical_rows_promoted": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "source_identities_added": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "streamlit_modules_added": 0,
+    "count_bearing_change": false
+  },
+  "explicit_gaps": [
+    "lawful complete source bytes",
+    "independent cryptographic hash",
+    "manifestation-to-manifestation file equivalence",
+    "scan-sequence/front-matter/printed-page reconciliation",
+    "OCR verification",
+    "exact page-level grammar-example verification",
+    "redistribution and model-training permission",
+    "historical participant/source provenance, community validation and cultural-access review"
+  ]
+}

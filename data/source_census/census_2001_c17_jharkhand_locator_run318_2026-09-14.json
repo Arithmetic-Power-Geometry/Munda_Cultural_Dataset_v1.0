@@ -1,0 +1,86 @@
+{
+  "run": 318,
+  "date": "2026-09-14",
+  "search_id": "MMSC-SEARCH-000318",
+  "source_class": "government/TRI/Census/LSI",
+  "scope": "Jharkhand core relevance; longitudinal language-use evidence",
+  "status": "exact_first_party_catalogue_locator_only",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "affiliation": "Ministry of Home Affairs, Government of India",
+  "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2001",
+  "reference_id": "PC01_C17-20",
+  "reference_series": "PC01_C17",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/22932",
+  "data_source": "Population Census 2001",
+  "geographic_unit": {
+    "name": "Jharkhand",
+    "code": "20",
+    "type": "State"
+  },
+  "declared_download": "PC01_C17_20.xls",
+  "catalogue_metadata_verified": {
+    "reference_id": true,
+    "producer": true,
+    "declared_download_filename": true,
+    "state_identity": true,
+    "statistics": "Counts",
+    "unit_of_observation": "Individual (person)",
+    "universe": "All individuals Jharkhand"
+  },
+  "declared_table_columns": [
+    "State code",
+    "State name",
+    "Total speakers of languages - Language code",
+    "Total speakers of languages - Language name",
+    "Total speakers of languages - Persons / Males / Females",
+    "1st subsidiary languages - Language code",
+    "1st subsidiary languages - Language name",
+    "1st subsidiary languages - Persons / Males / Females",
+    "2nd subsidiary languages - Language code",
+    "2nd subsidiary languages - Language name",
+    "2nd subsidiary languages - Persons / Males / Females"
+  ],
+  "verification": {
+    "catalogue_identity_verified": true,
+    "declared_workbook_filename_verified": true,
+    "workbook_bytes_acquired": false,
+    "independent_hash_verified": false,
+    "sheet_inventory_verified": false,
+    "munda_mundari_exact_rows_verified_from_workbook": false,
+    "exact_numeric_cells_verified": false
+  },
+  "promotion": {
+    "catalogue_locator_promoted": true,
+    "numeric_claims_promoted": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_source_count_increment": 0,
+    "controlled_evidence_record_increment": 0,
+    "controlled_provenance_link_increment": 0
+  },
+  "deterministic_register_reconciliation": {
+    "status": "pending_numbered_WEB_MUN_reconciliation",
+    "repository_index_search_for_reference_id": "no indexed match observed before promotion",
+    "reason": "The first-party catalogue identity is independently verified, but the source has not yet been deterministically matched to a numbered WEB-MUN lead/source identity."
+  },
+  "rights_governance": {
+    "public_catalogue_access_verified": true,
+    "workbook_reuse_permission_not_inferred": true,
+    "participant_consent_not_inferred": true,
+    "community_validation_not_inferred": true,
+    "cultural_authorization_not_inferred": true
+  },
+  "scope_disambiguation": {
+    "munda_jharkhand_language_context_required": true,
+    "south_sudan_mundari_false_positive_excluded": true,
+    "note": "Search results using the string Mundari can refer to the unrelated Eastern Nilotic Mandari/Mundari language and people of South Sudan; those results are out of MLHKP scope and are not promoted."
+  },
+  "open_gaps": [
+    "Acquire PC01_C17_20.xls through a permitted route.",
+    "Compute an independent cryptographic hash of the acquired workbook.",
+    "Inventory workbook sheets and preserve sheet names exactly.",
+    "Verify the exact MUNDA/MUNDARI rows and numeric cells directly from the workbook before promoting any numerical claim.",
+    "Reconcile this locator deterministically against the numbered WEB-MUN/source register."
+  ],
+  "audit_note": "This record upgrades the Census 2001 Jharkhand C-17 source from discoverable catalogue metadata to an exact first-party catalogue locator. It does not treat the declared XLS download as acquired evidence and promotes no numerical, linguistic, or cultural claim."
+}

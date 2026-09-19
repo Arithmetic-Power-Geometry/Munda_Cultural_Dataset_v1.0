@@ -1,0 +1,213 @@
+{
+  "model_version": "1.0.0",
+  "policy": "architecture_first_evidence_preserving",
+  "scope_note": "This file defines data homes and validation contracts only. It contains no cultural facts and does not imply evidence ingestion or cultural verification.",
+  "evidence_chain": [
+    "source",
+    "passage_segment_event_object",
+    "evidence",
+    "claim",
+    "indicator",
+    "domain"
+  ],
+  "record_contract": {
+    "required_for_applicable_records": [
+      "permanent_id",
+      "canonical_name",
+      "alternate_names",
+      "description",
+      "date_or_period",
+      "geography",
+      "actors",
+      "language",
+      "related_entity_ids",
+      "source_ids",
+      "exact_locator",
+      "evidence_state",
+      "verification_state",
+      "access_class",
+      "rights_or_licence",
+      "commercial_reuse_status",
+      "contributor_ids",
+      "reviewer_ids",
+      "uncertainty",
+      "confidence",
+      "variant_or_contradiction_ids",
+      "created_at",
+      "updated_at"
+    ],
+    "public_claim_minimum": [
+      "permanent_id",
+      "source_ids",
+      "exact_locator",
+      "evidence_state",
+      "verification_state",
+      "access_class",
+      "rights_or_licence",
+      "updated_at"
+    ],
+    "rules": {
+      "permanent_ids_immutable": true,
+      "historical_source_reported_not_universalized": true,
+      "ocr_never_implies_verified_transcription": true,
+      "public_availability_never_implies_reuse_permission": true,
+      "cultural_access_overrides_entitlement": true,
+      "restricted_private_sacred_confidential_never_public": true,
+      "uncertain_forms_never_silently_corrected": true,
+      "verification_requires_explicit_evidence": true
+    }
+  },
+  "record_families": [
+    {
+      "family_id": "FAM-PEOPLE-001",
+      "label": "People, kinship and institutions",
+      "domains": ["people", "roles", "families", "kinship", "kili", "community_institutions"],
+      "primary_schemas": ["entities", "evidence"]
+    },
+    {
+      "family_id": "FAM-LANG-001",
+      "label": "Language and linguistic description",
+      "domains": ["language", "dialects", "scripts", "phonology", "morphology", "grammar", "syntax", "lexicon", "etymology", "variants", "examples"],
+      "primary_schemas": ["entities", "evidence"]
+    },
+    {
+      "family_id": "FAM-LIFE-001",
+      "label": "Life course",
+      "domains": ["pregnancy", "birth", "naming", "childhood", "youth", "courtship", "marriage", "household", "parenthood", "ageing", "death", "funeral", "burial", "remembrance"],
+      "primary_schemas": ["events", "event_steps", "entities", "evidence"]
+    },
+    {
+      "family_id": "FAM-RITUAL-001",
+      "label": "Festivals, calendar and ritual process",
+      "domains": ["festivals", "calendar", "seasons", "rituals", "ceremonial_steps", "participants", "exclusions", "ritual_objects", "formulae", "prayers"],
+      "primary_schemas": ["events", "event_steps", "objects", "entities", "evidence"]
+    },
+    {
+      "family_id": "FAM-SACRED-001",
+      "label": "Beliefs, cosmology and sacred life",
+      "domains": ["beliefs", "cosmology", "deities", "spirits", "sacred_institutions", "sacred_restrictions"],
+      "primary_schemas": ["entities", "evidence"],
+      "access_rule": "cultural_access_overrides_entitlement"
+    },
+    {
+      "family_id": "FAM-ORAL-001",
+      "label": "Oral histories and narrative traditions",
+      "domains": ["oral_histories", "stories", "myths", "legends", "folk_tales", "proverbs", "riddles"],
+      "primary_schemas": ["interviews", "interview_segments", "evidence"]
+    },
+    {
+      "family_id": "FAM-PERF-001",
+      "label": "Songs, dance and music",
+      "domains": ["songs", "durang", "dance", "music", "instruments", "rhythm", "performance_context"],
+      "primary_schemas": ["media_metadata", "events", "evidence"]
+    },
+    {
+      "family_id": "FAM-FOOD-001",
+      "label": "Food and agriculture",
+      "domains": ["food", "drink", "recipes", "agriculture", "crops"],
+      "primary_schemas": ["objects", "events", "evidence"]
+    },
+    {
+      "family_id": "FAM-ECO-001",
+      "label": "Ecology and ethnobotany",
+      "domains": ["forests", "plants", "ethnobotany", "medicinal_knowledge", "animals", "ecology", "weather", "seasonality"],
+      "primary_schemas": ["objects", "places", "evidence"],
+      "access_rule": "safety_and_cultural_access_controls"
+    },
+    {
+      "family_id": "FAM-MAT-001",
+      "label": "Material culture",
+      "domains": ["houses", "architecture", "material_culture", "tools", "crafts", "dress", "ornaments"],
+      "primary_schemas": ["objects", "media_metadata", "evidence"]
+    },
+    {
+      "family_id": "FAM-ECON-001",
+      "label": "Livelihood and economy",
+      "domains": ["livelihoods", "economy", "markets", "labour", "migration"],
+      "primary_schemas": ["entities", "events", "evidence"]
+    },
+    {
+      "family_id": "FAM-GOV-001",
+      "label": "Land, customary law and governance",
+      "domains": ["land", "customary_law", "governance", "political_institutions"],
+      "primary_schemas": ["entities", "events", "evidence"]
+    },
+    {
+      "family_id": "FAM-SOC-001",
+      "label": "Education, health and demography",
+      "domains": ["education", "health", "demography", "language_vitality"],
+      "primary_schemas": ["evidence", "indicators"]
+    },
+    {
+      "family_id": "FAM-HIST-001",
+      "label": "History, persons and movements",
+      "domains": ["historical_events", "historical_persons", "movements"],
+      "primary_schemas": ["events", "entities", "evidence"]
+    },
+    {
+      "family_id": "FAM-CHANGE-001",
+      "label": "Contemporary change",
+      "domains": ["contemporary_change", "technology", "media", "urbanisation"],
+      "primary_schemas": ["events", "evidence"]
+    },
+    {
+      "family_id": "FAM-VAR-001",
+      "label": "Variation and comparison",
+      "domains": ["village_variation", "geographic_variation", "community_variation", "kili_variation", "family_variation", "gender_variation", "generation_variation", "dialect_variation", "period_variation"],
+      "primary_schemas": ["contradictions", "entities", "evidence"]
+    },
+    {
+      "family_id": "FAM-CONTRA-001",
+      "label": "Contradictions and contested interpretation",
+      "domains": ["contradictions", "contested_interpretations", "historical_vs_current_practice"],
+      "primary_schemas": ["contradictions", "evidence"]
+    },
+    {
+      "family_id": "FAM-FIELD-001",
+      "label": "Fieldwork and community validation",
+      "domains": ["interviews", "oral_history_fieldwork", "observations", "surveys", "field_events", "field_notes", "consent", "community_validation"],
+      "primary_schemas": ["interviews", "interview_segments", "observations", "events", "evidence"]
+    },
+    {
+      "family_id": "FAM-MEDIA-001",
+      "label": "Media and digital objects",
+      "domains": ["photographs", "audio", "video", "scans", "maps", "drawings", "3d_objects"],
+      "primary_schemas": ["media_metadata", "objects", "evidence"]
+    },
+    {
+      "family_id": "FAM-SOURCE-001",
+      "label": "Bibliographic and archival sources",
+      "domains": ["books", "articles", "theses", "dictionaries", "grammars", "government", "tri", "census", "lsi", "archives", "newspapers", "web_resources"],
+      "primary_schemas": ["sources", "source_census", "evidence"]
+    },
+    {
+      "family_id": "FAM-RIGHTS-001",
+      "label": "Rights and access",
+      "domains": ["rights", "licence", "access", "commercial_reuse_status"],
+      "primary_schemas": ["governance", "sources", "media_metadata"]
+    },
+    {
+      "family_id": "FAM-AUDIT-001",
+      "label": "Provenance and audit",
+      "domains": ["provenance", "version", "audit", "corrections"],
+      "primary_schemas": ["evidence", "governance", "reports"]
+    },
+    {
+      "family_id": "FAM-GAP-001",
+      "label": "Research gaps",
+      "domains": ["research_gaps", "completeness"],
+      "primary_schemas": ["coverage_matrix", "source_census", "evidence"]
+    },
+    {
+      "family_id": "FAM-PUB-001",
+      "label": "Report, book and publication mappings",
+      "domains": ["reports", "books_publication_mapping", "publications"],
+      "primary_schemas": ["book_mapping", "reports", "evidence"]
+    }
+  ],
+  "layer_contracts": {
+    "mundarica": ["scan", "raw_ocr", "working_transcription", "verified_transcription", "structured_content"],
+    "fieldwork": ["consent", "capture", "segment", "evidence", "community_validation", "public_release_if_permitted"],
+    "source_census": ["discovery", "bibliographic_registration", "rights_assessment", "acquisition", "extraction", "evidence_linking", "release_audit"]
+  }
+}

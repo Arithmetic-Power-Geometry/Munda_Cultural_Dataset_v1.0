@@ -1,0 +1,60 @@
+{
+  "run": 476,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Munda Language | Multiling Cloud Archive",
+    "provider": "Multiling Cloud / BCC-ICTD",
+    "country_scope": "Bangladesh",
+    "source_class": ["web_resource", "dataset", "audio", "digital_archive"],
+    "canonical_url": "https://multiling.cloud/languages/munda"
+  },
+  "discovery_verification": {
+    "provider_page_reports": {
+      "archive_records": 860,
+      "description": "phonetic transcriptions and audio recordings for the Munda language/dialect page"
+    },
+    "repository_prior_exact_name_search": "no prior exact Multiling Cloud hit found in repository code search on 2026-09-18",
+    "identity_status": "verified_provider_page; item identities not yet independently enumerated"
+  },
+  "scope_classification": {
+    "language_label": "Munda",
+    "relation_to_mundari": "provider describes the page as Mundari/Munda linguistic heritage in Bangladesh; dialect/language identity must be verified item-by-item before MLHKP promotion",
+    "geography": ["Bangladesh"],
+    "mlhkp_scope": "potentially relevant; requires variety and provenance verification"
+  },
+  "rights_access_consent": {
+    "provider_notice": "© 2026 BCC - ICTD. All rights reserved.",
+    "public_access_is_redistribution_permission": false,
+    "participant_consent_verified": false,
+    "community_permission_verified": false,
+    "cultural_access_verified": false,
+    "promotion_allowed_now": false
+  },
+  "canonicalization": {
+    "rule": "language landing page, archive index, recordings, transcriptions, mirrors and derivative views are manifestations/components of the provider archive; do not count them as independent corroborating source identities without provenance evidence",
+    "dedup_status": "canonical source-level identity created; item-level deterministic dedup pending"
+  },
+  "exact_locator_plan": {
+    "target": "<stable-provider-record-id-or-url>#t=<start>-<end>;sha256=<lawfully-obtained-file-hash>",
+    "transcript_target": "<stable-provider-record-id-or-url>#transcription=<stable-field-or-line>;sha256=<lawfully-obtained-file-hash>",
+    "required_before_promotion": [
+      "enumerate stable item identifiers",
+      "verify Mundari/Munda variety identity per item",
+      "verify recording/transcription provenance",
+      "verify item-level reuse rights",
+      "obtain lawful immutable bytes and SHA-256 where permitted",
+      "verify speaker/participant consent and privacy status",
+      "review cultural sensitivity/access restrictions",
+      "check overlap/dependency against other Mundari corpora and archives"
+    ]
+  },
+  "promotion": {
+    "evidence_records_added": 0,
+    "claims_added": 0,
+    "audio_segments_added": 0,
+    "reason": "provider-level discovery is verified but item-level rights, variety identity, provenance, consent and cultural-access gates are unresolved"
+  },
+  "gap_status": "explicit_unresolved",
+  "notes": "Provider-reported quantity 860 is not an MLHKP controlled count and must not alter MMSC/release metrics until deterministic reconciliation."
+}

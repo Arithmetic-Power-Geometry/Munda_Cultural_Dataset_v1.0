@@ -1,0 +1,71 @@
+{
+  "record_type": "work_manifestation_relationship_audit",
+  "run": 156,
+  "checked_utc": "2026-09-10T08:32:00Z",
+  "branch": "mlhkp-v2",
+  "web_source_id": "WEB-MUN-0090",
+  "paper": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+    "year": 2024,
+    "publisher": "Association for Computational Linguistics",
+    "venue": "ComputEL 2024",
+    "pages": "76-82",
+    "doi": "10.18653/v1/2024.computel-1.11",
+    "anthology_id": "2024.computel-1.11",
+    "canonical_url": "https://aclanthology.org/2024.computel-1.11/",
+    "verification_state": "ACL Anthology identity, DOI, authors, venue, year, page range, abstract and public PDF locator verified"
+  },
+  "dataset": {
+    "title": "Mundari TTS Dataset Corpus",
+    "repository": "karya-inc/dataset-mundari-tts",
+    "fixed_commit": "ea515f4d034a37e41e5b8619e1df62de0c7ee830",
+    "canonical_url": "https://github.com/karya-inc/dataset-mundari-tts",
+    "upstream_reported_recordings": 26870,
+    "upstream_reported_speakers": 2,
+    "license_name_as_upstream": "KPL BY-NC-SA-FS 1.0 / Karya Public License non-commercial version",
+    "verification_state": "upstream repository identity, corpus-level metadata, licence text, sample-archive locator and published full-archive SHA1 locator previously audited"
+  },
+  "relationship": {
+    "decision": "related_distinct_source_objects",
+    "relationship_class": "peer_reviewed_paper_describes_and_uses_related_mundari_tts_dataset_corpus",
+    "dedupe_decision": "do_not_collapse_paper_identity_into_dataset_repository_identity",
+    "reason": "A peer-reviewed conference paper identified by DOI and a dataset repository identified by repository/files/checksum/licence are distinct citable source objects even when the paper reports work using the related corpus. Dataset rights, participant governance and cultural-access restrictions must not be inherited from or replaced by paper-access status, and paper copyright/access must not be treated as dataset reuse permission.",
+    "numeric_difference_not_normalized_away": "The paper exact-locator audit reports 26,868 final sentence-recording pairs whereas the upstream dataset README reports 26,870 recordings. This audit preserves the discrepancy rather than forcing equality; it may reflect curation/versioning but that explanation is not verified here."
+  },
+  "permitted_promotion_boundary": {
+    "paper_metadata_and_source_attributed_methodology": true,
+    "aggregate_metadata_as_reported_by_each_source": true,
+    "audio_bytes": false,
+    "transcript_text": false,
+    "speaker_identifiers": false,
+    "participant_level_attributes": false,
+    "consent_inference": false,
+    "community_validation_claim": false,
+    "cultural_claim_promotion": false,
+    "unrestricted_model_training_entitlement": false
+  },
+  "rights_governance": {
+    "cultural_access_overrides_entitlement": true,
+    "paper_public_availability_is_not_dataset_permission": true,
+    "dataset_licence_is_not_participant_consent": true,
+    "secondary_use_requires_separate_participant_privacy_community_and_cultural_access_review": true
+  },
+  "master_reconciliation": {
+    "paper_is_unique_against_dataset_repository": true,
+    "permanent_src_mmsc_assignment_this_run": false,
+    "reason_not_promoted_to_new_identity": "The relationship is now resolved, but permanent source assignment is deferred until the standalone MMSC register is updated atomically with census metrics and source-register tests; this run does not alter audited identity counts merely to claim progress."
+  },
+  "blockers_remaining": [
+    "participant consent and privacy documentation for secondary MLHKP use not independently verified",
+    "community validation not established",
+    "cultural-access classification for participant-derived speech/transcript material remains pending",
+    "full dataset archive bytes were not independently acquired and hashed in MLHKP"
+  ],
+  "sources_checked": [
+    "https://aclanthology.org/2024.computel-1.11/",
+    "https://github.com/karya-inc/dataset-mundari-tts",
+    "data/source_census/muntts_2024_mundari_dataset_methods_exact_locator_run155_2026-09-10.json",
+    "data/source_census/karya_mundari_tts_exact_locator_2026-09-09.json"
+  ]
+}

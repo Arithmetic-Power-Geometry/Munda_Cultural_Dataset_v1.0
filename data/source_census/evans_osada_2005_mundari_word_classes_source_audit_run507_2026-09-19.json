@@ -1,0 +1,47 @@
+{
+  "run": 507,
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_source": {
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "title": "Mundari: The myth of a language without word classes",
+    "type": "peer-reviewed journal article",
+    "journal": "Linguistic Typology",
+    "volume_issue_pages": "9(3):351-390",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "persistent_repository_uri": "http://hdl.handle.net/1885/54663",
+    "repository": "Australian National University Open Research Repository",
+    "repository_access_statement": "Open Access"
+  },
+  "identity_verification": {
+    "status": "verified_metadata",
+    "basis": ["ANU repository metadata", "DOI metadata exposed by ANU record"],
+    "scope": "direct Mundari linguistic analysis",
+    "canonicalization_rule": "publisher/DOI/repository/PDF manifestations are one underlying article identity"
+  },
+  "dependency_and_scope": {
+    "important_note": "The abstract explicitly states that the article reanalyses Hoffmann's corpus and also uses substantial new data. Therefore article-level classification as wholly independent non-Mundarica evidence would be invalid.",
+    "required_passage_classes": ["new-data-primary", "Hoffmann-or-Mundarica-derived", "mixed", "secondary-citation-derived", "unresolved"],
+    "promotion_rule": "Only exact passages/examples whose provenance and reuse basis are resolved may be promoted; Hoffmann/Mundarica-derived material must retain dependency and cannot count as independent corroboration."
+  },
+  "rights_access_consent": {
+    "repository_access": "open access",
+    "redistribution_license_verified": false,
+    "participant_or_consultant_consent_verified_for_dataset_reuse": false,
+    "cultural_access_review_complete": false,
+    "rule": "Open repository access does not by itself establish a redistribution licence, participant/consultant reuse consent, or unrestricted cultural permission."
+  },
+  "exact_locator_ingestion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "This run verified metadata and open-access availability but did not obtain and checksum immutable lawful PDF bytes or complete printed-page/PDF-page concordance and passage-level provenance classification.",
+    "required_locator_template": "ANU-handle=1885/54663;doi=10.1515/lity.2005.9.3.351;printed_page=<p>;pdf_page=<n>;sha256=<hash>;dependency=<class>"
+  },
+  "audit_invariants_added": [
+    "open_access_does_not_equal_open_redistribution_license",
+    "article_using_new_data_and_Hoffmann_corpus_does_not_equal_wholly_independent_source",
+    "passage_level_dependency_overrides_article_level_independence"
+  ],
+  "controlled_count_effect": "none until deterministic WEB-MUN reconciliation",
+  "release_effect": "gap reduced at identity/metadata/access level; exact-locator evidence promotion remains gated"
+}

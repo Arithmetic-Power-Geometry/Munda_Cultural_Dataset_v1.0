@@ -1,0 +1,72 @@
+{
+  "record_type": "restricted_article_exact_locator_audit",
+  "run": 185,
+  "branch": "mlhkp-v2",
+  "checked_date_utc": "2026-09-10T22:45:00Z",
+  "source": {
+    "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+    "author": "Shalini Saboo",
+    "journal": "Indian Journal of Public Administration",
+    "volume": "66",
+    "issue": "4",
+    "pages": "552-562",
+    "issue_publication": "December 2020",
+    "first_published_online": "2021-01-20",
+    "doi": "10.1177/0019556120982196",
+    "publisher_url": "https://journals.sagepub.com/doi/10.1177/0019556120982196",
+    "publisher": "SAGE Journals",
+    "copyright": "© 2020 Indian Institute of Public Administration",
+    "access": "restricted"
+  },
+  "exact_locators": [
+    {
+      "locator": "publisher HTML lines 75-105",
+      "supports": "restricted-access research-article status, online publication date, title, author, volume/issue, DOI, and abstract scope",
+      "promotion": "bibliographic and source-attributed abstract-scope metadata only"
+    },
+    {
+      "locator": "publisher HTML lines 186-215",
+      "supports": "pages 552-562, issue publication December 2020, keywords, copyright and permissions status",
+      "promotion": "bibliographic/rights metadata only"
+    },
+    {
+      "locator": "publisher HTML lines 222-228",
+      "supports": "author affiliation with Central University of Jharkhand and ICSSR doctoral fellowship",
+      "promotion": "author-affiliation metadata only"
+    }
+  ],
+  "scope_classification": {
+    "munda_specific": true,
+    "jharkhand_specific": true,
+    "topic": "customary-law/land-inheritance study concerning Munda women",
+    "abstract_only_for_substantive_scope": true,
+    "generalization_allowed": false
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "publisher_marks_restricted_access": true,
+    "publisher_requests_permissions": true,
+    "open_license_verified": false,
+    "full_text_lawfully_obtained_in_run185": false,
+    "participant_or_fieldwork_content_ingested": false,
+    "cultural_claims_ingested": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "decision": "Promote only publisher-verifiable identity, rights status and source-attributed abstract scope. Treat full text and exact substantive passages as an explicit access gap."
+  },
+  "deduplication": {
+    "doi_key": "10.1177/0019556120982196",
+    "title_key": "customary law and challenges to governance in the context of land inheritance among the women of munda tribe in jharkhand",
+    "matching_run-specific_source_census_filename_found_before_run185": false,
+    "count_bearing_registration_performed": false,
+    "action": "retain as exact-located federated candidate pending deterministic comparison with permanent MMSC register; do not inflate audited identity count"
+  },
+  "evidence_promotion": {
+    "discovery_only": false,
+    "exact_locator_metadata_record_created": true,
+    "new_cultural_claims": 0,
+    "new_participant_records": 0,
+    "evidence_graph_change": "none",
+    "release_gate_change": "none"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "run": 344,
+  "audit_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "Official Census of India catalogue-level schema verification for Jharkhand C-16 and ST-16; no workbook cell values promoted.",
+  "sources": [
+    {
+      "source_id": "PC11_C16-20",
+      "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/10207/study-description",
+      "declared_download_filename": "DDW-C16-STMT-MDDS-2000.xlsx",
+      "data_source": "Population Census 2011",
+      "geographic_granularity": ["state", "district", "subdistrict"],
+      "statistics": "Counts",
+      "unit_of_observation": "Individual (person)",
+      "universe": "All individuals in Jharkhand",
+      "catalogue_schema": {
+        "area_name": true,
+        "area_of_residence_urban_rural": true,
+        "mother_tongue_code_and_name": "HS_Q10",
+        "sex_male_female_total": "HS_Q03"
+      },
+      "verification_level": "official_catalogue_metadata_only"
+    },
+    {
+      "source_id": "PC11_ST16-20",
+      "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+      "declared_download_filename": "ST-20-00-16-DDW-2011.XLSX",
+      "data_source": "Population Census 2011",
+      "series": ["Scheduled Tribes", "Languages"],
+      "geographic_unit": {"name": "Jharkhand", "code": "20", "type": "State"},
+      "catalogue_keywords": ["urban", "rural", "tribe", "bilingual"],
+      "verification_level": "official_catalogue_metadata_only"
+    }
+  ],
+  "verification_boundaries": {
+    "primary_workbook_bytes_verified": false,
+    "independent_sha256_verified": false,
+    "sheet_inventory_verified": false,
+    "row_count_verified": false,
+    "cell_values_verified": false,
+    "mundari_specific_numeric_values_verified": false,
+    "numeric_claims_promoted": 0,
+    "cultural_or_linguistic_claims_promoted": 0,
+    "rights_or_cultural_access_inferred_from_catalogue_availability": false
+  },
+  "blocker": "The official catalogue identifies the workbooks and their metadata, but workbook bytes were not independently materialized in this execution path; byte/hash/sheet/row/cell verification therefore remains open.",
+  "release_effect": "Strengthens authoritative source/schema locators only. Controlled MMSC, evidence and manuscript metrics remain unchanged until deterministic register reconciliation and primary workbook verification."
+}

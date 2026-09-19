@@ -1,0 +1,53 @@
+{
+  "run": 468,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "source_class": "government_TRI_ethnographic_photo_handbook",
+  "canonical_identity": {
+    "title": "Munda",
+    "authors_editors": ["A. B. Ota", "S. C. Mohanty", "A. Sahoo"],
+    "year": 2016,
+    "institution": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Odisha",
+    "record_id": "SCST/2016/0054",
+    "isbn": "978-93-80705-54-5",
+    "pagination_provider_reported": 32,
+    "provider_file": "SCST_2016_handbook_0054.pdf",
+    "provider_file_size": "94.8 MB",
+    "provider_record": "https://repository.tribal.gov.in/handle/123456789/73853"
+  },
+  "scope": {
+    "classification": "Munda ethnographic source relevant to MLHKP cultural-source census; distinct from the SCSTRTI 2016 Mundari handbook record SCST/2016/0055",
+    "provider_abstract_scope": ["social", "cultural", "economic", "religious", "political", "habitat/housing", "community life", "rites/rituals", "festivals", "customary institutions"],
+    "language_relevance": "Provider metadata states Mundari as mother tongue; this metadata statement is not promoted as an independent linguistic claim in this run."
+  },
+  "canonicalization": {
+    "same_identity_components": ["Ministry of Tribal Affairs repository record", "SCSTRTI handbook identity", "SCST_2016_handbook_0054.pdf manifestation"],
+    "not_duplicate_of": "SCST/2016/0055 Mundari handbook",
+    "independent_corroboration_status": "not established"
+  },
+  "rights_access_consent": {
+    "public_catalogue_record": true,
+    "provider_lists_pdf_view_open": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_cultural_permission_verified": false,
+    "restricted_or_sensitive_material_reviewed": false,
+    "rule": "Government/TRI hosting and public access do not imply unrestricted reuse, participant consent, or cultural permission."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Exact cultural propositions require lawful permitted bytes, immutable hash, page concordance, exact passage/image locators, dependency review, and participant/community cultural-access review."
+  },
+  "future_exact_locator": "SCST_2016_handbook_0054.pdf#page=<printed-or-pdf-page>;sha256=<permitted-file-hash>",
+  "gaps": [
+    "item/file-level reuse basis",
+    "immutable permitted PDF bytes and SHA-256",
+    "PDF-to-printed-page concordance",
+    "exact passage/image provenance",
+    "dependency/corroboration analysis",
+    "participant/privacy/consent review",
+    "community cultural-access review"
+  ],
+  "audit_principle": "No provider abstract statement or keyword is promoted as a cultural claim merely because it appears in government metadata."
+}

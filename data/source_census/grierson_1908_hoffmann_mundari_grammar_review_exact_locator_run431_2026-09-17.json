@@ -1,0 +1,57 @@
+{
+  "run": 431,
+  "stream": "non-Mundarica source census",
+  "source_class": ["peer-reviewed article", "book review", "historical linguistic scholarship"],
+  "canonical_identity": {
+    "author": "George A. Grierson",
+    "title": "Mundari Grammar. By J. Hoffmann, S.J. (Calcutta: Bengal Secretariat Press, 1903.)",
+    "container_title": "Journal of the Royal Asiatic Society",
+    "volume": "40",
+    "issue": "1",
+    "date": "1908-01",
+    "pages": "222-228",
+    "doi": "10.1017/S0035869X00037564",
+    "publisher_manifestation": "Cambridge Core",
+    "publisher_url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/mundari-grammar-by-j-hoffmann-sj-calcutta-bengal-secretariat-press-1903/7A3B529AEE62645CB2ACD205D6F66290"
+  },
+  "identity_verification": {
+    "status": "verified_from_publisher_metadata",
+    "verified_on": "2026-09-17",
+    "notes": "Cambridge Core identifies author, reviewed work, journal, volume/issue, page range and DOI. Repository exact DOI search returned no prior match before ingestion."
+  },
+  "scope": {
+    "language": "Mundari",
+    "relation": "review of Hoffmann's 1903 Mundari Grammar",
+    "non_mundarica": true,
+    "caution": "The reviewed grammar is a separate canonical work. This review must not be counted as a second manifestation of Hoffmann's grammar. Any quotation or proposition inherited from Hoffmann must preserve that dependency rather than being treated as independent field evidence."
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1017/S0035869X00037564",
+    "manifestation_rule": "Cambridge HTML/preview/PDF are manifestations of this single review identity.",
+    "cross_work_rule": "Do not merge with Hoffmann 1903 Mundari Grammar; link as reviews/reviewed-by relation."
+  },
+  "rights_access": {
+    "publisher_access_observed": "Get access / restricted full content; publisher preview available",
+    "copyright_statement_observed": "Copyright The Royal Asiatic Society 1908",
+    "reuse_permission": "not established",
+    "promotion_policy": "No full-text evidence promotion until lawful access/reuse basis and immutable manifestation are established."
+  },
+  "exact_locator_plan": {
+    "bibliographic_locator": "JRAS 40(1), January 1908, pp. 222-228; DOI 10.1017/S0035869X00037564",
+    "passage_locator_required": "journal page + PDF page after concordance",
+    "immutable_bytes_required": true,
+    "sha256_required": true
+  },
+  "evidence_promotion": {
+    "status": "blocked_pending_full_text_and_rights",
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Publisher metadata verifies identity but does not support passage-level linguistic/cultural claims."
+  },
+  "cultural_ethics": {
+    "consent_review": "required if any reviewed material ultimately depends on elicited/participant-derived evidence",
+    "cultural_access_review": "required before promoting culturally sensitive content",
+    "uncertainty": "historical review; provenance of underlying examples must be traced to the reviewed grammar or other cited sources"
+  },
+  "release_gap": "Obtain a lawful full-text manifestation if available, hash it, establish journal/PDF page concordance, inspect review assertions, and link derivative claims to their underlying source."
+}

@@ -1,0 +1,36 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "discovery_id": "WEB-MUN-0047",
+  "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+  "source_class": "licensed_audiovisual_cultural_documentary",
+  "canonical_locator": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+  "creator": "Eastern Zonal Cultural Centre",
+  "directors_as_described_on_commons": ["Aloke Banerjee", "Jaydip Mukherjee"],
+  "publication_date": "2022-09-27",
+  "duration": "39:31",
+  "original_youtube_video_id": "jcaVTX0BCtQ",
+  "verified_munda_related_catalogue_timestamps": [
+    {"timestamp": "00:04:28", "commons_label": "Paika (Munda community)"},
+    {"timestamp": "00:06:00", "commons_label": "Mundari"},
+    {"timestamp": "00:11:12", "commons_label": "Mundari (Marriage)"}
+  ],
+  "rights": {
+    "file_level_license": "Creative Commons Attribution 3.0 Unported (CC BY 3.0)",
+    "attribution": "Eastern Zonal Cultural Centre",
+    "license_review_recorded_by_commons": "2023-01-20",
+    "rights_boundary": "File-level licensing permits reuse subject to CC BY 3.0 conditions, but does not establish participant consent, community validation, cultural permission, dignity suitability, or present-day representativeness. MLHKP cultural-access controls override technical entitlement for extracted performance content."
+  },
+  "verification_state": "repository_media_metadata_and_file_license_verified",
+  "promotion_state": "verified_candidate_for_bounded_exact_locator_evidence",
+  "permitted_evidence_boundary": "Source identity, publication metadata, file-level license, duration, original video identifier, and the Commons page's own timestamp labels may be used as source-level archival/media metadata. No interpretation of dance meaning, ritual significance, participant identity, community-wide practice, contemporary continuity, or community endorsement is verified by this record.",
+  "consent_state": "not_established_from_commons_metadata",
+  "community_validation_state": "not_performed",
+  "cultural_access_state": "contextual_review_required_before_segment_content_reuse",
+  "deduplication_key": "commons:file:folk_dances_of_jharkhand_-_documentary_-_ezcc.webm",
+  "deduplication_note": "WEB-MUN-0047 is a single audiovisual source identity; its three timestamp labels are locators within the same source and must not be counted as three source identities.",
+  "sources_checked": [
+    "Wikimedia Commons file page and structured data",
+    "Existing MLHKP discovery record WEB-MUN-0047"
+  ]
+}

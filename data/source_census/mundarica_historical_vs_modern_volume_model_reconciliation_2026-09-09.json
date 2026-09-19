@@ -1,0 +1,69 @@
+{
+  "artifact_type": "mundarica_work_manifestation_volume_model_reconciliation",
+  "verification_date_utc": "2026-09-09T11:30:00Z",
+  "scope": "Encyclopaedia Mundarica historical government-printing series versus modern Gyan Publishing House 16-volume manifestation",
+  "historical_evidence": [
+    {
+      "source": "Index Bibliographicus Societatis Iesu 1938 / ARSI-hosted bibliography",
+      "url": "https://arsi.jesuits.global/wp-content/uploads/2022/05/IBSI-1938.pdf",
+      "observed_statement": "Bibliographic entry records Encyclopaedia Mundarica Volume XI and XII under Superintendent Government Printing, Bihar, Patna, with continuous pagination 3175-3456 and 3457-3707.",
+      "evidence_role": "contemporaneous bibliographic corroboration for historical government-printing volume numbering and pagination",
+      "content_ingested": false
+    },
+    {
+      "source": "Google Books bibliographic record derived from New York Public Library copy",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC",
+      "observed_statement": "Catalogues Encyclopaedia Mundarica, Volume 13, Johann Hoffmann and Arthur van Emelen, Superintendent government printing, Bihar and Orissa; record digitized from a New York Public Library original.",
+      "evidence_role": "independent library-derived manifestation signal for historical Volume XIII",
+      "content_ingested": false
+    },
+    {
+      "source": "published scholarly bibliography / historical-study candidate",
+      "url": "https://www.ijamsr.com/specialissues/6_Gossner%20College%2C%20Ranchi%20-%20International%20Conference%20%E2%80%93%202025%3A%20Developed%20India%20%40%202047%2C%20held%20on%204th%20%26%205th%20April%2C%202025/20250911_045930_Dr.%20Anubhuti%20Agnes%20Bara.pdf",
+      "observed_statement": "Bibliography describes Encyclopaedia Mundarica as 13 volumes, with I-XI in 1930-1937 and XII-XIII in 1950, and identifies a St. Albert's Theological College Library holding.",
+      "evidence_role": "secondary corroboration and acquisition lead only; not authoritative proof of exact publication chronology or holding completeness",
+      "content_ingested": false
+    }
+  ],
+  "modern_manifestation_evidence": [
+    {
+      "source": "Google Books",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=YQ1K0gEACAAJ",
+      "observed_statement": "Gyan Publishing House, 2009 record is explicitly titled Encyclopaedia Mundarica: In 16 Volumes, with a separately numbered Volume 13 manifestation.",
+      "evidence_role": "modern manifestation model",
+      "content_ingested": false
+    },
+    {
+      "source": "Flipkart commercial bibliographic listing",
+      "url": "https://www.flipkart.com/encyclopaedia-mundarica-vol-16th/p/itm614afb5fca7eb",
+      "observed_statement": "Lists a 2009 Gyan Publishing House Vol.16th manifestation with ISBN 9788121203227.",
+      "evidence_role": "commercial corroboration of modern numbered Volume XVI only",
+      "content_ingested": false
+    }
+  ],
+  "reconciliation": {
+    "historical_text_volume_model_supported": "At least I-XIII is independently supported; multiple sources describe a 13-volume historical text series.",
+    "modern_sixteen_volume_manifestation_supported": true,
+    "historical_xiv_xvi_text_volumes_proven": false,
+    "modern_xiv_xvi_equivalent_to_historical_xiv_xvi_proven": false,
+    "separate_plate_fascicle_status": "Historical Volume I preface/OCR discovery mentions plates gathered into a separate fascicle, but authoritative complete plate-fascicle scan/page accounting remains unresolved and is not promoted here.",
+    "recommended_data_model": "Preserve the release's 16 numbered acquisition slots for modern manifestation tracking, but distinguish historical work/manifestation evidence: I-XIII historical text volumes are the defensible supported sequence; XIV-XVI must not be described as historical text volumes unless primary bibliographic or physical evidence proves that relationship.",
+    "deduplication_rule": "Do not collapse modern Gyan numbered volumes XIV-XVI into historical government-printing identities solely by matching series title or numbering. Work-level and manifestation-level records must remain separate until edition mapping is proven."
+  },
+  "verification_boundaries": {
+    "authoritative_scans_acquired_and_hashed": false,
+    "page_image_completeness_verified": false,
+    "ocr_verified_as_transcription": false,
+    "historical_publication_chronology_fully_verified": false,
+    "rights_or_derivative_reuse_inferred": false,
+    "cultural_claims_promoted": false,
+    "community_validation_claimed": false
+  },
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "mundarica_verified_complete_volume_count_change": 0
+  }
+}

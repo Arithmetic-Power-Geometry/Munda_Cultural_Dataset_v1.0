@@ -1,0 +1,120 @@
+{
+  "run_id": 243,
+  "search_id": "MMSC-SEARCH-000243",
+  "date_utc": "2026-09-12T04:45:00Z",
+  "stream": "non-Mundarica source census",
+  "source_class": "dictionary/book/reference_work",
+  "canonical_work": {
+    "title": "A Mundari-English Dictionary",
+    "author": "Manindra Bhusan Bhaduri",
+    "original_publication_year": 1931,
+    "original_publication_place": "Calcutta",
+    "original_publisher": "Calcutta University Press",
+    "canonicalization_key": "bhaduri-manindra-bhusan|a-mundari-english-dictionary|1931",
+    "canonicalization_decision": "one work-family; later reprints are manifestations, not independent works"
+  },
+  "verified_manifestations": [
+    {
+      "year": 1983,
+      "publisher": "Northern Book Centre",
+      "place": "New Delhi",
+      "institutional_catalogue": "CiNii Books",
+      "catalogue_id": "BA27135864",
+      "lccn": "84901705",
+      "extent": "xv, 228, ii p.",
+      "catalogue_note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931",
+      "url": "https://ci.nii.ac.jp/ncid/BA27135864"
+    },
+    {
+      "year": 1994,
+      "publisher": "Asian Educational Services",
+      "place": "New Delhi",
+      "institutional_catalogue": "CiNii Books",
+      "catalogue_id": "BA31909026",
+      "isbn": "8120609107",
+      "extent": "xv, 228, ii p.",
+      "catalogue_note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931",
+      "url": "https://ci.nii.ac.jp/ncid/BA31909026"
+    },
+    {
+      "year": 1994,
+      "publisher": "Asian Educational Services",
+      "place": "New Delhi",
+      "institutional_catalogue": "National Library of Finland / Helka",
+      "catalogue_id": "helka.999164223506253",
+      "isbn": "81-206-0910-7",
+      "extent": "xv, 229 pages (catalogue-reported)",
+      "catalogue_note": "Reprint; original publication Calcutta, 1931",
+      "url": "https://kansalliskirjasto.finna.fi/Record/helka.999164223506253"
+    },
+    {
+      "year": 2002,
+      "publisher": "Gyan Publishing House",
+      "place": "New Delhi",
+      "institutional_catalogue": "CiNii Books",
+      "catalogue_id": "BB09153012",
+      "isbn": "8121207959",
+      "extent": "xv, 228, ii p.",
+      "catalogue_note": "Reprint; catalogue reports original 1929 edition in its note, conflicting with multiple independent 1931-original records; retained as manifestation metadata conflict rather than silently normalized",
+      "url": "https://ci.nii.ac.jp/ncid/BB09153012"
+    }
+  ],
+  "secondary_identity_crosscheck": {
+    "provider": "Open Library",
+    "work_id": "OL5467157W",
+    "edition_id": "OL3008123M",
+    "lccn": "84901705",
+    "observed_editions": [1931, 1983],
+    "note": "Used only as a secondary cross-check; institutional catalogue manifestations control the work-family audit."
+  },
+  "metadata_conflicts": [
+    "CiNii BB09153012 describes the 2002 reprint as originally published from a 1929 edition/introduction, whereas CiNii BA27135864, BA31909026, Helka and Open Library independently support a 1931 Calcutta University Press original. The conflict is preserved, not erased."
+  ],
+  "promotion": {
+    "level": "exact bibliographic/catalogue locator and deterministic work-family canonicalization",
+    "lexical_entries_promoted": 0,
+    "passage_records_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "content_hashes_promoted": 0,
+    "reason": "No permission-cleared complete full-text bytes were independently acquired and hashed in this run."
+  },
+  "rights_access_governance": {
+    "catalogue_metadata_publicly_observable": true,
+    "full_text_reuse_license_verified": false,
+    "public_availability_treated_as_permission": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "Publication age alone is not treated as proof of public-domain status in every relevant jurisdiction."
+  },
+  "deduplication": {
+    "deterministic_key": "normalized(author)+normalized(title)+original_year",
+    "manifestations_collapsed_to_one_work_family": true,
+    "count_bearing_identity_added_this_run": false,
+    "reason": "Absence from every controlled canonical registry was not established; exact locators are strengthened without inflating MMSC totals."
+  },
+  "unresolved_gaps": [
+    "Locate a lawful complete 1931 manifestation or an explicitly permission-cleared later manifestation.",
+    "Acquire content byte-preservingly and compute an independent cryptographic hash before row/page ingestion.",
+    "Resolve the 1929-versus-1931 catalogue-note conflict from primary bibliographic evidence.",
+    "Verify exact page/entry locators before promoting any lexical evidence.",
+    "Establish applicable content reuse rights separately from catalogue access."
+  ],
+  "controlled_metrics_after_run": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "additional_federated_discoveries": 28,
+    "still_to_acquire_additional_discoveries": 27,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42
+  },
+  "release_gate": "NOT_PASS"
+}

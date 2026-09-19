@@ -1,0 +1,79 @@
+{
+  "run": 226,
+  "search_id": "MMSC-SEARCH-000226",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and exact-locator advancement",
+  "audited_at_utc": "2026-09-11T19:50:00Z",
+  "source": {
+    "canonical_title": "Author's response: Mundari and argumentation in word-class analysis",
+    "publication_title_variant": "Mundari and argumentation in word-class analysis",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "volume": "9",
+    "issue": "3",
+    "pages": "442-457",
+    "doi": "10.1515/lity.2005.9.3.442",
+    "anu_handle": "1885/32609",
+    "anu_item_url": "https://openresearch-repository.anu.edu.au/items/2e567f5f-b408-45aa-b1f9-46af285fc39c",
+    "anu_portal_url": "https://researchportalplus.anu.edu.au/en/publications/mundari-and-argumentation-in-word-class-analysis/",
+    "publisher": "Walter de Gruyter",
+    "anu_access_statement": "Open Access",
+    "repository_file": "01_Evans_Author's_response:_Mundari_and_2005.pdf",
+    "repository_reported_file_size": "118.24 KB"
+  },
+  "identity_verification": {
+    "doi_matches_across_anu_repository_and_anu_research_portal": true,
+    "authors_match": true,
+    "year_matches": true,
+    "journal_volume_issue_pages_verified_by_anu_research_portal": true,
+    "title_variant_reconciled": true,
+    "same_bibliographic_work_supported": true
+  },
+  "locator_state": {
+    "article_level_locator_verified": true,
+    "page_range_verified": true,
+    "exact_claim_page_inside_article_verified": false,
+    "bitstream_bytes_acquired": false,
+    "independent_hash_computed": false,
+    "page_image_inspected": false,
+    "blocker": "ANU item open returned HTTP 403 in this audit environment; the institutional metadata remained discoverable through indexed ANU records."
+  },
+  "rights_and_governance": {
+    "institutional_access_statement": "Open Access",
+    "open_access_treated_as_blanket_redistribution_license": false,
+    "open_access_treated_as_model_training_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "classification": {
+    "source_class": "peer-reviewed article / author response",
+    "language_scope": "Mundari linguistic analysis",
+    "cultural_claim_scope": "none promoted",
+    "non_mundarica": true
+  },
+  "deduplication": {
+    "prior_discovery_status": "previously surfaced as a candidate in the non-Mundarica census",
+    "canonical_key": "doi:10.1515/lity.2005.9.3.442",
+    "aliases": ["hdl:1885/32609", "ANU item 2e567f5f-b408-45aa-b1f9-46af285fc39c"],
+    "new_identity_count_increment_permitted": false,
+    "reason": "This run advances verification state of an existing discovery lead; it does not establish that the lead is absent from every controlled identity/canonical register."
+  },
+  "promotion": {
+    "promoted_to_exact_article_locator_audit": true,
+    "promoted_to_claim_evidence_graph": false,
+    "linguistic_proposition_promoted": false,
+    "cultural_claim_promoted": false,
+    "full_text_ingested": false,
+    "lexical_rows_ingested": 0
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "coverage_state_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

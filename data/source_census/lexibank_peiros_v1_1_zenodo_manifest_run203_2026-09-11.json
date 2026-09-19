@@ -1,0 +1,54 @@
+{
+  "run": 203,
+  "date": "2026-09-11",
+  "stream": "non_mundarica_lexical_dataset_manifestation_integrity",
+  "result": "ZENODO_V1_1_ARCHIVE_FILENAME_SIZE_AND_REPOSITORY_MD5_VERIFIED_BYTES_NOT_INDEPENDENTLY_ACQUIRED",
+  "source_family": "Lexibank / Peiros Austroasiatic CLDF",
+  "record": {
+    "zenodo_record": "https://zenodo.org/records/13168443",
+    "version": "v1.1",
+    "version_doi": "10.5281/zenodo.13168443",
+    "resource_type": "Dataset",
+    "published": "2024-08-02",
+    "archive_filename": "lexibank/peirosaustroasiatic-v1.1.zip",
+    "archive_size_display": "637.3 kB",
+    "repository_reported_checksum_algorithm": "md5",
+    "repository_reported_checksum": "cff41a8a9db0f74e14550d2330a56483",
+    "related_software": "https://github.com/lexibank/peirosaustroasiatic/tree/v1.1"
+  },
+  "verification_boundary": {
+    "zenodo_landing_record_retrieved": true,
+    "archive_filename_verified_from_zenodo": true,
+    "archive_size_verified_from_zenodo": true,
+    "repository_reported_md5_verified_as_metadata": true,
+    "archive_bytes_independently_acquired": false,
+    "independent_md5_recomputed": false,
+    "archive_contents_independently_opened": false,
+    "forms_csv_bytes_independently_verified": false,
+    "mundari_lexical_rows_ingested": 0,
+    "source_identities_added": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0
+  },
+  "retrieval_attempts": {
+    "binary_download_attempted": true,
+    "result": "blocked_in_current_tooling",
+    "notes": "Direct binary acquisition was attempted. One downloader failed, while a web fetch reached the exact Zenodo file URL but could not decode the binary payload as text. This is not evidence of byte acquisition and does not satisfy independent hash verification."
+  },
+  "rights_and_governance": {
+    "existing_repository_license_statement": "CC-BY-4.0",
+    "license_scope_not_extended_beyond_recorded_dataset_statement": true,
+    "underlying_peiros_source_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "deduplication": {
+    "canonical_identity_key": "doi:10.5281/zenodo.13168443|github:lexibank/peirosaustroasiatic|tag:v1.1",
+    "duplicate_source_identity_created": false,
+    "count_bearing_promotion": false
+  },
+  "remaining_blocker": "Acquire the exact v1.1 archive byte-preservingly, independently recompute MD5 cff41a8a9db0f74e14550d2330a56483, inspect CLDF forms/source pointers, and only then consider narrowly source-attributed permitted lexical ingestion."
+}

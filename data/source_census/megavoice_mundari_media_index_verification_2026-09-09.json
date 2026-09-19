@@ -1,0 +1,85 @@
+{
+  "record_type": "source_verification",
+  "snapshot_date": "2026-09-09",
+  "candidate_id": "RUN87-MEDIA-MEGAVOICE-MUNDARI",
+  "canonical_source_id": null,
+  "source_class": "audio_video_media_catalogue",
+  "title": "MegaVoice Media Cloud — Mundari language index and selected exact media locators",
+  "canonical_locator": "https://megavoice.com/language/mundari/",
+  "verified_metadata": {
+    "language_label": "Mundari",
+    "catalogue_scope": "MegaVoice Media Cloud language index",
+    "country_label_on_selected_records": "India",
+    "selected_exact_records": [
+      {
+        "reference_number": "M0B0406",
+        "title": "Story of Jesus",
+        "type": "Audio",
+        "publisher": "CRU",
+        "size": "82.1 MB",
+        "run_time": "001 hr 30 min",
+        "record_locator": "https://megavoice.com/media-cloud/m0b0406-story-of-jesus-unr-mundari-audio-bible/"
+      },
+      {
+        "reference_number": "M0B1257",
+        "title": "God's Story",
+        "type": "Audio",
+        "publisher": "The God's Story Project",
+        "size": "70 MB",
+        "run_time": "001 hr 16 min",
+        "record_locator": "https://megavoice.com/media-cloud/m0b1257-gods-story-unr-mundari-audio-bible/"
+      },
+      {
+        "reference_number": "M0B9476",
+        "title": "Gospel of Mark",
+        "type": "Audio",
+        "publisher": "Faith Comes by Hearing (Hosanna)",
+        "version": "2018 The Word for the World International (2020 Audio)",
+        "size": "55.3 MB",
+        "run_time": "002 hr 06 min",
+        "record_locator": "https://megavoice.com/media-cloud/m0b9476-gospel-of-mark-unr-mundari-audio-bible/"
+      },
+      {
+        "reference_number": "M013386",
+        "title": "The Jesus Film",
+        "type": "Video",
+        "publisher": "CRU",
+        "record_locator": "https://megavoice.com/media-cloud/m013386-the-jesus-film-unr-mundari-video-bible/"
+      }
+    ],
+    "additional_indexed_records_observed": ["M036832", "M035419", "M032125", "M032124", "M0B7030", "M0B7031", "M0B1380"],
+    "historical_crosscheck": "MegaVoice's June 2014 New Testament Audio Library list independently contains a 'Mundari NT - Bible Society' entry on page 6; this is a catalogue crosscheck, not proof that it is identical to any modern reference number."
+  },
+  "deduplication": {
+    "key": "megavoice:language:mundari",
+    "comparison_result": "No existing MegaVoice verification artifact was found in the mlhkp-v2 source_census tree during run 87. This run-specific candidate is not assigned a permanent SRC-MMSC identifier until reconciliation against the authoritative 87-lead discovery set and master register is completed.",
+    "duplicate_source_id_found": false,
+    "counting_rule": "Do not increment audited-source, lead, claim, evidence or link counts from this artifact alone. Multiple media items under one catalogue must be dispositioned under the repository's intellectual-work/item canonicalization rules before permanent admission."
+  },
+  "evidence_promotion": {
+    "level": "publisher_catalogue_metadata_exact_locator",
+    "promoted_public_evidence": "Only catalogue identity, language label, media type, publisher label, reference number, runtime/size where stated, and exact record locator.",
+    "cultural_claim_promoted": false,
+    "audio_or_video_content_ingested": false,
+    "transcription_or_translation_ingested": false
+  },
+  "rights_access_consent": {
+    "catalogue_metadata_access": "public",
+    "media_sample_or_device_availability": "catalogue indicates availability; this is not treated as reuse permission",
+    "copyright_or_redistribution_permission": "not_established",
+    "model_training_permission": "not_established",
+    "speaker_performer_identity": "not_established from the selected catalogue records",
+    "speaker_performer_consent_for_repository_or_ml_reuse": "not_established",
+    "community_validation": "not_established",
+    "religious_media_representativeness": "not_established and must not be inferred",
+    "cultural_access_state": "separate_review_required",
+    "rule": "Public catalogue or sample accessibility cannot override copyright, consent, dignity, cultural-access or representativeness review."
+  },
+  "scope_classification": {
+    "in_scope": "Mundari-language media catalogue evidence and media-resource discovery",
+    "out_of_scope_without_further_evidence": "Munda cultural practice, belief prevalence, community endorsement, dialect representativeness, participant consent, unrestricted reuse or demographic inference"
+  },
+  "verification_state": "exact_catalogue_and_selected_record_locators_verified_metadata_only",
+  "checked_utc": "2026-09-08T21:44:00Z",
+  "release_boundary": "This verification is useful for the non-Mundarica media census, but it does not authorize ingesting protected audio/video or treating religious content as representative Munda cultural evidence. Permanent counting remains pending deterministic master-register reconciliation."
+}

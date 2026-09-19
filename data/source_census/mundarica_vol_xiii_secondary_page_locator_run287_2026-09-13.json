@@ -1,0 +1,65 @@
+{
+  "run_id": 287,
+  "date_utc": "2026-09-13",
+  "stream": "Mundarica I-XVI acquisition/page-accounting/structuring",
+  "volume": "XIII",
+  "source_type": "peer-reviewed secondary scholarly locator",
+  "secondary_source": {
+    "title": "Gender Relations and Witches among the Indigenous Communities of Jharkhand, India",
+    "author": "Samar Bosu Mullick",
+    "year": 2000,
+    "journal": "Indian Journal of Gender Studies",
+    "doi": "10.1177/097185240000400301",
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/097185240000400301"
+  },
+  "verified_locator_statements": [
+    {
+      "entry": "sengelda",
+      "volume": "XIII-S",
+      "reported_pages": "3918-3922",
+      "verification_level": "secondary citation locator only"
+    },
+    {
+      "entry": "Sing-bonga",
+      "volume": "XIII-S",
+      "reported_pages": "3981-3988",
+      "verification_level": "secondary citation locator only"
+    }
+  ],
+  "source_citation_context": "The peer-reviewed article's reference note cites Hoffmann and Emelen, Encyclopaedia Mundarica, Vol. XIII-S, with sengelda at pp. 3918-3922 and Sing-bonga/origin-myth material at pp. 3981-3988.",
+  "verification": {
+    "secondary_bibliographic_locator_verified": true,
+    "authoritative_scan_registered": false,
+    "scan_bytes_acquired": false,
+    "independent_hash_computed": false,
+    "printed_page_to_scan_image_concordance_verified": false,
+    "ocr_verified": false,
+    "entry_text_transcribed": false,
+    "cultural_fact_promoted": false
+  },
+  "rights_and_governance": {
+    "secondary_citation_treated_as_scan_redistribution_permission": false,
+    "secondary_citation_treated_as_model_training_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "canonicalization": {
+    "new_controlled_source_identity": false,
+    "reason": "This refines the already tracked Encyclopaedia Mundarica source family with exact secondary page locators; it is not a new controlled source identity."
+  },
+  "release_effect": {
+    "authoritative_registered_scan_count_change": 0,
+    "verified_complete_volume_count_change": 0,
+    "controlled_claim_count_change": 0,
+    "controlled_evidence_count_change": 0,
+    "safe_use": "Acquisition targeting and later printed-page/image reconciliation only."
+  },
+  "blockers": [
+    "Acquire a permitted Volume XIII scan/bitstream and compute an independent hash.",
+    "Verify printed pages 3918-3922 and 3981-3988 against exact scan images before any direct-source promotion.",
+    "Verify OCR separately; do not infer OCR correctness from bibliographic page locators.",
+    "Apply rights, community-validation and cultural-access review before any public cultural-content promotion."
+  ]
+}
