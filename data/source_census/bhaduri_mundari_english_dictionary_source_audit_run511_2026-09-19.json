@@ -1,0 +1,76 @@
+{
+  "run": 511,
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source_id": "BHADURI-MUNDARI-ENGLISH-DICTIONARY-1931",
+  "source_class": "dictionary/book",
+  "scope": "direct Mundari lexical source",
+  "canonical_work": {
+    "author": "Manindra Bhusan Bhaduri",
+    "title": "A Mundari-English dictionary",
+    "original_publisher": "Calcutta University Press",
+    "original_year": 1931,
+    "pagination": "xv, 228, ii p.",
+    "subject": "Mundari language -- Dictionaries -- English"
+  },
+  "verified_manifestations": [
+    {
+      "provider": "CiNii Books",
+      "ncid": "BA31909026",
+      "edition": "Asian Educational Services reprint",
+      "year": 1994,
+      "isbn": "8120609107",
+      "note": "CiNii states reprint; originally published Calcutta University Press, 1931."
+    },
+    {
+      "provider": "Open Library",
+      "work_id": "OL5467157W",
+      "edition_id": "OL3008123M",
+      "lccn": "84901705",
+      "access": "preview/locate metadata; not treated as redistributable full text"
+    },
+    {
+      "provider": "CiNii Books",
+      "ncid": "BB09153012",
+      "edition": "Gyan Publishing House reprint",
+      "year": 2002,
+      "isbn": "8121207959",
+      "note": "with introduction by Rai Bahadur Sarat Chandra Roy; reprint manifestation"
+    }
+  ],
+  "deduplication": {
+    "rule": "1931 original and later reprints/catalogue/preview manifestations are one underlying work unless collation proves substantive edition differences",
+    "independent_source_count_increment": 0,
+    "repository_exact_title_search_before_creation": "no match returned by connector search"
+  },
+  "rights_access": {
+    "status": "unresolved_for_exact_ingestion",
+    "reason": "catalogue metadata and preview/locate availability do not establish item-level redistribution permission for a digitized manifestation",
+    "public_domain_inference": "not asserted solely from publication date",
+    "cultural_access": "lexical entries must not be treated as unrestricted cultural knowledge without entry-level review where culturally sensitive content is implicated"
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "records_promoted": 0,
+    "reason": "no lawful immutable full-text bytes, locally verified SHA-256, page concordance, or exact entry locator was obtained in this run",
+    "future_locator_template": "BHADURI-1931#printed-page=<p>;headword=<entry>;manifestation=<id>;sha256=<local-hash>"
+  },
+  "quality_controls": [
+    "dictionary entry does not equal cultural claim",
+    "reprint manifestation does not equal independent source",
+    "catalogue metadata does not equal exact-locator lexical evidence",
+    "preview availability does not equal redistribution permission",
+    "later reprint pagination must be concorded before using original-page locators"
+  ],
+  "discovery_sources": [
+    "https://ci.nii.ac.jp/ncid/BA31909026",
+    "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+    "https://ci.nii.ac.jp/ncid/BB09153012"
+  ],
+  "next_actions": [
+    "locate a lawful authoritative digitization of the 1931 original or a fully collatable reprint",
+    "materialize immutable bytes and compute local SHA-256",
+    "verify title/front matter and printed-page versus digital-page concordance",
+    "audit entries progressively and promote only permitted exact-locator lexical evidence",
+    "record entry-level upstream/source notes where present"
+  ]
+}
