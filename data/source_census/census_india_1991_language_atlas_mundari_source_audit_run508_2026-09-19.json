@@ -1,0 +1,60 @@
+{
+  "run": 508,
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": "government/census/language-atlas",
+  "canonical_identity": {
+    "title": "Language Atlas of India 1991",
+    "corporate_author": "Census of India / Office of the Registrar General, India",
+    "census_year": 1991,
+    "scope": "India language atlas; Mundari section",
+    "source_identity_status": "verified_from_discoverable_scan/search representation",
+    "canonicalization_rule": "Treat mirrors/scans/catalogue records of the same Census atlas as manifestations of one underlying work unless edition collation proves otherwise."
+  },
+  "mundari_locator_observed": {
+    "representation": "discoverable PDF/search text",
+    "content_observed": "Mundari section reports script use, total 1991 speaker count, and state/district distribution.",
+    "exact_printed_page": null,
+    "exact_pdf_page": null,
+    "immutable_sha256": null
+  },
+  "scope_classification": {
+    "direct_mundari": true,
+    "non_mundarica": true,
+    "government_statistical_source": true,
+    "contemporary_cultural_authority": false
+  },
+  "rights_access_consent": {
+    "access": "publicly discoverable scan/mirror observed",
+    "redistribution_permission_verified": false,
+    "participant_consent_applicable_to_aggregate_census_statistics": "not established/record-level microdata not in scope",
+    "cultural_access_review": "aggregate demographic/statistical evidence only; do not infer cultural practice or authority"
+  },
+  "dependency": {
+    "class": "primary-government-compilation-for-1991-census-statistics",
+    "independence_note": "Do not count derivative webpages reproducing Census figures as independent corroboration of the Census source."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Exact printed/PDF page concordance, lawful immutable bytes and SHA-256 were not established in this run. Provider/search snippets are insufficient for release-grade exact-locator promotion.",
+    "future_locator_template": "Language Atlas of India 1991#Mundari;printed_page=<p>;pdf_page=<n>;sha256=<hash>"
+  },
+  "observed_statistical_leads_not_yet_promoted": [
+    "861,378 Mundari speakers reported for the 1991 Census",
+    "Mundari reported principally in then-Bihar and Orissa, with district-level distribution",
+    "Roman, Devanagari and Oriya scripts reported in the atlas representation"
+  ],
+  "audit_invariants": [
+    "census aggregate does not equal cultural claim",
+    "mirror manifestation does not equal independent source",
+    "search-extracted text does not equal exact-locator evidence",
+    "historical administrative geography must not be silently rewritten into current-state geography"
+  ],
+  "blocked_or_missing": [
+    "authoritative immutable Census-hosted bytes not acquired",
+    "SHA-256 not computed",
+    "printed-page to PDF-page concordance unresolved",
+    "item-level reuse/redistribution basis not verified"
+  ],
+  "release_disposition": "canonicalized_verified_lead_not_promoted"
+}
