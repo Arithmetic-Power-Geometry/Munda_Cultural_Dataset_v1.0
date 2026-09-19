@@ -1,0 +1,65 @@
+{
+  "audit_id": "MLHKP-RUN517-ADIVAANI-TRIBAL-ENGLISH-PARALLEL",
+  "run": 517,
+  "audit_date": "2026-09-20",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census; dataset/parallel-corpus stream",
+  "canonical_identity": {
+    "title": "Adivaani Tribal-English Parallel Corpus",
+    "provider": "adivaanihf / Hugging Face Datasets",
+    "provider_locator": "adivaanihf/adivaani-tribal-english-parallel-corpus",
+    "mundari_config": "mundari",
+    "mundari_iso_639_3": "unr",
+    "parent_corpus": "adivaanihf/adivaani-tribal-parallel-corpus"
+  },
+  "verified_discovery_metadata": {
+    "mundari_config_listed": true,
+    "mundari_iso_unr_listed": true,
+    "columns": ["id", "tribal_language", "tribal_iso", "tribal_text", "eng_text"],
+    "stable_id_description": "identifier inherited from parent corpus ({language}_{index})",
+    "provider_reported_total_file_size": "154 MB",
+    "provider_states_derived_subset_of_parent": true,
+    "provider_directs_users_to_parent_for_provenance_and_licensing": true
+  },
+  "canonicalization": {
+    "independence_rule": "This derived Tribal-English view is not an independent evidentiary source from its parent corpus merely because it has a separate dataset card/configuration.",
+    "dedup_key": "parent stable id + language/config + aligned source/target identity",
+    "do_not_double_count": ["derived Tribal-English row", "same parent-corpus row", "alternate serialization/cache of the same row"]
+  },
+  "rights_access_consent_cultural_state": {
+    "access": "publicly discoverable dataset card",
+    "license": "unresolved here; dataset card directs to parent dataset for licensing",
+    "provenance": "parent-level provenance required",
+    "participant_or_translator_consent": "unverified",
+    "cultural_access": "unverified",
+    "redistribution_permission": "not inferred",
+    "promotion_permission": false
+  },
+  "locator_readiness": {
+    "candidate_exact_locator": "immutable dataset revision + mundari config + split + stable id/row index",
+    "immutable_revision_verified": false,
+    "local_bytes_sha256_verified": false,
+    "mundari_row_count_locally_recounted": false,
+    "parent_child_row_identity_reconciled": false
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Parent provenance/licensing, immutable revision, row inventory/hash, consent and cultural-access state are not yet sufficiently resolved. Translation/alignment rows are not cultural claims by default."
+  },
+  "explicit_gaps": [
+    "Resolve parent corpus provenance and license at the exact version used by the derived dataset.",
+    "Pin immutable provider revision and materialize/hash the Mundari configuration.",
+    "Deterministically recount Mundari rows and reconcile stable IDs against the parent corpus.",
+    "Audit translator/speaker/participant provenance and consent where applicable.",
+    "Apply cultural-access review before any culturally sensitive row is exposed or promoted."
+  ],
+  "governance_invariants_added": [
+    "derived_parallel_view_does_not_equal_independent_parent_corroboration",
+    "dataset_card_public_access_does_not_equal_parent_license_or_participant_consent",
+    "stable_row_identifier_does_not_by_itself_establish_provenance_or_reuse_permission"
+  ],
+  "source_urls": [
+    "https://huggingface.co/datasets/adivaanihf/adivaani-tribal-english-parallel-corpus"
+  ]
+}
