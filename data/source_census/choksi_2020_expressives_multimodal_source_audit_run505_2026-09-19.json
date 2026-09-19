@@ -1,0 +1,62 @@
+{
+  "audit_run": 505,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "type": "peer-reviewed journal article",
+    "author": "Nishaant Choksi",
+    "title": "Expressives and the multimodal depiction of social types in Mundari",
+    "journal": "Language in Society",
+    "volume": 49,
+    "issue": 3,
+    "publication_date": "2020-06",
+    "online_publication_date": "2019-11-28",
+    "pages": "379-398",
+    "doi": "10.1017/S0047404519000824",
+    "publisher": "Cambridge University Press"
+  },
+  "identity_verification": {
+    "publisher_record": "https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A",
+    "verified_fields": ["author", "title", "journal", "volume", "issue", "pages", "DOI", "online publication date"],
+    "repository_exact_title_search_before_audit": "no match returned"
+  },
+  "scope": {
+    "language": "Mundari",
+    "topics": ["expressives", "ideophones", "multimodality", "gesture", "gaze", "narrative", "song", "semiotics"],
+    "evidence_basis_reported_by_publisher": ["lab-based elicitation interviews", "ethnographic interviews in Mundari-speaking villages", "video data"],
+    "scope_class": "direct-Mundari peer-reviewed research"
+  },
+  "rights_access_consent": {
+    "publisher_copyright": "Copyright Cambridge University Press 2019",
+    "access_observed": "publisher abstract plus shared read-only article view",
+    "redistribution_permission": "not established",
+    "participant_or_consultant_consent_for_dataset_reuse": "not established by metadata inspection",
+    "cultural_access_permission": "not established",
+    "rule": "publisher-readable text does not imply permission to redistribute article text, interview/video material, elicited examples, songs, narratives, gestures, or participant-derived data"
+  },
+  "dependency_and_cultural_uncertainty": {
+    "article_contains_primary_and_secondary_material": true,
+    "required_passage_classes": ["author-primary-elicitation", "author-primary-ethnographic", "secondary-citation-derived", "mixed", "unresolved"],
+    "sensitive_modalities": ["participant video", "gesture/gaze", "narrative", "song", "social-type characterization"],
+    "independence_rule": "secondary examples or claims attributed to prior Mundari works must not be counted as independent corroboration of those works"
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1017/S0047404519000824",
+    "collapse_as_one_source": ["Cambridge abstract page", "Cambridge shared read-only view", "issue listing", "DOI manifestations", "bibliographic mirrors"],
+    "do_not_count_article_examples_or interview segments_as_independent_sources": true
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Article identity and scope are verified, but redistribution rights and participant/consultant/cultural reuse permissions for underlying multimodal data are not established. Passage-level provenance and exact locator/dependency review are required before promotion.",
+    "future_locator_pattern": "doi:10.1017/S0047404519000824#page=<379-398>;section=<section>;example=<n-or-na>;passage=<stable-fragment>;dependency=<primary|secondary|mixed>;rights=<basis>",
+    "promotion_gates": ["exact passage/example locator", "passage-level dependency classification", "reuse basis for quoted/extracted material", "participant/consultant consent review where underlying elicited material is implicated", "cultural-access/sensitivity review for narrative/song/social characterization"]
+  },
+  "release_invariants_added": [
+    "read-only publisher access != redistribution permission",
+    "peer-reviewed publication != participant consent for downstream dataset reuse",
+    "article-level identity != independent identity for each elicited example",
+    "secondary cited Mundari evidence != independent corroboration"
+  ],
+  "audit_outcome": "verified source; promotion deferred; explicit rights/provenance/consent gap retained"
+}
