@@ -1,0 +1,46 @@
+{
+  "run": 494,
+  "audit_date": "2026-09-19",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": {
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "title": "Mundari: The myth of a language without word classes",
+    "container": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "persistent_repository_uri": "http://hdl.handle.net/1885/54663",
+    "repository": "Australian National University Research Publications"
+  },
+  "source_class": ["peer-reviewed article", "linguistics", "open-access repository manifestation"],
+  "scope": "Mundari linguistic analysis; non-Mundarica census stream",
+  "identity_verification": {
+    "status": "verified-at-metadata-level",
+    "basis": "ANU repository record gives authors, year, title, journal/source, DOI, handle, Open Access access statement, and downloadable PDF manifestation.",
+    "canonicalization_rule": "DOI, ANU handle, publisher page, citations, mirrors and downloadable manifestations are one underlying article unless edition/content collation proves otherwise."
+  },
+  "dependency_warning": "The article explicitly analyzes Hoffmann material as well as new data. Passage/example-level dependency must therefore be tagged before any item is treated as independent corroboration; Mundarica-derived material must not enter the non-Mundarica evidence stream as independent evidence.",
+  "rights_access": {
+    "repository_access_statement": "Open Access",
+    "redistribution_permission": "not established by metadata-level audit alone",
+    "promotion_rule": "Do not redistribute or ingest full copyrighted text merely from an Open Access label. Promote only supported propositions/exact locators where quotation/reuse is permitted and dependency is resolved."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "This run verified identity/access but did not establish immutable permitted bytes, SHA-256, PDF-to-printed-page concordance, exact passage/example locators, and passage-level independence from Mundarica/Hoffmann material.",
+    "target_locator": "<lawfully-obtained-immutable-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;example=<id-if-present>;sha256=<hash>;dependency=<independent|hoffmann-derived|mixed>"
+  },
+  "explicit_gaps": [
+    "immutable permitted PDF bytes and SHA-256",
+    "PDF-to-printed-page concordance",
+    "passage/example exact locators",
+    "passage-level dependency classification separating Hoffmann/Mundarica-derived evidence from new data",
+    "licence/reuse terms sufficient for any redistributed excerpt",
+    "consultant/new-data provenance and consent where applicable",
+    "cultural-access/sensitivity review for any culturally substantive examples"
+  ],
+  "release_accounting": {
+    "controlled_count_delta": 0,
+    "reason": "Discovery/audit identity is not counted as promoted evidence until deterministic reconciliation and promotion gates pass."
+  }
+}
