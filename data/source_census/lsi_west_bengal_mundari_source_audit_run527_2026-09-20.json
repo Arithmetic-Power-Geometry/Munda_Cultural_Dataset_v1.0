@@ -1,0 +1,60 @@
+{
+  "audit_id": "MLHKP-RUN-527-LSI-WB-MUNDARI",
+  "run": 527,
+  "audit_date": "2026-09-20",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["government", "linguistic_survey", "grammar", "fieldwork"],
+  "canonical_source": {
+    "title": "Linguistic Survey of India: West Bengal, Part I (Mundari section)",
+    "institution": "Office of the Registrar General & Census Commissioner, India",
+    "section_author": "Sibasis Mukherjee",
+    "language": "Mundari",
+    "canonical_manifestation_url": "https://censusindia.gov.in/nada/index.php/catalog/34826/download/38514/LSI_WB_PART_I.pdf"
+  },
+  "verified_exact_locators": [
+    {
+      "printed_page": 391,
+      "section": "MUNDARI / 1. INTRODUCTION",
+      "supported_metadata": [
+        "Mundari is treated as a Non-Scheduled language of India in this survey.",
+        "The study reports field data collection in Jhargram of Midnapore district, West Bengal, during August 1995.",
+        "The printed text names informants Hari and Phagua Mundari.",
+        "The study states that its Mundari data are based on Midnapore district, West Bengal.",
+        "The survey keeps Census language/mother-tongue classification explicit rather than silently merging Munda and Mundari categories."
+      ]
+    }
+  ],
+  "identity_and_dependency_controls": {
+    "canonicalization_rule": "Treat catalogue pages, search snippets, mirrors, downloads and citations of this LSI section as manifestations/references to one government survey source unless independent underlying evidence is demonstrated.",
+    "upstream_dependency_note": "Historical statements explicitly attributed by the section to Grierson/LSI Vol. IV or Census publications remain dependencies and are not independent corroboration by this source.",
+    "fieldwork_dependency_note": "The 1995 elicitation event is underlying fieldwork represented by the publication; publication and fieldwork are not two independent corroborating sources."
+  },
+  "rights_consent_cultural_access": {
+    "public_access": true,
+    "open_redistribution_license_verified": false,
+    "participant_consent_for_dataset_redistribution_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false,
+    "rule": "Government publication/public access does not establish permission to redistribute underlying elicitation data, participant consent, community validation, or unrestricted cultural access."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "state": "exact-locator audited; promotion gated",
+    "reason": "Exact printed-page evidence is verified at source level, but immutable local manifestation hash, page-image concordance, reuse terms, and participant/cultural-access review are still required before controlled ingestion."
+  },
+  "remaining_gates": [
+    "lawful immutable local capture and SHA-256",
+    "page-image/text concordance check for the exact cited passage",
+    "reuse-rights determination for any reproduced text/data",
+    "participant-consent and cultural-access review before any underlying elicitation material is exposed",
+    "dependency tagging for Census/Grierson-derived statements"
+  ],
+  "fabrication_controls": {
+    "invented_counts": false,
+    "invented_cultural_claims": false,
+    "unverified_page_locators_promoted": false,
+    "public_access_treated_as_redistribution_permission": false
+  }
+}
