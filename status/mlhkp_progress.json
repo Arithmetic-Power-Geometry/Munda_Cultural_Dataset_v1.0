@@ -1,16 +1,124 @@
 {
-  "project":"MLHKP","branch":"mlhkp-v2","pr":1,"pr_state_verified":"open_unmerged_base_main","updated_utc":"2026-09-20T01:47:00Z","deadline_ist":"2026-09-21T23:59:00+05:30","latest_run":519,"pre_status_sync_head":"ad945fe1d8ce80ae2a9b288a5b695dedd8400843",
-  "mmsc":{"audited_source_identities":42,"raw_web_discovery_records":95,"unique_web_discovery_leads":92,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":78,"latest_deterministically_reconciled_search_id":"MMSC-SEARCH-000383","systematic_census_documented_for_release":true,"deterministic_false_positive_filtering_reconfirmed":true,"count_note":"No controlled count change: additions through Run519 require deterministic reconciliation against the WEB-MUN ledger. Run519 canonicalized the Odisha State Tribal Museum / SCSTRTI Government of Odisha Mundari profile as a government/TRI web source with field-level external locators and explicit Census-dependency, rights and cultural-governance gates. No claim, evidence record, map or media member promoted.","runs381_519_reconciliation_state":"pending"},
-  "evidence":{"claims":52,"records":52,"links":52,"schema_category_representation_percent":100.0,"all_public_factual_claims_provenance_linked":true,"broken_ids_or_provenance_known":false,"new_public_factual_claims_promoted_since_last_reconciliation":0},
-  "ontology_entities_graph":{"pipeline":"SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM->INDICATOR->DOMAIN","schema_category_representation_percent":100.0},
-  "streamlit":{"registered_modules":42,"mapped_modules":42,"ui_mapping_percent":100.0,"universal_search":true,"evidence_drilldown":true,"reports_downloads":true,"owner_console":true,"run519_change":"No module/count mutation justified until deterministic reconciliation and permitted claim-level promotion."},
-  "governance":{"cultural_access_overrides_entitlement":true,"restricted_content_not_exposed":true,"community_validation_not_fabricated":true,"provider_ocr_does_not_equal_verified_ocr":true,"database_license_does_not_equal_underlying_source_reuse_permission":true,"copyright_license_does_not_equal_participant_consent":true,"public_or_catalogued_availability_does_not_equal_item_level_reuse_consent_or_cultural_permission":true,"comparative_munda_evidence_does_not_equal_mundari_evidence":true,"kera_mundari_does_not_equal_unqualified_mundari":true,"serialization_manifestation_does_not_equal_independent_source":true,"derived_wordlist_does_not_equal_independent_upstream_corroboration":true,"open_license_does_not_equal_participant_consent":true,"public_playback_does_not_equal_redistribution_permission":true,"corpus_record_does_not_equal_independent_source":true,"translation_pair_does_not_equal_cultural_claim":true,"provider_reported_count_does_not_equal_locally_audited_count":true,"open_access_does_not_equal_open_redistribution_license":true,"search_extracted_text_does_not_equal_exact_locator_evidence":true,"provider_md5_does_not_equal_locally_verified_sha256":true,"downloadability_does_not_equal_verified_redistribution_license":true,"dictionary_entry_does_not_equal_cultural_claim":true,"reprint_manifestation_does_not_equal_independent_source":true,"historical_publication_does_not_equal_manifestation_reuse_permission":true,"paper_and_repository_manifestations_do_not_equal_independent_corpora":true,"dataset_count_discrepancy_must_remain_explicit_until_version_member_reconciliation":true,"shared_read_only_access_does_not_equal_open_license":true,"third_party_searchable_full_text_does_not_equal_ingestion_or_redistribution_permission":true,"derived_parallel_view_does_not_equal_independent_parent_corroboration":true,"dataset_card_public_access_does_not_equal_parent_license_or_participant_consent":true,"stable_row_identifier_does_not_by_itself_establish_provenance_or_reuse_permission":true,"web_audio_member_does_not_equal_independent_source":true,"public_audio_url_does_not_establish_speaker_consent_or_linguistic_validation":true,"official_tri_presentation_does_not_equal_independent_corroboration_of_cited_census":true,"government_hosted_public_access_does_not_equal_redistribution_permission":true,"museum_profile_does_not_establish_community_validation_or_participant_consent":true,"linked_map_or_media_member_does_not_equal_independent_source_identity":true},
-  "publication":{"q1_target":true,"metrics_synced_to_last_deterministically_reconciled_controlled_metrics":true,"build_state":"42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved; Runs381-519 reconciliation pending"},
-  "sync_state":{"status_updated_through_run":519,"controlled_metrics_match_last_deterministically_reconciled_repository_metrics":true,"locator_queue_requires_reconciliation":true,"manuscript_metric_change_not_justified":true},
-  "ci":{"last_exact_source_head":"ad945fe1d8ce80ae2a9b288a5b695dedd8400843","required_workflows":["Migration Audit","Source Register Audit","Streamlit Smoke Test","Publication Build"],"run518_all_four_required_workflows_success_verified":true,"run519_all_four_required_workflows_success_verified":false,"verification_note":"Run519 exact substantive source-audit head ad945fe1d8ce80ae2a9b288a5b695dedd8400843 not yet independently verified across all four required workflows; no Run518 success inherited."},
-  "mundarica":{"independently_authoritative_registered_scans":0,"verified_complete_volumes":0,"verified_ocr_pages":0,"per_volume_state":"I-VIII unverified; IX/X/XIII provider-manifestation/bibliographic locators only; XI/XII bibliographic-page-information only; XIV-XVI commercial-reprint numbering/content concordance unresolved; no volume promoted to verified scan/OCR completeness"},
-  "blockers":["78 unresolved WEB-MUN leads at last deterministic reconciliation","Runs381-519 additions require deterministic reconciliation before controlled count changes","Mundarica I-XVI still lacks independently authoritative registered scans and verified OCR/page completeness","OSTM/SCSTRTI Mundari profile requires immutable capture/hash, exact Census 2011 dependency reconciliation, map provenance/rights and claim-level community/cultural review before promotion","Languages Home Mundari audio requires provider/authorship provenance, variety validation, speaker consent, explicit reuse terms, cultural review, immutable capture/hash and member inventory before promotion","Karya translation/TTS sources require immutable local byte/hash, exact member inventory and consent/provenance audits before row/member promotion; TTS repository reports 26,870 recordings while the 2024 paper reports 26,868","Adivaani Tribal-English Mundari view requires immutable revision/hash, deterministic row recount, parent-corpus provenance/license reconciliation, parent-child stable-ID reconciliation, and consent/cultural review before promotion","Rau 2019 and ASJP Mundari require immutable local bytes/hash and row/upstream provenance audit","Bhaduri 1931, Haldar 1871, Cook 1965, Sinha 1975, Konow 1911, Evans-Osada 2005, Census Language Atlas 1991, Choksi 2020 and Phillips-Harrison 2017 retain their recorded exact-locator/rights/dependency gates"],
-  "release_gate":{"status":"NOT_PASS","schema_category_representation_100":true,"ui_mapping_100":true,"systematic_census_documented":true,"all_obtainable_permitted_sources_processed_to_declared_level":false,"gaps_enumerated":true,"no_broken_ids_or_provenance_known":true,"no_restricted_leakage_known":true,"no_false_ocr_verification_known":true,"automated_completeness_audit_pass":false},
-  "deadline_progress":{"target":"strongest defensible audited release by 2026-09-21T23:59:00+05:30","gate_passed":false,"absolute_or_future_proof_source_completeness_claimed":false},
-  "next_parallel_tasks":["deterministically reconcile Runs381-519 against WEB-MUN and update counts only from ledger evidence","capture/hash OSTM Mundari page/map where lawful and reconcile its Census 2011 derivation before claim promotion","audit Languages Home provider provenance, licensing, speaker/translation provenance and exact member inventory without copying restricted/uncleared audio","pin/materialize/hash Adivaani Mundari config and parent corpus; reconcile stable IDs, license/provenance, consent and cultural access before promotion","materialize/hash Karya translation TSV and TTS sample; reconcile 26,870 vs 26,868 and exact rights/consent","materialize/hash Rau 2019 and ASJP Mundari exports and audit rows/upstream dependencies","obtain lawful immutable Bhaduri, Haldar, Cook, Sinha, Konow, Evans-Osada and Census Language Atlas manifestations and progressively promote only permitted exact locators","continue broad non-Mundarica census across government, archive, education/audio, media and scholarly classes","run automated completeness audit and all four required CI workflows on every exact head","synchronize publication metrics only when controlled repository metrics change"]
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "pr_state_verified": "open_unmerged_base_main",
+  "updated_utc": "2026-09-20T02:30:00Z",
+  "deadline_ist": "2026-09-21T23:59:00+05:30",
+  "latest_run": 519,
+  "pre_status_sync_head": "ad945fe1d8ce80ae2a9b288a5b695dedd8400843",
+  "mmsc": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 95,
+    "unique_web_discovery_leads": 92,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 78,
+    "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
+    "systematic_census_documented_for_release": true,
+    "runs381_519_reconciliation_state": "pending",
+    "count_note": "No controlled count change. Run519 canonicalized the Odisha State Tribal Museum / SCSTRTI Government of Odisha Mundari profile with field-level external locators and explicit Census-dependency, rights and cultural-governance gates; no claim/evidence/map/media member promoted."
+  },
+  "evidence": {
+    "claims": 52,
+    "records": 52,
+    "links": 52,
+    "schema_category_representation_percent": 100.0,
+    "all_public_factual_claims_provenance_linked": true,
+    "broken_ids_or_provenance_known": false,
+    "new_public_factual_claims_promoted_since_last_reconciliation": 0
+  },
+  "ontology_entities_graph": {
+    "pipeline": "SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM->INDICATOR->DOMAIN",
+    "schema_category_representation_percent": 100.0
+  },
+  "streamlit": {
+    "registered_modules": 42,
+    "mapped_modules": 42,
+    "ui_mapping_percent": 100.0,
+    "universal_search": true,
+    "evidence_drilldown": true,
+    "reports_downloads": true,
+    "owner_console": true
+  },
+  "governance": {
+    "cultural_access_overrides_entitlement": true,
+    "restricted_content_not_exposed": true,
+    "community_validation_not_fabricated": true,
+    "provider_ocr_does_not_equal_verified_ocr": true,
+    "public_access_does_not_equal_redistribution_permission": true,
+    "copyright_license_does_not_equal_participant_consent": true,
+    "translation_pair_does_not_equal_cultural_claim": true,
+    "provider_reported_count_does_not_equal_locally_audited_count": true,
+    "official_tri_presentation_does_not_equal_independent_corroboration": true,
+    "museum_profile_does_not_establish_community_validation_or_participant_consent": true
+  },
+  "publication": {
+    "q1_target": true,
+    "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved; Runs381-519 reconciliation pending"
+  },
+  "sync_state": {
+    "status_updated_through_run": 519,
+    "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
+    "locator_queue_requires_reconciliation": true,
+    "manuscript_metric_change_not_justified": true
+  },
+  "ci": {
+    "last_exact_source_head": "ad945fe1d8ce80ae2a9b288a5b695dedd8400843",
+    "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"],
+    "run519_all_four_required_workflows_success_verified": true,
+    "workflow_runs": {
+      "Migration Audit": 35482277786,
+      "Source Register Audit": 35482277789,
+      "Streamlit Smoke Test": 35482277795,
+      "Publication Build": 35482277797
+    },
+    "verification_note": "Run519 exact substantive source-audit head ad945fe1d8ce80ae2a9b288a5b695dedd8400843 independently verified success across all four required workflows."
+  },
+  "mundarica": {
+    "independently_authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0,
+    "per_volume_state": "I-VIII unverified; IX/X/XIII provider-manifestation/bibliographic locators only; XI/XII bibliographic-page-information only; XIV-XVI commercial-reprint numbering/content concordance unresolved; no volume promoted to verified scan/OCR completeness"
+  },
+  "blockers": [
+    "78 unresolved WEB-MUN leads at last deterministic reconciliation",
+    "Runs381-519 additions require deterministic reconciliation before controlled count changes",
+    "Mundarica I-XVI still lacks independently authoritative registered scans and verified OCR/page completeness",
+    "OSTM/SCSTRTI Mundari profile requires immutable capture/hash, exact Census 2011 dependency reconciliation, map provenance/rights and claim-level community/cultural review before promotion",
+    "Languages Home Mundari audio requires provider/authorship provenance, variety validation, speaker consent, explicit reuse terms, cultural review, immutable capture/hash and member inventory before promotion",
+    "Karya translation/TTS sources require immutable local byte/hash, exact member inventory and consent/provenance audits; TTS repository reports 26,870 recordings while the 2024 paper reports 26,868",
+    "Adivaani Tribal-English Mundari view requires immutable revision/hash, deterministic row recount, parent-corpus provenance/license reconciliation, stable-ID reconciliation, consent and cultural review",
+    "Rau 2019, ASJP Mundari, Bhaduri 1931, Haldar 1871, Cook 1965, Sinha 1975, Konow 1911, Evans-Osada 2005, Census Language Atlas 1991, Choksi 2020 and Phillips-Harrison 2017 retain exact-locator/rights/dependency gates"
+  ],
+  "release_gate": {
+    "status": "NOT_PASS",
+    "schema_category_representation_100": true,
+    "ui_mapping_100": true,
+    "systematic_census_documented": true,
+    "all_obtainable_permitted_sources_processed_to_declared_level": false,
+    "gaps_enumerated": true,
+    "no_broken_ids_or_provenance_known": true,
+    "no_restricted_leakage_known": true,
+    "no_false_ocr_verification_known": true,
+    "automated_completeness_audit_pass": false
+  },
+  "deadline_progress": {
+    "target": "strongest defensible audited release by 2026-09-21T23:59:00+05:30",
+    "gate_passed": false,
+    "absolute_or_future_proof_source_completeness_claimed": false
+  },
+  "next_parallel_tasks": [
+    "deterministically reconcile Runs381-519 against WEB-MUN and update counts only from ledger evidence",
+    "capture/hash OSTM Mundari page/map where lawful and reconcile Census 2011 derivation before claim promotion",
+    "audit Languages Home provenance/licensing/speaker provenance/member inventory without copying uncleared audio",
+    "pin/materialize/hash Adivaani Mundari config and parent corpus and reconcile stable IDs/license/provenance/consent/cultural access",
+    "materialize/hash Karya translation TSV and TTS sample and reconcile 26,870 vs 26,868 plus rights/consent",
+    "materialize/hash Rau 2019 and ASJP Mundari exports and audit rows/upstream dependencies",
+    "obtain lawful immutable historical manifestations and promote only permitted exact locators",
+    "continue broad non-Mundarica census across government/archive/education/audio/media/scholarly classes",
+    "run automated completeness audit and all four required CI workflows on every exact head",
+    "synchronize publication metrics only when controlled repository metrics change"
+  ]
 }
