@@ -1,0 +1,61 @@
+{
+  "run": 542,
+  "audit_date": "2026-09-21",
+  "stream": "non-Mundarica source census",
+  "canonical_key": "koshy-anish-2024-re-evaluating-affixes-clitics-munda-multiverb-doi-10.54392-ijll2436",
+  "source_identity": {
+    "author": "Anish Koshy",
+    "title": "Re-evaluating Affixes and Clitics in Munda Multi-verb Constructions",
+    "container": "Indian Journal of Language and Linguistics",
+    "volume": "5",
+    "issue": "3",
+    "pages": "62-75",
+    "publication_date": "2024-09-29",
+    "doi": "10.54392/ijll2436",
+    "source_class": "peer-reviewed journal article / comparative Munda linguistics"
+  },
+  "provider": {
+    "name": "Indian Journal of Language and Linguistics / Asian Research Association",
+    "canonical_landing_page": "https://asianresassoc.org/journals/index.php/ijll/article/view/2326",
+    "pdf_exposed_by_provider": true,
+    "license_statement": "CC BY 4.0",
+    "license_scope": "article",
+    "peer_review_status_provider_reported": "peer-reviewed journal"
+  },
+  "verified_metadata": {
+    "article_locator": "vol. 5 no. 3 (2024), pp. 62-75",
+    "abstract_scope": "comparative analysis of bound elements in Munda languages, especially multi-verb constructions and affix-versus-clitic classification",
+    "mundari_specificity": "not established from landing-page metadata/abstract; source is Munda-family comparative rather than safely attributable to Mundari-specific evidence without passage verification",
+    "references_include": [
+      "Hoffmann 1903 Mundari Grammar",
+      "Osada 2008 Mundari",
+      "Grierson 1906 Linguistic Survey of India: Munda and Dravidian"
+    ]
+  },
+  "deduplication": {
+    "repository_search_before_ingestion": "no existing Koshy 2024 clitics audit found",
+    "doi_is_primary_identity_key": true,
+    "landing_page_pdf_doi_manifestations_are_one_work_not_independent_corroboration": true
+  },
+  "rights_access_consent_culture": {
+    "article_reuse": "provider states CC BY 4.0",
+    "underlying_or_cited_material_reuse": "not inferred from article license",
+    "participant_consent": "not established/not assumed",
+    "cultural_access": "not established; no cultural permission inferred from open access",
+    "scope_uncertainty": "Munda-family claims must not be silently normalized to Mundari/Munda-community claims"
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Exact article passages have not yet been captured and verified against the PDF, and the landing-page abstract is Munda-family comparative rather than sufficient evidence for Mundari-specific propositions. Preserve upstream-source dependencies before any claim promotion."
+  },
+  "next_conversion": [
+    "lawfully capture provider PDF under CC BY 4.0 and compute immutable SHA-256",
+    "establish PDF-page to printed-page concordance for pp. 62-75",
+    "enumerate exact passages that concern Mundari specifically versus Munda-family comparison",
+    "tag Hoffmann/Osada/Grierson dependencies so derived statements are not counted as independent corroboration",
+    "promote only exact-locator propositions whose scope and reuse conditions are supported"
+  ],
+  "release_effect": "Adds a canonical peer-reviewed source identity/locator without changing controlled counts before deterministic WEB-MUN reconciliation."
+}
