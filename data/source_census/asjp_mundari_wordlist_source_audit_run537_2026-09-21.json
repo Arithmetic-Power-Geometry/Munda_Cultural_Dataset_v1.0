@@ -1,0 +1,61 @@
+{
+  "run": 537,
+  "audited_utc": "2026-09-20T18:45:00Z",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "lexical_wordlist", "web_resource"],
+  "canonical_source": {
+    "title": "ASJP Database - Wordlist Mundari",
+    "compiler": "Cecil H. Brown",
+    "database_editors": ["Søren Wichmann", "Cecil H. Brown", "Eric W. Holman", "Matthew S. Dryer", "Qibin Ran"],
+    "provider": "Automated Similarity Judgment Program (ASJP) Database",
+    "canonical_url": "https://asjp.clld.org/languages/MUNDARI",
+    "glottocode_reported": "mund1320",
+    "iso_639_3_reported": "unr",
+    "coordinates_reported_wgs84": [23.00, 84.67],
+    "source_cited_by_provider": "Peiros 1998, Comparative Linguistics in Southeast Asia, Pacific Linguistics C-142, Australian National University"
+  },
+  "scope": {
+    "provider_label": "Mundari",
+    "classification": "direct Mundari lexical dataset lead",
+    "normalization_rule": "Preserve provider identifiers and labels exactly; do not infer equivalence with Munda/unx or other Mundaric varieties without source-level verification."
+  },
+  "rights": {
+    "provider_page_license_statement": "ASJP Database licensed under Creative Commons Attribution 4.0 International License",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "caution": "Database-level CC BY 4.0 does not by itself establish that every upstream lexical item, transcription, community contribution, or cited source can be redistributed independently of ASJP's licensed database representation."
+  },
+  "canonicalization": {
+    "identity_key": "asjp|MUNDARI|unr|mund1320",
+    "dedup_rule": "ASJP language page, exported rows/API representations, mirrors and search results are manifestations of one ASJP dataset identity, not independent corroborating sources.",
+    "upstream_dependency": "Peiros 1998 is explicitly cited by ASJP and must be dependency-tagged for claims or lexical forms derived from it."
+  },
+  "locator_state": {
+    "level": "provider-verified dataset/language-page locator",
+    "exact_locator": "ASJP language key MUNDARI; ISO 639-3 unr; provider URL above",
+    "exact_item_rows_locally_audited": 0,
+    "immutable_local_sha256": null
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Before controlled promotion, enumerate the actual wordlist deterministically, preserve item-level locators/transcriptions, capture a lawful immutable manifestation and SHA-256 where technically obtainable, verify attribution/version and dependency on Peiros 1998, and review cultural-access/community considerations."
+  },
+  "uncertainty_and_governance": [
+    "Provider-reported speaker count and coordinates are metadata and are not promoted as independently verified demographic/geographic facts.",
+    "CC BY 4.0 resolves an important database reuse dimension but does not override cultural-access review.",
+    "Do not count ASJP and Peiros 1998 as independent corroboration when ASJP is reproducing/deriving the relevant lexical evidence from Peiros."
+  ],
+  "blocked_or_missing": [
+    "No local immutable ASJP export/hash captured in this run.",
+    "No item-level wordlist enumeration was returned by the surfaced provider page in this run.",
+    "Peiros 1998 exact Mundari pages/items not yet audited."
+  ],
+  "next_actions": [
+    "Resolve ASJP downloadable/API representation for MUNDARI and enumerate rows deterministically.",
+    "Capture/hash the permitted representation and create item-level exact-locator evidence records.",
+    "Audit Peiros 1998 exact Mundari source pages and mark dependency edges.",
+    "Reconcile this audit against WEB-MUN before changing controlled MMSC counts."
+  ]
+}
