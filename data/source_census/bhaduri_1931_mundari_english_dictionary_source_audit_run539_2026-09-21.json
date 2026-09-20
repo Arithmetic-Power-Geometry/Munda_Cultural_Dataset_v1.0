@@ -1,0 +1,71 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN539-BHADURI-1931",
+  "run": 539,
+  "audit_date": "2026-09-21",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "author": "Manindra Bhusan Bhaduri",
+    "title": "A Mundari-English Dictionary",
+    "original_publisher": "Calcutta University Press",
+    "original_publication_year": 1931,
+    "type": "dictionary / lexicography",
+    "original_edition_extent": "xv, 228, ii pages",
+    "language_scope": "Mundari-English"
+  },
+  "identity_verification": {
+    "status": "verified at bibliographic/work level",
+    "anchors": [
+      "Open Library work OL5467157W and edition metadata",
+      "CiNii Books/NII bibliographic records BA27135864 and BA31909026"
+    ],
+    "reprint_evidence": [
+      {"publisher": "Northern Book Centre", "year": 1983, "lccn": "84901705", "extent": "xv, 228, ii p."},
+      {"publisher": "Asian Educational Services", "year": 1994, "isbn": "8120609107", "extent": "xv, 228, ii p."}
+    ],
+    "note": "Reprint records explicitly identify the Calcutta University Press 1931 work; manifestations are not independent sources."
+  },
+  "scope": {
+    "classification": "direct Mundari lexicographic source",
+    "mundari_language_primary": true,
+    "cultural_evidence_candidate": false,
+    "lexical_evidence_candidate": true
+  },
+  "locator_scaffold": {
+    "verified_extent": "xv, 228, ii pages",
+    "item_level_locators_verified": false,
+    "promotion_rule": "Promote lexical evidence only from a lawful manifestation after exact printed-page/headword locator verification and manifestation concordance."
+  },
+  "canonicalization": {
+    "work_key": "bhaduri|1931|a-mundari-english-dictionary",
+    "manifestations_to_merge": [
+      "Calcutta University Press 1931 original",
+      "Northern Book Centre 1983 reprint",
+      "Asian Educational Services 1994 reprint",
+      "later reprints and library/catalogue records"
+    ],
+    "independence_rule": "Reprints, Open Library records, CiNii records, library holdings and Internet Archive catalogue manifestations represent the same lexicographic work and do not constitute independent corroboration."
+  },
+  "rights_access_consent": {
+    "redistribution_permission_verified": false,
+    "lawful_full_text_obtained_for_ingestion": false,
+    "immutable_manifestation_hash_verified": false,
+    "cultural_access_review_complete": false,
+    "rule": "Catalogue/preview availability and historical publication date do not by themselves establish redistribution permission for a particular digitized manifestation."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Work identity and edition relationships are verified, but no lawful immutable full-text manifestation with exact headword/page locators has yet been captured and audited."
+  },
+  "gaps": [
+    "lawful full-text manifestation",
+    "manifestation-specific rights determination",
+    "immutable SHA-256",
+    "original/reprint printed-page concordance",
+    "deterministic headword enumeration and exact locators",
+    "dependency/source-history audit",
+    "cultural-access review for any culturally sensitive lexical material"
+  ],
+  "audit_principle": "Unavailable or unresolved evidence remains an explicit gap; no lexical or cultural proposition is promoted from bibliographic metadata alone."
+}
