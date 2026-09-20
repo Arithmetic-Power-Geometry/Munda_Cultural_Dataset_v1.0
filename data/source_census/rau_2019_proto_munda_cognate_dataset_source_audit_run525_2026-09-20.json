@@ -1,0 +1,62 @@
+{
+  "audit_run": 525,
+  "audit_date": "2026-09-20",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "creator": "Felix Rau",
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "year": 2019,
+    "version": "0.1.0",
+    "publisher": "Zenodo",
+    "doi": "10.5281/zenodo.3380874",
+    "record_url": "https://zenodo.org/records/3380874",
+    "resource_type": "dataset",
+    "scope": ["Proto-Munda", "comparative Munda", "Mundari lexical material"],
+    "provider_description": "127 cognates with proto-Munda reconstructions and references to MKCD and Pinnow (1959); includes Mundari among twelve named Munda languages."
+  },
+  "manifestation": {
+    "filename": "pMunda_cognate_set_2019-08-29.csv",
+    "provider_size": "34.9 kB",
+    "provider_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "local_sha256": null,
+    "sha256_status": "not locally verified in this run"
+  },
+  "locator_policy": {
+    "record_locator": "DOI 10.5281/zenodo.3380874",
+    "file_locator": "Zenodo record 3380874 + pMunda_cognate_set_2019-08-29.csv",
+    "row_locator": "CSV row/field locator only after lawful local capture and deterministic parse/recount"
+  },
+  "identity_and_deduplication": {
+    "canonical_identity": "rau-2019-proto-munda-cognate-set-v0.1.0",
+    "same_source_manifestations": ["Zenodo landing page", "Zenodo CSV preview", "Zenodo CSV download", "DOI redirect"],
+    "independence_warning": "The dataset explicitly references MKCD and Pinnow (1959). Rows derived from those works must not be counted as independent corroboration of those upstream sources."
+  },
+  "rights_access_consent": {
+    "access": "Zenodo marks the dataset Open and exposes the CSV for preview/download.",
+    "license": "unresolved: the currently surfaced Zenodo record has a Rights/License heading but no license value in the retrieved metadata",
+    "redistribution_permission": "not established",
+    "participant_consent": "not applicable/unknown from surfaced record; lexical source provenance must be checked at row level before cultural use",
+    "cultural_access": "unresolved",
+    "rule": "Open access/downloadability is not treated as an open redistribution license."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Exact file identity and provider checksum are established, but the surfaced record does not establish a reuse license and row-level source dependency has not yet been parsed."
+  },
+  "next_ingestion_gates": [
+    "obtain lawful immutable CSV bytes",
+    "calculate local SHA-256 and verify provider MD5",
+    "deterministically parse/recount the 127 cognate-set rows",
+    "isolate Mundari-bearing cells/rows with exact row and column locators",
+    "classify each promoted datum by upstream dependency (MKCD, Pinnow 1959, other, unresolved)",
+    "resolve explicit reuse license before redistributing any row text",
+    "preserve cultural/provenance uncertainty rather than inferring consent or community validation"
+  ],
+  "controlled_metrics": {
+    "action": "no count change from this audit alone",
+    "reason": "controlled WEB-MUN ledger reconciliation remains required; discovery/audit records do not automatically alter release counts"
+  },
+  "release_gate": "NOT PASS"
+}
