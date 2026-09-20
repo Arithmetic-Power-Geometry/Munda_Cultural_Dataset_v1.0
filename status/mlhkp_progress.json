@@ -3,10 +3,10 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-20T02:30:00Z",
+  "updated_utc": "2026-09-20T03:29:37Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 519,
-  "pre_status_sync_head": "ad945fe1d8ce80ae2a9b288a5b695dedd8400843",
+  "latest_run": 520,
+  "pre_status_sync_head": "8e02480412efa7698869386436d0b7195158ffdc",
   "mmsc": {
     "audited_source_identities": 42,
     "raw_web_discovery_records": 95,
@@ -16,8 +16,8 @@
     "unresolved_unique_web_leads": 78,
     "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
     "systematic_census_documented_for_release": true,
-    "runs381_519_reconciliation_state": "pending",
-    "count_note": "No controlled count change. Run519 canonicalized the Odisha State Tribal Museum / SCSTRTI Government of Odisha Mundari profile with field-level external locators and explicit Census-dependency, rights and cultural-governance gates; no claim/evidence/map/media member promoted."
+    "runs381_520_reconciliation_state": "pending",
+    "count_note": "No controlled count change. Run520 audited Munda Sabha Ranchi's Mundari.in media website as one provider identity, with page/member multiplicity explicitly non-independent; external-locator-only pending item-level rights, provenance, consent and cultural-access audit; no claim/evidence/media member promoted."
   },
   "evidence": {
     "claims": 52,
@@ -51,30 +51,32 @@
     "translation_pair_does_not_equal_cultural_claim": true,
     "provider_reported_count_does_not_equal_locally_audited_count": true,
     "official_tri_presentation_does_not_equal_independent_corroboration": true,
-    "museum_profile_does_not_establish_community_validation_or_participant_consent": true
+    "museum_profile_does_not_establish_community_validation_or_participant_consent": true,
+    "community_organization_sponsorship_does_not_equal_community_wide_cultural_clearance": true,
+    "website_page_or_member_multiplicity_does_not_equal_independent_corroboration": true
   },
   "publication": {
     "q1_target": true,
     "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
-    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved; Runs381-519 reconciliation pending"
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved; Runs381-520 reconciliation pending"
   },
   "sync_state": {
-    "status_updated_through_run": 519,
+    "status_updated_through_run": 520,
     "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
     "locator_queue_requires_reconciliation": true,
     "manuscript_metric_change_not_justified": true
   },
   "ci": {
-    "last_exact_source_head": "ad945fe1d8ce80ae2a9b288a5b695dedd8400843",
+    "last_exact_source_head": "8e02480412efa7698869386436d0b7195158ffdc",
     "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"],
-    "run519_all_four_required_workflows_success_verified": true,
+    "run520_all_four_required_workflows_success_verified": true,
     "workflow_runs": {
-      "Migration Audit": 35482277786,
-      "Source Register Audit": 35482277789,
-      "Streamlit Smoke Test": 35482277795,
-      "Publication Build": 35482277797
+      "Migration Audit": 35484849942,
+      "Source Register Audit": 35484849921,
+      "Streamlit Smoke Test": 35484849922,
+      "Publication Build": 35484849920
     },
-    "verification_note": "Run519 exact substantive source-audit head ad945fe1d8ce80ae2a9b288a5b695dedd8400843 independently verified success across all four required workflows."
+    "verification_note": "Run520 exact substantive source-audit head 8e02480412efa7698869386436d0b7195158ffdc independently verified success across all four required workflows."
   },
   "mundarica": {
     "independently_authoritative_registered_scans": 0,
@@ -84,8 +86,9 @@
   },
   "blockers": [
     "78 unresolved WEB-MUN leads at last deterministic reconciliation",
-    "Runs381-519 additions require deterministic reconciliation before controlled count changes",
+    "Runs381-520 additions require deterministic reconciliation before controlled count changes",
     "Mundarica I-XVI still lacks independently authoritative registered scans and verified OCR/page completeness",
+    "Mundari.in media requires immutable lawful capture/hash, item inventory, creator/performer/speaker provenance, variety/transcription validation, item-level reuse terms, participant consent, cultural-access review and upstream-work deduplication before promotion",
     "OSTM/SCSTRTI Mundari profile requires immutable capture/hash, exact Census 2011 dependency reconciliation, map provenance/rights and claim-level community/cultural review before promotion",
     "Languages Home Mundari audio requires provider/authorship provenance, variety validation, speaker consent, explicit reuse terms, cultural review, immutable capture/hash and member inventory before promotion",
     "Karya translation/TTS sources require immutable local byte/hash, exact member inventory and consent/provenance audits; TTS repository reports 26,870 recordings while the 2024 paper reports 26,868",
@@ -110,7 +113,8 @@
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
-    "deterministically reconcile Runs381-519 against WEB-MUN and update counts only from ledger evidence",
+    "deterministically reconcile Runs381-520 against WEB-MUN and update counts only from ledger evidence",
+    "inventory Mundari.in members via external locators and audit rights/provenance/consent/cultural access without copying uncleared media",
     "capture/hash OSTM Mundari page/map where lawful and reconcile Census 2011 derivation before claim promotion",
     "audit Languages Home provenance/licensing/speaker provenance/member inventory without copying uncleared audio",
     "pin/materialize/hash Adivaani Mundari config and parent corpus and reconcile stable IDs/license/provenance/consent/cultural access",
