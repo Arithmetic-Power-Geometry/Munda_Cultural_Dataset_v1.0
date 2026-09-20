@@ -3,7 +3,7 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-20T04:45:00Z",
+  "updated_utc": "2026-09-20T05:27:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
   "latest_run": 522,
   "pre_status_sync_head": "e6da0aa7311eac7fee24350c4a493c127ec68bf6",
@@ -45,7 +45,7 @@
   },
   "publication": {"q1_target": true, "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true, "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved; Runs381-522 reconciliation pending"},
   "sync_state": {"status_updated_through_run": 522, "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true, "locator_queue_requires_reconciliation": true, "manuscript_metric_change_not_justified": true},
-  "ci": {"last_exact_source_head": "e6da0aa7311eac7fee24350c4a493c127ec68bf6", "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"], "run522_all_four_required_workflows_success_verified": false, "workflow_runs": {}, "verification_note": "Run522 substantive audit head recorded; exact-head workflow success must be verified independently and is not inherited from Run521."},
+  "ci": {"last_exact_source_head": "e6da0aa7311eac7fee24350c4a493c127ec68bf6", "required_workflows": ["Migration Audit", "Source Register Audit", "Streamlit Smoke Test", "Publication Build"], "run522_all_four_required_workflows_success_verified": true, "workflow_runs": {"Migration Audit": 35489855469, "Source Register Audit": 35489855417, "Streamlit Smoke Test": 35489855432, "Publication Build": 35489855415}, "verification_note": "Run522 exact substantive head independently verified: all four required GitHub Actions workflows completed successfully on e6da0aa7311eac7fee24350c4a493c127ec68bf6; PR 1 remains mlhkp-v2 -> main and unmerged."},
   "mundarica": {"independently_authoritative_registered_scans": 0, "verified_complete_volumes": 0, "verified_ocr_pages": 0, "per_volume_state": "I-VIII unverified; IX/X/XIII provider-manifestation/bibliographic locators only; XI/XII bibliographic-page-information only; XIV-XVI commercial-reprint numbering/content concordance unresolved; no volume promoted to verified scan/OCR completeness"},
   "blockers": [
     "78 unresolved WEB-MUN leads at last deterministic reconciliation",
