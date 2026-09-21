@@ -1,0 +1,48 @@
+{
+  "audit_run": 550,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source_id": "EZCC-2022-FOLK-DANCES-JHARKHAND",
+  "source_class": ["video", "government_cultural_media", "performance_documentation"],
+  "title": "Folk Dances of Jharkhand - Documentary",
+  "creator": "Eastern Zonal Cultural Centre",
+  "date": "2022-09-27",
+  "scope": "Jharkhand multi-community dance documentary; contains explicitly labelled Munda/Mundari segments but is not wholly Munda-specific.",
+  "discovery_manifestation": {
+    "provider": "Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+    "reported_upstream": "YouTube: Folk Dances of Jharkhand | Documentary | EZCC"
+  },
+  "exact_locators_from_provider_metadata": [
+    {"timecode": "00:04:28", "label": "Paika (Munda community)"},
+    {"timecode": "00:06:00", "label": "Mundari"},
+    {"timecode": "00:11:12", "label": "Mundari (Marriage)"}
+  ],
+  "canonicalization": "Treat the Wikimedia file page, its derivatives, the reported EZCC YouTube upload, and archived copies as manifestations of one documentary unless provenance establishes a distinct edition/cut. Do not count timecoded segments as independent sources.",
+  "identity_verification": {
+    "status": "supported_by_provider_metadata",
+    "notes": "Provider metadata identifies Eastern Zonal Cultural Centre as author and supplies segment timecodes. Upstream audiovisual manifestation and institutional metadata should be independently captured before controlled promotion."
+  },
+  "rights_access_consent_cultural_review": {
+    "access": "publicly discoverable",
+    "copyright_reuse": "not established by this audit; verify file-specific license and upstream authority before redistribution",
+    "performer_consent": "not established",
+    "cultural_access": "unverified",
+    "sensitivity": "performance and marriage-context footage requires contextual/consent review before dataset-level reuse"
+  },
+  "promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "Timecodes are exact discovery locators, but audiovisual content, licensing, provenance, performer consent and cultural-access status have not yet been audited sufficiently for controlled evidence promotion."
+  },
+  "conversion_queue": [
+    "capture immutable audiovisual manifestation and SHA-256 where permitted",
+    "verify file-specific license and EZCC provenance",
+    "inspect exact timecoded segments without generalizing performance labels beyond what the source supports",
+    "record performer/venue/date metadata if available",
+    "review consent, privacy and cultural-access sensitivity",
+    "promote only proposition-level evidence with exact time intervals after gates pass"
+  ],
+  "release_effect": "Adds a canonical exact-timecode video source audit only. Controlled MMSC/evidence/module counts must not change until deterministic reconciliation and promotion gates pass."
+}
