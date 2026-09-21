@@ -1,0 +1,42 @@
+{
+  "run": 561,
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": ["dataset", "dictionary/wordlist", "web linguistic database"],
+  "canonical_identity": {
+    "key": "asjp:language:MUNDARI",
+    "title": "ASJP Database - Wordlist Mundari",
+    "compiler": "Cecil H. Brown",
+    "iso_639_3": "unr",
+    "glottocode": "mund1320"
+  },
+  "provider_manifestation": {
+    "provider": "The ASJP Database",
+    "page": "https://asjp.clld.org/languages/MUNDARI",
+    "provider_metadata_verified_2026_09_22": ["language label Mundari", "compiler Cecil H. Brown", "ISO 639-3 unr", "Glottocode mund1320", "source Peiros 1998"],
+    "rights_statement": "Provider states the ASJP Database is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)."
+  },
+  "deduplication": {
+    "repository_search_terms": ["ASJP Mundari"],
+    "matching_existing_record_found": false,
+    "canonicalization_rule": "ASJP language page, downloadable/exported representations, mirrors and citations of the same ASJP Mundari wordlist are one database record; Peiros 1998 remains an upstream source dependency and is not silently treated as independently verified evidence."
+  },
+  "scope": {
+    "classification": "direct Mundari linguistic resource with upstream dependency",
+    "reason": "The provider explicitly identifies the record as Mundari (unr; mund1320), but its listed lexical source is Peiros 1998 and therefore provenance must remain visible."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "status": "canonical licensed dataset record established; item-level lexical promotion withheld pending deterministic extraction and upstream-source audit"
+  },
+  "gates": [
+    "Capture the exact ASJP wordlist/export deterministically and preserve stable item identifiers/locators before lexical evidence promotion.",
+    "Verify whether individual lexical content has additional upstream-source attribution or licensing constraints beyond the database-level CC BY 4.0 statement.",
+    "Audit Peiros 1998 as the provider-listed upstream source and do not count ASJP-derived entries as independent corroboration of Peiros.",
+    "Do not generalize database coordinates or provider-reported speaker counts into contemporary cultural/geographic claims without source-specific verification.",
+    "Preserve provider orthography/transcription exactly; do not silently normalize forms across dialects or scripts."
+  ],
+  "audit_note": "Run 561 converts a previously unregistered licensed Mundari lexical-dataset lead into a canonical source audit. It is intentionally not discovery-only, because a stable provider-level identity, language identifiers, source dependency and rights statement are now fixed; proposition/item-level evidence awaits deterministic wordlist extraction and provenance review."
+}
