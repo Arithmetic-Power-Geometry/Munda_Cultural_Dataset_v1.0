@@ -1,0 +1,64 @@
+{
+  "audit_run": 554,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": ["archive", "photograph", "relevant_media"],
+  "canonical_identity": {
+    "repository": "University of Edinburgh Library Heritage Collections",
+    "collection": "Roslin Slide Collection, Coll-1434",
+    "item_identifier": "Coll-1434/158",
+    "catalogue_title": "Monda [Munda] Men, Aboriginial Tribe, al-Ranchi, Chota, Nagpur, India, 1870s-1930s",
+    "creation_date_catalogued": "1870s-1930s",
+    "physical_description": "1 slide, 83mm by 83mm",
+    "catalogue_url": "https://archives.collections.ed.ac.uk/repositories/2/archival_objects/24084"
+  },
+  "identity_verification": {
+    "status": "verified_at_provider_catalogue_level",
+    "provider_catalogue_identifier_present": true,
+    "repository_precheck_exact_identifier_match": false,
+    "notes": "Provider catalogue identifies the item, collection, physical extent, topical subject Munda (Indic people), and geographic subject Ranchi (India)."
+  },
+  "deduplication": {
+    "canonical_key": "university-edinburgh:coll-1434/158",
+    "rule": "Catalogue page, thumbnails/derivatives, collection references, mirrors, and later digitizations of this same physical slide are manifestations of one archival item unless provenance establishes a distinct physical object.",
+    "independent_corroboration_count_from_manifestations": 0
+  },
+  "scope_classification": {
+    "munda_specific": true,
+    "geographic_scope": "Ranchi / Chota Nagpur",
+    "temporal_scope": "broad provider date range 1870s-1930s",
+    "evidence_scope": "item identity and provider catalogue description only",
+    "generalization_prohibited": true
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "catalogue_access": "open",
+    "binary_reuse_rights": "unverified",
+    "depicted_person_consent": "unknown/historical",
+    "cultural_access_status": "unreviewed",
+    "colonial_representation_context": "requires provenance and representational review",
+    "reuse_decision": "do_not_ingest_or_redistribute_binary_until_rights_and_cultural_review"
+  },
+  "exact_locator": {
+    "archive_item": "Coll-1434/158",
+    "collection": "Roslin Slide Collection, Coll-1434",
+    "provider_catalogue_url": "https://archives.collections.ed.ac.uk/repositories/2/archival_objects/24084"
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binary_objects_promoted": 0,
+    "reason": "Exact archival identity is available, but image reuse rights, depicted-person consent, provenance/representation context and cultural-access review are unresolved. A single historical photograph must not support generalized claims about Munda dress, identity or society."
+  },
+  "release_gap": {
+    "status": "explicit_gap",
+    "required_next_steps": [
+      "verify image manifestation and any reproduction/reuse terms",
+      "capture immutable manifestation metadata and SHA-256 if lawfully obtainable",
+      "inspect collection-level provenance and original caption history",
+      "assess colonial terminology and representational context",
+      "complete cultural-access/sensitivity review before any binary promotion"
+    ]
+  },
+  "audit_integrity": "No cultural proposition is inferred beyond provider catalogue metadata; no count movement is authorized by this audit alone."
+}
