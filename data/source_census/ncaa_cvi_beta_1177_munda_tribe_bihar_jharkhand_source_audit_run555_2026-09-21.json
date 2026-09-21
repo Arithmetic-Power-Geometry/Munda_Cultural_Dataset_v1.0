@@ -1,0 +1,77 @@
+{
+  "audit_run": 555,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_id": "ncaa:CVI-BETA_1177-BC",
+  "source_class": ["audiovisual_archive", "documentary_video"],
+  "title": "Munda Tribe of Bihar and Jharkhand (Vol. X)",
+  "source_institution": "National Cultural Audiovisual Archives (NCAA), Ministry of Culture, Government of India",
+  "source_collection": "Ways Of Knowing",
+  "source_owner": "Cinema Vision India, Mumbai (CVI)",
+  "identifier": "BETA/1177",
+  "alternative_identifier": "CVI-BETA_1177-BC",
+  "created": "2000-11-03",
+  "medium": "Betacam",
+  "original_extent": "00:31:49",
+  "digitized_duration": "00:31:49.240000",
+  "spatial_catalogue_value": "Bihar",
+  "subject": "Community Lifestyle",
+  "keywords": ["Munda Tribe"],
+  "relation": "10 of 18",
+  "rights_catalogue_value": "Cinema Vision India",
+  "condition": "Good",
+  "technical_metadata": {
+    "codec": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "frame_rate": 25.0,
+    "aspect_ratio": "4:3",
+    "dimension": "640*480"
+  },
+  "provider_url": "https://ncaa.gov.in/repository/search/displaySearchRecordPreview/CVI-BETA_1177-BC/Munda-Tribe-of-Bihar-and-Jharkhand-%28Vol.-X%29",
+  "scope_classification": "direct_Munda_specific_audiovisual_source",
+  "metadata_verification": "provider-level catalogue metadata verified from NCAA record on 2026-09-21",
+  "deduplication_rule": "Treat BETA/1177, CVI-BETA_1177-BC, NCAA catalogue/display pages, digitized derivatives, thumbnails, technical-QC manifestations and mirrors of this same documentary volume as one source identity unless a distinct edition/cut is demonstrated.",
+  "discovery_status": "verified_source_identity",
+  "evidence_promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_ingested": 0,
+    "reason": "Catalogue metadata supplies an exact archival item locator but not proposition-level audiovisual timecodes. Rights remain with Cinema Vision India; public catalogue/open-access discovery does not establish redistribution permission or participant/performer consent. Cultural and representational sensitivity must be reviewed before claim-level promotion."
+  },
+  "rights_access_consent": {
+    "catalogue_rights": "Cinema Vision India",
+    "redistribution_permission": "unverified_not_assumed",
+    "participant_consent": "unverified",
+    "cultural_access": "unreviewed",
+    "sensitivity": "Documentary representation of Munda community and development/displacement requires contextual and community-sensitive review."
+  },
+  "exact_locator_conversion_targets": [
+    "Obtain permitted access to audiovisual manifestation without bypassing access controls",
+    "Record immutable manifestation identity and SHA-256 if lawful local capture is permitted",
+    "Create proposition-level start/end timecodes rather than relying on catalogue description",
+    "Separate filmmaker narration, interviewee statements, observed events, archival inserts and secondary claims",
+    "Record named speakers/locations/dates only when supported in the source",
+    "Audit rights, consent, cultural sensitivity and downstream reuse separately for each promoted excerpt"
+  ],
+  "blocked_or_unresolved": [
+    "No verified redistribution licence in catalogue record",
+    "No participant/performer consent determination",
+    "No proposition-level timecode audit yet",
+    "No local binary hash",
+    "No source-dependency audit",
+    "No cultural-access determination"
+  ],
+  "release_policy": "Remain explicit source-census/conversion target until exact-locator and permission gates are satisfied; do not inflate controlled MMSC evidence counts.",
+  "sources_checked": [
+    {
+      "authority": "National Cultural Audiovisual Archives",
+      "url": "https://ncaa.gov.in/repository/search/displaySearchRecordPreview/CVI-BETA_1177-BC/Munda-Tribe-of-Bihar-and-Jharkhand-%28Vol.-X%29",
+      "checked": "2026-09-21"
+    },
+    {
+      "authority": "National Portal of India / Ministry of Culture",
+      "url": "https://www.india.gov.in/category/youth-sports-culture/subcategory/arts-handicrafts/details/website-of-national-cultural-audiovisual-archives",
+      "checked": "2026-09-21",
+      "purpose": "institutional provenance of NCAA"
+    }
+  ]
+}
