@@ -1,0 +1,48 @@
+{
+  "run": 566,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "source_class": ["book", "grammar", "government_language_repository"],
+  "canonical_work": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "language": ["English", "Mundari"],
+    "publisher_or_repository": "Central Institute of Indian Languages / Bhasha Sanchika",
+    "persistent_id": "hdl:20.500.14705/8179",
+    "repository_file": "CIILP0091.pdf"
+  },
+  "identity_verification": {
+    "status": "verified_from_CIIL_repository_metadata",
+    "canonicalization_key": "hdl:20.500.14705/8179",
+    "duplicate_search": "Repository search before insertion found no record matching 'Mundari Grammar Sinha 1975 CIILP0091'.",
+    "manifestation_rule": "CIIL/Sanchika, Bharatavani and any mirrors or catalogue manifestations are one work identity, not independent corroboration."
+  },
+  "scope": {
+    "classification": "direct_Mundari_linguistic_description",
+    "repository_description": "Pedagogically organized grammar covering noun morphology, verb morphology, adjectives/adverbs and syntax.",
+    "cultural_claim_scope": "linguistic evidence only unless a proposition is independently supported by exact source text; grammar examples must not be generalized into cultural claims."
+  },
+  "access_rights": {
+    "catalogue_access": "public",
+    "binary_access": "repository lists CIILP0091.pdf",
+    "redistribution_permission": "not established in this audit",
+    "consent": "not established for any underlying elicited speaker material",
+    "cultural_access": "not established",
+    "promotion_policy": "No binary redistribution and no proposition-level evidence promotion until manifestation, rights, provenance and exact locators are verified."
+  },
+  "evidence_conversion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "next_steps": [
+      "obtain lawful readable manifestation",
+      "record cryptographic hash",
+      "establish printed-page to PDF-page concordance",
+      "extract only supported propositions with exact page/example locators",
+      "separate author analysis, examples, and upstream/cited-source dependencies",
+      "review speaker/data provenance and consent where relevant"
+    ]
+  },
+  "audit_notes": "Metadata alone is discovery/identity evidence and is not promoted as a cultural or linguistic proposition. Unverified rights and provenance remain explicit gaps."
+}
