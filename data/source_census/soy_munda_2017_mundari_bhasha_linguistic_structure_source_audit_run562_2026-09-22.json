@@ -1,0 +1,47 @@
+{
+  "audit_run": 562,
+  "audit_date": "2026-09-22",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": "ciil-sanchika:BVP04859",
+  "source_class": ["book", "linguistic_description", "government_language_repository"],
+  "title": "मुण्डारी भाषा का भाषिक संरचना",
+  "romanized_title_as_catalogued": "Mundari Bhasha Ka Bashik Sanrachana",
+  "author": "Birendra Kumar Soy 'Munda'",
+  "publication_year": 2017,
+  "publisher": "Satyam publication house",
+  "languages": ["Mundari", "Hindi"],
+  "repository": "Bhasha Sanchika — Central Institute of Indian Languages",
+  "repository_file_identifier": "BVP04859.pdf",
+  "catalogue_file_size": "473.63 KB",
+  "catalogue_url": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+  "catalogue_description": "The book contains a Linguistic Structure of Mundari Language.",
+  "scope_classification": "direct-Mundari-linguistic-source",
+  "deduplication": {
+    "repository_search_key": "BVP04859",
+    "existing_match_found_before_creation": false,
+    "canonicalization_rule": "Treat catalogue record, BVP04859.pdf, Bharatavani manifestation, mirrors and citation exports as manifestations of one work unless edition-level evidence proves otherwise."
+  },
+  "rights_access": {
+    "catalogue_access": "public metadata",
+    "fulltext_presence_reported": true,
+    "redistribution_permission_verified": false,
+    "license_verified": false,
+    "binary_ingestion_permitted": false
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Catalogue metadata verifies source identity and direct Mundari scope, but exact passage locators, full-text manifestation integrity and reuse rights have not yet been verified. Catalogue description alone is not proposition-level cultural or linguistic evidence."
+  },
+  "required_before_promotion": [
+    "obtain lawful readable full-text manifestation",
+    "record immutable checksum if local retention is permitted",
+    "establish printed-page to PDF-page concordance",
+    "extract proposition-level evidence with exact page locators",
+    "separate author analysis from quoted or upstream sources",
+    "verify license/reuse terms before binary redistribution",
+    "preserve dialect, locality, speaker/informant and cultural uncertainty wherever the text requires it"
+  ],
+  "audit_note": "Discovery converted to a canonical audited source identity, not falsely promoted as evidence. Blocked/unverified rights and locator questions remain explicit gaps."
+}
