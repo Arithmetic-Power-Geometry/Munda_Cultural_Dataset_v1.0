@@ -1,0 +1,70 @@
+{
+  "run": 589,
+  "audit_date": "2026-09-23",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Language Atlas of India 1991",
+    "corporate_author": "Census of India / Office of the Registrar General, India",
+    "source_class": ["government", "census", "language_atlas", "map_demography"],
+    "scope": "Mundari language distribution and speaker counts reported from the 1991 Census"
+  },
+  "manifestation_audited": {
+    "provider": "Rural India Online (PARI) document manifestation",
+    "url": "https://ruralindiaonline.org/media/documents/Language_Atlas_of_India_1991.pdf",
+    "access_observed": "discoverable PDF/full-text indexing",
+    "canonicalization_rule": "provider copies of the same Census atlas are manifestations, not independent corroborating sources"
+  },
+  "verified_from_discoverable_text": {
+    "mundari_total_speakers_reported": 861378,
+    "national_share_percent_reported": 0.10,
+    "principal_states_in_1991_geography": {
+      "Bihar": 668958,
+      "Orissa": 145097
+    },
+    "combined_principal_state_share_percent_reported": 94.51,
+    "selected_district_counts_reported": {
+      "Ranchi": 340782,
+      "Gumla": 135757,
+      "Pashchimi Singhbhum": 123090,
+      "Purbi Singhbhum": 41629,
+      "Hazaribag": 10478,
+      "Palamu": 7644,
+      "Dhanbad": 4348,
+      "Giridih": 2505,
+      "Lohardaga": 1476,
+      "Mayurbhanj": 68380,
+      "Sundargarh": 34269,
+      "Sambalpur": 17252,
+      "Kendujhar": 11343,
+      "Baleshwar": 8346,
+      "Dhenkanal": 3122,
+      "Cuttack": 1872
+    },
+    "scripts_reported": ["Roman", "Devnagari", "Oriya"]
+  },
+  "scope_and_uncertainty": [
+    "Counts belong to 1991 Census geography and must not be silently mapped onto present-day Jharkhand district boundaries.",
+    "The atlas distinguishes Munda and Mundari entries; they must not be merged without an explicit linguistic/census mapping rule.",
+    "Reported script use and demographic counts are historical Census statements, not timeless cultural claims.",
+    "Search-indexed text is sufficient for identity/scope audit but exact page/map locators must be verified against the authoritative PDF before controlled evidence promotion."
+  ],
+  "rights_and_access": {
+    "discovery_access": "publicly discoverable",
+    "redistribution_permission": "not established by discovery access alone",
+    "binary_ingestion": "not performed",
+    "cultural_access": "no sensitive cultural content inferred from demographic tables"
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Exact authoritative page/map locator, manifestation hash, and reuse terms have not yet been verified."
+  },
+  "next_conversion_steps": [
+    "Acquire/verify the authoritative Census manifestation and hash it where permitted.",
+    "Record exact printed page/PDF page and relevant map/table locator for the Mundari entry.",
+    "Preserve 1991 administrative geography explicitly in every derived evidence record.",
+    "Verify reuse terms before repository binary inclusion.",
+    "Promote only proposition-level demographic/script statements supported by exact locators."
+  ]
+}
