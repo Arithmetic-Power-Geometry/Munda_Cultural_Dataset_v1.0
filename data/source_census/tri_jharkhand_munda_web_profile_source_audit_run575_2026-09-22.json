@@ -1,0 +1,62 @@
+{
+  "audit_id": "MLHKP-RUN575-TRI-JHARKHAND-MUNDA-WEB",
+  "run": 575,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government", "TRI", "web_resource"],
+  "canonical_work": {
+    "title": "Munda",
+    "corporate_author": "Dr. Ramdayal Munda Tribal Welfare Research Institute",
+    "institutional_context": "Department of Welfare, Government of Jharkhand",
+    "url": "https://www.trijharkhand.in/en/munda",
+    "accessed": "2026-09-22"
+  },
+  "provider_identity": {
+    "name": "Dr. Ramdayal Munda Tribal Welfare Research Institute",
+    "established": 1953,
+    "government_relationship": "Funded by Government of Jharkhand and Ministry of Tribal Affairs; state-level Tribal Research Institute",
+    "provider_about_url": "https://www.trijharkhand.in/en/about-the-institute"
+  },
+  "scope": {
+    "direct_relevance": true,
+    "population": "Munda",
+    "geographic_focus": "Jharkhand with broader regional statements",
+    "topics_reported_on_provider_page": ["language", "history", "culture and tradition", "clans", "festivals", "songs and dances", "musical instruments", "life-cycle practices", "patthalgari", "economic condition", "literature and studies"],
+    "scope_warning": "Provider-page statements vary in specificity and citation transparency. They must not be generalized beyond their stated geography/time/context or treated as community-validated simply because the page is government-hosted."
+  },
+  "deduplication": {
+    "exact_url_repository_search_before_ingestion": "no match",
+    "canonicalization_rule": "The TRI landing page and cached/search-index manifestations are one web source identity. Underlying books/articles named on the page remain separate works and must not be counted as independent corroboration unless inspected directly."
+  },
+  "rights_access_consent": {
+    "publicly_accessible_web_page": true,
+    "redistribution_permission_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_review_required": true,
+    "binary_or_media_ingestion_permitted": false,
+    "note": "Public web access does not establish permission to redistribute page text, images, museum/media assets, or culturally sensitive material."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "This run verified source identity/scope but did not establish proposition-level source dependencies, exact stable locators, reuse rights, or community/cultural-access status for individual cultural assertions."
+  },
+  "exact_locator_conversion_queue": [
+    "capture a versioned/hashable lawful page manifestation or archival snapshot if permitted",
+    "map each candidate proposition to heading/paragraph and provider-cited underlying source where available",
+    "inspect the underlying cited work rather than using the TRI summary as independent corroboration",
+    "preserve geographic and temporal qualifiers",
+    "review consent, dignity and cultural-access sensitivity before any cultural proposition is exposed",
+    "promote only propositions with exact locators and defensible provenance"
+  ],
+  "blocked_or_uncertain": [
+    "No explicit redistribution licence was verified on the audited page.",
+    "No community-validation or consent statement was verified for the page's cultural assertions.",
+    "Some provider-page statements are broad summaries and require dependency tracing before evidentiary promotion."
+  ],
+  "count_effect": {
+    "controlled_counts_changed": false,
+    "reason": "Runs 381-575 require deterministic ledger reconciliation; no controlled metric is changed from a discovery audit alone."
+  }
+}
