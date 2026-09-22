@@ -1,0 +1,68 @@
+{
+  "audit_id": "MLHKP-RUN568-ARCHER-1942-MUNDA-SONG-BOOK",
+  "run": 568,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "work_identity": {
+    "title": "A Munda song book",
+    "author": "W. G. Archer",
+    "publication_year": 1942,
+    "publisher": "United Press, Ltd.",
+    "publication_place_reported": "Patna",
+    "language": "English; Mundari content reported by catalogue",
+    "extent_reported": "2 preliminary leaves, ii pages, 1 leaf, 520 (i.e. 550) pages",
+    "open_library_edition_id": "OL6506296M",
+    "lccn": "46029131",
+    "oclc": "4512074",
+    "lc_class": "PL4559 .Z77 1942"
+  },
+  "source_class": ["book", "folk-song collection", "Mundari-language text", "historical ethnographic/linguistic source"],
+  "scope": {
+    "classification": "directly relevant, culturally sensitive, exact-content verification required",
+    "reason": "Catalogue metadata identifies the work as a collection of Mundari folk songs / Mundari-language texts. Song content can encode community-specific, ritual, gendered, seasonal, locality-specific or otherwise culturally bounded material; no universal cultural claim may be inferred from catalogue metadata."
+  },
+  "identity_verification": {
+    "verified_from": [
+      {
+        "provider": "Open Library",
+        "url": "https://openlibrary.org/works/OL1261161W/A_Munda_song_book",
+        "metadata_observed": ["author W. G. Archer", "1942", "United Press, Ltd.", "550 pages", "Open Library edition OL6506296M", "LCCN 46029131", "OCLC 4512074", "LC class PL4559 .Z77 1942", "subjects include Folk songs, Mundari and Mundari language texts"]
+      }
+    ],
+    "verification_level": "bibliographic/catalogue identity verified; manifestation and internal page content not inspected"
+  },
+  "deduplication": {
+    "canonical_work_key": "archer|a-munda-song-book|1942|lccn-46029131|oclc-4512074",
+    "repository_exact_title_search_before_creation": "no existing matching source-audit record returned",
+    "rule": "Open Library, library catalogues, scans, reprints, mirrors and citations are manifestations/references to one work unless edition-level content differences are demonstrated; they must not be counted as independent corroboration."
+  },
+  "rights_access_consent": {
+    "rights_status": "not established by this audit",
+    "access_status": "catalogue metadata accessible; lawful full-text manifestation not established in this audit",
+    "redistribution_permission": "not established",
+    "participant_performer_consent": "not established",
+    "cultural_access_status": "unknown; requires item-level review before any song text, translation, performance knowledge or cultural proposition is exposed or reused",
+    "policy": "Historical publication or catalogue visibility does not establish digitized-manifestation reuse rights, performer/community consent, or unrestricted cultural access."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "No lawful readable manifestation, page concordance, item-level provenance, rights/consent determination or cultural-access review was completed."
+  },
+  "exact_locator_conversion_queue": [
+    "locate an authoritative/lawfully accessible manifestation and record provider plus stable identifier",
+    "capture cryptographic hash only where local acquisition is permitted",
+    "establish printed-page to digital-page concordance",
+    "inventory song/item boundaries and exact page locators without normalizing original orthography",
+    "separate Archer editorial/translation material from attributed community text and any cited upstream source",
+    "record locality, contributor/performer, collection context and date only where the source explicitly supports them",
+    "perform rights, consent, dignity and cultural-access review per item before promotion",
+    "promote only propositions directly supported by exact locators and permitted exposure level"
+  ],
+  "release_effect": {
+    "controlled_count_change": false,
+    "reason": "Runs 381-568 remain subject to deterministic ledger reconciliation; this audit does not justify changing controlled MMSC/evidence/publication metrics.",
+    "release_gate": "NOT_PASS"
+  }
+}
