@@ -1,0 +1,58 @@
+{
+  "run": 580,
+  "audit_date": "2026-09-22",
+  "scope": "non-Mundarica source census",
+  "canonical_source": {
+    "author": "N. K. Sinha",
+    "title": "Mundari Grammar",
+    "year": 1975,
+    "type": ["book", "grammar", "government/institutional language resource"],
+    "provider": "Central Institute of Indian Languages (CIIL), Bhasha Sanchika",
+    "persistent_uri": "https://hdl.handle.net/20.500.14705/8179",
+    "repository_record": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "language": ["English", "Mundari"]
+  },
+  "identity_verification": {
+    "status": "verified_provider_metadata",
+    "provider_metadata_notes": "CIIL Bhasha Sanchika identifies N.K. Sinha, Mundari Grammar, 1975, persistent handle 20.500.14705/8179. Provider description states that the grammar is pedagogically organized by grammatical functions and covers noun morphology, verb morphology, adjectives/adverbs and syntax.",
+    "cross_manifestation": "Bharatavani independently exposes a Mundari Grammar record for N. K. Sinha, 1975, naming CIIL Mysore as content partner and publisher and reporting a 117.39 MB PDF behind login-to-read access.",
+    "deduplication": "Treat CIIL Sanchika and Bharatavani records as manifestations/catalogue records of the same 1975 work unless edition-level comparison demonstrates otherwise. Third-party mirrors are not independent sources. Repository code search for 'Sinha 1975 Mundari Grammar CIIL' returned no match before this audit."
+  },
+  "scope_classification": {
+    "in_scope": true,
+    "reason": "Direct Mundari grammatical description; non-Mundarica source.",
+    "evidence_domains_candidate": ["language", "grammar", "morphology", "syntax"],
+    "temporal_scope": "1975 description; do not silently generalize to all present-day varieties or communities"
+  },
+  "access_rights_governance": {
+    "catalogue_access": "public provider metadata",
+    "fulltext_access": "manifestations discoverable; Bharatavani requires login to read; CIIL file metadata exposed but full-text manifestation was not lawfully captured and hashed in this run",
+    "redistribution_permission": "not established",
+    "consent_speaker_provenance": "not verified from full text",
+    "cultural_access": "no claim of unrestricted cultural reuse",
+    "rule": "Public catalogue availability does not equal redistribution permission or permission to promote uninspected propositions."
+  },
+  "exact_locator_conversion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "promoted_binaries": 0,
+    "state": "queued_after_manifestation_and_rights_verification",
+    "required_steps": [
+      "lawfully obtain an authoritative full-text manifestation and compute a stable hash",
+      "verify title page/edition/pagination and printed-page to PDF-page concordance",
+      "inspect preface/methodology for consultants, elicitation basis, dialect/locality and inherited-source dependencies",
+      "extract only proposition-level evidence with exact page/section/example/table locators",
+      "preserve original orthography and distinguish author analysis from examples and cited predecessors",
+      "verify file-level reuse/redistribution terms before storing any binary"
+    ]
+  },
+  "uncertainty": [
+    "Provider metadata is verified, but full-text pagination and proposition locators were not inspected in this run.",
+    "No community-wide, diachronic or pan-Mundari claim may be inferred from bibliographic metadata."
+  ],
+  "release_effect": {
+    "controlled_count_change": false,
+    "reason": "Audit adds a verified canonical source identity candidate but controlled ledger counts remain frozen until deterministic Runs381-580 reconciliation.",
+    "release_gate": "NOT_PASS"
+  }
+}
