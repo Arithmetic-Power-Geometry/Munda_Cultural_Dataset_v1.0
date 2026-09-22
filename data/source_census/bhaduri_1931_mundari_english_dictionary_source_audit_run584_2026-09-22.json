@@ -1,0 +1,65 @@
+{
+  "run": 584,
+  "audit_date": "2026-09-22",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_work": {
+    "author": "Manindra Bhusan Bhaduri",
+    "title": "A Mundari-English dictionary",
+    "original_publication": "Calcutta: Calcutta University Press",
+    "year": 1931,
+    "pagination": "xv, 228, ii p.",
+    "subject": "Mundari language -- Dictionaries -- English"
+  },
+  "identity_evidence": [
+    {
+      "provider": "CiNii Books",
+      "record": "BA31909026",
+      "metadata": "Asian Educational Services 1994 reprint; explicitly notes originally published Calcutta: Calcutta University Press, 1931; ISBN 8120609107; xv, 228, ii p."
+    },
+    {
+      "provider": "Open Library",
+      "work_id": "OL5467157W",
+      "metadata": "Catalogues the work and links source records including Library of Congress MARC and an Internet Archive item record."
+    },
+    {
+      "provider": "CiNii Books",
+      "record": "BB09153012",
+      "metadata": "Gyan Publishing House 2002 reprint, with introduction by Rai Bahadur Sarat Chandra Roy; xv, 228, ii p.; ISBN 8121207959; note describes reprint of an earlier edition."
+    }
+  ],
+  "canonicalization": {
+    "decision": "one underlying dictionary work with later reprint manifestations unless collation proves substantive edition differences",
+    "dedup_keys": ["normalized author+title", "original publication identity", "pagination", "library identifiers"],
+    "repository_exact_search_before_creation": ["Mundari-English dictionary Bhaduri", "Bhaduri"],
+    "repository_match_found": false,
+    "independent_corroboration_rule": "catalogue and reprint records are manifestations/metadata witnesses, not independent lexical corroboration"
+  },
+  "scope": {
+    "class": ["dictionary", "book", "linguistic reference"],
+    "relevance": "direct Mundari lexical reference",
+    "geographic_temporal_caution": "historical lexical material must not be generalized to all present-day varieties, communities, spellings, meanings, or usage without source-specific qualification"
+  },
+  "rights_access": {
+    "bibliographic_metadata": "publicly discoverable",
+    "full_text": "Internet Archive manifestation indicated by Open Library source records but lawful downloadable manifestation and item-level reuse terms not verified in this run",
+    "redistribution_permission": "not established",
+    "promotion_gate": "verify lawful manifestation, rights/reuse terms, edition identity and hash before repository binary ingestion"
+  },
+  "evidence_conversion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "bibliographic identity is supported, but no authoritative full-text manifestation was inspected and hashed in this run",
+    "next_exact_locator_work": [
+      "obtain a lawful scan of the original or identified reprint",
+      "hash the exact manifestation",
+      "verify title page, edition statement and pagination",
+      "record dictionary headword/page locators rather than unlocated lexical claims",
+      "preserve orthography, gloss, grammatical labels and usage notes exactly as source evidence",
+      "separate source attestations from normalized MLHKP forms and modern interpretation",
+      "apply cultural-access and sensitivity review to culturally restricted or sensitive lexical material where applicable"
+    ]
+  },
+  "audit_outcome": "verified discovery identity; canonicalized; queued for exact-locator conversion; no unsupported promotion"
+}
