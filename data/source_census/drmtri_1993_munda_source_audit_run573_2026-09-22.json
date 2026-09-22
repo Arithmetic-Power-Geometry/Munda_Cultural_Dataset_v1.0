@@ -1,0 +1,47 @@
+{
+  "run": 573,
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Munda",
+    "researcher": "Soma Singh Munda",
+    "editor_author": "Ranendra Kumar",
+    "guide": "Chintu Doraiburu",
+    "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "completed": "1993-03",
+    "pagination": "1-44",
+    "record_id": "DRMTWRI/1993/0007",
+    "provider_file": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+    "provider": "Ministry of Tribal Affairs repository",
+    "provider_url": "https://repository.tribal.gov.in/handle/123456789/74865"
+  },
+  "class": ["government", "TRI", "book", "tribal-life"],
+  "scope": "Munda-specific institutional publication; proposition scope must be established from the source itself before promotion.",
+  "deduplication": {
+    "repository_exact_identifier_search": "DRMTWRI_1993_0007",
+    "existing_match_found": false,
+    "rule": "Record ID, provider PDF, catalogue manifestations and mirrors are one work identity unless a substantive edition difference is demonstrated."
+  },
+  "access_rights": {
+    "catalogue_and_pdf_discoverable": true,
+    "redistribution_permission_verified": false,
+    "public_access_not_treated_as_redistribution_permission": true
+  },
+  "evidence_promotion": {
+    "claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "This run verified provider metadata but did not inspect and hash a lawful local manifestation or establish exact page-level propositions, reuse terms, provenance/consent, or cultural-access status."
+  },
+  "conversion_queue": [
+    "obtain provider PDF lawfully and hash manifestation",
+    "verify title/author/editor/guide/imprint against title and colophon pages",
+    "establish printed-page to PDF-page concordance",
+    "extract only supported propositions with exact page locators",
+    "preserve original language/orthography where quoted or transcribed",
+    "classify author observation versus cited/derived material to prevent false corroboration",
+    "review community/person provenance, consent, dignity and cultural-access sensitivity",
+    "verify reuse/derivative-dataset permission before binary redistribution"
+  ],
+  "uncertainty": "Provider metadata is verified; proposition-level cultural content is not promoted until direct inspection and governance gates pass.",
+  "audit_date": "2026-09-22"
+}
