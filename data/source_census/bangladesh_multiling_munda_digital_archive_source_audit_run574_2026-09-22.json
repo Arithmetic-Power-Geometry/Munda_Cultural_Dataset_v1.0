@@ -1,0 +1,53 @@
+{
+  "run": 574,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "canonical_work_id": "BANGLADESH-MULTILING-MUNDA-DIGITAL-ARCHIVE",
+  "source_class": ["government_web_resource", "digital_archive", "audio", "linguistic_dataset"],
+  "title": "Munda",
+  "provider": "Multiling Cloud / Government of Bangladesh language portal",
+  "url": "https://lob.bangla.gov.bd/languages/munda",
+  "scope": "Bangladesh Munda/Mundari linguistic heritage and digital archive",
+  "provider_metadata_verified": {
+    "archive_label": "Munda",
+    "family_label": "Austroasiatic Language Family",
+    "listed_regions": ["Naogaon", "Dinajpur", "Khulna", "Rajshahi", "Sylhet", "Maulvibazar"],
+    "digital_archive_reported_full_archive_count": 860,
+    "provider_description": "phonetic transcriptions and audio recordings",
+    "project_label": "Enhancement of Bengali Language in ICT Through Research and Development (EBLICT)"
+  },
+  "canonicalization": {
+    "repository_exact_url_search_before_addition": "no match",
+    "rule": "Portal landing page, archive views and item pages are manifestations/components of one provider archive; individual recordings become separate source objects only after stable item identity and locator verification.",
+    "independent_corroboration_count": 0
+  },
+  "rights_access_consent": {
+    "public_discoverability_verified": true,
+    "redistribution_permission_verified": false,
+    "speaker_consent_scope_verified": false,
+    "cultural_access_status_verified": false,
+    "promotion_permitted": false
+  },
+  "evidence_conversion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Landing-page metadata is sufficient for source discovery and conversion planning, but item-level stable identity, audio/transcript locators, licence/reuse terms, contributor consent and cultural-access scope were not verified in this run."
+  },
+  "conversion_queue": [
+    "enumerate stable archive item identifiers without assuming the displayed aggregate count is a release count",
+    "verify licence/reuse terms and speaker/contributor consent scope",
+    "capture permitted manifests and hashes",
+    "preserve provider transcription exactly and record language/script labels",
+    "create item-level time/text locators only after direct inspection",
+    "separate elicited/directed material from spontaneous/community material",
+    "apply cultural-access and dignity review before public exposure",
+    "deduplicate against Karya/MunTTS and other speech corpora by item/hash/provenance rather than title"
+  ],
+  "uncertainty": [
+    "The portal landing page currently displays 860 for Full Archive while topic/speaker/sentence/minute summary fields display zero; these interface values are not interpreted as validated corpus statistics.",
+    "No cultural claim is inferred from the portal's general linguistic-heritage prose.",
+    "No assumption is made that Bangladesh Munda material represents Jharkhand/India Mundari varieties."
+  ],
+  "release_effect": "discovery audit only; controlled MMSC/evidence/module counts remain frozen pending deterministic reconciliation"
+}
