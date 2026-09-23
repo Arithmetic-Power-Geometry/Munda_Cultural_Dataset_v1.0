@@ -1,0 +1,61 @@
+{
+  "audit_run": 591,
+  "audit_date": "2026-09-23",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch_scope": "mlhkp-v2",
+  "canonical_work": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A descriptive analysis of Mundari: A study of the structure of the Mundari language according to the methods of linguistic science, with particular attention to the units of sound, the units of meaning, the units of grammar, and their mutually contrastive arrangement patterns",
+    "type": "doctoral dissertation / grammar",
+    "institution": "Georgetown University",
+    "extent": "vi, 315 pages, illustrations, maps",
+    "language": "English",
+    "language_subject": "Mundari [unr]"
+  },
+  "identity_verification": {
+    "status": "VERIFIED_BIBLIOGRAPHIC_IDENTITY",
+    "primary_discovery_record": "Glottolog reference 33106",
+    "provider_source": "Bibliography of the Southeast Asian Linguistics Archive (SALA), record sala:1745",
+    "reported_microfilm": "University Microfilms 65-12,509",
+    "reported_abstract": "International Journal of American Linguistics 32(1966).4:396",
+    "repository_exact_search_before_ingestion": "no match for Cook 1965 descriptive analysis Mundari"
+  },
+  "scope_classification": {
+    "class": ["thesis/dissertation", "grammar", "linguistics"],
+    "relevance": "direct Mundari-language descriptive analysis",
+    "reported_coverage": ["sound units", "meaning units", "grammar units", "contrastive arrangement patterns"],
+    "cultural_claim_scope": "NONE_FROM_CATALOGUE_METADATA"
+  },
+  "canonicalization": {
+    "rule": "Dissertation, microfilm, abstract notice, catalogue records, and later lawful manifestations are manifestations/records of one canonical scholarly work unless substantive version differences are demonstrated.",
+    "independent_corroboration_count": 0
+  },
+  "rights_access_consent": {
+    "full_text_obtained_in_this_run": false,
+    "redistribution_permission_verified": false,
+    "participant_or_consultant_consent_verified": false,
+    "cultural_access_status": "UNKNOWN_PENDING_FULL_TEXT_METHODS_REVIEW",
+    "binary_ingestion": "NOT_PERMITTED_IN_THIS_RUN"
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Bibliographic identity and grammatical scope are verified, but no authoritative lawful full text with exact proposition locators and reuse/consent review was obtained in this run."
+  },
+  "exact_locator_conversion_queue": [
+    "obtain lawful authoritative dissertation manifestation",
+    "hash manifestation if storage/reuse terms permit",
+    "verify title page, edition/microfilm identity and PDF-to-print pagination concordance",
+    "inspect methodology, consultant/speaker provenance, locality, dialect/variety and elicitation context",
+    "extract only proposition-level evidence with exact page/section/table/example locators",
+    "separate Cook's observations/analysis from inherited citations",
+    "preserve historical terminology as source wording rather than silently normalizing it"
+  ],
+  "gap_status": "OPEN_FULL_TEXT_RIGHTS_LOCATOR_METHODS_GAP",
+  "source_urls": [
+    "https://glottolog.org/resource/reference/id/33106"
+  ],
+  "audit_note": "No cultural or linguistic proposition is promoted from catalogue metadata alone. Unavailable or unverified material remains an explicit gap."
+}
