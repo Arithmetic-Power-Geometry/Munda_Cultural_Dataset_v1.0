@@ -1,0 +1,76 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN613-AABUA-PAIKA",
+  "run": 613,
+  "audit_date_utc": "2026-09-23T22:45:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census; audiovisual/documentary",
+  "canonical_work": {
+    "title": "Aabua Paika Kabu Bageya",
+    "creator": "Sneha Mundari",
+    "work_type": "documentary / graduation film",
+    "public_project_date": "2016-12-05",
+    "festival_selection": "Heritales International Heritage Film Festival 2018/19",
+    "subject_scope": "Paika dance and Munda community in Jharkhand",
+    "community_positioning": "creator states that she belongs to the Munda community while describing an insider/outsider perspective",
+    "evidence_form_reported_by_creator": "stories, songs, and interviews including Pandeya Munda dancers"
+  },
+  "verified_manifestations": [
+    {
+      "provider": "Behance",
+      "url": "https://www.behance.net/gallery/46011989/AABUA-PAIKA-KABU-BAGEYA-%28DOCUMENTARY%29",
+      "role": "creator project page / metadata manifestation",
+      "access": "public metadata",
+      "independent_corroboration": false
+    },
+    {
+      "provider": "Heritales International Heritage Film Festival",
+      "url": "https://heritales.org/aabua-paika-kabu-bageya/",
+      "role": "festival selection/description manifestation",
+      "access": "public metadata",
+      "independent_corroboration": false
+    }
+  ],
+  "deduplication": {
+    "repository_exact_title_search_before_insert": "no match found via GitHub repository search",
+    "canonicalization_rule": "Behance and Heritales describe the same documentary and are not counted as independent cultural evidence",
+    "new_controlled_identity_counted": false,
+    "reason": "Runs381+ controlled source ledger reconciliation remains pending"
+  },
+  "source_quality": {
+    "strengths": ["named creator", "community self-positioning", "named documentary", "festival record", "reported interviews/stories/songs"],
+    "limitations": ["film itself not ingested in this run", "interview consent/reuse conditions not independently verified", "exact audiovisual timecodes unavailable", "festival/project descriptions are not substitutes for the audiovisual primary manifestation"]
+  },
+  "rights_consent_cultural_governance": {
+    "metadata_access": "public",
+    "film_redistribution_permission": "unverified",
+    "interview_reuse_permission": "unverified",
+    "participant_consent": "unverified",
+    "cultural_access_status": "requires review before excerpt/transcript promotion",
+    "rule": "public discoverability does not imply permission to redistribute audiovisual material, interview speech, songs, or culturally sensitive content"
+  },
+  "exact_locator_conversion": {
+    "state": "queued_with_verified_metadata_not_promoted",
+    "required_before_promotion": [
+      "obtain lawful authoritative film manifestation",
+      "record manifestation identity and hash where permitted",
+      "establish duration and exact HH:MM:SS locators",
+      "identify speaker/performer provenance for each candidate segment",
+      "separate interview testimony, performed song/dance, filmmaker narration and secondary interpretation",
+      "verify consent and reuse conditions for audiovisual excerpts/transcripts",
+      "apply geographic/temporal/community scope tags",
+      "review cultural sensitivity and access restrictions"
+    ]
+  },
+  "promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "No exact timecoded authoritative audiovisual manifestation with verified rights/consent/provenance was available for controlled promotion in this run."
+  },
+  "gap_status": [
+    "authoritative film manifestation not verified/hashed",
+    "exact timecodes not established",
+    "participant consent and excerpt reuse unresolved",
+    "no universal Munda cultural claim may be inferred from documentary metadata"
+  ]
+}
