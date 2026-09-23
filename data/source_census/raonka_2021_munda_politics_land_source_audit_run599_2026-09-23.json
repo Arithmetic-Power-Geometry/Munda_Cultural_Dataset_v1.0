@@ -1,0 +1,66 @@
+{
+  "audit_run": 599,
+  "audit_date_utc": "2026-09-23T08:44:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and ingestion",
+  "canonical_source": {
+    "author": "Pallavi Raonka",
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "year": 2021,
+    "type": "doctoral dissertation",
+    "institution": "Virginia Tech",
+    "persistent_id": "hdl:10919/111386",
+    "provider_url": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041"
+  },
+  "identity_verification": {
+    "provider": "Virginia Tech VTechWorks institutional repository",
+    "provider_metadata_verified": true,
+    "repository_full_text_listed": "Raonka_P_D_2021.pdf",
+    "repository_pdf_size_reported": "2.33 MB",
+    "supporting_documents_listed": true,
+    "existing_exact_title_repository_match_before_audit": false
+  },
+  "scope_classification": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["land", "indigeneity", "politics", "identity", "representation", "gender", "Adivasi-State relations"],
+    "method": "ethnographic qualitative research",
+    "fieldwork_window_from_provider_abstract": "May 2017 to December 2018",
+    "fieldwork_duration_from_provider_abstract": "15 months"
+  },
+  "exact_locator_candidates": [
+    {
+      "locator_type": "institutional_repository_abstract",
+      "locator": "VTechWorks item hdl:10919/111386, Abstract",
+      "supported_statement": "The dissertation reports a fifteen-month ethnographic study conducted from May 2017 to December 2018 and analyzes meanings of land for the Munda community in relation to Adivasi-State conflict.",
+      "promotion_state": "candidate_only_pending_pdf_page_locator_and_methodology_review"
+    }
+  ],
+  "canonicalization": {
+    "rule": "Treat repository landing page, dissertation PDF, supporting documents, catalogue/index records and citations as manifestations/records of one dissertation, not independent corroborating sources.",
+    "dependency_warning": "Author interpretations, participant accounts and historical-source claims must be separated at proposition level before promotion."
+  },
+  "rights_access_consent": {
+    "public_repository_access": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_for_secondary_redistribution_verified": false,
+    "cultural_access_review_required": true,
+    "binary_ingested": false,
+    "reason": "Public institutional-repository availability does not itself establish permission to redistribute the dissertation file, supporting documents, field materials, quotations, images or participant-derived content in MLHKP."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "status": "structured_exact-locator_conversion_queue",
+    "required_before_promotion": [
+      "obtain and hash authoritative repository PDF where permitted",
+      "verify title-page metadata and PDF/printed pagination",
+      "inspect methodology, field sites, participant/sample description and consent/ethics statements",
+      "extract proposition-level page/section/table/figure locators",
+      "separate participant evidence, historical dependencies and author interpretation",
+      "verify reuse/quotation/image permissions and cultural-governance constraints"
+    ]
+  },
+  "gap_policy": "Unverified, restricted, culturally sensitive or context-dependent material remains an explicit gap and is not promoted as a general Munda cultural claim."
+}
