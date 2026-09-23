@@ -1,0 +1,67 @@
+{
+  "run": 597,
+  "audit_date": "2026-09-23",
+  "canonical_work": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "year": 2013,
+    "source_class": ["peer-reviewed article", "empirical field study", "land/customary-institution study"],
+    "doi": "10.1177/0972558X1301300205",
+    "volume": "13",
+    "issue": "2",
+    "first_published_online": "2013-07-01"
+  },
+  "identity_verification": {
+    "publisher": "SAGE Journals",
+    "publisher_metadata_verified": true,
+    "canonical_url": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "pdf_manifestation": "https://journals.sagepub.com/doi/pdf/10.1177/0972558X1301300205",
+    "pdf_access_observed": "restricted access",
+    "deduplication_rule": "DOI landing page, PDF endpoint, indexing records and citations are manifestations/records of one canonical scholarly work and must not be counted as independent corroboration."
+  },
+  "scope": {
+    "community_scope": "Munda / Mundari Khuntkatti",
+    "geographic_scope": "Gutuhatu and Salga villages, Mundari Khuntkatti Revenue Circle, Khunti district, Jharkhand",
+    "topic_scope": ["customary land institution", "Khuntkatti", "tenure/ownership interpretation", "colonial/state legal framing"],
+    "scope_warning": "The study is an empirical investigation of two villages. Findings must not be generalized to all Munda communities, all Khuntkatti villages, all periods, or all of Jharkhand without additional evidence."
+  },
+  "exact_locator_candidates": [
+    {
+      "locator": "publisher abstract",
+      "supported_metadata_or_proposition": "The article describes Mundari Khuntkatti as a customary institution among Mundas of Chotanagpur and states that the empirical investigation concerns Gutuhatu and Salga villages in Khunti district.",
+      "promotion_status": "candidate_only",
+      "reason": "Abstract-level locator is sufficient for source scope/provenance metadata but not yet for controlled proposition-level cultural or legal claims."
+    }
+  ],
+  "rights_access": {
+    "publisher_access": "restricted",
+    "publisher_page_requests_permissions": true,
+    "full_text_obtained_in_run": false,
+    "redistribution_permission_established": false,
+    "binary_ingestion_permitted": false
+  },
+  "cultural_and_evidential_controls": {
+    "community_consent_for_reuse": "not established from publisher metadata",
+    "cultural_sensitivity": "land, customary authority, clan and identity claims require contextual caution",
+    "historical_interpretation": "author conclusions about British administrators must remain attributed to the study unless independently corroborated",
+    "legal_status_warning": "Do not convert the article's interpretation of tenancy/ownership into current legal advice or present-day legal status without authoritative legal sources."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "status": "verified_source_audit_exact_scope_locator_pending_fulltext_conversion"
+  },
+  "gaps": [
+    "lawful full text not obtained in this run",
+    "exact printed-page/PDF-page proposition locators not verified",
+    "fieldwork dates, participant/sample details and methodology require full-text inspection",
+    "dependency on historical/administrative sources requires separation",
+    "file-level reuse permission not established"
+  ],
+  "sources_checked": [
+    "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "https://journals.sagepub.com/doi/pdf/10.1177/0972558X1301300205"
+  ],
+  "integrity_note": "No cultural claim or controlled count is incremented by this audit alone. Blocked full text is recorded as an explicit gap rather than inferred or fabricated."
+}
