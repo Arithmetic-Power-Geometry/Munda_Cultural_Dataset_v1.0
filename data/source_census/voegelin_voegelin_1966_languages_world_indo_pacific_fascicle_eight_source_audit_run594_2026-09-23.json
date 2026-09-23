@@ -1,0 +1,63 @@
+{
+  "run": 594,
+  "audit_date": "2026-09-23",
+  "scope": "non-Mundarica source census",
+  "canonical_work": {
+    "authors": ["C. F. Voegelin", "F. M. Voegelin"],
+    "year": 1966,
+    "title": "Languages of the World: Indo-Pacific Fascicle Eight",
+    "container": "Anthropological Linguistics",
+    "volume": "8",
+    "issue": "4",
+    "eric_id": "ED010367"
+  },
+  "manifestations": [
+    {
+      "provider": "ERIC",
+      "url": "https://files.eric.ed.gov/fulltext/ED010367.pdf",
+      "access": "discoverable PDF",
+      "canonicalization": "manifestation of the canonical 1966 work; not independent corroboration"
+    }
+  ],
+  "mundari_relevance": {
+    "class": "comparative linguistic survey / historical demographic-linguistic reference",
+    "verified_locator": "fascicle page 19 in indexed ERIC text",
+    "supported_at_locator": [
+      "Mundari (Horo-jagar) is listed among Eastern Munda/Kherwari languages.",
+      "The fascicle reports nearly 600,000 Mundari speakers, mainly in southern and western Ranchi District, using population figures stated to derive from the 1951 Census unless otherwise indicated.",
+      "The indexed passage lists Mundari proper, Hasada, Naguri and Kera as Mundari dialect labels."
+    ],
+    "temporal_scope": "historical; population baseline stated as 1951 Census unless otherwise indicated",
+    "geographic_scope": "historical administrative geography; Bihar/Ranchi wording must not be silently mapped to current Jharkhand boundaries"
+  },
+  "quality_and_dependency": {
+    "source_role": "secondary comparative survey drawing demographic figures from Census material",
+    "dependency_warning": "Population figures are derivative of historical Census reporting and must not be counted as independent corroboration of Census claims.",
+    "terminology_warning": "Historical language/dialect classifications and labels are source attestations, not automatically current community-endorsed classifications."
+  },
+  "rights_access_consent": {
+    "public_discoverability": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_applicable": false,
+    "binary_ingestion_permitted": false,
+    "note": "Public ERIC access does not by itself establish repository redistribution permission for the PDF."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "state": "exact-locator candidate queued; controlled promotion pending reconciliation and manifestation/rights checks"
+  },
+  "remaining_gates": [
+    "verify title/front matter and stable pagination directly against the authoritative manifestation",
+    "record local manifestation hash if lawful acquisition is used",
+    "verify file-level reuse terms",
+    "separate Census-derived demographic statements from authors' comparative classification",
+    "reconcile against WEB-MUN ledger before any controlled-count change"
+  ],
+  "deduplication": {
+    "repository_exact_search": "Voegelin Mundari",
+    "existing_match_found": false,
+    "rule": "ERIC PDF, bibliographic records and journal references are manifestations/records of one canonical work"
+  }
+}
