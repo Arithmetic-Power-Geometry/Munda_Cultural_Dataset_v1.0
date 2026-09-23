@@ -1,0 +1,55 @@
+{
+  "audit_run": 601,
+  "audit_date": "2026-09-23",
+  "branch": "mlhkp-v2",
+  "canonical_work": {
+    "author": "Ramdayal Munda",
+    "title_original": "मुण्डारी पाठ",
+    "title_romanized_provider": "Mundari Path",
+    "year": 2013,
+    "publisher": "Rumbul Ranchi Jharkhand",
+    "source_class": ["book", "language_reader", "stories", "poetry"],
+    "scope": "Mundari language; provider description states that the book contains stories and poetries from Mundari language"
+  },
+  "verified_manifestations": [
+    {
+      "provider": "CIIL Sanchika / Bharatavani metadata record",
+      "uri": "https://sanchika.ciil.org/items/06203fd0-26a1-4bf6-8fd5-e3ec4a7dceb2",
+      "provider_item_uri": "https://bharatavani.in/bharatavani/home/book?id=मुण्डारी पाठ",
+      "provider_file_name": "BVP00203.pdf",
+      "provider_reported_file_size": "19.35 KB",
+      "access_observation": "metadata record discoverable; file identity advertised by provider",
+      "identity_status": "verified_at_metadata_level"
+    }
+  ],
+  "deduplication": {
+    "repository_exact_lead_search": "Ramdayal Munda 2013 Mundari Path",
+    "existing_exact_match_found": false,
+    "canonicalization_rule": "CIIL Sanchika metadata, Bharatavani item and advertised PDF are manifestations/records of one canonical work and must not be counted as independent corroborating sources."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "public_discoverability_is_redistribution_permission": false,
+    "binary_redistribution_permission_verified": false,
+    "participant_or_performer_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_claims_promoted_from_provider_description": false,
+    "notes": "Stories and poetry may contain literary, pedagogical, traditional, authored or adapted material. Do not classify individual passages as community-wide cultural facts without exact-text inspection, attribution/provenance and cultural-governance review."
+  },
+  "evidence_conversion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "state": "exact_locator_conversion_queue",
+    "required_before_promotion": [
+      "obtain and hash authoritative provider PDF where access and terms permit",
+      "verify title page, edition/publication metadata and PDF-to-print pagination",
+      "inventory story/poem titles, authorship/adaptation/translation attribution and internal provenance",
+      "create exact page/section/text locators only for supported propositions",
+      "separate linguistic/literary evidence from cultural assertions",
+      "verify reuse/redistribution terms at file level",
+      "apply consent and cultural-governance restrictions where persons, performances, sacred/restricted knowledge or community-sensitive material are implicated"
+    ]
+  },
+  "gap_policy": "Any unavailable, restricted, unverified or culturally uncertain material remains an explicit gap and is not marked complete.",
+  "source_basis": "Provider metadata verified 2026-09-23; no unsupported cultural proposition promoted."
+}
