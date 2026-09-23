@@ -1,0 +1,59 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN607",
+  "run": 607,
+  "audit_date_utc": "2026-09-23",
+  "branch": "mlhkp-v2",
+  "work": {
+    "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+    "authors": ["Elizabeth Tuti", "Meena Kumari", "Kumari Vibhuti Nayak", "Shamsher Alam"],
+    "journal": "Social Evolution & History",
+    "volume": "24",
+    "issue": "2",
+    "publication_date": "2025-09",
+    "doi": "10.30884/seh/2025.02.01",
+    "canonical_url": "https://doi.org/10.30884/seh/2025.02.01",
+    "provider_url": "https://www.sociostudies.org/journal/articles/3997182/",
+    "source_classes": ["peer-reviewed-article", "ethnography", "oral-history", "material-culture", "cultural-heritage", "web-full-text"],
+    "scope": "Munda megalithic living traditions in multiple rural Munda villages in Ranchi, Jharkhand; participant ages 18-70; 15 Munda participants reported by the article."
+  },
+  "identity_verification": {
+    "status": "verified_provider_metadata_and_full_text",
+    "provider_fields_verified": ["title", "authors", "journal", "volume", "issue", "DOI", "affiliations", "methodology", "participant_count", "ethical-consent-statement"],
+    "repository_precheck": "No exact-title result returned by repository code search before insertion.",
+    "canonicalization_rule": "DOI landing page, provider HTML/download manifestation, indexing records and citations are manifestations/records of one scholarly work and must not be counted as independent corroborating sources."
+  },
+  "exact_locator_candidates": [
+    {"provider_lines": "103-124", "type": "methodology-and-ethics", "note": "Qualitative ethnographic/participatory design; multiple Ranchi Munda villages; 15 Munda participants; participant observation, interviews, oral narratives; verbal consent, pseudonyms/confidentiality, express permission for sensitive cultural information."},
+    {"provider_lines": "125-149", "type": "findings", "note": "Article-attributed findings on megalithic cultural/ritual roles and gender dimensions; requires publication-page concordance and proposition-level dependency classification before promotion."},
+    {"provider_lines": "151-161", "type": "findings", "note": "Article-attributed findings on modernization/land pressures and resistance; mixed field evidence and cited literature must be separated before promotion."}
+  ],
+  "rights_access_consent": {
+    "public_full_text_observed": true,
+    "redistribution_permission_verified": false,
+    "binary_ingestion_permitted": false,
+    "participant_consent_reported_by_article": "verbal consent; withdrawal rights; pseudonyms/confidentiality; sensitive cultural information shared only with express permission",
+    "cultural_governance": "Do not expose participant-sensitive or culturally restricted material merely because provider full text is public."
+  },
+  "evidence_promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Provider HTML supplies unusually strong exact-locator candidates, but publication-page concordance, primary-vs-secondary dependency tagging, file-level reuse terms, and cultural/consent review remain required before controlled promotion."
+  },
+  "quality_uncertainty": [
+    "Do not generalize a 15-participant Ranchi sample to all Munda communities or all periods.",
+    "Distinguish direct participant/fieldwork evidence from claims attributed to prior literature.",
+    "Participant quotations and named roles require heightened consent/context handling even where published.",
+    "Provider HTML line locators are audit locators, not substitutes for final journal page locators."
+  ],
+  "conversion_queue": [
+    "obtain/hash the provider-authorized article manifestation if reuse terms permit",
+    "establish HTML-to-journal pagination/section concordance",
+    "extract proposition-level records with exact page/section/table/participant locators",
+    "tag each proposition as field observation, participant report, author synthesis, or secondary-source dependency",
+    "apply consent/cultural-sensitivity and redistribution gates",
+    "promote only supported permitted evidence"
+  ],
+  "blocked_or_gap": ["file-level redistribution license not yet verified", "final publication-page concordance not yet established"],
+  "no_fabrication": true
+}
