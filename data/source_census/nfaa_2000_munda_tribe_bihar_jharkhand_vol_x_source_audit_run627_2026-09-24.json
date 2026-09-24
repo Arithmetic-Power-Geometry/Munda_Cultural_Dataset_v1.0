@@ -1,0 +1,72 @@
+{
+  "run": 627,
+  "audit_date": "2026-09-24",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Munda Tribe of Bihar and Jharkhand (Vol. X)",
+    "creator_or_source": "Cinema Vision India, Mumbai",
+    "repository": "National Cultural Audiovisual Archives (NCAA), India",
+    "repository_identifier": "CVI-BETA_1177-BC",
+    "original_identifier": "BETA/1177",
+    "created": "2000-11-03",
+    "medium": "Betacam",
+    "relation": "10 of 18",
+    "duration_catalogued": "00:31:49",
+    "duration_technical": "00:31:49.240",
+    "rights": "Cinema Vision India",
+    "subject": "Community Lifestyle",
+    "keywords": ["Munda Tribe"],
+    "spatial_catalogue_value": "Bihar"
+  },
+  "scope": {
+    "classification": ["audiovisual", "archive", "documentary", "Munda-specific", "Bihar/Jharkhand"],
+    "catalogue_description_summary": "NCAA describes the film as documentation of Munda people in Bihar/Jharkhand and as probing displacement/impoverishment in the aftermath of development.",
+    "scope_warning": "Catalogue metadata is evidence about the archival object, not sufficient evidence for the documentary's cultural or historical propositions. The spatial field 'Bihar' and title/description reference to Jharkhand must be preserved rather than silently harmonized."
+  },
+  "technical_metadata": {
+    "codec": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "data_rate_kbit_s": 641.438,
+    "frame_rate": 25.0,
+    "sampling": "4:2:0",
+    "aspect_ratio": "4:3",
+    "dimensions": "640x480",
+    "condition": "Good"
+  },
+  "canonicalization": {
+    "status": "new_unmatched_repository_lead_at_precheck",
+    "dedup_rule": "Treat archival catalogue record, digitized manifestation, technical/condition reports, previews, mirrors and citations for CVI-BETA_1177-BC as manifestations/components of one audiovisual work, not independent corroboration.",
+    "series_rule": "Do not merge Vol. X with other numbered volumes in the 18-part relation; each volume may be a distinct archival object but series-level dependency must be retained."
+  },
+  "rights_access_consent": {
+    "rights_holder_catalogued": "Cinema Vision India",
+    "redistribution_permission_verified": false,
+    "participant_or_community_consent_verified": false,
+    "public_catalogue_equals_redistribution_permission": false,
+    "cultural_access_review_required": true,
+    "binary_ingestion_permitted_now": false
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binary_files_ingested": 0,
+    "reason": "The authoritative catalogue verifies the audiovisual object's identity and technical metadata, but proposition-level cultural evidence requires lawful access to the recording plus provenance, consent, locality, speaker/scene and dependency review."
+  },
+  "exact_locator_conversion_plan": [
+    "Obtain lawful authoritative access to CVI-BETA_1177-BC without bypassing access controls.",
+    "Record manifestation identity/hash only where storage and processing are permitted.",
+    "Create HH:MM:SS segment locators for each candidate proposition rather than citing the film as a whole.",
+    "Distinguish narration/editorial framing from participant speech, observed events, archival inserts and cited/borrowed material.",
+    "Verify recording locality/date and participant/speaker identity only when the source supports them.",
+    "Retain uncertainty and do not generalize filmed communities to all Munda communities.",
+    "Apply participant/privacy, performer, sacred/restricted-cultural and community-consent gates before graph promotion."
+  ],
+  "blocked_or_unverified": [
+    "Full audiovisual content not verified in this run.",
+    "Redistribution licence not established; catalogue states rights: Cinema Vision India.",
+    "Participant/community consent not established from catalogue metadata.",
+    "Exact recording locality and filming date are not established by the verified catalogue fields.",
+    "No transcript or time-coded proposition extraction verified."
+  ],
+  "source_url": "https://ncaa.gov.in/repository/search/displaySearchRecordPreview/CVI-BETA_1177-BC/Munda-Tribe-of-Bihar-and-Jharkhand-%28Vol.-X%29",
+  "audit_principle": "Discovery and archival identity verification do not equal cultural evidence promotion."
+}
