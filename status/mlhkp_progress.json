@@ -3,10 +3,10 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-25T17:41:31Z",
+  "updated_utc": "2026-09-25T22:45:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 640,
-  "exact_head_before_status_sync": "ffb6c07834e664886819f342b7bc6026af00bf9b",
+  "latest_run": 641,
+  "exact_head_before_status_sync": "59d65700dd2440ab92c26eb757176671c37bc4a7",
   "mmsc": {
     "audited_source_identities": 42,
     "raw_web_discovery_records": 95,
@@ -16,10 +16,11 @@
     "unresolved_unique_web_leads": 78,
     "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
     "systematic_census_documented_for_release": true,
-    "count_note": "No controlled count change. Run640 added a repository-unmatched Adivaani (Ministry of Tribal Affairs, Government of India) Mundari Dictionary candidate. Government platform identity and open-access listing are verified, but PDF manifestation/edition/compiler/pagination/reuse terms and entry-level locators remain unresolved; no lexical or cultural proposition was promoted.",
+    "count_note": "No controlled count change. Run641 added a repository-unmatched, publisher-verified open CC BY-SA 4.0 Kumari & Rahman (2021) Munda/Jharkhand livelihood article with exact printed-page locator families (pp. 183–185). Because the article is largely descriptive/synthetic and does not expose a primary sampling/methods basis for broad cultural assertions, source-dependency must be resolved proposition-by-proposition before promotion.",
     "runs381_632_reconciliation_state": "pending",
     "runs381_633_reconciliation_state": "pending",
-    "runs381_640_reconciliation_state": "pending"
+    "runs381_640_reconciliation_state": "pending",
+    "runs381_641_reconciliation_state": "pending"
   },
   "evidence": {
     "claims": 52,
@@ -55,10 +56,10 @@
   "publication": {
     "q1_target": true,
     "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
-    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-640 reconciliation pending"
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-641 reconciliation pending"
   },
   "sync_state": {
-    "status_updated_through_run": 640,
+    "status_updated_through_run": 641,
     "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
     "locator_queue_requires_reconciliation": true,
     "manuscript_metric_change_not_justified": true
@@ -74,7 +75,8 @@
     "run554_exact_head_all_four_required_workflows_success_verified": true,
     "status_sync_head_verification_pending": true,
     "run555_633_exact_head_verification_pending": true,
-    "run555_640_exact_head_verification_pending": true
+    "run555_640_exact_head_verification_pending": true,
+    "run555_641_exact_head_verification_pending": true
   },
   "blockers": [
     "Runs381-632 additions require deterministic reconciliation before controlled count changes",
@@ -92,7 +94,8 @@
     "Run625 audiovisual candidate requires exact Commons license/attribution capture, recording provenance/date/locality, performer/community consent review, language/content verification and HH:MM:SS proposition extraction before promotion",
     "EZCC 2022 Folk Dances of Jharkhand has rights-clear CC BY 3.0 manifestation and exact Munda/Mundari start locators, but requires segment inspection, locality/performer provenance, participant/community-consent and cultural-access review before proposition promotion",
     "MunTTS 2024 has exact pp. 76-77 locators and an associated Karya corpus, but the paper reports 26,868 recordings while the current repository README reports 26,870; version-lineage, license/provenance and deterministic MMSC reconciliation remain before controlled promotion",
-    "Adivaani Mundari Dictionary (Run640) is government-platform verified and repository-unmatched, but dynamic resource delivery did not expose a stable PDF manifestation/edition/compiler/pagination/reuse terms in this audit; resolve file identity/hash and create entry/page-level lexical evidence only after provenance, dialect and rights checks."
+    "Adivaani Mundari Dictionary (Run640) is government-platform verified and repository-unmatched, but dynamic resource delivery did not expose a stable PDF manifestation/edition/compiler/pagination/reuse terms in this audit; resolve file identity/hash and create entry/page-level lexical evidence only after provenance, dialect and rights checks.",
+    "Kumari & Rahman 2021 (Run641) is open CC BY-SA 4.0 and exact-locator ready on printed pp. 183–185, but broad Munda livelihood/cultural assertions are largely synthetic; resolve upstream-source dependency, empirical basis, scope and cultural-governance status proposition-by-proposition before graph promotion."
   ],
   "release_gate": {
     "status": "NOT_PASS",
@@ -113,6 +116,7 @@
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "atomize Kumari & Rahman 2021 pp. 183–185, map each candidate proposition to its upstream citation/authorial synthesis, and promote only independently supportable, correctly scoped evidence",
     "resolve the Adivaani Mundari Dictionary PDF manifestation and capture edition/compiler/date/hash/reuse terms, then create entry/page-level lexical evidence only after provenance and dialect checks",
     "reconcile the MunTTS paper's 26,868-recording corpus with the current Karya README's 26,870-recording release and preserve version-specific provenance",
     "inspect EZCC 2022 Munda/Mundari segments at 00:04:28, 00:06:00 and 00:11:12 and create atomic HH:MM:SS evidence only if provenance, consent/cultural-access and proposition support permit",
