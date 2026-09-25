@@ -3,9 +3,9 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-24T18:41:00Z",
+  "updated_utc": "2026-09-25T17:41:31Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 633,
+  "latest_run": 640,
   "exact_head_before_status_sync": "ffb6c07834e664886819f342b7bc6026af00bf9b",
   "mmsc": {
     "audited_source_identities": 42,
@@ -16,9 +16,10 @@
     "unresolved_unique_web_leads": 78,
     "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
     "systematic_census_documented_for_release": true,
-    "count_note": "No controlled count change. Run633 canonicalized Gumma et al. 2024 MunTTS and established exact printed-page locators (pp. 76-77) for Jharkhand/Devanagari scope and corpus construction. The peer-reviewed paper reports 26,868 recordings while the current Karya README reports 26,870; both source-specific values are retained pending version-lineage reconciliation. No cultural proposition was promoted.",
+    "count_note": "No controlled count change. Run640 added a repository-unmatched Adivaani (Ministry of Tribal Affairs, Government of India) Mundari Dictionary candidate. Government platform identity and open-access listing are verified, but PDF manifestation/edition/compiler/pagination/reuse terms and entry-level locators remain unresolved; no lexical or cultural proposition was promoted.",
     "runs381_632_reconciliation_state": "pending",
-    "runs381_633_reconciliation_state": "pending"
+    "runs381_633_reconciliation_state": "pending",
+    "runs381_640_reconciliation_state": "pending"
   },
   "evidence": {
     "claims": 52,
@@ -54,10 +55,10 @@
   "publication": {
     "q1_target": true,
     "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
-    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved; Runs381-633 reconciliation pending"
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-640 reconciliation pending"
   },
   "sync_state": {
-    "status_updated_through_run": 633,
+    "status_updated_through_run": 640,
     "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
     "locator_queue_requires_reconciliation": true,
     "manuscript_metric_change_not_justified": true
@@ -72,7 +73,8 @@
     ],
     "run554_exact_head_all_four_required_workflows_success_verified": true,
     "status_sync_head_verification_pending": true,
-    "run555_633_exact_head_verification_pending": true
+    "run555_633_exact_head_verification_pending": true,
+    "run555_640_exact_head_verification_pending": true
   },
   "blockers": [
     "Runs381-632 additions require deterministic reconciliation before controlled count changes",
@@ -89,7 +91,8 @@
     "Srivastava 2007 DOI history discrepancy remains to be reconciled without creating duplicate identities",
     "Run625 audiovisual candidate requires exact Commons license/attribution capture, recording provenance/date/locality, performer/community consent review, language/content verification and HH:MM:SS proposition extraction before promotion",
     "EZCC 2022 Folk Dances of Jharkhand has rights-clear CC BY 3.0 manifestation and exact Munda/Mundari start locators, but requires segment inspection, locality/performer provenance, participant/community-consent and cultural-access review before proposition promotion",
-    "MunTTS 2024 has exact pp. 76-77 locators and an associated Karya corpus, but the paper reports 26,868 recordings while the current repository README reports 26,870; version-lineage, license/provenance and deterministic MMSC reconciliation remain before controlled promotion"
+    "MunTTS 2024 has exact pp. 76-77 locators and an associated Karya corpus, but the paper reports 26,868 recordings while the current repository README reports 26,870; version-lineage, license/provenance and deterministic MMSC reconciliation remain before controlled promotion",
+    "Adivaani Mundari Dictionary (Run640) is government-platform verified and repository-unmatched, but dynamic resource delivery did not expose a stable PDF manifestation/edition/compiler/pagination/reuse terms in this audit; resolve file identity/hash and create entry/page-level lexical evidence only after provenance, dialect and rights checks."
   ],
   "release_gate": {
     "status": "NOT_PASS",
@@ -110,6 +113,7 @@
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "resolve the Adivaani Mundari Dictionary PDF manifestation and capture edition/compiler/date/hash/reuse terms, then create entry/page-level lexical evidence only after provenance and dialect checks",
     "reconcile the MunTTS paper's 26,868-recording corpus with the current Karya README's 26,870-recording release and preserve version-specific provenance",
     "inspect EZCC 2022 Munda/Mundari segments at 00:04:28, 00:06:00 and 00:11:12 and create atomic HH:MM:SS evidence only if provenance, consent/cultural-access and proposition support permit",
     "deterministically reconcile Runs381-633 against WEB-MUN and update counts only from ledger evidence",
