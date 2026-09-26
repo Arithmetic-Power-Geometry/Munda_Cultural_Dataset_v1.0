@@ -1,0 +1,70 @@
+{
+  "run": 137,
+  "date": "2026-09-10",
+  "stream": "non-Mundarica source census and exact-locator ingestion",
+  "canonical_work_key": "shrivastava_mukesh_kumar|mundari_khuntkatti_an_institution_of_customary_right_over_land|2013",
+  "identity": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "journal": "The Oriental Anthropologist",
+    "volume": "13",
+    "issue": "2",
+    "pages": "267-280",
+    "first_published_online": "2013-07-01",
+    "issue_publication": "July/December 2013",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher_manifestation": "https://journals.sagepub.com/doi/abs/10.1177/0972558X1301300205",
+    "publisher_issue_locator": "https://journals.sagepub.com/toc/oana/13/2"
+  },
+  "scope_classification": {
+    "source_class": "peer-reviewed article",
+    "subject_scope": ["Munda", "Mundari Khuntkatti", "customary land institution", "Khunti district", "Jharkhand"],
+    "empirical_scope_reported_by_publisher_abstract": "two Mundari Khuntkatti villages, Gutuhatu and Salga, within a Mundari Khuntkatti Revenue Circle of Khunti district",
+    "scope_boundary": "The publisher abstract supports only a bounded description of this article's study scope and author conclusions; it is not treated as universal community validation or exhaustive description of Munda customary law."
+  },
+  "exact_locators": [
+    {
+      "locator_type": "publisher article landing page / abstract",
+      "locator": "DOI 10.1177/0972558X1301300205; publisher abstract; Published In block",
+      "supports": ["title", "author", "volume", "issue", "pages 267-280", "first publication date", "bounded empirical-study scope"]
+    },
+    {
+      "locator_type": "publisher issue table of contents",
+      "locator": "The Oriental Anthropologist, Volume 13, Issue 2, article listing pp. 267-280",
+      "supports": ["issue membership", "article pagination", "restricted-access status"]
+    }
+  ],
+  "rights_access_consent": {
+    "publisher_access_state": "Restricted access / Request permissions",
+    "open_reuse_licence_verified": false,
+    "full_text_lawfully_obtained_this_run": false,
+    "participant_or_fieldwork_reuse_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_status": "unresolved",
+    "permitted_ingestion_this_run": "bibliographic metadata, publisher-supplied abstract-level scope metadata, and access-state provenance only",
+    "prohibited_or_gated": ["bulk article text", "field notes", "interview or participant-derived material", "village-level cultural assertions beyond publisher-supported scope", "redistribution of restricted full text"]
+  },
+  "deduplication": {
+    "canonicalization_basis": "DOI",
+    "researchgate_or_other_secondary_pages": "secondary manifestations only; not separate source identities",
+    "duplicate_identity_created": false
+  },
+  "promotion": {
+    "discovery_only": false,
+    "promoted_to_exact_locator_provenance": true,
+    "promoted_to_public_cultural_claim": false,
+    "reason": "Stable publisher DOI, issue, pagination, abstract and access-state locators are sufficient for auditable provenance; restricted full text and participant/cultural-access uncertainty block content-level promotion."
+  },
+  "blocked_follow_up": [
+    "lawful inspectable full text or repository manuscript",
+    "independent file checksum/page accounting if lawful bytes become available",
+    "methods/ethics/participant-provenance verification beyond the abstract",
+    "cultural-access/community-review disposition before any sensitive customary-law extraction"
+  ],
+  "integrity": {
+    "no_count_fabrication": true,
+    "no_cultural_claim_fabrication": true,
+    "public_availability_not_treated_as_reuse_permission": true,
+    "restricted_content_not_exposed": true
+  }
+}

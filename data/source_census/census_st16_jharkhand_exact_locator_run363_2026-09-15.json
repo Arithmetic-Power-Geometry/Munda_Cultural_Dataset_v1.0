@@ -1,0 +1,49 @@
+{
+  "run": 363,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "source_class": "government_TRI_Census_LSI",
+  "canonical_work": {
+    "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+    "provider": "Office of the Registrar General & Census Commissioner, India",
+    "reference_id": "PC11_ST16-20",
+    "series_reference": "PC11_ST16",
+    "declared_manifestation": "ST-20-00-16-DDW-2011.XLSX",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+    "year": 2011,
+    "geography": "Jharkhand",
+    "scope": "Scheduled-tribe bilingualism table; government statistical source"
+  },
+  "verification": {
+    "provider_identity_verified": true,
+    "reference_id_verified": true,
+    "declared_workbook_filename_verified": true,
+    "workbook_bytes_obtained": false,
+    "sha256_verified": false,
+    "sheet_inventory_verified": false,
+    "row_locators_verified": false,
+    "cell_locators_verified": false,
+    "numeric_values_promoted": false,
+    "mundari_specific_row_content_verified_from_workbook": false
+  },
+  "access_observation": "Official catalogue identity and declared workbook filename were discoverable. A subsequent provider-page open returned HTTP 502 during Run 363, so workbook-level verification was not claimed.",
+  "canonicalization": {
+    "rule": "Treat ST-16 Jharkhand as one Census work with provider manifestations/URLs subordinate to the canonical PC11_ST16-20 identity; do not split mirrors or repeated catalogue observations into new source identities.",
+    "numbered_register_mapping_completed": false,
+    "controlled_identity_count_changed": false
+  },
+  "rights_governance": {
+    "public_catalogue_visibility_is_reuse_permission": false,
+    "catalogue_metadata_is_verified_workbook_content": false,
+    "statistical_table_is_cultural_authorization": false,
+    "community_validation_inferred": false
+  },
+  "promotion_boundary": "Promoted only exact official provider/catalogue identity and declared manifestation metadata. No workbook cells, numeric values, linguistic claims, cultural claims, consent claims or community-validation claims are promoted.",
+  "gap_state": [
+    "obtain permitted primary workbook bytes",
+    "record cryptographic hash",
+    "inventory sheets",
+    "verify relevant tribe/language rows",
+    "record exact row/cell locators before any numeric evidence promotion"
+  ]
+}

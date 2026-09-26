@@ -1,0 +1,50 @@
+{
+  "reconciliation_id": "MMSC-RECON-BHADURI-2026-09-08",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-08T12:32:00Z",
+  "work_title": "A Mundari-English dictionary",
+  "creator": "Manindra Bhusan Bhaduri",
+  "work_level_identity": {
+    "open_library_work_id": "OL5467157W",
+    "work_identity_verified": true
+  },
+  "edition_evidence": [
+    {
+      "year": 1931,
+      "publisher": "Calcutta University Press",
+      "place": "Calcutta",
+      "state": "original-edition metadata represented in Open Library edition history and reprint notes; physical copy/full text not acquired in this cycle"
+    },
+    {
+      "year": 1983,
+      "publisher": "Northern Book Centre",
+      "place": "New Delhi",
+      "open_library_edition_id": "OL3008123M",
+      "lccn": "84901705",
+      "pagination": "xv, 228, ii p.",
+      "state": "reprint identity verified; Open Library indicates preview/locate rather than unrestricted download"
+    }
+  ],
+  "edition_uncertainty": {
+    "state": "open",
+    "note": "Other library/reprint records encountered by MLHKP contain differing modern reprint dates and at least one conflicting note about original-publication year. These are preserved as catalogue-level edition uncertainty rather than normalized by guess.",
+    "canonicalization_rule": "Canonicalize the intellectual work separately from each manifestation/edition; do not collapse publication year, publisher, pagination, or rights fields across editions unless an authoritative edition relationship is verified."
+  },
+  "rights_access": {
+    "open_library_availability": "preview_or_locate",
+    "unrestricted_full_text_reuse_established": false,
+    "lexical_content_ingestion_permitted_at_current_stage": false,
+    "cultural_access_override": true
+  },
+  "ingestion_boundary": {
+    "permitted_now": ["bibliographic work identity", "edition relationship metadata", "catalogue identifiers"],
+    "withheld": ["dictionary entries", "definitions", "example sentences", "bulk lexical extraction", "model-training reuse"],
+    "reason": "Exact edition/full-text rights and reuse permission are not established."
+  },
+  "counts_changed": false,
+  "integrity": {
+    "edition_conflict_fabricated_away": false,
+    "public_availability_treated_as_reuse_permission": false,
+    "lexical_claims_promoted": false
+  }
+}

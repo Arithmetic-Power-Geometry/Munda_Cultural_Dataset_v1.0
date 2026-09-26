@@ -1,0 +1,55 @@
+{
+  "run": 564,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "canonical_key": "doi:10.5281/zenodo.3380874",
+  "identity": {
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "creator": "Felix Rau",
+    "year": 2019,
+    "publication_type": "research dataset",
+    "doi": "10.5281/zenodo.3380874",
+    "version": "0.1.0",
+    "published": "2019-08-29"
+  },
+  "scope": {
+    "classification": "comparative Munda-family lexical dataset containing Mundari among multiple languages; not Munda-ethnographic evidence",
+    "dataset_extent_provider_description": "127 cognates with proto-Munda reconstructions",
+    "languages_named_by_provider": ["Gorum", "Sora", "Remo", "Gutob", "Kharia", "Juang", "Gtaʔ", "Santali", "Mundari", "Ho", "Korwa", "Korku"],
+    "upstream_sources_named_by_provider": ["MKCD", "Pinnow (1959)"]
+  },
+  "verification": {
+    "provider": "Zenodo",
+    "provider_record": "https://zenodo.org/records/3380874",
+    "metadata_verified": true,
+    "repository_exact_identifier_search_before_addition": "no match for 3380874",
+    "canonicalization_rule": "Zenodo DOI is the dataset-version work identity; CSV download, preview, mirrors and citations are manifestations, not independent corroboration."
+  },
+  "access_rights": {
+    "provider_access_label": "Open",
+    "file_named": "pMunda_cognate_set_2019-08-29.csv",
+    "provider_reported_size": "34.9 kB",
+    "provider_reported_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "redistribution_permission_verified_in_this_run": false,
+    "binary_ingestion_permitted": false
+  },
+  "evidence_gate": {
+    "promoted_controlled_claims": 0,
+    "promoted_evidence_records": 0,
+    "promoted_binaries": 0,
+    "reason": "Provider metadata establishes dataset identity and comparative scope, but this run did not verify an explicit reuse licence or inspect individual Mundari rows and their upstream provenance. Open access alone is not treated as redistribution permission.",
+    "requirements_before_promotion": [
+      "verify explicit dataset licence/reuse terms",
+      "lawfully capture and hash the CSV if redistribution/storage is permitted",
+      "extract Mundari-bearing rows deterministically with row-level locators",
+      "preserve original transcription and reconstruction notation",
+      "trace each promoted form to MKCD/Pinnow or other row-level upstream citation where supplied",
+      "do not count derived Rau rows as independent corroboration of their upstream lexical source",
+      "keep proto-Munda reconstruction claims distinct from attested Mundari forms"
+    ]
+  },
+  "release_effect": {
+    "controlled_metric_increment": 0,
+    "note": "Audit-only addition pending deterministic census reconciliation; do not alter reconciled claim/evidence/module metrics."
+  }
+}

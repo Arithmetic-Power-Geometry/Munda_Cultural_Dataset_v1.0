@@ -1,0 +1,68 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN596-ADIBHASHAA-2025",
+  "run": 596,
+  "audit_date": "2026-09-23",
+  "canonical_work": {
+    "title": "AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages",
+    "authors": ["Pooja Singh", "Sandeep Kumar"],
+    "year": 2025,
+    "arxiv": "2512.04765",
+    "source_class": ["dataset", "parallel_corpus", "preprint"],
+    "provider": "misniitdelhi / Hugging Face",
+    "institution": "Indian Institute of Technology Delhi"
+  },
+  "identity_verification": {
+    "status": "VERIFIED_PROVIDER_METADATA",
+    "provider_url": "https://huggingface.co/datasets/misniitdelhi/AdiBhasha",
+    "paper_url": "https://arxiv.org/abs/2512.04765",
+    "canonicalization_rule": "Dataset card, repository files, and cited arXiv paper are manifestations/documentation of the same AdiBhashaa release and must not be counted as independent corroboration."
+  },
+  "mundari_scope": {
+    "included": true,
+    "release_script": "Devanagari",
+    "reported_mundari_train_pairs": "approximately 20,150",
+    "source_language": "Hindi",
+    "domains": ["Education", "Governance", "Healthcare", "News", "Social"],
+    "workflow": ["source curation", "native-speaker community translation", "independent community validation"],
+    "scope_warning": "The corpus is a machine-translation benchmark. Sentence pairs are not evidence for timeless ethnographic or cultural claims, and individual entries require provenance/context review before any cultural interpretation."
+  },
+  "rights_access_consent": {
+    "dataset_license_reported": "CC BY-NC-SA 4.0",
+    "access_state_observed": "PUBLIC_METADATA_GATED_FILES",
+    "access_note": "Provider page states that contact-information sharing/acceptance of conditions is required to access repository files/content.",
+    "consent_status": "PARTICIPATORY_WORKFLOW_REPORTED; INDIVIDUAL_CONSENT_TERMS_NOT_VERIFIED_IN_THIS_AUDIT",
+    "binary_ingestion": "NOT_PERFORMED",
+    "redistribution_decision": "DO_NOT_COPY_CORPUS_INTO_MLHKP_UNTIL_GATE_CONDITIONS_AND_FILE_LEVEL_TERMS_ARE REVIEWED"
+  },
+  "exact_locator_candidates": [
+    {
+      "locator": "dataset card: Dataset summary / Repository layout",
+      "supported_metadata": "80,000 sentence overall benchmark; Mundari train file reported at approximately 20,150 pairs"
+    },
+    {
+      "locator": "dataset card: Dataset creation (Participatory Workflow)",
+      "supported_metadata": "native-speaking translators and independent validators are reported in the creation workflow"
+    },
+    {
+      "locator": "dataset card: Licensing",
+      "supported_metadata": "Dataset & Transcripts: CC BY-NC-SA 4.0"
+    }
+  ],
+  "quality_and_uncertainty": {
+    "iso_metadata_warning": "Provider card reports Mundari ISO as 'unv'; this must be checked against authoritative ISO/Glottolog metadata before normalization because common Mundari identifiers elsewhere may differ.",
+    "counts_are_provider_reported": true,
+    "no_cultural_claims_inferred": true
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Metadata and documentation are sufficiently verified for source census, but gated corpus files were not inspected and proposition-level evidence has not been established."
+  },
+  "next_actions": [
+    "Reconcile this canonical work against MMSC search ledger before changing controlled counts.",
+    "Verify the reported Mundari language identifier against an authoritative registry.",
+    "If access conditions are lawfully accepted, inspect Mundari file headers/rows, hashes, provenance fields, and any contributor/consent documentation before exact-record promotion.",
+    "Keep dataset-derived linguistic examples separate from cultural assertions unless an exact entry and contextual provenance support the assertion."
+  ]
+}

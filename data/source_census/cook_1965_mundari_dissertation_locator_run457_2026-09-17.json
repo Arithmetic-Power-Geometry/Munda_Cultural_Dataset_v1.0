@@ -1,0 +1,51 @@
+{
+  "run": 457,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "source_class": ["thesis/dissertation", "grammar", "linguistics"],
+  "canonical_identity": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A descriptive analysis of Mundari. A study of the structure of the Mundari language according to the methods of linguistic science, with particular attention to the units of sound, the units of meaning, the units of grammar, and their mutually contrastive arrangement patterns",
+    "institution": "Georgetown University",
+    "extent": "vi, 315 pages; illustrations; maps",
+    "language": "English",
+    "target_language": "Mundari",
+    "iso_639_3": "unr",
+    "document_type": "doctoral dissertation / grammar"
+  },
+  "verified_locator": {
+    "provider": "Glottolog 5.3",
+    "reference_id": "33106",
+    "provider_source": "Bibliography of the Southeast Asian Linguistics Archive (SALA), sala:1745",
+    "reported_microfilm": "University Microfilms 65-12,509",
+    "reported_abstract": "International Journal of American Linguistics 32(1966).4:396"
+  },
+  "scope": "Direct Mundari descriptive linguistic source covering sound, meaning and grammar; potentially high-value exact-locator evidence after lawful full-text verification.",
+  "canonicalization": {
+    "rule": "Glottolog/SALA record, dissertation abstract, library holdings and any microfilm/digital manifestation represent one dissertation identity unless evidence establishes a distinct edition.",
+    "independence_warning": "Bibliographic records and dissertation abstracts are not independent empirical corroboration of dissertation claims."
+  },
+  "rights_access_consent": {
+    "rights_status": "unverified",
+    "full_text_access": "not established in this audit",
+    "reuse_permission": "not established",
+    "participant_consent": "not established from metadata",
+    "cultural_access": "not established from metadata"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Metadata verifies identity and scope but does not establish lawful reusable full text or exact page-level propositions."
+  },
+  "required_next_gates": [
+    "locate lawful full-text manifestation",
+    "verify rights/reuse basis",
+    "hash permitted immutable bytes",
+    "establish PDF-to-printed-page concordance",
+    "extract only exact-locator supported Mundari evidence",
+    "trace elicitation/corpus/participant provenance and cultural uncertainty"
+  ],
+  "count_policy": "Discovery/audit record only. Do not alter authoritative MMSC totals until deterministic WEB-MUN reconciliation.",
+  "release_gate_effect": "No PASS claim; unresolved access/rights remain an explicit gap."
+}

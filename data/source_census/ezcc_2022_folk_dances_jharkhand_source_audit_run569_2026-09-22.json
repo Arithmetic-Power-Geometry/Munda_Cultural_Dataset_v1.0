@@ -1,0 +1,18 @@
+{
+  "run":569,
+  "audit_date":"2026-09-22",
+  "stream":"non-Mundarica source census",
+  "title":"Folk Dances of Jharkhand - Documentary - EZCC",
+  "creator":"Eastern Zonal Cultural Centre",
+  "media_type":"audiovisual documentary",
+  "provider_record":"Wikimedia Commons",
+  "duration_reported":"39:31",
+  "scope":"mixed-community; provider identifies Munda/Mundari portions",
+  "provider_locators":["00:04:28 Paika (Munda community)","00:06:00 Mundari","00:11:12 Mundari (Marriage)"],
+  "dedup":"repository query returned no existing matching record; Commons/source/archive manifestations are one work identity, not independent corroboration",
+  "rights":"public access observed; redistribution permission, depicted-person consent and community cultural-access permission not verified in this run",
+  "promotion":{"claims":0,"evidence_records":0,"binaries":0},
+  "promotion_reason":"Provider timecodes are discovery locators, not independently audited proposition-level evidence. Exact segment inspection and rights/consent/cultural-access review remain required.",
+  "next":["verify source and licence chain","inspect exact segment boundaries","separate narration, interview and performance evidence","avoid generalizing provider labels beyond documented context","review consent, dignity and cultural access before evidence promotion"],
+  "audit_outcome":"canonical discovery audit; no controlled-count change"
+}

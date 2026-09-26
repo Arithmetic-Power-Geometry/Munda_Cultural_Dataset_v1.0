@@ -1,0 +1,14 @@
+{
+  "record_type": "deterministic_web_lead_canonicalization_audit",
+  "stream": "mmsc_governance_land_gender",
+  "run": 169,
+  "checked_utc": "2026-09-10T14:47:00Z",
+  "branch": "mlhkp-v2",
+  "web_source_id": "WEB-MUN-0086",
+  "decision": {"canonical_source_id":"SRC-MMSC-000016","new_permanent_identity_assigned":true,"dedupe_key":"doi:10.1177/23210249221127832","identity_basis":["exact DOI","exact title","author","journal","volume/issue/pages","publisher manifestation"],"counts_changed":true,"count_delta":{"audited_source_identities":1,"canonicalized_unique_web_leads":1,"unresolved_unique_web_leads":-1}},
+  "publisher_verification": {"publisher":"SAGE Publications","journal":"Journal of Land and Rural Studies","title":"Native Land Right System About Tribal Women in Jharkhand: An Interpretative Analysis","author":"Ambrish Gautam","doi":"10.1177/23210249221127832","volume":11,"issue":1,"pages":"83-98","first_published_online":"2022-12-13","issue_publication":"2023-01","canonical_locator":"https://doi.org/10.1177/23210249221127832","full_text_access_state":"restricted_get_access","rights_notice":"Copyright displayed by SAGE; reuse permissions route provided"},
+  "munda_scope_boundary": {"abstract_scope":"tribal women in Jharkhand broadly","munda_specific_relevance":"bibliographic: publisher reference list includes Munda-specific customary-law and ethnographic works","exact_munda_specific_passage_verified":false,"munda_specific_factual_claim_promoted":false,"restricted_full_text_ingested":false,"participant_derived_content_ingested":false,"community_validation_inferred":false,"cultural_access_inferred":false},
+  "rights_governance": {"public_abstract_is_not_full_text_permission":true,"publisher_restriction_respected":true,"copyright_entitlement_does_not_override_cultural_access":true,"participant_or_community_permission_inferred":false},
+  "evidence_effect": {"source_identity_registered":true,"claims_added":0,"evidence_records_added":0,"evidence_links_added":0,"reason":"The source identity and broad study scope are verified, but no exact Munda-specific passage is accessible and verified."},
+  "release_value": "Deterministically resolves one immutable unique web lead into a permanent source identity without converting broad Jharkhand tribal-women claims into Munda-specific cultural facts or bypassing publisher/cultural-access restrictions."
+}

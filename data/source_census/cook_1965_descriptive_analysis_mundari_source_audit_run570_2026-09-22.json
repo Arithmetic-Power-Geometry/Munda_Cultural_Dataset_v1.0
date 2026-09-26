@@ -1,0 +1,57 @@
+{
+  "project": "MLHKP",
+  "run": 570,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "canonical_work": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A descriptive analysis of Mundari. A study of the structure of the Mundari language according to the methods of linguistic science, with particular attention to the units of sound, the units of meaning, the units of grammar, and their mutually contrastive arrangement patterns",
+    "type": "doctoral dissertation / grammar",
+    "institution": "Georgetown University",
+    "extent_reported": "vi, 315 pages, illustrations, maps",
+    "language_code_reported": "Mundari [unr]"
+  },
+  "identity_verification": {
+    "verified_from": "Glottolog reference 33106 / Southeast Asian Linguistics Archive bibliography metadata",
+    "reference_id": "33106",
+    "secondary_bibliographic_notes": [
+      "Dissertation Abstracts 26(7):3938-3939",
+      "University Microfilms 65-12,509",
+      "abstract reported in International Journal of American Linguistics 32(4), 1966, p.396"
+    ]
+  },
+  "deduplication": {
+    "repository_search_query": "Cook 1965 descriptive analysis Mundari",
+    "existing_match_found": false,
+    "canonicalization_rule": "dissertation, microfilm, abstract, catalogue and later scan manifestations are one work identity unless edition/content differences are demonstrated"
+  },
+  "scope": {
+    "classification": "direct Mundari linguistic description",
+    "reported_coverage": ["sound units", "meaning units", "grammar units", "contrastive arrangement patterns"],
+    "do_not_generalize_to": ["all Munda languages", "cultural practice without proposition-level support"]
+  },
+  "rights_access_consent": {
+    "full_manifestation_obtained_this_run": false,
+    "redistribution_permission_verified": false,
+    "speaker_or_consultant_consent_verified": false,
+    "cultural_access_status": "unknown",
+    "rule": "bibliographic discoverability does not authorize redistribution or proposition-level extraction"
+  },
+  "promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "No lawful full manifestation with verified rights/provenance and exact page locators was inspected in this run."
+  },
+  "conversion_queue": [
+    "locate lawful authoritative dissertation manifestation",
+    "verify manifestation identity and hash",
+    "establish printed-page/digital-page concordance",
+    "extract only proposition-level Mundari evidence with exact page/example locators",
+    "separate Cook's analysis from cited/borrowed upstream material",
+    "record speaker/consultant provenance and consent limitations where documented",
+    "verify reuse rights before storing or redistributing binary/text extracts"
+  ],
+  "release_effect": "discovery audit only; controlled metrics unchanged pending deterministic reconciliation"
+}

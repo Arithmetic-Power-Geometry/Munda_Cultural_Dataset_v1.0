@@ -1,0 +1,50 @@
+{
+  "run": 464,
+  "audit_date_utc": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari",
+    "document_type": "Hand Book",
+    "authors_editors": ["AB Ota", "SC Mohanty", "Soumalin Mohanty"],
+    "institution": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Bhubaneswar",
+    "completed_date": "2016-07",
+    "record_id": "SCST/2016/0055",
+    "repository_handle": "123456789/73851",
+    "provider": "Ministry of Tribal Affairs Tribal Digital Document Repository"
+  },
+  "provider_manifestation": {
+    "filename": "SCST_2016_handbook_0055.pdf",
+    "provider_reported_size": "108.3 MB",
+    "format": "Adobe PDF"
+  },
+  "scope": ["government/TRI", "ethnographic handbook", "Mundari/Munda", "Odisha"],
+  "identity_status": "provider-metadata-verified",
+  "deduplication": {
+    "rule": "Repository record, PDF manifestation, catalogue/search manifestations and citations to this handbook are one source identity unless independent provenance is demonstrated.",
+    "independent_corroboration": false
+  },
+  "rights_access_consent": {
+    "public_repository_record": true,
+    "pdf_listed_by_provider": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_verified": false,
+    "cultural_access_permission_verified": false,
+    "note": "Government/TRI hosting and public availability do not by themselves establish item-level redistribution, participant consent, or cultural permission."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "records_promoted": 0,
+    "reason": "Exact passage/page locators, immutable permitted bytes/hash, reuse basis, and claim-specific provenance/cultural review are not yet established. Provider abstract/keywords are metadata, not automatically promoted cultural evidence."
+  },
+  "promotion_gates": [
+    "establish item/file-level reuse basis",
+    "obtain lawful permitted PDF manifestation where allowed",
+    "record immutable SHA-256 of permitted bytes",
+    "establish PDF-to-printed-page concordance",
+    "extract only claim-supporting exact page/passage locators",
+    "trace cited/derived ethnographic dependencies",
+    "review participant/community provenance, consent/privacy and cultural-access uncertainty"
+  ],
+  "source_url": "https://repository.tribal.gov.in/handle/123456789/73851",
+  "audit_note": "No cultural claim is asserted from the provider abstract or keyword list in this audit record."
+}

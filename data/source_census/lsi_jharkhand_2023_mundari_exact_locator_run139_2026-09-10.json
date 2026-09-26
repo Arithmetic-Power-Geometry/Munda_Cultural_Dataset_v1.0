@@ -1,0 +1,83 @@
+{
+  "run": 139,
+  "date": "2026-09-10",
+  "stream": "government linguistic survey exact-locator evidence and manifestation verification",
+  "canonical_work_key": "orgi|linguistic_survey_of_india_jharkhand|2023",
+  "identity": {
+    "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+    "producer_author": "Office of the Registrar General & Census Commissioner, India (ORGI), Language Division",
+    "series": "LINGUISTIC SURVEY OF INDIA",
+    "publication_date": "2023-08-01",
+    "reference_id": "LSI_JHARKHAND",
+    "catalog_id": "45248",
+    "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "download_id": "48955",
+    "file_name": "LSI_JHARKHAND.pdf",
+    "official_download_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+    "resource_type": "book"
+  },
+  "exact_locators": [
+    {
+      "locator_type": "official_catalog_metadata",
+      "locator": "Census NADA catalog 45248 / Reference ID LSI_JHARKHAND",
+      "supports": ["title", "producer", "publication date", "file name", "official download manifestation"]
+    },
+    {
+      "locator_type": "indexed_pdf_printed_page",
+      "locator": "printed page 71, Mundari section immediately before HO heading",
+      "supports": [
+        "the volume describes Mundari as having four main dialects named Hasada, Naguri, Tamaria and Kera",
+        "the volume reports 2011 Census counts of 1,128,228 Mundari speakers in India and 942,108 in Jharkhand (83.50%)"
+      ],
+      "verification_boundary": "The indexed PDF text exposes the printed-page marker [71]. Direct PDF fetch/page screenshot timed out or exceeded the web-fetch size limit in this run, so the page image itself is not independently verified."
+    }
+  ],
+  "scope_and_interpretation": {
+    "scope": "official post-Griersonian Linguistic Survey of India volume for Jharkhand",
+    "mundari_scope": "language description and Census-linked speaker context",
+    "claim_boundary": "These are claims reported by ORGI in this specific survey volume. They are not treated as timeless, universal, community-validated cultural facts."
+  },
+  "rights_and_access": {
+    "public_catalog_access": true,
+    "official_public_download_locator": true,
+    "rights_holder_or_copyright_notice": "Language Division / Office of the Registrar General & Census Commissioner, India; no open-content licence verified in this run",
+    "open_reuse_licence_verified": false,
+    "redistribution_of_pdf_or_bulk_text_permitted_by_this_record": false,
+    "permitted_ingestion": "bibliographic metadata, exact source locators, short bounded factual propositions attributed to the official survey, and explicit uncertainty/access notes"
+  },
+  "manifestation_verification": {
+    "official_catalog_manifestation_verified": true,
+    "official_direct_pdf_locator_verified": true,
+    "complete_pdf_bytes_independently_acquired": false,
+    "independent_checksum_computed": false,
+    "page_image_verified": false,
+    "block_reason": "Official direct PDF fetch timed out; mirrored PDF exceeded current web-fetch size limit."
+  },
+  "canonicalization": {
+    "official_census_catalog_and_direct_pdf_same_manifestation": true,
+    "pari_copy_treated_as_mirror_not_new_work_identity": true,
+    "grierson_1906_lsi_volume_iv_is_distinct_historical_work": true,
+    "duplicate_source_identity_created": false
+  },
+  "promotion": {
+    "discovery_only": false,
+    "promoted_to_exact_locator_evidence": true,
+    "promoted_to_unqualified_cultural_claim": false,
+    "count_bearing_master_identity_added": false,
+    "reason_counts_unchanged": "This run strengthens an already-known official LSI stream; master-register reconciliation and full byte/page-image audit are still pending."
+  },
+  "blocked_follow_up": [
+    "lawfully obtain the complete official PDF bytes",
+    "compute and record an independent cryptographic checksum",
+    "verify printed page 71 against the actual page image and PDF page index",
+    "record any further Mundari section page range only after page-image verification",
+    "reconcile whether this work is already represented in the canonical master source register before any source-count change"
+  ],
+  "integrity": {
+    "no_count_fabrication": true,
+    "no_rights_inferred_from_public_download": true,
+    "no_community_validation_fabricated": true,
+    "no_pdf_bytes_or_checksum_fabricated": true,
+    "blocked_source_state_explicit": true
+  }
+}

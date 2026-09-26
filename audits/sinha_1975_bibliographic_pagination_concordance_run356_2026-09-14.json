@@ -1,0 +1,75 @@
+{
+  "audit_id": "SINHA-1975-CONCORDANCE-RUN356",
+  "run": 356,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages",
+    "series": "CIIL Grammar Series, 2",
+    "language_scope": ["English", "Mundari"],
+    "wals_code": "mun",
+    "iso_639_3": "unr"
+  },
+  "provider_records": [
+    {
+      "provider": "Bhasha Sanchika / CIIL",
+      "handle": "https://hdl.handle.net/20.500.14705/8179",
+      "declared_file": "CIILP0091.pdf",
+      "declared_file_size": "9.63 KB",
+      "verification_level": "provider_metadata_only"
+    },
+    {
+      "provider": "Bharatavani / CIIL",
+      "url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "declared_file_size": "117.39 MB",
+      "access": "login_to_read",
+      "verification_level": "provider_metadata_only"
+    },
+    {
+      "provider": "CiNii Books",
+      "record": "BA46909970",
+      "declared_extent": "xii, 163, [1] p.",
+      "declared_size": "22 cm",
+      "verification_level": "independent_bibliographic_record"
+    },
+    {
+      "provider": "Finna / Helka",
+      "declared_extent": "xii, 163 pages : map",
+      "verification_level": "independent_bibliographic_record"
+    },
+    {
+      "provider": "WALS",
+      "record": "Sinha-1975",
+      "series": "CIIL Grammar Series, 2",
+      "verification_level": "secondary_bibliographic_and_typological_locator"
+    }
+  ],
+  "findings": {
+    "bibliographic_identity_concordant": true,
+    "bibliographic_pagination_concordant": true,
+    "canonical_print_extent_for_audit": "xii, 163, [1] p. (with map reported by Finna)",
+    "digital_manifestation_size_concordant": false,
+    "digital_manifestation_bytes_verified": false,
+    "sha256_verified": false,
+    "page_image_to_print_page_concordance_verified": false,
+    "full_text_or_ocr_verified": false,
+    "reuse_license_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "promotion_boundary": {
+    "public_linguistic_claims_promoted": 0,
+    "public_cultural_claims_promoted": 0,
+    "reason": "Bibliographic concordance is sufficient to refine manifestation/page-accounting expectations but not to verify provider bytes, OCR, internal page locators, reuse permission, community validation, or cultural authorization."
+  },
+  "next_actions": [
+    "materialize a permitted provider manifestation",
+    "compute independent SHA-256",
+    "reconcile provider file-size discrepancy",
+    "verify page-image count against xii + 163 + [1] bibliographic extent",
+    "establish exact internal locators before feature or grammatical-claim promotion"
+  ]
+}

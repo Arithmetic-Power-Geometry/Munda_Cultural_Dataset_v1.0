@@ -1,0 +1,64 @@
+{
+  "audit_id": "MLHKP-RUN171-LEXIBANK-PEIROS-VERSION-CHAIN",
+  "run": 171,
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-10T15:43:40Z",
+  "source_class": "licensed_linguistic_dataset",
+  "candidate": {
+    "dataset_key": "peirosaustroasiatic",
+    "title": "CLDF dataset derived from Peiros' Genetic classification of Austro-Asiatic languages",
+    "mundari_variety_key": "peirosaustroasiatic-Mundari"
+  },
+  "version_chain_evidence": {
+    "relationship_evidence_level": "independent_dataset_registry_plus_live_publisher_site",
+    "v1_0": {
+      "version": "v1.0",
+      "zenodo_doi": "10.5281/zenodo.5127536",
+      "github_tag": "v1.0",
+      "registry_reports_versions": ["v1.1", "v1.0"]
+    },
+    "v1_1": {
+      "version": "v1.1",
+      "zenodo_doi": "10.5281/zenodo.13168443",
+      "github_tag": "v1.1",
+      "registry_reports_versions": ["v1.1", "v1.0"]
+    },
+    "current_live_lexibank": {
+      "version": "v1.1",
+      "zenodo_doi": "10.5281/zenodo.13168443",
+      "database_license": "CC BY 4.0"
+    },
+    "relationship_state": "same_dataset_version_series_independently_corroborated"
+  },
+  "blocked_access": {
+    "endpoint": "https://zenodo.org/records/13168443",
+    "state": "transient_timeout_or_rate_limit_during_run171",
+    "effect": "The current v1.1 Zenodo record manifestation and file checksum were not independently retrieved in this cycle; no bytes or checksum are asserted."
+  },
+  "deterministic_reconciliation": {
+    "version_relationship_verified": true,
+    "direct_current_zenodo_manifestation_verified": false,
+    "candidate_identity_collision_previously_checked": true,
+    "decision": "defer_permanent_registration_until_direct_v1_1_manifestation_metadata_is_retrieved",
+    "reason": "Independent CLDF Meta version records and the live Lexibank contribution establish that v1.0 / DOI 10.5281/zenodo.5127536 and v1.1 / DOI 10.5281/zenodo.13168443 are versions of the same peirosaustroasiatic dataset. Direct retrieval of the current Zenodo v1.1 manifestation was transiently unavailable, so permanent registration remains deferred rather than inventing file-level verification."
+  },
+  "promotion": {
+    "new_permanent_identity_created": false,
+    "counts_changed": false,
+    "dataset_rows_ingested": false,
+    "lexical_forms_ingested": false,
+    "cognate_assignments_ingested": false,
+    "cultural_claims_added": 0,
+    "numeric_cultural_claims_added": 0
+  },
+  "rights_and_cultural_access": {
+    "lexibank_database_license_observed": "CC BY 4.0",
+    "underlying_source_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "policy": "Database licensing is recorded only for the database manifestation. It does not establish rights in all underlying historical sources, participant consent, community validation, or culturally unrestricted secondary use. Cultural access overrides technical or legal entitlement."
+  },
+  "counting_boundary": "Run 171 resolves the dataset-version relationship at independent-registry level but makes no MMSC, evidence-graph, module, or publication count change. Permanent identity creation remains blocked until the live v1.1 Zenodo manifestation can be directly verified.",
+  "completeness_boundary": "No absolute or future-proof source completeness is claimed."
+}

@@ -1,0 +1,35 @@
+{
+  "audit_id": "MLHKP-MMSC-RUN178-KUMARI-RAHMAN-STALE-BLOCKER",
+  "run": 178,
+  "checked_utc": "2026-09-10T19:36:00Z",
+  "branch": "mlhkp-v2",
+  "target": {
+    "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+    "doi": "10.35784/pe.2021.1.19"
+  },
+  "repository_reconciliation": {
+    "run172_audit": "data/source_census/kumari_rahman_2021_existing_identity_reconciliation_run172_2026-09-10.json",
+    "run177_exact_locator": "data/source_census/kumari_rahman_2021_livelihood_exact_locator_run177_2026-09-11.json",
+    "existing_source_id": "SRC-MMSC-000003",
+    "deterministic_key": "doi:10.35784/pe.2021.1.19",
+    "decision": "already_registered_permanent_identity",
+    "run177_pending_registration_blocker": "stale_and_closed",
+    "new_identity_created": false,
+    "counts_changed": false
+  },
+  "evidence_boundary": {
+    "new_claim_added": false,
+    "new_evidence_record_added": false,
+    "new_evidence_link_added": false,
+    "full_text_passage_ingested": false,
+    "participant_material_ingested": false
+  },
+  "rights_governance": {
+    "public_availability_is_not_permission": true,
+    "article_reuse_terms_do_not_establish_participant_consent": true,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "release_effect": "Removes a stale administrative blocker only. MMSC and evidence counts remain unchanged; Run 177 strengthens locator/rights metadata for the already-registered identity but does not create another source or cultural claim."
+}

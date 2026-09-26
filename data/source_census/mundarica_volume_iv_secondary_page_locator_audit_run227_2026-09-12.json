@@ -1,0 +1,67 @@
+{
+  "run": 227,
+  "date": "2026-09-12",
+  "branch": "mlhkp-v2",
+  "source_class": "peer-reviewed article / secondary bibliographic locator",
+  "series": "Encyclopaedia Mundarica",
+  "target_volume": "IV",
+  "article": {
+    "author": "Samar Bosu Mullick",
+    "title": "Gender Relations and Witches among the Indigenous Communities of Jharkhand, India",
+    "journal": "Gender, Technology and Development",
+    "volume": 4,
+    "issue": 3,
+    "article_pages": "333-358",
+    "first_published": "2000-11",
+    "doi": "10.1177/097185240000400301",
+    "publisher_url": "https://journals.sagepub.com/doi/10.1177/097185240000400301",
+    "access_state_observed": "publisher page marks article Restricted access; reference list is exposed in the inspected page"
+  },
+  "directly_observed_reference_entry": {
+    "as_displayed_authors": "Hoffman, J.B. and Emelen, Arther van",
+    "as_displayed_year": 1950,
+    "as_displayed_work": "Encyclopaedia Mundarica",
+    "as_displayed_publisher": "Government Printing Press, Patna",
+    "volume_iv_locator": {
+      "volume_label": "Vol. IV-D",
+      "entry_term": "deonra",
+      "printed_page_range": "1022-1039"
+    },
+    "other_volume_locators_present_in_same_reference": true
+  },
+  "reconciliation": {
+    "known_bad_volume_iv_archive_alias": "in.ernet.dli.2015.14921",
+    "known_bad_alias_resolves_to": "Volume III",
+    "volume_iv_exact_digital_manifestation_verified_this_run": false,
+    "secondary_page_locator_corrobates_volume_iv_existence_and_internal_pagination": true,
+    "rule": "Use the peer-reviewed reference only as a secondary page/entry locator. Do not map the known Volume-III archive identifier to Volume IV, and do not infer an exact Volume-IV digital manifestation from a citation."
+  },
+  "promotion": {
+    "secondary_bibliographic_page_locator_verified": true,
+    "exact_volume_iv_digital_manifestation_verified": false,
+    "authoritative_registered_scan": false,
+    "byte_integrity_verified": false,
+    "scan_sequence_verified": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "verified_complete_volume": false,
+    "public_cultural_claim_promoted": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "rights_governance": {
+    "article_restricted_access_observed": true,
+    "publisher_reference_visibility_treated_as_reuse_permission": false,
+    "secondary_citation_treated_as_permission_for_mundarica_text": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "deduplication": {
+    "count_increment_permitted": false,
+    "reason": "This record strengthens a locator for an already tracked source family and does not establish a new audited source identity."
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "mundarica_priority_effect": "Volume IV now has peer-reviewed secondary corroboration for the internal locator Vol. IV-D, deonra, pp. 1022-1039, while exact digital manifestation, authoritative copy, byte/hash, scan sequence, OCR and completeness remain open.",
+    "release_gate": "NOT_PASS"
+  }
+}

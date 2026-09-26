@@ -1,0 +1,48 @@
+{
+  "run": 378,
+  "date_utc": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "new_locator": "data/source_census/bangladesh_multiling_munda_exact_locator_run378_2026-09-15.json",
+  "search_log": "audits/mmsc_search_run378_2026-09-15.json",
+  "test": "tests/test_run378_multiling_boundary.py",
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 94,
+    "unique_web_discovery_leads": 91,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 77,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "delta": {
+    "raw_web_discovery_records": 1,
+    "unique_web_discovery_leads": 1,
+    "unresolved_unique_web_leads": 1,
+    "claims": 0,
+    "evidence_records": 0,
+    "provenance_links": 0,
+    "streamlit_modules": 0
+  },
+  "streamlit": {
+    "universal_search_change_required": false,
+    "module_count_change_required": false,
+    "reason": "New item remains unresolved discovery metadata and does not create a promoted evidence module."
+  },
+  "evidence_graph": {
+    "change_required": false,
+    "reason": "No controlled claim/evidence/link promoted."
+  },
+  "completeness_gap_matrix": {
+    "change": "Add Bangladesh Multiling Munda record-level rights/consent/cultural-access/materialization gap",
+    "release_gate_effect": "NOT_PASS"
+  },
+  "publication": {
+    "metrics_tables_figures_numeric_change_required": true,
+    "scope": "discovery/census metrics only where those metrics are rendered; controlled evidence counts remain unchanged",
+    "do_not_inflate_evidence_metrics": true
+  },
+  "release_gate": "NOT_PASS"
+}

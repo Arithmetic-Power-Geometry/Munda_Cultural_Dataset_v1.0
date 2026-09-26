@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "MLHKP-RUN161-EZCC-AV-EXACT-LOCATOR",
+  "run": 161,
+  "checked_utc": "2026-09-10T10:40:00Z",
+  "canonical_source_id": "SRC-MMSC-000015",
+  "reconciled_web_source_id": "WEB-MUN-0047",
+  "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+  "source_class": "licensed_audiovisual_repository_item",
+  "creator_attribution": "Eastern Zonal Cultural Centre",
+  "canonical_repository_url": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+  "origin_platform": "YouTube",
+  "origin_video_id": "jcaVTX0BCtQ",
+  "publication_date": "2022-09-27",
+  "manifestation": {
+    "container": "WebM",
+    "video_codec": "VP9",
+    "audio_codec": "Opus",
+    "duration_seconds_repository_structured_data": 2370.695,
+    "display_duration": "39 min 31 s",
+    "dimensions_pixels": "720 x 480",
+    "repository_structured_data_size_bytes": 531678981,
+    "repository_display_size": "507.05 MB",
+    "locally_downloaded": false,
+    "independent_file_hash_computed": false
+  },
+  "exact_repository_locators": [
+    {"timestamp":"00:04:28","repository_label":"Paika (Munda community)"},
+    {"timestamp":"00:06:00","repository_label":"Mundari"},
+    {"timestamp":"00:11:12","repository_label":"Mundari (Marriage)"}
+  ],
+  "license_verification": {
+    "file_level_license": "CC BY 3.0 Unported",
+    "attribution": "Eastern Zonal Cultural Centre",
+    "commons_review_date": "2023-01-20",
+    "review_statement": "Wikimedia Commons records that a reviewer confirmed the original YouTube item was available under the stated Creative Commons license on the review date.",
+    "scope": "file-level copyright permission only",
+    "does_not_establish": [
+      "participant or performer secondary-use consent",
+      "privacy/publicity clearance for identifiable people",
+      "community validation or endorsement",
+      "absence of culturally restricted or sensitive content",
+      "permission to convert depicted practices into universal cultural claims",
+      "ML training consent for depicted or recorded persons"
+    ]
+  },
+  "promotion_decision": {
+    "promoted": [
+      "repository identity",
+      "creator attribution",
+      "publication date",
+      "origin video identifier",
+      "file-level technical manifestation metadata",
+      "repository-provided exact timestamp labels",
+      "file-level CC BY 3.0 licensing and review provenance"
+    ],
+    "not_promoted": [
+      "interpretation of dance meaning, ritual function or community-wide practice",
+      "participant identities",
+      "spoken interview content",
+      "audio or video frames",
+      "biometric or person-derived data",
+      "culturally sensitive performance details beyond repository labels"
+    ],
+    "evidence_count_change": 0,
+    "source_identity_count_change": 0,
+    "reason": "This run deepens the exact-locator and rights provenance of an already canonicalized source; it does not create a new cultural claim or source identity."
+  },
+  "verification_sources": [
+    "Wikimedia Commons file description and structured data, checked 2026-09-10",
+    "Wikimedia Commons licensing section and reviewer statement, checked 2026-09-10"
+  ],
+  "audit_boundary": "Repository labels are evidence of how the repository/catalogue describes segments. They are not by themselves evidence that a depicted practice is universal, current, community-validated, unrestricted for all downstream uses, or appropriate for culturally unrestricted exposure."
+}

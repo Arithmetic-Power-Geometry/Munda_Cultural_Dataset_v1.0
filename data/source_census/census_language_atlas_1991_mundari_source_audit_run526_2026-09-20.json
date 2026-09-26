@@ -1,0 +1,91 @@
+{
+  "audit_id": "MLHKP-RUN526-CENSUS-LANGUAGE-ATLAS-1991-MUNDARI",
+  "run": 526,
+  "audit_date": "2026-09-20",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and exact-locator preparation",
+  "canonical_source": {
+    "title": "Language Atlas of India 1991",
+    "issuing_body": "Office of the Registrar General and Census Commissioner, India",
+    "technical_direction": "R. P. Singh",
+    "general_direction": "Jayant Kumar Banthia",
+    "publisher": "Controller of Publications",
+    "publication_year": 2004,
+    "series": "Census of India, 1991",
+    "extent": "xii, 247 pages; colour maps; 43 cm",
+    "source_class": ["government", "census", "language atlas", "map", "statistical publication"]
+  },
+  "verified_manifestations": [
+    {
+      "provider": "People's Archive of Rural India (PARI)",
+      "url": "https://ruralindiaonline.org/en/library/resource/language-atlas-of-india-1991/",
+      "role": "accessible descriptive record and PDF manifestation",
+      "copyright_statement": "Government of India",
+      "notes": "Provider describes 68 maps with analytical notes and identifies Office of Registrar General and Census Commissioner as author. Direct PDF retrieval was blocked during this run; no local binary/hash is claimed."
+    },
+    {
+      "provider": "CiNii Books",
+      "url": "https://ci.nii.ac.jp/ncid/BA70754440",
+      "role": "independent bibliographic metadata",
+      "identifier": "NCID BA70754440"
+    },
+    {
+      "provider": "National Diet Library Search",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000007623754",
+      "role": "independent bibliographic metadata",
+      "identifier": "NDL bibliographic ID 000007623754"
+    },
+    {
+      "provider": "Census of India",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/42614/download/46282/Census%2520of%2520India%25202011-Indian%2520Census%2520in%2520Brief.pdf",
+      "role": "official Census publication showing Language Atlas of India 1991 among cartographic publications"
+    }
+  ],
+  "mundari_locator_ready_statements": [
+    {
+      "locator": "Language Atlas of India 1991, Non-Scheduled Languages section, Mundari analytical note",
+      "statement_type": "official census statistical statement",
+      "provider_extracted_text_verified": true,
+      "content_summary": "The Atlas reports 861,378 Mundari speakers in the 1991 Census, 0.10 percent of the population excluding Jammu & Kashmir, with principal concentrations in Bihar and Orissa and district-level distributions.",
+      "promotion_state": "locator-ready; not promoted to controlled evidence in this run",
+      "reason_not_promoted": "Exact printed page/map number and immutable lawful binary SHA-256 were not established in this run."
+    },
+    {
+      "locator": "Language Atlas of India 1991, Non-Scheduled Languages section, Munda analytical note",
+      "statement_type": "official census statistical statement",
+      "provider_extracted_text_verified": true,
+      "content_summary": "The Atlas separately reports Munda as an Austric language and discusses its speaker distribution; this must not be silently merged with the Mundari census category.",
+      "promotion_state": "locator-ready; not promoted to controlled evidence in this run",
+      "reason_not_promoted": "Category semantics and exact printed locator require direct manifestation review before evidence promotion."
+    }
+  ],
+  "canonicalization": {
+    "rule": "PARI PDF/page, library catalogue records, Census references and search snippets are manifestations or metadata records for one underlying 2004 Census publication, not independent corroborating sources.",
+    "dependency_rule": "Later works quoting the 1991 Atlas remain dependent on the Census source for those statistics."
+  },
+  "rights_access_governance": {
+    "copyright_owner_reported": "Government of India",
+    "open_redistribution_license_verified": false,
+    "public_access_equals_redistribution_permission": false,
+    "cultural_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binary_assets_promoted": 0,
+    "cultural_uncertainty_note": "Census language labels and enumerated categories are administrative/statistical categories; they are not treated as community validation of linguistic identity or equivalence."
+  },
+  "blocked_and_continued": [
+    {
+      "blocked_item": "Direct PARI PDF retrieval",
+      "result": "HTTP 403 during direct open attempt",
+      "action": "Logged block; continued verification using PARI descriptive record, CiNii, NDL and official Census material."
+    }
+  ],
+  "next_ingestion_gate": [
+    "obtain a lawful immutable manifestation",
+    "calculate local SHA-256",
+    "establish exact printed page/map locator for Mundari and Munda analytical notes",
+    "verify transcription against page image",
+    "preserve Munda and Mundari census categories separately unless a source-specific transformation is explicitly justified",
+    "promote only exact-locator statistical evidence after these checks"
+  ],
+  "counts_policy": "No controlled MMSC/evidence/module count change until deterministic WEB-MUN reconciliation and exact-locator promotion are completed."
+}

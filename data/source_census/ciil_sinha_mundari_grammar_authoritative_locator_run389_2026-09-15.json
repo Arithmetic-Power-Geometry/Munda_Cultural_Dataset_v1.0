@@ -1,0 +1,33 @@
+{
+  "run": 389,
+  "stream": "non-Mundarica source census",
+  "class": ["book", "grammar", "government/institutional repository"],
+  "scope": "Mundari",
+  "title": "Mundari Grammar",
+  "author": "N. K. Sinha",
+  "year": 1975,
+  "provider": "Bhasha Sanchika — Central Institute of Indian Languages (CIIL)",
+  "persistent_identifier": "https://hdl.handle.net/20.500.14705/8179",
+  "provider_record": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+  "provider_file_label": "CIILP0091.pdf",
+  "languages": ["English", "Mundari"],
+  "identity_verification": {
+    "authoritative_institutional_record": true,
+    "crosscheck": "WALS reference Sinha 1975 independently identifies Mundari Grammar, CIIL Grammar Series 2, Mysore, 1975.",
+    "bharatavani_crosscheck": "Bharatavani identifies the same 1975 N. K. Sinha Mundari Grammar, content partner and publisher CIIL, and reports a 117.39 MB PDF behind login."
+  },
+  "promotion_level": "authoritative bibliographic and manifestation locator only",
+  "exact_locator_evidence_promoted": false,
+  "public_cultural_claims_promoted": false,
+  "rights_access_state": "Item-level reuse/redistribution permission not established from the surfaced CIIL metadata. Bharatavani reading is login-gated. Do not infer reuse permission from repository discoverability.",
+  "open_gaps": [
+    "obtain permitted full PDF manifestation",
+    "verify actual bytes and SHA-256",
+    "reconcile apparent CIIL provider file-size metadata with Bharatavani 117.39 MB manifestation",
+    "establish stable internal pagination",
+    "extract only permitted exact-page/passsage evidence",
+    "record item-level rights/reuse terms"
+  ],
+  "deduplication": "Canonicalize CIIL Sanchika, Bharatavani and WALS records to the same underlying Sinha 1975 work unless manifestation-level accounting explicitly requires separate records.",
+  "audit_boundary": "bibliographic metadata != verified PDF bytes; repository availability != redistribution permission; secondary typological datapoints != direct evidence from the grammar"
+}

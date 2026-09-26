@@ -1,0 +1,63 @@
+{
+  "search_id": "MMSC-SEARCH-000354",
+  "run": 354,
+  "search_date": "2026-09-14",
+  "scope": "Fresh systematic refresh across all 14 controlled Master Munda Source Census classes. Search/discovery metadata cannot change controlled counts without deterministic numbered-register reconciliation.",
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses_dissertations","government_TRI_Census_LSI","archives","newspapers","web_resources","datasets_corpora","audio","video","maps","relevant_media"],
+  "run354_verified_or_reobserved": [
+    {
+      "class": "datasets_corpora/grammars",
+      "source": "PHOIBLE 2.0 Mundari language record",
+      "result": "First-party PHOIBLE record pins Mundari to glottocode mund1320 / ISO unr and exposes multiple source-derived inventories (SPA, UPSID, RA, EA) with differing segment counts. Treated as secondary source locator; no phonological value promoted."
+    },
+    {
+      "class": "books",
+      "source": "Encyclopaedia Mundarica XV-XVI 2009 reprint listings",
+      "result": "Reprint-level bibliographic locators added for XV and XVI; they do not resolve authoritative historical manifestations, primary bytes, page concordance, or OCR."
+    },
+    {
+      "class": "dictionaries",
+      "source": "Bhaduri, A Mundari-English dictionary",
+      "result": "Existing exact bibliographic locator retained; no lexical entry promoted without permitted full manifestation and page/entry verification."
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "source": "Census/TRI/LSI streams",
+      "result": "Existing exact catalogue/government locators retained; catalogue visibility remains distinct from workbook-cell, map-content, reuse-rights or community validation."
+    },
+    {
+      "class": "archives/audio/video",
+      "source": "Known Mundari archival and audiovisual discovery streams",
+      "result": "No new item promoted; rights, speaker/participant consent, community validation and cultural-access authorization remain mandatory before public evidence promotion."
+    },
+    {
+      "class": "web_resources/relevant_media/newspapers",
+      "source": "Known Mundari web/media discovery streams",
+      "result": "Scope controls retained; no search hit counted as an audited identity without authoritative reconciliation."
+    },
+    {
+      "class": "maps",
+      "source": "LSI/Munda-language map stream",
+      "result": "No new controlled map claim; primary manifestation and exact locator verification remain open."
+    }
+  ],
+  "homonym_and_scope_controls": {
+    "exclude_South_Sudan_Mandari_or_Mundari_homonyms": true,
+    "do_not_merge_Munda_unx_with_Mundari_unr_without_source_specific_justification": true,
+    "do_not_collapse_Bhumij_or_other_doculect_labels_into_Mundari_without_controlled_identity_decision": true,
+    "exclude_music_title_or_person_name_false_positives": true,
+    "do_not_promote_search_hit_to_audited_identity": true
+  },
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change": false,
+  "reason_no_count_change": "Run 354 strengthens source boundaries and reprint locators but does not complete deterministic WEB-MUN numbered-register reconciliation.",
+  "content_promotion_this_run": "Zero lexical, cultural, phonological, grammatical, demographic or audiovisual factual claims promoted.",
+  "next_action": "Prioritize deterministic WEB-MUN dispositions, permitted primary manifestation acquisition/hash/page accounting, and source-level resolution for PHOIBLE/WALS candidates."
+}

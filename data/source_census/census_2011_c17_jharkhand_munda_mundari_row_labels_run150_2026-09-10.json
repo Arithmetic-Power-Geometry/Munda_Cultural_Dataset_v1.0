@@ -1,0 +1,45 @@
+{
+  "audit_id": "MLHKP-CENSUS-C17-JH-2011-RUN150-ROW-LABELS",
+  "date_utc": "2026-09-10",
+  "workstream": "Master Munda Source Census / Census provenance",
+  "canonicalization": {
+    "treatment": "schema-metadata refinement of the existing Census of India 2011 C-17 Jharkhand manifestation; no new audited source identity",
+    "duplicate_identity_created": false
+  },
+  "authoritative_catalogue": {
+    "publisher": "Office of the Registrar General & Census Commissioner, India",
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "reference_id": "PC11_C17-20",
+    "reference_number": "PC11_C17",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "listed_download_filename": "DDW-C17-2000.XLSX",
+    "geographic_granularity": "state"
+  },
+  "catalogue_schema_metadata_verified": {
+    "table_rows": [
+      {
+        "label": "Language - Total speakers - MUNDA",
+        "variable_name": "HS_Q10"
+      },
+      {
+        "label": "Language - Total speakers - MUNDARI",
+        "variable_name": "HS_Q10"
+      }
+    ],
+    "meaning": "The authoritative catalogue metadata explicitly represents both MUNDA and MUNDARI as language total-speaker row labels for the Jharkhand C-17 table."
+  },
+  "verification_boundary": {
+    "verification_level": "official_catalogue_schema_metadata_only",
+    "workbook_bytes_obtained": false,
+    "independent_sha256_verified": false,
+    "worksheet_name_verified": false,
+    "physical_workbook_row_numbers_verified": false,
+    "numeric_cell_coordinates_verified": false,
+    "numeric_values_promoted": false,
+    "cultural_claims_promoted": false,
+    "rights_or_reuse_permission_inferred": false,
+    "community_validation_inferred": false
+  },
+  "promotion_decision": "Promote only the official catalogue row-label metadata and manifestation linkage. Do not promote numeric Census values until authoritative workbook bytes, checksum, worksheet and exact cell coordinates are independently verified.",
+  "source_complete_claim": false
+}

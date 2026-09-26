@@ -1,0 +1,74 @@
+{
+  "run": 514,
+  "audit_date": "2026-09-20",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "authors": ["Jacob B. Phillips", "K. David Harrison"],
+    "year": 2017,
+    "title": "Munda mimetic reduplication",
+    "container": "Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13",
+    "publication_online": "2017-03-06",
+    "source_class": "peer-reviewed article",
+    "scope": ["Munda comparative linguistics", "Mundari", "Kera Mundari", "mimetic reduplication", "sound symbolism"],
+    "mundari_relevance": "direct: article states that its empirical typology includes both Kera Mundari and Mundari among seven Munda languages"
+  },
+  "metadata_verification": [
+    {
+      "authority": "Cambridge Core",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58",
+      "verified": ["authors", "title", "journal", "online publication date", "scope including Kera Mundari and Mundari"]
+    },
+    {
+      "authority": "Swarthmore College Works",
+      "url": "https://works.swarthmore.edu/fac-linguistics/223/",
+      "verified": ["authors", "title", "year", "journal", "volume", "issue", "pages 221-242", "DOI"]
+    }
+  ],
+  "canonicalization": {
+    "identity_key": "doi:10.1017/cnj.2017.13",
+    "manifestation_rule": "Cambridge abstract/shared-read-only pages, Swarthmore metadata record, library links, and third-party mirrors are manifestations or descriptions of one article and must not be counted as independent sources.",
+    "variety_rule": "Kera Mundari and Mundari observations must retain the article's own variety labels; do not silently merge them into an undifferentiated Mundari claim.",
+    "independence_rule": "A passage or lexical item is independent corroboration only after its own provenance/citation is inspected. Material attributed to earlier grammars, dictionaries, consultants, field records, or cited publications inherits that dependency."
+  },
+  "access_rights": {
+    "cambridge_access_observed": "shared/read-only representation is discoverable; Cambridge describes it as read-only and directs users to access options/content-sharing policy",
+    "swarthmore_access_observed": "institutional metadata record exposes a Full Text/library navigation link but the census did not establish a redistribution licence for article text",
+    "redistribution_permission_established": false,
+    "participant_or_consultant_reuse_permission_established": false,
+    "cultural_access_permission_established": false
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Metadata and topical relevance are verified, but this run did not establish a permitted immutable full-text artifact, local SHA-256, exact page/passage locator, passage-level upstream provenance, or any necessary participant/cultural reuse basis.",
+    "required_before_promotion": [
+      "obtain a lawful immutable article manifestation where permitted",
+      "compute local SHA-256",
+      "establish printed-page to file-page concordance",
+      "inspect candidate Mundari/Kera Mundari passages and examples at exact locators",
+      "classify each candidate as author-primary, cited-source-derived, mixed, or unresolved",
+      "record applicable reuse basis and preserve participant/consultant/cultural uncertainty"
+    ]
+  },
+  "blocked_or_unresolved": [
+    "No unrestricted redistribution licence for article text was established in this run.",
+    "Exact provenance of individual Mundari and Kera Mundari examples was not audited from full text.",
+    "Any participant/consultant consent and culturally sensitive reuse constraints remain unresolved until source methods/acknowledgements and underlying data provenance are inspected."
+  ],
+  "audit_invariants": [
+    "peer-reviewed publication != permission to redistribute source text or underlying elicited material",
+    "shared/read-only access != open licence",
+    "comparative article mentioning Mundari != every proposition is Mundari-specific evidence",
+    "Kera Mundari != automatically interchangeable with other Mundari varieties",
+    "article manifestation != independent corroborating source",
+    "bibliographic verification != exact-locator evidence"
+  ],
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "note": "Do not change controlled MMSC/evidence/module counts until deterministic ledger reconciliation. This audit adds a verified source identity/lead only and promotes no claim or evidence record."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "run": 630,
+  "audit_date": "2026-09-24",
+  "scope": "non-Mundarica source census; Munda-specific ethnobotany/foodways",
+  "canonical_work": {
+    "title": "Traditional leafy vegetables of a tribal community in Jharkhand, India",
+    "authors": ["M. Ravishankar", "D. P. Kaur", "K. B. Bhushan", "W. J. Easdown"],
+    "publication": "Acta Horticulturae 1102 (2015)",
+    "doi": "10.17660/ActaHortic.2015.1102.4",
+    "conference_precursor": "XXIX International Horticultural Congress / IHC 2014, Brisbane",
+    "study_period": "2009-2012",
+    "study_area": "Ranchi and Khunti districts, Jharkhand, India"
+  },
+  "authoritative_or_provider_manifestations": [
+    {
+      "provider": "Jharkhand Biodiversity Board",
+      "url": "https://jbb.jharkhand.gov.in/wp-content/uploads/2025/01/244.-Traditional-Leafy-Vegetables-of-a-Tribal-Community-in-Jharkhand-India.pdf",
+      "state": "publicly discoverable provider-hosted PDF; redistribution permission not inferred"
+    },
+    {
+      "provider": "Acta Horticulturae",
+      "doi": "10.17660/ActaHortic.2015.1102.4",
+      "state": "canonical published identity"
+    }
+  ],
+  "deduplication": {
+    "repository_exact_title_search_before_insert": "no surfaced match",
+    "conference_2014_and_Acta_Horticulturae_2015": "same underlying work/publication lineage; do not count as independent corroboration without version-level dependency analysis",
+    "ResearchGate_and_index_records": "secondary manifestations; not independent evidence"
+  },
+  "verified_exact_locator_families": [
+    {
+      "locator": "MATERIALS AND METHODS",
+      "support": "Study conducted 2009-2012 in Ranchi and Khunti; four tribal hamlets in each district initially visited; interviews in eight villages with 40 people, followed by eight more villages for authentication; specimens collected with informants from gardens, cultivated land, forests and markets."
+    },
+    {
+      "locator": "RESULTS AND DISCUSSION; Table 1",
+      "support": "Authors report 41 leafy indigenous vegetables used by the Munda tribe in Khunti and Ranchi districts; Table 1 supplies scientific name, Mundari name, habit, habitat, parts consumed, availability and sale fields."
+    },
+    {
+      "locator": "Figure 1",
+      "support": "Study-area map for traditional leafy vegetables used by the Munda tribe in Ranchi and Khunti districts."
+    }
+  ],
+  "evidence_promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "reason": "Exact section/table locators are verified, but proposition-level promotion remains gated by printed-page/PDF concordance, rights/reuse determination, participant-consent interpretation, taxonomic/name normalization, dependency separation and deterministic MMSC reconciliation."
+  },
+  "governance": {
+    "public_access_not_redistribution_permission": true,
+    "locality_and_period_must_remain_attached": true,
+    "participant_cooperation_not_equated_with_modern_reuse_consent": true,
+    "Mundari_names_require_source-faithful_transcription_and_language_review": true,
+    "no_generalization_beyond_studied_Munda_settings": true
+  },
+  "next_conversion": [
+    "establish stable PDF hash only if storage is permitted",
+    "map printed pages to PDF pages",
+    "atomize Table 1 rows with exact page/table/row locators",
+    "normalize botanical identities without overwriting source labels",
+    "separate direct field observations/interviews from literature-derived assertions",
+    "retain 2009-2012 and Ranchi/Khunti scope on every promoted proposition",
+    "reconcile against WEB-MUN ledger before changing controlled counts"
+  ]
+}

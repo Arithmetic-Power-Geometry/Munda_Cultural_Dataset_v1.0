@@ -1,0 +1,53 @@
+{
+  "run": 314,
+  "date": "2026-09-13",
+  "branch": "mlhkp-v2",
+  "source_class": ["book", "grammar", "government_repository"],
+  "canonical_work": {
+    "author": "N. K. Sinha",
+    "title": "Mundari Grammar",
+    "year": 1975,
+    "languages": ["English", "Mundari"]
+  },
+  "repository_manifestation": {
+    "repository": "Bhasha Sanchika — Central Institute of Indian Languages",
+    "handle": "20.500.14705/8179",
+    "item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "file_name": "CIILP0091.pdf",
+    "repository_reported_file_size": "9.63 KB",
+    "date_accessioned": "2022-03-04T07:14:17Z",
+    "repository_footer_rights_notice": "© 2026 Bhasha Sanchika. All Rights Reserved"
+  },
+  "verified_from_first_party_page": [
+    "author",
+    "title",
+    "publication year",
+    "English/Mundari language scope",
+    "persistent handle",
+    "repository file name",
+    "repository-reported file size",
+    "repository description of pedagogical grammar scope",
+    "repository rights notice"
+  ],
+  "quality_boundary": {
+    "full_book_bytes_independently_acquired": false,
+    "independent_hash_computed": false,
+    "page_inventory_verified": false,
+    "repository_object_verified_as_complete_book": false,
+    "ocr_verified": false,
+    "internal_examples_promoted": false,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_evidence_records_added": 0,
+    "reason": "The first-party page exposes an exact file object but reports only 9.63 KB. Without independently acquired bytes and page inventory, this manifestation must not be treated as a verified complete copy of the 1975 grammar."
+  },
+  "rights_governance_boundary": {
+    "public_repository_access_treated_as_reuse_permission": false,
+    "copyright_notice_treated_as_participant_consent": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false
+  },
+  "disposition": "exact_manifestation_locator_verified_content_ingestion_blocked_pending_bytes_hash_page_inventory_and_rights",
+  "count_effect": "count_neutral_pending_numbered_WEB_MUN_reconciliation",
+  "evidence_source": "First-party CIIL/Bhasha Sanchika item page inspected 2026-09-13"
+}

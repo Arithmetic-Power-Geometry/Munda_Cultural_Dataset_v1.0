@@ -1,0 +1,64 @@
+{
+  "run": 74,
+  "date": "2026-09-08",
+  "branch": "mlhkp-v2",
+  "purpose": "Strengthen official TRI dictionary identity evidence and retry official LSI Jharkhand exact-document retrieval without promoting unsupported cultural or numeric claims.",
+  "verified": [
+    {
+      "class": "government_TRI_dictionary_catalogue",
+      "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand",
+      "title": "Mundari - Hindi Sabdhkosh",
+      "author_displayed": "Mrs. S. Prasad",
+      "catalogue_serial": 1,
+      "category": "Tribal Language and Literature",
+      "year": "NA",
+      "price_displayed_inr": "6.00",
+      "download": "NA",
+      "official_endpoints": [
+        "https://www.trijharkhand.in/en/publications",
+        "https://www.trijharkhand.in/en/publications-old"
+      ],
+      "verification_state": "The current and legacy official TRI publication catalogues independently agree on title, attributed author and catalogue ordering. No edition, ISBN, page count, publication year or downloadable full text is supplied by these catalogue surfaces.",
+      "promotion_state": "metadata_only_pending_deterministic_work_edition_deduplication_and_rights_review"
+    },
+    {
+      "class": "government_TRI_dictionary_catalogue",
+      "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand",
+      "title": "Hindi - Mundari Sabdhkosh",
+      "author_displayed": "Mrs. S. Prasad",
+      "catalogue_serial": 2,
+      "category": "Tribal Language and Literature",
+      "year": "NA",
+      "price_displayed_inr": "10.00",
+      "download": "NA",
+      "official_endpoints": [
+        "https://www.trijharkhand.in/en/publications",
+        "https://www.trijharkhand.in/en/publications-old"
+      ],
+      "verification_state": "The current and legacy official TRI publication catalogues independently agree on title, attributed author and catalogue ordering. No edition, ISBN, page count, publication year or downloadable full text is supplied by these catalogue surfaces.",
+      "promotion_state": "metadata_only_pending_deterministic_work_edition_deduplication_and_rights_review"
+    },
+    {
+      "class": "government_Census_LSI_grammar",
+      "institution": "Office of the Registrar General & Census Commissioner, India",
+      "title": "Linguistic Survey of India: Jharkhand",
+      "catalogue_id_observed": "45248",
+      "download_path_observed": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "search_index_state": "The official Census-hosted indexed result exposes a Mundari section and document path, but direct document retrieval in this cycle returned HTTP 502.",
+      "retrieval_state": "blocked_transient_or_server_side",
+      "page_image_verified": false,
+      "numeric_claims_promoted": false,
+      "linguistic_claims_promoted": false,
+      "reason": "Search-index snippets are insufficient for exact page-level evidence; no page, checksum or screenshot was available in this cycle."
+    }
+  ],
+  "rights_governance": {
+    "public_catalogue_visibility_is_not_reuse_permission": true,
+    "cultural_access_overrides_legal_or_technical_entitlement": true,
+    "participant_or_community_validation_inferred": false,
+    "protected_dictionary_content_ingested": false,
+    "unsupported_cultural_claims_promoted": false
+  },
+  "counts_changed": false,
+  "notes": "This artifact strengthens provenance and blocker precision only. It does not create permanent source IDs or change audited evidence counts."
+}

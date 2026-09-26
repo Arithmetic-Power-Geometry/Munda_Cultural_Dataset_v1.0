@@ -1,0 +1,80 @@
+{
+  "audit_id": "MLHKP-RUN590-MUNTTS",
+  "run": 590,
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+    "year": 2024,
+    "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-7)",
+    "pages": "76-82",
+    "publisher": "Association for Computational Linguistics",
+    "source_class": ["peer-reviewed/workshop paper", "dataset", "audio", "software/model artifact"],
+    "scope_classification": "Mundari-specific; Jharkhand Mundari; Devanagari-script speech/text corpus"
+  },
+  "dataset_manifestation": {
+    "name": "Mundari TTS Dataset Corpus",
+    "provider": "Karya Inc.",
+    "repository": "https://github.com/karya-inc/dataset-mundari-tts",
+    "creators_reported": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+    "collaboration_reported": "FAIR Forward - Artificial Intelligence for all / GIZ",
+    "repository_sample": "100 female-speaker recordings plus 100 male-speaker recordings, each paired with transcript text",
+    "full_dataset_access": "provider-mediated; README directs requests to data@karya.in",
+    "full_dataset_sha1_file_reported": true
+  },
+  "deterministic_dedup": {
+    "repository_exact_search": "MunTTS",
+    "existing_match_found": false,
+    "canonicalization_rule": "ACL paper, Microsoft code repository, Karya dataset repository and associated provider manifestations are related artifacts of the same MunTTS research/data project, not independent corroborating cultural sources. Dataset samples are manifestations, not additional source identities."
+  },
+  "exact_locator_evidence_candidates": [
+    {
+      "locator": "ComputEL-7 proceedings printed p.76; PDF page 85; lines 5550-5566 in audited web extraction",
+      "supported_proposition": "The paper presents MunTTS as an end-to-end text-to-speech system for Mundari and states that it gathered Mundari text and speech data and evaluated the system with native speakers and objective metrics.",
+      "promotion_state": "exact-locator candidate; not yet inserted into controlled evidence ledger"
+    },
+    {
+      "locator": "ComputEL-7 proceedings printed p.76; PDF page 85; lines 5602-5617 in audited web extraction",
+      "supported_proposition": "The study states that it used Mundari spoken in Jharkhand and written in Devanagari, collected 15,656 unique sentences, and reports 26,868 audio recordings totaling 27.51 hours.",
+      "promotion_state": "exact-locator candidate; not yet inserted into controlled evidence ledger"
+    },
+    {
+      "locator": "Karya dataset README lines 190-213 in audited web extraction",
+      "supported_proposition": "The current Karya dataset repository reports 26,870 recordings from two speakers, 32-bit PCM at 44.1 kHz, paired transcripts, a 200-recording public sample, and a provider-side full-corpus SHA1 file.",
+      "promotion_state": "exact-locator candidate; count discrepancy with paper preserved, not reconciled away"
+    }
+  ],
+  "count_discrepancy": {
+    "paper_recordings": 26868,
+    "current_dataset_readme_recordings": 26870,
+    "difference": 2,
+    "resolution": "UNRESOLVED_VERSION_DIFFERENCE",
+    "rule": "Do not silently normalize either count; preserve manifestation/version context until the full corpus hash/version history is verified."
+  },
+  "rights_access_consent": {
+    "dataset_license_reported": "Karya Public License BY-NC-SA-FS 1.0",
+    "license_constraints": ["attribution", "noncommercial", "share-alike", "software incorporation requires GPL under the stated license summary"],
+    "privacy_publicity_notice": "Repository license summary explicitly warns that publicity, privacy, moral or other rights may still apply.",
+    "speaker_consent_verified_from_reviewed_material": false,
+    "cultural_access_verified": false,
+    "redistribution_decision": "Do not copy the full corpus into MLHKP. Metadata and exact scholarly locators may be registered; any audio/sample ingestion requires file-level license compliance plus speaker-consent/privacy/cultural-governance review."
+  },
+  "quality_and_scope_controls": {
+    "peer_reviewed_proceedings": true,
+    "institutional_or_creator_dataset_repository": true,
+    "cultural_claim_generalization_allowed": false,
+    "linguistic_scope_note": "Evidence concerns the described Jharkhand Mundari/Devanagari corpus and TTS study; it must not be generalized to all Mundari varieties, Munda communities, cultural practices or periods."
+  },
+  "controlled_promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Exact locators are now captured, but controlled-ledger reconciliation, stable source-ID assignment, dataset-version/hash verification, and consent/privacy/cultural-governance checks remain required before promotion."
+  },
+  "sources_checked": [
+    "ACL ComputEL-7 2024 proceedings",
+    "Karya Inc. dataset-mundari-tts repository"
+  ],
+  "audit_result": "VERIFIED_IDENTITY_SCOPE_AND_EXACT_LOCATOR_CANDIDATES_WITH_RIGHTS_AND_COUNT_DISCREPANCY_PRESERVED"
+}

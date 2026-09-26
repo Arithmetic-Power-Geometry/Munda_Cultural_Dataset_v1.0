@@ -1,0 +1,52 @@
+{
+  "record_type": "exact_locator_evidence_audit",
+  "run": 155,
+  "checked_utc": "2026-09-10T07:47:00Z",
+  "source": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+    "publisher": "Association for Computational Linguistics",
+    "venue": "ComputEL 2024",
+    "year": 2024,
+    "doi": "10.18653/v1/2024.computel-1.11",
+    "anthology_id": "2024.computel-1.11",
+    "canonical_url": "https://aclanthology.org/2024.computel-1.11/",
+    "pdf_url": "https://aclanthology.org/2024.computel-1.11.pdf",
+    "printed_pages": "76-82"
+  },
+  "verified_locators": [
+    {
+      "locator": "printed p. 76, Introduction, final paragraphs",
+      "supported_proposition": "The paper states that its study uses Mundari spoken in Jharkhand and written in Devanagari; it reports 15,656 unique sentences, 26,868 recordings, 27.51 hours, average recording duration 3.7 seconds and average sentence length 8.4 words.",
+      "promotion_class": "paper_attributed_dataset_scope_and_summary_metadata"
+    },
+    {
+      "locator": "printed p. 77, section 3 Data",
+      "supported_proposition": "The paper reports beginning from a Hindi corpus, randomly selecting 20,000 sentences for manual translation to Mundari, expressing translated sentences in Devanagari, validating appropriateness with native speakers, and selecting one male and one female recording speaker after screening a pool of 12 speakers.",
+      "promotion_class": "paper_attributed_collection_method_metadata"
+    },
+    {
+      "locator": "printed p. 78, continuation of section 3 and Table 1",
+      "supported_proposition": "The paper reports studio-quality recording through the Karya crowdsourcing application at 44.1 kHz/32 bits per sample, 15,656 unique curated sentences, 26,868 final sentence-recording pairs, approximately 74% female and 26% male recordings, and train/dev/test dataset metrics in Table 1.",
+      "promotion_class": "paper_attributed_recording_and_table_metadata"
+    },
+    {
+      "locator": "printed p. 79, section 5.2 Subjective Metrics",
+      "supported_proposition": "The paper reports a 100-point MOS evaluation subset, native-speaker human evaluation on Karya, five annotators per sample, and independent rating of seven variants for each text sample.",
+      "promotion_class": "paper_attributed_evaluation_method_metadata"
+    }
+  ],
+  "rights_access_consent_boundary": {
+    "paper_access": "publicly readable ACL Anthology PDF",
+    "paper_copyright_notice": "2024 Association for Computational Linguistics as displayed in the proceedings PDF",
+    "licence_inference": "No broader reuse licence is asserted by this audit beyond what is explicitly established by the source manifestation.",
+    "participant_data": "Do not treat the paper's methodology, public code/data pointers, or dataset licence as proof of informed consent for MLHKP redistribution or culturally unrestricted secondary use.",
+    "audio_transcripts_ingested": false,
+    "participant_identifiers_ingested": false,
+    "community_validation_claimed": false,
+    "cultural_claims_promoted": false
+  },
+  "audit_boundary": "This exact-locator record promotes only source-attributed methodological and aggregate dataset metadata. It does not promote utterance content, translations, speaker-level material, participant attributes, cultural assertions, or consent beyond what the paper reports.",
+  "dedupe_key": "doi:10.18653/v1/2024.computel-1.11",
+  "web_source_id": "WEB-MUN-0090"
+}

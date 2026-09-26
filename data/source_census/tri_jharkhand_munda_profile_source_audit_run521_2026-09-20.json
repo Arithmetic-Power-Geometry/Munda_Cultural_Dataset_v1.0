@@ -1,0 +1,74 @@
+{
+  "audit_id": "MLHKP-RUN-521-TRI-JHARKHAND-MUNDA",
+  "run": 521,
+  "audited_utc": "2026-09-20T03:45:37Z",
+  "branch": "mlhkp-v2",
+  "source_class": ["government", "tribal-research-institute", "web-resource", "secondary-cultural-profile"],
+  "canonical_identity": {
+    "provider": "Tribal Research Institute, Jharkhand",
+    "title": "Munda",
+    "canonical_url": "https://www.trijharkhand.in/en/munda",
+    "jurisdiction": "Jharkhand, India",
+    "identity_status": "verified-live-provider-page"
+  },
+  "scope": {
+    "direct_mundari_relevance": true,
+    "mundarica": false,
+    "description": "Government/TRI profile of the Munda community containing a Literature and Studies section with Mundari-related bibliographic assertions and references to Hoffmann, Encyclopaedia Mundarica, S. C. Roy, Ram Dayal Munda and Ratan Singh Manki. This audit is non-Mundarica census work; Mundarica references are dependency pointers only and are not promoted."
+  },
+  "exact_external_locators": [
+    {
+      "locator": "https://www.trijharkhand.in/en/munda#Literature-and-Studies",
+      "locator_type": "canonical-page-plus-visible-section-heading",
+      "verified_visible_heading": "Literature and Studies"
+    }
+  ],
+  "metadata_verified": {
+    "institution_name_visible": "Tribal Research Institute, Jharkhand",
+    "institutional_role_visible": "research body of the Ministry of Tribal affairs at the state level",
+    "page_subject_visible": "Munda",
+    "literature_section_visible": true,
+    "checked_via_live_web": true
+  },
+  "dependency_and_deduplication": {
+    "independent_source_identity": "one TRI Jharkhand provider page",
+    "do_not_count_as_independent_corroboration": [
+      "Hoffmann/Mundarica statements repeated by the TRI profile",
+      "S. C. Roy bibliographic statements repeated by the TRI profile",
+      "Adidharam bibliographic statements repeated by the TRI profile",
+      "mirrors, snippets, cached copies or page sections from this same provider page"
+    ],
+    "canonicalization_rule": "Provider page, its sections, snippets and mirrors remain one source identity unless an independently authored underlying document is established. Named works are upstream dependencies and require their own source audits."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "publicly_viewable": true,
+    "open_redistribution_license_verified": false,
+    "participant_or_community_consent_established": false,
+    "community_validation_established": false,
+    "cultural_access_clearance_established": false,
+    "binary_or_text_reproduction_permitted": false,
+    "policy": "Retain citation/external locator and metadata only. Do not reproduce substantial page text, media or culturally sensitive content absent permission and cultural review."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "media_promoted": 0,
+    "reason": "The live government/TRI page is useful for census and upstream-source discovery, but current inspection does not establish an open redistribution licence, community validation, participant consent, or independence from cited upstream works."
+  },
+  "gaps": [
+    "immutable lawful capture and locally computed SHA-256 not yet established",
+    "page publication/update date not verified",
+    "authorship/editorial responsibility below institution level not verified",
+    "item-level provenance for cultural statements not established",
+    "reuse terms for page text/images not verified",
+    "community validation, participant consent and cultural-access status not established",
+    "upstream bibliographic assertions require reconciliation against primary/canonical records"
+  ],
+  "release_invariants_added": [
+    "government-hosted profile != community validation",
+    "TRI secondary statement != independent corroboration of its cited upstream work",
+    "publicly viewable page != redistribution permission",
+    "named bibliography entry != exact-locator evidence for the underlying work"
+  ],
+  "release_effect": "Adds a canonical government/TRI source audit and exact external locator without changing controlled claim/evidence/module counts. Requires WEB-MUN ledger reconciliation before source-count changes."
+}

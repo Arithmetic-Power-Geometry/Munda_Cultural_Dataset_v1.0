@@ -1,0 +1,75 @@
+{
+  "run": 623,
+  "audit_date": "2026-09-24",
+  "stream": "MLHKP non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "authors": ["Suparna Ghosh-Jerath", "Ridhima Kapoor", "Satabdi Barman", "Geetanjali Singh", "Archna Singh", "Shauna Downs", "Jessica Fanzo"],
+    "title": "Traditional Food Environment and Factors Affecting Indigenous Food Consumption in Munda Tribal Community of Jharkhand, India",
+    "journal": "Frontiers in Nutrition",
+    "volume": "7",
+    "article": "600470",
+    "published": "2021-02-01",
+    "doi": "10.3389/fnut.2020.600470",
+    "pmid": "33598474",
+    "pmcid": "PMC7882711"
+  },
+  "identity_verification": {
+    "publisher_verified": true,
+    "pubmed_pmc_verified": true,
+    "publisher_full_text_open": true,
+    "repository_exact_title_precheck": "no match returned before insertion",
+    "canonicalization": "Frontiers HTML/PDF, PMC, PubMed, DOI and institutional/index records are manifestations/references to one canonical article, not independent corroboration"
+  },
+  "scope": {
+    "population": "Munda community participants",
+    "locality": "nine villages in Murhu and Torpa blocks, Khunti district, Jharkhand",
+    "data_collection_period": "June 2019 to January 2020",
+    "topic": "indigenous food environment, food use, nutritional attributes and factors affecting consumption",
+    "generalization_barrier": "nine-village Khunti evidence must not be generalized automatically to all Munda communities"
+  },
+  "exact_locator_queue": [
+    {
+      "locator": "publisher HTML, Study Design",
+      "supported_metadata_or_method": "cross-sectional mixed-method design; Murhu/Torpa Munda food environment; data collection June 2019-January 2020"
+    },
+    {
+      "locator": "publisher HTML, Study Procedures",
+      "supported_metadata_or_method": "qualitative/quantitative procedures, food categorization, pairwise ranking, nutrient-source criteria and thematic analysis"
+    },
+    {
+      "locator": "publisher HTML, Ethics Approval",
+      "supported_metadata_or_method": "institutional ethics approvals; district administrative approval; village-leader cluster consent; written or witnessed verbal participant consent; recording disclosed"
+    },
+    {
+      "locator": "publisher HTML, Study Limitations",
+      "supported_metadata_or_method": "seasonal/access limitations; incomplete taxonomic classification/nutrient documentation; anti-nutritional/toxicity assessment remains a stated research gap"
+    },
+    {
+      "locator": "publisher HTML, Abstract/Results",
+      "supported_metadata_or_method": "candidate quantitative and qualitative propositions require atomization and dependency tagging before controlled promotion"
+    }
+  ],
+  "rights_and_governance": {
+    "access": "open full text at Frontiers and PMC",
+    "license": "Creative Commons Attribution (CC BY) as stated in PMC copyright notice",
+    "redistribution_permission_verified": true,
+    "binary_ingested": false,
+    "participant_consent": "reported by article: written informed consent for literate respondents and third-party witnessed verbal consent for illiterate respondents; recording disclosed",
+    "cultural_sensitivity": "traditional ecological knowledge and food practices; retain participant/community provenance and avoid universalizing local knowledge",
+    "rule": "open license permits reuse subject to attribution, but cultural and evidentiary governance still constrain claim promotion"
+  },
+  "promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "reason": "source is rights-clear and exact-section-locator ready, but Runs381-623 deterministic reconciliation and proposition-level dependency/scope review are required before controlled graph/count changes"
+  },
+  "next_conversion_steps": [
+    "hash authoritative publisher/PMC PDF if repository policy calls for binary retention",
+    "establish PDF-page to publisher-section concordance",
+    "atomize only field-supported propositions with exact page/section/table locators",
+    "distinguish participant report, direct study measurement, laboratory analysis, author interpretation and secondary literature",
+    "retain nine-village Murhu/Torpa and 2019-2020 scope on every promoted field proposition",
+    "do not expose participant-level material beyond what the publication and governance rules permit"
+  ]
+}

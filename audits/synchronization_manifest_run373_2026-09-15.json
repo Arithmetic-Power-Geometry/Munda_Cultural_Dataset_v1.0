@@ -1,0 +1,52 @@
+{
+  "run": 373,
+  "synchronized_utc": "2026-09-15T00:28:00Z",
+  "branch": "mlhkp-v2",
+  "work_head_before_status_sync": "f1bc9149e5a4a9441c6421cfa4f71341634c6cd3",
+  "artifacts": {
+    "exact_locator_rights_audit": "audits/muntts_karya_exact_locator_rights_run373_2026-09-15.json",
+    "mmsc_search_log": "audits/mmsc_search_run373_2026-09-15.json",
+    "boundary_test": "tests/test_run373_muntts_karya_boundary.py"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_registered_modules": 42
+  },
+  "synchronization_decisions": {
+    "mmsc_counts_changed": false,
+    "streamlit_module_count_changed": false,
+    "streamlit_functional_change_required": false,
+    "evidence_graph_count_changed": false,
+    "completeness_gap_matrix_semantically_changed": true,
+    "publication_release_numeric_metrics_changed": false,
+    "publication_tables_figures_regeneration_required": false,
+    "status_progress_update_required": true
+  },
+  "gap_matrix_update": {
+    "closed_or_narrowed": [
+      "MunTTS peer-reviewed work now has exact ACL Anthology identifier, DOI and PDF locator",
+      "Karya Mundari TTS corpus now has exact repository manifest, copyright notice and full KPL BY-NC-SA-FS 1.0 rights locator"
+    ],
+    "still_open": [
+      "sample archive materialization and SHA-256",
+      "full corpus access/materialization and SHA-256 plus provider SHA1 recomputation",
+      "deterministic audio/transcript recount",
+      "speaker consent documentation",
+      "privacy/publicity/personality-rights clearance",
+      "community validation",
+      "cultural-access authorization"
+    ]
+  },
+  "publication_sync": "No controlled counts changed; manuscript numerical tables/figures must not be altered merely because provider metadata and rights boundaries improved.",
+  "streamlit_sync": "Universal search/module inventory remains numerically synchronized at 42 modules; no new content module is warranted until a controlled evidence object is promoted.",
+  "evidence_graph_sync": "No claim/evidence/provenance node count change; exact locator audit remains provenance/governance metadata rather than a new cultural or linguistic claim.",
+  "release_gate": "NOT_PASS"
+}

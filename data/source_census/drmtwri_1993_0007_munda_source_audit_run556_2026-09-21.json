@@ -1,0 +1,64 @@
+{
+  "audit_run": 556,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_id": "tribal-affairs:DRMTWRI/1993/0007",
+  "source_class": ["government_TRI", "book", "tribal_research_institute"],
+  "title": "Munda",
+  "researcher": "Soma Singh Munda",
+  "researcher_role": "Ex. Assistant Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+  "editor_author": "Ranendra Kumar, IAS Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+  "guide": "Chintu Doraiburu, Dy. Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+  "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+  "repository": "Ministry of Tribal Affairs repository",
+  "record_id": "DRMTWRI/1993/0007",
+  "completed_date": "1993-03",
+  "pagination": "1-44",
+  "sector": "Tribal Life",
+  "repository_file": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+  "repository_reported_size": "247.29 kB",
+  "provider_url": "https://repository.tribal.gov.in/handle/123456789/74865",
+  "scope_classification": "direct_Munda_specific_government_TRI_source",
+  "metadata_verification": "Provider-level metadata verified from Ministry of Tribal Affairs repository record on 2026-09-21.",
+  "deduplication_rule": "Treat repository handle record, DRMTWRI/1993/0007, DRMTWRI_1993_0007_MUNDAJATIRaman.pdf, catalogue exports, mirrors and derivatives of this same TRI work as one source identity unless a materially distinct edition is demonstrated.",
+  "discovery_status": "verified_source_identity_and_fulltext_lead",
+  "evidence_promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_ingested": 0,
+    "reason": "The provider exposes a PDF and exact 1-44 pagination, making this a high-priority exact-locator conversion target, but this run did not verify the PDF bytes, SHA-256, reuse licence, page concordance, proposition text, source dependencies, consent or cultural-access status. No cultural proposition is promoted from catalogue keywords/description alone."
+  },
+  "rights_access_consent": {
+    "public_repository_record": true,
+    "pdf_listed_view_open": true,
+    "redistribution_permission": "unverified_not_assumed",
+    "participant_consent": "unverified_or_not_applicable_pending_fulltext_methods_review",
+    "cultural_access": "unreviewed",
+    "sensitivity": "TRI representation of Munda language/culture requires proposition-level provenance and sensitivity review; institutional publication alone does not make all described knowledge unrestricted."
+  },
+  "exact_locator_conversion_targets": [
+    "Acquire the provider PDF through permitted access and record byte size plus SHA-256",
+    "Verify title/author/front matter and printed-page to PDF-page concordance",
+    "Extract only source-supported propositions with exact page locators",
+    "Separate author observation, attributed oral/community knowledge, quotations and secondary-source claims",
+    "Record cited upstream sources so derivative statements are not miscounted as independent corroboration",
+    "Audit any named informants, consent/ethics context and culturally restricted or sensitive material before promotion",
+    "Verify reuse/redistribution rights independently of public read access"
+  ],
+  "blocked_or_unresolved": [
+    "PDF bytes and SHA-256 not captured in this run",
+    "Reuse/redistribution licence not verified",
+    "Printed-page/PDF-page concordance not yet audited",
+    "No proposition-level exact-locator extraction yet",
+    "No source-dependency audit yet",
+    "Consent/ethics and cultural-access status unresolved"
+  ],
+  "release_policy": "Retain as a verified, high-priority conversion target until exact-locator, provenance and permission gates are satisfied; do not inflate controlled MMSC evidence counts.",
+  "sources_checked": [
+    {
+      "authority": "Ministry of Tribal Affairs repository",
+      "url": "https://repository.tribal.gov.in/handle/123456789/74865",
+      "checked": "2026-09-21"
+    }
+  ]
+}

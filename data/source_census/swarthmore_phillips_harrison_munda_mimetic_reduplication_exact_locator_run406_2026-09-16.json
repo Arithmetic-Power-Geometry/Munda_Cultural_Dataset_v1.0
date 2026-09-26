@@ -1,0 +1,52 @@
+{
+  "run": 406,
+  "stream": "non-Mundarica source census",
+  "audit_date": "2026-09-16",
+  "source_class": "peer-reviewed journal article / institutional repository locator",
+  "canonical_identity": {
+    "title": "Munda Mimetic Reduplication",
+    "authors": ["J. B. Phillips", "K. David Harrison"],
+    "year": 2017,
+    "journal": "Canadian Journal of Linguistics",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13"
+  },
+  "verified_locator": {
+    "provider": "Swarthmore College Works",
+    "institutional_record": "https://works.swarthmore.edu/fac-linguistics/223/",
+    "record_type": "institutional repository metadata record with full-text outbound locator"
+  },
+  "scope": {
+    "mundari_relevance": "direct",
+    "reported_languages_in_comparative_study": ["Ho", "Kera Mundari", "Kharia", "Mundari", "Remo (Bondo)", "Santali", "Sora"],
+    "topic": "mimetic reduplication / sound symbolism"
+  },
+  "deduplication": {
+    "repository_exact_title_search_before_ingestion": "no match returned",
+    "canonicalization_rule": "DOI, publisher page, institutional repository record and lawful full-text manifestations represent one article identity unless edition/version evidence establishes otherwise"
+  },
+  "rights_access_governance": {
+    "metadata_public": true,
+    "full_text_reuse_permission_verified": false,
+    "underlying_language_data_provenance_verified": false,
+    "participant_or_informant_consent_verified": false,
+    "cultural_access_status_verified": false,
+    "redistribution_permitted": false
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "passages_promoted": 0,
+    "reason": "Institutional metadata and exact bibliographic locator are verified, but immutable full-text bytes/SHA-256, exact page locators, reuse terms, and provenance/consent/cultural-access status for underlying Mundari/Kera Mundari examples have not yet been audited."
+  },
+  "next_actions": [
+    "resolve a lawful immutable full-text manifestation and its item-level reuse terms",
+    "compute SHA-256 and map PDF pages to printed pages 221-242",
+    "audit methods/acknowledgements/source notes for provenance of Mundari and Kera Mundari forms",
+    "promote only exact-locator propositions whose reuse and governance status is supported",
+    "reconcile this locator deterministically against WEB-MUN before changing controlled MMSC counts"
+  ],
+  "controlled_count_effect": "none pending deterministic WEB-MUN reconciliation",
+  "fabricated_claims": false
+}

@@ -1,0 +1,47 @@
+{
+  "audit_id": "MLHKP-RUN333-CIET-BARKHAA",
+  "date_utc": "2026-09-14",
+  "source": {
+    "provider": "Central Institute of Educational Technology (CIET), NCERT",
+    "title": "Barkhaa Audio",
+    "url": "https://ciet.ncert.gov.in/barkhaa_audio",
+    "provider_page_date_observed": "11/09/2026",
+    "provider_identity": "first_party_government_education_catalogue"
+  },
+  "verified_catalogue_observation": {
+    "level": 1,
+    "stories_listing_mundari": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "story_count_listing_mundari": 9,
+    "notes": "The provider catalogue explicitly includes the label Mundari for these nine Level-1 titles. Some titles additionally list Mundari-Mix. Tota does not list Mundari on the observed catalogue page. Levels 2-4 do not show Mundari in the observed provider catalogue."
+  },
+  "verification_boundary": {
+    "catalogue_presence_verified": true,
+    "individual_audio_bytes_acquired": false,
+    "independent_audio_hashes_verified": false,
+    "speaker_or_participant_identity_verified": false,
+    "participant_consent_verified": false,
+    "reuse_license_for_individual_audio_verified": false,
+    "community_validation_for_mlhkp_verified": false,
+    "cultural_access_authorization_verified": false,
+    "item_level_ingestion_authorized": false,
+    "cultural_claims_promoted": 0,
+    "public_availability_treated_as_permission": false
+  },
+  "mlhkp_policy": "Catalogue metadata may be retained as provenance/discovery evidence. No audio, transcript, cultural assertion, consent status, reuse right, or community validation may be inferred from catalogue availability. Cultural access overrides technical or legal entitlement.",
+  "next_actions": [
+    "resolve individual audio endpoints without bypassing provider controls",
+    "verify provider reuse terms at item level before any ingestion",
+    "if permitted, acquire bytes and compute independent hashes",
+    "separately establish participant/privacy/community/cultural-access status before promoting item-level material"
+  ]
+}

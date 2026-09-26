@@ -1,0 +1,64 @@
+{
+  "run": 552,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "source_type": "peer-reviewed journal article",
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "persistent_repository_uri": "http://hdl.handle.net/1885/54663",
+    "repository": "Australian National University Open Research",
+    "repository_access_statement": "Open Access"
+  },
+  "scope": {
+    "classification": "directly Mundari-specific linguistic study",
+    "topics": ["word classes", "noun-verb distinction", "conversion", "derivation", "lexical categories"],
+    "cultural_generalization_allowed": false
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1515/lity.2005.9.3.351",
+    "rule": "Treat DOI landing pages, ANU repository record/PDF, indexing records, citation exports and mirrors as manifestations of one intellectual work; do not count them as independent corroboration.",
+    "repository_precheck": "No matching repository code-search result for the title/DOI before this audit record was created."
+  },
+  "verified_metadata": {
+    "repository_record": "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "download_manifestation_named": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_file_size": "234.31 KB",
+    "abstract_support": "Repository abstract states that the article evaluates claims that Mundari lacks word classes using Hoffmann's corpus and substantial new data, including a large lexical sample, and argues for definable verb and noun classes plus a closed adjective class."
+  },
+  "rights_access_consent_cultural": {
+    "access": "Open Access at ANU repository",
+    "redistribution_license": "not established by the metadata audited in this run",
+    "copyright_status": "do not infer from open access alone",
+    "speaker_or_informant_consent": "not established from landing-page metadata; inspect full methods/data provenance before reuse of elicited material",
+    "cultural_access": "linguistic evidence; no blanket permission for culturally sensitive reuse inferred",
+    "uncertainty_preserved": true
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Exact proposition-level printed/PDF page locators, immutable PDF hash, full rights statement, methods/data-provenance inspection and dependency separation from Hoffmann must be completed before controlled promotion."
+  },
+  "conversion_queue": {
+    "priority": "high",
+    "next_steps": [
+      "capture permitted repository PDF manifestation and SHA-256 where repository policy permits",
+      "establish printed-page to PDF-page concordance",
+      "extract exact locators for Mundari word-class propositions",
+      "separate claims based on Hoffmann corpus from claims supported by authors' new data",
+      "audit full rights/license and speaker/data provenance",
+      "promote only proposition-level evidence surviving those gates"
+    ]
+  },
+  "release_accounting": {
+    "mmsc_counts_changed": false,
+    "streamlit_counts_changed": false,
+    "evidence_graph_changed": false,
+    "publication_metrics_changed": false,
+    "note": "Discovery/audit registration alone is not counted as controlled evidence. Deterministic reconciliation is required before downstream release metrics change."
+  }
+}

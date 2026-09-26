@@ -1,0 +1,46 @@
+{
+  "run": 393,
+  "audit_date": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "record_type": "exact-locator-only",
+  "canonical_work": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "source": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "institutional_handle": "http://hdl.handle.net/1885/54663"
+  },
+  "manifestation": {
+    "provider": "Australian National University Open Research Repository",
+    "access_statement": "Open Access",
+    "provider_file_label": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "provider_reported_size": "234.31 KB"
+  },
+  "scope": {
+    "class": "peer-reviewed article / institutional repository",
+    "mundari_relevance": "direct",
+    "provider_abstract_scope": "Mundari word classes, noun/verb/adjective classification, analysis of Hoffmann corpus and newer lexical data"
+  },
+  "canonicalization": {
+    "rule": "DOI, publisher manifestation, ANU repository record and deposited PDF are manifestations of one scholarly work; do not count them as separate source identities.",
+    "existing_repo_search": "No repository code-search hit for the exact Evans/Osada title before this locator was added. Deterministic WEB-MUN ledger reconciliation remains required before controlled count changes."
+  },
+  "promotion_boundary": {
+    "promoted_now": ["bibliographic identity", "DOI", "institutional repository locator", "provider-declared open-access status", "provider file label"],
+    "not_promoted": ["linguistic propositions", "quoted examples", "lexical data", "cultural claims"],
+    "required_before_passage_promotion": ["obtain permitted deposited bytes", "compute SHA-256", "verify licence/reuse terms in repository record and/or deposited file", "establish stable page locators", "trace provenance of examples/new lexical data where applicable", "preserve cultural/consent uncertainty where applicable"]
+  },
+  "rights_and_governance": {
+    "redistribution_permission": "unverified beyond provider Open Access statement",
+    "consent": "not established by bibliographic record",
+    "community_validation": "not established",
+    "cultural_access_authorization": "not established",
+    "policy": "Open Access does not by itself imply unrestricted redistribution or community authorization."
+  },
+  "controlled_counts": {
+    "changed": false,
+    "reason": "Locator must be reconciled against canonical WEB-MUN/MMSC ledgers before any census, evidence, graph, Streamlit or publication metric changes."
+  },
+  "release_gate_effect": "gap-reducing locator only; does not by itself change NOT_PASS state"
+}

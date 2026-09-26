@@ -1,0 +1,35 @@
+{
+  "record_type": "mmsc_search_log_artifact_reconciliation",
+  "checked_utc": "2026-09-08T00:49:00Z",
+  "branch": "mlhkp-v2",
+  "primary_log": {
+    "path": "data/source_census/search_log.jsonl",
+    "verified_latest_search_id": "MMSC-SEARCH-000028",
+    "verified_primary_entries": 28
+  },
+  "supplemental_run_files_observed_on_branch_tree": [
+    "search_log_run29.jsonl",
+    "search_log_run30.jsonl",
+    "search_log_run31.jsonl",
+    "search_log_run32.jsonl",
+    "search_log_run33.jsonl",
+    "search_log_run39.jsonl",
+    "search_log_run40.jsonl",
+    "search_log_run42.jsonl",
+    "search_log_run43.jsonl",
+    "search_log_run44.jsonl",
+    "search_log_run45.jsonl"
+  ],
+  "status_referenced_but_no_corresponding_run_file_observed_in_branch_tree": [
+    "MMSC-SEARCH-000034",
+    "MMSC-SEARCH-000035",
+    "MMSC-SEARCH-000036",
+    "MMSC-SEARCH-000037",
+    "MMSC-SEARCH-000038",
+    "MMSC-SEARCH-000041"
+  ],
+  "integrity_boundary": "Absence of a correspondingly numbered run file from the observed branch tree is recorded only as an artifact-presence gap. It is not proof that the search was never performed or that no equivalent record exists elsewhere in history. These IDs must not be silently synthesized into the primary append-only log without recovering and verifying their original content.",
+  "safe_consolidation_rule": "Consolidate only exact recovered run records in immutable search_id order, after duplicate-ID and semantic-equality checks. Never renumber, recreate from prose summaries, or infer missing search-log content from status notes.",
+  "release_effect": "Systematic-census documentation remains in progress. The primary log count stays 28 until exact supplemental records are safely consolidated. Release source/evidence counts are unchanged by this reconciliation.",
+  "main_branch_modified": false
+}

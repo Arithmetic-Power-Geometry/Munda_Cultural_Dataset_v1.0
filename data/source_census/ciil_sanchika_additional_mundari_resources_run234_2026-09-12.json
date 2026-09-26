@@ -1,0 +1,119 @@
+{
+  "run": 234,
+  "search_id": "MMSC-SEARCH-000234",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica CIIL/Bhasha Sanchika exact-manifestation advancement",
+  "audited_at_utc": "2026-09-11T23:44:00Z",
+  "repository": {
+    "name": "Bhasha Sanchika",
+    "institution": "Central Institute of Indian Languages (CIIL), Department of Higher Education, Ministry of Education, Government of India",
+    "base_url": "https://sanchika.ciil.org/"
+  },
+  "sources": [
+    {
+      "canonical_key": "ciil:BVP04859",
+      "title": "मुण्डारी भाषा का भाषिक संरचना",
+      "romanized_title": "Mundari Bhasha Ka Bashik Sanrachana",
+      "author": "Soy 'Munda', Birendra Kumar",
+      "year": 2017,
+      "publisher": "Satyam publication house",
+      "item_url": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+      "repository_identifier": "BVP04859",
+      "reported_file": "BVP04859.pdf",
+      "reported_file_size": "473.63 KB",
+      "repository_description": "The book contains a Linguistic Structure of Mundari Language.",
+      "metadata_manifestation_verified": true,
+      "byte_preserving_download_acquired": false,
+      "independent_hash_computed": false,
+      "internal_page_verified": false,
+      "claim_level_locator_promoted": false
+    },
+    {
+      "canonical_key": "ciil:BVP06110",
+      "title": "सुबोध मुण्डारी व्याकरण",
+      "romanized_title": "Subodh Mundari Veyakaran",
+      "author": "Radhagovind Patar",
+      "year": 2017,
+      "publisher": "Jharkhand Jharokha Ranchi",
+      "item_url": "https://sanchika.ciil.org/items/24494405-081d-4364-ad59-cc2dd0af7d25",
+      "repository_identifier": "BVP06110",
+      "reported_file": "BVP06110.jpg",
+      "reported_file_size": "49.84 KB",
+      "repository_description": "A language-learning resource described by the repository as containing detailed description of grammatical functions of Mundari.",
+      "metadata_manifestation_verified": true,
+      "byte_preserving_download_acquired": false,
+      "independent_hash_computed": false,
+      "internal_page_verified": false,
+      "claim_level_locator_promoted": false
+    },
+    {
+      "canonical_key": "ciil:BVP00242",
+      "title": "Mundari Word Book",
+      "author": "Anonymous",
+      "year": 2006,
+      "publisher": "Bharat Munda Samaj Baripada Mayurbhanj Odisha",
+      "item_url": "https://sanchika.ciil.org/items/0a279311-4ea6-4229-9ce7-380dbb251e65",
+      "repository_identifier": "BVP00242",
+      "reported_file": "BVP00242.pdf",
+      "reported_file_size": "15.05 KB",
+      "repository_description": "The repository describes the item as containing information necessary for learning Mundari language.",
+      "metadata_manifestation_verified": true,
+      "byte_preserving_download_acquired": false,
+      "independent_hash_computed": false,
+      "internal_page_verified": false,
+      "lexical_rows_ingested": 0,
+      "claim_level_locator_promoted": false
+    }
+  ],
+  "identity_verification": {
+    "institutional_repository_verified": true,
+    "stable_item_uuid_verified": true,
+    "repository_identifier_verified": true,
+    "reported_file_manifestation_verified_at_metadata_level": true,
+    "full_text_verified": false
+  },
+  "rights_and_governance": {
+    "platform_rights_boundary_inherited_from_verified_ciil_end_user_agreement": true,
+    "public_availability_treated_as_permission": false,
+    "unrestricted_redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "deduplication": {
+    "canonicalization_basis": "CIIL/Bharatavani repository identifier first; item UUID retained as manifestation alias",
+    "run233_branch_tree_exact_identifier_matches": {
+      "BVP04859": false,
+      "BVP06110": false,
+      "BVP00242": false
+    },
+    "new_identity_count_increment_permitted": false,
+    "reason": "Exact identifiers were absent from the inspected branch tree, but deterministic reconciliation against all 90 raw WEB-MUN records and every controlled canonical registry was not completed in this run; controlled counts therefore remain frozen."
+  },
+  "promotion": {
+    "promoted_beyond_discovery_only": true,
+    "promotion_level": "institutional repository identity plus exact item UUID, repository identifier and declared file manifestation",
+    "promoted_to_claim_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "linguistic_proposition_promoted": false,
+    "full_text_ingested": false,
+    "lexical_rows_ingested": 0,
+    "exact_internal_passage_ingested": 0
+  },
+  "blocked_or_partial_actions": [
+    "No byte-preserving file acquisition was available in this run, so no independent checksum is recorded.",
+    "Repository descriptions establish scope only; they are not substituted for internal-page evidence.",
+    "No grammar or lexical proposition is promoted until exact internal pages and reuse boundaries are directly verified."
+  ],
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "evidence_graph_count_changed": false,
+    "coverage_state_changed": false,
+    "coverage_matrix_remains_synchronized": true,
+    "release_gate": "NOT_PASS"
+  }
+}

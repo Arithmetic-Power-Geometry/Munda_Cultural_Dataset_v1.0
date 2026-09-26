@@ -1,0 +1,62 @@
+{
+  "audit_run": 588,
+  "audit_date": "2026-09-23",
+  "stream": "non-Mundarica",
+  "source_class": ["book", "grammar", "linguistics"],
+  "canonical_work": {
+    "author": "Toshiki Osada",
+    "title": "A reference grammar of Mundari",
+    "year": 1992,
+    "publisher": "Institute for the Study of Languages and Cultures of Asia and Africa",
+    "place": "Tokyo",
+    "extent": "168 p.",
+    "bibliography_pages": "156-168",
+    "language_codes_reported": ["eng", "mun"],
+    "identifier": {"type": "NCID", "value": "BA58266379"}
+  },
+  "verification": {
+    "provider": "CiNii Books",
+    "provider_url": "https://ci.nii.ac.jp/ncid/BA58266379",
+    "metadata_verified": true,
+    "repository_exact_lead_search": "Osada reference grammar Mundari 1992",
+    "repository_exact_lead_match_found": false,
+    "full_text_verified": false
+  },
+  "canonicalization": {
+    "rule": "Library catalogue records and later lawful manifestations of this title are manifestations of the same 1992 work unless edition/content differences are demonstrated; do not count mirrors or catalogue copies as independent corroboration.",
+    "independent_source_identity_increment_authorized": false,
+    "reason": "Runs381-588 remain outside the last deterministic controlled-ledger reconciliation."
+  },
+  "scope": {
+    "classification": "Mundari-specific grammatical reference work",
+    "cultural_claim_scope": "none promoted from catalogue metadata",
+    "family_to_language_generalization_prohibited": true
+  },
+  "rights_access_governance": {
+    "catalogue_access": "public metadata",
+    "full_text_access": "not established in this audit",
+    "redistribution_permission": "not established",
+    "consent_or_speaker_provenance": "not inspected",
+    "cultural_access_review": "required before any sensitive/community-specific material is exposed"
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "status": "discovery-audited; exact-locator conversion pending",
+    "requirements": [
+      "obtain a lawful authoritative full-text manifestation",
+      "hash and record manifestation/version where permitted",
+      "verify title-page and pagination concordance",
+      "inspect preface/methodology for dialect, locality, consultants and corpus provenance",
+      "create exact page/section/example locators only for directly supported propositions",
+      "separate Osada's observations/data from inherited/cited-source material",
+      "verify file-level reuse terms before storing or redistributing binary content"
+    ]
+  },
+  "uncertainty": [
+    "Catalogue metadata verifies bibliographic identity but not proposition-level content.",
+    "No claim is made here that the work is openly licensed or redistributable.",
+    "No linguistic or cultural proposition is promoted from catalogue metadata alone."
+  ]
+}

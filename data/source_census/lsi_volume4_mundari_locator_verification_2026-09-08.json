@@ -1,0 +1,33 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "source_class": "government_linguistic_survey_historical_volume",
+  "title": "Linguistic Survey of India, Volume IV: Munda and Dravidian Languages",
+  "creator": "George A. Grierson",
+  "publication_year": 1906,
+  "publisher_as_catalogued": "Office of the Superintendent of Government Printing, India",
+  "canonical_locator": "https://dsal.uchicago.edu/books/lsi/",
+  "independent_metadata_locator": "https://glottolog.org/resource/reference/id/304344",
+  "verified_scope": {
+    "volume": "IV",
+    "pagination_as_bibliographically_reported": "xiv+680",
+    "munda_family_section_start_page_reported_by_google_books": 5,
+    "mundari_of_ranchi_start_page_reported_by_google_books": 87,
+    "mundari_of_jashpur_start_page_reported_by_google_books": 93
+  },
+  "verification_state": "institutional_volume_identity_and_section_page_pointers_verified",
+  "promotion_state": "exact_page_pointer_candidate_not_yet_passage_transcribed",
+  "rights": {
+    "historical_publication_status": "historical government publication; repository-specific delivery and derivative-file terms still require respect",
+    "rights_boundary": "This verification records bibliographic identity and page pointers only. It does not by itself establish permission for bulk redistribution of scans, OCR derivatives, or later repository files."
+  },
+  "evidence_boundary": "MLHKP may use the verified volume identity and reported section/page pointers as source-level locator metadata. No linguistic example, lexical item, grammar rule, speaker count, ethnographic statement, or historical claim is promoted until the relevant scan page is directly inspected and transcribed with an exact locator.",
+  "cultural_uncertainty": "Historical colonial-era language classifications and labels are source-contextual and must not be treated as current community self-identification or contemporary language boundaries without reconciliation.",
+  "sources_checked": [
+    "Digital South Asia Library Linguistic Survey of India volume index",
+    "Glottolog reference 304344",
+    "Google Books Volume 4 contents metadata"
+  ],
+  "deduplication_key": "lsi:1906:volume4:munda-dravidian:grierson",
+  "deduplication_note": "Treat as one historical volume identity; Mundari of Ranchi and Mundari of Jashpur are internal sections, not separate source identities unless later represented as passage-level records."
+}

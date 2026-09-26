@@ -1,0 +1,39 @@
+{
+  "run": 363,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "previous_final_head": "35622bfa411360354ec17b01835473667662f176",
+  "run363_component_commits": {
+    "st16_jharkhand_exact_locator": "2424756ecb039c15bf9ab02b0ec414d67bcbda7e",
+    "mmsc_refresh": "a0fe6ee76b78113acc4c863681555d098912cc84",
+    "boundary_test": "660995c6ad5f261dc99156223c02e0796e032a01"
+  },
+  "stream_checkpoints": {
+    "mmsc": "All 14 controlled non-Mundarica source classes refreshed; exact ST-16 Jharkhand official locator added without inflating controlled counts.",
+    "source_ingestion": "ST-16 promoted to exact provider/catalogue manifestation metadata only. No workbook cells or numeric evidence were promoted because workbook bytes were not obtained.",
+    "ontology_entities_graph": "No new claim/evidence/link nodes warranted; graph counts remain unchanged and schema-category representation remains 100 percent.",
+    "streamlit": "No module-count or universal-search code change warranted because no new controlled source identity or public claim was added; 42/42 module mapping remains the controlled state.",
+    "governance": "Catalogue visibility does not establish workbook-content verification, reuse permission, community validation, participant consent or cultural authorization.",
+    "publication": "Controlled metrics remain 42 identities / 52 claims / 52 evidence / 52 links / 42 modules; publication numerical tables/figures therefore require no regeneration this cycle.",
+    "verification": "ST-16 exact provider ID PC11_ST16-20 and declared workbook ST-20-00-16-DDW-2011.XLSX verified from the official Census catalogue search surface; provider page later returned HTTP 502, leaving binary/hash/sheet/row/cell verification open. LSI Jharkhand indexed text now exposes a Mundari distribution table, but direct PDF open timed out, so it remains locator/search evidence only.",
+    "tests_ci": "Run 363 adds a regression test for the ST-16 promotion boundary. Final-head workflow status must be checked after status synchronization and is not pre-labelled green."
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42,
+    "schema_category_representation_percent": 100.0,
+    "ui_mapping_percent": 100.0
+  },
+  "release_gate": "NOT_PASS",
+  "automated_completeness_audit_pass": false,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

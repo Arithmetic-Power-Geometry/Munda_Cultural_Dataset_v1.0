@@ -1,0 +1,67 @@
+{
+  "run": 309,
+  "date_utc": "2026-09-13",
+  "scope": "Mundarica manifestation and page-accounting reconciliation",
+  "branch": "mlhkp-v2",
+  "source_checks": [
+    {
+      "kind": "historical_manifestation_locator",
+      "volume": 13,
+      "title": "Encyclopaedia Mundarica, Volume 13",
+      "authors": ["Johann Hoffmann", "Arthur van Emelen"],
+      "publisher": "Superintendent government printing, Bihar and Orissa",
+      "year": 1941,
+      "digitized": "2024-08-28",
+      "original_from": "New York Public Library",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC",
+      "verification_level": "bibliographic locator only"
+    },
+    {
+      "kind": "modern_reprint_manifestation",
+      "volume": 12,
+      "publisher": "Gyan Publishing House",
+      "year": 2009,
+      "isbn13": "9788121203166",
+      "isbn10": "8121203163",
+      "reported_pages": 250,
+      "url": "https://thebookishowl.in/product/266564/",
+      "verification_level": "retail bibliographic metadata only"
+    },
+    {
+      "kind": "modern_reprint_manifestation",
+      "volume": 16,
+      "publisher": "Gyan Publishing House",
+      "year": 2009,
+      "isbn13": "9788121203227",
+      "reported_pages_conflict": [43, 96],
+      "url": "https://www.vonmatt.ch/detail/ISBN-9788121203227/Emelen-Sj/Encyclopaedia-Mundarica-Vol.16th",
+      "verification_level": "retail metadata with unresolved pagination conflict"
+    },
+    {
+      "kind": "set_manifestation",
+      "publisher": "Gyan Publishing House",
+      "edition_year": 2016,
+      "reported_set_pages": 4936,
+      "reported_volumes": 16,
+      "url": "https://www.exoticindiaart.com/book/details/encyclopaedia-mundarica-set-of-16-volumes-hbn867/",
+      "verification_level": "retail set-level metadata only"
+    }
+  ],
+  "deduplication_rule": "Historical Government Printing manifestations and modern Gyan reprints are distinct manifestations of related work identities and must not be collapsed for page accounting.",
+  "verification_boundary": {
+    "authoritative_registered_scans_added": 0,
+    "verified_complete_volumes_added": 0,
+    "ocr_verified_pages_added": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "modern_reprint_pagination_used_as_historical_scan_pagination": false,
+    "volume16_pagination_conflict_resolved": false
+  },
+  "blockers": [
+    "Permitted byte-preserving acquisition of primary scans",
+    "Independent hashes",
+    "Printed-page to scan-image concordance",
+    "Volume XVI reprint pagination conflict",
+    "Rights and cultural-access review before content promotion"
+  ]
+}

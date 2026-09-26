@@ -1,0 +1,56 @@
+{
+  "run": 428,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica",
+  "source_class": ["archive", "dataset", "audio", "web_resource"],
+  "canonical_identity": {
+    "provider": "Multiling Cloud",
+    "title": "Munda Language | Multiling Cloud Archive",
+    "country": "Bangladesh",
+    "language_label": "Munda / Mundari",
+    "canonical_url": "https://multiling.cloud/languages/munda"
+  },
+  "discovery_verification": {
+    "provider_page_reports_digital_archive_count": 860,
+    "provider_page_reports_dictionary_words": 0,
+    "provider_page_reports_directed_sentences": 0,
+    "provider_page_reports_spontaneous_speech": 0,
+    "provider_page_labels_content": "phonetic transcriptions and audio recordings",
+    "repository_exact_provider_search_before_ingestion": "no match",
+    "verified_on": "2026-09-17"
+  },
+  "scope": {
+    "status": "potentially_in_scope",
+    "reason": "Direct Munda/Mundari linguistic audio archive from Bangladesh; geographic/dialect relationship to MLHKP target evidence requires item-level verification before promotion."
+  },
+  "deduplication": {
+    "canonicalization_rule": "Treat archive landing page and constituent recordings as one collection identity with item manifestations; do not count 860 provider-reported records as 860 audited source identities.",
+    "cross_collection_merge": "Do not merge with Karya/MunTTS/PARADISEC or Indian Mundari collections without provenance evidence."
+  },
+  "rights_access_consent": {
+    "provider_footer": "© 2026 BCC - ICTD. All rights reserved.",
+    "reuse_status": "restricted_or_unresolved",
+    "consent_status": "unverified",
+    "cultural_access_status": "unverified",
+    "promotion_permitted": false
+  },
+  "exact_locator_plan": {
+    "required_locator": "immutable archive/item revision + stable recording/item ID + timecode/transcription segment",
+    "required_before_promotion": [
+      "enumerate primary item inventory",
+      "verify each item language/dialect and geography",
+      "verify item-level rights and permitted reuse",
+      "verify participant/collector/translator provenance and consent/privacy",
+      "verify cultural-access restrictions",
+      "materialize permitted immutable bytes and SHA-256 where lawful",
+      "establish audio-to-transcription deterministic locator"
+    ]
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Landing-page metadata is sufficient for collection discovery/identity audit but not for cultural or linguistic proposition promotion."
+  },
+  "gap_status": "explicit_gap_pending_item_inventory_rights_consent_and_dialect_verification",
+  "count_policy": "Do not change controlled MMSC totals until deterministic WEB-MUN reconciliation."
+}

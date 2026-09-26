@@ -1,0 +1,61 @@
+{
+  "run": 646,
+  "audit_date": "2026-09-26",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": [
+    "audio",
+    "video",
+    "web_resource",
+    "relevant_media"
+  ],
+  "canonical_identity": {
+    "title": "सिंगि दोय तुर लेना मुण्डारी अरांडी गीत",
+    "host": "Wikimedia Commons",
+    "duration": "00:02:27",
+    "performer_as_hosted": "Satya Narayan Naag",
+    "uploader_author": "Joy sagar Murmu",
+    "source_statement": "Own work",
+    "file_date": "2026-09-22",
+    "commons_wikidata_item": "Q141530169"
+  },
+  "canonicalization": {
+    "prior_repository_record": "data/source_census/wikimedia_2026_mundari_arandi_song_source_audit_run625_2026-09-24.json",
+    "decision": "same audiovisual identity; Run646 is a rights/provenance enrichment, not a new independent source",
+    "manifestations": "original WebM, previews/transcodes, Commons page and Wikidata item must not be counted separately"
+  },
+  "exact_locator": {
+    "file_page": "Wikimedia Commons file description page",
+    "media_locator": "00:00:00-00:02:27",
+    "host_caption_locator": "Commons captions/summary",
+    "host_caption_scope": "Mundari Arandi/wedding song; Munda community; Ranchi-Khunti region; singer Satya Narayan Naag"
+  },
+  "rights": {
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licensor_statement": "Uploader states 'I, the copyright holder of this work' and Source='Own work'",
+    "reuse_status": "copyright reuse permitted subject to attribution/share-alike; this does not establish performer/community consent or cultural permission"
+  },
+  "governance": {
+    "performer_consent": "not established on inspected file page",
+    "community_consent": "not established",
+    "cultural_access": "not established",
+    "recording_locality": "host caption gives Ranchi-Khunti region but exact recording locality not established",
+    "recording_date": "Commons gives file/source date 2026-09-22; whether this is performance/recording date is not independently established",
+    "language_content_verification": "host metadata only; independent competent verification pending"
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Rights gate improved, but performer/community consent, cultural-access status, exact recording provenance and independent content/language verification remain unresolved."
+  },
+  "gaps": [
+    "performer consent",
+    "community/cultural permission",
+    "exact recording locality/date provenance",
+    "independent language/content verification",
+    "timestamp-level proposition extraction"
+  ],
+  "release_policy": "Retain as a rights-clear but governance-unresolved audiovisual conversion candidate. Do not promote host caption as an independently verified cultural claim."
+}

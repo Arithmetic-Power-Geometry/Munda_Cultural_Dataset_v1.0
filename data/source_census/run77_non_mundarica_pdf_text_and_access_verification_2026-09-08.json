@@ -1,0 +1,49 @@
+{
+  "verification_id": "MMSC-VERIFY-RUN77-PDF-ACCESS-2026-09-08",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-08T16:44:54Z",
+  "purpose": "Advance exact-locator verification without treating parser text or public access as page-image verification, reuse permission, consent, community validation, or present-day cultural truth.",
+  "sources": [
+    {
+      "source_class": "government_linguistic_survey",
+      "title": "Linguistic Survey of India - Jharkhand: Mundari descriptive grammar section",
+      "canonical_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "repository": "Office of the Registrar General & Census Commissioner, India",
+      "retrieval_state": "official search/parser layer exposes the Mundari descriptive-grammar study description; direct PDF open timed out in this cycle",
+      "verified_scope": "The official indexed PDF text describes the work as a descriptive grammar of Mundari based on survey work in the Ranchi/Khunti area and identifies named informants; no demographic number or grammar rule is promoted here.",
+      "page_image_verification": "not_completed_timeout",
+      "rights_boundary": "Government catalogue/public access does not by itself establish unrestricted redistribution or culturally unrestricted downstream reuse.",
+      "promotion_state": "staged_only_pending_page_image_or_other authoritative exact-locator inspection",
+      "cultural_access_override": true
+    },
+    {
+      "source_class": "peer_reviewed_article",
+      "title": "Eliade's Sojourn in India and the Megalithic Culture of Indigenous Indian Societies: From the Theory of Archaic Religion to Religions in the Human History",
+      "creator": "Masahiko Togawa",
+      "doi": "10.20716/rsjars.98.1_1",
+      "journal": "Journal of Religious Studies",
+      "volume_issue_pages": "98(1):1-25",
+      "publication_date": "2024-06-30",
+      "canonical_url": "https://www.jstage.jst.go.jp/article/rsjars/98/1/98_1/_article/-char/en",
+      "retrieval_state": "J-STAGE PDF opened through the parser as a 25-page PDF and exposed page-scoped text; screenshot attempts for pages 1 and 3 returned cache-miss failures",
+      "verified_scope": "Publisher metadata and abstract identify the Munda community of Jharkhand within the article's analytical scope. Parsed PDF text additionally exposes the article structure, but no page-level cultural proposition is promoted without successful page-image inspection.",
+      "page_image_verification": "not_completed_cache_miss",
+      "rights_boundary": "J-STAGE labels the item FREE ACCESS while copyright remains with the Japanese Association for Religious Studies; free access is not treated as a blanket reuse licence.",
+      "promotion_state": "bibliographic_and_publisher_abstract_scope_only; permanent MMSC identity still pending complete discovery-layer reconciliation",
+      "cultural_access_override": true
+    }
+  ],
+  "blocked_but_not_stalled": [
+    "Official LSI Jharkhand PDF direct open timed out; continued to independent scholarly, dataset, archive, government and media sources.",
+    "J-STAGE PDF screenshot returned cache miss; retained publisher metadata/abstract scope and did not promote protected or culturally interpretive page text."
+  ],
+  "integrity": {
+    "counts_changed": false,
+    "cultural_claim_promoted": false,
+    "numeric_census_claim_promoted": false,
+    "rights_inferred_from_access": false,
+    "community_validation_inferred": false,
+    "parser_text_treated_as_page_image_verified": false,
+    "main_branch_modified": false
+  }
+}

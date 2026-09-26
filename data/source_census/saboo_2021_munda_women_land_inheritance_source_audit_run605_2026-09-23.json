@@ -1,0 +1,62 @@
+{
+  "project": "MLHKP",
+  "run": 605,
+  "audit_date": "2026-09-23",
+  "scope": "non-Mundarica source census",
+  "source_class": ["peer-reviewed article", "customary law", "land inheritance", "gender", "governance"],
+  "canonical_source": {
+    "author": "Shalini Saboo",
+    "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+    "journal": "Indian Journal of Public Administration",
+    "volume": "66",
+    "issue": "4",
+    "doi": "10.1177/0019556120982196",
+    "first_published_online": "2021-01-20",
+    "publisher": "SAGE"
+  },
+  "identity_verification": {
+    "status": "verified_from_publisher_metadata",
+    "canonical_url": "https://doi.org/10.1177/0019556120982196",
+    "repository_precheck": "No matching source audit found by exact-title/author repository search before creation."
+  },
+  "scope_classification": {
+    "population": "Munda women in Jharkhand as framed by the article",
+    "topics": ["customary practices", "land inheritance", "legal impediments", "social impediments", "governance"],
+    "use_constraint": "Article-level findings must remain attributed to the study and must not be generalized to all Munda communities, women, places or periods without supporting evidence."
+  },
+  "access_rights": {
+    "publisher_access": "restricted/full access not established in this run",
+    "reuse": "publisher re-use permission required/unspecified for MLHKP binary redistribution",
+    "binary_ingested": false,
+    "public_metadata_only": true
+  },
+  "evidence_promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binary_files_added": 0,
+    "reason": "Publisher metadata/abstract verifies identity and topical scope but is insufficient for proposition-level controlled evidence."
+  },
+  "conversion_queue": [
+    "obtain authoritative full text through permitted access",
+    "hash exact manifestation if lawfully obtainable",
+    "verify journal pagination against provider PDF",
+    "inspect research design, field localities, participant/sample characteristics and dates",
+    "separate participant/primary evidence from author interpretation, legal analysis and cited secondary sources",
+    "create exact page/table/section locators for each supported proposition",
+    "review participant consent, sensitive gender/violence material and cultural-governance restrictions",
+    "verify file-level reuse rights before any binary redistribution"
+  ],
+  "cultural_uncertainty": {
+    "status": "explicit",
+    "notes": "Customary-law and gender claims can vary by locality, kinship context, time, legal forum and participant position. No abstract-level statement is promoted as a timeless or universal Munda cultural rule."
+  },
+  "deduplication": {
+    "doi_is_primary_key": true,
+    "publisher_abstract_pdf_index_records_are_manifestations_not_independent_sources": true
+  },
+  "release_effect": {
+    "discovery_only": false,
+    "state": "canonical structured audit plus exact-locator conversion queue",
+    "release_gate_changed": false
+  }
+}

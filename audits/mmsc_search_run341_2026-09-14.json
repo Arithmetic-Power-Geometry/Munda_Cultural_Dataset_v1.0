@@ -1,0 +1,67 @@
+{
+  "run": 341,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000341",
+  "purpose": "Fresh systematic 14-class discovery sweep without changing controlled MMSC counts until numbered-register reconciliation.",
+  "classes": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_tri_census_lsi",
+    "archives_manuscripts",
+    "newspapers",
+    "web_resources",
+    "datasets",
+    "audio",
+    "video",
+    "maps",
+    "relevant_media"
+  ],
+  "notable_reobservations": [
+    {
+      "class": "government_tri_census_lsi",
+      "title": "Munda | Tribal Welfare Research Institute Jharkhand",
+      "provider": "Tribal Research Institute, Jharkhand",
+      "state": "first-party web resource re-observed; item-level factual promotion requires provenance reconciliation"
+    },
+    {
+      "class": "books",
+      "title": "The Munda Languages",
+      "provider": "Routledge",
+      "state": "publisher metadata re-observed; no full-text ingestion in this run"
+    },
+    {
+      "class": "web_resources",
+      "title": "Learn Mundari Language Online",
+      "provider": "Tribal Lingua",
+      "state": "discovery-level web resource only; source-backed assertions not promoted without underlying-source reconciliation"
+    },
+    {
+      "class": "archives_manuscripts",
+      "title": "Munda | Multiling Cloud",
+      "provider": "Bangladesh BCC/ICTD Multiling Cloud",
+      "state": "archive presence re-observed; item-level rights, consent and cultural-access review remains required"
+    },
+    {
+      "class": "audio",
+      "title": "Commercial and web audio hits labelled Mundari/Munda",
+      "provider": "multiple",
+      "state": "discovery only; homonyms, commercial music and unrelated uses are not treated as cultural-source identities"
+    },
+    {
+      "class": "newspapers",
+      "title": "Recent Jharkhand reporting containing Munda as a personal/community name",
+      "provider": "multiple news publishers",
+      "state": "discovery only; not automatically a cultural-source identity"
+    }
+  ],
+  "homonym_filter": "Exclude unrelated uses of Mundari/Munda, including South Sudan Mundari references, artist/song titles without demonstrated relation to the Munda people/language, and surname/name-only matches lacking source relevance.",
+  "controlled_counts_changed": false,
+  "claims_promoted": 0,
+  "evidence_records_added_to_controlled_graph": 0,
+  "counting_rule": "Fresh search hits do not alter audited identities, raw/unique/canonicalized/unresolved totals until deterministic numbered WEB-MUN reconciliation.",
+  "governance_rule": "Public visibility or commercial availability does not establish reuse permission, consent, community validation or cultural-access authorization. Cultural access overrides entitlement."
+}

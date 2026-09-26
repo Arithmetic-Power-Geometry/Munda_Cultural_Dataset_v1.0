@@ -1,0 +1,60 @@
+{
+  "run": 609,
+  "audit_date": "2026-09-24",
+  "scope": "non-Mundarica source census and exact-locator conversion queue",
+  "canonical_work": {
+    "title": "Indigenous food environment and dietary patterns of Munda community of Jharkhand, India",
+    "year": 2025,
+    "journal": "BMC Nutrition",
+    "volume": "11",
+    "article": "189",
+    "doi": "10.1186/s40795-025-01159-2",
+    "pmid": "41121309",
+    "openalex": "W4415380116",
+    "source_class": ["peer-reviewed article", "foodways", "nutrition", "food environment", "supplementary materials"],
+    "geographic_scope": "11 villages in Murhu and Torpa blocks, Khunti district, Jharkhand",
+    "sample_scope": "201 Munda households; seasonal analyses include monsoon FFQ n=160 and winter FFQ n=100",
+    "rights": "article reported as CC BY 4.0; third-party material subject to credit-line exceptions; underlying analysed datasets available from corresponding author on reasonable request",
+    "access": "open full text via BMC Nutrition/PMC; supplementary materials listed by PMC",
+    "canonicalization": "DOI, BMC/Springer landing page, PMC manifestation, PMID and OpenAlex record are manifestations/index records for one scholarly work and are not independent corroboration."
+  },
+  "verified_locator_candidates": [
+    {
+      "locator": "Results > Sociodemographic profile / Table 1",
+      "supported_scope": "study reports 201 households from eleven villages in Murhu and Torpa, Khunti district"
+    },
+    {
+      "locator": "Results > Food environment / Table 1",
+      "supported_scope": "study reports 193 indigenous and 68 non-indigenous foods and source-access proportions for sampled households"
+    },
+    {
+      "locator": "Results > Dietary patterns / Figure 2; Tables 2-3",
+      "supported_scope": "season-specific PCA dietary-pattern results; monsoon FFQ n=160 and winter FFQ n=100"
+    },
+    {
+      "locator": "Associated Data / Supplementary Materials; Data Availability Statement",
+      "supported_scope": "five supplementary files listed; analysed datasets available from corresponding author on reasonable request"
+    }
+  ],
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_ingested": 0,
+    "reason": "Source is unusually conversion-ready, but repository-controlled promotion is deferred until manifestation/hash and stable journal-page or section/table locator concordance, participant ethics/consent review, supplementary-file rights/provenance review, and dependency/scope tagging are completed. Sample findings must not be generalized to all Munda communities, locations or periods."
+  },
+  "governance": {
+    "public_access_not_redistribution_assumption": true,
+    "community_wide_generalization_prohibited": true,
+    "sensitive_food_alcohol_hunting_details_require_context": true,
+    "underlying_data_not_assumed_public": true,
+    "third_party_material_license_exceptions_preserved": true
+  },
+  "next_conversion_actions": [
+    "obtain/hash authoritative article PDF and verify version-of-record identity",
+    "map section/table/figure locators to stable PDF pages",
+    "inspect ethics/consent and fieldwork dates in full methods",
+    "inspect supplementary files individually for license, provenance and participant-level disclosure risk",
+    "separate measured household results from author interpretation and claims inherited from earlier literature",
+    "promote only narrowly scoped propositions with exact locators after controlled-ledger reconciliation"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "run": 472,
+  "stream": "non-Mundarica source census",
+  "source_class": ["peer-reviewed article", "linguistics", "ethnographic interview/video-derived research"],
+  "canonical_identity": {
+    "author": "Nishaant Choksi",
+    "title": "Expressives and the multimodal depiction of social types in Mundari",
+    "journal": "Language in Society",
+    "volume": "49",
+    "issue": "3",
+    "pages": "379-398",
+    "publication_year": 2020,
+    "published_online": "2019-11-28",
+    "doi": "10.1017/S0047404519000824"
+  },
+  "identity_verification": {
+    "provider": "Cambridge University Press / Cambridge Core",
+    "provider_url": "https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A",
+    "verified_fields": ["author", "title", "journal", "volume", "issue", "pages", "DOI", "online publication date"],
+    "scope_note": "Provider abstract states that the study examines Mundari expressives using video data from lab-based elicitations and ethnographic interviews in Mundari-speaking villages and explicitly addresses ethics, agency, and materiality."
+  },
+  "canonicalization": {
+    "rule": "DOI 10.1017/S0047404519000824 is the canonical scholarly-work identity.",
+    "collapse_as_manifestations": ["Cambridge abstract page", "Cambridge read-only shared page", "DOI resolver", "bibliographic/index records"],
+    "independence_warning": "Claims or examples that reproduce earlier sources cited by the article must be dependency-linked rather than counted as independent field evidence. Interview/video-derived examples require participant, consent, privacy and cultural-access review before MLHKP promotion."
+  },
+  "rights_access_consent": {
+    "access_observed": "Cambridge exposes bibliographic metadata/abstract and a read-only shared representation; full reuse/redistribution rights for article text and underlying interview/video data are not established by this audit.",
+    "redistribution_permission_verified": false,
+    "participant_consent_verified_for_mlhkp_reuse": false,
+    "cultural_access_verified": false,
+    "restricted_or_sensitive_material_promoted": false
+  },
+  "evidence_conversion": {
+    "source_level_exact_locator": "DOI:10.1017/S0047404519000824; Language in Society 49(3):379-398",
+    "future_passage_locator": "DOI:10.1017/S0047404519000824#page=<printed-page>;sha256=<lawfully-permitted-manifestation-hash>",
+    "future_media_locator": "underlying-video-or-interview-id=<provider/author-verified-id>;timecode=<hh:mm:ss-hh:mm:ss>;sha256=<permitted-media-hash>",
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Source identity is verified, but item-level reuse, immutable permitted manifestation, exact page passage, dependency tracing, participant consent/privacy, and cultural-access gates are unresolved."
+  },
+  "blocked_gates": [
+    "lawful full-text manifestation and item-level reuse basis",
+    "immutable permitted bytes and SHA-256",
+    "printed-page/manuscript concordance for exact passage extraction",
+    "example-level dependency tracing to prior literature versus new elicitation/interview data",
+    "participant/speaker provenance and consent/privacy review for interview/video-derived material",
+    "community/cultural-access review where applicable"
+  ],
+  "controlled_count_policy": "Do not change MMSC controlled counts until deterministic reconciliation against WEB-MUN and canonical source ledgers is performed.",
+  "audit_date_utc": "2026-09-18T02:40:00Z"
+}

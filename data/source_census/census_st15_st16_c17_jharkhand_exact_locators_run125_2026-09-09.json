@@ -1,0 +1,110 @@
+{
+  "run": 125,
+  "date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "source_class": "government_census_language_tables",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "records": [
+    {
+      "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "reference_id": "PC11_ST15-20",
+      "reference_number": "PC11_ST15",
+      "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+      "official_download_filename": "ST-20-00-15-DDW-2011.XLSX",
+      "time_period": 2011,
+      "geographic_granularity": "state_UT",
+      "statistics": "counts",
+      "unit_of_observation": "individual_person",
+      "universe": "individuals from scheduled tribes in Jharkhand",
+      "schema_scope": [
+        "State code",
+        "District code",
+        "Area name",
+        "Scheduled tribe ST code",
+        "Scheduled tribe ST name",
+        "Mother tongue code",
+        "Mother tongue name",
+        "Total/Rural/Urban persons-males-females"
+      ],
+      "relevant_catalogue_rows_observed": [
+        "Tribe: Munda, Patar",
+        "Mother tongue: 91 MUNDA",
+        "Mother tongue: 92 MUNDARI",
+        "Mother tongue: Mundari"
+      ]
+    },
+    {
+      "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "reference_id": "PC11_ST16-20",
+      "reference_number": "PC11_ST16",
+      "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+      "official_download_filename": "ST-20-00-16-DDW-2011.XLSX",
+      "time_period": 2011,
+      "geographic_granularity": "state_UT",
+      "statistics": "counts",
+      "unit_of_observation": "individual_person",
+      "universe": "individuals from scheduled tribes in Jharkhand",
+      "schema_scope": [
+        "State code/name",
+        "Scheduled tribe ST code/name",
+        "Total/Rural/Urban",
+        "Mother tongue code/name",
+        "Total speakers of mother tongue - Persons/Male/Female",
+        "Subsidiary language code/name",
+        "Speakers of subsidiary language - Persons/Male/Female"
+      ],
+      "relevant_catalogue_rows_observed": [
+        "Tribe: Munda, Patar",
+        "Subsidiary language: MUNDA",
+        "Subsidiary language: MUNDARI"
+      ]
+    },
+    {
+      "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2001",
+      "reference_id": "PC01_C17-20",
+      "reference_number": "PC01_C17",
+      "official_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/22932/study-description",
+      "official_download_filename": "PC01_C17_20.xls",
+      "time_period": 2001,
+      "geographic_granularity": "state",
+      "statistics": "counts",
+      "unit_of_observation": "individual_person",
+      "universe": "all individuals in Jharkhand",
+      "schema_scope": [
+        "State code/name",
+        "Total speakers of languages - language code/name/persons/males/females",
+        "1st subsidiary languages - language code/name/persons/males/females",
+        "2nd subsidiary languages - language code/name/persons/males/females"
+      ]
+    }
+  ],
+  "verification_state": {
+    "official_catalogue_identities_verified": true,
+    "official_download_filenames_verified": true,
+    "catalogue_schema_verified": true,
+    "workbook_bytes_acquired_and_hashed": false,
+    "worksheets_verified": false,
+    "mundari_rows_codes_verified_in_workbook": false,
+    "exact_numeric_cells_verified": false,
+    "numeric_claim_promoted": false
+  },
+  "deduplication_and_scope": {
+    "same_table_different_years_collapsed": false,
+    "ST15_ST16_C17_collapsed_into_one_source_identity": false,
+    "catalogue_metadata_counted_as_new_cultural_source": false,
+    "note": "Each table/year remains a distinct official Census manifestation. This run adds exact-locator provenance only and does not create duplicate cultural source identities."
+  },
+  "promotion_boundary": "Only official ORGI table identity, scope, catalogue schema, relevant catalogue row labels where exposed, and download filename are promoted. No population, mother-tongue, bilingualism or trilingualism number is promoted until the actual workbook bytes are independently obtained and hashed and exact worksheet/row/code/cell coordinates are recorded.",
+  "rights_and_access": {
+    "public_official_catalogue": true,
+    "public_availability_treated_as_derivative_reuse_permission": false,
+    "cultural_access_override_preserved": true
+  },
+  "integrity": {
+    "fabricated_count": false,
+    "unverified_numeric_claim": false,
+    "community_validation_inferred": false,
+    "restricted_material_ingested": false,
+    "absolute_source_completeness_claimed": false
+  }
+}

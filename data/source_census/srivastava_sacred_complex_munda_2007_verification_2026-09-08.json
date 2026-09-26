@@ -1,0 +1,63 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "candidate_title": "The Sacred Complex of Munda Tribe",
+  "creator": "Malini Srivastava",
+  "year": 2007,
+  "source_class": "anthropology_journal_article",
+  "journal": "The Anthropologist",
+  "volume": "9",
+  "issue": "4",
+  "pages": "327-330",
+  "publisher_locator": "https://krepublishers.com/02-Journals/T-Anth/Anth-09-0-000-000-2007-Web/Anth-09-4-000-07-Abst-PDF/Anth-09-4-327-07-417-Srivastava-M/Anth-09-4-327-07-417-Srivastava-M-Tt.pdf",
+  "identifiers": [
+    {
+      "scheme": "DOI",
+      "value": "10.31901/24566802.2007/09.04.11",
+      "state": "verified_on_kamla_raj_source_copy"
+    },
+    {
+      "scheme": "DOI_ALIAS_CANDIDATE",
+      "value": "10.1080/09720073.2007.11891020",
+      "state": "reported_by_secondary_index_and_requires_publisher_identity_reconciliation_before_canonical_dedupe_key_use"
+    }
+  ],
+  "verified_metadata": {
+    "title_author_journal_volume_issue_pages": true,
+    "source_copy_exposes_abstract": true,
+    "abstract_study_scope": "The article reports a study undertaken in the Chotanagpur plateau in Jharkhand, within a Sacred Complex framework, covering four named Munda villages: Daugada, Buruma, Sarwada and Kullipiddi under the then Khunti subdivision of Ranchi District.",
+    "exact_locator_level": "article title/abstract and bibliographic page range; no protected passage-level extraction beyond source-provided abstract metadata"
+  },
+  "scope_classification": {
+    "geographic_scope": ["Chotanagpur plateau", "Khunti subdivision (historical administrative wording in source)", "Ranchi District", "Jharkhand", "India"],
+    "domain_candidates": ["beliefs_sacred_life", "religion_and_sacred_practice", "geographic_community_variation"],
+    "temporal_boundary": "2007 publication reporting a bounded study; not evidence of current or universal practice"
+  },
+  "rights_access": {
+    "public_source_copy_observed": true,
+    "full_text_redistribution_permission_established": false,
+    "commercial_reuse_permission_established": false,
+    "participant_material_reuse_permission_established": false,
+    "note": "Public web availability does not establish redistribution, derivative-dataset, commercial, participant-material or model-training permission."
+  },
+  "cultural_access": {
+    "sensitivity": "religious_and_sacred_content",
+    "community_validation_established": false,
+    "participant_consent_for_mlkhp_reuse_established": false,
+    "public_cultural_claim_promotion_allowed_now": false,
+    "note": "Sacred/religious material remains subject to MLHKP cultural-access governance even if technically accessible. No ritual detail, sacred knowledge, participant quotation or community-wide religious claim is promoted from this verification artifact."
+  },
+  "canonicalization": {
+    "state": "candidate_pending_deterministic_reconciliation",
+    "source_count_increment": 0,
+    "evidence_count_increment": 0,
+    "required_before_promotion": [
+      "compare exact title, creator and both DOI forms against every existing web-discovery artifact and canonical ledger",
+      "resolve DOI alias relationship without double-counting",
+      "confirm item-level rights/access boundary for any evidence deeper than abstract metadata",
+      "retain four-village and historical study scope",
+      "apply cultural-access review before any sacred/religious content promotion"
+    ]
+  },
+  "integrity_boundary": "This artifact verifies source identity and source-reported study scope only. It does not verify the article's substantive cultural propositions, present-day representativeness, community endorsement, participant consent for reuse, or unrestricted rights."
+}

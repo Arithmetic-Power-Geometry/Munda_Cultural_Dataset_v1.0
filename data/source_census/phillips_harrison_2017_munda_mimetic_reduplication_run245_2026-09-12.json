@@ -1,0 +1,89 @@
+{
+  "run": 245,
+  "branch": "mlhkp-v2",
+  "date_utc": "2026-09-12T05:42:08Z",
+  "source": {
+    "title": "Munda mimetic reduplication",
+    "authors": ["Jacob B. Phillips", "K. David Harrison"],
+    "journal": "Canadian Journal of Linguistics/Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "published_online": "2017-03-06",
+    "doi": "10.1017/cnj.2017.13",
+    "publisher": "Cambridge University Press",
+    "institutional_crosscheck": "Swarthmore College Works repository, faculty-linguistics/223"
+  },
+  "scope_classification": {
+    "primary_scope": "peer-reviewed linguistic evidence",
+    "languages_explicitly_covered": ["Ho", "Kera Mundari", "Kharia", "Mundari", "Remo (Bondo)", "Santali", "Sora (Savara)"],
+    "mlhkp_scope": "relevant to Mundari/Kera Mundari linguistic documentation; not treated as blanket evidence for Munda cultural practice",
+    "scope_confidence": "high"
+  },
+  "identity_and_metadata_verification": {
+    "cambridge_publisher_page_verified": true,
+    "doi_verified": true,
+    "journal_volume_issue_pages_verified": true,
+    "swarthmore_institutional_crosscheck_verified": true,
+    "deterministic_canonical_key": "doi:10.1017/cnj.2017.13",
+    "duplicate_identity_created": false
+  },
+  "exact_locator_evidence": {
+    "promotion_level": "publisher-rendered exact section/example locator",
+    "bibliographic_locator_promoted": true,
+    "directly_rendered_article_sections_observed": [
+      "1. Introduction",
+      "3.2 Verbs",
+      "3.3 Nouns",
+      "4.1.2 Body",
+      "4.3 Quantity/Repetition",
+      "4.6 Surface texture"
+    ],
+    "mundari_example_locators_observed": ["(13)", "(38)", "(45)", "(64)", "(75)"],
+    "kera_mundari_example_locators_observed": ["(9)", "(17)", "(41)", "(44)"],
+    "legacy_source_relationship_observed": "Publisher-rendered text attributes multiple Mundari examples to Hoffmann/Hoffman 1950 and Kera Mundari examples to Anderson and Harrison 2013a.",
+    "lexical_forms_copied_into_mlhkp": 0,
+    "claim_level_linguistic_rows_promoted": 0,
+    "cultural_propositions_promoted": 0,
+    "underlying_field_recordings_ingested": 0
+  },
+  "rights_and_access": {
+    "publisher_copyright_notice_observed": "Canadian Linguistic Association/Association canadienne de linguistique 2017",
+    "shared_read_only_rendering_observed": true,
+    "public_availability_is_permission": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "full_text_byte_preserving_acquisition_verified": false,
+    "independent_content_hash_verified": false
+  },
+  "cultural_and_participant_boundary": {
+    "fieldwork_or_legacy_lexicographic_material_reported_by_article": true,
+    "participant_identity_ingested": false,
+    "participant_consent_independently_audited": false,
+    "community_validation_independently_audited": false,
+    "cultural_access_permission_verified": false,
+    "rule": "Do not ingest participant-derived or culturally sensitive content solely because it is rendered in a scholarly article."
+  },
+  "blocked_or_open_items": [
+    "No independently verified byte-preserving full-text manifestation/hash in this run.",
+    "Underlying field elicitation materials and participant permissions were not independently audited.",
+    "Legacy Hoffmann/Hoffman 1950 source pages behind the cited Mundari examples require separate manifestation/page verification before source-level lexical promotion.",
+    "Kera Mundari source materials cited as Anderson and Harrison 2013a require separate source/rights/integrity verification before row-level ingestion."
+  ],
+  "synchronization_decision": {
+    "mmsc_audited_source_identity_count_change": 0,
+    "source_claim_count_change": 0,
+    "evidence_record_count_change": 0,
+    "evidence_link_count_change": 0,
+    "streamlit_registered_module_count_change": 0,
+    "publication_metric_count_change": 0,
+    "reason": "Run 245 strengthens an exact scholarly source locator and source-chain map without proving absence from all controlled registries or promoting copyrighted lexical/article content."
+  },
+  "sources_checked": [
+    "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58/share/dcdb82a5f23d699da62c547fd40c400c88060634",
+    "https://works.swarthmore.edu/fac-linguistics/223/"
+  ]
+}

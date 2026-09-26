@@ -1,0 +1,64 @@
+{
+  "record_type": "exact_locator_dataset_audit",
+  "stream": "datasets_historical_linguistics",
+  "run": 167,
+  "checked_utc": "2026-09-10T13:50:00Z",
+  "branch": "mlhkp-v2",
+  "source": {
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "creator": "Felix Rau",
+    "year": 2019,
+    "version": "0.1.0",
+    "resource_type": "Dataset",
+    "publisher": "Zenodo",
+    "doi": "10.5281/zenodo.3380874",
+    "canonical_locator": "https://zenodo.org/records/3380874",
+    "published_date": "2019-08-29",
+    "conference_context": "8th International Conference on Austroasiatic Linguistics (ICAAL 8), Chiang Mai, 29-31 August 2019"
+  },
+  "exact_manifestation": {
+    "filename": "pMunda_cognate_set_2019-08-29.csv",
+    "repository_reported_size": "34.9 kB",
+    "repository_reported_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "independent_hash_recomputed": false,
+    "file_bytes_acquired_by_mlhkp": false,
+    "preview_and_download_links_visible": true
+  },
+  "source_reported_scope": {
+    "cognate_sets": 127,
+    "description": "Zenodo states that the dataset contains 127 cognates with proto-Munda reconstructions and references to MKCD and Pinnow (1959).",
+    "languages_named_by_repository": ["Gorum", "Sora", "Remo", "Gutob", "Kharia", "Juang", "Gtaʔ", "Santali", "Mundari", "Ho", "Korwa", "Korku"]
+  },
+  "deduplication": {
+    "stable_keys_checked": ["doi:10.5281/zenodo.3380874", "title:munda cognate set with proto-munda reconstructions", "filename:pMunda_cognate_set_2019-08-29.csv"],
+    "repository_code_search_doi_match_count": 0,
+    "repository_code_search_title_match_count": 0,
+    "search_index_caveat": "GitHub code-search responses were marked incomplete_results=true; therefore absence from indexed code search is not sufficient for permanent identity assignment.",
+    "new_permanent_identity_assigned": false,
+    "counts_changed": false
+  },
+  "rights_and_cultural_access": {
+    "zenodo_access_state": "open_dataset_page_and_file_locator",
+    "license_text_resolved_from_rendered_record": false,
+    "reuse_permission_inferred": false,
+    "underlying_dictionary_or_pinnow_rights_inferred": false,
+    "participant_or_speaker_content_present_or_assessed": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "decision": "Promote exact repository identity, scope and file/checksum locator metadata only. Do not ingest cognate rows until item licence and row-level provenance/rights boundaries are resolved."
+  },
+  "evidence_boundary": {
+    "cultural_claim_promoted": false,
+    "lexical_or_reconstruction_claim_promoted": false,
+    "dataset_rows_ingested": false,
+    "evidence_graph_count_changed": false,
+    "supported_metadata_promoted": ["DOI", "version", "creator", "publication date", "repository-described 127-cognate scope", "Mundari inclusion", "filename", "repository-reported MD5"]
+  },
+  "blockers": [
+    "Rendered Zenodo record exposes a Rights/License heading but did not expose a machine-readable licence value in this retrieval path.",
+    "Dataset bytes were not acquired, so the repository-reported MD5 has not been independently recomputed.",
+    "Row-level references/provenance and any rights inherited from MKCD or Pinnow (1959) require inspection before lexical-content ingestion.",
+    "Permanent MMSC identity assignment awaits deterministic reconciliation against all non-indexed branch discovery records, not only incomplete GitHub code search."
+  ],
+  "release_value": "Moves the Rau 2019 candidate from generic discovery to exact DOI/version/file/hash-locator audit without fabricating licence, checksum verification, lexical evidence or source counts."
+}

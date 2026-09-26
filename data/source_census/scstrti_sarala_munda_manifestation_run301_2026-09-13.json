@@ -1,0 +1,67 @@
+{
+  "run_id": 301,
+  "date_utc": "2026-09-13",
+  "stream": "book / dictionary-language-learning / government-TRI manifestation audit",
+  "source": {
+    "title": "Sarala (Tribhasi) Bhasha Sikshyana Pustika (Munda)",
+    "record_id": "SCST/2018/0166",
+    "repository_handle": "https://repository.tribal.gov.in/handle/123456789/74104",
+    "repository_file_name": "SCST_2018_dict_0166.pdf",
+    "repository_reported_size_display": "770.21 kB",
+    "repository_search_reported_size_bytes": 788697,
+    "repository_declared_md5": "13cd985ff6977387c69ffdc7c655ddd8",
+    "editor_authors": ["Baneswar Munda", "Muralidhar Munda", "Singray Munda"],
+    "completed_date": "Nov-2018",
+    "pagination": "iv,90",
+    "document_type": "Book",
+    "institution": "SCSTRTI & Special Development Council, Sundargarh, Planning & Convergence Department, Govt. of Odisha",
+    "tribal_research_institute": "SC/ST Research & Training Institute, Odisha"
+  },
+  "repository_verification": {
+    "first_party_item_record_verified": true,
+    "first_party_browse_listing_verified": true,
+    "file_name_verified_from_item_record": true,
+    "pagination_verified_as_repository_metadata": true,
+    "authors_verified_as_repository_metadata": true,
+    "repository_declared_md5_recorded": true,
+    "repository_declared_md5_independently_computed": false,
+    "direct_pdf_fetch_succeeded_this_run": false,
+    "direct_pdf_fetch_state": "timeout",
+    "pdf_bytes_acquired": false,
+    "page_images_verified": false,
+    "ocr_verified": false
+  },
+  "integrity_boundary": {
+    "search_index_reports_submission": "Submitted by Soumya Dev (scstrti@odisha.gov.in) on 2020-08-15T06:24:21Z",
+    "search_index_reports_approval_state": "Rejected by A B Ota on 2020-08-15T12:55:14Z",
+    "current_item_record_is_publicly_resolvable": true,
+    "approval_state_reconciled": false,
+    "policy": "Do not infer archival approval, reuse permission, endorsement, or cultural authorization from current discoverability while the indexed submission/approval-state metadata is internally conflicting."
+  },
+  "rights_and_governance": {
+    "public_discoverability_treated_as_reuse_permission": false,
+    "bulk_text_reuse_permission_verified": false,
+    "redistribution_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion": {
+    "promotion_level": "first-party repository identity + file locator + pagination + repository-declared checksum metadata only",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "internal_book_text_promoted": 0,
+    "reason_counts_unchanged": "The work is retained as a high-quality discovery/manifestation lead until deterministic reconciliation against the numbered WEB-MUN/source register and permitted byte-level verification are complete."
+  },
+  "explicit_gaps": [
+    "Obtain the permitted PDF through a byte-preserving path and independently compute its hash.",
+    "Reconcile iv+90 repository pagination against the acquired PDF page inventory before page-level citations.",
+    "Resolve the repository search index's rejected-submission metadata against the currently public item record.",
+    "Determine explicit reuse/redistribution terms before textual ingestion.",
+    "Do not infer participant consent, community validation, or cultural-access authorization from repository availability.",
+    "Deterministically reconcile the work against WEB-MUN/source identities before changing controlled MMSC counts."
+  ]
+}

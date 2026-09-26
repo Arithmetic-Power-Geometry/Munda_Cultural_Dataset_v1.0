@@ -1,0 +1,74 @@
+{
+  "run_id": 295,
+  "audit_date": "2026-09-13",
+  "scope": "manifestation metadata corroboration without primary-byte promotion",
+  "canonical_work": {
+    "title": "Mundari Phonetic Reader",
+    "author": "N. K. Sinha",
+    "publisher": "Central Institute of Indian Languages, Mysore",
+    "year": 1974,
+    "series_number": 13
+  },
+  "additional_manifestation_signals": [
+    {
+      "provider": "Garuda Prakashan retail catalogue",
+      "url": "https://garudalife.in/mundari-phonetic-reader-an-old-and-rare-book",
+      "reported_fields": {
+        "title": "Mundari Phonetic Reader (An Old and Rare Book)",
+        "author": "N. K. Sinha",
+        "publisher": "Central Institute Of Indian Languages, Mysore",
+        "edition": "1974",
+        "binding": "Paperback",
+        "pages": 104,
+        "language": "English"
+      },
+      "evidence_level": "commercial catalogue metadata only"
+    },
+    {
+      "provider": "Exotic India Art retail catalogue",
+      "url": "https://www.exoticindiaart.com/book/details/mundari-phonetic-reader-old-and-rare-book-naw458/",
+      "reported_fields": {
+        "title": "Mundari Phonetic Reader (An Old and Rare Book)",
+        "author": "N. K. Sinha",
+        "publisher": "Central Institute Of Indian Languages, Mysore",
+        "edition": "1974",
+        "binding": "Paperback",
+        "pages": 104,
+        "language": "English",
+        "dimensions": "8.50 X 5.50 inch",
+        "weight": "150 gm",
+        "catalogue_id": "NAW458"
+      },
+      "evidence_level": "commercial catalogue metadata only"
+    }
+  ],
+  "reconciliation_with_run294": {
+    "first_party_ciil_pages": 102,
+    "cinii_extent": "viii, 102 p.",
+    "cambridge_review_extent": "xi, 103 pp.",
+    "retailer_total_pages": 104,
+    "resolution": "Preserve all extent statements separately. Retailer total-page metadata does not resolve numbered pages versus preliminary leaves, nor prove byte-level identity or completeness."
+  },
+  "deterministic_identity_decision": {
+    "same_canonical_work_supported": true,
+    "new_audited_source_identity_added": false,
+    "reason": "Title, author, publisher and 1974 edition align with the already-audited canonical work; retailer records are corroborating manifestation signals, not independent content authorities."
+  },
+  "promotion": {
+    "bibliographic_manifestation_metadata_only": true,
+    "primary_bytes_acquired": false,
+    "independent_hash_verified": false,
+    "ocr_verified": false,
+    "lexical_or_phonetic_content_promoted": false,
+    "cultural_claim_promoted": false
+  },
+  "rights_governance": {
+    "retail_availability_is_not_reuse_permission": true,
+    "bulk_text_redistribution_permission_verified": false,
+    "ml_training_permission_verified": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "remaining_gap": "Acquire an authorized primary manifestation, independently hash bytes, inspect cover/imprint/preliminary leaves/numbered pages, resolve page accounting, and only then consider page-exact content promotion subject to rights and cultural-governance review."
+}

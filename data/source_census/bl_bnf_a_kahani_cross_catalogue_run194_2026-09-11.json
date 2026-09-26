@@ -1,0 +1,103 @@
+{
+  "audit_id": "RUN194-BL-BNF-A-KAHANI",
+  "run": 194,
+  "date_utc": "2026-09-11",
+  "scope": "non-Mundarica source census; archival/audio manifestation reconciliation",
+  "title_normalized": "A kahani / A Story in Mundari",
+  "identity_evidence": {
+    "british_library": {
+      "catalogue": "British Library Archives and Manuscripts Catalogue",
+      "shelfmark": "IOR/S/2/1/4",
+      "record_id": "040-000091078",
+      "mdark": "ark:/81055/vdc_100000000502.0x0002ff",
+      "title": "A Story",
+      "language_catalogued": "Kherwari (Mundari dialect)",
+      "date_range": "1913-1914",
+      "extent": "1 gramophone record",
+      "former_external_reference": "3292-Y",
+      "digitised_content_field": "blank/no digitised content exposed in retrieved catalogue record",
+      "legal_status_catalogued": "Public Record(s)",
+      "url": "https://searcharchives.bl.uk/catalog/040-000091078"
+    },
+    "bnf": {
+      "catalogue": "Bibliotheque nationale de France, Catalogue general",
+      "ark": "ark:/12148/cb41463717x",
+      "notice_number": "FRBNF41463717",
+      "digital_copy_identifier": "NUMAUD-129831",
+      "physical_copy_identifier": "AP-2122",
+      "title": "A kahani : in Mundari",
+      "editor": "Sir George Grierson",
+      "collection_context": "Linguistic Survey of India",
+      "date": "1914",
+      "language_catalogued": "Mundari",
+      "matrix_number": "3292Y",
+      "genre_catalogued": "spoken recording; oral literature/story",
+      "online_access": "digital sound manifestation indicated as consultable online via Gallica",
+      "physical_copy_access": "AP-2122 marked document non diffusable",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb41463717x"
+    }
+  },
+  "reconciliation": {
+    "decision": "same historical recording identity cluster at catalogue level; do not create a second source identity",
+    "confidence": "high; matrix identifier matches deterministically after punctuation normalization (BL 3292-Y = BnF 3292Y), with compatible Mundari language, LSI context, story title semantics and 1913-1914/1914 dating",
+    "deterministic_keys": [
+      "matrix 3292Y after punctuation normalization",
+      "Mundari/Kherwari language attribution",
+      "Linguistic Survey of India Bihar and Orissa context",
+      "A Story / A kahani title equivalence",
+      "overlapping 1913-1914/1914 date"
+    ],
+    "byte_or_physical_identity_verified": false,
+    "reason_byte_identity_not_verified": "no byte-level comparison of digital audio and no physical-disc label comparison was performed"
+  },
+  "evidence_promotion": {
+    "promoted": [
+      "catalogue identity metadata",
+      "exact BL shelfmark/record/MDARK locator",
+      "exact BnF ARK/notice/digital-copy/physical-copy locators",
+      "catalogue-attributed language/date/recording type",
+      "matrix 3292Y cross-catalogue match"
+    ],
+    "not_promoted": [
+      "audio samples or acoustic features",
+      "story transcription",
+      "translation",
+      "cultural interpretation",
+      "participant identity",
+      "participant consent",
+      "community validation",
+      "cultural-access permission"
+    ],
+    "count_bearing": false,
+    "source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0
+  },
+  "rights_governance": {
+    "public_availability_is_permission": false,
+    "bl_public_record_status_treated_as_reuse_license": false,
+    "copyright_reuse_terms_independently_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "audio_ingested": false,
+    "transcript_ingested": false,
+    "policy": "cultural access overrides legal or technical availability; retain catalogue metadata and deterministic identity reconciliation only until reuse, consent/privacy and community/cultural-access review support deeper use"
+  },
+  "mundarica_parallel_stream": {
+    "volume_vii_candidate_secondary_identifier": "dli.bengal.10689.20088",
+    "candidate_source": "secondary public index pointing to Internet Archive/DLI",
+    "direct_archive_metadata_verified_this_run": false,
+    "page_count_promoted": false,
+    "ocr_state_promoted": false,
+    "rights_state_promoted": false,
+    "completeness_promoted": false,
+    "reason": "direct Internet Archive item/metadata retrieval was unavailable in this run; a secondary index alone is insufficient for audited manifestation/page/OCR promotion"
+  },
+  "release_gap": "The A kahani discovery is now deterministically reconciled at matrix/catalogue level and no longer needs a separate unique-source disposition, but audio/transcript/translation reuse remains governance-blocked. Mundarica VII still requires direct manifestation metadata and independent verification before any page/OCR state promotion.",
+  "sources_checked": [
+    "British Library IOR/S/2/1/4 catalogue record",
+    "BnF ark:/12148/cb41463717x catalogue record",
+    "secondary Encyclopaedia Mundarica index exposing candidate Internet Archive identifier for Volume VII"
+  ]
+}

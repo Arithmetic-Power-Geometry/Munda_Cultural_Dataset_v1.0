@@ -1,0 +1,55 @@
+{
+  "verification_id": "MMSC-VERIFY-IF-NTFP-2026-09-08",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-08T12:31:00Z",
+  "source_class": "peer_reviewed_article",
+  "title": "Economic Valuation of Non Timber Forest Products Contribution in Tribal Livelihood in West Singhbhum District of Jharkhand",
+  "creators": ["Praveen Kumar Singh", "S. M. Sulaiman Quli"],
+  "publisher_journal": "Indian Forester",
+  "publication_date": "2011-11-01",
+  "volume": "137",
+  "issue": "11",
+  "pages": "1258-1264",
+  "doi": "10.36808/if/2011/v137i11/12843",
+  "canonical_publisher_url": "https://indianforester.co.in/index.php/indianforester/article/view/12843",
+  "identity_verification": {
+    "publisher_article_page": true,
+    "publisher_issue_page": true,
+    "doi_title_author_volume_issue_page_match": true,
+    "permanent_mmsc_identity_assigned": false,
+    "reason_not_assigned": "Deterministic reconciliation against every preserved web-discovery artifact and canonical MMSC identity has not yet been completed."
+  },
+  "scope": {
+    "geography": ["West Singhbhum district", "Jharkhand", "India"],
+    "study_scope_as_reported_by_source_abstract": "50 selected villages; the publisher abstract reports evaluation of NTFP contribution to tribal livelihoods and states that six major NTFPs from forests managed under a 'Mundari-khuntkattidari' system were included.",
+    "allowed_repository_proposition_at_current_stage": "The publisher metadata and abstract report a 2011 West Singhbhum study with the stated title, authors, DOI, pages, 50-village scope, and an abstract-level reference to forests described by the authors as managed under a Mundari-khuntkattidari system.",
+    "not_allowed_inference": [
+      "The abstract is not evidence that all Munda communities use the described management system.",
+      "The source is not treated as present-day representativeness evidence.",
+      "No participant-level, village-level, customary-law, ownership, ecological, economic, or cultural practice claim is promoted without exact-locator full-text review.",
+      "No community validation is inferred."
+    ]
+  },
+  "rights_access_governance": {
+    "article_page_publicly_accessible": true,
+    "pdf_link_present_on_publisher_page": true,
+    "publisher_license_notice": "Unless otherwise stated, copyright or similar rights in site materials are owned by Indian Forester.",
+    "unrestricted_full_text_redistribution_established": false,
+    "participant_or_underlying_data_reuse_established": false,
+    "cultural_access_override": true,
+    "current_ingestion_boundary": "Bibliographic metadata and bounded abstract-level study-scope evidence only; no protected article text or participant-derived material is copied into MLHKP."
+  },
+  "evidence_readiness": {
+    "exact_bibliographic_locator_verified": true,
+    "abstract_locator_verified": true,
+    "full_text_exact_page_passage_locator_verified": false,
+    "promotion_state": "verification_and_exact_locator_ready_pending_deterministic_deduplication",
+    "counts_changed": false
+  },
+  "integrity": {
+    "cultural_claim_fabricated": false,
+    "rights_inferred_from_access": false,
+    "community_validation_inferred": false,
+    "current_representativeness_inferred": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "run": 629,
+  "audit_date": "2026-09-24",
+  "branch": "mlhkp-v2",
+  "source_class": "peer_reviewed_article",
+  "canonical_work": {
+    "author": "Alpa Shah",
+    "title": "‘Keeping the state away’: democracy, politics, and the state in India's Jharkhand",
+    "journal": "Journal of the Royal Anthropological Institute",
+    "first_published": "2007-02-08",
+    "doi": "10.1111/j.1467-9655.2007.00417.x",
+    "publisher": "Wiley"
+  },
+  "identity_verification": {
+    "authoritative_manifestation": "https://doi.org/10.1111/j.1467-9655.2007.00417.x",
+    "verified_fields": ["author", "title", "journal", "first publication date", "DOI", "abstract-level Munda/Jharkhand scope"],
+    "repository_preinsertion_exact_title_or_doi_search_match": false
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["democracy", "politics", "state relations", "local political economy", "parha"],
+    "scope_warning": "Publisher abstract is sufficient for bibliographic/scope classification only; it is not sufficient to generalize propositions to all Munda communities."
+  },
+  "deduplication": {
+    "canonical_identity_key": "doi:10.1111/j.1467-9655.2007.00417.x",
+    "rule": "DOI/publisher/index/mirror manifestations are one work and must not be counted as independent corroboration."
+  },
+  "access_rights_governance": {
+    "full_text_lawfully_obtained_in_run": false,
+    "redistribution_permission_verified": false,
+    "participant_or_community_consent_verified": false,
+    "cultural_uncertainty_preserved": true,
+    "promotion_policy": "No controlled cultural proposition may be promoted from abstract/catalogue metadata."
+  },
+  "conversion_state": {
+    "stage": "verified_discovery_with_conversion_gate",
+    "exact_locator_evidence_created": false,
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "controlled_binaries_promoted": 0,
+    "required_next_steps": [
+      "obtain a lawful authoritative full-text manifestation",
+      "record manifestation hash only where storage/reuse terms permit",
+      "establish printed-page/PDF concordance",
+      "inspect methods, field locality, dates, participant basis and dependency on cited sources",
+      "separate direct observation/participant evidence from author interpretation and historical/secondary citation",
+      "create atomic exact-page/section locators only for supported permitted propositions",
+      "retain locality, temporal, political and cultural scope on every promoted proposition"
+    ]
+  },
+  "audit_note": "This run deliberately records no new cultural fact from publisher abstract prose and makes no claim of source completeness."
+}

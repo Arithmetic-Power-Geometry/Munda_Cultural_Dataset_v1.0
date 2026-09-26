@@ -1,0 +1,40 @@
+{
+  "run": 371,
+  "synchronized_utc": "2026-09-14T22:49:00Z",
+  "branch": "mlhkp-v2",
+  "work_commits": {
+    "phoible_inventory_lineage": "5d9c23009f6e6ab0177d6b6ebc671648d7c19790",
+    "mmsc_refresh": "237a67306c5222b720b6f31918bfc522b01dca10",
+    "boundary_test": "9cd682a13b888fdad7cbaf4987d2df38f45c28e9"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_registered_modules": 42
+  },
+  "metric_change": false,
+  "streamlit_change_required": false,
+  "evidence_graph_change_required": false,
+  "publication_tables_figures_change_required": false,
+  "publication_reason": "Run 371 narrows PHOIBLE source genealogy and inventory identity only; no controlled claim/evidence/module counts changed.",
+  "new_governance_invariant": "PHOIBLE inventory visibility and provider-reported segment counts do not equal underlying passage verification or source-specific reuse permission.",
+  "release_gate": "NOT_PASS",
+  "remaining_priority_gaps": [
+    "73 deterministic WEB-MUN dispositions",
+    "PHOIBLE downloadable bytes/hash and inventory-to-source passage verification",
+    "Census ST-15/ST-16/C-16 workbook byte/hash/sheet/row/cell verification",
+    "LSI Jharkhand and Administrative Atlas materialization/page verification",
+    "SCSTRTI handbook binary/hash/page and item-level rights review",
+    "Bhaduri/Sinha/CIIL manifestation verification",
+    "ASJP/Grambank/WALS underlying-source trace-back",
+    "ELAR/PARADISEC/TLA package resolution",
+    "audiovisual rights/consent/community/cultural-access closure"
+  ]
+}

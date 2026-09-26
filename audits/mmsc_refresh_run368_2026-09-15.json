@@ -1,0 +1,64 @@
+{
+  "run": 368,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000368",
+  "controlled_classes_refreshed": 14,
+  "refresh_scope": [
+    "books_and_historical_print",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_and_dissertations",
+    "government_TRI_Census_LSI",
+    "archives_and_manuscript_catalogues",
+    "newspapers_and_current_media",
+    "web_resources",
+    "datasets_and_language_technology",
+    "audio",
+    "video",
+    "maps_and_atlases",
+    "cross_border_and_relevant_media"
+  ],
+  "new_exact_locator_progress": [
+    {
+      "name": "Grambank Mundari language row",
+      "provider": "Grambank",
+      "identity": "mund1320",
+      "exact_provenance_sheet": "TWI_mund1320.tsv",
+      "disposition": "provider-level language/provenance identity verified; no feature value or linguistic/cultural claim promoted pending sheet and underlying-source passage verification"
+    }
+  ],
+  "deterministic_false_positive_filters_reconfirmed": [
+    {
+      "pattern": "Mundari Karya",
+      "reason": "Indonesian football coach personal name; not the Mundari language/cultural corpus target"
+    },
+    {
+      "pattern": "Mundari/Mundri Punjabi song titles",
+      "reason": "lexical/title homonym in Punjabi music results; not a Mundari-language source"
+    }
+  ],
+  "verified_reobservations": [
+    {
+      "name": "Karya Mundari TTS dataset",
+      "disposition": "known dataset family reobserved; no new source identity count created"
+    },
+    {
+      "name": "Grambank release repository",
+      "disposition": "CC-BY-4.0 derived dataset and CLDF language table reobserved; underlying descriptive-source verification still required before controlled feature promotion"
+    }
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason_no_count_change": "Run 368 narrows an existing Grambank lead to the exact provider provenance sheet and reconfirms deterministic false-positive rejection, but does not reconcile a new numbered identity in the authoritative source register.",
+  "systematic_census_documented_for_release": true,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

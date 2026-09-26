@@ -1,0 +1,78 @@
+{
+  "artifact_type": "secondary_identity_corroboration",
+  "run_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "candidate_person": {
+    "name": "Sadanand Abinash Bishram Dilbar-Hans",
+    "role_context": "Bishop of Chota Nagpur, India",
+    "birth_year_reported_by_authority": 1910
+  },
+  "authority_corroboration": {
+    "authority": "National Portrait Gallery, London",
+    "record_title": "Sadanand Abinash Bishram Dilbar-Hans",
+    "authority_url": "https://www.npg.org.uk/collections/search/person/mp135177/sadanand-abinash-bishram-dilbar-hans",
+    "observed_assertions": [
+      "person name Sadanand Abinash Bishram Dilbar-Hans",
+      "born 1910",
+      "Bishop of Chota Nagpur, India",
+      "sitter in a July 1958 Lambeth Conference portrait"
+    ]
+  },
+  "secondary_hockey_locator": {
+    "source": "The Indian Express",
+    "article_date": "2023-10-18",
+    "article_url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/",
+    "reported_booklet_facts_not_primary_verified": [
+      "Mundari field-hockey rule booklet attributed to Hans",
+      "first published in 1941",
+      "reported extent 23 pages",
+      "rare surviving copy reported in possession of Reverend Cyril Hans"
+    ]
+  },
+  "reconciliation": {
+    "person_identity_corroborated": true,
+    "booklet_primary_manifestation_verified": false,
+    "relationship_note": "The NPG authority independently corroborates the historical person identity and episcopal role associated with the newspaper account, but it does not catalogue, describe, hold, or authenticate the 1941 hockey booklet.",
+    "deduplication_rule": "Do not create a new permanent booklet SOURCE identity from this corroboration alone; retain the newspaper record as a secondary bibliographic/custody lead until a primary catalogue, archive, accession, scan/facsimile, title-page/imprint, or direct-custody record is independently verified."
+  },
+  "rights_access": {
+    "booklet_rights_verified": false,
+    "custody_permission_verified": false,
+    "digitization_or_redistribution_permission_verified": false,
+    "cultural_access_clearance_verified": false,
+    "public_reporting_is_not_reuse_permission": true
+  },
+  "promotion_boundary": {
+    "promoted": [
+      "authority-level corroboration of Hans's person identity and episcopal role"
+    ],
+    "not_promoted": [
+      "booklet title-page identity",
+      "booklet pagination as primary evidence",
+      "booklet text or glossary",
+      "hockey terminology",
+      "cultural propositions",
+      "copyright/reuse status",
+      "custody permission",
+      "community validation"
+    ]
+  },
+  "blocker_reduction": {
+    "resolved_this_run": [
+      "independent authority corroboration of the historical person named in the secondary hockey-booklet account"
+    ],
+    "remaining": [
+      "primary catalogue/archive/accession record for the booklet",
+      "scan/facsimile or title-page/imprint verification",
+      "direct custody verification",
+      "rights and digitization permission",
+      "cultural-access review"
+    ]
+  },
+  "integrity": {
+    "secondary_report_treated_as_primary": false,
+    "rights_inferred_from_public_availability": false,
+    "cultural_claims_fabricated": false,
+    "community_validation_fabricated": false
+  }
+}

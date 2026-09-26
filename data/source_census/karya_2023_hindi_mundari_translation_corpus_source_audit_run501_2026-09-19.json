@@ -1,0 +1,62 @@
+{
+  "run": 501,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica",
+  "canonical_source_id": "KARYA_2023_HINDI_MUNDARI_TRANSLATION",
+  "title": "Hindi to Mundari Translation Dataset Corpus",
+  "resource_class": ["dataset", "parallel_corpus", "web_resource"],
+  "language_pair": ["Hindi", "Mundari"],
+  "mundari_iso_639_3": "unr",
+  "canonical_repository": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+  "immutable_upstream_commit": "243bb780906750fcf6e2b27693dd24898f0c79d1",
+  "dataset_path": "translation-hi-unr.tsv",
+  "dataset_git_blob_sha1": "131c55a5b8197a58d663a7e40d888a92869288c6",
+  "provider_reported_sentence_pairs": 17826,
+  "creators_reported_by_provider": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+  "collaboration_reported_by_provider": "Indo-German Development Cooperation FAIR Forward - Artificial Intelligence for all; implemented by GIZ on behalf of BMZ",
+  "copyright": "2023 DAIA Tech Pvt Ltd.",
+  "license": {
+    "id": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+    "short_name": "KPL BY-NC-SA-FS 1.0",
+    "verified_terms": ["reproduce/share for NonCommercial purposes", "produce/reproduce/share adapted material for NonCommercial purposes", "incorporate for NonCommercial purposes", "attribution conditions", "ShareAlike conditions", "FreeSoftware incorporation condition"],
+    "caution": "License grants copyright/database rights only to the extent held by licensor and explicitly does not license privacy/publicity or other personality rights; open/public availability therefore does not establish participant/translator consent for every downstream use."
+  },
+  "identity_verification": {
+    "status": "verified_provider_repository_and_immutable_commit",
+    "verified_fields": ["title", "language pair", "reported 17,826 sentence pairs", "creator collaboration", "copyright", "license", "immutable upstream commit", "dataset Git blob identity"],
+    "verified_on": "2026-09-19"
+  },
+  "deduplication": {
+    "canonicalization_rule": "README, TSV, license, copyright file, mirrors, forks and derivative distributions of the same Karya corpus are manifestations/dependencies of one canonical dataset identity unless independently collected data are demonstrated.",
+    "independence_rule": "Individual sentence pairs are records within one corpus, not independent sources; publications/models using this corpus do not become independent linguistic corroboration merely by reuse."
+  },
+  "scope": {
+    "in_scope": true,
+    "use": "modern Mundari parallel-text/translation evidence after record-level validation",
+    "limitations": ["provider corpus is translation data rather than independently elicited grammar", "translation direction/source-text provenance must be retained", "sentence-level linguistic claims require record-level validation", "cultural claims must not be inferred from translated sentence content"]
+  },
+  "rights_access_consent_culture": {
+    "access": "public GitHub repository; immutable commit verified",
+    "reuse_basis": "KPL BY-NC-SA-FS 1.0, NonCommercial and downstream conditions apply",
+    "participant_or_translator_consent": "not established from README/license inspected in this run; do not infer",
+    "cultural_sensitivity": "translated sentences must be screened before cultural interpretation or publication as cultural evidence",
+    "uncertainty_preserved": true
+  },
+  "exact_locator_progress": {
+    "immutable_commit_verified": true,
+    "dataset_blob_sha1_verified": true,
+    "dataset_sha256": null,
+    "record_count_locally_recomputed": false,
+    "exact_row_ingestion_ready": false,
+    "blocker": "Connector exposed the immutable Git blob identity but not complete deterministic bytes in a form from which this run could independently compute SHA-256 and recompute all 17,826 rows. Provider count is therefore retained explicitly as provider-reported, not audited-local count."
+  },
+  "promotion": {
+    "claims_promoted_this_run": 0,
+    "evidence_records_promoted_this_run": 0,
+    "reason": "No sentence-level evidence is promoted until full immutable TSV bytes are locally hashed, row count/schema are independently recomputed, and exact row locators plus consent/cultural-access status are recorded. The source has nevertheless advanced beyond discovery-only to immutable-commit/blob-level ingestion staging.",
+    "required_next_steps": ["materialize full TSV bytes from immutable upstream commit", "compute SHA-256", "recompute row count and malformed/duplicate row statistics", "assign deterministic row identifiers", "retain Hindi source and Mundari translation together", "screen record-level provenance/consent/cultural sensitivity", "promote only supported permitted records with exact locators"],
+    "target_locator": "github:karya-inc/dataset-hindi-mundari-translation@243bb780906750fcf6e2b27693dd24898f0c79d1/translation-hi-unr.tsv#row=<n>;git-blob=131c55a5b8197a58d663a7e40d888a92869288c6;sha256=<hash>"
+  },
+  "release_invariants_added": ["corpus_record_does_not_equal_independent_source", "translation_pair_does_not_equal_cultural_claim", "license_does_not_equal_participant_or_translator_consent", "provider_reported_count_does_not_equal_locally_audited_count"],
+  "release_gate_effect": "source census and ingestion staging strengthened; controlled evidence counts unchanged pending deterministic full-byte/row audit"
+}

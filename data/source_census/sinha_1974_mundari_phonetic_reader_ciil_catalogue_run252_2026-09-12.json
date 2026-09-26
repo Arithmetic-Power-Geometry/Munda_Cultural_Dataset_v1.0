@@ -1,0 +1,79 @@
+{
+  "run_id": 252,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and verification",
+  "source_class": ["books", "phonetics", "language_learning", "institutional_catalogue"],
+  "work": {
+    "canonical_title": "Mundari Phonetic Reader",
+    "author": "N. K. Sinha",
+    "year": 1974,
+    "publisher": "Central Institute of Indian Languages",
+    "publication_place": "Mysore",
+    "series": "CIIL phonetic reader series",
+    "series_number": 13
+  },
+  "official_ciil_catalogue_observation": {
+    "provider": "Central Institute of Indian Languages (CIIL)",
+    "catalogue_url": "https://www.ciil.gov.in/download/Final_Detailed_Catalogue_Final.pdf",
+    "observed_title": "Mundari Phonetic Reader",
+    "observed_author": "N.K. Sinha",
+    "isbn": "Nil",
+    "category": "Phonetic Reader Series",
+    "pages": 102,
+    "price_inr": 5,
+    "year_of_publication": 1974,
+    "content_language": "English",
+    "subject_language": "Mundari",
+    "cover_series_label": "CIL Phonetic Reader Series—13",
+    "verification_level": "official institutional catalogue metadata; not a verified full-text manifestation",
+    "inspection_note": "Search-index extraction exposed the CIIL catalogue entry. Direct PDF retrieval through the research backend was too large to open, and screenshot inspection was unavailable in that backend path; therefore this record is deliberately treated as catalogue-metadata corroboration, not page-image verification."
+  },
+  "cross_source_extent_conflict": {
+    "observations": [
+      "Official CIIL catalogue: 102 pages",
+      "CiNii BA72929895: viii, 102 p.",
+      "Google Books hITRAAAAMAAJ: 102 pages",
+      "Google Books Rn8KAQAAIAAJ: 102 pages",
+      "Cambridge/Language review: xi, 103 pp.",
+      "ERIC ED228863: xii, 103 pp."
+    ],
+    "disposition": "retain all observations without normalization; resolve only after lawful complete bytes and scan-to-printed-page reconciliation"
+  },
+  "deduplication": {
+    "canonical_key": "sinha-nk|1974|mundari-phonetic-reader|ciil-series-13",
+    "identity_count_change": false,
+    "reason": "The official CIIL catalogue corroborates the same underlying work already audited in Run 251 and is not counted as a new source identity."
+  },
+  "rights_access_boundary": {
+    "catalogue_metadata_retainable_with_provenance": true,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "scan_sequence_to_printed_pagination_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion": {
+    "level": "official institutional catalogue corroboration only",
+    "content_evidence_promoted": false,
+    "passages_promoted": 0,
+    "phonetic_examples_promoted": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "evidence_claim_count_change": false
+  },
+  "explicit_gaps": [
+    "lawful complete source bytes",
+    "independent cryptographic hash",
+    "front-matter and printed-page reconciliation",
+    "page-image sequence verification",
+    "OCR verification",
+    "exact page-level phonetic-example verification",
+    "redistribution and model-training permission",
+    "participant/community provenance and cultural-access review"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "run": 408,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government", "census", "dataset"],
+  "provider": "Office of the Registrar General & Census Commissioner, India",
+  "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+  "catalog_locator": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+  "scope": "Jharkhand 2011 Census bilingualism/trilingualism table; provider catalogue explicitly exposes MUNDA and MUNDARI total-speaker variables and subsidiary-language fields.",
+  "identity_verification": {
+    "provider_authority": "official Census of India NADA catalogue",
+    "catalog_id": "10282",
+    "verified_on": "2026-09-16"
+  },
+  "canonicalization": {
+    "rule": "Catalogue page, downloadable table manifestations, and mirrors are manifestations of the same Census C-17 Jharkhand table unless edition/revision metadata proves otherwise.",
+    "repository_exact_lead_search_before_ingestion": "no match for C-17 bilingualism trilingualism"
+  },
+  "exact_locator_level": {
+    "catalog_id": "10282",
+    "verified_fields": ["Language - Total speakers - MUNDA", "Language - Total speakers - MUNDARI", "1st subsidiary language fields"],
+    "byte_hash": null,
+    "row_cell_locator": null,
+    "status": "provider-variable exact locator; downloadable manifestation and row/cell mapping pending"
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "public_catalogue": true,
+    "reuse_permission_for_downloaded_manifestation_verified": false,
+    "participant_consent_for_secondary_cultural_inference_verified": false,
+    "cultural_access_review": "not applicable to aggregate census variables unless later linked to sensitive/community-restricted material",
+    "note": "Public government catalogue availability is not treated as blanket permission for unrestricted redistribution or as support for cultural claims."
+  },
+  "promotion": {
+    "new_claims": 0,
+    "new_evidence_records": 0,
+    "new_graph_links": 0,
+    "controlled_count_change": false,
+    "reason": "Downloadable immutable table, checksum and deterministic row/cell locators must be verified before numeric evidence promotion; Runs381-408 also require WEB-MUN ledger reconciliation."
+  },
+  "gaps": [
+    "obtain permitted downloadable C-17 Jharkhand manifestation",
+    "record immutable bytes and SHA-256",
+    "map MUNDA and MUNDARI rows/cells deterministically",
+    "verify table metadata/footnotes before numerical interpretation",
+    "reconcile against WEB-MUN ledger before changing controlled census counts"
+  ]
+}

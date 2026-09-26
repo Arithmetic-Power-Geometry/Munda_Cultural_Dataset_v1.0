@@ -1,0 +1,57 @@
+{
+  "record_type": "mundarica_manifestation_verification",
+  "run_id": 120,
+  "verified_on": "2026-09-09",
+  "work": {
+    "title": "Encyclopaedia Mundarica",
+    "volume": 13,
+    "authors": ["Johann Hoffmann", "Arthur van Emelen"]
+  },
+  "verified_manifestation": {
+    "source": "Google Books bibliographic record derived from a New York Public Library original",
+    "google_books_id": "AzUVzw1KqJkC",
+    "title_as_displayed": "Encyclopaedia Mundarica, Volume 13",
+    "publisher_as_displayed": "Superintendent government printing, Bihar and Orissa",
+    "publication_year_as_displayed": 1941,
+    "original_from": "the New York Public Library",
+    "digitized_date_as_displayed": "2024-08-28",
+    "access_state": "bibliographic/snippet record observed; authoritative repository bytes not independently acquired in this run"
+  },
+  "deterministic_identity_decision": {
+    "decision": "Treat this as additional manifestation-level corroboration for historical text Volume XIII, not as a new canonical work and not as proof of complete scan acquisition.",
+    "historical_volume_xiii_supported": true,
+    "authoritative_scan_registered": false,
+    "machine_verified_complete": false,
+    "page_accounting_complete": false,
+    "ocr_verified_transcription": false
+  },
+  "modern_manifestation_boundary": {
+    "modern_2009_sixteen_volume_model_observed": true,
+    "historical_xiv_xvi_equivalence_inferred": false,
+    "reason": "A verified historical Volume XIII manifestation does not establish that modern volumes XIV-XVI correspond to historical text volumes XIV-XVI."
+  },
+  "not_promoted": [
+    "dictionary entries",
+    "cultural propositions",
+    "page-level claims",
+    "OCR text",
+    "scan completeness",
+    "reuse permission",
+    "community validation"
+  ],
+  "rights_and_cultural_boundary": {
+    "public_bibliographic_visibility_is_reuse_permission": false,
+    "content_level_ingestion_permitted_from_this_record": false,
+    "cultural_access_override_required_for_sensitive_material": true
+  },
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "gap_narrowed": "Historical Volume XIII now has additional library-origin manifestation provenance and a displayed 1941 imprint, while authoritative bytes, checksum, scan/page accounting, OCR verification and reuse review remain pending."
+  },
+  "sources_checked": [
+    "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "run": 610,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "title": "Murma Jatra of Jharkhand: Unearthing the Tales of Tribal Cultural Confluence",
+    "authors": ["Shreya Bhattacharji", "Gunjan Kumar Jha", "Hare Krishna Kuiry"],
+    "date": "2024-01-18",
+    "publisher": "Registrar, Vidyasagar University on behalf of Vidyasagar University Publication Division",
+    "series_or_journal": "Journal of the Department of English",
+    "volume": "17",
+    "pages": "167-180",
+    "issn": "0973-3671",
+    "repository": "Vidyasagar University Digital Repository",
+    "repository_handle": "https://ir.vidyasagar.ac.in/handle/123456789/7045"
+  },
+  "source_class": ["peer-reviewed-or-editorial-journal-record-unverified-review-status", "institutional-repository", "folklore", "oral-history", "festival-fair", "Munda-Oraon-intercommunity-history"],
+  "scope": {
+    "decision": "in-scope with mixed-community caution",
+    "reason": "The institutional repository metadata explicitly identifies Munda and Oraon scope and states that the article focuses in part on Munda-Oraon stories of blood brotherhood connected with Murma Jatra. It must not be represented as Munda-only evidence."
+  },
+  "identity_verification": {
+    "status": "verified-at-institutional-repository-metadata-level",
+    "verified_fields": ["title", "authors", "issue date", "publisher", "volume", "pages", "ISSN", "repository handle", "PDF manifestation listed"],
+    "review_status": "not independently verified; do not label peer reviewed until journal process is confirmed"
+  },
+  "deduplication": {
+    "repository_exact-title_search_before_insert": "no exact repository match returned",
+    "canonicalization_rule": "repository landing page and listed PDF are manifestations of one work, not independent corroborating sources"
+  },
+  "access_and_rights": {
+    "landing_page": "public",
+    "pdf": "repository lists a 1.84 MB PDF as View/Open",
+    "redistribution_license": "not established from verified metadata",
+    "binary_ingestion": "not permitted until file-level rights are verified",
+    "rights_rule": "public readability/downloadability is not treated as permission to redistribute"
+  },
+  "cultural_and_consent_controls": {
+    "risk": "oral-history, ritual, ancestor/spirit and intercommunity tradition content may contain culturally contextual or sensitive material",
+    "participant_consent": "not verified from metadata; inspect full text before participant-derived evidence promotion",
+    "generalization_bar": "claims about Murma Jatra, named participating groups, villages/parhas, origin chronology, ritual practice or blood-brotherhood narratives must remain source- and locality-bounded unless independently corroborated"
+  },
+  "exact_locator_conversion": {
+    "status": "queued; metadata gives article pages 167-180 and an obtainable institutional-repository PDF",
+    "required_steps": [
+      "obtain authoritative repository PDF through permitted access",
+      "record cryptographic hash and stable manifestation URL",
+      "verify printed pages 167-180 against PDF pagination",
+      "inspect methods/provenance for folklore and oral-history statements",
+      "separate author synthesis, cited secondary literature, participant/oral testimony and direct observation",
+      "create proposition-level page/section/quotation-free locators only for supported evidence",
+      "verify reuse rights and any participant/performer consent restrictions before binary or media reuse"
+    ]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Full-text provenance, exact proposition locators, review status, reuse rights and consent/cultural controls require verification before controlled promotion."
+  },
+  "gaps_preserved": [
+    "peer-review/editorial-review status not independently verified",
+    "file-level reuse license not established",
+    "oral-history informant/provenance and consent not yet inspected",
+    "exact proposition-level PDF locators not yet extracted"
+  ],
+  "audit_principle": "Do not convert mixed Munda-Oraon festival narratives into universal Munda cultural facts; preserve uncertainty and dependency."
+}

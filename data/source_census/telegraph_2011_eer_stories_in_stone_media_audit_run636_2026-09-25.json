@@ -1,0 +1,61 @@
+{
+  "run": 636,
+  "audit_date": "2026-09-25",
+  "branch": "mlhkp-v2",
+  "canonical_work": {
+    "title": "Real causes for reel man",
+    "publisher": "The Telegraph (India)",
+    "publication_date": "2011-03-12",
+    "location_line": "Ranchi, March 11",
+    "source_class": [
+      "newspaper",
+      "media-report",
+      "audiovisual-discovery"
+    ],
+    "url": "https://www.telegraphindia.com/jharkhand/real-causes-for-reel-man/cid/416382"
+  },
+  "described_audiovisual_work": {
+    "title": "Eer - Stories in Stone",
+    "director": "Shriprakash",
+    "co_production": [
+      "Doordarshan",
+      "Public Service Broadcasting Trust"
+    ],
+    "format": "documentary; two parts of 26 minutes each (as reported)",
+    "munda_relevance": "Report says documentary traces oral tradition of multiple Indigenous communities including Mundas and Hos of Jharkhand; Ram Dayal Munda was among experts interviewed; Tej and Bhushan Mundu provided score.",
+    "scope_classification": "multi-community comparative; not Munda-specific by default"
+  },
+  "exact_locators": [
+    {
+      "manifestation": "Telegraph India article",
+      "locator": "article body, paragraphs beginning 'Eer means ballad' through 'Among experts'",
+      "support": "documentary identity, co-production, multi-community scope, two-part duration, field travel statement, named expert Ram Dayal Munda"
+    }
+  ],
+  "canonicalization": {
+    "rule": "The newspaper article is a secondary report about the documentary, not an independent manifestation of the film and not independent corroboration of cultural propositions shown in it.",
+    "repository_filename_dedup": "No Eer/Shriprakash/Stories-in-Stone audit filename was present in data/source_census on mlhkp-v2 before insertion."
+  },
+  "rights_access_consent": {
+    "article_access": "publicly readable publisher page",
+    "article_reuse": "not established beyond ordinary citation; no binary copied",
+    "documentary_access": "not established in this run",
+    "participant_or_community_consent": "not established",
+    "cultural_access": "requires review before any audiovisual proposition promotion"
+  },
+  "promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_links": 0,
+    "binaries_ingested": 0,
+    "reason": "Secondary newspaper report and multi-community documentary discovery do not support Munda-specific proposition promotion without lawful film access, segment-level inspection, provenance, attribution, consent/cultural-access review and HH:MM:SS locators."
+  },
+  "blocked_next_step": "Locate a lawful authoritative manifestation of Eer - Stories in Stone; if obtainable, verify credits/date/version and inspect Munda-relevant segments with HH:MM:SS locators. If blocked, retain explicit gap and continue other classes.",
+  "sources": [
+    {
+      "provider": "The Telegraph India",
+      "url": "https://www.telegraphindia.com/jharkhand/real-causes-for-reel-man/cid/416382",
+      "verified": "2026-09-25"
+    }
+  ]
+}

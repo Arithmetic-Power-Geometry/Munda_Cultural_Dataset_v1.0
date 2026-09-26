@@ -1,0 +1,31 @@
+{
+  "run": 349,
+  "captured_date": "2026-09-14",
+  "scope": "non-Mundarica provider-level linguistic database locators",
+  "records": [
+    {
+      "provider": "WALS Online",
+      "title": "Language Mundari",
+      "locator": "https://wals.info/languoid/lect/wals_code_mun",
+      "provider_identifiers": {"wals_code": "mun", "iso_639_3": "unr"},
+      "provider_metadata_verified": ["language identity", "WALS code", "ISO 639-3 code", "India as spoken-in country", "bibliographic source list", "CC BY 4.0 database licence statement"],
+      "source_list_observed": ["Abbi 1992", "Bhattacharya 1976", "Cook 1965", "Gumperz and Bilibiri 1957", "Hoffmann 1903", "Nottrott 1882", "Osada 1992", "Osada 2007", "Pinnow 1959", "Sinha 1975"],
+      "promotion_level": "exact provider locator and metadata only",
+      "not_promoted": ["individual WALS feature values", "linguistic claims", "underlying source-text rights", "community validation", "participant consent", "cultural-access authorization"]
+    },
+    {
+      "provider": "PHOIBLE 2.0",
+      "title": "Language Mundari",
+      "locator": "https://phoible.org/languages/mund1320",
+      "provider_identifiers": {"glottocode": "mund1320", "iso_639_3": "unr"},
+      "provider_metadata_verified": ["language identity", "Glottocode", "ISO 639-3 code", "five provider inventory manifestations listed", "CC BY-SA 3.0 database licence statement"],
+      "provider_inventory_manifestations_observed": ["SPA 10", "UPSID 602", "RA 1713 Bhumij mapped on the language page", "RA 1770", "EA 2295"],
+      "promotion_level": "exact provider locator and inventory-manifestation metadata only",
+      "not_promoted": ["phoneme or segment strings", "inventory counts as controlled MLHKP linguistic claims", "underlying source-text rights", "speaker or participant consent", "community validation", "cultural-access authorization"]
+    }
+  ],
+  "governance_boundary": "Open database licensing permits reuse subject to its terms but does not establish rights in every underlying source, participant consent, community validation, or MLHKP cultural-access authorization.",
+  "controlled_claims_added": 0,
+  "controlled_evidence_records_added": 0,
+  "controlled_counts_changed": false
+}

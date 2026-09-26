@@ -1,0 +1,38 @@
+{
+  "run": 639,
+  "audited_at_utc": "2026-09-25T12:55:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": ["peer_reviewed_article","customary_law","land_inheritance","gender"],
+  "canonical_work": {
+    "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+    "author": "Shalini Saboo",
+    "journal": "Indian Journal of Public Administration",
+    "volume": "66",
+    "issue": "4",
+    "pages": "552-562",
+    "year": "2020",
+    "doi": "10.1177/0019556120982196",
+    "publisher": "SAGE"
+  },
+  "identity_verification": {
+    "authoritative_record": "SAGE journal article record",
+    "doi": "10.1177/0019556120982196",
+    "publisher_access_state": "restricted access",
+    "scope_from_abstract": "Munda women in Jharkhand; customary land inheritance and associated legal/social impediments."
+  },
+  "access_rights_governance": {
+    "full_text_status": "publisher full text restricted in this run",
+    "redistribution_permission": "not established",
+    "participant_or_community_consent_for_downstream_reuse": "not established from accessible publisher metadata",
+    "cultural_uncertainty": "Do not generalize customary-law propositions beyond the study population, temporal context, and locations until methods/results are inspected."
+  },
+  "conversion_state": {
+    "level": "authoritative bibliographic and work-page-range verification; proposition conversion blocked",
+    "work_locator": "Indian Journal of Public Administration 66(4):552-562; DOI 10.1177/0019556120982196",
+    "blocked_reason": "Authoritative publisher record is restricted; exact proposition page/table/section locators were not lawfully verified.",
+    "next_action": "Obtain lawful full text; inspect methods, sample/localities, primary-vs-secondary basis and participant treatment; promote only atomic Munda-specific propositions with exact locators and governance review."
+  },
+  "controlled_promotion": {"claims_added":0,"evidence_records_added":0,"links_added":0,"binaries_added":0},
+  "canonicalization_note": "DOI, SAGE landing pages and secondary index/mirror records identify one canonical article and must not be counted as independent corroboration.",
+  "no_fabrication": true
+}

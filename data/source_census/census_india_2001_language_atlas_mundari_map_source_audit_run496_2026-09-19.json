@@ -1,0 +1,54 @@
+{
+  "run": 496,
+  "audit_date": "2026-09-19",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": {
+    "corporate_author": "Office of the Registrar General & Census Commissioner, India",
+    "title": "Language Atlas 2001",
+    "item_title": "Mundari Speakers 2001",
+    "publisher": "Census of India, Government of India",
+    "reference_year": 2001,
+    "official_manifestation": "https://www.censusindia.gov.in/ebook/2001/mobile/"
+  },
+  "source_class": ["government", "census", "language_atlas", "map", "web_resource"],
+  "scope": "Official Census of India cartographic representation of the geographic distribution of Mundari speakers in 2001; non-Mundarica demographic/cartographic candidate.",
+  "discovery": {
+    "verified_official_url": "https://www.censusindia.gov.in/ebook/2001/mobile/",
+    "verified_item_label": "Mundari Speakers 2001",
+    "verification_note": "The live official Census of India Language Atlas 2001 flip-book index exposes a separately labelled item 'Mundari Speakers 2001'.",
+    "repository_prior_match_search": "Mundari Speakers 2001",
+    "repository_prior_match_count": 0
+  },
+  "canonicalization": {
+    "rule": "Treat the flip-book page, image derivatives, thumbnails, cached/search manifestations, and any mirrors of the same Census 2001 atlas map as manifestations of one underlying Census cartographic item. Do not count derivative maps based on Census 2001 as independent demographic corroboration.",
+    "independent_source_count": 1,
+    "upstream_dependency": "Census of India 2001 language returns; the map is a visualization/derivative of the underlying census data and must not be counted as an independent population observation."
+  },
+  "rights_access": {
+    "status": "official_public_access_reuse_terms_not_yet_verified",
+    "notes": "Official public web access establishes provenance and discoverability, not by itself a redistribution or derivative-use licence. Preserve the official URL and do not redistribute image bytes until applicable Census/ORGI reuse terms are verified.",
+    "promotion_allowed": false
+  },
+  "evidence_ingestion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "The official item identity is verified, but immutable permitted map bytes, cryptographic hash, exact atlas page/item identifier, legend/scale transcription, reuse basis, and concordance with the underlying Census 2001 table have not yet been established.",
+    "required_locator": "<official-or-permitted-immutable-map>#item=Mundari-Speakers-2001;atlas-page=<n>;sha256=<hash>;upstream=Census-2001",
+    "gates": [
+      "resolve stable item/page identifier inside the official atlas",
+      "establish applicable reuse/redistribution basis",
+      "obtain lawful immutable map bytes and compute SHA-256",
+      "record exact atlas page/item locator and map legend/scale metadata",
+      "cross-check mapped categories against the authoritative Census 2001 language table",
+      "tag the map as derivative of Census 2001 so it cannot inflate independent-source counts",
+      "preserve cartographic uncertainty and avoid inferring community/cultural claims from spatial shading",
+      "deterministically reconcile against existing Census/LSI/map discovery leads before MMSC count changes"
+    ]
+  },
+  "cultural_claims": [],
+  "uncertainty": "Official identity and Mundari item label are verified; map-content extraction and quantitative interpretation remain unverified and unpromoted.",
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "status": "explicit gap pending deterministic ingestion and reconciliation"
+  }
+}

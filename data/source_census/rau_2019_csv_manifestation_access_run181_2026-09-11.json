@@ -1,0 +1,70 @@
+{
+  "project": "MLHKP",
+  "run": 181,
+  "branch": "mlhkp-v2",
+  "audited_release_deadline_ist": "2026-09-21T23:59:00+05:30",
+  "source": {
+    "creator": "Felix Rau",
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "year": 2019,
+    "version": "0.1.0",
+    "doi": "10.5281/zenodo.3380874",
+    "publisher": "Zenodo",
+    "resource_type": "Dataset"
+  },
+  "authoritative_repository_metadata": {
+    "published_date": "2019-08-29",
+    "modified_date": "2022-10-20",
+    "repository_access_label": "Open",
+    "source_reported_cognate_sets": 127,
+    "source_reported_languages_include_mundari": true,
+    "supplement_to_doi": "10.5281/zenodo.3380908"
+  },
+  "exact_manifestation": {
+    "filename": "pMunda_cognate_set_2019-08-29.csv",
+    "repository_reported_size": "34.9 kB",
+    "repository_reported_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "download_endpoint_resolved_to_text_manifestation": true,
+    "manifestation_header_verified": true,
+    "manifestation_line_count_exposed_by_retrieval": 130,
+    "mundari_columns_present": ["mu_form", "mu_source"],
+    "independent_hash_recomputed": false,
+    "local_byte_copy_retained_by_mlhkp": false,
+    "note": "The authoritative Zenodo download endpoint rendered the CSV as text during Run 181, allowing direct manifestation/header verification. The repository MD5 remains repository-reported because a local byte-preserving acquisition suitable for independent hashing was not retained."
+  },
+  "rights_and_cultural_access": {
+    "zenodo_rights_section_present": true,
+    "exact_license_value_exposed_in_retrieved_authoritative_record": false,
+    "reuse_permission_inferred": false,
+    "row_level_reuse_permitted_by_this_audit": false,
+    "underlying_dictionary_or_pinnow_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "ml_training_permission_inferred": false
+  },
+  "evidence_boundary": {
+    "promoted": [
+      "dataset identity",
+      "version and DOI",
+      "repository-reported file name, size and MD5",
+      "direct accessibility of the CSV manifestation through the authoritative Zenodo download endpoint",
+      "CSV header presence of Mundari form/source fields"
+    ],
+    "dataset_rows_ingested": false,
+    "lexical_or_reconstruction_claim_promoted": false,
+    "cultural_claim_promoted": false,
+    "participant_material_ingested": false,
+    "evidence_graph_count_changed": false
+  },
+  "deduplication": {
+    "reconciles_existing_run167_identity": true,
+    "new_permanent_identity_assigned": false,
+    "counts_changed": false
+  },
+  "remaining_gaps": [
+    "Resolve the exact authoritative licence value/licence URL before row-level reuse.",
+    "Acquire a byte-preserving lawful local copy and independently recompute the checksum before claiming hash verification.",
+    "Do not ingest lexical forms, reconstructions or source-derived rows until the applicable reuse boundary is verified."
+  ]
+}

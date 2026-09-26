@@ -1,0 +1,31 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-10",
+  "purpose": "Non-Mundarica discovery and exact-locator promotion for a recent peer-reviewed Munda ethnographic/megalith study. The raw web observation is preserved, but deterministic reconciliation shows it is not a new source identity.",
+  "records": [
+    {
+      "id": "WEB-MUN-0089",
+      "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+      "source_class": "peer_reviewed_article_ethnography_material_culture",
+      "authors": ["Elizabeth Tuti", "Meena Kumari", "Kumari Vibhuti Nayak", "Shamsher Alam"],
+      "journal": "Social Evolution & History",
+      "volume": "24",
+      "issue": "2",
+      "year": 2025,
+      "pages": "3-26",
+      "doi": "10.30884/seh/2025.02.01",
+      "url": "https://www.socionauki.ru/journal/articles/4001085/",
+      "pdf_url": "https://www.socionauki.ru/upload/socionauki.ru/journal/seh/2025_2/001_Nayak_et_al_(3-26).pdf",
+      "verification_state": "publisher_article_page_and_24_page_publisher_pdf_verified; methods_and_ethics_exact_locators_verified; duplicate_identity_reconciled_run154",
+      "access_class": "PUBLICLY_READABLE_PUBLISHER_PDF_COPYRIGHTED_PARTICIPANT_DERIVED_CONTENT_GATED",
+      "rights_note": "Publisher PDF states © 2025 'Uchitel' Publishing House. No Creative Commons licence was identified on the article page in this sweep. Public readability is not treated as redistribution permission. Participant-derived oral narratives, interview content, ritual knowledge, pseudonym-linked statements and sensitive cultural information are not promoted for reuse solely because the article is public.",
+      "scope_note": "Relevant to contemporary Munda megalith research in rural Ranchi. The paper reports qualitative ethnographic/participatory methods with 15 Munda participants and states verbal consent, pseudonymity/confidentiality, express permission for sensitive cultural information, and consultation with community leaders/elders. These statements establish study-reported ethics only; they do not establish MLHKP secondary-use consent or community-wide validation.",
+      "canonicalization": {
+        "status": "duplicate_raw_web_observation_of_existing_permanent_identity",
+        "canonical_source_id": "SRC-MMSC-000002",
+        "dedupe_key": "doi:10.30884/seh/2025.02.01",
+        "decision": "Run 154 exact DOI/title/author/year reconciliation established that SRC-MMSC-000002 already represented this intellectual work before WEB-MUN-0089 was registered. Preserve WEB-MUN-0089 as an immutable later publisher-manifestation audit observation, but do not count it as a unique web lead, unresolved lead, or new audited source identity."
+      }
+    }
+  ]
+}

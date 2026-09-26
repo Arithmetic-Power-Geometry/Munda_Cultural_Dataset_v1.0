@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "checked_utc": "2026-09-08T13:31:00Z",
+  "branch": "mlhkp-v2",
+  "source_id": "SRC-MMSC-000004",
+  "existing_discovery_identity": "WEB-MUN-0057",
+  "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+  "creator": "Pallavi Raonka",
+  "source_type": "doctoral_dissertation",
+  "repository": "Virginia Tech VTechWorks",
+  "persistent_identifier": {
+    "scheme": "HANDLE",
+    "value": "10919/111386"
+  },
+  "repository_date": "2021-02-02",
+  "dissertation_front_matter": {
+    "degree": "Doctor of Philosophy in Sociology",
+    "institution": "Virginia Polytechnic Institute and State University",
+    "dissertation_date_printed": "2020-08-20",
+    "copyright_notice": "Copyright ©2020 Pallavi Raonka"
+  },
+  "download": {
+    "filename": "Raonka_P_D_2021.pdf",
+    "repository_reported_size": "2.33 MB",
+    "page_count_observed_by_retrieval": 187,
+    "state": "institutional_repository_pdf_publicly_downloadable"
+  },
+  "exact_locators_verified": [
+    {
+      "locator": "PDF p. 1 (PDF index P0 / title page)",
+      "supports": "title, author, PhD in Sociology, committee, dissertation date, copyright notice and institution"
+    },
+    {
+      "locator": "PDF p. 2 (PDF index P1 / ABSTRACT)",
+      "supports": "author-reported study scope: fifteen-month ethnographic study from May 2017 to December 2018; Jharkhand/Munda land-politics research framing"
+    },
+    {
+      "locator": "PDF p. 6 (PDF index P5 / TABLE OF CONTENTS)",
+      "supports": "chapter-level locator map including Chapter 3 Munda Adivasi and Land and Chapter 4 Munda Adivasi Women; this is a navigation locator only, not evidence that chapter propositions are verified"
+    }
+  ],
+  "existing_claim_linkage": {
+    "claim_id": "CLM-000041",
+    "claim_state": "dissertation_abstract_reported",
+    "upgrade": "institutional repository abstract locator strengthened to exact dissertation PDF abstract page; claim wording remains bounded and unchanged"
+  },
+  "rights_and_governance": {
+    "technical_access": "public repository download observed",
+    "copyright": "copyright notice present; unrestricted redistribution or derivative reuse not inferred",
+    "participant_and_fieldwork_material": "not promoted for reuse",
+    "consent_state": "not independently verified by MLHKP",
+    "community_validation": "not claimed",
+    "cultural_access": "overrides technical or legal availability",
+    "restriction": "participant quotations, local meanings, photographs, supporting documents and fieldwork-derived propositions require exact-page ethics/consent/rights/cultural-access review before deeper ingestion"
+  },
+  "verification_boundary": "This artifact verifies bibliographic identity, repository access, front matter, abstract study scope and navigation locators only. It does not validate the dissertation's substantive cultural claims, current representativeness, participant consent, community endorsement, or unrestricted reuse.",
+  "screenshot_state": "attempted for PDF title and contents pages; retrieval service returned cache-miss, so no screenshot-based visual attestation is claimed",
+  "counts_changed": false
+}

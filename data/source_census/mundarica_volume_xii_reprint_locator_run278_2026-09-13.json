@@ -1,0 +1,62 @@
+{
+  "run_id": 278,
+  "date_utc": "2026-09-12",
+  "stream": "Mundarica I-XVI acquisition / page accounting / source census",
+  "volume": "XII",
+  "source": {
+    "title": "Encyclopaedia Mundarica, Vol.12",
+    "manifestation_type": "modern commercial reprint",
+    "publisher": "Gyan Publishing House",
+    "publication_year": 2009,
+    "isbn_13": "9788121203166",
+    "isbn_10": "8121203163",
+    "reported_print_length_pages": 250,
+    "verification_sources": [
+      {
+        "url": "https://www.flipkart.com/encyclopaedia-mundarica-vol-12/p/itmdzwfggzudqwju",
+        "verified_fields": ["title", "publisher", "publication_year", "isbn_13"]
+      },
+      {
+        "url": "https://thebookishowl.in/product/266564/",
+        "verified_fields": ["title", "publisher", "publication_year", "isbn_10", "isbn_13", "reported_print_length_pages"]
+      }
+    ]
+  },
+  "existing_historical_bibliographic_state": {
+    "printed_page_range": "3457-3707",
+    "equated_to_reprint_pagination": false,
+    "reason": "The historical printed-page range and the modern reprint's reported 250-page extent are distinct manifestation-level observations; no page concordance has been established."
+  },
+  "verification_level": "independent modern-reprint bibliographic manifestation locator only",
+  "promotion": {
+    "authoritative_registered_scan_count_change": false,
+    "verified_complete_volume_count_change": false,
+    "ocr_verified": false,
+    "historical_scan_bytes_acquired": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "cultural_claims_promoted": 0
+  },
+  "rights_and_cultural_boundary": {
+    "commercial_availability_treated_as_redistribution_permission": false,
+    "reprint_listing_treated_as_model_training_permission": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "integrity_boundary": {
+    "reprint_bytes_acquired": false,
+    "historical_scan_bytes_acquired": false,
+    "independent_hash_computed": false,
+    "printed_page_to_scan_image_concordance_verified": false,
+    "ocr_verified": false,
+    "completeness_verified": false
+  },
+  "explicit_gaps": [
+    "Acquire a lawful historical or otherwise permitted exact Volume XII scan manifestation before byte-level registration.",
+    "Compute an independent hash for acquired bytes and inventory all scan images/pages.",
+    "Reconcile historical printed pages 3457-3707 to scan-image numbering without assuming equivalence to the modern reprint's pagination.",
+    "Verify OCR against page images before any passage-level promotion.",
+    "Resolve redistribution and MLHKP cultural-access conditions independently of commercial availability or bibliographic metadata."
+  ]
+}

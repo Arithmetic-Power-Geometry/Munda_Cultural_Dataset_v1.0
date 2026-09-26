@@ -1,0 +1,71 @@
+{
+  "run": 145,
+  "date": "2026-09-10",
+  "stream": "historical LSI map manifestation exact-locator and rights verification",
+  "canonical_work_key": "grierson|linguistic_survey_of_india|volume_4|1906|munda_languages_map",
+  "identity": {
+    "title": "LSI map of Munda languages",
+    "creator": "George A. Grierson",
+    "date": "1906",
+    "parent_work": "Linguistic Survey of India, volume 4",
+    "parent_locator": "map facing printed page 7",
+    "resource_type": "map/image manifestation",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg",
+    "source_citation_reported_by_repository": "Grierson, George A. (1906), Linguistic Survey of India, vol. 4, facing page 7"
+  },
+  "exact_locators": [
+    {
+      "locator_type": "parent_volume_position",
+      "locator": "Linguistic Survey of India, volume 4, facing printed page 7",
+      "supports": ["historical map placement", "relationship to LSI volume 4"]
+    },
+    {
+      "locator_type": "digital_manifestation",
+      "locator": "Wikimedia Commons file page: File:LSI map of Munda languages.jpg",
+      "supports": ["digital image manifestation", "creator/date/source metadata", "rights statement", "technical image metadata"]
+    }
+  ],
+  "manifestation_metadata": {
+    "mime_type": "image/jpeg",
+    "dimensions_pixels": {"width": 1400, "height": 1033},
+    "reported_file_size_bytes": 744262,
+    "repository_reported_checksum": "bdf0a2b7e09df2af8854303acd5a563a39be231a",
+    "checksum_algorithm": "not independently established in this run",
+    "independent_checksum_computed_by_mlhkp": false
+  },
+  "rights_and_access": {
+    "repository_rights_statement": "Public domain; Public Domain Mark 1.0",
+    "rights_basis_reported": "1906 publication and public-domain status as represented by Wikimedia Commons",
+    "open_reuse_status_for_this_digital_manifestation": "repository marks the work free of known copyright restrictions",
+    "cultural_access_review": "map contains historical linguistic/geographic representation, not participant-derived field audio or restricted ritual content; community validation is still not inferred from public-domain status"
+  },
+  "scope_and_interpretation": {
+    "scope": "historical linguistic geography of Munda languages as represented in Grierson's 1906 LSI volume 4",
+    "evidentiary_boundary": "The map is evidence for what the 1906 LSI represented geographically. It is not treated as a current demographic map or as proof of present-day cultural boundaries.",
+    "temporal_warning": "1906 historical representation; present-day distribution must be supported independently"
+  },
+  "canonicalization": {
+    "same_independent_witness_as_lsi_volume_4": true,
+    "new_independent_source_identity_created": false,
+    "reason": "The map is a manifestation/component of Grierson's LSI volume 4 and must not inflate source counts merely because a separate digital image is available."
+  },
+  "promotion": {
+    "discovery_only": false,
+    "promoted_to_exact_locator_evidence": true,
+    "promoted_to_unqualified_cultural_claim": false,
+    "count_bearing_master_identity_added": false,
+    "permitted_use": "exact source/manifestation locator, historical-map provenance, rights metadata, and bounded statements about the map's documented 1906 scope"
+  },
+  "blocked_follow_up": [
+    "independently acquire the original image bytes and compute SHA-256 if repository policy requires local byte verification",
+    "cross-check the map against an authoritative scan of LSI volume 4 facing page 7",
+    "do not derive current population or territorial claims from the 1906 map without contemporary corroboration"
+  ],
+  "integrity": {
+    "no_count_fabrication": true,
+    "no_present_day_geography_inferred_from_historical_map": true,
+    "no_community_validation_fabricated": true,
+    "repository_reported_checksum_not_misrepresented_as_independent": true,
+    "public_domain_status_not_used_to_infer_cultural_authority": true
+  }
+}

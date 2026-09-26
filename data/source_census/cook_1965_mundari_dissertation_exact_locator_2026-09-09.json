@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_locator_metadata_verification",
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-08T22:45:12Z",
+  "candidate": {
+    "creator": "Walter Anthony Cook, S.J.",
+    "title": "A descriptive analysis of Mundari: A study of the structure of the Mundari language according to the methods of linguistic science, with particular attention to the units of sound, the units of meaning, the units of grammar, and their mutually contrastive arrangement patterns",
+    "source_class": "doctoral_dissertation",
+    "source_type": "linguistics_grammar_dissertation",
+    "institution": "Georgetown University",
+    "primary_bibliographic_year": 1965,
+    "pagination_as_catalogued": "vi + 315",
+    "language_scope": "Mundari",
+    "cultural_scope": "linguistic description only; no cultural representativeness inferred",
+    "permanent_source_id": null
+  },
+  "verified_locators": [
+    {
+      "repository": "Glottolog",
+      "locator": "https://glottolog.org/resource/reference/id/33106",
+      "reference_id": "33106",
+      "verified_metadata": [
+        "Walter A. Cook",
+        "1965",
+        "Georgetown University dissertation",
+        "vi, 315 pages",
+        "University Microfilms 65-12,509"
+      ],
+      "verification_level": "catalogue_metadata_exact_locator"
+    },
+    {
+      "repository": "Office of the Registrar General & Census Commissioner, India",
+      "work": "Linguistic Survey of India - Jharkhand",
+      "locator": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "exact_page": 338,
+      "bibliographic_entry_as_indexed": "Cook, W.A, 1966: A Descriptive Analysis of Mundari: A study of Structure, University Microfilms, Ann Arbor, Michigan.",
+      "verification_level": "official_government_pdf_bibliography_exact_page_locator"
+    }
+  ],
+  "identity_reconciliation": {
+    "standalone_mmsc_register_exact_creator_match_found": false,
+    "standalone_mmsc_register_exact_title_match_found": false,
+    "permanent_id_promoted": false,
+    "reason": "The candidate is absent from the current standalone MMSC discoveries register, but permanent admission is deferred until deterministic reconciliation against the unresolved web-discovery layer and work/item/manifestation rules is complete.",
+    "year_discrepancy": {
+      "glottolog_dissertation_year": 1965,
+      "orgi_lsi_bibliography_year": 1966,
+      "status": "explicitly_unresolved",
+      "handling": "Do not silently normalize. Treat 1965 as the dissertation catalogue year and preserve ORGI's 1966 bibliographic citation as a secondary-source discrepancy pending original Georgetown/UMI authority verification."
+    }
+  },
+  "rights_access_governance": {
+    "metadata_access": "public",
+    "lawful_full_text_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "copyright_status": "not_established_for_full_text",
+    "participant_or_community_consent_applicable": "not inferred from bibliographic metadata",
+    "cultural_access_state": "no cultural content ingested",
+    "restricted_or_sensitive_content_ingested": false
+  },
+  "evidence_promotion": {
+    "promoted": true,
+    "promotion_scope": "bibliographic identity and exact catalogue/bibliography locators only",
+    "exact_locator_evidence": [
+      "Glottolog reference 33106",
+      "ORGI LSI Jharkhand bibliography page 338"
+    ],
+    "grammar_rules_promoted": 0,
+    "lexical_items_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_data_promoted": 0,
+    "evidence_chain_rows_added": 0,
+    "boundary": "The existence, authorship, dissertation context and exact bibliographic locators are supported. No linguistic rule, example, lexical item, speaker fact, present-day usage claim or cultural proposition is promoted without lawfully inspectable exact-page source evidence."
+  },
+  "blocked_and_next": [
+    "Verify the original Georgetown/UMI authority record to resolve the 1965/1966 bibliographic discrepancy without guessing.",
+    "Locate a lawful inspectable full-text manifestation and establish item-level reuse rights before page-level linguistic extraction.",
+    "Reconcile against all unresolved web leads before assigning a permanent SRC-MMSC identifier."
+  ],
+  "audited_counts_changed": false,
+  "main_branch_modified": false
+}

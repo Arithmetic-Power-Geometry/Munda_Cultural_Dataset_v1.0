@@ -1,0 +1,88 @@
+{
+  "run_id": 290,
+  "date_utc": "2026-09-13",
+  "stream": "dictionary / bibliographic-manifestation reconciliation",
+  "work": {
+    "title": "A Mundari-English dictionary",
+    "author": "Manindra Bhusan Bhaduri",
+    "introduction_credit": "Rai Bahadur Sarat Chandra Roy",
+    "language_scope": "Mundari-English dictionary",
+    "original_edition": {
+      "publisher": "Calcutta University Press",
+      "year": 1931,
+      "verification_state": "catalogue-level; primary title/imprint pages not independently imaged in this run"
+    },
+    "verified_reprint_manifestations": [
+      {
+        "publisher": "Northern Book Centre",
+        "place": "New Delhi",
+        "year": 1983,
+        "pagination": "xv, 228, ii p.",
+        "lccn": "84901705",
+        "openlibrary_edition_id": "OL3008123M",
+        "openlibrary_work_id": "OL5467157W",
+        "source_url": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary"
+      },
+      {
+        "publisher": "Northern Book Centre",
+        "place": "New Delhi",
+        "year": 1983,
+        "pagination": "xv, 228, ii p.",
+        "lccn": "84901705",
+        "cinii_ncid": "BA27135864",
+        "source_url": "https://ci.nii.ac.jp/ncid/BA27135864"
+      },
+      {
+        "publisher": "Asian Educational Services",
+        "place": "New Delhi",
+        "year": 1994,
+        "pagination": "xv, 228, ii p.",
+        "isbn": "8120609107",
+        "cinii_ncid": "BA31909026",
+        "source_url": "https://ci.nii.ac.jp/ncid/BA31909026"
+      },
+      {
+        "publisher": "Gyan Publishing House",
+        "place": "New Delhi",
+        "year": 2002,
+        "pagination": "xv, 228, ii p.",
+        "isbn": "8121207959",
+        "cinii_ncid": "BB09153012",
+        "source_url": "https://ci.nii.ac.jp/ncid/BB09153012"
+      }
+    ]
+  },
+  "identity_reconciliation": {
+    "same_work_supported": true,
+    "basis": [
+      "same title and author across independent catalogues",
+      "reprint notes explicitly point back to the Calcutta University Press 1931 edition",
+      "1983 Open Library and CiNii records share pagination and LCCN 84901705"
+    ],
+    "canonical_work_key": "BHADURI:A_MUNDARI_ENGLISH_DICTIONARY:1931",
+    "manifestations_must_not_be_counted_as_distinct_works": true,
+    "new_controlled_source_identity_count_change": false
+  },
+  "access_and_rights": {
+    "openlibrary_access_state": "preview/locate; not full-text verified",
+    "primary_1931_bytes_acquired": false,
+    "reprint_bytes_acquired": false,
+    "independent_file_hash_verified": false,
+    "rights_for_bulk_lexical_redistribution_verified": false,
+    "public_catalogue_metadata_treated_as_text_reuse_permission": false,
+    "cultural_access_permission_inferred": false
+  },
+  "promotion": {
+    "promotion_level": "exact bibliographic + manifestation-lineage locator evidence",
+    "lexical_entries_promoted": 0,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0
+  },
+  "explicit_gaps": [
+    "Acquire a permitted primary 1931 manifestation or authoritative scan and verify title/imprint/pagination directly.",
+    "Compute an independent checksum for any acquired manifestation before text ingestion.",
+    "Do not expose dictionary entries until manifestation rights and MLHKP cultural-access rules permit the intended use."
+  ]
+}

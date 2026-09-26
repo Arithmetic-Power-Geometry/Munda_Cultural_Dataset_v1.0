@@ -1,0 +1,136 @@
+{
+  "record_type": "non_mundarica_exact_locator_rights_record",
+  "run": 133,
+  "branch": "mlhkp-v2",
+  "verified_utc_date": "2026-09-09",
+  "canonical_work": {
+    "title": "Traditional Food Environment and Factors Affecting Indigenous Food Consumption in Munda Tribal Community of Jharkhand, India",
+    "authors": ["Suparna Ghosh-Jerath", "Ridhima Kapoor", "Satabdi Barman", "Geetanjali Singh", "Archna Singh", "Shauna Downs", "Jessica Fanzo"],
+    "journal": "Frontiers in Nutrition",
+    "volume": "7",
+    "article_number": "600470",
+    "published": "2021-02-01",
+    "doi": "10.3389/fnut.2020.600470",
+    "pmid": "33598474",
+    "pmcid": "PMC7882711",
+    "canonical_key": "doi:10.3389/fnut.2020.600470"
+  },
+  "manifestations_and_access_points": [
+    {
+      "type": "publisher_full_text_html",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.600470/full",
+      "status": "public_full_text_verified"
+    },
+    {
+      "type": "publisher_pdf",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.600470/pdf",
+      "status": "public_pdf_locator_verified_not_independently_hashed"
+    },
+    {
+      "type": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33598474/",
+      "status": "bibliographic_and_abstract_manifestation_verified"
+    },
+    {
+      "type": "pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7882711/",
+      "status": "identity_and_open_access_manifestation_verified; direct browser open encountered anti-bot challenge during this run"
+    },
+    {
+      "type": "supplementary_dataset_manifestation",
+      "url": "https://figshare.com/articles/dataset/Table_3_Traditional_Food_Environment_and_Factors_Affecting_Indigenous_Food_Consumption_in_Munda_Tribal_Community_of_Jharkhand_India_docx/13671355/1",
+      "status": "Figshare record and CC BY 4.0 label observed; direct fetch failed in runtime; bytes/checksum not independently verified"
+    }
+  ],
+  "exact_locators": [
+    {
+      "locator": "Materials and Methods > Study Locale and Population",
+      "supports": "The study was conducted in Khunti district; Murhu and Torpa blocks were purposively selected; qualitative enquiries were conducted in nine villages."
+    },
+    {
+      "locator": "Materials and Methods > Study Design",
+      "supports": "Cross-sectional mixed-method design; data collection occurred June 2019-January 2020."
+    },
+    {
+      "locator": "Materials and Methods > Study Procedures",
+      "supports": "Nine focus-group discussions and six key-informant interviews were conducted; free-listing and other elicitation addressed indigenous foods and related knowledge; local field workers fluent in Mundari supported qualitative enquiries."
+    },
+    {
+      "locator": "Materials and Methods > Ethics Approval",
+      "supports": "Institutional ethics approvals are reported; district/cluster administrative permissions are reported; literate respondents provided written informed consent and illiterate respondents third-party-witnessed verbal consent; participants were informed that discussions/interviews were recorded."
+    },
+    {
+      "locator": "Statements > Data availability statement",
+      "supports": "The article states that original contributions are included in the article/supplementary material and further inquiries may be directed to the corresponding authors."
+    },
+    {
+      "locator": "publisher article footer > Copyright",
+      "supports": "Article is distributed under Creative Commons Attribution (CC BY), with attribution conditions."
+    }
+  ],
+  "scope_classification": {
+    "primary_domain": "peer-reviewed article",
+    "secondary_domains": ["food environment", "ethnobiology/ethnobotany", "traditional ecological knowledge", "nutrition", "fieldwork"],
+    "geographic_scope": "nine study villages in Murhu and Torpa blocks, Khunti district, Jharkhand",
+    "temporal_scope": "field data June 2019-January 2020",
+    "population_scope": "study participants from selected Munda-community villages; not a census or universal Munda-community sample"
+  },
+  "rights_access_consent_cultural_boundary": {
+    "article_license": "CC BY (publisher verified)",
+    "supplementary_manifestation_license_observed": "CC BY 4.0 on Figshare search record; exact bytes not retrieved this run",
+    "research_participation_consent_reported": true,
+    "research_consent_is_secondary_reuse_consent": false,
+    "publication_license_is_community_validation": false,
+    "publication_license_overrides_cultural_access": false,
+    "participant_derived_material_requires_separate_review": true,
+    "restricted_or_sensitive_content_ingested": false,
+    "participant_quotes_transcripts_audio_ingested": false,
+    "traditional_knowledge_lists_ingested": false,
+    "reason": "The study explicitly derives qualitative material and indigenous-food knowledge from focus groups/key-informant interviews. Article/supplement licensing establishes legal publication/reuse conditions for those manifestations but does not by itself establish participant consent for MLHKP redistribution, community endorsement, or culturally unrestricted secondary reuse."
+  },
+  "deterministic_deduplication": {
+    "decision": "one_work_multiple_manifestations",
+    "key": "doi:10.3389/fnut.2020.600470",
+    "frontiers_pubmed_pmc_figshare_not_counted_as_separate_work_identities": true,
+    "distinct_from_2025_bmc_nutrition_work": true,
+    "note": "The 2021 Frontiers article is a distinct work from the separately tracked 2025 BMC Nutrition household study DOI 10.1186/s40795-025-01159-2."
+  },
+  "promotion": {
+    "promoted_this_run": [
+      "bibliographic identity",
+      "publisher licence locator",
+      "study-design/locale/procedure exact section locators",
+      "reported ethics/consent procedure locator",
+      "data-availability locator",
+      "supplementary manifestation locator"
+    ],
+    "not_promoted": [
+      "participant-derived food lists",
+      "participant quotations or transcripts",
+      "cultural practices as universal Munda claims",
+      "community-wide prevalence claims",
+      "supplementary file contents",
+      "community validation",
+      "secondary-reuse consent",
+      "PDF or supplementary-file checksum"
+    ],
+    "count_bearing_change": false,
+    "audited_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "provenance_link_delta": 0
+  },
+  "blocked_or_pending": [
+    "Independently acquire and hash publisher PDF if byte-level preservation is required.",
+    "Independently acquire and hash the Figshare supplementary manifestation before file-content ingestion.",
+    "Perform item-level cultural-access and participant-secondary-use review before ingesting free-listed indigenous-food knowledge, participant statements, transcripts, or other participant-derived traditional knowledge.",
+    "Do not generalize selected-village findings to all Munda communities without separately supported evidence."
+  ],
+  "integrity": {
+    "fabricated_counts": false,
+    "fabricated_cultural_claims": false,
+    "public_availability_treated_as_unrestricted_cultural_permission": false,
+    "research_consent_treated_as_dataset_redistribution_consent": false,
+    "exact_locator_evidence_added_without_cultural_content_promotion": true
+  }
+}

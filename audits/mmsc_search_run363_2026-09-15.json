@@ -1,0 +1,108 @@
+{
+  "search_id": "MMSC-SEARCH-000363",
+  "run": 363,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books", "dictionaries", "grammars", "peer_reviewed_articles", "theses", "government_TRI_Census_LSI", "archives", "newspapers", "web_resources", "datasets", "audio", "video", "maps", "relevant_media"],
+  "fresh_reobservations": [
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "provider": "Office of the Registrar General & Census Commissioner, India",
+      "reference_id": "PC11_ST16-20",
+      "declared_manifestation": "ST-20-00-16-DDW-2011.XLSX",
+      "disposition": "promote exact official provider/catalogue identity and declared workbook filename only; workbook bytes/hash/sheets/rows/cells/numeric values remain unverified"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+      "provider": "Office of the Registrar General & Census Commissioner, India",
+      "disposition": "provider search indexing exposes a Mundari distribution table, but direct PDF open timed out in Run 363; indexed text is retained as locator/search evidence only, not page-verified evidence"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Expressives and the multimodal depiction of social types in Mundari",
+      "provider": "Cambridge Core / Language in Society",
+      "disposition": "exact scholarly locator reobserved; no interview-derived linguistic or cultural proposition promoted without passage-level and governance review"
+    },
+    {
+      "class": "datasets",
+      "title": "Karya Mundari TTS dataset",
+      "provider": "Karya GitHub repository",
+      "disposition": "dataset identity, sample/full-corpus distinction and repository licence surface reobserved; speaker consent, full-package acquisition and cultural-access suitability remain separate governance questions"
+    },
+    {
+      "class": "web_resources",
+      "title": "Tribal Lingua Mundari learning resource",
+      "disposition": "new discovery lead observed; not promoted because authorship/source provenance, lexical validation, rights and community validation are not established for controlled evidence"
+    },
+    {
+      "class": "dictionaries",
+      "title": "Glosbe Mundari-English",
+      "disposition": "community/aggregate dictionary surface observed; not promoted as authoritative lexical evidence because entry-level source provenance and validation are unresolved"
+    },
+    {
+      "class": "books",
+      "title": "A Mundari-English dictionary by Manindra Bhusan Bhaduri",
+      "disposition": "Open Library/CiNii manifestation metadata reobserved and deterministically tied to the existing canonical Bhaduri work; no duplicate identity created"
+    },
+    {
+      "class": "grammars",
+      "title": "Mundari Grammar by N. K. Sinha (1975)",
+      "disposition": "CIIL/Bharatavani/WALS manifestations and bibliography reobserved; prior cross-provider file-size discrepancy remains unresolved and no grammar proposition is promoted"
+    },
+    {
+      "class": "theses",
+      "title": "A descriptive analysis of Mundari",
+      "provider": "Glottolog bibliographic record for Walter Anthony Cook, Georgetown University dissertation, 1965",
+      "disposition": "bibliographic identity reobserved; no full-text manifestation or thesis proposition promoted in this run"
+    },
+    {
+      "class": "archives",
+      "title": "ELAR/PARADISEC/TLA exact Mundari package search",
+      "disposition": "no newly verified exact archival package promoted; unresolved gap retained"
+    },
+    {
+      "class": "newspapers",
+      "title": "Mundari newspaper/news discovery stream",
+      "disposition": "search refreshed; no sufficiently verified new target-language newspaper identity promoted"
+    },
+    {
+      "class": "audio",
+      "title": "Mundari TTS / audiovisual discovery stream",
+      "disposition": "known corpus/audio leads reobserved; no new item-level audio promoted without rights/consent review"
+    },
+    {
+      "class": "video",
+      "title": "Mundari video discovery stream",
+      "disposition": "search refreshed; no new item-level video promoted without provenance, consent and cultural-access review"
+    },
+    {
+      "class": "maps",
+      "title": "Mundari map/atlas discovery stream",
+      "disposition": "search refreshed; no new substantive geographic claim promoted beyond previously audited locator-level map evidence"
+    },
+    {
+      "class": "relevant_media",
+      "title": "Government and public media discovery stream",
+      "disposition": "search refreshed; media visibility is not treated as evidence reuse permission or cultural authorization"
+    }
+  ],
+  "blocked_sources_continued": [
+    "Official LSI_JHARKHAND.pdf direct open timed out; indexed text retained only as locator/search evidence and census continued.",
+    "ST-16 catalogue page subsequently returned HTTP 502; exact identity from search indexing retained, workbook-level verification left open."
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the authoritative numbered source register is completed. Reprints, mirrors, versions, manifestations, title variants, homonyms and non-target matches are canonicalized before identity promotion.",
+  "rights_access_policy": "Public access, catalogue visibility, repository availability or open licensing does not by itself establish reuse permission, participant consent, community validation, cultural authorization, or validity of substantive claims.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Run 363 adds an exact official ST-16 Jharkhand locator and refreshes all controlled classes. No authoritative numbered WEB-MUN mapping or new passage-level controlled claim is established, so controlled counts remain unchanged."
+}

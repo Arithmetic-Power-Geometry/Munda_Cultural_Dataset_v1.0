@@ -1,0 +1,48 @@
+{
+  "run": 343,
+  "audit_date": "2026-09-14",
+  "scope": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "controlled_counts_changed": false,
+  "count_rule": "Fresh discovery/search observations do not alter the numbered WEB-MUN register until deterministic lead-level reconciliation is performed.",
+  "classes": [
+    {"class":"books","query":"Mundari book grammar dictionary institutional repository","result":"refreshed","notable":"CIIL/Sanchika Mundari Grammar remains an institutional bibliographic/manifestation source; no new controlled claim promoted."},
+    {"class":"dictionaries","query":"Mundari dictionary PDF institutional repository","result":"refreshed","notable":"Dictionary stream re-searched; no count change without numbered-register reconciliation."},
+    {"class":"grammars","query":"Mundari grammar PDF","result":"refreshed","notable":"N. K. Sinha (1975), Mundari Grammar, CIIL/Sanchika handle 20.500.14705/8179; existing source stream, not double-counted."},
+    {"class":"peer_reviewed_articles","query":"Mundari language journal article DOI syntax morphology","result":"refreshed","notable":"Scholarly stream refreshed; previously audited modern Mundari linguistics remains subject to manifestation/governance boundaries."},
+    {"class":"theses_dissertations","query":"Munda Jharkhand dissertation open access","result":"promoted_locator_metadata","notable":"Marilena Proietti (2025), Sapienza doctoral thesis, hdl:20.500.14242/212639; contextual Munda-community scope only, not Mundari-language authority."},
+    {"class":"government_TRI_Census_LSI","query":"site:censusindia.gov.in Mundari Census 2011 language; TRI Jharkhand Mundari; LSI Mundari","result":"refreshed","notable":"ORGI C-series and LSI streams remain primary-government priorities; numerical promotion still requires workbook/PDF byte and exact-cell/page verification."},
+    {"class":"archives","query":"Mundari archive audio manuscript","result":"refreshed","notable":"Archive stream refreshed; discovery visibility is not treated as reuse or cultural-access authorization."},
+    {"class":"newspapers","query":"Mundari newspaper Jharkhand language","result":"refreshed","notable":"Periodical/news stream refreshed; contextual reporting remains distinct from linguistic authority."},
+    {"class":"web_resources","query":"Mundari language learning web resource","result":"refreshed","notable":"Web-learning resources remain provenance/rights constrained and are not promoted solely because public URLs resolve."},
+    {"class":"datasets","query":"Mundari dataset Hugging Face GitHub","result":"refreshed","notable":"AdiBhasha and Karya-related datasets remain known candidates; gating, immutable revisions, independent hashes/counts and governance remain open where already recorded."},
+    {"class":"audio","query":"Mundari audio corpus","result":"refreshed","notable":"Karya Mundari TTS remains a known corpus; provider reports 26,870 utterance audio files from two speakers, but provider metadata is not independent byte/hash or consent/community authorization verification."},
+    {"class":"video","query":"Mundari documentary Jharkhand","result":"refreshed","notable":"Video/documentary stream refreshed; South-Sudan 'Mundari' homonyms and unrelated uses must remain out of target scope."},
+    {"class":"maps","query":"Mundari language map Munda","result":"refreshed","notable":"Map stream refreshed; maps are contextual/visual evidence and require provenance/licence review before reuse."},
+    {"class":"relevant_media","query":"Mundari magazine Munda Jharkhand media","result":"refreshed","notable":"Media stream refreshed; multilingual Adivasi periodicals can be in contextual scope but do not establish item-level Mundari content without issue/article verification."}
+  ],
+  "new_exact_locator_records": [
+    "data/source_census/sapienza_adivasi_womens_movements_exact_locator_run343_2026-09-14.json"
+  ],
+  "deduplication": {
+    "new_known_existing_sources_double_counted": 0,
+    "numbered_WEB_MUN_dispositions_completed_this_run": 0,
+    "reason": "No WEB-MUN lead ID was inferred from search results without the authoritative numbered register mapping. Controlled discovery totals therefore remain unchanged."
+  },
+  "governance": {
+    "rights_inferred_from_public_availability": false,
+    "consent_inferred_from_public_availability": false,
+    "community_validation_fabricated": false,
+    "cultural_access_assumed": false,
+    "cultural_or_linguistic_claims_promoted": 0
+  },
+  "priority_gaps": [
+    "73 unresolved WEB-MUN leads require deterministic numbered-register disposition",
+    "Census workbook bytes/hash/sheet/cell verification",
+    "LSI primary bytes/hash/page-image concordance",
+    "CIIL source-byte and rights verification",
+    "Rau 2019 independent byte/hash/licence verification",
+    "Karya/AdiBhasha/ELR immutable revision and permitted byte-level validation",
+    "audiovisual participant/community/cultural-access review"
+  ]
+}

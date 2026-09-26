@@ -1,0 +1,50 @@
+{
+  "artifact_type": "source_locator_and_table_schema_verification",
+  "verification_date_utc": "2026-09-09T10:35:00Z",
+  "scope": "Office of the Registrar General & Census Commissioner, India (ORGI), Census 2011, Jharkhand Scheduled Tribes language tables ST-15 and ST-16",
+  "records": [
+    {
+      "table": "ST-15",
+      "official_title": "Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "official_reference_id": "PC11_ST15-20",
+      "official_reference_series": "PC11_ST15",
+      "official_workbook_filename": "ST-20-00-15-DDW-2011.XLSX",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "data_source": "Population Census 2011",
+      "geographic_granularity": "state / UT",
+      "unit_of_observation": "individual (person)",
+      "statistics": "counts",
+      "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+      "verified_from_official_catalogue": true,
+      "workbook_bytes_acquired_and_hashed": false,
+      "worksheet_row_cell_coordinates_verified": false,
+      "numeric_claims_promoted": false
+    },
+    {
+      "table": "ST-16",
+      "official_title": "Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "official_reference_id": "PC11_ST16-20",
+      "official_reference_series": "PC11_ST16",
+      "official_workbook_filename": "ST-20-00-16-DDW-2011.XLSX",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "data_source": "Population Census 2011",
+      "geographic_granularity": "state / UT",
+      "unit_of_observation": "individual (person)",
+      "statistics": "counts",
+      "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+      "verified_from_official_catalogue": true,
+      "workbook_bytes_acquired_and_hashed": false,
+      "worksheet_row_cell_coordinates_verified": false,
+      "numeric_claims_promoted": false
+    }
+  ],
+  "provenance_boundary": "This artifact verifies official catalogue identities, workbook filenames and table-level semantics only. It does not verify workbook bytes, checksums, worksheets, rows, exact cells or any demographic/bilingualism count. No number may enter CLAIM/EVIDENCE until byte-level acquisition and exact worksheet-row-cell provenance are completed.",
+  "deduplication_note": "The official catalogue views and workbook filenames are treated as authority/manifestation locators for the existing Census source stream, not as new independent cultural source identities.",
+  "rights_and_governance_note": "Public catalogue availability does not override MLHKP cultural-access, privacy, community-validation or item-level governance gates. Census aggregate statistics remain distinct from participant-derived cultural material.",
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0
+  }
+}

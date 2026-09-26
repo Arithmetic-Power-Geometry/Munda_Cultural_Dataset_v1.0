@@ -1,0 +1,77 @@
+{
+  "audit_id": "MLHKP-RUN523-CHOKSI-2020",
+  "run": 523,
+  "audit_date": "2026-09-20",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census; peer-reviewed article, interview/video-derived linguistic evidence, narrative/song material",
+  "canonical_source": {
+    "author": "Nishaant Choksi",
+    "title": "Expressives and the multimodal depiction of social types in Mundari",
+    "journal": "Language in Society",
+    "volume": 49,
+    "issue": 3,
+    "publication_month": "June",
+    "publication_year": 2020,
+    "pages": "379-398",
+    "published_online": "2019-11-28",
+    "doi": "10.1017/S0047404519000824",
+    "publisher": "Cambridge University Press",
+    "canonical_url": "https://www.cambridge.org/core/journals/language-in-society/article/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A",
+    "shared_readonly_manifestation": "https://www.cambridge.org/core/journals/language-in-society/article/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A/share/588ccbb060c73b9785d6429f946d09a0fb512694"
+  },
+  "verified_exact_locators": [
+    {
+      "locator": "DATA AND METHODS",
+      "supported_source_fact": "The article states that Mundari data came from a two-year Japan-India collaborative project and that discussions were video recorded to capture multimodality.",
+      "evidence_type": "article-methods/source-provenance",
+      "promotion_state": "exact_external_locator_ready_not_promoted"
+    },
+    {
+      "locator": "DATA AND METHODS; paragraph beginning 'Following the initial data elicitation sessions'",
+      "supported_source_fact": "The article describes a two-week field trip to a village in Khunti district, Jharkhand and identifies the speakers there as native speakers of the Hasada variety of Mundari.",
+      "evidence_type": "article-methods/fieldwork-provenance",
+      "promotion_state": "exact_external_locator_ready_not_promoted"
+    },
+    {
+      "locator": "DATA AND METHODS; paragraph beginning 'As part of the field session in the village'",
+      "supported_source_fact": "The article describes Mundari elicitation with Madhu Purti and family members and states that the elicitations were conducted in Mundari and video-recorded.",
+      "evidence_type": "article-methods/participant-and-media-provenance",
+      "promotion_state": "exact_external_locator_ready_not_promoted"
+    },
+    {
+      "locator": "MUNDARI EXPRESSIVES",
+      "supported_source_fact": "The article distinguishes four major Mundari varieties and discusses expressive morphology/syntax, while attributing relevant linguistic background to cited upstream works.",
+      "evidence_type": "article-secondary-and-analytic-context",
+      "promotion_state": "dependency_review_required"
+    }
+  ],
+  "rights_and_ethics": {
+    "cambridge_shared_view_is_read_only": true,
+    "copyright_notice": "Copyright Cambridge University Press 2019",
+    "open_redistribution_license_verified": false,
+    "article_access_equals_permission_to_redistribute_interview_video": false,
+    "article_publication_equals_participant_consent_for_dataset_reuse": false,
+    "participant_or_consultant_names_in_article_equal_reuse_consent": false,
+    "cultural_access_clearance_verified": false,
+    "notes": "The shared Cambridge manifestation supports exact section-level external locators and source/provenance auditing. It does not establish permission to copy underlying interview video, transcripts, song material, participant likeness/voice, or culturally sensitive content into MLHKP."
+  },
+  "deduplication": {
+    "canonicalization_rule": "Cambridge abstract page, shared/read-only article view, DOI resolver, bibliographic indexes and author/institutional listings are manifestations/metadata for one article identity, not independent corroborating sources.",
+    "upstream_dependencies": ["Osada 1992", "Evans and Osada 2005", "Osada et al. 2015", "Osada et al. 2019 and other works cited for lexical/grammatical background"],
+    "underlying_fieldwork": "Interview/video sessions described in the article are underlying primary research material and must not be multiplied into independent evidence identities without member-level provenance and permissions."
+  },
+  "promotions": {"cultural_claims": 0, "evidence_records": 0, "binary_assets": 0},
+  "blocked_or_pending": [
+    "No verified open redistribution licence for article text or underlying recordings.",
+    "Participant consent terms for dataset redistribution/reuse are not established by the surfaced article text.",
+    "Underlying video/audio/transcript members lack immutable member inventory, hashes and repository-level access/rights metadata in this audit.",
+    "Passage-level dependency classification is required before treating linguistic statements as independent corroboration of cited upstream works.",
+    "Cultural-access review is required before any narrative/song/interview content could be promoted."
+  ],
+  "audit_invariants_added": [
+    "published interview/video analysis does not equal permission to redistribute underlying recordings or transcripts",
+    "named participant or consultant does not equal reusable-consent evidence",
+    "shared/read-only full text supports external locators but not unrestricted copying",
+    "article statements derived from cited linguistic works are not automatically independent corroboration"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "run": 390,
+  "stream": "non-Mundarica source census",
+  "audit_date": "2026-09-15",
+  "source_class": ["book", "grammar/linguistic-description", "web-resource"],
+  "canonical_identity": {
+    "title": "मुण्डारी भाषा का भाषिक संरचना",
+    "romanized_provider_title": "Mundari Bhasha Ka Bashik Sanrachana",
+    "author": "Birendra Kumar Soy 'Munda'",
+    "publication_year": 2017,
+    "publisher": "Satyam publication house",
+    "institutional_repository": "Central Institute of Indian Languages (CIIL) Bhasha Sanchika",
+    "provider_file_label": "BVP04859.pdf",
+    "provider_reported_file_size": "473.63 KB",
+    "scope": "Mundari linguistic structure"
+  },
+  "exact_locator": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+  "provider_citation_target": "https://bharatavani.in/bharatavani/home/book?id=मुण्डारी भाषा का भाषिक संरचना",
+  "verification": {
+    "identity_metadata": "verified from CIIL Sanchika provider record",
+    "scope": "provider description states that the book contains a linguistic structure of Mundari language",
+    "binary_sha256": null,
+    "stable_page_locators": null,
+    "item_level_reuse_terms": null
+  },
+  "rights_access_cultural_controls": {
+    "access": "institutional metadata/file manifestation discoverable",
+    "redistribution_permission": "unverified",
+    "consent_required_for_textual_book": "not inferred",
+    "community_validation": "not inferred",
+    "cultural_access_authorization": "not inferred"
+  },
+  "promotion_state": "exact-locator-only",
+  "claim_promotion": "none",
+  "deduplication_rule": "Canonicalize CIIL Sanchika and Bharatavani manifestations to the same underlying 2017 Soy work; do not count provider mirrors as independent source identities.",
+  "open_gaps": [
+    "materialize permitted provider bytes",
+    "compute SHA-256",
+    "establish stable pagination/exact passage locators",
+    "verify item-level reuse/redistribution terms",
+    "reconcile against existing WEB-MUN discovery ledger before changing controlled MMSC counts"
+  ],
+  "audit_note": "Discoverability and provider description do not authorize proposition-level promotion. No cultural or linguistic proposition from the work is promoted by this record."
+}

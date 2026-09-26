@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "MLHKP-RUN187-RAU-ROW-LOCATOR",
+  "run": 187,
+  "scope": "non-Mundarica source-census and exact-locator ingestion",
+  "source": {
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "creator": "Felix Rau",
+    "year": 2019,
+    "version": "0.1.0",
+    "doi": "10.5281/zenodo.3380874",
+    "repository": "Zenodo",
+    "record_url": "https://zenodo.org/records/3380874",
+    "manifestation": "pMunda_cognate_set_2019-08-29.csv",
+    "manifestation_url": "https://zenodo.org/records/3380874/files/pMunda_cognate_set_2019-08-29.csv?download=1",
+    "repository_reported_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "repository_reported_size": "34.9 kB",
+    "license": "CC0-1.0"
+  },
+  "verification": {
+    "authoritative_record_verified": true,
+    "authoritative_plaintext_manifestation_verified": true,
+    "csv_header_verified": true,
+    "mundari_columns_verified": ["mu_form", "mu_source"],
+    "independent_byte_preserving_acquisition_completed": false,
+    "independent_checksum_recomputed": false,
+    "repository_checksum_treated_as_independent": false
+  },
+  "exact_locator_evidence": [
+    {
+      "record_id": "#A0001",
+      "locator": "Zenodo DOI 10.5281/zenodo.3380874; file pMunda_cognate_set_2019-08-29.csv; CSV row keyed ID #A0001; columns gloss, mu_form, mu_source",
+      "source_attributed_observation": "Rau's deposited CSV records gloss 'water', Mundari field mu_form 'da:', and Mundari source pointer mu_source 'BMED.p31' for record #A0001.",
+      "promotion_class": "source_attributed_dataset_row_locator",
+      "not_promoted_as": [
+        "universal Mundari lexical truth",
+        "community-validated spelling or pronunciation",
+        "independently verified BMED passage",
+        "cultural claim"
+      ]
+    }
+  ],
+  "rights_and_cultural_governance": {
+    "deposited_dataset_license_verified": true,
+    "deposited_dataset_license_value": "CC0-1.0",
+    "license_extended_to_underlying_historical_sources": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "underlying_BMED_rights_verified": false,
+    "underlying_BMED_exact_page_verified": false
+  },
+  "ingestion_decision": {
+    "exact_locator_record_promoted": true,
+    "lexical_rows_copied_into_cultural_or_language_corpus": false,
+    "evidence_graph_node_added": false,
+    "reason_graph_not_changed": "Rau is not yet a permanent SRC-MMSC identity in the current standalone register, and independent byte integrity remains unresolved. The exact-locator evidence is preserved here without creating a dangling graph source or falsely certifying bytes.",
+    "count_bearing_change": false
+  },
+  "deduplication": {
+    "checked_against_standalone_mmsc_register": true,
+    "existing_permanent_rau_identity_found": false,
+    "new_identity_forced": false,
+    "reason": "Permanent registration is deferred to a synchronized count-bearing transaction after byte-integrity verification or an explicit protocol decision allowing transport-verified registration."
+  },
+  "release_effect": {
+    "strengthens": ["dataset manifestation provenance", "row-level exact locator", "rights boundary", "gap specificity"],
+    "does_not_close": ["independent checksum", "underlying BMED page verification", "permanent MMSC registration", "row-level evidence-graph ingestion"],
+    "release_gate": "NOT_PASS"
+  }
+}

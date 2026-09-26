@@ -1,0 +1,46 @@
+{
+  "audit_id": "MLHKP-RUN335-KARYA-MATERIALIZATION",
+  "run": 335,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source": {
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "repository_commit_sha": "243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "manifestation_path": "translation-hi-unr.tsv",
+    "git_blob_sha": "131c55a5b8197a58d663a7e40d888a92869288c6",
+    "git_tree_reported_bytes": 3788450,
+    "provider_declared_sentence_pairs": 17826
+  },
+  "attempts": [
+    {
+      "method": "GitHub contents API through connected GitHub resource",
+      "result": "provider file content was reachable but response was too large for complete independent byte extraction in the execution channel",
+      "independent_sha256_computed": false,
+      "independent_row_recount_completed": false
+    },
+    {
+      "method": "raw-file materialization into analysis container",
+      "result": "blocked by runtime network/raw-download restrictions; no complete local byte copy obtained",
+      "independent_sha256_computed": false,
+      "independent_row_recount_completed": false
+    }
+  ],
+  "verification_boundary": {
+    "upstream_revision_and_git_blob_identity_verified": true,
+    "complete_independent_byte_materialization_verified": false,
+    "independent_sha256_verified": false,
+    "independent_row_recount_verified": false,
+    "provider_declared_pair_count_promoted_to_independent_count": false,
+    "rows_ingested_into_mlhkp": false,
+    "linguistic_or_cultural_claims_promoted": false
+  },
+  "governance": {
+    "provider_license_does_not_override_cultural_access": true,
+    "participant_consent_verified": false,
+    "community_validation_for_mlhkp_verified": false,
+    "cultural_access_authorization_verified": false,
+    "item_level_ingestion_authorized": false
+  },
+  "blocker": "Complete byte materialization of the pinned TSV is unavailable in this execution environment, so independent SHA-256 and row recount remain open.",
+  "safe_next_action": "Retry exact-revision materialization through a permitted binary-capable channel; compute SHA-256 and deterministic TSV row/column validation before any row-level promotion."
+}

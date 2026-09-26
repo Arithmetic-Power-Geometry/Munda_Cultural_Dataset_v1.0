@@ -1,0 +1,63 @@
+{
+  "run": 621,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "journal": "The Oriental Anthropologist",
+    "volume": "13",
+    "issue": "2",
+    "pages": "267-280",
+    "year": 2013,
+    "first_published_online": "2013-07-01",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher": "SAGE Publications / Oriental Institute of Cultural and Social Research"
+  },
+  "identity_verification": {
+    "status": "publisher_verified",
+    "publisher_url": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "dedup_precheck": "repository code search for title/DOI returned no match before insertion",
+    "canonicalization_rule": "DOI, SAGE landing/abstract/PDF, indexes and mirrors are manifestations of one canonical work, not independent corroborating sources"
+  },
+  "scope": {
+    "population": "Munda / Mundari Khuntkatti communities",
+    "geography": "Gutuhatu and Salga villages, Mundari Khuntkatti Revenue Circle, Khunti district, Jharkhand",
+    "topic": ["customary land institution", "land rights", "Mundari Khuntkatti", "identity", "governance"],
+    "method_signal": "publisher abstract states empirical investigation of two Mundari Khuntkatti villages"
+  },
+  "exact_locator_state": {
+    "publisher_metadata": "SAGE page: article identity, DOI, pages 267-280, first-online date, rights",
+    "publisher_abstract": "SAGE abstract: empirical investigation of Gutuhatu and Salga and article-level conclusions",
+    "full_text": "restricted_access",
+    "proposition_level_page_locators": "pending lawful authoritative full-text access"
+  },
+  "rights_access": {
+    "access": "restricted",
+    "copyright": "© 2013 Oriental Institute of Cultural and Social Research and SAGE Publications",
+    "permissions": "publisher requests permissions; no binary ingestion justified from current access",
+    "public_metadata_not_redistribution_permission": true
+  },
+  "evidence_promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "reason": "abstract-level empirical scope is useful but full method, proposition locators, dependency, reuse and cultural-context review are incomplete"
+  },
+  "conversion_queue": [
+    "obtain lawful authoritative full text",
+    "hash manifestation only if repository storage is permitted",
+    "concord printed pages 267-280 with digital manifestation",
+    "inspect sampling, field dates, elicitation/observation methods and locality",
+    "separate direct empirical observations and participant testimony from author interpretation and cited historical literature",
+    "create atomic proposition-level page/section/table locators",
+    "tag geographic and temporal scope; do not generalize two-village evidence to all Munda communities",
+    "review land-rights/community-governance sensitivity and any participant/consent implications",
+    "preserve dependency on cited colonial/ethnographic/legal sources rather than counting them as independent support"
+  ],
+  "blocked_source_log": {
+    "block": "SAGE full text restricted behind access/purchase options",
+    "action": "logged restriction and continued parallel source census; no claim fabricated from inaccessible text"
+  },
+  "audit_note": "The publisher abstract itself supports source identity, two-village empirical scope and the fact that the article argues about Mundari Khuntkatti. It does not by itself justify promoting the article's substantive conclusions as controlled cultural facts."
+}

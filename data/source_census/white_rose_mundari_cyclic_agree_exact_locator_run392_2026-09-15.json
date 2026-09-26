@@ -1,0 +1,46 @@
+{
+  "run": 392,
+  "audit_date": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed article / institutional repository",
+  "canonical_work": {
+    "title": "Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis",
+    "authors": ["Gurujegan Murugesan", "Imke Driemel", "Andrew Murphy"],
+    "journal": "Natural Language & Linguistic Theory",
+    "published_online": "2025-02-03",
+    "published": "2025-04-18",
+    "pages": "1067-1115",
+    "doi": "10.1007/s11049-024-09628-2",
+    "refereed": true
+  },
+  "manifestation": {
+    "repository": "White Rose Research Online, University of York",
+    "repository_record": "https://eprints.whiterose.ac.uk/id/eprint/226042/",
+    "filename": "murugesanEtAl_24_Omnivoro.3.pdf",
+    "version": "accepted version",
+    "repository_reported_licence": "CC-BY 2.5"
+  },
+  "scope": {
+    "language": "Mundari",
+    "classification": "direct Mundari linguistic scholarship",
+    "promotion_state": "exact-locator-only"
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1007/s11049-024-09628-2",
+    "rule": "DOI, publisher record and White Rose accepted manuscript are manifestations of one scholarly work, not separate source identities",
+    "existing_repository_search": "No White Rose match found before ingestion; DOI-level reconciliation against WEB-MUN remains required"
+  },
+  "rights_access": {
+    "repository_access": "accepted manuscript exposed for download by institutional repository",
+    "repository_reported_licence": "CC-BY 2.5",
+    "licence_verification_required_before_redistribution": true,
+    "cultural_access_authorization": "not established",
+    "community_validation": "not established"
+  },
+  "evidence_boundary": {
+    "promoted": ["bibliographic identity", "DOI", "institutional repository locator", "accepted-manuscript filename", "repository-reported licence"],
+    "not_promoted": ["linguistic propositions", "examples", "speaker/community claims", "cultural claims"],
+    "requirements_for_passage_promotion": ["download permitted manifestation", "record immutable bytes and SHA-256", "verify licence in manifestation", "establish stable page locators", "reconcile examples/data provenance and any consent or cultural-governance implications"]
+  },
+  "audit_note": "Discovery/access does not itself establish community validation or cultural permission. Exact passage evidence must remain provenance-linked and licence-compatible."
+}

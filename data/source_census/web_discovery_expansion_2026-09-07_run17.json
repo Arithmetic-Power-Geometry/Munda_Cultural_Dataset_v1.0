@@ -1,0 +1,39 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica linguistic-resource discovery records verified from CIIL/Bharatavani institutional metadata. These are source identities or discovery leads only unless separately evidence-linked; repository visibility is not treated as unrestricted text reuse permission.",
+  "records": [
+    {
+      "id": "WEB-MUN-0084",
+      "title": "मुण्डारी-व्याकरण / Mundari-Vyakaran",
+      "source_class": "mundari_grammar_book",
+      "publisher": "Rumbul Ranchi Jharkhand; institutional metadata hosted by CIIL Bhasha Sanchika / Bharatavani",
+      "url": "https://hdl.handle.net/20.500.14705/8429",
+      "author": "Ramdayal Munda",
+      "year": 2013,
+      "notes": "CIIL Bhasha Sanchika institutional metadata verifies author Ramdayal Munda, publication year 2013, publisher Rumbul Ranchi Jharkhand, item identifier BVP00202, subject languages Mundari and Hindi, type PDF, and an institutional handle. Deterministically canonicalized by institutional handle as SRC-MMSC-000006. No grammatical rule or cultural proposition is promoted without exact page/section provenance and item-level rights review.",
+      "verification_state": "institutional_repository_metadata_handle_and_file_presence_verified",
+      "access_class": "institutional_repository_metadata_public_file_present_rights_holder_identified",
+      "rights_note": "CIIL metadata names RUMBUL as rights holder. Public item/file visibility does not establish permission to redistribute, bulk extract, train models on, commercially reuse, or republish the grammar text. Cultural-access restrictions remain independently enforceable.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000006",
+        "dedupe_key": "handle:20.500.14705/8429",
+        "canonicalized_utc": "2026-09-07T09:48:00Z"
+      }
+    },
+    {
+      "id": "WEB-MUN-0085",
+      "title": "सुबोध मुण्डारी व्याकरण / Subodh Mundari Veyakaran",
+      "source_class": "mundari_grammar_language_learning_book",
+      "publisher": "Jharkhand Jharokha Ranchi; institutional metadata hosted by CIIL Bhasha Sanchika / Bharatavani",
+      "url": "https://sanchika.ciil.org/items/24494405-081d-4364-ad59-cc2dd0af7d25",
+      "author": "Radhagovind Patar",
+      "year": 2017,
+      "notes": "CIIL Bhasha Sanchika metadata verifies author Radhagovind Patar, publication year 2017, publisher Jharkhand Jharokha Ranchi and describes the item as a Mundari language-learning resource focused on grammatical functions. Register as a grammar-source discovery lead only. Exact rules/examples require page/image-level locators and item-level rights assessment before evidence promotion.",
+      "verification_state": "institutional_repository_metadata_verified",
+      "access_class": "institutional_repository_metadata_public_item_files_present_rights_review_required",
+      "rights_note": "Institutional metadata availability does not establish unrestricted redistribution, derivative grammar reuse, model-training rights or commercial reuse. File- and publisher-level rights must be checked before extraction."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "run": 536,
+  "audit_date": "2026-09-20",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_source": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "source_class": ["book", "grammar", "government_language_institute_repository"],
+    "publisher_repository": "Bhasha Sanchika — Central Institute of Indian Languages (CIIL)",
+    "canonical_uri": "https://hdl.handle.net/20.500.14705/8179",
+    "repository_item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "language_metadata": ["English", "Mundari"],
+    "provider_file_name": "CIILP0091.pdf",
+    "provider_reported_file_size": "9.63 KB"
+  },
+  "identity_verification": {
+    "status": "verified_at_provider_metadata_level",
+    "basis": "CIIL Bhasha Sanchika item metadata exposes author, title, 1975 publication date, stable handle, English/Mundari language metadata and a named PDF manifestation.",
+    "scope": "Mundari grammar; provider description states pedagogical organization by grammatical function and coverage of noun morphology, verb morphology, adjectives, adverbs and syntax.",
+    "not_verified": ["complete PDF bytes", "local SHA-256", "printed-page/PDF-page concordance", "exact claim passages", "redistribution licence"]
+  },
+  "deduplication": {
+    "canonical_key": "sinha_nk|mundari_grammar|1975|hdl:20.500.14705/8179",
+    "rule": "CIIL item URL, stable handle, catalogue/search results and the named CIILP0091.pdf manifestation are representations of one underlying source and must not be counted as independent corroboration.",
+    "upstream_dependency_rule": "Any proposition explicitly attributed by Sinha to an earlier grammar, dictionary, Census/LSI source or other work must be tagged as derived before corroboration counting."
+  },
+  "rights_access_consent_cultural_review": {
+    "access": "provider metadata publicly discoverable; PDF manifestation advertised",
+    "redistribution_permission": "not established by surfaced metadata",
+    "participant_consent": "not established",
+    "cultural_access": "not established",
+    "rule": "Public access does not equal redistribution permission; grammatical examples or culturally embedded material are not promoted without passage-level provenance and access review."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "binaries_added": 0,
+    "status": "locator_ready_not_promoted",
+    "required_before_promotion": ["lawful immutable PDF capture where permitted", "local SHA-256", "page-image/text concordance", "exact printed/PDF locators", "claim-level dependency tagging", "reuse-right determination", "participant/cultural-access review where applicable"]
+  },
+  "audit_note": "This run deliberately records an authoritative provider-level grammar locator without converting catalogue description into cultural or linguistic claims. Counts remain unchanged until deterministic WEB-MUN reconciliation and evidence promotion gates are satisfied."
+}

@@ -1,0 +1,75 @@
+{
+  "search_id": "MMSC-SEARCH-000337",
+  "date_utc": "2026-09-14",
+  "scope": "systematic Master Munda Source Census refresh across 14 controlled non-Mundarica source classes",
+  "classes": [
+    "books_monographs",
+    "dictionaries_lexica",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_tri_census_lsi",
+    "archives",
+    "newspapers",
+    "web_resources",
+    "datasets_corpora",
+    "audio",
+    "video",
+    "maps",
+    "relevant_media"
+  ],
+  "representative_reobservations": [
+    {
+      "class": "government_tri_census_lsi",
+      "title": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand",
+      "url": "https://www.trijharkhand.in/en/",
+      "status": "reobserved_first_party_government_source"
+    },
+    {
+      "class": "maps",
+      "title": "LSI map of Munda languages",
+      "url": "https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg",
+      "status": "reobserved_secondary_host_of_historical_map; primary-volume reconciliation still required"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Coping with Changing Sociocultural Environment in Sundarban Islands: A Study of Munda Identity",
+      "url": "https://journals.sagepub.com/doi/10.1177/2455328X261437865",
+      "status": "reobserved_publisher_record; fieldwork/community/cultural-access boundaries unchanged"
+    },
+    {
+      "class": "web_resources",
+      "title": "Tribal Lingua Mundari learning resource",
+      "url": "https://www.triballingua.in/learn-mundari/",
+      "status": "discovery_only_pending_source_provenance_and_rights_reconciliation"
+    },
+    {
+      "class": "web_resources",
+      "title": "Mundari.in",
+      "url": "https://www.mundari.in/en",
+      "status": "discovery_only_pending item-level rights, provenance, consent and cultural-access review"
+    },
+    {
+      "class": "newspapers",
+      "title": "Amit Shah calls Birsa Munda 'icon of resistance, cultural identity' at tribal rally",
+      "url": "https://www.newindianexpress.com/india/2026/May/25/amit-shah-calls-birsa-munda-icon-of-resistance-cultural-identity-at-tribal-rally",
+      "status": "news_discovery_only; not a substitute for primary cultural evidence"
+    }
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "counting_rule": "Fresh search observations do not alter controlled MMSC counts until deterministic numbered-register reconciliation resolves identity, duplicate and canonicalization status.",
+  "governance_rule": "Discovery or public availability does not establish ingestion permission, participant consent, reuse rights, community validation, or cultural-access authorization.",
+  "false_completeness_claimed": false,
+  "next_actions": [
+    "continue deterministic numbered WEB-MUN dispositions",
+    "prefer first-party and primary manifestations for verification",
+    "retain blocked/restricted/unverified candidates explicitly rather than promoting them"
+  ]
+}

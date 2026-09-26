@@ -1,0 +1,62 @@
+{
+  "run": 620,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica source census",
+  "canonical_work": {
+    "author": "Masahiko Togawa",
+    "title": "Eliade's Sojourn in India and the Megalithic Culture of Indigenous Indian Societies: From the Theory of Archaic Religion to Religions in the Human History",
+    "journal": "Journal of Religious Studies",
+    "volume": 98,
+    "issue": 1,
+    "pages": "1-25",
+    "year": 2024,
+    "published": "2024-06-30",
+    "doi": "10.20716/rsjars.98.1_1",
+    "publisher_platform": "J-STAGE / Japanese Association for Religious Studies",
+    "access": "journal free access",
+    "pdf_manifestation": "publisher page exposes a 605K PDF download",
+    "source_url": "https://www.jstage.jst.go.jp/article/rsjars/98/1/98_1/_article/-char/en"
+  },
+  "identity_verification": {
+    "status": "verified_from_publisher_platform",
+    "verified_fields": ["author", "title", "journal", "volume", "issue", "pages", "DOI", "publication date", "free-access status", "PDF availability"],
+    "repository_exact_title_precheck": "no match returned before insertion"
+  },
+  "scope_classification": {
+    "munda_specific": true,
+    "geography": "Jharkhand, India",
+    "topics": ["Munda megalithic culture", "gravestone consecration ritual", "kinship", "land ownership", "history of religion", "Eliade historiography"],
+    "scope_note": "Publisher abstract explicitly states that the paper focuses on the Munda community of Jharkhand and uses a gravestone-consecration case. This does not justify generalization to all Munda communities or time periods."
+  },
+  "deduplication": {
+    "canonicalization_rule": "DOI, J-STAGE article page, PDF, RIS/BibTeX and index records are manifestations/metadata of one canonical work and are not independent corroboration.",
+    "independence_warning": "Claims mediated through Eliade or other cited literature must retain dependency links and cannot be counted as independent primary evidence."
+  },
+  "rights_access_cultural_governance": {
+    "access_verified": "J-STAGE labels article JOURNAL FREE ACCESS",
+    "copyright_notice": "publisher page states © 2024 Japanese Association for Religious Studies",
+    "redistribution_permission": "not established by free-access label alone",
+    "binary_ingestion": "not promoted in this run",
+    "cultural_sensitivity": "high for mortuary/gravestone consecration and sacred practice; exact passages require cultural-access review before public evidence promotion"
+  },
+  "exact_locator_conversion": {
+    "state": "publisher-full-text/PDF conversion candidate",
+    "stable_metadata_locators": ["publisher article page: bibliographic block", "publisher abstract"],
+    "required_before_claim_promotion": [
+      "obtain publisher PDF lawfully and record cryptographic hash if repository storage is permitted",
+      "establish printed-page to PDF-page concordance for pp. 1-25",
+      "identify exact pages/sections for the Jharkhand Munda gravestone-consecration case",
+      "separate direct observation/field evidence, historical-source quotation, Eliade interpretation, author interpretation, and secondary citations",
+      "record locality, date, participant/source provenance and methodological basis where supplied",
+      "apply mortuary/sacred-practice cultural-access and consent/provenance review",
+      "promote only atomic propositions supported by exact locators and permitted evidence"
+    ]
+  },
+  "promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "reason": "Identity, access and Munda-specific scope are verified, but proposition-level PDF locators, evidence dependencies, redistribution rights and cultural-governance review are not yet complete."
+  },
+  "audit_principle": "Discovery and free access do not equal evidence promotion or redistribution permission; unsupported cultural claims remain gaps."
+}

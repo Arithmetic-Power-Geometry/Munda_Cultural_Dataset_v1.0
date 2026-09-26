@@ -1,0 +1,68 @@
+{
+  "project": "MLHKP",
+  "run": 567,
+  "stream": "non-Mundarica source census",
+  "audit_date": "2026-09-22",
+  "canonical_work": {
+    "title": "Mundari Word Book",
+    "author": "Anonymous",
+    "publication_year": 2006,
+    "publisher": "Bharat Munda Samaj, Baripada, Mayurbhanj, Odisha",
+    "languages": ["English", "Mundari"],
+    "type": "book / language-learning lexical resource",
+    "scope": "Mundari language learning",
+    "canonical_provider_identifier": "BVP00242",
+    "persistent_handle": "20.500.14705/8437",
+    "provider_manifestation": "BVP00242.pdf",
+    "provider_reported_size": "15.05 KB"
+  },
+  "provider_metadata": {
+    "provider": "Bhasha Sanchika / Central Institute of Indian Languages",
+    "rights_holder_reported": "Bharat Munda Samaj",
+    "description": "Provider describes the book as containing information necessary for learning Mundari language.",
+    "bharatavani_uri": "https://bharatavani.in/bharatavani/home/book?id=Mundari Word Book",
+    "sanchika_item_uri": "https://sanchika.ciil.org/items/0a279311-4ea6-4229-9ce7-380dbb251e65"
+  },
+  "identity_verification": {
+    "verified_fields": ["title", "publication_year", "publisher", "languages", "provider identifier", "persistent handle", "manifestation filename", "provider-reported size", "rights holder"],
+    "repository_exact_identifier_search": "No BVP00242 match found before audit creation.",
+    "repository_title_search": "No Mundari Word Book match found before audit creation.",
+    "canonicalization_rule": "Sanchika metadata, Bharatavani URI and BVP00242 PDF are manifestations/metadata for one work identity and must not be counted as independent corroborating sources."
+  },
+  "scope_classification": {
+    "relevance": "direct",
+    "domain": ["language", "lexical/language-learning resource"],
+    "community_scope": "Mundari",
+    "caution": "Provider metadata alone does not establish correctness, dialect/variety coverage, authorship of individual entries, cultural representativeness, or proposition-level evidence."
+  },
+  "rights_access_consent": {
+    "public_catalogue_visibility": true,
+    "rights_holder_identified": true,
+    "redistribution_permission_verified": false,
+    "derivative_dataset_permission_verified": false,
+    "speaker_or_contributor_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "decision": "Do not ingest or redistribute the PDF or lexical entries until applicable reuse terms and provenance are verified."
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "A catalogue/full-text manifestation is discoverable, but exact readable content, page/item locators, reuse permission, entry provenance and contributor/consent context have not been audited."
+  },
+  "conversion_queue": [
+    "obtain the provider manifestation lawfully and record a cryptographic hash if permitted",
+    "verify PDF readability and printed-page/PDF-page concordance",
+    "deterministically enumerate lexical/language-learning items with exact page/item locators",
+    "preserve original orthography/transcription without silent normalization",
+    "trace authorship/source dependencies for individual entries where stated",
+    "verify reuse/redistribution and derivative-dataset terms with the reported rights holder/provider",
+    "review contributor/speaker consent and cultural-access sensitivity before any audio, personal or culturally restricted material is exposed",
+    "promote only source-supported permitted records after the above gates pass"
+  ],
+  "release_effect": {
+    "controlled_count_change": false,
+    "gap_state": "audited discovery; exact-locator ingestion pending",
+    "fabricated_claims_or_counts": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "run": 349,
+  "captured_date": "2026-09-14",
+  "surfaces": {
+    "mmsc_search_log": {"state":"updated","ref":"audits/mmsc_search_run349_2026-09-14.json"},
+    "source_census": {"state":"updated","ref":"data/source_census/wals_phoible_mundari_exact_locator_run349_2026-09-14.json"},
+    "tests": {"state":"updated","ref":"tests/test_run349_wals_phoible_boundary.py"},
+    "streamlit_universal_search_modules": {"state":"no controlled registration change required","reason":"Run349 records are locator/provenance metadata, not new controlled evidence modules."},
+    "evidence_graph": {"state":"no controlled graph-count change required","reason":"No claim/evidence/provenance-link promotion."},
+    "completeness_gap_matrix": {"state":"gap state carried into canonical status","new_or_refined_gaps":["WALS feature-value source-level verification before claim promotion","PHOIBLE inventory/source-level verification before phonological claim promotion","ELAR/PARADISEC exact-package gap retained"]},
+    "publication_metrics_tables_figures": {"state":"no numeric/table/figure regeneration required","reason":"Controlled metrics unchanged at 42 identities / 52 claims / 52 evidence / 52 links / 42 modules."},
+    "canonical_status": {"state":"to be synchronized to Run349","ref":"status/mlhkp_progress.json"}
+  },
+  "release_gate": "NOT_PASS"
+}

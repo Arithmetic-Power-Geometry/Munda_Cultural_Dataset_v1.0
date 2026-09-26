@@ -1,0 +1,48 @@
+{
+  "audit_id": "PHOIBLE-MUNDARI-000354",
+  "run": 354,
+  "date_utc": "2026-09-14",
+  "source_type": "secondary phonological database / source locator",
+  "provider": "PHOIBLE 2.0",
+  "language_record": {
+    "name": "Mundari",
+    "glottocode": "mund1320",
+    "iso_639_3": "unr",
+    "url": "https://phoible.org/languages/mund1320"
+  },
+  "provider_observations": {
+    "inventories_listed": [
+      "Mundari (SPA 10)",
+      "MUNDARI (UPSID 602)",
+      "Bhumij (RA 1713)",
+      "Mundari (RA 1770)",
+      "Mundari (EA 2295)"
+    ],
+    "inventory_segment_counts_provider_reported": [37, 37, 54, 39, 28],
+    "source_disagreement_present": true,
+    "spa_source_description": "Stanford Phonology Archive inventories derive from Crothers et al. 1979 and were subsequently digitized/mapped to Unicode IPA by PHOIBLE.",
+    "ra_source_description": "Ramaswami 1999, Common Linguistic Features in Indian Languages: Phonetics; PHOIBLE notes that the source contains inventories compiled from various works and that its ISO codes may be outdated.",
+    "upsid_example_source_metadata": "A Mundari UPSID value page identifies Gumperz and Bilibiri 1957 and Pinnow 1959 as source references for at least one listed segment."
+  },
+  "verification_boundary": {
+    "database_record_verified": true,
+    "underlying_descriptive_sources_independently_verified": false,
+    "inventory_values_promoted_to_controlled_claims": false,
+    "phonological_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "reason": "PHOIBLE is a secondary compilation and exposes multiple Mundari inventories with differing counts. Inventory-level facts must be resolved to and checked against underlying descriptive sources before controlled promotion."
+  },
+  "rights_governance": {
+    "phoible_database_license_provider_declared": "CC BY-SA 3.0",
+    "database_license_does_not_establish_underlying_source_reuse_rights": true,
+    "database_license_does_not_establish_community_validation": true,
+    "database_license_does_not_establish_cultural_access_authorization": true,
+    "cultural_access_overrides_entitlement": true
+  },
+  "next_actions": [
+    "Resolve each candidate Mundari inventory to its cited underlying descriptive source.",
+    "Verify bibliographic identity and permitted access for the underlying source before extracting any phonological claim.",
+    "Record exact page/section locators and provenance for any promoted inventory statement.",
+    "Do not collapse Bhumij-labelled or other doculect records into Mundari without an explicit controlled identity decision."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "run": 229,
+  "search_id": "MMSC-SEARCH-000229",
+  "branch": "mlhkp-v2",
+  "scope": "Mundarica IX page-accounting and manifestation-boundary audit",
+  "audited_at_utc": "2026-09-11T21:30:00Z",
+  "source": {
+    "judgment_title": "Bhaiya Ram Munda vs Anirudh Patar & Ors",
+    "court": "Supreme Court of India",
+    "judgment_date": "1970-08-14",
+    "equivalent_citations": ["1971 AIR 2533", "1971 SCR (1) 804"],
+    "retrieval_locator": "https://indiankanoon.org/doc/334683/",
+    "mundarica_reference": {
+      "work": "Encyclopaedia Mundarica",
+      "authors_as_cited": ["Rev. John Hoffman", "Rev. Arthur Van Emelen"],
+      "volume": "IX",
+      "secondary_printed_page_locators": [2756, 2881]
+    }
+  },
+  "identity_verification": {
+    "supreme_court_judgment_identity_verified": true,
+    "judgment_date_verified": true,
+    "reported_scr_citation_verified": true,
+    "mundarica_volume_number_exposed_in_judgment_text": true,
+    "printed_page_2756_exposed_in_judgment_text": true,
+    "printed_page_2881_exposed_in_judgment_text": true
+  },
+  "locator_state": {
+    "secondary_page_locator_verified": true,
+    "exact_volume_ix_digital_manifestation_verified": false,
+    "authoritative_scan_registered": false,
+    "bitstream_bytes_acquired": false,
+    "independent_hash_computed": false,
+    "scan_sequence_verified": false,
+    "page_image_inspected": false,
+    "ocr_verified": false,
+    "transcription_verified": false,
+    "volume_complete_verified": false,
+    "blocker": "The judgment corroborates printed-page references to Volume IX but is not the Volume IX manifestation itself. No exact authoritative Volume IX bytes/page images were acquired in this run."
+  },
+  "rights_and_governance": {
+    "judgment_visibility_treated_as_mundarica_reuse_permission": false,
+    "public_availability_treated_as_cultural_access_permission": false,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "restricted_content_exposed": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "deduplication": {
+    "canonical_key": "mundarica:vol-ix",
+    "secondary_locator_alias": "sc-india:bhaiya-ram-munda-v-anirudh-patar:1970:pp2756,2881",
+    "new_source_identity_count_increment_permitted": false,
+    "reason": "This record corroborates page accounting for the existing Mundarica Volume IX target; it is not a new canonical Mundarica identity and does not establish the exact digital manifestation."
+  },
+  "promotion": {
+    "promoted_beyond_discovery_only": true,
+    "promotion_level": "judicial secondary printed-page locator",
+    "promoted_to_claim_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "linguistic_proposition_promoted": false,
+    "full_text_ingested": false,
+    "lexical_rows_ingested": 0
+  },
+  "release_effect": {
+    "counts_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "streamlit_module_count_changed": false,
+    "mundarica_authoritative_registered_scans": 0,
+    "mundarica_verified_complete_volumes": 0,
+    "release_gate": "NOT_PASS"
+  }
+}

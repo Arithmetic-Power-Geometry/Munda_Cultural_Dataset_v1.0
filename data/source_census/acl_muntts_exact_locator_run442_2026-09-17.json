@@ -1,0 +1,64 @@
+{
+  "run": 442,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica",
+  "source_class": ["peer-reviewed conference paper", "dataset/corpus", "audio", "video"],
+  "canonical_identity": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+    "year": 2024,
+    "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+    "publisher": "Association for Computational Linguistics",
+    "pages": "76-82",
+    "anthology_id": "2024.computel-1.11",
+    "doi": "10.18653/v1/2024.computel-1.11",
+    "landing_url": "https://aclanthology.org/2024.computel-1.11/",
+    "pdf_url": "https://aclanthology.org/2024.computel-1.11.pdf",
+    "video_url": "https://aclanthology.org/2024.computel-1.11.mp4",
+    "artifact_pointer_reported_in_paper": "https://aka.ms/MUN-TTS"
+  },
+  "scope": {
+    "language": "Mundari",
+    "geography": "Jharkhand, India",
+    "script": "Devanagari",
+    "in_scope": true,
+    "mundarica_dependency": "none established from verified metadata/full-text locator"
+  },
+  "verified_exact_locator_evidence": [
+    {
+      "locator": "printed/PDF p. 76",
+      "supported_statement": "The study states that it works with Mundari spoken in Jharkhand and written in Devanagari."
+    },
+    {
+      "locator": "printed/PDF p. 76",
+      "supported_statement": "The paper reports audio recordings for 15,656 unique Mundari sentences and a speech corpus of 26,868 recordings totaling 27.51 hours."
+    }
+  ],
+  "canonicalization": {
+    "rule": "ACL landing page, DOI, ACL PDF, ACL-hosted video and the paper-referenced artifact endpoint are manifestations/associated artifacts of one paper/project identity; corpus items must not be counted as independent audited source identities without item-level provenance.",
+    "dedup_status": "repository exact search for 'ComputEL 2024 Mundari TTS' returned no match before creation"
+  },
+  "rights_access_consent": {
+    "paper_access": "ACL Anthology exposes public landing page and PDF",
+    "paper_copyright_notice": "2024 Association for Computational Linguistics, as printed on p. 76; exact reuse licence not established in this run",
+    "corpus_reuse_rights": "not established",
+    "speaker_consent_privacy": "not established at item level in this run",
+    "cultural_access": "not established; linguistic speech data must not be treated as culturally unrestricted solely from publication",
+    "promotion_policy": "Only the two paper-reported corpus/provenance statements above are recorded as source-level exact-locator evidence. No audio item, lexical item, translation, cultural proposition, or speaker-derived claim is promoted until artifact rights, item provenance, consent/privacy and stable locators are verified."
+  },
+  "reported_not_inferred": {
+    "unique_sentences": 15656,
+    "audio_recordings": 26868,
+    "hours": 27.51
+  },
+  "open_gates": [
+    "resolve and inventory https://aka.ms/MUN-TTS",
+    "verify corpus licence/reuse terms",
+    "verify speaker/collector provenance and consent/privacy basis",
+    "obtain lawful immutable artifact bytes and SHA-256 where permitted",
+    "create item/timecode locators before promoting speech-derived evidence",
+    "reconcile this lead into authoritative MMSC/WEB-MUN ledger before changing controlled counts",
+    "synchronize downstream universal search, evidence graph, gap matrix, release metrics/tables/figures only after deterministic ledger reconciliation"
+  ],
+  "count_policy": "Do not alter controlled MMSC totals from this locator record alone. Reported corpus cardinalities are properties of this source, not audited-source counts."
+}

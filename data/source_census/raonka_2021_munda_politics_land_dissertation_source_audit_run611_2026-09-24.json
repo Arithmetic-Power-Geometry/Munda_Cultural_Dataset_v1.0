@@ -1,0 +1,65 @@
+{
+  "project": "MLHKP",
+  "run": 611,
+  "audit_date": "2026-09-24",
+  "scope": "non-Mundarica source census and exact-locator conversion queue",
+  "canonical_work": {
+    "author": "Pallavi Raonka",
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "date": "2021-02-02",
+    "type": "doctoral dissertation",
+    "publisher_institution": "Virginia Tech",
+    "persistent_identifier": "http://hdl.handle.net/10919/111386",
+    "repository_landing_page": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041"
+  },
+  "identity_verification": {
+    "status": "verified_from_institutional_repository_metadata",
+    "repository_reports_primary_pdf": "Raonka_P_D_2021.pdf",
+    "repository_reports_pdf_size": "2.33 MB",
+    "repository_collection": "Doctoral Dissertations"
+  },
+  "scope_classification": {
+    "communities": ["Munda", "Adivasi communities in Jharkhand"],
+    "geography": ["Jharkhand, India"],
+    "topics": ["land", "indigeneity", "politics", "identity", "state relations", "gender", "neoliberal development", "resistance narratives"],
+    "method_signal_from_repository_abstract": "fifteen-month ethnographic study, May 2017 to December 2018, using several forms of qualitative data",
+    "scope_warning": "Do not generalize field-specific qualitative findings to all Munda communities, locations, or historical periods without proposition-level support."
+  },
+  "canonicalization": {
+    "repository_precheck": "No exact Raonka match found in repository code search before insertion.",
+    "work_identity_rule": "Handle, Virginia Tech landing page, dissertation PDF and supporting documents are manifestations/components of one dissertation record, not independent corroborating sources.",
+    "duplicate_policy": "Canonicalize future citations by normalized title + author + year + persistent handle."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "landing_page_access": "public",
+    "pdf_access_signal": "repository advertises downloadable PDF",
+    "redistribution_permission": "not yet verified at file/license level",
+    "participant_consent_ethics": "requires full-text inspection before participant-derived evidence promotion",
+    "cultural_sensitivity": "land, identity, gender, political conflict and community self-representation require contextual and consent-aware treatment",
+    "public_access_not_redistribution_permission": true
+  },
+  "exact_locator_conversion": {
+    "state": "queued_beyond_discovery",
+    "required_before_promotion": [
+      "obtain authoritative repository PDF through permitted access",
+      "record cryptographic hash and stable manifestation metadata",
+      "verify dissertation pagination and table/figure/appendix concordance",
+      "inspect methods, field sites, participant/sample description, ethics and consent",
+      "extract only proposition-level passages with exact page/section/table/figure locators",
+      "separate participant testimony/direct field evidence from author interpretation and cited secondary literature",
+      "tag temporal and geographic scope for every promoted proposition",
+      "review file-level reuse rights and cultural sensitivity before exposing quotations or derived media"
+    ]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_ingested": 0,
+    "reason": "Repository metadata and abstract verify a high-value obtainable source, but exact page locators, ethics/consent, dependency provenance and file-level reuse have not yet been audited."
+  },
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "mmsc_reconciliation_required": true,
+    "gap_preserved": "full proposition-level conversion pending"
+  }
+}

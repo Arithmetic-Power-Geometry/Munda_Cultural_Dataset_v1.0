@@ -1,0 +1,50 @@
+{
+  "run": 385,
+  "date_utc": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "source_class": ["audio", "web_resource", "relevant_media"],
+  "provider": "MegaVoice Media Cloud",
+  "scope": "Mundari-labelled audio catalogue manifestations",
+  "records": [
+    {
+      "title": "Gospel of Mark • Mundari (unr)",
+      "provider_reference": "M0B9476",
+      "language_label": "Mundari",
+      "country_label": "India",
+      "type": "Audio",
+      "publisher_label": "Faith Comes by Hearing (Hosanna)",
+      "provider_reported_size": "55.3 MB",
+      "provider_reported_runtime": "2 h 06 min",
+      "catalogue_url": "https://megavoice.com/media-cloud/m0b9476-gospel-of-mark-unr-mundari-audio-bible/",
+      "sample_url": "https://mv-audio-video-samples.s3.amazonaws.com/audio-samples/M0B9476.mp3"
+    },
+    {
+      "title": "Words of Life • Mundari (unr)",
+      "provider_reference": "M035419",
+      "language_label": "Mundari",
+      "type": "Audio",
+      "publisher_label": "Global Recordings Network",
+      "catalogue_url": "https://megavoice.com/media-cloud/m035419-words-of-life-unr-mundari-audio-bible/",
+      "sample_url": "https://mv-audio-video-samples.s3.amazonaws.com/audio-samples/M035419.mp3"
+    }
+  ],
+  "canonicalization": {
+    "provider_family": "MegaVoice Media Cloud Mundari audio",
+    "rule": "Do not treat alternate-language labels as separate source identities; reconcile provider references against the existing WEB-MUN ledger before changing controlled counts."
+  },
+  "promotion_state": "exact_locator_only",
+  "promoted_public_factual_claims": 0,
+  "promoted_evidence_records": 0,
+  "rights_and_governance": {
+    "catalogue_publicly_discoverable": true,
+    "sample_publicly_resolvable": true,
+    "item_level_reuse_permission_verified": false,
+    "recording_provenance_verified": false,
+    "speaker_consent_verified": false,
+    "privacy_publicity_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false,
+    "binary_hash_verified": false
+  },
+  "audit_note": "Provider catalogue metadata and sample locators are not evidence of permission, participant consent, cultural authorization, or the truth of cultural/linguistic propositions. No audio/transcript content is promoted until those boundaries are resolved."
+}

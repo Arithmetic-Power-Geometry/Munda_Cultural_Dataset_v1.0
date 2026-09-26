@@ -1,0 +1,63 @@
+{
+  "audit_run": 491,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica",
+  "canonical_source": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "publication_year": 1975,
+    "languages": ["English", "Mundari"],
+    "source_class": ["book", "grammar", "government_or_institutional_repository"],
+    "repository": "Bhasha Sanchika — Central Institute of Indian Languages (CIIL)",
+    "handle": "https://hdl.handle.net/20.500.14705/8179",
+    "repository_item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "repository_file_label": "CIILP0091.pdf"
+  },
+  "identity_verification": {
+    "status": "verified_at_repository_metadata_level",
+    "verified_fields": ["title", "author", "publication_year", "language", "handle", "repository file label"],
+    "repository_description": "Pedagogically organized grammar described by CIIL as covering noun morphology, verb morphology, adjectives, adverbs, and syntax.",
+    "deduplication_rule": "Treat the CIIL item page, handle landing page, repository PDF manifestation, catalogue/search records, and mirrors/reprints as manifestations of one 1975 work unless collation demonstrates edition-level independence."
+  },
+  "scope_classification": {
+    "in_scope": true,
+    "language_scope": "Mundari",
+    "evidence_domains": ["grammar", "morphology", "syntax", "pedagogical linguistic description"],
+    "not_independent_of_derivatives": "Later works quoting or reproducing this grammar are dependency-bearing until passage-level provenance is established."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "access": "CIIL repository metadata publicly discoverable; repository exposes a PDF manifestation.",
+    "reuse_rights": "not established by the metadata inspected in this run",
+    "government_or_institutional_hosting_is_open_license": false,
+    "speaker_or_consultant_consent": "not established from repository metadata",
+    "cultural_sensitivity": "No cultural proposition may be inferred merely from linguistic examples; culturally sensitive example material requires item-level review before promotion."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Exact reusable bytes, explicit reuse terms, checksum, printed/PDF page concordance, and passage-level locators were not established in this run.",
+    "future_exact_locator_template": "<lawfully-permitted-file>#sha256=<hash>;pdf-page=<n>;printed-page=<n>;section=<heading>;example-or-paragraph=<locator>"
+  },
+  "explicit_gaps": [
+    "obtain and verify lawful immutable source bytes where permitted",
+    "record SHA-256",
+    "establish PDF-to-printed-page concordance",
+    "extract exact passage/example locators",
+    "determine explicit reuse/redistribution terms",
+    "review consultant/example provenance and culturally sensitive content before promotion"
+  ],
+  "controlled_metrics_policy": "Do not alter MMSC claims/evidence/source/module counts from this discovery audit alone. Reconcile only after deterministic permitted ingestion.",
+  "release_gate_effect": "Source-census coverage improved; audited-release completion remains blocked on explicit ingestion and rights/provenance gates.",
+  "provenance": [
+    {
+      "url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "role": "authoritative institutional repository metadata",
+      "checked": "2026-09-19"
+    },
+    {
+      "url": "https://hdl.handle.net/20.500.14705/8179",
+      "role": "persistent identifier",
+      "checked": "2026-09-19"
+    }
+  ]
+}

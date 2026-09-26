@@ -1,0 +1,58 @@
+{
+  "run": 397,
+  "stream": "non-Mundarica source census",
+  "canonical_work_id": "adivaani-tribal-english-parallel-corpus:mundari",
+  "title": "Adivaani Tribal-English Parallel Corpus — Mundari configuration",
+  "provider": "Hugging Face / adivaanihf",
+  "provider_locator": "https://huggingface.co/datasets/adivaanihf/adivaani-tribal-english-parallel-corpus",
+  "scope": {
+    "language": "Mundari",
+    "iso_639_3": "unr",
+    "resource_class": "dataset / parallel corpus",
+    "verified_from_provider_metadata": true
+  },
+  "provider_metadata_verified": {
+    "mundari_configuration_listed": true,
+    "stable_id_field_described": true,
+    "tribal_text_field_described": true,
+    "english_alignment_field_described": true,
+    "derived_from_parent_corpus": "adivaanihf/adivaani-tribal-parallel-corpus"
+  },
+  "canonicalization": {
+    "rule": "Treat this Mundari configuration and its parent-corpus manifestations as one corpus lineage until row-level provenance proves independent source identities.",
+    "deduplication_against_existing_repository_exact_name_search": "no exact repository match found before Run397 ingestion",
+    "do_not_count_as_new_audited_identity_until_ledger_reconciliation": true
+  },
+  "rights_and_governance": {
+    "license_state": "defer to parent dataset; not independently resolved in this run",
+    "redistribution_permission": "unverified",
+    "underlying_source_reuse_permission": "unverified",
+    "participant_consent": "unverified/not established by surfaced metadata",
+    "community_validation": "unverified",
+    "cultural_access_authorization": "unverified",
+    "privacy_publicity": "unverified/not established by surfaced metadata"
+  },
+  "promotion_state": "exact-locator-only",
+  "promoted_evidence": [
+    "provider exposes a Mundari configuration identified with ISO 639-3 unr",
+    "provider describes aligned tribal_text and eng_text fields and stable inherited IDs"
+  ],
+  "not_promoted": [
+    "sentence-pair counts",
+    "row-level translations",
+    "linguistic propositions",
+    "cultural claims",
+    "redistribution entitlement"
+  ],
+  "materialization_requirements": [
+    "resolve immutable dataset revision/commit and file manifests",
+    "obtain permitted Mundari configuration bytes and SHA-256",
+    "resolve parent-corpus provenance and licensing at source/row level",
+    "deterministically recount rows, malformed rows and duplicates",
+    "cross-corpus deduplicate against Karya, AdiBhasha/MMLoSo and other Mundari parallel-corpus leads",
+    "assign exact row locators only after rights/provenance review",
+    "preserve consent/community/cultural-access uncertainty explicitly"
+  ],
+  "source_observed_utc": "2026-09-15T20:40:00Z",
+  "audit_note": "Availability on a dataset hub does not itself establish permission for MLHKP redistribution or cultural authorization. No cultural claim is inferred from corpus presence."
+}

@@ -1,0 +1,68 @@
+{
+  "project": "MLHKP",
+  "run": 614,
+  "branch": "mlhkp-v2",
+  "audit_date": "2026-09-24",
+  "canonical_work": {
+    "title": "A Munda Burial",
+    "creator_or_correspondent": "Amita / Amita Tuti (as identified by provider)",
+    "provider": "Video Volunteers",
+    "publication_date": "2013-05-13",
+    "source_class": ["video", "community_media", "web_resource", "oral_testimony"],
+    "canonical_url": "https://www.videovolunteers.org/a-munda-burial/"
+  },
+  "identity_verification": {
+    "status": "provider_metadata_verified",
+    "repository_precheck_exact_title": "no_match_found_before_insertion",
+    "notes": "Provider page identifies the item as A Munda Burial, dated 13 May 2013, by Amita, and identifies Amita Tuti as a Community Correspondent and Munda."
+  },
+  "scope": {
+    "community": "Munda",
+    "place": "Sarjoma village / Jharkhand; provider tags include Khunti district",
+    "topics": ["burial", "memorial stone", "oral testimony", "community identity", "Sal trees"],
+    "classification": "community-produced culturally sensitive audiovisual evidence candidate",
+    "generalization_rule": "Do not generalize the depicted practice or testimony to all Munda communities, places, periods, households or lineages."
+  },
+  "provider_visible_evidence": {
+    "named_testimony": ["Sinu Munda", "Amita Tuti"],
+    "page_description": "Provider page describes a drum procession, offerings, a memorial stone, testimony concerning identity and remembrance, and planting of Sal trees.",
+    "evidentiary_limit": "Provider prose and embedded-media availability do not by themselves establish exact audiovisual timecodes, complete speaker provenance, participant consent for dataset reuse, or permission to redistribute audiovisual material."
+  },
+  "deduplication": {
+    "canonical_unit": "one audiovisual/community-media work",
+    "rule": "Provider landing page, embedded player, mirrors, social posts, search-index records and downstream citations are manifestations or references to the same work unless independent provenance is demonstrated.",
+    "independent_corroboration_count_from_manifestations": 0
+  },
+  "rights_access_consent_cultural_governance": {
+    "publicly_discoverable": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_for_mlkhp_reuse_verified": false,
+    "cultural_sensitivity": "high",
+    "reason": "Burial, memorial and mortuary practice plus named community testimony require heightened consent, cultural-access and contextual review.",
+    "rule": "Public access does not equal permission to redistribute, transcribe wholesale, or expose culturally sensitive material."
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "status": "exact_locator_conversion_gated",
+    "reason": "Authoritative audiovisual manifestation, exact HH:MM:SS locators, complete speaker/participant provenance, consent/reuse terms and cultural-governance status are not yet verified."
+  },
+  "conversion_plan": [
+    "verify authoritative playable/downloadable audiovisual manifestation without bypassing access controls",
+    "record stable manifestation identity and cryptographic hash if lawful download is permitted",
+    "create exact HH:MM:SS segment locators for each candidate proposition",
+    "separate direct observable event, named participant testimony, correspondent narration and provider editorial prose",
+    "verify speaker identity/provenance only to the level supported by the source",
+    "review participant consent, excerpt/transcript reuse, copyright and cultural-access constraints",
+    "tag locality, date, community and uncertainty; prohibit universalization",
+    "promote only supported permitted segments after governance checks"
+  ],
+  "gap_state": [
+    "authoritative audiovisual manifestation not independently fixed for audit",
+    "exact segment timecodes not verified",
+    "participant consent for MLHKP reuse not verified",
+    "redistribution/excerpt rights not verified",
+    "cultural-access/community-governance status unresolved"
+  ]
+}

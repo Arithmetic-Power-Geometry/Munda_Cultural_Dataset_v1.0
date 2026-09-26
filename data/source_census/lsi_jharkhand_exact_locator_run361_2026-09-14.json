@@ -1,0 +1,47 @@
+{
+  "run": 361,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source_class": "government_TRI_Census_LSI",
+  "provider": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+  "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+  "reference_id": "LSI_JHARKHAND",
+  "series": "LINGUISTIC SURVEY OF INDIA",
+  "resource_type": "book",
+  "provider_date_published": "2023-08-01",
+  "provider_catalogue_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+  "declared_download_filename": "LSI_JHARKHAND.pdf",
+  "declared_download_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "identity_verification": {
+    "provider_catalogue_verified": true,
+    "provider_reference_id_verified": true,
+    "provider_declared_filename_verified": true,
+    "producer_verified_from_provider_metadata": true
+  },
+  "access_verification": {
+    "catalogue_metadata_obtainable": true,
+    "direct_pdf_fetch_this_run": "blocked_http_502",
+    "local_pdf_bytes_obtained": false,
+    "sha256_verified": false,
+    "page_inventory_verified": false,
+    "page_image_or_screenshot_verified": false,
+    "exact_internal_mundari_page_locator_verified": false
+  },
+  "rights_governance": {
+    "provider_rights_field_observed": "contact/disclaimer information only; no permissive reuse licence inferred",
+    "reuse_permission_inferred": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "scope_classification": {
+    "target_relevance": "Jharkhand linguistic-survey government source; potentially relevant to Mundari/Munda linguistic evidence",
+    "controlled_linguistic_claims_promoted": 0,
+    "controlled_cultural_claims_promoted": 0,
+    "numeric_claims_promoted": 0
+  },
+  "promotion_boundary": "Exact provider identity, catalogue locator, reference ID and declared PDF filename are promoted. PDF bytes, hash, pages, internal Mundari locators, substantive linguistic propositions, demographic values, participant consent, community validation, cultural authorization and reuse rights remain unverified and unpromoted.",
+  "deduplication_note": "This is a manifestation/provider locator record. It does not increment the controlled source-identity register without deterministic reconciliation to the authoritative numbered WEB-MUN/source register.",
+  "blocker": "Official PDF endpoint returned HTTP 502 during this run; continue via permitted official access paths in a later verification cycle.",
+  "fabrication_guard": true
+}

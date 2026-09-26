@@ -1,0 +1,56 @@
+{
+  "record_type": "source_census_exact_locator_verification",
+  "checked_utc": "2026-09-09T04:48:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "video_relevant_media",
+  "authority": "Wikimedia Commons file record for Eastern Zonal Cultural Centre media",
+  "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+  "creator_attribution": "Eastern Zonal Cultural Centre",
+  "directors_as_described": ["Aloke Banerjee", "Jaydip Mukherjee"],
+  "publication_date_as_recorded": "2022-09-27",
+  "commons_file_url": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+  "original_source_platform": "YouTube",
+  "original_video_id": "jcaVTX0BCtQ",
+  "media_manifestation": {
+    "format": "video/webm",
+    "duration_seconds": 2370.695,
+    "display_duration": "39 min 31 s",
+    "dimensions_pixels": "720 x 480",
+    "size_bytes": 531678981,
+    "sha1": "eb3421c6428ea386f8f340520ab9aa0672de6000"
+  },
+  "exact_locators": [
+    {"timestamp": "00:04:28", "commons_description_label": "Paika (Munda community)"},
+    {"timestamp": "00:06:00", "commons_description_label": "Mundari"},
+    {"timestamp": "00:11:12", "commons_description_label": "Mundari (Marriage)"}
+  ],
+  "license_verification": {
+    "license": "CC BY 3.0 Unported",
+    "attribution": "Eastern Zonal Cultural Centre",
+    "commons_license_review_date": "2023-01-20",
+    "commons_review_note": "Commons records that a reviewer confirmed the original YouTube source was available under the stated Creative Commons license on the review date.",
+    "redistribution_or_adaptation_beyond_license_terms_inferred": false
+  },
+  "evidence_boundary": {
+    "promoted_now": "media identity, creator attribution, stable Commons manifestation metadata, checksum, reviewed CC BY 3.0 license, and Commons-supplied timestamp labels only",
+    "dance_form_generalization_promoted": false,
+    "marriage_custom_claim_promoted": false,
+    "community_wide_representativeness_promoted": false,
+    "participant_identity_or_consent_inferred": false,
+    "interview_transcript_ingested": false,
+    "audio_or_video_bytes_ingested_into_mlhkp": false,
+    "reason": "The file and reviewed license support media-level reuse facts and exact locators, but they do not establish community-wide cultural authority, participant consent for arbitrary downstream uses, or the validity of generalized cultural propositions."
+  },
+  "rights_governance": {
+    "license_supports_file_reuse_subject_to_attribution": true,
+    "cultural_access_review_still_required_for_sensitive_or_people_level_reuse": true,
+    "participant_or_community_consent_inferred": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "deduplication": {
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "instruction": "Reconcile this EZCC media work and its YouTube/Commons manifestations against the 87-record discovery layer before assigning a permanent SRC-MMSC identity; do not count the YouTube and Commons manifestations as separate intellectual works."
+  },
+  "release_use": "Advances a reusable relevant-media lead from generic discovery to exact timestamp, license, manifestation and checksum evidence while preserving consent and cultural-authority uncertainty."
+}

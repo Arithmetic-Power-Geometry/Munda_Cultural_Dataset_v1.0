@@ -1,0 +1,41 @@
+{
+  "run": 417,
+  "audit_date": "2026-09-16",
+  "record_type": "exact_locator_audit",
+  "canonical_work": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A descriptive analysis of Mundari",
+    "genre": "doctoral dissertation / grammar",
+    "institution": "Georgetown University",
+    "extent": "vi, 315 pages, illustrations, maps",
+    "scope": "Mundari language grammar"
+  },
+  "locator": {
+    "provider": "Glottolog 5.3",
+    "reference_id": "33106",
+    "url": "https://glottolog.org/resource/reference/id/33106",
+    "source_bibliography": "Southeast Asian Linguistics Archive, sala:1745"
+  },
+  "canonicalization": {
+    "identity_key": "cook-1965-descriptive-analysis-mundari-georgetown",
+    "rule": "Dissertation, catalogue, abstract, microfilm and library manifestations remain one work unless substantive revision is demonstrated.",
+    "repository_title_author_precheck": "no match"
+  },
+  "scope": {
+    "relevance": "direct Mundari linguistic source",
+    "classes": ["thesis/dissertation", "grammar"],
+    "potential_domains": ["phonology", "morphology", "grammar", "linguistic description"]
+  },
+  "audit_gates": {
+    "full_text_obtained": false,
+    "rights_verified": false,
+    "consent_verified": false,
+    "cultural_access_verified": false,
+    "status": "blocked_pending_materialization_and_provenance_audit",
+    "requirements": ["lawful full text", "immutable revision and SHA-256", "digital-to-print page concordance", "reuse terms", "speaker/informant and elicitation provenance", "consent and cultural-access review"]
+  },
+  "claims_promoted": 0,
+  "evidence_records_promoted": 0,
+  "note": "Bibliographic verification establishes identity and scope only; no linguistic or cultural proposition is promoted."
+}

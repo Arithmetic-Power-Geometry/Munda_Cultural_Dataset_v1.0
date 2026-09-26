@@ -1,0 +1,56 @@
+{
+  "run": 471,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari TTS dataset corpus",
+    "source_class": ["dataset", "audio", "computational-linguistics resource"],
+    "language": "Mundari",
+    "canonical_repository": "https://github.com/karya-inc/dataset-mundari-tts",
+    "related_publication": "MunTTS: A Text-to-Speech System for Mundari",
+    "publication_venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-7), 2024, pp. 76-82"
+  },
+  "provider_reported_metadata": {
+    "audio_files": 26870,
+    "speakers": 2,
+    "female_recordings": 19868,
+    "male_recordings": 7002,
+    "audio_format": "32-bit PCM WAV",
+    "sampling_rate_hz": 44100,
+    "sample_repository_recordings_per_speaker": 100,
+    "full_corpus_approx_size": "17 GB (7 GB compressed)",
+    "full_corpus_access": "provider directs users to request a download link by email"
+  },
+  "publication_crosscheck": {
+    "paper_reports_unique_sentences": 15656,
+    "paper_reports_audio_recordings": 26868,
+    "paper_reports_duration_hours": 27.51,
+    "note": "Repository README reports 26,870 audio files while the 2024 paper reports 26,868 recordings. Preserve this two-record discrepancy as an unresolved version/count issue; do not normalize or fabricate a resolution."
+  },
+  "provenance": {
+    "repository_statement": "Corpus created by Microsoft Research India, IIT Kharagpur and Karya, with FAIR Forward/GIZ collaboration.",
+    "publication_artifact_relation": "Microsoft MunTTS repository is related software/publication infrastructure and must not be counted as an independent underlying speech corpus without provenance evidence."
+  },
+  "rights_and_ethics": {
+    "license": "Non-commercial Karya Public License; repository instructs users to consult LICENSE.txt.",
+    "redistribution_assumption": "none",
+    "speaker_consent_verified_for_mlhkp_redistribution": false,
+    "privacy_review_complete": false,
+    "cultural_access_review_complete": false,
+    "promotion_status": "HOLD"
+  },
+  "deduplication": {
+    "canonicalization_rule": "README, LICENSE.txt, COPYRIGHT.txt, data-sample.tgz, cloud-hosted full corpus, MunTTS paper and MunTTS code repository are manifestations/documentation/dependencies around one underlying corpus unless record-level provenance proves otherwise.",
+    "independent_evidence_count": 0
+  },
+  "exact_locator_plan": {
+    "sample_audio": "data-sample.tgz::<speaker>/<item>.wav;sha256=<permitted-file-hash>",
+    "sample_transcript": "data-sample.tgz::<speaker>/<item>.txt;sha256=<permitted-file-hash>",
+    "full_corpus": "<permitted-manifest>#item=<stable-item-id>;sha256=<permitted-file-hash>",
+    "requirements": ["lawful permitted bytes", "file and manifest SHA-256", "audio-transcript pairing verification", "speaker/provenance review", "consent/privacy review", "cultural-access review", "overlap/dependency audit"]
+  },
+  "claims_promoted": 0,
+  "evidence_records_promoted": 0,
+  "controlled_count_effect": "none until deterministic MMSC reconciliation",
+  "release_note": "A discoverable corpus has been converted from a generic lead into a deterministic canonical source audit. No provider-reported count is treated as an MLHKP controlled count."
+}

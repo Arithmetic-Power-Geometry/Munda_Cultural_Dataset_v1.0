@@ -1,0 +1,33 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified peer-reviewed source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, community validation, or source completeness.",
+  "records": [
+    {
+      "id": "WEB-MUN-0076",
+      "title": "‘Keeping the state away’: democracy, politics, and the state in India's Jharkhand",
+      "source_class": "peer_reviewed_political_anthropology_article",
+      "publisher": "Journal of the Royal Anthropological Institute / Wiley",
+      "url": "https://doi.org/10.1111/j.1467-9655.2007.00417.x",
+      "author": "Alpa Shah",
+      "year": 2007,
+      "notes": "Wiley publisher metadata verifies Alpa Shah's article in Journal of the Royal Anthropological Institute, volume 13, pages 129-145, DOI 10.1111/j.1467-9655.2007.00417.x, first published online 8 February 2007. The publisher abstract explicitly discusses Mundas in Jharkhand, electoral participation, local political economy and the parha as represented in the study. Register only as a governance/political-anthropology source lead. Abstract statements are source-reported interpretations, not universal/current Munda facts; later evidence use requires exact passage locators, field-site/sample/method and period framing, contradiction/variant linkage, and community-aware review.",
+      "verification_state": "publisher_metadata_and_doi_verified",
+      "access_class": "publisher_metadata_public_full_text_and_reuse_conditions_unresolved",
+      "rights_note": "Publisher metadata/abstract access does not establish permission to redistribute article text, field notes, participant-derived material, tables or figures. Wiley permissions and any participant/community-sensitive content require separate review; cultural-access restrictions override technical or commercial availability."
+    },
+    {
+      "id": "WEB-MUN-0077",
+      "title": "Towards a typology of information structuring in Munda languages",
+      "source_class": "peer_reviewed_comparative_munda_linguistics_article",
+      "publisher": "Formal Approaches to South Asian Languages (University of Konstanz OJS)",
+      "url": "https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/en/article/view/346",
+      "author": "Gregory D. S. Anderson; Bikram Jora; Moses Oyeleye; Izza Armand; Tara Shabazaz; Luke Horo",
+      "year": 2026,
+      "notes": "The University of Konstanz-hosted FASAL journal page verifies the article title, six authors, publication date 9 April 2026 and issue Proceedings of FASAL-15. Its abstract states that the comparative analysis examines Sora and Mundari and discusses morpholexical, syntactic and prosodic information structuring. Register as a recent comparative Munda/Mundari linguistics lead only. No grammatical proposition is promoted from the abstract; later structuring requires exact PDF page/example/table locators, language- and corpus-specific scope, method/data provenance, and reconciliation with other Mundari analyses.",
+      "verification_state": "institutional_journal_metadata_verified",
+      "access_class": "institutional_journal_page_public_pdf_and_reuse_terms_require_item_review",
+      "rights_note": "Public journal-page/PDF availability does not by itself establish unrestricted text, example, corpus, audio, annotation, model-training or commercial reuse. Item licence and underlying elicitation/corpus rights must be checked before extraction or redistribution; cultural-access restrictions remain independently enforceable."
+    }
+  ]
+}

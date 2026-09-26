@@ -1,0 +1,62 @@
+{
+  "mlhkp_run": 612,
+  "audit_date_utc": "2026-09-23T21:41:00Z",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "author": "Alpa Shah",
+    "title": "‘Keeping the state away’: democracy, politics, and the state in India's Jharkhand",
+    "journal": "Journal of the Royal Anthropological Institute",
+    "first_published": "2007-02-08",
+    "doi": "10.1111/j.1467-9655.2007.00417.x",
+    "source_class": ["peer-reviewed article", "anthropology", "politics/ethnography"],
+    "scope": "Munda political participation and representations of the state in Jharkhand; includes discussion of the sacral polity/parha and local political economy.",
+    "scope_classification": "Munda-focused Jharkhand evidence; political/ethnographic and temporally/contextually bounded, not a universal cultural rule"
+  },
+  "identity_verification": {
+    "publisher_metadata_verified": true,
+    "publisher": "Wiley / Journal of the Royal Anthropological Institute",
+    "doi_verified": true,
+    "first_publication_date_verified": true,
+    "repository_exact_title_precheck": "No exact title match returned by repository code search before insertion."
+  },
+  "canonicalization": {
+    "canonical_key": "doi:10.1111/j.1467-9655.2007.00417.x",
+    "rule": "DOI/publisher landing page, indexing records, citations, and any lawful manuscript/PDF manifestation are one scholarly work unless independently demonstrated otherwise; do not count manifestations as corroborating sources.",
+    "duplicate_promotions": 0
+  },
+  "access_rights": {
+    "publisher_landing_metadata": "discoverable",
+    "full_text_status_in_this_run": "not established as openly reusable authoritative full text",
+    "redistribution_permission": "unverified",
+    "action": "Do not ingest or redistribute a binary until lawful manifestation and file-level rights are verified."
+  },
+  "evidence_conversion": {
+    "discovery_only": false,
+    "conversion_state": "structured exact-locator queue",
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason_not_promoted": "Publisher metadata/abstract supports work identity and scope but is insufficient for proposition-level controlled cultural evidence. Full-text manifestation, pagination, field/method provenance, primary-versus-secondary dependency, ethics/consent where applicable, and rights remain to be audited.",
+    "required_next": [
+      "obtain a lawful authoritative full-text manifestation",
+      "record manifestation identifier and cryptographic hash when permitted",
+      "verify journal-page/PDF-page concordance",
+      "extract only proposition-level passages with exact page/section/table/figure locators",
+      "tag direct field/participant evidence separately from author interpretation and cited literature",
+      "record field locality, participant/sample and temporal scope where reported",
+      "inspect ethics/consent and culturally sensitive political testimony handling",
+      "verify file-level reuse/redistribution rights before any binary publication"
+    ]
+  },
+  "cultural_uncertainty": {
+    "generalization_bar": "Do not convert the article's locally situated political analysis into a timeless or universal claim about all Munda communities, villages, generations or regions.",
+    "terminology_bar": "Retain the author's historical/local terminology and provenance; do not silently normalize institutional or sacred-polity terms across communities.",
+    "community_validation": "not claimed"
+  },
+  "release_effect": {
+    "controlled_metric_change_justified": false,
+    "mmsc_count_change": false,
+    "publication_metric_change": false,
+    "gap_status": "full-text proposition-level audit remains explicit"
+  }
+}

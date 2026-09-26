@@ -1,0 +1,59 @@
+{
+  "artifact_id": "LSI-JHARKHAND-RUN126",
+  "run": 126,
+  "date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "work_identity": {
+    "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+    "reference_id": "LSI_JHARKHAND",
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "publication_date": "2023-08-01",
+    "resource_type": "book"
+  },
+  "official_manifestation": {
+    "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "filename": "LSI_JHARKHAND.pdf",
+    "direct_download_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+    "verified_from_indexed_official_record": true,
+    "direct_pdf_bytes_acquired_this_run": false,
+    "direct_fetch_result": "HTTP 502 via current retrieval path",
+    "checksum_verified": false,
+    "page_images_verified": false
+  },
+  "independent_mirror_manifestation": {
+    "provider": "People's Archive of Rural India (PARI)",
+    "landing_url": "https://ruralindiaonline.org/en/library/resource/linguistic-survey-of-india--jharkhand//",
+    "pdf_url": "https://wagtail.ruralindiaonline.org/media/documents/Linguistic_Survey_of_India-_Jharkhand.pdf",
+    "text_layer_exposes_mundari_section": true,
+    "mirror_bytes_acquired_this_run": false,
+    "page_images_verified": false,
+    "use_boundary": "independent locator/text-layer corroboration only; not treated as authoritative page-image verification or redistribution permission"
+  },
+  "bounded_observations": [
+    "The official ORGI catalogue identifies LSI_JHARKHAND and LSI_JHARKHAND.pdf as the Jharkhand Linguistic Survey manifestation published 2023-08-01.",
+    "The current official indexed PDF endpoint exposes the document identity but direct retrieval returned HTTP 502 in this run.",
+    "PARI independently hosts a mirror/landing record whose indexed text layer contains a Mundari section, but this run did not establish page-image equivalence, file hash, or exact page-image locators."
+  ],
+  "promotion_boundary": {
+    "bibliographic_identity_verified": true,
+    "official_direct_pdf_locator_verified": true,
+    "independent_mirror_locator_verified": true,
+    "ocr_or_text_layer_treated_as_verified_transcription": false,
+    "page_level_claims_promoted": false,
+    "numeric_claims_promoted": false,
+    "reuse_rights_inferred": false,
+    "community_validation_inferred": false
+  },
+  "blockers": [
+    "Official PDF bytes could not be acquired through the current retrieval path because the direct endpoint returned HTTP 502.",
+    "Independent mirror PDF exceeded the current web fetch size limit, so page-image inspection could not be completed.",
+    "No checksum, page-image equivalence, exact Mundari page-image locator, or derivative reuse permission was established."
+  ],
+  "integrity": {
+    "fabricated_facts": false,
+    "fabricated_counts": false,
+    "false_ocr_verification": false,
+    "public_availability_treated_as_reuse_permission": false,
+    "absolute_completeness_claimed": false
+  }
+}

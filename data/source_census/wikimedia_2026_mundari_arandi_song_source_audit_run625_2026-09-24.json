@@ -1,0 +1,66 @@
+{
+  "run": 625,
+  "audit_date": "2026-09-24",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": ["audio", "video", "web_resource", "relevant_media"],
+  "canonical_work": {
+    "title_as_hosted": "सिंगि दोय तुर लेना मुण्डारी अरांडी गीत",
+    "host": "Wikimedia Commons",
+    "manifestation": "WebM audiovisual file",
+    "duration": "00:02:27",
+    "resolution": "1280x720",
+    "file_size_reported": "11.86 MB",
+    "performer_as_hosted": "Satya Narayan Naag",
+    "landing_page": "https://commons.wikimedia.org/wiki/File:%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%97%E0%A4%BF_%E0%A4%A6%E0%A5%8B%E0%A4%AF_%E0%A4%A4%E0%A5%81%E0%A4%B0_%E0%A4%B2%E0%A5%87%E0%A4%A8%E0%A4%BE_%E0%A4%AE%E0%A5%81%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%85%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%A1%E0%A5%80_%E0%A4%97%E0%A5%80%E0%A4%A4.webm"
+  },
+  "hosted_description": {
+    "english": "Host metadata describes this as a Mundari Arandi/wedding song sung by the Munda community during wedding ceremonies in the Ranchi-Khunti region of Jharkhand, and names Satya Narayan Naag as singer.",
+    "evidentiary_status": "host_metadata_only_not_yet_promoted_as_controlled_cultural_claim"
+  },
+  "scope_classification": {
+    "people": "Munda (host assertion; requires provenance review)",
+    "language": "Mundari (host assertion; linguistic verification pending)",
+    "geography": "Ranchi-Khunti region, Jharkhand (host assertion; recording locality not yet independently verified)",
+    "domain": ["music", "oral_performance", "wedding_context"],
+    "temporal_scope": "recording/performance date not yet verified"
+  },
+  "deduplication": {
+    "repository_exact_title_precheck": "no match returned before insertion",
+    "canonicalization_rule": "Commons landing page, previews/transcodes, original WebM and any mirrors are manifestations of one audiovisual source unless provenance proves distinct recordings",
+    "independent_corroboration": false
+  },
+  "locator_plan": {
+    "current_exact_locator": "Wikimedia Commons file page; audiovisual duration 00:02:27",
+    "next_required": [
+      "verify original-file metadata and uploader/source provenance",
+      "record exact license and attribution fields from authoritative file page",
+      "hash permitted original manifestation if ingestion policy allows",
+      "segment recording using HH:MM:SS locators",
+      "verify language/content with competent linguistic provenance before transcription/translation claims",
+      "distinguish host caption from statements supported directly by audiovisual content"
+    ]
+  },
+  "rights_access_consent_culture": {
+    "access": "publicly discoverable Commons file",
+    "rights": "do not infer reuse terms from discoverability; exact Commons license/attribution metadata must be captured before binary ingestion",
+    "performer_consent": "not established by current search evidence",
+    "community_consent": "not established",
+    "cultural_uncertainty": "wedding-performance context is host metadata and requires provenance review",
+    "sensitivity": "community performance; review performer/community consent and culturally appropriate reuse before controlled ingestion"
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Identity is discoverable and an exact audiovisual locator exists, but provenance, exact rights/attribution, consent, recording date/locality and content verification remain incomplete."
+  },
+  "gap_status": [
+    "exact license metadata pending",
+    "recording provenance pending",
+    "recording date pending",
+    "performer/community consent pending",
+    "content/language verification pending",
+    "timestamp-level proposition extraction pending"
+  ],
+  "release_policy": "Keep as explicit conversion candidate/gap until provenance, rights, consent and timestamp-level evidence gates pass; never treat hosted descriptive text as independently verified cultural fact."
+}

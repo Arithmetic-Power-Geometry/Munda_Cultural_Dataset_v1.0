@@ -1,0 +1,58 @@
+{
+  "run": 441,
+  "date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Munda Mimetic Reduplication",
+    "authors": ["J. B. Phillips", "K. David Harrison"],
+    "year": 2017,
+    "type": "peer-reviewed journal article",
+    "journal": "Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13"
+  },
+  "scope": {
+    "classification": "Munda-family comparative linguistics with explicit Kera Mundari and Mundari coverage",
+    "non_mundarica": true,
+    "topics": ["mimetic reduplication", "sound symbolism", "lexicon", "phonology", "semantics"]
+  },
+  "verified_manifestations": [
+    {
+      "provider": "Swarthmore College Works",
+      "url": "https://works.swarthmore.edu/fac-linguistics/223/",
+      "role": "institutional repository metadata/landing record",
+      "access_note": "landing record exposes article metadata, abstract, DOI and full-text-link routing"
+    },
+    {
+      "provider": "Cambridge University Press",
+      "url": "https://doi.org/10.1017/cnj.2017.13",
+      "role": "publisher/DOI manifestation"
+    }
+  ],
+  "deduplication": {
+    "rule": "DOI + normalized title + authors + year",
+    "canonicalization": "Swarthmore landing record, DOI resolution, publisher page and lawful full-text copies are manifestations of one article identity, not independent sources",
+    "repository_exact_title_search_before_ingestion": "no match returned"
+  },
+  "rights_access": {
+    "status": "UNVERIFIED_FOR_REDISTRIBUTION",
+    "note": "Institutional landing-page availability and a full-text link do not by themselves establish repository redistribution rights for MLHKP. Verify the article/version licence before storing bytes or excerpts beyond permitted evidence practice."
+  },
+  "evidence_promotion": {
+    "status": "NOT_PROMOTED",
+    "reason": "This run verified bibliographic identity and scope from institutional metadata but did not establish lawful immutable full-text bytes, SHA-256, exact PDF/printed-page concordance, or reuse basis.",
+    "required_next": [
+      "obtain lawful full text/version",
+      "record version and item-level licence/reuse basis",
+      "compute SHA-256 if storage is permitted",
+      "establish PDF-to-printed-page concordance",
+      "extract only exact-locator Mundari/Kera Mundari evidence",
+      "trace lexical examples to underlying elicitation/corpus sources where stated",
+      "retain cultural/participant uncertainty for field-derived examples"
+    ]
+  },
+  "count_policy": "Do not change controlled MMSC/source/evidence totals until deterministic reconciliation against the authoritative WEB-MUN/MMSC ledger is executed.",
+  "claims_promoted": 0
+}

@@ -1,0 +1,38 @@
+{
+  "record_type": "authoritative_source_acquisition_tracker",
+  "source_family": "Linguistic Survey of India",
+  "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+  "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+  "reference_id": "LSI_JHARKHAND",
+  "publication_date": "2023-08-01",
+  "resource_type": "book",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+  "direct_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "catalogue_metadata_verified_utc": "2026-09-07T09:27:00Z",
+  "catalogue_state": "authoritative_government_catalogue_verified",
+  "pdf_locator_state": "authoritative_direct_download_locator_verified",
+  "pdf_fetch_state": "transient_timeout_during_exact_page_extraction_attempt",
+  "mundari_exact_page_locator_state": "pending",
+  "ocr_state": "not_started",
+  "evidence_promotion_state": "blocked_pending_exact_mundari_page_locator",
+  "rights_state": "government_catalogue_disclaimer_present_item_reuse_not_inferred",
+  "access_class": "PUBLIC_GOVERNMENT_CATALOGUE_PDF_LOCATOR_EXTRACTION_PENDING",
+  "cultural_access_boundary": "No language or cultural proposition is promoted from catalogue metadata alone. Exact Mundari pages must be inspected and scope/rights reviewed before evidence linkage.",
+  "related_verified_context": {
+    "west_bengal_lsi_mundari_locator": "https://censusindia.gov.in/nada/index.php/catalog/34826/download/38514/LSI_WB_PART_I.pdf",
+    "west_bengal_mundari_known_printed_page": 391,
+    "use_boundary": "West Bengal material is a separate state survey and must not be substituted for Jharkhand evidence."
+  },
+  "next_safe_actions": [
+    "Retry the authoritative Jharkhand PDF download after the transient timeout.",
+    "Locate the Mundari section using the document table of contents/text layer before any claim extraction.",
+    "Record exact printed and PDF page numbers, section heading, author, survey geography, fieldwork date and methodological scope.",
+    "Promote only source-reported linguistic evidence with exact locators and explicit verification/access state."
+  ],
+  "integrity": {
+    "metadata_treated_as_cultural_evidence": false,
+    "pdf_timeout_treated_as_absence": false,
+    "west_bengal_evidence_substituted_for_jharkhand": false,
+    "reuse_permission_assumed": false
+  }
+}

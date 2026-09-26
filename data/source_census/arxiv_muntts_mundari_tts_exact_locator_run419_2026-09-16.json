@@ -1,0 +1,58 @@
+{
+  "run": 419,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_identity": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+    "year": 2024,
+    "class": ["peer-reviewed/article-or-preprint", "dataset-description", "audio/speech-technology"],
+    "identifier": "arXiv:2401.15579",
+    "canonical_url": "https://arxiv.org/abs/2401.15579"
+  },
+  "scope": {
+    "language": "Mundari",
+    "relevance": "Describes collection/processing of Mundari text and speech and an end-to-end TTS system; relevant to audiovisual/dataset census and provenance reconciliation.",
+    "cultural_claim_scope": "none promoted"
+  },
+  "verification": {
+    "provider": "arXiv",
+    "metadata_verified": true,
+    "abstract_level_verified": true,
+    "full_text_bytes_materialized": false,
+    "sha256_verified": false,
+    "exact_page_concordance_verified": false
+  },
+  "deduplication": {
+    "repository_search_term": "MunTTS",
+    "existing_repository_match_found_before_ingestion": false,
+    "related_but_not_merged": ["Karya Mundari TTS dataset"],
+    "rule": "Article/preprint identity is distinct from dataset identity; link them only through explicit provenance rather than title/language similarity."
+  },
+  "locator_policy": {
+    "current_locator": "arXiv abstract record 2401.15579",
+    "future_exact_locator": "immutable arXiv version + PDF page/section/table/figure or dataset-file/utterance identifier, as applicable",
+    "promotion_state": "exact source locator recorded; passage/utterance evidence not promoted"
+  },
+  "rights_access_consent": {
+    "access": "public abstract record",
+    "reuse": "not inferred from public availability; manifestation-level terms require verification",
+    "participant_consent": "not established by publication or dataset availability",
+    "privacy": "speaker-level provenance/privacy review required before audiovisual evidence promotion",
+    "cultural_access": "unknown; must be preserved as uncertainty",
+    "restriction_policy": "do not expose or redistribute underlying audio/text unless source rights, participant consent and cultural-access conditions support it"
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "records_promoted": 0,
+    "reason": "Abstract establishes research scope but is insufficient for exact passage/utterance evidence, rights, speaker consent, and provenance audit."
+  },
+  "open_gaps": [
+    "materialize a permitted immutable article manifestation and record SHA-256",
+    "verify publication/version metadata and PDF page concordance",
+    "reconcile the paper's corpus description against the separately registered Karya Mundari TTS dataset without assuming identity",
+    "audit speaker/collector/translator provenance, consent, privacy and cultural-access conditions",
+    "promote only supported permitted exact-locator evidence after those checks"
+  ],
+  "controlled_count_effect": "none until deterministic reconciliation against WEB-MUN ledger"
+}

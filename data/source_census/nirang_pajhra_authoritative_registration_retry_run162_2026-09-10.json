@@ -1,0 +1,38 @@
+{
+  "run": 162,
+  "date_utc": "2026-09-10",
+  "candidate": "Nirang Pajhra",
+  "candidate_type": "historical multilingual Adivasi print periodical",
+  "prior_audit": "data/source_census/nirang_pajhra_secondary_registration_scope_run152_2026-09-10.json",
+  "reported_registration_identifier_from_secondary_source": "WBMUL00610",
+  "authoritative_registration_search": {
+    "queries": [
+      "\"Nirang Pajhra\" site:prgi.gov.in",
+      "\"WBMUL00610\" site:rni.nic.in",
+      "\"WBMUL00610\" site:prgi.gov.in"
+    ],
+    "authoritative_prgi_or_rni_record_resolved": false,
+    "result_boundary": "No authoritative PRGI/RNI manifestation was returned by the targeted searches in this run. This is a retrieval result, not proof that no registration exists."
+  },
+  "independent_secondary_corroboration": {
+    "source": "Scribes News, Indian Journalists Union, December 2024",
+    "url": "https://indianjournalistsunion.com/wp-content/uploads/2025/01/Scribes-News_December-2024.pdf",
+    "scope": "The article describes Oliva Arjun Indwar as having previously run print outlets including Nirang Pajhra and Jharkhand Dhara and reports that those print outlets ran for a short period.",
+    "use_boundary": "This corroborates historical print-outlet existence only. It does not independently establish the reported RNI identifier, exact registration date, issue chronology, language-by-issue coverage, ownership, copyright, contributor consent, community validation, or cultural-access status."
+  },
+  "deterministic_disposition": "candidate_blocked_pending_authoritative_registration_or_issue_manifestation",
+  "content_ingested": false,
+  "claims_promoted": 0,
+  "source_identity_count_change": 0,
+  "evidence_count_change": 0,
+  "rights_verified": false,
+  "community_validation_verified": false,
+  "cultural_access_verified": false,
+  "verification_boundary": "Do not promote the reported registration identifier or Mundari-language issue content until an authoritative registration manifestation or issue-level manifestation is independently resolved. Public or secondary mention is not permission and is not community validation.",
+  "next_safe_actions": [
+    "Retry PRGI/RNI title and registration-number lookup through an authoritative accessible endpoint.",
+    "Search library/newspaper catalogues for issue-level Nirang Pajhra manifestations with dates, holdings identifiers and language metadata.",
+    "If an issue is located, assess item-level rights and cultural-access constraints before any passage-level ingestion."
+  ],
+  "completion_claim": false
+}

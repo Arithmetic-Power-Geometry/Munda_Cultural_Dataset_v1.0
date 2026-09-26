@@ -1,0 +1,39 @@
+{
+  "run": 481,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "author_editor": "George A. Grierson",
+    "title": "Muṇḍā and Dravidian Languages",
+    "series": "Linguistic Survey of India",
+    "volume": "IV",
+    "year": 1906,
+    "publisher": "Office of the Superintendent of Government Printing",
+    "place": "Calcutta",
+    "extent": "xiv+680 pp"
+  },
+  "classes": ["government", "linguistic survey", "book", "grammar", "wordlist", "map"],
+  "scope": "Munda and Dravidian languages; bibliographic authority identifies Mundari material including Ranchi/Palaman/Jashpur/Bamra varieties. DSAL exposes Volume 4 in its LSI BookReader.",
+  "verified_manifestations": [
+    {"provider":"Digital South Asia Library, University of Chicago","url":"https://dsal.uchicago.edu/books/lsi/","status":"public BookReader/index","relationship":"digitized manifestation/index"},
+    {"provider":"Glottolog","url":"https://glottolog.org/resource/reference/id/304344","status":"bibliographic verification","relationship":"reference record"},
+    {"provider":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg","status":"public-domain map manifestation","relationship":"derived scan of map facing p. 7"}
+  ],
+  "canonicalization": {
+    "rule": "Treat DSAL, catalogue/Google/OpenLibrary records, scans and reprints as manifestations of the 1906 LSI Volume IV work unless edition-level collation demonstrates substantive independence.",
+    "independent_source_count": 1
+  },
+  "rights_access": {
+    "work": "historical government publication; individual manifestation rights must still be recorded",
+    "map": "Wikimedia Commons marks the 1906 LSI Munda-language distribution map Public Domain Mark 1.0; source states it faces page 7",
+    "text_ingestion": "Do not promote text merely from discoverability. Obtain lawful stable bytes, hash them, establish printed-page/PDF-page concordance, then extract only supported passages.",
+    "consent_cultural": "Historical publication does not establish present-day community consent or cultural permission; culturally sensitive claims require separate review."
+  },
+  "exact_locator_targets": [
+    "LSI-V4#printed-page=<p>;pdf-page=<p>;section=<heading>;sha256=<hash>",
+    "LSI-V4-map#facing-printed-page=7;sha256=<hash>"
+  ],
+  "promotion": {"claims":0,"evidence_records":0,"reason":"No passage-level immutable permitted text bytes and concordance established in this run. Map is rights-clear at manifestation level but its historical cartographic assertions are not automatically promoted as current cultural/geographic truth."},
+  "gaps": ["immutable text bytes/hash", "page concordance", "exact Mundari section locators", "dependency/provenance review", "historical-versus-current geographic interpretation", "cultural-access review where applicable"],
+  "audit_principle": "Never infer current cultural facts from a colonial-era survey without explicit provenance, temporal qualification and corroboration."
+}

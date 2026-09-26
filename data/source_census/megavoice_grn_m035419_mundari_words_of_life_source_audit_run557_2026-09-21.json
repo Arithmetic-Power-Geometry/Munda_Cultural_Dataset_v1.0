@@ -1,0 +1,65 @@
+{
+  "run": 557,
+  "stream": "non-Mundarica source census",
+  "canonical_source_id": "megavoice:M035419",
+  "source_class": ["audio", "web_resource", "religious_media"],
+  "title": "Words of Life • Mundari (unr)",
+  "provider": "MegaVoice Media Cloud",
+  "publisher_reported": "Global Recordings Network",
+  "reference_number": "M035419",
+  "language_provider_label": "Mundari",
+  "type_provider_label": "Audio",
+  "provider_description_scope": "Short Bible stories, evangelistic messages and songs; provider states that most use a storytelling approach and are recorded by mother-tongue speakers.",
+  "canonical_url": "https://megavoice.com/media-cloud/m035419-words-of-life-unr-mundari-audio-bible/",
+  "manifestations": [
+    {
+      "kind": "provider_catalogue_page",
+      "url": "https://megavoice.com/media-cloud/m035419-words-of-life-unr-mundari-audio-bible/"
+    },
+    {
+      "kind": "provider_linked_audio_sample",
+      "url": "https://mv-audio-video-samples.s3.amazonaws.com/audio-samples/M035419.mp3",
+      "binary_ingested": false
+    }
+  ],
+  "deduplication": {
+    "repository_exact_identifier_search_before_addition": "no M035419 match returned",
+    "rule": "Reference M035419, catalogue page, linked sample/derivatives and mirrors are manifestations of one source identity unless independent provenance proves otherwise."
+  },
+  "scope_classification": {
+    "munda_relevance": "language-specific provider record",
+    "geographic_scope": "provider page does not supply a sufficiently precise recording locality",
+    "cultural_claim_scope": "religious/linguistic audio; not evidence for generalized Munda cultural practice"
+  },
+  "rights_access_consent": {
+    "publicly_streamable_or_linked": true,
+    "redistribution_permission_verified": false,
+    "speaker_identity_verified": false,
+    "speaker_consent_for_dataset_reuse_verified": false,
+    "cultural_access_review_complete": false,
+    "note": "Public provider access and a sample URL do not establish redistribution, derivative-dataset, speaker-consent, or culturally unrestricted reuse rights."
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Exact segment boundaries/transcript, recording provenance/locality, speaker metadata/consent, rights, dependency and cultural-access status are not yet audited."
+  },
+  "conversion_queue": [
+    "verify publisher/provider provenance and recording date/locality",
+    "verify lawful access and reuse/redistribution terms",
+    "if permitted, capture immutable manifestation and SHA-256",
+    "establish exact audio duration and segment/timecode inventory",
+    "obtain/verify transcript or create only if rights and consent permit",
+    "separate linguistic evidence from religious-content claims",
+    "review speaker consent and cultural-access sensitivity before evidence promotion"
+  ],
+  "audit_principles": [
+    "provider language labels are preserved verbatim until independently reconciled",
+    "public access does not equal redistribution permission",
+    "mother-tongue-speaker description does not establish reusable participant consent",
+    "religious media is not generalized into community-wide cultural belief or practice",
+    "no source count or cultural claim is inferred beyond provider-supported metadata"
+  ],
+  "audited_utc": "2026-09-21T14:43:00Z"
+}

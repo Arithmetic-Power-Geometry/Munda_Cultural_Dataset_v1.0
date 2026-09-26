@@ -1,0 +1,41 @@
+{
+  "run": 325,
+  "audit_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "Mundarica XI-XII historical bibliographic/page-accounting reconciliation",
+  "source": {
+    "title": "Index/Bibliographia Societatis Iesu 1938 entry for Encyclopaedia Mundarica",
+    "locator": "https://arsi.jesuits.global/wp-content/uploads/2022/05/IBSI-1938.pdf",
+    "source_type": "historical bibliographic record",
+    "accessed_via": "web-indexed text extraction",
+    "primary_scan_bytes_acquired": false,
+    "independent_hash_verified": false
+  },
+  "observations": {
+    "volume_xi": {
+      "publication_year": 1938,
+      "publisher_statement": "Superintendent Government Printing, Bihar, Patna",
+      "printed_page_range": "3175-3456",
+      "page_range_source_level": "historical bibliographic record",
+      "scan_image_concordance_verified": false,
+      "ocr_verified": false
+    },
+    "volume_xii": {
+      "publication_year": 1938,
+      "publisher_statement": "same bibliographic entry groups Volume XII with Volume XI",
+      "printed_page_range": "3457-3707",
+      "page_range_source_level": "historical bibliographic record",
+      "scan_image_concordance_verified": false,
+      "ocr_verified": false
+    }
+  },
+  "verification_boundary": {
+    "authoritative_registered_scans_added": 0,
+    "verified_complete_volumes_added": 0,
+    "verified_ocr_pages_added": 0,
+    "content_level_claims_promoted": 0,
+    "rule": "Historical bibliographic pagination is page-accounting evidence only. It must not be converted into byte acquisition, scan completeness, page-image concordance, OCR verification, or cultural-content verification."
+  },
+  "release_disposition": "historical_page_accounting_anchor_verified_primary_manifestation_bytes_unresolved",
+  "remaining_gap": "Acquire a permitted primary manifestation for XI and XII, independently hash it, establish printed-page to scan-image concordance, and verify OCR separately before any OCR-complete or scan-complete state is assigned."
+}
