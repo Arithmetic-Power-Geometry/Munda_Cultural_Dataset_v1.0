@@ -1,0 +1,76 @@
+{
+  "run": 651,
+  "date_utc": "2026-09-26",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "dataset",
+    "audio",
+    "peer-reviewed_article"
+  ],
+  "canonical_work": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": [
+      "Varun Gumma",
+      "Rishav Hada",
+      "Aditya Yadavalli",
+      "Pamir Gogoi",
+      "Ishani Mondal",
+      "Vivek Seshadri",
+      "Kalika Bali"
+    ],
+    "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+    "year": 2024,
+    "pages": "76-82",
+    "artifact_repository": "https://github.com/karya-inc/dataset-mundari-tts"
+  },
+  "exact_locators": [
+    {
+      "locator": "paper p.76 (proceedings PDF p.85)",
+      "supports": "Jharkhand Mundari, Devanagari; 15,656 unique sentences; 26,868 recordings; 27.51 hours"
+    },
+    {
+      "locator": "paper pp.76-77 (proceedings PDF pp.85-86)",
+      "supports": "20,000 Hindi sentences manually translated to Mundari, native-speaker appropriateness validation, speaker selection workflow"
+    },
+    {
+      "locator": "paper p.77 (proceedings PDF p.86), Table 1",
+      "supports": "26,868 final recordings; 7,002 male and 19,866 female by table arithmetic; train/dev/test metrics; 44.1 kHz/32-bit collection"
+    },
+    {
+      "locator": "repository README blob c10e12d2ddb8a9c942209ac534102ac89689b537",
+      "supports": "current released corpus declares 26,870 recordings, 19,868 female + 7,002 male, 17 GB, 100+100 sample, Karya BY-NC-SA-FS 1.0"
+    },
+    {
+      "locator": "dataset-mundari-tts-full.sha1 blob 00b0722863093ffd2f13e00473ac3e517b76b53e",
+      "supports": "full archive checksum 46c8bfceb5cf25decc8523479378793537f2bad7"
+    }
+  ],
+  "deterministic_reconciliation": {
+    "result": "same corpus family, version-specific manifestations retained",
+    "paper_2024_count": 26868,
+    "current_repository_count": 26870,
+    "delta": 2,
+    "interpretation": "Do not silently normalize. Current repository release has two additional female recordings relative to the paper's Table 1/final-dataset count; no provenance found in this run explaining the delta.",
+    "no_duplicate_identity_created": true
+  },
+  "rights_governance": {
+    "repository_license": "Karya Public License BY-NC-SA-FS 1.0",
+    "constraints": [
+      "noncommercial",
+      "attribution",
+      "share-alike",
+      "software incorporation requires GPL",
+      "privacy/publicity/moral rights may remain"
+    ],
+    "participant_consent_for_dataset_redistribution_verified": false,
+    "cultural_access_verified": false,
+    "binary_ingestion": false
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Version discrepancy is now resolved as an explicit version-specific provenance fact, but participant consent/cultural-access and controlled-ledger reconciliation remain before cultural/linguistic evidence promotion."
+  }
+}
