@@ -1,0 +1,72 @@
+{
+  "audit_run": 654,
+  "audit_date": "2026-09-27",
+  "branch": "mlhkp-v2",
+  "source_class": "doctoral dissertation / book-length religious-ethnographic study",
+  "canonical_identity": {
+    "author": "Marianne Kessel",
+    "title": "Ein Beitrag zur Kenntnis der Munda-Religion",
+    "year": 1975,
+    "place_publisher_statement": "Berlin, 1975",
+    "language": "German",
+    "extent": "290 p.",
+    "dissertation": true,
+    "authority_records": [
+      {
+        "provider": "National Library of Finland / Finna",
+        "record_id": "fikka.131953",
+        "url": "https://www.finna.fi/Record/fikka.131953"
+      },
+      {
+        "provider": "Deutsche Digitale Bibliothek",
+        "authority": "Marianne Yaldiz (née Kessel)",
+        "gnd": "1055655743",
+        "url": "https://www.deutsche-digitale-bibliothek.de/person/gnd/1055655743"
+      }
+    ]
+  },
+  "verification": {
+    "identity_verified": true,
+    "independent_authority_corroboration": true,
+    "branch_recursive_tree_sha_before_commit": "c184a30b5684765b5ccdb9e86a52fe8b98ae1771",
+    "branch_tree_truncated": false,
+    "deterministic_path_matches_for": [
+      "kessel",
+      "131953",
+      "munda religion"
+    ],
+    "deterministic_path_match_count": 0,
+    "repository_state": "branch-unmatched by deterministic path check; MMSC/WEB-MUN ledger reconciliation still required before any controlled identity increment"
+  },
+  "access_rights_governance": {
+    "readable_full_text_obtained": false,
+    "exact_reuse_terms_verified": false,
+    "redistribution_permitted": false,
+    "participant_consent_known": false,
+    "community_authorization_known": false,
+    "cultural_access_status": "unresolved",
+    "rule": "Bibliographic availability is not evidence permission. Do not promote religious/cultural propositions until a lawful readable manifestation is inspected and exact page locators, source dependencies, historical scope, rights and cultural-governance status are established."
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "binary_delta": 0,
+    "reason": "Institutional metadata verifies source identity only; no lawful readable manifestation or proposition-level locator was obtained in this run."
+  },
+  "blockers": [
+    "Obtain a lawful authoritative readable manifestation.",
+    "Verify title-page/dissertation institution and original pagination against catalogue metadata.",
+    "Determine copyright/reuse terms; do not infer reuse from catalogue access.",
+    "Inspect methodology, source base, locality/temporal scope and dependency on earlier missionary/ethnographic literature.",
+    "Create exact page-level atomic evidence only for supported Munda-specific propositions.",
+    "Apply heightened cultural-governance review to religious/ritual material before public exposure.",
+    "Reconcile against MMSC/WEB-MUN before changing controlled counts."
+  ],
+  "search_notes": [
+    "National Library of Finland catalogue verifies author, title, dissertation status, Berlin 1975, German language and 290-page extent.",
+    "Deutsche Digitale Bibliothek authority record corroborates the work under Marianne Yaldiz (née Kessel).",
+    "No matching repository path was found in the complete recursive mlhkp-v2 tree at the pre-commit head."
+  ]
+}
