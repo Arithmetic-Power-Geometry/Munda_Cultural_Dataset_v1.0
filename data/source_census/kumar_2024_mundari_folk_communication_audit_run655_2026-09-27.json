@@ -1,0 +1,50 @@
+{
+  "run": 655,
+  "date_utc": "2026-09-27",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source": {
+    "title": "Rural Cultural Communication: Mundari Folk and Reflection of Daily Struggle",
+    "author": "Shubham Kumar",
+    "publication_date": "2024-08-21",
+    "provider": "Media Scholar",
+    "provider_record": "https://mediascholar.in/paper/cmnoar4dw001f7wb64gr6html",
+    "source_class": "article/web scholarly resource",
+    "scope": "Munda/Mundari folk and cultural communication in Jharkhand",
+    "metadata_verified": [
+      "title",
+      "author",
+      "publication date",
+      "provider abstract/keywords",
+      "provider states full text available"
+    ],
+    "exact_locator_state": "provider article record; full-text fetch timed out during this audit, so no proposition-level page/section locator promoted"
+  },
+  "deterministic_canonicalization": {
+    "github_code_search_queries": [
+      "Rural Cultural Communication",
+      "mediascholar.in"
+    ],
+    "result": "zero returned matches, but GitHub reported incomplete_results=true",
+    "classification": "provisionally repository-unmatched; MMSC/WEB-MUN reconciliation required before controlled identity increment"
+  },
+  "quality_governance": {
+    "status": "discovery/audit only",
+    "cautions": [
+      "Provider abstract contains broad cultural assertions; these are not promoted as cultural facts without methods/source-dependency inspection.",
+      "No participant/community consent or cultural-access status established.",
+      "Free-to-read/download wording is not treated as redistribution permission.",
+      "Full text was not successfully retrieved in this run; no page/section claim locators fabricated."
+    ]
+  },
+  "controlled_deltas": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "streamlit_modules": 0
+  },
+  "blocker": "Provider full-text fetch timed out; inspect lawful full text, methods, references, rights, scope and exact locators before evidence promotion.",
+  "next_action": "Retry full-text manifestation; hash if obtainable and permitted; inspect methods and upstream citations; atomize only independently supported Munda-specific propositions with exact locators; reconcile against MMSC/WEB-MUN before count changes.",
+  "search_pass_note": "Parallel discovery covered institutional archives, theses, government/TRI, scholarly articles, datasets/media/audio-video/map leads. Previously known Edinburgh, UMass, Proietti, Raonka, TRI and Ravishankar families were not recounted."
+}
