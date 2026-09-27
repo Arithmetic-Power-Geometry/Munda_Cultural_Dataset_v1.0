@@ -1,0 +1,59 @@
+{
+  "audit_run": 652,
+  "audit_date_utc": "2026-09-27",
+  "branch": "mlhkp-v2",
+  "source_class": "government_census_dataset",
+  "canonical_source": {
+    "title": "A-11 Appendix: District wise scheduled tribe population (Appendix), Jharkhand - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "census_year": 2011,
+    "catalog_id": "43019",
+    "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/43019/study-description",
+    "geographic_scope": "Jharkhand, state and 24 districts",
+    "relevant_tribe_label": "Munda, Patar"
+  },
+  "verification": {
+    "identity_metadata_verified": true,
+    "authoritative_provider": "Census of India / ORGI",
+    "exact_catalog_locator": "catalog/43019",
+    "branch_tree_identifier_search": [
+      "43019",
+      "A-11 Appendix"
+    ],
+    "branch_tree_match": false,
+    "manifestation_bytes_obtained": false,
+    "checksum": null
+  },
+  "scope": {
+    "evidence_type": "administrative population statistics",
+    "permitted_interpretation": "2011 Census administrative counts for the enumerated Scheduled Tribe label 'Munda, Patar', once exact cells are inspected from the authoritative manifestation",
+    "prohibited_overgeneralization": "Do not convert Census administrative labels or counts into cultural identity, belief, language-use, consent, or community self-definition claims."
+  },
+  "rights_access_governance": {
+    "catalog_publicly_discoverable": true,
+    "local_binary_redistribution_permission_verified": false,
+    "participant_or_community_consent_inferred": false,
+    "cultural_access_status": "not_applicable_to_aggregate_catalog_metadata; reassess any downstream sensitive linkage"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "binary_delta": 0,
+    "reason": "Authoritative catalogue and scope are verified, but the data manifestation was not retrieved/hashed and exact sheet-row-cell locators were not inspected in this run."
+  },
+  "next_conversion_steps": [
+    "Obtain the authoritative A-11 Appendix data manifestation.",
+    "Record immutable checksum and file/version metadata.",
+    "Extract only rows explicitly labelled 'Munda, Patar'.",
+    "Create exact sheet/row/cell locators for state and district values.",
+    "Reconcile against MMSC/WEB-MUN before controlled promotion.",
+    "Preserve Census 2011 temporal and administrative scope in every claim."
+  ],
+  "blocked_or_uncertain": [
+    "Direct catalogue open returned a transient 502 during this audit; indexed authoritative metadata remained discoverable.",
+    "Binary reuse/redistribution terms not established in this run."
+  ],
+  "metric_policy": "No controlled counts changed; discovery/catalog verification is not evidence promotion."
+}
