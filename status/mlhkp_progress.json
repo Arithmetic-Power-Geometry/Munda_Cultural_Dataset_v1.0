@@ -3,9 +3,9 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-25T22:45:00Z",
+  "updated_utc": "2026-09-28T04:40:51Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 641,
+  "latest_run": 656,
   "exact_head_before_status_sync": "59d65700dd2440ab92c26eb757176671c37bc4a7",
   "mmsc": {
     "audited_source_identities": 42,
@@ -16,11 +16,12 @@
     "unresolved_unique_web_leads": 78,
     "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
     "systematic_census_documented_for_release": true,
-    "count_note": "No controlled count change. Run641 added a repository-unmatched, publisher-verified open CC BY-SA 4.0 Kumari & Rahman (2021) Munda/Jharkhand livelihood article with exact printed-page locator families (pp. 183–185). Because the article is largely descriptive/synthetic and does not expose a primary sampling/methods basis for broad cultural assertions, source-dependency must be resolved proposition-by-proposition before promotion.",
+    "count_note": "No controlled count change through Run656. Runs642-656 add audits, exact locators, rights/provenance enrichments and canonicalization candidates only; controlled identity/claim/evidence/link/module totals remain frozen pending deterministic ledger reconciliation.",
     "runs381_632_reconciliation_state": "pending",
     "runs381_633_reconciliation_state": "pending",
     "runs381_640_reconciliation_state": "pending",
-    "runs381_641_reconciliation_state": "pending"
+    "runs381_641_reconciliation_state": "pending",
+    "runs381_656_reconciliation_state": "pending"
   },
   "evidence": {
     "claims": 52,
@@ -56,10 +57,10 @@
   "publication": {
     "q1_target": true,
     "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
-    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-641 reconciliation pending"
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-656 reconciliation pending"
   },
   "sync_state": {
-    "status_updated_through_run": 641,
+    "status_updated_through_run": 656,
     "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
     "locator_queue_requires_reconciliation": true,
     "manuscript_metric_change_not_justified": true
@@ -76,9 +77,11 @@
     "status_sync_head_verification_pending": true,
     "run555_633_exact_head_verification_pending": true,
     "run555_640_exact_head_verification_pending": true,
-    "run555_641_exact_head_verification_pending": true
+    "run555_641_exact_head_verification_pending": true,
+    "run555_656_exact_head_verification_pending": true
   },
   "blockers": [
+    "Runs642-656 are now status-accounted but require deterministic MMSC/WEB-MUN reconciliation before any controlled count change.",
     "Runs381-632 additions require deterministic reconciliation before controlled count changes",
     "78 unresolved WEB-MUN leads at last deterministic reconciliation",
     "Mundarica I-XVI still lacks independently authoritative registered scans and verified OCR/page completeness",
@@ -116,6 +119,7 @@
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "deterministically reconcile Runs642-656 against MMSC/WEB-MUN, canonicalize duplicate manifestations/source families, and update controlled counts only from ledger evidence",
     "atomize Kumari & Rahman 2021 pp. 183–185, map each candidate proposition to its upstream citation/authorial synthesis, and promote only independently supportable, correctly scoped evidence",
     "resolve the Adivaani Mundari Dictionary PDF manifestation and capture edition/compiler/date/hash/reuse terms, then create entry/page-level lexical evidence only after provenance and dialect checks",
     "reconcile the MunTTS paper's 26,868-recording corpus with the current Karya README's 26,870-recording release and preserve version-specific provenance",
