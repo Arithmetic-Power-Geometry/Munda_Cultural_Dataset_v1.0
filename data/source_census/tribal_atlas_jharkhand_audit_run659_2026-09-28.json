@@ -1,0 +1,51 @@
+{
+  "run": 659,
+  "audit_date_utc": "2026-09-28",
+  "branch": "mlhkp-v2",
+  "source_class": "government_atlas_book",
+  "canonical_source": "Tribal Atlas of Jharkhand",
+  "publisher": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand",
+  "publication_year": 2025,
+  "extent_pages": 147,
+  "verification": [
+    {
+      "source": "Google Books bibliographic record",
+      "url": "https://books.google.com/books/about/Tribal_Atlas_of_Jharkhand.html?id=xwaR0QEACAAJ",
+      "facts": [
+        "Title: Tribal Atlas of Jharkhand",
+        "Publisher: Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand",
+        "Publication year: 2025",
+        "Extent: 147 pages"
+      ]
+    }
+  ],
+  "canonicalization": {
+    "complete_branch_tree_title_path_hits": 0,
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0
+  },
+  "scope": {
+    "classification": "Jharkhand tribal atlas; Munda relevance requires page-level inspection",
+    "munda_exclusive": false
+  },
+  "rights_access_consent": {
+    "readable_full_manifestation_verified": false,
+    "redistribution_permission_established": false,
+    "cultural_access_status": "unresolved",
+    "participant_consent": "not inferable from bibliographic metadata"
+  },
+  "evidence_boundary": {
+    "promoted_cultural_claims": 0,
+    "reason": "Institutional bibliographic identity is verified, but no authoritative readable full manifestation or exact Munda page/map/table locators and reuse terms were established."
+  },
+  "next_conversion": [
+    "Locate an authoritative TRI/Government manifestation or catalogue record",
+    "capture edition/identifier and file hash if lawfully obtainable",
+    "identify exact Munda-specific pages, maps, tables and their upstream data sources",
+    "separate Census/statistical layers from interpretive cultural text",
+    "promote only supported permitted propositions after rights, provenance, scope and MMSC reconciliation"
+  ]
+}
