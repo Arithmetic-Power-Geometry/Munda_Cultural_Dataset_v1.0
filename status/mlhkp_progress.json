@@ -3,9 +3,9 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-29T08:46:00Z",
+  "updated_utc": "2026-09-30T06:40:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 660,
+  "latest_run": 662,
   "exact_head_before_status_sync": "3a4d844219f46dc57dfb4d7cc997ec4f3b3175a2",
   "mmsc": {
     "audited_source_identities": 42,
@@ -16,14 +16,15 @@
     "unresolved_unique_web_leads": 78,
     "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
     "systematic_census_documented_for_release": true,
-    "count_note": "No controlled count change through Run660. Runs642-660 add audits, exact locators, rights/provenance enrichments and canonicalization candidates only; controlled identity/claim/evidence/link/module totals remain frozen pending deterministic ledger reconciliation.",
+    "count_note": "No controlled count change through Run662. Runs642-662 add audits, exact locators, rights/provenance enrichments and canonicalization candidates only; controlled identity/claim/evidence/link/module totals remain frozen pending deterministic ledger reconciliation.",
     "runs381_632_reconciliation_state": "pending",
     "runs381_633_reconciliation_state": "pending",
     "runs381_640_reconciliation_state": "pending",
     "runs381_641_reconciliation_state": "pending",
     "runs381_656_reconciliation_state": "pending",
     "runs381_658_reconciliation_state": "pending",
-    "runs381_660_reconciliation_state": "pending"
+    "runs381_660_reconciliation_state": "pending",
+    "runs381_662_reconciliation_state": "pending"
   },
   "evidence": {
     "claims": 52,
@@ -59,10 +60,10 @@
   "publication": {
     "q1_target": true,
     "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
-    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-660 reconciliation pending"
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-662 reconciliation pending"
   },
   "sync_state": {
-    "status_updated_through_run": 660,
+    "status_updated_through_run": 662,
     "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
     "locator_queue_requires_reconciliation": true,
     "manuscript_metric_change_not_justified": true
@@ -82,9 +83,12 @@
     "run555_641_exact_head_verification_pending": true,
     "run555_656_exact_head_verification_pending": true,
     "run555_658_exact_head_verification_pending": true,
-    "run555_660_exact_head_verification_pending": true
+    "run555_660_exact_head_verification_pending": true,
+    "run555_662_exact_head_verification_pending": true
   },
   "blockers": [
+    "Run662 Rijksmuseum object RP-F-2001-7-1122A-22 is institutionally verified and Public Domain, but MMSC/WEB-MUN source-family reconciliation, optional image manifestation checksum/size, and cultural-sensitivity review remain before controlled identity assignment or image exposure.",
+    "Run661 Census ST-14 Appendix PC01_ST14a-20 is official-catalog verified, but authoritative XLS retrieval/checksum, Munda cell-level row/column verification, redistribution determination and MMSC/WEB-MUN reconciliation remain before statistical evidence promotion.",
     "Run660 Mahanti & Bhatia 2025 Murma Jatra source is journal-metadata/abstract verified and repository-index unmatched, but requires lawful authoritative full text, manifestation/hash and page concordance, Munda-specific participant/locality inspection, consent/ethics, rights, dependency and cultural-access review before proposition promotion.",
     "Runs642-658 are now status-accounted but require deterministic MMSC/WEB-MUN reconciliation before any controlled count change.",
     "Runs381-632 additions require deterministic reconciliation before controlled count changes",
@@ -126,6 +130,8 @@
     "absolute_or_future_proof_source_completeness_claimed": false
   },
   "next_parallel_tasks": [
+    "retrieve and verify Census PC01_ST14_APPENDIX_20.xls, capture checksum/size and exact Munda row/column coordinates without promoting unverified cells",
+    "reconcile Rijksmuseum RP-F-2001-7-1122A-22 / persistent ID 200630490 against MMSC/WEB-MUN and prior People of India source-family records before controlled assignment",
     "obtain/inspect lawful authoritative Mahanti & Bhatia 2025 Murma Jatra full text and promote only Munda-specific propositions with exact page/interview locators after consent, rights, dependency and cultural-scope checks",
     "deterministically reconcile Runs642-658 against MMSC/WEB-MUN, canonicalize duplicate manifestations/source families, and update controlled counts only from ledger evidence",
     "atomize Kumari & Rahman 2021 pp. 183–185, map each candidate proposition to its upstream citation/authorial synthesis, and promote only independently supportable, correctly scoped evidence",
