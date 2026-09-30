@@ -1,0 +1,67 @@
+{
+  "run": 662,
+  "date_utc": "2026-09-30",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": "museum/archive/photograph/material-culture media",
+  "canonical_candidate": {
+    "institution": "Rijksmuseum",
+    "title": "Portrait of an unknown woman from the Munda tribe of Chota Nagpur in eastern India",
+    "object_number": "RP-F-2001-7-1122A-22",
+    "persistent_id": "https://id.rijksmuseum.nl/200630490",
+    "title_on_object": "Moonda female. Aboriginal. Chota Nagpoor",
+    "date": "c. 1858 - in or before 1868",
+    "photographer": "Benjamin Simpson (possibly)",
+    "place": "Chota Nagpur / Jharkhand",
+    "object_type": [
+      "photograph",
+      "page"
+    ],
+    "technique": "albumen print",
+    "dimensions": "175 mm x 130 mm",
+    "parent_work": "The people of India: a series of photographic illustrations, with descriptive letterpress, of the races and tribes of Hindustan"
+  },
+  "exact_locator_status": {
+    "level": "institutional object-level catalogue locator",
+    "locator": "Rijksmuseum object RP-F-2001-7-1122A-22; persistent ID 200630490; on-object inscription and physical-object metadata verified",
+    "cultural_claims_promoted": false,
+    "reason": "Catalogue attribution and colonial-era inscription are object metadata, not sufficient evidence for general cultural propositions."
+  },
+  "rights_access_consent": {
+    "access": "public institutional catalogue with image download exposed",
+    "copyright": "Rijksmuseum catalogue marks the work Public domain",
+    "redistribution": "public-domain status supports reuse of the work; downstream packaging still must preserve source/attribution metadata",
+    "consent": "historical subject is unidentified; no participant/community consent record established",
+    "cultural_access": "public-domain copyright status does not resolve ethical/cultural sensitivity of reuse of an identifiable historical person"
+  },
+  "scope_and_uncertainty": {
+    "safe_evidence": "object identity, institutional attribution, inscription, approximate date, possible photographer, place, technique, dimensions, parent-work membership, public-domain status",
+    "prohibited_inference": "Do not infer representative Munda dress, adornment, gender norms, identity, custom, or contemporary practice from this single colonial-era portrait.",
+    "attribution_note": "Photographer is explicitly qualified by the museum as possibly Benjamin Simpson; retain uncertainty."
+  },
+  "deterministic_dedup": {
+    "canonical_keys": [
+      "institution=Rijksmuseum|object=RP-F-2001-7-1122A-22",
+      "persistent_id=200630490"
+    ],
+    "repository_index_state": "candidate pending MMSC/WEB-MUN reconciliation; no controlled identity assigned in this run"
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "blockers": [
+    "Reconcile object number and persistent ID against MMSC/WEB-MUN and prior People of India/Benjamin Simpson source-family records.",
+    "If image binary is packaged, capture exact downloaded manifestation URL, checksum, byte size and retrieval date.",
+    "Perform cultural-sensitivity review before exposing or reusing the portrait image despite public-domain copyright status.",
+    "Do not promote catalogue wording or the colonial inscription as a generalized Munda cultural proposition."
+  ],
+  "release_effect": "Zero controlled delta. Adds an authoritative, rights-clear, object-level archival candidate while preserving consent and cultural-governance uncertainty.",
+  "evidence_basis": [
+    "Rijksmuseum institutional catalogue verified 2026-09-30: object RP-F-2001-7-1122A-22; persistent ID 200630490.",
+    "Catalogue records title, on-object inscription, c.1858-in or before 1868 dating, possible Benjamin Simpson attribution, Chota Nagpur/Jharkhand, albumen print, dimensions, parent work and Public domain copyright."
+  ]
+}
