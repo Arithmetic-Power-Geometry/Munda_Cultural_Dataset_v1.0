@@ -1,0 +1,82 @@
+{
+  "run": 661,
+  "date_utc": "2026-09-30",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": "government/Census/table/dataset",
+  "canonical_candidate": {
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "title": "ST-14 Appendix: Details of religions shown under 'other religions and persuasions' in main table ST-14, Jharkhand - 2001",
+    "reference_id": "PC01_ST14a-20",
+    "catalog_id": "25569",
+    "file": "PC01_ST14_APPENDIX_20.xls",
+    "census_year": 2001,
+    "geography": "Jharkhand",
+    "granularity": "state",
+    "universe": "Individuals from scheduled tribes in Jharkhand",
+    "unit": "individual person",
+    "statistics": "counts",
+    "dimensions": [
+      "scheduled tribe",
+      "religion",
+      "residence: total/rural/urban",
+      "sex: person/male/female"
+    ],
+    "munda_presence_verified": true,
+    "munda_row_label": "Munda",
+    "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/25569"
+  },
+  "exact_locator_status": {
+    "level": "official table schema/catalog locator",
+    "locator": "PC01_ST14a-20 / PC01_ST14_APPENDIX_20.xls; row dimension includes Tribe: Munda",
+    "numerical_cells_promoted": false,
+    "reason": "XLS cell values were not independently retrieved and verified in this run"
+  },
+  "scope_and_interpretation": {
+    "permitted_use": "demographic/statistical evidence after cell-level workbook verification",
+    "prohibited_inference": "Religion-category labels or counts must not be converted into claims about Munda belief, identity, practice, or community endorsement.",
+    "cultural_uncertainty": "Census administrative categories are preserved as reported categories, not normalized into cultural ontology assertions."
+  },
+  "rights_access_consent": {
+    "access": "official public Census catalogue; downloadable XLS advertised by catalogue",
+    "redistribution": "not inferred from public access; workbook redistribution permission not asserted",
+    "consent": "aggregate official statistics; no individual participant record promoted"
+  },
+  "deterministic_dedup_checks": [
+    {
+      "query": "PC01_ST14a-20",
+      "github_index_matches": 0
+    },
+    {
+      "query": "25569",
+      "github_index_matches": 0
+    },
+    {
+      "query": "ST-14 Appendix",
+      "github_index_matches": 0
+    },
+    {
+      "query": "Sari Dharma",
+      "github_index_matches": 0
+    }
+  ],
+  "dedup_caveat": "GitHub connector code search covers the default branch, not a guaranteed exhaustive mlhkp-v2 branch scan; zero indexed matches therefore does not prove branch absence. Candidate remains reconciliation-pending.",
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "blockers": [
+    "Retrieve the official XLS manifestation and record checksum/file size.",
+    "Verify Munda rows and numerical cells directly in the workbook with exact row/column coordinates.",
+    "Reconcile against MMSC/WEB-MUN and prior Census source-family identities before assigning a controlled source identity.",
+    "Determine redistribution terms before storing or redistributing the workbook."
+  ],
+  "release_effect": "No controlled metric change; adds a verified official-table conversion candidate and explicit gap.",
+  "evidence_basis": [
+    "Official Census catalogue metadata verified 2026-09-30.",
+    "Catalogue identifies reference ID PC01_ST14a-20, downloadable PC01_ST14_APPENDIX_20.xls, state granularity, person counts, Munda row, religion categories, residence and sex columns."
+  ]
+}
