@@ -1,0 +1,58 @@
+{
+  "audit_run": 664,
+  "audit_date_utc": "2026-09-30",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": "dataset / audio / peer-reviewed computational-linguistics paper",
+  "canonical_candidate": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": [
+      "Varun Gumma",
+      "Rishav Hada",
+      "Aditya Yadavalli",
+      "Pamir Gogoi",
+      "Ishani Mondal",
+      "Vivek Seshadri",
+      "Kalika Bali"
+    ],
+    "publication": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+    "year": 2024,
+    "pages": "76-82",
+    "doi": "10.18653/v1/2024.computel-1.11",
+    "anthology_id": "2024.computel-1.11"
+  },
+  "exact_locator_evidence": [
+    {
+      "locator": "printed p.76",
+      "support": "Study scope is Mundari spoken in Jharkhand and written in Devanagari; paper reports 15,656 unique sentences, 26,868 audio recordings, 27.51 hours, male and female voices."
+    },
+    {
+      "locator": "Karya case study",
+      "support": "Karya reports Mundari speakers were reached in 15 villages; 60,000 Hindi sentences were translated into Mundari; two speakers, one man and one woman, were selected to record the corpus."
+    }
+  ],
+  "rights_access": {
+    "acl_paper": "publicly accessible through ACL Anthology; paper copyright line is Association for Computational Linguistics (2024)",
+    "dataset": "do not infer redistribution permission from public descriptions; dataset license/version must be verified independently before ingestion or exposure"
+  },
+  "provenance_uncertainty": [
+    "Paper reports 26,868 recordings; repository/release count previously observed as 26,870 remains a version-lineage discrepancy and must not be silently normalized.",
+    "Karya case-study statement of 60,000 translated Hindi sentences is not equivalent to the paper's 15,656 unique-sentence TTS subset.",
+    "Two-speaker recording provenance does not by itself establish participant/community consent for downstream redistribution or cultural reuse.",
+    "No cultural proposition is promoted from a computational speech corpus."
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "promotion_state": "HOLD_PENDING_DETERMINISTIC_MMSC_WEB_MUN_RECONCILIATION_AND_DATASET_LICENSE_VERSION_PROVENANCE_CONSENT_REVIEW",
+  "sources": [
+    "https://aclanthology.org/2024.computel-1.11/",
+    "https://aclanthology.org/2024.computel-1.11.pdf",
+    "https://www.karya.in/resources/case-studies/tts-engine-mundari"
+  ],
+  "note": "Audit enrichment only. Never use this file to imply controlled-count promotion."
+}
