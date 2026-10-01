@@ -1,0 +1,75 @@
+{
+  "run": 670,
+  "audited_at_utc": "2026-10-01T16:45:00Z",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed article",
+  "canonical_key": "DOI|10.1177/0019556120982196",
+  "identity": {
+    "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+    "author": "Shalini Saboo",
+    "journal": "Indian Journal of Public Administration",
+    "volume": 66,
+    "issue": 4,
+    "pages": "552-562",
+    "issue_publication": "December 2020",
+    "online_publication": "2021-01-20",
+    "doi": "10.1177/0019556120982196",
+    "publisher": "SAGE / Indian Institute of Public Administration"
+  },
+  "scope": {
+    "direct_munda_scope": true,
+    "geography": "Jharkhand, India",
+    "topics": [
+      "customary law",
+      "land inheritance",
+      "women",
+      "governance",
+      "tribal land rights"
+    ],
+    "scope_note": "Publisher abstract explicitly states that the research focuses on the Munda tribe in Jharkhand. Abstract-level statements are not promoted as empirical cultural facts."
+  },
+  "access_rights": {
+    "access": "restricted/paywalled at publisher",
+    "copyright": "© 2020 Indian Institute of Public Administration",
+    "reuse": "permission required; publisher exposes a Re-use permissions route",
+    "redistribution_of_article_bytes": false
+  },
+  "verified_locators": [
+    {
+      "locator": "publisher HTML lines 16-35",
+      "supports": "restricted-access status, article identity, DOI, abstract scope"
+    },
+    {
+      "locator": "publisher HTML lines 121-146",
+      "supports": "journal, volume/issue, pp. 552-562, keywords, copyright and permissions status"
+    },
+    {
+      "locator": "publisher HTML lines 150-164",
+      "supports": "author affiliation and correspondence metadata"
+    }
+  ],
+  "evidence_policy": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "Lawful accessible material is metadata/abstract only. Full methods, participant/sample/locality, consent/ethics and proposition-level page support are not available from the authoritative accessible record.",
+    "cultural_uncertainty": "Customary-law and inheritance claims may be locally or participant scoped; do not generalize to all Munda communities without full-text provenance.",
+    "next_gate": "lawful full text -> methods/sample/locality/ethics inspection -> exact printed-page/PDF concordance -> dependency classification -> cultural-scope review -> deterministic MMSC/WEB-MUN reconciliation"
+  },
+  "dedup": {
+    "repository_default_branch_search_terms": [
+      "10.1177/0019556120982196",
+      "Customary Law and Challenges to Governance"
+    ],
+    "search_matches": 0,
+    "caveat": "Default-branch search absence is not proof of absence on mlhkp-v2 or in controlled ledgers; canonical reconciliation remains required."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_effect": "gap/enrichment only; no controlled metric change justified"
+}
