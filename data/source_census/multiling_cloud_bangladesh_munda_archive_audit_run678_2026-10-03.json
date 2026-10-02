@@ -1,0 +1,71 @@
+{
+  "run": 678,
+  "audited_at_utc": "2026-10-02T18:45:57Z",
+  "stream": "non-Mundarica source census",
+  "source_class": [
+    "dataset",
+    "audio",
+    "government web resource",
+    "digital archive"
+  ],
+  "candidate": {
+    "title": "Multiling Cloud — Munda",
+    "institution": "Bangladesh government / EBLICT-linked Multiling Cloud",
+    "url": "https://lob.bangla.gov.bd/languages/munda",
+    "observed_metadata": {
+      "family": "Austroasiatic",
+      "places": [
+        "Naogaon",
+        "Dinajpur",
+        "Khulna",
+        "Rajshahi",
+        "Sylhet",
+        "Maulvibazar"
+      ],
+      "page_summary_counts": {
+        "topics": 0,
+        "speakers": 0,
+        "sentences": 0,
+        "minutes": 0
+      },
+      "digital_archive_display": {
+        "full_archive_resource_density": 860,
+        "directed_sentences": 0,
+        "spontaneous_speech": 0,
+        "dictionary_words": 0
+      }
+    },
+    "scope_note": "Page is headed Munda and prose refers to Mundari. Do not equate Bangladesh Munda/Mundari with the Indian unr census category or any specific Mundari variety without independent identity/variety verification.",
+    "locator_plan": "stable archive item/object id -> manifestation checksum -> transcript/phonetic record and, where audio exists, HH:MM:SS",
+    "rights_access_consent": {
+      "access": "public catalogue/page verified",
+      "redistribution": "unverified",
+      "speaker_consent": "unverified",
+      "community_consent": "unverified",
+      "cultural_access": "unreviewed"
+    },
+    "promotion": "none",
+    "reason": "The page exposes an archive count/density but not enough item-level provenance, licence, speaker/consent or variety metadata in this pass to support controlled evidence promotion."
+  },
+  "repository_reconciliation": {
+    "searches": [
+      "Multiling Cloud",
+      "lob.bangla.gov.bd/languages/munda"
+    ],
+    "result": "0 indexed matches; GitHub search incomplete_results=true; absence not asserted"
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "required_next": [
+    "enumerate stable archive objects behind Full Archive 860",
+    "verify language/variety identity and contributor provenance per object",
+    "capture rights/licence and consent/cultural-access metadata",
+    "hash lawful manifestations and create exact record/timestamp locators",
+    "reconcile against MMSC/WEB-MUN before controlled assignment"
+  ]
+}
