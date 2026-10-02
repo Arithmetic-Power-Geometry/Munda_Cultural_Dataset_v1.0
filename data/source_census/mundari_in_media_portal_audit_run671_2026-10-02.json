@@ -1,0 +1,56 @@
+{
+  "run": 671,
+  "date_utc": "2026-10-02",
+  "stream": "non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "web resource",
+    "audio",
+    "video",
+    "images"
+  ],
+  "source": {
+    "canonical_candidate_key": "URL|https://www.mundari.in/en",
+    "title": "Mundari Website",
+    "url": "https://www.mundari.in/en",
+    "identity_status": "publisher/site-self-description verified; controlled MMSC identity not yet assigned",
+    "scope": "Mundari-language religious/cultural media portal; source-level relevance only",
+    "discoverable_manifestations": [
+      "web pages",
+      "audio",
+      "video",
+      "images"
+    ],
+    "observed_site_statement": "Site states that it hosts Mundari cultural and worship videos, songs and pictures and permits visitors to download/listen to site content."
+  },
+  "verification": {
+    "checked": "2026-10-02",
+    "authoritative_record": "site itself",
+    "exact_locator": "homepage /en, introductory paragraph",
+    "repository_reconciliation": "branch tree inspected; no path-level Mundari.in audit found",
+    "controlled_dedup_status": "pending content-level MMSC/WEB-MUN reconciliation"
+  },
+  "rights_access_consent": {
+    "access": "public web access observed",
+    "reuse": "unresolved; download/listen wording is not treated as redistribution or derivative-work permission",
+    "performer_community_consent": "unverified",
+    "cultural_access": "unverified",
+    "action": "do not ingest media bytes or expose cultural/religious propositions until item-level rights, provenance and consent are verified"
+  },
+  "promotion": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0,
+    "reason": "homepage metadata is discovery/source evidence only; no item-level provenance, rights, consent or exact audiovisual locators verified"
+  },
+  "gaps": [
+    "enumerate item-level stable URLs/identifiers and metadata",
+    "verify creator/performer/collector/locality/date provenance",
+    "verify item-level licence/reuse and performer/community consent",
+    "for permitted audiovisual items capture lawful manifestation/hash and HH:MM:SS locators",
+    "reconcile each canonical item against MMSC/WEB-MUN before controlled promotion"
+  ],
+  "release_effect": "explicit unresolved source family; no controlled metric change"
+}
