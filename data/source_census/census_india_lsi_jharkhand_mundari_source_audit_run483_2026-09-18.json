@@ -1,0 +1,56 @@
+{
+  "run": 483,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica",
+  "source_class": ["government", "LSI", "grammar", "language-survey", "digital-document"],
+  "canonical_source": {
+    "title": "MUNDARI",
+    "author_as_displayed": "N. GOPALAKRISHNAN",
+    "container": "Linguistic Survey of India / Jharkhand survey document",
+    "provider": "Census of India",
+    "provider_domain": "censusindia.gov.in",
+    "provider_catalog_download": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf"
+  },
+  "identity_verification": {
+    "status": "verified_provider_document",
+    "observed_document_heading": "MUNDARI",
+    "observed_author_heading": "N. GOPALAKRISHNAN",
+    "observed_printed_page_in_searchable_provider_text": 277,
+    "notes": "Official Census of India NADA search exposure provides searchable text from the Mundari section. Publication-level date/edition metadata not asserted here unless independently verified."
+  },
+  "scope": {
+    "language": "Mundari",
+    "geography": "Jharkhand and adjoining-region discussion",
+    "observed_topics": ["introduction", "language-family affiliation", "dialect discussion", "historical-source dependencies"],
+    "dependency_warning": "The visible introductory passage explicitly attributes some dialect information to Hoffmann and family-classification information to Norman Zide; those statements must not be treated as independent corroboration without dependency tagging."
+  },
+  "canonicalization": {
+    "rule": "Census NADA catalogue/download/search manifestations of this Jharkhand LSI document are one source identity; mirrors, cached text, extracted search results and duplicate URLs are manifestations, not independent sources.",
+    "cross_source_rule": "Underlying Hoffmann/Zide works cited inside the document retain their own canonical identities and must be represented as dependencies when a promoted passage derives from them."
+  },
+  "rights_access_consent": {
+    "access": "publicly discoverable on official Census of India NADA",
+    "redistribution_permission": "not established by discoverability alone",
+    "consent": "not inferred",
+    "cultural_permission": "not inferred",
+    "policy": "Do not redistribute full source bytes or promote culturally sensitive material solely because the document is government-hosted."
+  },
+  "exact_locator_ingestion": {
+    "status": "locator-ready; no claim promoted in this audit",
+    "verified_locator_anchor": "printed page 277 is visible in the provider-indexed Mundari section text",
+    "required_record_form": "<permitted-immutable-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>",
+    "remaining_gates": ["lawful reusable immutable bytes", "SHA-256", "PDF-to-printed-page concordance", "passage-level dependency attribution", "claim-level scope/temporal qualification", "applicable cultural-access review"]
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "This audit verifies source identity and a locator anchor but does not yet establish the complete immutable-file/right/dependency chain required for controlled evidence promotion."
+  },
+  "gap_log": [
+    "Publication-level edition/date metadata needs authoritative reconciliation.",
+    "Reusable-file rights and immutable SHA-256 remain unresolved.",
+    "Exact PDF-page to printed-page concordance remains unresolved.",
+    "Derived statements require explicit Hoffmann/Zide dependency edges where applicable."
+  ],
+  "audit_principle": "Never convert official hosting, discoverability, or provider-indexed text into unsupported redistribution permission, independent corroboration, or cultural certainty."
+}

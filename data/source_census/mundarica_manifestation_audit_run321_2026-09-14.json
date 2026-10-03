@@ -1,0 +1,61 @@
+{
+  "run": 321,
+  "date_utc": "2026-09-13T20:20:00Z",
+  "scope": "Mundarica manifestation/page-accounting/OCR-availability audit",
+  "verification_policy": "Archive metadata can establish a discoverable manifestation and provider-declared scan/OCR metadata. It does not establish independent byte integrity, page-image concordance, OCR correctness, cultural-claim validity, reuse permission, community validation, or cultural-access authorization.",
+  "manifestations": [
+    {
+      "volume": "II",
+      "provider": "Internet Archive",
+      "identifier": "dli.bengal.10689.21001",
+      "title": "ENCYCLOPAEDIA MUNDARICA VOL. 2",
+      "provider_publication_date": "1950",
+      "provider_publisher": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "provider_source": "West Bengal Public Library Network / Krishnanagar Public Library",
+      "provider_totalpages": 406,
+      "provider_item_size": "218.3M",
+      "provider_ocr_engine": "ABBYY FineReader 11.0 (Extended OCR)",
+      "provider_scan_center": "C-DAC KOLKATA",
+      "provider_digital_publication_date": "2011-12-22",
+      "archive_page_verified": true,
+      "bytes_acquired_independently": false,
+      "hash_recomputed": false,
+      "page_image_concordance_verified": false,
+      "ocr_pages_verified": 0,
+      "verified_complete_volume": false,
+      "claims_promoted": 0,
+      "source_url": "https://archive.org/details/dli.bengal.10689.21001"
+    },
+    {
+      "volume": "III",
+      "provider": "Internet Archive",
+      "identifier": "in.ernet.dli.2015.14921",
+      "title": "Encyclopedia Mundarica Vol-iii (1930)",
+      "provider_publication_date": "1930",
+      "provider_publisher": "Superintendent Government Printing Bihar And Orissa, Patna",
+      "provider_item_size": "351.5M",
+      "archive_page_verified": true,
+      "bytes_acquired_independently": false,
+      "hash_recomputed": false,
+      "page_image_concordance_verified": false,
+      "ocr_pages_verified": 0,
+      "verified_complete_volume": false,
+      "claims_promoted": 0,
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.14921"
+    }
+  ],
+  "release_effect": {
+    "authoritative_registered_scans_increment": 0,
+    "verified_complete_volumes_increment": 0,
+    "verified_ocr_pages_increment": 0,
+    "controlled_claims_increment": 0,
+    "controlled_evidence_increment": 0
+  },
+  "blockers": [
+    "Independent permitted acquisition of primary bytes",
+    "Independent cryptographic hashing",
+    "Printed-page to scan-image concordance",
+    "OCR sampling and verification under declared protocol",
+    "Rights and cultural-access review before any content-level public ingestion"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "run": 355,
+  "date": "2026-09-14",
+  "stream": "non-Mundarica source census / grammars / government-CIIL",
+  "source_title": "Mundari Grammar",
+  "creator": "N. K. Sinha",
+  "publication_year": 1975,
+  "scope_classification": "target-language grammar; bibliographic and provider-manifestation audit only",
+  "deterministic_identity_key": "Sinha|Mundari Grammar|1975|CIIL Grammar Series 2",
+  "verified_provider_records": [
+    {
+      "provider": "Bhasha Sanchika / Central Institute of Indian Languages",
+      "persistent_uri": "https://hdl.handle.net/20.500.14705/8179",
+      "repository_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "declared_file": "CIILP0091.pdf",
+      "declared_file_size": "9.63 KB",
+      "languages": ["English", "Mundari"],
+      "access_observation": "Provider exposes repository metadata and a declared PDF filename; the unusually small declared size is not treated as proof of a complete book manifestation."
+    },
+    {
+      "provider": "Bharatavani / Ministry of Education / CIIL",
+      "url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "declared_file_size": "117.39 MB",
+      "access_observation": "Provider exposes bibliographic metadata and states Login to Read; no reusable full-text permission or independent byte verification is inferred."
+    },
+    {
+      "provider": "CiNii Books",
+      "record_id": "BA46909970",
+      "url": "https://ci.nii.ac.jp/ncid/BA46909970",
+      "series": "CIIL grammar series, 2",
+      "publisher": "Central Institute of Indian Languages",
+      "place": "Mysore",
+      "pagination": "xii, 163, [1] p.",
+      "size": "22 cm",
+      "lccn": "76901792",
+      "bibliography_note": "Bibliography: p. [164]"
+    }
+  ],
+  "cross_provider_discrepancy": {
+    "observed": true,
+    "description": "Sanchika declares CIILP0091.pdf as 9.63 KB while Bharatavani reports a 117.39 MB PDF for the same 1975 title and CiNii reports xii, 163, [1] pages. These provider statements are not collapsed into a verified complete manifestation without independent byte acquisition, hashing, PDF structure/page accounting and edition concordance.",
+    "resolution_status": "open"
+  },
+  "permitted_promotion": {
+    "source_identity": true,
+    "bibliographic_metadata": true,
+    "persistent_repository_locator": true,
+    "declared_provider_filename": true,
+    "reported_pagination": true,
+    "provider_file_size_observations": true,
+    "full_text_bytes_verified": false,
+    "complete_manifestation_verified": false,
+    "independent_sha256_verified": false,
+    "page_exact_grammar_evidence": false,
+    "grammatical_claims": false,
+    "reuse_license_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "rights_access_consent": {
+    "rights_status": "reusable full-text rights not established in this run",
+    "access_status": "provider metadata verified; Bharatavani indicates login-to-read; no access control bypass attempted",
+    "participant_consent_applicability": "not inferred from publication or repository availability",
+    "cultural_uncertainty": "no cultural, grammatical or lexical content promoted"
+  },
+  "evidence_boundary": "Promote identity, catalogue metadata and the cross-provider manifestation discrepancy only. Do not promote grammar examples, analyses, page-exact claims, or complete-book verification until a permitted manifestation is independently materialized and reconciled.",
+  "controlled_count_effect": "none pending deterministic numbered-register reconciliation"
+}

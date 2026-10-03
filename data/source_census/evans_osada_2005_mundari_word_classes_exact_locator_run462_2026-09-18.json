@@ -1,0 +1,58 @@
+{
+  "run": 462,
+  "audit_date_utc": "2026-09-17T18:43:00Z",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed journal article",
+  "canonical_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "repository_handle": "http://hdl.handle.net/1885/54663",
+    "repository": "Australian National University Open Research Repository"
+  },
+  "identity_verification": {
+    "status": "verified_source_level",
+    "repository_metadata_reports_access": "Open Access",
+    "repository_file_reported": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_file_reported_size": "234.31 KB"
+  },
+  "scope": {
+    "language": "Mundari",
+    "topics": ["word classes", "noun", "verb", "adjective", "predication", "conversion", "derivation"],
+    "cultural_claim_scope": "none promoted in this run"
+  },
+  "canonicalization": {
+    "rule": "DOI, ANU repository record, publisher manifestation, citations and downloadable repository PDF are manifestations of one article identity",
+    "dependency_note": "The article explicitly analyses Hoffmann material plus new data; propositions derived from overlapping Hoffmann material must not be counted as independent corroboration without passage-level dependency review."
+  },
+  "rights_access_governance": {
+    "repository_access_statement": "Open Access",
+    "reuse_license_verified": false,
+    "redistribution_permission_verified": false,
+    "participant_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "note": "Open-access availability is not treated as a reusable-content licence, participant consent, or cultural permission."
+  },
+  "exact_locator_ingestion": {
+    "source_level_locator": "doi:10.1515/lity.2005.9.3.351 / hdl:1885/54663",
+    "fulltext_manifestation_located": true,
+    "immutable_permitted_bytes_obtained": false,
+    "sha256_recorded": false,
+    "page_concordance_verified": false,
+    "passage_records_promoted": 0,
+    "claims_promoted": 0,
+    "promotion_state": "HOLD"
+  },
+  "remaining_gates": [
+    "verify file-level reuse terms",
+    "obtain lawful immutable PDF bytes if permitted",
+    "record SHA-256",
+    "verify printed/PDF page concordance",
+    "extract only supported exact passages with locators",
+    "trace Hoffmann-versus-new-data dependency for any promoted proposition",
+    "review participant and cultural-access implications for newly elicited data"
+  ],
+  "count_policy": "Do not alter controlled MMSC totals until deterministic reconciliation against the WEB-MUN ledger."
+}

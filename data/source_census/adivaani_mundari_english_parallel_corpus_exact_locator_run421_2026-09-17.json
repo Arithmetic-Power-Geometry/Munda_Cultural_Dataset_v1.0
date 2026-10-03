@@ -1,0 +1,64 @@
+{
+  "audit_run": 421,
+  "audit_date_utc": "2026-09-16T18:44:00Z",
+  "stream": "non-Mundarica source census",
+  "source_class": "dataset / parallel corpus / web resource",
+  "canonical_identity": {
+    "title": "Adivaani Tribal-English Parallel Corpus — Mundari configuration",
+    "provider": "Adivaani / Hugging Face",
+    "provider_locator": "adivaanihf/adivaani-tribal-english-parallel-corpus",
+    "language": "Mundari",
+    "iso_639_3": "unr"
+  },
+  "verified_discovery_metadata": {
+    "mundari_configuration_explicit": true,
+    "columns_exposed_by_provider": ["id", "tribal_language", "tribal_iso", "tribal_text", "eng_text"],
+    "stable_id_pattern_reported": "{language}_{index}",
+    "provider_states_derived_subset_of": "adivaanihf/adivaani-tribal-parallel-corpus",
+    "provider_requires_parent_for_provenance_and_licensing": true,
+    "provider_reported_total_dataset_file_size": "154 MB",
+    "provider_page": "https://huggingface.co/datasets/adivaanihf/adivaani-tribal-english-parallel-corpus"
+  },
+  "canonicalization": {
+    "identity_rule": "Treat the Mundari configuration as a language-specific configuration of the Adivaani Tribal-English Parallel Corpus, not as a new work for each Hugging Face file or row.",
+    "existing_repository_search": "No repository code-search match for 'adivaani' before this audit.",
+    "deduplication_state": "new locator candidate; controlled WEB-MUN identity/count reconciliation pending",
+    "do_not_merge_without_proof": ["Karya Hindi-Mundari Translation Dataset", "Karya Mundari TTS Dataset", "MunTTS article/corpus"]
+  },
+  "exact_locator_design": {
+    "record_locator": "dataset revision + configuration=mundari + stable id + column",
+    "source_text_column": "tribal_text",
+    "aligned_text_column": "eng_text",
+    "required_before_promotion": [
+      "pin immutable dataset revision/commit",
+      "materialize permitted Mundari configuration bytes",
+      "compute SHA-256 for materialized files",
+      "verify actual Mundari row count and schema from bytes",
+      "trace parent-corpus source provenance and licensing",
+      "deterministically test duplicate/near-duplicate and overlap structure",
+      "preserve stable row ids and file/row locators",
+      "audit contributor/translator provenance, consent, privacy and cultural-access status where applicable"
+    ]
+  },
+  "rights_access_consent": {
+    "access": "public provider catalogue/dataset page discovered",
+    "reuse": "NOT inferred; provider explicitly directs users to parent dataset for source provenance and licensing",
+    "participant_consent": "unverified",
+    "cultural_access": "unverified",
+    "policy": "Public hosting does not equal underlying-source reuse permission, participant consent, or cultural permission."
+  },
+  "scope_classification": {
+    "language_relevance": "direct Mundari language configuration",
+    "evidence_potential": ["aligned Mundari-English text", "computational language resource"],
+    "cultural_claim_suitability": "not established"
+  },
+  "promotion_state": {
+    "discovery_only": false,
+    "exact_locator_audit_created": true,
+    "row_level_evidence_promoted": false,
+    "public_factual_or_cultural_claim_promoted": false,
+    "reason": "Immutable bytes, parent provenance/license chain, row verification and consent/cultural-access review are not yet complete."
+  },
+  "release_gap": "Materialize an immutable permitted Mundari configuration, hash it, verify row-level schema/cardinality, resolve parent-corpus provenance/license and consent/cultural-access status, then promote only supported permitted rows.",
+  "controlled_count_effect": "none until deterministic reconciliation against WEB-MUN ledger"
+}

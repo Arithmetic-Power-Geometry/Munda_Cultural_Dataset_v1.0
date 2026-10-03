@@ -1,0 +1,43 @@
+{
+  "run": 362,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "source_family": "ORGI Linguistic Survey of India - Jharkhand",
+  "catalogue_reference_id": "LSI_JHARKHAND",
+  "declared_download": "LSI_JHARKHAND.pdf",
+  "provider": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+  "verification_level": "official_search_index_text_plus_catalogue_locator_only",
+  "search_index_observation": {
+    "section_heading_observed": "THE PRESENT STUDY: MUNDARI LANGUAGE",
+    "study_description_observed": "Search-index text describes the Mundari section as a descriptive grammar of Mundari in Jharkhand and states that survey work was conducted in Ranchi district / Murhu village in Khunti area.",
+    "named_informants_observed": ["Shri Chamra Munda", "Mrs. Ramdi Mundu"],
+    "coverage_terms_observed": ["Phonology", "Morphophonemics", "Morphology", "Syntax"],
+    "speakers_strength_heading_observed": true,
+    "note": "These observations come from the provider-indexed search representation of the PDF, not from independently acquired and hashed PDF bytes or page images."
+  },
+  "direct_pdf_attempt": {
+    "result": "HTTP_502_BAD_GATEWAY",
+    "bytes_acquired": false,
+    "sha256_computed": false,
+    "page_count_verified": false,
+    "page_images_verified": false,
+    "printed_page_to_scan_concordance_verified": false,
+    "ocr_verified": false,
+    "internal_page_locators_verified": false
+  },
+  "promotion_decision": {
+    "new_public_factual_claims_promoted": 0,
+    "new_linguistic_claims_promoted": 0,
+    "new_demographic_claims_promoted": 0,
+    "new_cultural_claims_promoted": 0,
+    "reason": "Search-index visibility is insufficient for page-level provenance, exact quotation, OCR verification, reuse-rights inference, community validation, or cultural-access authorization."
+  },
+  "governance_invariants": [
+    "official search-index text does not equal independently verified PDF content",
+    "provider indexing does not equal verified OCR",
+    "public visibility does not establish reuse permission",
+    "linguistic description does not establish community validation or cultural authorization"
+  ],
+  "release_effect": "narrows the LSI blocker by confirming that provider indexing exposes a Mundari descriptive-study section while retaining byte/page/OCR verification as open",
+  "controlled_metrics_changed": false
+}

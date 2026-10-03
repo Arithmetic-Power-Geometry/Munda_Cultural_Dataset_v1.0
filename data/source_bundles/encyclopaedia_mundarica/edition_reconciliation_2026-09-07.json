@@ -1,0 +1,66 @@
+{
+  "record_id": "MLHKP-MUNDARICA-EDITION-RECON-2026-09-07",
+  "checked_utc": "2026-09-07T13:35:00Z",
+  "purpose": "Prevent original-edition volume numbering, historical parts, later reprint numbering, and acquisition status from being conflated during Mundarica completeness auditing.",
+  "status": "bibliographic_reconciliation_open_but_original_series_boundary_strengthened",
+  "findings": [
+    {
+      "scope": "original_government_printing_series",
+      "statement": "Authoritative and scholarly bibliographic evidence now supports treating the historical Government Printing sequence as distinct from later 16-volume reprint numbering. CiNii catalogs the original series from 1930 onward under Superintendent, Government Printing, Bihar and Orissa/Bihar and explicitly enumerates Volumes 2, 3, 4, 10, 11, 12 and 13, with Volume 13 corresponding to S. Cambridge's contemporary review of Volumes I-IV states that the work was expected to consist of about 15 volumes at that early stage; this was a publication expectation, not proof of the final physical-volume count. Current synthesis must therefore not infer historical Volumes XIV-XVI solely from that projected count.",
+      "sources": [
+        {
+          "url": "https://cir.nii.ac.jp/crid/1971430859827375908",
+          "observed_metadata": "CiNii: Encyclopaedia Mundarica; John Hoffmann; Arthur Van Emelen; Superintendent, Government Printing, Bihar and Orissa; 1930-; notes enumerate v.2 B, v.3 C, v.4 D-D, v.10 N & O, v.11 P, v.12 R, v.13 S."
+        },
+        {
+          "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/encyclopaedia-mundarica-by-revjohn-hoffmann-s-j-in-collaboration-with-revarthur-v-emelen-s-j-assisted-by-the-jesuit-missionaries-mentioned-in-the-preface-volumes-i-to-iv-letters-a-to-d-pp-v-1271-patna-bihar-and-orissa-superintendent-government-printing-1930-price-rs-6-or-12s-per-volume-to-subscribers-to-the-whole-work-which-will-consist-of-about-15-volumes/7ECF7DF37089CCE0D3733922FD3E0785",
+          "observed_metadata": "JRAS notice of Volumes I-IV (1930), letters A-D, describing the then-expected work as about 15 volumes; DOI 10.1017/S0035869X00111566."
+        },
+        {
+          "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/encyclopaedia-mundarica-by-revjohn-hoffmann-sj-in-collaboration-with-rev-arthur-van-emelen-vols-viiix-10-7-pp-21473173-letters-k-l-m-n-and-o-patna-supdt-govt-printing-bihar-and-orissa-19331934-rs-6-for-each-volume/90FA5FFBE1D629281D508F0FE8B2CDAA",
+          "observed_metadata": "JRAS review verifies original Volumes VIII-X, letters K, L, M, N and O, Patna Government Printing, 1933-1934; DOI 10.1017/S0035869X00086135."
+        },
+        {
+          "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC",
+          "observed_metadata": "Google Books: Encyclopaedia Mundarica, Volume 13; Johann Hoffmann and Arthur van Emelen; Superintendent government printing, Bihar and Orissa; 1941."
+        }
+      ]
+    },
+    {
+      "scope": "historical_series_count_boundary",
+      "statement": "A widely cited secondary synthesis describes the completed work as 13 text volumes plus a plates volume, while a 2016 Times of India report describes 15 volumes. Because these secondary counts are not identical, MLHKP will not collapse 'parts', text volumes, plates, projected volumes, or later reprint volumes into one count. The original-series completion model remains under explicit reconciliation rather than falsely labeling XIV-XVI as missing historical books.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Encyclopaedia_Mundarica",
+          "observed_metadata": "Secondary synthesis reports sixteen parts during Hoffmann's lifetime and completion as 13 text volumes plus 1 volume of plates."
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/city/ranchi/encyclopaedia-on-munda-tribe-lies-forgotten/articleshow/50482703.cms",
+          "observed_metadata": "Times of India, 7 January 2016, describes the encyclopaedia as 15 volumes; treated as secondary reporting, not authoritative physical-volume mapping."
+        }
+      ]
+    },
+    {
+      "scope": "modern_gyan_reprint_series",
+      "statement": "A later Gyan Publishing House series is explicitly catalogued as a 16-volume reprint. Therefore XIV-XVI can be valid identifiers inside the modern reprint series even though they must not be projected backward onto the historical Government Printing sequence without a contents mapping.",
+      "sources": [
+        {
+          "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=YQ1K0gEACAAJ",
+          "observed_metadata": "Encyclopaedia Mundarica: In 16 Volumes, Volume 13; Gyan Publishing House; 2009."
+        },
+        {
+          "url": "https://www.vonmatt.ch/detail/ISBN-9788121203227/Emelen-Sj/Encyclopaedia-Mundarica-Vol.16th",
+          "observed_metadata": "Encyclopaedia Mundarica Vol.16th; ISBN 978-81-212-0322-7; 2009; Gyan Publishing House/Repro India listing."
+        }
+      ]
+    }
+  ],
+  "audit_rule": "Do not mark XIV-XVI missing from the historical edition merely because a modern 16-volume reprint exists. Do not treat an early projected total, a historical part count, a plates volume, or a modern reprint number as interchangeable. Track edition, part, physical volume, content letters, identifier, scan provenance and page range separately.",
+  "completion_effect": "No machine VERIFIED COMPLETE state changes from bibliographic reconciliation alone. Existing permanent SRC-MUN-V01..V16 identifiers are preserved until a controlled migration can prove the correct mapping without breaking provenance.",
+  "next_required_checks": [
+    "Obtain authoritative library holdings or publisher records that explicitly enumerate the complete final Government Printing sequence, including any plates volume.",
+    "Obtain authoritative metadata and contents/page spans for Gyan Volumes XIV, XV and XVI.",
+    "Build an explicit original-part/text-volume/plates-to-reprint mapping before changing completeness denominators or permanent identifiers.",
+    "Continue scan acquisition and page/OCR reconciliation independently for already located historical Volumes I-XIII."
+  ]
+}

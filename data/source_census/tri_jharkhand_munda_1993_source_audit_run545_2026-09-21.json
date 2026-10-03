@@ -1,0 +1,42 @@
+{
+  "run": 545,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": ["government", "TRI", "book", "tribal-life", "web-resource"],
+  "canonical_work_key": "drmtwri-1993-0007-munda",
+  "title": "Munda",
+  "researcher": "Soma Singh Munda",
+  "editor_author": "Ranendra Kumar",
+  "guide": "Chintu Doraiburu",
+  "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+  "repository": "Ministry of Tribal Affairs, Government of India repository",
+  "record_id": "DRMTWRI/1993/0007",
+  "completed_date": "1993-03",
+  "pagination": "1-44",
+  "document_type": "Book",
+  "sector": "Tribal Life",
+  "canonical_locator": "https://repository.tribal.gov.in/handle/123456789/74865",
+  "provider_manifestation": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+  "provider_reported_size": "247.29 kB",
+  "scope_statement": "The Ministry of Tribal Affairs repository identifies this as a Munda-focused TRI book and exposes a PDF manifestation. Repository keywords describe Munda language/culture and oral tradition, but keyword/summary text is metadata rather than exact passage evidence.",
+  "deduplication_rule": "Treat the Ministry repository handle, record DRMTWRI/1993/0007, TRI catalogue references, and provider PDF DRMTWRI_1993_0007_MUNDAJATIRaman.pdf as manifestations/references of one work unless authoritative metadata establishes a distinct edition or revision.",
+  "rights_status": "Public government-repository visibility and a View/Open PDF link establish discoverability/access, not redistribution permission for a locally republished binary. Exact manifestation terms must be checked before binary promotion.",
+  "consent_status": "Not established from repository metadata. Published ethnographic/community material must not be treated as reusable participant consent.",
+  "cultural_access_status": "Unverified. TRI/government publication status does not override community or culturally restricted access considerations.",
+  "scope_classification": "direct Munda community source; authoritative government/TRI repository identity; proposition-level use requires exact passage audit",
+  "evidence_promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "Provider metadata verifies source identity, institutional provenance, pagination and an obtainable PDF manifestation, but exact passage/page concordance, immutable hash, redistribution terms, dependency/provenance, participant consent and cultural-access review are not yet established."
+  },
+  "gaps": [
+    "lawful immutable capture of the exact provider PDF and SHA-256",
+    "printed-page/PDF-page concordance and exact proposition locators",
+    "manifestation-specific redistribution/reuse terms",
+    "dependency/provenance audit for statements and reproduced material",
+    "participant/image consent assessment where applicable",
+    "community/cultural-access review before cultural-claim promotion"
+  ],
+  "audit_principle": "Government/TRI authority supports identity and provenance but does not convert catalogue keywords into cultural facts, public access into redistribution permission, or publication into participant/community consent."
+}

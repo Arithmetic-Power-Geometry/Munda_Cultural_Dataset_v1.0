@@ -1,0 +1,80 @@
+{
+  "audit_id": "MLHKP-RUN522-BHARATAVANI-CIIL",
+  "run": 522,
+  "audit_date": "2026-09-20",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census; government/CIIL/Bharatavani books, dictionaries and grammar resources",
+  "provider_identity": {
+    "name": "Bharatavani / Central Institute of Indian Languages",
+    "class": ["government", "language-resource-portal", "book", "dictionary", "grammar"],
+    "canonicalization_rule": "Bharatavani catalogue/search manifestations and CIIL Bhasha Sanchika repository manifestations of the same work are not independent source identities. Canonicalize at work/edition level and retain manifestations separately."
+  },
+  "verified_resources": [
+    {
+      "title": "मुण्डारी भाषा का भाषिक संरचना / Mundari Bhasha Ka Bashik Sanrachana",
+      "author": "Birendra Kumar Soy 'Munda'",
+      "year": 2017,
+      "publisher": "Satyam publication house",
+      "provider": "CIIL Bhasha Sanchika / Bharatavani",
+      "ciil_item": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+      "provider_file_label": "BVP04859.pdf",
+      "provider_file_size_reported": "473.63 KB",
+      "provider_description": "The book contains a Linguistic Structure of Mundari Language.",
+      "promotion_state": "locator_ready_not_promoted",
+      "promotion_gates": ["lawful immutable file capture", "local SHA-256", "page concordance", "reuse-rights verification", "passage-level source/dependency classification", "cultural-access review for cultural claims"]
+    },
+    {
+      "title": "Mundari Grammar",
+      "author": "N. K. Sinha",
+      "year": 1975,
+      "provider": "Central Institute of Indian Languages / Bharatavani / Bhasha Sanchika",
+      "persistent_uri": "https://hdl.handle.net/20.500.14705/8179",
+      "ciil_item": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "bharatavani_catalogue": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "provider_file_label": "CIILP0091.pdf",
+      "bharatavani_reported_pdf_size": "117.39 MB",
+      "bharatavani_access_note": "Login to Read",
+      "promotion_state": "existing_target_reconfirmed_not_promoted",
+      "promotion_gates": ["resolve manifestation/file-size discrepancy", "lawful immutable file capture", "local SHA-256", "page concordance", "reuse-rights verification", "passage-level provenance/dependency classification"]
+    },
+    {
+      "title": "Mundari Muhavara Kosh",
+      "provider": "Bharatavani",
+      "resource_class": "dictionary/idiom dictionary",
+      "catalogue_locator": "https://bharatavani.in/mundari/dictionaries",
+      "promotion_state": "discovery_verified_not_promoted",
+      "promotion_gates": ["author/editor/year/publisher verification", "edition identity", "lawful immutable manifestation", "local SHA-256", "reuse-rights verification", "exact entry/page locators", "cultural-access review"]
+    },
+    {
+      "title": "टुङकोढारि अर्थात् मुण्डारी शब्दकोश / Mundari Dictionary (Mundari-English-Hindi)",
+      "provider": "Bharatavani",
+      "resource_class": "multilingual dictionary",
+      "catalogue_locator": "https://bharatavani.in/mundari/dictionaries",
+      "promotion_state": "discovery_verified_not_promoted",
+      "promotion_gates": ["author/editor/year/publisher verification", "edition identity", "lawful immutable manifestation", "local SHA-256", "reuse-rights verification", "exact entry/page locators", "cultural-access review"]
+    }
+  ],
+  "rights_and_governance": {
+    "public_catalogue_access_is_redistribution_permission": false,
+    "government_or_ciil_hosting_is_community_validation": false,
+    "dictionary_entry_is_automatically_a_cultural_claim": false,
+    "catalogue_metadata_is_exact_passage_evidence": false,
+    "notes": "No work text, dictionary entry, cultural assertion, or binary is promoted solely from catalogue discoverability. Provider metadata is retained as source-identity evidence; content promotion requires manifestation-level rights and exact locators."
+  },
+  "deduplication": {
+    "sinha_1975": "Treat Bharatavani and Bhasha Sanchika records as manifestations/catalogue records for the same Sinha 1975 work, not independent corroboration.",
+    "third_party_mirrors": "Do not treat DOKUMEN.PUB or other mirrors as independent source identities or reuse authority."
+  },
+  "promotions": {"claims": 0, "evidence_records": 0, "binary_assets": 0},
+  "blocked_or_pending": [
+    "Bharatavani Sinha catalogue requires login to read; continue via CIIL authoritative repository metadata while leaving file-level audit unresolved.",
+    "Bharatavani dictionary listing exposes titles but not enough surfaced metadata to promote entries or infer rights.",
+    "Soy 2017 provider file is identified, but file-level hash/page/rights audit remains required."
+  ],
+  "audit_invariants_added": [
+    "government_language-portal hosting does not equal open redistribution permission",
+    "catalogue/search manifestations do not create independent corroborating source identities",
+    "dictionary title/listing does not equal entry-level evidence",
+    "provider file label/size does not equal locally verified immutable bytes"
+  ]
+}

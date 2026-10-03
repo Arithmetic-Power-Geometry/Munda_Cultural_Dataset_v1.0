@@ -1,0 +1,57 @@
+{
+  "record_type": "source_identity_verification",
+  "stream": "books_folklore_catalogue",
+  "checked_utc": "2026-09-08T20:29:00Z",
+  "branch": "mlhkp-v2",
+  "candidate": {
+    "title": "A Munda song book",
+    "responsibility": "W. G. Archer (compiler)",
+    "publication_year": 1942,
+    "publisher_place": "United Press, Patna",
+    "language_catalogued": "English; edition notes report title-page matter in Mundari and Mundari pagination",
+    "open_library_work_id": "OL1261161W",
+    "open_library_edition_id": "OL6506296M",
+    "lccn": "46029131",
+    "oclc": "4512074",
+    "catalogued_pagination": "2 preliminary leaves, ii pages, 1 leaf, 520 (i.e. 550) pages",
+    "worldcat_format": "printed book"
+  },
+  "verification_sources": [
+    {
+      "provider": "Open Library",
+      "locator": "https://openlibrary.org/books/OL6506296M/A_Munda_song_book",
+      "verified_fields": ["title", "responsibility", "1942 publication year", "United Press", "Patna", "pagination", "OL edition ID", "LCCN", "OCLC", "catalogued subject/language notes"]
+    },
+    {
+      "provider": "WorldCat",
+      "locator": "https://search.worldcat.org/title/4512074",
+      "verified_fields": ["title", "W. G. Archer compiler role", "printed-book format", "1942 date", "United Press/Patna manifestation"]
+    }
+  ],
+  "scope_classification": {
+    "source_class": "book / song collection / linguistic-folklore source",
+    "relevance": "Mundari-language and Munda song-book bibliographic source",
+    "evidence_level_this_record": "bibliographic metadata only",
+    "cultural_claims_authorized": false
+  },
+  "rights_access_governance": {
+    "full_text_obtained": false,
+    "redistribution_permission_verified": false,
+    "public_domain_assumed": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_status": "unreviewed_at_item_and_song_level",
+    "cultural_access_overrides_entitlement": true
+  },
+  "deterministic_deduplication": {
+    "permanent_source_id_assigned": false,
+    "reason": "Exact work/edition identifiers are now available, but the candidate must first be reconciled against the 87-lead discovery corpus and master source register to avoid duplicate identity creation."
+  },
+  "promotion_boundary": [
+    "Do not ingest or quote song text from catalogue metadata.",
+    "Do not infer representativeness, authenticity, community endorsement, ritual status or contemporary cultural meaning from the bibliographic record.",
+    "Do not infer reuse permission from catalogue discoverability.",
+    "If a lawful scan is obtained, preserve checksum and exact page/song locators and perform rights/cultural-access review before evidence promotion."
+  ],
+  "next_safe_action": "Reconcile OL1261161W / OL6506296M / OCLC 4512074 against discovery and master registers; locate a lawful inspectable copy or institutional catalogue holding before passage-level promotion."
+}

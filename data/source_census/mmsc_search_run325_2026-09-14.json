@@ -1,0 +1,75 @@
+{
+  "run": 325,
+  "audit_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000325",
+  "controlled_classes_refreshed": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_tri_census_lsi",
+    "archives",
+    "newspapers",
+    "web_resources",
+    "datasets",
+    "audio",
+    "video",
+    "maps",
+    "relevant_media"
+  ],
+  "observed_candidates_or_reobservations": [
+    {
+      "class": "government_tri_census_lsi",
+      "title": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand",
+      "locator": "https://www.trijharkhand.in/en/",
+      "disposition": "first-party institutional locator reobserved; individual content items require separate rights/provenance review"
+    },
+    {
+      "class": "government_tri_census_lsi",
+      "title": "Munda - Tribal Welfare Research Institute Jharkhand",
+      "locator": "https://www.trijharkhand.in/en/munda",
+      "disposition": "first-party web resource candidate; not promoted in this run pending deterministic register reconciliation and claim-level source checking"
+    },
+    {
+      "class": "datasets",
+      "title": "dataset-mundari-tts",
+      "locator": "https://github.com/karya-inc/dataset-mundari-tts",
+      "disposition": "reobserved dataset lead; no count increment without numbered-register reconciliation"
+    },
+    {
+      "class": "archives",
+      "title": "Tribal Museum, Dr Ram Dayal Munda Tribal Welfare Research Institute",
+      "locator": "https://shop.museumsofindia.org/node/520",
+      "disposition": "institutional/museum discovery lead; object-level provenance and cultural-access review remain required"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+      "locator": "https://doi.org/10.35784/pe.2021.1.19",
+      "disposition": "scholarly lead reobserved; no controlled-identity increment this run"
+    },
+    {
+      "class": "web_resources",
+      "title": "Tribals - Government of Jharkhand",
+      "locator": "https://jharkhand.gov.in/Home/AboutTribals",
+      "disposition": "first-party government web locator reobserved; no claim promoted without deterministic reconciliation"
+    }
+  ],
+  "counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_rule": "Search refreshes do not alter controlled MMSC counts until a numbered discovery record is deterministically deduplicated/canonicalized and reconciled into the release register.",
+  "rights_rule": "Public or institutional availability is not treated as reuse permission, participant consent, community validation, or cultural-access authorization.",
+  "promotion": {
+    "new_audited_source_identities": 0,
+    "new_claims": 0,
+    "new_evidence_records": 0
+  }
+}

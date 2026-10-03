@@ -1,0 +1,98 @@
+{
+  "run": 666,
+  "audit_date": "2026-10-01",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": "government/TRI web resource",
+  "canonical_candidate": {
+    "title": "Munda",
+    "corporate_author": "Tribal Welfare Research Institute, Jharkhand",
+    "url": "https://www.trijharkhand.in/en/munda",
+    "access": "public web page",
+    "authority_scope": "State-level Tribal Research Institute research body; institutional web resource"
+  },
+  "verified_locator_families": [
+    {
+      "locator": "page section: Literature and Studies",
+      "status": "verified from public TRI page",
+      "use": "bibliographic/source-family leads only"
+    },
+    {
+      "locator": "page section: Notable Mundas",
+      "status": "verified from public TRI page",
+      "use": "discovery metadata only"
+    }
+  ],
+  "discovery_leads_preserved": [
+    "John-Baptist Hoffmann / Mundari grammar (1903)",
+    "Encyclopaedia Mundarica / Hoffmann with Menas Orea",
+    "S. C. Roy, The Mundas and Their Country (1912)",
+    "Ram Dayal Munda and Ratan Singh Manki, Adidharam"
+  ],
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "reason": "TRI page is useful as an institutional discovery/canonicalization source, but its compact historical/cultural statements are not promoted without reconciliation against primary/independent source manifestations and exact locators."
+  },
+  "rights_consent_cultural_controls": {
+    "page_publicly_readable": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_applicable_or_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_review_required_for_sensitive_material": true,
+    "note": "Public web access is not treated as permission to redistribute content or as community authorization."
+  },
+  "deterministic_dedup_checks": [
+    {
+      "query": "trijharkhand.in/en/munda",
+      "github_index_matches": 0,
+      "incomplete_results": true
+    },
+    {
+      "query": "10.1177/0972558X1301300205",
+      "github_index_matches": 0,
+      "incomplete_results": true
+    },
+    {
+      "query": "10.5070/H99223479",
+      "github_index_matches": 0,
+      "incomplete_results": true
+    },
+    {
+      "query": "Coll-1434/158",
+      "github_index_matches": 0,
+      "incomplete_results": true
+    }
+  ],
+  "adjacent_parallel_leads": [
+    {
+      "identity": "Shrivastava 2013, Mundari Khuntkatti: An Institution of Customary Right over Land",
+      "doi": "10.1177/0972558X1301300205",
+      "access": "restricted publisher full text",
+      "action": "blocked for exact-page proposition ingestion; retain as explicit gap"
+    },
+    {
+      "identity": "Peterson 2010, Language contact in Jharkhand",
+      "doi": "10.5070/H99223479",
+      "access": "public eScholarship record",
+      "action": "linguistic source candidate; reconcile before controlled assignment"
+    },
+    {
+      "identity": "University of Edinburgh Coll-1434/158",
+      "access": "open catalogue",
+      "action": "archival object candidate; rights/consent/image reuse unresolved"
+    }
+  ],
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "required_next": [
+    "Reconcile TRI page and named works directly against MMSC/WEB-MUN ledgers, not GitHub index absence alone.",
+    "Resolve primary manifestations and exact locators for TRI-listed works before proposition promotion.",
+    "Keep Shrivastava 2013 restricted full text as a blocked gap unless lawful full text becomes obtainable.",
+    "Preserve public-access versus redistribution and cultural-governance distinctions."
+  ]
+}

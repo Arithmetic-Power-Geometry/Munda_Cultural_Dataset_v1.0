@@ -1,0 +1,51 @@
+{
+  "run": 482,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "creator": "Walter Anthony Cook, S.J.",
+    "title": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According to the Methods of Linguistic Science, with Particular Attention to the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns",
+    "year": 1965,
+    "type": ["doctoral dissertation", "grammar"],
+    "institution": "Georgetown University",
+    "extent": "vi + 315 pages",
+    "identifiers": {"oclc": "2158118", "glottolog_reference_ids": ["33106", "152623"], "umi": "65-12,509"}
+  },
+  "scope": {
+    "language": "Mundari",
+    "iso_639_3": "unr",
+    "coverage": ["phonetics", "phonology", "phonotactics", "morphology", "grammar", "semantics"],
+    "classification": "direct linguistic source"
+  },
+  "verification": [
+    {"source": "Glottolog 5.3 reference 33106", "url": "https://glottolog.org/resource/reference/id/33106", "supports": ["author", "year", "title", "institution", "extent", "grammar classification"]},
+    {"source": "Glottolog 5.3 reference 152623", "url": "https://glottolog.org/resource/reference/id/152623", "supports": ["canonical bibliographic identity", "OCLC 2158118", "UMI manifestation", "Mundari ISO unr"]},
+    {"source": "Kiel South Asia Bibliography - Mundari", "url": "https://www.isfas.uni-kiel.de/de/linguistik-und-phonetik/forschung/projekte/southasiabibliography/bibliography/austroasiatic/munda/mundari", "supports": ["Cook 1965 dissertation identity"]}
+  ],
+  "canonicalization": {
+    "rule": "Georgetown dissertation, UMI microfilm/reproduction, catalogue records and later digital scans are manifestations of one 1965 dissertation unless edition-level collation proves substantive independence.",
+    "independent_source_count": 1,
+    "do_not_double_count": ["UMI 65-12,509", "Glottolog duplicate bibliographic records", "catalogue records", "unauthorized third-party scans"]
+  },
+  "rights_access": {
+    "status": "restricted/unverified for redistribution",
+    "note": "A discoverable third-party scan displays a copyright notice; discovery or downloadability is not treated as permission. No third-party scan is ingested or redistributed.",
+    "promotion_gate": ["lawful reusable copy", "file-level rights basis", "immutable bytes", "SHA-256", "printed-page/PDF-page concordance"]
+  },
+  "evidence_ingestion": {
+    "promoted_records": 0,
+    "promoted_claims": 0,
+    "exact_locator_target": "<permitted-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>",
+    "candidate_sections": ["Introduction: Language and Method", "Part I: The Phonology of Mundari", "Mundari Phonetics", "Mundari Phonemics", "Mundari Phonotactics", "Part II: The Morphology of Mundari"],
+    "reason_not_promoted": "No verified reusable immutable source bytes and locator concordance were established in this run."
+  },
+  "cultural_provenance": {
+    "status": "uncertain pending source-level inspection",
+    "requirements": ["trace examples to speaker/consultant or prior-source provenance where stated", "do not infer participant consent from dissertation publication", "flag culturally restricted or sensitive material before promotion"]
+  },
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "reason": "Source audit is unreconciled with the controlled MMSC ledger; counts must not be fabricated from discovery.",
+    "gap": "Exact-locator ingestion remains blocked by rights/bytes/concordance verification."
+  }
+}

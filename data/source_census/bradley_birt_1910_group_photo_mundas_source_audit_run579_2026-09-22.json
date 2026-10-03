@@ -1,0 +1,64 @@
+{
+  "run": 579,
+  "audit_date": "2026-09-22",
+  "branch": "mlhkp-v2",
+  "source_class": ["book", "historical_photograph", "web_archive", "relevant_media"],
+  "canonical_work": {
+    "creator": "Francis Bradley-Birt",
+    "title": "Chota Nagpore, a Little-Known Province of the Empire",
+    "publication_year": 1910,
+    "publisher": "Smith, Elder & Co.",
+    "place": "London"
+  },
+  "manifestation_audited": {
+    "provider": "Wikimedia Commons",
+    "title": "Group Photo of Mundas - Chota Nagpur 1903.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Group_Photo_of_Mundas_-_Chota_Nagpur_1903.jpg",
+    "reported_source": "Chota Nagpore, a little-known province of the empire by Bradley-Birt, Francis Bradley; London: Smith, Elder",
+    "reported_date_field": "1 January 1910",
+    "filename_caption_year": 1903,
+    "dimensions_original_current_file": "1113 x 834 pixels",
+    "mime_type": "image/jpeg",
+    "rights_statement": "Wikimedia Commons marks the file public domain / Public Domain Mark 1.0 and free of known copyright restrictions.",
+    "metadata_uncertainty": "The filename/caption says 1903 while the Commons date field says 1 January 1910 and cites a 1910 book. The photograph exposure date is therefore not treated as verified from this manifestation alone."
+  },
+  "identity_and_dedup": {
+    "repository_search_terms": ["Group Photo of Mundas", "Bradley-Birt Chota Nagpore"],
+    "existing_match_found": false,
+    "canonicalization_rule": "Commons, mirrors, crops and reproductions of this same photograph/book plate are manifestations, not independent corroborating sources. A distinct original photographic object may be split only if provenance establishes a separate archival identity."
+  },
+  "scope": {
+    "supported": "Historical visual representation catalogued as a group photograph of Mundas associated with Chota Nagpur and reproduced from Bradley-Birt's book.",
+    "not_supported_without_further_evidence": [
+      "exact exposure year 1903",
+      "individual identities",
+      "clan or village identity",
+      "religion or ceremony",
+      "social or marital status",
+      "pan-Munda dress norms",
+      "continuity with present-day practice"
+    ]
+  },
+  "governance": {
+    "public_access_is_not_community_consent": true,
+    "historical_subject_consent_verified": false,
+    "dignity_review_required": true,
+    "cultural_access_review_required": true,
+    "colonial_context_qualification_required": true
+  },
+  "promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "binary_files_added": 0,
+    "reason": "Rights status is favorable, but exact plate/page locator, original-book manifestation concordance, exposure-date provenance, local file hash, and dignity/cultural-access review are required before controlled evidence promotion."
+  },
+  "conversion_queue": [
+    "verify exact plate/page locator in an authoritative 1910 scan",
+    "compare Commons image against the book plate and record crop/derivative relationship",
+    "resolve or preserve the 1903-versus-1910 dating uncertainty",
+    "if lawful, materialize a stable manifestation and record cryptographic hash",
+    "create image-region/object locator only for directly observable features",
+    "apply colonial-context, dignity and cultural-access qualification before evidence-graph promotion"
+  ],
+  "audit_result": "canonical_discovery_audited_not_yet_promoted"
+}

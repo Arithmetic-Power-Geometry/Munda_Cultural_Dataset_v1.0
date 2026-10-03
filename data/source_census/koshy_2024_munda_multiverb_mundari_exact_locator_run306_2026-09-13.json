@@ -1,0 +1,92 @@
+{
+  "audit_id": "MLHKP-RUN306-KOSHY-2024-MUNDA-MULTIVERB-MUNDARI",
+  "run_id": 306,
+  "audit_date": "2026-09-13",
+  "scope": "non-Mundarica source census and exact-locator promotion",
+  "source_class": "peer-reviewed articles",
+  "canonical_source": {
+    "author": "Anish Koshy",
+    "title": "Re-evaluating Affixes and Clitics in Munda Multi-verb Constructions",
+    "journal": "Indian Journal of Language and Linguistics",
+    "volume": "5",
+    "issue": "3",
+    "year": 2024,
+    "pages": "62-75",
+    "doi": "10.54392/ijll2436",
+    "article_url": "https://asianresassoc.org/journals/index.php/ijll/article/view/2326",
+    "pdf_url": "https://asianresassoc.org/journals/index.php/ijll/article/download/2326/930/7533",
+    "license": "CC BY 4.0",
+    "copyright_holder": "Anish Koshy"
+  },
+  "identity_verification": {
+    "journal_article_page_verified": true,
+    "peer_reviewed_journal_status_exposed_by_journal": true,
+    "doi_verified": true,
+    "article_pagination_verified": true,
+    "license_verified_on_journal_page": true,
+    "pdf_content_type_observed_as_application_pdf": true,
+    "pdf_page_count_observed": 14
+  },
+  "mundari_scope_exact_locators": [
+    {
+      "printed_page": 62,
+      "pdf_page_index_zero_based": 0,
+      "locator": "introduction",
+      "supported_fact": "The article explicitly names Mundari among Munda languages discussed in relation to agreement/clitic analysis."
+    },
+    {
+      "printed_page": 63,
+      "pdf_page_index_zero_based": 1,
+      "locator": "study scope",
+      "supported_fact": "The analysis explicitly includes Mundari together with Gutob, Santali, Sora, Asuri and Bhumij in compound and serial verb constructions."
+    },
+    {
+      "printed_page": 64,
+      "pdf_page_index_zero_based": 2,
+      "locator": "section 3.1, The Munda Languages in this study",
+      "supported_fact": "The study states that its selected-language data include Mundari and are drawn from published grammatical descriptions, supplemented by fieldwork where possible."
+    }
+  ],
+  "rights_and_governance_boundary": {
+    "article_text_license_supports_article_reuse_under_cc_by_4_0": true,
+    "license_treated_as_participant_consent": false,
+    "license_treated_as_community_validation": false,
+    "license_treated_as_cultural_access_permission": false,
+    "participant_derived_material_possible": true,
+    "fieldwork_material_promoted": false,
+    "linguistic_examples_promoted_as_controlled_rows": false,
+    "cultural_claims_promoted": false,
+    "reason": "The article itself is openly licensed, but the paper states that data were supplemented by fieldwork where possible; article licensing does not establish participant consent, community validation, or cultural-access authorization for downstream MLHKP promotion of participant-derived material."
+  },
+  "integrity_boundary": {
+    "web_pdf_text_surface_verified": true,
+    "visual_screenshot_attempted": true,
+    "visual_screenshot_completed": false,
+    "visual_screenshot_failure": "Web PDF screenshot retrieval returned a cache-miss during Run 306.",
+    "independent_pdf_byte_download_completed": false,
+    "independent_sha256_recomputed": false,
+    "status": "EXACT_ARTICLE_AND_PRINTED_PAGE_LOCATOR_WITH_RIGHTS_BOUNDARY"
+  },
+  "deduplication": {
+    "existing_repository_match_found_before_run": false,
+    "decision": "retain as a distinct peer-reviewed source identity candidate; do not merge with Hoffmann 1903, Osada 2008, or Murugesan et al. 2025 merely because those works are cited or concern Mundari morphosyntax",
+    "numbered_WEB_MUN_match_proven": false,
+    "unresolved_WEB_MUN_count_decrement": 0
+  },
+  "promotion": {
+    "promoted_level": "verified bibliographic identity plus exact printed-page Mundari-scope locators",
+    "new_controlled_cultural_claims": 0,
+    "new_controlled_lexical_rows": 0,
+    "new_controlled_evidence_records": 0,
+    "new_evidence_links": 0,
+    "count_bearing_source_identity_change": false,
+    "reason_count_neutral": "The source is newly exact-located in the census, but no deterministic numbered WEB-MUN/source-register reconciliation was proven in this run; controlled source totals are therefore not inflated."
+  },
+  "open_gaps": [
+    "Acquire the article PDF bytes through a stable permitted route and recompute SHA-256 independently.",
+    "Complete visual page-image verification when the PDF screenshot route is stable.",
+    "Separate published-source examples from any fieldwork-derived examples before any row-level ingestion.",
+    "Require participant/community/cultural-access review before promoting any fieldwork-derived linguistic or cultural material.",
+    "Reconcile this source deterministically against the numbered WEB-MUN discovery register before changing controlled source counts."
+  ]
+}

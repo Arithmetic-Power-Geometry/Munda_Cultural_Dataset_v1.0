@@ -1,0 +1,103 @@
+{
+  "run_id": 261,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and ingestion",
+  "scope_class": ["government_TRI_Census_LSI", "web_resources", "datasets", "maps", "relevant_media"],
+  "source": {
+    "title": "Language Mapping of Schools in Jharkhand: Phase I — Survey Report",
+    "institutional_context": ["Jharkhand Education Project Council", "Jharkhand Council of Educational Research and Training", "Language and Learning Foundation", "UNICEF-Jharkhand"],
+    "publisher_or_host": "Language and Learning Foundation",
+    "stable_locator": "https://languageandlearningfoundation.org/wp-content/uploads/2025/04/LM-Report-Jharkhand-Phase-1.pdf",
+    "document_pages": 48,
+    "survey_data_collection_period": "January-February 2024",
+    "verification_level": "direct report PDF with table/page locators plus LLF report index corroboration"
+  },
+  "exact_locators": [
+    {
+      "locator_type": "preface_scope",
+      "locator": "PDF p.3 (report printed p.1), Preface",
+      "supported_metadata_or_scope": "The report states that phase I covered 8,244 schools across 7 Jharkhand districts and focused on language-of-home/language-of-instruction conditions in government schools.",
+      "promotion_boundary": "survey scope and provenance only"
+    },
+    {
+      "locator_type": "methodology_limitations",
+      "locator": "PDF/report section 3.4, Limitations of the Study",
+      "supported_metadata_or_scope": "Teacher-filled survey responses and teacher-perceived proficiency measures are explicitly identified as limitations; the survey did not collect broader community sociolinguistic insights.",
+      "promotion_boundary": "limitations are retained alongside every numeric locator; figures are not treated as direct language proficiency tests or community-validated cultural facts"
+    },
+    {
+      "locator_type": "table",
+      "locator": "PDF p.19, Table 1 — Top 10 Languages with the Most Number of Speakers Amongst Grade 1 Students in the surveyed districts of Jharkhand",
+      "supported_metadata_or_scope": "Mundari is listed at 7.32% among Grade 1 students in the seven surveyed districts.",
+      "promotion_boundary": "aggregate survey statistic only; not a Census population estimate and not generalized beyond the survey frame"
+    },
+    {
+      "locator_type": "table",
+      "locator": "PDF p.24, Table 2 — District-wise Teachers' Proficiency in Students' Home Languages",
+      "supported_metadata_or_scope": "For Khunti, Mundari is the most common listed home language; the table reports 393 schools, 145 teachers reporting minimal proficiency and 366 reporting functional proficiency in speaking that home language.",
+      "promotion_boundary": "self-reported/teacher-reported survey statistic with the report's stated limitations; no individual-level or cultural inference"
+    },
+    {
+      "locator_type": "table",
+      "locator": "PDF p.31, Table 4 — Prominent Link languages spoken in the Survey Districts",
+      "supported_metadata_or_scope": "Mundari is included among the prominent link languages listed for the surveyed districts.",
+      "promotion_boundary": "report-defined survey output only; no claim of universal link-language status across Jharkhand"
+    }
+  ],
+  "deduplication": {
+    "repository_search": "No prior run261/LLF Jharkhand Phase-I exact-locator audit was found in the mlhkp-v2 source-census tree before creation.",
+    "canonical_key": "url:https://languageandlearningfoundation.org/wp-content/uploads/2025/04/LM-Report-Jharkhand-Phase-1.pdf",
+    "canonicalization_action": "treat the LLF report index page, direct PDF and UNESCO later citation as representations/corroboration of one survey/report family, not separate MLHKP identities",
+    "identity_count_change": false,
+    "reason_count_neutral": "The 73 unresolved WEB-MUN leads have not been fully reconciled against this report family; no controlled identity total is incremented until deterministic reconciliation closes."
+  },
+  "rights_access_consent_cultural_boundary": {
+    "direct_pdf_publicly_accessible": true,
+    "explicit_redistribution_license_verified": false,
+    "model_training_permission_verified": false,
+    "individual_student_or_teacher_records_ingested": false,
+    "participant_consent_independently_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "aggregate_non_sensitive_locator_metadata_only": true,
+    "notes": "Public PDF access supports exact citation/verification, not blanket redistribution or model-training permission. Only aggregate survey-level Mundari locators are recorded; no names, raw respondent records, cultural narratives or sensitive community content are ingested."
+  },
+  "promotion": {
+    "level": "exact PDF/table/methodology locator evidence",
+    "discovery_only": false,
+    "exact_locator_records_promoted": 5,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "participant_derived_records_promoted": 0,
+    "evidence_claim_count_change": false
+  },
+  "cross_checks": [
+    {
+      "source": "Language and Learning Foundation — Multilingual Education page",
+      "observation": "LLF publicly indexes 'LM Report Jharkhand Phase 1' among its State Reports.",
+      "role": "report-family identity corroboration"
+    },
+    {
+      "source": "UNESCO State of the Education Report 2025, Case Study 16 (published 2026)",
+      "observation": "UNESCO describes the Jharkhand Palash programme and cites the 2024 language mapping survey across 8,244 primary schools in seven districts, including Mundari among home languages.",
+      "role": "independent later corroboration of survey/program context; not substituted for the report's exact tables"
+    }
+  ],
+  "blocked_attempts": [
+    {
+      "source": "PDF page-image screenshot for Table 2",
+      "observation": "A page-image screenshot request for the direct LLF PDF intermittently returned an internal fetch error after the PDF text layer had been successfully retrieved.",
+      "disposition": "retain exact text-layer page/table locator, explicitly log screenshot failure, and do not claim image-level verification"
+    }
+  ],
+  "explicit_gaps": [
+    "deterministic reconciliation against all 73 unresolved WEB-MUN leads",
+    "byte-preserving local acquisition and independent cryptographic hash",
+    "explicit document redistribution/model-training licence determination",
+    "image-level re-verification of all promoted tables when the PDF screenshot route is stable",
+    "raw survey instrument/data provenance and disclosure controls if ever considered for ingestion",
+    "participant-consent/community-validation review before any non-aggregate respondent-derived material could be considered"
+  ]
+}

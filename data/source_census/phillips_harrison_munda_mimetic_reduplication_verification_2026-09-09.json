@@ -1,0 +1,53 @@
+{
+  "verification_id": "MMSC-VERIFY-2026-09-09-PHILLIPS-HARRISON-001",
+  "candidate_scope": "peer-reviewed Munda linguistics source with Mundari/Kera Mundari coverage",
+  "title": "Munda mimetic reduplication",
+  "authors": ["Jacob B. Phillips", "K. David Harrison"],
+  "publication_year": 2017,
+  "journal": "Canadian Journal of Linguistics/Revue canadienne de linguistique",
+  "volume": 62,
+  "issue": 2,
+  "page_range": "221-242",
+  "doi": "10.1017/cnj.2017.13",
+  "publisher": "Cambridge University Press",
+  "publisher_published_online": "2017-03-06",
+  "publisher_article_url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58",
+  "institutional_repository_record": "https://works.swarthmore.edu/fac-linguistics/223/",
+  "source_quality": {
+    "peer_reviewed": true,
+    "publisher_identity_verified": true,
+    "institutional_repository_identity_corroborated": true,
+    "doi_verified": true,
+    "volume_issue_pages_verified": true,
+    "full_text_passage_extraction_completed": false
+  },
+  "scope_verified_from_publisher_abstract": {
+    "munda_languages_reported": ["Ho", "Kera Mundari", "Kharia", "Mundari", "Remo (Bondo)", "Santali", "Sora (Savara)"],
+    "note": "Language coverage is recorded only as article-scope metadata. No lexical item, grammatical rule, numerical proportion, cultural proposition, fieldwork result or community-validation claim is promoted by this verification record."
+  },
+  "rights_and_access": {
+    "publisher_copyright_notice": "Canadian Linguistic Association/Association canadienne de linguistique 2017",
+    "specific_open_reuse_license_verified": false,
+    "publisher_full_text_redistribution_right_assumed": false,
+    "underlying_field_or_lexical_data_right_assumed": false,
+    "participant_or_consultant_consent_assumed": false,
+    "cultural_access_override_applies": true,
+    "boundary": "Bibliographic/publisher visibility does not establish permission to redistribute article text, lexical examples, underlying field materials, recordings, consultant-derived content or culturally restricted knowledge. Cultural access, privacy, participant rights and community governance override technical or legal availability where applicable."
+  },
+  "deduplication_boundary": {
+    "candidate_identity": "Phillips & Harrison 2017 journal article",
+    "not_equated_with": ["PARADISEC Mundari Ideophones/Mundari recordings", "Mundarica volumes", "MMLoSo benchmark", "Karya Hindi-Mundari translation corpus"],
+    "reason": "Topical or language overlap is insufficient for work/manifestation identity equivalence."
+  },
+  "evidence_boundary": "This record supports bibliographic identity, DOI, publication venue/date, volume/issue/pages and article-level language coverage. It does not promote article conclusions as MLHKP cultural facts and does not establish page-level passage verification, community validation, contemporary representativeness or reusable rights for underlying data.",
+  "promotion_state": "exact_bibliographic_identity_verified_pending_deterministic_master_reconciliation_and_item_level_rights_review",
+  "not_asserted": [
+    "community validation",
+    "current or universal Mundari usage",
+    "MLHKP field verification",
+    "permission to reproduce article text or examples",
+    "permission to reuse underlying field/consultant data",
+    "identity equivalence with other Mundari corpora or archives"
+  ],
+  "checked_utc": "2026-09-09T07:35:00Z"
+}

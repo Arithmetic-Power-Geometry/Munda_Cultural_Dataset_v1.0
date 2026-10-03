@@ -1,0 +1,82 @@
+{
+  "record_type": "bibliographic_manifestation_reconciliation",
+  "stream": "books_dictionaries_grammars",
+  "checked_utc": "2026-09-09T00:44:00Z",
+  "branch": "mlhkp-v2",
+  "title": "A Mundari-English dictionary",
+  "author": "Manindra Bhusan Bhaduri",
+  "work_identity": {
+    "open_library_work_id": "OL5467157W",
+    "canonical_work_title": "A Mundari-English dictionary"
+  },
+  "manifestations_verified": [
+    {
+      "publisher": "Calcutta University Press",
+      "year": 1931,
+      "state": "Open Library and two later CiNii reprint records point to a Calcutta University Press manifestation dated 1931; exact lawfully inspectable full text was not established in this cycle."
+    },
+    {
+      "publisher": "Northern Book Centre",
+      "year": 1983,
+      "open_library_edition_id": "OL3008123M",
+      "nacsis_id": "BA27135864",
+      "lccn": "84901705",
+      "pagination": "xv, 228, ii p.",
+      "catalogue_url": "https://ci.nii.ac.jp/ncid/BA27135864",
+      "state": "CiNii and Open Library catalogue manifestation verified; CiNii describes this as a reprint of Calcutta University Press, 1931."
+    },
+    {
+      "publisher": "Asian Educational Services",
+      "year": 1994,
+      "isbn": "8120609107",
+      "nacsis_id": "BA31909026",
+      "pagination": "xv, 228, ii p.",
+      "catalogue_url": "https://ci.nii.ac.jp/ncid/BA31909026",
+      "state": "CiNii catalogue manifestation verified; catalogue notes it as a reprint of Calcutta University Press, 1931."
+    },
+    {
+      "publisher": "Gyan Publishing House",
+      "year": 2002,
+      "isbn": "8121207959",
+      "nacsis_id": "BB09153012",
+      "pagination": "xv, 228, ii p.",
+      "catalogue_url": "https://ci.nii.ac.jp/ncid/BB09153012",
+      "state": "CiNii catalogue manifestation verified; catalogue describes a reprint and includes an introduction by Rai Bahadur Sarat Chandra Roy. Its note says 'Originally published of 1929 ed. [intro.]', which conflicts with the 1931 original-publication note in the 1983 and 1994 CiNii records."
+    }
+  ],
+  "edition_date_uncertainty": {
+    "status": "explicit_unresolved_catalogue_discrepancy",
+    "signals": [
+      "CiNii BA27135864 (1983 reprint) says originally published Calcutta University Press, 1931.",
+      "CiNii BA31909026 (1994 reprint) says originally published Calcutta University Press, 1931.",
+      "CiNii BB09153012 (2002 reprint) notes 'Originally published of 1929 ed. [intro.]'."
+    ],
+    "decision": "Do not collapse 1929 and 1931 into a fabricated single original-edition date. Preserve the conflict until a primary title page/catalogue record resolves whether 1929 denotes an introduction/edition state or a distinct manifestation."
+  },
+  "deduplication": {
+    "decision": "treat_as_one_intellectual_work_with_multiple_manifestations_pending_master-register-reconciliation",
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "reason": "The verified records describe manifestations/reprints of the same dictionary work; creating one source identity per reprint would inflate the census."
+  },
+  "rights_and_access": {
+    "catalogue_metadata_publicly_visible": true,
+    "full_text_lawful_reuse_verified": false,
+    "public_domain_asserted": false,
+    "lexical_entries_ingested": false,
+    "cultural_access_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion_boundary": {
+    "permitted_now": "bibliographic identity, manifestation relationships, catalogue identifiers, pagination metadata and explicit catalogue-date uncertainty",
+    "not_promoted": [
+      "dictionary headwords or definitions",
+      "lexical frequency or semantic claims",
+      "dialect representativeness",
+      "community endorsement",
+      "unrestricted redistribution rights"
+    ]
+  },
+  "release_value": "Reduces duplicate-risk in the Master Munda Source Census, adds a second independent exact catalogue identifier for the 1983 manifestation, and converts a hidden edition-date inconsistency into an explicit audited gap rather than silently normalizing it."
+}

@@ -1,0 +1,45 @@
+{
+  "run": 586,
+  "audit_date": "2026-09-23",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_work": {
+    "author": "John Peterson",
+    "title": "Language contact in Jharkhand: Linguistic convergence between Munda and Indo-Aryan in eastern-central India",
+    "year": 2010,
+    "doi": "10.5070/H99223479",
+    "institutional_manifestation": "UC eScholarship",
+    "url": "https://escholarship.org/uc/item/489929c1"
+  },
+  "scope": ["linguistics", "language contact", "Munda languages", "Indo-Aryan languages", "Jharkhand"],
+  "access": {
+    "landing_page": "open",
+    "pdf_exposed_by_repository": true,
+    "rights_note": "Repository page states copyright 2010 by the author(s); discoverability/downloadability is not treated as permission to redistribute the PDF."
+  },
+  "deduplication": {
+    "repository_search": "Peterson 2010 language contact Jharkhand",
+    "existing_match_found": false,
+    "canonicalization_rule": "DOI, eScholarship landing page/PDF, publisher copies, and bibliographic mirrors are manifestations of one work unless substantive version differences are demonstrated."
+  },
+  "evidence_status": {
+    "promoted_controlled_claims": 0,
+    "promoted_evidence_records": 0,
+    "promoted_binaries": 0,
+    "reason": "Exact proposition-level ingestion requires lawful full-text inspection, manifestation/version verification, print/PDF locator concordance, and source-dependency analysis. Abstract-level statements are not promoted as controlled cultural or linguistic claims."
+  },
+  "verified_abstract_scope": "The institutional record describes convergence between Indo-Aryan and Munda languages in Jharkhand, including reported developments involving possession, pronominal marking, directional/aspectual categories, and genitive constructions. These remain author-level abstract assertions until exact-locator verification.",
+  "cultural_and_epistemic_controls": [
+    "Do not generalize language-family or areal observations to all Munda communities, dialects, places, or periods.",
+    "Separate newly argued convergence patterns from examples or analyses inherited from cited literature.",
+    "Preserve language, dialect, locality, time, and corpus qualifiers when converting to evidence.",
+    "Do not infer cultural identity or practice solely from linguistic structure."
+  ],
+  "next_conversion_steps": [
+    "Acquire/inspect the lawful institutional PDF without bypassing controls.",
+    "Record stable manifestation identifier/hash where repository policy permits.",
+    "Concord PDF pages with printed pagination.",
+    "Create exact page/section/example locators only for directly supported propositions.",
+    "Record cited-source dependencies and uncertainty before graph promotion."
+  ],
+  "release_gate_effect": "Adds a verified, obtainable scholarly source to the conversion queue; no controlled metric increment is asserted before deterministic reconciliation."
+}

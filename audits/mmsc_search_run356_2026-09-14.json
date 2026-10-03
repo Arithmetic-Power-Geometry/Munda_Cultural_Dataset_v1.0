@@ -1,0 +1,51 @@
+{
+  "search_id": "MMSC-SEARCH-000356",
+  "run": 356,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses","government_TRI_Census_LSI","archives","newspapers","web_resources","datasets","audio","video","maps","relevant_media"],
+  "fresh_reobservations": [
+    {
+      "class": "web_resources",
+      "title": "Tribal Lingua Mundari learning resource",
+      "url": "https://triballingua.in/",
+      "disposition": "discovery_only_pending_deterministic_identity_rights_and_content_review"
+    },
+    {
+      "class": "datasets_audio",
+      "title": "Karya / partners Mundari TTS dataset",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts",
+      "disposition": "already_known_family_reobserved_do_not_increment_controlled_identity_without_register_reconciliation"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "Tribal Welfare Research Institute Jharkhand - Munda",
+      "url": "https://www.trijharkhand.in/en/munda",
+      "disposition": "already_audited_provider_locator_reobserved_no_claim_promotion"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "Census of India C-17 bilingualism/trilingualism catalogues",
+      "url": "https://www.censusindia.gov.in/nada/",
+      "disposition": "catalogue_reobserved_workbook_cell_verification_still_required"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "title": "ComputEL 2024 Mundari TTS paper",
+      "url": "https://aclanthology.org/anthology-files/pdf/computel/2024.computel-1.pdf",
+      "disposition": "secondary_paper_reobserved_dataset_counts_not_promoted_without_artifact_recount"
+    }
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the numbered source register is completed. Homonyms and non-Mundari/Munda language matches are excluded or held unresolved.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Fresh observations either re-observe existing source families or remain discovery-only pending deterministic register reconciliation; no defensible new audited identity was established in this cycle."
+}

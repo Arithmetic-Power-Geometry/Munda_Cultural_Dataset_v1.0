@@ -1,0 +1,58 @@
+{
+  "run": 364,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "stream": "MMSC/source-verification",
+  "provider": "ASJP Database",
+  "language_identity": {
+    "name": "Mundari",
+    "glottocode": "mund1320",
+    "iso_639_3": "unr"
+  },
+  "observed_provider_records": [
+    {
+      "provider_label": "MUNDARI",
+      "provider_url": "https://asjp.clld.org/languages/MUNDARI",
+      "compiler": "Cecil H. Brown",
+      "declared_source": "Peiros 1998, Comparative Linguistics in Southeast Asia, Pacific Linguistics C-142, Australian National University",
+      "provider_page_observed": true
+    },
+    {
+      "provider_label": "MUNDARI_2",
+      "provider_url": "https://asjp.clld.org/languages/MUNDARI_2",
+      "compiler": "Paul Sidwell and Søren Wichmann",
+      "declared_source": "Hoffmann and van Emelen 1928-78, Encyclopedia Mundarica, Patna: Government Superintendent Printing",
+      "provider_page_observed": true
+    }
+  ],
+  "verification": {
+    "two_distinct_asjp_mundari_wordlist_records_verified": true,
+    "iso_and_glottocode_concordance_verified_on_provider_pages": true,
+    "declared_source_genealogy_verified_on_provider_pages": true,
+    "asjp_database_license_observed_as_cc_by_4_0": true,
+    "source_work_pages_or_entries_independently_verified": false,
+    "asjp_export_bytes_materialized": false,
+    "asjp_export_sha256_verified": false,
+    "asjp_export_row_count_verified": false,
+    "lexical_items_promoted_to_controlled_evidence": false,
+    "cultural_claims_promoted": false
+  },
+  "canonicalization": {
+    "treat_MUNDARI_and_MUNDARI_2_as_two_provider_wordlist_manifestations": true,
+    "do_not_treat_them_as_two_distinct_language_identities": true,
+    "controlled_identity_count_changed": false
+  },
+  "rights_governance": {
+    "database_license_is_underlying_source_reuse_permission": false,
+    "database_public_visibility_is_community_validation": false,
+    "lexical_database_record_is_cultural_authorization": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "promotion_boundary": "Use ASJP records as source locators and manifestation metadata only until export bytes, deterministic row accounting, lexical provenance and the relevant underlying descriptive-source passages are independently verified.",
+  "blockers_remaining": [
+    "materialize permitted ASJP text/JSON export bytes for both Mundari records",
+    "compute SHA-256 and deterministic row/concept counts",
+    "trace lexical items to Peiros 1998 and Encyclopedia Mundarica source passages before controlled lexical promotion",
+    "retain rights and cultural-access review independently of database CC BY 4.0"
+  ]
+}

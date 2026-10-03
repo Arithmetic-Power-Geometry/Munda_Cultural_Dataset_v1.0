@@ -1,0 +1,51 @@
+{
+  "run": 414,
+  "stream": "non-Mundarica source census",
+  "source_class": "dictionary/book",
+  "canonical_work": {
+    "title": "A Mundari-English dictionary",
+    "author": "Manindra Bhusan Bhaduri",
+    "original_publication_year_reported": 1931,
+    "original_publisher_reported": "Calcutta University Press",
+    "scope": "Mundari language dictionary to English"
+  },
+  "verified_manifestation": {
+    "provider": "CiNii Books",
+    "ncid": "BA31909026",
+    "edition": "Asian Educational Services reprint",
+    "publication_year": 1994,
+    "place": "New Delhi",
+    "isbn": "8120609107",
+    "pagination": "xv, 228, ii p.",
+    "language_codes_reported": ["eng", "sit"],
+    "subject_reported": "Mundari language -- Dictionaries -- English",
+    "catalogue_url": "https://ci.nii.ac.jp/ncid/BA31909026"
+  },
+  "canonicalization": {
+    "identity_rule": "Treat original/reprint catalogue manifestations as one underlying dictionary work unless edition-level comparison establishes substantive revision.",
+    "known_related_manifestations": [
+      "Open Library work OL5467157W / edition OL3008123M",
+      "later Gyan Publishing House reprint (CiNii NCID BB09153012)"
+    ],
+    "dedup_status": "repository text search for 'Bhaduri Mundari-English dictionary' returned no match before this locator was added"
+  },
+  "promotion_state": "exact-locator metadata only; no lexical entries promoted",
+  "rights_access_governance": {
+    "catalogue_metadata_public": true,
+    "fulltext_reuse_permission_verified": false,
+    "immutable_fulltext_bytes_verified": false,
+    "sha256_verified": false,
+    "printed_page_mapping_verified": false,
+    "historical_source_data_provenance_reviewed": false,
+    "consent_or_cultural_access_inferred": false
+  },
+  "required_before_evidence_promotion": [
+    "obtain a lawful immutable full-text manifestation",
+    "record manifestation-level reuse status and SHA-256",
+    "map printed pages to digital pages deterministically",
+    "audit preface/introduction for collection method, consultants/informants, dialect/location and provenance",
+    "apply cultural-access uncertainty conservatively",
+    "promote only lexical evidence with exact entry/page locators supported by the verified manifestation"
+  ],
+  "audit_note": "Bibliographic identity is independently supported by CiNii; catalogue discovery does not establish unrestricted text reuse or consent. No cultural or lexical claim is inferred from metadata alone."
+}

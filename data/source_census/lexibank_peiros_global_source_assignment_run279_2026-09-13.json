@@ -1,0 +1,58 @@
+{
+  "run_id": 279,
+  "date_utc": "2026-09-12",
+  "stream": "dataset / thesis-provenance / structural ingestion audit",
+  "source": {
+    "dataset": "Lexibank Peiros Austroasiatic",
+    "release_tag": "v1.1",
+    "tag_commit_sha": "b4d2e4dcee173494c90328f7cafd78c9851c0956",
+    "generator_path": "lexibank_peirosaustroasiatic.py",
+    "generator_git_blob_sha": "544d81c37b5a6bdbf3e4a1e7a10a463d47474282",
+    "forms_git_blob_sha": "28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5",
+    "sources_git_blob_sha": "0629a9d2536b09f6c615aa33c471a6550e274acd",
+    "parameters_git_blob_sha": "f13b1827b4ee61f6f38b5031afe7a7d5fa027692",
+    "mundari_form_rows_total": 101,
+    "previous_sample_rows_reconciled": 21,
+    "previous_exact_row_parameter_reconciliation_remaining": 80
+  },
+  "structural_verification": {
+    "generator_adds_sources_before_data": true,
+    "form_generation_source_argument": ["Peiros2004a"],
+    "cognate_generation_source_argument": ["Peiros2004a"],
+    "parameter_assignment_expression": "concepts[re.sub(\"'\", \"\", row[\"CONCEPT\"])]",
+    "language_assignment_expression": "languages[row[\"LANGUAGE\"].strip()]",
+    "interpretation": "At the pinned release commit, every form emitted through the sole cmd_makecldf form-generation path is assigned Source=[Peiros2004a]. This closes source-key provenance structurally for generated forms, including the Mundari subset, without asserting that all 80 remaining rows have individually parsed Parameter_ID locators.",
+    "source_key_provenance_unresolved_after_run279": 0,
+    "exact_row_parameter_locator_reconciliation_remaining": 80,
+    "bulk_lexical_promotion_complete": false
+  },
+  "canonicalization": {
+    "canonical_key": "LEXIBANK:PEIROSAUSTROASIATIC:v1.1",
+    "new_controlled_source_identity": false,
+    "reason": "This is a provenance refinement of the already canonicalized Peiros v1.1 dataset family."
+  },
+  "promotion": {
+    "controlled_source_identity_count_change": false,
+    "controlled_lexical_rows_promoted": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "promotion_level": "pinned generator/source-key structural provenance closure only"
+  },
+  "rights_and_cultural_boundary": {
+    "derived_release_license": "CC-BY-4.0",
+    "derived_license_treated_as_underlying_thesis_blanket_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "public_or_open_repository_access_treated_as_model_training_permission": false,
+    "restricted_or_participant_derived_content_exposed": false
+  },
+  "explicit_gaps": [
+    "Individually reconcile the remaining 80 Mundari FormTable rows against pinned parameters.csv to produce exact row-level Parameter_ID/Concepticon locators before any bulk lexical promotion.",
+    "Package attribution and downstream licence notices for any eventually promoted derived lexical evidence.",
+    "Do not infer participant consent, community validation or MLHKP cultural-access permission from the dataset licence alone.",
+    "Retain the underlying Peiros 2004 thesis rights status separately from the derived Lexibank release licence."
+  ]
+}

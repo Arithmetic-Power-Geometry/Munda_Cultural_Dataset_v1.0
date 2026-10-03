@@ -1,0 +1,33 @@
+name: MLHKP Migration Audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - mlhkp-v2
+    paths:
+      - 'data/**'
+      - 'software/audit_mlhkp_migration.py'
+      - '.github/workflows/mlhkp-migration-audit.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'software/audit_mlhkp_migration.py'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run migration integrity audit
+        run: python software/audit_mlhkp_migration.py

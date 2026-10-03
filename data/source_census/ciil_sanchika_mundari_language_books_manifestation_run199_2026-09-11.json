@@ -1,0 +1,92 @@
+{
+  "run": 199,
+  "date": "2026-09-11",
+  "stream": "non_mundarica_books_grammars_language_learning_manifestations",
+  "result": "TWO_EXACT_CIIL_SANCHIKA_MANIFESTATIONS_VERIFIED_METADATA_AND_COVER_ONLY",
+  "items": [
+    {
+      "title": "मुण्डारी भाषा का भाषिक संरचना",
+      "romanized_catalogue_title": "Mundri Bhasha Ka Bashik Sanrachana",
+      "creator_as_catalogued": "Soy 'Munda', Birendra Kumar",
+      "publication_year": 2017,
+      "publisher_as_catalogued": "Satyam publication house",
+      "repository": "Bhasha Sanchika / Central Institute of Indian Languages",
+      "handle": "20.500.14705/11519",
+      "repository_item_id": "a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+      "repository_identifier": "BVP04859",
+      "repository_file": "BVP04859.pdf",
+      "repository_file_size": "473.63 KB",
+      "repository_format": "Adobe Portable Document Format",
+      "rights_holder_as_catalogued": "Birendra Kumar Soy 'Munda'",
+      "subject_as_catalogued": ["Mundari", "Linguistics"],
+      "repository_description": "The book contains a Linguistic Structure of Mundari Language.",
+      "direct_bitstream_url": "https://sanchika.ciil.org/bitstreams/b5de7d0e-0eb2-491b-96b1-73cf0d0abab9/download",
+      "retrieved_pdf_pages_observed": 1,
+      "page_1_visual_verification": "cover image visually verified; title and Birendra Kumar Soy 'Munda' visible",
+      "promotion_level": "exact repository metadata plus direct cover-manifestation locator only"
+    },
+    {
+      "title": "Mundari Word Book",
+      "creator_as_catalogued": "Anonymous",
+      "publication_year": 2006,
+      "publisher_as_catalogued": "Bharat Munda Samaj Baripada Mayurbhanj Odisha",
+      "repository": "Bhasha Sanchika / Central Institute of Indian Languages",
+      "handle": "20.500.14705/8437",
+      "repository_item_id": "0a279311-4ea6-4229-9ce7-380dbb251e65",
+      "repository_identifier": "BVP00242",
+      "repository_file": "BVP00242.pdf",
+      "repository_file_size": "15.05 KB",
+      "repository_format": "Adobe Portable Document Format",
+      "rights_holder_as_catalogued": "Bharat Munda Samaj",
+      "subject_languages_as_catalogued": ["English", "Mundari"],
+      "repository_description": "The book contains all the important informations which are necessary for learning Mundari language.",
+      "direct_bitstream_url": "https://sanchika.ciil.org/bitstreams/8a041036-9aa1-4e9c-b2b2-cf48894adc5d/download",
+      "retrieved_pdf_pages_observed": 1,
+      "page_1_visual_verification": "cover image visually verified with title MUNDARI WORD BOOK",
+      "promotion_level": "exact repository metadata plus direct cover-manifestation locator only"
+    }
+  ],
+  "deterministic_reconciliation": {
+    "mmsc_discoveries_checked": true,
+    "current_branch_source_census_tree_checked": true,
+    "exact_BVP04859_match_found_in_controlled_registers": false,
+    "exact_BVP00242_match_found_in_controlled_registers": false,
+    "permanent_source_identity_created": false,
+    "reason_no_identity_created": "Exact source-manifestation candidates are now audited, but permanent count-bearing registration is deferred until controlled-register reconciliation and rights/full-content state are completed as one synchronized transaction."
+  },
+  "verification_boundary": {
+    "institutional_repository_identity_verified": true,
+    "handle_and_file_metadata_verified": true,
+    "direct_bitstream_resolved": true,
+    "cover_page_visually_verified": true,
+    "full_book_text_verified": false,
+    "retrieved_one_page_pdf_treated_as_complete_book": false,
+    "independent_byte_hash_verified": false,
+    "page_sequence_verified": false,
+    "grammar_rules_ingested": false,
+    "lexical_entries_ingested": false,
+    "cultural_claims_ingested": false,
+    "participant_material_ingested": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "source_identities_added": 0
+  },
+  "rights_and_governance": {
+    "rights_holders_preserved_from_repository_metadata": true,
+    "public_file_visibility_treated_as_reuse_permission": false,
+    "open_license_verified": false,
+    "full_text_redistribution_permission_verified": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_technical_availability": true
+  },
+  "scope_classification": {
+    "relevant_to_mlhkp": true,
+    "classes": ["book", "grammar/linguistics", "language-learning resource"],
+    "non_mundarica": true,
+    "not_promoted": ["grammar propositions", "lexical rows", "cultural propositions", "full-text transcription", "reuse permission", "verified completeness"]
+  }
+}

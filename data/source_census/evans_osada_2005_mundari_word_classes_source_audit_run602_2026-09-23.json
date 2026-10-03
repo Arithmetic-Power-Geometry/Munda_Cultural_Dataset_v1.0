@@ -1,0 +1,54 @@
+{
+  "run": 602,
+  "audit_date": "2026-09-23",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "title": "Mundari: The myth of a language without word classes",
+    "type": "peer-reviewed journal article / linguistic analysis",
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "persistent_repository_uri": "http://hdl.handle.net/1885/54663",
+    "repository": "Australian National University Research Publications"
+  },
+  "identity_verification": {
+    "status": "verified_from_institutional_repository_metadata",
+    "access_statement": "Open Access",
+    "repository_file_advertised": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_file_size": "234.31 KB"
+  },
+  "scope": {
+    "primary": ["Mundari grammar", "word classes", "noun/verb distinction", "word formation"],
+    "evidence_basis_reported_by_source_metadata": ["careful analysis of Hoffmann's corpus", "substantial new data", "large lexical sample at two levels of detail"],
+    "scope_control": "Linguistic evidence only. Do not generalize grammatical analysis into cultural or community-wide claims. Hoffmann-derived observations must be dependency-tagged rather than counted as independent corroboration."
+  },
+  "canonicalization": {
+    "repository_exact_title_search_before_insert": "no matching Evans/Osada word-classes audit returned",
+    "rule": "DOI, ANU repository landing page, repository PDF and downstream bibliographic records are manifestations/records of one canonical scholarly work, not independent sources."
+  },
+  "rights_access_consent": {
+    "landing_page_access": "open access",
+    "binary_redistribution_permission": "not established by this audit",
+    "human_participant_or_speaker_consent_for_reuse": "not established from landing metadata",
+    "cultural_access_status": "not established; no cultural claim promoted"
+  },
+  "conversion_state": {
+    "discovery_only": false,
+    "exact_locator_queue": true,
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "required_before_promotion": [
+      "obtain and hash the authoritative repository PDF where permitted",
+      "verify journal/PDF pagination and bibliographic front matter",
+      "inspect methods, speaker/locality/variety provenance and lexical-sample construction",
+      "extract proposition-level page/example/table locators",
+      "tag Hoffmann-corpus dependencies separately from authors' new data",
+      "verify file-level reuse terms and any speaker/participant reuse constraints",
+      "preserve uncertainty and avoid converting typological conclusions into cultural assertions"
+    ]
+  },
+  "audit_decision": "KEEP_AND_QUEUE_FOR_EXACT_LOCATOR_CONVERSION",
+  "fabrication_guard": "No MMSC controlled counts, cultural claims, evidence records or binaries are incremented by this audit alone."
+}

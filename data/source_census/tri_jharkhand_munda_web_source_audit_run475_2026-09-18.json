@@ -1,0 +1,42 @@
+{
+  "run": 475,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica",
+  "source_class": ["government_TRI", "web_resource", "bibliographic_lead_hub"],
+  "canonical_identity": {
+    "title": "Munda",
+    "provider": "Tribal Welfare Research Institute, Jharkhand",
+    "url": "https://www.trijharkhand.in/en/munda",
+    "jurisdiction": "Jharkhand, India"
+  },
+  "identity_verification": {
+    "provider_page_verified": true,
+    "observed_2026_09_18": true,
+    "scope": "Munda community overview with Mundari-language and bibliographic references",
+    "canonicalization_rule": "Treat translated, cached, indexed, or mirrored manifestations of this TRI page as one web-source identity unless version provenance proves substantive independent authorship. Works named on the page (for example S. C. Roy or Ram Dayal Munda/Ratan Singh Manki) remain separate source identities and must not be counted as independent corroboration merely because TRI cites them."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Provider authority establishes source identity, not automatic truth or independence of every cultural/historical statement. Exact statement locators, cited-source dependency, version capture, rights/reuse and cultural-access review are required before promotion."
+  },
+  "rights_access_consent": {
+    "publicly_accessible": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_inferred": false,
+    "community_permission_inferred": false,
+    "cultural_access_cleared": false,
+    "rule": "Public government/TRI web access does not equal unrestricted reuse, participant consent, community permission, or cultural clearance."
+  },
+  "exact_locator_plan": {
+    "target": "provider URL + captured content hash/version timestamp + stable heading/paragraph locator",
+    "requirements": ["lawful immutable capture or reproducible provider version", "content SHA-256 where permitted", "heading/paragraph concordance", "dependency tracing to named works", "cultural-access review where applicable"]
+  },
+  "discoverable_named_leads": [
+    "S. C. Roy, The Mundas and Their Country (1912)",
+    "Ram Dayal Munda and Ratan Singh Manki, Adidharam"
+  ],
+  "gap_state": "AUDITED_SOURCE_LOCATOR_NOT_PROMOTED",
+  "controlled_count_change": false,
+  "notes": "No cultural claim is asserted from the provider page in this audit. Named works are discovery/dependency leads only until separately verified and reconciled against the controlled ledger."
+}

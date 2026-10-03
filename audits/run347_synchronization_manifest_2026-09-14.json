@@ -1,0 +1,29 @@
+{
+  "run": 347,
+  "branch": "mlhkp-v2",
+  "date": "2026-09-14",
+  "synchronization": {
+    "mmsc_counts": "checked; unchanged pending deterministic WEB-MUN reconciliation",
+    "mmsc_search_log": "updated via audits/mmsc_search_run347_2026-09-14.json",
+    "streamlit_universal_search_and_modules": "controlled module count unchanged at 42; no new controlled evidence record requiring UI registration",
+    "evidence_graph": "unchanged at 52 claims / 52 evidence records / 52 links; ASJP locator not promoted to controlled claim evidence",
+    "completeness_gap_matrix": "gap state advanced by recording ASJP export-byte/hash/recount and WEB-MUN register recovery as explicit open gaps; no false closure",
+    "tests": "tests/test_run347_asjp_boundary.py added",
+    "publication_release_metrics_tables_figures": "controlled metrics unchanged; no numerical result or graph data justified by this run",
+    "status_mlkhp_progress": "scheduled for canonical update in this run"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "release_gate": "NOT_PASS",
+  "principle": "Locator-level progress is recorded without manufacturing count changes, lexical assertions, cultural claims, consent or community authorization."
+}

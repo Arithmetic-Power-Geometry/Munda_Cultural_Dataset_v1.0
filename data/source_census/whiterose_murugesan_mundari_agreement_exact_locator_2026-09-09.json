@@ -1,0 +1,67 @@
+{
+  "record_type": "exact_locator_verification",
+  "branch": "mlhkp-v2",
+  "verified_utc_date": "2026-09-09",
+  "candidate_source": {
+    "title": "Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis",
+    "authors": ["Gurujegan Murugesan", "Imke Driemel", "Andrew Murphy"],
+    "publication": "Natural Language & Linguistic Theory",
+    "publication_year": 2025,
+    "published_pages": "1067-1115",
+    "doi": "10.1007/s11049-024-09628-2",
+    "repository_item": "https://eprints.whiterose.ac.uk/id/eprint/226042/",
+    "accepted_manuscript": "murugesanEtAl_24_Omnivoro.3.pdf",
+    "repository_license_label": "CC-BY 2.5"
+  },
+  "scope_classification": {
+    "class": "peer-reviewed linguistic research / open-access accepted manuscript",
+    "language_scope": ["Mundari"],
+    "mlhkp_scope": "non-Mundarica linguistic evidence",
+    "cultural_claim_scope": "none promoted"
+  },
+  "exact_locator_evidence": [
+    {
+      "locator": "accepted manuscript PDF p. 2 (PDF index P1), abstract",
+      "supported_statement": "The authors analyze a Mundari agreement pattern in which person, number and an animacy-based gender restriction interact in object marking."
+    },
+    {
+      "locator": "accepted manuscript PDF p. 3 (PDF index P2), lines corresponding to example (3)",
+      "supported_statement": "The manuscript states the analyzed person hierarchy as 1 > 2 > 3 and number hierarchy as sg > pl > du, with eligibility constrained by animacy in the described object-marking pattern."
+    },
+    {
+      "locator": "accepted manuscript PDF p. 6 (PDF index P5), footnote 6",
+      "supported_statement": "The authors state that, unless otherwise noted, the Mundari data used in the analysis come from fieldwork carried out in Jharkhand, India."
+    }
+  ],
+  "identity_and_deduplication": {
+    "permanent_src_mmsc_id_assigned": false,
+    "reason": "The work must first be deterministically reconciled against the authoritative discovery/master layer and the 87-lead census before a permanent source identity is counted.",
+    "manifestation_rule": "White Rose repository metadata, accepted manuscript PDF and DOI publisher record are manifestations/locators of one intellectual work, not separate source identities."
+  },
+  "rights_access_and_ethics": {
+    "repository_page_publicly_readable": true,
+    "accepted_manuscript_publicly_downloadable": true,
+    "repository_license_verified": "CC-BY 2.5 as displayed by White Rose Research Online",
+    "participant_consent_verified": false,
+    "underlying_field_recordings_reuse_permission_verified": false,
+    "consultant_identity_reuse_beyond_publication_verified": false,
+    "cultural_access_clearance_verified": false,
+    "restriction": "Only bounded published linguistic-analysis statements and bibliographic/rights metadata are recorded. No underlying recordings, elicitation files, transcripts, consultant data, example-bank extraction or participant-derived media are ingested."
+  },
+  "promotion_decision": {
+    "identity_metadata": "verified",
+    "exact_locator": "verified from repository metadata and PDF text layer",
+    "content_evidence_promoted": "bounded published linguistic-analysis statements only",
+    "cultural_evidence_promoted": false,
+    "numeric_population_claim_promoted": false,
+    "source_count_increment": false,
+    "claim_count_increment": false,
+    "evidence_count_increment": false
+  },
+  "verification_notes": [
+    "White Rose verifies the authors, publication, DOI, published page range, accepted/published dates, accepted-manuscript filename and CC-BY 2.5 license label.",
+    "The accepted manuscript text layer exposes exact page-indexed passages supporting the bounded linguistic statements.",
+    "Required PDF screenshot attempts returned a cache-miss error in the research environment; therefore no visual-layout-dependent or page-image-verification claim is made.",
+    "No claim of community-wide linguistic uniformity, cultural representativeness, consent, endorsement or unrestricted access to underlying field materials is made."
+  ]
+}

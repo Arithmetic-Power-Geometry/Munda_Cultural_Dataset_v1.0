@@ -1,0 +1,48 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN598-KARYA-HI-MUNDARI",
+  "run": 598,
+  "audit_date": "2026-09-23",
+  "branch": "mlhkp-v2",
+  "canonical_work": {
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "provider_repository": "karya-inc/dataset-hindi-mundari-translation",
+    "source_class": ["dataset", "parallel_corpus", "computational_linguistics"],
+    "provider_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+    "verified_provider_description": "Public provider repository describes a corpus of 17,826 Hindi-to-Mundari sentence pairs created through collaboration between Microsoft Research India, Indian Institute of Technology Kharagpur, and Karya.",
+    "verified_pair_count": 17826,
+    "data_file_named_by_provider": "translation-hi-unr.tsv"
+  },
+  "identity_and_deduplication": {
+    "repository_exact_lead_search_before_audit": "no existing dataset-hindi-mundari-translation match found",
+    "canonicalization_rule": "README, LICENSE, COPYRIGHT, TSV and provider/project descriptions are manifestations/components of one dataset release and must not be counted as independent corroborating sources.",
+    "relationship_to_muntts": "Related project ecosystem, but not identical to the Mundari TTS corpus; do not merge translation-pair counts with audio-recording counts."
+  },
+  "scope": {
+    "supported": ["Hindi-Mundari parallel text", "machine-translation / language-technology evidence"],
+    "not_supported_without_additional_evidence": ["timeless cultural claims", "community-wide cultural norms", "speaker identity or locality assumptions", "claim that every sentence is independently elicited cultural testimony"],
+    "cultural_scope_rule": "Individual sentence pairs must not be promoted as cultural propositions without item-level provenance, contextual support and governance review."
+  },
+  "rights_access_consent": {
+    "provider_license_statement": "Provider describes the dataset as released under the non-commercial version of the Karya Public License; LICENSE.txt and COPYRIGHT.txt are part of the repository.",
+    "binary_or_bulk_copy_into_mlhkp": false,
+    "consent_inference": "No participant consent, identity, locality or permission beyond the provider's published release terms is inferred from public availability.",
+    "required_before_reuse": ["inspect exact LICENSE.txt and COPYRIGHT.txt terms", "record release/commit manifestation", "hash ingested file if lawful and necessary", "verify row-level provenance/format", "preserve attribution and downstream-use restrictions"]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "state": "EXACT-DATASET-LEVEL-CONVERSION-CANDIDATE_WITH_RIGHTS_AND_PROVENANCE_GATES",
+    "reason": "Dataset identity, provider-reported size and file name are verified, but row-level exact locators, manifestation hash, provenance and complete reuse conditions were not established in this run."
+  },
+  "gaps": [
+    "exact provider commit/release manifestation not frozen in MLHKP",
+    "TSV row count and schema not independently validated in this run",
+    "row-level source/provenance and translation-review metadata not established",
+    "complete downstream reuse implications require LICENSE/COPYRIGHT review",
+    "no sentence-level cultural claim may be inferred solely from corpus membership"
+  ],
+  "evidence_urls": [
+    "https://github.com/karya-inc/dataset-hindi-mundari-translation"
+  ]
+}

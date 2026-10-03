@@ -1,0 +1,71 @@
+{
+  "search_id": "MMSC-SEARCH-000333",
+  "date_utc": "2026-09-14",
+  "purpose": "Systematic Master Munda Source Census refresh with discovery separated from audited/canonical identity counts.",
+  "controlled_classes": [
+    "books",
+    "dictionaries_lexica",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_TRI_Census_LSI",
+    "archives_museums",
+    "newspapers",
+    "web_resources",
+    "datasets_corpora",
+    "audio",
+    "video",
+    "maps_atlases",
+    "media_heritage"
+  ],
+  "classes_refreshed": 14,
+  "fresh_or_reobserved_examples": [
+    {
+      "source": "CIET/NCERT Barkhaa Audio",
+      "class": "audio",
+      "url": "https://ciet.ncert.gov.in/barkhaa_audio",
+      "status": "first_party_catalogue_verified_run333; item bytes/rights/consent/community/cultural_access open"
+    },
+    {
+      "source": "Tribal Welfare Research Institute Jharkhand - Munda",
+      "class": "government_TRI_Census_LSI",
+      "url": "https://www.trijharkhand.in/en/munda",
+      "status": "reobserved; no automatic cultural-claim promotion"
+    },
+    {
+      "source": "Government of Jharkhand - Tribals in Jharkhand",
+      "class": "government_TRI_Census_LSI",
+      "url": "https://jharkhand.gov.in/Home/AboutTribals",
+      "status": "reobserved government web source; historical Census figures not substituted for workbook-level verification"
+    },
+    {
+      "source": "Karya Mundari TTS",
+      "class": "datasets_corpora",
+      "url": "https://github.com/karya-inc/dataset-mundari-tts",
+      "status": "reobserved; existing governance/hash boundaries retained"
+    },
+    {
+      "source": "Adivaani speech-to-speech translation",
+      "class": "web_resources",
+      "url": "https://adivaani.tribal.gov.in/features/speech-to-speech",
+      "status": "discovery/reobservation only; beta system outputs are not evidence of cultural fact"
+    },
+    {
+      "source": "Tribal Lingua Mundari",
+      "class": "web_resources",
+      "url": "https://www.triballingua.in/learn-mundari/",
+      "status": "discovery/reobservation only pending source-by-source provenance and cultural-access review"
+    }
+  ],
+  "deterministic_count_policy": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "counts_changed_this_run": false,
+    "reason": "Search/reobservation does not mutate controlled counts until numbered WEB-MUN register reconciliation and deterministic deduplication/canonicalization are completed."
+  },
+  "safety_boundary": "No discovery result is treated as permission, community validation, verified cultural fact, or audited identity solely because it is public or first-party."
+}

@@ -1,0 +1,46 @@
+{
+  "run": 603,
+  "audit_date": "2026-09-23",
+  "branch": "mlhkp-v2",
+  "canonical_work": {
+    "title": "Language Atlas of India 1991",
+    "corporate_author": "Census of India / Office of the Registrar General, India",
+    "source_class": ["government", "census", "language_atlas", "map"],
+    "scope": "Historical 1991 Census geographical distribution and speaker counts for Munda and Mundari; non-Mundarica source.",
+    "discovery_manifestation": "https://ruralindiaonline.org/media/documents/Language_Atlas_of_India_1991.pdf"
+  },
+  "verified_locator": {
+    "map": "Map 54",
+    "heading": "Distribution of Monpa, Munda, Mundari and Nicobarese Languages 1991",
+    "content_verified_from_indexed_full_text": true,
+    "notes": "Indexed full text explicitly states 413,894 Munda speakers and 861,378 Mundari speakers in the 1991 Census, gives state/district distributions, and distinguishes the two census labels. These are historical Census classifications and must not be silently collapsed into current community identity or current language classification."
+  },
+  "canonicalization": {
+    "repository_exact_phrase_search_before_creation": "no existing Language Atlas 1991 record returned",
+    "manifestation_rule": "digitized copies, catalogue records, excerpts and citations of this atlas are manifestations/derivatives of one canonical government work, not independent corroborating sources"
+  },
+  "rights_access_governance": {
+    "publicly_discoverable": true,
+    "binary_ingested": false,
+    "redistribution_permission_verified": false,
+    "cultural_uncertainty_preserved": true,
+    "historical_administrative_geography_warning": true,
+    "census_label_warning": "Munda and Mundari are separate enumerated labels in this historical source; MLHKP must preserve the source labels and must not infer equivalence, ethnicity, self-identification, or present-day classification from the atlas alone."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "state": "exact-locator conversion candidate",
+    "requirements_before_controlled_promotion": [
+      "verify authoritative Census manifestation and publication metadata",
+      "hash lawful local manifestation if obtained",
+      "establish print-to-PDF pagination concordance",
+      "capture exact map/page/table locator for each proposition",
+      "preserve 1991 administrative geography and Census category semantics",
+      "separate primary Census evidence from later reproductions",
+      "verify file-level reuse/redistribution rights"
+    ]
+  },
+  "fabrication_guard": "No cultural claim, present-day demographic claim, community validation, rights permission, or controlled count is inferred by this audit."
+}

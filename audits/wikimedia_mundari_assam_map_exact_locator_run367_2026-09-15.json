@@ -1,0 +1,38 @@
+{
+  "run": 367,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "source_class": "maps_and_relevant_media",
+  "provider": "Wikimedia Commons",
+  "title": "Mundari language distribution - Assam.svg",
+  "provider_url": "https://commons.wikimedia.org/wiki/File:Mundari_language_distribution_-_Assam.svg",
+  "manifestation": {
+    "format": "SVG",
+    "nominal_dimensions": "1414 x 978 pixels",
+    "reported_file_size": "471 KB",
+    "provider_date": "2024-06-28",
+    "author": "MaxA-Matrix"
+  },
+  "provider_description": "Distribution of Mundari (including Munda) language in Assam, 2011 census",
+  "declared_data_source": "C-16: Population by mother tongue, Assam - 2011; Office of the Registrar General & Census Commissioner, India",
+  "license": "CC BY-SA 4.0",
+  "promotion_state": "exact_provider_manifestation_locator_and_license_only",
+  "permitted_evidence": [
+    "provider identity",
+    "exact file title",
+    "manifestation format/dimensions/reported size",
+    "provider date and author",
+    "provider-declared licence",
+    "provider-declared upstream Census C-16 source genealogy"
+  ],
+  "not_promoted": [
+    "district-level Mundari speaker counts",
+    "map-derived demographic values",
+    "geographic or cultural claims inferred from the map",
+    "independent verification of the underlying C-16 workbook",
+    "independent verification of district boundaries or plotted values"
+  ],
+  "governance_boundary": "An openly licensed derivative map may be recorded as an exact manifestation and provenance lead, but its plotted or captioned demographic content is not primary Census evidence until the cited C-16 source is independently materialized and verified at workbook/sheet/row/cell level.",
+  "count_effect": "none",
+  "claim_effect": "none"
+}

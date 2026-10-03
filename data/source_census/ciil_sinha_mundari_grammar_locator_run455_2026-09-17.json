@@ -1,0 +1,63 @@
+{
+  "run": 455,
+  "date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages",
+    "series": "CIIL Grammar Series",
+    "volume": "2",
+    "language": ["English", "Mundari"],
+    "persistent_id": "https://hdl.handle.net/20.500.14705/8179"
+  },
+  "verified_manifestations": [
+    {
+      "provider": "Bhasha Sanchika — CIIL Repository",
+      "url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "reported_file": "CIILP0091.pdf",
+      "access_note": "Repository metadata exposes a PDF file record; immutable permitted bytes and file-level rights were not established in this run."
+    },
+    {
+      "provider": "Bharatavani / CIIL",
+      "url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "reported_pdf_size": "117.39 MB",
+      "access_note": "Login to Read; treat as access-gated manifestation, not a second source identity."
+    },
+    {
+      "provider": "WALS Online",
+      "url": "https://wals.info/refdb/record/Sinha-1975",
+      "access_note": "Bibliographic/reference manifestation only; WALS datapoints must not be treated as independent primary evidence from Sinha 1975."
+    }
+  ],
+  "scope": ["grammar", "pedagogical grammar", "morphology", "syntax", "phonology/phonetics metadata", "linguistic typology dependency"],
+  "identity_status": "verified",
+  "deduplication": {
+    "canonicalization_rule": "CIIL repository, Bharatavani, WALS and any catalogue/scan manifestations resolve to one 1975 Sinha work unless edition-level evidence proves otherwise.",
+    "independence_warning": "Downstream WALS typological datapoints citing Sinha 1975 are source-dependent and cannot count as independent corroboration."
+  },
+  "rights_access": {
+    "status": "unresolved_for_evidence_redistribution",
+    "notes": "Public metadata and discoverability do not establish permission to redistribute the underlying grammar text. Bharatavani is login-gated. Item/file-level licence must be verified before ingesting text beyond permitted factual metadata/locators."
+  },
+  "cultural_uncertainty": {
+    "status": "preserve",
+    "notes": "A grammar is linguistic evidence, not automatic authority for cultural propositions. Any culturally sensitive example material requires passage-level context and provenance review."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No immutable rights-cleared source bytes, page concordance, or exact passage locator established in this run."
+  },
+  "next_gates": [
+    "verify item/file-level licence and lawful access",
+    "obtain permitted immutable bytes and SHA-256",
+    "establish PDF-to-printed-page concordance",
+    "extract only exact-locator supported linguistic evidence",
+    "trace examples/elicitation provenance where stated",
+    "retain cultural/consent uncertainty where provenance is insufficient"
+  ],
+  "web_verification_date": "2026-09-17",
+  "count_policy": "Do not change controlled MMSC counts from this locator alone; reconcile deterministically through the authoritative search ledger first."
+}

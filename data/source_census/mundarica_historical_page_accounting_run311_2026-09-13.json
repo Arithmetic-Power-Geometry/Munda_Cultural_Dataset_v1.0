@@ -1,0 +1,59 @@
+{
+  "run": 311,
+  "date": "2026-09-13",
+  "scope": "Mundarica historical manifestation and printed-page accounting",
+  "series": "Encyclopaedia Mundarica",
+  "findings": [
+    {
+      "volumes": "I-IV",
+      "letters": "A-D",
+      "publication_year": 1930,
+      "publisher": "Superintendent Government Printing, Bihar and Orissa, Patna",
+      "reported_pagination": "v + 1271",
+      "source_type": "contemporaneous scholarly notice",
+      "source": "Journal of the Royal Asiatic Society, Volume 64, Issue 1, January 1932, pp. 180-189",
+      "doi": "10.1017/S0035869X00111566",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/encyclopaedia-mundarica-by-revjohn-hoffmann-s-j-in-collaboration-with-revarthur-v-emelen-s-j-assisted-by-the-jesuit-missionaries-mentioned-in-the-preface-volumes-i-to-iv-letters-a-to-d-pp-v-1271-patna-bihar-and-orissa-superintendent-government-printing-1930-price-rs-6-or-12s-per-volume-to-subscribers-to-the-whole-work-which-will-consist-of-about-15-volumes/7ECF7DF37089CCE0D3733922FD3E0785"
+    },
+    {
+      "volumes": "VIII-X",
+      "letters": "K, L, M, N, O",
+      "publication_years": "1933-1934",
+      "publisher": "Superintendent Government Printing, Bihar and Orissa, Patna",
+      "reported_pagination": "2147-3173",
+      "source_type": "contemporaneous scholarly review",
+      "source": "Journal of the Royal Asiatic Society, Volume 69, Issue 3, July 1937, pp. 508-509",
+      "doi": "10.1017/S0035869X00086135",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/encyclopaedia-mundarica-by-revjohn-hoffmann-sj-in-collaboration-with-rev-arthur-van-emelen-vols-viiix-10-7-pp-21473173-letters-k-l-m-n-and-o-patna-supdt-govt-printing-bihar-and-orissa-19331934-rs-6-for-each-volume/90FA5FFBE1D629281D508F0FE8B2CDAA"
+    }
+  ],
+  "verification": {
+    "bibliographic_identity_verified": true,
+    "historical_printed_page_ranges_supported": true,
+    "per_volume_split_inferred": false,
+    "primary_scan_bytes_acquired": false,
+    "independent_sha256_computed": false,
+    "scan_image_page_concordance_verified": false,
+    "ocr_verified": false,
+    "complete_volume_verified": false
+  },
+  "evidence_promotion": {
+    "level": "bibliographic/page-accounting locator only",
+    "new_controlled_cultural_claims": 0,
+    "new_evidence_records": 0,
+    "new_provenance_links": 0,
+    "count_neutral": true
+  },
+  "governance": {
+    "historical_pagination_not_treated_as_scan_completeness": true,
+    "bibliographic_notice_not_treated_as reuse_permission": true,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "open_gaps": [
+    "Acquire permitted primary bytes for each individual volume and compute independent hashes.",
+    "Establish individual-volume printed-page boundaries without guessing from grouped ranges.",
+    "Map historical printed pages to scan-image indices.",
+    "Run OCR only on permitted acquired bytes and retain page-level verification state."
+  ]
+}

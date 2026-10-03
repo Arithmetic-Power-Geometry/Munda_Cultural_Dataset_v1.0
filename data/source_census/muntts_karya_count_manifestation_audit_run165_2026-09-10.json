@@ -1,0 +1,59 @@
+{
+  "record_type": "dataset_paper_manifestation_discrepancy_audit",
+  "stream": "datasets_audio_computational_linguistics",
+  "run": 165,
+  "checked_utc": "2026-09-10T12:43:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "Source-reported recording-count and manifestation provenance only; no participant audio or transcript ingestion",
+  "paper_manifestation": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "canonical_locator": "https://aclanthology.org/2024.computel-1.11/",
+    "proceedings_locator": "https://aclanthology.org/2024.computel-1.pdf",
+    "reported_unique_sentences": 15656,
+    "reported_audio_recordings": 26868,
+    "reported_hours": 27.51,
+    "publication_pages": "76-82",
+    "statement_boundary": "Counts are paper-reported study/corpus figures."
+  },
+  "karya_repository_manifestation": {
+    "repository": "https://github.com/karya-inc/dataset-mundari-tts",
+    "reported_audio_recordings": 26870,
+    "reported_speakers": 2,
+    "reported_female_recordings": 19868,
+    "reported_male_recordings": 7002,
+    "arithmetic_check": "19868 + 7002 = 26870",
+    "full_dataset_archive_name": "dataset-mundari-tts-full.tgz",
+    "repository_provided_sha1": "46c8bfceb5cf25decc8523479378793537f2bad7",
+    "sha1_locator": "dataset-mundari-tts-full.sha1",
+    "full_archive_locally_acquired": false,
+    "sha1_independently_recomputed": false,
+    "license_as_repository_reports": "Karya Public License BY-NC-SA-FS 1.0, non-commercial",
+    "repository_sample_reported": "100 recordings from each speaker"
+  },
+  "discrepancy": {
+    "paper_count": 26868,
+    "repository_count": 26870,
+    "absolute_difference": 2,
+    "status": "documented_unreconciled_manifestation_or_version_difference",
+    "interpretation_not_permitted": "Do not label either source erroneous and do not silently normalize the counts until an authoritative version/curation explanation is verified."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "repository_public": true,
+    "license_terms_observed": true,
+    "full_dataset_download_permission_assumed": false,
+    "speaker_secondary_use_consent_verified": false,
+    "transcript_secondary_use_consent_verified": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "audio_or_transcript_ingested": false,
+    "repository_hash_treated_as_independently_verified": false
+  },
+  "permitted_evidence": {
+    "statement": "The 2024 MunTTS paper reports 26,868 recordings, while the current Karya dataset repository reports 26,870 and provides a repository SHA1 for the full archive; the two-count difference is retained explicitly rather than silently reconciled.",
+    "evidence_type": "cross_manifestation_metadata_audit",
+    "use_constraint": "Attribute each count to its respective manifestation. The repository-provided SHA1 is provenance metadata, not an MLHKP-computed checksum."
+  },
+  "counts_changed": false,
+  "cultural_claims_added": 0,
+  "release_value": "Turns a release blocker into an explicit, exact-locator version/manifestation discrepancy record and prevents accidental count conflation while participant and cultural-access gates remain closed."
+}

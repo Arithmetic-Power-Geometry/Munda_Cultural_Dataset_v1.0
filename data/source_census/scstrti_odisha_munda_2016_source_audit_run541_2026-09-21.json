@@ -1,0 +1,65 @@
+{
+  "audit_run": 541,
+  "audit_date": "2026-09-21",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "title": "Munda",
+    "date": 2016,
+    "provider": "SC/ST Research & Training Institute, Odisha",
+    "repository_provider": "Ministry of Tribal Affairs, Government of India",
+    "record_id": "SCST/2016/0054",
+    "isbn": "978-93-80705-54-5",
+    "pagination": 32,
+    "stable_locator": "https://repository.tribal.gov.in/handle/123456789/73853"
+  },
+  "source_class": ["government", "TRI", "book", "ethnographic overview", "relevant media"],
+  "scope": {
+    "community": "Munda",
+    "geography": "Odisha, India",
+    "language_reference": "Mundari",
+    "provider_description_scope": "graphic documentation / overall impression of Munda tribe of Odisha"
+  },
+  "identity_verification": {
+    "status": "provider-verified catalogue identity",
+    "authority": "Government of India Ministry of Tribal Affairs repository record",
+    "verified_metadata": ["title", "TRI provider", "record ID", "ISBN", "pagination", "repository handle"],
+    "notes": "Treat repository record, any downloadable manifestation, catalogue mirrors, and citations as representations of one work identity unless independent provenance establishes otherwise."
+  },
+  "exact_locator_state": {
+    "repository_record": "handle/123456789/73853",
+    "record_id": "SCST/2016/0054",
+    "pagination": 32,
+    "passage_level_locators_verified": false,
+    "manifestation_hash_verified": false
+  },
+  "rights_access_consent_cultural_state": {
+    "public_repository_visibility": true,
+    "redistribution_permission_verified": false,
+    "manifestation_specific_license_verified": false,
+    "participant_reuse_consent_verified": false,
+    "image_subject_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "rule": "Public government-repository access does not by itself establish redistribution permission, reusable participant/image consent, or unrestricted cultural access."
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Exact page/passage verification, immutable manifestation hash, rights/license determination, dependency audit, participant/image consent and cultural-access review are incomplete."
+  },
+  "deduplication": {
+    "canonical_key": "SCSTRTI_ODISHA|MUNDA|2016|SCST-2016-0054|9789380705545",
+    "independent_corroboration_rule": "Repository/catalogue/download manifestations of this title are not independent corroborating sources."
+  },
+  "gaps": [
+    "lawful immutable manifestation capture",
+    "SHA-256",
+    "printed/PDF page concordance",
+    "exact proposition/page locators",
+    "manifestation-specific redistribution rights",
+    "dependency/provenance audit",
+    "participant and depicted-person reuse consent",
+    "cultural-access/sensitivity review"
+  ],
+  "audit_conclusion": "Promoted from discovery lead to canonical provider-verified source audit with stable record-level locator; no cultural proposition promoted."
+}

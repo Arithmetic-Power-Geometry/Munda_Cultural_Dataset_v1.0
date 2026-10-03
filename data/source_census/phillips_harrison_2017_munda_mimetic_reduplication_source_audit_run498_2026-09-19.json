@@ -1,0 +1,60 @@
+{
+  "run": 498,
+  "audit_date": "2026-09-19",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_work": {
+    "title": "Munda mimetic reduplication",
+    "authors": ["Jacob B. Phillips", "K. David Harrison"],
+    "year": 2017,
+    "journal": "Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13",
+    "document_class": "peer-reviewed journal article"
+  },
+  "identity_verification": {
+    "publisher_record": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58",
+    "institutional_record": "https://works.swarthmore.edu/fac-linguistics/223/",
+    "publisher_publication_date": "2017-03-06",
+    "institutional_record_publication_date": "2017-06-01"
+  },
+  "scope": {
+    "languages_explicitly_named_by_source": ["Ho", "Kera Mundari", "Kharia", "Mundari", "Remo (Bondo)", "Santali", "Sora (Savara)"],
+    "mundari_relevance": "direct but comparative; item-level language attribution required",
+    "topics": ["mimetic reduplication", "sound symbolism", "syntactic class", "semantic domain", "phonological form"]
+  },
+  "canonicalization": {
+    "repository_precheck": "No repository code-search match for 'Phillips Harrison mimetic reduplication' before this audit.",
+    "dedup_rule": "Cambridge publisher record, Swarthmore institutional record, DOI manifestations, indexing records and lawful copies are manifestations of one 2017 article, not independent sources.",
+    "independence_rule": "Comparative claims and examples must not be promoted as Mundari evidence unless the exact passage/table/example explicitly attributes them to Mundari or Kera Mundari as appropriate. Kera Mundari must not be silently collapsed into generic Mundari."
+  },
+  "rights_access_consent": {
+    "publisher_abstract_publicly_accessible": true,
+    "institutional_metadata_publicly_accessible": true,
+    "full_text_reuse_or_redistribution_permission_verified_for_mlhkp": false,
+    "participant_or_consultant_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "policy": "Public metadata/abstract access is not treated as permission to redistribute full text or underlying elicited/community material."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Exact permitted full-text manifestation, immutable bytes/checksum, page/example locators, item-level language attribution, provenance/dependency and applicable consent/cultural-access gates are not yet jointly verified."
+  },
+  "ingestion_target": {
+    "locator_template": "<permitted-immutable-file>#printed-page=<n>;pdf-page=<n>;section=<heading>;example-or-table=<id>;language=<Mundari|Kera-Mundari>;sha256=<hash>;dependency=<independent|secondary|mixed>",
+    "required_gates": [
+      "lawful reusable full-text manifestation or sufficiently reusable exact passage basis",
+      "immutable bytes and SHA-256",
+      "PDF-to-printed-page concordance",
+      "exact passage/table/example locator",
+      "Mundari versus Kera Mundari attribution",
+      "example/data provenance and dependency classification",
+      "participant/consultant consent where applicable",
+      "cultural-access review where applicable"
+    ]
+  },
+  "controlled_count_effect": "none pending deterministic reconciliation against WEB-MUN ledger",
+  "audit_principle": "Discovery is not evidence promotion; comparative Munda evidence is not automatically Mundari evidence."
+}

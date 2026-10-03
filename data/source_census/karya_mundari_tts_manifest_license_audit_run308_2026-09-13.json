@@ -1,0 +1,82 @@
+{
+  "run": 308,
+  "date_utc": "2026-09-13",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["dataset", "audio"],
+  "canonical_source": {
+    "title": "Mundari TTS Dataset Corpus",
+    "repository": "karya-inc/dataset-mundari-tts",
+    "repository_url": "https://github.com/karya-inc/dataset-mundari-tts",
+    "creators_as_declared": [
+      "Microsoft Research India",
+      "Indian Institute of Technology Kharagpur",
+      "Karya"
+    ],
+    "collaboration_as_declared": "FAIR Forward – Artificial Intelligence for all; implemented by GIZ on behalf of BMZ",
+    "copyright_notice": "© 2023 DAIA Tech Pvt Ltd.",
+    "license_name": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+    "license_short": "KPL BY-NC-SA-FS 1.0"
+  },
+  "first_party_exact_locators": {
+    "readme": "README.md",
+    "license": "LICENSE.txt",
+    "copyright": "COPYRIGHT.txt",
+    "sample_archive": "data-sample.tgz",
+    "full_archive_declared_filename": "dataset-mundari-tts-full.tgz",
+    "full_archive_checksum_manifest": "dataset-mundari-tts-full.sha1",
+    "publisher_declared_sha1": "46c8bfceb5cf25decc8523479378793537f2bad7"
+  },
+  "publisher_declared_corpus_metadata": {
+    "utterances": 26870,
+    "speakers": 2,
+    "speaker_breakdown": {
+      "female": 19868,
+      "male": 7002
+    },
+    "audio_format": "32-bit PCM",
+    "sampling_rate_hz": 44100,
+    "approx_uncompressed_size_gb": 17,
+    "approx_compressed_size_gb": 7,
+    "repository_sample_recordings_per_speaker": 100,
+    "transcript_statement": "README declares a corresponding Mundari-script transcript for each audio file."
+  },
+  "license_boundary": {
+    "verified_from_repository_license_text": true,
+    "copyright_and_similar_rights_grant": "NonCommercial reproduction/sharing, adaptation and incorporation subject to license conditions.",
+    "software_condition": "The repository summary states that software systems incorporating the material must be licensed under the GNU General Public License.",
+    "privacy_publicity_moral_rights_not_equated_with_license": true,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "commercial_permission_inferred": false
+  },
+  "verification_boundary": {
+    "repository_metadata_verified": true,
+    "license_text_locator_verified": true,
+    "copyright_notice_verified": true,
+    "publisher_sha1_manifest_verified_as_a_locator": true,
+    "full_archive_bytes_independently_acquired": false,
+    "full_archive_sha1_independently_recomputed": false,
+    "sample_audio_or_transcript_content_promoted": false,
+    "participant_identity_promoted": false,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "controlled_provenance_links_promoted": 0
+  },
+  "deduplication_and_counting": {
+    "canonicalization_key": "karya-inc/dataset-mundari-tts|Mundari TTS Dataset Corpus",
+    "numbered_web_mun_reconciliation_complete": false,
+    "count_effect": "count-neutral until deterministic reconciliation with the numbered WEB-MUN/source register is proven",
+    "new_audited_source_identity_counted": false
+  },
+  "open_gaps": [
+    "Deterministically reconcile this repository against the numbered WEB-MUN/source register.",
+    "Acquire the full archive only through a permitted route if needed for the audited release.",
+    "Independently recompute the full-archive SHA-1 before treating the publisher-declared digest as byte verification.",
+    "Review participant consent, privacy/publicity, community validation and cultural-access constraints before any participant-derived audio or transcript promotion.",
+    "Keep commercial-use prohibition and ShareAlike/FreeSoftware conditions visible in downstream reuse decisions."
+  ],
+  "promotion_decision": "PROMOTE_EXACT_MANIFEST_LICENSE_LOCATOR_ONLY",
+  "release_gate_effect": "Does not pass the audited-release gate by itself; it narrows a dataset/audio gap without asserting consent or independent byte verification."
+}

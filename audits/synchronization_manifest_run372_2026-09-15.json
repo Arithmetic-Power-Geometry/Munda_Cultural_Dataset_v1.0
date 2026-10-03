@@ -1,0 +1,56 @@
+{
+  "run": 372,
+  "synchronized_utc": "2026-09-14T23:38:00Z",
+  "branch": "mlhkp-v2",
+  "work_commits": {
+    "phoible_raw_mapping_crosscheck": "9fff33603764e1e5b4a82438458a53b78aa7f39d",
+    "phoible_boundary_test": "47b97064be605c4c8acbeacc6d4862509cadb828"
+  },
+  "parallel_stream_status": {
+    "mundarica_i_xvi": "no new primary bytes or verified OCR promoted; per-volume states unchanged",
+    "mmsc": "controlled counts unchanged; no new identity promoted in this cycle",
+    "evidence_pipeline": "no new controlled factual claim promoted; provenance counts unchanged",
+    "ontology_entities_graph": "schema-category representation remains 100 percent",
+    "streamlit": "42/42 mapped; universal search, evidence drilldown, reports/downloads and owner console unchanged",
+    "rights_governance": "cultural access continues to override entitlement; PHOIBLE provider/raw visibility does not confer underlying-source rights or community validation",
+    "publication": "Q1-target manuscript metrics unchanged; numeric rebuild not required because controlled counts did not change"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_registered_modules": 42
+  },
+  "metric_change": false,
+  "streamlit_change_required": false,
+  "evidence_graph_change_required": false,
+  "publication_tables_figures_change_required": false,
+  "publication_reason": "Run 372 narrows PHOIBLE raw mapping provenance and preserves the Inventory 1713 Bhumij/mund1320 coding conflict without promoting segment-level evidence.",
+  "new_governance_invariant": "A provider raw mapping that assigns glottocode mund1320/ISO unr to an inventory labelled Bhumij must retain that conflict explicitly; it may not be silently normalized into a Mundari phonological claim.",
+  "previous_final_head_ci": {
+    "head": "70c1e7d0aa8a6bfe3b147294c31c6c4291aeb0de",
+    "migration_audit": "success",
+    "source_register_audit": "success",
+    "streamlit_smoke_test": "success",
+    "publication_build": "success"
+  },
+  "release_gate": "NOT_PASS",
+  "remaining_priority_gaps": [
+    "73 deterministic WEB-MUN dispositions",
+    "PHOIBLE segment-row materialization/hash/recount and inventory-to-source passage verification",
+    "Mundarica I-XVI authoritative byte/hash/page/OCR verification and XIV-XVI concordance",
+    "Census ST-15/ST-16/C-16 workbook byte/hash/sheet/row/cell verification",
+    "LSI Jharkhand and Administrative Atlas materialization/page verification",
+    "SCSTRTI handbook binary/hash/page and item-level rights review",
+    "Bhaduri/Sinha/CIIL manifestation verification",
+    "ASJP/Grambank/WALS underlying-source trace-back",
+    "ELAR/PARADISEC/TLA package resolution",
+    "audiovisual rights/consent/community/cultural-access closure"
+  ]
+}

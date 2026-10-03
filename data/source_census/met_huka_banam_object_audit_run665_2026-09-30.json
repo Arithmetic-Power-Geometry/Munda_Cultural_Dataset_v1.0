@@ -1,0 +1,90 @@
+{
+  "run": 665,
+  "audited_at_utc": "2026-09-30T16:45:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "museum_object_musical_instrument",
+  "source_identity": {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Santal or Munda Fiddle (Huka Banam)",
+    "object_number": "2022.299",
+    "date": "19th century",
+    "geography": "Eastern India, possibly Jharkhand",
+    "medium": "Wood and hide",
+    "dimensions": "H 22 in x W 5 in x D 3 in",
+    "classification": "Musical instruments",
+    "credit_line": "Purchase, Amati Gifts, 2022",
+    "canonical_url": "https://www.metmuseum.org/art/collection/search/883315"
+  },
+  "identity_verification": {
+    "status": "institutional_catalog_verified",
+    "verified_fields": [
+      "title",
+      "object number",
+      "date",
+      "geography",
+      "medium",
+      "dimensions",
+      "classification",
+      "credit line",
+      "rights"
+    ],
+    "attribution_uncertainty": "Institutional title itself is disjunctive: Santal or Munda. Do not resolve ethnicity beyond the catalogue.",
+    "geographic_uncertainty": "Institutional record says Eastern India, probably Jharkhand. Do not narrow locality."
+  },
+  "exact_locator": {
+    "type": "institutional_object_record",
+    "locator": "The Met collection object 2022.299 / collection search 883315",
+    "proposition_boundary": "Object-level catalogue metadata only; no cultural proposition promoted."
+  },
+  "rights_access": {
+    "catalog_access": "public",
+    "copyright": "Public Domain",
+    "met_open_access_note": "The Met states that Open Access data and public-domain images are available for unrestricted commercial and noncommercial use without permission or fee.",
+    "cultural_access": "unreviewed",
+    "consent": "not_applicable_or_unknown_for_historical_object_provenance; public-domain copyright status does not resolve cultural governance",
+    "exposure_decision": "Do not expose as specifically Munda cultural evidence until attribution uncertainty and cultural-sensitivity review are resolved."
+  },
+  "dedup_checks": [
+    {
+      "query": "883315",
+      "indexed_matches": 0,
+      "incomplete_results": true
+    },
+    {
+      "query": "Santal or Munda Fiddle",
+      "indexed_matches": 0,
+      "incomplete_results": true
+    },
+    {
+      "query": "huka banam",
+      "indexed_matches": 0,
+      "incomplete_results": true
+    },
+    {
+      "query": "Metropolitan Museum",
+      "indexed_matches": 0,
+      "incomplete_results": true
+    }
+  ],
+  "scope_classification": {
+    "relevance": "candidate material-culture / musical-instrument source",
+    "ethnicity_scope": "Santal OR Munda; unresolved",
+    "geography_scope": "Eastern India; probably Jharkhand",
+    "temporal_scope": "19th century",
+    "promotion_status": "audit_only_pending_reconciliation"
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "blockers": [
+    "Direct MMSC/WEB-MUN reconciliation required before controlled identity assignment.",
+    "Disjunctive Santal-or-Munda catalogue attribution must remain unresolved; no Munda-only claim may be inferred.",
+    "Cultural-sensitivity/governance review required before image/object exposure as MLHKP evidence.",
+    "If an image manifestation is ingested, capture exact image identifier, byte size and checksum separately."
+  ],
+  "release_effect": "No controlled metric change; adds a rights-clear but attribution-uncertain museum-object audit candidate."
+}

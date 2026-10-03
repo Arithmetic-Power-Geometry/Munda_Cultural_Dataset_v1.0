@@ -1,0 +1,49 @@
+{
+  "run": 339,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "purpose": "Record additional provider-level Mundarica manifestations while preserving the distinction between provider metadata/OCR availability and independent scan/OCR verification.",
+  "records": [
+    {
+      "volume": "X",
+      "provider": "Internet Archive / Digital Library of India",
+      "identifier": "dli.bengal.10689.20997",
+      "title_observed": "ENCYCLOPAEDIA MUNDARICA VOL. 10",
+      "author_observed": "HOFFMANN, JOHN",
+      "publication_date_observed": 1950,
+      "publisher_observed": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "source_observed": "West Bengal Public Library Network / KRISHNANAGAR PUBLIC LIBRARY",
+      "scanning_centre_observed": "C-DAC KOLKATA",
+      "provider_totalpages": 288,
+      "provider_item_size": "146.6M",
+      "provider_ocr_engine": "ABBYY FineReader 11.0 (Extended OCR)",
+      "provider_download_options_include": ["ABBYY GZ", "FULL TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"],
+      "verification_state": "provider_manifestation_and_metadata_verified; primary bytes/hash/page-image concordance/printed-page mapping/OCR accuracy not independently verified",
+      "counts_as_authoritative_registered_scan": false,
+      "counts_as_verified_complete_volume": false,
+      "counts_as_verified_ocr_pages": 0,
+      "promotion_scope": "provider manifestation identity and provider metadata only"
+    },
+    {
+      "volume": "XIII",
+      "provider": "Internet Archive / Digital Library of India",
+      "identifier": "dli.ernet.14932",
+      "title_observed": "Encyclopedia Mundarica Vol-xiii",
+      "publication_date_observed": 1941,
+      "verification_state": "provider_manifestation_identity_verified; detailed independent byte/hash/page/OCR verification pending",
+      "counts_as_authoritative_registered_scan": false,
+      "counts_as_verified_complete_volume": false,
+      "counts_as_verified_ocr_pages": 0,
+      "promotion_scope": "provider manifestation identity only"
+    }
+  ],
+  "aggregate_controlled_state": {
+    "authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0
+  },
+  "governance_rule": "Provider availability and provider-generated OCR do not establish cultural-access authorization, independent OCR verification, or permission to promote cultural facts.",
+  "cultural_claims_promoted": 0,
+  "linguistic_claims_promoted": 0,
+  "false_ocr_verification_claimed": false
+}

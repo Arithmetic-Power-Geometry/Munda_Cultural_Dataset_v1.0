@@ -1,0 +1,68 @@
+{
+  "run": 405,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["grammar", "institutional_repository", "book"],
+  "canonical_identity": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+    "language": ["English", "Mundari"],
+    "handle": "https://hdl.handle.net/20.500.14705/8179"
+  },
+  "verified_manifestations": [
+    {
+      "provider": "Bhasha Sanchika — CIIL Repository",
+      "item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "reported_file": "CIILP0091.pdf",
+      "access_note": "Repository item page publicly exposes metadata and a PDF file locator. Full bytes and immutable hash were not established in this run."
+    },
+    {
+      "provider": "Bharatavani",
+      "item_url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "reported_pdf_size": "117.39 MB",
+      "access_note": "Catalogue page says Login to Read; treat as a manifestation/access locator, not a second work identity."
+    }
+  ],
+  "identity_verification": {
+    "status": "verified_at_metadata_level",
+    "evidence": [
+      "CIIL repository citation: Sinha, N. (1975). Mundari Grammar.",
+      "CIIL item gives publication year 1975 and handle 20.500.14705/8179.",
+      "Bharatavani independently reports N. K. Sinha, 1975, Grammar, and CIIL as content partner/publisher."
+    ]
+  },
+  "scope": {
+    "mundari_relevance": "direct",
+    "description": "Pedagogical Mundari grammar organized by grammatical functions; repository description identifies noun morphology, verb morphology, adjectives/adverbs, and syntax."
+  },
+  "deduplication": {
+    "rule": "CIIL repository item, Bharatavani catalogue/read manifestation, mirrors, and later file URLs are one 1975 work unless edition-level evidence proves otherwise.",
+    "repository_exact_title_search_before_ingestion": "No matching Sinha Mundari Grammar record returned by connector code search."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "rights": "unresolved_for_text_reuse_and_redistribution",
+    "access": "metadata public; CIIL exposes a file locator; Bharatavani reports login-to-read",
+    "consent": "historical/source-data participant provenance and consent not established in this run",
+    "cultural_access": "unresolved; do not infer community permission from institutional availability"
+  },
+  "evidence_promotion": {
+    "metadata_locator_promoted": true,
+    "passage_or_grammatical_claims_promoted": false,
+    "reason": "Exact page mapping, immutable PDF bytes/SHA-256, manifestation-level reuse terms, and source-data provenance require audit before claim-level ingestion."
+  },
+  "required_next_steps": [
+    "Obtain a permitted authoritative full-text manifestation and compute SHA-256.",
+    "Resolve the CIIL reported-file-size anomaly against Bharatavani's 117.39 MB manifestation and determine whether the CIIL page exposes a metadata stub, derivative, or full object.",
+    "Map PDF pages to printed pages/sections deterministically.",
+    "Verify manifestation-level license/reuse terms.",
+    "Audit acknowledgements/preface for informant, elicitation, dialect/location, consent and culturally restricted material.",
+    "Only then create exact-page evidence records for supported propositions."
+  ],
+  "controlled_counts": {
+    "changed": false,
+    "reason": "Do not increment MMSC/WEB-MUN controlled totals until deterministic reconciliation against the existing canonical census is completed."
+  },
+  "release_gate_effect": "gap_reduced_by_exact_locator_but_NOT_PASS_unchanged"
+}

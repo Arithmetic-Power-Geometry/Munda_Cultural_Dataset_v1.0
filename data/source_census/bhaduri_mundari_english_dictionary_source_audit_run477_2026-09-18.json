@@ -1,0 +1,57 @@
+{
+  "run": 477,
+  "audit_date": "2026-09-18",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_source": {
+    "title": "A Mundari-English dictionary",
+    "author": "Manindra Bhusan Bhaduri",
+    "original_year": 1931,
+    "original_publisher": "Calcutta University Press",
+    "reprint_year": 1983,
+    "reprint_publisher": "Northern Book Centre",
+    "reprint_place": "New Delhi",
+    "pagination_reported": "xv, 228, ii p.",
+    "lccn": "84901705",
+    "openlibrary_work_id": "OL5467157W",
+    "openlibrary_edition_id": "OL3008123M",
+    "classification": "dictionary / lexical source"
+  },
+  "verification": {
+    "source": "Open Library record derived from Library of Congress MARC and Internet Archive records",
+    "url": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+    "metadata_verified": true,
+    "full_text_verified_in_this_run": false
+  },
+  "canonicalization": {
+    "decision": "1931 original and 1983 reprint are manifestations/editions of one underlying dictionary work unless collation proves substantive revision",
+    "do_not_double_count": ["Open Library catalogue", "Library of Congress MARC", "Internet Archive item record", "1983 reprint metadata"],
+    "independent_evidence_status": "not established"
+  },
+  "rights_access": {
+    "catalogue_access": "public metadata",
+    "full_text_access_observed": "preview/locate only in verified catalogue result",
+    "redistribution_permission": "not established",
+    "promotion_policy": "do not ingest copyrighted/reprint text without item-level lawful reuse basis"
+  },
+  "scope": {
+    "in_scope": true,
+    "reason": "direct Mundari-English lexical source",
+    "cultural_claim_status": "none promoted"
+  },
+  "exact_locator_plan": "<permitted-edition-file>#printed-page=<p>;entry=<headword>;sha256=<permitted-file-hash>",
+  "promotion": {
+    "evidence_records_added": 0,
+    "claims_added": 0,
+    "reason": "no permitted immutable full text and exact entry locator verified in this run"
+  },
+  "gaps": [
+    "obtain lawful immutable 1931 or otherwise permitted edition bytes",
+    "compute SHA-256",
+    "establish printed/PDF page concordance",
+    "collate 1931 original against 1983 reprint before edition collapse at evidence level",
+    "extract only exact-locator lexical evidence permitted by rights",
+    "trace dependencies/borrowed entries where identifiable"
+  ],
+  "counting_rule": "bibliographic discovery is not a controlled evidence increment; counts remain unchanged until deterministic MMSC reconciliation"
+}

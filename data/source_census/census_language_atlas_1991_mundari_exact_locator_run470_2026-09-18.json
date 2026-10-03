@@ -1,0 +1,68 @@
+{
+  "run": 470,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government", "Census", "language atlas", "maps", "statistical tables"],
+  "canonical_source": {
+    "title": "Language Atlas of India 1991",
+    "series": "Census of India, 1991",
+    "issuing_body": "Office of the Registrar General & Census Commissioner, India",
+    "technical_direction": "R. P. Singh",
+    "general_direction": "Jayant Kumar Banthia",
+    "publisher": "Controller of Publications",
+    "publication_place": "Delhi",
+    "publication_year": 2004,
+    "extent": "xii, 247 p.; colour maps; 43 cm",
+    "scope_note": "Uses Census 1991 language data; 68 maps with analytical notes across general, language-family, scheduled/non-scheduled language, bilingualism/trilingualism, and Scheduled Tribe mother-tongue sections."
+  },
+  "identity_verification": [
+    {
+      "authority": "People's Archive of Rural India (PARI)",
+      "role": "public digital manifestation/metadata",
+      "locator": "Language Atlas of India 1991 resource page and linked PDF",
+      "notes": "Attributes the work to the Office of Registrar General and Census Commissioner; Government of India copyright; publication June 2004."
+    },
+    {
+      "authority": "CiNii Books",
+      "role": "independent bibliographic catalogue",
+      "identifier": "NCID BA70754440",
+      "notes": "Confirms title, directions, Census of India 1991 series, Controller of Publications, 2004, xii+247 pages."
+    },
+    {
+      "authority": "National Diet Library Search",
+      "role": "independent library catalogue",
+      "identifier": "NDLBibID 000007623754",
+      "call_number": "YP51-B74",
+      "notes": "Confirms issuing body, publication details, extent, maps and statistical tables."
+    }
+  ],
+  "mundari_locator": {
+    "status": "provider-PDF text located; printed/PDF page concordance not yet independently fixed",
+    "located_content": "Mundari analytical note reports Census-1991 speaker total and geographic distribution; adjacent Munda note is separately represented in the Atlas.",
+    "exact_locator_target": "Language_Atlas_of_India_1991.pdf#page=<verified-pdf-page>;printed_page=<verified-printed-page>;sha256=<permitted-file-hash>",
+    "promotion_state": "metadata/source audit only; no demographic or cultural proposition promoted in this run"
+  },
+  "deduplication": {
+    "canonicalization_rule": "PARI PDF/resource page, Census catalogue references, CiNii, NDL, library holdings and any mirrors are manifestations/catalogue records of one 2004 Atlas identity, not independent sources.",
+    "dependency_rule": "Secondary works quoting Census-1991 Mundari/Munda totals are dependent on the Census/Atlas and must not count as independent corroboration of those totals."
+  },
+  "rights_access_cultural_controls": {
+    "copyright_holder_reported": "Government of India",
+    "public_access": true,
+    "redistribution_permission_verified": false,
+    "immutable_permitted_bytes_sha256_verified": false,
+    "participant_consent_inferred": false,
+    "cultural_permission_inferred": false,
+    "note": "Public access and Government copyright do not establish unrestricted redistribution or cultural permission. Aggregate Census language statistics are not treated as participant-level consent."
+  },
+  "gaps": [
+    "verify lawful item-level reuse/redistribution basis",
+    "fix immutable permitted PDF bytes and SHA-256 if reuse permits",
+    "establish PDF-to-printed-page concordance for the Mundari and Munda analytical notes/maps",
+    "extract only exact-locator aggregate evidence after rights and concordance gates",
+    "reconcile this source deterministically against WEB-MUN/MMSC before controlled counts change"
+  ],
+  "claims_promoted": 0,
+  "evidence_records_promoted": 0,
+  "controlled_count_change": false
+}

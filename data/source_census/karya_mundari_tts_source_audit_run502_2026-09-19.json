@@ -1,0 +1,69 @@
+{
+  "run": 502,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_source_id": "KARYA-MUNDARI-TTS-2023",
+  "title": "Mundari TTS Dataset Corpus",
+  "source_class": ["dataset", "audio", "speech corpus", "relevant media"],
+  "language_scope": "Mundari (provider attribution; do not silently generalize dialect/variety beyond provider metadata)",
+  "creators_collaborators": ["Karya", "Microsoft Research India", "Indian Institute of Technology Kharagpur", "FAIR Forward / GIZ"],
+  "canonical_repository": "https://github.com/karya-inc/dataset-mundari-tts",
+  "immutable_upstream_commit": "ea515f4d034a37e41e5b8619e1df62de0c7ee830",
+  "immutable_tree": "1d622a7f2d9069deff29c20d0ca0349ceb805bf0",
+  "sample_archive": {
+    "path": "data-sample.tgz",
+    "git_blob_sha1": "63089f387e4fc6972117933d61e26233e3e28ae1",
+    "bytes": 64560322,
+    "provider_description": "100 female + 100 male sample recordings with corresponding transcript text files",
+    "local_sha256": null,
+    "state": "immutable Git object identified; binary not materialized by connector in Run502"
+  },
+  "full_archive": {
+    "provider_reported_recordings": 26870,
+    "provider_reported_female_recordings": 19868,
+    "provider_reported_male_recordings": 7002,
+    "provider_reported_audio_format": "32-bit PCM, 44.1 kHz",
+    "provider_reported_approx_uncompressed_size": "17 GB",
+    "provider_reported_approx_compressed_size": "7 GB",
+    "provider_supplied_sha1": "46c8bfceb5cf25decc8523479378793537f2bad7",
+    "provider_sha1_filename": "dataset-mundari-tts-full.tgz",
+    "full_archive_access": "provider says email data@karya.in for download link",
+    "local_count_verified": false,
+    "local_sha256": null
+  },
+  "license": {
+    "name": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+    "repository_license_blob": "ba4d2674108b11ac3530a7bbe8a7f0d5394a36e1",
+    "classification": "non-commercial licensed material; conditions apply",
+    "consent_inference": "NONE: copyright/database licensing must not be treated as proof of speaker consent, privacy/publicity permission, community authorization, or unrestricted cultural access"
+  },
+  "deduplication": {
+    "rule": "GitHub repository, sample archive, full archive, README, checksum manifest, mirrors, MunTTS paper/code references and individual audio/transcript records are manifestations/components of this corpus, not independent source identities unless independently sourced provenance is demonstrated",
+    "independent_source_count_added": 0,
+    "controlled_count_change": false,
+    "reason": "Runs381-502 require deterministic reconciliation against WEB-MUN before controlled counts change"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Binary sample was not materialized in this run; no locally computed SHA-256, deterministic member inventory, transcript/audio pairing audit, speaker/participant consent determination, or cultural-access classification is available.",
+    "next_exact_locator_template": "karya-inc/dataset-mundari-tts@ea515f4d034a37e41e5b8619e1df62de0c7ee830/data-sample.tgz#member=<path>;git-blob=63089f387e4fc6972117933d61e26233e3e28ae1;archive-sha256=<hash>;member-sha256=<hash>;speaker=<provider-label>;pair=<id>"
+  },
+  "governance_invariants": [
+    "audio_file_does_not_equal_independent_source",
+    "transcript_audio_pair_does_not_equal_cultural_claim",
+    "license_does_not_equal_speaker_consent",
+    "public_sample_does_not_equal_unrestricted_reuse",
+    "provider_reported_count_does_not_equal_locally_audited_count",
+    "tts_training_corpus_does_not_establish_cultural_representativeness"
+  ],
+  "blocked_or_unresolved": [
+    "GitHub text connector cannot materialize the 64,560,322-byte binary sample archive in this run",
+    "full archive requires provider-mediated access",
+    "speaker consent/privacy/publicity terms not established from repository metadata",
+    "dialect/variety representativeness beyond provider label not established",
+    "local SHA-256/member inventory/transcript-audio concordance pending",
+    "cultural sensitivity/access classification pending before evidence promotion"
+  ],
+  "audit_conclusion": "Verified and immutable-staged dataset/audio source. No sentence, transcript, recording, linguistic proposition, cultural proposition, or controlled metric is promoted in Run502. Preserve as an explicit ingestion gap until byte-level and governance gates are satisfied."
+}

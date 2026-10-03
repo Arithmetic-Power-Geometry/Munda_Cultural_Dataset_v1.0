@@ -1,0 +1,30 @@
+{
+  "run": 369,
+  "branch": "mlhkp-v2",
+  "work_head_before_status_sync": "9624081fa8e316a1a342bed1cdb558c08b02ff0b",
+  "artifacts": [
+    "data/source_census/scstrti_mundari_handbook_exact_locator_run369_2026-09-15.json",
+    "audits/mmsc_search_run369_2026-09-15.json",
+    "tests/test_run369_scstrti_boundary.py"
+  ],
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "sync_decisions": {
+    "streamlit_change_required": false,
+    "evidence_graph_change_required": false,
+    "publication_numeric_tables_figures_change_required": false,
+    "reason": "Run 369 promotes official exact-locator/provenance metadata only; no new controlled cultural or linguistic claim was promoted."
+  },
+  "gap_change": "SCSTRTI changed from generic verification gap to exact official record/file locator with binary/hash/page/rights/passage/cultural-access verification still open.",
+  "release_gate": "NOT_PASS"
+}

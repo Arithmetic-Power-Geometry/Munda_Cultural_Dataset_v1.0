@@ -1,0 +1,58 @@
+{
+  "run": 529,
+  "audit_date": "2026-09-20",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government educational resource", "audio", "web resource", "multilingual media"],
+  "canonical_identity": {
+    "title": "Barkhaa Audio",
+    "provider": "Central Institute of Educational Technology (CIET), NCERT",
+    "canonical_url": "https://ciet.ncert.gov.in/barkhaa_audio"
+  },
+  "verified_provider_facts": {
+    "provider_page_identifies_ciet_as_ncert_constituent_unit": true,
+    "mundari_audio_options_exposed": true,
+    "level_1_titles_with_mundari": ["Chhupan Chhupaai", "Gilli Danda", "Mzza Aa Gya", "Milli ka Gubbara", "Mithai", "Mithe Mithe Gulgule", "Munmun Aur Munnu", "Phooli Roti", "Rani Bhi"],
+    "mixed_language_labels_present": ["Mundari-Mix"],
+    "scope_note": "Provider page exposes Mundari as an audio-language option for multiple Level 1 Barkhaa items; labels alone do not establish dialect, speaker identity, transcription, cultural provenance or independent linguistic validation."
+  },
+  "exact_external_locators": [
+    {"locator": "Barkhaa Audio > Level 1 > Chhupan Chhupaai > Mundari", "use": "candidate Mundari educational audio"},
+    {"locator": "Barkhaa Audio > Level 1 > Gilli Danda > Mundari", "use": "candidate Mundari educational audio"},
+    {"locator": "Barkhaa Audio > Level 1 > Mzza Aa Gya > Mundari", "use": "candidate Mundari educational audio"},
+    {"locator": "Barkhaa Audio > Level 1 > Milli ka Gubbara > Mundari", "use": "candidate Mundari educational audio"},
+    {"locator": "Barkhaa Audio > Level 1 > Mithai > Mundari / Mundari-Mix", "use": "candidate Mundari and mixed-language audio; keep identities distinct"},
+    {"locator": "Barkhaa Audio > Level 1 > Mithe Mithe Gulgule > Mundari / Mundari-Mix", "use": "candidate Mundari and mixed-language audio; keep identities distinct"},
+    {"locator": "Barkhaa Audio > Level 1 > Munmun Aur Munnu > Mundari", "use": "candidate Mundari educational audio"},
+    {"locator": "Barkhaa Audio > Level 1 > Phooli Roti > Mundari", "use": "candidate Mundari educational audio"},
+    {"locator": "Barkhaa Audio > Level 1 > Rani Bhi > Mundari", "use": "candidate Mundari educational audio"}
+  ],
+  "canonicalization": {
+    "rule": "Treat the CIET Barkhaa page and its item/language links as one provider collection with member-level manifestations; do not count each HTML link, mirror, download or language selector as an independent source identity.",
+    "language_boundary": "Mundari and Mundari-Mix labels remain separate until the actual audio and provider metadata establish composition.",
+    "independence_warning": "Educational adaptations/translations of the same Barkhaa story are not independent corroboration of cultural or linguistic claims merely because they exist in multiple languages."
+  },
+  "rights_access_consent": {
+    "public_provider_page": true,
+    "government_educational_provider": true,
+    "redistribution_license_verified": false,
+    "speaker_or_performer_identity_verified": false,
+    "participant_consent_verified_for_mlhkp_reuse": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "audio_binaries_promoted": 0,
+    "reason": "The official provider page establishes a concrete Mundari audio collection and item-level external locators, but not reusable-consent evidence, member-level redistribution terms, immutable hashes, speaker/dialect metadata, transcript concordance or cultural-access clearance."
+  },
+  "next_ingestion_actions": [
+    "resolve each Mundari member URL and verify playable/downloadable manifestation",
+    "capture lawful immutable member bytes where provider terms permit and compute SHA-256",
+    "record duration/container/sample properties and exact member locator",
+    "audit credits, speaker/dialect metadata, transcript/source-story provenance and reuse terms",
+    "separate Mundari from Mundari-Mix deterministically",
+    "promote only member-level evidence whose provenance, rights, consent and cultural-access gates pass"
+  ],
+  "release_policy": "Public government hosting is not treated as an open redistribution licence. Unavailable, restricted, unverified, derivative or culturally uncertain material remains an explicit gap and is not promoted."
+}

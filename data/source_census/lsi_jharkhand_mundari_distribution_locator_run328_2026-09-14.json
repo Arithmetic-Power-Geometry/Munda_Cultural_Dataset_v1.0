@@ -1,0 +1,38 @@
+{
+  "audit_id": "MLHKP-RUN328-LSI-JHARKHAND-MUNDARI",
+  "audit_date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica government/LSI exact-locator verification",
+  "source": {
+    "title": "Linguistic Survey of India - Jharkhand",
+    "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+    "catalog_id": "45248",
+    "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+    "first_party": true
+  },
+  "verified_observations": [
+    "The first-party ORGI indexed PDF endpoint is discoverable and search-indexed as LSI_JHARKHAND.pdf.",
+    "The indexed first-party PDF text contains the heading: 'Distribution of Mundari Language in Jharkhand state as per 2011 Census is presented in the following tables.'",
+    "The indexed table exposes State/Districts with Total, Rural and Urban columns, each split into Person, Males and Females.",
+    "The indexed Jharkhand total row reports 942108 persons, 470532 males and 471576 females; rural 867023 persons, 433527 males and 433496 females; urban 75085 persons, 37005 males and 38080 females."
+  ],
+  "evidence_boundary": {
+    "promote_as": "first-party indexed-PDF exact table locator and source-level quantitative evidence candidate",
+    "numeric_evidence_promoted_to_controlled_graph_this_run": false,
+    "reason_numeric_not_promoted": "The PDF binary endpoint returned a transient fetch failure during this run, so page-image screenshot verification, independent byte hash, local page inventory and printed-page/PDF-page concordance were not completed.",
+    "cultural_claims_promoted": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "rights_note": "Government publication and discoverability establish source identity/access, not blanket downstream reuse permission or community/cultural authorization."
+  },
+  "retry_state": {
+    "pdf_binary_fetch_attempted": true,
+    "pdf_binary_fetch_result": "502/transient failure in this run",
+    "independent_hash_verified": false,
+    "page_image_verified": false,
+    "page_number_verified": false,
+    "next_action": "Retry permitted PDF byte acquisition; then hash, inventory pages, screenshot the Mundari distribution table page, and promote only cells whose page/cell provenance is independently verified."
+  }
+}

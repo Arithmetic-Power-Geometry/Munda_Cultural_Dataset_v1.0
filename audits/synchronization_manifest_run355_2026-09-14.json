@@ -1,0 +1,39 @@
+{
+  "run": 355,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "mmsc": {
+    "search_id": "MMSC-SEARCH-000355",
+    "classes_refreshed": 14,
+    "controlled_count_change_required": false,
+    "reason": "The new Sinha work is already known; Run 355 adds provider-manifestation reconciliation evidence, not a new numbered source identity."
+  },
+  "streamlit": {
+    "registered_modules": 42,
+    "universal_search": true,
+    "registration_change_required": false,
+    "reason": "No new controlled evidence claim or source identity was added."
+  },
+  "evidence_graph": {
+    "claims": 52,
+    "records": 52,
+    "links": 52,
+    "graph_count_change_required": false,
+    "reason": "The manifestation discrepancy is an audit/source-boundary record and does not create a public factual content claim."
+  },
+  "completeness_gap_matrix": {
+    "change_required": true,
+    "refinement": "Sinha 1975 manifestation verification remains open because provider metadata disagrees on declared PDF size and no independent permitted byte/hash/page reconciliation has been completed."
+  },
+  "publication_release_metrics": {
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules",
+    "tables_figures_change_required": false,
+    "reason": "No controlled numeric metric changed."
+  },
+  "tests": {
+    "new_regression_test_write_attempted": true,
+    "new_regression_test_committed": false,
+    "blocker": "Repository connector safety layer blocked two attempts to create the Run 355 regression test file; the evidence boundary is nevertheless explicit in the committed source audit."
+  },
+  "release_gate": "NOT_PASS"
+}

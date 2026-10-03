@@ -1,0 +1,58 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN576",
+  "run": 576,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "canonical_work": {
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "author": "Pallavi Raonka",
+    "date": "2021-02-02",
+    "type": "doctoral dissertation",
+    "publisher_institution": "Virginia Tech",
+    "persistent_identifier": "http://hdl.handle.net/10919/111386",
+    "provider": "VTechWorks",
+    "provider_url": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041"
+  },
+  "verified_provider_metadata": {
+    "full_text_manifestation": "Raonka_P_D_2021.pdf",
+    "supporting_documents_present": true,
+    "scope_from_provider_abstract": "Munda politics, land, indigeneity and Adivasi-State relations in Jharkhand; qualitative evidence from a fifteen-month ethnographic study conducted May 2017 through December 2018.",
+    "keywords": ["Indigenous", "Adivasi", "Munda", "Tribal", "Jharkhand", "Neoliberalism"]
+  },
+  "deduplication": {
+    "repository_search_term": "Raonka 2021",
+    "matching_existing_record_found": false,
+    "canonicalization_rule": "Treat dissertation landing page, PDF, supporting documents, catalogue/index records and mirrors as manifestations/components of this work unless a substantively distinct version is demonstrated."
+  },
+  "classification": ["thesis/dissertation", "ethnography", "land", "politics", "indigeneity", "Jharkhand"],
+  "scope_controls": {
+    "geographic_scope": "Jharkhand, India as stated by provider; narrower field localities must be taken only from inspected dissertation passages.",
+    "temporal_scope": "Field study May 2017-December 2018 per provider abstract; historical claims require their own cited dependencies.",
+    "generalization_warning": "Do not generalize participant/local findings to all Munda communities or periods without explicit support."
+  },
+  "rights_access_consent": {
+    "landing_page_discoverable": true,
+    "full_text_listed_by_provider": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_scope_verified_for_dataset_reuse": false,
+    "cultural_access_review_completed": false,
+    "rule": "Public repository access is not treated as permission to redistribute interview material, culturally sensitive content, or derivative participant-level data."
+  },
+  "promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "This run verified work identity and provider-level scope only. Exact passage/page locators, dissertation dependency tracing, participant/consent context and reuse/cultural-access status require full-text inspection before proposition-level promotion."
+  },
+  "exact_locator_conversion_queue": [
+    "inspect the provider-hosted dissertation manifestation and record a cryptographic hash if lawful access permits",
+    "establish PDF-page to printed-page concordance",
+    "identify exact page/section locators for candidate propositions",
+    "separate author analysis, participant testimony and claims inherited from cited literature",
+    "retain field-site, participant-group and temporal qualifiers",
+    "review consent, dignity and cultural-access implications before any quotation or participant-derived structured evidence",
+    "verify reuse terms before redistributing source text or derived participant-level material"
+  ],
+  "source_quality": "institutional doctoral-dissertation repository; potentially strong contextual/ethnographic evidence after exact-locator and governance review",
+  "audit_outcome": "canonical source identity verified; queued for controlled exact-locator conversion; no unsupported evidence promotion"
+}

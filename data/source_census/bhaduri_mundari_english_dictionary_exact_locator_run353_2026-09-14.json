@@ -1,0 +1,60 @@
+{
+  "run": 353,
+  "date": "2026-09-14",
+  "stream": "non-Mundarica source census / books / dictionaries",
+  "source_title": "A Mundari-English dictionary",
+  "creator": "Manindra Bhusan Bhaduri",
+  "scope_classification": "target-language lexicographic source; bibliographic/exact-locator level only",
+  "verified_provider_records": [
+    {
+      "provider": "Open Library / Internet Archive catalogue",
+      "work_id": "OL5467157W",
+      "edition_id": "OL3008123M",
+      "lccn": "84901705",
+      "edition_publish_date": 1983,
+      "edition_publisher": "Northern Book Centre",
+      "original_publication_note": "Originally published Calcutta: Calcutta University Press, 1931",
+      "pagination": "xv, 228, ii p.",
+      "number_of_pages_reported": 228,
+      "subject_scope": "Mundari language dictionaries English",
+      "access_observation": "Open Library exposes catalogue metadata and preview/locate pathways; this audit does not establish unrestricted reusable full-text bytes."
+    },
+    {
+      "provider": "CiNii Books",
+      "record_id": "BA31909026",
+      "publisher": "Asian Educational Services",
+      "publication_year": 1994,
+      "isbn": "8120609107",
+      "pagination": "xv, 228, ii p.",
+      "note": "Reprint; originally published Calcutta: Calcutta University Press, 1931"
+    }
+  ],
+  "deterministic_identity_key": "Bhaduri|A Mundari-English dictionary|1931-original-work",
+  "canonicalization_rule": "Reprint manifestations are linked to one underlying 1931 work identity; they must not be counted as independent lexical sources solely because publisher/year differ.",
+  "permitted_promotion": {
+    "source_identity": true,
+    "bibliographic_metadata": true,
+    "stable_catalogue_identifiers": true,
+    "reported_pagination": true,
+    "dictionary_entries": false,
+    "lexical_claims": false,
+    "page_exact_lexical_evidence": false,
+    "full_text_bytes_verified": false,
+    "independent_sha256_verified": false,
+    "reuse_license_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "rights_access_consent": {
+    "rights_status": "not established for reusable full text in this run",
+    "access_status": "catalogue/preview/locate metadata verified; full reusable manifestation not independently materialized",
+    "participant_consent_applicability": "not inferred from bibliographic availability",
+    "cultural_uncertainty": "no cultural or lexical content promoted"
+  },
+  "evidence_boundary": "Exact bibliographic locator promoted; no dictionary entry, translation, spelling, meaning, pronunciation, cultural assertion, or linguistic claim is promoted until a permitted manifestation is materialized and exact page/entry locators are independently verified.",
+  "controlled_count_effect": "none pending authoritative WEB-MUN/register reconciliation",
+  "source_urls": [
+    "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+    "https://ci.nii.ac.jp/ncid/BA31909026"
+  ]
+}

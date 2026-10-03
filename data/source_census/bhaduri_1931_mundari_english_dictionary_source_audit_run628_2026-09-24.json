@@ -1,0 +1,73 @@
+{
+  "run": 628,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "author": "Manindra Bhusan Bhaduri",
+    "title": "A Mundari-English Dictionary",
+    "original_publication_year": 1931,
+    "original_publisher": "Calcutta University Press",
+    "original_place": "Calcutta",
+    "extent": "xv, 228, ii pages",
+    "language_scope": ["Mundari", "English"],
+    "source_class": "dictionary / lexical reference"
+  },
+  "verified_manifestations_and_catalogue_records": [
+    {
+      "provider": "Open Library",
+      "work_id": "OL5467157W",
+      "edition_id": "OL3008123M",
+      "lccn": "84901705",
+      "note": "Catalogue states reprint and explicitly identifies the original as Calcutta University Press, 1931; source records include Library of Congress MARC and Internet Archive item records."
+    },
+    {
+      "provider": "CiNii Books",
+      "ncid": "BA31909026",
+      "isbn": "8120609107",
+      "reprint_publisher": "Asian Educational Services",
+      "reprint_year": 1994,
+      "note": "Catalogue states reprint; originally published Calcutta: Calcutta University Press, 1931; extent xv, 228, ii pages."
+    }
+  ],
+  "canonicalization": {
+    "decision": "one canonical work",
+    "rule": "1931 original and later reprint/catalogue manifestations are not independent corroborating sources",
+    "repository_preinsert_exact_title_author_search": "no surfaced match",
+    "dedup_keys": ["normalized author+title+1931", "Open Library OL5467157W", "CiNii BA31909026", "LCCN 84901705"]
+  },
+  "scope_classification": {
+    "munda_specific": true,
+    "evidence_domain": "Mundari lexicon / language",
+    "cultural_claim_scope": "none promoted from catalogue metadata",
+    "generalization_warning": "Lexicographic entries require entry-level inspection and must preserve dialect, editorial, source and usage qualifiers where present."
+  },
+  "rights_access_governance": {
+    "catalogue_metadata_access": "publicly discoverable",
+    "full_text_status": "Internet Archive linkage is indicated by catalogue metadata but an authoritative readable manifestation was not verified in this run",
+    "redistribution_permission": "not established",
+    "consent_applicability": "historical lexical source; speaker/elicitation provenance must be inspected if documented in front matter",
+    "rule": "public catalogue or digitization availability does not by itself establish permission to redistribute a binary or unrestricted reuse of all content"
+  },
+  "exact_locator_conversion": {
+    "state": "queued after identity/edition audit",
+    "required_before_promotion": [
+      "obtain lawful authoritative readable manifestation",
+      "verify original/reprint pagination concordance",
+      "record manifestation identity/hash where storage is permitted",
+      "inspect preface/introduction for collection method, dialect/locality, contributors and editorial normalization",
+      "create entry/page-level locators for promoted lexical evidence",
+      "separate headword, gloss, example, editorial note and cited/borrowed material",
+      "retain uncertainty and dialect/source qualifiers"
+    ]
+  },
+  "promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "reason": "Identity and edition metadata are verified, but exact entry-level source inspection and rights/provenance checks are still required."
+  },
+  "audit_sources": [
+    "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+    "https://ci.nii.ac.jp/ncid/BA31909026"
+  ]
+}

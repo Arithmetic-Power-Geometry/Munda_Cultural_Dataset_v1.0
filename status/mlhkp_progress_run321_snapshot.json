@@ -1,0 +1,15 @@
+{
+  "run": 321,
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "head": "e21ea5f63d8d32f56e4f0a14983dc3d37ddf9418",
+  "cycle_commits": ["7bc67310310a6393fff2c3b583e7337858585554", "34ce893c2fcd12af67b5a99f946efe0044cc6428", "e21ea5f63d8d32f56e4f0a14983dc3d37ddf9418"],
+  "mmsc": {"audited_source_identities": 42, "raw_web_discovery_records": 90, "unique_web_discovery_leads": 87, "duplicate_web_records": 3, "canonicalized_unique_web_leads": 14, "unresolved_unique_web_leads": 73, "latest_search_id": "MMSC-SEARCH-000321", "controlled_classes_refreshed": 14},
+  "mundarica": {"registered_primary_scans": 0, "verified_complete_volumes": 0, "verified_ocr_pages": 0, "volume_ii": "provider manifestation verified; 406 provider-declared pages; provider OCR available but not independently verified", "volume_iii": "1930 DLI provider manifestation verified; independent bytes/hash/page/OCR verification pending", "other_volumes": "per-volume closure remains pending as previously enumerated"},
+  "evidence": {"claims": 52, "records": 52, "links": 52, "schema_category_representation_percent": 100.0, "new_claims_promoted": 0},
+  "streamlit": {"modules": 42, "ui_mapping_percent": 100.0, "universal_search": true, "evidence_drilldown": true, "reports_downloads": true, "owner_console": true},
+  "publication": {"q1_target": true, "metrics_synced": true, "run321_metric_neutral": true},
+  "release_gate": {"status": "NOT_PASS", "automated_completeness_audit_pass": false},
+  "blockers": ["73 unresolved WEB-MUN leads", "numbered-register reconciliation", "Mundarica I-XVI independent byte/hash/page/OCR verification", "Census workbook verification", "LSI/Atlas primary-page verification", "Rau and lexical closure", "CIIL/SCSTRTI byte/rights closure", "community/cultural-access review"],
+  "status_file_note": "A Run 321 snapshot is recorded here because the connector safety layer blocked two attempts to replace status/mlhkp_progress.json in-place. No claim is made that the canonical status file was updated in this run."
+}

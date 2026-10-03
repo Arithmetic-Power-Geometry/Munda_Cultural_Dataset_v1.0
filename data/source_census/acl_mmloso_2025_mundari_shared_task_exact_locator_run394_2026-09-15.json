@@ -1,0 +1,53 @@
+{
+  "run": 394,
+  "audit_date": "2026-09-15",
+  "stream": "non-Mundarica",
+  "source_class": ["peer-reviewed article", "dataset/benchmark locator"],
+  "canonical_work": {
+    "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "authors": ["Pooja Singh", "Sandeep Chatterjee", "Gullal S. Cheema", "Amrit Singh Bedi", "Tanmoy Chakraborty", "Sandeep Kumar", "Ankita Shukla"],
+    "year": 2025,
+    "venue": "MMLoSo / ACL Anthology",
+    "pages": "121-129",
+    "anthology_id": "2025.mmloso-1.14",
+    "canonical_url": "https://aclanthology.org/2025.mmloso-1.14/"
+  },
+  "verified_scope": {
+    "mundari_relevant": true,
+    "provider_reported_training_pairs_per_language": 20000,
+    "provider_reported_evaluation_sentences": 16000,
+    "provider_reported_languages": ["Bhili", "Mundari", "Gondi", "Santali"],
+    "provider_reported_teams": 18,
+    "provider_statement": "The ACL Anthology abstract states that the shared task includes Mundari and that datasets, baseline models, and system outputs were publicly released."
+  },
+  "canonicalization": {
+    "rule": "Treat ACL Anthology HTML/PDF/BibTeX and any linked benchmark artifacts as manifestations/components of the same scholarly work or benchmark release unless an independently versioned dataset identity is verified.",
+    "dedup_status": "repository search for exact MMLoSo/Mundari lead returned no matching record before Run 394",
+    "count_effect": "none until deterministic WEB-MUN/MMSC reconciliation"
+  },
+  "promotion_state": "exact-locator-only",
+  "evidence_promotion": {
+    "promoted_claims": [],
+    "reason": "Provider-reported benchmark quantities are metadata and have not been independently recounted from immutable dataset bytes. No sentence pair, translation, cultural proposition, demographic claim, or linguistic proposition is promoted by this locator record."
+  },
+  "rights_access_consent_cultural": {
+    "article_access": "ACL Anthology public article locator verified",
+    "dataset_redistribution_rights": "unverified at item/file level",
+    "dataset_revision_and_hash": "unverified",
+    "speaker_translator_consent_and_compensation": "unverified",
+    "community_validation": "not established",
+    "cultural_access_authorization": "not established",
+    "privacy_publicity": "requires review if underlying artifacts contain attributable participant data"
+  },
+  "required_before_row_level_promotion": [
+    "resolve the exact released Mundari dataset manifestation and immutable revision",
+    "capture dataset license/copyright/provenance files",
+    "acquire permitted bytes and compute SHA-256",
+    "deterministically recount rows and inspect duplicates/malformed records/splits",
+    "establish exact row locators",
+    "review collection provenance, consent, compensation, privacy and cultural-access constraints",
+    "reconcile against existing Karya/AdiBhasha/MMLoSo leads to prevent corpus-level double counting"
+  ],
+  "release_gate": "NOT_PASS",
+  "audit_note": "Unavailable or unverified benchmark artifacts remain explicit gaps. Discovery of a public paper does not itself authorize redistribution or cultural-evidence promotion."
+}

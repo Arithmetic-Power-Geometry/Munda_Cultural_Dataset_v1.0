@@ -1,0 +1,72 @@
+{
+  "run": 222,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "purpose": "Advance a non-Mundarica official Jharkhand TRI source from discovery to an exact section-level locator while preserving source-quality, rights and cultural-uncertainty boundaries.",
+  "source_identity": {
+    "title": "MUNDA",
+    "publisher_body": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand",
+    "body_role_displayed": "Tribal Research Institute (TRI), research body of the Ministry of Tribal Affairs at the state level",
+    "url": "https://www.trijharkhand.in/en/munda",
+    "manifestation_type": "official TRI HTML ethnographic page",
+    "retrieved_date": "2026-09-11"
+  },
+  "exact_locators": {
+    "page_heading": "MUNDA",
+    "sections_observed": [
+      "Etymology",
+      "History",
+      "Culture and Tradition",
+      "Economic Condition",
+      "Literature and Studies",
+      "Notable Mundas"
+    ],
+    "literature_and_studies_section_observed": true,
+    "institution_identity_footer_observed": true,
+    "section_level_locator_promoted": true
+  },
+  "scope_classification": {
+    "classes": ["government/TRI", "web resource", "ethnographic overview", "bibliographic lead source"],
+    "mundari_relevance": "direct",
+    "mundarica": false,
+    "use_for_release": "source identity/manifestation verification and section-level discovery; individual cultural propositions require independent claim-level support before public evidence promotion"
+  },
+  "rights_governance": {
+    "publicly_accessible": true,
+    "public_availability_treated_as_permission": false,
+    "explicit_open_reuse_license_observed": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "claim_level_cultural_content_promoted": false
+  },
+  "verification_boundary": {
+    "official_institutional_manifestation_verified": true,
+    "section_level_exact_locator_verified": true,
+    "page_has_claim_level_citations_for_all_cultural_assertions": false,
+    "individual_cultural_claims_independently_verified_in_this_run": false,
+    "cultural_claim_promoted_to_public_evidence_graph": false,
+    "participant_derived_material_ingested": false,
+    "source_identity_count_changed": false
+  },
+  "canonicalization": {
+    "existing_repository_match_found_by_targeted_search": false,
+    "new_audited_source_identity_count_asserted": false,
+    "reason_counts_frozen": "The run verifies an official TRI manifestation and exact section locators, but the controlled identity register was not deterministically rebuilt in this cycle; counts must not be incremented by inference."
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

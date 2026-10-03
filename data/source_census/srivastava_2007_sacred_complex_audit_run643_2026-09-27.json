@@ -1,0 +1,66 @@
+{
+  "run": 643,
+  "audited_at_utc": "2026-09-27T02:45:00Z",
+  "branch": "mlhkp-v2",
+  "class": "peer_reviewed_article",
+  "canonical_identity": {
+    "author": "Malini Srivastava",
+    "title": "The Sacred Complex of Munda Tribe",
+    "journal": "The Anthropologist",
+    "volume": 9,
+    "issue": 4,
+    "year": 2007,
+    "pages": "327-330",
+    "doi": "10.31901/24566802.2007/09.04.11"
+  },
+  "scope": {
+    "population": "Munda",
+    "geography": "Chotanagpur plateau, Jharkhand; four villages under Khunti subdivision of Ranchi District",
+    "villages": [
+      "Daugada",
+      "Buruma",
+      "Sarwada",
+      "Kullipiddi"
+    ],
+    "topic": "religion / sacred complex"
+  },
+  "verification": {
+    "publisher_search_manifestation": true,
+    "accessible_locator": "publisher-indexed abstract/front matter",
+    "exact_locators_available": [
+      "printed pp. 327-330",
+      "abstract names four study villages"
+    ],
+    "full_text_fetch_status": "blocked_timeout_in_this_run",
+    "repository_exact_doi_search": {
+      "matches": 0,
+      "incomplete_results": true
+    }
+  },
+  "rights_access": {
+    "copyright_notice": "© Kamla-Raj 2007",
+    "redistribution_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_authorization_verified": false,
+    "cultural_access_status": "unresolved"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claims_delta": 0,
+    "evidence_delta": 0,
+    "links_delta": 0,
+    "binaries_delta": 0,
+    "reason": "Do not promote cultural propositions until lawful readable full text permits methods, sampling, consent, dependency and exact proposition/page inspection."
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.31901/24566802.2007/09.04.11",
+    "note": "Exact DOI search returned no repository match but GitHub marked results incomplete; treat as repository-unmatched candidate, not proven absent."
+  },
+  "blockers": [
+    "full text fetch timed out",
+    "methods/sampling detail beyond abstract not inspected",
+    "participant consent and community authorization unresolved",
+    "reuse permission unresolved beyond copyright notice",
+    "proposition-level source dependency and cultural-scope review pending"
+  ]
+}

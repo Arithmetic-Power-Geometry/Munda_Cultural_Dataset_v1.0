@@ -1,0 +1,76 @@
+{
+  "run_id": 272,
+  "date_utc": "2026-09-13",
+  "stream": "Mundarica I-XVI acquisition / page accounting / integrity",
+  "volume": "XI",
+  "purpose": "Pin an exact Internet Archive / Digital Library of India manifestation for Encyclopaedia Mundarica Volume XI while preserving the distinction between repository metadata, scan integrity, OCR verification, rights, and cultural-access permission.",
+  "manifestation": {
+    "title": "Encyclopaedia Mundarica Vol. 11",
+    "internet_archive_identifier": "in.ernet.dli.2015.462388",
+    "identifier_ark": "ark:/13960/t44r3bd9q",
+    "dli_item": "2015.462388",
+    "dli_handle": "http://www.new.dli.ernet.in/handle/2015/462388",
+    "barcode": "07019990368606",
+    "authors_as_repository_metadata": ["Hoffmann, John", "Emelen, Arthur Van"],
+    "archive_publication_date": "1950",
+    "publisher_as_repository_metadata": "Government Printing, Bihar",
+    "source_library": "Birchandra State Central Library, Tripura",
+    "scanning_centre": "North Eastern States Libraries",
+    "scanner_number": "02",
+    "digital_publication_date": "2014/11/13",
+    "repository_totalpages": 278,
+    "ppi": 600,
+    "ocr_engine_reported": "ABBYY FineReader 11.0",
+    "archive_item_size_reported": "397.7M",
+    "archive_rights_field": "In Public Domain",
+    "archive_url": "https://archive.org/details/in.ernet.dli.2015.462388"
+  },
+  "verification": {
+    "exact_archive_identity_verified": true,
+    "ark_verified": true,
+    "repository_totalpages_verified_as_metadata": true,
+    "ppi_verified_as_metadata": true,
+    "source_library_verified_as_metadata": true,
+    "ocr_engine_presence_verified_as_metadata": true,
+    "scan_bytes_acquired_into_controlled_repository": false,
+    "independent_file_hash_verified": false,
+    "printed_page_to_scan_image_concordance_verified": false,
+    "scan_completeness_verified": false,
+    "ocr_text_verified": false,
+    "authoritative_registered_scan": false,
+    "verified_complete_volume": false
+  },
+  "page_accounting": {
+    "repository_totalpages": 278,
+    "previous_bibliographic_printed_page_range": "3175-3456",
+    "printed_range_source_state": "retained from Run 270 contemporaneous bibliographic audit",
+    "repository_totalpages_equated_to_printed_page_count": false,
+    "note": "Repository totalpages describes the archived scan object and is not treated as proof that every printed page in the bibliographic range is present or correctly ordered."
+  },
+  "rights_and_cultural_boundary": {
+    "archive_rights_metadata_retained": "In Public Domain",
+    "archive_rights_metadata_treated_as_blanket_redistribution_permission": false,
+    "model_training_permission_inferred": false,
+    "participant_or_community_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "promotion": {
+    "level": "exact manifestation and repository page-accounting metadata",
+    "controlled_cultural_claims_added": 0,
+    "controlled_evidence_claims_added": 0,
+    "authoritative_registered_scans_added": 0,
+    "verified_complete_volumes_added": 0
+  },
+  "blockers_remaining": [
+    "Acquire the permitted Volume XI scan bytes into a controlled audit workspace and compute independent cryptographic hashes.",
+    "Reconcile repository scan sequence against the bibliographic printed-page range 3175-3456, including covers, blanks, inserts and missing/duplicate images.",
+    "Verify OCR against page images before any passage-level promotion.",
+    "Perform rights and MLHKP cultural-access review before redistribution or public extraction of culturally sensitive material."
+  ],
+  "source_evidence": {
+    "internet_archive_page_verified_utc": "2026-09-13",
+    "internet_archive_lines_summary": "Archive page reports DLI item 2015.462388, totalpages 278, Birchandra State Central Library source, identifier in.ernet.dli.2015.462388, ARK ark:/13960/t44r3bd9q, ABBYY FineReader 11.0 OCR metadata and 600 PPI."
+  }
+}

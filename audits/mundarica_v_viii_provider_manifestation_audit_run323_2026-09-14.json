@@ -1,0 +1,65 @@
+{
+  "run": 323,
+  "audit_date": "2026-09-14",
+  "scope": "Encyclopaedia Mundarica Volumes V-VIII provider-manifestation and scan-page accounting",
+  "sources": [
+    {
+      "volume": "V",
+      "provider": "Internet Archive / Digital Library of India",
+      "identifier": "in.ernet.dli.2015.14925",
+      "provider_title": "Encyclopedia Mundarica Vol-v (1932)",
+      "provider_publication_date": "1932",
+      "provider_publisher": "Superintendent Government Printing, Bihar",
+      "provider_totalpages": 278,
+      "provider_scanningcentre": "C-DAC, Noida",
+      "provider_rights_label": "Out_of_copyright",
+      "provider_ocr": "archive-derived OCR present",
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.14925"
+    },
+    {
+      "volume": "VI",
+      "provider": "Internet Archive / West Bengal Public Library Network / Digital Library of India",
+      "identifier": "dli.bengal.10689.20084",
+      "provider_title": "ENCYCLOPAEDIA MUNDARICA VOL. 6",
+      "provider_publication_date": "1950",
+      "provider_publisher": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "provider_totalpages": 344,
+      "provider_scanningcentre": "C-DAC KOLKATA",
+      "provider_ocr": "ABBYY FineReader 11.0 (Extended OCR)",
+      "source_url": "https://archive.org/details/dli.bengal.10689.20084"
+    },
+    {
+      "volume": "VII",
+      "provider": "Internet Archive / West Bengal Public Library Network / Digital Library of India",
+      "identifier": "dli.bengal.10689.20088",
+      "provider_title": "ENCYCLOPAEDIA MUNDARICA VOL. 7",
+      "provider_publication_date": "1950",
+      "provider_publisher": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "provider_totalpages": 274,
+      "provider_scanningcentre": "C-DAC KOLKATA",
+      "provider_ocr": "ABBYY FineReader 11.0 (Extended OCR)",
+      "source_url": "https://archive.org/details/dli.bengal.10689.20088"
+    },
+    {
+      "volume": "VIII",
+      "provider": "Internet Archive / West Bengal Public Library Network / Digital Library of India",
+      "identifier": "dli.bengal.10689.20080",
+      "provider_title": "ENCYCLOPAEDIA MUNDARICA VOL. 8",
+      "provider_publication_date": "1950",
+      "provider_publisher": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "provider_totalpages": 422,
+      "provider_scanningcentre": "C-DAC KOLKATA",
+      "provider_ocr": "ABBYY FineReader 11.0 (Extended OCR)",
+      "source_url": "https://archive.org/details/dli.bengal.10689.20080"
+    }
+  ],
+  "verification_boundary": {
+    "provider_manifestations_located": 4,
+    "independently_acquired_primary_bytes": 0,
+    "independently_verified_hashes": 0,
+    "verified_printed_page_to_scan_image_concordances": 0,
+    "verified_ocr_pages": 0,
+    "public_cultural_claims_promoted": 0
+  },
+  "notes": "Provider metadata establishes reproducible manifestation locators and provider scan-page counts only. Provider OCR availability does not constitute verified OCR. Provider rights labels are recorded as metadata and do not override MLHKP cultural-access governance. The differing publication dates/manifestations must not be silently canonicalized as identical editions without bibliographic reconciliation."
+}

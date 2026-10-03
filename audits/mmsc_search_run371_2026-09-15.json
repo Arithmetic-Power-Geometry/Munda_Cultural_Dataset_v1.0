@@ -1,0 +1,59 @@
+{
+  "search_id": "MMSC-SEARCH-000371",
+  "run": 371,
+  "searched_utc": "2026-09-14T22:47:00Z",
+  "controlled_classes_refreshed": 14,
+  "classes": [
+    "historical grammar/monograph",
+    "dictionary/lexicography",
+    "census/demography",
+    "government/TRI ethnography",
+    "audio/archive",
+    "dataset/corpus",
+    "typology databases",
+    "historical encyclopedia/manuscript",
+    "peer-reviewed linguistics",
+    "government cultural heritage",
+    "education/NCERT",
+    "language survey/maps",
+    "community web resources",
+    "audiovisual/Bangladesh"
+  ],
+  "fresh_verified_surfaces": [
+    "PHOIBLE Mundari language page mund1320",
+    "PHOIBLE exact inventories 10, 602, 1713, 1770, 2295",
+    "WALS Mundari language page mun and source list",
+    "WALS exact Osada 1992 reference record",
+    "Census ST-15 Jharkhand official catalogue PC11_ST15-20",
+    "Census ST-15 Odisha official catalogue PC11_ST15-21",
+    "Census ST-15 West Bengal official catalogue PC11_ST15-19"
+  ],
+  "blocked_or_unresolved_surfaces": [
+    "ELAR exact Mundari package not resolved in this run",
+    "PARADISEC exact Mundari collection not resolved in this run",
+    "PHOIBLE downloadable inventory bytes/hash not independently materialized",
+    "PHOIBLE underlying source passages and source-specific rights unresolved"
+  ],
+  "false_positive_patterns_reconfirmed": [
+    "commercial music titled Mundari/Mundri without Munda-language provenance",
+    "name/title homonyms unrelated to the Mundari language or Munda community",
+    "Bhumij provider inventory must not be silently collapsed into a Mundari cultural or linguistic claim"
+  ],
+  "count_effect": {
+    "new_audited_source_identities": 0,
+    "new_raw_web_discovery_records_promoted": 0,
+    "new_unique_web_leads_promoted": 0,
+    "duplicate_web_records_added": 0,
+    "canonicalized_unique_web_leads_added": 0,
+    "unresolved_unique_web_leads_added": 0,
+    "reason": "Run 371 narrowed PHOIBLE provenance at exact inventory level and refreshed controlled source classes, but did not establish a new controlled source identity or passage-level evidence item."
+  },
+  "governance": {
+    "search_hit_is_not_audited_identity": true,
+    "provider_inventory_count_is_not_source_passage_verification": true,
+    "database_license_is_not_underlying_source_reuse_permission": true,
+    "database_visibility_is_not_community_validation": true,
+    "audiovisual_visibility_is_not_consent_or_cultural_access_authorization": true
+  },
+  "release_effect": "Systematic census refresh completed; PHOIBLE source genealogy is materially narrower while controlled MMSC totals remain unchanged."
+}

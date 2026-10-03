@@ -1,0 +1,38 @@
+{
+  "run": 348,
+  "captured_date": "2026-09-14",
+  "stream": "government/TRI source census and governance",
+  "source_class": ["government", "TRI", "web resource", "cultural reference"],
+  "title": "Munda",
+  "provider": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand",
+  "locator": "https://www.trijharkhand.in/en/munda",
+  "provider_context": {
+    "institution_established": 1953,
+    "institution_role": "state Tribal Research Institute for research, training, evaluation, publications and preservation/promotion of tribal language, art, craft and culture",
+    "provider_page_exposes_munda_reference_material": true
+  },
+  "verification": {
+    "provider_page_identity_verified": true,
+    "government_institution_context_verified": true,
+    "page_content_independently_field_verified": false,
+    "community_validation_verified": false,
+    "participant_or_knowledge_holder_consent_verified": false,
+    "cultural_access_authorization_inferred": false,
+    "reuse_license_verified_for_page_content": false
+  },
+  "promotion_boundary": {
+    "promoted": "official provider identity, locator, institutional context, existence of a Munda reference page",
+    "not_promoted": "specific cultural practices, ritual descriptions, clan lists, historical claims, ethnographic generalizations, community validation, unrestricted reuse or cultural entitlement"
+  },
+  "rights_and_governance": {
+    "cultural_access_overrides_entitlement": true,
+    "public_web_visibility_does_not_equal_reuse_permission": true,
+    "government_publication_does_not_equal_community_validation": true,
+    "restricted_or_sensitive_content_exposed": false
+  },
+  "deduplication": {
+    "canonical_key": "trijharkhand|munda|official-reference-page",
+    "count_change_authorized": false,
+    "reason_counts_unchanged": "The controlled numbered WEB-MUN mapping is still unresolved; this run-level audit does not invent a canonical register disposition."
+  }
+}

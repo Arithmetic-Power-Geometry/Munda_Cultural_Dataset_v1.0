@@ -1,0 +1,84 @@
+{
+  "run": 693,
+  "date": "2026-10-03",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed article / institutional repository",
+  "canonical_key": "DOI|10.1515/lity.2005.9.3.351",
+  "identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": [
+      "Nicholas Evans",
+      "Toshiki Osada"
+    ],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "institutional_handle": "1885/54663",
+    "institution": "Australian National University",
+    "access_statement": "Open Access",
+    "repository_file": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_reported_size": "234.31 KB"
+  },
+  "verification": {
+    "level": "institutional metadata + abstract + file manifestation metadata",
+    "locator": "ANU repository handle 1885/54663 -> repository item metadata / abstract / file listing",
+    "full_text_fetch": "blocked in this runtime (ANU item open returned HTTP 403)",
+    "github_default_branch_search": [
+      {
+        "query": "1885/54663",
+        "matches": 0,
+        "incomplete_results": true
+      },
+      {
+        "query": "10.1515/lity.2005.9.3.351",
+        "matches": 0,
+        "incomplete_results": true
+      },
+      {
+        "query": "exact title",
+        "matches": 0,
+        "incomplete_results": true
+      }
+    ],
+    "novelty_status": "unresolved pending mlhkp-v2 MMSC/WEB-MUN reconciliation"
+  },
+  "scope": {
+    "language": "Mundari",
+    "topic": "word classes / noun-verb distinction / lexical category analysis",
+    "cultural_claim_scope": "none promoted",
+    "dependency_note": "Abstract reports analysis of Hoffmann corpus plus substantial new data; proposition-level ingestion must distinguish inherited Hoffmann evidence from new-data analysis."
+  },
+  "rights_access_consent": {
+    "access": "institutional record states Open Access",
+    "reuse_license": "not established by inspected metadata",
+    "redistribution": "not assumed",
+    "participant_consent": "not established",
+    "community_consent": "not established",
+    "cultural_access": "not established"
+  },
+  "conversion_queue": [
+    "lawfully retrieve authoritative repository PDF",
+    "record checksum and byte size",
+    "establish printed/PDF page concordance",
+    "locate methods/data provenance and separate Hoffmann-corpus analysis from new-data evidence",
+    "capture exact page/section/table/example locators",
+    "promote only atomic linguistic propositions supported by exact locators and permitted reuse",
+    "reconcile canonical DOI/handle against MMSC and WEB-MUN before assigning controlled identity"
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "synchronization": {
+    "mmsc_counts_changed": false,
+    "streamlit_changed": false,
+    "evidence_graph_changed": false,
+    "completeness_gap_matrix_changed": false,
+    "publication_metrics_changed": false,
+    "status_metrics_changed": false,
+    "reason": "No deterministic branch-ledger reconciliation or proposition-level evidence promotion in this run."
+  }
+}

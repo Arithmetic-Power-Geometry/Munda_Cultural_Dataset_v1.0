@@ -1,0 +1,58 @@
+{
+  "audit_run": 460,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "source_class": ["audio", "web resource", "religious media"],
+  "scope": "Mundari-language audiovisual/audio manifestations; source-level discovery only until rights/provenance/consent gates pass",
+  "canonical_provider": "MegaVoice Media Cloud",
+  "records": [
+    {
+      "title": "God's Story • Mundari (unr)",
+      "reference_number": "M0B1257",
+      "language": "Mundari",
+      "country": "India",
+      "type": "Audio",
+      "publisher": "The God's Story Project",
+      "provider_reported_size": "70 MB",
+      "provider_reported_runtime": "1 hr 16 min",
+      "url": "https://megavoice.com/media-cloud/m0b1257-gods-story-unr-mundari-audio-bible/"
+    },
+    {
+      "title": "Words of Life • Mundari (unr)",
+      "reference_number": "M035419",
+      "language": "Mundari",
+      "type": "Audio",
+      "publisher": "Global Recordings Network",
+      "url": "https://megavoice.com/media-cloud/m035419-words-of-life-unr-mundari-audio-bible/"
+    },
+    {
+      "title": "Gospel of Mark • Mundari (unr)",
+      "reference_number": "M0B9476",
+      "language": "Mundari",
+      "country": "India",
+      "type": "Audio",
+      "publisher": "Faith Comes by Hearing (Hosanna)",
+      "version": "2018 The Word for the World International (2020 Audio)",
+      "provider_reported_size": "55.3 MB",
+      "provider_reported_runtime": "2 hr 06 min",
+      "url": "https://megavoice.com/media-cloud/m0b9476-gospel-of-mark-unr-mundari-audio-bible/"
+    }
+  ],
+  "canonicalization": {
+    "rule": "Each provider reference number is a source manifestation identity. Provider landing page, sample/player URL, device-load manifestation and mirrors must not be counted as independent corroborating sources without provenance establishing independence.",
+    "cross_source_rule": "Religious recordings or translations derived from a shared textual/translation source must be dependency-linked before evidentiary use."
+  },
+  "promotion_status": "blocked",
+  "promoted_claims": 0,
+  "promoted_evidence_records": 0,
+  "gates": [
+    "verify item-level licence and redistribution/research permissions",
+    "obtain lawful immutable bytes where permitted and record SHA-256",
+    "establish speaker/translator/collector provenance",
+    "review participant consent, privacy and culturally restricted-content implications",
+    "establish transcript/source-text dependency and exact item/timecode locators",
+    "do not infer dialect from provider alternate-language labels",
+    "do not promote religious narrative content as independent cultural fact"
+  ],
+  "audit_note": "Provider metadata is sufficient for deterministic discovery identity and exact provider reference locators, but not for linguistic/cultural evidence promotion. Public streaming/sample availability is not treated as reuse permission or participant consent."
+}

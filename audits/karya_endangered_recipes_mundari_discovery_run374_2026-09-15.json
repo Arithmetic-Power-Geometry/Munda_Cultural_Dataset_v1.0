@@ -1,0 +1,42 @@
+{
+  "audit_id": "MLHKP-RUN374-KARYA-ELR-DISCOVERY",
+  "date_utc": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "source_family": "Karya endangered-recipes translated dataset",
+  "provider_locator": "https://huggingface.co/datasets/karya/endangered-recipes-translated-500",
+  "discovery_status": "unique_web_lead_unresolved_not_audited_identity",
+  "provider_visible_metadata": {
+    "dataset_name": "endangered-recipes-translated-500",
+    "provider": "Karya",
+    "mundari_included": true,
+    "provider_declared_license": "CC BY 4.0",
+    "provider_declared_mundari_recipes": 50,
+    "provider_declared_mundari_images": 315,
+    "provider_declared_mundari_sentence_pairs": 783,
+    "access_note": "provider page describes the dataset as gated"
+  },
+  "verification_boundary": {
+    "binary_materialized": false,
+    "cryptographic_hash_verified": false,
+    "deterministic_row_or_media_recount": false,
+    "passage_or_record_level_provenance_verified": false,
+    "original_ELR_1000_rights_inherited": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorized": false,
+    "public_claims_promoted": 0
+  },
+  "governance_note": "Provider-level CC BY 4.0 metadata is not treated as proof of participant consent, community validation, cultural-access authorization, or rights in any separately licensed original ELR-1000 material. Cultural access continues to override entitlement.",
+  "deduplication": {
+    "distinct_from_existing_karya_mundari_tts": true,
+    "distinct_from_existing_karya_hindi_mundari_translation": true,
+    "canonicalization_action": "retain as one new unresolved dataset-family lead; do not split language/media statistics into separate source identities"
+  },
+  "next_safe_actions": [
+    "resolve exact dataset revision/commit and data-card history",
+    "obtain permitted gated access before any materialization",
+    "hash permitted files and deterministically recount Mundari records/media",
+    "trace translated records to original ELR-1000 provenance and rights",
+    "resolve participant consent, privacy/publicity, community validation, and cultural-access status before evidence promotion"
+  ]
+}

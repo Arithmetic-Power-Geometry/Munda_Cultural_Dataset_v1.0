@@ -1,0 +1,72 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica source-discovery records. These are verified bibliographic, archival, or research-source leads only; they are not extracted cultural claims and are not proof of unrestricted redistribution, commercial reuse, current practice, or community validation.",
+  "records": [
+    {
+      "id": "WEB-MUN-0048",
+      "title": "Mundari as a flexible language",
+      "source_class": "peer_reviewed_linguistic_typology_article",
+      "publisher": "Linguistic Typology / De Gruyter; institutional record at Aarhus University",
+      "url": "https://pure.au.dk/portal/en/publications/mundari-as-a-flexible-language/",
+      "author": "Kees Hengeveld; Jan Rijkhoff",
+      "year": 2005,
+      "notes": "Aarhus University metadata verifies the peer-reviewed article in Linguistic Typology 9(3), pages 406-431, ISSN 1430-0532. The paper is part of the published debate over lexical/word-class analysis in Mundari and responds to Evans and Osada. Register as a linguistic-analysis lead and contradiction/interpretation source; its position must remain attributed to the authors and should be linked with the opposing/alternative analyses rather than promoted as settled universal fact.",
+      "verification_state": "institutional_peer_reviewed_metadata_verified",
+      "access_class": "public_institutional_metadata_submitted_manuscript_listed",
+      "rights_note": "Institutional metadata and manuscript visibility do not establish unrestricted redistribution or commercial-reuse rights for the published article. Quotation, figures, examples and substantial text require source-specific copyright review."
+    },
+    {
+      "id": "WEB-MUN-0049",
+      "title": "There's a grain of truth in every 'myth', or, Why the discussion of lexical classes in Mundari isn't quite over yet",
+      "source_class": "peer_reviewed_linguistic_commentary_article",
+      "publisher": "Linguistic Typology / De Gruyter; institutional bibliography at Osnabrueck University",
+      "url": "https://osnascholar.ub.uni-osnabrueck.de/handle/unios/15647",
+      "author": "John Peterson",
+      "year": 2005,
+      "notes": "Osnabrueck University bibliographic metadata verifies Linguistic Typology 9(3), pages 391-405, DOI 10.1515/lity.2005.9.3.391. Register as a peer-reviewed source in the Mundari lexical-class debate. Its analysis is interpretation-specific and should be represented through contradiction/variant links alongside Evans-Osada and Hengeveld-Rijkhoff rather than treated as a single definitive cultural or linguistic fact.",
+      "verification_state": "institutional_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_record_full_text_rights_uncertain",
+      "rights_note": "Bibliographic availability does not establish permission to redistribute the article or reproduce protected text, tables or examples. Full-text and reuse conditions remain source-specific."
+    },
+    {
+      "id": "WEB-MUN-0050",
+      "title": "A Mundári Primer",
+      "source_class": "historical_language_primer_digital_library",
+      "publisher": "Bengal Secretariat Press; digitized by Bayerische Staatsbibliothek via Deutsche Digitale Bibliothek",
+      "url": "https://www.deutsche-digitale-bibliothek.de/item/3O72DFDYMAX3ADEITK2DEM5XOFNESUZR",
+      "author": "J. C. Whitley",
+      "year": 1873,
+      "notes": "Deutsche Digitale Bibliothek metadata verifies the 1873 Calcutta edition at the Bengal Secretariat Press, holding Bayerische Staatsbibliothek L.as. 386 n, extent 3 leaves plus 35 pages, URN urn:nbn:de:bvb:12-bsb11159896-3. Register as a historical Mundari language primer lead. Any linguistic examples or historical descriptions require exact page locators and period/context labels before evidence use.",
+      "verification_state": "national_digital_library_metadata_verified",
+      "access_class": "public_digitized_historical_book_with_repository_use_restriction",
+      "rights_note": "The Deutsche Digitale Bibliothek record states 'Kein Urheberrechtsschutz - Nur nicht kommerzielle Nutzung erlaubt' for the digitized object. MLHKP therefore does not infer commercial-reuse entitlement or broader redistribution permission from public access."
+    },
+    {
+      "id": "WEB-MUN-0051",
+      "title": "Grammatik der Kolh-Sprache",
+      "source_class": "historical_mundari_grammar_bibliographic_record",
+      "publisher": "Bertelsmann, Guetersloh; bibliographic verification via WALS Online",
+      "url": "https://wals.info/refdb/record/Nottrott-1882",
+      "author": "Alfred Nottrott",
+      "year": 1882,
+      "notes": "WALS verifies Alfred Nottrott's 1882 Grammatik der Kolh-Sprache, published in Guetersloh by Bertelsmann, and links the work to Mundari (ISO unr) with linguistic fields including syntax, typology and general linguistics. Register as a historical grammar source lead. WALS datapoint linkage is bibliographic/typological metadata; any grammatical proposition must be checked against the work with an exact locator and historical-source framing.",
+      "verification_state": "trusted_bibliographic_metadata_verified",
+      "access_class": "public_bibliographic_metadata_full_text_rights_unresolved",
+      "rights_note": "WALS metadata is openly licensed, but that licence does not determine rights in the underlying 1882 scan, modern reprints, transcriptions, or derivative editions. Item-level holding and digitization terms must be checked before reuse."
+    },
+    {
+      "id": "WEB-MUN-0052",
+      "title": "Phonetic Correlates of Syllable Prominence in Mundari",
+      "source_class": "peer_reviewed_conference_phonetics_paper",
+      "publisher": "ISCA Archive / Second International Conference on Tone and Intonation",
+      "url": "https://www.isca-archive.org/tai_2023/horo23_tai.html",
+      "author": "Luke Horo; Pamir Gogoi; Gregory D. S. Anderson",
+      "year": 2023,
+      "notes": "ISCA Archive verifies the paper presented at the Second International Conference on Tone and Intonation, Singapore, 18-20 November 2023, DOI 10.21437/TAI.2023-17. The study reports acoustic analysis of Mundari speech produced by male and female speakers. Register as a modern phonetics/prosody research lead; findings must remain study-bounded and any speaker-derived audio/data must be governed by the paper's data, consent and access conditions before ingestion.",
+      "verification_state": "conference_archive_metadata_verified",
+      "access_class": "public_conference_paper_metadata_and_pdf",
+      "rights_note": "Public conference-paper access does not automatically authorize redistribution of underlying recordings, speaker data or derived datasets. Any reuse of participant-derived material requires source-specific consent/data-governance and MLHKP cultural-access review."
+    }
+  ]
+}

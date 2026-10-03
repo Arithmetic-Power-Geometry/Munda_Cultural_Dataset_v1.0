@@ -1,0 +1,36 @@
+{
+  "audit_id": "LSI-JHARKHAND-MUNDARI-RUN297",
+  "run_id": 297,
+  "audit_date": "2026-09-13",
+  "source_family": "ORGI Linguistic Survey of India",
+  "source_title": "Linguistic Survey of India - Jharkhand",
+  "official_host": "censusindia.gov.in",
+  "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "verification_level": "first_party_official_locator_and_indexed_text_only",
+  "verified": {
+    "official_ORGI_pdf_locator": true,
+    "mundari_section_exposed_by_official_index": true,
+    "official_index_exposes_2011_census_speaker_figures_and_descriptive_context": true
+  },
+  "not_verified": {
+    "byte_preserving_pdf_acquisition": true,
+    "independent_file_hash": true,
+    "complete_pdf_page_inventory": true,
+    "printed_page_to_pdf_page_concordance": true,
+    "page_image_visual_verification": true,
+    "ocr_verification": true,
+    "participant_consent": true,
+    "community_validation": true,
+    "cultural_access_permission": true
+  },
+  "retrieval_note": "The official Census/ORGI search index exposes Mundari-section text from LSI_JHARKHAND.pdf. A direct PDF open attempt during Run 297 returned HTTP 502 Bad Gateway, so the indexed text is not treated as independently verified PDF bytes or page-image evidence.",
+  "promotion_policy": "Do not promote indexed linguistic/cultural statements, counts, examples or forms into controlled MLHKP public evidence until byte integrity, exact page provenance and applicable governance gates are satisfied. Source identity and official locator may be retained.",
+  "rights_governance": {
+    "public_availability_is_not_permission": true,
+    "cultural_access_overrides_technical_or_legal_entitlement": true,
+    "participant_or_community_permissions_inferred": false
+  },
+  "count_effect": "none",
+  "claim_effect": "none",
+  "evidence_effect": "verification audit only"
+}

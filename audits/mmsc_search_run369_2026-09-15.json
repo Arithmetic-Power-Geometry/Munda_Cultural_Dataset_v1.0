@@ -1,0 +1,61 @@
+{
+  "search_id": "MMSC-SEARCH-000369",
+  "run": 369,
+  "date_utc": "2026-09-14T21:42:00Z",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census refresh",
+  "controlled_classes_refreshed": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_TRI_Census_LSI_materials",
+    "archives",
+    "newspapers",
+    "web_resources",
+    "datasets",
+    "audio",
+    "video",
+    "maps",
+    "relevant_media"
+  ],
+  "class_count": 14,
+  "new_exact_locator_promotions": [
+    {
+      "provider": "Ministry of Tribal Affairs Tribal Repository",
+      "record_id": "SCST/2016/0055",
+      "title": "Mundari",
+      "institution": "SCSTRTI, Bhubaneswar",
+      "filename": "SCST_2016_handbook_0055.pdf",
+      "provider_reported_size": "108.3 MB",
+      "provider_pagination": 32,
+      "promotion_level": "official provider + exact manifestation locator only"
+    }
+  ],
+  "negative_or_discovery_only_checks": [
+    "Nirang Pajhra remains secondary-indexed pending authoritative current RNI title-level verification",
+    "news reports remain discovery/context unless exact claims are separately provenance-qualified",
+    "third-party Cook 1965 downloadable copies remain excluded absent sufficient reuse basis",
+    "archival/audio/video leads remain unpromoted without rights/consent/cultural-access closure"
+  ],
+  "rights_and_uncertainty_rule": "Provider visibility or an official repository locator does not itself establish item-level reuse permission, community validation, participant consent or cultural-access authorization.",
+  "controlled_metric_effect": {
+    "audited_source_identities_changed": false,
+    "claims_changed": false,
+    "evidence_records_changed": false,
+    "provenance_links_changed": false,
+    "streamlit_module_count_changed": false,
+    "publication_numeric_tables_figures_changed": false
+  },
+  "open_followups": [
+    "materialize SCST_2016_handbook_0055.pdf where permitted and compute SHA-256",
+    "verify binary page inventory",
+    "establish item-level reuse terms before content promotion",
+    "perform passage-level provenance and cultural-access review before any ethnographic claim promotion",
+    "continue deterministic WEB-MUN dispositions",
+    "continue Census/LSI/Atlas materialization attempts",
+    "continue ASJP/WALS/PHOIBLE/Grambank source trace-back",
+    "continue ELAR/PARADISEC/TLA and audiovisual governance resolution"
+  ]
+}

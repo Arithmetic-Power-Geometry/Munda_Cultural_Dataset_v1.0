@@ -1,0 +1,100 @@
+{
+  "verification_id": "MLHKP-VERIFY-2026-09-09-BMC-NUTRITION-01",
+  "verified_utc": "2026-09-09T11:47:00Z",
+  "source_class": "peer_reviewed_open_access_article",
+  "title": "Indigenous food environment and dietary patterns of Munda community of Jharkhand, India",
+  "authors": [
+    "Suparna Ghosh-Jerath",
+    "Ridhima Kapoor",
+    "Naina Gandhi",
+    "Swati C. Nair",
+    "Aman Rastogi",
+    "Arpita Ghosh"
+  ],
+  "journal": "BMC Nutrition",
+  "volume": "11",
+  "article_number": "189",
+  "year": 2025,
+  "published": "2025-10-21",
+  "doi": "10.1186/s40795-025-01159-2",
+  "pmcid": "PMC12539013",
+  "pmid": "41121309",
+  "publisher": "BioMed Central / Springer Nature",
+  "authoritative_access": {
+    "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12539013/",
+    "publisher_url": "https://link.springer.com/article/10.1186/s40795-025-01159-2",
+    "access_state": "open_full_text_html",
+    "page_image_verification": false,
+    "locator_mode": "publisher/PMC HTML section-level exact locator"
+  },
+  "rights_and_access": {
+    "article_license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "article_text_reuse_permitted_subject_to_license": true,
+    "third_party_material_requires_credit_line_check": true,
+    "underlying_participant_dataset_reuse_permission_verified": false,
+    "participant_consent_is_not_dataset_reuse_permission": true,
+    "cultural_access_may_override_legal_or_technical_entitlement": true,
+    "data_availability": "Datasets used and analysed are available from the corresponding author on reasonable request."
+  },
+  "scope": {
+    "geography": "Murhu and Torpa blocks, Khunti district, Jharkhand, India",
+    "population_scope": "Munda-community households sampled in the reported study; not automatically representative of all Munda communities",
+    "study_design": "cross-sectional household study with seasonal dietary assessment component",
+    "time_scope": "monsoon August 2019 and winter January 2020",
+    "topic": "food environment, household dietary patterns, food-access diversity and nutrition transition"
+  },
+  "exact_locators": [
+    {
+      "locator": "Abstract > Methods",
+      "supported_evidence": "The article reports a cross-sectional study in 201 Munda-community households in Jharkhand; household surveys measured socio-demographic and food-access profiles and FFQs assessed household dietary intake in monsoon and winter subsamples.",
+      "promotion_boundary": "study-design evidence only; no household-level participant records ingested"
+    },
+    {
+      "locator": "Methodology > Study design and locale",
+      "supported_evidence": "The reported field sites are two blocks of Khunti district, with data collection in August 2019 and January 2020 to capture seasonal dietary variation.",
+      "promotion_boundary": "geography/time/method evidence only"
+    },
+    {
+      "locator": "Methodology > Sampling framework",
+      "supported_evidence": "Murhu and Torpa were purposively selected; 201 eligible households completed the household survey, with FFQs administered to 160 households in monsoon and 100 in winter and 49 households covered in both seasons.",
+      "promotion_boundary": "sample-accounting evidence only; no participant identities or raw records ingested"
+    },
+    {
+      "locator": "Methodology > Study procedures",
+      "supported_evidence": "The article states that community-based participatory principles were integrated in tool development and data collection, that Munda youth participated in free-listing enquiries, and that Indigenous community members served as enumerators/local-language contextualizers.",
+      "promotion_boundary": "reported research-process evidence only; not community-wide endorsement or validation"
+    },
+    {
+      "locator": "Declarations > Ethics approval and consent to participate",
+      "supported_evidence": "The article reports ethics approvals from IIPH-Delhi/PHFI and AIIMS New Delhi, district administrative approvals, cluster-level consents from village leaders, participant confidentiality assurances, and informed-consent procedures including witnessed verbal consent for participants unable to read/write and written consent for literate participants.",
+      "promotion_boundary": "evidence of authors' reported study ethics/consent procedures only; does not authorize MLHKP redistribution of participant-derived material"
+    },
+    {
+      "locator": "Data availability",
+      "supported_evidence": "The article states that study datasets are available from the corresponding author on reasonable request.",
+      "promotion_boundary": "dataset-existence/access-condition metadata only; no dataset access or reuse permission inferred"
+    }
+  ],
+  "evidence_decision": {
+    "status": "exact_locator_article_evidence_permitted_with_participant_data_gated",
+    "promote_article_level_method_and_scope_metadata": true,
+    "promote_underlying_raw_data": false,
+    "promote_participant_quotations_or_free_list_content": false,
+    "promote_food_item_or_traditional_knowledge_lists_without_item_level_cultural_review": false,
+    "reason": "The peer-reviewed article is openly licensed and has exact HTML section locators, but the underlying household data, free-list material and participant-derived traditional knowledge remain separately consent/rights/cultural-access gated."
+  },
+  "canonicalization": {
+    "identity_key": "doi:10.1186/s40795-025-01159-2",
+    "pmcid_is_manifestation_locator_not_separate_work": true,
+    "springer_and_pmc_pages_are_same_article_work": true,
+    "duplicate_permanent_identity_created": false
+  },
+  "non_inferences": [
+    "No claim that the study sample represents all Munda communities, districts or periods.",
+    "No claim that participant consent permits public release of raw or identifiable participant data.",
+    "No claim that article CC BY 4.0 automatically licenses separately owned third-party material or underlying datasets.",
+    "No community-wide validation or endorsement is inferred.",
+    "No sensitive food, medicinal, ritual, sacred or ecological knowledge is promoted solely because it appears in an open article.",
+    "No page-image verification is claimed; this record uses authoritative HTML section-level locators."
+  ]
+}

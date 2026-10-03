@@ -1,0 +1,67 @@
+{
+  "audit_run": 534,
+  "audit_date": "2026-09-20",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "container_title": "Linguistic Typology",
+    "volume": 9,
+    "issue": 3,
+    "pages": "351-390",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "publisher": "Walter de Gruyter",
+    "source_class": "peer-reviewed journal article / grammar-typology",
+    "scope": "Mundari language; word-class analysis",
+    "language_of_publication": "English"
+  },
+  "identity_verification": {
+    "primary_provider": "De Gruyter",
+    "secondary_provider": "Australian National University Open Research",
+    "anu_handle": "1885/17321",
+    "verified_fields": ["title", "authors", "year", "journal", "volume", "issue", "page range", "DOI"],
+    "identity_status": "verified"
+  },
+  "locator_status": {
+    "article_locator": "Linguistic Typology 9(3), pp. 351-390",
+    "doi_locator": "10.1515/lity.2005.9.3.351",
+    "exact_claim_locator_status": "pending lawful full-text/page concordance",
+    "discovery_only": false,
+    "locator_ready": true
+  },
+  "rights_access": {
+    "anu_repository_access": "metadata/repository record publicly discoverable",
+    "publisher_access": "publisher landing page publicly discoverable; full-text reuse rights not established by this audit",
+    "redistribution_permission": "unverified",
+    "binary_ingestion": "not permitted until manifestation-level rights and immutable capture are resolved"
+  },
+  "consent_cultural_access": {
+    "participant_consent_for_dataset_reuse": "unverified/not established by bibliographic access",
+    "cultural_access_status": "unverified",
+    "rule": "publication does not imply reusable consent for underlying elicitation, recordings, field notes, or culturally restricted material"
+  },
+  "dependency_independence": {
+    "status": "requires claim-level review",
+    "rule": "claims attributed by Evans and Osada to prior grammars, dictionaries, corpora, consultants, or other publications must not be counted as independent corroboration of those upstream sources"
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.1515/lity.2005.9.3.351",
+    "merge_rule": "publisher, ANU repository, DOI resolver, catalogue and citation manifestations resolve to one intellectual work unless a materially distinct version is demonstrated"
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "article identity and article-level locator are verified, but exact claim/page locators, manifestation hash, reuse rights, dependency tagging, and participant/cultural-access review remain incomplete"
+  },
+  "next_actions": [
+    "obtain a lawful immutable full-text manifestation where permitted and calculate SHA-256",
+    "verify printed-page/PDF-page concordance",
+    "extract Mundari-specific propositions with exact printed-page locators",
+    "tag every promoted proposition as author analysis, primary field observation, or upstream-derived statement",
+    "resolve redistribution rights before storing any article binary or substantial text",
+    "preserve unresolved participant-consent and cultural-access questions as explicit gaps"
+  ],
+  "release_policy": "No cultural or linguistic claim is promoted solely from bibliographic metadata or an abstract. Unavailable, restricted, dependent, or unverified material remains an explicit gap."
+}

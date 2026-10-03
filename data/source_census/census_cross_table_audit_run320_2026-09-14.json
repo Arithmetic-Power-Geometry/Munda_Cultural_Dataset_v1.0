@@ -1,0 +1,13 @@
+{
+  "run": 320,
+  "date_utc": "2026-09-13T19:45:00Z",
+  "scope": "non-Mundarica government Census source census",
+  "sources": [
+    {"id":"PC01_C17-20","declared_file":"PC01_C17_20.xls","locator":"https://censusindia.gov.in/nada/index.php/catalog/22932","bytes_acquired":false,"exact_numeric_cells_verified":false,"numeric_claims_promoted":0},
+    {"id":"PC11_C17-20","declared_file":"DDW-C17-2000.XLSX","locator":"https://censusindia.gov.in/nada/index.php/catalog/10282","bytes_acquired":false,"exact_numeric_cells_verified":false,"numeric_claims_promoted":0},
+    {"id":"PC11_ST15-20","declared_file":"ST-20-00-15-DDW-2011.XLSX","locator":"https://censusindia.gov.in/nada/index.php/catalog/12552","bytes_acquired":false,"exact_numeric_cells_verified":false,"numeric_claims_promoted":0}
+  ],
+  "verified_metadata": ["Jharkhand scope","ORGI first-party catalogue identity","declared workbook names","ST-15 Munda Patar tribe label","ST-15 MUNDA and MUNDARI mother-tongue labels"],
+  "promotion": {"new_controlled_sources":0,"new_claims":0,"new_evidence_records":0,"new_evidence_links":0},
+  "boundary": "Catalogue metadata is verified; workbook bytes and exact numerical cells remain unverified and are not promoted."
+}

@@ -1,0 +1,55 @@
+{
+  "audit_id": "MLHKP-RUN524-EZCC-FOLK-DANCES-JHARKHAND",
+  "run": 524,
+  "audit_date": "2026-09-20",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census; government cultural-centre video, dance/media, exact timestamp evidence",
+  "canonical_source": {
+    "creator": "Eastern Zonal Cultural Centre",
+    "title": "Folk Dances of Jharkhand - Documentary - EZCC",
+    "publication_date": "2022-09-27",
+    "youtube_video_id": "jcaVTX0BCtQ",
+    "commons_file": "File:Folk Dances of Jharkhand - Documentary - EZCC.webm",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+    "duration_seconds": 2370.695,
+    "dimensions": "720x480",
+    "media_type": "video/webm",
+    "commons_reported_size_bytes": 531678981,
+    "commons_reported_sha1": "eb3421c6428ea386f8f340520ab9aa0672de6000"
+  },
+  "verified_exact_locators": [
+    {"locator":"00:06:00","provider_label":"Mundari","evidence_type":"video/timestamp/provider-labelled cultural segment","promotion_state":"exact_external_locator_ready_not_promoted"},
+    {"locator":"00:11:12","provider_label":"Mundari (Marriage)","evidence_type":"video/timestamp/provider-labelled cultural segment","promotion_state":"exact_external_locator_ready_not_promoted"},
+    {"locator":"00:04:28","provider_label":"Paika (Munda community)","evidence_type":"video/timestamp/provider-labelled cultural segment","promotion_state":"exact_external_locator_ready_not_promoted"}
+  ],
+  "rights_and_ethics": {
+    "license": "CC BY 3.0 Unported",
+    "attribution": "Eastern Zonal Cultural Centre",
+    "commons_license_review_date": "2023-01-20",
+    "commons_reviewer_confirmed_original_youtube_license": true,
+    "redistribution_under_license_in_principle": true,
+    "participant_performer_consent_for_dataset_reuse_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false,
+    "notes": "Commons records that the original YouTube video was available under CC BY 3.0 and that the licence was reviewed on 2023-01-20. Copyright licensing does not establish participant/performer consent or community-wide cultural clearance. No media binary or cultural claim is promoted in this run."
+  },
+  "deduplication": {
+    "canonicalization_rule": "Original EZCC YouTube video, Wikimedia Commons copy, archive manifestations, transcodes, thumbnails and search snippets are manifestations of one underlying documentary identity, not independent corroborating sources.",
+    "transcodes_are_not_independent_sources": true,
+    "timestamp_labels_are_provider_metadata_not_independent_ethnographic_validation": true
+  },
+  "promotions": {"cultural_claims":0,"evidence_records":0,"binary_assets":0},
+  "blocked_or_pending": [
+    "Participant/performer consent for MLHKP reuse is not established by the copyright licence.",
+    "Community validation and cultural-access status of the labelled dance segments are not established.",
+    "Commons reports SHA-1; a locally acquired lawful manifestation and locally calculated SHA-256 are still required before binary ingestion.",
+    "Segment boundaries/end-times and any performer/location identities require direct member-level review before promotion.",
+    "Provider labels at 00:06:00, 00:11:12 and 00:04:28 must not be expanded into cultural claims beyond what the source explicitly labels."
+  ],
+  "audit_invariants_added": [
+    "open copyright licence does not equal participant or performer consent",
+    "provider timestamp label does not equal community validation",
+    "transcode or mirror multiplicity does not equal independent corroboration",
+    "provider-reported checksum does not equal locally verified SHA-256"
+  ]
+}

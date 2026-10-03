@@ -1,0 +1,73 @@
+{
+  "run": 615,
+  "audit_date": "2026-09-24",
+  "canonical_work": {
+    "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+    "authors": ["Laxmi Kumari", "Mojibur Rahman"],
+    "year": 2021,
+    "journal": "Problemy Ekorozwoju",
+    "volume": "16",
+    "issue": "1",
+    "pages": "181-185",
+    "doi": "10.35784/pe.2021.1.19",
+    "publisher_landing": "https://ph.pollub.pl/index.php/preko/article/view/5271",
+    "published": "2021-01-04"
+  },
+  "source_class": ["peer_reviewed_article", "web_fulltext_metadata", "livelihood_environment"],
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["livelihood", "sustainable development", "non-wood forest products", "women", "forest-resource use"],
+    "scope_warning": "Publisher abstract frames broad Munda/Jharkhand conclusions; do not generalize to all Munda communities, localities, periods, households, or genders without inspecting the article's empirical design and exact supporting passages."
+  },
+  "identity_verification": {
+    "publisher_metadata_verified": true,
+    "doi_verified": true,
+    "author_affiliation_visible": "Department of Humanities and Social Sciences, Indian Institute of Technology (ISM), Dhanbad, Jharkhand, India",
+    "journal_pages_visible": "181-185",
+    "repository_exact_title_precheck": "no match returned before insertion"
+  },
+  "rights_access": {
+    "landing_page_public": true,
+    "pdf_link_exposed_by_publisher": true,
+    "article_page_license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "rights_caution": "Verify the downloaded article manifestation and any embedded third-party material before redistribution; public access and page-level license metadata do not waive cultural-governance review."
+  },
+  "exact_locator_conversion": {
+    "state": "queued_not_promoted",
+    "publisher_html_locators_verified": [
+      "article metadata/title: publisher page lines 40-49",
+      "issue/article pagination: publisher page lines 165-168",
+      "authors/affiliation: publisher page lines 251-265",
+      "abstract: publisher page lines 266-269",
+      "bibliographic citation: publisher page lines 298-306",
+      "license: publisher page lines 326-330"
+    ],
+    "required_before_controlled_promotion": [
+      "obtain and hash authoritative publisher PDF manifestation",
+      "verify printed-page/PDF-page concordance for pp.181-185",
+      "inspect empirical design, locality, sample, data-collection method and dates",
+      "separate primary observations/data from author interpretation and secondary citations",
+      "create proposition-level exact page/section/table locators",
+      "inspect ethics/consent and participant provenance where human testimony/data are used",
+      "apply temporal/geographic/community scope tags",
+      "verify reuse status of any figures/tables/third-party material",
+      "apply cultural-sensitivity/governance review before exposing detailed knowledge"
+    ]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Identity, pagination, abstract and license are verified, but proposition-level promotion would be premature without PDF manifestation/hash, methods/sample/locality inspection and exact supporting locators."
+  },
+  "deduplication": {
+    "canonical_key": "doi:10.35784/pe.2021.1.19",
+    "rule": "DOI, publisher landing page, PDF, Crossref/index records and mirrors are manifestations/indexes of one work and must not be counted as independent corroboration."
+  },
+  "audit_notes": [
+    "The abstract states that the study concerns Munda livelihood/sustainable-development perceptions and discusses NWFP use and women's importance; these are discovery/scope statements only until exact article evidence is inspected.",
+    "The article references earlier works including S. C. Roy and other tribal/livelihood literature; downstream statements must be dependency-tagged rather than treated automatically as independent field evidence.",
+    "No cultural claim or controlled count was fabricated in this run."
+  ]
+}

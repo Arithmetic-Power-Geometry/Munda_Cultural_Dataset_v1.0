@@ -1,0 +1,30 @@
+{
+  "run": 322,
+  "audit_date": "2026-09-14",
+  "scope": "Census of India 2011 Jharkhand workbook acquisition boundary",
+  "sources": [
+    {
+      "reference": "PC11_ST15-20",
+      "declared_filename": "ST-20-00-15-DDW-2011.XLSX",
+      "first_party_endpoint": "https://censusindia.gov.in/nada/index.php/catalog/12552/download/15665/ST-20-00-15-DDW-2011.XLSX",
+      "acquisition_state": "blocked_retrieval_failed",
+      "bytes_verified": false,
+      "hash_verified": false,
+      "sheet_inventory_verified": false,
+      "numeric_cells_verified": false
+    },
+    {
+      "reference": "PC11_C17-20",
+      "declared_filename": "DDW-C17-2000.XLSX",
+      "first_party_endpoint": "https://censusindia.gov.in/nada/index.php/catalog/10282/download/13394/DDW-C17-2000.XLSX",
+      "acquisition_state": "blocked_retrieval_failed",
+      "bytes_verified": false,
+      "hash_verified": false,
+      "sheet_inventory_verified": false,
+      "numeric_cells_verified": false
+    }
+  ],
+  "promotion_boundary": "Catalogue metadata and exact first-party download endpoints may be recorded. No workbook-derived numerical claim is promoted until bytes are acquired and independently hashed, sheets inventoried, and cited cells verified.",
+  "cultural_access_rule": "Technical retrievability or entitlement does not override cultural-access restrictions or community-governance requirements.",
+  "notes": "Both exact first-party endpoints were resolved and retrieval was attempted in Run 322, but independent workbook bytes were not acquired. This audit therefore records a reproducible acquisition blocker rather than treating the workbooks as processed."
+}

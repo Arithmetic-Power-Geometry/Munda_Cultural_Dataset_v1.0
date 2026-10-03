@@ -1,0 +1,45 @@
+{
+  "run": 657,
+  "audit_date_utc": "2026-09-28",
+  "branch": "mlhkp-v2",
+  "source_class": "government_language_resource",
+  "provider": "Bharatavani",
+  "implementing_institution": "Central Institute of Indian Languages (CIIL), Mysuru",
+  "ministry": "Ministry of Education, Government of India",
+  "language_scope": "Mundari",
+  "canonical_resource_family": "Bharatavani Mundari dictionaries",
+  "verified_resources": [
+    "Mundari Muhavara Kosh",
+    "टुङकोढारि अर्थात् मुण्डारी शब्दकोश | Mundari Dictionary (Mundari-English-Hindi)"
+  ],
+  "provider_url": "https://bharatavani.in/mundari/dictionaries",
+  "access": {
+    "public_catalogue": true,
+    "provider_exposes_pdf_and_browse_search_routes": true,
+    "copyright_notice": "© Copyright Bharatavani. All Rights Reserved",
+    "redistribution_permission_established": false
+  },
+  "evidence_boundary": {
+    "promoted_cultural_claims": 0,
+    "promoted_lexical_entries": 0,
+    "reason": "Provider identity and resource titles are verified, but edition/compiler/date, stable PDF manifestation, pagination/hash, dialect/provenance and entry-level reuse status require resolution before lexical evidence promotion."
+  },
+  "canonicalization": {
+    "github_default_branch_search_exact_title_hits": 0,
+    "branch_absence_proven": false,
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0
+  },
+  "next_conversion": [
+    "Resolve stable PDF manifestations for both dictionaries",
+    "Capture compiler/editor, edition/date, pagination and cryptographic hash",
+    "Inspect front matter for dialect/source/provenance statements",
+    "Determine permitted quotation/redistribution boundary",
+    "Create exact page/entry locators only after provenance and rights checks",
+    "Reconcile against MMSC/WEB-MUN before any controlled count change"
+  ],
+  "audit_note": "Public availability and browse/search functionality do not establish redistribution permission. No lexical or cultural proposition is promoted from catalogue metadata alone."
+}

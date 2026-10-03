@@ -1,0 +1,31 @@
+{
+  "search_id": "MMSC-SEARCH-000340",
+  "run": 340,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census refresh",
+  "classes": [
+    {"class":"books","status":"refreshed","examples":["Hoffmann, Mundari Grammar; other monographs already in controlled leads"],"action":"deduplicate against numbered register before count changes"},
+    {"class":"dictionaries","status":"refreshed","examples":["TRI Jharkhand Mundari-Hindi and Hindi-Mundari catalogue records"],"action":"retain catalogue-level where bytes/rights unavailable"},
+    {"class":"grammars","status":"refreshed","examples":["CIIL N. K. Sinha Mundari Grammar; Hoffmann grammar"],"action":"continue primary-byte/page/hash verification"},
+    {"class":"peer_reviewed_articles","status":"refreshed","examples":["Mundari Khuntkatti article; Evans & Osada; Murugesan et al.; Munda information-structure studies"],"action":"promote only bibliographic/page evidence where supported; no cultural/fieldwork claim promotion without governance review"},
+    {"class":"theses_dissertations","status":"refreshed","examples":["Cook Georgetown dissertation and other thesis/dissertation leads"],"action":"verify institutional manifestation and rights before content ingestion"},
+    {"class":"government_TRI_Census_LSI","status":"refreshed","examples":["ORGI C-16/C-17/ST-15/ST-16; LSI Jharkhand/West Bengal; TRI catalogues"],"action":"workbook/PDF byte, hash, sheet/page and exact-cell verification remains open"},
+    {"class":"archives","status":"refreshed","examples":["institutional repositories and historical bibliographic/archive manifestations"],"action":"canonicalize duplicate manifestations and preserve access restrictions"},
+    {"class":"newspapers","status":"refreshed","examples":["current and archived Mundari/Munda reporting leads"],"action":"retain only source-supported non-cultural factual metadata unless article rights and claim provenance are verified"},
+    {"class":"web_resources","status":"refreshed","examples":["Languages Home Learn Mundari page"],"action":"Run 340 records exact endpoint-level locator evidence; content/rights/consent remain unpromoted"},
+    {"class":"datasets","status":"refreshed","examples":["AdiBhashaa; Karya Hindi-Mundari translation; Rau 2019; ELR-1000"],"action":"AdiBhashaa exact Mundari path recorded; gated bytes/hash/exact row count remain open"},
+    {"class":"audio","status":"refreshed","examples":["Karya Mundari TTS; CIET/NCERT Barkhaa; Languages Home MP3 endpoints"],"action":"retain speaker consent/community/cultural-access boundaries; no audio-content promotion this run"},
+    {"class":"video","status":"refreshed","examples":["institutional/community documentary and web video leads"],"action":"exclude homonyms and require consent/rights/community-access review"},
+    {"class":"maps","status":"refreshed","examples":["Munda/Mundari language-map leads and atlas resources"],"action":"verify primary map provenance/license before promotion"},
+    {"class":"relevant_media","status":"refreshed","examples":["documentary, educational and community media leads"],"action":"metadata only unless rights, identity and cultural-access conditions support deeper ingestion"}
+  ],
+  "homonym_filter": "South Sudan Mandari/Mundari and personal-name false positives remain outside target scope unless independently demonstrated to concern the Indian Munda/Mundari language/community.",
+  "blocked_or_gated": [
+    {"source":"AdiBhashaa","state":"gated","reason":"file access requires login and agreement to share contact information/accept provider conditions","response":"record exact provider metadata and file path; do not bypass gate"},
+    {"source":"Karya full Mundari TTS corpus","state":"restricted_by_distribution_workflow","reason":"provider requests email contact for full dataset","response":"record public repository/sample/checksum manifestations; do not infer full-data permission"}
+  ],
+  "counting_rule":"Fresh discovery and locator improvements do not change MMSC controlled counts without deterministic numbered-register reconciliation.",
+  "claims_promoted":0,
+  "evidence_records_added_to_controlled_graph":0
+}

@@ -1,0 +1,62 @@
+{
+  "project": "MLHKP",
+  "run": 532,
+  "branch": "mlhkp-v2",
+  "audit_date": "2026-09-20",
+  "source_class": ["museum collection", "material culture", "musical instrument", "image/object metadata", "web resource"],
+  "canonical_source": {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Santal or Munda Fiddle (Huka Banam)",
+    "date": "19th century",
+    "geography": "Eastern India, possibly Jharkhand",
+    "medium": "wood and hide",
+    "classification": "musical instruments",
+    "object_number": "2022.299",
+    "credit_line": "Purchase, Amati Gifts, 2022",
+    "landing_page": "https://www.metmuseum.org/art/collection/search/883315",
+    "rights_label": "Public Domain"
+  },
+  "scope": {
+    "community_attribution": "Santal or Munda; provider attribution is explicitly uncertain/disjunctive",
+    "location": "Eastern India, possibly Jharkhand",
+    "topics": ["material culture", "musical instrument", "fiddle", "museum object", "historical collection"],
+    "mlhkp_scope_rule": "Do not collapse 'Santal or Munda' into a Munda-only attribution; retain provider uncertainty exactly."
+  },
+  "identity_verification": {
+    "status": "verified_at_museum_collection_page",
+    "provider_metadata_verified": ["title", "date", "geography", "medium", "dimensions", "classification", "credit line", "object number", "public-domain label"],
+    "notes": "Treat collection page, Open Access API metadata, image manifestations and catalogue references as manifestations/dependencies of one museum object identity unless separately proven otherwise."
+  },
+  "locator_state": {
+    "level": "exact_object_locator_ready",
+    "exact_locator": "The Met object 2022.299 / collection record 883315",
+    "exact_cultural_attribution": "unresolved: Santal or Munda",
+    "immutable_local_sha256": "pending lawful image/data capture if ingested"
+  },
+  "rights_access_consent_cultural_review": {
+    "object_record_access": "public web access",
+    "image_rights": "provider marks object/image context Public Domain and describes Open Access public-domain images as reusable; manifestation-specific verification still required before binary ingestion",
+    "community_validation": "not established",
+    "cultural_access_status": "unresolved",
+    "consent_applicability": "historical museum object; no participant consent claim inferred",
+    "rule": "Public-domain status does not resolve cultural attribution, community authority, sacred/restricted status, provenance completeness, or appropriateness of cultural reuse."
+  },
+  "dependency_and_deduplication": {
+    "canonical_key": "met-object:2022.299",
+    "deduplicate": ["Met collection page", "Met Open Access/API manifestations", "Met-hosted public-domain image manifestations", "search snippets"],
+    "independence_rule": "Do not count museum metadata and its API/image derivatives as independent corroborating sources; do not convert the provider's disjunctive 'Santal or Munda' attribution into a Munda cultural fact."
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "The object has an exact museum locator and favorable rights label, but Munda-specific attribution and cultural-access/community validation remain unresolved."
+  },
+  "next_actions": [
+    "query The Met Open Access API for object 2022.299 and preserve returned object metadata deterministically",
+    "if a public-domain primary image is obtained, record its exact manifestation URL and calculate local SHA-256",
+    "audit provenance and catalogue history for evidence that can distinguish or contextualize Santal versus Munda attribution",
+    "retain 'Santal or Munda' uncertainty unless a stronger independent source resolves it",
+    "promote only object-level evidence that passes provenance, rights and cultural-access gates"
+  ]
+}

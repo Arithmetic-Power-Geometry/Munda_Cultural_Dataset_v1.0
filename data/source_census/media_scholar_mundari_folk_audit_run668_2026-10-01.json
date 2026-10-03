@@ -1,0 +1,65 @@
+{
+  "run": 668,
+  "audit_date": "2026-10-01",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed/article-like web publication",
+  "canonical_identity": {
+    "title": "Rural Cultural Communication: Mundari Folk and Reflection of Daily Struggle",
+    "author": "Shubham Kumar",
+    "publication": "Media Scholar",
+    "volume": "2",
+    "issue": "1",
+    "year": 2024,
+    "pages": "52-59",
+    "published": "2024-08-21",
+    "url": "https://mediascholar.in/paper/cmnoar4dw001f7wb64gr6html"
+  },
+  "verification": {
+    "provider_record_verified": true,
+    "full_text_provider_labels": "Full Text Available; Open-access; Free to read and download",
+    "repository_filename_match_for_media_scholar": false,
+    "note": "Provider metadata/abstract verified. No DOI, stable downloadable manifestation identifier, explicit reuse licence, methods/participant provenance, or community-consent statement established in this audit."
+  },
+  "scope": {
+    "target_relevance": "Munda/Mundari folk communication, art, song/dance and cultural identity",
+    "classification": "candidate secondary/synthetic cultural source",
+    "uncertainty": "Accessible abstract contains broad cultural assertions. They are not treated as field-supported or independently verified propositions."
+  },
+  "rights_access_consent": {
+    "access": "provider says open-access/free to read and download",
+    "redistribution": "UNVERIFIED; open access is not treated as a redistribution licence",
+    "participant_consent": "UNVERIFIED",
+    "community_consent": "UNVERIFIED",
+    "cultural_access": "REVIEW_REQUIRED"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0,
+    "decision": "DO_NOT_PROMOTE",
+    "reason": "Requires authoritative full-text/manifestation verification, methods and dependency audit, exact page locators, explicit reuse terms, and cultural/consent review."
+  },
+  "dedup": {
+    "branch_directory_filename_search_terms": [
+      "media_scholar",
+      "shubham_kumar",
+      "rural_cultural_communication"
+    ],
+    "deterministic_result": "No matching source-census filename found for media_scholar; this is a candidate-level signal only and does not prove absence from MMSC/WEB-MUN."
+  },
+  "next_actions": [
+    "obtain provider-authoritative full text and stable manifestation; record hash/byte size if lawfully downloadable",
+    "verify printed/PDF page concordance for pp.52-59",
+    "separate author synthesis from empirical observations and upstream citations proposition-by-proposition",
+    "verify reuse licence, participant/community consent and cultural-access status",
+    "reconcile deterministically against MMSC/WEB-MUN before assigning a controlled identity",
+    "promote only supported permitted exact-page evidence"
+  ],
+  "search_log_context": [
+    "Parallel sweep included grammar/dictionary, peer-reviewed literature, institutional repositories, media/audio-video, government/census and archive classes.",
+    "Known Sinha 1975, Bhaduri dictionary and EZCC 2022 hits were deterministically recognized as already represented source families and not duplicated.",
+    "Blocked/restricted sources remain gaps; no counts or cultural claims fabricated."
+  ]
+}

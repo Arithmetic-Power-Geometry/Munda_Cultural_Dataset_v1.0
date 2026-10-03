@@ -1,0 +1,52 @@
+{
+  "run": 132,
+  "date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "source_class": "government_census_catalogue_metadata",
+  "producer": "Office of the Registrar General & Census Commissioner, India",
+  "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+  "reference_id": "PC11_C16-20",
+  "reference_number": "PC11_C16",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10207",
+  "download_filename_listed": "DDW-C16-STMT-MDDS-2000.xlsx",
+  "geographic_scope": "Jharkhand",
+  "year": 2011,
+  "catalogue_row_metadata_verified": [
+    {
+      "language_group_code": 91,
+      "catalogue_label": "MUNDA",
+      "listed_child_labels": ["Kol", "Munda", "91 Others"]
+    },
+    {
+      "language_group_code": 92,
+      "catalogue_label": "MUNDARI",
+      "listed_child_labels": ["Mundari", "92 Others"]
+    }
+  ],
+  "table_metadata_verified": {
+    "description": "Distribution of population by mother tongue and sex separately for total, rural and urban areas at India/State/District/Tahsil and town levels; mother tongues arranged alphabetically.",
+    "mother_tongue_variable": "HS_Q10",
+    "sex_variable": "HS_Q03",
+    "unit_of_observation": "Individual (person)"
+  },
+  "verification_boundary": {
+    "workbook_bytes_obtained": false,
+    "independent_checksum_computed": false,
+    "worksheet_verified": false,
+    "exact_row_numbers_verified": false,
+    "numeric_cells_verified": false,
+    "population_counts_promoted": false,
+    "note": "This artifact verifies only official catalogue-level identity, filename, table semantics and the listed Munda/Mundari row-code metadata. It does not verify workbook bytes, worksheet coordinates, numeric values, or any population count."
+  },
+  "canonicalization": {
+    "separate_from_2001_c16": true,
+    "separate_from_c16_city": true,
+    "count_bearing_source_identity_delta": 0
+  },
+  "integrity": {
+    "fabricated_counts": false,
+    "catalogue_metadata_treated_as_workbook_verification": false,
+    "numeric_claim_promoted": false,
+    "absolute_completeness_claimed": false
+  }
+}

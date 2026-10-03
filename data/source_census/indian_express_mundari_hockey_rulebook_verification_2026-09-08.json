@@ -1,0 +1,50 @@
+{
+  "verification_id": "MMSC-VERIFY-IE-MUNDARI-HOCKEY-2026-09-08",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-08T17:50:00Z",
+  "source_class": "newspaper_feature",
+  "title": "How to play hockey, written in ‘Mundari’: The story of a Jharkhand Bishop and a forgotten rule book",
+  "creator": "Soumi Das",
+  "publisher": "The Indian Express",
+  "published_at": "2023-10-18T13:17:00+05:30",
+  "canonical_url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/",
+  "verified_page_metadata": {
+    "headline_match": true,
+    "byline_match": true,
+    "publication_date_match": true,
+    "reported_historical_object": "a 23-page Mundari-language hockey rule book reported by the newspaper as first published in 1941 and priced at three annas",
+    "reported_author_context": "the article reports that Bishop Dilbar Hans wrote the rule book while serving as headmaster of St John’s Middle School at Murhu"
+  },
+  "scope_and_promotion_boundary": {
+    "allowed_repository_proposition": "The Indian Express published a 2023 feature reporting the existence and historical context of a Mundari-language hockey rule book attributed to Dilbar Hans and first published in 1941.",
+    "not_yet_promoted": [
+      "No claim about the surviving copy's completeness, custody, edition, pagination sequence, or exact wording is made without inspection of the primary object.",
+      "No broader claim about Munda sporting practice, prevalence of hockey, community endorsement, or present-day cultural meaning is inferred from this feature.",
+      "No newspaper text or image is copied into the public dataset beyond minimal bibliographic metadata and bounded paraphrase."
+    ]
+  },
+  "rights_access_governance": {
+    "article_publicly_accessible": true,
+    "newspaper_copyright_presumed_controlled_by_publisher": true,
+    "unrestricted_redistribution_established": false,
+    "primary_1941_rulebook_rights_or_public_domain_status_established": false,
+    "community_validation_inferred": false,
+    "cultural_access_override": true
+  },
+  "deterministic_identity_state": {
+    "permanent_mmsc_identity_assigned": false,
+    "reason": "The feature is verified as a media lead, but deterministic comparison against all preserved 87 web-discovery identities and the primary 1941 rulebook object has not been completed.",
+    "counts_changed": false
+  },
+  "evidence_readiness": {
+    "publisher_page_exact_locator_verified": true,
+    "primary_object_exact_locator_verified": false,
+    "promotion_state": "verified_media_lead_primary_object_followup_required"
+  },
+  "integrity": {
+    "cultural_fact_fabricated": false,
+    "rights_inferred_from_access": false,
+    "community_validation_fabricated": false,
+    "historical_report_treated_as_primary_source": false
+  }
+}

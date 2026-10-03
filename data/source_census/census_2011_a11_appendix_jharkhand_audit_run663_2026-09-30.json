@@ -1,0 +1,84 @@
+{
+  "run": 663,
+  "audit_date": "2026-09-30",
+  "stream": "non-Mundarica source census",
+  "source_class": "government/census/statistical table",
+  "canonical_candidate": {
+    "institution": "Office of the Registrar General & Census Commissioner, India",
+    "census_year": 2011,
+    "title": "A-11 Appendix: District wise scheduled tribe population (Appendix), Jharkhand - 2011",
+    "catalog_id": "43019",
+    "geography": "Jharkhand, India",
+    "scope_note": "Official Census catalogue enumerates district-wise Scheduled Tribe population and explicitly includes the category 'Munda, Patar' across Jharkhand districts."
+  },
+  "verification": {
+    "authority": "Census of India NADA catalogue",
+    "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/43019/study-description",
+    "exact_catalog_locator": "catalog/43019",
+    "munda_scope_verified": true,
+    "munda_label_as_catalogued": "Munda, Patar",
+    "districts_catalogued": [
+      "Garhwa",
+      "Chatra",
+      "Kodarma",
+      "Giridih",
+      "Deoghar",
+      "Godda",
+      "Sahibganj",
+      "Pakur",
+      "Dhanbad",
+      "Bokaro",
+      "Lohardaga",
+      "Purbi Singhbhum",
+      "Palamu",
+      "Latehar",
+      "Hazaribagh",
+      "Ramgarh",
+      "Dumka",
+      "Jamtara",
+      "Ranchi",
+      "Khunti",
+      "Gumla",
+      "Simdega",
+      "Pashchimi Singhbhum",
+      "Saraikella-Kharsawan"
+    ]
+  },
+  "deterministic_repository_index_checks": [
+    {
+      "query": "43019",
+      "matches": 0
+    },
+    {
+      "query": "A-11 Appendix",
+      "matches": 0
+    },
+    {
+      "query": "12523",
+      "matches": 0
+    },
+    {
+      "query": "ST-14 A",
+      "matches": 0
+    }
+  ],
+  "deduplication_state": "candidate; direct MMSC/WEB-MUN ledger reconciliation required before controlled identity assignment",
+  "evidence_promotion": {
+    "promoted": false,
+    "reason": "Catalogue identity and scope are verified, but authoritative downloadable table manifestation, checksum/size, exact Munda/Patar row and district cell coordinates, and redistribution determination have not yet been verified.",
+    "controlled_delta": 0
+  },
+  "interpretation_controls": [
+    "Treat 'Munda, Patar' as the Census table's administrative category; do not infer self-identification or cultural equivalence from the label alone.",
+    "Do not promote population values until cells are read from the authoritative table manifestation with exact row/column locators.",
+    "Public catalogue access is not treated as redistribution permission for the downloadable table file."
+  ],
+  "remaining_gaps": [
+    "retrieve authoritative A-11 Appendix table manifestation",
+    "record exact filename, bytes and checksum",
+    "verify Munda, Patar row and district columns/cells",
+    "determine reuse/redistribution status",
+    "reconcile against MMSC and WEB-MUN ledgers",
+    "only then atomize supported statistical evidence"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "audit_id": "MLHKP-RUN173-MMLoSo-2025",
+  "run": 173,
+  "checked_utc": "2026-09-10T16:55:00Z",
+  "source_identity": {
+    "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "authors": ["Pooja Singh", "Sandeep Chatterjee", "Gullal S. Cheema", "Amrit Singh Bedi", "Tanmoy Chakraborty", "Sandeep Kumar", "Ankita Shukla"],
+    "year": 2025,
+    "publisher": "Association for Computational Linguistics",
+    "venue": "Proceedings of the 1st Workshop on Multimodal Models for Low-Resource Contexts and Social Impact (MMLoSo 2025)",
+    "anthology_id": "2025.mmloso-1.14",
+    "pages": "121-129",
+    "canonical_url": "https://aclanthology.org/2025.mmloso-1.14/",
+    "pdf_url": "https://aclanthology.org/2025.mmloso-1.14.pdf",
+    "identity_state": "acl_anthology_metadata_and_authoritative_pdf_verified",
+    "repo_duplicate_search": "no exact Anthology ID match found in repository code search before this audit; incomplete search-index flag preserved, therefore no permanent count-bearing registration in this run"
+  },
+  "exact_locators": [
+    {
+      "printed_page": 121,
+      "pdf_page_index_zero_based": 0,
+      "section": "Abstract",
+      "supported_source_attribution": "The paper reports four task languages including Mundari, 20,000 parallel sentence pairs per language, a 16,000-sentence evaluation set in the abstract, 18 participating teams, and public release of datasets/baselines/outputs.",
+      "promotion_scope": "paper-reported benchmark metadata only"
+    },
+    {
+      "printed_page": 122,
+      "pdf_page_index_zero_based": 1,
+      "section": "2.1 Task Format / Table 1",
+      "supported_source_attribution": "The Mundari-Hindi training file is reported with row_id, hindi and mundari columns; test rows use row_id, source_sentence, source_lang and target_lang.",
+      "promotion_scope": "paper-reported schema metadata only"
+    },
+    {
+      "printed_page": 123,
+      "pdf_page_index_zero_based": 2,
+      "section": "3 Dataset / 3.1 Data Collection and Preprocessing",
+      "supported_source_attribution": "The paper reports 80,000 training pairs overall, exactly 20,000 training pairs per language pair, 15,999 test sentences in the body, Mundari ISO 639-3 unr, Devanagari representation for this task, sourcing from curated web content, Wikipedia and Ministry of Tribal Affairs resources, and preprocessing by alignment, normalization, near-duplicate removal and length/similarity filtering.",
+      "promotion_scope": "paper-reported technical dataset and preprocessing metadata only"
+    },
+    {
+      "printed_page": 123,
+      "pdf_page_index_zero_based": 2,
+      "section": "3.1 Data Collection and Preprocessing",
+      "supported_source_attribution": "The paper states that all data is distributed under Creative Commons BY-SA 4.0.",
+      "promotion_scope": "paper-stated dataset licence metadata; does not independently clear underlying-source, participant, privacy, community or cultural-access rights"
+    }
+  ],
+  "internal_consistency_notes": [
+    "The abstract says a 16,000-sentence evaluation set, while section 3 reports 15,999 test sentences. MLHKP preserves both source-attributed values and does not silently reconcile the one-sentence discrepancy.",
+    "The current Hugging Face AdiBhasha dataset card is a related later/parallel manifestation and states a different licence (CC BY-NC-SA 4.0) plus gated file access; it is not treated as automatically identical to the MMLoSo task release without manifestation-level reconciliation."
+  ],
+  "rights_access_consent_cultural_boundary": {
+    "article_copyright_notice": "©2025 Association for Computational Linguistics",
+    "paper_reported_dataset_license": "CC BY-SA 4.0",
+    "article_license_not_inferred_from_dataset_license": true,
+    "underlying_source_rights_independently_cleared": false,
+    "participant_consent_verified_for_mlhkp_secondary_use": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false,
+    "raw_parallel_rows_ingested": false,
+    "participant_level_material_ingested": false,
+    "cultural_claims_promoted": false
+  },
+  "promotion_decision": {
+    "state": "exact_locator_metadata_evidence_promoted_without_count_inflation",
+    "new_permanent_source_identity": false,
+    "new_claim_nodes": 0,
+    "new_evidence_graph_records": 0,
+    "reason": "Authoritative ACL PDF supports exact-locator benchmark metadata and a dataset licence statement, but deterministic permanent-register reconciliation and manifestation-level rights/version checks remain before count-bearing registration or row-level ingestion."
+  }
+}

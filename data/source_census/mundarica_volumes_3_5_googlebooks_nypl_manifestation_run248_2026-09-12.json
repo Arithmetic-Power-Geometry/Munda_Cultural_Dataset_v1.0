@@ -1,0 +1,73 @@
+{
+  "audit_id": "MLHKP-RUN248-MUNDARICA-III-V-GOOGLEBOOKS-NYPL",
+  "run_id": 248,
+  "date_utc": "2026-09-12T07:27:00Z",
+  "stream": "Mundarica I-XVI acquisition/page-accounting/manifestation census",
+  "work": {
+    "title_displayed": "Encyclopaedia Mundarica, Volumes 3-5",
+    "author_displayed": "John W. Hoffmann",
+    "publisher_displayed": "Superintendent government printing, Bihar and Orissa",
+    "year_displayed": 1930,
+    "google_books_id": "H3T9md87HvcC",
+    "google_books_url": "https://books.google.com/books?id=H3T9md87HvcC",
+    "original_from_displayed": "the New York Public Library",
+    "digitized_displayed": "Aug 28, 2024"
+  },
+  "verification_basis": [
+    {
+      "provider": "Google Books",
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=H3T9md87HvcC",
+      "observed_metadata": [
+        "title: Encyclopaedia Mundarica, Volumes 3-5",
+        "author: John W. Hoffmann",
+        "publisher: Superintendent government printing, Bihar and Orissa",
+        "year: 1930",
+        "original from: the New York Public Library",
+        "digitized: Aug 28, 2024"
+      ]
+    }
+  ],
+  "interpretation_boundary": {
+    "what_this_establishes": "An independently hosted bibliographic/digital-manifestation locator exists for a Google Books record labelled Volumes 3-5, with NYPL-origin metadata and 1930 government-printer metadata.",
+    "what_this_does_not_establish": [
+      "that the Google Books record represents three separately complete historical volumes",
+      "that scan/image sequence is complete",
+      "that printed pagination for Volumes III, IV and V has been reconciled",
+      "that OCR is accurate or verified",
+      "that bytes have been acquired byte-preservingly or independently hashed",
+      "that redistribution or model-training permission exists",
+      "that any cultural proposition is community validated or culturally cleared"
+    ]
+  },
+  "volume_effect": {
+    "III": "stronger manifestation corroboration only; remains open_unverified",
+    "IV": "stronger manifestation corroboration only; remains open_unverified",
+    "V": "stronger manifestation corroboration only; remains open_unverified"
+  },
+  "rights_access_boundary": {
+    "public_catalogue_or_preview_is_permission": false,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "scan_sequence_verified": false,
+    "ocr_verified": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "promotion_level": "bibliographic/digital-manifestation locator only",
+  "content_evidence_promoted": false,
+  "passages_promoted": 0,
+  "claims_promoted": 0,
+  "identity_count_change": false,
+  "evidence_claim_count_change": false,
+  "open_gaps": [
+    "lawful complete bitstream acquisition if obtainable",
+    "independent cryptographic hash",
+    "deterministic scan-image sequence and completeness audit",
+    "printed-page mapping separately for Volumes III, IV and V",
+    "OCR verification before passage extraction",
+    "rights and MLHKP cultural-access adjudication before content promotion"
+  ]
+}

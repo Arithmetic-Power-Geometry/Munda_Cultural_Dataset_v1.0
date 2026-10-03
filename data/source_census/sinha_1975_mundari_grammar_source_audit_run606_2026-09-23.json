@@ -1,0 +1,73 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN606-SINHA-1975-MUNDARI-GRAMMAR",
+  "run": 606,
+  "audit_date": "2026-09-23",
+  "scope": "non-Mundarica source census; grammar/linguistic reference",
+  "canonical_work": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "publisher_content_partner": "Central Institute of Indian Languages (CIIL), Mysore",
+    "type": "grammar",
+    "languages": ["English", "Mundari"],
+    "persistent_uri": "https://hdl.handle.net/20.500.14705/8179"
+  },
+  "authoritative_discovery": {
+    "provider": "Bhasha Sanchika — CIIL Repository",
+    "record_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "provider_file_label": "CIILP0091.pdf",
+    "provider_description": "Pedagogical grammar organized by grammatical functions; covers noun morphology, verb morphology, adjectives/adverbs and constituent order in syntax.",
+    "bharatavani_manifestation": {
+      "year": 1975,
+      "author": "N. K. Sinha",
+      "content_partner": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "publisher": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "book_type": "Grammar",
+      "reported_pdf_size": "117.39 MB",
+      "access_note": "Bharatavani reports Login to Read"
+    }
+  },
+  "deduplication": {
+    "repository_exact_search_before_insert": "no matching Sinha Mundari Grammar 1975 audit returned by repository code search",
+    "canonicalization_rule": "CIIL Sanchika record, Bharatavani record and any provider PDF are manifestations of one 1975 work, not independent corroborating sources",
+    "duplicate_identity_created": false
+  },
+  "scope_classification": {
+    "primary_use": ["Mundari grammar", "linguistic structure", "pedagogical reference"],
+    "not_automatically_valid_for": ["Munda cultural generalization", "community-wide customary claim", "present-day usage without corroboration"],
+    "temporal_context": "1975 publication; claims require historical/variety context"
+  },
+  "rights_access_governance": {
+    "public_metadata": true,
+    "full_text_access": "manifestation-dependent; Bharatavani explicitly login-gated",
+    "redistribution_permission_verified": false,
+    "binary_ingestion_permitted_now": false,
+    "public_access_equals_redistribution_permission": false,
+    "cultural_uncertainty_preserved": true
+  },
+  "exact_locator_conversion": {
+    "state": "queued_not_promoted",
+    "requirements": [
+      "obtain authoritative provider manifestation without bypassing access controls",
+      "hash the exact permitted manifestation",
+      "verify complete pagination and table-of-contents/chapter boundaries",
+      "record exact page/section/example locators for every promoted linguistic proposition",
+      "identify dialect/variety, speaker/informant and elicitation provenance where stated",
+      "separate descriptive observations from pedagogical simplifications and cited dependencies",
+      "verify file-level reuse/redistribution terms before storing any binary"
+    ]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Metadata and scope are verified, but authoritative full-text manifestation, exact locators, provenance and file-level reuse terms have not yet been audited."
+  },
+  "blocked_or_gap": [
+    "Bharatavani full reading is login-gated",
+    "CIIL Sanchika metadata advertises a PDF but this run does not assert complete/full-text verification",
+    "no redistribution license established",
+    "dialect/informant/source-data provenance not yet inspected at proposition level"
+  ],
+  "release_effect": "Adds a canonical grammar source and concrete exact-locator conversion target without changing controlled MMSC/evidence counts."
+}

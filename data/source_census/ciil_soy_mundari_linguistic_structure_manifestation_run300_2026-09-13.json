@@ -1,0 +1,85 @@
+{
+  "run_id": 300,
+  "date_utc": "2026-09-13",
+  "stream": "book / grammar-linguistics / government-CIIL repository manifestation audit",
+  "source": {
+    "title_primary": "मुण्डारी भाषा का भाषिक संरचना",
+    "title_repository_romanized": "Mundri Bhasha Ka Bashik Sanrachana",
+    "author": "Birendra Kumar Soy 'Munda'",
+    "publication_year": 2017,
+    "publisher": "Satyam publication house",
+    "repository": "Bhasha Sanchika — CIIL Repository / Bharatavani Catalogue",
+    "institution": "Central Institute of Indian Languages, Department of Higher Education, Ministry of Education, Government of India",
+    "repository_item_url": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+    "persistent_handle": "https://hdl.handle.net/20.500.14705/11519",
+    "repository_identifier": "BVP04859",
+    "repository_file_name": "BVP04859.pdf",
+    "repository_reported_file_size": "473.63 KB",
+    "repository_subject_language": "Mundari",
+    "repository_subject_other": "Linguistics",
+    "repository_rights_holder": "Birendra Kumar Soy 'Munda'",
+    "repository_date_accessioned": "2022-04-13T07:09:25Z"
+  },
+  "identity_and_metadata_verification": {
+    "first_party_repository_metadata_verified": true,
+    "persistent_handle_verified": true,
+    "repository_identifier_verified": true,
+    "file_level_locator_verified": true,
+    "author_year_title_publisher_verified": true,
+    "rights_holder_metadata_verified": true
+  },
+  "direct_manifestation_check": {
+    "repository_download_clicked_this_run": true,
+    "download_resolved": true,
+    "returned_content_type": "application/pdf",
+    "viewer_reported_page_count": 1,
+    "page_1_visual_check_completed": true,
+    "page_1_is_cover_image": true,
+    "cover_title_visible": "मुण्डारी भाषा का भाषिक संरचना",
+    "cover_author_visible": "डॉ. बीरेन्द्र कुमार सोय ‘मुण्डा’",
+    "full_book_bytes_verified": false,
+    "reason_full_book_not_claimed": "The repository download path available in this run resolved to a one-page PDF containing the cover image; this is not sufficient to claim acquisition or verification of the full book."
+  },
+  "access_and_rights": {
+    "repository_page_publicly_accessible": true,
+    "repository_rights_holder_recorded": true,
+    "license_bundle_present_in_repository_metadata": true,
+    "license_bundle_text_retrieval_succeeded_this_run": false,
+    "license_bundle_retrieval_state": "cache-miss/fetch failure",
+    "bulk_text_reuse_permission_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "public_availability_treated_as_reuse_permission": false
+  },
+  "scope_and_cultural_boundary": {
+    "scope": "Mundari linguistic structure / language description",
+    "repository_abstract_used_as_metadata_only": true,
+    "linguistic_examples_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_derived_content_promoted": 0,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "canonicalization": {
+    "canonical_key": "CIIL:SOY_MUNDA:2017:MUNDARI_BHASHIK_SANRACHANA",
+    "new_controlled_source_identity": false,
+    "reason": "Exact first-party manifestation refinement is recorded without inflating controlled MMSC counts until deterministic reconciliation against the numbered WEB-MUN/source identity register is complete."
+  },
+  "promotion": {
+    "promotion_level": "exact first-party repository + persistent-handle + file locator + directly inspected cover-page manifestation",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "primary_book_text_promoted": 0,
+    "cover_metadata_promoted": true
+  },
+  "explicit_gaps": [
+    "Obtain the complete authorized book manifestation through a byte-preserving permitted path; the current direct download resolves only to a one-page cover PDF.",
+    "Independently hash the complete authorized manifestation and verify its page inventory before any exact internal-page citation.",
+    "Retrieve and inspect the repository license bundle before any redistribution or bulk textual ingestion.",
+    "Deterministically reconcile this work against the numbered WEB-MUN/source identity register before changing MMSC counts.",
+    "Do not infer participant consent, community validation or cultural-access permission from repository availability."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "run": 650,
+  "audited_at_utc": "2026-09-27T12:45:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "government_census_dataset",
+  "canonical_source": {
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "title": "ST-14: Scheduled tribe population by religious community (State/UT level), Jharkhand - 2011",
+    "reference_id": "PC11_ST14-20",
+    "file": "ST-20-00-014-DDW-2011.XLS",
+    "year": 2011,
+    "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/11908"
+  },
+  "scope": {
+    "geography": "Jharkhand (state code 20)",
+    "unit_of_observation": "Individual (person)",
+    "population": "Scheduled tribes in Jharkhand",
+    "munda_row_label": "Munda, Patar",
+    "dimensions": [
+      "religion",
+      "sex",
+      "total/rural/urban"
+    ]
+  },
+  "verification": {
+    "authority": "Ministry of Home Affairs, Government of India / ORGI",
+    "metadata_verified": true,
+    "downloadable_xls_declared_by_catalog": true,
+    "exact_data_values_ingested": false,
+    "reason": "This audit verified catalogue identity/schema but did not retrieve and hash the XLS bytes; no cell values are promoted without manifestation-level verification."
+  },
+  "deduplication": {
+    "key": "ORGI:Census2011:PC11_ST14-20",
+    "github_default_branch_code_search_matches": 0,
+    "github_search_incomplete_results": true,
+    "conclusion": "provisionally repository-unmatched; not proof of absence from mlhkp-v2"
+  },
+  "governance": {
+    "cultural_claim_status": "administrative census classification only; do not infer belief, identity, practice, or community self-description from census categories",
+    "consent_status": "aggregate official statistics; individual consent not asserted",
+    "reuse_status": "catalogue/download availability verified; redistribution terms for local binary not established in this audit"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claims_delta": 0,
+    "evidence_delta": 0,
+    "links_delta": 0,
+    "binaries_delta": 0,
+    "next_step": "Retrieve official XLS, hash immutable bytes, select Munda/Patar rows, preserve Census category labels verbatim, record sheet/row/cell locators, then reconcile against MMSC before promotion."
+  }
+}

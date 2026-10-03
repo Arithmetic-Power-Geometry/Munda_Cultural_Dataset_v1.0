@@ -1,0 +1,61 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN583",
+  "run": 583,
+  "audit_date": "2026-09-22",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census",
+  "canonical_work": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "year": 2013,
+    "type": "peer-reviewed research article",
+    "journal_volume_issue": "13(2)",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher_url": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "first_published_online": "2013-07-01"
+  },
+  "identity_verification": {
+    "provider": "SAGE Journals",
+    "doi_verified_from_provider_metadata": true,
+    "title_author_year_verified_from_provider_metadata": true,
+    "repository_exact_title_search_before_addition": "no match returned",
+    "canonicalization_rule": "DOI landing page, publisher PDF endpoint and bibliographic mirrors are manifestations/records of one scholarly work, not independent corroborating sources"
+  },
+  "scope_classification": {
+    "classes": ["peer-reviewed article", "land/customary institution", "ethnographic/empirical study"],
+    "population_scope": "Munda / Mundari Khuntkatti context in Chotanagpur",
+    "geographic_scope_from_abstract": "Gutuhatu and Salga villages, Mundari Khuntkatti Revenue Circle, Khunti district, Jharkhand",
+    "method_scope_from_abstract": "empirical investigation of two villages",
+    "generalization_warning": "Do not generalize findings from the two-village empirical study to all Munda communities, all Khuntkatti contexts, other regions, or current practice without corroboration."
+  },
+  "access_rights_governance": {
+    "publisher_pdf_access_observed": "restricted access",
+    "reuse_status": "not verified for repository redistribution",
+    "binary_ingestion_permitted": false,
+    "public_metadata_does_not_equal_redistribution_permission": true,
+    "consent_status": "not established from accessible provider metadata",
+    "cultural_access_review_required": true,
+    "dependency_review_required": true
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Publisher metadata and abstract verify work identity and scope, but lawful full-text access, exact proposition locators, participant/method detail, source dependencies, consent/cultural-access and reuse permissions remain unresolved."
+  },
+  "exact_locator_queue": [
+    "Obtain lawful authoritative full text without bypassing access controls.",
+    "Verify title page/header and print/PDF pagination concordance.",
+    "Extract only supported propositions with exact page/section/table/figure locators.",
+    "Separate author empirical observations, participant-derived material, legal/historical interpretation and inherited citations.",
+    "Preserve Gutuhatu/Salga, Khunti and study-time scope for any promoted proposition.",
+    "Verify reuse permission before storing any full-text binary or substantial excerpt.",
+    "Apply dignity, consent, cultural-access and uncertainty review before public exposure."
+  ],
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "discovery_only": false,
+    "declared_level": "canonical source audit with verified publisher metadata and explicit conversion queue",
+    "gap_status": "full-text exact-locator conversion pending"
+  }
+}

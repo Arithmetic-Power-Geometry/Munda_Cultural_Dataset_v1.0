@@ -1,0 +1,52 @@
+{
+  "run": 336,
+  "date": "2026-09-14",
+  "source_class": "government_Census",
+  "records": [
+    {
+      "region": "Jharkhand",
+      "reference_id": "PC11_C16-20",
+      "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "file": "DDW-C16-STMT-MDDS-2000.xlsx",
+      "granularity": ["state", "district", "subdistrict"],
+      "unit": "individual person",
+      "locator_verified": true,
+      "workbook_bytes_verified": false,
+      "hash_verified": false,
+      "sheet_and_cell_locators_verified": false
+    },
+    {
+      "region": "West Bengal",
+      "reference_id": "PC11_C16-19",
+      "title": "C-16: Population by mother tongue, West Bengal - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "file": "DDW-C16-STMT-MDDS-1900.xlsx",
+      "granularity": ["state", "district", "subdistrict"],
+      "unit": "individual person",
+      "locator_verified": true,
+      "workbook_bytes_verified": false,
+      "hash_verified": false,
+      "sheet_and_cell_locators_verified": false
+    },
+    {
+      "region": "Odisha",
+      "reference_id": "PC11_C16-21",
+      "title": "C-16: Population by mother tongue, Odisha - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "file": "DDW-C16-STMT-MDDS-2100.xlsx",
+      "granularity": ["state", "district", "subdistrict"],
+      "unit": "individual person",
+      "locator_verified": true,
+      "workbook_bytes_verified": false,
+      "hash_verified": false,
+      "sheet_and_cell_locators_verified": false
+    }
+  ],
+  "promotion": {
+    "exact_catalog_and_filename_locators": true,
+    "numerical_cells_promoted": false,
+    "controlled_counts_changed": false
+  },
+  "note": "First-party ORGI catalogue identities and declared workbook filenames are verified. Workbook byte acquisition, independent hashing, sheet inventories, Mundari row resolution and numerical cell verification remain open, so no Census numbers are promoted."
+}

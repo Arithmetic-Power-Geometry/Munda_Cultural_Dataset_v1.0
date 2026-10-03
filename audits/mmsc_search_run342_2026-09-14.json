@@ -1,0 +1,26 @@
+{
+  "run": 342,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000342",
+  "purpose": "Fresh systematic non-Mundarica discovery sweep across all 14 controlled classes; counts remain unchanged until numbered-register reconciliation.",
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses_dissertations","government_tri_census_lsi","archives_manuscripts","newspapers","web_resources","datasets","audio","video","maps","relevant_media"],
+  "verified_or_reobserved": [
+    {"class":"government_tri_census_lsi","title":"Munda | Tribal Welfare Research Institute Jharkhand","provider":"TRI Jharkhand","state":"first-party web source re-observed; cultural assertions not promoted without source-level reconciliation"},
+    {"class":"government_tri_census_lsi","title":"Linguistic Survey of India - Jharkhand","provider":"Office of the Registrar General & Census Commissioner, India","state":"first-party PDF text re-observed; exact Mundari grammar/distribution material known, independent byte/hash/page-image closure remains open"},
+    {"class":"datasets","title":"endangered-recipes-translated-500","provider":"Karya / Hugging Face","state":"new exact provider manifestation; 50 Mundari recipes and 783 provider-reported sentence pairs; gated; no item content promoted"},
+    {"class":"datasets","title":"AdiBhasha","provider":"MISN IIT Delhi / Hugging Face","state":"Mundari manifestation re-observed; gated; counts remain provider metadata until independent validation"},
+    {"class":"audio","title":"Barkhaa Audio","provider":"CIET/NCERT","state":"nine Level-1 titles presently expose Mundari labels; item bytes/rights/consent/community review incomplete"},
+    {"class":"web_resources","title":"Learn Mundari - Audio","provider":"Languages Home","state":"exact MP3 endpoint mappings re-observed; translation accuracy, speaker provenance and rights not promoted"},
+    {"class":"web_resources","title":"Learn Mundari Language Online","provider":"Tribal Lingua","state":"discovery-level educational resource only; underlying source reconciliation required"},
+    {"class":"newspapers","title":"Dialects revived in dictionary avatar","provider":"Telegraph India","state":"historical reporting re-observed as contextual lead; not a primary lexical source"},
+    {"class":"relevant_media","title":"commercial/music results labelled Mundari","provider":"multiple","state":"discovery only; title/artist matches are not automatically cultural-source identities"}
+  ],
+  "coverage_note": "All 14 classes were queried or rechecked in this run. Where no higher-quality new manifestation was found, the class remains represented by existing audited leads rather than inflated with weak matches.",
+  "homonym_filter": "Exclude South Sudan Mundari and unrelated personal-name, surname, song-title or artist-name matches without demonstrated relation to the Munda people/language.",
+  "controlled_counts_changed": false,
+  "claims_promoted": 0,
+  "evidence_records_added_to_controlled_graph": 0,
+  "counting_rule": "Search hits do not change audited/raw/unique/canonicalized/unresolved counts until deterministic numbered WEB-MUN reconciliation.",
+  "governance_rule": "Public visibility or a provider license does not by itself establish participant consent, community validation or cultural-access authorization."
+}

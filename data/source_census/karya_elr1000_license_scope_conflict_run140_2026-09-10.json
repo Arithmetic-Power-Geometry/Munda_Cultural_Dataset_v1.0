@@ -1,0 +1,95 @@
+{
+  "audit_id": "MLHKP-KARYA-ELR1000-RUN140",
+  "run": 140,
+  "checked_utc": "2026-09-10T00:30:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": ["dataset", "multimodal", "community_generated", "cultural_knowledge", "audio", "images", "text"],
+  "canonical_work": {
+    "title": "ELR-1000: A Community-Generated Dataset for Endangered Indic Indigenous Languages",
+    "repository": "karya-inc/elr-1000",
+    "repository_url": "https://github.com/karya-inc/elr-1000",
+    "upstream_head_commit_verified": "fc5f659f1d18bdc70c19d2c77ea814c2dce63884",
+    "upstream_head_date_utc": "2026-09-03T08:49:28Z",
+    "related_dataset_card": "https://huggingface.co/datasets/karya/ELR-1000",
+    "paper_identifier": "arXiv:2512.01077"
+  },
+  "verified_repository_facts": {
+    "github_repository_public": true,
+    "github_repository_detected_spdx_license": "MIT",
+    "root_license_path": "LICENSE",
+    "root_license_text": "MIT License",
+    "root_license_copyright": "Copyright (c) 2025 Karya",
+    "readme_path": "README.md",
+    "readme_dataset_license": "KPL BY-NC-SA-FS 1.0",
+    "readme_commercial_use_requires_contact": true,
+    "readme_states_commercial_licensing_royalties_to_contributors": true,
+    "readme_lists_mundari": true,
+    "readme_dataset_statistics": {
+      "recipes": 1073,
+      "languages": 10,
+      "images": 11213,
+      "audio_hours": 42,
+      "parquet_shards": 11
+    },
+    "readme_participant_statements": {
+      "community_participation_stated": true,
+      "higher_than_living_wage_compensation_stated": true,
+      "explicit_consent_for_contributions_to_be_shared_stated": true
+    }
+  },
+  "license_scope_reconciliation": {
+    "conflict_present": true,
+    "conflict_description": "The repository root LICENSE file is MIT and GitHub detects the repository license as MIT, while the same repository README explicitly states that the ELR-1000 dataset/work is licensed under KPL BY-NC-SA-FS 1.0 and restricts ordinary reuse to noncommercial terms subject to attribution/share-alike/software conditions.",
+    "scope_precedence_established": false,
+    "safe_interpretation_for_mlhkp": "Do not treat the root MIT software/repository licence as permission to copy, redistribute, adapt, train on, or otherwise reuse ELR-1000 dataset content. Treat dataset content as KPL-governed according to the README unless and until Karya supplies an authoritative scope clarification. The more permissive root MIT file may apply to repository software/documentation, but that scope is not explicitly established here.",
+    "mit_treated_as_dataset_content_license": false,
+    "kpl_treated_as_participant_consent": false,
+    "public_repository_treated_as_unrestricted_permission": false
+  },
+  "rights_consent_cultural_access_boundary": {
+    "dataset_level_license_statement_verified": true,
+    "participant_consent_statement_present": true,
+    "participant_consent_scope_for_mlhkp_redistribution_verified": false,
+    "privacy_publicity_moral_rights_cleared_for_mlhkp": false,
+    "community_validation_verified": false,
+    "mundari_specific_community_authorization_verified": false,
+    "cultural_access_classification_completed": false,
+    "cultural_access_overrides_technical_entitlement": true,
+    "recipes_ingested": false,
+    "audio_ingested": false,
+    "images_ingested": false,
+    "participant_derived_text_ingested": false,
+    "cultural_claims_promoted": false
+  },
+  "deduplication": {
+    "existing_mlhkp_artifact": "data/source_census/karya_elr1000_mundari_dataset_exact_locator_2026-09-09.json",
+    "same_work_as_existing_elr1000_audit": true,
+    "new_source_identity_created": false,
+    "audited_identity_delta": 0,
+    "web_lead_delta": 0,
+    "reason": "This record reconciles licence-scope evidence for an already observed ELR-1000 work; it is not a new source identity or new discovery lead."
+  },
+  "promotion_state": {
+    "promoted": true,
+    "promotion_type": "rights-and-license-scope provenance only",
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "provenance_link_delta": 0,
+    "public_cultural_fact_delta": 0,
+    "reason_no_content_promotion": "Licence scope is internally ambiguous at repository level and participant/community/cultural-access boundaries remain unresolved for MLHKP content reuse."
+  },
+  "release_effect": {
+    "generic_license_gap_narrowed": true,
+    "remaining_exact_gap": "Obtain authoritative Karya clarification of MIT-versus-KPL scope/precedence and separately establish participant/privacy/community/cultural-access permission before any ELR-1000 content-level ingestion.",
+    "counts_changed": false
+  },
+  "integrity": {
+    "fabricated_cultural_fact": false,
+    "fabricated_rights": false,
+    "fabricated_consent": false,
+    "fabricated_community_validation": false,
+    "license_conflict_silently_resolved": false,
+    "restricted_or_participant_content_exposed": false,
+    "absolute_completeness_claimed": false
+  }
+}

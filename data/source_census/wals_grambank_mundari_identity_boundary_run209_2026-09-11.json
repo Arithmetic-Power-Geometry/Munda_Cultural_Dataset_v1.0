@@ -1,0 +1,79 @@
+{
+  "audit_id": "MLHKP-RUN209-WALS-GRAMBANK-MUNDARI",
+  "run": 209,
+  "audit_date": "2026-09-11",
+  "scope": "typological database exact-locator and identity-boundary audit",
+  "source_class": "datasets/grammars/web resources",
+  "locators": {
+    "wals_mundari": {
+      "url": "https://wals.info/languoid/lect/wals_code_mun",
+      "label": "Mundari",
+      "wals_code": "mun",
+      "iso_639_3": "unr",
+      "licence": "CC BY 4.0",
+      "sources_observed": ["Abbi 1992", "Bhattacharya 1976", "Cook 1965", "Gumperz and Bilibiri 1957", "Hoffmann 1903", "Nottrott 1882", "Osada 1992", "Osada 2007", "Pinnow 1959", "Sinha 1975"]
+    },
+    "wals_bhumij": {
+      "url": "https://wals.info/languoid/lect/wals_code_bhu",
+      "label": "Bhumij",
+      "wals_code": "bhu",
+      "glottocode_displayed": "mund1320",
+      "iso_639_3_displayed": "unr",
+      "source_observed": "Ramaswami 1992 Bhumij grammar",
+      "identity_warning": "Do not collapse the WALS Bhumij lect into the WALS Mundari lect or a single MLHKP identity solely because the page displays mund1320/unr."
+    },
+    "grambank_mundari": {
+      "url": "https://grambank.clld.org/languages/mund1320",
+      "label": "Mundari",
+      "glottocode": "mund1320",
+      "licence": "CC BY 4.0",
+      "contributors_observed": ["Tim Witte", "Janis Reimringer"],
+      "sources_observed": ["Cook 1965", "Osada 1992", "Osada 2008"]
+    },
+    "grambank_datapoint_example": {
+      "url": "https://grambank.clld.org/valuesets/GB317-mund1320",
+      "feature_id": "GB317",
+      "coding_observed": "absent",
+      "source_locator_observed": "Osada 2008: 107-108",
+      "promotion_note": "Database-level coding and source-page locator are verified as displayed, but the underlying Osada pages were not directly inspected in this run; no linguistic claim is promoted into the public evidence graph yet."
+    },
+    "glottolog_mundari": {
+      "url": "https://glottolog.org/resource/languoid/id/mund1320",
+      "label": "Mundari",
+      "glottocode": "mund1320",
+      "iso_639_3": "unr"
+    }
+  },
+  "verification": {
+    "wals_mundari_exact_page_verified": true,
+    "wals_bhumij_exact_page_verified": true,
+    "grambank_mundari_exact_page_verified": true,
+    "grambank_datapoint_exact_page_verified": true,
+    "glottolog_mundari_exact_page_verified": true,
+    "underlying_grammar_pages_directly_verified": false,
+    "typological_value_promoted_as_public_claim": false,
+    "count_bearing_registration_performed": false
+  },
+  "deduplication": {
+    "canonicalization_action": "record exact locators and identity warning only",
+    "wals_mundari_and_bhumij_collapsed": false,
+    "grambank_and_wals_collapsed_into_one_source_identity": false,
+    "reason": "These are distinct database manifestations/lect records and must preserve database-specific identifiers plus source provenance."
+  },
+  "rights_access_governance": {
+    "database_licence_observed": "CC BY 4.0",
+    "public_availability_is_not_cultural_access_permission": true,
+    "community_validation_inferred": false,
+    "participant_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "evidence_promotion": {
+    "new_source_identities": 0,
+    "new_cultural_claims": 0,
+    "new_evidence_records": 0,
+    "new_evidence_links": 0,
+    "new_streamlit_modules": 0
+  },
+  "release_boundary": "Use these exact locators for later synchronized WALS/Grambank registration, but do not promote linguistic values until the cited underlying grammar pages are directly verified and the source/evidence graph transaction is synchronized."
+}

@@ -1,0 +1,61 @@
+{
+  "run": 642,
+  "audited_at_utc": "2026-09-27T00:45:00Z",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_identity": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "journal": "The Oriental Anthropologist",
+    "volume": 13,
+    "issue": 2,
+    "pages": "267-280",
+    "first_published_online": "2013-07-01",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher_record": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205"
+  },
+  "scope": {
+    "population": "Munda / Mundari Khuntkatti",
+    "geography": "Gutuhatu and Salga villages, Khunti district, Jharkhand",
+    "basis": "Publisher abstract explicitly describes empirical investigation of two Mundari Khuntkatti villages.",
+    "caution": "Abstract-level evidence only; do not generalize from two villages to all Munda communities."
+  },
+  "access_rights": {
+    "access": "restricted",
+    "copyright": "© 2013 Oriental Institute of Cultural and Social Research and SAGE Publications",
+    "reuse": "permission required",
+    "participant_consent": "not verified from accessible publisher material",
+    "community_authorization": "not verified",
+    "cultural_access": "unresolved"
+  },
+  "locators_verified": [
+    "publisher metadata: Volume 13, Issue 2, pp. 267-280",
+    "publisher abstract: empirical investigation of Gutuhatu and Salga, Khunti district",
+    "publisher references visible, but full article text restricted"
+  ],
+  "deduplication": {
+    "github_exact_doi_search_matches": 0,
+    "github_search_incomplete_results": true,
+    "interpretation": "repository-unmatched candidate only; absence not proven"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claims_delta": 0,
+    "evidence_delta": 0,
+    "links_delta": 0,
+    "binaries_delta": 0,
+    "reason": "Full text restricted; methods, participant consent, exact proposition/page locators and cultural-governance status cannot be verified."
+  },
+  "blocked_and_continued": [
+    "Full article/PDF restricted at publisher; logged and continued census rather than bypassing access controls."
+  ],
+  "secondary_candidate": {
+    "title": "BULLETIN OF BIHAR TRIBAL WELFARE RESEARCH INSTITUTE RANCHI",
+    "repository": "Ministry of Tribal Affairs Tribal Digital Document Repository",
+    "record_id": "DRMTWRI/1993/0002",
+    "completed_date": "Aug-1993",
+    "pagination": "1-88",
+    "rights": "all rights reserved unless otherwise indicated",
+    "status": "identity/manifestation verified; Munda-specific proposition relevance not yet established"
+  }
+}

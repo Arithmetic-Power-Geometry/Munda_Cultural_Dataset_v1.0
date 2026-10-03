@@ -1,0 +1,64 @@
+{
+  "run": 624,
+  "audit_date": "2026-09-24",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_work": {
+    "author": "Saumya Verma",
+    "title": "Implementation and Implications of the Forest Rights Act, 2006 on Tribal Rights: A Case Study of Munda Tribe in Jharkhand",
+    "venue": "Central University of Kashmir Law Review",
+    "publication_status": "Online First / Accepted Papers",
+    "published": "2026-04-02",
+    "publisher_url": "https://publications.cukashmir.ac.in/index.php/cuklr/article/view/202"
+  },
+  "identity_verification": {
+    "publisher_record_verified": true,
+    "author_affiliation": "Presidency University, Bengaluru, Karnataka, India",
+    "keywords": ["Tribal Rights", "FRA 2006", "Jharkhand", "Munda Tribe", "Community Forest Rights"],
+    "doi": null
+  },
+  "scope": {
+    "population": "Munda tribe",
+    "geography": "Jharkhand, India",
+    "topic": ["Forest Rights Act 2006", "tribal rights", "community forest rights", "forest governance", "livelihoods"],
+    "source_class": "peer-reviewed/legal scholarship; publisher-hosted article record"
+  },
+  "deduplication": {
+    "repository_precheck": "exact title/topic search returned no repository code-search match before insertion",
+    "canonicalization_rule": "publisher landing page, PDF, indexes, citations and mirrors are manifestations/references to one work and must not be counted as independent corroboration"
+  },
+  "access_rights": {
+    "publisher_page_public": true,
+    "pdf_advertised_by_publisher": true,
+    "copyright_notice": "Copyright (c) 2026 Central University of Kashmir Law Review",
+    "redistribution_permission_established": false,
+    "binary_ingestion": "not performed"
+  },
+  "evidence_state": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Publisher metadata/abstract is verified, but article-level propositions require full-text method/source inspection and exact locators; legal analysis and author argument must not be converted into Munda cultural facts without evidentiary provenance."
+  },
+  "verified_abstract_level_locator": {
+    "locator": "publisher landing page -> Abstract",
+    "supported_scope_only": "The article states that it studies implementation of the Forest Rights Act 2006 with special reference to the Munda tribe in Jharkhand and discusses Community Forest Rights and implementation barriers.",
+    "promotion": "scope/metadata only; not a controlled cultural claim"
+  },
+  "conversion_queue": [
+    "obtain authoritative publisher full text lawfully",
+    "record stable manifestation hash only if storage/reuse permits",
+    "establish printed-page/PDF-page concordance",
+    "identify study design and whether Munda-specific empirical material exists",
+    "separate statutory description, author argument, secondary citations and any primary/community evidence",
+    "create proposition-level exact page/section locators only for supported statements",
+    "retain Jharkhand/locality and temporal scope",
+    "review consent/privacy/cultural governance for any participant-derived material",
+    "do not treat generic FRA statutory propositions as Munda cultural evidence"
+  ],
+  "uncertainty_and_gaps": [
+    "No DOI displayed in the verified publisher metadata.",
+    "Abstract alone does not establish sample, field locality, participant consent, or independence of underlying evidence.",
+    "The source is useful for rights/governance context but must not be generalized into customary or cultural propositions without direct support."
+  ],
+  "audit_outcome": "verified canonical source; queued for exact-locator conversion; no unsupported promotion"
+}

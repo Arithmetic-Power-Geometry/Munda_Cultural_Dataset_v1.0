@@ -1,0 +1,75 @@
+{
+  "run": 313,
+  "date": "2026-09-13",
+  "search_id": "MMSC-SEARCH-000313",
+  "source_class": "government/TRI/Census/LSI",
+  "scope": "Jharkhand core relevance",
+  "status": "exact_catalogue_schema_locator_only",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "affiliation": "Ministry of Home Affairs, Government of India",
+  "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+  "reference_id": "PC11_C17-20",
+  "reference_series": "PC11_C17",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+  "data_source": "Population Census 2011",
+  "geographic_unit": {
+    "name": "Jharkhand",
+    "code": "20",
+    "type": "State"
+  },
+  "declared_download": "DDW-C17-2000.XLSX",
+  "verified_catalogue_schema_locators": [
+    "2nd subsidiary language - MUNDARI",
+    "2nd subsidiary language - MUNDA"
+  ],
+  "table_structure_declared": {
+    "unit_of_observation": "Individual (person)",
+    "statistics": "Counts",
+    "geographic_granularity": "state",
+    "area_combination": "total, rural and urban combined at India/State level",
+    "dimensions_include": [
+      "State code",
+      "State name",
+      "Total speakers of languages - language code/name/person/male/female",
+      "1st subsidiary language - code/name/person/male/female",
+      "2nd subsidiary language - code/name/person/male/female"
+    ]
+  },
+  "verification": {
+    "catalogue_identity_verified": true,
+    "declared_workbook_filename_verified": true,
+    "munda_mundari_schema_rows_verified": true,
+    "workbook_bytes_acquired": false,
+    "independent_hash_verified": false,
+    "sheet_inventory_verified": false,
+    "exact_numeric_cells_verified": false
+  },
+  "promotion": {
+    "catalogue_locator_promoted": true,
+    "numeric_claims_promoted": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_source_count_increment": 0,
+    "controlled_evidence_record_increment": 0,
+    "controlled_provenance_link_increment": 0
+  },
+  "deterministic_register_reconciliation": {
+    "status": "pending_numbered_WEB_MUN_reconciliation",
+    "reason": "Exact first-party catalogue/schema locator is verified, but it has not yet been deterministically matched to a numbered WEB-MUN lead/source identity."
+  },
+  "rights_governance": {
+    "public_catalogue_access_verified": true,
+    "workbook_reuse_permission_not_inferred": true,
+    "participant_consent_not_inferred": true,
+    "community_validation_not_inferred": true,
+    "cultural_authorization_not_inferred": true
+  },
+  "open_gaps": [
+    "Acquire DDW-C17-2000.XLSX through a permitted route.",
+    "Compute an independent cryptographic hash of the acquired workbook.",
+    "Inventory workbook sheets and preserve sheet names exactly.",
+    "Verify exact Jharkhand MUNDA/MUNDARI numeric cells before promoting any numerical claim.",
+    "Reconcile this locator deterministically against the numbered WEB-MUN/source register."
+  ],
+  "audit_note": "This record upgrades C-17 Jharkhand to an exact first-party catalogue/schema locator. It deliberately does not treat the declared download as independently acquired evidence and does not promote numerical, linguistic or cultural claims."
+}

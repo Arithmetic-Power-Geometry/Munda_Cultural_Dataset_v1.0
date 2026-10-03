@@ -1,0 +1,55 @@
+{
+  "audit_id": "WALS-MUNDARI-RUN352",
+  "run": 352,
+  "audit_date": "2026-09-14",
+  "source": {
+    "provider": "WALS Online",
+    "title": "Language Mundari",
+    "url": "https://wals.info/languoid/lect/wals_code_mun",
+    "wals_code": "mun",
+    "iso_639_3": "unr",
+    "provider_role": "secondary typological database"
+  },
+  "verified_at_provider_level": {
+    "language_record_exists": true,
+    "wals_code": "mun",
+    "iso_639_3": "unr",
+    "spoken_in": "India",
+    "descriptive_sources_are_enumerated": true,
+    "observed_source_titles_include": [
+      "Mundari Grammar (Hoffmann 1903)",
+      "A Descriptive Grammar of Mundari (Cook 1965)",
+      "Mundari Grammar (Sinha 1975)",
+      "A Reference Grammar of Mundari (Osada 1992)"
+    ],
+    "site_license_label": "Creative Commons Attribution 4.0 International",
+    "wals_release_citation_observed": "WALS Online (v2020.4)"
+  },
+  "verification_boundary": {
+    "wals_feature_values_independently_source_verified": false,
+    "underlying_descriptive_sources_fully_resolved_for_each_feature": false,
+    "local_release_bytes_materialized_and_hashed": false,
+    "feature_level_provenance_chain_complete": false,
+    "community_validation_established": false,
+    "cultural_access_authorization_established": false,
+    "database_license_treated_as_underlying_source_authorization": false
+  },
+  "promotion": {
+    "source_locator_added": true,
+    "feature_values_promoted": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "evidence_graph_count_change": 0
+  },
+  "governance": {
+    "rule": "Database availability/license never substitutes for feature-source verification or cultural/community authorization.",
+    "cultural_access_overrides_entitlement": true,
+    "public_feature_value_requires_underlying_source_resolution": true
+  },
+  "blockers": [
+    "Resolve each candidate WALS feature to its cited descriptive source before controlled claim promotion.",
+    "Materialize and independently hash a pinned WALS release export if local reproducibility is required.",
+    "Do not infer community validation or cultural-access authorization from CC BY 4.0 database licensing."
+  ],
+  "release_effect": "Source census/provenance strengthened; controlled evidence counts unchanged."
+}

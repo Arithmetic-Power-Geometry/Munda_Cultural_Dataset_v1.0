@@ -1,0 +1,53 @@
+{
+  "run": 386,
+  "audit_date": "2026-09-15",
+  "scope": "non-Mundarica source census",
+  "source_class": "map_relevant_media",
+  "provider": "Wikimedia Commons",
+  "title": "Munda languages map.svg",
+  "canonical_locator": "https://commons.wikimedia.org/wiki/File:Munda_languages_map.svg",
+  "manifestation": {
+    "media_type": "image/svg+xml",
+    "nominal_dimensions": "678 x 457",
+    "reported_file_size": "1.46 MB",
+    "date": "2020-11-28",
+    "author_statement": "Own work based off Noahedits",
+    "provider_description": "Map of the various Munda languages, classified according to the traditional bipartite classification: North Munda in red and South Munda in blue; provider description states locations with significant concentration of Munda speakers on a Taluka level where the language has more than 10,000 speakers."
+  },
+  "rights": {
+    "provider_declared_license": "CC BY-SA 3.0 Unported",
+    "provider_declared_copyright_status": "copyrighted",
+    "reuse_status": "locator and provider-declared licence verified; any redistribution must satisfy attribution/share-alike and provenance requirements",
+    "underlying_data_rights": "not independently established"
+  },
+  "verification": {
+    "identity_metadata": "provider page verified",
+    "binary_materialized": false,
+    "sha256_verified": false,
+    "underlying_census_or_source_data_verified": false,
+    "map_geography_independently_validated": false
+  },
+  "promotion": {
+    "source_identity": "exact-locator candidate pending deterministic WEB-MUN reconciliation",
+    "public_factual_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "A licensed derivative map can be catalogued, but its depicted distributions and threshold statement are not promoted as evidence until underlying data/provenance and geographic interpretation are independently audited."
+  },
+  "governance": {
+    "cultural_claims_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "community_validation_inferred": false,
+    "notes": "Map depicts language distribution rather than permission to make community/cultural claims."
+  },
+  "deduplication": {
+    "count_change_allowed_now": false,
+    "reason": "Must reconcile against the existing WEB-MUN ledger before changing controlled discovery totals."
+  },
+  "open_gaps": [
+    "deterministic WEB-MUN reconciliation",
+    "original SVG byte materialization and SHA-256",
+    "attribution chain capture",
+    "underlying data/source trace-back",
+    "independent geographic validation before evidentiary promotion"
+  ]
+}

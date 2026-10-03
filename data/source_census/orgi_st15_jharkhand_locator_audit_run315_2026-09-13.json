@@ -1,0 +1,37 @@
+{
+  "run": 315,
+  "audit_type": "first_party_government_locator_only",
+  "source": {
+    "agency": "Office of the Registrar General & Census Commissioner, India",
+    "catalogue_title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+    "reference_id": "PC11_ST15-20",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+    "declared_download_filename": "ST-20-00-15-DDW-2011.XLSX",
+    "data_source": "Population Census 2011",
+    "series": ["Scheduled Tribes", "Languages"]
+  },
+  "quality_boundary": {
+    "workbook_bytes_independently_acquired": false,
+    "independent_hash_computed": false,
+    "sheet_inventory_verified": false,
+    "numeric_cells_verified": false,
+    "mundari_or_munda_rows_verified_from_workbook": false,
+    "controlled_evidence_records_added": 0,
+    "claims_promoted": 0
+  },
+  "rights_governance_boundary": {
+    "catalogue_publicly_resolvable": true,
+    "public_access_treated_as_reuse_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "release_effect": {
+    "locator_precision_improved": true,
+    "source_count_increment": 0,
+    "evidence_count_increment": 0,
+    "release_gate_changed_to_pass": false
+  },
+  "blocker": "Acquire the declared XLSX through a permitted route, compute an independent cryptographic hash, inventory sheets, and verify relevant rows/cells before promoting any numerical or linguistic claim."
+}

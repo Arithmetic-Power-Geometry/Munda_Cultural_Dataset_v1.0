@@ -1,0 +1,88 @@
+{
+  "run": 235,
+  "search_id": "MMSC-SEARCH-000235",
+  "branch": "mlhkp-v2",
+  "scope": "Mundarica XI-XII bibliographic/page-accounting verification from a Jesuit institutional bibliography",
+  "audited_at_utc": "2026-09-12T00:37:00Z",
+  "source": {
+    "title": "Index Bibliographicus Societatis Iesu 1938",
+    "institutional_host": "Archivum Romanum Societatis Iesu (ARSI)",
+    "host_url": "https://arsi.jesuits.global/",
+    "pdf_url": "https://arsi.jesuits.global/wp-content/uploads/2022/05/IBSI-1938.pdf",
+    "pdf_page_index_zero_based": 5,
+    "printed_page": 8,
+    "entry_number": 9,
+    "direct_visual_inspection_completed": true
+  },
+  "directly_observed_bibliographic_statement": {
+    "authors_as_printed": "Hoffmann, John.-Emelen, Arthur van",
+    "title_as_printed": "Encyclopaedia Mundarica",
+    "volume_xi": {
+      "letter_range_as_printed": "P",
+      "place": "Patna",
+      "year": 1938,
+      "printed_page_range": "3175-3456"
+    },
+    "volume_xii": {
+      "letter_range_as_printed": "R",
+      "place": "Patna",
+      "year": 1938,
+      "printed_page_range": "3457-3707"
+    },
+    "publisher_as_printed": "Superintendent Government Printing, Bihar",
+    "format_as_printed": "25X17, 2 vol."
+  },
+  "page_accounting": {
+    "volume_xi_inclusive_printed_pages": 282,
+    "volume_xii_inclusive_printed_pages": 251,
+    "calculation_is_bibliographic_not_scan_page_count": true,
+    "calculation_note": "Inclusive counts are arithmetic on the directly printed bibliographic ranges only; front matter, plates, blanks, covers, scan images and manifestation-specific leaves are not inferred."
+  },
+  "verification_level": {
+    "institutional_bibliographic_record_verified": true,
+    "direct_page_image_inspected": true,
+    "exact_historical_volume_manifestation_acquired": false,
+    "byte_preserving_volume_download_acquired": false,
+    "independent_volume_hash_computed": false,
+    "scan_sequence_verified": false,
+    "ocr_verified": false,
+    "volume_verified_complete": false,
+    "internal_mundarica_content_verified": false
+  },
+  "rights_and_governance": {
+    "bibliographic_metadata_used_for_locator_and_page_accounting_only": true,
+    "public_availability_treated_as_permission": false,
+    "redistribution_permission_inferred_for_mundarica_text": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "promotion": {
+    "mundarica_volume_state_advanced": true,
+    "advanced_fields": [
+      "XI year/place/publisher/printed page range from directly inspected institutional bibliography",
+      "XII year/place/publisher/printed page range from directly inspected institutional bibliography"
+    ],
+    "authoritative_registered_scan_increment": 0,
+    "verified_complete_volume_increment": 0,
+    "claim_evidence_graph_increment": 0,
+    "cultural_claim_promoted": false,
+    "linguistic_proposition_promoted": false,
+    "ocr_text_promoted": false
+  },
+  "blockers": [
+    "Exact lawful historical manifestations for Volumes XI and XII still require acquisition.",
+    "Bytes, cryptographic hashes and scan sequence remain unverified.",
+    "No OCR may be marked verified until image-to-text verification is completed against the acquired manifestation.",
+    "Bibliographic page ranges must not be equated with scan-image page counts or full manifestation completeness."
+  ],
+  "release_effect": {
+    "mmsc_counts_changed": false,
+    "evidence_graph_counts_changed": false,
+    "streamlit_module_count_changed": false,
+    "publication_numeric_metrics_changed": false,
+    "mundarica_page_accounting_strengthened": true,
+    "release_gate": "NOT_PASS"
+  }
+}

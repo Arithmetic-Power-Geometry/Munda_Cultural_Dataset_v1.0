@@ -1,0 +1,68 @@
+{
+  "search_id": "MMSC-SEARCH-000355",
+  "run": 355,
+  "search_date": "2026-09-14",
+  "scope": "Fresh systematic refresh across all 14 controlled non-Mundarica Master Munda Source Census classes. Discovery metadata does not alter controlled counts without deterministic numbered-register reconciliation.",
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses_dissertations","government_TRI_Census_LSI","archives","newspapers","web_resources","datasets_corpora","audio","video","maps","relevant_media"],
+  "run355_verified_or_reobserved": [
+    {
+      "class": "grammars/government_TRI_Census_LSI",
+      "source": "N. K. Sinha, Mundari Grammar (1975)",
+      "result": "Cross-provider manifestation audit added: Sanchika declares CIILP0091.pdf at 9.63 KB; Bharatavani reports 117.39 MB and login-to-read; CiNii reports xii, 163, [1] pages, CIIL Grammar Series 2, LCCN 76901792. The discrepancy remains unresolved and prevents complete-manifestation/page-exact promotion."
+    },
+    {
+      "class": "dictionaries/books",
+      "source": "Bhaduri, A Mundari-English dictionary",
+      "result": "Existing work-level canonicalization retained across 1931 original and later reprints; no lexical entry promoted without permitted page/entry verification."
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "source": "Known Mundari/Munda linguistic article stream",
+      "result": "Existing article locators retained; no new content claim promoted merely from article discovery."
+    },
+    {
+      "class": "theses_dissertations",
+      "source": "Known Mundari/Munda thesis and dissertation stream",
+      "result": "Existing exact repository locators retained; contextual sources remain scope-limited and are not converted into linguistic or cultural authority without exact supported passages."
+    },
+    {
+      "class": "government_TRI_Census_LSI/maps",
+      "source": "Census, TRI, LSI and language-map streams",
+      "result": "Existing official catalogue locators retained; workbook cells, map content and reuse/community authorization remain unverified where not independently materialized."
+    },
+    {
+      "class": "archives/audio/video",
+      "source": "Known Mundari archival and audiovisual streams",
+      "result": "No new content promoted. Public discoverability or archive visibility does not establish speaker consent, reuse permission, community validation or cultural-access authorization."
+    },
+    {
+      "class": "datasets_corpora",
+      "source": "Known ASJP, WALS, PHOIBLE, Karya and AdiBhasha streams",
+      "result": "Provider-level locators retained; underlying-source, immutable-byte/hash, lexical/phonological provenance and governance checks remain required before claim promotion."
+    },
+    {
+      "class": "newspapers/web_resources/relevant_media",
+      "source": "Known Mundari web, media and newspaper discovery streams",
+      "result": "Scope and homonym controls retained; no search result promoted to audited evidence without stable identity and supported rights/scope classification."
+    }
+  ],
+  "homonym_and_scope_controls": {
+    "exclude_South_Sudan_Mandari_or_Mundari_homonyms": true,
+    "do_not_merge_Munda_unx_with_Mundari_unr_without_source_specific_justification": true,
+    "do_not_collapse_Bhumij_or_other_doculect_labels_into_Mundari_without_controlled_identity_decision": true,
+    "exclude_music_title_or_person_name_false_positives": true,
+    "do_not_promote_search_hit_to_audited_identity": true
+  },
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change": false,
+  "reason_no_count_change": "Run 355 strengthens exact manifestation metadata and exposes a provider discrepancy for an already-known source, but does not complete authoritative numbered WEB-MUN reconciliation.",
+  "content_promotion_this_run": "Zero lexical, grammatical, cultural, demographic, phonological, audiovisual or map-content factual claims promoted.",
+  "next_action": "Resolve the Sinha manifestation discrepancy with permitted bytes/hash/page accounting; continue deterministic WEB-MUN dispositions and Census/LSI primary verification."
+}

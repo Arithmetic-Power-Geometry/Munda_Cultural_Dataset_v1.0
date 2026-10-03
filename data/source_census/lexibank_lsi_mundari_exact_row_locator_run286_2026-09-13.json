@@ -1,0 +1,63 @@
+{
+  "run_id": 286,
+  "date_utc": "2026-09-13",
+  "stream": "government_LSI / derived-dataset exact-row locator audit",
+  "source": {
+    "repository": "lexibank/lsi",
+    "pinned_commit_sha": "bfae847565dc6810af05c11bf612457e5861009e",
+    "computed_path": "computed/Austroasiatic.tsv",
+    "parameters_path": "cldf/parameters.csv",
+    "language_id": "MUNDARI",
+    "glottocode": "mund1320"
+  },
+  "verified_exact_rows": [
+    {"computed_id":"57450","Parameter_ID":"57_cat","Concept":"Cat","VALUE":"pūsī","FORM":"pūsī","GLOTTOLOG":"mund1320","CONCEPTICON":"1208","parameter_locator":{"Concepticon_ID":"1208","Concepticon_Gloss":"CAT","primary_lsi_page_numbers":"114-115","scan_numbers":"156 157","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/156/mode/2up"}},
+    {"computed_id":"10004","Parameter_ID":"76_child","Concept":"Child","VALUE":"hån","FORM":"hån","GLOTTOLOG":"mund1320","CONCEPTICON":"1304","parameter_locator":{"Concepticon_ID":"1304","Concepticon_Gloss":"CHILD (YOUNG HUMAN)","primary_lsi_page_numbers":"152-153","scan_numbers":"194 195","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/194/mode/2up"}},
+    {"computed_id":"58252","Parameter_ID":"59_cock","Concept":"Cock","VALUE":"sạṇḍi sīm","FORM":"sạṇḍi sīm","GLOTTOLOG":"mund1320","CONCEPTICON":"1511","parameter_locator":{"Concepticon_ID":"1511","Concepticon_Gloss":"ROOSTER","primary_lsi_page_numbers":"118-119","scan_numbers":"160 161","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/160/mode/2up"}},
+    {"computed_id":"30477","Parameter_ID":"121_come","Concept":"Come","VALUE":"hījuᵏ","FORM":"hījuᵏ","GLOTTOLOG":"mund1320","CONCEPTICON":"1446","parameter_locator":{"Concepticon_ID":"1446","Concepticon_Gloss":"COME","primary_lsi_page_numbers":"242-243","scan_numbers":"284 285","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/284/mode/2up"}},
+    {"computed_id":"13194","Parameter_ID":"85_cow","Concept":"Cow","VALUE":"gāe (Aryan)","FORM":"gāe","GLOTTOLOG":"mund1320","CONCEPTICON":"1007","parameter_locator":{"Concepticon_ID":"1007","Concepticon_Gloss":"COW","primary_lsi_page_numbers":"170-171","scan_numbers":"212 213","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/212/mode/2up"}},
+    {"computed_id":"53606","Parameter_ID":"42_cultivator","Concept":"Cultivator","VALUE":"siᵏ håṛå","FORM":"siᵏ håṛå","GLOTTOLOG":"mund1320","CONCEPTICON":"979","parameter_locator":{"Concepticon_ID":"979","Concepticon_Gloss":"FARMER","primary_lsi_page_numbers":"84-85","scan_numbers":"126 127","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/126/mode/2up"}},
+    {"computed_id":"10865","Parameter_ID":"78_daughter","Concept":"Daughter","VALUE":"kūṛī-hån","FORM":"kūṛī-hån","GLOTTOLOG":"mund1320","CONCEPTICON":"1357","parameter_locator":{"Concepticon_ID":"1357","Concepticon_Gloss":"DAUGHTER","primary_lsi_page_numbers":"156-157","scan_numbers":"198 199","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/198/mode/2up"}},
+    {"computed_id":"17051","Parameter_ID":"97_deer","Concept":"Deer","VALUE":"jīlū-kō","FORM":"jīlū-kō","GLOTTOLOG":"mund1320","CONCEPTICON":"1936","parameter_locator":{"Concepticon_ID":"1936","Concepticon_Gloss":"DEER","primary_lsi_page_numbers":"194-195","scan_numbers":"236 237","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/236/mode/2up"}},
+    {"computed_id":"54560","Parameter_ID":"45_devil","Concept":"Devil","VALUE":"boṅgā","FORM":"boṅgā","GLOTTOLOG":"mund1320","CONCEPTICON":"1973","parameter_locator":{"Concepticon_ID":"1973","Concepticon_Gloss":"DEMON","primary_lsi_page_numbers":"90-91","scan_numbers":"132 133","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/132/mode/2up"}},
+    {"computed_id":"31245","Parameter_ID":"123_die","Concept":"Die","VALUE":"gåjåᵏ","FORM":"gåjåᵏ","GLOTTOLOG":"mund1320","CONCEPTICON":"1494","parameter_locator":{"Concepticon_ID":"1494","Concepticon_Gloss":"DIE","primary_lsi_page_numbers":"246-247","scan_numbers":"288 289","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/288/mode/2up"}}
+  ],
+  "verification": {
+    "new_exact_computed_rows_verified_this_run": 10,
+    "new_distinct_parameter_ids_verified_this_run": 10,
+    "cumulative_exact_computed_rows_verified_across_runs_281_283_285_286": 27,
+    "cumulative_distinct_parameter_ids_verified_across_runs_281_283_285_286": 22,
+    "parameter_foreign_keys_reconciled": true,
+    "concepticon_ids_reconciled": true,
+    "primary_page_and_scan_locators_reconciled_from_pinned_parameters_table": true,
+    "direct_primary_page_image_verified_this_run": false,
+    "direct_primary_scan_bytes_hashed_this_run": false
+  },
+  "canonicalization": {
+    "canonical_key": "LEXIBANK:LSI:master@bfae847565dc6810af05c11bf612457e5861009e",
+    "new_controlled_source_identity": false,
+    "reason": "Exact-row refinement of the already tracked LSI derived-dataset family; not a new source identity."
+  },
+  "promotion": {
+    "promotion_level": "exact derived-row + parameter + Concepticon + primary-page locator evidence",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "reason_for_no_public_lexical_promotion": "Derived rows and primary-page locators are reproducible, but direct primary LSI page-image/byte verification and cultural-governance review remain open."
+  },
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license": "CC-BY-4.0",
+    "derived_license_treated_as_primary_scan_permission": false,
+    "derived_license_treated_as_participant_consent": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "public_repository_access_treated_as_model_training_permission": false
+  },
+  "explicit_gaps": [
+    "Continue exact reconciliation of remaining MUNDARI rows in the pinned Lexibank LSI dataset.",
+    "Independently verify corresponding primary LSI page images/bytes before direct-source lexical promotion.",
+    "Do not infer community validation, participant consent or cultural-access permission from the derived CC-BY-4.0 licence."
+  ]
+}

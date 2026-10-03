@@ -1,0 +1,40 @@
+{
+  "run": 444,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "ELR-1000",
+    "creator_publisher": "Karya",
+    "source_class": ["dataset", "audio", "images", "text", "web resource"],
+    "repository": "karya-inc/elr-1000",
+    "scope": "Multilingual endangered/low-resource Indic multimodal recipe dataset; Mundari is explicitly one of ten listed languages."
+  },
+  "verified_metadata": {
+    "languages_listed": ["Assamese", "Bodo", "Ho", "Kaman-Mishmi", "Khasi", "Khortha", "Meitei", "Mundari", "Sadri", "Santhali"],
+    "provider_reported_total_images": 11213,
+    "provider_reported_total_audio_hours": 42,
+    "provider_reported_modalities": ["text", "images", "audio"],
+    "provider_reported_format": "Parquet shards with embedded media"
+  },
+  "canonicalization": {
+    "rule": "GitHub repository, Hugging Face dataset presentation, parquet shards, images and audio are manifestations/components of one ELR-1000 dataset identity unless provenance establishes independently citable source identities.",
+    "count_warning": "Provider-wide totals MUST NOT be interpreted as Mundari-specific totals or MMSC audited-source counts."
+  },
+  "promotion_status": "DISCOVERY_VERIFIED_NOT_PROMOTED",
+  "promotion_gates": [
+    "enumerate Mundari-only records deterministically",
+    "verify exact dataset licence and redistribution terms",
+    "verify contributor/speaker consent, privacy and culturally sensitive content handling",
+    "obtain permitted immutable bytes and SHA-256 for promoted artifacts",
+    "record record-level stable locators and media/time locators",
+    "separate recipe/text assertions from participant-derived linguistic/cultural evidence"
+  ],
+  "claims_promoted": 0,
+  "evidence_promoted": 0,
+  "rights_note": "No reuse permission inferred from public discoverability. Exact licence must be checked before redistribution or evidence materialization.",
+  "cultural_uncertainty": "Mundari inclusion is verified; no cultural proposition is inferred from dataset-level metadata.",
+  "sources": [
+    "https://github.com/karya-inc/elr-1000",
+    "https://huggingface.co/datasets/karya/ELR-1000"
+  ]
+}

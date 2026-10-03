@@ -1,0 +1,97 @@
+{
+  "run": 682,
+  "audit_date": "2026-10-03",
+  "stream": "MLHKP non-Mundarica source census",
+  "source": {
+    "canonical_key": "hdl:10919/111386",
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "author": "Pallavi Raonka",
+    "type": "doctoral_dissertation",
+    "institution": "Virginia Tech",
+    "dissertation_date": "2020-08-20",
+    "repository_date": "2021-02-02",
+    "repository_manifestation": "Raonka_P_D_2021.pdf",
+    "repository_reported_size": "2.33 MB",
+    "pdf_pages": 187,
+    "persistent_id": "http://hdl.handle.net/10919/111386",
+    "copyright": "Copyright ©2020 Pallavi Raonka"
+  },
+  "verification": {
+    "repository_search_terms": [
+      "Pallavi Raonka",
+      "Munda Politics and Land",
+      "10919/111386"
+    ],
+    "repository_search_matches": 0,
+    "absence_claimed": false,
+    "fulltext_inspected": true,
+    "exact_locators": [
+      {
+        "pdf_page": 1,
+        "printed_context": "abstract",
+        "support": "15-month ethnographic study, May 2017–December 2018, concerning Munda community meanings of land and Adivasi-State conflict"
+      },
+      {
+        "pdf_page": 34,
+        "section": "IRB APPROVAL",
+        "support": "expedited IRB approval granted June 27 2017; approval to audio-record interviews of activists working with Munda communities"
+      },
+      {
+        "pdf_page": 35,
+        "section": "1.4 CHAPTER OUTLINE",
+        "support": "project described as ethnographic study of Munda everyday life and land/forest meanings"
+      },
+      {
+        "pdf_page": 42,
+        "support": "chapter described as based on oral-history interviews with Pathalgarhi leaders/participants plus participant observation and village visits"
+      },
+      {
+        "pdf_page": 44,
+        "support": "author explains an interview was not camera/audio-recorded because recording could make the participant uncomfortable under surveillance"
+      }
+    ]
+  },
+  "scope": {
+    "geography": [
+      "Jharkhand",
+      "Khunti and other field sites as documented in dissertation"
+    ],
+    "topics": [
+      "land",
+      "forest",
+      "self-representation",
+      "Pathalgarhi",
+      "gender",
+      "state relations"
+    ],
+    "caution": "Treat author observations, participant statements, and cited-literature synthesis as distinct evidence classes. Do not universalize local/field observations to all Munda communities."
+  },
+  "governance": {
+    "public_repository_access": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_for_dataset_redistribution_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "sensitive_participant_material": "Do not expose participant-linked interview/photographic material until consent and cultural-access review is complete.",
+    "promotion_policy": "Metadata/method locators may support source provenance. Cultural propositions remain candidate-only until proposition atomization, dependency, rights, consent and cultural-access review."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "reconciliation": {
+    "mmsc_web_mun": "pending",
+    "controlled_counts_changed": false
+  },
+  "next": [
+    "manifestation checksum/immutable capture",
+    "page/printed-page concordance",
+    "atomize field-supported propositions",
+    "separate participant speech from author interpretation and cited literature",
+    "rights/consent/cultural-access review",
+    "deterministic MMSC/WEB-MUN reconciliation"
+  ]
+}

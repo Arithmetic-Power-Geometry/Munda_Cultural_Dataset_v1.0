@@ -1,0 +1,60 @@
+{
+  "audit_run": 492,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica",
+  "canonical_source_id": "tirki_2015_mundari_beyakaran",
+  "source_class": ["book", "grammar", "institutional_repository", "web_resource"],
+  "identity": {
+    "title_original": "मुण्डारी बेयाकरण",
+    "title_romanized_provider": "Mundari Beyakaran",
+    "author": "Sikradas Tirki",
+    "year": 2015,
+    "publisher": "K. K. Publications, Allahabad",
+    "languages": ["Mundari", "Hindi"],
+    "provider_record_id": "BVP03961",
+    "persistent_uri": "https://hdl.handle.net/20.500.14705/8450",
+    "bharatavani_uri": "https://bharatavani.in/bharatavani/home/book?id=मुण्डारी बेयाकरण",
+    "rights_holder_reported": "Sikradas Tirki"
+  },
+  "verification": {
+    "provider": "Bhasha Sanchika / Central Institute of Indian Languages",
+    "provider_metadata_verified": true,
+    "provider_description": "The book is a Grammar on Mundari Language.",
+    "repository_search_prior_match": false,
+    "canonicalization_rule": "Bhasha Sanchika, Bharatavani, catalogue/search records and any mirrors are manifestations of one 2015 work unless item-level collation proves otherwise."
+  },
+  "scope": {
+    "in_scope": true,
+    "reason": "Direct Mundari grammar source; potentially useful for linguistic evidence after rights and locator verification.",
+    "not_independent_manifestations": ["Bhasha Sanchika record", "Bharatavani record", "repository PDF manifestation", "catalogue/search mirrors"]
+  },
+  "rights_access_consent": {
+    "rights_holder_identified": "Sikradas Tirki",
+    "open_reuse_license_verified": false,
+    "redistribution_permission_verified": false,
+    "public_discoverability_is_reuse_permission": false,
+    "speaker_consultant_consent_verified": false,
+    "cultural_access_review_complete": false
+  },
+  "ingestion": {
+    "status": "metadata_verified_promotion_blocked",
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "blockers": [
+      "explicit reusable-rights basis not verified",
+      "lawfully reusable immutable source bytes and SHA-256 not established",
+      "PDF-to-printed-page concordance not established",
+      "exact passage/example locators not established",
+      "example/consultant provenance and consent not established",
+      "cultural sensitivity/access review not completed"
+    ],
+    "future_exact_locator": "<permitted-immutable-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>"
+  },
+  "release_accounting": {
+    "add_to_controlled_source_count_now": false,
+    "add_to_claim_count_now": false,
+    "add_to_evidence_count_now": false,
+    "reason": "Requires deterministic census reconciliation and evidence promotion gates; discovery/metadata verification alone must not inflate release metrics."
+  },
+  "audit_note": "Blocked promotion was recorded and the census sprint should continue immediately to other source classes. No cultural or linguistic proposition is asserted from this source in this run."
+}

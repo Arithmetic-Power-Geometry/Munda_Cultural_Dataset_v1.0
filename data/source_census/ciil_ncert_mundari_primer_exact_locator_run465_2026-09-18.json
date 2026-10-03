@@ -1,0 +1,52 @@
+{
+  "audit_run": 465,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica",
+  "source_class": ["government", "primer", "educational_resource", "web_pdf"],
+  "canonical_identity": {
+    "title_display": "Mundari Primer",
+    "title_provider": "MUNDARI PRIMER",
+    "description": "A basal reader of Mundari alphabet and basic numerals for Balvatika/Anganwadi level and adult literacy programmes through andragogy.",
+    "editors": ["Dinesh Prasad Saklani", "Shailendra Mohan", "Sujoy Sarkar", "Puspa Thounaojam"],
+    "publisher": "Central Institute of Indian Languages (CIIL), Mysuru, in collaboration with National Council of Educational Research and Training (NCERT), New Delhi",
+    "edition": "First Edition",
+    "edition_date": "2024-03-09",
+    "isbn": "978-81-19411-80-1",
+    "language": "Mundari",
+    "canonical_provider_url": "https://ciil.gov.in/primers/Mundari_Primer.pdf"
+  },
+  "identity_verification": {
+    "provider": "Central Institute of Indian Languages (CIIL)",
+    "provider_pdf_front_matter_verified": true,
+    "verified_fields": ["title", "purpose", "editors", "ISBN", "first-edition date", "publisher/collaboration", "copyright statement"],
+    "canonicalization_note": "CIIL/NCERT references, catalogue/search manifestations, mirrors, citations and future local copies of this same edition are manifestations of one canonical source identity, not independent corroborating sources."
+  },
+  "rights_access": {
+    "access": "publicly discoverable provider PDF",
+    "copyright_holder_statement": "CIIL & NCERT 2024",
+    "rights_statement": "All rights reserved; provider front matter states that no part may be reproduced, stored in a retrieval system, or transmitted by any means without prior permission of the publisher.",
+    "redistribution_permission_verified": false,
+    "mlhkp_action": "metadata-only audit; do not redistribute source bytes or extracted copyrighted content without permission"
+  },
+  "scope_and_uncertainty": {
+    "in_scope": true,
+    "scope": "Mundari literacy/orthography/basic-numeral educational resource",
+    "cultural_claims_authorized": false,
+    "cultural_uncertainty": "Educational/provider content is not automatically evidence of community-wide cultural practice, consensus, or contemporary usage.",
+    "consent_status": "not established from verified front matter"
+  },
+  "exact_locator_status": {
+    "metadata_locator": "provider PDF front matter, page ii",
+    "claim_level_exact_locators_created": 0,
+    "source_bytes_ingested": false,
+    "sha256": null,
+    "page_concordance_verified": false,
+    "promotion_blockers": ["all-rights-reserved reproduction restriction", "no verified redistribution permission", "no immutable permitted local bytes/SHA-256", "no PDF-to-printed-page concordance", "no item-level cultural/consent review"]
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Metadata and source identity are verified, but reproduction/reuse permission and claim-level provenance gates are not satisfied."
+  },
+  "audit_principles": ["no fabricated counts", "no cultural inference from educational publication", "no count inflation across manifestations", "restricted material remains an explicit gap"]
+}

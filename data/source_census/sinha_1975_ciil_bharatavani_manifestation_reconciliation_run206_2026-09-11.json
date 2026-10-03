@@ -1,0 +1,76 @@
+{
+  "audit_id": "MLHKP-RUN206-SINHA1975-CIIL-BHARATAVANI-MANIFESTATION-RECONCILIATION",
+  "run": 206,
+  "date": "2026-09-11",
+  "scope": "non-Mundarica official-manifestation reconciliation for N. K. Sinha's 1975 Mundari Grammar",
+  "work": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages",
+    "language_catalogue": ["English", "Mundari"],
+    "known_existing_identity_reused": true,
+    "new_permanent_source_identity_created": false
+  },
+  "official_manifestations": [
+    {
+      "system": "Bhasha Sanchika — CIIL Repository",
+      "handle": "20.500.14705/8179",
+      "repository_identifier": "CIILP0091",
+      "file": "CIILP0091.pdf",
+      "reported_file_size": "9.63 KB",
+      "observed_state": "direct repository PDF previously verified as a one-page cover manifestation",
+      "full_text_verified": false,
+      "independent_hash_verified": false,
+      "exact_locator_verified": true
+    },
+    {
+      "system": "Bharatavani",
+      "implementing_institution": "Central Institute of Indian Languages (CIIL), Mysuru",
+      "government_context": "Ministry of Education, Government of India project",
+      "catalogue_url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "reported_file_size": "117.39 MB",
+      "access_statement": "Login to Read",
+      "content_partner": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "publisher_as_catalogued": "Central Institute of Indian Languages (CIIL), Mysore, Karnataka",
+      "book_type": "Grammar",
+      "exact_catalogue_locator_verified": true,
+      "bytes_acquired": false,
+      "independent_hash_verified": false,
+      "page_count_verified": false,
+      "full_text_verified": false
+    }
+  ],
+  "reconciliation": {
+    "same_bibliographic_work_supported": true,
+    "same_digital_file_claimed": false,
+    "reason": "The official records agree on title, author, year and CIIL publication context, but expose materially different reported file sizes/access states. Without byte acquisition and hashing, they must remain distinct manifestations of the same bibliographic work rather than be collapsed as the same file.",
+    "sanchika_cover_is_not_full_book": true,
+    "bharatavani_117_39mb_is_not_treated_as_acquired": true,
+    "login_gate_preserved": true
+  },
+  "rights_access_cultural_boundary": {
+    "public_catalogue_visibility_is_permission": false,
+    "login_access_is_redistribution_permission": false,
+    "model_training_permission_verified": false,
+    "full_text_redistribution_permission_verified": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "grammar_rules_promoted": 0,
+    "lexical_rows_promoted": 0,
+    "cultural_claims_promoted": 0
+  },
+  "release_effect": {
+    "discovery_only_state_reduced": true,
+    "exact_official_catalogue_locator_added": true,
+    "full_text_ingestion_completed": false,
+    "source_identities_added": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "streamlit_modules_added": 0,
+    "count_bearing_change": false,
+    "next_required_step": "Lawfully access the Bharatavani manifestation, preserve bytes, compute an independent hash/page count, compare title/front matter against CIILP0091, then promote only exact page-level grammar evidence whose rights and release policy permit ingestion."
+  }
+}

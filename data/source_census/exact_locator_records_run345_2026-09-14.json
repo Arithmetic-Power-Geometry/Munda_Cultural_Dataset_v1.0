@@ -1,0 +1,68 @@
+{
+  "run": 345,
+  "audit_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "Exact-locator promotion for non-Mundarica sources whose provider identity and manifestation metadata are supportable without promoting unverified content.",
+  "records": [
+    {
+      "source_class": "government_TRI_Census_LSI",
+      "source_id": "PC11_C16city-20",
+      "title": "C-16 City: Population by mother tongue (town level), Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/10246",
+      "declared_download_filename": "DDW-C16-TOWN-STMT-MDDS-2000.XLSX",
+      "geographic_granularity": ["state", "district", "town"],
+      "catalogue_schema": ["state code", "district code", "town code", "area name", "mother tongue code", "mother tongue name", "total person/male/female", "rural person/male/female", "urban person/male/female"],
+      "mundari_locator_supported_by_catalogue": {"code_label": "92 MUNDARI", "row_label": "Mundari"},
+      "verification_level": "official_catalogue_exact_locator_only",
+      "content_promoted": false
+    },
+    {
+      "source_class": "government_TRI_Census_LSI",
+      "source_id": "PC11_ST15-20",
+      "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+      "declared_download_filename": "ST-20-00-15-DDW-2011.XLSX",
+      "universe": "Individuals from scheduled tribes in Jharkhand",
+      "catalogue_schema": ["state code", "district code", "area name", "scheduled tribe code", "scheduled tribe name", "mother tongue code", "mother tongue name", "total person/male/female", "rural person/male/female", "urban person/male/female"],
+      "catalogue_munda_scope_labels": {"tribe": "Munda, Patar", "mother_tongue_code_label": "92 MUNDARI", "mother_tongue_label": "Mundari"},
+      "verification_level": "official_catalogue_exact_locator_only",
+      "content_promoted": false
+    },
+    {
+      "source_class": "dictionaries",
+      "source_id": "BHARATAVANI-MUNDARI-DICTIONARIES",
+      "title": "Bharatavani Mundari dictionaries portal",
+      "provider": "Bharatavani, Ministry of Education, Government of India; implemented by Central Institute of Indian Languages (CIIL), Mysuru",
+      "official_portal_url": "https://bharatavani.in/mundari/dictionaries",
+      "manifestations_observed": [
+        "Mundari Muhavara Kosh",
+        "Mundari Dictionary (Mundari-English-Hindi)"
+      ],
+      "provider_access_modes_observed": ["Read / Download PDF", "Browse and Search"],
+      "provider_page_rights_notice": "Copyright Bharatavani. All Rights Reserved",
+      "verification_level": "official_provider_portal_exact_title_locator_only",
+      "dictionary_entries_promoted": false,
+      "reuse_permission_inferred": false
+    }
+  ],
+  "verification_boundaries": {
+    "census_primary_workbook_bytes_verified": false,
+    "census_independent_sha256_verified": false,
+    "census_sheet_row_cell_values_verified": false,
+    "census_numeric_claims_promoted": 0,
+    "bharatavani_pdf_bytes_verified": false,
+    "bharatavani_entry_content_verified": false,
+    "bharatavani_reuse_permission_established": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "linguistic_or_cultural_claims_promoted": 0
+  },
+  "blocked_or_unavailable": [
+    "Census workbook download actions returned an internal retrieval error in this execution path; catalogue identity/schema remained accessible, so byte/hash/cell verification stays open.",
+    "Bharatavani exposes dictionary titles and access modes, but this run did not independently materialize and hash the underlying PDFs; the portal also displays an all-rights-reserved notice, so no content reuse is assumed."
+  ],
+  "release_effect": "Moves three source manifestations from generic discovery to exact provider locator records while keeping controlled evidence/claim counts unchanged pending numbered WEB-MUN reconciliation and permitted primary-byte verification."
+}

@@ -1,0 +1,60 @@
+{
+  "run": 547,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source": {
+    "author": "Pallavi Raonka",
+    "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+    "date": "2021-02-02",
+    "type": "doctoral dissertation",
+    "publisher_institution": "Virginia Tech",
+    "repository": "VTechWorks",
+    "persistent_id": "hdl:10919/111386",
+    "canonical_url": "http://hdl.handle.net/10919/111386"
+  },
+  "identity_verification": {
+    "repository_record": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041",
+    "repository_reports_primary_file": "Raonka_P_D_2021.pdf",
+    "repository_reports_primary_file_size": "2.33 MB",
+    "repository_classification": "Doctoral Dissertations",
+    "verified_from_repository_metadata": true
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["land", "indigeneity", "politics", "identity", "representation", "gender", "Adivasi-State relations"],
+    "methods_reported_in_repository_abstract": "fifteen-month ethnographic study, May 2017 to December 2018, using several forms of qualitative data",
+    "scope_classification": "direct Munda-community ethnography/politics; potentially high-value primary-research source"
+  },
+  "deduplication": {
+    "canonical_key": "raonka|2021|munda-politics-and-land|hdl-10919-111386",
+    "rule": "Treat repository landing page, handle resolver, dissertation PDF, citation exports and mirrors of this dissertation as manifestations of one work unless evidence establishes a distinct version. Do not count the abstract and dissertation as independent corroboration."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "repository_access": "repository landing page exposes a downloadable dissertation PDF",
+    "redistribution_permission": "not established by this audit",
+    "participant_consent_reuse": "not established from repository metadata; inspect dissertation ethics/methods before participant-derived evidence promotion",
+    "cultural_access": "unverified",
+    "sensitive_content_policy": "Do not promote restricted, sacred, private, participant-identifying or otherwise culturally sensitive material without explicit support and appropriate permission.",
+    "representation_note": "Prefer author/community-grounded descriptions and preserve uncertainty; do not generalize study-site findings to all Munda communities."
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Repository metadata verifies identity and broad study scope but is insufficient for proposition-level cultural claims. Exact dissertation passage locators, immutable capture/SHA-256, pagination concordance, methods/ethics review, dependency review, and rights/cultural-access checks are required before promotion."
+  },
+  "conversion_queue": [
+    "Obtain the repository-provided dissertation PDF under permitted access.",
+    "Record immutable manifestation metadata and SHA-256.",
+    "Reconcile PDF page numbers with printed dissertation pagination.",
+    "Inspect front matter, methods/ethics, consent/anonymization and field-site description before extracting participant-derived material.",
+    "Create exact page/section/quotation-span locators only for supported non-restricted propositions.",
+    "Tag author claims versus participant statements versus cited historical/secondary claims and preserve dependency edges."
+  ],
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "gap_status": "exact-locator conversion pending",
+    "release_gate": "NOT PASS"
+  }
+}

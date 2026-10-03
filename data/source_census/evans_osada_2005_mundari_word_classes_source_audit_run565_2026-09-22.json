@@ -1,0 +1,64 @@
+{
+  "run": 565,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica",
+  "source_class": ["peer-reviewed article", "linguistics", "open repository manifestation"],
+  "canonical_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "volume": 9,
+    "issue": 3,
+    "start_page": 351,
+    "doi": "10.1515/lity.2005.9.3.351",
+    "handle": "1885/54663"
+  },
+  "authoritative_manifestation": {
+    "repository": "Australian National University digital collections",
+    "access_statement": "Open Access",
+    "repository_file": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "reported_size": "234.31 KB"
+  },
+  "scope": {
+    "language": "Mundari",
+    "topic": "word classes, noun/verb distinction, conversion/derivation and lexical categorization",
+    "classification": "directly relevant linguistic evidence; not a general cultural source"
+  },
+  "dependency_and_corroboration": {
+    "notes": "The authors explicitly analyse Hoffmann's corpus together with substantial new data and lexical samples. Claims derived from Hoffmann must retain that upstream dependency and must not be counted as independent corroboration of Hoffmann. New-data claims require exact-page/method/source separation before promotion."
+  },
+  "rights_access_consent": {
+    "repository_access": "open access",
+    "redistribution_license": "not established by this audit",
+    "binary_ingestion": "not promoted",
+    "participant_consent": "not established by repository metadata",
+    "cultural_access_review": "required for any proposition extending beyond formal linguistic analysis"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Full-text manifestation is discoverable, but this run did not establish redistribution licence or complete page-level proposition extraction and dependency separation."
+  },
+  "conversion_queue": [
+    "lawfully inspect repository PDF",
+    "record immutable manifestation hash if storage/reuse is permitted",
+    "establish PDF-page to printed-page concordance",
+    "extract supported propositions with exact printed-page/PDF-page locators",
+    "separate Hoffmann-derived evidence from authors' new data",
+    "record method/sample provenance for new lexical data",
+    "verify reuse licence before storing binary or substantial extracts"
+  ],
+  "deduplication": {
+    "canonical_key": "doi:10.1515/lity.2005.9.3.351",
+    "secondary_key": "handle:1885/54663",
+    "repository_precheck": "Exact search for 1885/54663 returned no match before creation.",
+    "rule": "DOI, ANU handle, repository PDF and publisher manifestations are one work identity, not independent sources."
+  },
+  "verification_sources": [
+    "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "https://doi.org/10.1515/lity.2005.9.3.351"
+  ],
+  "audit_note": "No cultural or linguistic proposition was promoted from catalogue/abstract metadata alone."
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": 283,
+  "date_utc": "2026-09-13",
+  "stream": "government_LSI / derived-dataset exact-row locator audit",
+  "source": {
+    "repository": "lexibank/lsi",
+    "pinned_commit_sha": "bfae847565dc6810af05c11bf612457e5861009e",
+    "computed_path": "computed/Austroasiatic.tsv",
+    "computed_git_blob_sha": "6b74d97032e3e228b6519aa8d597a790305dd340",
+    "parameters_path": "cldf/parameters.csv",
+    "parameters_git_blob_sha": "6e37638677321a4b3bf85974889f224176ebf391",
+    "language_id": "MUNDARI",
+    "glottocode": "mund1320"
+  },
+  "verified_exact_rows": [
+    {"computed_id":"35843","Parameter_ID":"138_beat","Concept":"Beat","VALUE":"dāl","FORM":"dāl","GLOTTOLOG":"mund1320","CONCEPTICON":"1665","parameter_locator":{"Concepticon_ID":"1665","Concepticon_Gloss":"BEAT","primary_lsi_page_numbers":"276-277","scan_numbers":"318 319","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/318/mode/2up"}},
+    {"computed_id":"21302","Parameter_ID":"109_before","Concept":"Before","VALUE":"ayar","FORM":"ayar","GLOTTOLOG":"mund1320","CONCEPTICON":"1882","parameter_locator":{"Concepticon_ID":"1882","Concepticon_Gloss":"BEFORE","primary_lsi_page_numbers":"218-219","scan_numbers":"260 261","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/260/mode/2up"}},
+    {"computed_id":"21698","Parameter_ID":"110_behind","Concept":"Behind","VALUE":"tāyōm","FORM":"tāyōm","GLOTTOLOG":"mund1320","CONCEPTICON":"1686","parameter_locator":{"Concepticon_ID":"1686","Concepticon_Gloss":"BEHIND","primary_lsi_page_numbers":"220-221","scan_numbers":"262 263","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/262/mode/2up"}},
+    {"computed_id":"51480","Parameter_ID":"36_belly","Concept":"Belly","VALUE":"lāiᶜʰ","FORM":"lāiᶜʰ","GLOTTOLOG":"mund1320","CONCEPTICON":"1251","parameter_locator":{"Concepticon_ID":"1251","Concepticon_Gloss":"BELLY","primary_lsi_page_numbers":"72-73","scan_numbers":"114 115","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/114/mode/2up"}},
+    {"computed_id":"57846","Parameter_ID":"58_bird","Concept":"Bird","VALUE":"chä̃ṛä̃ (? Aryan)","FORM":"chä̃ṛä̃","GLOTTOLOG":"mund1320","CONCEPTICON":"937","parameter_locator":{"Concepticon_ID":"937","Concepticon_Gloss":"BIRD","primary_lsi_page_numbers":"116-117","scan_numbers":"158 159","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/158/mode/2up"}},
+    {"computed_id":"14544","Parameter_ID":"89_bitch","Concept":"Bitch","VALUE":"ēṅgā setā","FORM":"ēṅgā setā","GLOTTOLOG":"mund1320","CONCEPTICON":"2481","parameter_locator":{"Concepticon_ID":"2481","Concepticon_Gloss":"FEMALE DOG","primary_lsi_page_numbers":"178-179","scan_numbers":"220 221","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/220/mode/2up"}},
+    {"computed_id":"7422","Parameter_ID":"71_brother","Concept":"Brother","VALUE":"(E.) bāū","FORM":"bāū","GLOTTOLOG":"mund1320","CONCEPTICON":"1262","parameter_locator":{"Concepticon_ID":"1262","Concepticon_Gloss":"BROTHER","primary_lsi_page_numbers":"142-143","scan_numbers":"184 185","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/184/mode/2up"}},
+    {"computed_id":"7423","Parameter_ID":"71_brother","Concept":"Brother","VALUE":"(Y.) bōkō","FORM":"bōkō","GLOTTOLOG":"mund1320","CONCEPTICON":"1262","parameter_locator":{"Concepticon_ID":"1262","Concepticon_Gloss":"BROTHER","primary_lsi_page_numbers":"142-143","scan_numbers":"184 185","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/184/mode/2up"}},
+    {"computed_id":"12824","Parameter_ID":"84_bull","Concept":"Bull","VALUE":"ạ̄ṇḍiā (Aryan)","FORM":"ạ̄ṇḍiā","GLOTTOLOG":"mund1320","CONCEPTICON":"1008","parameter_locator":{"Concepticon_ID":"1008","Concepticon_Gloss":"BULL","primary_lsi_page_numbers":"168-169","scan_numbers":"210 211","dsal_locator":"https://dsal.uchicago.edu/books/lsi/lsi.php?volume=1-2&pages=381#page/210/mode/2up"}}
+  ],
+  "verification": {
+    "new_exact_computed_rows_verified_this_run": 9,
+    "new_distinct_parameter_ids_verified_this_run": 8,
+    "cumulative_exact_computed_rows_verified_across_runs_281_and_283": 13,
+    "cumulative_distinct_parameter_ids_verified_across_runs_281_and_283": 10,
+    "parameter_foreign_keys_reconciled": true,
+    "concepticon_ids_reconciled": true,
+    "primary_page_and_scan_locators_reconciled_from_pinned_parameters_table": true,
+    "direct_primary_page_image_verified_this_run": false,
+    "direct_primary_scan_bytes_hashed_this_run": false
+  },
+  "canonicalization": {
+    "canonical_key": "LEXIBANK:LSI:master@bfae847565dc6810af05c11bf612457e5861009e",
+    "new_controlled_source_identity": false,
+    "reason": "Exact-row refinement of the already tracked LSI derived-dataset family; not a new source identity."
+  },
+  "promotion": {
+    "promotion_level": "exact derived-row + parameter + Concepticon + primary-page locator evidence",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "cultural_claims_promoted": 0,
+    "reason_for_no_public_lexical_promotion": "Reproducible derived locators are established, but direct primary LSI page-image/byte verification and existing cultural-governance review remain open."
+  },
+  "rights_and_cultural_boundary": {
+    "derived_dataset_license": "CC-BY-4.0",
+    "derived_license_treated_as_primary_scan_permission": false,
+    "derived_license_treated_as_participant_consent": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "public_repository_access_treated_as_model_training_permission": false
+  },
+  "explicit_gaps": [
+    "Continue exact reconciliation of remaining MUNDARI rows in the pinned Lexibank LSI dataset.",
+    "Independently verify corresponding primary LSI page images/bytes before direct-source lexical promotion.",
+    "Pin a formal Lexibank LSI release/DOI if available before publication-grade derived-row citation.",
+    "Do not infer community validation, participant consent or cultural-access permission from the derived CC-BY-4.0 licence."
+  ]
+}

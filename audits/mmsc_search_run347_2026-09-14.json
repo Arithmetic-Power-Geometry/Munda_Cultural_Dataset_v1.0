@@ -1,0 +1,31 @@
+{
+  "search_id": "MMSC-SEARCH-000347",
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "classes_refreshed": 14,
+  "classes": {
+    "books": ["CIIL/Sanchika and historical Mundari book leads rechecked; no unsupported promotion"],
+    "dictionaries": ["Bharatavani/CIIL dictionary portal retained at catalogue level", "ASJP Mundari wordlist newly promoted at source-manifestation metadata level"],
+    "grammars": ["CIIL/Sanchika Mundari Grammar manifestation retained; no new byte/hash closure"],
+    "peer_reviewed_articles": ["2026 FASAL Munda information-structure article reconfirmed", "2025 MMLoSo ACL proceedings reconfirmed"],
+    "theses_dissertations": ["existing repository leads retained; no new exact byte-level closure in this run"],
+    "government_TRI_Census_LSI": ["ORGI/LSI/Census streams refreshed; workbook bytes/hash/cells remain explicit gaps"],
+    "archives": ["National Cultural Audiovisual Archives identified as relevant archive class; item-level Mundari verification not completed in this run"],
+    "newspapers": ["contextual search refreshed; no newspaper claim promoted as cultural authority"],
+    "web_resources": ["Languages Home and Mundari web resources refreshed; rights/provenance boundaries retained"],
+    "datasets": ["ASJP Mundari exact provider locator added; AdiBhashaa/Karya streams reconfirmed"],
+    "audio": ["Karya TTS and MegaVoice/GRN discovery leads refreshed; no audio content promoted without governance review"],
+    "video": ["video/documentary class refreshed; no content promoted without consent/cultural-access review"],
+    "maps": ["Glottolog mund1320 map/metadata lead reconfirmed; no cultural/geographic inference promoted"],
+    "relevant_media": ["religious/media resources classified as media, not linguistic or cultural authority"]
+  },
+  "new_exact_locator": "ASJP Database - Wordlist Mundari",
+  "blocked_or_deferred": [
+    "ASJP export bytes/hash/row recount not completed",
+    "authoritative WEB-MUN numbered register not recovered through indexed GitHub code search",
+    "Census workbook byte/hash/sheet/row/cell verification open",
+    "audiovisual consent/community/cultural-access review open"
+  ],
+  "controlled_counts_changed": false,
+  "reason": "No deterministic numbered WEB-MUN disposition or controlled claim/evidence promotion was justified."
+}

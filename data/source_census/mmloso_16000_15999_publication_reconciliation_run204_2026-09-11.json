@@ -1,0 +1,82 @@
+{
+  "audit_id": "MLHKP-MMSC-RUN204-MMLoSo-COUNT-RECONCILIATION",
+  "run": 204,
+  "date": "2026-09-11",
+  "scope": "non-Mundarica dataset manifestation/count reconciliation",
+  "source": {
+    "title": "Findings of the MMLoSo 2025 Shared Task on Machine Translation into Tribal Languages",
+    "authors": ["Pooja Singh", "Sandeep Chatterjee", "Gullal S. Cheema", "Amrit Singh Bedi", "Tanmoy Chakraborty", "Sandeep Kumar", "Ankita Shukla"],
+    "venue": "Proceedings of the 1st Workshop on Multimodal Models for Low-Resource Contexts and Social Impact (MMLoSo 2025)",
+    "publisher": "Association for Computational Linguistics",
+    "year": 2025,
+    "pages": "121-129",
+    "anthology_id": "2025.mmloso-1.14",
+    "canonical_url": "https://aclanthology.org/2025.mmloso-1.14/",
+    "pdf_url": "https://aclanthology.org/2025.mmloso-1.14.pdf"
+  },
+  "exact_locators": [
+    {
+      "locator": "abstract, PDF p.121",
+      "statement_type": "rounded/summary evaluation-set count",
+      "value": 16000,
+      "verification": "The abstract states a 16,000-sentence evaluation set."
+    },
+    {
+      "locator": "Section 3 Dataset, PDF pp.122-123 (text crosses page boundary)",
+      "statement_type": "exact total test-sentence count in dataset description",
+      "value": 15999,
+      "verification": "The dataset section states that the corpus contains 80,000 training pairs and 15,999 test sentences."
+    },
+    {
+      "locator": "Section 3.2 Dataset Statistics, Table 3, PDF p.123",
+      "statement_type": "test-set language counts",
+      "values": {
+        "Bhili": 1999,
+        "English": 2000,
+        "Gondi": 2000,
+        "Hindi": 6000,
+        "Mundari": 2000,
+        "Santali": 2000
+      },
+      "sum": 15999,
+      "verification": "Table 3 counts sum deterministically to 15,999; the one-record difference from the abstract's 16,000 is accounted for by Bhili=1,999 while the other four non-Hindi language buckets shown are 2,000 and Hindi is 6,000."
+    },
+    {
+      "locator": "Section 3.2, PDF p.123",
+      "statement_type": "training-set count",
+      "value": 20000,
+      "scope_note": "per language pair",
+      "verification": "The paper states all training sets contain exactly 20,000 parallel pairs."
+    }
+  ],
+  "deterministic_reconciliation": {
+    "publication_internal_discrepancy_resolved": true,
+    "preferred_exact_publication_test_total": 15999,
+    "abstract_16000_interpretation": "summary/rounded statement inconsistent with the detailed dataset section and Table 3",
+    "competition_file_independent_row_count_verified": false,
+    "competition_bytes_verified": false,
+    "independent_hash_verified": false,
+    "mundari_train_exact_file_rows_verified": false,
+    "test_csv_exact_file_rows_verified": false
+  },
+  "rights_and_governance": {
+    "paper_copyright_notice": "Association for Computational Linguistics, 2025",
+    "dataset_license_reported_in_paper": "Creative Commons BY-SA 4.0",
+    "task_page_license_statement": "Creative Commons BY-SA 4.0",
+    "license_extended_to_unverified_upstream_sources": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "content_rows_ingested": 0
+  },
+  "promotion": {
+    "promote_publication_metadata": true,
+    "promote_exact_locator_count_reconciliation": true,
+    "promote_dataset_rows": false,
+    "promote_cultural_claims": false,
+    "promote_participant_material": false,
+    "create_new_source_identity": false,
+    "count_bearing_change": false
+  },
+  "remaining_gap": "Acquire the exact competition dataset manifestation/version byte-preservingly, hash it independently, count test.csv and mundari-train.csv rows directly, and reconcile those byte-level counts against the publication before any row-level ingestion."
+}

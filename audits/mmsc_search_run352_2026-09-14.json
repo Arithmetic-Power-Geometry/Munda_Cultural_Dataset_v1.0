@@ -1,0 +1,65 @@
+{
+  "search_id": "MMSC-SEARCH-000352",
+  "run": 352,
+  "search_date": "2026-09-14",
+  "scope": "Fresh systematic discovery refresh across the 14 controlled Master Munda Source Census classes; discovery observations are not promoted to audited identities without deterministic reconciliation.",
+  "classes": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_TRI_Census_LSI",
+    "archives",
+    "newspapers",
+    "web_resources",
+    "datasets_corpora",
+    "audio",
+    "video",
+    "maps",
+    "relevant_media"
+  ],
+  "reobserved_examples": [
+    {
+      "class": "government_TRI_Census_LSI",
+      "source": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand",
+      "status": "provider/institution re-observed; no new controlled identity"
+    },
+    {
+      "class": "grammars",
+      "source": "WALS Mundari source list including Hoffmann 1903, Cook 1965, Sinha 1975, Osada 1992",
+      "status": "secondary locator strengthened; source-level resolution required"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "source": "Current Mundari scholarship surfaced in publisher search results",
+      "status": "discovery only unless already reconciled"
+    },
+    {
+      "class": "maps",
+      "source": "LSI map of Munda languages (Grierson 1906 manifestation)",
+      "status": "historical locator re-observed; primary verification remains open"
+    },
+    {
+      "class": "web_resources",
+      "source": "Contemporary Mundari learning/community resources",
+      "status": "discovery only; rights, provenance and cultural-access review required"
+    }
+  ],
+  "homonym_and_false_positive_policy": {
+    "exclude_non_language_Mundari_or_Munda_name_matches": true,
+    "exclude_unrelated_people_places_music_titles_without_source_relevance": true,
+    "do_not_promote_search_hit_to_audited_identity": true
+  },
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change": false,
+  "reason_no_count_change": "Fresh discovery/re-observation is not equivalent to deterministic numbered-register reconciliation, deduplication or audited identity promotion.",
+  "next_action": "Continue deterministic disposition of the 73 unresolved WEB-MUN leads while independently verifying obtainable permitted primary sources."
+}

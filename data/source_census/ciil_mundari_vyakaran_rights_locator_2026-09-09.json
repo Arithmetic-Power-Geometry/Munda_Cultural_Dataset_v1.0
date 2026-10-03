@@ -1,0 +1,37 @@
+{
+  "verification_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "source_class": "grammar/catalogue_manifestation",
+  "title": "मुण्डारी-व्याकरण / Mundari-Vyakaran",
+  "author": "Ramdayal Munda",
+  "catalogue_authority": "Bhasha Sanchika, Central Institute of Indian Languages (CIIL), Department of Higher Education, Ministry of Education, Government of India",
+  "catalogue_locator": "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+  "catalogue_metadata": {
+    "date_of_publication_as_catalogued": 2013,
+    "publisher_as_cited": "Rumbul Ranchi Jharkhand",
+    "file_name_exposed_by_catalogue": "BVP00202.pdf",
+    "file_size_as_catalogued": "9.04 KB",
+    "description": "The book is about Mundari Grammer.",
+    "date_accessioned": "2022-03-14T05:56:01Z"
+  },
+  "rights_governance": {
+    "repository_end_user_agreement_locator": "https://sanchika.ciil.org/info/end-user-agreement",
+    "agreement_last_updated": "2023-11-14",
+    "site_copyright_notice_observed": "Bhasha Sanchika pages display All Rights Reserved",
+    "public_availability_is_reuse_permission": false,
+    "derivative_reuse_permission_verified": false,
+    "content_ingestion_allowed_by_this_record": false,
+    "cultural_access_override_required_if_content_later_ingested": true
+  },
+  "deduplication_boundary": {
+    "earlier_work_signal": "Ram Dayal Munda publication lists also identify MUNDĀRĪ VYĀKARAN, Mundari Sahitya Parishad, Ranchi, 1979.",
+    "same_work_equivalence_verified": false,
+    "instruction": "Do not count the 1979 bibliographic signal and 2013 CIIL manifestation as separate intellectual works or as the same work until edition/manifestation reconciliation is supported by primary bibliographic evidence."
+  },
+  "promotion_boundary": {
+    "permitted_now": ["catalogue identity", "catalogue locator", "catalogued file name", "catalogued publication metadata", "repository terms locator"],
+    "withheld": ["grammar rules", "lexical examples", "page-level claims", "OCR verification", "full-text reuse", "community validation", "cultural representativeness", "permanent SOURCE identity pending deterministic reconciliation"]
+  },
+  "release_metrics_changed": false,
+  "notes": "This record narrows identity and rights uncertainty without treating repository availability as permission. No PDF bytes were downloaded, hashed or ingested in this cycle."
+}

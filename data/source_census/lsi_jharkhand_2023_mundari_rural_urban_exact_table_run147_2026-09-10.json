@@ -1,0 +1,60 @@
+{
+  "verification_id": "MMSC-VERIFY-LSI-JH-2023-RURAL-URBAN-RUN147",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-10T03:42:15Z",
+  "source_class": "government_linguistic_survey_demographic_table",
+  "title": "Linguistic Survey of India - Jharkhand",
+  "publisher": "Language Division, Office of the Registrar General & Census Commissioner, India",
+  "publication_year": 2023,
+  "canonical_catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+  "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "canonicalization": {
+    "status": "component_upgrade_of_existing_lsi_jharkhand_source_stream",
+    "duplicate_source_created": false,
+    "permanent_source_count_changed": false,
+    "reason": "The demographic table is a component of the already verified 2023 LSI Jharkhand manifestation, not an independent intellectual source."
+  },
+  "exact_locator": {
+    "printed_page": 16,
+    "section_heading": "Mother Tongue wise Rural – Urban Population",
+    "table_heading": "RURAL URBAN DISTRIBUTION OF MOTHER TONGUES IN JHARKHAND – 2011",
+    "row_label": "Mundari",
+    "columns": ["Total Person","Total Male","Total Female","Rural Person","Rural Male","Rural Female","Urban Person","Urban Male","Urban Female"],
+    "values_as_printed": ["9,41,965","4,70,496","4,71,469","8,66,920","4,33,519","4,33,401","75,045","36,977","38,068"],
+    "bounded_proposition": "The official 2023 LSI Jharkhand PDF's printed-page-16 table reports the 2011 Jharkhand Mundari mother-tongue population row with the listed total, rural/urban and sex-disaggregated counts. These are source-attributed Census/LSI demographic values, not current-population estimates or cultural claims."
+  },
+  "verification_method": {
+    "official_domain_search_index_text_verified": true,
+    "direct_pdf_fetch_attempted": true,
+    "direct_pdf_fetch_result": "HTTP 502 Bad Gateway in current web runtime",
+    "actual_page_image_independently_inspected": false,
+    "complete_pdf_bytes_acquired": false,
+    "independent_checksum_computed": false,
+    "caution": "Exact printed-page/table/row text is supported by the search-indexed official Census PDF. Because direct PDF retrieval failed, this run does not claim independent page-image inspection, PDF-index mapping, byte completeness or checksum verification."
+  },
+  "rights_access_governance": {
+    "government_source": true,
+    "public_catalogue_and_pdf_locator": true,
+    "public_availability_treated_as_unrestricted_redistribution_permission": false,
+    "participant_consent_issue_applicable_to_aggregated_table": false,
+    "cultural_access_override": true,
+    "current_ingestion_boundary": "Promote only the exact source-attributed aggregate demographic row and provenance. Do not infer individual identity, contemporary population, territorial rights, community endorsement, or cultural meaning from these counts."
+  },
+  "evidence_readiness": {
+    "identity_verified": true,
+    "exact_text_locator_verified": true,
+    "aggregate_numeric_row_supported": true,
+    "page_image_verification_pending": true,
+    "byte_hash_verification_pending": true,
+    "claim_count_changed": false,
+    "evidence_graph_count_changed": false,
+    "reason_counts_unchanged": "This is a provenance-depth upgrade within an existing LSI source stream. Permanent graph promotion is deferred until actual PDF bytes/page image are independently verified under the release audit standard."
+  },
+  "integrity": {
+    "cultural_claim_fabricated": false,
+    "numeric_value_fabricated": false,
+    "current_representativeness_inferred": false,
+    "page_image_verification_fabricated": false,
+    "rights_inferred_from_access": false
+  }
+}

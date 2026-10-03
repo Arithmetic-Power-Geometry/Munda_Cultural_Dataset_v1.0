@@ -1,0 +1,17 @@
+{
+  "run": 348,
+  "captured_date": "2026-09-14",
+  "search_id": "MMSC-SEARCH-000348",
+  "classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer-reviewed articles","theses","government/TRI/Census/LSI","archives","newspapers","web resources","datasets","audio","video","maps","relevant media"],
+  "fresh_observations": [
+    {"class":"government/TRI/Census/LSI","locator":"https://www.trijharkhand.in/en/munda","disposition":"official Jharkhand TRI Munda reference page re-observed; retained at source-locator level only"},
+    {"class":"government/TRI/Census/LSI","locator":"https://www.trijharkhand.in/en/","disposition":"institutional provenance re-observed"},
+    {"class":"datasets","locator":"https://github.com/karya-inc/dataset-mundari-tts","disposition":"known Mundari TTS source re-observed; no count promotion without deterministic reconciliation"},
+    {"class":"archives","locator":"https://archive.org/details/in.ernet.dli.2015.14924","disposition":"known Mundarica IX manifestation remains provider-level only"}
+  ],
+  "homonym_and_false_positive_controls": ["South-Sudan Mundari language/community","artist/song/title matches","name-only Munda matches lacking relevant source identity"],
+  "controlled_counts_changed": false,
+  "reason": "Fresh discovery and re-observation are not promoted into controlled source counts until deterministic numbered-register reconciliation is complete.",
+  "controlled_counts": {"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73}
+}

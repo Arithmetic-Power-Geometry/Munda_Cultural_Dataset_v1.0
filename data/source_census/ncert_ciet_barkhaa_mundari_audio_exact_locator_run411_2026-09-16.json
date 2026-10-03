@@ -1,0 +1,53 @@
+{
+  "run": 411,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government_educational_resource", "audio", "web_resource", "relevant_media"],
+  "canonical_identity": {
+    "title": "Barkhaa Audio — Mundari-language Level 1 resources",
+    "provider": "Central Institute of Educational Technology (CIET), NCERT",
+    "provider_parent": "National Council of Educational Research and Training (NCERT)",
+    "canonical_url": "https://ciet.ncert.gov.in/barkhaa_audio"
+  },
+  "scope": {
+    "language": "Mundari",
+    "in_scope": true,
+    "basis": "The official CIET Barkhaa Audio index explicitly labels Mundari versions for multiple Level 1 titles."
+  },
+  "verified_index_locators": [
+    {"level": 1, "title": "Chhupan Chhupaai", "label": "Mundari"},
+    {"level": 1, "title": "Gilli Danda", "label": "Mundari"},
+    {"level": 1, "title": "Mzza Aa Gya", "label": "Mundari"},
+    {"level": 1, "title": "Milli ka Gubbara", "label": "Mundari"},
+    {"level": 1, "title": "Mithai", "label": "Mundari"},
+    {"level": 1, "title": "Mithe Mithe Gulgule", "label": "Mundari"},
+    {"level": 1, "title": "Munmun Aur Munnu", "label": "Mundari"},
+    {"level": 1, "title": "Phooli Roti", "label": "Mundari"},
+    {"level": 1, "title": "Rani Bhi", "label": "Mundari"}
+  ],
+  "deduplication": {
+    "repository_search_term": "Barkhaa Mundari",
+    "repository_search_result": "no match before Run 411",
+    "canonicalization_rule": "Treat the CIET Barkhaa index as one collection identity; individual audio manifestations remain child resources until their direct media locators and metadata are verified. Do not count language labels or titles as separate source identities."
+  },
+  "evidence_promotion": {
+    "status": "locator_only",
+    "promoted_claims": 0,
+    "reason": "The official index establishes collection/title/language identity, but direct audio bytes, immutable media locators, hashes, transcript alignment and item-level reuse terms were not yet verified."
+  },
+  "rights_access_consent_cultural_review": {
+    "access": "Official public CIET index is discoverable.",
+    "rights": "Do not infer redistribution or derivative-data permission from public playback/indexing; item-level terms require verification.",
+    "consent": "Speaker/translator/performer consent and contributor provenance are not established by the index and remain unresolved.",
+    "cultural_uncertainty": "No cultural proposition is inferred from a story title, audio label or educational context. Sensitive/community-governed content status remains unassessed."
+  },
+  "blocked_or_pending": [
+    "Resolve direct media URLs for each Mundari-labelled item.",
+    "Record immutable bytes and SHA-256 where lawful and technically obtainable.",
+    "Verify duration, codec, speaker/translator/performer credits and transcript availability.",
+    "Verify item-level reuse/license terms and attribution requirements.",
+    "Review contributor consent/provenance and cultural-access constraints before evidence promotion."
+  ],
+  "controlled_metrics_policy": "Do not increment MMSC/evidence/module/publication counts from this locator audit until deterministic WEB-MUN reconciliation establishes whether this collection is a genuinely new canonical identity and downstream controlled artifacts are regenerated.",
+  "release_effect": "Explicit audited locator/gap improvement only; does not by itself change the release gate."
+}

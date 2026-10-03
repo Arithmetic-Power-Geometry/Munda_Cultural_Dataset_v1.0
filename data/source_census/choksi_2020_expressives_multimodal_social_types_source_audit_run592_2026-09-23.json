@@ -1,0 +1,75 @@
+{
+  "audit_run": 592,
+  "audit_date": "2026-09-23",
+  "branch": "mlhkp-v2",
+  "source_class": ["peer_reviewed_article", "linguistic_anthropology", "multimodal_video_based_research"],
+  "canonical_work": {
+    "author": "Nishaant Choksi",
+    "title": "Expressives and the multimodal depiction of social types in Mundari",
+    "journal": "Language in Society",
+    "volume": "49",
+    "issue": "3",
+    "pages": "379-398",
+    "publication_year": 2020,
+    "published_online": "2019-11-28",
+    "doi": "10.1017/S0047404519000824",
+    "publisher": "Cambridge University Press"
+  },
+  "identity_verification": {
+    "status": "VERIFIED_PUBLISHER_METADATA",
+    "publisher_url": "https://www.cambridge.org/core/journals/language-in-society/article/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A/share/588ccbb060c73b9785d6429f946d09a0fb512694",
+    "verified_fields": ["title", "author", "journal", "volume", "issue", "pages", "doi", "online_publication_date"]
+  },
+  "deduplication": {
+    "repository_exact_title_search_before_ingest": "NO_MATCH",
+    "canonical_key": "doi:10.1017/S0047404519000824",
+    "rule": "DOI/publisher/share-view/full-text manifestations are one scholarly work and must not be counted as independent corroboration"
+  },
+  "scope": {
+    "language": "Mundari",
+    "region": "eastern India; fieldwork includes Mundari-speaking villages",
+    "topic": ["expressives", "ideophones", "multimodality", "gesture", "gaze", "social indexing", "semiotics"],
+    "methods_from_publisher_text": ["video data", "lab-based elicitation interviews", "ethnographic interviews in Mundari-speaking villages"],
+    "scope_warning": "Do not generalize observations beyond the documented speakers, villages, elicitation/ethnographic contexts, expressive tokens, and study period without independent support."
+  },
+  "access_rights": {
+    "access_status": "SHARED_READ_ONLY_VIEW; FULL_ACCESS_MAY_REQUIRE_LOGIN_OR_PURCHASE",
+    "copyright_notice": "Copyright Cambridge University Press 2019",
+    "redistribution_permission_verified": false,
+    "binary_ingest_permitted": false,
+    "action": "Metadata/audit record only. Do not copy publisher PDF or embedded media into MLHKP absent explicit permission."
+  },
+  "consent_cultural_governance": {
+    "status": "REQUIRES_FULL_METHODS_ETHICS_REVIEW_BEFORE_MEDIA_OR_PARTICIPANT_LEVEL_INGEST",
+    "reason": "The article explicitly uses video/interview data and addresses ethics/agency; public scholarly discussion does not itself establish permission to redistribute participant audiovisual material or culturally sensitive content.",
+    "rule": "Promote only propositions supported by lawful text access and exact locators; never infer audiovisual reuse consent from article publication."
+  },
+  "exact_locator_candidates": [
+    {
+      "locator": "publisher HTML abstract, lines/section Abstract; journal pp. 379-398 metadata",
+      "proposition_type": "methodological_scope",
+      "supported_summary": "The study examines video data from interviews with Mundari speakers and includes lab-based elicitations and ethnographic interviews in Mundari-speaking villages.",
+      "promotion_status": "QUEUED_NOT_PROMOTED",
+      "reason": "Abstract-level locator is exact enough for source/method scope but controlled-ledger reconciliation and reuse policy checks remain pending."
+    },
+    {
+      "locator": "publisher HTML Abstract",
+      "proposition_type": "analysis_scope",
+      "supported_summary": "The article analyzes expressive use together with multimodal resources including gesture and gaze.",
+      "promotion_status": "QUEUED_NOT_PROMOTED"
+    }
+  ],
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "No fabrication: controlled ledger remains unreconciled beyond the previously established boundary; full-text/rights/participant-media review is required before proposition-level promotion."
+  },
+  "gap_status": [
+    "full lawful article manifestation and page concordance not captured in this run",
+    "field-site/speaker/sample/time metadata require methods-section inspection",
+    "participant audiovisual consent and redistribution rights not established",
+    "exact page/example locators for individual Mundari expressive tokens remain to be extracted"
+  ],
+  "release_effect": "Adds a verified, deduplicated peer-reviewed multimodal linguistic-anthropology source and explicit ethics/media gates without inflating controlled metrics."
+}

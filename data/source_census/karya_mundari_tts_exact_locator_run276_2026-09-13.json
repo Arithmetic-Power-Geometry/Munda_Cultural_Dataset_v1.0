@@ -1,0 +1,51 @@
+{
+  "run_id": 276,
+  "date_utc": "2026-09-12",
+  "stream": "audio / dataset / rights-governance verification",
+  "source": {
+    "repository": "karya-inc/dataset-mundari-tts",
+    "repository_url": "https://github.com/karya-inc/dataset-mundari-tts",
+    "title": "Mundari TTS dataset",
+    "stated_creators_collaborators": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya", "GIZ FAIR Forward"],
+    "repository_stated_audio_files": 26870,
+    "repository_stated_speakers": 2,
+    "repository_stated_female_files": 19868,
+    "repository_stated_male_files": 7002,
+    "repository_stated_format": "32-bit PCM, 44.1 kHz",
+    "repository_stated_sample_package": "100 recordings from each speaker",
+    "repository_stated_full_corpus_access": "request via data@karya.in",
+    "repository_stated_integrity_artifact": "dataset-mundari-tts-full.sha1",
+    "repository_stated_license": "Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0"
+  },
+  "verification_level": "exact public repository locator and repository-declared package metadata only",
+  "promotion": {
+    "controlled_source_identity_count_change": false,
+    "audio_bytes_promoted": 0,
+    "transcript_rows_promoted": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0
+  },
+  "rights_and_cultural_boundary": {
+    "repository_license_treated_as_blanket_participant_consent": false,
+    "repository_license_treated_as_blanket_community_validation": false,
+    "repository_license_treated_as_blanket_cultural_access_permission": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "restricted_or_participant_derived_content_exposed": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true
+  },
+  "integrity_boundary": {
+    "full_corpus_bytes_acquired": false,
+    "sample_bytes_acquired": false,
+    "sha1_independently_recomputed": false,
+    "repository_declared_hash_treated_as_independent_hash": false
+  },
+  "explicit_gaps": [
+    "Confirm whether this source is already represented by an existing WEB-MUN or federated discovery identity before any count change.",
+    "Acquire only through the declared permitted access path and preserve original bytes before computing independent hashes.",
+    "Verify participant consent, permitted downstream reuse, community validation and MLHKP cultural-access conditions before any public audio/transcript exposure.",
+    "Do not infer consent or cultural permission from repository availability or the software/data license alone."
+  ]
+}

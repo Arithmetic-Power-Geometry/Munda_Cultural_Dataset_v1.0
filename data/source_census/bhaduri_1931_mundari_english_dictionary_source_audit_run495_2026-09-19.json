@@ -1,0 +1,58 @@
+{
+  "run": 495,
+  "audit_date": "2026-09-19",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_identity": {
+    "author": "Manindra Bhusan Bhaduri",
+    "title": "A Mundari-English Dictionary",
+    "original_publication_year": 1931,
+    "original_publisher": "Calcutta University Press",
+    "later_manifestation": {
+      "year": 1983,
+      "publisher": "Northern Book Centre",
+      "place": "New Delhi",
+      "pagination": "xv, 228, ii p.",
+      "lccn": "84901705",
+      "openlibrary_edition": "OL3008123M",
+      "openlibrary_work": "OL5467157W"
+    }
+  },
+  "source_class": ["book", "dictionary", "lexicography"],
+  "scope": "Mundari-English lexical reference; non-Mundarica candidate",
+  "discovery": {
+    "verified_catalogue_url": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+    "catalogue_notes": "Open Library records the 1983 Northern Book Centre edition as a reprint originally published by Calcutta University Press in 1931; source records include Library of Congress MARC and Internet Archive item records.",
+    "repository_prior_match_search": "Bhaduri Mundari English dictionary",
+    "repository_prior_match_count": 0
+  },
+  "canonicalization": {
+    "rule": "Treat 1931 original, 1983 reprint, catalogue records, preview/search manifestations, MARC records and scans as manifestations of one underlying work unless edition collation proves substantive revision.",
+    "independent_source_count": 1
+  },
+  "rights_access": {
+    "status": "unverified_for_redistribution_and_evidence_extraction",
+    "notes": "Catalogue/preview discoverability does not establish permission to redistribute scans or lexical contents. Do not infer open licence from Internet Archive/Open Library manifestation metadata.",
+    "promotion_allowed": false
+  },
+  "evidence_ingestion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No lawful immutable source bytes, cryptographic hash, edition collation, exact entry/page locator, or reuse determination has yet been established in this audit.",
+    "required_locator": "<permitted-immutable-file>#printed-page=<n>;headword=<entry>;entry-ordinal=<n>;sha256=<hash>;edition=<1931|1983>",
+    "gates": [
+      "establish lawful obtainable manifestation and reuse basis",
+      "compute SHA-256 of permitted immutable bytes",
+      "collate 1931 original against 1983 reprint before merging entry evidence",
+      "record exact printed-page and headword/entry locator",
+      "tag editorial/example provenance where determinable",
+      "screen culturally sensitive lexical/example content before promotion",
+      "deduplicate lexical entries deterministically before MMSC reconciliation"
+    ]
+  },
+  "cultural_claims": [],
+  "uncertainty": "Metadata identity is supported by the catalogue; content-level evidence remains unverified and unpromoted.",
+  "release_effect": {
+    "controlled_counts_changed": false,
+    "status": "explicit gap pending deterministic ingestion and reconciliation"
+  }
+}

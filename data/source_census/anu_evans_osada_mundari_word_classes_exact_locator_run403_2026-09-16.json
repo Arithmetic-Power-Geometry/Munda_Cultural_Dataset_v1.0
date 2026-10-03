@@ -1,0 +1,52 @@
+{
+  "audit_run": 403,
+  "audit_date_utc": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed journal article / institutional repository manifestation",
+  "canonical_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "institutional_handle": "http://hdl.handle.net/1885/54663",
+    "repository": "Australian National University Digital Collections",
+    "language_scope": "Mundari",
+    "scope_classification": "direct Mundari linguistic analysis"
+  },
+  "verified_provider_metadata": {
+    "access_statement": "Open Access",
+    "repository_file_label": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_reported_file_size": "234.31 KB",
+    "abstract_scope": "The institutional record states that the article reviews claims about Mundari word-class fluidity using Hoffmann's corpus and substantial new data, including a large lexical sample."
+  },
+  "canonicalization": {
+    "rule": "DOI journal article, ANU repository record, and deposited PDF are manifestations of one scholarly work; do not count them as separate source identities.",
+    "repository_exact_title_search_before_ingestion": "no match returned",
+    "dedup_status": "new exact-locator lead pending deterministic WEB-MUN ledger reconciliation"
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "This run verifies bibliographic identity, direct Mundari scope, institutional repository locator and provider access statement only. Passage-level claims require permitted immutable bytes, SHA-256, stable PDF/printed-page mapping, and provenance review of the underlying lexical/new-data material."
+  },
+  "rights_consent_cultural_uncertainty": {
+    "public_access_is_not_blanket_reuse_permission": true,
+    "item_level_license_verified": false,
+    "participant_or_informant_provenance_verified": false,
+    "participant_consent_for_redistribution_verified": false,
+    "community_cultural_access_status_verified": false,
+    "restricted_or_sensitive_material_promoted": false
+  },
+  "materialization_requirements": [
+    "retrieve the institutional PDF only where provider terms permit",
+    "record immutable bytes and SHA-256",
+    "map PDF pages to printed pagination deterministically",
+    "verify item-level reuse/license terms rather than inferring them from Open Access wording",
+    "identify provenance of Hoffmann-corpus material and the article's new lexical data where possible",
+    "review participant/informant consent and cultural-access implications before redistributing underlying elicited material",
+    "create exact page/passage evidence records only for supported permitted propositions"
+  ],
+  "count_policy": "Do not alter controlled MMSC, evidence, graph, Streamlit or publication counts until this locator and Runs381-403 are deterministically reconciled against WEB-MUN.",
+  "release_gate_effect": "coverage improved; NOT_PASS retained"
+}

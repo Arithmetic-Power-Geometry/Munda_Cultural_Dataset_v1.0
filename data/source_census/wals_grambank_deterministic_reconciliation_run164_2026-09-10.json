@@ -1,0 +1,58 @@
+{
+  "record_type": "deterministic_source_identity_reconciliation",
+  "stream": "datasets_grammars_linguistics",
+  "run": 164,
+  "checked_utc": "2026-09-10T12:32:00Z",
+  "branch": "mlhkp-v2",
+  "candidate_sources": [
+    {
+      "name": "WALS Online - Mundari",
+      "canonical_locator": "https://wals.info/languoid/lect/wals_code_mun",
+      "exact_datapoint_locator": "https://wals.info/valuesets/83A-mun",
+      "stable_keys": ["wals_code:mun", "iso639-3:unr", "valueset:83A-mun"]
+    },
+    {
+      "name": "Grambank - Mundari",
+      "canonical_locator": "https://grambank.clld.org/languages/mund1320",
+      "stable_keys": ["glottocode:mund1320", "database:grambank"]
+    }
+  ],
+  "reconciliation_scope": {
+    "standalone_mmsc_register": "data/source_census/mmsc_discoveries.json",
+    "immutable_web_layer": {
+      "records_declared_by_mmsc": 90,
+      "unique_leads_declared_by_mmsc": 87,
+      "range": "WEB-MUN-0001..WEB-MUN-0090"
+    },
+    "checks": [
+      "Exact candidate names and WALS/Grambank identifiers were compared against the standalone MMSC discovery register; neither WALS nor Grambank is present there.",
+      "Repository code search over the pre-existing discovery corpus returned no WALS occurrence on the repository default branch, covering the earlier WEB discovery layer.",
+      "Branch-only later immutable observations WEB-MUN-0082 through WEB-MUN-0090 were inspected directly; none is WALS or Grambank.",
+      "The MMSC index currently identifies WEB-MUN-0088, WEB-MUN-0089 and WEB-MUN-0090 as the only deterministic duplicate raw observations; neither candidate is among them."
+    ]
+  },
+  "decision": {
+    "wals_existing_permanent_identity_found": false,
+    "grambank_existing_permanent_identity_found": false,
+    "wals_existing_web_observation_found": false,
+    "grambank_existing_web_observation_found": false,
+    "new_permanent_identity_assigned_in_this_commit": false,
+    "counts_changed": false,
+    "reason": "The duplicate-check precondition from Run 163 is now satisfied at the census-reconciliation level. Permanent identity creation is intentionally separated from this audit record so the next atomic registry transaction can update the standalone register, MMSC totals, publication metrics and regression contracts together rather than partially changing counts."
+  },
+  "evidence_boundary": {
+    "verified_database_fact": "Run 163 verified the WALS Mundari valueset 83A-mun as Order of Object and Verb = OV and recorded WALS-reported provenance to Sinha 1975 and Osada 1992; Grambank was used only for database/bibliographic triangulation.",
+    "underlying_grammar_passages_verified": false,
+    "cultural_claim_promoted": false,
+    "population_or_policy_claim_promoted": false,
+    "participant_content_ingested": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false
+  },
+  "rights_boundary": {
+    "database_metadata_license_verified_run163": "CC BY 4.0 for WALS and Grambank database pages",
+    "underlying_grammar_rights_inferred": false,
+    "public_access_overrides_cultural_access": false
+  },
+  "release_value": "Closes the deterministic duplicate-check blocker that prevented WALS/Grambank permanent source registration, without changing audited counts before an atomic registry-and-publication synchronization transaction."
+}

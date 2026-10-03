@@ -1,0 +1,87 @@
+{
+  "run_id": 259,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and ingestion",
+  "scope_class": ["peer_reviewed_articles", "government_TRI_Census_LSI", "books", "archives", "web_resources"],
+  "source": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "journal": "The Oriental Anthropologist",
+    "volume": 13,
+    "issue": 2,
+    "pages": "267-280",
+    "issue_date": "July/December 2013",
+    "first_published_online": "2013-07-01",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher_locator": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "verification_level": "publisher DOI landing page with abstract, issue/page metadata and references"
+  },
+  "exact_locators": [
+    {
+      "locator_type": "publisher_abstract",
+      "locator": "DOI landing page -> Abstract",
+      "supported_metadata_or_scope": "The publisher abstract states that the paper is based on empirical investigation of two Mundari Khuntkatti villages, Gutuhatu and Salga, in the Mundari Khuntkatti Revenue Circle of Khunti district, Jharkhand.",
+      "promotion_boundary": "scope/provenance metadata only; the abstract's substantive cultural/legal conclusions are not promoted as independently validated MLHKP cultural claims"
+    },
+    {
+      "locator_type": "journal_pagination",
+      "locator": "The Oriental Anthropologist 13(2):267-280",
+      "supported_metadata_or_scope": "stable bibliographic page range verified on the publisher page",
+      "promotion_boundary": "no full-text page passage copied or inferred"
+    },
+    {
+      "locator_type": "publisher_references",
+      "locator": "DOI landing page -> References",
+      "supported_metadata_or_scope": "publisher-rendered reference list exposes a source chain including Dalton 1872, Hoffmann and Emelen 1950, Oraon 2003, Ray 1912 and settlement/gazetteer materials",
+      "promotion_boundary": "references are discovery/canonicalization leads, not evidence that the cited works' claims are correct"
+    }
+  ],
+  "deduplication": {
+    "prior_repository_state": "Run 257 search log already recorded this DOI as a peer-reviewed discovery candidate.",
+    "canonical_key": "doi:10.1177/0972558X1301300205",
+    "canonicalization_action": "promote the existing discovery lead to one exact publisher-locator audit; do not create a second source identity for abstract/PDF/ResearchGate representations",
+    "identity_count_change": false,
+    "reason_count_neutral": "This is an exact-locator promotion of an already observed lead, while the controlled 73 unresolved WEB-MUN leads still require deterministic reconciliation before identity totals change."
+  },
+  "rights_access_consent_cultural_boundary": {
+    "publisher_metadata_and_abstract_publicly_rendered": true,
+    "publisher_page_displays_request_permissions": true,
+    "full_text_reuse_license_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "underlying_field_data_acquired": false,
+    "participant_consent_independently_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "public_abstract_treated_as_blanket_permission": false,
+    "notes": "The public publisher abstract establishes identity, scope and study-site metadata. It is not treated as permission to redistribute the article, ingest underlying field material, or elevate author interpretations into community-validated cultural truth."
+  },
+  "promotion": {
+    "level": "exact DOI / abstract / pagination / reference-list locator evidence",
+    "discovery_only": false,
+    "catalogue_or_bibliographic_evidence_promoted": true,
+    "scope_provenance_evidence_promoted": true,
+    "full_text_passages_promoted": 0,
+    "legal_or_land_tenure_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_derived_records_promoted": 0,
+    "evidence_claim_count_change": false
+  },
+  "blocked_attempts": [
+    {
+      "source": "Linguistic Survey of India - Jharkhand",
+      "official_locator": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "observation": "Web index exposed Mundari-section text associated with page 71, but direct official PDF fetch returned HTTP 502 during Run 259.",
+      "disposition": "do not promote the indexed snippet as page-image-verified evidence; retain exact official locator as a gap and continue with other sources"
+    }
+  ],
+  "explicit_gaps": [
+    "deterministic reconciliation against all 73 unresolved WEB-MUN leads",
+    "lawful full-text manifestation acquisition and independent hash if permitted",
+    "exact full-text passage/page verification before any content-level promotion",
+    "rights assessment for redistribution/model training",
+    "independent participant-consent and field-data provenance review where applicable",
+    "community validation and cultural-access review before any culturally sensitive proposition is represented as MLHKP evidence",
+    "official LSI Jharkhand PDF byte/hash/page-image verification after the current gateway failure"
+  ]
+}

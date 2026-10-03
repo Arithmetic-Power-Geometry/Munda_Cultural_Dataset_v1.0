@@ -1,0 +1,46 @@
+{
+  "record_id": "MLHKP-RUN122-TRI-MUNDARICA-VOLUME-DISCREPANCY",
+  "record_type": "institutional_secondary_locator_and_discrepancy_record",
+  "created_utc": "2026-09-09T15:36:00Z",
+  "branch": "mlhkp-v2",
+  "subject": "Encyclopaedia Mundarica volume-count discrepancy",
+  "source": {
+    "publisher_or_institution": "Tribal Research Institute, Jharkhand",
+    "page_title": "Munda",
+    "url": "https://www.trijharkhand.in/en/munda",
+    "observed_utc": "2026-09-09T15:30:00Z",
+    "source_class": "official_state_institution_web_page",
+    "page_claim_as_observed": "The Literature and Studies section describes Hoffmann, with the help of Menas Orea, as publishing the 15-volume Encyclopaedia Mundarica, with the first edition published posthumously in 1937 and a third edition in 1976."
+  },
+  "comparison_against_current_repository_model": {
+    "current_historical_text_sequence_supported": "I-XIII",
+    "current_modern_manifestation_observed": "16-volume modern edition",
+    "tri_claimed_volume_count": 15,
+    "discrepancy_present": true,
+    "deterministic_resolution": "UNRESOLVED_PENDING_PRIMARY_MANIFESTATION_EVIDENCE",
+    "canonicalization_action": "Do not overwrite historical I-XIII or modern 16-volume manifestation model from the TRI summary page alone; preserve the TRI statement as an institutional secondary claim requiring reconciliation with title pages, publisher catalogues, library records, scans, fascicles/plates and edition-specific pagination."
+  },
+  "promotion_boundary": {
+    "promoted_to_cultural_fact": false,
+    "promoted_to_verified_volume_count": false,
+    "promoted_to_claim_evidence_graph": false,
+    "reason": "The institutional summary conflicts with other manifestation evidence and does not itself supply edition-specific title pages, complete scans, hashes, pagination or a bibliographic explanation for the 15-volume count."
+  },
+  "rights_and_access": {
+    "public_web_page": true,
+    "public_availability_treated_as_reuse_permission": false,
+    "cultural_access_overrides_entitlement": true,
+    "restricted_material_ingested": false
+  },
+  "verification_status": "INSTITUTIONAL_SECONDARY_CLAIM_VERIFIED_AS_DISPLAYED__BIBLIOGRAPHIC_FACT_UNRESOLVED",
+  "next_actions": [
+    "Locate TRI or publisher bibliography/catalogue underlying the 15-volume statement.",
+    "Reconcile historical text volumes, plate fascicles/supplements and later rebindings/editions using primary title-page and pagination evidence.",
+    "Do not change Mundarica per-volume completeness states until authoritative bytes/page accounting are available."
+  ],
+  "integrity_notes": [
+    "No OCR or transcription was represented as verified.",
+    "No absolute source-completeness claim is made.",
+    "No edition equivalence is inferred from matching work title alone."
+  ]
+}

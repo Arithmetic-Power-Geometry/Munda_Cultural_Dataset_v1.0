@@ -1,0 +1,85 @@
+{
+  "run": 653,
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "audit_date": "2026-09-27",
+  "source_class": "doctoral_dissertation",
+  "canonical_identity": {
+    "author": "Marilena Proietti",
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "year": 2025,
+    "institution": "Sapienza Università di Roma",
+    "department": "Istituto Italiano di Studi Orientali - ISO",
+    "language": "English",
+    "hdl": "https://hdl.handle.net/20.500.14242/212639",
+    "alternate_repository_handle": "https://hdl.handle.net/11573/1740709",
+    "nbn": "URN:NBN:IT:UNIROMA1-212639",
+    "manifestation": "Tesi_dottorato_Proietti.pdf",
+    "reported_size": "47.18 MB"
+  },
+  "verified_scope": {
+    "communities": [
+      "Oraon",
+      "Munda",
+      "Santal",
+      "Ho"
+    ],
+    "geography": "eastern India; south Bihar/Jharkhand",
+    "temporal_scope": "1980s to contemporary period",
+    "themes": [
+      "women's movements",
+      "gender discrimination",
+      "environmental movements",
+      "social/cultural/legal advocacy",
+      "displacement",
+      "economic collectives",
+      "local governance",
+      "collective memory"
+    ]
+  },
+  "access_rights": {
+    "repository_access": "Open Access from 2026-05-27",
+    "repository_license_label": "Creative Commons",
+    "exact_cc_variant": "not resolved in this audit",
+    "note": "Do not infer redistribution/adaptation permission until the exact Creative Commons variant and file-level rights statement are captured."
+  },
+  "deduplication": {
+    "queries": [
+      "Proietti",
+      "1740709",
+      "Adivasi women’s movements"
+    ],
+    "github_code_search_result": "0 matches; incomplete_results=true",
+    "status": "provisionally branch-unmatched; not proof of absence"
+  },
+  "locator_state": {
+    "metadata_locators": [
+      "UNITesi item record 20.500.14242/212639",
+      "IRIS record 11573/1740709"
+    ],
+    "proposition_level": "pending full-PDF inspection and Munda-specific passage isolation",
+    "promotion_rule": "Do not promote multi-community abstract statements as Munda-specific evidence."
+  },
+  "governance": {
+    "participant_consent": "not verified in this audit",
+    "community_authorization": "not verified",
+    "cultural_access": "requires proposition-level review",
+    "cultural_claims_promoted": 0
+  },
+  "controlled_deltas": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "binaries": 0,
+    "streamlit_modules": 0
+  },
+  "blockers": [
+    "Inspect full dissertation methodology, field sites, participant/recruitment/consent statements and Munda-specific passages.",
+    "Capture exact Creative Commons variant and PDF checksum.",
+    "Separate author field evidence from literature-derived statements and cross-community synthesis.",
+    "Create exact page/section locators only for Munda-specific supported propositions before promotion.",
+    "Reconcile against MMSC/WEB-MUN before controlled identity increment."
+  ],
+  "audit_note": "Verified institutional thesis identity and access manifestation. No cultural proposition or count promoted."
+}

@@ -1,0 +1,32 @@
+{
+  "record_type": "deterministic_web_discovery_duplicate_reconciliation",
+  "run": 154,
+  "checked_utc": "2026-09-10T07:30:00Z",
+  "scope": "non-Mundarica MMSC web-discovery identity layer",
+  "method": "Exact DOI/title/author/year comparison against permanent MMSC identities and prior exact-locator audits. Raw WEB-MUN records are preserved as audit observations even when later reconciled as duplicates.",
+  "finding": {
+    "duplicate_web_source_id": "WEB-MUN-0089",
+    "canonical_source_id": "SRC-MMSC-000002",
+    "identifier": "doi:10.30884/seh/2025.02.01",
+    "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+    "decision": "duplicate_of_existing_permanent_identity",
+    "evidence": "SRC-MMSC-000002 already carried DOI 10.30884/seh/2025.02.01 and the identical title, author set and year before WEB-MUN-0089 was registered. The prior exact-locator verification MMSC-VERIFY-TUTI-SEH-2026-09-09-RUN111 explicitly states permanent_identity SRC-MMSC-000002 and duplicate_source_created false. WEB-MUN-0089 is therefore retained only as a later raw publisher-manifestation/audit observation and must not increase unique-lead, unresolved-lead or audited-source counts.",
+    "rights_boundary": "Publisher readability and study-reported verbal consent do not establish unrestricted redistribution, MLHKP secondary-use consent, community-wide validation, or permission to expose participant-derived cultural material. Existing cultural-access controls remain in force."
+  },
+  "count_effect": {
+    "raw_web_discovery_records": 89,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 2,
+    "canonicalized_into_audited_identity_total": 13,
+    "unique_web_discovery_leads_remaining_outside_audited_identity_total": 74,
+    "audited_source_identities": 41,
+    "claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "registered_modules": 42
+  },
+  "promotion_decision": "identity_and_metadata_reconciliation_only",
+  "cultural_claims_added": 0,
+  "numeric_claims_added": 0,
+  "absolute_source_completeness_claimed": false
+}

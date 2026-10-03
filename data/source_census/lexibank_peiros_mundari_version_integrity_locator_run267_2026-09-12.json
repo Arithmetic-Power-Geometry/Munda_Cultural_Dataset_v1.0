@@ -1,0 +1,85 @@
+{
+  "run_id": 267,
+  "date_utc": "2026-09-12",
+  "stream": "dataset / Lexibank / version-integrity and exact language-row locator verification",
+  "scope_class": ["datasets", "dictionaries", "web_resources"],
+  "purpose": "Move the Peiros Austroasiatic CLDF lead beyond discovery-only status by pinning a released version, DOI, immutable tag commit, CLDF file identities and the exact Mundari language-table locator while withholding lexical form rows until exact Mundari FormTable extraction and independent reconciliation are complete.",
+  "source": {
+    "repository": "lexibank/peirosaustroasiatic",
+    "title": "CLDF dataset derived from Peiros' Genetic classification of Austro-Asiatic languages from 2004",
+    "source_author": "I. I. Peiros",
+    "source_year": 2004,
+    "release_tag": "v1.1",
+    "release_published_utc": "2024-08-02T11:40:36Z",
+    "release_doi": "10.5281/zenodo.13168443",
+    "tag_commit_sha": "b4d2e4dcee173494c90328f7cafd78c9851c0956",
+    "tag_commit_signature_verified_by_github": true,
+    "tag_tree_sha": "51be6348a7f974e514550611bb77d8b1fd1da3e0",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "cldf_type": "Wordlist"
+  },
+  "release_integrity_locators": {
+    "cldf_metadata": {"path":"cldf/cldf-metadata.json","git_blob_sha":"ae228ce9410f1499459bd51555dc617c6069d296","bytes":13230},
+    "languages_table": {"path":"cldf/languages.csv","git_blob_sha":"bdc1b3aca1d1a70e81e9b9fbae89f4642c01792c","bytes":7807,"declared_rows":109},
+    "forms_table": {"path":"cldf/forms.csv","git_blob_sha":"28f882e317c2caeb8c112e3b60ae2d8c1c8b9ab5","bytes":1092739,"declared_rows":10706},
+    "parameters_table": {"path":"cldf/parameters.csv","git_blob_sha":"f13b1827b4ee61f6f38b5031afe7a7d5fa027692","bytes":2479,"declared_rows":100},
+    "cognates_table": {"path":"cldf/cognates.csv","git_blob_sha":"11da7a52d54c112ae99c9ae2d4c9d94146574242","bytes":795340,"declared_rows":10706},
+    "sources_bib": {"path":"cldf/sources.bib","git_blob_sha":"0629a9d2536b09f6c615aa33c471a6550e274acd","bytes":296},
+    "license_file": {"path":"LICENSE","git_blob_sha":"2fb94156cd39cad415432aeb1ac5b38d5cb53e1e","bytes":18652}
+  },
+  "exact_mundari_language_locator": {
+    "table": "cldf/languages.csv",
+    "primary_key": "Mundari",
+    "row_values": {
+      "ID": "Mundari",
+      "Name": "Mundari",
+      "Glottocode": "mund1320",
+      "Glottolog_Name": "Mundari",
+      "ISO639P3code": "unr",
+      "Macroarea": "Eurasia",
+      "Latitude": "22.5517",
+      "Longitude": "85.09258",
+      "Family": "Austroasiatic",
+      "SubGroup": "MUNDA"
+    },
+    "foreign_key_role": "FormTable.Language_ID references LanguageTable.ID",
+    "locator_verified": true
+  },
+  "rights_and_cultural_boundary": {
+    "derived_cldf_dataset_license_verified": "CC-BY-4.0",
+    "license_applied_to_original_2004_source_book_as_blanket_permission": false,
+    "lexical_forms_promoted": 0,
+    "cognacy_judgements_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "note": "The release-level CC BY 4.0 declaration supports reuse of the licensed derived dataset subject to attribution, but it is not treated as proof of participant consent, community validation, cultural-access permission, or independent licensing of every underlying historical source beyond the dataset's stated licence scope."
+  },
+  "deduplication": {
+    "canonical_key": "lexibank:peirosaustroasiatic:v1.1",
+    "joined_manifestations": [
+      "GitHub release v1.1",
+      "Zenodo DOI 10.5281/zenodo.13168443",
+      "tag commit b4d2e4dcee173494c90328f7cafd78c9851c0956",
+      "CLDF distribution rdf:ID peirosaustroasiatic"
+    ],
+    "identity_count_change": false,
+    "reason_count_neutral": "Peiros was already tracked as a dataset discovery/integrity blocker. This run strengthens that same work-family to a released-version and exact Mundari language-row audit; it does not prove equivalence to an unresolved WEB-MUN lead or add a new controlled identity."
+  },
+  "promotion": {
+    "level": "released-version + DOI + commit/tree/blob integrity locators + exact Mundari LanguageTable row",
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "lexical_rows_added": 0,
+    "cultural_claims_added": 0
+  },
+  "explicit_gaps": [
+    "Extract every FormTable row whose Language_ID is exactly Mundari from the pinned v1.1 forms.csv and reconcile row count against the declared 10,706-row table.",
+    "Independently verify extracted Mundari forms against the pinned blob and source-reference column before any lexical-row promotion.",
+    "Preserve attribution/source lineage from Peiros2004a and verify any underlying-source rights nuance required for redistribution of lexical derivatives.",
+    "Apply MLHKP cultural-access review before exposing any item later determined to carry culturally restricted or sensitive content."
+  ]
+}

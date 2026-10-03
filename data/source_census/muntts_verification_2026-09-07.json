@@ -1,0 +1,39 @@
+{
+  "record_type": "source_verification_candidate",
+  "snapshot_date": "2026-09-07",
+  "web_source_id": "WEB-MUN-0025",
+  "proposed_canonical_source_id": "SRC-MMSC-000012",
+  "title": "MunTTS: A Text-to-Speech System for Mundari",
+  "authors": [
+    "Varun Gumma",
+    "Rishav Hada",
+    "Aditya Yadavalli",
+    "Pamir Gogoi",
+    "Ishani Mondal",
+    "Vivek Seshadri",
+    "Kalika Bali"
+  ],
+  "year": 2024,
+  "source_type": "conference_paper",
+  "publisher": "Association for Computational Linguistics",
+  "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+  "pages": "76-82",
+  "anthology_id": "2024.computel-1.11",
+  "doi": "10.18653/v1/2024.computel-1.11",
+  "canonical_url": "https://aclanthology.org/2024.computel-1.11/",
+  "verification": {
+    "metadata_state": "verified_against_acl_anthology",
+    "abstract_state": "verified_against_acl_anthology",
+    "checked_utc": "2026-09-07T16:35:00Z",
+    "verified_scope": "The ACL Anthology abstract states that the paper presents an end-to-end text-to-speech system for Mundari, reports collection and processing of Mundari text and speech data, and reports evaluation with native speakers and objective metrics.",
+    "exact_locator": "ACL Anthology record 2024.computel-1.11, Abstract; bibliographic pages 76-82; DOI 10.18653/v1/2024.computel-1.11"
+  },
+  "rights_and_access": {
+    "article_license": "CC BY 4.0 under ACL Anthology policy for materials published in or after 2016",
+    "third_party_boundary": "ACL policy does not automatically license third-party material.",
+    "dataset_boundary": "Article licensing does not establish reuse permission for separately released datasets, recordings, model checkpoints, participant material or consultant data.",
+    "cultural_access_boundary": "MLHKP cultural-access, consent, dignity and community-validation gates remain independent of article copyright entitlement."
+  },
+  "promotion_state": "promotion_ready_pending_atomic_repository_sync",
+  "proposed_evidence_boundary": "Promote only the paper's technical study scope from the publisher abstract. Do not promote participant-level data, speech recordings, dataset contents, native-speaker identities, linguistic generalizations beyond the paper, community endorsement or unrestricted dataset reuse."
+}

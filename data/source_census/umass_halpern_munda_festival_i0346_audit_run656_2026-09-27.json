@@ -1,0 +1,58 @@
+{
+  "audit_run": 656,
+  "audit_date_utc": "2026-09-27",
+  "branch": "mlhkp-v2",
+  "source_class": "archive_photograph",
+  "provider": "University of Massachusetts Amherst Libraries, Special Collections and University Archives",
+  "canonical_title": "Young Munda girls at a festival, 1956",
+  "canonical_object_id": "mufs001-ii-i0346",
+  "canonical_url": "https://credo.library.umass.edu/view/full/mufs001-ii-i0346",
+  "creator": "Joel Martin Halpern",
+  "date": "1956",
+  "extent": "1 slide ; 5 x 5 cm",
+  "scope": {
+    "community_catalogue_term": "Munda (Indic people)",
+    "geography_catalogue_term": "Jharkhand, India",
+    "event_context_catalogue_description": "young women watching drummers at a festival"
+  },
+  "exact_locator": {
+    "type": "institutional_archival_object",
+    "object_id": "mufs001-ii-i0346",
+    "record_url": "https://credo.library.umass.edu/view/full/mufs001-ii-i0346"
+  },
+  "rights": {
+    "status": "restricted_for_republication",
+    "provider_statement_summary": "All rights for the image are held by Joel M. Halpern; publication, redistribution, or replication requires contacting UMass Special Collections and University Archives.",
+    "image_ingested": false
+  },
+  "governance": {
+    "depicted_person_consent_verified": false,
+    "community_authorization_verified": false,
+    "cultural_access_verified": false,
+    "catalogue_metadata_not_generalized_to_cultural_truth": true,
+    "historical_catalogue_language_preserved_as_source_attribution_only": true
+  },
+  "evidence_promotion": {
+    "identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0,
+    "reason": "Exact institutional object is verified, but image reuse, depicted-person consent, community authorization, cultural-access status, and proposition-level support remain unresolved. Catalogue description alone is not promoted as generalized cultural evidence."
+  },
+  "deterministic_branch_check": {
+    "tree_head_before_write": "f4483d2de268ecfd00ff18cebb37ba79eafc3343",
+    "recursive_tree_entries": 1331,
+    "tree_truncated": false,
+    "path_matches_for_object_id": 0,
+    "classification": "repository-path-unmatched; MMSC/WEB-MUN content-ledger reconciliation still required before any controlled source-count change"
+  },
+  "conversion_path": [
+    "reconcile object ID and Halpern collection against MMSC/WEB-MUN ledgers",
+    "inspect institutional XML/PDF metadata and collection-level provenance",
+    "resolve lawful image reuse permission and depicted-person/community consent or applicable governance basis",
+    "assess cultural-display sensitivity",
+    "only then create atomic object-level evidence; do not infer festival identity, dress meaning, gender role, or community-wide practice from the photograph alone"
+  ],
+  "controlled_metrics_changed": false
+}

@@ -1,0 +1,43 @@
+{
+  "run": 560,
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": ["map", "LSI", "government-era linguistic survey", "historical publication"],
+  "canonical_identity": {
+    "key": "grierson-lsi-1906-vol4-facing-p7-munda-languages-map",
+    "creator": "George A. Grierson",
+    "title": "Map showing the distribution of Munda languages",
+    "parent_work": "Linguistic Survey of India, Volume IV",
+    "date": 1906,
+    "locator": "facing page 7"
+  },
+  "provider_manifestation": {
+    "provider": "Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg",
+    "provider_description": "LSI map of Munda languages; source stated as Grierson, George A. (1906), Linguistic Survey of India, vol. 4, facing page 7",
+    "rights_statement": "Public domain; provider states the work is free of known copyright restrictions"
+  },
+  "deduplication": {
+    "repository_search_terms": ["LSI_map_of_Munda_languages", "facing page 7", "Grierson"],
+    "matching_existing_record_found": false,
+    "canonicalization_rule": "The LSI printed map, Commons scan/derivatives, mirrors and catalogue manifestations are one underlying source object and must not be counted as independent corroboration."
+  },
+  "scope": {
+    "classification": "relevant with caution",
+    "reason": "The map concerns distribution of the Munda language family, not exclusively Mundari or the Munda people; family-level cartography must not be silently normalized to Munda-specific ethnographic geography."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "status": "exact printed locator established; proposition-level promotion withheld"
+  },
+  "gates": [
+    "Verify the exact parent-volume manifestation and page concordance against an authoritative LSI scan before treating the derivative as exact evidentiary reproduction.",
+    "Do not infer present-day population or language distribution from a 1906 colonial survey map.",
+    "Do not equate Munda-family language distribution with Mundari-only distribution or Munda ethnic settlement.",
+    "Preserve historical/colonial classification uncertainty and map-production context.",
+    "Public-domain copyright status does not eliminate provenance, attribution, cultural-scope, or interpretive review."
+  ],
+  "audit_note": "This run converts a previously unregistered map lead into an exact-locator source audit. No cultural proposition or controlled count is promoted until deterministic ledger reconciliation and parent-volume concordance are completed."
+}

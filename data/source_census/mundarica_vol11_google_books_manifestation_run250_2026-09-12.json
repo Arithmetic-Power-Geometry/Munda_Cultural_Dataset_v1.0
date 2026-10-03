@@ -1,0 +1,56 @@
+{
+  "audit_id": "MLHKP-RUN250-MUNDARICA-XI-GOOGLE-BOOKS-MANIFESTATION",
+  "run_id": 250,
+  "date_utc": "2026-09-12T08:31:45Z",
+  "stream": "Mundarica I-XVI acquisition/page accounting/structuring",
+  "volume": "XI",
+  "verified_locator": {
+    "provider": "Google Books",
+    "book_id": "nnzW-Dy4NowC",
+    "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=nnzW-Dy4NowC",
+    "title": "Encyclopaedia Mundarica, Volume 11",
+    "authors": ["Johann Hoffmann", "Arthur van Emelen"],
+    "publisher": "Superintendent government printing, Bihar and Orissa",
+    "displayed_publication_year": 1930,
+    "original_from": "University of Minnesota",
+    "digitized": "2020-02-25"
+  },
+  "directly_exposed_structure": {
+    "contents_anchors_observed": [3173, 3175, 3183],
+    "relationship_to_existing_page_accounting": "The Google Books record independently exposes internal anchors beginning at 3173/3175/3183 and is consistent with the previously recorded bibliographic printed range around 3175-3456. It does not by itself establish scan completeness or exact terminal pagination."
+  },
+  "deduplication": {
+    "canonical_relation": "manifestation/corroborating digital catalogue record for the existing Mundarica Volume XI work identity",
+    "new_source_identity": false,
+    "count_inflation_prohibited": true
+  },
+  "rights_access_boundary": {
+    "catalogue_or_snippet_visibility_is_permission": false,
+    "full_text_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "scan_sequence_verified": false,
+    "printed_page_reconciliation_complete": false,
+    "ocr_verified": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "promotion_level": "exact manifestation plus directly exposed page-structure anchors only",
+  "content_evidence_promoted": false,
+  "passages_promoted": 0,
+  "claims_promoted": 0,
+  "indicators_promoted": 0,
+  "identity_count_change": false,
+  "evidence_claim_count_change": false,
+  "open_gaps": [
+    "lawful complete byte-preserving acquisition",
+    "independent cryptographic hash",
+    "complete scan-sequence accounting",
+    "printed-page to scan-image reconciliation through the entire volume",
+    "verified OCR or direct page-image transcription",
+    "reuse/redistribution boundary for the exact digital manifestation",
+    "cultural-access and community-validation review before substantive cultural promotion"
+  ]
+}

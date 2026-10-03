@@ -1,0 +1,39 @@
+{
+  "run": 361,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "main_merged": false,
+  "previous_final_head": "f0fb7a529f92478ae180dc92efc5bcc48516c8dd",
+  "run361_component_commits": {
+    "lsi_jharkhand_exact_locator": "45f32b7fda22f9d46701086bf8f6756714d39401",
+    "mmsc_refresh": "d049b9432689ec17a8cabfef0036ce8f389ff52e",
+    "invariant_test": "4c177a2df5f2e32a748c6df05daf9a3e9b95b3e0"
+  },
+  "stream_checkpoints": {
+    "mmsc": "14 controlled non-Mundarica classes refreshed; exact ORGI LSI_JHARKHAND provider locator added; controlled counts unchanged pending deterministic source-register reconciliation",
+    "evidence_pipeline": "52 claims, 52 evidence records and 52 provenance links retained; no substantive linguistic, demographic or cultural claim promoted this run",
+    "ontology_entities_graph": "schema-category representation remains 100 percent; no graph node/edge count change warranted because the new record is locator/provenance audit state rather than a controlled claim",
+    "streamlit": "42 of 42 modules remain mapped; universal search, evidence drilldown, reports/downloads and owner console retained; no module-count change warranted",
+    "governance": "official catalogue visibility and a declared PDF filename are not treated as byte verification, reuse permission, participant consent, community validation or cultural authorization",
+    "completeness_gap_matrix": "LSI/Atlas blocker refined from generic verification gap to an exact provider manifestation with HTTP 502 byte/page verification blocker",
+    "publication": "controlled metrics unchanged, therefore publication metric tables and figures require no numerical regeneration this run",
+    "tests": "Run 361 invariant test added to prevent exact provider locator metadata from being promoted as verified PDF content or substantive evidence"
+  },
+  "run361_specific_advance": "ORGI LINGUISTIC SURVEY OF INDIA-Jharkhand is now represented by exact official catalogue identity LSI_JHARKHAND and declared LSI_JHARKHAND.pdf locator. Direct PDF acquisition returned HTTP 502, so bytes, hash, page inventory, internal Mundari locators and substantive claims remain explicit gaps.",
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "controlled_metrics_changed": false,
+  "release_gate": "NOT_PASS",
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

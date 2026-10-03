@@ -1,0 +1,28 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-07",
+  "purpose": "Additive non-Mundarica governance/land-rights discovery record verified from peer-reviewed publisher metadata. This is discovery metadata only unless separately canonicalized and evidence-linked; restricted publisher access is not treated as permission to extract or redistribute full text.",
+  "records": [
+    {
+      "id": "WEB-MUN-0086",
+      "title": "Native Land Right System About Tribal Women in Jharkhand: An Interpretative Analysis",
+      "source_class": "peer_reviewed_article_land_rights_gender_governance",
+      "publisher": "SAGE Publications; Journal of Land and Rural Studies",
+      "url": "https://doi.org/10.1177/23210249221127832",
+      "author": "Ambrish Gautam",
+      "year": 2023,
+      "notes": "SAGE publisher metadata verifies the research article, DOI 10.1177/23210249221127832, Journal of Land and Rural Studies 11(1), pages 83-98, first published online 13 December 2022 and issue publication January 2023. The accessible abstract addresses tribal women's land/economic rights in Jharkhand at a broad indigenous-community level; the reference list includes Munda-specific customary-law and ethnographic works, but MLHKP does not infer that every abstract proposition is specifically about Munda communities. Register as a governance/land-rights source identity only; exact Munda-specific passage and scope verification remain required before evidence promotion.",
+      "verification_state": "publisher_metadata_doi_abstract_bibliography_and_canonical_identity_verified",
+      "access_class": "publisher_restricted_full_text_abstract_public",
+      "rights_note": "SAGE marks the article restricted access and provides a request-permissions route; copyright is listed as 2022 Centre for Rural Studies, NIAR, Lal Bahadur Shastri National Academy of Administration. No full-text extraction, redistribution, model-training right, cultural validation, or Munda-specific factual claim is inferred from abstract visibility.",
+      "scope_note": "Jharkhand tribal women / land rights / governance. Munda relevance is bibliographically indicated; exact passage-level verification remains required before Munda-specific evidence promotion.",
+      "canonicalization": {
+        "status": "canonicalized_new_identity",
+        "canonical_source_id": "SRC-MMSC-000016",
+        "dedupe_key": "doi:10.1177/23210249221127832",
+        "canonicalized_utc": "2026-09-10T14:47:00Z",
+        "boundary": "Source identity only. Restricted full text is not ingested and broad abstract propositions are not promoted as Munda-specific cultural facts."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "run": 399,
+  "stream": "non-Mundarica source census",
+  "source_class": ["audio", "web resource", "religious media"],
+  "canonical_identity": {
+    "title": "Words of Life • Mundari (unr)",
+    "provider": "MegaVoice Media Cloud",
+    "publisher_as_reported_by_provider": "Global Recordings Network",
+    "reference_number": "M035419",
+    "language": "Mundari",
+    "iso_639_3": "unr",
+    "type": "Audio"
+  },
+  "verified_locator": "https://megavoice.com/media-cloud/m035419-words-of-life-unr-mundari-audio-bible/",
+  "provider_metadata": {
+    "description_scope": "short Bible stories, evangelistic messages and songs; provider states recordings are by mother-tongue speakers",
+    "country_field": "0",
+    "runtime": "NA",
+    "size": "NA",
+    "sample_locator_exposed": true
+  },
+  "scope_classification": {
+    "mundari_relevant": true,
+    "cultural_claim_source": false,
+    "linguistic_evidence_status": "not promoted",
+    "reason": "Audio identity is discoverable, but speaker provenance, recording circumstances, consent, item-level reuse rights, dialect identity and cultural-access governance are not sufficiently established for controlled evidence promotion."
+  },
+  "canonicalization": {
+    "work_identity_rule": "MegaVoice listing, any sample media, and GRN manifestation are components/manifestations of one recording identity unless later provenance demonstrates otherwise.",
+    "dedup_status": "repository exact-search found no existing M035419/Words of Life Mundari locator before Run399; ledger reconciliation still required before controlled counts change"
+  },
+  "rights_access_consent": {
+    "publicly_discoverable": true,
+    "redistribution_permission_verified": false,
+    "speaker_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_verified": false,
+    "religious_content_context_preserved": true,
+    "promotion_rule": "Public availability does not equal reuse permission, participant consent, community validation, or cultural permission."
+  },
+  "materialization_requirements": [
+    "verify authoritative publisher/recording provenance and dialect/speaker metadata",
+    "verify item-level licence/reuse terms",
+    "verify consent/privacy and culturally appropriate access",
+    "if permitted, acquire immutable bytes and SHA-256",
+    "create exact time-coded segment locators before proposition-level evidence",
+    "reconcile against existing audiovisual WEB-MUN identities before count changes"
+  ],
+  "promotion": {
+    "bibliographic_or_media_identity": "exact-locator-only",
+    "audio_segments": 0,
+    "claims": 0,
+    "evidence_records": 0
+  },
+  "audit_note": "No provider cultural or demographic statements are promoted. No controlled MMSC count change is asserted by this record."
+}

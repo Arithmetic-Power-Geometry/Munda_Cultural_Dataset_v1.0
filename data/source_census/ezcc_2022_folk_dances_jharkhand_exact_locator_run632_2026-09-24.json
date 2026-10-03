@@ -1,0 +1,81 @@
+{
+  "run": 632,
+  "audit_date": "2026-09-24",
+  "source_class": [
+    "video",
+    "audiovisual",
+    "documentary",
+    "relevant_media"
+  ],
+  "canonical_identity": {
+    "title": "Folk Dances of Jharkhand | Documentary | EZCC",
+    "author_or_rights_attribution": "Eastern Zonal Cultural Centre",
+    "publication_date": "2022-09-27",
+    "youtube_video_id": "jcaVTX0BCtQ",
+    "commons_file": "Folk Dances of Jharkhand - Documentary - EZCC.webm"
+  },
+  "manifestation": {
+    "host": "Wikimedia Commons",
+    "duration": "39:31",
+    "format": "WebM VP9/Opus",
+    "dimensions": "720x480",
+    "size_bytes": 531678981,
+    "sha1": "eb3421c6428ea386f8f340520ab9aa0672de6000",
+    "license": "CC BY 3.0",
+    "license_review": "Commons records reviewer confirmation on 2023-01-20 that the source YouTube upload carried the stated license",
+    "attribution": "Eastern Zonal Cultural Centre"
+  },
+  "scope": {
+    "classification": "multi-community Jharkhand documentary with explicitly identified Munda/Mundari segments; not globally representative of Munda culture",
+    "munda_relevant_catalogue_locators": [
+      {
+        "start": "00:04:28",
+        "label": "Paika (Munda community)"
+      },
+      {
+        "start": "00:06:00",
+        "label": "Mundari"
+      },
+      {
+        "start": "00:11:12",
+        "label": "Mundari (Marriage)"
+      }
+    ],
+    "note": "These timestamps are provider/Commons metadata locators. They are not yet proposition-level evidence and do not establish participant/community consent."
+  },
+  "rights_access_consent": {
+    "binary_redistribution_permission": "license indicates CC BY 3.0 for the audiovisual work, subject to attribution and any non-copyright rights",
+    "participant_or_community_consent": "not established from verified metadata",
+    "cultural_sensitivity": "requires segment-level review before promotion, especially marriage-related material",
+    "promotion_decision": "hold"
+  },
+  "deduplication": {
+    "rule": "YouTube original, Commons import, transcodes/previews and archive manifestations are one audiovisual work, not independent corroboration",
+    "repository_precheck": [
+      "exact title",
+      "EZCC",
+      "YouTube video id jcaVTX0BCtQ",
+      "SHA-1 eb3421c6428ea386f8f340520ab9aa0672de6000"
+    ],
+    "precheck_result": "no surfaced repository match"
+  },
+  "evidence_conversion": {
+    "state": "exact-locator candidate, not discovery-only",
+    "next_required_steps": [
+      "inspect the identified segments themselves",
+      "separate commentary/interview/observable performance",
+      "verify locality and performer/interviewee provenance where possible",
+      "assess participant/community consent and cultural access",
+      "create atomic HH:MM:SS ranges only for supported permitted propositions",
+      "retain multi-community and temporal/geographic scope"
+    ],
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0
+  },
+  "verified_urls": [
+    "https://commons.wikimedia.org/wiki/File:Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm",
+    "https://www.youtube.com/watch?v=jcaVTX0BCtQ"
+  ],
+  "audit_principle": "Do not infer cultural claims from catalogue prose; do not treat public hosting or a copyright license as proof of participant/community consent."
+}

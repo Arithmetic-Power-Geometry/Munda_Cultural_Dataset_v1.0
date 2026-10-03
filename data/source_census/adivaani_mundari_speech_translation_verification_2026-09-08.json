@@ -1,0 +1,46 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "branch": "mlhkp-v2",
+  "source_class": "government_digital_language_service_web_resource",
+  "title": "Adivaani — Speech-to-Speech Translation",
+  "publisher": "Ministry of Tribal Affairs, Government of India",
+  "canonical_url": "https://adivaani.tribal.gov.in/features/speech-to-speech",
+  "identity_state": "official government service surface verified; permanent MLHKP source identity not assigned until deterministic comparison against the preserved discovery corpus is complete",
+  "verified_metadata": {
+    "service_state": "Beta trial",
+    "mundari_available_as_target_language": true,
+    "input_modes_exposed": ["speak", "upload speech"],
+    "source_languages_exposed_on_page": ["English", "Hindi"],
+    "target_languages_exposed_on_page": ["Santali", "Mundari", "Bhili"],
+    "provider_warning": "AI models can make mistakes; translations may not always be accurate."
+  },
+  "scope_classification": {
+    "primary": ["digital_language_service", "speech_translation", "language_technology"],
+    "not_established": ["translation_accuracy", "dialect_coverage", "training_data_provenance", "speaker_consent", "community_validation", "cultural_representativeness"]
+  },
+  "rights_access_consent": {
+    "technical_access": "public government web application",
+    "model_or_dataset_license": "not established from the public feature page",
+    "uploaded_user_audio_reuse_terms": "not assessed in this cycle",
+    "training_data_reuse_permission": "not established",
+    "cultural_access_gate": "required for any downstream ingestion of language or participant-derived material; cultural access overrides technical access"
+  },
+  "evidence_promotion": {
+    "promoted_cultural_claim": false,
+    "promoted_translation_output": false,
+    "promoted_audio": false,
+    "permitted_current_evidence": "existence of an official beta speech-translation service that exposes Mundari as a target option and itself warns of possible model errors"
+  },
+  "blocked_or_uncertain": [
+    "No evaluation result or accuracy claim is inferred.",
+    "No training-corpus identity, contributor consent, dialect coverage or community-validation state is inferred.",
+    "Permanent source identity remains pending deterministic deduplication against existing discovery leads."
+  ],
+  "integrity": {
+    "beta_output_treated_as_verified_language_evidence": false,
+    "public_service_access_treated_as_dataset_license": false,
+    "consent_fabricated": false,
+    "community_validation_fabricated": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "record_type": "source_verification",
+  "verification_date": "2026-09-08",
+  "title": "A Mundari-English dictionary",
+  "creator": "Manindra Bhusan Bhaduri",
+  "source_class": "historical_mundari_english_dictionary",
+  "scope": "language_linguistics_bibliographic_and_edition_reconciliation",
+  "canonical_work_locator": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary",
+  "verified_identifiers": {
+    "open_library_work": "OL5467157W",
+    "open_library_1983_edition": "OL3008123M",
+    "lccn_1983_reprint": "84901705",
+    "cinii_1994_ncid": "BA31909026",
+    "cinii_2002_ncid": "BB09153012",
+    "isbn_1994_reprint": "8120609107",
+    "isbn_2002_reprint": "8121207959"
+  },
+  "edition_reconciliation": {
+    "original_publication_as_reported_by_open_library_and_cinii_1994": "Calcutta University Press, 1931",
+    "1983_reprint": "Northern Book Centre, New Delhi; xv, 228, ii pages",
+    "1994_reprint": "Asian Educational Services, New Delhi; xv, 228, ii pages",
+    "2002_reprint": "Gyan Publishing House, New Delhi; xv, 228, ii pages",
+    "bibliographic_uncertainty": "The 2002 CiNii record notes an original 1929 edition in its introduction note, while Open Library and the 1994/1983 reprint records identify the original publication as 1931. MLHKP therefore does not collapse 1929/1931 references without direct title-page examination."
+  },
+  "access_state": "bibliographic_records_verified; Open Library reports preview-only for a modern reprint; no verified unrestricted full-text copy acquired in this cycle",
+  "rights_reuse_status": "not_established_for_modern_reprints_or_scans",
+  "permitted_evidence_boundary": "Bibliographic identity, edition relationships, identifiers and pagination may be used as source-census metadata. No dictionary entry, lexical form, definition, example sentence, scan, OCR or substantial protected text is promoted from catalogue metadata.",
+  "cultural_access_state": "lexical extraction_requires_source_and_context_review; public catalogue visibility does not override cultural-access controls",
+  "community_validation_state": "not_performed",
+  "verification_state": "multi_catalogue_bibliographic_identity_and_edition_relationships_verified",
+  "promotion_state": "candidate_pending_cross_layer_deduplication_and_obtainable_copy_rights_review",
+  "deduplication_keys": [
+    "title_author:a_mundari-english_dictionary|manindra_bhusan_bhaduri",
+    "openlibrary_work:OL5467157W",
+    "lccn:84901705"
+  ],
+  "sources_checked": [
+    "Open Library work/edition metadata",
+    "CiNii Books NCID BA27135864 (1983 reprint)",
+    "CiNii Books NCID BA31909026 (1994 reprint)",
+    "CiNii Books NCID BB09153012 (2002 reprint)"
+  ],
+  "non_inference": "No lexical, grammatical, ethnographic, speaker-population, historical-practice, community-preference or present-day cultural claim is inferred from bibliographic metadata."
+}

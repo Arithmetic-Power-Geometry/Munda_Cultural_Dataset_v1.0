@@ -1,0 +1,47 @@
+{
+  "run": 415,
+  "stream": "non-Mundarica source census",
+  "source_class": "government_cultural_web_resource",
+  "canonical_identity": {
+    "title": "Eastern Zonal Cultural Centre — Jharkhand: Mundari Dance",
+    "corporate_author": "Eastern Zonal Cultural Centre, Ministry of Culture, Government of India",
+    "url": "https://www.ezcc-india.org/states/jharkhand",
+    "accessed_date": "2026-09-16",
+    "identity_status": "verified_provider_page"
+  },
+  "scope": {
+    "mundari_relevance": "direct",
+    "provider_section": "Mundari Dance",
+    "content_type": ["dance", "music", "cultural-description"],
+    "classification_note": "Authoritative government cultural-centre webpage explicitly labels a Mundari Dance section."
+  },
+  "exact_locator": {
+    "type": "web_section_heading",
+    "locator": "Jharkhand page > section heading 'Mundari Dance'",
+    "stability": "provider URL plus heading; immutable snapshot/hash not yet captured"
+  },
+  "deduplication": {
+    "repository_search_before_ingestion": "no match for 'Eastern Zonal Cultural Centre Mundari Dance'",
+    "canonicalization_rule": "Treat the Jharkhand provider page and its Mundari Dance section as one web-resource identity; do not count sentences or media assets as independent sources without separately verified manifestations."
+  },
+  "rights_access_consent": {
+    "public_access": true,
+    "redistribution_permission_verified": false,
+    "participant_or_performer_consent_verified": false,
+    "cultural_access_permission_verified": false,
+    "rule": "Public government webpage availability does not establish permission to redistribute underlying media, performer consent, community validation, or unrestricted cultural reuse."
+  },
+  "evidence_promotion": {
+    "status": "locator_only_pending_audit",
+    "promoted_claims": 0,
+    "reason": "Provider text is discoverable and exactly locatable, but immutable capture/hash, item-level reuse terms, provenance, consent and cultural-access review are required before cultural propositions or media-derived evidence are promoted."
+  },
+  "open_gaps": [
+    "capture immutable provider-page representation and SHA-256 where permitted",
+    "verify page/item reuse terms",
+    "identify provenance for the descriptive cultural assertions",
+    "verify consent/rights for any linked photographs, audio or video",
+    "obtain community validation before treating generalized cultural descriptions as community-validated knowledge"
+  ],
+  "audit_note": "No cultural claim, dance-step description, song attribution, or media object is promoted by this record."
+}

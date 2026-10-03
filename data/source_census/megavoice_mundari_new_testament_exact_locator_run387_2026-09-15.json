@@ -1,0 +1,43 @@
+{
+  "run": 387,
+  "audit_date": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "source_class": ["audio", "web resource", "relevant media"],
+  "title": "New Testament (Dramatized) • Mundari (unr)",
+  "provider": "MegaVoice Media Cloud",
+  "provider_reference": "M0B1380",
+  "language": "Mundari",
+  "iso_639_3": "unr",
+  "country": "India",
+  "type": "Audio",
+  "publisher": "Bible Society of India",
+  "version": "Old Version Re-edited",
+  "categories": ["New Testament", "Scripture"],
+  "catalogue_locator": "https://megavoice.com/media-cloud/m0b1380-new-testament-dramatized-unr-mundari-audio-bible/",
+  "sample_locator": "https://mv-audio-video-samples.s3.amazonaws.com/audio-samples/B1380_nt_mundari.mp3",
+  "verification": {
+    "identity_metadata": "provider-page verified",
+    "exact_catalogue_locator": true,
+    "exact_sample_locator": true,
+    "binary_materialized": false,
+    "sha256_verified": false,
+    "transcript_verified": false,
+    "item_level_reuse_permission_verified": false,
+    "speaker_recording_provenance_verified": false,
+    "speaker_consent_verified": false,
+    "privacy_publicity_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "promotion": {
+    "discovery_identity": true,
+    "exact_locator_record": true,
+    "linguistic_evidence": false,
+    "cultural_evidence": false,
+    "audio_ingested": false
+  },
+  "deduplication_note": "Treat MegaVoice alternate-language labels as aliases, not independent source identities. Reconcile provider reference M0B1380 against WEB-MUN and existing MegaVoice family records before changing canonical MMSC counts.",
+  "rights_note": "Public catalogue/sample accessibility does not establish permission to redistribute the recording or transcript and does not establish participant consent or cultural-access authorization.",
+  "gap_note": "Resolve item-level rights, underlying recording provenance, speaker/participant consent and privacy, community/cultural governance, permitted binary materialization and SHA-256 before evidence promotion.",
+  "evidence_boundary": "No linguistic, religious, historical, demographic, geographic, or cultural proposition is promoted from this catalogue record."
+}

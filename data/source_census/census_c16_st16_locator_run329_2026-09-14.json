@@ -1,0 +1,50 @@
+{
+  "run": 329,
+  "date_utc": "2026-09-14",
+  "purpose": "First-party Census 2011 locator audit for two additional Jharkhand language tables relevant to Mundari/Munda source-census closure.",
+  "sources": [
+    {
+      "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+      "reference_id": "PC11_C16-20",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/10207",
+      "declared_download": "DDW-C16-STMT-MDDS-2000.xlsx",
+      "catalog_scope": "Distribution of population by mother tongue and sex for total/rural/urban areas at India/State/District/Tahsil/town levels.",
+      "catalog_verified": true,
+      "workbook_bytes_acquired": false,
+      "independent_hash_verified": false,
+      "sheet_inventory_verified": false,
+      "mundari_munda_cell_coordinates_verified": false,
+      "numeric_values_promoted": false
+    },
+    {
+      "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "reference_id": "PC11_ST16-20",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+      "declared_download": "ST-20-00-16-DDW-2011.XLSX",
+      "catalog_scope": "Bilingualism for Scheduled Tribes, each tribe separately, at State/UT level.",
+      "catalog_verified": true,
+      "workbook_bytes_acquired": false,
+      "independent_hash_verified": false,
+      "sheet_inventory_verified": false,
+      "munda_cell_coordinates_verified": false,
+      "numeric_values_promoted": false
+    }
+  ],
+  "evidence_boundary": {
+    "source_identity_promoted_to_controlled_count": false,
+    "numeric_evidence_promoted_to_controlled_graph_this_run": false,
+    "cultural_claims_promoted": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "reason": "Catalogue verification establishes source identity and declared filenames only. Controlled evidence requires permitted workbook acquisition plus independent byte/hash/sheet/cell verification and governance review."
+  },
+  "next_actions": [
+    "Attempt permitted acquisition of both declared workbooks from first-party endpoints.",
+    "Compute independent hashes and record exact byte sizes.",
+    "Inventory workbook sheets and locate MUNDA/MUNDARI rows/cells deterministically.",
+    "Promote only verified values through SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM->INDICATOR->DOMAIN with provenance links."
+  ]
+}

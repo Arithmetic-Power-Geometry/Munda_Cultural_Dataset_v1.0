@@ -1,0 +1,53 @@
+{
+  "run": 546,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source_key": "shrivastava-2013-mundari-khuntkatti",
+  "source_class": "peer-reviewed article",
+  "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+  "author": "Mukesh Kumar Shrivastava",
+  "year": 2013,
+  "volume": 13,
+  "issue": 2,
+  "doi": "10.1177/0972558X1301300205",
+  "publisher_landing_page": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+  "metadata_verified": {
+    "status": true,
+    "verified_fields": ["title", "author", "year", "volume", "issue", "doi", "first-published-online date"],
+    "first_published_online": "2013-07-01"
+  },
+  "scope": {
+    "direct_munda_relevance": true,
+    "topic": "Mundari Khuntkatti customary land institution",
+    "geography": "Khunti district, Jharkhand, India",
+    "field_sites_named_in_publisher_abstract": ["Gutuhatu", "Salga"],
+    "scope_note": "Publisher abstract states that the paper is based on empirical investigation of two Mundari Khuntkatti villages in Khunti district. No proposition from the abstract is promoted here as a controlled cultural claim."
+  },
+  "canonicalization": {
+    "rule": "DOI landing page, indexing records, citation exports, author copies, repository copies and publisher PDF are manifestations/representations of this article, not independent corroborating sources unless a distinct underlying study is established.",
+    "existing_repository_search": "No matching repository code-search result for 'Shrivastava Khuntkatti 2013' before creation."
+  },
+  "rights_access_consent_culture": {
+    "publisher_access": "publisher landing page discoverable; request-permissions signal present",
+    "redistribution_permission": "not established by metadata audit",
+    "participant_consent": "not verified from accessible metadata",
+    "cultural_access_status": "unverified",
+    "sensitive_content_review": "required before proposition-level cultural promotion"
+  },
+  "evidence_conversion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Exact full-text passage locators, lawful reusable manifestation, immutable hash, participant/ethics context and cultural-access review are not yet established."
+  },
+  "exact_locator_queue": [
+    "Obtain a lawful full-text manifestation if permitted.",
+    "Record immutable SHA-256 for any permitted captured manifestation.",
+    "Establish printed-page/PDF-page concordance.",
+    "Extract only proposition-level passages with exact page/section locators.",
+    "Record upstream citation dependencies and distinguish empirical observations from author interpretation.",
+    "Review consent, community sensitivity and cultural-access implications before promotion."
+  ],
+  "audit_outcome": "canonical source identity verified; retained as conversion target; no unsupported evidence promotion",
+  "controlled_metric_effect": "none until deterministic MMSC reconciliation"
+}

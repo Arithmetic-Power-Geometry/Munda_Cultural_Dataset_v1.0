@@ -1,0 +1,49 @@
+{
+  "run": 379,
+  "date_utc": "2026-09-15",
+  "scope": "non-Mundarica",
+  "canonical_identity": "CIET/NCERT Barkhaa Audio — Mundari language renditions",
+  "provider": "Central Institute of Educational Technology (CIET), NCERT",
+  "provider_locator": "https://ciet.ncert.gov.in/barkhaa_audio",
+  "classes": ["government_TRI_Census_LSI", "web_resources", "audio", "relevant_media"],
+  "verified_provider_surface": {
+    "page_title": "Barkhaa Audio",
+    "mundari_visible": true,
+    "level_1_titles_with_visible_mundari_option": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "note": "The provider page visibly enumerates Mundari among language options for these Level 1 Barkhaa audio titles. This is provider metadata, not a deterministic binary inventory."
+  },
+  "deduplication": {
+    "rule": "Treat the CIET/NCERT Barkhaa Mundari audio family as one canonical discovery identity; do not inflate individual story/language links into separate source identities before item-level provenance and rights resolution.",
+    "existing_lead_match_found": false
+  },
+  "promotion_state": "exact_provider_locator_discovery_only",
+  "rights_access_consent_cultural_state": {
+    "provider_is_official_institutional_surface": true,
+    "item_level_reuse_permission_verified": false,
+    "audio_bytes_materialized": false,
+    "sha256_verified": false,
+    "speaker_identity_verified": false,
+    "speaker_consent_verified": false,
+    "privacy_publicity_reviewed": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "promotion_boundary": "No audio, transcript, translation, linguistic proposition, educational-content proposition, or cultural claim is promoted from the catalogue surface. Exact item URLs, bytes/hash, provenance, reuse terms, speaker consent/privacy and cultural-access authorization must be resolved before evidence promotion.",
+  "blocked_or_open": [
+    "Exact item-level Mundari audio endpoints not deterministically inventoried in this run",
+    "Item-level reuse terms not verified",
+    "Audio bytes and hashes not verified",
+    "Speaker provenance/consent/privacy/publicity status not verified",
+    "Community validation and cultural-access authorization not verified"
+  ]
+}

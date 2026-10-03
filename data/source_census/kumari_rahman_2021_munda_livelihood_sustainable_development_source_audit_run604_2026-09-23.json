@@ -1,0 +1,49 @@
+{
+  "run": 604,
+  "audit_date": "2026-09-23",
+  "canonical_source": {
+    "authors": ["Laxmi Kumari", "Mojibur Rahman"],
+    "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+    "year": 2021,
+    "doi": "10.35784/pe.2021.1.19",
+    "source_class": "peer-reviewed article",
+    "provider": "Problemy Ekorozwoju / Problems of Sustainable Development",
+    "author_affiliation_reported": "Department of Humanities and Social Sciences, Indian Institute of Technology (ISM), Dhanbad, Jharkhand, India"
+  },
+  "scope": {
+    "population": "Munda tribe/community",
+    "geography": "Jharkhand, India",
+    "topic": ["livelihood", "sustainable development", "perception"],
+    "classification": "empirical/social-science candidate; not authority for universal or timeless cultural claims"
+  },
+  "identity_verification": {
+    "doi_verified": true,
+    "title_authors_year_verified": true,
+    "repository_exact_match_before_creation": false,
+    "canonicalization_note": "DOI landing page, PDF/index records and citations must be treated as manifestations of one work, not independent corroboration."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_ingested": 0,
+    "status": "exact-locator conversion candidate",
+    "reason": "Abstract-level metadata is verified, but proposition-level promotion requires authoritative full text, exact page/table/section locators, study design/sample/locality verification, and rights/consent review."
+  },
+  "rights_access_consent": {
+    "full_text_reuse_verified": false,
+    "participant_consent_verified": false,
+    "cultural_reuse_verified": false,
+    "rule": "Public discoverability or readability is not redistribution permission."
+  },
+  "required_before_promotion": [
+    "obtain and hash an authoritative full-text manifestation where lawful",
+    "verify journal-to-PDF pagination and bibliographic metadata",
+    "inspect sampling, field locality, dates, participant characteristics and methodology",
+    "extract only supported propositions with exact page/table/section locators",
+    "separate participant evidence, authors' interpretation and cited secondary claims",
+    "review copyright/reuse terms and participant/cultural-governance constraints",
+    "avoid generalizing a bounded sample to all Munda communities"
+  ],
+  "source_url": "https://doi.org/10.35784/pe.2021.1.19",
+  "audit_principle": "No cultural claim is promoted from abstract language alone."
+}

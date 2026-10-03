@@ -1,0 +1,53 @@
+{
+  "run": 362,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "pr_state_verified": "open_unmerged_base_main",
+  "main_merged": false,
+  "previous_final_head": "8c2eba5390e2bb08031e6774c2c51f6d793eada2",
+  "run362_component_commits": {
+    "lsi_jharkhand_search_index_audit": "05123469e3c6653166befc2b7472c17d31ec7b5d"
+  },
+  "previous_final_head_ci": {
+    "head": "8c2eba5390e2bb08031e6774c2c51f6d793eada2",
+    "Migration Audit": "success",
+    "Source Register Audit": "success",
+    "Streamlit Smoke Test": "success",
+    "Publication Build": "success",
+    "all_four_green": true
+  },
+  "stream_checkpoints": {
+    "mundarica_I_XVI": "No independently authoritative scan, complete-volume or OCR-page verification was newly established; per-volume states carried forward without inflation.",
+    "mmsc": "Systematic 14-class release census remains documented; controlled MMSC counts are unchanged pending deterministic reconciliation of 73 unresolved WEB-MUN leads.",
+    "source_ingestion": "No SOURCE->PASSAGE/SEGMENT/EVENT/OBJECT->EVIDENCE->CLAIM promotion was warranted from the new LSI search-index observation because page-level provenance is unavailable.",
+    "ontology_entities_graph": "Schema-category representation remains 100 percent; no node/edge inflation from locator-only evidence.",
+    "streamlit": "42 of 42 modules remain mapped with universal search, evidence drilldown, reports/downloads and owner console; evidence population remains higher priority than redesign.",
+    "governance": "Cultural access continues to override entitlement; provider search indexing is not treated as reuse permission, participant consent, community validation or verified OCR.",
+    "publication": "Controlled repository metrics remain 42 identities / 52 claims / 52 evidence / 52 links / 42 modules, so no manuscript numerical regeneration is warranted this cycle.",
+    "verification": "ORGI search indexing now exposes a Mundari-study section for LSI_JHARKHAND, but direct PDF retrieval still returns HTTP 502; no substantive claim promotion.",
+    "tests_ci": "Run 361 exact final head is verified 4/4 green; Run 362 writes are allowed to trigger fresh CI and are not pre-labelled green."
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42,
+    "schema_category_representation_percent": 100.0,
+    "ui_mapping_percent": 100.0
+  },
+  "mundarica_totals": {
+    "independently_authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0
+  },
+  "release_gate": "NOT_PASS",
+  "automated_completeness_audit_pass": false,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

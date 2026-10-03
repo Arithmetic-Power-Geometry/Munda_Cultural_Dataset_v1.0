@@ -1,0 +1,64 @@
+{
+  "run": 585,
+  "audit_date": "2026-09-23",
+  "stream": "non-Mundarica",
+  "source_class": ["peer-reviewed article", "linguistics", "open-access repository manifestation"],
+  "canonical_work": {
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "title": "Mundari: The myth of a language without word classes",
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "volume_issue_pages": "9(3):351-390",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "repository_handle": "http://hdl.handle.net/1885/54663"
+  },
+  "identity_verification": {
+    "institutional_repository": "Australian National University Research Publications",
+    "repository_metadata_access": "open access",
+    "repository_file_reported": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_file_size_reported": "234.31 KB",
+    "verified_scope_from_repository_abstract": "The article reassesses claims that Mundari lacks word classes using Hoffmann's corpus and substantial new data, including a large lexical sample, and argues for definable noun and verb classes plus a closed adjective class.",
+    "metadata_verified": true
+  },
+  "deduplication": {
+    "repository_search_query": "Evans Osada 2005 myth language word classes",
+    "existing_match_found": false,
+    "canonicalization_rule": "DOI, ANU repository record, repository PDF and publisher manifestations represent one scholarly work and are not independent corroborating sources."
+  },
+  "scope_classification": {
+    "direct_mundari_relevance": true,
+    "topics": ["word classes", "noun", "verb", "adjective", "predication", "lexicon", "typology"],
+    "historical_dependency": "Uses Hoffmann corpus alongside new data; proposition-level ingestion must distinguish inherited Hoffmann evidence from new observations/analysis.",
+    "generalization_warning": "Do not generalize analytical conclusions beyond the data, varieties, consultants/corpus and period documented in the full article."
+  },
+  "rights_access_governance": {
+    "repository_access_statement": "Open Access",
+    "metadata_access_verified": true,
+    "binary_redistribution_permission_verified": false,
+    "consent_or_cultural_access_verified": false,
+    "public_access_not_treated_as_redistribution_permission": true
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Full article text, exact printed/PDF locators, data provenance, consultant/corpus scope, dependency separation and file-level reuse terms were not yet audited in-repository. Abstract metadata alone is insufficient for controlled proposition promotion."
+  },
+  "exact_locator_queue": [
+    "Obtain the authoritative ANU-hosted PDF lawfully and hash the manifestation if repository tooling permits.",
+    "Establish print-page/PDF-page concordance.",
+    "Inspect methods/data provenance and identify consultant, dialect/variety, locality and corpus scope where stated.",
+    "Create exact page/table/example locators for supported propositions only.",
+    "Separate evidence newly collected/analyzed by Evans and Osada from propositions inherited from Hoffmann or other cited works.",
+    "Verify file-level reuse terms before any binary redistribution.",
+    "Apply cultural-access/consent/dignity controls where source material warrants them."
+  ],
+  "sources_checked": [
+    {
+      "provider": "Australian National University Digital Collections",
+      "url": "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+      "role": "institutional repository metadata and open-access manifestation discovery"
+    }
+  ],
+  "audit_outcome": "verified canonical source identity; queued for exact-locator conversion; no unsupported controlled promotion"
+}

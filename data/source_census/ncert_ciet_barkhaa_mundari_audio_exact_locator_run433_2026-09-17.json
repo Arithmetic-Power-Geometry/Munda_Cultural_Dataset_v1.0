@@ -1,0 +1,40 @@
+{
+  "run": 433,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["government/educational", "audio", "web resource", "relevant media"],
+  "canonical_identity": {
+    "provider": "Central Institute of Educational Technology (CIET), NCERT",
+    "resource": "Barkhaa Audio",
+    "mundari_scope": "Level 1 story audio entries explicitly labelled Mundari and/or Mundari-Mix on the provider index",
+    "landing_url": "https://ciet.ncert.gov.in/barkhaa_audio"
+  },
+  "verified_discovery_metadata": {
+    "provider_index_observation": "The CIET Barkhaa Audio index exposes Level 1 story entries with language links labelled Mundari, including Chhupan Chhupaai, Gilli Danda, Mzza Aa Gya, Milli ka Gubbara, Mithai, Mithe Mithe Gulgule, Munmun Aur Munnu, Phooli Roti and Rani Bhi; some entries also expose Mundari-Mix variants.",
+    "identity_rule": "The Barkhaa programme/index is one collection identity; story/language audio objects are constituent manifestations/items and must not be inflated into independent source identities without item-level provenance.",
+    "scope_rule": "Only links explicitly labelled Mundari or Mundari-Mix are candidates for the Mundari stream. Other language versions are contextual manifestations, not Mundari evidence."
+  },
+  "deduplication": {
+    "repository_exact_lead_search": "No Barkhaa Audio exact-title match was returned before this run.",
+    "canonicalization_key": "CIET/NCERT + Barkhaa Audio + stable story identity + language variant",
+    "do_not_merge_with": ["Karya Mundari TTS", "MunTTS", "PARADISEC BMM1", "Multiling Cloud Bangladesh Munda"]
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "access": "public provider index discoverable",
+    "reuse_permission": "unverified at item level",
+    "participant_voice_consent": "unverified",
+    "performer/narrator_provenance": "unverified",
+    "cultural_access": "unverified",
+    "rule": "Public educational streaming/download availability does not establish redistribution permission, participant consent, or cultural permission."
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "Item bytes, stable item URLs/IDs, rights, narrator/performer provenance and consent have not yet been audited.",
+    "required_exact_locator": "immutable permitted audio manifestation + SHA-256 + provider story title + language variant + deterministic timecode segment",
+    "next_ingestion_gate": ["enumerate Mundari/Mundari-Mix item URLs", "verify item metadata and rights", "materialize only permitted bytes", "compute SHA-256", "record duration/timecode concordance", "audit narrator/performer provenance and consent", "review cultural-access sensitivity before claim promotion"]
+  },
+  "release_treatment": "explicit audited discovery/gap; not represented as completed evidence",
+  "controlled_count_change": false,
+  "controlled_count_note": "Do not alter MMSC or publication totals until this locator is deterministically reconciled against the WEB-MUN ledger."
+}

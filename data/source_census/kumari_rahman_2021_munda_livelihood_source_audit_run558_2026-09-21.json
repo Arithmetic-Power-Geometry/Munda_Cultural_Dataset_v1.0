@@ -1,0 +1,51 @@
+{
+  "run": 558,
+  "stream": "non-Mundarica source census",
+  "canonical_id": "doi:10.35784/pe.2021.1.19",
+  "source_class": "peer-reviewed article",
+  "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+  "authors": ["Laxmi Kumari", "Mojibur Rahman"],
+  "journal": "Problemy Ekorozwoju",
+  "volume": "16",
+  "issue": "1",
+  "pages": "181-185",
+  "published": "2021-01-04",
+  "doi": "10.35784/pe.2021.1.19",
+  "publisher_record": "https://ph.pollub.pl/index.php/preko/article/view/5271",
+  "scope": {
+    "population": "Munda tribe",
+    "geography": "Jharkhand, India / Chotanagpur plateau as stated by article",
+    "topics": ["livelihood", "sustainable development", "non-wood forest products", "socio-capital", "women"]
+  },
+  "identity_verification": {
+    "publisher_metadata_verified": true,
+    "doi_verified": true,
+    "pagination_verified": true,
+    "repository_exact_doi_search_before_ingestion": "no matching code-search result",
+    "canonicalization_rule": "DOI is work-level key; publisher page/PDF, AGRIS, ResearchGate and indexing manifestations are not independent sources"
+  },
+  "rights": {
+    "publisher_license": "CC BY-SA 4.0",
+    "license_verified_on_publisher_record": true,
+    "binary_ingested": false,
+    "note": "License permits reuse subject to its terms; no binary is stored by this audit record."
+  },
+  "exact_locators_verified": [
+    {"locator": "journal pages 181-185", "kind": "article extent"},
+    {"locator": "publisher HTML abstract", "kind": "section"}
+  ],
+  "evidence_promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Full proposition-level page extraction, methods/sample assessment, source-dependency separation, and cultural-scope review remain required before controlled evidence promotion."
+  },
+  "quality_cautions": [
+    "Do not generalize article-level statements to all Munda communities or periods.",
+    "Separate author interpretation from primary empirical evidence and cited secondary sources.",
+    "Assess sampling/methods and exact proposition locators before promotion.",
+    "Preserve potentially sensitive livelihood, gender, health/plant-knowledge and cultural information conservatively."
+  ],
+  "status": "verified conversion target; exact-locator promotion pending",
+  "audited_release_gate_effect": "No controlled-count increment until deterministic reconciliation and evidence promotion."
+}

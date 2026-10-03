@@ -1,0 +1,47 @@
+{
+  "run": 638,
+  "audit_date": "2026-09-25",
+  "stream": "non-Mundarica source census",
+  "canonical_work": {
+    "title": "Portrait of an unknown woman from the Munda tribe of Chota Nagpur in eastern India",
+    "repository": "Rijksmuseum",
+    "object_number": "RP-F-2001-7-1122A-22",
+    "creator_attribution": "Benjamin Simpson (possibly)",
+    "date": "c. 1858–in or before 1868",
+    "place": "Chota Nagpur / Jharkhand",
+    "object_type": [
+      "photograph",
+      "album page"
+    ],
+    "physical_dimensions": "175 x 130 mm",
+    "inscription": "MOONDA FEMALE./ ABORIGINAL/ CHOTA NAGPOOR."
+  },
+  "source_class": "archive / historical photograph",
+  "scope": "Munda-specific object identity; catalogue metadata only",
+  "deduplication": {
+    "repository_search": [
+      "RP-F-2001-7-1122A-22",
+      "Portrait of an unknown woman from the Munda tribe"
+    ],
+    "matches": 0,
+    "decision": "new canonical archival object candidate"
+  },
+  "locator": {
+    "type": "institutional object identifier",
+    "value": "RP-F-2001-7-1122A-22"
+  },
+  "governance": {
+    "rights": "not inferred from discoverability; image redistribution not promoted in this run",
+    "consent": "historical subject consent/community consent unknown",
+    "cultural_access": "unknown; requires review before public evidence exposure",
+    "attribution_uncertainty": "photographer attribution explicitly preserved as 'possibly'"
+  },
+  "promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "binaries": 0
+  },
+  "decision": "retain as audited archival source identity candidate; no cultural proposition promotion until rights/consent/cultural-access and image-context review",
+  "source_url": "https://www.rijksmuseum.nl/en/collection/object/Portrait-of-an-unknown-woman-from-the-Munda-tribe-of-Chota-Nagpur-in-eastern-India--a618123198af878e32aa9f200744b6ed"
+}

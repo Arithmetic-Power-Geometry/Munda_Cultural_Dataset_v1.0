@@ -1,0 +1,51 @@
+{
+  "audit_run": 486,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_source_id": "scstrti-odisha-2016-mundari-handbook-scst-2016-0055",
+  "source_class": ["government", "TRI", "handbook", "ethnographic_study"],
+  "title": "Mundari",
+  "editor_author_as_catalogued": ["AB Ota", "SC Mohanty", "Soumalin Mohanty"],
+  "institution": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Bhubaneswar",
+  "completed_date": "2016-07",
+  "record_id": "SCST/2016/0055",
+  "official_repository_record": "https://repository.tribal.gov.in/handle/123456789/73851",
+  "catalogued_file": "SCST_2016_handbook_0055.pdf",
+  "catalogued_file_size": "108.3 MB",
+  "scope": "Mundari ethnographic handbook concerning Odisha; catalogue keywords include Mundari, Munda, clusters of clans, bride price, marriage by intrusion, and Sing Bonga.",
+  "identity_verification": {
+    "status": "verified_from_official_ministry_repository_metadata",
+    "checked": ["title", "record_id", "document_type", "editor_author", "institution", "completed_date", "catalogued_file"]
+  },
+  "deduplication": {
+    "rule": "Official Ministry/TRI record, PDF manifestation, catalogue/search manifestations and mirrors are one canonical work unless edition-level collation establishes otherwise.",
+    "independent_corroboration_count_from_manifestations": 0
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "access": "official repository exposes a View/Open PDF link according to catalogue metadata",
+    "reuse_rights": "not established by catalogue metadata; government hosting is not treated as an open licence",
+    "consent": "not established at item/passage level",
+    "cultural_access": "requires review before promotion of culturally sensitive ethnographic propositions",
+    "uncertainty": "catalogue abstract/keywords are discovery metadata, not automatically promoted cultural evidence"
+  },
+  "promotion": {
+    "evidence_records_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "reason": "No lawfully reusable immutable PDF bytes/hash and no exact printed/PDF page concordance were established in this run.",
+    "future_exact_locator": "<lawfully-obtained-permitted-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>"
+  },
+  "release_accounting": {
+    "provider_reported_metadata_must_not_increment_controlled_evidence_counts": true,
+    "MMSC_change": 0,
+    "evidence_count_change": 0
+  },
+  "gaps": [
+    "establish explicit reuse/licence terms for the PDF",
+    "obtain lawful immutable bytes and SHA-256 where permitted",
+    "establish PDF-to-printed-page concordance",
+    "extract only exact-locator propositions with passage-level provenance",
+    "review dependency on earlier ethnographies and distinguish primary observation from compilation",
+    "apply consent/privacy/cultural-sensitivity gates to people, ritual, religion, customary-law and other potentially sensitive material"
+  ],
+  "audit_note": "Blocked or uncertain rights do not imply source completion. This record advances source identity/census coverage only; unsupported cultural assertions are prohibited from promotion."
+}

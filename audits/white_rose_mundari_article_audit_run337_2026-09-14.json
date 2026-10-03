@@ -1,0 +1,45 @@
+{
+  "audit_id": "MLHKP-RUN337-WHITE-ROSE-MUNDARI",
+  "date_utc": "2026-09-14",
+  "source": {
+    "provider": "White Rose Research Online, University of York deposit",
+    "title": "Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis",
+    "authors": ["Gurujegan Murugesan", "Imke Driemel", "Andrew Murphy"],
+    "repository_url": "https://eprints.whiterose.ac.uk/id/eprint/226042/",
+    "doi": "10.1007/s11049-024-09628-2",
+    "journal": "Natural Language & Linguistic Theory",
+    "pages": "1067-1115",
+    "accepted_date": "2024-03-24",
+    "published_online_date": "2025-02-03",
+    "published_date": "2025-04-18",
+    "accepted_version_filename": "murugesanEtAl_24_Omnivoro.3.pdf",
+    "repository_license_label": "CC-BY 2.5",
+    "provider_identity": "institutional_repository_record"
+  },
+  "verified_repository_observation": {
+    "metadata_page_reachable": true,
+    "accepted_version_link_listed": true,
+    "doi_listed": true,
+    "license_label_listed": true,
+    "refereed_status_listed": true,
+    "status": "Published"
+  },
+  "verification_boundary": {
+    "pdf_bytes_independently_acquired": false,
+    "independent_pdf_hash_verified": false,
+    "page_image_or_text_locator_verified": false,
+    "linguistic_examples_ingested": false,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "license_treated_as_cultural_access_permission": false
+  },
+  "mlhkp_policy": "Institutional repository metadata and explicit repository license labels may be retained as source/provenance evidence. No article-internal linguistic example, cultural assertion, community validation, participant status, or cultural-access authorization is inferred from repository availability or copyright permission. Cultural access overrides entitlement.",
+  "next_actions": [
+    "acquire the accepted-version PDF through a permitted byte-capable channel",
+    "compute an independent cryptographic hash",
+    "verify article-internal page locators before any passage-level evidence promotion",
+    "keep linguistic analysis separate from cultural claims and community-validation status"
+  ]
+}

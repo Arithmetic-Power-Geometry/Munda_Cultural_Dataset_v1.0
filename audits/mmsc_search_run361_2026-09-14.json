@@ -1,0 +1,58 @@
+{
+  "search_id": "MMSC-SEARCH-000361",
+  "run": 361,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books", "dictionaries", "grammars", "peer_reviewed_articles", "theses", "government_TRI_Census_LSI", "archives", "newspapers", "web_resources", "datasets", "audio", "video", "maps", "relevant_media"],
+  "search_queries_sample": [
+    "Mundari dictionary grammar book Munda language",
+    "Mundari peer reviewed article linguistics",
+    "Mundari thesis dissertation Jharkhand",
+    "Mundari TRI Jharkhand Census LSI government",
+    "Mundari archive manuscript recording collection",
+    "Mundari newspaper Jharkhand language",
+    "Mundari dataset corpus lexicon",
+    "Mundari audio language archive",
+    "Mundari video cultural language",
+    "Mundari map language Jharkhand",
+    "Mundari media digital archive",
+    "Munda Mundari books bibliography",
+    "Mundari web resource language",
+    "Mundari dictionary lexicon corpus"
+  ],
+  "fresh_reobservations": [
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+      "provider": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "reference_id": "LSI_JHARKHAND",
+      "disposition": "exact official catalogue and declared LSI_JHARKHAND.pdf locator verified; direct PDF fetch returned HTTP 502, therefore bytes hash page inventory internal Mundari locators and substantive claims remain unverified"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "LINGUISTIC SURVEY OF INDIA-West Bengal Part I",
+      "disposition": "official provider search exposes a Mundari study in the West Bengal volume, but this run does not promote its substantive text or demographic statements because the task focus is exact controlled evidence and no new byte/page audit was completed"
+    },
+    {
+      "class": "archives",
+      "title": "ELAR PARADISEC TLA Mundari package search",
+      "disposition": "no newly verified exact archival package promoted in this run; unresolved status retained"
+    }
+  ],
+  "blocked_sources_continued": [
+    "LSI_JHARKHAND.pdf direct provider download returned HTTP 502; census continued across other source classes rather than treating the stream as complete"
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the authoritative numbered source register is completed. Reprints, mirrors, versions, manifestations, title variants, homonyms and non-target matches are canonicalized before identity promotion.",
+  "rights_access_policy": "Public access, catalogue visibility, repository availability or open licensing does not by itself establish reuse permission, participant consent, community validation, cultural authorization, or validity of substantive claims.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Run 361 adds an exact official LSI Jharkhand manifestation locator and documents the blocked PDF access boundary. No authoritative WEB-MUN mapping, new controlled source identity or substantive evidence claim is promoted."
+}

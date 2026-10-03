@@ -1,0 +1,54 @@
+{
+  "run": 469,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "source_class": ["book_chapter", "grammar_sketch", "peer_reviewed_scholarly_source"],
+  "canonical_identity": {
+    "author": "Toshiki Osada",
+    "year": 2008,
+    "title": "Mundari",
+    "book_title": "The Munda Languages",
+    "editor": "Gregory D. S. Anderson",
+    "pages": "99-164",
+    "publisher": "Routledge",
+    "series": "Routledge language family series",
+    "isbn": "9780415328906",
+    "language_code": "unr",
+    "document_type": "grammar sketch"
+  },
+  "verification": {
+    "authority": "Glottolog 5.3",
+    "glottolog_reference_id": "477414",
+    "verified_fields": ["author", "year", "title", "book_title", "editor", "pages", "publisher", "series", "isbn", "language_code", "document_type"],
+    "status": "metadata_verified"
+  },
+  "canonicalization": {
+    "rule": "Treat publisher/book, Glottolog/CLDF bibliography records, catalogue records, scans, previews, author copies, and extracted chapter manifestations as manifestations of one Osada 2008 chapter identity unless provenance proves otherwise.",
+    "independence_warning": "Do not count bibliographic aggregators or derivative typological datasets as independent corroboration of propositions sourced from this chapter."
+  },
+  "rights_access": {
+    "bibliographic_metadata": "Glottolog metadata is CC BY 4.0 according to the provider record.",
+    "chapter_text": "not established by this audit",
+    "redistribution_permission": "unverified",
+    "full_text_ingestion": "blocked pending lawful obtainable manifestation and item-level reuse basis"
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No lawfully verified chapter bytes and item-level reuse basis were established in this run; metadata alone is not proposition evidence.",
+    "future_exact_locator": "Osada 2008, pp. <printed-page>; permitted-file-sha256=<sha256>; passage=<bounded locator>"
+  },
+  "uncertainty_and_gaps": [
+    "lawful full-text manifestation",
+    "item-level reuse terms",
+    "immutable permitted bytes and SHA-256",
+    "PDF-to-printed-page concordance",
+    "exact proposition passages",
+    "dependency tracing to earlier Mundari sources and field data",
+    "participant/community provenance and cultural-access review where applicable"
+  ],
+  "count_policy": "This audit file does not change controlled MMSC counts until deterministic ledger reconciliation assigns canonical IDs and deduplicates all pending runs.",
+  "sources": [
+    "https://glottolog.org/resource/reference/id/477414"
+  ]
+}

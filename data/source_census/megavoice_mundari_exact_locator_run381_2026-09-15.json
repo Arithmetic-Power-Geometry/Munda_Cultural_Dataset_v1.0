@@ -1,0 +1,47 @@
+{
+  "run": 381,
+  "date": "2026-09-15",
+  "stream": "non-Mundarica",
+  "class": ["audio", "web_resource", "relevant_media"],
+  "provider": "MegaVoice Media Cloud",
+  "title": "God's Story • Mundari (unr)",
+  "provider_reference": "M0B1257",
+  "language": "Mundari",
+  "iso_639_3": "unr",
+  "country": "India",
+  "type": "Audio",
+  "publisher": "The God's Story Project",
+  "provider_reported_size": "70 MB",
+  "provider_reported_runtime": "001 hr 16 min",
+  "exact_item_locator": "https://megavoice.com/media-cloud/m0b1257-gods-story-unr-mundari-audio-bible/",
+  "provider_exposed_sample_locator": "https://mv-audio-video-samples.s3.amazonaws.com/audio-samples/B1257_gss_mundari.mp3",
+  "verification": {
+    "identity_metadata": "verified_on_provider_surface",
+    "binary_materialized": false,
+    "sha256_verified": false,
+    "item_level_reuse_terms_verified": false,
+    "speaker_identity_verified": false,
+    "speaker_consent_verified": false,
+    "privacy_publicity_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false
+  },
+  "promotion": {
+    "provider_identity": true,
+    "exact_locator": true,
+    "audio_content": false,
+    "transcript": false,
+    "linguistic_claim": false,
+    "cultural_claim": false
+  },
+  "scope_note": "Religious/audio-media manifestation in Mundari. Provider metadata and locator are auditable; content is not promoted as cultural or linguistic evidence until rights, consent, provenance and cultural-access boundaries are resolved.",
+  "dedup_rule": "Treat the MegaVoice item as one provider/content-family discovery identity; alternate-language labels on the provider page are metadata, not separate source identities.",
+  "blocked_or_open_gaps": [
+    "materialize permitted bytes if provider terms allow",
+    "compute SHA-256 and deterministic duration/file inventory",
+    "resolve item-level reuse/license terms",
+    "resolve recording and speaker provenance",
+    "resolve speaker consent/privacy/publicity status",
+    "resolve community validation and cultural-access authorization"
+  ]
+}

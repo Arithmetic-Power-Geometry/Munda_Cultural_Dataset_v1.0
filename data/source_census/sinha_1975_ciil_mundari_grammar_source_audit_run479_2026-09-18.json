@@ -1,0 +1,58 @@
+{
+  "run": 479,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "author": "N. K. Sinha",
+    "title": "Mundari Grammar",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages",
+    "place": "Mysore",
+    "series": "CIIL Grammar Series",
+    "volume": "2",
+    "extent": "xii, 163, [1] p.",
+    "language": ["English", "Mundari"],
+    "lccn": "76901792",
+    "ciil_handle": "20.500.14705/8179"
+  },
+  "source_class": ["book", "grammar", "government/CIIL", "digital repository"],
+  "scope": "Mundari language grammar; potentially relevant to phonology, morphology, syntax, adjectives and adverbs. No proposition is promoted by this audit record.",
+  "identity_verification": [
+    "CIIL Bhasha Sanchika repository identifies N. K. Sinha, Mundari Grammar, 1975, handle 20.500.14705/8179.",
+    "WALS reference database independently identifies Sinha 1975, CIIL Grammar Series 2, Mysore: Central Institute of Indian Languages.",
+    "CiNii bibliographic record gives xii, 163, [1] p., LCCN 76901792 and bibliography p. [164].",
+    "Bharatavani identifies the same 1975 grammar, author and CIIL content partner/publisher; its reading manifestation requires login."
+  ],
+  "canonicalization": {
+    "rule": "Treat CIIL repository record, Bharatavani manifestation, WALS citation, CiNii holdings and library catalogue manifestations as records/manifestations of one 1975 work unless edition-level collation proves otherwise.",
+    "independent_evidence_count": 0
+  },
+  "access_rights": {
+    "ciil_repository": "Public metadata page reports a PDF file, but this audit does not infer redistribution permission from discoverability.",
+    "bharatavani": "Login to Read; blocked for non-interactive exact-text ingestion in this run.",
+    "copyright_reuse": "UNVERIFIED",
+    "redistribution": "NOT ASSUMED"
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "status": "LOCATOR/RIGHTS GATED",
+    "required_exact_locator": "<lawfully-obtained-permitted-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>",
+    "gates": [
+      "establish item-level reuse/redistribution basis",
+      "obtain lawful immutable source bytes where permitted",
+      "record SHA-256",
+      "establish PDF-to-printed-page concordance",
+      "extract exact passage locators rather than bibliographic-only assertions",
+      "trace examples/data to earlier sources or elicitation where applicable",
+      "apply cultural/participant-access review to any consultant-derived or culturally sensitive material"
+    ]
+  },
+  "gaps": [
+    "No immutable permitted PDF hash established in this run.",
+    "No page-level proposition was inspected or promoted.",
+    "No assumption is made that government hosting equals open licensing.",
+    "Bharatavani login restriction remains explicit rather than being treated as completed ingestion."
+  ],
+  "audit_principle": "Never fabricate counts or cultural claims; discovery is not evidence; blocked manifestations remain explicit gaps while the census continues."
+}

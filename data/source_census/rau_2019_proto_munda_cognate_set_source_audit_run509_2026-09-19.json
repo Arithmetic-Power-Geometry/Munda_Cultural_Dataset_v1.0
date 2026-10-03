@@ -1,0 +1,75 @@
+{
+  "audit_id": "MLHKP-RUN509-RAU-2019-PROTO-MUNDA-COGNATES",
+  "run": 509,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census",
+  "source_class": "dataset/comparative-linguistics",
+  "canonical_identity": {
+    "creator": "Felix Rau",
+    "title": "Munda cognate set with proto-Munda reconstructions",
+    "version": "0.1.0",
+    "published": "2019-08-29",
+    "publisher": "Zenodo",
+    "doi": "10.5281/zenodo.3380874",
+    "record_url": "https://zenodo.org/records/3380874",
+    "file": "pMunda_cognate_set_2019-08-29.csv",
+    "provider_md5": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "provider_file_size": "34.9 kB"
+  },
+  "provider_description_verified": {
+    "cognate_sets_reported": 127,
+    "languages_reported": ["Gorum","Sora","Remo","Gutob","Kharia","Juang","Gtaʔ","Santali","Mundari","Ho","Korwa","Korku"],
+    "upstream_references_reported": ["MKCD","Pinnow (1959)"],
+    "supplement_to": "10.5281/zenodo.3380908"
+  },
+  "scope_classification": {
+    "direct_Mundari_only": false,
+    "comparative_Munda": true,
+    "contains_Mundari_material": true,
+    "eligible_as_independent_Mundari_cultural_authority": false,
+    "reason": "Comparative Munda cognate dataset; rows may contain Mundari material but provider explicitly reports upstream references to MKCD and Pinnow (1959)."
+  },
+  "deduplication": {
+    "canonical_rule": "DOI 10.5281/zenodo.3380874 + version 0.1.0 is one source identity; Zenodo record, preview, CSV download and conference-supplement links are manifestations/relations, not independent sources.",
+    "repository_exact_doi_search_before_creation": "no match returned",
+    "independence_rule": "Rows derived from MKCD/Pinnow are not independent corroboration of those upstream sources."
+  },
+  "rights_access_consent": {
+    "access": "Zenodo record labels dataset Open and exposes CSV download/preview.",
+    "license": "UNRESOLVED: the discoverable Zenodo record rendered a License heading without a license value during Run 509.",
+    "redistribution_permission": "not established",
+    "participant_consent": "not applicable/unknown for historical lexical compilation; no consent inference made",
+    "cultural_access": "unresolved at row level",
+    "promotion_allowed_now": false
+  },
+  "exact_locator_readiness": {
+    "provider_file_checksum_available": true,
+    "provider_checksum_algorithm": "MD5",
+    "provider_checksum": "07e1d945a0fc6cafc4fc7afd3f1ff144",
+    "local_sha256_verified": false,
+    "local_row_count_verified": false,
+    "schema_verified": false,
+    "Mundari_rows_identified": false,
+    "candidate_locator_template": "doi:10.5281/zenodo.3380874/file/pMunda_cognate_set_2019-08-29.csv#row=<n>;md5=07e1d945a0fc6cafc4fc7afd3f1ff144;sha256=<local-hash>;dependency=<MKCD|Pinnow1959|mixed|other|unresolved>"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Do not promote until file bytes are independently materialized/hashed, schema and rows audited, Mundari-bearing rows identified, row-level upstream dependency classified, and reuse/license basis resolved."
+  },
+  "audit_invariants": [
+    "comparative Munda evidence != unqualified Mundari evidence",
+    "derived cognate row != independent corroboration of its cited upstream source",
+    "open access/downloadability != verified redistribution license",
+    "provider MD5 != locally verified SHA-256",
+    "dataset row != cultural claim without contextual validation"
+  ],
+  "blocked_or_pending": [
+    "license value absent from discoverable Zenodo record rendering",
+    "local immutable CSV bytes/SHA-256 not established in this run",
+    "row-level Mundari/dependency classification pending"
+  ],
+  "sources": [
+    "https://zenodo.org/records/3380874"
+  ]
+}

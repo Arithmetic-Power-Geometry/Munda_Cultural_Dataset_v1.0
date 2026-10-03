@@ -1,0 +1,57 @@
+{
+  "run": 344,
+  "audit_date": "2026-09-14",
+  "scope": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "controlled_counts_changed": false,
+  "count_rule": "Fresh discovery/search observations do not alter the numbered WEB-MUN register until deterministic lead-level reconciliation is performed.",
+  "classes": [
+    {"class":"books","result":"refreshed","notable":"Book stream retained; no new controlled identity without deterministic numbered-register reconciliation."},
+    {"class":"dictionaries","result":"refreshed","notable":"Dictionary stream retained; byte/right verification remains distinct from discovery."},
+    {"class":"grammars","result":"refreshed","notable":"Grammar stream retained; institutional availability is not cultural-access authorization."},
+    {"class":"peer_reviewed_articles","result":"refreshed","notable":"Scholarly stream retained with manifestation and governance boundaries."},
+    {"class":"theses_dissertations","result":"refreshed","notable":"Previously verified thesis locator remains contextual only pending byte/licence/ethics review."},
+    {"class":"government_TRI_Census_LSI","result":"strengthened_catalogue_schema","notable":"Official ORGI C-16 PC11_C16-20 and ST-16 PC11_ST16-20 catalogue metadata/schema were re-verified; workbook bytes/hash/sheets/rows/cells remain unverified."},
+    {"class":"archives","result":"refreshed","notable":"Archive visibility remains separate from reuse and cultural-access permission."},
+    {"class":"newspapers","result":"refreshed","notable":"Contextual reporting remains distinct from primary linguistic/cultural authority."},
+    {"class":"web_resources","result":"refreshed","notable":"Public URL resolution alone does not authorize ingestion or claim promotion."},
+    {"class":"datasets","result":"refreshed","notable":"Known Karya/AdiBhashaa/ELR candidates remain gated by immutable revision, independent hashing/counting and governance review."},
+    {"class":"audio","result":"refreshed","notable":"Known audio streams remain subject to byte/hash/participant/community/cultural-access verification."},
+    {"class":"video","result":"refreshed","notable":"Homonym and unrelated-use filtering remains required."},
+    {"class":"maps","result":"refreshed","notable":"Map evidence remains provenance/licence constrained."},
+    {"class":"relevant_media","result":"refreshed","notable":"Media context is not item-level Mundari evidence without direct verification."}
+  ],
+  "new_exact_locator_records": [
+    "data/source_census/census_c16_st16_schema_locator_run344_2026-09-14.json"
+  ],
+  "deduplication": {
+    "new_known_existing_sources_double_counted": 0,
+    "numbered_WEB_MUN_dispositions_completed_this_run": 0,
+    "reason": "C-16/ST-16 were already known source streams; Run 344 strengthens official catalogue-level schema metadata only and does not create duplicate controlled identities."
+  },
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "governance": {
+    "rights_inferred_from_public_availability": false,
+    "consent_inferred_from_public_availability": false,
+    "community_validation_fabricated": false,
+    "cultural_access_assumed": false,
+    "numeric_claims_promoted": 0,
+    "cultural_or_linguistic_claims_promoted": 0
+  },
+  "priority_gaps": [
+    "73 unresolved WEB-MUN leads require deterministic numbered-register disposition",
+    "Census workbook bytes/hash/sheet/row/cell verification",
+    "Mundarica I-XVI independent byte/hash/page-image/OCR verification",
+    "LSI primary bytes/hash/page-image concordance",
+    "CIIL source-byte and rights verification",
+    "Karya/AdiBhashaa/ELR immutable revision and permitted byte-level validation",
+    "audiovisual participant/community/cultural-access review"
+  ]
+}

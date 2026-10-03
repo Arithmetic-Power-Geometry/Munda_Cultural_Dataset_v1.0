@@ -1,0 +1,66 @@
+{
+  "record_type": "exact_locator_source_audit",
+  "run": 159,
+  "checked_utc": "2026-09-10T09:41:48Z",
+  "raw_discovery_id": "WEB-MUN-0020",
+  "title_as_catalogued": "Durang Kahani : Alope Joma [chant en mundari] / Tuila accompaniment to the mundari marriage song",
+  "repository": "Bibliothèque nationale de France, Catalogue général",
+  "catalogue_identifier": {
+    "ark": "ark:/12148/cb42562690s",
+    "frbnf": "FRBNF42562690"
+  },
+  "canonical_catalogue_url": "https://catalogue.bnf.fr/ark:/12148/cb42562690s",
+  "source_class": "historical_audio_archive_national_library_catalogue",
+  "catalogue_exact_locators": {
+    "content_mode": "Musique exécutée; parole énoncée: audio",
+    "scientific_editor": "George Abraham Grierson (1851-1941)",
+    "publication": "Calcutta : [Gramophone Co.], [1914]",
+    "physical_description": "1 disque monoface (2 min 35 s) : 78 t, aig. ; 25 cm",
+    "recording_place_year": "Ranchi, 1914",
+    "language_as_catalogued": "muṇḍārī (langue muṇḍā)",
+    "matrix_number": "3306Y",
+    "digital_holding": "NUMAUD-130038",
+    "online_access_present": true,
+    "physical_holding": "AP-2554",
+    "physical_holding_access_note": "document non diffusable",
+    "catalogue_note": "BnF states that the Linguistic Survey of India recording documentation links recordings to original-language transcriptions and English translations; those linked documentary objects are not ingested here and require separate manifestation and rights verification."
+  },
+  "scope_classification": {
+    "relevant": true,
+    "domains": ["historical_audio", "language", "song_performance_metadata", "archival_history"],
+    "permitted_assertion_scope": "BnF-catalogued archival identity, recording metadata, holding metadata and access-path metadata only",
+    "prohibited_inference": [
+      "No inference that the recording represents present-day Mundari practice.",
+      "No inference that the performers consented to modern redistribution, machine learning, commercial reuse or unrestricted research reuse.",
+      "No inference of community validation, ritual meaning, song meaning or universal cultural practice.",
+      "No audio, transcription or translation is promoted from the catalogue record alone."
+    ]
+  },
+  "rights_access_consent": {
+    "catalogue_publicly_readable": true,
+    "digital_item_online_access_catalogued": true,
+    "audio_reuse_permission_verified": false,
+    "performer_consent_for_secondary_reuse_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false,
+    "redistribution_allowed_by_mlhkp": false,
+    "decision": "Promote exact archive metadata and locator only. Keep audio/content ingestion gated pending item-level rights, consent, sensitivity and cultural-access review."
+  },
+  "verification_state": "national_library_exact_catalogue_metadata_verified_audio_content_not_ingested",
+  "evidence_promotion": {
+    "promoted": true,
+    "kind": "source_metadata_exact_locator_evidence",
+    "claim_boundary": "The BnF catalogue documents this historical Mundari audio object and its archival/recording metadata.",
+    "claim_count_change": 0,
+    "evidence_graph_count_change": 0,
+    "reason_counts_unchanged": "This strengthens provenance for an existing unresolved discovery lead and does not create a new cultural proposition or canonical audited source identity in this run."
+  },
+  "source_observation": {
+    "catalogue_lines_verified": "BnF catalogue lines 55-89 and 111-143 as fetched 2026-09-10",
+    "blocked_or_unverified": [
+      "Actual audio bytes were not acquired or hashed.",
+      "Gallica item-level licence/reuse terms were not independently verified in this run.",
+      "Linked 1916 transcription/translation volume was not independently manifested and page-matched in this run."
+    ]
+  }
+}

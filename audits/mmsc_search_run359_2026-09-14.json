@@ -1,0 +1,53 @@
+{
+  "search_id": "MMSC-SEARCH-000359",
+  "run": 359,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses","government_TRI_Census_LSI","archives","newspapers","web_resources","datasets","audio","video","maps","relevant_media"],
+  "query_families": [
+    "Mundari book grammar dictionary archive scan",
+    "Mundari dictionary digital library",
+    "Mundari grammar digital repository",
+    "Mundari peer reviewed article 2025 2026",
+    "Mundari thesis dissertation repository",
+    "Mundari Census India LSI TRI Jharkhand",
+    "Mundari archive manuscript collection",
+    "Mundari newspaper Jharkhand",
+    "Mundari language web resource",
+    "Mundari dataset corpus",
+    "Mundari audio corpus archive",
+    "Mundari video archive",
+    "Mundari map atlas government",
+    "Mundari media cultural archive"
+  ],
+  "fresh_reobservations": [
+    {
+      "class": "peer_reviewed_articles",
+      "title": "Omnivorous person, number and gender in Mundari:A Cyclic Agree analysis",
+      "doi": "10.1007/s11049-024-09628-2",
+      "provider": "White Rose Research Online",
+      "disposition": "exact accepted-version manifestation locator promoted; no linguistic proposition promoted"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "Census of India 2011 ST-15 Jharkhand",
+      "provider_locator": "https://censusindia.gov.in/nada/index.php/catalog/12552/download/15665/ST-20-00-15-DDW-2011.XLSX",
+      "catalogue_observation": "official catalogue exposes 92 MUNDARI / Mundari",
+      "disposition": "primary workbook materialization blocked in this run; bytes/hash/sheets/rows/cells/numeric values remain unverified and unpromoted",
+      "block_observed": ["HTTP 403 from direct download attempt", "proxy/tunnel 502 from alternate programmatic attempt"]
+    }
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the authoritative numbered source register is completed. Mirrors, versions, provider manifestations, reprints, homonyms and non-target Munda-language matches are not counted as distinct audited identities without reconciliation.",
+  "rights_access_policy": "Public access, open licensing or catalogue visibility does not imply participant consent, community validation, cultural-access authorization, permission for unrelated manifestations, or validity of substantive cultural/linguistic claims.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Run 359 adds one exact scholarly manifestation locator and records one blocked official-workbook retrieval attempt, but neither has yet been deterministically reconciled to a new numbered audited identity and no controlled cultural or linguistic claim was promoted."
+}

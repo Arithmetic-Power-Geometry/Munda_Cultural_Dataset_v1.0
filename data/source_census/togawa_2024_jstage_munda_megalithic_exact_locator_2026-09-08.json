@@ -1,0 +1,62 @@
+{
+  "verification_id": "MMSC-VERIFY-JSTAGE-TOGAWA-2026-09-08",
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-08T12:40:52Z",
+  "source_class": "peer_reviewed_article",
+  "title": "Eliade's Sojourn in India and the Megalithic Culture of Indigenous Indian Societies: From the Theory of Archaic Religion to Religions in the Human History",
+  "creator": "Masahiko Togawa",
+  "journal": "Journal of Religious Studies",
+  "year": 2024,
+  "volume": "98",
+  "issue": "1",
+  "pages": "1-25",
+  "publication_date": "2024-06-30",
+  "doi": "10.20716/rsjars.98.1_1",
+  "canonical_publisher_url": "https://www.jstage.jst.go.jp/article/rsjars/98/1/98_1/_article/-char/en",
+  "identity_verification": {
+    "publisher_article_page_verified": true,
+    "doi_title_creator_volume_issue_pages_match": true,
+    "publisher_pdf_link_present": true,
+    "pdf_page_count_observed_by_retrieval_layer": 25,
+    "pdf_page_image_inspection_completed": false,
+    "permanent_mmsc_identity_assigned": false,
+    "reason_not_assigned": "Deterministic reconciliation against all preserved WEB-MUN discovery records and permanent source identities is still required before assigning a new SRC-MMSC identifier."
+  },
+  "scope": {
+    "publisher_abstract_scope": "The publisher abstract identifies the Munda community of Jharkhand as a focus of the article and discusses the author's analysis of megalithic/gravestone-consecration material in relation to Eliade's work.",
+    "allowed_repository_proposition_at_current_stage": "J-STAGE metadata verifies a 2024 peer-reviewed article by Masahiko Togawa, DOI 10.20716/rsjars.98.1_1, Journal of Religious Studies 98(1):1-25, whose publisher abstract explicitly includes the Munda community of Jharkhand within the article's analytical scope.",
+    "not_allowed_inference": [
+      "The article author's interpretation is not treated as community validation or community-authored authority.",
+      "No megalithic, gravestone, kinship, land-right, religious, ritual, or historical proposition is generalized to all Munda communities or to present-day practice.",
+      "No protected article passage, image, participant material, site-specific culturally sensitive information, or translation is ingested without exact-locator and rights/cultural-access review.",
+      "No present-day representativeness or consent state is inferred."
+    ]
+  },
+  "rights_access_governance": {
+    "jstage_access_label": "FREE ACCESS",
+    "copyright_notice": "Copyright © 2024 Japanese Association for Religious Studies",
+    "unrestricted_reuse_or_redistribution_established": false,
+    "participant_or_underlying_material_reuse_established": false,
+    "cultural_access_override": true,
+    "current_ingestion_boundary": "Bibliographic metadata and bounded publisher-abstract scope only. Free access is not interpreted as a blanket reuse licence."
+  },
+  "retrieval_blocker": {
+    "publisher_pdf_url_observed": true,
+    "page_image_screenshot_attempted": true,
+    "page_image_screenshot_result": "blocked_cache_miss",
+    "action": "No page-level cultural or analytical claim promoted; continued to independent source classes."
+  },
+  "evidence_readiness": {
+    "exact_bibliographic_locator_verified": true,
+    "publisher_abstract_locator_verified": true,
+    "full_text_exact_page_passage_locator_verified": false,
+    "promotion_state": "exact_locator_candidate_pending_deterministic_deduplication_and_deeper_rights_review",
+    "counts_changed": false
+  },
+  "integrity": {
+    "cultural_claim_fabricated": false,
+    "rights_inferred_from_free_access": false,
+    "community_validation_inferred": false,
+    "current_representativeness_inferred": false
+  }
+}

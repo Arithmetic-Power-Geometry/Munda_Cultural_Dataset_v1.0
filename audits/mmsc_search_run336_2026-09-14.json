@@ -1,0 +1,41 @@
+{
+  "search_id": "MMSC-SEARCH-000336",
+  "run": 336,
+  "date": "2026-09-14",
+  "scope": "non-Mundarica source census refresh with exact-locator promotion and explicit blocked-source handling",
+  "classes": [
+    {"class":"books","status":"refreshed","note":"Hoffmann's 1903 Mundari Grammar bibliographic identity reconfirmed; no content promoted without a verified manifestation/page locator."},
+    {"class":"dictionaries","status":"refreshed","note":"Jharkhand TRI catalogue reconfirmed Mundari-Hindi and Hindi-Mundari dictionaries by S. Prasad; catalogue has no download, so bytes and reuse rights remain open."},
+    {"class":"grammars","status":"refreshed","note":"Mundari grammar leads reviewed; bibliographic identity is stronger than content-level verification."},
+    {"class":"peer_reviewed_articles","status":"refreshed","note":"2025 Natural Language & Linguistic Theory Mundari article verified via White Rose with DOI and an accepted-version filename marked CC-BY 2.5; repository write of the dedicated audit was blocked, so no in-repo promotion is claimed."},
+    {"class":"theses_dissertations","status":"refreshed","note":"Thesis/dissertation discovery refreshed; inaccessible or metadata-only records remain gaps."},
+    {"class":"government_TRI_Census_LSI","status":"refreshed","note":"ORGI C-16 exact catalogue/file locators for Jharkhand, West Bengal and Odisha were verified and committed; workbook bytes/hash/sheet/cell checks remain open."},
+    {"class":"archives","status":"refreshed","note":"Archive discovery refreshed; exact manifestation and rights verification required before evidence promotion."},
+    {"class":"newspapers","status":"refreshed","note":"Current Jharkhand reporting mentioning Mundari was reviewed only as secondary context, not as primary cultural authority."},
+    {"class":"web_resources","status":"refreshed","note":"Tribal Lingua Mundari remains discovery-only pending independent provenance, rights and community validation."},
+    {"class":"datasets","status":"refreshed","note":"Karya Mundari TTS and Hindi-Mundari translation dataset leads remain active; fixed-revision byte/hash and governance boundaries are preserved."},
+    {"class":"audio","status":"refreshed","note":"Karya TTS and CIET/NCERT Barkhaa Mundari audio remain subject to byte, rights, consent and cultural-access review."},
+    {"class":"video","status":"refreshed","note":"Video/documentary discovery refreshed with strict exclusion of South Sudan Mundari/Mandari homonyms."},
+    {"class":"maps","status":"refreshed","note":"Wikimedia Munda languages map metadata and CC BY-SA 3.0 label reconfirmed; derivative map lineage is not treated as primary Census evidence."},
+    {"class":"relevant_media","status":"refreshed","note":"Media and heritage leads reviewed; availability is not treated as ingestion permission."}
+  ],
+  "notable_current_sources": [
+    {"name":"ORGI C-16 Jharkhand 2011","role":"first-party government locator","promotion":"exact catalogue/file locator only"},
+    {"name":"ORGI C-16 West Bengal 2011","role":"first-party government locator","promotion":"exact catalogue/file locator only"},
+    {"name":"ORGI C-16 Odisha 2011","role":"first-party government locator","promotion":"exact catalogue/file locator only"},
+    {"name":"Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis","role":"peer-reviewed article with repository-hosted accepted version","promotion":"externally verified; dedicated repository audit write blocked this run"},
+    {"name":"Dr. Ramdayal Munda Tribal Welfare Research Institute dictionaries","role":"first-party catalogue leads","promotion":"catalogue-level only; download unavailable"}
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "changed_this_run": false
+  },
+  "scope_exclusion": "Nilotic Mundari/Mandari homonyms outside the Indian Munda/Mundari target are excluded unless used solely for disambiguation auditing.",
+  "count_policy": "Fresh discovery or metadata improvement does not change controlled totals without deterministic numbered-register reconciliation.",
+  "blocked_policy": "Blocked, unavailable, restricted, rights-unclear, consent-unclear, culturally restricted or independently unverified material remains an explicit gap."
+}
