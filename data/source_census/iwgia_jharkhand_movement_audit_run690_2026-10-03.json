@@ -1,0 +1,71 @@
+{
+  "run": 690,
+  "date_utc": "2026-10-03",
+  "stream": "non-Mundarica source census",
+  "source_class": "book/report; movement-history documentary compilation",
+  "canonical_key": "ISBN|87-90730-72-0",
+  "source": {
+    "title": "The Jharkhand Movement: Indigenous Peoples' Struggle for Autonomy in India",
+    "authors": [
+      "Ram Dayal Munda",
+      "S. Bosu Mullick"
+    ],
+    "publication_date": "2003-06-09",
+    "publisher": "Bindrai Institute for Research Study and Action (BIRSA) & IWGIA",
+    "isbn": "87-90730-72-0",
+    "pages": 383,
+    "language": "English",
+    "country": "India",
+    "institutional_catalogue": "International Work Group for Indigenous Affairs (IWGIA)",
+    "catalogue_access": "public web record",
+    "catalogue_offers": [
+      "Download PDF",
+      "View Online"
+    ]
+  },
+  "verification": {
+    "identity_metadata": "verified from IWGIA institutional publication record",
+    "full_text": "provider advertises PDF/view-online, but this audit runtime did not resolve a stable PDF manifestation endpoint",
+    "exact_catalogue_locators": [
+      "IWGIA publication record -> Publication Details -> Author",
+      "IWGIA publication record -> Publication Details -> Publication Date",
+      "IWGIA publication record -> Publication Details -> Publisher",
+      "IWGIA publication record -> Publication Details -> ISBN",
+      "IWGIA publication record -> Publication Details -> Pages"
+    ]
+  },
+  "scope": {
+    "classification": "Jharkhand movement/autonomy compilation; multi-community/region-wide scope",
+    "warning": "Title/description and named authorship do not make every statement Munda-specific. Chapter/document authorship, source dependencies, temporal scope and community scope must be resolved before proposition promotion."
+  },
+  "rights_access_consent": {
+    "catalogue_access": "public",
+    "pdf_access": "offered by provider; stable manifestation not captured in this run",
+    "redistribution": "not inferred",
+    "participant_consent": "not established from catalogue metadata",
+    "community_consent": "not established from catalogue metadata",
+    "cultural_access": "unresolved"
+  },
+  "exact_locator_plan": "ISBN 87-90730-72-0 -> IWGIA authoritative record -> lawful PDF manifestation -> checksum/size -> printed/PDF page concordance -> chapter/document author -> exact page/paragraph -> atomic Munda-specific proposition -> dependency/rights/consent/cultural review",
+  "deterministic_repository_search": {
+    "queries": [
+      "87-90730-72-0",
+      "The Jharkhand Movement Indigenous Peoples Struggle for Autonomy",
+      "IWGIA"
+    ],
+    "default_branch_matches": 0,
+    "limitation": "GitHub connector code search covers the default branch; zero matches do not prove absence on mlhkp-v2. Reconcile against MMSC/WEB-MUN before controlled identity assignment."
+  },
+  "blocked": [
+    "stable provider PDF manifestation endpoint was not resolved in this runtime; no page-level cultural proposition promoted"
+  ],
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "promotion": "institutional identity/metadata and exact catalogue locators only; no cultural proposition promotion",
+  "release_gate": "NOT_PASS"
+}
