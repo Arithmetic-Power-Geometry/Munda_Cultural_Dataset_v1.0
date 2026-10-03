@@ -1,0 +1,91 @@
+{
+  "run_id": 684,
+  "audit_date": "2026-10-03",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source census; audiovisual and peer-reviewed/article discovery with controlled promotion gate",
+  "sources": [
+    {
+      "canonical_key": "MEGAVOICE|M035419",
+      "class": "audio",
+      "title": "Words of Life • Mundari (unr)",
+      "publisher": "Global Recordings Network",
+      "reference_number": "M035419",
+      "language": "Mundari",
+      "dialect": "NA",
+      "type": "Audio",
+      "runtime": "NA",
+      "size": "NA",
+      "access": "public sample/listing",
+      "rights": "reuse/redistribution not established in audit",
+      "consent": "mother-tongue-speaker statement at series level; individual speaker/community consent not established",
+      "cultural_access": "unresolved",
+      "locator_plan": "reference M035419 -> lawful manifestation/hash -> HH:MM:SS segment",
+      "promotion": "blocked"
+    },
+    {
+      "canonical_key": "MEGAVOICE|M0B1380",
+      "class": "audio",
+      "title": "New Testament (Dramatized) • Mundari (unr)",
+      "publisher": "Bible Society of India",
+      "reference_number": "M0B1380",
+      "language": "Mundari",
+      "dialect": "NA",
+      "version": "Old Version Re-edited",
+      "country": "India",
+      "type": "Audio",
+      "runtime": "NA",
+      "size": "0 as displayed by provider",
+      "access": "public sample/listing",
+      "rights": "reuse/redistribution not established in audit",
+      "consent": "speaker/performer/community consent not established",
+      "cultural_access": "unresolved",
+      "locator_plan": "reference M0B1380 -> lawful manifestation/hash -> HH:MM:SS segment",
+      "promotion": "blocked"
+    },
+    {
+      "canonical_key": "DOI|10.5958/0975-6884.2023.00017.8",
+      "class": "peer-reviewed article",
+      "title": "Study of literary of munda folk tradition",
+      "author": "Ajit Munda",
+      "year": 2023,
+      "volume": "17",
+      "issue": "1and2spl",
+      "pages": "137-141",
+      "online_published": "2024-04-03",
+      "access": "metadata/abstract verified",
+      "rights": "full-text reuse not established",
+      "scope": "Munda folk tradition; broad synthetic cultural claims require source/dependency review",
+      "locator_plan": "lawful full text -> manifestation/hash -> printed page -> atomic proposition",
+      "promotion": "blocked"
+    }
+  ],
+  "dedup_search": {
+    "queries": [
+      "M035419",
+      "Words of Life Mundari",
+      "M0B1380",
+      "New Testament Dramatized Mundari",
+      "10.5958/0975-6884.2023.00017.8"
+    ],
+    "github_default_branch_matches": 0,
+    "note": "GitHub connector search covers default branch; zero results are not proof of absence on mlhkp-v2. Reconcile against branch ledgers before identity assignment."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "safeguards": [
+    "No provider alternate-language list treated as dialect equivalence evidence.",
+    "No public audio sample treated as redistribution permission.",
+    "No religious/audio content treated as cultural proposition without segment-level support and governance review.",
+    "No abstract-level cultural generalization promoted."
+  ],
+  "next": [
+    "Reconcile all three canonical keys against mlhkp-v2 MMSC/WEB-MUN.",
+    "For audio, capture lawful manifestation checksum/size/duration then inspect exact timestamps only after rights/consent/cultural-access gates.",
+    "For DOI article, obtain lawful authoritative full text and separate author synthesis from cited-source dependencies before proposition promotion."
+  ]
+}
