@@ -1,0 +1,71 @@
+{
+  "run": 705,
+  "audited_at_utc": "2026-10-03T23:45:00Z",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica",
+  "canonical_key": "VTECHWORKS|HDL_10919_111386|RAONKA|2021",
+  "source_class": [
+    "doctoral_dissertation",
+    "institutional_repository",
+    "ethnography"
+  ],
+  "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+  "author": "Pallavi Raonka",
+  "date": "2021-02-02",
+  "publisher": "Virginia Tech",
+  "persistent_id": "hdl:10919/111386",
+  "repository_record": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041",
+  "manifestation": {
+    "filename": "Raonka_P_D_2021.pdf",
+    "repository_reported_size": "2.33 MB",
+    "retrieval_status": "institutional repository exposes full-text file; bytes/hash/page concordance not captured in this run"
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "fieldwork": "15-month ethnographic study, May 2017–December 2018",
+    "topics": [
+      "land",
+      "indigeneity",
+      "Adivasi-State relations",
+      "identity",
+      "gender",
+      "political economy"
+    ]
+  },
+  "exact_locator_progress": [
+    {
+      "locator": "institutional item record lines 18-32 / abstract",
+      "supports": "date, authorship, publisher, fieldwork duration and dates, study scope and author-stated argument",
+      "promotion": "metadata/method-scope only"
+    },
+    {
+      "locator": "repository file Raonka_P_D_2021.pdf",
+      "supports": "candidate full-text manifestation",
+      "promotion": "pending page-level inspection"
+    }
+  ],
+  "rights_access_consent": {
+    "access": "repository record publicly exposes dissertation PDF",
+    "redistribution": "not inferred; license/reuse terms require file/item-level verification",
+    "participant_consent": "requires dissertation methods/ethics inspection",
+    "cultural_access": "requires proposition-level review; public dissertation access does not imply community permission for unrestricted cultural extraction"
+  },
+  "dependency_rule": "Separate Raonka's 2017-2018 field observations/interviews from historical or secondary-source claims before counting independent corroboration.",
+  "promotion_state": "WITHHELD_PENDING_FULLTEXT_LOCATORS_RIGHTS_CONSENT_DEPENDENCY_REVIEW",
+  "dedup": {
+    "queries": [
+      "Raonka",
+      "Munda Politics and Land"
+    ],
+    "github_code_search": "0 indexed matches with incomplete_results=true; not proof of absence; MMSC/WEB-MUN reconciliation required"
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_note": "Strong institutional full-text ethnographic candidate. Do not promote abstract-level cultural propositions. Next conversion: lawful PDF -> SHA-256/bytes -> page concordance -> methods/ethics -> Munda-specific passage -> atomic proposition -> dependency/rights/consent/cultural-access adjudication."
+}
