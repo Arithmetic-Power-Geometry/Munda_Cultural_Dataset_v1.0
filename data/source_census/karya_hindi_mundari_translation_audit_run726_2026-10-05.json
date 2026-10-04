@@ -1,0 +1,65 @@
+{
+  "run": 726,
+  "date_utc": "2026-10-04",
+  "branch": "mlhkp-v2",
+  "source_class": "dataset",
+  "canonical_candidate": "KARYA|DATASET-HINDI-MUNDARI-TRANSLATION|2023",
+  "title": "Hindi to Mundari Translation Dataset Corpus",
+  "provider_repository": "karya-inc/dataset-hindi-mundari-translation",
+  "identity_scope": "Mundari linguistic/translation dataset; not Munda cultural-practice evidence",
+  "provider_metadata": {
+    "sentence_pairs": 17826,
+    "manifestation": "translation-hi-unr.tsv",
+    "encoding": "UTF-8",
+    "columns": [
+      "Hindi sentence",
+      "corresponding Mundari translation"
+    ],
+    "creators": [
+      "Microsoft Research India",
+      "Indian Institute of Technology Kharagpur",
+      "Karya"
+    ],
+    "collaboration": "FAIR Forward – Artificial Intelligence for all (GIZ on behalf of BMZ)",
+    "copyright": "© 2023 DAIA Tech Pvt Ltd."
+  },
+  "rights": {
+    "license": "Karya Public License BY-NC-SA-FS 1.0",
+    "noncommercial_only": true,
+    "attribution": true,
+    "sharealike": true,
+    "software_incorporation_requires": "GNU GPL v3 or later",
+    "caveat": "License explicitly notes privacy, publicity, moral and other rights may limit use."
+  },
+  "governance": {
+    "cultural_claim_promotion": false,
+    "consent_status": "not established by README/LICENSE/COPYRIGHT inspection",
+    "dialect_locality_status": "not established by inspected provider metadata",
+    "public_streamlit_raw_exposure": false,
+    "note": "Do not infer community endorsement, cultural representativeness, dialect representativeness, translator consent, or cultural claims from dataset availability."
+  },
+  "deduplication": {
+    "relation_to_muntts": "Related project/provider lineage but distinct bilingual text dataset; do not merge with Mundari TTS corpus and do not count manifestations as independent corroboration of cultural propositions.",
+    "repository_code_search": "0 indexed matches; incomplete_results=true; reconciliation signal only, not proof of absence."
+  },
+  "exact_locator_level": [
+    "README.md → Dataset Description → 17,826 sentence pairs; translation-hi-unr.tsv; UTF-8; Hindi column 1 / Mundari column 2",
+    "COPYRIGHT.txt → © 2023 DAIA Tech Pvt Ltd.; creator/collaboration statement",
+    "LICENSE.txt → KPL BY-NC-SA-FS 1.0 Sections 2–4"
+  ],
+  "promotion_state": "provider-manifestation metadata and rights exact-locator ready; row-level lexical/translation evidence pending lawful byte verification, deterministic hashing/row validation, provenance/dialect/consent review",
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "required_next": [
+    "retrieve/verify TSV bytes and compute SHA-256 and exact byte/row counts",
+    "inspect for header/empty/duplicate rows and deterministic normalization",
+    "establish translation provenance, dialect/locality and consent documentation if available",
+    "reconcile against MMSC/WEB-MUN and related Karya/MunTTS lineage",
+    "promote only row-level linguistic evidence that passes rights/provenance/scope gates"
+  ]
+}
