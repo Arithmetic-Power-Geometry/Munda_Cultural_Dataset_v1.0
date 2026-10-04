@@ -1,0 +1,99 @@
+{
+  "run": 719,
+  "date_utc": "2026-10-04",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "government",
+    "census",
+    "dataset",
+    "statistical_table"
+  ],
+  "canonical_candidate_key": "ORGI|CENSUS2011|PC11_ST14A-20",
+  "source": {
+    "title": "ST-14 A: Scheduled tribe population by religious community (State/UT level), Jharkhand - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "publisher": "Office of the Registrar General & Census Commissioner, India, Ministry of Home Affairs, Government of India",
+    "reference_id": "PC11_ST14a-20",
+    "download_filename": "ST-20-00-014A-DDW-2011.XLS",
+    "year": 2011,
+    "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/12523",
+    "geographic_scope": "Jharkhand, state level",
+    "unit_of_observation": "Scheduled-tribe population counts by sex and religious community",
+    "munda_row_label": "Munda, Patar",
+    "relevant_religion_labels_exposed_in_catalog_metadata": [
+      "All other religions and persuasions",
+      "Addi Bassi",
+      "Adi",
+      "Sarna",
+      "Other religion unclassified",
+      "Gond / Gondi",
+      "Dupub",
+      "Ho",
+      "Krupa",
+      "Saranath",
+      "Sarvdharm",
+      "Tana Bhagat",
+      "Nature Religion",
+      "Paharia",
+      "Bidin",
+      "Birsa",
+      "Munda",
+      "Malla",
+      "Oraon",
+      "Kuir",
+      "Kharwar",
+      "Marangboro",
+      "Santal",
+      "Sumra Sandhi",
+      "Achinthar",
+      "Sarnam",
+      "Loco Bohra",
+      "NA"
+    ]
+  },
+  "verification": {
+    "identity_metadata_verified_from_authoritative_catalog": true,
+    "repository_code_search": {
+      "query": "PC11_ST14a-20",
+      "total_count": 0,
+      "incomplete_results": true,
+      "interpretation": "reconciliation evidence only; not proof of absence"
+    },
+    "manifestation_downloaded": false,
+    "checksum_verified": false,
+    "cell_values_verified": false
+  },
+  "rights_access_governance": {
+    "access": "catalog exposes downloadable XLS",
+    "redistribution_permission": "not determined in this run",
+    "consent_relevance": "aggregate official census table; no individual-level participant material inspected",
+    "cultural_scope_note": "Religion labels and Munda/Patar row labels are census classifications. Do not reinterpret them as community-endorsed cultural claims.",
+    "promotion_rule": "No numeric/cultural proposition may be promoted until the authoritative XLS is retrieved and exact Munda/Patar row and column coordinates are verified."
+  },
+  "deduplication": {
+    "relationship_to_2001_PC01_ST14a_20": "distinct census year/table identity; do not merge",
+    "relationship_to_2011_district_ST14_tables": "same census/table family but state-level ST-14A manifestation; preserve family dependency"
+  },
+  "exact_locator_state": {
+    "level": "authoritative catalog + exact dataset filename + table row-label metadata",
+    "pending": [
+      "retrieve authoritative XLS",
+      "capture bytes and SHA-256",
+      "verify workbook/sheet names",
+      "record exact Munda/Patar row coordinates",
+      "record exact relevant religion column/row coordinates",
+      "determine reuse/redistribution terms",
+      "reconcile MMSC/WEB-MUN",
+      "promote only verified aggregate cells if governance permits"
+    ]
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_effect": "gap narrowed from generic Census candidate to exact 2011 state-level table manifestation; controlled metrics unchanged pending deterministic reconciliation and cell verification"
+}
