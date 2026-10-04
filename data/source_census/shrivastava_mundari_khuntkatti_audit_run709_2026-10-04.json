@@ -1,0 +1,82 @@
+{
+  "run": 709,
+  "audit_date_utc": "2026-10-04",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "peer-reviewed article",
+    "land/customary-governance study"
+  ],
+  "canonical_key": "DOI|10.1177/0972558X1301300205",
+  "identity": {
+    "title": "Mundari Khuntkatti: An Institution of Customary Right over Land",
+    "author": "Mukesh Kumar Shrivastava",
+    "journal": "The Oriental Anthropologist",
+    "volume": "13",
+    "issue": "2",
+    "pages": "267-280",
+    "first_published_online": "2013-07-01",
+    "issue_date": "July/December 2013",
+    "doi": "10.1177/0972558X1301300205",
+    "publisher": "SAGE Publications"
+  },
+  "verified_locator": {
+    "level": "publisher metadata + abstract + bibliographic page range",
+    "publisher_page": "https://journals.sagepub.com/doi/10.1177/0972558X1301300205",
+    "abstract_method_scope": "Publisher abstract states empirical investigation of two Mundari Khuntkatti villages, Gutuhatu and Salga, in the Mundari Khuntkatti Revenue Circle of Khunti district, Jharkhand.",
+    "exact_article_pages": "267-280",
+    "full_text_state": "restricted/paywalled in audited publisher interface"
+  },
+  "rights_access": {
+    "access": "restricted",
+    "copyright": "© 2013 Oriental Institute of Cultural and Social Research and SAGE Publications",
+    "reuse": "permission required; no open redistribution licence established",
+    "local_copy_permitted": false
+  },
+  "evidence_decision": {
+    "promote_controlled_cultural_claim": false,
+    "reason": "Publisher abstract and metadata verify source identity, empirical scope and study localities, but restricted full text prevents exact-page proposition inspection, participant/consent review, dependency separation and exact evidence extraction.",
+    "discovery_only": false,
+    "audit_level": "verified source identity and exact article/page-range locator; proposition conversion blocked by full-text access"
+  },
+  "cultural_governance": {
+    "scope": "Munda / Mundari Khuntkatti, Khunti district, Jharkhand",
+    "consent_verified": false,
+    "cultural_access_review_complete": false,
+    "caution": "Do not generalize the two-village study to all Munda communities; do not equate public abstract access with redistribution permission."
+  },
+  "dependencies_noted": [
+    "Bihar and Orissa District Gazetteers (1917), Ranchi",
+    "Dalton 1872, Descriptive Ethnography of Bengal",
+    "Hoffmann and van Emelen 1950, Encyclopaedia Mundarica",
+    "S. C. Roy 1912, The Mundas and Their Country",
+    "Reid 1912, Ranchi survey and settlement report",
+    "Taylor 1940, Ranchi revisional survey and settlement report"
+  ],
+  "blocked_source_log": [
+    {
+      "source": "SAGE full text/PDF",
+      "state": "restricted",
+      "action": "logged and continued alternative source classes; no circumvention attempted"
+    }
+  ],
+  "deterministic_reconciliation": {
+    "controlled_identity_assigned": false,
+    "reason": "Must reconcile DOI/title against MMSC and WEB-MUN ledgers before assignment.",
+    "controlled_delta": {
+      "identities": 0,
+      "claims": 0,
+      "evidence": 0,
+      "links": 0,
+      "modules": 0
+    }
+  },
+  "downstream_sync": {
+    "mmsc_counts_changed": false,
+    "streamlit_changed": false,
+    "evidence_graph_changed": false,
+    "completeness_gap_matrix_note": "Add/retain gap: lawful full text + exact-page proposition locators + participant/consent/dependency/cultural-scope review.",
+    "publication_metrics_changed": false,
+    "status_counts_changed": false
+  }
+}
