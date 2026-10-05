@@ -1,0 +1,54 @@
+{
+  "run": 735,
+  "audited_at_utc": "2026-10-05T05:45:00Z",
+  "source_class": "archive/event-media",
+  "canonical_id": "INTACH|JHARKHAND_MAHOTSAV|JHAR_X",
+  "title": "Jharkhand Mahotsav",
+  "institution": "Indian National Trust for Art and Cultural Heritage (INTACH)",
+  "provider_locator": "INTACH ICH Archive collection JHAR_X",
+  "scope": {
+    "supported": "Provider catalogue documents a Jharkhand Mahotsav programme and explicitly identifies a Paika dance performance as 'of the Munda Tribe'.",
+    "not_supported": [
+      "general Munda dance canon",
+      "community-wide practice",
+      "performer/community consent",
+      "contemporary representativeness"
+    ]
+  },
+  "identity": {
+    "status": "institutional provider record verified",
+    "relationship": "single event/archive source family; images/programme derivatives are manifestations unless independent provenance is demonstrated"
+  },
+  "rights_access": {
+    "catalogue_public": true,
+    "redistribution_permission": "unverified",
+    "participant_consent": "unverified",
+    "community_consent": "unverified",
+    "cultural_access": "unverified",
+    "promotion": "withheld"
+  },
+  "exact_locator": {
+    "record": "JHAR_X",
+    "section": "About",
+    "locator_text": "programme description naming 'Paika dance (of the Munda Tribe)'",
+    "evidence_level": "catalogue/event-programme locator; not yet audiovisual proposition evidence"
+  },
+  "dedup_rule": "Canonicalize by INTACH collection identifier JHAR_X; do not count archive landing page, PDF export, images, or mirrors as independent sources.",
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "gaps": [
+    "event date/year requires provider-level verification beyond the displayed programme dates",
+    "performer identities/localities",
+    "media manifestation identity/hash",
+    "reuse terms",
+    "participant/community consent",
+    "cultural-access review",
+    "MMSC/WEB-MUN reconciliation"
+  ],
+  "release_effect": "No controlled metric change; source remains an audited ingestion candidate."
+}
