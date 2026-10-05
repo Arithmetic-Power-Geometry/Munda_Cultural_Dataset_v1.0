@@ -1,0 +1,67 @@
+{
+  "run": 746,
+  "audit_date": "2026-10-05",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["book", "community-authored/history", "government-hosted institutional repository"],
+  "canonical_key": "CIIL_BHASHA_SANCHIKA|HANDLE:20.500.14705/8459",
+  "title_mundari": "होड़ो होन कोअः इतिहास ओड़ोः किलि को",
+  "title_romanized_provider": "Horo Honko Koa: Itihas Oro: Kili Ko",
+  "author": "Kushalmay Mundu",
+  "issued": 2017,
+  "language": "Mundari",
+  "publisher_provider_metadata": "Kushalmay Mundu Dhumsa Toli Chutia Ranchi Jharkhand",
+  "provider": "Bhasha Sanchika — Central Institute of Indian Languages",
+  "handle": "https://hdl.handle.net/20.500.14705/8459",
+  "bharatavani_identifier": "BVP04150",
+  "provider_file": {
+    "name": "BVP04150.pdf",
+    "reported_size": "20.91 KB",
+    "format": "Adobe Portable Document Format"
+  },
+  "provider_description": "The book is about the History of Munda Tribes.",
+  "rights": {
+    "rights_holder_provider_metadata": "Kushalmay Mundu",
+    "public_catalog_access": true,
+    "redistribution_permission_verified": false,
+    "note": "Public institutional access is not treated as permission to redistribute or vendor the PDF."
+  },
+  "scope_and_governance": {
+    "munda_specific": true,
+    "cultural_claims_promoted": false,
+    "exact_page_or_entry_locators_verified": false,
+    "community_authority_inferred": false,
+    "consent_status": "not established from catalogue metadata",
+    "cultural_access_status": "requires content-level review",
+    "note": "Provider metadata verifies bibliographic identity and topical scope only. No historical, clan/kili, genealogical, customary or cultural proposition is promoted without readable full-text inspection and exact locators."
+  },
+  "deduplication": {
+    "work_identity_rule": "Handle 20.500.14705/8459 is the canonical institutional work identity; Bharatavani BVP04150 and Bhasha Sanchika representations are manifestations/metadata routes, not independent corroborating sources.",
+    "repository_searches": [
+      {"query": "20.500.14705/8459", "matches": 0, "incomplete_results": true},
+      {"query": "Horo Honko Koa", "matches": 0, "incomplete_results": true}
+    ],
+    "interpretation": "Zero indexed code-search matches with incomplete_results=true is only a reconciliation signal and is not proof of branch-wide absence."
+  },
+  "promotion_state": "withheld_pending_readable_manifestation_exact_locator_rights_and_cultural_governance_review",
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "next_actions": [
+    "obtain a lawful readable authoritative manifestation and capture byte size plus checksum",
+    "verify title/author/publication/front-matter metadata against the PDF",
+    "establish pagination concordance and create exact page/entry locators",
+    "separate authorial/community testimony from cited secondary material",
+    "review clan/kili, genealogy, ritual, sacred or restricted material for cultural-access sensitivity before promotion",
+    "deterministically reconcile against MMSC and WEB-MUN ledgers before assigning a controlled source identity",
+    "promote only atomic supported propositions with explicit geographic, temporal and source scope"
+  ],
+  "deadline_note": "The source predates the 2026-09-21 audited-release deadline, but this audit is post-deadline and must not be represented as part of the frozen deadline release absent an explicit retrospective-audit policy.",
+  "evidence_basis": [
+    "CIIL Bhasha Sanchika full item record: handle 20.500.14705/8459; author Kushalmay Mundu; issued 2017; language Mundari; rights holder Kushalmay Mundu; identifier BVP04150; provider file BVP04150.pdf."
+  ]
+}
