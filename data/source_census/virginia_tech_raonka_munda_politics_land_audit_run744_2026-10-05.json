@@ -1,0 +1,59 @@
+{
+  "run": 744,
+  "audit_date": "2026-10-05",
+  "branch": "mlhkp-v2",
+  "release_deadline_ist": "2026-09-21T23:59:00+05:30",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": "thesis_dissertation",
+  "canonical_identity": "VT|HANDLE:10919/111386",
+  "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+  "author": "Pallavi Raonka",
+  "date": "2021-02-02",
+  "publisher": "Virginia Tech",
+  "institutional_locator": "http://hdl.handle.net/10919/111386",
+  "manifestation": {
+    "filename": "Raonka_P_D_2021.pdf",
+    "reported_size": "2.33 MB",
+    "supporting_documents_reported_size": "426.81 KB",
+    "access": "institutional repository downloadable"
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "fieldwork": "15-month ethnographic study, May 2017–December 2018",
+    "source_basis": "repository metadata/abstract only in this run"
+  },
+  "repository_reconciliation": {
+    "queries": [
+      "Raonka Pallavi",
+      "Munda Politics and Land",
+      "10919/111386"
+    ],
+    "default_branch_code_search_matches": 0,
+    "note": "Zero indexed matches are a reconciliation signal only; branch-specific ledger absence is not asserted."
+  },
+  "rights_access_consent": {
+    "redistribution_permission": "not established in this run",
+    "participant_consent": "requires thesis/full-text inspection",
+    "community_consent": "not established",
+    "cultural_access": "requires proposition-level review",
+    "public_access_not_equal_redistribution": true
+  },
+  "promotion": {
+    "status": "withheld_pending_fulltext_exact_locator_review",
+    "reason": "Institutional identity and manifestation are verified, but exact-page proposition locators, ethics/consent language, reuse terms, dependency separation and deterministic MMSC/WEB-MUN reconciliation remain.",
+    "controlled_delta": {
+      "audited_source_identities": 0,
+      "claims": 0,
+      "evidence": 0,
+      "links": 0,
+      "modules": 0
+    }
+  },
+  "prohibited_inferences": [
+    "Do not generalize ethnographic findings to all Munda communities.",
+    "Do not treat abstract assertions as exact-locator evidence.",
+    "Do not infer redistribution rights from repository downloadability."
+  ],
+  "release_history_note": "Source predates the deadline; this post-deadline audit must not be represented retroactively as part of the frozen deadline release without an explicit retrospective-audit policy."
+}
