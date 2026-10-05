@@ -1,0 +1,79 @@
+{
+  "run_id": 749,
+  "audit_date_utc": "2026-10-05T19:48:00Z",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": ["museum_object", "musical_instrument", "image_media"],
+  "canonical_identity": "MET|OBJECT:2022.299",
+  "title": "Santal or Munda Fiddle (Huka Banam)",
+  "institution": "The Metropolitan Museum of Art",
+  "provider_object_number": "2022.299",
+  "provider_record": "https://www.metmuseum.org/art/collection/search/883315",
+  "metadata_verified": {
+    "date": "19th century",
+    "geography": "possibly Jharkhand, India",
+    "culture": "Eastern India, Probably Jharkhand",
+    "medium": "Wood and hide",
+    "dimensions": "H: 22 in x W: 5 in x D: 3 in",
+    "classification": "Musical instruments",
+    "credit_line": "Purchase, Amati Gifts, 2022",
+    "rights_label": "Public Domain"
+  },
+  "scope_classification": {
+    "munda_specificity": "ambiguous_provider_attribution",
+    "provider_title_attribution": "Santal or Munda",
+    "geographic_scope": "Eastern India; provider says possibly/probably Jharkhand",
+    "temporal_scope": "19th century",
+    "promotion_rule": "Do not promote as Munda-specific cultural evidence unless attribution is independently resolved."
+  },
+  "rights_access_consent": {
+    "catalog_access": "public",
+    "object_record_rights": "Public Domain",
+    "museum_open_access_statement": "Provider states Open Access data and public-domain images are available for unrestricted commercial and noncommercial use without permission or fee.",
+    "cultural_access_review": "pending",
+    "community_consent": "not_established_by_catalog_metadata",
+    "note": "Copyright/public-domain status does not resolve cultural authority, attribution uncertainty, or culturally appropriate reuse."
+  },
+  "deduplication": {
+    "work_object_key": "MET|OBJECT:2022.299",
+    "manifestation_rule": "Met catalogue HTML, API metadata and public-domain image derivatives are manifestations of one museum object, not independent corroborating sources.",
+    "repository_exact_searches": [
+      {"query": "2022.299", "matches": 0, "incomplete_results": true},
+      {"query": "Huka Banam", "matches": 0, "incomplete_results": true},
+      {"query": "883315", "matches": 0, "incomplete_results": true}
+    ],
+    "interpretation": "Zero indexed matches with incomplete_results=true is a reconciliation signal only, not proof of branch-wide absence."
+  },
+  "exact_locator": {
+    "type": "institutional_object_record",
+    "locator": "Met collection object 2022.299 / collection search 883315",
+    "supported_metadata_only": true
+  },
+  "promotion": {
+    "identity_promoted_to_controlled_ledger": false,
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "links_promoted": 0,
+    "modules_promoted": 0,
+    "reason": "Provider attribution is explicitly disjunctive ('Santal or Munda') and geography is qualified. Munda-specific attribution and cultural-governance review remain unresolved."
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_accounting": {
+    "deadline_ist": "2026-09-21T23:59:00+05:30",
+    "audit_is_post_deadline": true,
+    "retroactive_deadline_completion_claimed": false,
+    "release_metric_change_justified": false
+  },
+  "next_actions": [
+    "Reconcile object 2022.299 against MMSC/WEB-MUN and existing musical-instrument/object families.",
+    "Seek independent provenance/collection-history evidence capable of resolving the provider's 'Santal or Munda' attribution without forcing a Munda classification.",
+    "Review cultural-access appropriateness before exposing or vendoring any public-domain image.",
+    "If attribution remains unresolved, retain as an explicit ambiguous-scope gap rather than Munda evidence."
+  ]
+}
