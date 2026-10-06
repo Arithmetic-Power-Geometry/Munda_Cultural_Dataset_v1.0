@@ -1,0 +1,68 @@
+{
+  "run": 755,
+  "date_utc": "2026-10-06",
+  "stream": "non-Mundarica source census",
+  "source_class": [
+    "doctoral dissertation",
+    "institutional repository",
+    "ethnography"
+  ],
+  "canonical_identity": "VT_ETD|HANDLE:10919/111386",
+  "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+  "author": "Pallavi Raonka",
+  "date": "2021-02-02",
+  "provider": "Virginia Tech VTechWorks",
+  "persistent_id": "hdl:10919/111386",
+  "manifestation": {
+    "filename": "Raonka_P_D_2021.pdf",
+    "reported_size": "2.33 MB",
+    "access": "repository PDF exposed"
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "method_from_provider_abstract": "fifteen-month ethnographic study, May 2017–December 2018, using several forms of qualitative data"
+  },
+  "evidence_state": "identity-and-method-metadata-verified; full-text exact-locator conversion pending",
+  "promotion": {
+    "controlled_identity": false,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0,
+    "reason": "No proposition promoted from abstract/catalogue metadata. Full text must be inspected for exact page/section locators, locality/participant scope, consent/ethics, dependency, rights and cultural-access constraints."
+  },
+  "rights_access_consent": {
+    "repository_access_observed": true,
+    "redistribution_permission": "unverified",
+    "participant_consent": "requires full-text inspection",
+    "cultural_access": "requires proposition-specific review"
+  },
+  "deduplication": {
+    "key": "VT_ETD|HANDLE:10919/111386",
+    "rule": "repository item, PDF, supporting documents, and mirrors are manifestations/attachments of one dissertation unless independent work identity is established"
+  },
+  "gaps": [
+    "PDF checksum and byte size not captured",
+    "printed-page/PDF-page concordance not verified",
+    "field localities and participant/sample structure not yet extracted",
+    "ethics/consent language not yet verified",
+    "exact proposition locators not yet created",
+    "MMSC/WEB-MUN reconciliation pending"
+  ],
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "baseline_reference": "status/mlhkp_progress.json at mlhkp-v2; 42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw / 92 unique / 78 unresolved; release NOT_PASS",
+  "sources": [
+    {
+      "type": "institutional_repository",
+      "url": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041",
+      "accessed": "2026-10-06"
+    }
+  ]
+}
