@@ -1,0 +1,57 @@
+{
+  "run": 770,
+  "date_utc": "2026-10-06",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": "book / language-learning resource / institutional repository",
+  "canonical_candidate": "CIIL_SANCHIKA|ITEM:0a279311-4ea6-4229-9ce7-380dbb251e65",
+  "title": "Mundari Word Book",
+  "date_of_publication": 2006,
+  "author": "Anonymous (repository citation)",
+  "publisher": "Bharat Munda Samaj, Baripada, Mayurbhanj, Odisha",
+  "institutional_repository": "Bhasha Sanchika — Central Institute of Indian Languages",
+  "repository_item": "0a279311-4ea6-4229-9ce7-380dbb251e65",
+  "associated_bharatavani_uri": "https://bharatavani.in/bharatavani/home/book?id=Mundari Word Book",
+  "repository_metadata": {
+    "type": ".pdf",
+    "repository_file_label": "BVP00242.pdf",
+    "repository_reported_file_size": "15.05 KB",
+    "date_accessioned": "2022-03-14T05:56:03Z",
+    "description": "Repository states that the book contains information for learning Mundari language."
+  },
+  "scope": {
+    "language": "Mundari",
+    "geography": "Publisher metadata places source at Baripada, Mayurbhanj, Odisha; proposition-level geographic/dialect scope not yet verified.",
+    "munda_specificity": "Mundari-specific language resource; do not infer general Munda cultural propositions from bibliographic metadata."
+  },
+  "rights_access_governance": {
+    "access": "institutional metadata verified; readable underlying manifestation not inspected in this run",
+    "redistribution": "unverified; institutional/public metadata access is not treated as redistribution permission",
+    "consent": "not applicable to bibliographic identity; contributor/community consent for any embedded elicited material unverified",
+    "cultural_access": "unverified",
+    "restriction_action": "No lexical/cultural proposition promoted until manifestation, rights, provenance, dialect and locator review."
+  },
+  "deduplication": {
+    "canonicalization_basis": "CIIL Sanchika item UUID",
+    "relation_to_bharatavani": "associated manifestation/landing-page lineage; do not double count as a second source identity",
+    "controlled_reconciliation": "pending MMSC/WEB-MUN deterministic reconciliation"
+  },
+  "exact_locator_state": {
+    "bibliographic_metadata": "exact institutional item record",
+    "proposition_locators": "not yet available",
+    "next_conversion": "retrieve lawful readable manifestation; verify byte size/hash, pagination, title/front matter, compiler/contributor provenance, dialect/locality and reuse terms; then create entry/page-level lexical evidence where permitted"
+  },
+  "promotion": {
+    "new_public_factual_claims": 0,
+    "new_evidence_records": 0,
+    "new_links": 0,
+    "new_modules": 0,
+    "controlled_identity_delta": 0,
+    "reason": "Discovery identity is institutionally supported, but controlled reconciliation and proposition-level evidence gates remain."
+  },
+  "release_effect": "Explicit census/gap enrichment only; no controlled metric change justified.",
+  "sources": [
+    "https://sanchika.ciil.org/items/0a279311-4ea6-4229-9ce7-380dbb251e65",
+    "https://bharatavani.in/bharatavani/home/book?id=Mundari Word Book"
+  ]
+}
