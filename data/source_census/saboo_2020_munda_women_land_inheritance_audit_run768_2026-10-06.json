@@ -1,0 +1,75 @@
+{
+  "run": 768,
+  "date_utc": "2026-10-06",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed article",
+  "canonical_id": "DOI|10.1177/0019556120982196",
+  "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+  "author": [
+    "Shalini Saboo"
+  ],
+  "container": "Indian Journal of Public Administration",
+  "volume": 66,
+  "issue": 4,
+  "pages": "552-562",
+  "issue_date": "December 2020",
+  "online_date": "2021-01-20",
+  "doi": "10.1177/0019556120982196",
+  "authoritative_url": "https://journals.sagepub.com/doi/10.1177/0019556120982196",
+  "scope": {
+    "population": "Munda women",
+    "geography": "Jharkhand, India",
+    "topics": [
+      "customary law",
+      "land inheritance",
+      "land rights",
+      "governance"
+    ],
+    "scope_status": "Munda-specific at article/abstract level"
+  },
+  "verification": {
+    "authoritative_metadata": true,
+    "abstract_verified": true,
+    "pagination_verified_from_publisher_metadata": true,
+    "full_text_access": "restricted",
+    "publisher_rights": "© 2020 Indian Institute of Public Administration; request permissions",
+    "repository_search": [
+      "DOI exact search: 0 indexed matches, incomplete_results=true",
+      "author exact search: 0 indexed matches, incomplete_results=true"
+    ],
+    "dedup_note": "Search results are reconciliation signals only; absence from mlhkp-v2 is not inferred from incomplete GitHub code search."
+  },
+  "evidence_policy": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "Publisher metadata/abstract is exact-locator bibliographic evidence, but full text is restricted. Methods, participant provenance, consent/ethics, exact proposition pages, dependency and cultural-access review remain unresolved.",
+    "allowed_now": [
+      "bibliographic identity",
+      "publisher abstract-level scope",
+      "publisher pagination",
+      "access/rights status"
+    ],
+    "prohibited_now": [
+      "generalized customary-law claims",
+      "participant-derived cultural claims",
+      "redistribution of article text"
+    ]
+  },
+  "blockers": [
+    "lawful full-text access",
+    "exact proposition page locators",
+    "methods and participant/locality inspection",
+    "ethics/consent interpretation",
+    "dependency separation",
+    "cultural-access review",
+    "MMSC/WEB-MUN deterministic reconciliation"
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "status_sync": "not attempted in same write; controlled baseline remains frozen pending reconciliation"
+}
