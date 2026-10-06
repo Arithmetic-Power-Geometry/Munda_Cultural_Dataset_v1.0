@@ -1,0 +1,77 @@
+{
+  "run": 763,
+  "audit_date": "2026-10-06",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": "grammar_book_bibliographic",
+  "source": {
+    "title": "A reference grammar of Mundari",
+    "author": "Toshiki Osada",
+    "publisher": "Institute for the Study of Languages and Cultures of Asia and Africa",
+    "place": "Tokyo",
+    "year": 1992,
+    "pagination": "168 p.",
+    "language_codes": [
+      "eng",
+      "mun"
+    ],
+    "canonical_candidate": "CINII|NCID:BA58266379",
+    "ncid": "BA58266379",
+    "bibliography_locator": "pp. 156-168"
+  },
+  "verification": {
+    "institutional_union_catalog_metadata_verified": true,
+    "full_text_retrieved": false,
+    "checksum_verified": false,
+    "page_content_verified": false,
+    "default_branch_search_matches": 0,
+    "branch_reconciliation_note": "GitHub code search covers the default branch; zero matches are only a reconciliation signal and do not prove absence from mlhkp-v2 ledgers.",
+    "scope": "Mundari linguistic grammar; not by itself evidence for Munda cultural propositions."
+  },
+  "exact_locators": [
+    {
+      "type": "catalog_record",
+      "locator": "CiNii Books NCID BA58266379",
+      "status": "verified"
+    },
+    {
+      "type": "bibliography",
+      "locator": "pp. 156-168",
+      "status": "catalog_metadata_only"
+    },
+    {
+      "type": "extent",
+      "locator": "168 p.; 26 cm",
+      "status": "catalog_metadata_verified"
+    }
+  ],
+  "governance": {
+    "copyright_reuse": "unresolved; bibliographic discovery does not grant text redistribution",
+    "participant_consent": "not applicable to catalog metadata; underlying elicitation provenance requires full-text inspection",
+    "community_authority": "unresolved",
+    "dialect_variety_provenance": "requires full-text inspection",
+    "cultural_sensitivity": "linguistic evidence only unless separately supported",
+    "restricted_content_exposed": false
+  },
+  "promotion": {
+    "identity_promoted": false,
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "links_promoted": 0,
+    "modules_promoted": 0,
+    "reason": "No lawful readable manifestation or proposition-level page inspection in this run; metadata alone is insufficient for lexical/grammatical evidence promotion."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "next_actions": [
+    "Locate a lawful authoritative readable manifestation or library scan and capture edition/manifestation identity, byte size and SHA-256 where permitted.",
+    "Inspect front matter for data sources, fieldwork/elicitation provenance, consultants, dialect/locality and acknowledgements/consent context.",
+    "Create atomic grammatical evidence only from exact page/example locators and only where reuse/provenance/governance permit.",
+    "Reconcile NCID/title/author/year against MMSC/WEB-MUN and existing grammar source-family records before any controlled count change."
+  ]
+}
