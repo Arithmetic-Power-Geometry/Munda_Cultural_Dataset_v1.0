@@ -1,0 +1,103 @@
+{
+  "run": 799,
+  "date_ist": "2026-10-08",
+  "branch": "mlhkp-v2",
+  "stream": "MLHKP non-Mundarica deterministic audit-family reconciliation",
+  "method": "Resolve by stable DOI/provider dataset ID/provider canonical URL, then distinguish work, manifestations, audit observations, and WEB-MUN leads. Preserve pre-existing permanent IDs; never count an audit JSON as a source identity.",
+  "source_families": [
+    {
+      "canonical_key": "doi:10.1515/lity.2005.9.3.351",
+      "identity": "Evans and Osada (2005), Mundari: The myth of a language without word classes",
+      "authoritative_locator": "https://doi.org/10.1515/lity.2005.9.3.351",
+      "institutional_manifestation": "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+      "earlier_audit": "data/source_census/anu_evans_osada_mundari_word_classes_exact_locator_run403_2026-09-16.json",
+      "later_audit": "data/source_census/evans_osada_2005_mundari_word_classes_anu_audit_run790_2026-10-07.json",
+      "disposition": "SAME_SCHOLARLY_WORK_AUDIT_DUPLICATE",
+      "locator_level": "DOI + institutional item + named PDF; no verified proposition-page concordance",
+      "permitted_promotion": "bibliographic and linguistic scope metadata only",
+      "rights": "institutional Open Access is not a verified redistribution licence",
+      "outstanding": [
+        "immutable PDF checksum",
+        "printed/PDF page mapping",
+        "example-level dependency",
+        "participant and cultural-access review"
+      ]
+    },
+    {
+      "canonical_key": "hf:misniitdelhi/adibhasha:mundari",
+      "identity": "AdiBhashaa Mundari parallel-corpus manifestation",
+      "authoritative_locator": "https://huggingface.co/datasets/misniitdelhi/AdiBhasha",
+      "manifestation": "data/mundari/mundari-train.csv",
+      "earlier_audit": "data/source_census/adibhasha_mundari_dataset_locator_run450_2026-09-17.json",
+      "later_audit": "data/source_census/adibhashaa_mundari_parallel_corpus_audit_run791_2026-10-07.json",
+      "disposition": "SAME_DATASET_FAMILY_AUDIT_DUPLICATE",
+      "locator_level": "dataset repository + declared CSV path; no locally verified row offsets",
+      "permitted_promotion": "provider metadata only; no corpus rows or cultural claims",
+      "rights": "later provider audit records CC BY-NC-SA 4.0; consent/community authority not inferred",
+      "identity_uncertainty": "provider's Mundari ISO label unv must be reconciled, not silently corrected",
+      "outstanding": [
+        "permitted exact CSV bytes",
+        "SHA-256",
+        "row count and stable row locators",
+        "language-variety/translator provenance",
+        "participant and cultural-access review"
+      ]
+    },
+    {
+      "canonical_key": "url:lob.bangla.gov.bd/languages/munda",
+      "identity": "Bangladesh Multiling Cloud Munda language archive",
+      "authoritative_locator": "https://lob.bangla.gov.bd/languages/munda",
+      "earlier_audit": "data/source_census/bangladesh_multiling_munda_archive_exact_locator_run273_2026-09-13.json",
+      "later_audit": "data/source_census/bangladesh_multiling_cloud_munda_archive_audit_run795_2026-10-08.json",
+      "prior_web_lead": "WEB-MUN-0032",
+      "already_deduplicated_refresh": "WEB-MUN-0088",
+      "web_lead_evidence": [
+        "data/source_census/web_discovery_expansion_2026-09-07_run3.json",
+        "data/source_census/web_discovery_expansion_2026-09-10_run20.json"
+      ],
+      "disposition": "SAME_PROVIDER_URL_AUDIT_DUPLICATE_AND_EXISTING_WEB_LEAD",
+      "locator_level": "official language profile / Digital Archive panel; provider-reported aggregate density 860 is not 860 verified media records",
+      "permitted_promotion": "source catalogue metadata only",
+      "rights": "site all rights reserved; media/participant consent and community authority unresolved",
+      "identity_uncertainty": "Bangladesh Munda profile must not be automatically merged with Indian Mundari [unr] or other ISO categories",
+      "outstanding": [
+        "item manifest and stable IDs",
+        "recording provenance",
+        "rights and speaker consent",
+        "HH:MM:SS inspection",
+        "language identity verification"
+      ]
+    }
+  ],
+  "controlled_baseline": {
+    "authoritative_file": "data/source_census/mmsc_index.json",
+    "audited_identities": 42,
+    "raw_web_records": 90,
+    "unique_web_leads": 87,
+    "duplicate_web_records": 3,
+    "counted_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "modules": 42,
+    "note": "These are the actual tracked MMSC and publication metrics, not the unreconciled 95/92/78 assertions in the earlier progress status."
+  },
+  "reconciliation_result": {
+    "audit_files_examined": 6,
+    "distinct_families": 3,
+    "duplicate_audit_observations_collapsed": 3,
+    "web_duplicate_already_accounted_for": [
+      "WEB-MUN-0088 -> WEB-MUN-0032"
+    ],
+    "additional_web_discovery_records": 0,
+    "additional_audited_source_identities": 0,
+    "claims_promoted": 0,
+    "evidence_promoted": 0,
+    "links_promoted": 0,
+    "modules_added": 0,
+    "release_gate": "NOT_PASS",
+    "no_public_content_republished": true
+  },
+  "next": "Continue permitted exact-manifestation acquisition and proposition atomization. This audit-family reconciliation does not resolve all other pending source families or authorize new controlled identity counts."
+}
