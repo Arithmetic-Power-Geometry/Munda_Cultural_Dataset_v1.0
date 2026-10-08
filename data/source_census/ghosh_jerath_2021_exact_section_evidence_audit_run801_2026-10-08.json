@@ -1,0 +1,82 @@
+{
+  "run": 801,
+  "date_ist": "2026-10-08",
+  "branch": "mlhkp-v2",
+  "source_family": "doi:10.3389/fnut.2020.600470",
+  "title": "Traditional Food Environment and Factors Affecting Indigenous Food Consumption in Munda Tribal Community of Jharkhand, India",
+  "authors": "Ghosh-Jerath et al.",
+  "publication": "Frontiers in Nutrition 7:600470 (2021)",
+  "canonical_url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.600470/full",
+  "license": "CC BY; publisher article text, not interview transcripts",
+  "source_status": "existing candidate; do not assign new source identity until MMSC reconciliation",
+  "study_scope": {
+    "geography": "nine villages in Murhu and Torpa blocks, Khunti district, Jharkhand",
+    "collection": "June 2019 to January 2020",
+    "methods": "nine focus group discussions and six key-informant interviews; local Mundari-speaking field workers",
+    "generalization": "only sampled communities and period"
+  },
+  "exact_html_section_candidates": [
+    {
+      "key": "RUN801-01",
+      "locator": "Materials and Methods > Study Locale and Population; Study Design",
+      "proposition": "The authors conducted qualitative enquiries in nine villages in two Khunti blocks.",
+      "type": "study_method"
+    },
+    {
+      "key": "RUN801-02",
+      "locator": "Results > Indigenous Foods of Munda Tribal Community > Types of IFs Based on Free Listing",
+      "proposition": "Study participants collectively listed 194 indigenous foods in the free-listing exercise.",
+      "type": "reported_primary_result"
+    },
+    {
+      "key": "RUN801-03",
+      "locator": "Results > Indigenous Foods of Munda Tribal Community > Classification of IFs Based on Preference",
+      "proposition": "Of the 194 listed foods, the authors classified 87 as commonly consumed and 107 as little-used or historically consumed.",
+      "type": "reported_primary_result"
+    },
+    {
+      "key": "RUN801-04",
+      "locator": "Results > Indigenous Foods of Munda Tribal Community > Taxonomic Classification",
+      "proposition": "The study reports taxonomic identification for 156 of 194 listed foods.",
+      "type": "reported_primary_result"
+    },
+    {
+      "key": "RUN801-05",
+      "locator": "Results > Indigenous Foods of Munda Tribal Community > Nutritive Values of IFs",
+      "proposition": "Nutrient values for 60 foods were drawn from secondary literature and 42 were assessed in the study laboratory.",
+      "type": "mixed_primary_secondary_dependency"
+    },
+    {
+      "key": "RUN801-06",
+      "locator": "Statements > Ethics statement",
+      "proposition": "The authors report institutional ethics approvals and written or witnessed verbal participant consent.",
+      "type": "reported_research_ethics"
+    }
+  ],
+  "controls": {
+    "article_license": "CC BY",
+    "participant_consent": "Reported consent to original study is not blanket authorization for downstream cultural reuse",
+    "restricted_material": "No transcripts, participant-level quotes, supplementary sensitive detail or media copied",
+    "exact_locator": "stable HTML section/subsection; PDF page concordance pending",
+    "cultural_claim_scope": "report the study's observations, not timeless Munda-wide facts",
+    "identity_dedupe": "reconcile existing Ghosh-Jerath audit before source promotion",
+    "graph_promotion": "STAGED_ONLY"
+  },
+  "counts": {
+    "controlled_delta": {
+      "identities": 0,
+      "claims": 0,
+      "evidence": 0,
+      "links": 0,
+      "modules": 0
+    },
+    "mmsc_tracked": {
+      "identities": 42,
+      "raw_web": 90,
+      "unique_web": 87,
+      "unresolved_web": 73
+    }
+  },
+  "release_gate": "NOT_PASS",
+  "next": "Reconcile source identity, inspect PDF page mapping and table dependencies, then approve atomic public aggregate study evidence under cultural-governance controls."
+}
