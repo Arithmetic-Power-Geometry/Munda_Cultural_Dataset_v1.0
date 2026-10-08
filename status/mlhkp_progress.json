@@ -3,20 +3,20 @@
   "branch": "mlhkp-v2",
   "pr": 1,
   "pr_state_verified": "open_unmerged_base_main",
-  "updated_utc": "2026-09-30T06:40:00Z",
+  "updated_utc": "2026-10-08T00:45:00Z",
   "deadline_ist": "2026-09-21T23:59:00+05:30",
-  "latest_run": 662,
+  "latest_run": 799,
   "exact_head_before_status_sync": "3a4d844219f46dc57dfb4d7cc997ec4f3b3175a2",
   "mmsc": {
     "audited_source_identities": 42,
-    "raw_web_discovery_records": 95,
-    "unique_web_discovery_leads": 92,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
     "duplicate_web_records": 3,
     "canonicalized_unique_web_leads": 14,
-    "unresolved_unique_web_leads": 78,
+    "unresolved_unique_web_leads": 73,
     "latest_deterministically_reconciled_search_id": "MMSC-SEARCH-000383",
     "systematic_census_documented_for_release": true,
-    "count_note": "No controlled count change through Run662. Runs642-662 add audits, exact locators, rights/provenance enrichments and canonicalization candidates only; controlled identity/claim/evidence/link/module totals remain frozen pending deterministic ledger reconciliation.",
+    "count_note": "MMSC tracked index reports 90 raw, 87 unique, 73 unresolved; Run799 reconciles three repeated audit families without changing counts. Later audits not fully reconciled.",
     "runs381_632_reconciliation_state": "pending",
     "runs381_633_reconciliation_state": "pending",
     "runs381_640_reconciliation_state": "pending",
@@ -60,10 +60,10 @@
   "publication": {
     "q1_target": true,
     "metrics_synced_to_last_deterministically_reconciled_controlled_metrics": true,
-    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 95 raw discovery / 92 unique / 78 unresolved at last deterministic reconciliation; Runs381-662 reconciliation pending"
+    "build_state": "42 identities / 52 claims / 52 evidence / 52 links / 42 modules; 90 raw discovery / 87 unique / 73 unresolved per tracked data/source_census/mmsc_index.json; later runs pending reconciliation"
   },
   "sync_state": {
-    "status_updated_through_run": 662,
+    "status_updated_through_run": 799,
     "controlled_metrics_match_last_deterministically_reconciled_repository_metrics": true,
     "locator_queue_requires_reconciliation": true,
     "manuscript_metric_change_not_justified": true
@@ -92,7 +92,7 @@
     "Run660 Mahanti & Bhatia 2025 Murma Jatra source is journal-metadata/abstract verified and repository-index unmatched, but requires lawful authoritative full text, manifestation/hash and page concordance, Munda-specific participant/locality inspection, consent/ethics, rights, dependency and cultural-access review before proposition promotion.",
     "Runs642-658 are now status-accounted but require deterministic MMSC/WEB-MUN reconciliation before any controlled count change.",
     "Runs381-632 additions require deterministic reconciliation before controlled count changes",
-    "78 unresolved WEB-MUN leads at last deterministic reconciliation",
+    "73 unresolved WEB-MUN leads at last deterministic reconciliation",
     "Mundarica I-XVI still lacks independently authoritative registered scans and verified OCR/page completeness",
     "multiple exact-locator conversion candidates retain manifestation/hash, reuse, provenance, consent, dependency or cultural-governance gates",
     "Ravishankar et al. 2015 has exact MATERIALS AND METHODS, RESULTS AND DISCUSSION/Table 1 and Figure 1 locator families but requires printed-page/PDF concordance, reuse determination, participant-consent interpretation, taxonomic/name normalization, dependency separation and MMSC reconciliation before graph promotion",
@@ -109,7 +109,8 @@
     "Adivaani Mundari Dictionary (Run640) is government-platform verified and repository-unmatched, but dynamic resource delivery did not expose a stable PDF manifestation/edition/compiler/pagination/reuse terms in this audit; resolve file identity/hash and create entry/page-level lexical evidence only after provenance, dialect and rights checks.",
     "Kumari & Rahman 2021 (Run641) is open CC BY-SA 4.0 and exact-locator ready on printed pp. 183–185, but broad Munda livelihood/cultural assertions are largely synthetic; resolve upstream-source dependency, empirical basis, scope and cultural-governance status proposition-by-proposition before graph promotion.",
     "Bharatavani Mundari dictionaries (Run657) require stable PDF manifestation/edition/compiler/date/pagination/hash, dialect/source provenance and reuse determination before entry-level lexical evidence promotion.",
-    "Nachi Se Banchi documentary (Run658) requires authoritative lawful audiovisual manifestation, rights/reuse determination, participant/community-consent review and HH:MM:SS proposition extraction before promotion."
+    "Nachi Se Banchi documentary (Run658) requires authoritative lawful audiovisual manifestation, rights/reuse determination, participant/community-consent review and HH:MM:SS proposition extraction before promotion.",
+    "Run800 LSI printed-page provenance audit and Run801 open-article exact-section candidates remain outside controlled ledger pending GitHub write permission and deterministic reconciliation."
   ],
   "release_gate": {
     "status": "NOT_PASS",
