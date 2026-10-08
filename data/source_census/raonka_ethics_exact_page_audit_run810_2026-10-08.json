@@ -1,0 +1,60 @@
+{
+  "run": 810,
+  "branch": "mlhkp-v2",
+  "verified_date_ist": "2026-10-08",
+  "record_type": "non_mundarica_exact_locator_evidence_audit",
+  "canonical_work": "hdl:10919/111386",
+  "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+  "author": "Pallavi Raonka",
+  "work_date_title_page": "2020-08-20",
+  "repository_date": "2021-02-02",
+  "manifestation": "https://vtechworks.lib.vt.edu/bitstreams/266ed102-6b74-4701-94c0-63e51c8e99b9/download",
+  "locators": [
+    {
+      "pdf_page_1_based": 1,
+      "printed_page": "title page",
+      "type": "identity",
+      "finding": "Doctoral dissertation in Sociology at Virginia Tech; copyright 2020 Pallavi Raonka",
+      "scope": "bibliographic provenance only"
+    },
+    {
+      "pdf_page_1_based": 2,
+      "printed_page": "abstract (unnumbered)",
+      "type": "method_provenance",
+      "finding": "Author reports ethnographic fieldwork May 2017 to December 2018 on Munda land politics in Jharkhand",
+      "scope": "author-described research scope, not a community-wide cultural claim"
+    },
+    {
+      "pdf_page_1_based": 35,
+      "printed_page": "28",
+      "section": "IRB APPROVAL",
+      "type": "ethics_provenance",
+      "finding": "Author reports expedited IRB approval June 27, 2017 for pre-dissertation fieldwork and activist interview audio recording; subsequent revised submission is described",
+      "scope": "study authorization as described by author, not third-party verification of community consent or downstream reuse"
+    }
+  ],
+  "canonicalization": {
+    "family_key": "VT_ETD|HANDLE:10919/111386",
+    "same_work_audits": [
+      "raonka_2021_munda_politics_land_exact_locator_run127_2026-09-09.json",
+      "raonka_2021_munda_politics_land_audit_run755_2026-10-06.json"
+    ],
+    "count_new_source_identity": 0
+  },
+  "governance": {
+    "copyright": "Copyright 2020 Pallavi Raonka",
+    "open_license_verified": false,
+    "interview_republication_permission": false,
+    "community_access_clearance": false,
+    "participant_derived_quotes_or_images_extracted": false,
+    "only_metadata_and_method_provenance": true
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_gate": "NOT_PASS"
+}
