@@ -1,0 +1,15 @@
+{
+  "run": 812,
+  "branch": "mlhkp-v2",
+  "checked_date": "2026-10-08",
+  "primary_log": "data/source_census/search_log.jsonl",
+  "verified_rows": 28,
+  "verified_unique_ids": 28,
+  "prior_index_count": 30,
+  "reconciled_index_count": 28,
+  "identity_delta": 0,
+  "claim_delta": 0,
+  "evidence_delta": 0,
+  "release_gate": "NOT_PASS",
+  "note": "Primary search-log row count corrected; per-run search logs are separate audit artifacts and are not included in this metric."
+}
