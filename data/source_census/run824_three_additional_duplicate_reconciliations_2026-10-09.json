@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "audit_date_ist": "2026-10-09",
+  "scope": "non-Mundarica WEB-MUN identity reconciliation; metadata only",
+  "baseline_head": "d3ba7d5fa78997ad448007ee38c9fdbacfcaa974",
+  "duplicate_relationships": [
+    {
+      "canonical": "WEB-MUN-0008",
+      "duplicate": "WEB-MUN-0073",
+      "key": "orgi_catalogue:45248",
+      "locator": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+      "reason": "LSI Jharkhand catalogue versus volume manifestation"
+    },
+    {
+      "canonical": "WEB-MUN-0014",
+      "duplicate": "WEB-MUN-0074",
+      "key": "orgi_catalogue:34826",
+      "locator": "https://censusindia.gov.in/nada/index.php/catalog/34826",
+      "reason": "LSI West Bengal Part I catalogue versus PDF manifestation"
+    },
+    {
+      "canonical": "WEB-MUN-0043",
+      "duplicate": "WEB-MUN-0075",
+      "key": "doi:10.1177/0972558X1301300205",
+      "locator": "https://doi.org/10.1177/0972558X1301300205",
+      "reason": "same DOI journal work"
+    }
+  ],
+  "accounting": {
+    "raw_observations": 90,
+    "previously_verified_duplicate_pairs": 9,
+    "additional_disjoint_pairs": 3,
+    "minimum_redundant_observations": 12,
+    "maximum_unique_works": 78,
+    "certified_exact_unique_works": null,
+    "controlled_source_identities_unchanged": 42
+  },
+  "guards": [
+    "Do not delete immutable WEB-MUN raw observations.",
+    "Do not count a PDF and catalogue page as separate intellectual works.",
+    "Do not promote source content or imply rights/consent from bibliographic identity.",
+    "78 is an upper bound, not an exact certified count.",
+    "WEB-MUN-0009 is a section within WEB-MUN-0008: component policy unresolved."
+  ],
+  "release_gate": "NOT_PASS"
+}
