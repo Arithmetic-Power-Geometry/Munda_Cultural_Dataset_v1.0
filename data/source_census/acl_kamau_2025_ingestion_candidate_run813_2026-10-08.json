@@ -1,0 +1,64 @@
+{
+  "run": 813,
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-10-08T10:45:46Z",
+  "record_type": "non_mundarica_exact_page_technical_ingestion_candidate",
+  "source": {
+    "key": "ACL:2025.mmloso-1.11",
+    "title": "Challenge Track: Breaking Language Barriers: Adapting NLLB-200 and mBART for Bhilli, Gondi, Mundari, and Santali Without Source Language Proficiency",
+    "author": "Paul Kamau (ACL record); Paul Nganga Kamau (PDF title)",
+    "publisher": "Association for Computational Linguistics",
+    "year": 2025,
+    "printed_pages": "106-108",
+    "pdf": "https://aclanthology.org/2025.mmloso-1.11.pdf",
+    "license": "CC BY 4.0",
+    "class": "multilingual machine translation; technical only"
+  },
+  "dedupe": {
+    "matched_in_existing_14_master_sources": false,
+    "matched_in_existing_16_standalone_sources": false,
+    "matched_in_existing_90_raw_WEB_MUN_records": false,
+    "proposed_source_id": "SRC-MMSC-000017",
+    "proposed_identity_delta": 1
+  },
+  "exact_locator_candidates": [
+    {
+      "pdf_page": 1,
+      "printed_page": 106,
+      "section": "II.C Language Token Extension",
+      "proposition": "The author defines __mundari_Deva__ as a model language token.",
+      "scope": "implementation convention only; not universal Mundari orthography"
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": 107,
+      "section": "IV Experiments and Results, Table 1",
+      "proposition": "Author reports private leaderboard scores 156.29, 174.01 and 179.49 for three model configurations.",
+      "scope": "multilingual shared-task combined score; not Mundari-only and not independently reproduced"
+    }
+  ],
+  "governance": {
+    "article_rights": "CC BY 4.0",
+    "underlying_parallel_corpus_rights": "unverified",
+    "participant_consent": "unverified",
+    "cultural_knowledge_promoted": false,
+    "public_binary_rehosted": false
+  },
+  "proposed_controlled_after": {
+    "identities": 43,
+    "claims": 54,
+    "evidence": 54,
+    "links": 54,
+    "modules": 42
+  },
+  "committed_controlled_before": {
+    "identities": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "modules": 42
+  },
+  "promotion_state": "not_committed_atomic_write_blocked",
+  "release_gate": "NOT_PASS",
+  "blocker": "Atomic 13-file graph/publication/status synchronization attempt was rejected by mutation safety checks; no count or graph promotion may be claimed."
+}
