@@ -1,0 +1,32 @@
+{
+  "project": "MLHKP",
+  "branch": "mlhkp-v2",
+  "run": 815,
+  "checked_ist": "2026-10-08",
+  "deadline_ist": "2026-09-21T23:59:00+05:30",
+  "release_gate": "NOT_PASS",
+  "audit_commit": "a4bd57d4433266111825dade39eb28051680a5a3",
+  "source": "ACL:2025.mmloso-1.14",
+  "existing_web_lead": "WEB-MUN-0036",
+  "controlled_metrics": {
+    "sources": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "modules": 42,
+    "web_raw": 90,
+    "web_unique": 87,
+    "web_unresolved": 73,
+    "primary_search_entries": 28
+  },
+  "new_controlled_promotions": 0,
+  "locators_verified": 3,
+  "progress_file_update": "blocked; this delta preserves run progress",
+  "pending": [
+    "integrate exact-table candidates into controlled graph",
+    "verify dataset provenance and rights",
+    "validate Census ST-15/ST-16 workbook cells",
+    "synchronize universal search, gap matrix and publication outputs",
+    "run exact-head CI"
+  ]
+}
