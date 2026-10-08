@@ -1,0 +1,38 @@
+{
+  "run": 817,
+  "branch": "mlhkp-v2",
+  "checked_date_ist": "2026-10-08",
+  "deadline_ist": "2026-09-21T23:59:00+05:30",
+  "release_gate": "NOT_PASS",
+  "new_audits": [
+    "data/source_census/ncaa_cvi_beta_1183_source_check_2026-10-08.json",
+    "data/source_census/kuiry_2022_adi_dharam_exact_locator_run817_2026-10-08.json"
+  ],
+  "new_exact_page_candidates": 5,
+  "controlled_promotions": 0,
+  "controlled_metrics": {
+    "source_identities": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "modules": 42,
+    "web_raw": 90,
+    "web_unique": 87,
+    "web_unresolved": 73,
+    "primary_search_entries": 28
+  },
+  "status_file": "status/mlhkp_progress.json remains at run 799; delta not a substitute for authoritative synchronization",
+  "blocked_writes": [
+    "data/evidence.csv exact locator replacement rejected by safety checks",
+    "tests/test_run817_exact_locator_and_rights.py rejected by safety checks",
+    "run817 search-log file rejected by safety checks"
+  ],
+  "pending": [
+    "source-register canonicalization",
+    "controlled exact-locator promotion",
+    "cultural access and rights review",
+    "Streamlit and publication synchronization",
+    "full tests and release completeness audit"
+  ],
+  "notes": "The original journal PDF and NCAA catalogue were inspected; rights and cultural assertions were not inferred from public access."
+}
