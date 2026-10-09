@@ -1,0 +1,46 @@
+{
+  "date_ist": "2026-10-09",
+  "branch": "mlhkp-v2",
+  "release": "NOT_PASS",
+  "source_screening": [
+    {
+      "class": "peer_reviewed_article",
+      "doi": "10.1177/23210249251328828",
+      "publisher": "SAGE",
+      "locator": "publisher abstract; first published 2025-04-30; pp. 148-162",
+      "scope": "Khunti tribal women, not established Munda-only",
+      "access": "abstract verified; full text restricted/uncleared",
+      "action": "discovery_only; no Munda-specific claim"
+    },
+    {
+      "class": "maps_archives",
+      "url": "https://nationalarchives.nic.in/en/public-records-holdings/cartographic-records",
+      "locator": "Cartographic Records index, Historical Maps and Printed/Published Maps categories",
+      "scope": "general archive index, not a verified Munda map",
+      "access": "item access subject to archive and Survey of India rules",
+      "action": "discovery_only"
+    },
+    {
+      "class": "language_audio_web",
+      "url": "https://www.languageshome.com/New/english-mundari/",
+      "locator": "English-Mundari web list, linked MP3 entries 01-12",
+      "scope": "learning-resource metadata only",
+      "access": "speaker consent, dialect and reuse terms unverified",
+      "action": "catalogue_only; no recording ingested"
+    }
+  ],
+  "dedup": "Identity comparison against all 90 immutable WEB-MUN records remains pending; do not allocate canonical SRC ID.",
+  "controlled_counts_unchanged": {
+    "sources": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "modules": 42
+  },
+  "blockers": [
+    "MMSC identity graph unresolved",
+    "existing evidence.csv and progress JSON writes rejected",
+    "source-specific rights and consent not verified"
+  ],
+  "release_decision": "NOT_PASS"
+}
