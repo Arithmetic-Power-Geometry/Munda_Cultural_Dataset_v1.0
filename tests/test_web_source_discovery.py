@@ -24,10 +24,12 @@ def test_web_discovery_records_have_unique_ids_and_urls():
     records = all_records()
     ids = [r['id'] for r in records]
     urls = [r['url'] for r in records]
-    assert len(records) == 81
+    # WEB-MUN records are immutable discovery observations, not distinct works.
+    # Repeated URLs/DOIs are allowed and reconciled in the source census.
+    assert len(records) == 90
     assert len(ids) == len(set(ids))
-    assert len(urls) == len(set(urls))
-    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 82)]
+    assert all(urls)
+    assert ids == [f'WEB-MUN-{i:04d}' for i in range(1, 91)]
 
 
 def test_web_discovery_is_source_lead_layer_not_claim_layer():
