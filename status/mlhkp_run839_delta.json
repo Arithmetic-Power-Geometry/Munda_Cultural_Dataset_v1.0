@@ -1,0 +1,25 @@
+{
+  "run": 839,
+  "branch": "mlhkp-v2",
+  "date_ist": "2026-10-09",
+  "audit_commit": "860bbff313b9bb617bb4da14666f1335b3c538be",
+  "new_exact_page_locators": 4,
+  "new_controlled_promotions": 0,
+  "controlled_baseline": {
+    "sources": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52
+  },
+  "web_discovery": {
+    "raw": 90,
+    "exact_distinct_work_count": "uncertified"
+  },
+  "release_gate": "NOT_PASS",
+  "blockers": [
+    "controlled ledger write denied",
+    "identity reconciliation incomplete",
+    "governance and consent unresolved",
+    "publication and Streamlit synchronization incomplete"
+  ]
+}

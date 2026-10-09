@@ -1,0 +1,216 @@
+{
+  "audit_id": "MLHKP-RUN831",
+  "date_ist": "2026-10-09",
+  "branch": "mlhkp-v2",
+  "release_gate": "NOT_PASS",
+  "purpose": "Non-Mundarica bounded source census with exact-section metadata/evidence locators. Audit candidates are NOT controlled source, claim, or evidence records.",
+  "identity_checks": {
+    "files_compared": "master_sources.json, mmsc_discoveries.json, and 23 WEB-MUN discovery manifests (90 observations)",
+    "key": "DOI exact identity",
+    "result": "DOI 10.1093/cdn/nzac102 not found in checked registers; further title/edition/dependency reconciliation pending; no SRC assigned"
+  },
+  "verified_sources": [
+    {
+      "class": "peer_reviewed_article",
+      "title": "Indigenous Foods to Address Malnutrition: An Inquiry into the Diets and Nutritional Status of Women in the Indigenous Community of Munda Tribes of Jharkhand, India",
+      "authors": [
+        "Suparna Ghosh-Jerath",
+        "Ridhima Kapoor",
+        "Ashish Bandhu",
+        "Archna Singh",
+        "Shauna Downs",
+        "Jessica Fanzo"
+      ],
+      "year": 2022,
+      "journal": "Current Developments in Nutrition",
+      "volume": "6",
+      "issue": "9",
+      "article": "nzac102",
+      "doi": "10.1093/cdn/nzac102",
+      "pmid": "36110104",
+      "pmcid": "PMC9470035",
+      "canonical_url": "https://doi.org/10.1093/cdn/nzac102",
+      "primary_metadata_url": "https://pubmed.ncbi.nlm.nih.gov/36110104/",
+      "verification": "PubMed article identity and abstract independently corroborated by Johns Hopkins institutional publication record; full PMC page blocked by browser challenge",
+      "scope": "Munda women sampled in eleven villages in Khunti; not all Munda communities",
+      "rights": "OpenAlex labels gold OA and CC BY, but publisher license and participant-level reuse not independently verified in this run; paraphrased metadata and abstract only",
+      "cultural_boundary": "No participant quotes, individual diet data, medicinal recommendations or universal cultural inference",
+      "evidence_candidates": [
+        {
+          "candidate_id": "RUN831-C01",
+          "locator": "PubMed PMID 36110104 > Abstract > Methods",
+          "paraphrase": "Authors report cross-sectional study with seasonal component in eleven villages of Khunti district and use household surveys, FFQ, two-day recalls and anthropometric assessments",
+          "verification_state": "abstract_source_reported",
+          "promotion": "metadata_or_study_design_only"
+        },
+        {
+          "candidate_id": "RUN831-C02",
+          "locator": "PubMed PMID 36110104 > Abstract > Results",
+          "paraphrase": "Authors report low dietary diversity among the sampled Munda women; quantitative results remain sample-specific",
+          "verification_state": "abstract_source_reported",
+          "promotion": "not_promoted_pending_methods_and_full_text_review"
+        },
+        {
+          "candidate_id": "RUN831-C03",
+          "locator": "PubMed PMID 36110104 > Publication and identifiers fields",
+          "paraphrase": "2022 September, Current Developments in Nutrition 6(9), article nzac102, DOI 10.1093/cdn/nzac102",
+          "verification_state": "catalogue_verified",
+          "promotion": "bibliographic_metadata_only"
+        }
+      ]
+    },
+    {
+      "class": "peer_reviewed_article_existing_controlled",
+      "doi": "10.1186/s40795-025-01159-2",
+      "source_id": "SRC-MMSC-000008",
+      "evidence_id": "EVD-000043",
+      "publisher_url": "https://link.springer.com/article/10.1186/s40795-025-01159-2",
+      "verification": "original publisher HTML inspected",
+      "locators": [
+        {
+          "locator": "Methodology > Study design and locale",
+          "scope": "Khunti Murhu and Torpa, August 2019 and January 2020 seasonal collection"
+        },
+        {
+          "locator": "Methodology > Sampling framework and Sample size calculation",
+          "scope": "Eleven villages, 201 eligible households; FFQs administered to 160 monsoon and 100 winter households; 49 households across both seasons"
+        },
+        {
+          "locator": "Ethics declarations > Ethics approval and consent to participate",
+          "scope": "Author-reported institutional approvals and participant informed consent; no secondary redistribution entitlement inferred"
+        },
+        {
+          "locator": "Rights and permissions",
+          "scope": "Article CC BY 4.0; third-party content and participant data separately gated"
+        }
+      ],
+      "promotion": "Exact HTML-section locators verified as an audit extension to existing controlled evidence; no new cultural proposition or controlled count"
+    },
+    {
+      "class": "audio_archive_comparative",
+      "title": "India / Bhumij Folk Music (Munda Group) and Ho Folk Music",
+      "url": "https://ccc.deutsche-digitale-bibliothek.de/en/item/VREIXD6K2NKRTHRL6QZPBUPYTI4YATNS",
+      "locator": "Catalogue > Cataloguing data > Object type / Other title / Provenance / Inventory number",
+      "inventory": "VII OA 0901.0728",
+      "date": "1970 January (catalogue)",
+      "scope": "Bhumij and Ho; Munda language-family association does not establish Mundari/Munda community performance",
+      "rights": "Metadata CC BY-SA 4.0; object reuse separately controlled, historic consent unknown",
+      "promotion": "comparative_catalogue_only"
+    }
+  ],
+  "access_blocks": [
+    {
+      "source": "LSI Jharkhand original Census PDF",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+      "state": "502 gateway during original PDF retrieval; no page-level census claims promoted"
+    },
+    {
+      "source": "2022 article PMC full text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9470035/",
+      "state": "browser challenge; used PubMed abstract instead; no full-text/page claim"
+    },
+    {
+      "source": "2026 Sarna Dharma Nature article",
+      "url": "https://www.nature.com/articles/s41599-026-08022-0",
+      "state": "identity-provider redirect blocked; multi-community scope unverified, discovery only"
+    }
+  ],
+  "cross_class_screening": [
+    {
+      "class": "books",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "dictionaries",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "grammars",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "peer_reviewed_articles",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "theses_dissertations",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "government_TRI",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "census_LSI",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "archives",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "newspapers",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "web_resources",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "datasets",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "audio",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "video",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "maps",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    },
+    {
+      "class": "relevant_media",
+      "coverage": "not certified complete",
+      "action": "retain unresolved acquisition/rights/provenance gaps; do not infer absence"
+    }
+  ],
+  "controlled_counts_unchanged": {
+    "source_identities": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "streamlit_modules": 42,
+    "web_raw_observations": 90
+  },
+  "census_bounds": {
+    "web_distinct_upper_bound": 80,
+    "web_after_two_standalone_matches_upper_bound": 78,
+    "exact_distinct_count": null
+  },
+  "outstanding": [
+    "Authoritative MMSC index still says 87 unique leads despite conservative 80 upper bound",
+    "Update EVD-000041 exact PDF page locator in data/evidence.csv blocked by repository write safety check",
+    "Correct ordering-sensitive WEB-MUN test blocked by repository write safety check",
+    "Promote new DOI only after controlled schema, dependency and rights review",
+    "Sync graph, Streamlit, publication artifacts, status/mlhkp_progress.json and rerun CI"
+  ],
+  "release_decision": "NOT_PASS"
+}

@@ -1,0 +1,38 @@
+{
+  "search_id": "MMSC-SEARCH-000360",
+  "run": 360,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books", "dictionaries", "grammars", "peer_reviewed_articles", "theses", "government_TRI_Census_LSI", "archives", "newspapers", "web_resources", "datasets", "audio", "video", "maps", "relevant_media"],
+  "fresh_reobservations": [
+    {
+      "class": "dictionaries",
+      "title": "A Mundari-English Dictionary",
+      "author": "Manindra Bhusan Bhaduri",
+      "disposition": "1931 is the preferred bibliographic identity year from convergent independent catalogues; a conflicting 1929 introductory-note record remains unresolved; no lexical content promoted"
+    },
+    {
+      "class": "archives",
+      "title": "ELAR PARADISEC TLA Mundari package search",
+      "disposition": "no exact Mundari package identity sufficiently verified in this run for controlled promotion; discovery remains unresolved"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "Census of India 2011 Jharkhand language tables",
+      "disposition": "official catalogue locators remain known; primary workbook byte hash sheet row and cell verification not completed and numeric values remain unpromoted"
+    }
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the authoritative numbered source register is completed. Reprints, mirrors, versions, manifestations, title variants, homonyms and non-target matches are canonicalized before identity promotion.",
+  "rights_access_policy": "Public access, catalogue visibility, repository availability or open licensing does not by itself establish participant consent, community validation, cultural authorization, or validity of substantive claims.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Run 360 resolves the preferred bibliographic year for the existing Bhaduri work identity while preserving the anomaly and unresolved digital and entry-level verification. No new controlled source identity or substantive claim is promoted."
+}

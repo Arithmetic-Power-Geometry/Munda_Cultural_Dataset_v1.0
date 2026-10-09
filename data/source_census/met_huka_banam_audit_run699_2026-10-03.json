@@ -1,0 +1,50 @@
+{
+  "run": 699,
+  "date_utc": "2026-10-03",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": [
+    "museum_object",
+    "musical_instrument",
+    "image"
+  ],
+  "canonical_key": "MET_OBJECT|2022.299",
+  "title": "Santal or Munda Fiddle (Huka Banam)",
+  "institution": "The Metropolitan Museum of Art",
+  "object_number": "2022.299",
+  "date": "19th century",
+  "geography": "Eastern India, probably Jharkhand",
+  "medium": "Wood and hide",
+  "dimensions": "H 22 in x W 5 in x D 3 in",
+  "access": "on view; public collection record",
+  "rights": {
+    "record_statement": "Public Domain",
+    "open_access_note": "Met states Open Access data and public-domain images are available for unrestricted commercial and noncommercial use without permission or fee."
+  },
+  "scope_classification": "ambiguous Santal-or-Munda attribution; material-culture candidate only",
+  "exact_locator": {
+    "type": "museum_object_record",
+    "locator": "The Met collection object 883315 / object no. 2022.299",
+    "url": "https://www.metmuseum.org/art/collection/search/883315"
+  },
+  "evidence_promotion": {
+    "status": "WITHHELD",
+    "reason": [
+      "catalogue attribution is explicitly 'Santal or Munda' and cannot support a Munda-only proposition",
+      "object provenance/community attribution requires adjudication",
+      "public-domain copyright status does not resolve cultural sensitivity or community-governance concerns"
+    ]
+  },
+  "deduplication": {
+    "status": "reconciliation_required",
+    "rule": "canonicalize by institution+object number; do not count as a new controlled identity until MMSC/WEB-MUN reconciliation"
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_effect": "explicit gap/candidate; no controlled metric change",
+  "source_verified_on": "2026-10-03"
+}

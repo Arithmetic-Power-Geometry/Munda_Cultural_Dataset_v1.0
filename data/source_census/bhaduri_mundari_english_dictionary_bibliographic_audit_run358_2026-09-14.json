@@ -1,0 +1,73 @@
+{
+  "run": 358,
+  "captured_date": "2026-09-14",
+  "scope": "Bhaduri A Mundari-English Dictionary bibliographic manifestation reconciliation",
+  "work": {
+    "title": "A Mundari-English dictionary",
+    "author": "Manindra Bhusan Bhaduri",
+    "original_publication": "Calcutta University Press, 1931",
+    "subject": "Mundari language dictionaries English"
+  },
+  "independent_bibliographic_records": [
+    {
+      "provider": "CiNii Books",
+      "record": "BA31909026",
+      "edition": "Asian Educational Services, 1994 reprint",
+      "isbn": "8120609107",
+      "pagination": "xv, 228, ii p.",
+      "size": "23 cm",
+      "original_note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931",
+      "url": "https://ci.nii.ac.jp/ncid/BA31909026"
+    },
+    {
+      "provider": "CiNii Books",
+      "record": "BA27135864",
+      "edition": "Northern Book Centre, 1983 reprint",
+      "pagination": "xv, 228, ii p.",
+      "size": "23 cm",
+      "original_note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931",
+      "url": "https://ci.nii.ac.jp/ncid/BA27135864"
+    },
+    {
+      "provider": "CiNii Books",
+      "record": "BB09153012",
+      "edition": "Gyan Publishing House, 2002 reprint",
+      "isbn": "8121207959",
+      "pagination": "xv, 228, ii p.",
+      "size": "23 cm",
+      "note": "Record describes a reprint and references a 1929 edition in its introduction note; this edition-note discrepancy is retained as unresolved rather than normalized away.",
+      "url": "https://ci.nii.ac.jp/ncid/BB09153012"
+    },
+    {
+      "provider": "Open Library",
+      "work_id": "OL5467157W",
+      "edition_id": "OL3008123M",
+      "edition": "Northern Book Centre, 1983",
+      "pagination": "xv, 228, ii p.",
+      "lccn": "84901705",
+      "original_note": "Reprint. Originally published: Calcutta : Calcutta University Press, 1931.",
+      "url": "https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary"
+    }
+  ],
+  "verified_this_run": [
+    "multiple independent bibliographic records converge on the work title and author",
+    "1983 and 1994 reprint records converge on pagination xv, 228, ii p.",
+    "records explicitly link reprints to a Calcutta University Press original",
+    "edition-note discrepancy exists between 1931-original statements and the 2002 CiNii record note referencing 1929"
+  ],
+  "not_verified": [
+    "authoritative original-edition scan",
+    "original-edition title-page year reconciliation between 1929 and 1931 references",
+    "digital manifestation bytes or SHA-256",
+    "printed-page to scan-image concordance",
+    "OCR accuracy or verified OCR pages",
+    "dictionary entry-level text",
+    "reuse permission for any digitized manifestation",
+    "community validation or cultural-access authorization"
+  ],
+  "promotion_level": "bibliographic identity, reprint genealogy and pagination concordance only",
+  "governance_boundary": "Bibliographic convergence does not authorize text ingestion and does not establish entry-level lexical evidence. No dictionary entry is promoted until a permitted exact manifestation is verified and passage-level provenance can be attached.",
+  "controlled_claims_added": 0,
+  "controlled_evidence_records_added": 0,
+  "controlled_counts_changed": false
+}

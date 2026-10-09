@@ -1,0 +1,89 @@
+{
+  "audit_id": "RUN193-BL-BNF-DURANG-ALOPE-JOMA",
+  "run": 193,
+  "date_utc": "2026-09-11",
+  "scope": "non-Mundarica source census; archival/audio manifestation reconciliation",
+  "title_normalized": "Durang Kahani: Alope Joma / Tuila (Tuia) accompaniment to the Mundari marriage song",
+  "identity_evidence": {
+    "british_library": {
+      "catalogue": "British Library Archives and Manuscripts Catalogue",
+      "shelfmark": "IOR/S/2/1/17",
+      "record_id": "040-000091091",
+      "mdark": "ark:/81055/vdc_100000000502.0x00030c",
+      "collection_path": ["IOR/S", "IOR/S/2", "IOR/S/2/1", "IOR/S/2/1/17"],
+      "collection": "Linguistic Survey of India Gramophone Records; Bihar and Orissa",
+      "title": "Songs (1) Durang Kahani: Alope Joma (2) Tuia accompaniment to the Mundari marriage song",
+      "language_catalogued": "Kherwari (Mundari dialect)",
+      "date": "1914",
+      "extent": "1 gramophone record",
+      "digitised_content_field": "blank/no digitised content exposed in retrieved catalogue record",
+      "access_observation": "physical-item request/reading-room pathway stated; individual item availability may be restricted",
+      "url": "https://searcharchives.bl.uk/catalog/040-000091091"
+    },
+    "bnf": {
+      "catalogue": "Bibliotheque nationale de France, Catalogue general",
+      "ark": "ark:/12148/cb42562690s",
+      "notice_number": "FRBNF42562690",
+      "digital_copy_identifier": "NUMAUD-130038",
+      "physical_copy_identifier": "AP-2554",
+      "title": "Durang Kahani : Alope Joma [chant en mundari] ... Tuila accompaniment to the mundari marriage song",
+      "publication": "Calcutta : [Gramophone Co.], [1914]",
+      "description": "1 disque monoface (2 min 35 s) : 78 t, aig. ; 25 cm",
+      "recording_place_date": "Ranchi, 1914 (catalogue states very probably 1914)",
+      "language_catalogued": "Mundari (Munda language)",
+      "matrix_number": "3306Y",
+      "online_access": "digital audio manifestation indicated as consultable online via Gallica",
+      "physical_copy_access": "AP-2554 marked document non diffusable",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb42562690s"
+    }
+  },
+  "reconciliation": {
+    "decision": "cross-catalogue historical recording cluster; do not create a second cultural-source identity solely from institutional manifestation duplication",
+    "confidence": "high-title/date/LSI match; not byte-identical-manifestation verified",
+    "deterministic_keys": [
+      "normalized title pair",
+      "1914 date",
+      "Linguistic Survey of India gramophone context",
+      "Mundari/Kherwari language attribution"
+    ],
+    "unresolved_identity_checks": [
+      "British Library record does not expose matrix 3306Y in retrieved metadata",
+      "no byte-level audio comparison between institutions",
+      "no physical-disc label comparison"
+    ]
+  },
+  "evidence_promotion": {
+    "promoted": [
+      "catalogue identity metadata",
+      "exact shelfmark/record/ARK locators",
+      "catalogue-attributed language/date/extent",
+      "BnF matrix number and digital-copy identifier"
+    ],
+    "not_promoted": [
+      "song lyrics/transcription",
+      "translation",
+      "audio samples or derived features",
+      "cultural meaning/interpretation",
+      "participant identity",
+      "consent",
+      "community validation"
+    ],
+    "count_bearing": false,
+    "reason": "institutional manifestation reconciliation is not itself a new independent cultural proposition or verified unique source identity"
+  },
+  "rights_governance": {
+    "public_availability_is_permission": false,
+    "copyright_reuse_terms_independently_verified": false,
+    "participant_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "audio_ingested": false,
+    "transcript_ingested": false,
+    "policy": "retain catalogue metadata and exact locators only until legal reuse, participant/privacy, provenance, and cultural-access review supports deeper use"
+  },
+  "release_gap": "Do not promote audio/transcription/translation until manifestation rights and cultural/participant governance are resolved; if comparing BL and BnF as the same recording, verify matrix/physical-label or byte/technical identity.",
+  "sources_checked": [
+    "British Library IOR/S/2/1/17 catalogue record",
+    "BnF ark:/12148/cb42562690s catalogue record"
+  ]
+}

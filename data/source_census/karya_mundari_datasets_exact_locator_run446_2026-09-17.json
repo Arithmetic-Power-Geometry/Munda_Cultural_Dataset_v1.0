@@ -1,0 +1,54 @@
+{
+  "run": 446,
+  "date_utc": "2026-09-17",
+  "stream": "non-Mundarica",
+  "scope": ["dataset", "audio", "parallel_text", "computational_linguistics"],
+  "sources": [
+    {
+      "canonical_identity": "Karya Mundari TTS Dataset Corpus",
+      "canonical_url": "https://github.com/karya-inc/dataset-mundari-tts",
+      "relation_to_existing": "primary dataset manifestation associated with the MunTTS source family; do not count paper and dataset as interchangeable source identities without ledger reconciliation",
+      "verified_metadata": {
+        "audio_files_reported": 26870,
+        "speakers_reported": 2,
+        "female_recordings_reported": 19868,
+        "male_recordings_reported": 7002,
+        "sample_recordings_per_speaker": 100,
+        "full_dataset_access": "request via data@karya.in",
+        "license_family_reported": "Karya Public License, non-commercial version"
+      },
+      "promotion_state": "source-level exact locator only",
+      "promotion_blockers": [
+        "full corpus is not directly materialized in this audit",
+        "license text must be evaluated at item/reuse level before redistribution or derived evidence promotion",
+        "speaker consent/privacy and cultural-access basis not independently verified",
+        "immutable permitted bytes/SHA-256 and item/timecode locators not yet established"
+      ],
+      "claims_promoted": 0
+    },
+    {
+      "canonical_identity": "Karya Hindi to Mundari Translation Dataset Corpus",
+      "canonical_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+      "relation_to_existing": "newly surfaced candidate dataset; reconcile against WEB-MUN before changing controlled counts",
+      "verified_metadata": {
+        "sentence_pairs_reported": 17826,
+        "data_file": "translation-hi-unr.tsv",
+        "encoding": "UTF-8",
+        "columns": ["Hindi", "Mundari"],
+        "license_family_reported": "Karya Public License Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0"
+      },
+      "promotion_state": "source-level exact locator only",
+      "promotion_blockers": [
+        "row-level provenance and contributor consent/privacy/cultural-access basis not independently verified",
+        "exact license/copyright files must be preserved with immutable revision",
+        "TSV bytes/SHA-256 and deterministic row inventory not yet recorded in MLHKP",
+        "translation rows must not be treated as independent cultural claims without source/provenance review"
+      ],
+      "claims_promoted": 0
+    }
+  ],
+  "deduplication_rule": "Repository landing pages, raw files, archives and mirrors are manifestations/components of their respective canonical dataset identity. MunTTS paper-reported corpus counts and the Karya TTS repository must be dependency-linked rather than double-counted as independent empirical evidence for the same corpus properties.",
+  "rights_governance": "Public GitHub availability and a dataset license do not establish participant consent, privacy clearance, cultural permission, or unrestricted reuse of underlying speech/translation contributions.",
+  "count_effect": "none until deterministic reconciliation against WEB-MUN ledger",
+  "evidence_effect": "zero promoted claims/evidence records in this run"
+}

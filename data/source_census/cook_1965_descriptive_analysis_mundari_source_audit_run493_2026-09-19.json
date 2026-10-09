@@ -1,0 +1,69 @@
+{
+  "run": 493,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica source census",
+  "canonical_id": "cook_1965_descriptive_analysis_mundari",
+  "source_class": ["thesis_dissertation", "grammar", "linguistics"],
+  "scope": "Mundari language; descriptive phonology, morphology and grammar",
+  "canonical_work": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According to the Methods of Linguistic Science, with Particular Attention to the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns",
+    "institution": "Georgetown University",
+    "type": "Ph.D. dissertation",
+    "pages": "vi + 315",
+    "umi_identifier": "65-12,509"
+  },
+  "identity_verification": {
+    "status": "verified_metadata_multiple_independent_catalogue_texts",
+    "references": [
+      "https://glottolog.org/resource/reference/id/33106",
+      "https://glottolog.org/resource/reference/id/152623",
+      "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf"
+    ],
+    "notes": "Glottolog independently catalogues the Georgetown dissertation; the Census of India LSI Jharkhand bibliography cites Cook's descriptive analysis. A third-party searchable scan exposes dissertation front matter and contents but is not treated as permission to redistribute."
+  },
+  "deduplication": {
+    "rule": "All UMI/microfilm, catalogue, OCR, mirror and scan manifestations are one underlying dissertation unless edition-level collation proves otherwise.",
+    "independent_evidence_units": 1,
+    "do_not_double_count": ["Glottolog reference 33106", "Glottolog reference 152623", "UMI/microfilm manifestations", "third-party scans/OCR"]
+  },
+  "rights_access": {
+    "copyright_notice_observed_in_searchable_scan": "Copyright by Rev. Walter Anthony Cook, S.J.",
+    "redistribution_permission": "not_verified",
+    "repository_policy": "Do not ingest or redistribute third-party scan bytes until lawful reuse/access basis is verified.",
+    "blocked_or_uncertain": true
+  },
+  "provenance_dependency": {
+    "fieldwork_reported": "Author reports extended residence/work among Munda and Ho communities from 1953 to 1962.",
+    "named_contributors_or_archival_dependencies_reported": ["Menas Orea", "Martin Topno, S.J.", "Ranchi Catholic Mission archives", "Hoffmann / Encyclopaedia Mundarica materials"],
+    "audit_rule": "Examples or propositions traceable to Hoffmann/Encyclopaedia Mundarica or other prior sources must be dependency-tagged and must not be counted as independent corroboration. Privately supplied or community-derived material requires provenance/consent/cultural-access review before promotion."
+  },
+  "cultural_safety": {
+    "status": "review_required",
+    "rule": "Do not infer present-day cultural facts from a 1965 linguistic dissertation; do not promote community-derived narratives, archival manuscripts or recordings without passage-level provenance and applicable consent/access review."
+  },
+  "ingestion": {
+    "status": "metadata_canonicalized_exact_locator_ingestion_blocked_pending_rights_and_permitted_bytes",
+    "target_locator": "<lawfully-obtained-immutable-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>",
+    "required_before_promotion": [
+      "lawful reusable/access-controlled immutable bytes",
+      "SHA-256",
+      "PDF-to-printed-page concordance",
+      "exact passage/example locator",
+      "passage-level source/dependency classification",
+      "rights/access decision",
+      "consent/cultural-access review where community-derived material is involved"
+    ]
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Metadata and source identity are verified, but reusable immutable bytes, exact locator concordance and rights/provenance gates are not yet satisfied."
+  },
+  "release_accounting": {
+    "count_in_controlled_claim_or_evidence_totals": false,
+    "gap_status": "explicit_unresolved_ingestion_gap",
+    "fabricated_counts": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "run": 323,
+  "audit_date": "2026-09-14",
+  "search_id": "MMSC-SEARCH-000323",
+  "scope": "Systematic refresh across the 14 controlled Master Munda Source Census classes",
+  "classes": [
+    "books_ethnography",
+    "dictionaries_lexica_grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_tri_census_lsi",
+    "archives_manuscripts",
+    "newspapers_news",
+    "web_resources",
+    "datasets_corpora",
+    "audio",
+    "video_documentary",
+    "maps_atlases",
+    "museum_heritage_objects",
+    "music_media_recordings"
+  ],
+  "notable_reobservations_or_candidates": [
+    {
+      "type": "peer_reviewed_article",
+      "title": "Coping with Changing Sociocultural Environment in Sundarban Islands: A Study of Munda Identity",
+      "year": 2026,
+      "state": "discovery_candidate_pending_numbered_register_reconciliation"
+    },
+    {
+      "type": "book",
+      "title": "Megalithic Monuments and Living Traditions in Jharkhand",
+      "state": "discovery_candidate_pending_numbered_register_reconciliation"
+    },
+    {
+      "type": "government_tri",
+      "title": "Munda | Tribal Welfare Research Institute Jharkhand",
+      "state": "reobserved_first_party_web_resource_no_new_claim_promotion"
+    },
+    {
+      "type": "map",
+      "title": "LSI map of Munda languages",
+      "state": "reobserved_secondary_file_surface_pending_primary_page_verification"
+    },
+    {
+      "type": "web_resource",
+      "title": "Tribal Lingua Mundari learning path",
+      "state": "reobserved_web_resource_pending_source_and_governance_reconciliation"
+    },
+    {
+      "type": "documentary",
+      "title": "Aabua Paika Kabu Bageya",
+      "state": "discovery_only_pending_rights_consent_community_and_cultural_access_review"
+    },
+    {
+      "type": "music_media",
+      "title": "Commercially distributed Mundari recordings",
+      "state": "discovery_only_no_audio_ingestion_without_rights_and_cultural_access_clearance"
+    }
+  ],
+  "excluded_false_friend": {
+    "example": "Mundari Dance from South Sudan",
+    "reason": "Nilotic Mundari/Mundari naming collision; not an Austroasiatic Munda/Mundari source"
+  },
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_policy": "Search observations do not alter controlled MMSC counts until deterministic deduplication, canonicalization, and numbered-register reconciliation are completed.",
+  "governance_boundary": "Discoverability or commercial/public availability does not establish ingestion permission, community validation, consent, or cultural-access authorization."
+}

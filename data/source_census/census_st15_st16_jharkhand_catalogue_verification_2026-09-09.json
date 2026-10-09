@@ -1,0 +1,46 @@
+{
+  "verification_id": "MMSC-VERIFY-2026-09-09-ST15-ST16-JH",
+  "verified_utc": "2026-09-09T01:35:00Z",
+  "scope": "Official ORGI catalogue-level verification only; no numeric census values promoted.",
+  "sources": [
+    {
+      "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "reference_id": "PC11_ST15-20",
+      "reference_number": "PC11_ST15",
+      "official_workbook_filename": "ST-20-00-15-DDW-2011.XLSX",
+      "official_catalogue": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+      "verified_catalogue_fields": [
+        "Jharkhand geographic unit code 20",
+        "counts/statistics table",
+        "unit of observation: individual (person)",
+        "Scheduled tribe row label includes Munda, Patar",
+        "mother-tongue labels include 91 MUNDA and 92 MUNDARI/Mundari"
+      ]
+    },
+    {
+      "title": "ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "reference_id": "PC11_ST16-20",
+      "reference_number": "PC11_ST16",
+      "official_workbook_filename": "ST-20-00-16-DDW-2011.XLSX",
+      "official_catalogue": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+      "verified_catalogue_fields": [
+        "Jharkhand state-level table",
+        "statistics: counts",
+        "unit of observation: individual (person)",
+        "universe: individuals from scheduled tribes in Jharkhand"
+      ]
+    }
+  ],
+  "promotion_boundary": {
+    "catalogue_identity_verified": true,
+    "workbook_bytes_verified": false,
+    "checksum_recorded": false,
+    "worksheet_verified": false,
+    "munda_mundari_row_verified_from_workbook": false,
+    "cell_coordinates_verified": false,
+    "numeric_claim_promoted": false
+  },
+  "audit_note": "The catalogue exposes exact official workbook filenames and schema/row-label metadata. Until the workbook bytes are lawfully obtained and checksummed and the relevant worksheet, row and cell coordinates are verified, no ST-15 or ST-16 demographic/bilingualism number may enter the public evidence chain.",
+  "rights_and_access": "Official catalogue accessibility does not by itself authorize unrestricted redistribution of underlying files; repository access and cultural-governance rules remain controlling.",
+  "release_effect": "Strengthens deterministic source identity and acquisition locator without changing audited source, claim, evidence or link counts."
+}

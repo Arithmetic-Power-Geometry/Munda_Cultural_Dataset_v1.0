@@ -1,0 +1,66 @@
+{
+  "run_id": 293,
+  "date_utc": "2026-09-13",
+  "stream": "grammar / government-CIIL bitstream render audit",
+  "source": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "publication_year": 1975,
+    "repository": "Bhasha Sanchika — CIIL Repository",
+    "persistent_handle": "https://hdl.handle.net/20.500.14705/8179",
+    "repository_item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "repository_file_name": "CIILP0091.pdf",
+    "bitstream_url": "https://sanchika.ciil.org/bitstreams/89ef3da1-d891-409b-8736-b416da17ec57/download",
+    "repository_reported_file_size": "9.63 KB"
+  },
+  "verification_this_run": {
+    "repository_file_link_resolved": true,
+    "bitstream_render_succeeded": true,
+    "renderer_reported_pdf_pages": 1,
+    "page_1_visual_identity_verified": true,
+    "page_1_visible_title": "Mundari Grammar",
+    "page_1_visible_author": "N. K. Sinha",
+    "page_1_visible_institution": "Central Institute of Indian Languages, Mysore-570006",
+    "full_1975_grammar_content_verified": false,
+    "byte_preserving_download_acquired": false,
+    "independent_hash_verified": false,
+    "ocr_verified": false
+  },
+  "interpretation": {
+    "safe_conclusion": "The repository bitstream currently resolves to a one-page PDF render whose visible cover identifies Mundari Grammar by N. K. Sinha and the Central Institute of Indian Languages. This does not establish that the full 1975 grammar is present in the exposed bitstream.",
+    "one_page_render_treated_as_complete_book": false,
+    "repository_reported_file_size_treated_as_byte_verified": false,
+    "visual_render_treated_as_ocr_verification": false
+  },
+  "access_and_rights": {
+    "repository_page_publicly_accessible": true,
+    "repository_footer_rights_notice": "© 2026 Bhasha Sanchika. All Rights Reserved",
+    "bulk_text_reuse_permission_verified": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false
+  },
+  "cultural_governance": {
+    "linguistic_examples_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "canonicalization": {
+    "canonical_key": "CIIL:SINHA:1975:MUNDARI_GRAMMAR",
+    "new_controlled_source_identity": false,
+    "controlled_count_change": false
+  },
+  "promotion": {
+    "promotion_level": "bitstream-resolved visual cover/page-count audit only",
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0
+  },
+  "explicit_gaps": [
+    "Acquire the exposed bitstream through a byte-preserving permitted path and independently compute a cryptographic hash.",
+    "Determine whether a complete multi-page manifestation exists elsewhere in the repository or another authorized holding; do not treat the current one-page render as the complete grammar.",
+    "Resolve reuse/redistribution conditions before any bulk textual ingestion.",
+    "Do not infer participant consent, community validation or cultural-access permission from repository availability."
+  ]
+}

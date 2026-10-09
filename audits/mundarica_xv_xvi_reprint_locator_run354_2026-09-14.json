@@ -1,0 +1,42 @@
+{
+  "audit_id": "MUNDARICA-REPRINT-000354",
+  "run": 354,
+  "date_utc": "2026-09-14",
+  "scope": "Volumes XV-XVI reprint bibliographic locator only",
+  "observations": [
+    {
+      "volume": "XV",
+      "edition_manifestation": "commercial 2009 reprint listing",
+      "provider": "Rekhta Books / Gyan Publishing House listing",
+      "isbn": "9788121203197",
+      "provider_reported_pages": 135,
+      "url": "https://rekhtabooks.com/products/encyclopaedia-mundarica-volume-vol-15th-hardcover",
+      "primary_historical_scan_resolved": false
+    },
+    {
+      "volume": "XVI",
+      "edition_manifestation": "commercial 2009 reprint listing",
+      "provider": "Dussmann listing for Gyan Books",
+      "isbn": "9788121203227",
+      "provider_reported_pages": 43,
+      "url": "https://www.kulturkaufhaus.de/de/detail/ISBN-9788121203227/Emelen-Sj/Encyclopaedia-Mundarica-Vol.16th",
+      "primary_historical_scan_resolved": false
+    }
+  ],
+  "verification_boundary": {
+    "bibliographic_reprint_locator_verified": true,
+    "reprint_bytes_acquired": false,
+    "reprint_hash_verified": false,
+    "historical_primary_manifestation_verified": false,
+    "printed_page_to_scan_image_concordance_verified": false,
+    "ocr_verified_pages": 0,
+    "complete_volume_verified": false,
+    "content_claims_promoted": 0
+  },
+  "interpretation": "These records reduce bibliographic ambiguity for later reprints but do not resolve the authoritative historical manifestation, the Volume XVI edition/plates relationship, or OCR/page completeness. They therefore do not change controlled Mundarica completion counts.",
+  "next_actions": [
+    "Locate authoritative or permitted primary historical manifestations for XV and XVI.",
+    "Reconcile historical volume/part/plates numbering against the 2009 16-volume reprint scheme.",
+    "Acquire permitted bytes and independently hash/page-account before OCR or claim promotion."
+  ]
+}

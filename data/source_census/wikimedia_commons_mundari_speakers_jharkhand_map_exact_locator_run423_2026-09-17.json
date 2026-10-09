@@ -1,0 +1,56 @@
+{
+  "run": 423,
+  "date_utc": "2026-09-16T19:44:00Z",
+  "stream": "non-Mundarica source census",
+  "source_class": "map/media",
+  "canonical_identity": {
+    "title": "Mundari Speakesrs in Jharkhand map.png",
+    "provider": "Wikimedia Commons",
+    "collection": "Linguistic maps of Jharkhand",
+    "provider_locator": "Category:Linguistic_maps_of_Jharkhand -> Mundari Speakesrs in Jharkhand map.png",
+    "identity_status": "provider-indexed media identity; spelling preserved from provider listing"
+  },
+  "verification": {
+    "provider_category_verified": true,
+    "provider_category_media_count": 11,
+    "listed_dimensions": "2000 x 2000",
+    "discovery_url": "https://commons.wikimedia.org/wiki/Category:Linguistic_maps_of_Jharkhand",
+    "repository_pre_ingestion_exact_search_match": false
+  },
+  "deduplication": {
+    "canonicalization_rule": "Commons category entry and any thumbnails/derivatives resolve to one underlying file identity; do not count render sizes as sources",
+    "merge_with_other_mundari_maps": false,
+    "reason": "No content/provenance equivalence established with other linguistic maps."
+  },
+  "scope": {
+    "language": "Mundari",
+    "geography": "Jharkhand, India",
+    "evidence_type": "cartographic/derived distribution media",
+    "priority": "supporting, not primary demographic authority"
+  },
+  "rights_access_consent": {
+    "publicly_viewable": true,
+    "item_level_license_verified": false,
+    "underlying_data_license_verified": false,
+    "community_consent_applicable_or_verified": false,
+    "cultural_access_status": "unverified",
+    "rule": "Public Commons hosting does not by itself establish correctness of underlying demographic data, community validation, or permission for culturally sensitive inference."
+  },
+  "exact_locator_plan": {
+    "locator": "immutable Commons file revision + original-file SHA-256 + image dimensions + source-data/provenance statement",
+    "promotion_requirements": [
+      "resolve exact Commons File page and immutable revision",
+      "verify item-level license and attribution requirements",
+      "materialize permitted original bytes and compute SHA-256",
+      "audit stated source dataset/year and map-generation method",
+      "compare geographic assertions against primary Census/ORGI evidence",
+      "do not infer settlement, identity, sacred/cultural boundaries, or current population from visual shading alone"
+    ]
+  },
+  "promotion": {
+    "public_factual_claim_promoted": false,
+    "evidence_record_promoted": false,
+    "reason": "Category-level discovery verifies media identity only; exact file revision, license, bytes/hash and source-data provenance remain unresolved."
+  },
+  "gap_state": "explicit_open_gap"
+}

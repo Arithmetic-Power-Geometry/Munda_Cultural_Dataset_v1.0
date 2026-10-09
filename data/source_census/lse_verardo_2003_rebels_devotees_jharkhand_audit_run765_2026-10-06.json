@@ -1,0 +1,85 @@
+{
+  "run_id": 765,
+  "date": "2026-10-06",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": "thesis_dissertation",
+  "canonical_candidate_id": "LSE_ETHESES|EPRINT:2521",
+  "identity": {
+    "title": "Rebels and devotees of Jharkhand: Social, religious and political transformations among the adivasis of northern India.",
+    "author": "Barbara Verardo",
+    "year": 2003,
+    "type": "PhD thesis",
+    "institution": "London School of Economics and Political Science",
+    "authoritative_record": "https://etheses.lse.ac.uk/2521/",
+    "persistent_uri": "http://etheses.lse.ac.uk/id/eprint/2521",
+    "pdf_manifestation": "14 MB PDF exposed by institutional record; automated retrieval blocked in this audit"
+  },
+  "scope": {
+    "communities": [
+      "Ho",
+      "Munda"
+    ],
+    "geography": "forested area of Jharkhand, northern India",
+    "topics": [
+      "ethnography",
+      "social transformation",
+      "religious transformation",
+      "political transformation",
+      "land/forest relations"
+    ],
+    "scope_warning": "Mixed Ho/Munda study. No statement may be promoted as Munda-specific unless the full text and exact locator distinguish the relevant community and empirical basis."
+  },
+  "exact_locators": [
+    {
+      "locator": "institutional record, abstract",
+      "status": "verified",
+      "supports": "bibliographic identity, mixed Ho/Munda scope, ethnographic/anthropological study characterization"
+    },
+    {
+      "locator": "full thesis PDF",
+      "status": "blocked",
+      "reason": "institutional record exposes a 14 MB PDF, but automated preview/full-text retrieval was blocked during this audit"
+    }
+  ],
+  "rights_access_consent": {
+    "record_access": "public institutional metadata",
+    "fulltext_access": "download advertised; automated retrieval blocked this run",
+    "redistribution": "not established",
+    "participant_consent": "not verified",
+    "community_consent": "not verified",
+    "cultural_access": "not verified",
+    "rule": "Public repository availability is not treated as permission to redistribute thesis content or culturally sensitive material."
+  },
+  "deduplication": {
+    "repository_code_search": [
+      "Verardo"
+    ],
+    "result": "0 indexed matches; incomplete_results=true",
+    "interpretation": "reconciliation signal only, not proof of absence from mlhkp-v2 ledgers"
+  },
+  "promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence": 0,
+    "promoted_links": 0,
+    "promoted_modules": 0,
+    "reason": "Full-text exact-page inspection, methods/participant provenance, rights and consent/cultural-access review are required before proposition promotion."
+  },
+  "blockers": [
+    "full PDF retrieval blocked in this audit",
+    "printed/PDF page concordance not established",
+    "Munda-specific passage separation not completed",
+    "rights/reuse not established",
+    "participant/community consent not verified",
+    "upstream dependency separation pending",
+    "MMSC/WEB-MUN reconciliation pending"
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "next_action": "Obtain lawful readable institutional PDF, checksum/size it where permitted, inspect methodology/ethics and Munda-specific passages, then create exact-page evidence only for independently supported permitted propositions."
+}

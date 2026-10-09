@@ -1,0 +1,56 @@
+{
+  "audit_run": 581,
+  "audit_date": "2026-09-22",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source": {
+    "title_original": "मुण्डारी बेयाकरण",
+    "title_romanized_provider": "Mundari Beyakaran",
+    "author": "Sikradas Tirki",
+    "year": 2015,
+    "publisher": "K. K. Publications, Allahabad",
+    "type": "grammar/book",
+    "languages": ["Mundari", "Hindi"],
+    "ciil_handle": "https://hdl.handle.net/20.500.14705/8450",
+    "ciil_item": "https://sanchika.ciil.org/items/688fba05-30b7-40ca-af70-51764a10efe4/full",
+    "bharatavani_identifier": "BVP03961",
+    "rights_holder_reported_by_ciil": "Sikradas Tirki",
+    "provider_file_name": "BVP03961.pdf",
+    "provider_file_display_size": "24.04 KB"
+  },
+  "identity_verification": {
+    "status": "verified_metadata",
+    "authority": "Central Institute of Indian Languages Bhasha Sanchika",
+    "provider_description": "The book is a Grammar on Mundari Language.",
+    "dedup_search": "Exact repository search for 'Mundari Beyakaran' returned no existing match before this audit.",
+    "canonicalization_rule": "CIIL/Bhasha Sanchika record, Bharatavani record/file and any lawful mirrors are manifestations/catalogue records of the same 2015 work unless substantive edition differences are demonstrated."
+  },
+  "scope": {
+    "relevance": "direct Mundari grammar",
+    "class": ["book", "grammar", "government-language-repository", "web-resource"],
+    "mundarica_exclusion": true
+  },
+  "rights_access_cultural_controls": {
+    "catalogue_access": "public metadata",
+    "rights": "copyright holder reported as Sikradas Tirki; no redistribution licence established by this audit",
+    "binary_ingestion_permitted": false,
+    "cultural_uncertainty": "Grammar examples must not be generalized beyond the work's documented variety, locality, speakers/consultants and period without support.",
+    "consent": "No speaker/consultant consent determination made from catalogue metadata."
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Metadata verifies a source identity but does not provide proposition-level exact locators or redistribution permission."
+  },
+  "conversion_queue": [
+    "Obtain the authoritative full text through a permitted access path and compute a manifestation hash.",
+    "Verify title page, edition/publication details, pagination and printed-page-to-digital-page concordance.",
+    "Inspect preface/methodology for dialect, locality, consultant/speaker and elicitation/source information.",
+    "Create proposition-level records only with exact page/section/example locators.",
+    "Separate the author's analysis and examples from inherited/cited material.",
+    "Verify file-level reuse/redistribution rights before storing any binary.",
+    "Preserve unresolved cultural, temporal and geographic scope explicitly."
+  ],
+  "source_quality": "institutional bibliographic metadata; cultural/linguistic propositions not yet audited",
+  "release_effect": "new canonical discovery/audit only; controlled counts must not increment until deterministic ledger reconciliation and supported exact-locator promotion"
+}

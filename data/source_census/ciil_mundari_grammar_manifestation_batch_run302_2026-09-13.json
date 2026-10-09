@@ -1,0 +1,73 @@
+{
+  "run": 302,
+  "date_utc": "2026-09-13",
+  "branch": "mlhkp-v2",
+  "scope": "non-Mundarica source-census; exact first-party bibliographic/file locators only",
+  "canonicalization_policy": "Distinct authored works remain distinct canonical works; repository/Bharatavani aliases are manifestations/locators, not duplicate source identities. No lexical, grammatical-example, ethnographic, participant-derived, or cultural proposition is promoted without exact permitted source evidence.",
+  "records": [
+    {
+      "canonical_title": "मुण्डारी बेयाकरण / Mundari Beyakaran",
+      "author": "Sikradas Tirki",
+      "year": 2015,
+      "publisher": "K. K. Publications, Allahabad",
+      "repository": "Bhasha Sanchika, Central Institute of Indian Languages, Ministry of Education, Government of India",
+      "handle": "https://hdl.handle.net/20.500.14705/8450",
+      "repository_identifier": "BVP03961",
+      "file_locator": "BVP03961.pdf",
+      "repository_reported_file_size": "24.04 KB",
+      "repository_subject_languages": ["Mundari", "Hindi"],
+      "repository_type": ".pdf",
+      "repository_rights_holder": "Sikradas Tirki",
+      "verification_level": "exact first-party metadata + file locator",
+      "content_ingested": false,
+      "rights_state": "repository page states All Rights Reserved; license.txt exists but its text was not independently inspected in this run",
+      "open_gaps": ["authorized PDF bytes", "independent cryptographic hash", "page inventory", "license.txt text", "exact internal locators", "reuse scope", "cultural-access review if culturally sensitive material is encountered"]
+    },
+    {
+      "canonical_title": "मुण्डारी-व्याकरण / Mundari-Vyakaran",
+      "author": "Ramdayal Munda",
+      "year": 2013,
+      "publisher": "Rumbul Ranchi Jharkhand",
+      "repository": "Bhasha Sanchika, Central Institute of Indian Languages, Ministry of Education, Government of India",
+      "handle": "https://hdl.handle.net/20.500.14705/8429",
+      "repository_identifier": "BVP00202",
+      "file_locator": "BVP00202.pdf",
+      "repository_reported_file_size": "9.04 KB",
+      "repository_subject_languages": ["Mundari", "Hindi"],
+      "repository_type": ".pdf",
+      "repository_rights_holder": "RUMBUL",
+      "verification_level": "exact first-party metadata + file locator",
+      "content_ingested": false,
+      "rights_state": "repository page states All Rights Reserved; license.txt exists but its text was not independently inspected in this run",
+      "open_gaps": ["authorized PDF bytes", "independent cryptographic hash", "page inventory", "license.txt text", "exact internal locators", "reuse scope", "cultural-access review if culturally sensitive material is encountered"]
+    },
+    {
+      "canonical_title": "नवा होड़ो जगर मुंडि (नवीन मुण्डारी व्याकरण) / Nava Hoda Jagar Mundi (Naveen Mundari Vyakaran)",
+      "author": "Mansidh Baraiud",
+      "year": 2017,
+      "publisher": "Catholic Press, Ranchi",
+      "repository": "Bhasha Sanchika, Central Institute of Indian Languages, Ministry of Education, Government of India",
+      "repository_identifier": "BVP04856",
+      "file_locator": "BVP04856.pdf",
+      "repository_reported_file_size": "289.84 KB",
+      "repository_subject": "Mundari grammar",
+      "verification_level": "exact first-party metadata + file locator",
+      "content_ingested": false,
+      "rights_state": "repository site states All Rights Reserved; no bulk reuse permission inferred",
+      "open_gaps": ["stable handle/full metadata record reconciliation", "authorized PDF bytes", "independent cryptographic hash", "page inventory", "license text", "exact internal locators", "reuse scope", "cultural-access review if culturally sensitive material is encountered"]
+    }
+  ],
+  "promotion_summary": {
+    "new_controlled_cultural_claims": 0,
+    "new_controlled_linguistic_claims": 0,
+    "new_controlled_evidence_records": 0,
+    "new_provenance_links": 0,
+    "new_exact_manifestation_locators": 3,
+    "count_effect": "count-neutral pending deterministic reconciliation against numbered WEB-MUN/source-register identities"
+  },
+  "source_urls": [
+    "https://sanchika.ciil.org/items/688fba05-30b7-40ca-af70-51764a10efe4/full",
+    "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636/full",
+    "https://sanchika.ciil.org/items/15f0b9a2-d921-48b8-906e-c445332ae32b"
+  ]
+}

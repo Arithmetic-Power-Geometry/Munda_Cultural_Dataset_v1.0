@@ -1,0 +1,65 @@
+{
+  "project": "MLHKP",
+  "run": 531,
+  "branch": "mlhkp-v2",
+  "audit_date": "2026-09-20",
+  "source_class": ["peer-reviewed article", "ethnography", "web/PDF scholarly resource"],
+  "canonical_source": {
+    "author": "Mohan Kumar Bera",
+    "year": 2025,
+    "title": "Exploring Strategies to Maintain Tribal Identity in Sundarban Island, India",
+    "journal": "CASTE: A Global Journal on Social Exclusion",
+    "volume": "6",
+    "issue": "2",
+    "pages": "434-450",
+    "doi": "10.26812/caste.v6i2.2554",
+    "published": "2025-11-02",
+    "provider": "Brandeis University Library journal platform",
+    "landing_page": "https://journals.library.brandeis.edu/index.php/caste/article/view/2554",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+  },
+  "scope": {
+    "community": "Munda",
+    "location": "Indian Sundarban islands",
+    "topics": ["tribal identity", "acculturation", "livelihood", "language use", "social discrimination", "sociocultural adaptation"],
+    "method_reported_by_source": "ethnographic study in a village of the Indian Sundarban"
+  },
+  "identity_verification": {
+    "status": "verified_at_article_landing_page",
+    "provider_metadata_verified": ["author", "title", "publication date", "volume", "issue", "pages", "DOI", "PDF availability", "CC BY 4.0 license"],
+    "notes": "Treat landing page, PDF and DOI manifestations as one canonical article identity, not independent corroborating sources."
+  },
+  "locator_state": {
+    "level": "article_and_page_range_locator_ready",
+    "article_pages": "434-450",
+    "exact_claim_page_or_passage_locators": "pending_direct_PDF_passage_audit",
+    "immutable_local_sha256": "pending_lawful_capture"
+  },
+  "rights_access_consent_cultural_review": {
+    "article_reuse": "CC BY 4.0 reported by provider; attribution required",
+    "underlying_fieldwork_data_reuse": "not established by article license alone",
+    "participant_reuse_consent": "not established",
+    "community_validation": "not established",
+    "cultural_access_status": "unresolved",
+    "rule": "Open article licensing does not automatically license underlying interviews, field notes, photographs, recordings or culturally sensitive knowledge."
+  },
+  "dependency_and_deduplication": {
+    "canonical_key": "doi:10.26812/caste.v6i2.2554",
+    "deduplicate": ["landing-page manifestation", "PDF manifestation", "DOI manifestation", "citation/search snippets"],
+    "independence_rule": "Statements explicitly sourced by the article to Census, earlier publications, or field participants must retain those dependencies and must not be counted as independent corroboration merely because they appear in this article."
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "reason": "Direct PDF passage review, exact claim locators, dependency tagging, and participant/cultural-access review remain required before controlled cultural-evidence promotion."
+  },
+  "next_actions": [
+    "lawfully obtain the provider PDF and calculate SHA-256",
+    "verify PDF pagination against the journal page range",
+    "extract exact page/section locators only for claims supported directly by the article",
+    "tag Census/book/participant dependencies at claim level",
+    "keep underlying ethnographic materials outside redistribution unless separately licensed and consent-cleared",
+    "promote only evidence that passes rights, provenance, consent and cultural-access gates"
+  ]
+}

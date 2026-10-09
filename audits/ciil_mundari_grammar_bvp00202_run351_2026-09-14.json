@@ -1,0 +1,41 @@
+{
+  "audit_id": "CIIL-BVP00202-RUN351",
+  "run": 351,
+  "audited_utc": "2026-09-14T12:58:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "grammar/government-language-resource",
+  "institution": "Central Institute of Indian Languages, Bhasha Sanchika / Bharatavani Catalogue",
+  "title": "मुण्डारी-व्याकरण (Mundari-Vyakaran)",
+  "author": "Ramdayal Munda",
+  "provider_publication_year": 2013,
+  "provider_publisher": "Rumbul Ranchi Jharkhand",
+  "provider_identifier": "BVP00202",
+  "handle": "https://hdl.handle.net/20.500.14705/8429",
+  "item_url": "https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+  "bitstream_url": "https://sanchika.ciil.org/bitstreams/d8130cd5-8f45-4368-8d89-ade07c736191/download",
+  "provider_file_name": "BVP00202.pdf",
+  "provider_reported_file_size": "9.04 KB",
+  "provider_rights_holder": "RUMBUL",
+  "verification": {
+    "first_party_item_metadata_verified": true,
+    "bitstream_endpoint_resolved": true,
+    "pdf_renderer_opened": true,
+    "rendered_pages_observed": 1,
+    "cover_visual_title_author_publisher_consistent": true,
+    "independent_binary_download_succeeded": false,
+    "independent_sha256_verified": false,
+    "full_page_count_verified": false,
+    "text_extraction_verified": false,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0
+  },
+  "governance": {
+    "public_availability_is_reuse_permission": false,
+    "rights_holder_metadata_is_license_grant": false,
+    "community_validation_verified": false,
+    "cultural_access_authorized": false,
+    "promotion_allowed": false
+  },
+  "blocker": "The first-party bitstream endpoint renders a one-page PDF cover in the web inspection path, but independent binary materialization failed in the execution environment. Byte hash, full pagination, textual contents, reuse terms beyond rights-holder metadata, community validation and cultural-access authorization therefore remain unresolved.",
+  "release_effect": "Exact locator and first-party metadata strengthened; no evidence-graph count change and no linguistic/cultural factual claim promotion."
+}

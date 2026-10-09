@@ -1,0 +1,38 @@
+{
+  "run": 365,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "synchronized_components": {
+    "mmsc_search_log": "audits/mmsc_refresh_run365_2026-09-15.json",
+    "source_locator_audit": "audits/original_atlas_grambank_exact_locator_run365_2026-09-15.json",
+    "tests": "tests/test_run365_atlas_grambank_boundary.py",
+    "status": "status/mlhkp_progress.json"
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_registered_modules": 42
+  },
+  "changes_required": {
+    "streamlit_universal_search_or_modules": false,
+    "evidence_graph_counts": false,
+    "publication_release_metrics": false,
+    "publication_tables_or_figures": false,
+    "completeness_gap_matrix": true,
+    "status_progress_json": true
+  },
+  "gap_matrix_updates": [
+    "Replace generic Atlas verification gap with exact ORGI Jharkhand Administrative Atlas Vol I/II locator state; bytes/hash/pages and language-distribution use remain open.",
+    "Add Grambank exact Mundari database/source-genealogy state; feature-level trace-back and underlying-source rights remain open.",
+    "Retain 73 unresolved WEB-MUN dispositions as dominant deterministic-reconciliation gap."
+  ],
+  "reason_no_ui_graph_publication_numeric_change": "Run 365 improves locator/provenance specificity without promoting a new controlled claim or reconciling a new numbered source identity, so numerical UI, graph, table, and figure outputs must remain unchanged.",
+  "release_gate": "NOT_PASS"
+}

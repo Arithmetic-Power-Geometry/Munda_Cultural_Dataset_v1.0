@@ -1,0 +1,86 @@
+{
+  "project": "MLHKP",
+  "run": 641,
+  "audit_date": "2026-09-26",
+  "stream": "non-Mundarica source census",
+  "canonical_work": {
+    "authors": [
+      "Laxmi Kumari",
+      "Mojibur Rahman"
+    ],
+    "year": 2021,
+    "title": "Munda Tribe Perception Towards Livelihood Through Sustainable Development",
+    "type": "peer-reviewed journal article",
+    "journal": "Problemy Ekorozwoju – Problems of Sustainable Development",
+    "volume": "16",
+    "issue": "1",
+    "pages": "181–185",
+    "doi": "10.35784/pe.2021.1.19"
+  },
+  "identity_verification": {
+    "verified_from": [
+      "publisher article record",
+      "publisher PDF",
+      "publisher issue table of contents"
+    ],
+    "publisher_pdf_locator": "https://ph.pollub.pl/index.php/preko/article/download/5271/4152/20457",
+    "notes": "Publisher PDF is openly readable and supplies printed-page text for pp. 181–185."
+  },
+  "deduplication": {
+    "repository_search_queries": [
+      "10.35784/pe.2021.1.19",
+      "Munda Tribe Perception Towards Livelihood Through Sustainable Development"
+    ],
+    "existing_match_found": false,
+    "search_caveat": "GitHub code-search responses returned total_count 0 with incomplete_results=true; treat as repository-unmatched candidate, not a proof of global absence.",
+    "canonicalization_rule": "DOI landing page, publisher HTML/PDF, AGRIS/DOAJ-derived records, ResearchGate and citation mirrors are manifestations/index records of one work, not independent corroborating sources."
+  },
+  "scope": {
+    "classification": "direct Munda/Jharkhand topical article; largely synthetic/descriptive rather than a clearly documented primary field study",
+    "exact_locator_families": [
+      {
+        "printed_page": 183,
+        "pdf_page_index": 2,
+        "section": "Primitive Tribes of Jharkhand / Situation of Munda Tribe in Jharkhand"
+      },
+      {
+        "printed_page": 184,
+        "pdf_page_index": 3,
+        "section": "Socio-Capital and Cultural Development among Munda Tribe"
+      },
+      {
+        "printed_page": 184,
+        "pdf_page_index": 3,
+        "section": "Non-Wood Forest Product (NWFP) and Sustainable Livelihood for Munda Tribe"
+      },
+      {
+        "printed_page": 185,
+        "pdf_page_index": 4,
+        "section": "Needs and Significance of the Study / Conclusion"
+      }
+    ],
+    "dependency_warning": "Many factual statements are broad synthesis and the paper does not expose a primary-sampling/methods section supporting them as new empirical observations. Upstream citations and source dependency must be resolved proposition-by-proposition before controlled cultural promotion."
+  },
+  "rights_access_consent": {
+    "access": "open publisher PDF",
+    "license": "CC BY-SA 4.0 shown by publisher article record",
+    "redistribution_note": "License supports reuse subject to attribution/share-alike, but does not create participant/community consent or cultural entitlement.",
+    "participant_consent": "not established from inspected article text",
+    "cultural_access_status": "unresolved for culturally sensitive propositions"
+  },
+  "promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Exact printed-page locators were obtained, but source-dependency and evidentiary quality checks do not justify treating broad descriptive synthesis as independently observed Munda cultural facts. Preserve as locator-ready secondary evidence candidate."
+  },
+  "conversion_queue": [
+    "atomize candidate propositions on pp. 183–185",
+    "map each proposition to explicit upstream citation or mark authorial synthesis",
+    "prefer primary/official sources where the article is derivative",
+    "promote only propositions whose scope, dependency, rights and cultural-governance status are supportable",
+    "do not infer participant consent or contemporary universality"
+  ],
+  "release_effect": "new exact-locator source audit; controlled metrics unchanged pending deterministic MMSC reconciliation"
+}

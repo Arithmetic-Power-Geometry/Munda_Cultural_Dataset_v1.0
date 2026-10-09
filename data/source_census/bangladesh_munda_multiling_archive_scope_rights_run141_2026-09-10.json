@@ -1,0 +1,61 @@
+{
+  "record_type": "source_scope_rights_exact_locator_audit",
+  "run_id": 141,
+  "verified_on": "2026-09-10",
+  "candidate": {
+    "title": "Munda | Multiling Cloud digital archive",
+    "primary_locator": "https://lob.bangla.gov.bd/languages/munda",
+    "alternate_locator": "https://multiling.cloud/languages/munda",
+    "host_context": "Government of Bangladesh .gov.bd language portal / Multiling Cloud",
+    "reported_archive_density": 860,
+    "reported_resource_type": "phonetic transcriptions and audio recordings",
+    "reported_collection_labels": ["Community Contributors", "Munda Field Recording", "Full Archive"]
+  },
+  "identity_and_scope_decision": {
+    "dedupe_key": "url:lob.bangla.gov.bd/languages/munda",
+    "decision": "Treat the government-domain and multiling.cloud pages as access manifestations of one candidate archive, not separate source identities.",
+    "mundari_equivalence_verified": false,
+    "reason": "The live page labels the resource Munda and locates it in Bangladesh. MLHKP must not silently equate this label with Indian Mundari [unr] or any other Munda/Mundari identifier without independent taxonomy and collection-documentation reconciliation.",
+    "audited_identity_promotion": false
+  },
+  "exact_locators_verified": [
+    "Government-domain landing page: https://lob.bangla.gov.bd/languages/munda",
+    "Alternate public landing page: https://multiling.cloud/languages/munda",
+    "Page section label: Digital Archive / Full Archive",
+    "Page-reported resource density: 860",
+    "Page-reported content type: phonetic transcriptions and audio recordings"
+  ],
+  "rights_consent_cultural_boundary": {
+    "public_index_is_reuse_permission": false,
+    "page_notice": "All rights reserved",
+    "speaker_consent_for_mlhkp_reuse_verified": false,
+    "recording_provenance_complete": false,
+    "privacy_publicity_review_complete": false,
+    "community_validation_verified": false,
+    "cultural_access_review_complete": false,
+    "content_level_ingestion_permitted_now": false
+  },
+  "not_promoted": [
+    "audio bytes",
+    "phonetic transcriptions",
+    "lexical entries",
+    "speaker identities",
+    "speaker-level metadata",
+    "cultural claims",
+    "language-equivalence claim between Bangladesh Munda and Indian Mundari",
+    "community-validation claim"
+  ],
+  "release_effect": {
+    "web_discovery_lead_delta": 1,
+    "audited_source_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "provenance_link_delta": 0,
+    "gap_narrowed": "A previously untracked government-hosted archive stream is now explicitly located, deduplicated to one access identity, classified as scope-uncertain, and rights/consent/cultural-access gated instead of being silently omitted or incorrectly merged."
+  },
+  "next_verification": [
+    "Resolve archive language identifier and relationship, if any, to Mundari [unr] using authoritative linguistic metadata.",
+    "Locate collection methodology, contributor/speaker consent terms, recording provenance and item-level rights.",
+    "Only after identity and rights gates pass, inspect individual records and create exact item/segment locators without bulk ingestion by default."
+  ]
+}

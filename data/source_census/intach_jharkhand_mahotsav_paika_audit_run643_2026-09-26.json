@@ -1,0 +1,51 @@
+{
+  "run": 643,
+  "date_utc": "2026-09-26",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Jharkhand Mahotsav",
+    "archive": "INTACH Intangible Cultural Heritage Archive",
+    "collection_id": "JHAR_X",
+    "source_class": "institutional archive / festival-programme record",
+    "url": "https://icharchive.intach.org/Detail/collections/204"
+  },
+  "scope": {
+    "event": "Jharkhand Mahotsav",
+    "collaborators": [
+      "INTACH",
+      "Jharkhand Department of Tourism",
+      "Kalamandir, Jamshedpur",
+      "Sangeet Natak Akademi"
+    ],
+    "munda_specificity": "archive record explicitly identifies an evening Paika dance recital as 'of the Munda Tribe'"
+  },
+  "verification": {
+    "institutional_record_inspected": true,
+    "exact_locator": "INTACH archive collection JHAR_X, About paragraph 3 / web lines 9-11 in retrieved manifestation",
+    "repository_search": "Jharkhand Mahotsav Paika INTACH: 0 matches",
+    "dedup_status": "repository-unmatched candidate in connector search; canonicalize collection page/PDF manifestations as one archive record"
+  },
+  "governance": {
+    "rights_status": "INTACH page states © Copyright 2026, all rights reserved; website content/downloadable files may not be reproduced without copyright-owner permission",
+    "participant_consent_status": "not established",
+    "performer_identity_status": "not established",
+    "cultural_access_status": "not established",
+    "binary_ingestion_permitted": false
+  },
+  "promotion": {
+    "identities_added_to_controlled_register": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Institutional event metadata supports a narrow event-programme assertion only; rights, performer provenance, consent and cultural-access status do not permit media/content promotion."
+  },
+  "conversion_path": [
+    "inspect linked collection objects/PDF without redistributing restricted content",
+    "resolve event year/date metadata and performer/troupe identity",
+    "resolve locality/provenance and participant/community consent",
+    "retain event-specific scope; do not generalize Paika metadata into timeless Munda cultural fact",
+    "promote only permitted exact-object/event evidence after deterministic MMSC reconciliation"
+  ]
+}

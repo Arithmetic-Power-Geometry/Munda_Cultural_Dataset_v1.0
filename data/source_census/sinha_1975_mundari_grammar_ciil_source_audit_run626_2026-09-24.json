@@ -1,0 +1,57 @@
+{
+  "run": 626,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "author": "N. K. Sinha",
+    "title": "Mundari Grammar",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages",
+    "series": "CIIL Grammar Series",
+    "volume": "2",
+    "language_scope": ["English", "Mundari"],
+    "canonical_handle": "https://hdl.handle.net/20.500.14705/8179",
+    "authoritative_repository": "Bhasha Sanchika — CIIL Repository"
+  },
+  "identity_verification": {
+    "ciil_repository_verified": true,
+    "wals_bibliography_crosscheck_verified": true,
+    "bharatavani_manifestation_verified": true,
+    "dedup_precheck_repository_exact_author_title": "no match surfaced by GitHub code search before insertion",
+    "canonicalization_rule": "CIIL/Sanchika, Bharatavani and WALS records refer to one 1975 work; they are manifestations/catalogue references, not independent evidentiary corroboration."
+  },
+  "scope_classification": {
+    "class": ["book", "grammar", "institutional language resource"],
+    "munda_specific": true,
+    "description_verified": "CIIL describes a pedagogically organized grammar covering noun morphology, verb morphology, adjectives/adverbs and syntax/constituent order."
+  },
+  "access_rights_governance": {
+    "ciil_landing_page_public": true,
+    "bharatavani_requires_login_to_read": true,
+    "redistribution_permission_verified": false,
+    "binary_ingested": false,
+    "reason": "Public catalogue/repository discoverability does not by itself establish permission to redistribute the underlying work."
+  },
+  "evidence_promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "promotion_state": "exact-locator candidate; not yet promoted",
+    "required_before_promotion": [
+      "obtain authoritative readable manifestation lawfully",
+      "verify edition and complete pagination against bibliographic record",
+      "hash stored manifestation only where storage/reuse is permitted",
+      "establish printed-page to digital-page concordance",
+      "extract atomic linguistic propositions with exact page/section/table/example locators",
+      "distinguish author analysis/examples from cited or elicited material",
+      "preserve dialect/variety, elicitation and geographic scope where stated",
+      "do not infer cultural claims from linguistic examples without explicit support"
+    ]
+  },
+  "verified_external_records": [
+    {"provider":"CIIL Bhasha Sanchika","locator":"https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205","handle":"https://hdl.handle.net/20.500.14705/8179"},
+    {"provider":"WALS Online","locator":"https://wals.info/refdb/record/Sinha-1975"},
+    {"provider":"Bharatavani","locator":"https://bharatavani.in/home/book?id=Mundari+Grammar"}
+  ],
+  "audit_note": "This run advances a high-value institutional grammar source into the controlled conversion queue without treating catalogue metadata or typological database reuse as independent cultural evidence."
+}

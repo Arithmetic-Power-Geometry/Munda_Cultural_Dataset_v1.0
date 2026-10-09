@@ -1,0 +1,74 @@
+{
+  "run": 642,
+  "date_utc": "2026-09-26",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Forest Resources Use for Building Livelihood Resilience in Ethnic Communities of Jharkhand",
+    "authors": [
+      "M.A. Islam",
+      "R. Rai",
+      "S.M.S. Quli"
+    ],
+    "journal": "Trends in Biosciences",
+    "year": 2015,
+    "volume": "8",
+    "issue": "5",
+    "pages": "1256-1264",
+    "online_publication_date": "2016-11-28",
+    "discovery_url": "https://indianjournals.com/article/tbs-8-5-034"
+  },
+  "scope": {
+    "geography": "Bundu block, Ranchi district, Jharkhand, India",
+    "populations": [
+      "Munda",
+      "Oraon",
+      "Lohara"
+    ],
+    "source_class": "peer-reviewed/article-index record",
+    "munda_specificity": "mixed-population study; retrieved abstract does not establish tribe-stratified results"
+  },
+  "verification": {
+    "metadata_verified_from": "IndianJournals.com article record",
+    "full_text_inspected": false,
+    "exact_locator_status": "bibliographic page range 1256-1264 verified; proposition-level printed-page locators not yet verified",
+    "repository_searches": [
+      {
+        "term": "exact title",
+        "result": "0 matches; GitHub reported incomplete_results=true"
+      },
+      {
+        "term": "1256 1264",
+        "result": "0 matches; GitHub reported incomplete_results=true"
+      },
+      {
+        "term": "M.A. Islam",
+        "result": "0 matches; GitHub reported incomplete_results=true"
+      }
+    ],
+    "dedup_status": "repository-unmatched candidate, provisional because code-search results were incomplete"
+  },
+  "governance": {
+    "public_access_does_not_equal_redistribution_permission": true,
+    "rights_status": "not established from retrieved metadata",
+    "participant_consent_status": "not established from retrieved metadata",
+    "cultural_access_status": "not established",
+    "binary_ingestion_permitted": false
+  },
+  "promotion": {
+    "identities_added_to_controlled_register": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Mixed Munda/Oraon/Lohara abstract-level findings cannot be attributed specifically to Munda without full-text methods/results stratification; rights and consent also unresolved."
+  },
+  "conversion_path": [
+    "obtain lawful authoritative full text",
+    "verify printed-page/PDF concordance for pp. 1256-1264",
+    "inspect sampling, village/locality, dates, participant/consent and methods",
+    "separate pooled findings from tribe-stratified Munda findings",
+    "resolve reuse rights and cultural-access status",
+    "create atomic exact-page evidence only for supported Munda-specific propositions"
+  ]
+}

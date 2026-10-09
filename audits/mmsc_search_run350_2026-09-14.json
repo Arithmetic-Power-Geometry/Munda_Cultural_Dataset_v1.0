@@ -1,0 +1,34 @@
+{
+  "run": 350,
+  "captured_date": "2026-09-14",
+  "search_id": "MMSC-SEARCH-000350",
+  "classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer-reviewed articles","theses","government/TRI/Census/LSI","archives","newspapers","web resources","datasets","audio","video","maps","relevant media"],
+  "fresh_observations": [
+    {"class":"archives","locator":"https://lob.bangla.gov.bd/languages/munda","disposition":"first-party Bangladesh government-domain Munda/Mundari archive page promoted to exact locator metadata only; archive items and consent/reuse remain unverified"},
+    {"class":"audio","locator":"https://lob.bangla.gov.bd/languages/munda","disposition":"provider page displays a digital archive and audio-oriented categories; no individual recording promoted without item-level provenance, rights and consent review"},
+    {"class":"government/TRI/Census/LSI","locator":"https://lob.bangla.gov.bd/languages/munda","disposition":"government-domain language documentation locator verified; cultural/linguistic page prose not promoted as controlled evidence"},
+    {"class":"grammars","locator":"https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636","disposition":"Ramdayal Munda 2013 Mundari grammar exact CIIL/Sanchika item and declared file BVP00202.pdf verified at repository metadata level"},
+    {"class":"books","locator":"https://sanchika.ciil.org/items/38731a42-6aa7-4b6e-9d3d-1b2e674f4636","disposition":"book identity retained without PDF-byte or page-level claim promotion"},
+    {"class":"dictionaries","locator":"existing TRI/Bharatavani/CIIL streams","disposition":"known dictionary locators rechecked; no unsupported content promotion"},
+    {"class":"peer-reviewed articles","locator":"targeted refresh","disposition":"known scholarly streams re-observed; no duplicate promotion"},
+    {"class":"theses","locator":"existing Cook/Sapienza streams","disposition":"known thesis locators re-observed; no duplicate promotion"},
+    {"class":"web resources","locator":"Bangladesh Multiling and CIIL/Sanchika","disposition":"two provider-level locators added while keeping rights/community boundaries explicit"},
+    {"class":"datasets","locator":"existing Karya/AdiBhasha/ASJP/PHOIBLE streams","disposition":"no new rows or values promoted without immutable-manifestation and governance review"},
+    {"class":"video","locator":"targeted refresh","disposition":"no new exact permitted video manifestation promoted"},
+    {"class":"maps","locator":"targeted refresh","disposition":"no new map promoted; existing map leads remain source-rights scoped"},
+    {"class":"newspapers","locator":"targeted refresh","disposition":"contextual reporting remains discovery/context only"},
+    {"class":"relevant media","locator":"targeted refresh","disposition":"South-Sudan Mundari/Mandari and unrelated name/title matches remain excluded as homonym false positives"}
+  ],
+  "homonym_and_false_positive_controls": ["South-Sudan Mundari/Mandari language/community", "artist/song/title matches", "name-only Munda matches lacking relevant source identity"],
+  "blocked_or_unresolved": [
+    "authoritative numbered WEB-MUN mapping still not recovered",
+    "Bangladesh Multiling archive-item endpoint inventory, reuse terms, consent and cultural-access review remain open",
+    "CIIL BVP00202.pdf bytes/hash/page inventory and source-specific reuse terms remain open",
+    "Census workbook cell verification remains open",
+    "ELAR/PARADISEC exact Mundari package resolution remains open"
+  ],
+  "controlled_counts_changed": false,
+  "reason": "Two exact source locators were promoted only at provider metadata level. No numbered WEB-MUN disposition or controlled claim/evidence promotion was justified.",
+  "controlled_counts": {"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73}
+}

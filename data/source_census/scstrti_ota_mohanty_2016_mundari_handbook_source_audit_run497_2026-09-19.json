@@ -1,0 +1,52 @@
+{
+  "run": 497,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica",
+  "canonical_source": {
+    "title": "Mundari",
+    "document_type": "Hand Book",
+    "editor_author": ["AB Ota", "SC Mohanty", "Soumalin Mohanty"],
+    "completed_date": "2016-07",
+    "institution": "Scheduled Castes & Scheduled Tribes Research and Training Institute (SCSTRTI), Bhubaneswar",
+    "repository_provider": "Ministry of Tribal Affairs, Government of India",
+    "record_id": "SCST/2016/0055",
+    "persistent_record": "https://repository.tribal.gov.in/handle/123456789/73851",
+    "file_label": "SCST_2016_handbook_0055.pdf",
+    "provider_reported_size": "108.3 MB",
+    "sector": "Ethnographic studies"
+  },
+  "identity_verification": {
+    "status": "verified_provider_metadata",
+    "provider": "Ministry of Tribal Affairs repository",
+    "repository_match_before_audit": "no exact SCST_2016_handbook_0055 match found in repository code search"
+  },
+  "scope": {
+    "classification": ["government", "TRI", "handbook", "ethnography", "web/PDF"],
+    "provider_keywords": ["Mundari", "Munda", "Clusters Of Clans", "Bride Price", "Marriage By Intrusion", "Sing Bonga"],
+    "cultural_sensitivity": "high: ethnographic and potentially community-sensitive cultural material; provider keywords are discovery metadata, not promoted cultural claims"
+  },
+  "canonicalization": {
+    "work_key": "scstrti-2016-mundari-handbook-scst-2016-0055",
+    "rule": "Repository record, PDF manifestation, catalogue entries, mirrors and citations collapse to one underlying handbook unless edition collation proves substantive difference."
+  },
+  "rights_access_consent": {
+    "public_repository_record": true,
+    "pdf_listed_view_open": true,
+    "redistribution_or_reuse_permission_verified": false,
+    "participant_or_community_consent_verified": false,
+    "cultural_access_permission_verified": false,
+    "decision": "Do not redistribute or promote ethnographic propositions until applicable rights, provenance, consent and cultural-access conditions are established."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Provider metadata verifies source identity and scope but is insufficient for passage-level evidentiary promotion; immutable permitted bytes, checksum, exact locators, provenance and cultural-access review remain unresolved."
+  },
+  "progressive_ingestion_target": {
+    "locator_template": "<official-or-permitted-immutable-file>#pdf-page=<n>;printed-page=<n>;section=<heading>;sha256=<hash>;dependency=<independent|derived|mixed>",
+    "required_gates": ["lawful immutable bytes", "SHA-256", "PDF-to-printed-page concordance", "exact passage locator", "passage-level source/dependency provenance", "reuse basis", "participant/community consent where applicable", "cultural-sensitivity/access review"]
+  },
+  "blocked_or_unresolved": ["item-level reuse/redistribution basis", "immutable permitted PDF checksum", "page concordance", "passage-level provenance", "participant/community consent", "cultural-access suitability"],
+  "count_policy": "Do not alter controlled MMSC evidence/claim/module totals from this discovery audit alone. Reconcile deterministically before any count change.",
+  "release_gate_effect": "gap made explicit; audited release remains NOT PASS until required gates are satisfied"
+}

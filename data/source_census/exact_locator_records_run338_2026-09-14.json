@@ -1,0 +1,63 @@
+{
+  "run": 338,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "purpose": "Promote verified non-Mundarica source manifestations from discovery to exact-locator source evidence while preserving content/governance boundaries.",
+  "records": [
+    {
+      "locator_id": "MLHKP-LOC-R338-001",
+      "class": "peer_reviewed_articles",
+      "provider": "White Rose Research Online",
+      "title": "Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis",
+      "authors": ["Gurujegan Murugesan", "Imke Driemel", "Andrew Murphy"],
+      "doi": "10.1007/s11049-024-09628-2",
+      "accepted_version_url": "https://eprints.whiterose.ac.uk/id/eprint/226042/1/murugesanEtAl_24_Omnivoro.3.pdf",
+      "filename": "murugesanEtAl_24_Omnivoro.3.pdf",
+      "pdf_pages_observed": 48,
+      "exact_locators": [
+        {"pdf_page_index_zero_based": 0, "observation": "White Rose repository cover identifies Accepted Version, article citation, DOI and CC BY reuse notice."},
+        {"pdf_page_index_zero_based": 1, "observation": "Article title/authors/abstract begin; acknowledgements identify Mundari language consultants."},
+        {"pdf_page_index_zero_based": 2, "observation": "Article states the study uses novel fieldwork data and introduces its Mundari person/number scales."},
+        {"pdf_page_index_zero_based": 3, "observation": "Section 2 begins and cites prior descriptive work; no article-derived linguistic claim is promoted by this locator record."}
+      ],
+      "rights_observation": "Repository cover states Creative Commons Attribution (CC BY) reuse terms.",
+      "verification_state": "exact_pdf_page_locator_verified_via_repository_pdf_rendered_text; independent local byte hash not yet verified",
+      "promotion_scope": "source identity, manifestation identity, repository rights label and page-level locators only",
+      "not_promoted": ["linguistic examples", "fieldwork assertions", "speaker/consultant data", "cultural claims", "participant consent inference", "community validation", "cultural-access authorization"]
+    },
+    {
+      "locator_id": "MLHKP-LOC-R338-002",
+      "class": "grammars",
+      "provider": "Bhasha Sanchika — Central Institute of Indian Languages",
+      "title": "Mundari Grammar",
+      "author": "N. K. Sinha",
+      "year": 1975,
+      "hdl": "https://hdl.handle.net/20.500.14705/8179",
+      "repository_record": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "declared_file": "CIILP0091.pdf",
+      "declared_file_size": "9.63 KB",
+      "verification_state": "first_party_repository_record_and_exact_filename_verified; source bytes/hash/page locators not independently verified",
+      "promotion_scope": "source identity and exact repository file locator only",
+      "not_promoted": ["grammar content", "lexical content", "linguistic claims", "reuse permission beyond explicit provider metadata", "community validation", "cultural-access authorization"]
+    },
+    {
+      "locator_id": "MLHKP-LOC-R338-003",
+      "class": "books_monographs",
+      "provider": "Bhasha Sanchika — Central Institute of Indian Languages",
+      "title": "मुण्डारी भाषा का भाषिक संरचना",
+      "author": "Birendra Kumar Soy 'Munda'",
+      "year": 2017,
+      "publisher": "Satyam publication house",
+      "repository_record": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+      "declared_file": "BVP04859.pdf",
+      "declared_file_size": "473.63 KB",
+      "verification_state": "first_party_repository_record_and_exact_filename_verified; source bytes/hash/page locators not independently verified",
+      "promotion_scope": "source identity and exact repository file locator only",
+      "not_promoted": ["book content", "linguistic claims", "cultural claims", "reuse permission", "community validation", "cultural-access authorization"]
+    }
+  ],
+  "governance_rule": "Public or institutional availability and copyright permission do not establish participant consent, community validation, or cultural-access authorization. Cultural access overrides entitlement.",
+  "counting_rule": "These exact-locator records improve manifestation resolution but do not alter controlled MMSC source counts until deterministic WEB-MUN numbered-register reconciliation assigns canonical identities.",
+  "cultural_claims_promoted": 0,
+  "linguistic_claims_promoted": 0
+}

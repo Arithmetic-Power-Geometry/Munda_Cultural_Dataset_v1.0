@@ -1,0 +1,63 @@
+{
+  "audit_id": "MLHKP-RUN296-LSI-WB-MUNDARI-PRIMARY-LOCATOR",
+  "run_id": 296,
+  "audit_date": "2026-09-13",
+  "scope": "non-Mundarica source census and exact-locator promotion",
+  "canonical_work": {
+    "title": "Linguistic Survey of India - West Bengal, Part I",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "repository": "Census of India / ORGI",
+    "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/34826/download/38514/LSI_WB_PART_I.pdf",
+    "source_class": "government_TRI_Census_LSI",
+    "target_section": "MUNDARI",
+    "target_section_author_as_printed": "SIBASIS MUKHERJEE",
+    "exact_printed_page_locator": 391
+  },
+  "verified_from_first_party_pdf_surface": {
+    "direct_official_pdf_resolves": true,
+    "target_heading_visible": true,
+    "target_author_visible": true,
+    "printed_page_391_visible": true,
+    "section_identifies_Mundari_as_target_language": true,
+    "section_contains_fieldwork_provenance_context": true
+  },
+  "fieldwork_governance_boundary": {
+    "participant_derived_source": true,
+    "participant_names_present_in_primary_source": true,
+    "participant_names_promoted_to_controlled_evidence": false,
+    "elicited_language_forms_promoted": false,
+    "cultural_claims_promoted": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "reason": "A printed government fieldwork report can establish source identity and exact page provenance without authorizing republication or MLHKP promotion of elicited participant-derived content."
+  },
+  "integrity_state": {
+    "independent_pdf_byte_acquisition_completed": false,
+    "sha256_independently_recomputed": false,
+    "complete_page_inventory_verified": false,
+    "page_image_to_printed_page_concordance_independently_verified": false,
+    "ocr_independently_verified": false,
+    "status": "PRIMARY_EXACT_PAGE_LOCATOR_ONLY"
+  },
+  "promotion": {
+    "promoted_level": "first-party primary exact-page metadata/provenance locator",
+    "new_controlled_claims": 0,
+    "new_controlled_evidence_records": 0,
+    "new_evidence_links": 0,
+    "new_lexical_rows": 0,
+    "new_cultural_claims": 0,
+    "count_bearing_source_identity_change": false
+  },
+  "deduplication": {
+    "decision": "reconcile with existing ORGI/LSI West Bengal source family; do not create a duplicate canonical identity",
+    "unresolved_WEB_MUN_count_decrement": 0,
+    "reason": "No exact numbered WEB-MUN lead-to-this-manifestation match was proven in this run."
+  },
+  "open_gaps": [
+    "Acquire the official PDF bytes through a permitted stable route and recompute SHA-256 independently.",
+    "Verify complete PDF page inventory and printed-page-to-PDF-page concordance.",
+    "Review rights and participant/community/cultural-access conditions before promoting elicited forms, narratives, or culturally sensitive statements.",
+    "Only after those gates pass, convert permitted passages into exact-locator evidence records."
+  ]
+}

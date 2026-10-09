@@ -1,0 +1,42 @@
+{
+  "run_id": 764,
+  "date": "2026-10-06",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": "government web resource / event record",
+  "title": "Mudma Mela",
+  "provider": "Ministry of Tourism, Government of India - Utsav portal",
+  "canonical_candidate": "MOT_UTSAV|MUDMA-MELA-2",
+  "authoritative_url": "https://utsav.gov.in/public/view-event/mudma-mela-2",
+  "verified_metadata": {
+    "location": "Ranchi, Jharkhand",
+    "event_dates_shown": "2024-10-30 to 2024-10-31",
+    "organizer_shown": "Tourism, Art Culture, Sports and Youth Affairs / D C Ranchi",
+    "munda_scope": "provider narrative explicitly mentions Munda and Oraon communities"
+  },
+  "scope_classification": "mixed-community historical/event narrative; not Munda-exclusive",
+  "evidence_policy": {
+    "promoted_claims": 0,
+    "reason": "Government event-page narrative contains historical/folkloric assertions without visible primary-source citations; mixed Munda-Oraon scope prevents automatic Munda-specific promotion.",
+    "rights": "publicly readable government web page; no blanket redistribution permission inferred",
+    "consent": "not established for community traditions, performers, or depicted persons",
+    "cultural_uncertainty": "high for origin story and generalized tradition claims; retain as discovery/context lead pending independent corroboration"
+  },
+  "deduplication": {
+    "repository_path_search": "no path-level mudma/utsav/tourism-mela match found in mlhkp-v2 recursive tree during this run",
+    "rule": "canonicalize page manifestations to MOT_UTSAV|MUDMA-MELA-2; do not merge with scholarly Murma Jatra works because those are distinct works/source identities"
+  },
+  "exact_locator": {
+    "locator_type": "HTML section labels",
+    "locators": ["page title: Mudma Mela", "Activities", "Organized By", "Event Details"],
+    "promotion_status": "discovery/context only; no cultural proposition promoted"
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "streamlit_modules": 0
+  },
+  "release_note": "Keep explicit as an unresolved government-web lead. Do not use its origin narrative as cultural fact without corroboration."
+}

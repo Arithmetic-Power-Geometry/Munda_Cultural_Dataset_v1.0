@@ -1,0 +1,28 @@
+{
+  "record_type": "mundarica_artifact_registry",
+  "collection_id": "SRC-COL-MUNDARICA",
+  "schema": "schemas/mundarica_artifact.schema.json",
+  "policy": "Artifact registration records provenance and repository presence only. It does not itself establish transcription accuracy, scan authority, reuse permission, or verified-complete status.",
+  "artifacts": [
+    {
+      "artifact_id": "SRC-MUN-V01-ART-WORKING_TRANSCRIPTION",
+      "source_id": "SRC-MUN-V01",
+      "volume": 1,
+      "artifact_role": "transcription_working",
+      "repository_path_or_locator": "Mundarika1.md",
+      "sha256": null,
+      "declared_page_count": 324,
+      "rights_status": "not_assessed",
+      "access_class": "open",
+      "verification_status": "structurally_audited",
+      "provenance": {
+        "source_description": "Working transcription artifact already present in the public repository and structurally audited for page-block continuity.",
+        "acquired_date": null,
+        "original_locator": null,
+        "notes": "Public repository visibility does not imply verified transcription, scan authority, or permission for third-party reuse."
+      },
+      "scan_authority": false,
+      "notes": "324/324 page blocks are structurally accounted for. No authoritative scan artifact is registered, so visual verification remains blocked."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "run": 739,
+  "audit_date": "2026-10-05",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": [
+    "government",
+    "Census",
+    "dataset",
+    "statistical table"
+  ],
+  "canonical_key": "ORGI|CENSUS2011|JHARKHAND|ST08_APPENDIX",
+  "identity": {
+    "title": "ST-08 Appendix: Educational level by age and sex for population age 7 and above (scheduled tribes, Appendix), Jharkhand - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "census_year": 2011,
+    "catalog_id": "11713",
+    "geography": "Jharkhand, India"
+  },
+  "verified_catalog_scope": {
+    "table_rows_include": "Tribe: Munda, Patar",
+    "geography_includes": [
+      "Jharkhand",
+      "Ranchi",
+      "Khunti",
+      "Gumla",
+      "Simdega",
+      "Pashchimi Singhbhum",
+      "other Jharkhand districts"
+    ],
+    "dimensions": [
+      "educational level",
+      "age",
+      "sex",
+      "rural/urban"
+    ],
+    "locator": "Census NADA catalog 11713 → Table rows → Tribe: Munda, Patar",
+    "source_url": "https://censusindia.gov.in/nada/index.php/catalog/11713"
+  },
+  "canonicalization": {
+    "rule": "Treat catalog page, downloadable table file(s), mirrors and citations as manifestations/routes of this one Census table family unless content/version differences are demonstrated.",
+    "repository_default_branch_searches": [
+      "ST-08 Appendix",
+      "11713",
+      "PC01_ST08",
+      "Educational level by age and sex"
+    ],
+    "repository_search_matches": 0,
+    "caveat": "GitHub code search covers the default branch and is only a reconciliation signal; it does not prove absence from mlhkp-v2."
+  },
+  "rights_access_governance": {
+    "access_state": "catalog metadata discoverable; direct catalog open returned HTTP 502 during this audit",
+    "redistribution": "unresolved for downloadable table manifestation",
+    "consent": "administrative aggregate Census table; no participant-level consent inference made",
+    "cultural_access": "no cultural-practice inference permitted from this statistical table",
+    "scope_warning": "Munda, Patar is the Census table category and must not be silently normalized to a narrower identity without documented crosswalk."
+  },
+  "promotion": {
+    "status": "withheld_pending_exact_cell_verification",
+    "reason": "Catalog verifies table identity and presence of the Munda, Patar row, but exact numeric cells, downloadable manifestation, checksum/size and row/column coordinates were not retrieved in this run.",
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0
+  },
+  "blocked_then_continued": {
+    "blocked": "Census catalog direct open returned HTTP 502",
+    "continuation": "Continued parallel census across audiovisual, dictionary, thesis, article, LSI and GIS routes; no unsupported alternative was promoted."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_note": "Explicit gap only. Do not change MMSC/publication/Streamlit/evidence-graph counts until deterministic ledger reconciliation and exact-cell verification."
+}

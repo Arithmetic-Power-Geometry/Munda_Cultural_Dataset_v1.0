@@ -1,0 +1,66 @@
+{
+  "run": 742,
+  "audit_date": "2026-10-05",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "canonical_key": "TRI_JHARKHAND|TRIBAL_MUSEUM|MUNDA_DIORAMA",
+  "source_class": [
+    "government",
+    "TRI",
+    "museum",
+    "material culture",
+    "web resource"
+  ],
+  "provider": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Department of Welfare, Government of Jharkhand",
+  "provider_url": "https://www.trijharkhand.in/en/",
+  "verified": {
+    "institutional_scope": "TRI states it was established in 1953, is funded by Government of Jharkhand and Ministry of Tribal Affairs, and undertakes tribal research plus preservation/promotion of tribal language, art, craft and culture.",
+    "museum_locator": "TRI homepage -> Tribal Museum: museum houses dioramas depicting traditional livelihoods of the 32 tribes of Jharkhand.",
+    "external_government_museum_catalogue": "Museums of India catalogue: Tribal Museum at Dr Ram Dayal Munda Tribal Welfare Research Institute, Tagore Hill Road, Ranchi; anthropology museum; describes dioramas of 32 Jharkhand tribes.",
+    "munda_scope": "A secondary contemporary report explicitly states that Munda models are among the museum chambers; treat this only as a discovery/provenance lead until TRI exposes a Munda-specific object/diorama catalogue record."
+  },
+  "rights_access": {
+    "public_web_access": true,
+    "redistribution_permission": "not established",
+    "image_or_media_vendoring": "withheld",
+    "participant_consent": "not established",
+    "community_consent": "not established",
+    "cultural_access": "unresolved"
+  },
+  "promotion": {
+    "status": "withheld_pending_exact_Munda_object_or_diorama_record_and_governance_review",
+    "reason": "Institutional museum existence and collection scope are verified, but current TRI pages inspected do not expose an exact Munda object/diorama identifier or provenance record. Museum representation must not be converted into generalized cultural fact.",
+    "controlled_delta": {
+      "identities": 0,
+      "claims": 0,
+      "evidence": 0,
+      "links": 0,
+      "modules": 0
+    }
+  },
+  "deduplication": "TRI homepage, About, museum/gallery pages and Museums of India institutional catalogue are access/metadata manifestations for the same museum institution; do not count them as independent cultural corroboration.",
+  "explicit_gaps": [
+    "exact Munda diorama/object identifier",
+    "object-level provenance/date/donor",
+    "representation methodology/source basis",
+    "reuse terms for media",
+    "participant/community consent",
+    "cultural-access review",
+    "MMSC/WEB-MUN reconciliation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.trijharkhand.in/en/",
+      "role": "authoritative institutional source"
+    },
+    {
+      "url": "https://www.trijharkhand.in/en/about-the-institute",
+      "role": "authoritative institutional history/scope"
+    },
+    {
+      "url": "https://shop.museumsofindia.org/node/520",
+      "role": "government museum catalogue metadata"
+    }
+  ],
+  "note": "No cultural proposition or count is promoted from generic museum descriptions."
+}

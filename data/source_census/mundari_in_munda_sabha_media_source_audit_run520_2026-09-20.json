@@ -1,0 +1,76 @@
+{
+  "audit_id": "MLHKP-RUN520-MUNDARI-IN",
+  "run": 520,
+  "audit_date": "2026-09-20",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari.in cultural, language and worship media website",
+    "provider": "Munda Sabha Ranchi",
+    "canonical_url": "https://www.mundari.in/en",
+    "source_classes": ["web_resource", "audio", "video", "images", "song_texts", "community_organization_media"],
+    "scope": "Mundari-labelled language/cultural/religious media; item-level provenance and cultural scope unresolved"
+  },
+  "verified_provider_statements": [
+    {
+      "locator": "https://www.mundari.in/en, home page",
+      "observation": "The site states that it contains Mundari cultural and worship videos, songs and pictures and is viewable in English and Mundari."
+    },
+    {
+      "locator": "https://www.mundari.in/en/impressum, Copyright",
+      "observation": "The site states that it is sponsored by Munda Sabha Ranchi and, unless noted otherwise, copyright for all materials is held by Munda Sabha Ranchi."
+    },
+    {
+      "locator": "https://www.mundari.in/en/mundari-cultural-video",
+      "observation": "The cultural-video page currently surfaces Dance, National service, and mund durang labels."
+    },
+    {
+      "locator": "https://www.mundari.in/en/mundari-cultural-songs",
+      "observation": "The cultural-song page currently surfaces Country service, Flower, King of nation, Lets go to war, Baa badi re, and Kita galang labels."
+    },
+    {
+      "locator": "https://www.mundari.in/en/song-texts-mundari",
+      "observation": "The song-text page exposes downloadable Mundari-labelled song-text files."
+    }
+  ],
+  "canonicalization": {
+    "rule": "Treat home page, cultural-video, cultural-song, Christian-song, gallery, song-text and download manifestations as components of one provider website identity unless item-level provenance establishes a distinct upstream work/source.",
+    "independence_warning": "Multiple pages or media members on the same provider do not constitute independent corroborating source identities."
+  },
+  "rights_access_consent": {
+    "public_access": true,
+    "provider_allows_site_download_listen": true,
+    "copyright_holder_statement": "Unless noted otherwise, Munda Sabha Ranchi",
+    "open_license_verified": false,
+    "redistribution_permission_for_mlhkp_verified": false,
+    "performer_speaker_participant_consent_verified": false,
+    "community_governance_or_cultural_access_clearance_verified": false,
+    "decision": "external-locator-only pending item-level rights, provenance, consent and cultural-access audit"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "media_members_ingested": 0,
+    "reason": "Provider copyright and public download/listen affordances do not establish an open redistribution licence, item-level participant consent, or cultural-access clearance; item-level linguistic/cultural claims have not been independently verified."
+  },
+  "exact_locator_readiness": {
+    "ready_for_external_locator_records": true,
+    "scheme": "canonical page URL + displayed item label; add immutable capture/hash and media member URL/hash only after lawful capture and item-level audit",
+    "remaining_gates": [
+      "immutable lawful capture and SHA-256",
+      "item/member inventory",
+      "creator/performer/speaker provenance",
+      "Mundari variety and transcription/translation validation where applicable",
+      "item-level licence/reuse terms",
+      "participant consent where applicable",
+      "cultural sensitivity/access review",
+      "upstream-work deduplication"
+    ]
+  },
+  "audit_invariants": [
+    "public download affordance does not equal open redistribution licence",
+    "provider copyright does not equal participant consent",
+    "community-organization sponsorship does not by itself establish community-wide cultural clearance",
+    "website page/member multiplicity does not equal independent source corroboration",
+    "media title/label does not by itself establish a cultural claim"
+  ]
+}

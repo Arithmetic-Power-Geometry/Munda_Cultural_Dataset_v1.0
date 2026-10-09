@@ -1,0 +1,16 @@
+{
+  "search_id": "MMSC-SEARCH-000339",
+  "date_utc": "2026-09-14",
+  "scope": "14-class MMSC refresh with evidence-verification priority; Mundarica provider manifestations tracked separately",
+  "classes": ["books_monographs","dictionaries_lexica","grammars","peer_reviewed_articles","theses_dissertations","government_tri_census_lsi","archives","newspapers","web_resources","datasets_corpora","audio","video","maps","relevant_media"],
+  "fresh_verified_or_reobserved_records": [
+    {"class":"archives","title":"Encyclopaedia Mundarica Vol. 10","provider":"Internet Archive / Digital Library of India","identifier":"dli.bengal.10689.20997","state":"provider manifestation verified; provider totalpages 288 and ABBYY OCR metadata observed; independent bytes/hash/page/OCR verification pending"},
+    {"class":"archives","title":"Encyclopedia Mundarica Vol-xiii","provider":"Internet Archive / Digital Library of India","identifier":"dli.ernet.14932","state":"provider manifestation identity verified; independent bytes/hash/page/OCR verification pending"},
+    {"class":"peer_reviewed_articles","title":"Mundari: The myth of a language without word classes","provider":"Australian National University repository","doi":"10.1515/lity.2005.9.3.351","state":"repository identity, open-access status and downloadable filename reobserved; deterministic numbered-register reconciliation pending"},
+    {"class":"peer_reviewed_articles","title":"Mundari Khuntkatti: An Institution of Customary Right over Land","provider":"SAGE","doi":"10.1177/0972558X1301300205","state":"publisher article identity reobserved; article-derived cultural claims not promoted"}
+  ],
+  "controlled_counts": {"audited_source_identities":42,"raw_web_discovery_records":90,"unique_web_discovery_leads":87,"duplicate_web_records":3,"canonicalized_unique_web_leads":14,"unresolved_unique_web_leads":73},
+  "counting_rule": "No controlled count changes without deterministic numbered-register reconciliation.",
+  "governance_rule": "Availability, provider OCR, repository open-access status, or publisher metadata do not establish cultural-access authorization, community validation, participant consent, or independent content verification.",
+  "false_completeness_claimed": false
+}

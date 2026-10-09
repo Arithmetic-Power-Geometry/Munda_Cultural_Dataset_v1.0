@@ -1,0 +1,87 @@
+{
+  "run_id": 687,
+  "audit_date_utc": "2026-10-03",
+  "stream": "non-Mundarica source census",
+  "source_class": [
+    "archive",
+    "photograph",
+    "relevant media"
+  ],
+  "canonical_identity": {
+    "institution": "University of Massachusetts Amherst Libraries, Special Collections and University Archives",
+    "collection_item_id": "mufs001-ii-i0346",
+    "title": "Young Munda girls at a festival, 1956",
+    "photographer": "Joel Martin Halpern",
+    "date": "1956",
+    "extent": "1 slide ; 5 x 5 cm",
+    "canonical_url": "https://credo.library.umass.edu/view/full/mufs001-ii-i0346"
+  },
+  "scope": {
+    "provider_subject_scope": [
+      "Munda (Indic people)",
+      "Jharkhand",
+      "festival",
+      "young women"
+    ],
+    "caution": "Catalogue metadata identifies the pictured subjects/context; it does not justify generalizing attire, ritual practice, self-designation, or festival behavior to all Munda communities."
+  },
+  "rights_access_consent": {
+    "access": "public catalogue record",
+    "rights": "All rights for the image are held by Joel M. Halpern; publication, redistribution, or replication requests are directed to UMass Special Collections and University Archives.",
+    "redistribution_permitted_for_mlhkp": false,
+    "participant_consent_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_status": "unresolved",
+    "image_exposure_status": "blocked pending rights/consent/cultural review"
+  },
+  "exact_locator": {
+    "level": "catalogue-field",
+    "locator": "CREDO item mufs001-ii-i0346 -> title/date/extent/subjects/photographer/rights fields",
+    "evidence_conversion_state": "metadata-exact-locator-ready; image-content proposition promotion blocked"
+  },
+  "canonicalization": {
+    "deterministic_key": "UMASS_CREDO|mufs001-ii-i0346",
+    "repository_code_search_total_count": 0,
+    "repository_code_search_incomplete_results": true,
+    "novelty_asserted": false,
+    "reconciliation_required": true
+  },
+  "evidence_policy": {
+    "promotable_now": [
+      "institutional object identity and catalogue metadata, subject to MMSC reconciliation"
+    ],
+    "not_promotable_now": [
+      "visual cultural claims",
+      "participant identity claims",
+      "generalized festival/attire claims",
+      "image redistribution"
+    ],
+    "dependency_note": "Provider descriptive text must remain catalogue attribution unless independently corroborated."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "blockers": [
+    "MMSC/WEB-MUN reconciliation",
+    "image manifestation checksum/size if lawfully obtainable",
+    "rights permission for redistribution",
+    "participant/community consent interpretation",
+    "cultural-sensitivity/access review",
+    "visual proposition atomization only after the above gates"
+  ],
+  "source_verification": {
+    "verified_from_live_institutional_record": true,
+    "verified_fields": [
+      "title",
+      "1956 date",
+      "extent",
+      "subject headings",
+      "photographer",
+      "rights statement"
+    ]
+  }
+}

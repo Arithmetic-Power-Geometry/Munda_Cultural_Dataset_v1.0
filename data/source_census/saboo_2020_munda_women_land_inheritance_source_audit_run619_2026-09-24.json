@@ -1,0 +1,68 @@
+{
+  "mlhkp_run": 619,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "author": "Shalini Saboo",
+    "title": "Customary Law and Challenges to Governance in the Context of Land Inheritance Among the Women of Munda Tribe in Jharkhand",
+    "journal": "Indian Journal of Public Administration",
+    "volume": "66",
+    "issue": "4",
+    "pages": "552-562",
+    "publication_year": 2020,
+    "doi": "10.1177/0019556120982196",
+    "publisher": "SAGE Publications / Indian Institute of Public Administration"
+  },
+  "identity_verification": {
+    "publisher_record": "https://journals.sagepub.com/doi/10.1177/0019556120982196",
+    "verified_fields": ["title", "author", "journal", "volume", "issue", "doi", "scope"],
+    "note": "Publisher search result reports first online publication 20 January 2021 while the journal citation is volume 66(4), 2020; retain both bibliographic/online-publication chronology rather than silently normalizing the discrepancy."
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["customary law", "women", "land inheritance", "land rights", "governance", "legal and social impediments"],
+    "scope_class": "Munda-specific peer-reviewed article; gender/land-rights context",
+    "generalization_barrier": "Do not universalize article findings to every Munda locality, household, gender experience, historical period, or customary-law regime without proposition-level method/sample/locality support."
+  },
+  "deduplication": {
+    "repository_exact_title_precheck": "no match returned by repository code search",
+    "canonicalization_rule": "DOI, SAGE publisher page, abstract page, indexes and lawful secondary full-text manifestations are manifestations/references of one canonical work, not independent corroboration."
+  },
+  "access_rights": {
+    "publisher_access": "paywalled/full access required beyond exposed publisher material",
+    "reuse": "publisher page exposes re-use/permissions workflow; no blanket redistribution permission inferred",
+    "binary_ingested": false,
+    "blocked_action": "Do not ingest or redistribute a paywalled/third-party article binary without verified permission."
+  },
+  "evidence_conversion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_promoted": 0,
+    "available_locator_level": "publisher bibliographic metadata and abstract; a discoverable text manifestation exposes article pagination and states use of primary and secondary material, but it is not treated as redistribution authority",
+    "required_before_promotion": [
+      "obtain lawful authoritative full text",
+      "hash/version the authoritative manifestation if storage is permitted",
+      "establish printed-page to PDF-page concordance",
+      "inspect methods, sample, field locality and dates",
+      "separate primary observations/interviews from author interpretation and secondary citations",
+      "create proposition-level page/section/table locators",
+      "review ethics/consent/privacy where participant-derived material is used",
+      "review gender, land-rights and customary-law sensitivity and cultural governance",
+      "verify reuse rights for any stored excerpt or binary"
+    ]
+  },
+  "cultural_uncertainty": {
+    "sensitivity": "high-context",
+    "notes": [
+      "Land inheritance and gender-rights evidence can be contested and locality-dependent.",
+      "Publication does not establish community validation or consent for unrestricted downstream cultural reuse.",
+      "Abstract-level statements are not promoted as atomized cultural facts."
+    ]
+  },
+  "release_effect": {
+    "controlled_metric_change": false,
+    "reason": "Identity/scope are supported, but exact proposition locators, dependency separation, rights and participant/cultural-governance gates remain unresolved.",
+    "gap_state": "explicit exact-locator conversion queue"
+  }
+}

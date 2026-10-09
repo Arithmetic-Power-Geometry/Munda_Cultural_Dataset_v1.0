@@ -1,0 +1,53 @@
+{
+  "run": 378,
+  "date_utc": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "source_class": ["web_resource", "dataset", "audio", "government_repository"],
+  "canonical_identity": "Bangladesh Multiling Cloud — Munda",
+  "provider": "Multiling Cloud / Enhancement of Bengali Language in ICT Through Research and Development (EBLICT)",
+  "provider_domain": "lob.bangla.gov.bd",
+  "exact_locator": "https://lob.bangla.gov.bd/languages/munda",
+  "provider_home": "https://lob.bangla.gov.bd/",
+  "provider_observed_metadata": {
+    "language_label": "Munda",
+    "family": "Austroasiatic",
+    "archive_resource_density": 860,
+    "home_page_summary": "Munda entry displayed as 860 Sent. / 280 Min.",
+    "repository_scope": "official digital repository for ethnic languages of Bangladesh",
+    "archive_description": "phonetic transcriptions and audio recordings"
+  },
+  "verification_state": {
+    "identity": "verified_provider_surface",
+    "exact_locator": "verified_provider_surface",
+    "archive_count": "provider_reported_not_deterministically_recounted",
+    "audio_minutes": "provider_reported_not_deterministically_recounted",
+    "binary_materialization": "not_verified",
+    "cryptographic_hash": "not_verified",
+    "record_level_locators": "not_verified",
+    "speaker_identity_and_consent": "not_verified",
+    "community_validation": "provider_claim_only_not_independently_verified",
+    "item_level_reuse_rights": "not_verified",
+    "cultural_access_authorization": "not_verified"
+  },
+  "promotion": {
+    "discovery_lead": true,
+    "exact_provider_locator": true,
+    "public_factual_claim_promoted": false,
+    "audio_or_transcript_ingested": false,
+    "reason": "Open-access/provider availability is not equivalent to item-level reuse permission, participant consent, community validation, or cultural-access authorization. Record-level bytes and provenance were not deterministically verified in this run."
+  },
+  "deduplication": {
+    "canonical_key": "provider:bangladesh-multiling-cloud|language:munda|path:/languages/munda",
+    "new_unique_lead": true,
+    "do_not_expand_each_archive_unit_as_identity": true
+  },
+  "gaps": [
+    "resolve record-level archive endpoints",
+    "deterministically recount accessible Munda records",
+    "materialize only permitted items and record SHA-256",
+    "verify item-level licence/reuse terms",
+    "verify speaker consent/privacy/publicity terms",
+    "verify community-validation mechanism and cultural-access authorization before evidence promotion"
+  ],
+  "audit_rule": "Provider-reported archive size/open access does not establish reusable evidence, consent, or cultural permission."
+}

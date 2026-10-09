@@ -1,0 +1,93 @@
+{
+  "run": 618,
+  "audit_date": "2026-09-24",
+  "stream": "non-Mundarica",
+  "source_class": "peer-reviewed article / contemporary ethnographic field study",
+  "canonical_identity": {
+    "title": "Stories of Ancient Stones: A Living Tradition of Indigenous People (Mundas) in Jharkhand, India",
+    "authors": ["Elizabeth Tuti", "Meena Kumari", "Kumari Vibhuti Nayak", "Shamsher Alam"],
+    "journal": "Social Evolution & History",
+    "year": 2025,
+    "volume": "24",
+    "issue": "2",
+    "publication_month": "September",
+    "doi": "10.30884/seh/2025.02.01"
+  },
+  "identity_verification": {
+    "provider": "Social Studies / Social Evolution & History publisher full-text page",
+    "landing_url": "https://www.sociostudies.org/journal/articles/3997182/",
+    "doi_url": "https://doi.org/10.30884/seh/2025.02.01",
+    "verified_fields": ["title", "authors", "journal", "volume", "issue", "publication month/year", "DOI"],
+    "repository_exact_title_search_before_ingestion": "no match"
+  },
+  "scope": {
+    "in_scope": true,
+    "geographic_scope": "multiple rural Munda villages in Ranchi, Jharkhand; exact village identities not established from the audited HTML passages",
+    "participant_scope": "15 Munda participants, ages 18-70, rural Ranchi; snowball recruitment",
+    "topic_scope": ["megaliths", "oral tradition", "ritual practice", "ancestral memory", "land", "gender", "modernization"],
+    "generalization_limit": "The article itself states that its Ranchi-region study may not represent diversity across Jharkhand; no statewide or timeless Munda generalization is permitted."
+  },
+  "canonicalization": {
+    "dedup_key": "doi:10.30884/seh/2025.02.01",
+    "manifestation_rule": "DOI, publisher HTML, publisher download/PDF and index records are manifestations of one article, not independent corroboration.",
+    "do_not_merge_with": ["Shekhar et al. 2014 Living Megalithic Tradition amongst the Munda Community of Jharkhand", "Shekhar 2020", "Shekhar 2021", "Roy 1912"]
+  },
+  "access_rights": {
+    "full_text_obtained_in_this_run": true,
+    "full_text_form": "publisher-rendered HTML",
+    "publisher_footer": "All rights reserved",
+    "reuse_permission_verified": false,
+    "redistribution": "not inferred; no article binary ingested",
+    "permitted_use_in_this_record": "bibliographic metadata and concise proposition-level audit/locators only"
+  },
+  "exact_locators": [
+    {
+      "locator": "publisher HTML, RESEARCH DESIGN > Site Selection / Participant Selection",
+      "support": "Study reports multiple Munda villages in Ranchi, rural participants aged 18-70, snowball recruitment, and n=15 Munda participants.",
+      "evidence_type": "methods"
+    },
+    {
+      "locator": "publisher HTML, RESEARCH DESIGN > Data Collection / Data Analysis",
+      "support": "Methods include ethnographic fieldwork, participant observation, informal and semi-structured interviews, oral narratives, participatory methods, focus groups/interviews with women, thematic and narrative analysis.",
+      "evidence_type": "methods"
+    },
+    {
+      "locator": "publisher HTML, RESEARCH DESIGN > Ethical Considerations",
+      "support": "Authors report participant information, verbal consent, withdrawal rights, pseudonyms/confidentiality, express permission for sensitive cultural information, and consultation with community leaders/elders.",
+      "evidence_type": "reported ethics"
+    },
+    {
+      "locator": "publisher HTML, FINDINGS > Cultural Significance of Megaliths",
+      "support": "The paper reports field-derived/oral-history evidence concerning contemporary Munda relationships between megaliths, ancestral memory, land and cultural continuity in the sampled Ranchi communities.",
+      "evidence_type": "field-derived finding; scope-limited"
+    },
+    {
+      "locator": "publisher HTML, FINDINGS > Ritualistic Practices Associated with Megaliths",
+      "support": "The paper reports continued funerary/commemorative ritual use of megaliths in sampled communities and identifies village elders/Pahan in ritual leadership; cited-literature dependencies must be separated before atomized promotion.",
+      "evidence_type": "mixed field observation / participant account / literature dependency"
+    },
+    {
+      "locator": "publisher HTML, LIMITATION OF THE STUDY",
+      "support": "Authors explicitly limit geographic representativeness and note subjectivity/variation in oral-history evidence and temporal change.",
+      "evidence_type": "source limitation"
+    }
+  ],
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "This run reached exact section-level publisher locators and verified methods/ethics/scope, but controlled proposition promotion is deferred until deterministic ledger reconciliation and dependency separation. No rights basis exists for storing the article binary."
+  },
+  "cultural_governance": {
+    "sensitivity": "high for mortuary, ritual, spiritual and participant-derived knowledge",
+    "publication_not_blanket_permission": true,
+    "participant_names_or_quotations": "not reproduced in this audit",
+    "community_validation": "not inferred beyond authors' reported consultation/participatory methods",
+    "required_before_public_claim_promotion": ["dependency classification", "scope tag", "cultural-sensitivity review", "no restricted/sensitive detail exposure"]
+  },
+  "quality_notes": {
+    "strengths": ["publisher full text", "explicit research design", "n=15 stated", "field methods stated", "ethical procedure stated", "limitations stated", "named DOI"],
+    "cautions": ["small non-probability sample", "Ranchi-region scope", "mixed field findings and secondary citations", "rights reserved", "some broad historical assertions require primary-source tracing"]
+  },
+  "release_status": "exact-locator source audit complete; controlled promotion pending reconciliation/dependency/cultural-governance gates",
+  "count_policy": "Do not change controlled MMSC/source/evidence totals until deterministic WEB-MUN reconciliation is performed."
+}

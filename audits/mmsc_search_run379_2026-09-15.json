@@ -1,0 +1,17 @@
+{
+  "search_id": "MMSC-SEARCH-000379",
+  "run": 379,
+  "date_utc": "2026-09-15",
+  "scope": "non-Mundarica",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books", "dictionaries", "grammars", "peer_reviewed_articles", "theses_dissertations", "government_TRI_Census_LSI", "archives", "newspapers", "web_resources", "datasets", "audio", "video", "maps", "relevant_media"],
+  "queries_included": ["Mundari dictionary grammar archive audio dataset", "Mundari thesis dissertation language", "Mundari audio archive language", "Mundari dataset corpus", "Mundari newspaper magazine", "Mundari map census", "Mundari grammar dictionary book", "Mundari archive.org"],
+  "new_unique_leads": [{"canonical_identity":"CIET/NCERT Barkhaa Audio — Mundari language renditions","locator":"https://ciet.ncert.gov.in/barkhaa_audio","classes":["government_TRI_Census_LSI","web_resources","audio","relevant_media"],"state":"exact_provider_locator_discovery_only","promotion_boundary":"no audio/transcript/translation/linguistic/cultural proposition promoted"}],
+  "reverified_existing_streams": ["Karya Mundari TTS", "Bhaduri Mundari-English Dictionary", "Evans and Osada 2005 Linguistic Typology article", "Bangladesh Multiling Munda", "Nirang Pajhra", "South Asia Bibles Mundari audio"],
+  "false_positive_or_scope_exclusions": ["Places named Mundari/Mundi that are not evidence about the Mundari language or Munda cultural domain"],
+  "deduplication": {"new_raw_records":1,"new_unique_leads":1,"new_duplicates":0,"canonicalization_rule":"One provider/content-family is one discovery identity until item-level provenance and rights justify finer-grained source identities."},
+  "blocked_or_insufficient": ["NCERT Barkhaa exact Mundari item endpoints, bytes/hash, item reuse terms, speaker provenance/consent/privacy and cultural-access authorization remain open"],
+  "promotion_policy": "Promote only independently supported permitted evidence with exact locators; provider summaries remain metadata until underlying records, rights and governance are verified.",
+  "cultural_claims_promoted": 0,
+  "public_factual_claims_promoted": 0
+}

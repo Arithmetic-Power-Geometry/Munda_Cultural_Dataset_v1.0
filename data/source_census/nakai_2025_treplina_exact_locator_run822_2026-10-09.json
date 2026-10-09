@@ -1,0 +1,50 @@
+{
+  "run": 822,
+  "checked_date_ist": "2026-10-09",
+  "branch": "mlhkp-v2",
+  "source_identity": "acl:2025.mmloso-1.3",
+  "title": "TRepLiNa: Layer-wise CKA+REPINA Alignment Improves Low-Resource Machine Translation in Aya-23 8B",
+  "publisher": "Association for Computational Linguistics",
+  "year": 2025,
+  "pages_printed": "25-34",
+  "pdf_pages": 10,
+  "original_pdf": "https://aclanthology.org/2025.mmloso-1.3.pdf",
+  "exact_locators": [
+    {
+      "pdf_page": 2,
+      "printed_page": 26,
+      "section": "3 Data",
+      "finding": "MMLoSo approximately 20k pairs per direction; 95/5 train/development split; Mundari-Hindi included",
+      "state": "author_reported_technical"
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": 27,
+      "section": "4.3 Experimental Design",
+      "finding": "Layer sweep samples 1,000 parallel pairs and one epoch per direction for Mundari-Hindi and Santali-English",
+      "state": "author_reported_technical"
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 28,
+      "section": "Table 1, Mundari-Hindi row",
+      "finding": "Weighted composite: TRepLiNa 34.24, REPINA-only 33.45, NoAlign 33.36; scores are author reported",
+      "state": "author_reported_technical"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 29,
+      "section": "Limitations",
+      "finding": "No human adequacy/fluency evaluation, domain transfer or qualitative generated-output analysis",
+      "state": "author_reported_limitations"
+    }
+  ],
+  "scope": "Mundari technical MT benchmark only; no cultural propositions",
+  "dedup_key": "acl:2025.mmloso-1.3",
+  "dependency": "MMLoSo shared-task dataset; not independent of other benchmark papers",
+  "rights": "paper publisher CC BY 4.0; underlying data and participant permissions not inferred",
+  "promotion": "not_promoted",
+  "manifestation_sha256": null,
+  "manifestation_state": "publisher PDF verified via PDF parser, binary checksum not acquired",
+  "release_gate": "NOT_PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "search_id": "MMSC-SEARCH-000351",
+  "run": 351,
+  "audited_utc": "2026-09-14T13:00:00Z",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books/ethnography","dictionaries/lexica","grammars","peer-reviewed articles","theses/dissertations","government/TRI/Census/LSI","archives/manuscripts","newspapers","web/community resources","datasets/corpora","audio","video","maps","documentary/media"],
+  "representative_reobservations": [
+    {"class":"government/TRI/Census/LSI","title":"Munda | Tribal Welfare Research Institute Jharkhand","url":"https://www.trijharkhand.in/en/munda","disposition":"reobserved; provider page only; no automatic claim promotion"},
+    {"class":"maps","title":"LSI map of Munda languages","url":"https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg","disposition":"reobserved; derivative/public-domain locator; primary LSI verification still required"},
+    {"class":"peer-reviewed articles","title":"Expressives and the multimodal depiction of social types in Mundari","url":"https://www.cambridge.org/core/journals/language-in-society/article/abs/expressives-and-the-multimodal-depiction-of-social-types-in-mundari/312B8B9C8BEB3D550999A0E09BBC1E4A","disposition":"reobserved; scholarly locator only"},
+    {"class":"datasets/corpora","title":"AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages","url":"https://arxiv.org/abs/2512.04765","disposition":"reobserved; dataset/community-validation assertions require source-level audit before promotion"},
+    {"class":"web/community resources","title":"Tribal Lingua - Mundari","url":"https://www.triballingua.in/learn-mundari/","disposition":"discovery lead only; not treated as audited cultural authority"}
+  ],
+  "homonym_false_positive_rule": "Exclude South-Sudan Mundari and other non-Munda/Mundari homonyms plus name-only media hits unless source identity is demonstrably relevant.",
+  "counting_rule": "Search results do not change controlled source counts until deterministic numbered-register reconciliation and canonicalization are completed.",
+  "controlled_counts_changed": false,
+  "audited_source_identities": 42,
+  "raw_web_discovery_records": 90,
+  "unique_web_discovery_leads": 87,
+  "duplicate_web_records": 3,
+  "canonicalized_unique_web_leads": 14,
+  "unresolved_unique_web_leads": 73,
+  "absolute_or_future_proof_completeness_claimed": false
+}

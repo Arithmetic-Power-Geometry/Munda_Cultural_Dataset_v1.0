@@ -1,0 +1,42 @@
+{
+  "record_type": "source_verification",
+  "checked_utc": "2026-09-08T18:25:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "government_Census_LSI",
+  "title": "LINGUISTIC SURVEY OF INDIA-Jharkhand",
+  "producer": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+  "reference_id": "LSI_JHARKHAND",
+  "catalog_id": "45248",
+  "date_published": "2023-08-01",
+  "resource_type": "book",
+  "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+  "official_download_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf",
+  "verification": {
+    "official_catalog_identity_verified": true,
+    "official_download_filename_verified": true,
+    "official_download_url_identified": true,
+    "direct_pdf_retrieval_in_this_cycle": "blocked_http_502",
+    "independent_text_index_reconfirmed_mundari_section": true,
+    "page_image_verified": false,
+    "ocr_verified": false
+  },
+  "scope": {
+    "state": "Jharkhand",
+    "mundari_relevant": true,
+    "use_boundary": "Treat as an official linguistic-survey source. Do not promote page-level linguistic, demographic, dialect, script, education, or cultural claims until the relevant PDF pages are directly inspected and exact page locators are recorded."
+  },
+  "rights_governance": {
+    "public_availability_not_equal_unrestricted_reuse": true,
+    "rights_statement": "Official catalog identifies ORGI/Language Division and provides a contact for suggestions/clarification; no unrestricted redistribution license was inferred.",
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "deduplication": {
+    "new_permanent_source_id_assigned": false,
+    "counts_changed": false,
+    "reason": "This cycle strengthens the exact official locator for an already tracked LSI Jharkhand lead; canonical reconciliation must precede permanent-ID or evidence-chain promotion."
+  },
+  "blocker": "Official PDF retrieval returned HTTP 502 in this cycle, so screenshot/page-image attestation and exact page locators remain pending.",
+  "next_action": "Retry the official PDF or an authoritative mirror, inspect the Mundari chapter pages visually, capture exact page locators, then promote only directly supported permitted evidence."
+}

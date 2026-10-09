@@ -1,0 +1,75 @@
+{
+  "run": 453,
+  "date_utc": "2026-09-17",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["dataset", "web_resource", "parallel_corpus"],
+  "canonical_identity": {
+    "title": "Adivaani Tribal → English Parallel Corpus",
+    "provider": "adivaanihf / Hugging Face",
+    "mundari_config": "mundari",
+    "mundari_iso_639_3": "unr",
+    "canonical_url": "https://huggingface.co/datasets/adivaanihf/adivaani-tribal-english-parallel-corpus"
+  },
+  "verified_metadata": {
+    "language_configs_reported": 9,
+    "mundari_present": true,
+    "row_semantics": "one aligned tribal-language / English sentence pair",
+    "columns": ["id", "tribal_language", "tribal_iso", "tribal_text", "eng_text"],
+    "stable_id_pattern_reported": "{language}_{index}",
+    "derived_from": "adivaanihf/adivaani-tribal-parallel-corpus",
+    "access_state": "repository publicly discoverable; file/content access requires accepting conditions and sharing contact information"
+  },
+  "canonicalization": {
+    "rule": "Treat language configs, Parquet files, Data Studio presentation and derived views as components/manifestations of one derived parallel-corpus identity; do not count rows or files as independent sources.",
+    "dependency_rule": "Link every promoted row to the parent adivaanihf/adivaani-tribal-parallel-corpus provenance chain; derived English-pair rows are not independent corroboration of their parent records."
+  },
+  "scope": {
+    "classification": "direct Mundari linguistic/NLP relevance; cultural proposition scope unverified",
+    "promotion_state": "NOT_PROMOTED",
+    "reason": "Discovery/metadata alone does not establish item-level provenance, reuse permission, participant consent, cultural permission, or independent cultural truth."
+  },
+  "rights_access_consent": {
+    "dataset_card_instruction": "Refer to parent dataset for source provenance and licensing.",
+    "rights_state": "UNRESOLVED_PARENT_DEPENDENT",
+    "access_gate": "Hugging Face gated access conditions must be accepted before files/content can be inspected.",
+    "consent_state": "UNVERIFIED",
+    "privacy_state": "UNVERIFIED",
+    "cultural_access_state": "UNVERIFIED",
+    "policy": "Public discoverability or technical access does not equal redistribution permission, participant consent, or cultural permission."
+  },
+  "exact_locator_plan": {
+    "candidate_locator": "mundari config + stable id",
+    "required_before_evidence_promotion": [
+      "verify parent dataset licence and source provenance",
+      "lawfully obtain permitted Mundari config",
+      "deterministically enumerate Mundari rows",
+      "record immutable permitted artifact hash(es)",
+      "verify row-level parent dependency/source identifiers",
+      "review contributor/participant consent and privacy where applicable",
+      "review cultural-access sensitivity before exposing content",
+      "promote only supported permitted rows with stable id locator"
+    ]
+  },
+  "blocked_or_gap": [
+    "files/content gated behind acceptance/contact-information condition",
+    "parent-corpus licence/provenance not yet verified in this run",
+    "Mundari row count not asserted because it was not deterministically enumerated",
+    "no immutable bytes or SHA-256 obtained",
+    "no cultural claim promoted"
+  ],
+  "evidence_promoted": 0,
+  "controlled_count_change": false,
+  "count_note": "Do not change MMSC controlled totals until deterministic reconciliation against WEB-MUN/source ledgers is completed.",
+  "web_verification": [
+    {
+      "url": "https://huggingface.co/datasets/adivaanihf/adivaani-tribal-english-parallel-corpus",
+      "verified": "2026-09-17",
+      "supports": "identity, Mundari config/ISO, schema, stable-id statement, parent dependency, gated-access state, provenance/licence instruction"
+    },
+    {
+      "url": "https://adivaani.tribal.gov.in/",
+      "verified": "2026-09-17",
+      "supports": "separate official Adi Vaani platform context only; not treated as proof that the Hugging Face corpus has government ownership or unrestricted reuse"
+    }
+  ]
+}

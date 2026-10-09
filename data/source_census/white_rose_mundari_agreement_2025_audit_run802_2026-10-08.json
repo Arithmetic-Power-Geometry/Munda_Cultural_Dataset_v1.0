@@ -1,0 +1,35 @@
+{
+  "run": 802,
+  "date_ist": "2026-10-08",
+  "branch": "mlhkp-v2",
+  "type": "peer_reviewed_grammar_morphosyntax_open_repository_manifestation",
+  "canonical_key": "doi:10.1007/s11049-024-09628-2",
+  "title": "Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis",
+  "authors": [
+    "Gurujegan Murugesan",
+    "Imke Driemel",
+    "Andrew Murphy"
+  ],
+  "journal": "Natural Language & Linguistic Theory",
+  "published_online": "2025-02-03",
+  "published_print": "2025-04-18",
+  "published_pages": "1067–1115",
+  "institutional_record": "https://eprints.whiterose.ac.uk/id/eprint/226042/",
+  "accepted_manuscript": "https://eprints.whiterose.ac.uk/id/eprint/226042/1/murugesanEtAl_24_Omnivoro.3.pdf",
+  "accepted_version_license": "CC BY 2.5 (as stated by White Rose Research Online)",
+  "doi": "https://doi.org/10.1007/s11049-024-09628-2",
+  "source_scope": "Mundari linguistic person/number/gender agreement analysis; no cultural-practice inference",
+  "identity_status": "candidate; reconcile with MMSC and previous grammar/word-class audits before creating a permanent source ID",
+  "manifestation_status": "institutional landing-page metadata and accepted-version licence verified; PDF binary fetch timed out; no SHA-256 or example-page concordance",
+  "rights_access_consent": "CC BY 2.5 covers the accepted manuscript according to institutional record; does not establish original participant consent or rights for unrelated recordings",
+  "exact_locator_stage": "article published page span and stable accepted PDF path verified; no example-level linguistic proposition promoted without reading accepted manuscript",
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_gate": "NOT_PASS",
+  "next": "Obtain accepted PDF lawfully; record SHA-256, bytes and page mapping; classify elicited examples versus prior literature; extract narrowly scoped page/example-level propositions; dedupe against existing MMSC."
+}

@@ -1,0 +1,65 @@
+{
+  "run": 512,
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_source": {
+    "author": "Rakhal Das Haldar",
+    "title": "An Introduction to the Mundari Language",
+    "year": 1871,
+    "container": "Journal of the Asiatic Society of Bengal",
+    "volume": "40, Part I",
+    "printed_pages": "46-66",
+    "source_class": ["peer-reviewed/historical scholarly article", "grammar/language description"],
+    "scope": "direct Mundari",
+    "identity_status": "verified bibliographically from independent scholarly/government bibliographies and digitized journal contents"
+  },
+  "identity_evidence": [
+    {
+      "provider": "Census of India",
+      "locator": "LSI_WB_PART_I.pdf, Bibliography & Reference, item 2",
+      "observation": "Lists Rakhal Das (1871), An Introduction to the Mundari language, Journal of Asiatic Society of Bengal, Vol.40, pp.46-66."
+    },
+    {
+      "provider": "ISFAS / Kiel South Asia bibliography",
+      "locator": "Mundari bibliography entry",
+      "observation": "Lists Das, Rakal. 1871. An introduction to the Mundari language, JASB 40:46-66."
+    },
+    {
+      "provider": "digitized JASB 1871 table of contents",
+      "locator": "Part I, No. I contents",
+      "observation": "Lists An Introduction to the Mundari Language by Rakal Das Haldar beginning at printed page 46; next article begins at 67, supporting pp.46-66."
+    }
+  ],
+  "canonicalization": {
+    "rule": "Treat spelling variants Rakal/Rakhal and digitized journal manifestations as one work unless edition/content collation proves otherwise.",
+    "independence_rule": "A catalogue, bibliography, OCR mirror, scan mirror, or later citation is not an independent linguistic source from the 1871 article."
+  },
+  "rights_access_cultural": {
+    "historical_work_copyright_assessment": "The 1871 underlying work is historical and likely outside copyright in many jurisdictions, but this run does not infer rights in any particular scan/OCR manifestation without provider-specific verification.",
+    "redistribution_permission": "unresolved at manifestation level",
+    "participant_consent": "unknown/not established from bibliographic metadata",
+    "cultural_access": "unknown; no cultural permission inferred from publication or age",
+    "contemporary_authority": "not inferred"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No lawful immutable complete article bytes were locally materialized and hashed in this run; no exact passage was dependency-checked. Bibliographic page range alone is not sufficient for a linguistic/cultural claim promotion.",
+    "required_exact_locator": "canonical source identity + immutable manifestation + local SHA-256 + printed page + scan/PDF page + passage/line or example locator + dependency/provenance class + rights/access/cultural review"
+  },
+  "blocked_or_pending": [
+    "obtain a lawful authoritative or rights-clear complete scan",
+    "compute local SHA-256",
+    "concord scan/PDF pages to printed pp.46-66",
+    "inspect exact passages and examples",
+    "classify dependence on elicitation, contemporaneous secondary sources, or other prior descriptions",
+    "apply cultural-access and consent uncertainty conservatively"
+  ],
+  "audit_invariants": [
+    "historical publication does not equal contemporary cultural authority",
+    "bibliographic metadata does not equal exact-locator evidence",
+    "scan availability does not equal scan redistribution permission",
+    "mirror manifestation does not equal independent corroboration",
+    "no cultural claim is promoted without passage-level support"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "audit_id": "MLHKP-RUN518-LANGUAGESHOME-MUNDARI-AUDIO",
+  "run": 518,
+  "audited_utc": "2026-09-20T00:41:00Z",
+  "scope": "non-Mundarica source census; web/audio/lexical-pedagogical resource",
+  "canonical_identity": {
+    "provider": "Languages Home",
+    "title": "Learn Mundari – Audio",
+    "resource_url": "https://www.languageshome.com/New/english-mundari/",
+    "resource_class": ["web_resource", "audio", "pedagogical_lexical_phrase_list"],
+    "language_label": "Mundari"
+  },
+  "verified_discovery": {
+    "page_exposes_english_mundari_pairs": true,
+    "page_exposes_direct_mp3_member_urls": true,
+    "observed_locator_pattern": "https://www.languageshome.com/Mundari_Audio/NN.mp3",
+    "observed_examples": ["01.mp3", "02.mp3", "03.mp3", "92.mp3"],
+    "provider_page_date_display": "8th August 2026 / 8th July 2022",
+    "date_interpretation": "uncertain; page renders two dates, so neither is promoted as an unambiguous publication date"
+  },
+  "identity_and_scope_controls": {
+    "mundari_label_is_provider_asserted": true,
+    "variety_dialect_not_verified": true,
+    "speaker_identity_not_verified": true,
+    "speaker_consent_not_verified": true,
+    "translation_authorship_not_verified": true,
+    "linguistic_quality_not_independently_validated": true,
+    "cultural_claim_use": "not permitted from this audit; phrase/lexical pedagogical material is not automatically cultural evidence"
+  },
+  "rights_access_consent": {
+    "public_playback_or_direct_access_observed": true,
+    "explicit_open_license_verified": false,
+    "redistribution_permission_verified": false,
+    "participant_or_speaker_consent_verified": false,
+    "cultural_access_status_verified": false,
+    "decision": "DISCOVERY_AND_EXTERNAL_LOCATOR_ONLY; DO_NOT COPY AUDIO OR TRANSCRIPT TEXT INTO RELEASE EVIDENCE UNTIL RIGHTS/CONSENT/PROVENANCE ARE RESOLVED"
+  },
+  "exact_locator_readiness": {
+    "external_member_locator_available": true,
+    "scheme": "canonical page URL + exact MP3 URL/member number + corresponding displayed English/Mundari row",
+    "immutable_version_pin_available": false,
+    "local_sha256_verified": false,
+    "member_inventory_locally_recounted": false,
+    "promotion_ready": false
+  },
+  "deduplication": {
+    "canonicalization_key": "languageshome|learn-mundari-audio|english-mundari",
+    "page_and_mp3_members_are_one_source_family": true,
+    "individual_mp3_members_must_not_be_counted_as_independent_sources": true,
+    "mirrors_or_search_snippets_must_not_be_counted_as_independent_sources": true
+  },
+  "promotion": {"claims": 0, "evidence_records": 0, "media_copied": 0},
+  "gaps": [
+    "provider identity/authorship provenance",
+    "Mundari variety/dialect validation",
+    "speaker identity/provenance and consent",
+    "translation provenance and linguistic review",
+    "explicit license/reuse terms for text and audio",
+    "cultural-access review",
+    "immutable capture/version and local SHA-256/member inventory"
+  ],
+  "audit_note": "A discoverable, directly locatable Mundari-labelled audio/phrase resource was progressed beyond a bare search lead into a rights- and provenance-gated source audit. Public playback is not treated as redistribution permission, consent, or verified linguistic/cultural evidence."
+}

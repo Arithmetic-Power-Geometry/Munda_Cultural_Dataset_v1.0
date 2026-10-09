@@ -1,0 +1,54 @@
+{
+  "run": 319,
+  "audit_date_utc": "2026-09-13T19:35:00Z",
+  "source_class": "government/TRI/Census/LSI",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "reference_id": "PC11_ST15-20",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+  "declared_download": "ST-20-00-15-DDW-2011.XLSX",
+  "catalogue_metadata": {
+    "census_year": 2011,
+    "geographic_unit": "Jharkhand",
+    "geographic_granularity": "state / UT",
+    "statistics": "Counts",
+    "unit_of_observation": "Individual (person)",
+    "universe": "Individuals from scheduled tribes in Jharkhand",
+    "munda_patar_tribe_row_declared": true,
+    "munda_mother_tongue_code_declared": "91",
+    "mundari_mother_tongue_code_declared": "92",
+    "mundari_named_row_declared": true
+  },
+  "verification": {
+    "catalogue_identity_verified": true,
+    "declared_workbook_filename_verified": true,
+    "table_schema_verified_from_catalogue_metadata": true,
+    "munda_patar_row_label_verified_from_catalogue_metadata": true,
+    "munda_mundari_mother_tongue_labels_verified_from_catalogue_metadata": true,
+    "workbook_bytes_acquired": false,
+    "independent_hash_verified": false,
+    "sheet_inventory_verified": false,
+    "exact_row_coordinates_verified_from_workbook": false,
+    "exact_numeric_cells_verified": false
+  },
+  "promotion": {
+    "catalogue_locator_promoted": true,
+    "schema_metadata_promoted": true,
+    "numeric_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "community_validation_claims_promoted": 0,
+    "controlled_source_count_increment": 0,
+    "controlled_claim_count_increment": 0,
+    "controlled_evidence_record_increment": 0,
+    "controlled_provenance_link_increment": 0,
+    "reason_count_neutral": "Exact workbook bytes and numeric cells are not independently verified and the candidate is not yet reconciled against the numbered MMSC/WEB-MUN register."
+  },
+  "rights_governance": {
+    "public_catalogue_visibility_not_treated_as_reuse_permission": true,
+    "participant_consent_not_inferred": true,
+    "community_validation_not_inferred": true,
+    "cultural_access_authorization_not_inferred": true,
+    "cultural_access_overrides_entitlement": true
+  },
+  "blocker": "Acquire the declared workbook through a permitted channel, compute an independent hash, inventory sheets, verify exact row/cell coordinates for Munda/Patar and Munda/Mundari entries, and deterministically reconcile the source identity before any numerical promotion."
+}

@@ -1,0 +1,73 @@
+{
+  "audit_id": "MLHKP-RUN237-BNF-HISTORICAL-MUNDARI-AUDIO",
+  "checked_utc": "2026-09-12T01:30:00Z",
+  "scope": "Exact archival-locator verification for existing WEB-MUN-0018, WEB-MUN-0019 and WEB-MUN-0020 discovery records; no audio, transcript, translation, participant material or cultural proposition ingested.",
+  "records": [
+    {
+      "web_source_id": "WEB-MUN-0018",
+      "title": "A kahani : in Mundari",
+      "institution": "Bibliotheque nationale de France",
+      "ark": "ark:/12148/cb41463717x",
+      "bnf_notice": "FRBNF41463717",
+      "publication": "Calcutta : Gramophone Co., 1914",
+      "physical_description": "one-sided disc; 3 min 40 s; 78 rpm; 25 cm",
+      "recording_place_date": "Ranchi, 1914",
+      "matrix": "3292Y",
+      "digital_holding_locator": "NUMAUD-129831",
+      "verification_state": "national_library_catalogue_exact_locator_verified",
+      "promotion_boundary": "Archive metadata may support source identity and historical-recording provenance only. Do not ingest or expose audio, transcript, translation, incipit, performer/participant material or cultural claims without item-level rights, ethics and cultural-access review."
+    },
+    {
+      "web_source_id": "WEB-MUN-0019",
+      "title": "[Mundari songs]",
+      "institution": "Bibliotheque nationale de France",
+      "ark": "ark:/12148/cb42560162p",
+      "bnf_notice": "FRBNF42560162",
+      "publication": "Calcutta : Gramophone Co., 1914",
+      "physical_description": "one-sided disc; 3 min 30 s; 78 rpm; 25 cm",
+      "recording_place_date": "Ranchi, 1914",
+      "matrix": "3303Y",
+      "digital_holding_locator": "NUMAUD-130035",
+      "verification_state": "national_library_catalogue_exact_locator_verified",
+      "promotion_boundary": "Archive metadata may support source identity and historical-recording provenance only. Do not ingest or expose audio, song text, transcript, translation, performer/participant material or cultural claims without item-level rights, ethics and cultural-access review."
+    },
+    {
+      "web_source_id": "WEB-MUN-0020",
+      "title": "Durang Kahani : Alope Joma / Tuila accompaniment to the Mundari marriage song",
+      "institution": "Bibliotheque nationale de France",
+      "ark": "ark:/12148/cb42562690s",
+      "bnf_notice": "FRBNF42562690",
+      "publication": "Calcutta : Gramophone Co., 1914",
+      "physical_description": "one-sided disc; 2 min 35 s; 78 rpm; 25 cm",
+      "recording_place_date": "Ranchi, probably 1914",
+      "matrix": "3306Y",
+      "digital_holding_locator": "NUMAUD-130038",
+      "independent_catalogue_corroboration": {
+        "institution": "British Library Archives and Manuscripts Catalogue",
+        "shelfmark": "IOR/S/2/1/17",
+        "record_id": "040-000091091",
+        "title": "Songs (1) Durang Kahani: Alope Joma (2) Tuia accompaniment to the Mundari marriage song",
+        "scope_content": "Spoken language: Kherwari (Mundari dialect)"
+      },
+      "verification_state": "national_library_catalogue_exact_locator_verified_with_independent_bl_corroboration",
+      "promotion_boundary": "The cross-catalogue match supports archival identity/provenance only. It does not verify the audio bytes, historical transcription/translation, instrument description beyond catalogue attribution, current cultural practice, performer consent, community validation, or reuse permission."
+    }
+  ],
+  "rights_and_governance": {
+    "public_catalogue_visibility_is_permission": false,
+    "digital_holding_presence_is_redistribution_permission": false,
+    "historical_recording_is_community_validation": false,
+    "participant_or_performer_consent_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "audio_bytes_acquired": false,
+    "transcripts_or_translations_ingested": false,
+    "public_factual_cultural_claims_added": 0
+  },
+  "count_effect": "none; this audit strengthens three existing discovery locators but does not canonicalize them into new audited source identities in Run 237",
+  "sources": [
+    "https://catalogue.bnf.fr/ark:/12148/cb41463717x",
+    "https://catalogue.bnf.fr/ark:/12148/cb42560162p",
+    "https://catalogue.bnf.fr/ark:/12148/cb42562690s",
+    "https://searcharchives.bl.uk/catalog/040-000091091"
+  ]
+}

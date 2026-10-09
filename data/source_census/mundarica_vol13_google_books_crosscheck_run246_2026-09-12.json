@@ -1,0 +1,54 @@
+{
+  "audit_id": "MLHKP-RUN246-MUNDARICA-XIII-GBOOKS-CROSSCHECK",
+  "run_id": 246,
+  "date_utc": "2026-09-12T06:30:00Z",
+  "stream": "Mundarica I-XVI acquisition/page-accounting/manifestation verification",
+  "work": {
+    "title": "Encyclopaedia Mundarica",
+    "volume": "13",
+    "authors": ["Johann Hoffmann", "Arthur van Emelen"],
+    "publisher_rendered_year": 1941,
+    "publisher_rendered_publisher": "Superintendent government printing, Bihar and Orissa"
+  },
+  "independent_locator": {
+    "provider": "Google Books",
+    "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC",
+    "provider_displayed_title": "Encyclopaedia Mundarica, Volume 13",
+    "provider_displayed_original_from": "the New York Public Library",
+    "provider_displayed_digitized": "Aug 28, 2024"
+  },
+  "relation_to_existing_mlkhp_record": {
+    "existing_stream": "Earlier Run 238 identified DLI/Internet Archive item dli.ernet.14932 as an exact Volume-XIII locator with degraded-PDF metadata.",
+    "new_value": "Independent institution-origin bibliographic corroboration of the Volume-XIII identity/year/publisher, reducing single-host dependence.",
+    "identity_count_change": false,
+    "evidence_claim_count_change": false
+  },
+  "verification_boundary": {
+    "verified_here": [
+      "Google Books renders Volume 13 as a distinct bibliographic record",
+      "Google Books renders Hoffmann and van Emelen as authors",
+      "Google Books renders the publisher/year as Superintendent government printing, Bihar and Orissa, 1941",
+      "Google Books reports the original source as the New York Public Library and a digitization date of Aug 28, 2024"
+    ],
+    "not_verified_here": [
+      "byte-preserving acquisition of the complete book",
+      "independent cryptographic hash",
+      "scan-image sequence completeness",
+      "printed-page to scan-image mapping",
+      "OCR accuracy or transcription correctness",
+      "reuse/redistribution permission",
+      "community validation or participant consent",
+      "cultural-access permission",
+      "any cultural or linguistic proposition contained in the volume"
+    ]
+  },
+  "promotion_level": "independent bibliographic/manifestation corroboration only",
+  "authoritative_registered_scan": false,
+  "verified_complete_volume": false,
+  "ocr_verified": false,
+  "cultural_content_promoted": false,
+  "rights_inferred": false,
+  "community_validation_inferred": false,
+  "cultural_access_inferred": false,
+  "source_complete_claim": false
+}

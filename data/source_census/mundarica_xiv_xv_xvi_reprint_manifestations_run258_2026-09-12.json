@@ -1,0 +1,70 @@
+{
+  "run_id": 258,
+  "date_utc": "2026-09-12",
+  "stream": "Mundarica I-XVI acquisition/page-accounting/structuring",
+  "scope_volumes": ["XIV", "XV", "XVI"],
+  "promotion_level": "modern reprint manifestation metadata only; no historical-source completeness, scan, OCR, rights, or cultural-access promotion",
+  "records": [
+    {
+      "volume": "XIV",
+      "manifestation_type": "modern_reprint",
+      "publisher": "Gyan Publishing House",
+      "publication_year": 2009,
+      "isbn10": "812120318X",
+      "isbn13": "9788121203180",
+      "reported_pages": 603,
+      "author_statement": "Hoffman S.J. John; Artur Van, S.J. Emelen; foreword by K.S. Singh",
+      "verification_sources": [
+        "https://www.abebooks.fr/rechercher-livre/auteur/john-hoffman-s-j/",
+        "https://atlanticbooks.com/products/encyclopaedia-mundarica-9788121203180"
+      ],
+      "verification_boundary": "Two commercial bibliographic manifestations independently agree on the 2009 Gyan reprint identity, ISBN and reported extent. This does not establish an historical authoritative manifestation, complete source bytes, printed-page continuity, OCR correctness, redistribution permission, community validation, or cultural-access clearance."
+    },
+    {
+      "volume": "XV",
+      "manifestation_type": "modern_reprint",
+      "publisher": "Gyan Publishing House",
+      "publication_year": 2009,
+      "isbn10": "8121203198",
+      "isbn13": "9788121203197",
+      "reported_pages": 135,
+      "author_statement": "Hoffman S.J. John; Artur Van, S.J. Emelen; foreword by K.S. Singh",
+      "verification_sources": [
+        "https://www.abebooks.fr/rechercher-livre/auteur/john-hoffman-s-j/",
+        "https://rekhtabooks.com/products/encyclopaedia-mundarica-volume-vol-15th-hardcover"
+      ],
+      "verification_boundary": "Two independent retail/catalogue records agree on the 2009 Gyan reprint identity, ISBN and reported extent. This is bibliographic corroboration only and is not evidence of historical-source completeness or permission for content reuse."
+    },
+    {
+      "volume": "XVI",
+      "manifestation_type": "modern_reprint",
+      "publisher": "Gyan Publishing House",
+      "publication_year": 2009,
+      "isbn10": "8121203228",
+      "isbn13": "9788121203227",
+      "reported_pages": 43,
+      "author_statement": "Hoffman S.J. John; Artur Van, S.J. Emelen; foreword by K.S. Singh",
+      "verification_sources": [
+        "https://www.flipkart.com/encyclopaedia-mundarica-vol-16th/p/itm614afb5fca7eb",
+        "https://www.kulturkaufhaus.de/de/detail/ISBN-9788121203227/Emelen-Sj/Encyclopaedia-Mundarica-Vol.16th"
+      ],
+      "verification_boundary": "Independent bibliographic/retail records agree on the 2009 Gyan reprint, ISBN and 43-page reported extent. No inference is made that these 43 pages constitute an independently verified historical Volume XVI source or that any content is cleared for MLHKP reuse."
+    }
+  ],
+  "cross_record_findings": {
+    "volumes_with_exact_modern_reprint_identity": 3,
+    "historical_authoritative_manifestations_verified_this_run": 0,
+    "authoritative_registered_scans_promoted": 0,
+    "verified_complete_volumes_promoted": 0,
+    "ocr_verified_volumes_promoted": 0,
+    "content_claims_promoted": 0,
+    "rights_or_cultural_access_inferred": false,
+    "reason": "The evidence is sufficient to replace vague modern-reprint locators for XIV-XVI with exact bibliographic identities, but not sufficient to close historical manifestation, byte, pagination, OCR, rights, or community/cultural-access gates."
+  },
+  "next_integrity_actions": [
+    "Locate first-edition or institutionally preserved historical manifestations corresponding to XIV-XVI/plates/index structure.",
+    "Acquire any permitted source bytes without transcoding and compute independent cryptographic hashes.",
+    "Reconcile modern-reprint extents against historical printed pagination and series structure before asserting volume completeness.",
+    "Keep bibliographic availability separate from redistribution/model-training permission and from MLHKP cultural-access approval."
+  ]
+}

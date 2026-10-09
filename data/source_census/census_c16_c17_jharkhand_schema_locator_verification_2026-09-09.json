@@ -1,0 +1,54 @@
+{
+  "artifact_type": "source_locator_and_table_schema_verification",
+  "verification_date_utc": "2026-09-09T10:46:00Z",
+  "scope": "Office of the Registrar General & Census Commissioner, India (ORGI), Census 2011, Jharkhand language tables C-16 and C-17",
+  "records": [
+    {
+      "table": "C-16",
+      "official_title": "C-16: Population by mother tongue, Jharkhand - 2011",
+      "official_reference_id": "PC11_C16-20",
+      "official_reference_series": "PC11_C16",
+      "official_workbook_filename": "DDW-C16-STMT-MDDS-2000.xlsx",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "data_source": "Population Census 2011",
+      "geographic_granularity": "state, district, subdistrict",
+      "unit_of_observation": "individual (person)",
+      "statistics": "counts",
+      "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10207",
+      "table_semantics": "Distribution of population by mother tongue and sex, separately for total/rural/urban areas at India/state/district/tahsil/town levels; mother tongues arranged alphabetically.",
+      "verified_schema_fields": ["area name", "area of residence (urban/rural)", "mother tongue (code and name)", "sex (male/female/total)"],
+      "verified_from_official_catalogue": true,
+      "workbook_bytes_acquired_and_hashed": false,
+      "worksheet_row_cell_coordinates_verified": false,
+      "numeric_claims_promoted": false
+    },
+    {
+      "table": "C-17",
+      "official_title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+      "official_reference_id": "PC11_C17-20",
+      "official_reference_series": "PC11_C17",
+      "official_workbook_filename": "DDW-C17-2000.XLSX",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "data_source": "Population Census 2011",
+      "geographic_granularity": "state",
+      "unit_of_observation": "individual (person)",
+      "statistics": "counts",
+      "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+      "table_semantics": "For each mother tongue, the table reports speakers who are bilingual and classifies speakers by two additional languages; data are presented for total areas at India/state level.",
+      "verified_relevant_row_labels": ["Language - Total speakers - MUNDA", "Language - Total speakers - MUNDARI"],
+      "verified_from_official_catalogue": true,
+      "workbook_bytes_acquired_and_hashed": false,
+      "worksheet_row_cell_coordinates_verified": false,
+      "numeric_claims_promoted": false
+    }
+  ],
+  "provenance_boundary": "This artifact verifies official catalogue identities, workbook filenames, table-level semantics, schema fields and relevant row labels only. It does not verify workbook bytes, checksums, worksheets, rows, exact cells or any demographic/bilingualism/trilingualism count. No number may enter CLAIM/EVIDENCE until byte-level acquisition and exact worksheet-row-cell provenance are completed.",
+  "deduplication_note": "C-16 and C-17 catalogue/workbook manifestations are authority locators within the existing Census source stream. They are not counted as new independent cultural source identities merely because separate tables exist.",
+  "rights_and_governance_note": "Public official catalogue access does not override MLHKP privacy, cultural-access, community-validation or item-level governance gates. Aggregate Census language statistics are kept distinct from participant-derived cultural evidence.",
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0
+  }
+}

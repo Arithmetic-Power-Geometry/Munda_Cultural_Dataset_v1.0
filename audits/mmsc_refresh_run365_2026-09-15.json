@@ -1,0 +1,89 @@
+{
+  "run": 365,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000365",
+  "controlled_classes_refreshed": 14,
+  "refresh_scope": [
+    "books_and_historical_print",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_and_dissertations",
+    "government_TRI_Census_LSI",
+    "archives_and_manuscript_catalogues",
+    "newspapers_and_current_media",
+    "web_resources",
+    "datasets_and_language_technology",
+    "audio",
+    "video",
+    "maps_and_atlases",
+    "cross_border_and_relevant_media"
+  ],
+  "new_exact_locator_progress": [
+    {
+      "name": "Census of India 2011 - Administrative Atlas - Jharkhand - Volume I",
+      "reference_id": "AA_2011_Jharkhand_vol1",
+      "disposition": "exact official provider locator promoted; PDF bytes/pages and Mundari-specific claims unverified"
+    },
+    {
+      "name": "Census of India 2011 - Administrative Atlas - Jharkhand - Volume II",
+      "reference_id": "AA_2011_Jharkhand_vol2",
+      "disposition": "exact official provider locator promoted; PDF bytes/pages and Mundari-specific claims unverified"
+    },
+    {
+      "name": "Grambank - Language Mundari",
+      "identifier": "mund1320",
+      "disposition": "exact typological database locator and source genealogy promoted; feature values and source passages remain unpromoted"
+    }
+  ],
+  "notable_reobservations": [
+    {
+      "name": "Cook 1965 Georgetown dissertation",
+      "disposition": "identity corroborated through Glottolog/secondary indexing; unlicensed aggregator full text is not promoted as permitted evidence"
+    },
+    {
+      "name": "LSI Jharkhand",
+      "disposition": "official catalogue and indexed Mundari table remain discoverable; direct PDF acquisition/page verification remains incomplete"
+    },
+    {
+      "name": "Census ST-15 Jharkhand",
+      "disposition": "official exact workbook locator remains verified; workbook bytes/hash/sheet/row/cell values remain unverified"
+    },
+    {
+      "name": "Karya Mundari TTS",
+      "disposition": "known dataset re-observed; speaker/consent/licence/cultural-access boundaries remain governed separately"
+    },
+    {
+      "name": "Multiling Cloud Munda/Mundari archive",
+      "disposition": "known cross-border audiovisual archive re-observed; item-level rights/consent/cultural-access remain unresolved"
+    },
+    {
+      "name": "Mundari.in",
+      "disposition": "known web/media source re-observed; item-level provenance/reuse/consent remain unresolved"
+    },
+    {
+      "name": "Recent peer-reviewed Mundari linguistics",
+      "disposition": "known scholarly stream re-observed; no proposition promoted without exact passage/source audit"
+    }
+  ],
+  "blocked_or_not_promoted": [
+    "unlicensed third-party Cook dissertation download",
+    "LSI direct PDF bytes/pages",
+    "Census workbook values",
+    "audiovisual items without item-level rights/consent",
+    "community/web claims without provenance and validation"
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason_no_count_change": "Run 365 converts previously generic atlas/database discovery state into exact provider-level locators and source genealogy, but does not reconcile a new numbered source identity in the authoritative register and promotes no new controlled claim.",
+  "systematic_census_documented_for_release": true,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

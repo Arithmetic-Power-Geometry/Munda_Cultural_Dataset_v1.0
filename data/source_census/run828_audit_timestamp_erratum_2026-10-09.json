@@ -1,0 +1,12 @@
+{
+  "run": 828,
+  "corrects": "data/source_census/raonka_dissertation_abstract_locator_run828_2026-10-09.json",
+  "field": "checked_utc",
+  "correction": "The exact clock timestamp in the earlier audit was entered as an administrative estimate and must not be interpreted as a measured verification time.",
+  "verified_date_ist": "2026-10-09",
+  "original_pdf_locator": "PDF page 2, ABSTRACT",
+  "source_id": "SRC-MMSC-000004",
+  "evidence_id": "EVD-000041",
+  "impact": "No change to source identity, evidence proposition, rights status, or controlled counts.",
+  "release_gate": "NOT_PASS"
+}

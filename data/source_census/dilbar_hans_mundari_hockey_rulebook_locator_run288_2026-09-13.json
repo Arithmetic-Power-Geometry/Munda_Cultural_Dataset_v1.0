@@ -1,0 +1,72 @@
+{
+  "run_id": 288,
+  "date_utc": "2026-09-13",
+  "stream": "books / newspapers_periodicals / archives / relevant_media",
+  "purpose": "Advance a non-Mundarica Mundari print-history lead from generic discovery to an exact secondary locator while preserving the distinction between a newspaper report, a privately held surviving copy, and a verified/redistributable primary bitstream.",
+  "secondary_source": {
+    "title": "How to play hockey, written in ‘Mundari’: The story of a Jharkhand Bishop and a forgotten rule book",
+    "author": "Soumi Das",
+    "publisher": "The Indian Express",
+    "published_date": "2023-10-18",
+    "url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/",
+    "access_verified": true
+  },
+  "reported_primary_item": {
+    "author": "Sadanand Abinash Bishram Dilbar Hans",
+    "language": "Mundari",
+    "genre": "field-hockey rule book",
+    "first_publication_year_reported": 1941,
+    "extent_pages_reported": 23,
+    "surviving_copy_reported_holder": "Reverend Cyril Hans",
+    "reported_location_context": "Murhu / Chhotanagpur region, Jharkhand",
+    "primary_copy_or_scan_obtained": false,
+    "primary_bytes_hashed": false,
+    "page_image_concordance_verified": false,
+    "ocr_or_transcription_verified": false
+  },
+  "exact_locator_value": {
+    "level": "secondary bibliographic/provenance locator",
+    "article_date": "2023-10-18",
+    "article_identifies_primary_item_year": 1941,
+    "article_identifies_primary_item_extent_pages": 23,
+    "article_reports_rare_surviving_copy_holder": "Reverend Cyril Hans",
+    "primary_acquisition_target_narrowed": true
+  },
+  "scope_classification": {
+    "core_relevance": "Jharkhand/Mundari print and educational history",
+    "not_mundarica": true,
+    "cultural_claim_promotion": false,
+    "reason": "The source is useful as a locator to a rare Mundari-language publication, but the surviving primary item has not been independently obtained or verified."
+  },
+  "rights_access_consent_cultural_boundary": {
+    "newspaper_public_access_treated_as_primary_book_permission": false,
+    "private_copy_report_treated_as_redistribution_permission": false,
+    "primary_item_public_domain_assumed": false,
+    "participant_consent_applicable_or_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0,
+    "primary_text_or_images_ingested": 0
+  },
+  "deduplication": {
+    "canonical_key": "print:dilbar-hans:mundari-hockey-rulebook:1941",
+    "identity_count_change": false,
+    "reason_count_neutral": "This remains a verified locator lead pending deterministic reconciliation with the WEB-MUN source register and acquisition of an independently verifiable primary manifestation."
+  },
+  "promotion": {
+    "level": "exact secondary locator with reported primary-item year, extent and surviving-copy holder",
+    "verification_audits_added": 1,
+    "controlled_claim_rows_added": 0,
+    "controlled_evidence_rows_added": 0,
+    "controlled_evidence_links_added": 0
+  },
+  "explicit_gaps": [
+    "Locate a permitted library/archive/private-copy access path for the 1941 primary rule book.",
+    "Verify title-page/imprint metadata directly from the primary item rather than the newspaper report.",
+    "If obtainable and permitted, hash the exact bitstream and establish page-image concordance before any text or image extraction.",
+    "Reconcile the canonical key against unresolved WEB-MUN records before changing controlled source counts.",
+    "Do not promote quoted vocabulary, diagrams, sporting practice or historical/cultural assertions from the primary work until exact-page evidence and rights/cultural-access review are complete."
+  ]
+}

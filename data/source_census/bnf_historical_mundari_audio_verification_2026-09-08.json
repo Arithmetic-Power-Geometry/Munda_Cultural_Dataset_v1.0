@@ -1,0 +1,45 @@
+{
+  "record_type": "source_verification",
+  "snapshot_date": "2026-09-08",
+  "candidate_id": "WEB-MUN-0030",
+  "canonical_source_id": "SRC-MMSC-000014",
+  "source_class": "historical_audio_archive_item",
+  "title": "The Prodigal son : in Mundari",
+  "canonical_locator": "https://catalogue.bnf.fr/ark:/12148/cb414605823",
+  "identifier": {"scheme": "BNF_ARK", "value": "ark:/12148/cb414605823"},
+  "verified_metadata": {
+    "catalogue_notice": "FRBNF41460582",
+    "editor": "George A. Grierson",
+    "institutional_context": "Linguistic Survey of India",
+    "publication": "Calcutta : Gramophone Co., [1914]",
+    "format": "one-sided 78 rpm spoken-word disc",
+    "duration": "3 min 5 s",
+    "recording_context": "Ranchi, very probably 1914",
+    "matrix": "3290Y",
+    "digital_item_locator_reported": true
+  },
+  "deduplication": {
+    "key": "bnf_ark:12148/cb414605823",
+    "comparison_result": "existing discovery lead canonicalized as one new audited source identity",
+    "duplicate_source_id_found": false
+  },
+  "evidence_promotion": {
+    "claim_id": "CLM-000049",
+    "evidence_id": "EVD-000049",
+    "link_id": "LNK-000049",
+    "level": "archive_catalogue_metadata_exact_locator",
+    "boundary": "Only catalogue identity, format, duration and recording-context metadata are public evidence. No audio content, transcription, translation or cultural proposition is promoted."
+  },
+  "rights_access_consent": {
+    "catalogue_metadata_access": "public",
+    "audio_reuse_permission": "not_established",
+    "transcription_translation_reuse_permission": "not_established",
+    "speaker": "unknown_in_catalogue",
+    "speaker_consent_for_ml_reuse": "not_established",
+    "cultural_access_state": "separate_review_required",
+    "rule": "Cultural access, dignity and consent can be more restrictive than technical or legal availability."
+  },
+  "verification_state": "bnf_catalogue_identity_and_exact_locator_verified",
+  "checked_utc": "2026-09-07T21:50:00Z",
+  "release_boundary": "This verification does not establish community validation, present-day representativeness, unrestricted redistribution, model-training permission, or source-census completeness."
+}

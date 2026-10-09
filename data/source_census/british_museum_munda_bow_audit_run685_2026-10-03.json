@@ -1,0 +1,40 @@
+{
+  "run": 685,
+  "date_utc": "2026-10-03",
+  "stream": "non-Mundarica source census",
+  "source_class": "museum/material-culture",
+  "canonical_key": "BritishMuseum|As1975,08.20",
+  "source": {
+    "institution": "British Museum",
+    "object_title": "bow",
+    "museum_number": "As1975,08.20",
+    "production_ethnic_group": "Munda",
+    "findspot": "India",
+    "materials": ["bamboo", "sinew (?)"],
+    "dimensions": {"height_cm": 96, "width_cm": 8.5, "depth_cm": 3, "weight_g": 24},
+    "curator_comment": "Eth.Doc.1815",
+    "acquisition": "Donated by Miss M H Pickworth, 1975",
+    "department": "Asia",
+    "display_status": "not on display"
+  },
+  "scope": {
+    "classification": "institutional object-catalogue metadata",
+    "warning": "Catalogue attribution to Munda is not evidence that the object or its form is universal, contemporary, or representative of all Munda communities."
+  },
+  "rights_access_consent": {
+    "catalogue_access": "public web record",
+    "object_metadata_reuse": "not inferred beyond factual citation",
+    "image_reuse": "not promoted; verify image-specific rights separately",
+    "maker_participant_consent": "not documented in audited catalogue metadata",
+    "cultural_access": "unresolved"
+  },
+  "exact_locator_plan": "museum number As1975,08.20 -> institutional object record -> named metadata field; any image manifestation requires separate stable asset identifier, rights statement and checksum",
+  "deterministic_repository_search": {
+    "query": "As1975,08.20",
+    "matches": 0,
+    "limitation": "connector code search covers default branch; zero matches do not prove absence on mlhkp-v2"
+  },
+  "controlled_delta": {"audited_source_identities": 0, "claims": 0, "evidence_records": 0, "links": 0, "modules": 0},
+  "promotion": "none",
+  "release_gate": "NOT_PASS"
+}

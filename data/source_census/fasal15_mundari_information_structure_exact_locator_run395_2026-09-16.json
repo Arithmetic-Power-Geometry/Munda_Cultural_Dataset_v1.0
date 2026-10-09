@@ -1,0 +1,51 @@
+{
+  "run": 395,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "record_status": "exact-locator-only",
+  "source_class": ["peer-reviewed/proceedings article", "linguistics"],
+  "canonical_work": {
+    "title": "Towards a typology of information structuring in Munda languages",
+    "authors": ["Gregory D. S. Anderson", "Bikram Jora", "Moses Oyeleye", "Izza Armand", "Tara Shabazaz", "Luke Horo"],
+    "publication_date": "2026-04-09",
+    "venue": "Proceedings of FASAL-15 / Formal Approaches to South Asian Languages",
+    "issue_label": "2025: Proceedings of FASAL-15",
+    "scope_verified": "The provider abstract explicitly states that the article analyzes information structure in Mundari and Sora, including morpholexical, syntactic and prosodic means.",
+    "mundari_scope": "in-scope"
+  },
+  "provider": {
+    "name": "Formal Approaches to South Asian Languages / University of Konstanz OJS",
+    "article_locator": "https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/en/article/view/346",
+    "issue_locator": "https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/en/issue/view/35",
+    "pdf_exposed_by_provider": true
+  },
+  "canonicalization": {
+    "rule": "Article landing page, issue entry and provider PDF are manifestations/components of one scholarly work and must not be counted as separate source identities.",
+    "repository_exact_title_search_before_ingestion": "no match returned",
+    "duplicate_identity_promoted": false
+  },
+  "promotion_boundary": {
+    "promoted": ["bibliographic identity", "institutional article locator", "institutional issue locator", "verified Mundari scope"],
+    "not_promoted": ["linguistic propositions", "examples", "transcriptions", "cultural claims", "audio/prosodic data"],
+    "reason": "Immutable PDF bytes/hash, explicit item-level reuse terms, stable page locators, example/data provenance and applicable speaker/community consent or cultural-access conditions have not yet been fully audited."
+  },
+  "rights_access_consent": {
+    "access": "provider exposes a PDF download link",
+    "redistribution_permission": "unverified at item level",
+    "speaker_or_consultant_consent": "unverified",
+    "community_validation": "not established by publication alone",
+    "cultural_access_authorization": "unverified",
+    "rule": "Public discoverability/downloadability is not treated as permission for unrestricted redistribution or cultural-claim promotion."
+  },
+  "next_materialization_steps": [
+    "obtain permitted provider PDF bytes",
+    "record immutable manifestation identifier and SHA-256",
+    "capture item-level licence/reuse statement",
+    "establish stable PDF page locators",
+    "audit provenance of Mundari examples/prosodic material and any human-participant consent statements",
+    "promote only supported passages with exact locators and provenance links",
+    "reconcile against WEB-MUN/MMSC before changing controlled counts"
+  ],
+  "count_policy": "This locator record alone does not change controlled MMSC, claim, evidence, provenance-link, Streamlit-module or publication-release counts.",
+  "audit_note": "No cultural or linguistic proposition is asserted from this record beyond provider-level scope metadata."
+}

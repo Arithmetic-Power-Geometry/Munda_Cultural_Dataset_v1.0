@@ -1,0 +1,137 @@
+{
+  "run_id": 257,
+  "date_utc": "2026-09-12",
+  "stream": "non-Mundarica source census and ingestion",
+  "scope_class": ["government_TRI_Census_LSI", "books", "dictionaries", "web_resources", "relevant_media"],
+  "institution": {
+    "name": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Jharkhand",
+    "page_title": "Publications",
+    "page_url": "https://www.trijharkhand.in/en/publications",
+    "verification_level": "official institutional publication register"
+  },
+  "verified_register_entries": [
+    {
+      "register_serial": 1,
+      "title_as_displayed": "Mundari - Hindi Sabdhkosh",
+      "author_as_displayed": "Mrs. S. Prasad",
+      "year_as_displayed": "NA",
+      "category_as_displayed": "Tribal Language and Literature",
+      "price_as_displayed": "6.00",
+      "download_as_displayed": "NA",
+      "canonical_key": "tri-jharkhand|mundari-hindi-sabdhkosh|s-prasad|year-na",
+      "scope": "Mundari lexicographic resource",
+      "access_state": "catalogue_only_no_download_exposed"
+    },
+    {
+      "register_serial": 2,
+      "title_as_displayed": "Hindi - Mundari Sabdhkosh",
+      "author_as_displayed": "Mrs. S. Prasad",
+      "year_as_displayed": "NA",
+      "category_as_displayed": "Tribal Language and Literature",
+      "price_as_displayed": "10.00",
+      "download_as_displayed": "NA",
+      "canonical_key": "tri-jharkhand|hindi-mundari-sabdhkosh|s-prasad|year-na",
+      "scope": "Mundari lexicographic resource",
+      "access_state": "catalogue_only_no_download_exposed"
+    },
+    {
+      "register_serial": 14,
+      "title_as_displayed": "Mundari Vartalap Nirdeshika",
+      "author_as_displayed": "Mrs. S. Prasad",
+      "year_as_displayed": "NA",
+      "category_as_displayed": "Tribal Language and Literature",
+      "price_as_displayed": "15.00",
+      "download_as_displayed": "NA",
+      "canonical_key": "tri-jharkhand|mundari-vartalap-nirdeshika|s-prasad|year-na",
+      "scope": "Mundari conversation/language-learning resource",
+      "access_state": "catalogue_only_no_download_exposed"
+    },
+    {
+      "register_serial": 19,
+      "title_as_displayed": "Munda",
+      "author_as_displayed": "Soma Singh Munda",
+      "year_as_displayed": "1993",
+      "category_as_displayed": "Tribal Anthropology",
+      "price_as_displayed": "25.00",
+      "download_as_displayed": "DOWNLOAD",
+      "download_locator": "https://drive.google.com/uc?export=download&id=13ZOOkv-KVrKixzpqWAHj61ZpdiH4uMfb",
+      "drive_file_id": "13ZOOkv-KVrKixzpqWAHj61ZpdiH4uMfb",
+      "canonical_key": "tri-jharkhand|munda|soma-singh-munda|1993",
+      "scope": "Munda tribal anthropology",
+      "access_state": "official_register_exposes_download_link_but_fetch_redirect_blocked_in_run257"
+    },
+    {
+      "register_serial": 88,
+      "title_as_displayed": "Anayum Durang (Mundari folk song)",
+      "author_as_displayed": "NA",
+      "year_as_displayed": "NA",
+      "category_as_displayed": "Tribal Language and Literature",
+      "price_as_displayed": "223.00",
+      "download_as_displayed": "DOWNLOAD",
+      "download_locator": "https://drive.google.com/uc?export=download&id=19MJ3iIgRC33GoqruLWMPDb57PukIweSB",
+      "drive_file_id": "19MJ3iIgRC33GoqruLWMPDb57PukIweSB",
+      "canonical_key": "tri-jharkhand|anayum-durang-mundari-folk-song|author-na|year-na",
+      "scope": "Mundari folk-song publication/media resource",
+      "access_state": "official_register_exposes_download_link_but_fetch_redirect_blocked_in_run257"
+    }
+  ],
+  "deduplication": {
+    "within_run_duplicate_entries": 0,
+    "canonicalization_rule": "Use institution + normalized displayed title + displayed author + displayed year; do not treat catalogue row, download target and later mirrors as separate works.",
+    "repository_directory_name_check": "No prior source-census filename containing the distinctive Anayum title or S. Prasad Sabdhkosh title was observed in the Run-257 pre-promotion directory check.",
+    "identity_count_change": false,
+    "reason_count_neutral": "The complete 73 unresolved WEB-MUN lead set has not yet been deterministically reconciled against these five official-register entries, so the existing audited-identity count is not inflated."
+  },
+  "rights_access_consent_cultural_boundary": {
+    "official_catalogue_metadata_verified": true,
+    "catalogue_visibility_treated_as_redistribution_permission": false,
+    "download_link_treated_as_reuse_permission": false,
+    "downloadable_bytes_acquired": false,
+    "cryptographic_hash_verified": false,
+    "internal_page_or_track_locators_verified": false,
+    "redistribution_permission_verified": false,
+    "model_training_permission_verified": false,
+    "participant_or_performer_consent_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_permission_verified": false,
+    "folk_song_cultural_sensitivity_review_required": true,
+    "notes": "The official register establishes institutional listing and access state only. Two download links redirected to drive.usercontent.google.com and could not be safely fetched in this run; this is logged as an acquisition gap, not completion."
+  },
+  "promotion": {
+    "level": "exact official TRI publication-register locator evidence",
+    "discovery_only": false,
+    "catalogue_evidence_records_promoted": 5,
+    "content_evidence_promoted": false,
+    "lexical_rows_promoted": 0,
+    "conversation_examples_promoted": 0,
+    "anthropological_propositions_promoted": 0,
+    "song_text_or_audio_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_derived_records_promoted": 0,
+    "evidence_claim_count_change": false
+  },
+  "blocked_attempts": [
+    {
+      "title": "Munda",
+      "drive_file_id": "13ZOOkv-KVrKixzpqWAHj61ZpdiH4uMfb",
+      "outcome": "official download target redirected to drive.usercontent.google.com; fetch tool blocked the redirected host",
+      "disposition": "retain exact official register/download locator and continue other sources; do not mark bytes acquired"
+    },
+    {
+      "title": "Anayum Durang (Mundari folk song)",
+      "drive_file_id": "19MJ3iIgRC33GoqruLWMPDb57PukIweSB",
+      "outcome": "official download target redirected to drive.usercontent.google.com; fetch tool blocked the redirected host",
+      "disposition": "retain exact official register/download locator and continue other sources; do not ingest culturally sensitive song material"
+    }
+  ],
+  "explicit_gaps": [
+    "deterministic reconciliation of all five TRI entries against the 73 unresolved WEB-MUN leads",
+    "lawful byte-preserving acquisition of any TRI manifestation that is actually obtainable",
+    "independent cryptographic hashes for acquired manifestations",
+    "exact internal page/entry/track locators before content-level evidence promotion",
+    "rights and redistribution/model-training assessment per manifestation",
+    "participant/performer consent where applicable",
+    "community validation and cultural-access review, especially for the Mundari folk-song publication",
+    "authoritative year/edition metadata for the three S. Prasad language resources whose official register displays year as NA"
+  ]
+}

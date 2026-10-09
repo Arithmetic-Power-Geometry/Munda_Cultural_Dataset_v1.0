@@ -1,0 +1,76 @@
+{
+  "audit_run": 513,
+  "audit_date_utc": "2026-09-19T19:46:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": ["dataset", "audio", "computational-linguistics-resource"],
+  "canonical_source": {
+    "title": "Mundari TTS Dataset Corpus",
+    "provider_repository": "karya-inc/dataset-mundari-tts",
+    "provider_url": "https://github.com/karya-inc/dataset-mundari-tts",
+    "language": "Mundari",
+    "reported_recordings": 26870,
+    "reported_speakers": 2,
+    "reported_female_recordings": 19868,
+    "reported_male_recordings": 7002,
+    "reported_audio_format": "32-bit PCM, 44.1 kHz",
+    "reported_full_corpus_size": "approximately 17 GB; 7 GB compressed",
+    "reported_public_sample": "100 recordings from each speaker",
+    "reported_creators": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+    "reported_collaboration": "FAIR Forward – Artificial Intelligence for all / GIZ",
+    "license_label": "non-commercial version of the Karya Public License"
+  },
+  "identity_verification": {
+    "provider_readme_verified": true,
+    "provider_readme_url": "https://github.com/karya-inc/dataset-mundari-tts/blob/main/README.md",
+    "related_peer_reviewed_description": "Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages, 2024, pp. 76-82",
+    "peer_reviewed_reported_unique_sentences": 15656,
+    "peer_reviewed_reported_recordings": 26868,
+    "peer_reviewed_reported_hours": 27.51,
+    "count_discrepancy": "Provider repository reports 26,870 recordings whereas the 2024 workshop paper reports 26,868. Preserve both manifestation-specific counts until immutable corpus release and membership audit resolve the discrepancy."
+  },
+  "deduplication": {
+    "canonical_identity_rule": "GitHub repository/sample, cloud-hosted full corpus, aka.ms/MUN-TTS artifact link and the 2024 paper are manifestations/documentation of the same underlying Mundari TTS data-generation project unless versioned membership evidence proves otherwise.",
+    "independent_corroboration_rule": "The paper and repository must not be counted as independent empirical corpora merely because they are separate URLs/publications."
+  },
+  "scope": {
+    "in_scope": true,
+    "direct_mundari": true,
+    "geographic_variety_reported_by_paper": "Jharkhand; Devanagari-script Mundari",
+    "claim_scope": "speech/text dataset metadata and, only after audit, exact audio/transcript members; not authority for unrestricted cultural claims"
+  },
+  "rights_access_consent": {
+    "repository_access": "public",
+    "full_corpus_access": "provider README directs users to request cloud-storage link by email",
+    "sample_access": "provider repository reports a 200-recording sample archive",
+    "license_status": "provider states non-commercial Karya Public License; exact LICENSE.txt controls",
+    "redistribution_status": "not inferred beyond exact license terms",
+    "speaker_consent_status": "not independently verified in this run",
+    "cultural_access_status": "unresolved; public availability does not waive cultural or participant constraints"
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No immutable sample/full-corpus bytes were locally materialized and SHA-256 audited in this run; exact member inventory, license-term application, participant-consent provenance and cultural-access review remain gates. Provider/paper count discrepancy also requires version reconciliation."
+  },
+  "exact_locator_plan": {
+    "dataset_member_locator": "release/version + archive SHA-256 + relative member path + member SHA-256 + paired transcript path/hash",
+    "metadata_locator": "repository commit SHA + README line range or paper page/table/section",
+    "required_before_member_promotion": ["immutable bytes", "local SHA-256", "member inventory", "license audit", "speaker/participant provenance review", "cultural-access review"]
+  },
+  "audit_invariants": [
+    "provider-reported count != locally audited count",
+    "public repository != unrestricted redistribution permission",
+    "dataset license != participant consent",
+    "paper URL + repository URL != two independent corpora",
+    "speech transcript pair != cultural claim",
+    "count discrepancy must remain explicit until version/member reconciliation"
+  ],
+  "blocked_or_unresolved": [
+    "full corpus requires provider-mediated access",
+    "sample archive bytes/SHA-256 not materialized in this run",
+    "26,870 repository vs 26,868 paper recording-count discrepancy unresolved",
+    "participant-consent provenance not independently verified",
+    "cultural-access status unresolved"
+  ],
+  "next_action": "Materialize the public sample at a fixed repository commit, compute archive/member SHA-256 values, inspect LICENSE.txt/COPYRIGHT.txt, reconcile the 26,870/26,868 version discrepancy, then promote only permitted exact member evidence."
+}

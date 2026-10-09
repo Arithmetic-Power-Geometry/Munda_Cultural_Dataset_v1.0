@@ -1,0 +1,55 @@
+{
+  "run": 451,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["government_web_resource", "dictionary", "book"],
+  "canonical_provider": "Bharatavani",
+  "provider_authority": "Ministry of Education, Government of India; implemented by Central Institute of Indian Languages (CIIL), Mysuru",
+  "canonical_portal": "https://bharatavani.in/mundari/dictionaries",
+  "scope": "Mundari dictionary resources",
+  "verified_resources": [
+    {
+      "title": "Mundari Muhavara Kosh",
+      "title_devanagari": "मुण्डारी मुहावरा कोश",
+      "author": "Mansidh Baraiud",
+      "languages": ["Mundari", "Hindi"],
+      "book_type": "Dictionary",
+      "content_partner": "Mansidh Baraiud",
+      "publisher": "K. K. Publications, Allahabad, Uttar Pradesh",
+      "provider_reported_pdf_size": "23.27 MB",
+      "access_state": "login_required_to_read",
+      "metadata_verified_from_provider_page": true
+    },
+    {
+      "title": "Mundari Dictionary (Mundari-English-Hindi)",
+      "title_devanagari": "टुङकोढारि अर्थात् मुण्डारी शब्दकोश",
+      "access_state": "provider_item_fetch_timed_out_during_run",
+      "metadata_verified_from_portal_listing_only": true
+    }
+  ],
+  "rights": {
+    "portal_notice": "Copyright Bharatavani. All Rights Reserved",
+    "redistribution_permission_verified": false,
+    "promotion_policy": "Do not ingest/reproduce dictionary contents until item-level reuse permission is established. Metadata/locator audit only."
+  },
+  "canonicalization": {
+    "rule": "Portal listing, item page, authenticated reader/PDF and future provider manifestations for the same titled work are manifestations of one work identity, not independent sources.",
+    "count_inflation_prohibited": true
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "Full permitted bytes and item-level reuse basis not established; one item is login-gated and the second item fetch timed out."
+  },
+  "blocked_or_pending": [
+    "Mundari Muhavara Kosh full reading requires login",
+    "Mundari Dictionary (Mundari-English-Hindi) item page timed out during this run",
+    "item-level reuse/redistribution terms unresolved",
+    "immutable permitted bytes/SHA-256 unavailable",
+    "page/entry-exact locators unavailable",
+    "underlying lexical/cultural provenance and cultural-access implications require review before promotion"
+  ],
+  "controlled_count_change": false,
+  "count_note": "Do not change MMSC controlled counts until deterministic reconciliation against the WEB-MUN ledger.",
+  "release_effect": "Adds a verified Government-of-India/CIIL provider-level dictionary locator and explicit blockers; does not justify release-gate PASS."
+}

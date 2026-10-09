@@ -1,0 +1,39 @@
+{
+  "run": 370,
+  "branch": "mlhkp-v2",
+  "work_head_before_status_sync": "0cf56ce0fcaf1163ae7b42ad026bee3b328c9cdf",
+  "artifacts": [
+    "audits/grambank_mundari_underlying_sources_run370_2026-09-15.json",
+    "tests/test_run370_grambank_boundary.py",
+    "audits/mmsc_search_run370_2026-09-15.json"
+  ],
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "parallel_stream_review": {
+    "mundarica": "No new authoritative bytes/page/OCR verification; per-volume states unchanged.",
+    "mmsc": "14 controlled classes refreshed; no search-only hit promoted into audited counts.",
+    "evidence_pipeline": "No new factual claim promoted; provenance counts unchanged.",
+    "ontology_graph": "No schema-category gap detected; representation remains 100%.",
+    "streamlit": "No functional gap requiring code change identified; 42/42 mapping retained.",
+    "governance": "Grambank work-level bibliography resolved while feature/passage/rights/community/cultural-access boundaries remain enforced.",
+    "publication": "No controlled metric changed; manuscript numeric update not required."
+  },
+  "sync_decisions": {
+    "streamlit_change_required": false,
+    "evidence_graph_change_required": false,
+    "publication_numeric_tables_figures_change_required": false,
+    "reason": "Run 370 narrows Grambank provenance and refreshes MMSC without promoting new controlled factual claims or changing controlled numeric metrics."
+  },
+  "gap_change": "Grambank Mundari underlying bibliography narrowed to Cook 1965, Osada 1992 and Osada 2008 at work level; raw provenance sheet, feature mapping and passage verification remain unresolved.",
+  "release_gate": "NOT_PASS"
+}

@@ -1,0 +1,68 @@
+{
+  "run": 622,
+  "audit_date": "2026-09-24",
+  "stream": "MLHKP non-Mundarica source census and ingestion",
+  "canonical_work": {
+    "author": "Malini Srivastava",
+    "title": "The Sacred Complex of Munda Tribe",
+    "journal": "The Anthropologist",
+    "year": 2007,
+    "volume": "9",
+    "issue": "4",
+    "pages": "327-330",
+    "publisher_manifestation": "Kamla-Raj Enterprises",
+    "publisher_displayed_doi": "10.31901/24566802.2007/09.04.11",
+    "legacy_secondary_doi": "10.1080/09720073.2007.11891020",
+    "doi_status": "publisher PDF currently displays 10.31901/24566802.2007/09.04.11; multiple secondary/index manifestations report 10.1080/09720073.2007.11891020. Preserve both pending DOI-registration-history reconciliation; do not count as two works."
+  },
+  "identity_verification": {
+    "publisher_verified": true,
+    "publisher_pdf_text_discoverable": true,
+    "repository_exact_title_precheck": "no match returned before insertion",
+    "canonicalization": "publisher PDF/abstract, DOI/index records, ResearchGate and mirrors are manifestations/references to one canonical article, not independent corroboration"
+  },
+  "scope": {
+    "population": "Munda communities studied in four villages",
+    "localities": ["Daugada", "Buruma", "Sarwada", "Kullipiddi"],
+    "historical_admin_scope": "Khunti subdivision, Ranchi district, Jharkhand",
+    "topic": "religion studied through the Sacred Complex framework",
+    "generalization_barrier": "four-village evidence must not be generalized automatically to all Munda communities"
+  },
+  "exact_locator_queue": [
+    {
+      "locator": "printed p. 327, ABSTRACT",
+      "supported_metadata_or_method": "study identifies four villages: Daugada, Buruma, Sarwada and Kullipiddi under Khunti subdivision"
+    },
+    {
+      "locator": "printed p. 327, MATERIALS AND METHODS",
+      "supported_metadata_or_method": "study population/locality description and mixed Sarna Munda/Christian Munda village context",
+      "promotion_note": "method/context locator only until proposition dependency and cultural review"
+    },
+    {
+      "locator": "printed pp. 327-330, substantive Sacred Complex sections",
+      "supported_metadata_or_method": "candidate proposition locators require atomic extraction with direct-observation/author-interpretation/cited-literature dependency tagging"
+    }
+  ],
+  "rights_and_governance": {
+    "access": "publisher-hosted text/PDF discoverable",
+    "redistribution_permission_verified": false,
+    "binary_ingested": false,
+    "cultural_sensitivity": "high: sacred/religious practice and specialists",
+    "consent_status": "not established from the presently verified locator material",
+    "rule": "public discoverability does not imply permission to redistribute or unrestricted cultural reuse"
+  },
+  "promotion": {
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "reason": "exact locators are now available, but substantive promotion remains gated by method/provenance/dependency, rights, consent and cultural-governance review"
+  },
+  "next_conversion_steps": [
+    "verify complete authoritative manifestation and printed-page/PDF concordance",
+    "resolve DOI registration/history discrepancy without duplicating the work",
+    "extract only atomic propositions with exact printed-page/section locators",
+    "tag each proposition as direct field evidence, participant report, author interpretation, or cited literature",
+    "retain four-village locality and temporal scope on every promoted proposition",
+    "review sacred-practice access, participant consent/privacy and reuse before graph promotion"
+  ]
+}

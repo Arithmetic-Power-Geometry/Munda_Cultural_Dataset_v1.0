@@ -1,0 +1,34 @@
+{
+  "record_type": "official_government_source_identity_variable_and_workbook_locator_verification",
+  "checked_utc": "2026-09-08T10:48:00Z",
+  "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+  "source_class": "government_census_language_table",
+  "publisher": "Office of the Registrar General & Census Commissioner, India",
+  "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+  "reference_id": "PC11_C17-20",
+  "official_download_filename": "DDW-C17-2000.XLSX",
+  "geographic_scope": "Jharkhand, India",
+  "census_year": 2011,
+  "verified_catalogue_scope": "The official ORGI catalogue identifies the Jharkhand C-17 table, names the downloadable workbook DDW-C17-2000.XLSX, and exposes table variables for Language - Total speakers - MUNDA and Language - Total speakers - MUNDARI and associated subsidiary-language variables.",
+  "exact_locator_state": "official_catalogue_reference_id_download_filename_and_variable_labels_verified; workbook_bytes_checksum_sheet_row_and_cell_values_not_extracted",
+  "rights_access": {
+    "catalogue_access": "public",
+    "reuse_status": "ORGI terms apply; public catalogue/download availability is not treated as unrestricted redistribution permission",
+    "cultural_access_override": true
+  },
+  "promotion_boundary": [
+    "No numeric population, bilingualism or trilingualism value is asserted until the official workbook bytes are retrieved and checksum, sheet, row and cell locators are recorded.",
+    "MUNDA and MUNDARI are preserved as distinct official table labels; they are not silently collapsed.",
+    "No demographic value is generalized beyond Jharkhand and Census 2011.",
+    "This record does not imply community validation or field verification."
+  ],
+  "deduplication_state": "deterministically_matched_to_WEB-MUN-0011; no duplicate in canonical master register or standalone MMSC through SRC-MMSC-000015",
+  "metric_effect_this_cycle": {
+    "audited_source_identities": 0,
+    "canonicalized_web_leads": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "evidence_links": 0
+  },
+  "next_gate": "Retrieve DDW-C17-2000.XLSX bytes, compute checksum, identify worksheet and exact MUNDA/MUNDARI row/cell coordinates, then execute the already reserved coherent atomic promotion only after all ledgers and publication outputs can be synchronized together."
+}

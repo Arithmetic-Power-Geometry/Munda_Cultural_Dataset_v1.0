@@ -1,0 +1,59 @@
+{
+  "run": 458,
+  "audit_date": "2026-09-17",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government", "educational_resource", "audio", "web_resource"],
+  "canonical_identity": {
+    "title": "Barkhaa Audio - Mundari language manifestations",
+    "provider": "Central Institute of Educational Technology (CIET), NCERT",
+    "parent": "National Council of Educational Research and Training (NCERT)",
+    "landing_page": "https://ciet.ncert.gov.in/barkhaa_audio"
+  },
+  "verified_scope": {
+    "language": "Mundari",
+    "level": "Level 1",
+    "provider_page_explicitly_lists_mundari_for": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "mixed_language_labels_observed": ["Mundari-Mix"],
+    "note": "Titles are provider-page manifestations. They are not counted as independent source identities until deterministic item metadata and dependency relationships are reconciled."
+  },
+  "rights_access_consent": {
+    "rights_status": "unresolved_item_level_reuse_terms",
+    "access_status": "public_landing_page_verified",
+    "consent_status": "not_inferred_from_publication",
+    "cultural_access_status": "unreviewed",
+    "promotion_allowed": false
+  },
+  "exact_locator_status": {
+    "landing_page_locator": "Level 1 -> title -> Mundari language option",
+    "audio_bytes_hash": null,
+    "timecode_locator": null,
+    "transcript_locator": null,
+    "promotion_status": "blocked_pending_item_level_rights_and_immutable_audio"
+  },
+  "deduplication": {
+    "canonicalization_rule": "Treat CIET/NCERT Barkhaa landing page, language selectors, and individual audio manifestations as one parent educational-resource family until item-level provenance establishes distinct citable works.",
+    "count_inflation_prohibited": true
+  },
+  "claims_promoted": 0,
+  "evidence_promoted": 0,
+  "gaps": [
+    "item-level licence/reuse terms",
+    "stable direct audio identifiers",
+    "per-item immutable bytes and SHA-256",
+    "speaker/translator/recording provenance",
+    "consent/privacy review",
+    "cultural-access review",
+    "transcript and exact timecode concordance"
+  ],
+  "audit_note": "Government-hosted availability does not establish unrestricted reuse, participant consent, or cultural permission. No lexical/cultural proposition is promoted from the landing-page metadata."
+}

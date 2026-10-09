@@ -1,0 +1,37 @@
+{
+  "run": 544,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": ["museum", "archive", "photograph", "material-culture/media"],
+  "canonical_work_key": "rijksmuseum-rp-f-2001-7-1122a-22-munda-woman-chota-nagpur",
+  "title": "Portrait of an unknown woman from the Munda tribe of Chota Nagpur in eastern India",
+  "repository": "Rijksmuseum",
+  "object_number": "RP-F-2001-7-1122A-22",
+  "persistent_identifier": "https://id.rijksmuseum.nl/200630490",
+  "creator_statement": "Benjamin Simpson (possibly)",
+  "date_statement": "c. 1858 - in or before 1868",
+  "place_statement": "Chota Nagpur / Jharkhand",
+  "scope_statement": "Rijksmuseum identifies the object as an albumen-print portrait/page of an unknown woman from the Munda tribe of Chota Nagpur. The object is part of The People of India series.",
+  "inscription_transcription_status": "Repository records a historical English inscription identifying the depicted person as a Munda female from Chota Nagpur; retain only as repository metadata and do not amplify historical terminology.",
+  "physical_description": "albumen print on paper; 175 mm x 130 mm",
+  "canonical_locator": "https://www.rijksmuseum.nl/en/collection/object/Portrait-of-an-unknown-woman-from-the-Munda-tribe-of-Chota-Nagpur-in-eastern-India--a618123198af878e32aa9f200744b6ed",
+  "deduplication_rule": "Treat the Rijksmuseum collection page, persistent identifier, thumbnails/derivatives and People of India series references to object RP-F-2001-7-1122A-22 as manifestations/references of one museum object unless repository metadata establishes a distinct physical print.",
+  "rights_status": "Rijksmuseum catalogue marks the object Public domain. This resolves catalogue-reported copyright status for the object but does not by itself resolve cultural-access, attribution, ethical reuse, depicted-person dignity or any separate technical terms governing a downloaded derivative.",
+  "consent_status": "Historical depicted-person consent is not established; the sitter is catalogued as unknown.",
+  "cultural_access_status": "Unverified. Public-domain copyright status must not be interpreted as unrestricted cultural or ethical permission for image-level reuse.",
+  "scope_classification": "direct Munda historical visual source; colonial-era People of India context requiring provenance, terminology, representation and consent caution",
+  "evidence_promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "Authoritative museum metadata verifies object identity, Munda attribution, locator and public-domain copyright status, but no image-level cultural interpretation is promoted without immutable manifestation hashing, derivative-terms review, provenance/representation assessment and cultural-access review."
+  },
+  "gaps": [
+    "lawful immutable image manifestation and SHA-256 if selected for ingestion",
+    "technical/derivative reuse terms for the exact downloaded representation",
+    "provenance and colonial representation assessment within The People of India series",
+    "community/cultural-access review before visual-detail claim promotion",
+    "depicted-person consent is historically unavailable/unknown and must not be assumed"
+  ],
+  "audit_principle": "Public domain resolves a copyright dimension, not cultural permission or ethical reuse. Preserve repository attribution uncertainty ('possibly' Benjamin Simpson), unknown sitter status and historical context; do not infer dress, ritual, status, identity beyond repository-supported metadata."
+}

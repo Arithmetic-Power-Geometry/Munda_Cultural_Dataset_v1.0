@@ -1,0 +1,45 @@
+{
+  "project": "MLHKP",
+  "run": 571,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "canonical_work": {
+    "author": "John C. Whitley",
+    "year": 1873,
+    "title": "A Grammar of the Mundá Language",
+    "type": "book / grammar",
+    "publication_place": "Calcutta",
+    "publisher": "Bengal Secretariat Press",
+    "extent_reported": "143 pages"
+  },
+  "identity_verification": {
+    "verified_from": ["Google Books bibliographic record surfaced in run-571 web census", "Internet Archive digitized manifestation surfaced in run-571 web census"],
+    "notes": "Search results consistently identify John C. Whitley, 1873, Bengal Secretariat Press, 143 pages. A digitized historical manifestation is discoverable via Internet Archive."
+  },
+  "deduplication": {
+    "repository_search_query": "Whitley 1873 Munda grammar",
+    "existing_match_found": false,
+    "canonicalization_rule": "catalogue records, Google Books, Internet Archive scans, mirrors and later reproductions are manifestations of one 1873 work unless substantive edition differences are demonstrated"
+  },
+  "scope": {
+    "classification": "direct historical Mundari/Munda linguistic description",
+    "reported_coverage": ["grammar", "language description"],
+    "do_not_generalize_to": ["all Munda languages", "modern usage without diachronic qualification", "cultural practice without proposition-level support"]
+  },
+  "rights_access_consent": {
+    "digitized_manifestation_discoverable": true,
+    "manifestation_download_and_hash_completed_this_run": false,
+    "redistribution_permission_verified": false,
+    "speaker_or_consultant_consent_verified": false,
+    "cultural_access_status": "unknown",
+    "rule": "historical/public-domain status must be distinguished from platform-specific file rights and from ethical/cultural permission for sensitive content"
+  },
+  "promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "A readable manifestation was discoverable but was not downloaded, hashed, page-concorded and inspected proposition-by-proposition in this run; no cultural or linguistic claim is promoted from metadata alone."
+  },
+  "conversion_queue": ["obtain lawful readable scan and record stable manifestation identifier", "hash acquired file and record file-level provenance", "establish printed-page/digital-page concordance", "inspect preface/method/source statements for speaker, locality and upstream-source provenance", "extract only supported proposition-level evidence with exact printed and digital page locators", "preserve historical orthography exactly and add normalized forms only as explicitly separate fields", "flag diachronic, colonial-description and cultural-sensitivity uncertainty", "verify file-level redistribution terms before storing any binary"],
+  "release_effect": "new canonical discovery audit; controlled metrics unchanged pending deterministic reconciliation"
+}

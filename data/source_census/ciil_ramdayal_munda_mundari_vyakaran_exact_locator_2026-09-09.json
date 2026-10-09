@@ -1,0 +1,95 @@
+{
+  "artifact_type": "exact_locator_verification",
+  "run_date_utc": "2026-09-09",
+  "branch": "mlhkp-v2",
+  "candidate_work": {
+    "title_official": "मुण्डारी-व्याकरण",
+    "title_romanized_repository": "Mundari-Vyakaran",
+    "author": "Ramdayal Munda",
+    "repository_reported_year": 2013,
+    "publisher_repository_metadata": "Rumbul Ranchi Jharkhand",
+    "subject_scope": ["Mundari", "Hindi", "Grammar"]
+  },
+  "authoritative_locator": {
+    "repository": "Bhasha Sanchika, Central Institute of Indian Languages (CIIL), Ministry of Education, Government of India",
+    "item_handle": "https://hdl.handle.net/20.500.14705/8429",
+    "repository_item_id": "38731a42-6aa7-4b6e-9d3d-1b2e674f4636",
+    "repository_identifier_other": "BVP00202",
+    "file_name": "BVP00202.pdf",
+    "repository_reported_file_size": "9.04 KB",
+    "direct_bitstream_locator": "https://sanchika.ciil.org/bitstreams/d8130cd5-8f45-4368-8d89-ade07c736191/download",
+    "observed_pdf_pages": 1,
+    "visual_page_verification": {
+      "verified": true,
+      "page_index_zero_based": 0,
+      "visible_elements": [
+        "title मुण्डारी-व्याकरण",
+        "author डॉ. रामदयाल मुण्डा",
+        "publisher mark/name Rumbul",
+        "Ranchi, Jharkhand publisher address"
+      ],
+      "scope_note": "Visual verification applies only to the one-page repository bitstream currently exposed, not to the complete grammar."
+    }
+  },
+  "rights_access": {
+    "repository_rights_holder": "RUMBUL",
+    "repository_copyright_notice": "Bhasha Sanchika site displays All Rights Reserved",
+    "explicit_reuse_license_observed": false,
+    "public_access_is_not_reuse_permission": true,
+    "derivative_or_redistribution_permission_verified": false,
+    "cultural_access_review_required_for_sensitive_or_participant_derived_material": true
+  },
+  "edition_manifestation_uncertainty": {
+    "repository_manifestation_year": 2013,
+    "other_catalogue_lead": "Bharatavani search also lists Rumbul Mundari Vyakaran with year 1978.",
+    "equivalence_verified": false,
+    "disposition": "Do not collapse the 1978 catalogue lead and 2013 repository manifestation into one edition/manifestation until title-page/imprint or other primary evidence establishes equivalence."
+  },
+  "promotion_boundary": {
+    "promoted": [
+      "work/manifestation identity metadata from the official CIIL repository",
+      "persistent handle and repository identifiers",
+      "one-page visual title/author/publisher verification",
+      "repository-declared rights holder"
+    ],
+    "not_promoted": [
+      "grammar rules",
+      "lexical entries",
+      "example sentences",
+      "cultural propositions",
+      "complete-book pagination",
+      "full-text completeness",
+      "reuse or redistribution permission",
+      "1978-versus-2013 manifestation equivalence"
+    ]
+  },
+  "deduplication": {
+    "permanent_src_mmsc_id_assigned": false,
+    "reason": "Candidate must still be reconciled deterministically against the unresolved discovery layer and the separate 1978 Rumbul Mundari Vyakaran catalogue lead before permanent identity promotion.",
+    "canonicalization_rule": "Treat orthographic/romanized title variants as aliases of the same 2013 repository manifestation, but do not merge distinct-year manifestations without primary equivalence evidence."
+  },
+  "blocker_reduction": {
+    "resolved_this_run": [
+      "official persistent locator",
+      "repository file identity",
+      "repository-reported size",
+      "observed one-page PDF extent",
+      "visual title-page verification",
+      "repository-declared rights holder"
+    ],
+    "remaining": [
+      "complete grammar/full-text manifestation",
+      "independent byte checksum",
+      "complete pagination/page-image accounting",
+      "explicit reuse/derivative permission",
+      "1978-versus-2013 edition/manifestation relationship",
+      "deterministic master-register reconciliation"
+    ]
+  },
+  "integrity": {
+    "cultural_claims_fabricated": false,
+    "rights_inferred_from_public_availability": false,
+    "metadata_only_record_promoted_to_content_evidence": false,
+    "one_page_bitstream_treated_as_complete_book": false
+  }
+}

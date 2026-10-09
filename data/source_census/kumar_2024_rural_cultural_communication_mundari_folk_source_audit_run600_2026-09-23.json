@@ -1,0 +1,67 @@
+{
+  "project": "MLHKP",
+  "run": 600,
+  "audit_date": "2026-09-23",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "author": "Shubham Kumar",
+    "title": "Rural Cultural Communication: Mundari Folk and Reflection of Daily Struggle",
+    "publication_date": "2024-08-21",
+    "source_class": ["article", "web_resource", "folk_communication_study"],
+    "provider": "Media Scholar",
+    "language_scope": ["Mundari", "English"],
+    "geographic_scope": "Jharkhand and surrounding-region discussion; exact field locality not verified in this run",
+    "url": "https://mediascholar.in/paper/cmnoar4dw001f7wb64gr6html"
+  },
+  "identity_verification": {
+    "provider_page_verified": true,
+    "provider_page_reports_full_text_available": true,
+    "author_affiliation_as_provider_reports": "Assistant Professor, Amity University, Noida, U.P.",
+    "doi_verified": false,
+    "issn_or_issue_metadata_verified": false,
+    "peer_review_status_verified": false
+  },
+  "deduplication": {
+    "repository_exact_title_author_search_before_insert": "no match returned",
+    "canonicalization_rule": "HTML landing page and provider PDF, if later obtained, are manifestations of one work and must not be counted as independent corroboration. Downstream citations/index records are derivative metadata unless independently evidenced.",
+    "duplicate_count_increment": 0
+  },
+  "scope_and_evidence_controls": {
+    "provider_abstract_topics": ["Mundari folk communication", "folk songs and dances", "rural cultural identity", "daily struggle"],
+    "promotion_status": "conversion_queue_only",
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "The discoverable provider page supplies bibliographic/abstract-level evidence and advertises a downloadable PDF, but this run did not verify authoritative PDF bytes, pagination, research design, primary-source provenance, participant/performer consent, or reuse terms. Abstract assertions are therefore not promoted as timeless or universal Munda cultural facts."
+  },
+  "rights_access_consent": {
+    "read_access": "provider labels full text open-access/free to read and download",
+    "redistribution_permission": "not established",
+    "copyright_license": "not verified in this run",
+    "participant_or_performer_consent": "not established",
+    "cultural_access_status": "not established",
+    "rule": "Public readability/downloadability is not treated as permission to redistribute, and publication is not treated as proof of participant/performer consent for dataset reuse."
+  },
+  "exact_locator_conversion": {
+    "current_locator": "provider HTML title/author/date/abstract/keywords record",
+    "required_before_proposition_promotion": [
+      "obtain and hash authoritative provider PDF where lawful",
+      "verify title page, publication metadata and print/PDF pagination",
+      "inspect methodology, field locality, participant/sample and temporal scope",
+      "separate primary observations/quoted performances from secondary literature and author interpretation",
+      "record exact page/section/table/example locators",
+      "verify copyright/license and quotation/extraction limits",
+      "review consent and cultural sensitivity for any participant speech, song, ritual or performance material"
+    ]
+  },
+  "quality_notes": [
+    "The provider abstract contains broad cultural assertions; none are accepted into the controlled cultural-claim ledger solely from the abstract.",
+    "The source remains potentially useful for folk-communication bibliography and exact-locator conversion after full-text provenance review.",
+    "No claim of exhaustive source completeness is made."
+  ],
+  "release_effect": {
+    "controlled_metric_change": false,
+    "why": "Runs 381-600 still require deterministic reconciliation against the MMSC/WEB-MUN ledger; changing controlled counts before reconciliation would be unsupported.",
+    "release_gate": "NOT_PASS"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "run": 730,
+  "audited_at": "2026-10-05",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "government/LSI",
+    "book",
+    "linguistic survey",
+    "maps"
+  ],
+  "canonical_work_id": "LSI|GRIERSON|1906|VOL4|MUNDA_DRAVIDIAN",
+  "title": "Muṇḍā and Dravidian Languages",
+  "author": "George A. Grierson",
+  "year": 1906,
+  "series": "Linguistic Survey of India",
+  "volume": "IV",
+  "publisher": "Office of the Superintendent of Government Printing, India",
+  "extent": "xiv+680 pp.",
+  "authoritative_manifestation": {
+    "provider": "Digital South Asia Library, University of Chicago",
+    "locator": "Linguistic Survey of India > Vol. 4",
+    "access": "BookReader public access",
+    "stable_url": "https://dsal.uchicago.edu/books/lsi/",
+    "note": "DSAL series page verifies 1903-1928 series and identifies Vol. 4 as Muṇḍā and Dravidian Languages; JS BookReader prevented page-level extraction in this run."
+  },
+  "independent_metadata_check": {
+    "provider": "Glottolog 5.3",
+    "reference_id": "304344",
+    "bibliographic_match": true,
+    "details": "Grierson 1906; Calcutta; xiv+680pp.; LSI IV",
+    "mundari_scope": "Glottolog maps source labels 'Mundari of Ranchi/Palaman/Jashpur/Bamra' to Mundari [unr]."
+  },
+  "scope_classification": {
+    "supported": "historical linguistic survey / Mundari linguistic and geographic source coverage",
+    "not_promoted": [
+      "modern cultural practice",
+      "community endorsement",
+      "current dialect boundaries",
+      "current demographic counts"
+    ]
+  },
+  "rights_governance": {
+    "historical_publication": true,
+    "dsal_reuse_license_verified": false,
+    "raw_scan_redistribution_promoted": false,
+    "cultural_claim_promotion": false,
+    "consent_applicability": "Historical elicitation provenance/consent not established from inspected metadata."
+  },
+  "exact_locator_state": {
+    "bibliographic_locator_verified": true,
+    "volume_locator_verified": true,
+    "page_level_mundari_locator_verified": false,
+    "blocker": "DSAL BookReader requires JavaScript; page-level extraction was not obtainable in this run.",
+    "next_step": "Resolve lawful readable Vol. IV manifestation/OCR; identify exact printed pages for Mundari sections/specimens/maps; verify scan-page/printed-page concordance before evidence promotion."
+  },
+  "deduplication": {
+    "repository_code_search_query": "Grierson",
+    "result": "0 indexed matches; incomplete_results=true",
+    "interpretation": "reconciliation signal only; not proof of absence",
+    "canonicalization_rule": "DSAL manifestation, Glottolog bibliography, and any other scans/reprints of LSI Vol. IV belong to one work family unless edition/content differences are demonstrated."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_effect": "gap/locator queue enrichment only; controlled totals remain frozen pending deterministic MMSC/WEB-MUN reconciliation."
+}

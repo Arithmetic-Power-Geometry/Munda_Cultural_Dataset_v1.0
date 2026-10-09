@@ -1,0 +1,81 @@
+{
+  "record_type": "exact_locator_rights_boundary_verification",
+  "run_id": "MMSC-SEARCH-000117",
+  "scope": "non-Mundarica MMSC source census",
+  "work_identity": {
+    "title": "Munda mimetic reduplication",
+    "authors": ["Jacob B. Phillips", "K. David Harrison"],
+    "journal": "Canadian Journal of Linguistics/Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "publication_year": 2017,
+    "publisher_online_date": "2017-03-06",
+    "printed_pages": "221-242",
+    "doi": "10.1017/cnj.2017.13",
+    "canonicalization_key": "doi:10.1017/cnj.2017.13"
+  },
+  "verified_manifestations": [
+    {
+      "authority": "Cambridge University Press",
+      "manifestation": "publisher article page / shared read-only full-text representation",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/munda-mimetic-reduplication/09A49302757AE0AAAF933456AD3C9C58/share/dcdb82a5f23d699da62c547fd40c400c88060634",
+      "access_state": "shared_read_only",
+      "rights_observed": "Copyright Canadian Linguistic Association/Association canadienne de linguistique 2017; no open derivative-reuse licence verified",
+      "full_text_inspectable": true
+    },
+    {
+      "authority": "Swarthmore College Works",
+      "manifestation": "institutional bibliographic repository record",
+      "url": "https://works.swarthmore.edu/fac-linguistics/223/",
+      "access_state": "metadata_record_with_full_text_link",
+      "full_text_bytes_independently_hashed": false
+    }
+  ],
+  "exact_locators": [
+    {
+      "locator": "publisher full text, Section 1 Introduction",
+      "supported_observation": "The article explicitly identifies seven Munda-language varieties in its typology: Ho, Kera Mundari, Kharia, Mundari, Remo (Bondo), Santali and Sora (Savara).",
+      "promotion_class": "article_scope_and_methodological_context"
+    },
+    {
+      "locator": "publisher full text, Section 1 Introduction",
+      "supported_observation": "The authors state that field-collected data are paired with legacy lexicographic sources, while Mundari is represented through dialectal fieldwork on Kera Mundari.",
+      "promotion_class": "source_provenance_boundary"
+    },
+    {
+      "locator": "publisher full text, Section 2 Reduplication in Munda",
+      "supported_observation": "The paper presents a typological overview of reduplication before focusing on mimetic reduplication across syntactic class, semantic domain and phonological form.",
+      "promotion_class": "article_scope_only"
+    }
+  ],
+  "deduplication": {
+    "decision": "canonicalize Cambridge, Swarthmore and other bibliographic manifestations to one work identity by DOI",
+    "do_not_merge_with": ["PARADISEC Mundari Ideophones collection", "other Harrison/Phillips field collections"],
+    "reason": "shared authorship, language and possible data relationships do not prove manifestation or dataset identity"
+  },
+  "rights_consent_cultural_access": {
+    "publisher_read_only_access_is_reuse_permission": false,
+    "article_copyright_is_open_data_licence": false,
+    "underlying_elicitation_material_ingested": false,
+    "participant_recordings_ingested": false,
+    "participant_transcripts_ingested": false,
+    "lexical_examples_bulk_copied": false,
+    "participant_consent_inferred_from_publication": false,
+    "community_validation_inferred": false,
+    "cultural_access_review_required_for_sensitive_or_participant_derived_material": true
+  },
+  "promotion_boundary": "Promote only bibliographic identity, article scope, methodological/source-provenance statements and exact section locators. Do not redistribute publisher text, field materials, recordings, transcripts, elicitation datasets or culturally sensitive material without separate rights/consent/cultural-access clearance.",
+  "verification_state": {
+    "identity_verified": true,
+    "doi_verified": true,
+    "pagination_verified": true,
+    "publisher_full_text_inspectable": true,
+    "open_reuse_licence_verified": false,
+    "underlying_data_rights_verified": false,
+    "underlying_participant_consent_verified_for_repository_reuse": false,
+    "safe_for_bounded_metadata_and_method_provenance_promotion": true,
+    "safe_for_underlying_data_ingestion": false
+  },
+  "sources_checked_utc_date": "2026-09-09",
+  "integrity_note": "No cultural or lexical generalization is promoted merely from discovery. Exact publisher sections are recorded as locators, and copyright/read-only status is preserved as a hard reuse boundary."
+}

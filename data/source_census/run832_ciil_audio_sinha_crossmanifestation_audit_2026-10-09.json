@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "run": 832,
+  "branch": "mlhkp-v2",
+  "checked_date_ist": "2026-10-09",
+  "release_gate": "NOT_PASS",
+  "scope": "Non-Mundarica metadata evidence only; no recording, linguistic example, cultural practice or participant statement ingested.",
+  "sources": [
+    {
+      "class": "audio_archive",
+      "title": "Songs and conversation in Munda",
+      "institution": "Central Institute of Indian Languages (CIIL), National Tape Archive",
+      "catalogue_url": "https://sanchika.ciil.org/items/483b5b65-b804-4cba-9c3e-7e2608163518",
+      "handle": "20.500.14705/9471",
+      "file_name": "NTA_Munda_01.wav",
+      "reported_file_size": "627.33 MB",
+      "exact_locators": [
+        "Bhasha Sanchika item > What > Title/Type/Notes",
+        "Bhasha Sanchika item > Files > NTA_Munda_01.wav",
+        "Bhasha Sanchika item > When > Date Accessioned 2022-04-05T06:09:46Z"
+      ],
+      "metadata_evidence": "Institutional catalogue describes an audio item titled Songs and conversation in Munda, identified as part of the National Tape Archive.",
+      "identity_boundary": "Catalogue language label Munda; dialect, speakers, locality, original recording date, item checksum and community provenance not established.",
+      "rights_access_consent": "Catalogue listing does not establish a public redistribution licence, performer consent, or culturally appropriate public access; no audio or transcription downloaded or exposed.",
+      "promotion": "catalogue_metadata_candidate_only"
+    },
+    {
+      "class": "grammar",
+      "title": "Mundari Grammar",
+      "author": "N. K. Sinha",
+      "year": 1975,
+      "institution": "Central Institute of Indian Languages",
+      "catalogue_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "handle": "20.500.14705/8179",
+      "parallel_manifestations": [
+        "https://wals.info/refdb/record/Sinha-1975",
+        "https://bharatavani.in/mundari/book?id=Mundari+Grammar&post_category=book"
+      ],
+      "exact_locators": [
+        "CIIL Bhasha Sanchika > Who > Author",
+        "CIIL Bhasha Sanchika > What > Title/Description",
+        "CIIL Bhasha Sanchika > When > Date of Publication",
+        "WALS > Reference Sinha 1975 > bibliographic record",
+        "Bharatavani > Mundari Grammar > Year/Author/Publisher"
+      ],
+      "metadata_evidence": "CIIL, WALS and Bharatavani identify N. K. Sinha's 1975 Mundari Grammar as one intellectual work, not three independent works.",
+      "identity_boundary": "Manifestation and pagination concordance not established; CIIL lists CIILP0091.pdf as 9.63 KB whereas Bharatavani lists a 117.39 MB PDF, so neither file identity nor full text can be inferred from catalogues.",
+      "rights_access_consent": "Bharatavani states Login to Read; do not redistribute the book or infer open text licence from catalogue presence.",
+      "promotion": "cross_catalogue_identity_candidate_only"
+    }
+  ],
+  "dedup_policy": "Normalize work identity by author+title+year and stable handle; retain each institutional manifestation and access boundary. Do not merge related works, translations, editions or catalogue sections without manual inspection.",
+  "cross_class_search_scope": [
+    "books",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_dissertations",
+    "government_TRI",
+    "Census_LSI",
+    "archives",
+    "newspapers",
+    "web_resources",
+    "datasets",
+    "audio",
+    "video",
+    "maps",
+    "relevant_media"
+  ],
+  "coverage_status": "All 15 classes previously inventoried; this run adds exact institutional metadata locators for audio and cross-manifestation grammar verification. Completeness of any class remains uncertified.",
+  "evidence_graph_effect": {
+    "controlled_source_identities_added": 0,
+    "controlled_claims_added": 0,
+    "controlled_evidence_added": 0,
+    "controlled_links_added": 0,
+    "reason": "Identity reconciliation, rights/consent and authoritative ledger write pending; metadata audit not misrepresented as controlled ingestion."
+  },
+  "blockers": [
+    "Audio original date, provenance, speaker consent, access and redistribution terms unresolved.",
+    "Grammar readable authoritative manifestation, pagination and reuse rights unresolved.",
+    "Controlled evidence.csv, MMSC index, publication and progress synchronization require separately validated writes."
+  ],
+  "reference_check_urls": [
+    "https://sanchika.ciil.org/items/483b5b65-b804-4cba-9c3e-7e2608163518",
+    "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "https://wals.info/refdb/record/Sinha-1975",
+    "https://bharatavani.in/mundari/book?id=Mundari+Grammar&post_category=book"
+  ]
+}

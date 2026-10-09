@@ -1,0 +1,59 @@
+{
+  "run": 703,
+  "date_utc": "2026-10-03T21:43:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "peer_reviewed_article",
+    "legal_policy",
+    "field_case_study"
+  ],
+  "canonical_key": "CUKLR|VERMA|2026|FRA_MUNDA_JHARKHAND",
+  "identity": {
+    "title": "Implementation and Implications of the Forest Rights Act, 2006 on Tribal Rights: A Case Study of Munda Tribe in Jharkhand",
+    "author": "Saumya Verma",
+    "publication": "Central University of Kashmir Law Review",
+    "published": "2026-04-02",
+    "issue": "Online First",
+    "url": "https://publications.cukashmir.ac.in/index.php/cuklr/article/view/202"
+  },
+  "verification": {
+    "publisher_record": true,
+    "pdf_link_exposed": true,
+    "repository_code_search": {
+      "matches": 0,
+      "incomplete_results": true
+    },
+    "scope": "Munda Tribe in Jharkhand; Forest Rights Act 2006 / Community Forest Rights"
+  },
+  "rights": {
+    "publisher_page_copyright": "Copyright (c) 2026 Central University of Kashmir Law Review",
+    "redistribution": "not established; do not redistribute",
+    "full_text_status": "PDF link exposed but exact-page inspection not completed in this run"
+  },
+  "safeguards": {
+    "abstract_not_promoted_as_cultural_fact": true,
+    "administrative_legal_claims_require_exact_locator": true,
+    "participant_consent": "not verified",
+    "cultural_access": "not adjudicated",
+    "dependency_review": "required"
+  },
+  "conversion_route": [
+    "publisher record",
+    "lawful PDF manifestation",
+    "checksum/bytes",
+    "printed/PDF page concordance",
+    "Munda-specific method/result passage",
+    "exact page/paragraph/table locator",
+    "atomic proposition",
+    "rights/consent/cultural-access/dependency adjudication"
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "reconciliation": "pending MMSC/WEB-MUN deterministic reconciliation; zero-match GitHub search had incomplete_results=true and is not absence proof",
+  "release_gate": "NOT_PASS"
+}

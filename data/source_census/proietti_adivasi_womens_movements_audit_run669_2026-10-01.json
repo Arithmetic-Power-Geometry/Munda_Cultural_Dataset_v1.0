@@ -1,0 +1,62 @@
+{
+  "run": 669,
+  "audit_date": "2026-10-01",
+  "stream": "non-Mundarica source census",
+  "source_class": "doctoral thesis / institutional repository / gender-history-governance",
+  "canonical_identity": {
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "author": "Marilena Proietti",
+    "institution": "Sapienza Università di Roma",
+    "date": "2025-05-26",
+    "persistent_id": "https://hdl.handle.net/11573/1740709",
+    "file": "Tesi_dottorato_Proietti.pdf",
+    "file_size": "47.18 MB"
+  },
+  "verification": {
+    "institutional_repository_record_verified": true,
+    "doctoral_thesis": true,
+    "full_text_status": "Open Access from 2026-05-27",
+    "repository_metadata_license": "Creative Commons (exact variant not established in this audit)",
+    "note": "Institutional metadata verifies thesis identity, date, full-text filename/size and open-access availability. Exact CC variant and PDF manifestation checksum/page concordance remain to be captured before redistribution or proposition promotion."
+  },
+  "scope": {
+    "target_relevance": "Munda women are explicitly among the major Adivasi communities studied, alongside Oraon, Santal and Ho; themes include women-led movements, environmental/social/cultural/legal advocacy, displacement, local governance and collective memory.",
+    "classification": "mixed-community scholarly source; Munda-specific extraction requires exact passage-level scope discrimination",
+    "uncertainty": "Thesis-level abstract does not establish that each reported proposition applies specifically to Munda participants or communities."
+  },
+  "rights_access_consent": {
+    "access": "OPEN_ACCESS",
+    "redistribution": "REVIEW_REQUIRED until exact Creative Commons variant is verified",
+    "participant_consent": "UNVERIFIED in this audit",
+    "community_consent": "UNVERIFIED in this audit",
+    "cultural_access": "REVIEW_REQUIRED"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0,
+    "decision": "DO_NOT_PROMOTE",
+    "reason": "Requires deterministic MMSC/WEB-MUN reconciliation, lawful PDF manifestation/hash, exact CC variant, methods/participant/consent review, page concordance and Munda-specific exact-page proposition extraction."
+  },
+  "dedup": {
+    "canonical_key": "PROIETTI|ADIVASI_WOMENS_MOVEMENTS_EASTERN_INDIA|2025|HDL_11573_1740709",
+    "aliases": ["Adivasi women’s movements in eastern India", "south Bihar and Jharkhand since the 1980s", "11573/1740709"],
+    "decision": "candidate identity only; no controlled count until ledger reconciliation"
+  },
+  "next_actions": [
+    "retrieve the institutional full-text manifestation lawfully and record SHA-256/byte size",
+    "verify exact Creative Commons licence variant and any repository-specific terms",
+    "capture PDF/printed pagination concordance and methods/ethics/consent locators",
+    "identify passages explicitly scoped to Munda women rather than mixed Adivasi populations",
+    "separate original empirical evidence from historical/literature synthesis and upstream citations",
+    "apply cultural-sensitivity and community-governance review before exposing sensitive material",
+    "reconcile against MMSC/WEB-MUN and promote only supported permitted exact-page evidence"
+  ],
+  "search_log_context": [
+    "Parallel census sweep covered institutional/government, thesis/dissertation, peer-reviewed, grammar/dictionary and archive/media classes.",
+    "Known Raonka 2021, Sinha 1975, Shrivastava 2013 and TRI source families were recognized and not duplicated.",
+    "No cultural proposition was promoted from abstract-level metadata."
+  ]
+}

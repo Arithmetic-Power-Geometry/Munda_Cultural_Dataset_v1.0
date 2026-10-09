@@ -1,0 +1,72 @@
+{
+  "run": 751,
+  "date": "2026-10-06",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": "book",
+  "canonical_identity": "ISBN|818530470X",
+  "title": "Mundas in Transition: A Study in Cultural Geography",
+  "author": "Arati Nandi (Basu)",
+  "year": 1993,
+  "metadata": {
+    "isbn": "818530470X",
+    "isbn13": "9788185304700",
+    "ncid": "BA29668754",
+    "lccn": "93910703",
+    "extent": "iv, 184 p.",
+    "bibliography": "pp. 175-177",
+    "scope": "Mundas of West Bengal; cultural-geography/socio-economic transition"
+  },
+  "verification": [
+    {
+      "provider": "CiNii Books",
+      "status": "verified bibliographic record",
+      "locator": "NCID BA29668754"
+    },
+    {
+      "provider": "Google Books",
+      "status": "independent bibliographic corroboration",
+      "locator": "ID bjNuAAAAMAAJ"
+    },
+    {
+      "provider": "NFSC Collections at DakshinaChitra",
+      "status": "independent holdings corroboration",
+      "locator": "collection row 918 / accession 2021"
+    }
+  ],
+  "deduplication": {
+    "rule": "ISBN/NCID/title-author-year manifestations collapse to one work identity",
+    "repository_default_branch_search": [
+      "Nandi Mundas transition 818530470X"
+    ],
+    "result": "no indexed match; branch-specific absence not asserted because connector code search indexes default branch"
+  },
+  "rights_access": {
+    "catalog_metadata": "publicly discoverable",
+    "fulltext": "not verified obtainable in this run",
+    "redistribution": "not established",
+    "consent": "not established",
+    "cultural_access": "not established"
+  },
+  "evidence_promotion": {
+    "status": "withheld",
+    "reason": "No authoritative readable full text/page-level proposition inspected; catalogue summaries are not promoted as cultural evidence."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "gaps": [
+    "lawful authoritative readable manifestation",
+    "edition/pagination concordance",
+    "page-level proposition locators",
+    "field-survey methods/locality/sample verification",
+    "reuse rights",
+    "participant/community consent and cultural-governance review",
+    "deterministic MMSC/WEB-MUN reconciliation"
+  ],
+  "deadline_note": "Source predates 2026-09-21, but this post-deadline audit must not be represented as part of a frozen deadline release without a documented retrospective-audit policy."
+}

@@ -1,0 +1,60 @@
+{
+  "record_type": "source_manifestation_reconciliation",
+  "run": 130,
+  "branch": "mlhkp-v2",
+  "verified_utc_date": "2026-09-10",
+  "work": {
+    "title": "Encyclopaedia Mundarica",
+    "historical_creators": ["Johann Hoffmann", "Arthur van Emelen"],
+    "historical_text_sequence_currently_supported": "I-XIII",
+    "historical_xiv_xvi_equivalence_proven": false
+  },
+  "modern_manifestation": {
+    "publisher": "Gyan Publishing House",
+    "publication_year": 2009,
+    "set_title_observed": "Encyclopaedia Mundarica: In 16 Volumes",
+    "set_isbn_observed": "9788121203043",
+    "volume_16": {
+      "title_observed": "Encyclopaedia Mundarica, Vol.16th",
+      "isbn13": "9788121203227",
+      "isbn10": "8121203228",
+      "publisher": "Gyan Publishing House",
+      "publication_year": 2009,
+      "reported_pages": 43
+    }
+  },
+  "verified_observations": [
+    "Google Books identifies a 2009 Gyan Publishing House manifestation titled Encyclopaedia Mundarica: In 16 Volumes and records the set ISBN 9788121203043.",
+    "Independent current bookseller/catalogue records identify a separately ISBN'd modern Volume 16 as 9788121203227 and attribute it to Gyan Publishing House, 2009.",
+    "These records verify the existence of a modern sixteen-volume manifestation but do not establish that historical text volumes XIV-XVI existed in the original publication sequence."
+  ],
+  "canonicalization": {
+    "work_identity": "Encyclopaedia Mundarica",
+    "manifestation_identity": "Gyan Publishing House 2009 sixteen-volume reprint/edition",
+    "deduplication_rule": "Do not count each retail/catalogue listing as a separate work or historical witness.",
+    "historical_relation_status": "unresolved_requires_primary_edition_title_page_fascicle_or_library_evidence"
+  },
+  "evidence_status": {
+    "modern_16_volume_manifestation_verified": true,
+    "historical_xiv_xvi_equivalence_verified": false,
+    "authoritative_scan_bytes_verified": false,
+    "page_complete_verification": false,
+    "ocr_verified": false,
+    "count_bearing_source_identity_promoted": false,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "provenance_link_delta": 0
+  },
+  "sources_checked": [
+    "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=YQ1K0gEACAAJ",
+    "https://www.flipkart.com/encyclopaedia-mundarica-vol-16th/p/itm614afb5fca7eb",
+    "https://www.distacart.com/products/encyclopaedia-mundarica-16-vols-set-gyan-books-9788121203043"
+  ],
+  "integrity": {
+    "fabricated_counts": false,
+    "historical_equivalence_inferred_from_modern_numbering": false,
+    "retail_listing_promoted_as_cultural_evidence": false,
+    "ocr_or_page_completeness_claimed": false,
+    "absolute_completeness_claimed": false
+  }
+}

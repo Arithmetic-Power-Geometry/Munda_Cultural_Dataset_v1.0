@@ -1,0 +1,73 @@
+{
+  "run": 672,
+  "audit_date": "2026-10-02",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": [
+    "dataset",
+    "web resource",
+    "language technology"
+  ],
+  "canonicalization_candidate": "URL|https://github.com/karya-inc/dataset-hindi-mundari-translation",
+  "title": "Hindi to Mundari Translation Dataset Corpus",
+  "repository": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+  "creators_organizations": [
+    "Microsoft Research India",
+    "Indian Institute of Technology Kharagpur",
+    "Karya"
+  ],
+  "language_pair": [
+    "Hindi",
+    "Mundari"
+  ],
+  "iso_639_3_target": "unr",
+  "reported_sentence_pairs": 17826,
+  "manifestation": {
+    "file": "translation-hi-unr.tsv",
+    "encoding": "UTF-8",
+    "structure": "two tab-separated columns: Hindi then Mundari"
+  },
+  "rights": {
+    "license": "Karya Public License, non-commercial version; repository describes BY-NC-SA-FS 1.0 terms",
+    "redistribution_assumed": false,
+    "derivative_use_assumed": false
+  },
+  "scope": {
+    "classification": "direct Mundari linguistic dataset",
+    "cultural_claims_promoted": false
+  },
+  "reconciliation": {
+    "github_code_search_terms": "dataset-hindi-mundari-translation translation-hi-unr 17826",
+    "indexed_matches": 0,
+    "negative_search_proves_absence": false,
+    "controlled_identity_assignment": "pending deterministic MMSC/WEB-MUN reconciliation"
+  },
+  "evidence_promotion": {
+    "identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "modules": 0,
+    "reason": "Dataset identity and license are verified, but row-level ingestion requires manifestation/hash capture, provenance/version reconciliation, duplicate/overlap analysis, and license/governance review before controlled promotion."
+  },
+  "exact_locator_plan": "TSV line/row + source/target column after immutable manifestation checksum and header/line-count verification",
+  "safeguards": [
+    "Do not treat sentence translations as cultural propositions.",
+    "Do not infer speaker/community consent from repository publication.",
+    "Preserve non-commercial/share-alike/software-license restrictions.",
+    "Do not merge this text corpus with MunTTS audio counts without version-lineage evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+      "verified": "2026-10-02",
+      "supports": [
+        "17,826 sentence pairs",
+        "translation-hi-unr.tsv",
+        "UTF-8",
+        "Hindi/Mundari column order",
+        "collaborating organizations",
+        "license summary"
+      ]
+    }
+  ]
+}

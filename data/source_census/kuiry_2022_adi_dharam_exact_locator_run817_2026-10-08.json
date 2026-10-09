@@ -1,0 +1,99 @@
+{
+  "run": 817,
+  "branch": "mlhkp-v2",
+  "audit_date_ist": "2026-10-08",
+  "source_class": "peer_reviewed_journal_article_literary_analysis",
+  "source_key": "doi:10.48189/nl.2022.v03i1.014",
+  "canonical_work": {
+    "title": "Mundari Culture and Festivals: An Ecosophical Study of Ramdayal Munda's Adi-Dharam",
+    "creator": "Hare Krishna Kuiry",
+    "journal": "New Literaria",
+    "volume": 3,
+    "issue": 1,
+    "year": 2022,
+    "pages": "128-133",
+    "doi": "10.48189/nl.2022.v03i1.014",
+    "publisher_pdf": "https://newliteraria.com/articles/v03i1/v03i1-14.pdf",
+    "alternate_mirror": "https://jbb.jharkhand.gov.in/wp-content/uploads/2025/04/412.-Mundari-Culture-and-Festivals-An-Ecosophical-Study-of-Ramdayal-Mundas-Adi-Dharam.pdf",
+    "pdf_pages": 6
+  },
+  "deduplication": {
+    "existing_14_master_sources": "no DOI/title match in checked registry",
+    "existing_16_standalone_sources": "no DOI/title match in checked registry",
+    "existing_90_web_discovery_records": "no DOI/title match in checked 23 web-discovery files",
+    "identity_state": "new DOI-level work candidate; not allocated a permanent SRC-MMSC ID",
+    "manifestation_rule": "publisher PDF, Jharkhand Biodiversity Board mirror, abstract PDF, DOI and index listings are manifestations of one work",
+    "bibliographic_conflict": "Some third-party records label 2021 vol 2(2); the original publisher PDF header states 2022 vol 3(1), pp 128-133; retain conflicting metadata for audit"
+  },
+  "exact_locator_evidence_records": [
+    {
+      "id": "KUIRY2022-LOC-01",
+      "pdf_page": 1,
+      "printed_page": 128,
+      "section": "Abstract",
+      "evidence_type": "source_scope_and_dependency",
+      "supported_proposition": "The paper is an ecosophical literary analysis of Ram Dayal Munda's Adi-Dharam (2000) and discusses Sarhul, Karma and Sohrai as subjects of that book.",
+      "dependency": "Ram Dayal Munda (2000) is upstream primary literary source; this paper is not independent participant fieldwork.",
+      "permitted_use": "paraphrased bibliographic/methodological claim only"
+    },
+    {
+      "id": "KUIRY2022-LOC-02",
+      "pdf_page": 2,
+      "printed_page": 129,
+      "section": "2. Adi-Dharam",
+      "evidence_type": "secondary_source_characterization",
+      "supported_proposition": "Kuiry characterizes Adi-Dharam as documenting three festivals and also referring to marriage and death-related subjects.",
+      "dependency": "Kuiry interpretation of Munda (2000); original book not independently checked in this audit",
+      "permitted_use": "author-attributed description, not independent cultural validation"
+    },
+    {
+      "id": "KUIRY2022-LOC-03",
+      "pdf_page": 3,
+      "printed_page": 130,
+      "section": "4. Sarhul Festival / 5. Karam Festival",
+      "evidence_type": "source_scope_boundary",
+      "supported_proposition": "The author explicitly presents Sarhul and Karam as shared by multiple Jharkhand communities, rather than Munda-exclusive.",
+      "dependency": "secondary narrative without participant-level method or locality-specific confirmation",
+      "permitted_use": "only scope/attribution note; detailed ritual assertions held for governance review"
+    },
+    {
+      "id": "KUIRY2022-LOC-04",
+      "pdf_page": 4,
+      "printed_page": 131,
+      "section": "7. Mundari Culture, Festivals, and Ecosophy",
+      "evidence_type": "author_interpretive_frame",
+      "supported_proposition": "Kuiry frames the festivals in terms of ecosophy and relates the interpretation to Ram Dayal Munda's writings.",
+      "dependency": "literary/interpretive synthesis; not a newly collected ethnographic dataset",
+      "permitted_use": "attributed interpretive claim only"
+    },
+    {
+      "id": "KUIRY2022-LOC-05",
+      "pdf_page": 6,
+      "printed_page": 133,
+      "section": "References",
+      "evidence_type": "bibliographic_dependency",
+      "supported_proposition": "The reference list identifies Munda (2000), Adi-Dharam, published by Sarini, as an upstream source.",
+      "dependency": "citation metadata in Kuiry (2022), edition and pagination of Munda (2000) require separate verification",
+      "permitted_use": "bibliographic dependency graph only"
+    }
+  ],
+  "rights_access_consent": {
+    "publisher_pdf": "readable in publisher platform",
+    "item_license": "not independently established",
+    "pdf_binary_acquired": false,
+    "full_text_redistribution": "not authorized",
+    "participant_consent": "not established",
+    "cultural_access": "ritual, prayer and sacred-site detail held pending community governance review",
+    "photo_reuse": "not authorized",
+    "quoted_prayers": "not copied"
+  },
+  "promotion": {
+    "source_identity_added_to_controlled_register": 0,
+    "claims_added": 0,
+    "evidence_added": 0,
+    "links_added": 0,
+    "exact_locator_candidates": 5,
+    "reason": "new DOI identity and five original-PDF page locators audited; controlled schema integration, rights and cultural-governance gates pending"
+  },
+  "release_gate": "NOT_PASS"
+}

@@ -1,0 +1,32 @@
+{
+  "record_type": "web_source_discovery_expansion",
+  "snapshot_date": "2026-09-10",
+  "purpose": "Non-Mundarica discovery and exact-locator audit for a peer-reviewed Mundari speech-technology paper. The immutable WEB-MUN observation is retained, but deterministic DOI/title/author reconciliation shows that this manifestation is already represented by SRC-MMSC-000012 and therefore must not inflate unique or unresolved source counts.",
+  "records": [
+    {
+      "id": "WEB-MUN-0090",
+      "title": "MunTTS: A Text-to-Speech System for Mundari",
+      "source_class": "peer_reviewed_conference_paper_speech_dataset_methodology",
+      "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+      "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL 2024)",
+      "publisher": "Association for Computational Linguistics",
+      "year": 2024,
+      "pages": "76-82",
+      "anthology_id": "2024.computel-1.11",
+      "doi": "10.18653/v1/2024.computel-1.11",
+      "url": "https://aclanthology.org/2024.computel-1.11/",
+      "pdf_url": "https://aclanthology.org/2024.computel-1.11.pdf",
+      "verification_state": "ACL_Anthology_metadata_and_peer_reviewed_proceedings_PDF_verified; printed_pages_76_79_and_dataset_table_1_inspected; duplicate_identity_reconciled",
+      "access_class": "PUBLICLY_READABLE_ACL_PDF_PARTICIPANT_DERIVED_AUDIO_AND_TRANSCRIPTS_SEPARATELY_GATED",
+      "rights_note": "The proceedings PDF identifies copyright 2024 Association for Computational Linguistics. This run does not infer a broader licence from public readability. No participant-derived audio, transcripts, speaker identifiers, or Karya corpus files are ingested solely from the paper.",
+      "scope_note": "Directly relevant to Mundari language technology and dataset provenance. The paper reports work on Jharkhand Mundari written in Devanagari, source-text translation/validation, speaker selection, studio recording, corpus composition, train/dev/test split and native-speaker evaluation. These are paper-attributed methodological facts, not community-wide cultural claims.",
+      "canonicalization": {
+        "status": "duplicate_existing_permanent_identity",
+        "canonical_source_id": "SRC-MMSC-000012",
+        "dedupe_key": "doi:10.18653/v1/2024.computel-1.11",
+        "exact_match_basis": ["DOI", "title", "authors", "year", "ACL Anthology locator"],
+        "decision": "Preserve WEB-MUN-0090 as an immutable later audit observation of the same MunTTS paper already registered as SRC-MMSC-000012. Do not increase audited-identity, unique-lead, canonicalized-new-identity or unresolved-lead counts."
+      }
+    }
+  ]
+}

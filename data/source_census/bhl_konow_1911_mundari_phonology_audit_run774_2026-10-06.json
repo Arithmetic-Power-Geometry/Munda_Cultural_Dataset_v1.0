@@ -1,0 +1,91 @@
+{
+  "audit_run": 774,
+  "audit_date_utc": "2026-10-06",
+  "stream": "MLHKP non-Mundarica source census and ingestion",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "peer-reviewed/historical scholarly article",
+    "linguistics",
+    "public-domain digitized source"
+  ],
+  "canonical_identity": "BHL_PART|452153",
+  "title": "Mundari Phonology and the Linguistic Survey",
+  "creator": "Sten Konow",
+  "publication": {
+    "year": 1911,
+    "container": "Journal and proceedings of the Asiatic Society of Bengal",
+    "series": "new",
+    "volume": "7",
+    "pages": "37-41",
+    "place": "Calcutta",
+    "publisher": "Asiatic Society of Bengal"
+  },
+  "authoritative_discovery": {
+    "provider": "Biodiversity Heritage Library / BioStor",
+    "part_id": "452153",
+    "biostor_reference": "317635",
+    "metadata_verified": true,
+    "article_pdf_advertised": true,
+    "rights_statement": "Public domain",
+    "note": "BHL search metadata states the work is no longer under copyright protection."
+  },
+  "scope": {
+    "classification": "Mundari-specific linguistic/historiographic source",
+    "cultural_claim_promotion": false,
+    "note": "Title and bibliographic metadata establish Mundari linguistic relevance only; no substantive phonological proposition is promoted without inspecting the article text."
+  },
+  "rights_access_consent": {
+    "bibliographic_metadata_access": "verified",
+    "rights": "public domain per BHL record",
+    "fulltext_access_this_run": "blocked",
+    "blocker": "Direct BHL article open returned HTTP 403 in the audit environment.",
+    "redistribution": "Do not package a manifestation until the exact downloaded file/scan lineage and integrity are captured.",
+    "participant_consent": "not applicable/unknown for historical linguistic observations; no inference made",
+    "cultural_access": "unreviewed"
+  },
+  "exact_locator_status": {
+    "bibliographic_page_range": "37-41",
+    "proposition_level_locators": false,
+    "reason": "Article text could not be lawfully inspected in this run because direct open was blocked."
+  },
+  "deterministic_reconciliation": {
+    "github_default_branch_search_terms": [
+      "Konow",
+      "Biodiversity Heritage Library",
+      "Mundari Phonology",
+      "452153"
+    ],
+    "indexed_matches": 0,
+    "caveat": "GitHub code search covers the default branch and does not prove absence from mlhkp-v2; canonical ledger reconciliation remains required."
+  },
+  "associated_source_family": {
+    "title": "Linguistic Survey of India, Volume IV: Munda and Dravidian Languages",
+    "editor": "George A. Grierson",
+    "year": 1906,
+    "dsal_status": "DSAL exposes Volume 4 in its LSI collection.",
+    "granth_sanjeevani_id": "BK_00011266",
+    "note": "Treat as related underlying/survey source, not as a duplicate of Konow 1911."
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "streamlit_modules": 0
+  },
+  "promotion_decision": "HOLD",
+  "hold_reasons": [
+    "full text not inspected",
+    "proposition-level locator extraction pending",
+    "dependency on/critique of LSI must be separated",
+    "cultural-sensitivity review pending",
+    "MMSC/WEB-MUN reconciliation pending"
+  ],
+  "next_actions": [
+    "Obtain the BHL/BioStor PDF through a lawful accessible endpoint and capture byte size and SHA-256.",
+    "Inspect pp. 37-41 and atomize only directly supported Mundari linguistic propositions with exact page locators.",
+    "Separate Konow's observations/critique from claims inherited from Grierson's Linguistic Survey of India.",
+    "Reconcile canonical identity against MMSC/WEB-MUN and post-662 audit queue before any controlled count change."
+  ],
+  "no_fabrication": true
+}

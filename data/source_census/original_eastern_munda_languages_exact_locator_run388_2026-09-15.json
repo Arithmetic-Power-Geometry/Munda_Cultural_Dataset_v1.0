@@ -1,0 +1,41 @@
+{
+  "run": 388,
+  "date_utc": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "class": ["book_or_monograph", "grammar_survey", "government_or_education_archive"],
+  "source": {
+    "title_or_locator_label": "Indo-Pacific Fascicle Eight / Eastern Munda language survey",
+    "provider": "ERIC (Education Resources Information Center)",
+    "exact_locator": "https://files.eric.ed.gov/fulltext/ED010367.pdf",
+    "provider_identifier": "ED010367",
+    "verified_locator_fact": "The discoverable ERIC full-text PDF contains a Mundari (Horo-jagar) section in its Eastern Munda language survey and explicitly enumerates Mundari dialect labels including Hasada, Naguri and Kera.",
+    "scope": "Mundari linguistic survey / historical secondary demographic and dialect documentation"
+  },
+  "promotion_state": "exact_locator_only",
+  "evidence_promotion": {
+    "public_cultural_claims_added": 0,
+    "linguistic_claims_added": 0,
+    "demographic_claims_added": 0,
+    "reason": "Exact PDF locator is discoverable, but binary SHA-256, complete bibliographic reconciliation, page-level locator verification, rights/reuse status and trace-back of historical Census figures must be completed before controlled evidence promotion."
+  },
+  "rights_access_consent_cultural": {
+    "access": "publicly discoverable provider PDF",
+    "reuse_rights": "unverified",
+    "participant_consent": "not_applicable_to_bibliographic_locator; any embedded elicited material requires source-specific review",
+    "cultural_access": "unverified; public access does not imply cultural permission",
+    "community_validation": "not_claimed"
+  },
+  "deduplication": {
+    "canonical_key": "ERIC:ED010367",
+    "count_change_allowed": false,
+    "reason": "Must be deterministically reconciled against existing WEB-MUN/source-register identities before changing MMSC counts."
+  },
+  "open_tasks": [
+    "materialize permitted PDF bytes and compute SHA-256",
+    "resolve full title/author/year/publisher metadata from authoritative record",
+    "verify exact Mundari page range against PDF pagination",
+    "trace historical population figures to primary Census source",
+    "determine reuse rights before storing quoted or reproduced content",
+    "reconcile canonical identity against WEB-MUN ledger"
+  ]
+}

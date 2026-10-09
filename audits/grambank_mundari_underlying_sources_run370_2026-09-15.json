@@ -1,0 +1,54 @@
+{
+  "audit_id": "MLHKP-RUN370-GRAMBANK-MUNDARI-UNDERLYING-SOURCES",
+  "run": 370,
+  "audited_utc": "2026-09-14T22:30:00Z",
+  "provider": "Grambank",
+  "language_id": "mund1320",
+  "language_name": "Mundari",
+  "provider_page": "https://grambank.clld.org/languages/mund1320",
+  "release_repository": "https://github.com/grambank/grambank",
+  "release_tree_sha_observed": "37f73da55cf8b426c82383f46a972bc59ce6cf76",
+  "raw_submodule": {
+    "path": "raw/Grambank",
+    "repository": "https://github.com/glottobank/Grambank",
+    "commit_observed_in_release_tree": "1a221f63ef718f7bc3519e1e15043b6ada527c80",
+    "public_materialization_via_available_endpoint_succeeded": false,
+    "materialization_result": "GitHub tree request returned Not Found in this audit environment"
+  },
+  "provider_declared_sources": [
+    {
+      "short_key": "Cook 1965",
+      "title": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According To the Methods of Linguistic Science, With Particular Attention To the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns"
+    },
+    {
+      "short_key": "Osada 1992",
+      "title": "A reference grammar of Mundari"
+    },
+    {
+      "short_key": "Osada 2008",
+      "title": "Mundari"
+    }
+  ],
+  "verification_boundary": {
+    "provider_language_identity_verified": true,
+    "provider_declared_source_set_resolved_at_work_level": true,
+    "raw_provenance_sheet_bytes_materialized": false,
+    "raw_provenance_sheet_sha256_verified": false,
+    "feature_rows_deterministically_recounted": false,
+    "feature_to_source_mapping_verified": false,
+    "source_passages_verified": false,
+    "source_specific_reuse_permission_verified": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "feature_values_promoted_to_controlled_evidence": 0,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0
+  },
+  "governance_rule": "Resolving Grambank's work-level bibliography narrows provenance but does not verify any feature value. Feature promotion still requires deterministic row resolution plus passage-level verification in the cited underlying source and source-specific rights/cultural-access review.",
+  "release_effect": "Grambank blocker narrowed from unknown underlying bibliography to a three-work provider-declared source set; feature-level and passage-level verification remain open.",
+  "sources": [
+    "https://grambank.clld.org/languages/mund1320",
+    "https://github.com/grambank/grambank",
+    "https://github.com/grambank/grambank/blob/master/.gitmodules"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "run": 364,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "pr": 1,
+  "previous_final_head": "bdfa50b1edbcb7e9a59fadd4ed8258987da94be3",
+  "run364_component_commits": {
+    "asjp_source_genealogy_audit": "c8202ad91802a5aed80a85925c7b5946a1496b73",
+    "asjp_boundary_test": "53d79ab1ac12672232f00743f36436706eb7917e",
+    "mmsc_refresh": "0c9637cb990604a41cc2d2cf3147ba0634376045"
+  },
+  "stream_checkpoints": {
+    "mundarica": "No authoritative new scan/OCR bytes were obtained. ASJP MUNDARI_2 independently identifies Encyclopedia Mundarica as its declared lexical source, strengthening source genealogy only; Mundarica verified scan/page/OCR counts remain zero.",
+    "mmsc": "All 14 controlled source classes refreshed; ASJP's two Mundari provider wordlists were canonicalized as manifestations under one Mundari language identity rather than counted as separate source identities.",
+    "source_ingestion": "No lexical item or cultural proposition was promoted. ASJP provider metadata was recorded at SOURCE/manifestation level pending export-byte/hash/row and underlying-source passage verification.",
+    "ontology_entities_graph": "No new claim/evidence/link node was warranted; controlled counts remain 52/52/52 and schema-category representation remains 100 percent.",
+    "streamlit": "No redesign warranted; 42/42 mapped modules, universal search, evidence drilldown, reports/downloads and owner console remain the controlled state.",
+    "governance": "ASJP database CC BY 4.0 does not establish underlying-source reuse permission, community validation or cultural authorization. Cultural access continues to override entitlement.",
+    "publication": "Controlled numerical metrics are unchanged, so no manuscript table/figure regeneration is warranted this cycle; Q1-target manuscript remains synchronized to repository metrics.",
+    "verification": "ASJP MUNDARI and MUNDARI_2 both identify ISO unr and Glottocode mund1320. Their provider-declared sources differ: Peiros 1998 versus Hoffmann and van Emelen's Encyclopedia Mundarica. Export bytes, hashes, deterministic row counts and lexical source passages remain unverified.",
+    "tests_ci": "Run 363 final head is verified 4/4 successful. Run 364 adds a regression test for the ASJP promotion/canonicalization boundary; final-head workflows must be checked after status synchronization and are not pre-labelled green."
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42,
+    "schema_category_representation_percent": 100.0,
+    "ui_mapping_percent": 100.0
+  },
+  "release_gate": "NOT_PASS",
+  "automated_completeness_audit_pass": false,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

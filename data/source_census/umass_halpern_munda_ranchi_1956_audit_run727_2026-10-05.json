@@ -1,0 +1,66 @@
+{
+  "run": 727,
+  "date": "2026-10-05",
+  "stream": "non-Mundarica source census",
+  "canonical_source_family": "UMASS_CREDO|JOEL_M_HALPERN|MUNDA_RANCHI|1956",
+  "source_class": "archive/photography",
+  "provider": "University of Massachusetts Amherst Libraries, Special Collections and University Archives (Credo)",
+  "manifestations": [
+    {
+      "id": "mufs001-ii-i0339",
+      "title": "Munda man near his home, 1956",
+      "locator": "provider item mufs001-ii-i0339",
+      "scope": "Ranchi village; one slide; 5 x 5 cm",
+      "rights": "All rights held by Joel M. Halpern; publication/redistribution/replication requires request to UMass SCUA"
+    },
+    {
+      "id": "mufs001-ii-i0346",
+      "title": "Young Munda girls at a festival, 1956",
+      "locator": "provider item mufs001-ii-i0346",
+      "scope": "festival observation; one slide; 5 x 5 cm",
+      "rights": "All rights held by Joel M. Halpern; publication/redistribution/replication requires request to UMass SCUA"
+    },
+    {
+      "id": "mufs001-ii-i0317",
+      "title": "Munda drummer from the Ranchi district, 1956",
+      "locator": "provider item mufs001-ii-i0317",
+      "scope": "Ranchi district; one slide; 5 x 5 cm",
+      "rights": "All rights held by Joel M. Halpern; publication/redistribution/replication requires request to UMass SCUA"
+    }
+  ],
+  "deduplication": "Three distinct archival objects in one Joel M. Halpern 1956 source family; do not count as three independent corroborating studies.",
+  "promotion": "catalogue/object metadata only",
+  "governance": {
+    "cultural_claims_promoted": false,
+    "image_redistribution": false,
+    "participant_consent": "unverified",
+    "community_consent": "unverified",
+    "note": "Provider captions may contain ethnographic interpretation; do not generalize them into Munda cultural claims without independent proposition-level support and cultural-access review."
+  },
+  "reconciliation": {
+    "repository_code_search_id": "mufs001-ii-i0339",
+    "matches": 0,
+    "incomplete_results": true,
+    "absence_inferred": false
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "remaining_gates": [
+    "MMSC/WEB-MUN reconciliation",
+    "manifestation checksum/size if lawfully obtainable",
+    "creator/collection provenance inspection",
+    "participant/community consent review",
+    "cultural-sensitivity review",
+    "exact image-level proposition extraction only if permitted"
+  ],
+  "sources": [
+    "https://credo.library.umass.edu/view/full/mufs001-ii-i0339",
+    "https://credo.library.umass.edu/view/full/mufs001-ii-i0346",
+    "https://credo.library.umass.edu/view/full/mufs001-ii-i0317"
+  ]
+}

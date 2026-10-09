@@ -1,0 +1,43 @@
+{
+  "run": 616,
+  "audit_date": "2026-09-24",
+  "branch": "mlhkp-v2",
+  "canonical_source": {
+    "title": "Tribal Atlas of Jharkhand",
+    "year": 2025,
+    "corporate_author_publisher": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Department of Scheduled Tribe, Scheduled Caste, Minority and Backward Class Welfare, Government of Jharkhand",
+    "extent": "147 pages",
+    "source_class": ["government", "TRI", "atlas", "map", "book"],
+    "geographic_scope": "Jharkhand, India",
+    "munda_scope": "potentially relevant; atlas-level Munda-specific pages/maps/tables require inspection before evidence promotion"
+  },
+  "identity_verification": {
+    "verified_via": ["Google Books bibliographic record"],
+    "repository_exact_title_precheck": "no match returned before insertion",
+    "canonicalization_rule": "Google Books, TRI/Government catalogue or downloadable manifestations, library records, mirrors, and citations of this title are manifestations/metadata for one canonical work unless edition-level evidence establishes otherwise"
+  },
+  "rights_access_governance": {
+    "bibliographic_metadata_public": true,
+    "full_text_obtained_this_run": false,
+    "file_redistribution_permission_verified": false,
+    "public_access_equals_redistribution_permission": false,
+    "cultural_access_review_required_for_item_level_or_sensitive_content": true
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Bibliographic identity and atlas extent are supported, but Munda-specific pages/maps/tables, underlying data provenance, exact locators, reuse rights and cultural-governance status have not yet been verified."
+  },
+  "exact_locator_conversion_queue": [
+    "obtain authoritative TRI/Government or otherwise lawful full manifestation",
+    "hash manifestation and record edition/version identity",
+    "identify Munda-specific maps, tables, figures and explanatory text with printed-page and PDF-page concordance",
+    "trace map/table data to Census/TRI/other underlying sources and avoid treating derivative cartography as independent corroboration",
+    "record proposition-level locators and geographic/temporal scope",
+    "verify map/image/table reuse terms independently where third-party material is present",
+    "apply cultural-access review to sensitive or item-level ethnographic content before public exposure"
+  ],
+  "gap_status": "explicit_open_gap",
+  "notes": "This record improves government/TRI/map census coverage but does not justify a cultural claim or controlled-count increase until deterministic reconciliation and exact-locator conversion are complete."
+}

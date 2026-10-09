@@ -1,0 +1,39 @@
+{
+  "run": 379,
+  "date_utc": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "basis_previous_final_head": "bacbd5199e9ec4dab8d542d390ea091990b7a597",
+  "changes": {
+    "new_raw_discovery_records": 1,
+    "new_unique_discovery_leads": 1,
+    "new_unresolved_unique_leads": 1,
+    "new_controlled_claims": 0,
+    "new_evidence_records": 0,
+    "new_provenance_links": 0,
+    "new_streamlit_modules": 0
+  },
+  "post_run_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 95,
+    "unique_web_discovery_leads": 92,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 78,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "component_sync": {
+    "mmsc_search_log": "updated_run379",
+    "source_census": "updated_run379",
+    "tests": "boundary_test_added",
+    "streamlit_universal_search_modules": "no functional/count change required; discovery-only locator does not create a controlled module",
+    "evidence_graph": "no change required; no evidence/claim promoted",
+    "completeness_gap_matrix": "NCERT Barkhaa item endpoints/rights/consent/cultural-access added as explicit gap via status blocker",
+    "publication_release_metrics_tables_figures": "discovery census totals require refresh wherever rendered; controlled evidence tables/figures unchanged",
+    "status_progress": "to_be_synchronized"
+  },
+  "release_gate": "NOT_PASS",
+  "reason": "Obtainable/permitted source processing remains incomplete and unresolved discovery/governance/materialization gaps remain explicit."
+}

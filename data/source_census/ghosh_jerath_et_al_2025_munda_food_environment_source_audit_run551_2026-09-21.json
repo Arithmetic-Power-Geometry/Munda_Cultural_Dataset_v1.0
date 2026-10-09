@@ -1,0 +1,56 @@
+{
+  "run": 551,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_key": "doi:10.1186/s40795-025-01159-2",
+  "source_class": ["peer-reviewed article", "open-access full text"],
+  "identity": {
+    "title": "Indigenous food environment and dietary patterns of Munda community of Jharkhand, India",
+    "authors_first": "Suparna Ghosh-Jerath",
+    "journal": "BMC Nutrition",
+    "volume": "11",
+    "article_number": "189",
+    "publication_date": "2025-10-21",
+    "doi": "10.1186/s40795-025-01159-2",
+    "pmc": "PMC12539013"
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["indigenous food environment", "dietary patterns"],
+    "scope_rule": "Do not generalize study-sample findings to all Munda communities without proposition-level support."
+  },
+  "access_rights": {
+    "access": "open access",
+    "license": "CC BY 4.0",
+    "license_verified_from": "PMC article notice",
+    "third_party_material_caveat": true
+  },
+  "canonicalization": {
+    "work_identity": "DOI is primary canonical key",
+    "same_work_manifestations": ["publisher landing page", "publisher PDF/HTML", "PMC full text", "indexing/citation records"],
+    "independent_corroboration": false
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Full text is obtainable and licensed, but exact proposition locators, methods/sample-context checks, ethics/consent context, third-party-material status, and cultural-sensitivity review must precede controlled cultural-evidence promotion."
+  },
+  "conversion_queue": {
+    "priority": "high",
+    "next_steps": [
+      "capture stable licensed full-text manifestation and SHA-256",
+      "record article-section/table/figure/page-equivalent locators for candidate propositions",
+      "audit sampling geography and participant/community scope",
+      "audit ethics/consent statements and sensitive cultural/health information",
+      "separate authors' observations from cited-source dependencies",
+      "promote only supported permitted propositions"
+    ]
+  },
+  "verified_urls": [
+    "https://doi.org/10.1186/s40795-025-01159-2",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12539013/"
+  ],
+  "release_gate_effect": "No controlled-count movement until deterministic reconciliation and exact-locator promotion."
+}

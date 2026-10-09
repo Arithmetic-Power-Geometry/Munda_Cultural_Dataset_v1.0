@@ -1,0 +1,59 @@
+{
+  "record_type": "MMSC_exact_locator_and_identity_reconciliation",
+  "checked_utc": "2026-09-09T00:29:32Z",
+  "branch": "mlhkp-v2",
+  "candidate": {
+    "creator": "Walter Anthony Cook",
+    "year": 1965,
+    "canonical_title_from_glottolog": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According To the Methods of Linguistic Science, With Particular Attention To the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns",
+    "short_title_variant_from_wals": "A Descriptive Grammar of Mundari",
+    "institution": "Georgetown University",
+    "document_type": "dissertation",
+    "pagination_from_glottolog": "vi+315 pp.",
+    "language_target": "Mundari",
+    "iso_639_3_from_wals": "unr"
+  },
+  "authoritative_or_structured_locators": [
+    {
+      "registry": "Glottolog 5.3",
+      "locator": "https://glottolog.org/resource/reference/id/152623",
+      "supports": ["Walter Anthony Cook", "1965", "full dissertation title", "Georgetown University dissertation", "vi+315 pp.", "UMI/Ann Arbor manifestation metadata"]
+    },
+    {
+      "registry": "WALS Online",
+      "locator": "https://wals.info/refdb/record/Cook-1965",
+      "supports": ["Cook, Walter A.", "1965", "short title A Descriptive Grammar of Mundari", "Georgetown University", "Mundari/ISO unr", "use as typological source"]
+    },
+    {
+      "registry": "WALS Mundari language page",
+      "locator": "https://wals.info/languoid/lect/wals_code_mun",
+      "supports": ["Cook 1965 appears in the Mundari source bibliography alongside Hoffmann, Osada and Sinha"]
+    }
+  ],
+  "deterministic_reconciliation": {
+    "decision": "treat WALS Cook 1965 short-title entry and Glottolog Cook 1965 full-title dissertation record as manifestations/registry descriptions of the same 1965 Georgetown dissertation unless a contradictory primary catalogue record is later found",
+    "new_permanent_source_id_assigned": false,
+    "reason_no_permanent_id": "Run-91 status already records Cook as a known lead. Full discovery-layer reconciliation is still required before source-count promotion; this record prevents accidental double counting caused by title variation.",
+    "identity_key": "cook|walter-anthony|1965|georgetown|mundari-dissertation"
+  },
+  "rights_and_evidence_boundary": {
+    "metadata_reuse": "Registry metadata may be used for source identification with attribution to the registry.",
+    "full_text_rights": "not established by this verification",
+    "full_text_ingested": false,
+    "participant_or_field_data_ingested": false,
+    "linguistic_claims_promoted": false,
+    "cultural_claims_promoted": false,
+    "page_level_verification": false,
+    "ocr_verified": false,
+    "community_validation_inferred": false,
+    "cultural_access_rule": "Any culturally sensitive or participant-derived content remains gated even if legal or technical access is later available."
+  },
+  "release_effect": {
+    "audited_source_identity_count_changed": false,
+    "canonicalized_web_lead_count_changed": false,
+    "claims_changed": false,
+    "evidence_records_changed": false,
+    "evidence_links_changed": false,
+    "benefit": "resolves a title-variant deduplication risk and establishes a defensible exact bibliographic identity for a known grammar/dissertation lead"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "run": 677,
+  "date": "2026-10-02",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": [
+    "map",
+    "derived statistical visualization",
+    "web media"
+  ],
+  "canonical_candidate": "URL|https://commons.wikimedia.org/wiki/File:Mundari_language_distribution_-_Assam.svg",
+  "title": "Mundari language distribution - Assam.svg",
+  "author": "MaxA-Matrix",
+  "date_created": "2024-06-28",
+  "manifestation": {
+    "format": "SVG",
+    "dimensions": "1414 × 978 px",
+    "size": "471 KB"
+  },
+  "stated_scope": "Distribution of Mundari (including Munda) language in Assam, 2011 census",
+  "upstream_source": "C-16: Population by mother tongue, Assam - 2011, Office of the Registrar General & Census Commissioner, India",
+  "rights": {
+    "license": "CC BY-SA 4.0",
+    "note": "Commons file page states CC BY-SA 4.0; attribution/share-alike obligations apply."
+  },
+  "provenance_classification": "secondary visualization derived from official Census C-16; not an independent cultural source",
+  "exact_locator_plan": "SVG file/object + district geometry; any statistical proposition must resolve to upstream Census C-16 table/cell, not infer values from map coloration alone",
+  "scope_controls": [
+    "Mundari/Munda aggregation in this visualization must not overwrite the repository safeguard that Census source categories may be separately coded/addressable.",
+    "No cultural claim may be inferred from geographic distribution alone."
+  ],
+  "cultural_governance": {
+    "consent": "not applicable to aggregate census visualization; does not establish consent for any underlying individual/community material",
+    "sensitivity": "review before public map embedding; aggregate language geography only"
+  },
+  "repository_searches": [
+    {
+      "query": "Mundari language distribution Assam",
+      "result": "0 indexed matches"
+    },
+    {
+      "query": "MaxA-Matrix",
+      "result": "0 indexed matches"
+    },
+    {
+      "query": "C-16 Population mother tongue Assam 2011",
+      "result": "0 indexed matches"
+    }
+  ],
+  "promotion": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0,
+    "reason": "Requires deterministic MMSC/WEB-MUN reconciliation and upstream Census C-16 cell-level verification before controlled promotion."
+  },
+  "blockers": [
+    "Upstream Assam C-16 authoritative table/file must be captured and exact row/column coordinates verified.",
+    "Need deterministic reconciliation against existing Census/map source families.",
+    "Do not use visualization as substitute for upstream statistical evidence."
+  ],
+  "source_url": "https://commons.wikimedia.org/wiki/File:Mundari_language_distribution_-_Assam.svg"
+}

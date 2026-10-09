@@ -1,0 +1,53 @@
+{
+  "run": 450,
+  "date_utc": "2026-09-17",
+  "stream": "non-Mundarica",
+  "source_class": ["dataset", "parallel_corpus", "web_resource"],
+  "canonical_identity": {
+    "title": "AdiBhasha",
+    "repository": "misniitdelhi/AdiBhasha",
+    "platform": "Hugging Face",
+    "mundari_iso_as_reported": "unv",
+    "mundari_script_as_reported": "Devanagari"
+  },
+  "verified_metadata": {
+    "release_total_parallel_sentences_as_reported": 80000,
+    "languages_as_reported": ["Bhili", "Gondi", "Mundari", "Santali"],
+    "mundari_train_pairs_as_reported_approx": 20150,
+    "mundari_path_as_reported": "data/mundari/mundari-train.csv",
+    "domains_as_reported": ["Education", "Governance", "Healthcare", "News", "Social"],
+    "workflow_as_reported": "participatory, human-in-the-loop workflow with native speakers"
+  },
+  "canonicalization": {
+    "rule": "Treat Hugging Face dataset card, repository files, shards and derived presentations as manifestations/components of one AdiBhasha dataset identity unless independent provenance establishes otherwise.",
+    "count_inflation_prohibited": true
+  },
+  "scope": {
+    "mundari_relevant": true,
+    "cultural_claim_promotion": false,
+    "linguistic_claim_promotion": false
+  },
+  "rights_access_consent": {
+    "exact_license_verified": false,
+    "participant_consent_verified": false,
+    "privacy_review_complete": false,
+    "cultural_access_review_complete": false,
+    "note": "Participatory/native-speaker workflow language is not equivalent to item-level consent, redistribution permission, or cultural permission."
+  },
+  "promotion_gates": [
+    "verify exact dataset licence and per-file reuse terms",
+    "deterministically enumerate Mundari records rather than relying on approximate card totals",
+    "obtain permitted immutable bytes and SHA-256",
+    "establish stable row locators",
+    "trace source-sentence provenance and dependency",
+    "review contributor/translator provenance, consent and privacy",
+    "review cultural-access implications before any cultural proposition is promoted"
+  ],
+  "evidence_promotion": {
+    "new_claims": 0,
+    "new_evidence_records": 0,
+    "reason": "Metadata/source-level locator only; promotion gates remain open."
+  },
+  "discovery_source": "https://huggingface.co/datasets/misniitdelhi/AdiBhasha",
+  "audit_note": "No MMSC controlled count change is authorized by this locator record until deterministic reconciliation against the WEB-MUN ledger."
+}

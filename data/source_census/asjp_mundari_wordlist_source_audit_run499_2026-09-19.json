@@ -1,0 +1,61 @@
+{
+  "run": 499,
+  "audit_date": "2026-09-19",
+  "stream": "non-Mundarica",
+  "canonical_source_id": "ASJP_MUNDARI_WORDLIST",
+  "title": "ASJP Database - Wordlist Mundari",
+  "resource_class": ["dataset", "lexical_wordlist", "web_resource"],
+  "language": "Mundari",
+  "iso_639_3": "unr",
+  "glottocode": "mund1320",
+  "compiler": "Cecil H. Brown",
+  "canonical_url": "https://asjp.clld.org/languages/MUNDARI",
+  "upstream_source_reported_by_provider": "Peiros 1998, Comparative Linguistics in Southeast Asia, Pacific Linguistics C-142, Australian National University",
+  "license": {
+    "statement": "ASJP Database is licensed under Creative Commons Attribution 4.0 International",
+    "license_id": "CC-BY-4.0",
+    "scope_caution": "Provider database license is verified at the resource page; upstream lexical provenance remains separately attributable and must not be misrepresented as independently collected ASJP field evidence."
+  },
+  "identity_verification": {
+    "status": "verified_provider_metadata",
+    "verified_fields": ["title", "compiler", "ISO 639-3", "Glottocode", "upstream source", "database license"],
+    "provider_accessed": "2026-09-19"
+  },
+  "deduplication": {
+    "repository_exact_ASJP_search_before_creation": "no results",
+    "canonicalization_rule": "JSON/RDF/N3/NT/Turtle/ASJP-text/API/HTML manifestations of this same ASJP Mundari wordlist are one dataset identity, not independent sources",
+    "independence_rule": "ASJP lexical forms derived from Peiros 1998 do not constitute independent corroboration of Peiros 1998 or any source underlying Peiros"
+  },
+  "scope": {
+    "in_scope": true,
+    "use": "lexical/linguistic evidence only after item-level extraction and provenance checks",
+    "not_cultural_claim_by_default": true
+  },
+  "rights_access_consent_culture": {
+    "access": "public web resource",
+    "reuse_basis": "CC-BY-4.0 database license",
+    "participant_consent": "not established by provider page; do not infer",
+    "cultural_sensitivity": "lexical entries require screening before any culturally sensitive interpretation",
+    "uncertainty_preserved": true
+  },
+  "promotion": {
+    "claims_promoted_this_run": 0,
+    "evidence_records_promoted_this_run": 0,
+    "reason": "This run verifies/canonicalizes the source and its reuse basis. Exact item rows and immutable export checksums have not yet been captured in-repository, so no evidence is promoted merely from discovery metadata.",
+    "required_next_steps": [
+      "obtain a permitted deterministic ASJP export representation",
+      "record immutable bytes and SHA-256",
+      "extract Mundari items with exact row/concept identifiers",
+      "preserve ASJP concept and loan metadata where present",
+      "tag each item dependency=Peiros-1998 unless a more specific upstream provenance is demonstrated",
+      "screen culturally sensitive lexical material before publication"
+    ],
+    "target_locator": "<immutable-ASJP-export>#language=MUNDARI;concept=<concept-id>;row=<row-or-item-id>;sha256=<hash>;dependency=Peiros-1998"
+  },
+  "release_invariants_added": [
+    "serialization_manifestation_does_not_equal_independent_source",
+    "derived_wordlist_does_not_equal_independent_upstream_corroboration",
+    "open_license_does_not_equal_participant_consent"
+  ],
+  "release_gate_effect": "source census strengthened; controlled evidence counts unchanged until exact-locator ingestion"
+}

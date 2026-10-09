@@ -1,0 +1,45 @@
+{
+  "audit_id": "MLHKP-RUN180-PROIETTI-RIGHTS",
+  "run": 180,
+  "audit_date": "2026-09-11",
+  "source": "Marilena Proietti (2025), Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+  "authoritative_locator": "https://tesidottorato.depositolegale.it/handle/20.500.14242/212639",
+  "verified_repository_metadata": {
+    "handle": "20.500.14242/212639",
+    "nbn": "URN:NBN:IT:UNIROMA1-212639",
+    "publication_date": "2025-05-26",
+    "filename_reported": "Tesi_dottorato_Proietti.pdf",
+    "file_size_reported": "47.18 MB",
+    "format_reported": "Adobe PDF",
+    "open_access_from": "2026-05-27",
+    "license_label_reported": "Creative Commons",
+    "repository_general_notice": "UNITESI states that documents are copyright-protected and all rights are reserved unless otherwise indicated."
+  },
+  "rights_resolution": {
+    "exact_cc_variant_verified": false,
+    "license_url_verified": false,
+    "redistribution_permission_verified": false,
+    "derivative_permission_verified": false,
+    "machine_learning_permission_verified": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "decision": "Do not redistribute, ingest full-text passages, or promote participant-derived material solely from the generic Creative Commons label or open-access status."
+  },
+  "manifestation_verification": {
+    "pdf_bytes_acquired": false,
+    "checksum_computed": false,
+    "page_level_passages_verified": false,
+    "reason": "The authoritative metadata page verifies file existence and access metadata, but this run did not establish the exact licence variant or independently acquire and hash the PDF bytes."
+  },
+  "promotion": {
+    "source_identities_added": 0,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "full_text_passages_ingested": 0,
+    "participant_records_ingested": 0,
+    "counts_changed": false
+  },
+  "release_implication": "The Proietti thesis remains exact-located and bibliographically auditable, but its full-text redistribution/derivative-use state remains gated until the exact licence variant is authoritative and participant/community/cultural-access review is separately satisfied where applicable."
+}

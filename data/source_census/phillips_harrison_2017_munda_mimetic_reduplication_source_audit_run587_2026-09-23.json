@@ -1,0 +1,60 @@
+{
+  "run": 587,
+  "audit_date": "2026-09-23",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_source": {
+    "title": "Munda Mimetic Reduplication",
+    "authors": ["J. B. Phillips", "K. David Harrison"],
+    "year": 2017,
+    "container": "Canadian Journal of Linguistics / Revue canadienne de linguistique",
+    "volume": "62",
+    "issue": "2",
+    "pages": "221-242",
+    "doi": "10.1017/cnj.2017.13",
+    "source_class": ["peer-reviewed article", "linguistics"],
+    "scope": "Comparative Munda-language study including Kera Mundari and Mundari; relevant to mimetic reduplication and sound symbolism. Not a general cultural authority."
+  },
+  "verified_manifestations": [
+    {
+      "type": "institutional repository metadata",
+      "institution": "Swarthmore College",
+      "url": "https://works.swarthmore.edu/fac-linguistics/223/",
+      "access": "public metadata page",
+      "notes": "Repository metadata gives authors, publication date, journal, volume/issue/pages, DOI and abstract."
+    }
+  ],
+  "canonicalization": {
+    "identity_key": "doi:10.1017/cnj.2017.13",
+    "rule": "Publisher, DOI, Swarthmore repository, indexing records, and lawful copies are manifestations of one scholarly work unless substantive version differences are demonstrated.",
+    "repository_exact_title_search_before_add": "no match returned"
+  },
+  "scope_and_evidence": {
+    "languages_named_in_verified_abstract": ["Ho", "Kera Mundari", "Kharia", "Mundari", "Remo (Bondo)", "Santali", "Sora (Savara)"],
+    "verified_abstract_scope": "The abstract reports an empirical typology of mimetic reduplication across seven Munda languages, considering syntactic class, semantic domain and phonological form.",
+    "promotion_status": "discovery/audit only pending lawful full-text inspection and exact locators",
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "binaries_ingested": 0
+  },
+  "rights_access_consent": {
+    "metadata_access": "public",
+    "full_text_redistribution": "not verified in this run",
+    "consent_cultural_governance": "Any examples tied to speakers, communities, performances or culturally sensitive contexts require source-level provenance and governance review before cultural reuse.",
+    "restriction": "Do not infer pan-Munda cultural practice from a comparative linguistic pattern."
+  },
+  "exact_locator_conversion_queue": [
+    "Obtain a lawful full-text manifestation and record stable manifestation identity/hash where permitted.",
+    "Concord PDF pages with printed pages 221-242.",
+    "Record exact page/table/example locators specifically for Kera Mundari and Mundari evidence.",
+    "Separate authors' observations from examples inherited from dictionaries/grammars or other cited sources.",
+    "Capture dialect/locality/speaker/corpus provenance and uncertainty for each promoted proposition.",
+    "Verify file-level reuse terms before storing or redistributing any full-text binary."
+  ],
+  "audit_guardrails": [
+    "No abstract-level statement is promoted as an exact-locator evidence record.",
+    "No comparative Munda-family statement is silently converted into a Mundari-specific claim.",
+    "No cultural claim is inferred solely from linguistic semantics.",
+    "Blocked or unverified full text remains an explicit gap."
+  ]
+}

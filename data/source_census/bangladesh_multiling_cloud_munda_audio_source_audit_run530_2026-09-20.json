@@ -1,0 +1,50 @@
+{
+  "run": 530,
+  "audit_date": "2026-09-20",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government language resource", "audio", "web resource", "multilingual media"],
+  "canonical_identity": {
+    "title": "Munda Language",
+    "provider": "Multiling Cloud / Bangladesh Computer Council language-resource programme",
+    "canonical_url": "https://multiling.cloud/language/munda-language/"
+  },
+  "verified_provider_facts": {
+    "munda_language_page_discoverable": true,
+    "provider_reports_audio_collection": true,
+    "provider_reported_audio_count": 860,
+    "scope_note": "The surfaced provider page describes a Munda-language audio collection. The label Munda is preserved exactly as provider metadata and is not silently normalized to Indian Mundari; dialect/community/geographic identity requires member-level verification."
+  },
+  "exact_external_locators": [
+    {"locator": "Multiling Cloud > Language > Munda Language", "use": "collection-level Munda audio locator"},
+    {"locator": "Munda Language page > Audio section / provider-reported 860 audio items", "use": "candidate member-level audio queue; individual member URLs and metadata still require capture"}
+  ],
+  "canonicalization": {
+    "rule": "Treat the Munda Language landing page, audio listing/pagination, playable members and downloadable manifestations as one provider collection with member-level manifestations; do not count page views, mirrors, pagination pages or download endpoints as independent source identities.",
+    "language_boundary": "Provider label 'Munda' is retained. Do not merge with Mundari, Bangladesh Munda varieties, or any Indian Census/ISO category without explicit linguistic/provenance evidence.",
+    "independence_warning": "Multiple audio files from one elicitation/recording programme are collection members, not automatically independent corroborating sources for a cultural claim."
+  },
+  "rights_access_consent": {
+    "public_provider_page": true,
+    "government_programme_context_discoverable": true,
+    "redistribution_license_verified": false,
+    "speaker_or_performer_identity_verified": false,
+    "participant_consent_verified_for_mlhkp_reuse": false,
+    "community_validation_verified": false,
+    "cultural_access_clearance_verified": false
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "audio_binaries_promoted": 0,
+    "reason": "Collection identity and provider-reported audio count are discoverable, but member-level immutable bytes/hashes, exact linguistic identity, speaker/provenance metadata, redistribution terms, reusable consent and cultural-access clearance are not yet verified."
+  },
+  "next_ingestion_actions": [
+    "enumerate all accessible member pages/IDs deterministically and reconcile the provider-reported count of 860",
+    "capture exact member URL/title/duration/speaker/location/transcript metadata where exposed",
+    "resolve whether provider label Munda corresponds to Mundari or a distinct/local Bangladesh variety before MLHKP scope promotion",
+    "verify terms/licence and participant-consent statements at collection and member level",
+    "where lawful, capture immutable member bytes and compute SHA-256",
+    "promote only members whose identity, provenance, rights, consent and cultural-access gates pass"
+  ],
+  "release_policy": "Public or government-supported hosting is not treated as an open redistribution licence or as proof of reusable participant consent. Language labels are not normalized across communities without evidence. Restricted, unavailable, unverified or culturally uncertain members remain explicit gaps."
+}

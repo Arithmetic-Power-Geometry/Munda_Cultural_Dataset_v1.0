@@ -1,0 +1,60 @@
+{
+  "audit_run": 559,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "canonical_source_id": "vtechworks:hdl:10919/111386",
+  "source_class": "doctoral_dissertation",
+  "title": "Munda Politics and Land: Understanding Indigeneity in Jharkhand, India",
+  "author": "Pallavi Raonka",
+  "date": "2021-02-02",
+  "publisher": "Virginia Tech",
+  "repository": "VTechWorks",
+  "persistent_identifier": "http://hdl.handle.net/10919/111386",
+  "provider_item_url": "https://vtechworks.lib.vt.edu/items/e1051cec-fced-473c-9826-ff39ec495041",
+  "provider_manifestations": [
+    {"name":"Raonka_P_D_2021.pdf","provider_reported_size":"2.33 MB","access":"download exposed by repository"},
+    {"name":"Supporting documents","provider_reported_size":"426.81 KB","access":"download exposed by repository"}
+  ],
+  "provider_scope": {
+    "keywords": ["Indigenous","Adivasi","Munda","Tribal","Jharkhand","Neoliberalism"],
+    "study_description": "Provider abstract describes a fifteen-month ethnographic study from May 2017 to December 2018 focused on Munda politics, land, identity/representation, gender and Adivasi-State relations in Jharkhand.",
+    "scope_classification": "Munda-specific ethnographic/political-land study; proposition-level use requires exact dissertation locators and methods/context review."
+  },
+  "identity_verification": {
+    "provider_metadata_verified": true,
+    "repository_exact_identifier_search_before_addition": true,
+    "repository_duplicate_found": false,
+    "canonicalization_rule": "The VTechWorks item, handle, dissertation PDF, supporting-document manifestation, catalogue/index records and mirrors are manifestations/components of one dissertation identity unless item-level evidence proves a distinct work."
+  },
+  "rights_access_consent": {
+    "public_repository_access": true,
+    "redistribution_license_verified": false,
+    "participant_reuse_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "notes": "Public dissertation access is not treated as permission to redistribute the binary or underlying ethnographic material. Published fieldwork is not treated as reusable participant consent. Land, identity, gender and community-representation material requires conservative cultural/context review."
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Full dissertation is obtainable at provider level, but exact-page proposition extraction, manifestation hashing, methods/sample/locality review, source-dependency separation, rights and participant/cultural-access checks are not yet complete."
+  },
+  "conversion_queue": [
+    "Obtain provider dissertation manifestation only if repository terms permit local audit capture.",
+    "Record immutable SHA-256 and PDF page count for the audited manifestation.",
+    "Build printed-page/PDF-page concordance where pagination differs.",
+    "Extract only supported Munda-specific propositions with exact page locators and source-role labels (author analysis, interview/participant statement, observation, cited historical source).",
+    "Audit methods, field locality/sample boundaries and dependency on cited literature before claim promotion.",
+    "Verify reuse rights separately from public access; do not redistribute restricted binary.",
+    "Preserve participant-consent and cultural-access uncertainty; do not infer community-wide claims from bounded ethnography."
+  ],
+  "blocked_or_unverified_gaps": [
+    "Redistribution licence not verified in this audit.",
+    "Participant-level consent for derivative dataset reuse not verified.",
+    "Exact proposition/page locators not yet audited.",
+    "Localities/sample and source-dependency boundaries not yet extracted.",
+    "Cultural-access review not complete."
+  ],
+  "count_effect": "Audit/source-census addition only. Do not change controlled MMSC/evidence/Streamlit/publication counts until deterministic ledger reconciliation and permitted exact-locator promotion justify it."
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": 274,
+  "date_utc": "2026-09-12",
+  "audit_id": "MMSC-RECON-RUN274-WEB-MUN-0088",
+  "purpose": "Deterministically reconcile the Run 273 Bangladesh Multiling Cloud exact locator to its pre-existing WEB-MUN discovery lead while preserving the unresolved taxonomy/content/rights state.",
+  "discovery_lead": "WEB-MUN-0088",
+  "canonical_key": "gov-bd:multiling-cloud:munda",
+  "canonical_url": "https://lob.bangla.gov.bd/languages/munda",
+  "alternate_manifestation": "https://multiling.cloud/languages/munda",
+  "evidence_chain": [
+    "Run 141 audited the government-domain and multiling.cloud pages as manifestations of one candidate archive.",
+    "Run 142 explicitly identifies the candidate lead as WEB-MUN-0088 and keeps the language-identity disposition unresolved.",
+    "Run 273 verified the government-domain exact locator, displayed 860 archive units/sentences, displayed 280 minutes and the 2026 BCC-ICTD all-rights-reserved notice."
+  ],
+  "deterministic_reconciliation": {
+    "web_lead_to_exact_locator_link_verified": true,
+    "web_lead": "WEB-MUN-0088",
+    "exact_locator": "https://lob.bangla.gov.bd/languages/munda",
+    "duplicate_access_manifestation_join": "https://multiling.cloud/languages/munda",
+    "new_source_identity_created": false,
+    "audited_identity_promoted": false,
+    "canonicalized_unique_web_lead_promoted": false,
+    "unresolved_unique_web_lead_count_change": 0,
+    "reason_count_neutral": "The discovery lead itself is now deterministically linked to the exact archive locator, but authoritative item-level language crosswalk, participant/consent evidence, item-level reuse terms, community validation and cultural-access classification remain unresolved. Therefore WEB-MUN-0088 remains in the unresolved unique-lead pool and no controlled identity count changes."
+  },
+  "content_and_rights_boundary": {
+    "audio_ingested": false,
+    "transcriptions_ingested": false,
+    "speaker_records_ingested": false,
+    "cultural_claims_promoted": false,
+    "redistribution_permission_inferred": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "remaining_gates": [
+    "Authoritative item-level language identifier or collection crosswalk sufficient to resolve the Munda/Mundari identity boundary.",
+    "Collection methodology, provenance and stable record-level locators.",
+    "Item-level rights/reuse terms and participant consent/privacy/publicity evidence.",
+    "Community validation and MLHKP cultural-access classification overriding technical availability."
+  ],
+  "completeness_claim": false
+}

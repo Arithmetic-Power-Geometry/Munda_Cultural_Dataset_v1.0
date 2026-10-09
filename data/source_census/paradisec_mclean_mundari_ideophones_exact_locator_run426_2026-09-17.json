@@ -1,0 +1,57 @@
+{
+  "run": 426,
+  "stream": "non-Mundarica source census",
+  "source_class": ["archive", "dataset", "audio", "linguistic fieldwork"],
+  "canonical_identity": {
+    "title": "Mundari Ideophones",
+    "collector": "Bonnie McLean",
+    "collection_code": "BMM1",
+    "year": 2016,
+    "publisher_archive": "PARADISEC",
+    "doi": "10.4225/72/585bea79cf9dd",
+    "handle": "1885/146448",
+    "language_scope": "Mundari; Hasada keyword in institutional metadata"
+  },
+  "verification": {
+    "institutional_catalogue": "ANU Open Research Repository",
+    "institutional_item_url": "https://openresearch-repository.anu.edu.au/items/fb2cbb6c-f595-4a07-9fc0-cb514d145c5c",
+    "metadata_access_statement": "Open Access via publisher website",
+    "metadata_license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "metadata_description": "Collection investigates Mundari ideophones, including semantics and use in discourse, song, and narrative.",
+    "primary_consultant_named_in_metadata": "Madhu Purti",
+    "verified_utc_date": "2026-09-16"
+  },
+  "canonicalization": {
+    "rule": "DOI, ANU handle/catalogue record, PARADISEC collection BMM1, and individual archived files are manifestations/components of one archival collection identity unless item-level provenance demonstrates a separate work.",
+    "do_not_double_count": true,
+    "existing_repository_exact_title_search_before_addition": "no result"
+  },
+  "exact_locator_policy": {
+    "collection_locator": "DOI 10.4225/72/585bea79cf9dd / PARADISEC BMM1",
+    "evidence_locator_required": "immutable archive revision or item identifier + file identifier + timecode interval for audio/video OR page/segment identifier for text + SHA-256 of permitted bytes",
+    "collection_level_metadata_is_not_passage_evidence": true
+  },
+  "rights_consent_cultural_access": {
+    "catalogue_license_verified": "CC BY-SA 4.0 according to ANU institutional metadata",
+    "item_level_rights_must_be_checked": true,
+    "participant_consent_not_inferred_from_copyright_license": true,
+    "privacy_review_required": true,
+    "cultural_access_review_required": true,
+    "community_validation_not_inferred": true,
+    "named_consultant_requires respectful provenance handling": true
+  },
+  "promotion_state": {
+    "discovery_only": false,
+    "stage": "exact-locator archival collection audit",
+    "public_factual_or_cultural_claim_promoted": false,
+    "reason": "Archive identity, DOI, collection code, access statement and licence are independently supported; item-level bytes, hashes, timecodes, consent/privacy and cultural-access status remain to be audited before content promotion."
+  },
+  "gaps": [
+    "Enumerate BMM1 item/file inventory from the primary PARADISEC manifestation.",
+    "Materialize only permitted items and record SHA-256.",
+    "Create deterministic item/file/timecode locators.",
+    "Audit item-level rights and any access restrictions despite collection-level CC BY-SA metadata.",
+    "Audit consultant/participant consent, privacy and culturally sensitive/restricted content before exposure.",
+    "Reconcile any overlap with Encyclopedia Mundarica-derived material explicitly identified by the collection metadata; do not promote EM-derived excerpts into this non-Mundarica stream as independent evidence."
+  ]
+}

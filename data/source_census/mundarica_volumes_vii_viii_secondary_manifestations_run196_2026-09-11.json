@@ -1,0 +1,70 @@
+{
+  "run": 196,
+  "audit_type": "mundarica_secondary_manifestation_page_accounting",
+  "checked_utc": "2026-09-11T04:38:00Z",
+  "branch": "mlhkp-v2",
+  "result": "SECONDARY_DIGITIZED_MANIFESTATIONS_VERIFIED_NOT_AUTHORITATIVE",
+  "volumes": {
+    "VII": {
+      "title_as_catalogued": "ENCYCLOPAEDIA MUNDARICA VOL. 7",
+      "creator_as_catalogued": "HOFFMANN, JOHN",
+      "publication_year_as_catalogued": 1950,
+      "publisher_as_catalogued": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "internet_archive_identifier": "dli.bengal.10689.20088",
+      "internet_archive_ark": "ark:/13960/t3sv4wt0d",
+      "dli_handle": "10689/20088",
+      "canonical_secondary_url": "https://archive.org/details/dli.bengal.10689.20088",
+      "source_network": "West Bengal Public Library Network",
+      "source_library_as_catalogued": "STATE CENTRAL LIBRARY, KOLKATA",
+      "scanning_centre_as_catalogued": "C-DAC KOLKATA",
+      "digital_republisher_as_catalogued": "DteLS",
+      "digital_publication_date_as_catalogued": "2011-12-22",
+      "total_scan_pages_as_catalogued": 274,
+      "ocr_as_catalogued": "ABBYY FineReader 11.0 (Extended OCR)",
+      "ppi_as_catalogued": 600,
+      "download_derivatives_observed": ["FULL TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"]
+    },
+    "VIII": {
+      "title_as_catalogued": "ENCYCLOPAEDIA MUNDARICA VOL. 8",
+      "creator_as_catalogued": "HOFFMANN, JOHN",
+      "publication_year_as_catalogued": 1950,
+      "publisher_as_catalogued": "SUPERINTENDENT, GOVERNMENT PRINTING. BIHAR, PATNA",
+      "internet_archive_identifier": "dli.bengal.10689.20080",
+      "internet_archive_ark": "ark:/13960/t6rz6kh2x",
+      "dli_handle": "10689/20080",
+      "canonical_secondary_url": "https://archive.org/details/dli.bengal.10689.20080",
+      "source_network": "West Bengal Public Library Network",
+      "source_library_as_catalogued": "STATE CENTRAL LIBRARY, KOLKATA",
+      "scanning_centre_as_catalogued": "C-DAC KOLKATA",
+      "digital_republisher_as_catalogued": "DteLS",
+      "digital_publication_date_as_catalogued": "2011-12-22",
+      "total_scan_pages_as_catalogued": 422,
+      "ocr_as_catalogued": "ABBYY FineReader 11.0 (Extended OCR)",
+      "ppi_as_catalogued": 600,
+      "download_derivatives_observed": ["FULL TEXT", "PDF", "PDF WITH TEXT", "SINGLE PAGE PROCESSED JP2 ZIP"]
+    }
+  },
+  "verification_boundary": {
+    "secondary_item_identity_verified": true,
+    "catalogued_page_accounting_verified": true,
+    "catalogued_ocr_metadata_verified": true,
+    "authoritative_physical_copy_comparison": false,
+    "authoritative_scan_registered": false,
+    "independent_byte_hash_verified": false,
+    "ocr_treated_as_verified_transcription": false,
+    "verified_complete_volume": false,
+    "cultural_passages_ingested": false,
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "source_identity_added": false
+  },
+  "rights_and_governance": {
+    "repository_visibility_treated_as_reuse_permission": false,
+    "derivative_availability_treated_as_cultural_access_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_inferred": false,
+    "cultural_access_overrides_entitlement": true
+  },
+  "release_interpretation": "Volumes VII and VIII may be reported as having exact secondary digitized manifestations with 274 and 422 catalogued scan pages respectively. Neither may be reported as an authoritative scan, independently hash-verified manifestation, OCR-verified transcription, or verified-complete volume until the missing checks are performed."
+}

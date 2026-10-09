@@ -1,0 +1,78 @@
+{
+  "run": 595,
+  "audit_date": "2026-09-23",
+  "canonical_work": {
+    "author": "N. K. Sinha",
+    "title": "Mundari Grammar",
+    "year": 1975,
+    "publisher": "Central Institute of Indian Languages (CIIL), Mysore",
+    "series": "CIIL Grammar Series",
+    "volume": "2",
+    "language_scope": ["English", "Mundari"],
+    "canonical_identity_status": "VERIFIED_INSTITUTIONAL_METADATA"
+  },
+  "manifestations": [
+    {
+      "provider": "Bhasha Sanchika — CIIL Repository",
+      "uri": "https://hdl.handle.net/20.500.14705/8179",
+      "record_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+      "file_label": "CIILP0091.pdf",
+      "access_status": "repository_record_exposes_pdf_entry",
+      "role": "institutional_manifestation"
+    },
+    {
+      "provider": "Bharatavani",
+      "url": "https://bharatavani.in/home/book?id=Mundari+Grammar",
+      "reported_pdf_size": "117.39 MB",
+      "access_status": "login_to_read",
+      "role": "government_language_portal_manifestation"
+    },
+    {
+      "provider": "WALS Online",
+      "url": "https://wals.info/refdb/record/Sinha-1975",
+      "role": "bibliographic_and_typological_derivative_record"
+    }
+  ],
+  "scope": {
+    "provider_description": "Pedagogically organized grammar based on grammatical functions; broad coverage includes noun morphology, verb morphology, adjectives, adverbs and constituent order/syntax.",
+    "classification": ["book", "grammar", "institutional_repository", "government_language_resource"],
+    "mundari_specific": true
+  },
+  "deduplication": {
+    "canonicalization_rule": "CIIL repository, Bharatavani and WALS records are manifestations/derivative records of one 1975 work and must not be counted as independent corroborating sources.",
+    "independent_source_count_for_this_work": 1
+  },
+  "rights_access_consent": {
+    "bibliographic_metadata_reuse": "permitted_for_audit_record",
+    "fulltext_redistribution": "UNVERIFIED",
+    "speaker_or_consultant_consent": "UNVERIFIED_NOT_INFERRED_FROM_PUBLIC_ACCESS",
+    "cultural_access": "REQUIRES_PROPOSITION_LEVEL_REVIEW"
+  },
+  "exact_locator_conversion": {
+    "status": "BLOCKED_PENDING_FULLTEXT_INSPECTION",
+    "metadata_locators_verified": [
+      "CIIL repository item handle 20.500.14705/8179",
+      "Bharatavani book record: year 1975, author N. K. Sinha, content partner/publisher CIIL",
+      "WALS reference record Sinha-1975 and listed typological datapoints"
+    ],
+    "required_before_claim_promotion": [
+      "obtain and hash an authoritative full-text manifestation where lawful",
+      "verify title-page/edition and printed-page versus PDF-page concordance",
+      "inspect preface/methodology for speaker, consultant, locality, variety and corpus provenance",
+      "create exact page/section/example locators for every promoted proposition",
+      "separate Sinha primary analysis/examples from inherited or cited material",
+      "verify file-level reuse terms and cultural-access constraints"
+    ]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_ingested": 0,
+    "reason": "Institutional metadata is verified, but proposition-level exact locators, provenance and file-level reuse permission are not yet verified."
+  },
+  "audit_principles": [
+    "No grammatical or cultural claim is promoted from catalogue/portal descriptions alone.",
+    "Public or login-readable access does not imply redistribution permission.",
+    "WALS datapoints are derivative uses of Sinha 1975 and are not independent corroboration."
+  ]
+}

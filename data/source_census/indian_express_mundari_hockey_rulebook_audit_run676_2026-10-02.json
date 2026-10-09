@@ -1,0 +1,66 @@
+{
+  "run": 676,
+  "date_utc": "2026-10-02",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": ["newspaper", "historical-book-lead", "media"],
+  "source": {
+    "title": "How to play hockey, written in ‘Mundari’: The story of a Jharkhand Bishop and a forgotten rule book",
+    "author": "Soumi Das",
+    "publisher": "The Indian Express",
+    "published": "2023-10-18",
+    "url": "https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/",
+    "accessed": "2026-10-02",
+    "canonical_candidate": "URL|https://indianexpress.com/article/india/mundari-hockey-rulebook-jharkhand-bishop-dilbar-hans-8988579/"
+  },
+  "historical_object_lead": {
+    "title_or_description": "Mundari field-hockey rule book",
+    "attributed_author": "Dilbar Hans",
+    "reported_first_publication_year": 1941,
+    "reported_extent_pages": 23,
+    "reported_price": "three annas",
+    "reported_context": "St John's Middle School, Murhu; article reports Hans was headmaster there",
+    "primary_object_status": "not independently manifested or verified in this run"
+  },
+  "exact_locator_plan": {
+    "secondary_web_evidence": "article URL + paragraph/quoted-speaker block",
+    "primary_book_evidence": "edition/manifestation hash + printed page + rule/section once lawful copy is obtained",
+    "quoted_foreword_dependency": "must be attributed to the historical rule-book foreword, not converted into reporter evidence"
+  },
+  "scope": {
+    "language": "Mundari",
+    "geography": ["Murhu", "Ranchi/Jharkhand context"],
+    "domain": ["language history", "sports history", "translation/publication history"],
+    "cultural_claim_promotion": false
+  },
+  "rights_access_consent": {
+    "newspaper_access": "publicly readable web article; no redistribution permission inferred",
+    "historical_book_rights": "unresolved",
+    "participant_consent": "not applicable to bibliographic facts; any person-linked oral recollections remain article-level testimony",
+    "community_consent": "not established",
+    "cultural_access": "uncertain; no sensitive cultural content promoted"
+  },
+  "deduplication": {
+    "queries": ["forgotten rule book", "Dilbar Hans", "Mundari hockey"],
+    "github_code_search_total_each": 0,
+    "github_code_search_incomplete_results": true,
+    "conclusion": "candidate only; negative incomplete search is not proof of absence"
+  },
+  "promotion": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0,
+    "reason": "primary 1941 object not independently verified; newspaper copyright/reuse boundary and source-family reconciliation remain"
+  },
+  "gaps": [
+    "locate authoritative catalogue or surviving copy of the 1941 Mundari hockey rule book",
+    "verify exact title, imprint, edition, pagination and authorship from primary/institutional metadata",
+    "capture lawful manifestation hash if obtainable",
+    "separate book/foreword evidence from 2023 reporter and family testimony",
+    "resolve reuse rights and cultural-access status before any excerpt or image exposure",
+    "reconcile against MMSC/WEB-MUN before assigning controlled identity"
+  ],
+  "status_sync": "No controlled metric change justified; status/mlhkp_progress.json remains authoritative until deterministic reconciliation."
+}

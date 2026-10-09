@@ -1,0 +1,47 @@
+{
+  "audit_id": "MMSC-AUDIT-C16-JH-2011-RUN190",
+  "run": 190,
+  "checked_utc": "2026-09-11T01:32:00Z",
+  "source_class": "government_census_table",
+  "scope": "authoritative manifestation retry and verification boundary",
+  "identity": {
+    "title": "C-16: Population by mother tongue, Jharkhand - 2011",
+    "reference_id": "PC11_C16-20",
+    "reference_number": "PC11_C16",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10207/study-description",
+    "workbook_filename": "DDW-C16-STMT-MDDS-2000.xlsx"
+  },
+  "fresh_search_index_verification": {
+    "official_catalogue_identity_visible": true,
+    "workbook_filename_visible": true,
+    "catalogue_download_count_observed": 5315,
+    "catalogue_page_views_observed": 3391,
+    "table_description_visible": true,
+    "munda_mundari_catalogue_labels_previous_verified_state_preserved": true
+  },
+  "direct_authoritative_page_fetch": {
+    "attempted": true,
+    "result": "HTTP 502 Bad Gateway",
+    "transient_blocker": true
+  },
+  "workbook_bytes_acquired": false,
+  "independent_checksum_verified": false,
+  "worksheet_names_verified": false,
+  "workbook_row_numbers_verified": false,
+  "numeric_cells_verified": false,
+  "numeric_values_promoted": false,
+  "new_permanent_source_identity_created": false,
+  "count_bearing": false,
+  "claims_added": 0,
+  "evidence_records_added": 0,
+  "evidence_links_added": 0,
+  "participant_records_ingested": 0,
+  "public_availability_treated_as_permission": false,
+  "community_validation_inferred": false,
+  "participant_consent_inferred": false,
+  "cultural_access_permission_inferred": false,
+  "blocker": "Direct authoritative catalogue/workbook retrieval still returns HTTP 502; workbook bytes, hash, worksheets, exact workbook cells and numeric values remain unverified.",
+  "next_safe_action": "Retry the official workbook endpoint in a later cycle; only after byte-preserving acquisition compute an independent checksum and map exact workbook cells before numeric promotion.",
+  "fabrication_guard": "No census number, workbook cell, checksum, reuse right, cultural claim, consent state, community validation state or completeness state was inferred from search-index visibility."
+}

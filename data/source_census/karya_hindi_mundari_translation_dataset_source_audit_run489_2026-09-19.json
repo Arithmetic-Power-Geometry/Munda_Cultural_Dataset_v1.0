@@ -1,0 +1,52 @@
+{
+  "audit_run": 489,
+  "audit_date": "2026-09-19",
+  "stream": "MLHKP non-Mundarica source census and ingestion",
+  "canonical_source_id": "karya_hindi_mundari_translation_dataset",
+  "source_class": ["dataset", "web_resource", "parallel_corpus"],
+  "title": "Hindi-Mundari Translation Dataset",
+  "provider": "Karya",
+  "canonical_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+  "language_pair": {"source": "Hindi", "target": "Mundari", "target_iso_639_3": "unr"},
+  "provider_reported_records": 17826,
+  "format": "UTF-8 TSV",
+  "provider_reported_file": "translation-hi-unr.tsv",
+  "license_label": "Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0 / non-commercial Karya Public License",
+  "identity_status": "verified_provider_repository",
+  "scope_status": "in_scope_language_dataset",
+  "deduplication": {
+    "repository_search_prior_exact_family_match": false,
+    "canonicalization_rule": "README, TSV, license, copyright file, mirrors and papers describing this release are manifestations/dependencies of one corpus identity unless item-level collation proves otherwise",
+    "distinct_from_mundari_tts_corpus": true
+  },
+  "rights_and_access": {
+    "access": "public_repository",
+    "commercial_reuse": "not_permitted_by_provider_license_label",
+    "redistribution": "conditional; exact license text must govern",
+    "consent_provenance": "not established by this audit",
+    "cultural_access_review": "required before cultural-semantic promotion"
+  },
+  "evidence_promotion": {
+    "records_promoted": 0,
+    "claims_promoted": 0,
+    "reason": "Provider-level metadata verifies corpus existence and structure, but this run does not establish item-level provenance/consent, cultural suitability, deterministic local bytes/SHA-256, or validated translation accuracy. Provider record count is not an MMSC evidence count.",
+    "required_locator": "<lawfully-obtained-immutable-tsv>#row=<1-based-row>;sha256=<hash>;source_col=Hindi;target_col=Mundari"
+  },
+  "verification_notes": [
+    "Provider README reports 17,826 Hindi-Mundari sentence pairs in translation-hi-unr.tsv.",
+    "Provider README identifies UTF-8 TSV with Hindi first column and Mundari second column.",
+    "Provider README labels the release non-commercial and describes BY-NC-SA-FS 1.0 terms.",
+    "Do not treat machine-learning use or public GitHub availability as unrestricted cultural-evidence permission.",
+    "Do not merge this parallel corpus with the Karya Mundari TTS corpus merely because the organizations and language overlap."
+  ],
+  "gaps": [
+    "full license-text legal interpretation for intended release mode",
+    "item-level source/provenance and translator/community consent",
+    "translation validation by qualified Mundari speakers",
+    "immutable acquired TSV SHA-256",
+    "row-level duplicate and overlap analysis against other corpora",
+    "dialect/variety and script characterization at record level",
+    "culturally sensitive/restricted content screening"
+  ],
+  "release_effect": "source-census expansion only; controlled MMSC/evidence/publication counts unchanged pending deterministic ingestion and reconciliation"
+}

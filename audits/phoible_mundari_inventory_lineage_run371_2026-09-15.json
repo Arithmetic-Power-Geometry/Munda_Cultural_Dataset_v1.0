@@ -1,0 +1,85 @@
+{
+  "audit_id": "MLHKP-RUN371-PHOIBLE-MUNDARI-INVENTORY-LINEAGE",
+  "run": 371,
+  "audited_utc": "2026-09-14T22:45:00Z",
+  "provider": "PHOIBLE 2.0",
+  "language_name": "Mundari",
+  "language_page": "https://phoible.org/languages/mund1320",
+  "glottocode": "mund1320",
+  "iso639_3": "unr",
+  "provider_license": "CC BY-SA 3.0 Unported",
+  "provider_inventory_manifest": [
+    {
+      "inventory_id": 10,
+      "label": "Mundari (SPA 10)",
+      "provider_reported_segments": 37,
+      "contributor": "Stanford Phonology Archive",
+      "provider_declared_sources": ["Gumperz and Bilibiri 1957"]
+    },
+    {
+      "inventory_id": 602,
+      "label": "MUNDARI (UPSID 602)",
+      "provider_reported_segments": 37,
+      "contributor": "UCLA Phonological Segment Inventory Database",
+      "provider_declared_sources": ["Pinnow 1959", "Gumperz and Bilibiri 1957"]
+    },
+    {
+      "inventory_id": 1713,
+      "label": "Bhumij (RA 1713)",
+      "provider_reported_segments": 54,
+      "contributor": "Ramaswami, N.",
+      "provider_declared_sources": ["Ramaswami 1992"]
+    },
+    {
+      "inventory_id": 1770,
+      "label": "Mundari (RA 1770)",
+      "provider_reported_segments": 39,
+      "contributor": "Ramaswami, N.",
+      "provider_declared_sources": ["Sinha 1974", "Osada 1992"]
+    },
+    {
+      "inventory_id": 2295,
+      "label": "Mundari (EA 2295)",
+      "provider_reported_segments": 28,
+      "contributor": "Dmitry Nikolaev",
+      "provider_declared_sources": ["Osada 2008"]
+    }
+  ],
+  "canonicalization": {
+    "language_identity_canonicalized_to": "mund1320/unr",
+    "inventories_are_distinct_provider_manifestations": true,
+    "bhumij_inventory_not_silently_collapsed_into_a_mundari_claim": true,
+    "provider_declared_source_duplicates_deduplicated_at_work_key_level": [
+      "Gumperz and Bilibiri 1957",
+      "Pinnow 1959",
+      "Ramaswami 1992",
+      "Sinha 1974",
+      "Osada 1992",
+      "Osada 2008"
+    ]
+  },
+  "verification_boundary": {
+    "provider_language_identity_verified": true,
+    "inventory_ids_and_provider_reported_counts_verified_on_provider_pages": true,
+    "provider_declared_source_lineage_verified": true,
+    "underlying_source_passages_verified": false,
+    "inventory_rows_recomputed_from_download_bytes": false,
+    "download_bytes_sha256_verified": false,
+    "provider_license_treated_as_underlying_source_license": false,
+    "inventory_segment_values_promoted_to_controlled_evidence": 0,
+    "new_controlled_linguistic_claims_promoted": 0,
+    "new_controlled_cultural_claims_promoted": 0,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false
+  },
+  "governance_rule": "PHOIBLE provider pages may establish exact inventory identity, provider-reported inventory size and source genealogy. They do not by themselves verify the cited source passages, confer reuse rights for underlying works, establish community validation, or justify promotion of phonological values into controlled MLHKP evidence.",
+  "release_effect": "PHOIBLE blocker narrowed from generic underlying-source resolution to six provider-declared work keys across five exact inventory manifestations; passage-level verification and source-specific rights remain open.",
+  "sources": [
+    "https://phoible.org/languages/mund1320",
+    "https://phoible.org/inventories/view/10",
+    "https://phoible.org/inventories/view/602",
+    "https://phoible.org/inventories/view/1713",
+    "https://phoible.org/inventories/view/1770",
+    "https://phoible.org/inventories/view/2295"
+  ]
+}

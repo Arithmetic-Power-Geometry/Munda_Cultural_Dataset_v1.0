@@ -1,0 +1,64 @@
+{
+  "run": 548,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_key": "proietti_marilena_2025_adivasi_womens_movements_eastern_india",
+  "source_class": "doctoral_dissertation",
+  "scope": {
+    "level": "comparative_adivasi_with_explicit_munda_scope",
+    "communities_named": ["Oraon", "Munda", "Santal", "Ho"],
+    "geography": "south Bihar and Jharkhand",
+    "temporal_focus": "1980s to present",
+    "warning": "Do not generalize comparative or site-specific findings to all Munda communities without proposition-level support."
+  },
+  "identity": {
+    "author": "Marilena Proietti",
+    "title": "Adivasi women's movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "year": 2025,
+    "institution": "Universita degli Studi di Roma La Sapienza",
+    "publication_date": "2025-05-26",
+    "language": "English",
+    "handle": "https://hdl.handle.net/20.500.14242/212639",
+    "nbn": "URN:NBN:IT:UNIROMA1-212639"
+  },
+  "manifestation": {
+    "repository_record": "https://tesidottorato.depositolegale.it/handle/20.500.14242/212639",
+    "filename": "Tesi_dottorato_Proietti.pdf",
+    "reported_size": "47.18 MB",
+    "repository_access_statement": "Open Access dal 27/05/2026",
+    "repository_license_statement": "Creative Commons",
+    "license_variant": "UNRESOLVED_FROM_DISCOVERY_METADATA"
+  },
+  "deduplication": {
+    "rule": "Repository record, Handle resolver, NBN record, PDF manifestation, citation exports and mirrors are manifestations of one dissertation unless evidence establishes a distinct work/version.",
+    "existing_repository_match_checked": true,
+    "existing_match_found": false
+  },
+  "evidence_promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Discovery metadata verifies identity, scope and reported access but does not yet provide audited proposition-level exact locators."
+  },
+  "rights_access_consent": {
+    "access": "repository reports open access from 2026-05-27",
+    "copyright_reuse": "Creative Commons reported, exact CC variant must be verified before redistribution/reuse",
+    "participant_consent": "UNVERIFIED; inspect dissertation methods/ethics before participant-derived evidence promotion",
+    "cultural_access": "UNVERIFIED",
+    "sensitive_material": "UNVERIFIED",
+    "redistribution": "NOT YET CLEARED"
+  },
+  "conversion_requirements": [
+    "lawfully obtain exact PDF manifestation",
+    "record immutable SHA-256 and byte size",
+    "verify exact Creative Commons license variant and terms",
+    "establish PDF-page/printed-page concordance",
+    "inspect methods, ethics, consent and anonymization",
+    "extract only proposition-level Munda-relevant passages with exact locators",
+    "tag comparative versus Munda-specific evidence",
+    "record upstream source dependencies and avoid duplicate corroboration",
+    "review cultural-access and sensitivity before promotion"
+  ],
+  "status": "CANONICALIZED_CONVERSION_PENDING",
+  "release_effect": "No controlled count movement until deterministic MMSC reconciliation and evidence promotion."
+}

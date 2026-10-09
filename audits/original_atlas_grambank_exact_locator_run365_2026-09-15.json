@@ -1,0 +1,65 @@
+{
+  "run": 365,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "purpose": "Promote exact provider-level locators only; no unsupported demographic, geographic, linguistic, cultural, consent, or community-validation claims.",
+  "records": [
+    {
+      "class": "maps_atlases_government",
+      "provider": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "title": "Census of India 2011 - Administrative Atlas - Jharkhand - Volume I",
+      "reference_id": "AA_2011_Jharkhand_vol1",
+      "declared_manifestation": "AA_2011_Jharkhand_vol1.pdf",
+      "publication_date": "2012-06",
+      "producer": "Director of Census Operations, Jharkhand",
+      "rights_statement": "Office of the Registrar General & Census Commissioner, India (ORGI) - Map Division",
+      "provider_url": "https://censusindia.gov.in/nada/index.php/catalog/27/study-description",
+      "scope": "official administrative-boundary/reference geography context",
+      "promotion_level": "exact_provider_locator_only",
+      "verified": ["provider identity", "title", "reference ID", "declared filename", "publication date", "producer", "provider rights statement"],
+      "not_verified": ["PDF bytes", "SHA-256", "page inventory", "map-page locators", "Mundari-specific distribution", "underlying demographic values"],
+      "claim_promotion": 0
+    },
+    {
+      "class": "maps_atlases_government",
+      "provider": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+      "title": "Census of India 2011 - Administrative Atlas - Jharkhand - Volume II",
+      "reference_id": "AA_2011_Jharkhand_vol2",
+      "declared_manifestation": "AA_2011_Jharkhand_vol2.pdf",
+      "publication_date": "2012-06",
+      "producer": "Director of Census Operations, Jharkhand",
+      "rights_statement": "Office of the Registrar General & Census Commissioner, India (ORGI) - Map Division",
+      "provider_url": "https://censusindia.gov.in/nada/index.php/catalog/28",
+      "scope": "official administrative-boundary/reference geography context",
+      "promotion_level": "exact_provider_locator_only",
+      "verified": ["provider identity", "title", "reference ID", "declared filename", "publication date", "producer", "provider rights statement"],
+      "not_verified": ["PDF bytes", "SHA-256", "page inventory", "map-page locators", "Mundari-specific distribution", "underlying demographic values"],
+      "claim_promotion": 0
+    },
+    {
+      "class": "typological_database",
+      "provider": "Grambank",
+      "title": "Language Mundari",
+      "glottocode": "mund1320",
+      "provider_url": "https://grambank.clld.org/languages/mund1320",
+      "declared_sources": ["Cook 1965", "Osada 1992", "Osada 2008"],
+      "provider_license": "Creative Commons Attribution 4.0 International License",
+      "promotion_level": "exact_provider_locator_and_source_genealogy_only",
+      "verified": ["provider language page", "Glottocode mund1320", "listed source genealogy", "provider-level CC BY 4.0 statement"],
+      "not_verified": ["individual feature values", "underlying source passages", "independent source-to-feature trace-back", "underlying-source reuse rights", "community validation", "cultural-access permission"],
+      "claim_promotion": 0
+    }
+  ],
+  "canonicalization": {
+    "atlas_volumes": "two distinct official manifestations in one atlas series; do not merge as one file and do not count as Mundari-specific evidence",
+    "grambank": "canonicalize as database manifestation/source-genealogy evidence for Mundari; do not treat each listed source or feature row as a newly audited MLHKP identity without register reconciliation"
+  },
+  "governance": [
+    "catalogue visibility does not equal verified PDF content",
+    "official atlas availability does not independently verify language-distribution claims",
+    "database licence does not establish reuse permission for underlying cited works",
+    "database feature visibility does not equal passage-level linguistic verification",
+    "no consent, community validation, or cultural authority is inferred from public access"
+  ],
+  "controlled_count_change": false
+}

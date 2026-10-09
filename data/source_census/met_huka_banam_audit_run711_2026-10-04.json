@@ -1,0 +1,83 @@
+{
+  "run": 711,
+  "date_utc": "2026-10-04",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source_class": [
+    "museum collection",
+    "material culture",
+    "musical instrument",
+    "image/media"
+  ],
+  "canonical_key": "MET|OBJECT|2022.299",
+  "source_identity": {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Santal or Munda Fiddle (Huka Banam)",
+    "object_number": "2022.299",
+    "date": "19th century",
+    "geography": "Eastern India, probably Jharkhand",
+    "culture_label": "Eastern India, Probably Jharkhand",
+    "medium": "Wood and hide",
+    "classification": "Musical instruments",
+    "credit_line": "Purchase, Amati Gifts, 2022",
+    "authoritative_record": "https://www.metmuseum.org/art/collection/search/883315"
+  },
+  "verification": {
+    "institution_record_verified": true,
+    "object_number_verified": true,
+    "public_domain_label_on_record_verified": true,
+    "open_access_statement_on_record_verified": true,
+    "exact_Munda_attribution": false,
+    "attribution_note": "The institutional title is explicitly disjunctive ('Santal or Munda') and geography is qualified ('Probably Jharkhand'). Do not collapse this into a Munda-only cultural attribution.",
+    "repository_code_search": {
+      "query": "\"2022.299\" repo:Arithmetic-Power-Geometry/Munda_Cultural_Dataset_v1.0",
+      "total_count": 0,
+      "incomplete_results": true,
+      "interpretation": "Reconciliation evidence only; not proof of absence from mlhkp-v2."
+    }
+  },
+  "rights_access_cultural_governance": {
+    "record_access": "public",
+    "object_record_rights_label": "Public Domain",
+    "institution_open_access_note": "Met record states Open Access data and public-domain images may be used without permission or fee.",
+    "redistribution_decision": "Do not ingest/download a media manifestation until the exact image/API asset, its public-domain/Open Access status, bytes, checksum and attribution/provenance are captured.",
+    "consent": "not applicable/unknown for historical object; no performer or community consent inferred",
+    "cultural_access": "unreviewed",
+    "uncertainty_preserved": true
+  },
+  "promotion": {
+    "controlled_identity_promoted": false,
+    "claim_promoted": false,
+    "evidence_promoted": false,
+    "link_promoted": false,
+    "streamlit_module_added": false,
+    "reason": "Disjunctive Santal-or-Munda attribution prevents a Munda-specific cultural claim. Requires deterministic MMSC/WEB-MUN reconciliation and cultural-sensitivity review; media manifestation requires exact asset-level rights/hash verification."
+  },
+  "exact_locator": {
+    "level": "institutional object record",
+    "locator": "Met collection object 883315 / Object Number 2022.299",
+    "supported_metadata_only": [
+      "title as catalogued",
+      "19th-century date",
+      "Eastern India / probably Jharkhand qualification",
+      "wood and hide",
+      "musical instrument classification",
+      "object number",
+      "public-domain record label"
+    ]
+  },
+  "next_actions": [
+    "Reconcile MET|OBJECT|2022.299 against MMSC and WEB-MUN by object number, title and source family.",
+    "If retained, obtain exact Met Open Access image/API manifestation and record asset URL/ID, bytes, SHA-256 and rights statement.",
+    "Keep Santal-or-Munda attribution explicitly uncertain; do not promote a Munda-only proposition without stronger provenance.",
+    "Perform cultural-sensitivity review before exposing image/media in Streamlit.",
+    "Update controlled counts, graph, UI and publication metrics only if deterministic ledger reconciliation justifies promotion."
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  }
+}

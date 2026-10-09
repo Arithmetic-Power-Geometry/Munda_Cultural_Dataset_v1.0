@@ -1,0 +1,71 @@
+{
+  "record_type": "source_identity_rights_boundary",
+  "run_id": 118,
+  "verified_on": "2026-09-09",
+  "work": {
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "author": "Marilena Proietti",
+    "year": 2025,
+    "document_type": "doctoral thesis",
+    "institution": "Università degli Studi di Roma La Sapienza",
+    "publication_date": "2025-05-26"
+  },
+  "verified_manifestations": [
+    {
+      "repository": "Deposito legale delle tesi di dottorato / Sapienza",
+      "handle": "20.500.14242/212639",
+      "nbn": "URN:NBN:IT:UNIROMA1-212639",
+      "file": "Tesi_dottorato_Proietti.pdf",
+      "reported_size_mb": 47.18,
+      "access_state": "Open Access from 2026-05-27",
+      "licence_label_exposed_by_repository": "Creative Commons",
+      "exact_cc_licence_variant_verified": false
+    },
+    {
+      "repository": "Sapienza IRIS",
+      "handle": "11573/1740709",
+      "file": "Tesi_dottorato_Proietti.pdf",
+      "reported_size_mb": 47.18,
+      "access_state": "Open Access from 2026-05-27",
+      "licence_label_exposed_by_repository": "Creative commons",
+      "exact_cc_licence_variant_verified": false
+    }
+  ],
+  "scope_verified_from_repository_metadata": {
+    "communities_named": ["Oraon", "Munda", "Santal", "Ho"],
+    "geographic_scope": "eastern India, especially former southern Bihar and contemporary Jharkhand",
+    "temporal_scope": "from the 1980s to the present as described in the thesis abstract",
+    "topics": ["Adivasi women’s movements", "leadership", "gender-based discrimination", "environmental movements", "displacement", "social/cultural/legal advocacy", "local governance", "collective memory"]
+  },
+  "deduplication": {
+    "decision": "canonicalize the legal-deposit and IRIS records as manifestations of one thesis work",
+    "basis": "same author, exact title, year, institution and identical thesis filename; separate persistent handles are retained as manifestation locators",
+    "do_not_merge_with": "interviews, field notes, recordings, participant data, community records, later papers or other works merely because they may be related to the thesis"
+  },
+  "rights_governance_boundary": {
+    "repository_open_access_verified": true,
+    "creative_commons_label_verified": true,
+    "exact_cc_terms_verified": false,
+    "blanket_derivative_reuse_permission_claimed": false,
+    "participant_material_reuse_permission_claimed": false,
+    "community_validation_claimed": false,
+    "cultural_access_override_required": true,
+    "rule": "Open access and a generic Creative Commons label do not establish the exact reuse permissions for every thesis component or participant-derived material. Do not ingest quotations, images, interviews, field materials, personal data or culturally sensitive content until exact licence terms, provenance and cultural-access/consent gates are resolved."
+  },
+  "promotion_boundary": {
+    "permitted_now": ["bibliographic identity", "repository manifestation identity", "persistent identifiers", "repository-reported access state", "abstract-level scope metadata"],
+    "not_permitted_now": ["participant-derived evidence", "interview content", "sensitive cultural assertions", "bulk thesis text", "images", "field notes", "claims requiring page-level verification", "community-validation status"]
+  },
+  "release_effect": {
+    "permanent_source_identity_count_change": 0,
+    "claim_count_change": 0,
+    "evidence_count_change": 0,
+    "provenance_link_count_change": 0,
+    "reason": "This run strengthens identity/deduplication/rights provenance for a previously observed candidate. Permanent promotion awaits master-register reconciliation and exact licence/content-level review."
+  },
+  "sources_checked": [
+    "https://tesidottorato.depositolegale.it/handle/20.500.14242/212639",
+    "https://iris.uniroma1.it/handle/11573/1740709",
+    "https://phd.uniroma1.it/web/MARILENA-PROIETTI_nT1538257_IT.aspx"
+  ]
+}

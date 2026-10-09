@@ -1,0 +1,77 @@
+{
+  "record_type": "source_census_exact_locator",
+  "run": 127,
+  "branch": "mlhkp-v2",
+  "verified_utc": "2026-09-09T17:50:00Z",
+  "work": {
+    "title": "Munda",
+    "completed_date": "1993-03",
+    "document_type": "Book",
+    "researcher": "Soma Singh Munda",
+    "editor_author": "Ranendra Kumar",
+    "guide": "Chintu Doraiburu",
+    "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "sector": "Tribal Life",
+    "reported_pagination": "1-44"
+  },
+  "authoritative_locator": {
+    "repository": "Ministry of Tribal Affairs, Government of India — Tribal Digital Document Repository",
+    "handle_url": "https://repository.tribal.gov.in/handle/123456789/74865",
+    "record_id": "DRMTWRI/1993/0007",
+    "filename": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+    "reported_file_size": "247.29 kB",
+    "reported_format": "Adobe PDF",
+    "direct_bitstream_url": "https://repository.tribal.gov.in/bitstream/123456789/74865/1/DRMTWRI_1993_0007_MUNDAJATIRaman.pdf"
+  },
+  "verification": {
+    "repository_record_verified": true,
+    "metadata_verified_from_authoritative_repository": true,
+    "direct_bitstream_locator_verified_from_repository_link": true,
+    "direct_pdf_bytes_obtained_this_run": false,
+    "direct_pdf_fetch_result": "timeout",
+    "independent_checksum_verified": false,
+    "page_images_verified": false,
+    "text_layer_verified": false,
+    "exact_content_passage_locator_promoted": false,
+    "cultural_claims_promoted": false
+  },
+  "rights_access": {
+    "repository_statement": "Items in Ministry of Tribal Affairs are protected by copyright, with all rights reserved, unless otherwise indicated.",
+    "open_license_verified": false,
+    "redistribution_permission_inferred": false,
+    "derivative_permission_inferred": false,
+    "public_access_treated_as_reuse_permission": false
+  },
+  "scope_classification": {
+    "classes": ["book", "government/TRI", "web resource"],
+    "geography": "Jharkhand / Ranchi institutional context",
+    "community_scope": "Munda",
+    "temporal_scope": "repository record completed March 1993",
+    "evidence_status": "exact authority/manifestation locator; content ingestion blocked pending lawful inspectable bytes and exact page/passages"
+  },
+  "deduplication": {
+    "canonical_key": "DRMTWRI/1993/0007",
+    "same_work_variants_collapsed": [],
+    "not_equated_with": [
+      "SCSTRTI Odisha 2016 handbook titled Mundari",
+      "Man Masih Mundu 2017 Mundari Dictionary",
+      "Mundarica volumes",
+      "later TRI publications about Munda communities"
+    ],
+    "count_bearing_change": false,
+    "reason": "This run records a verified government/TRI exact locator but does not add it to the permanent audited identity total until master-source reconciliation and content/rights review are completed."
+  },
+  "blocked": [
+    "Direct PDF retrieval timed out in the current web environment.",
+    "No independent hash could be computed without bytes.",
+    "No page-level or passage-level cultural evidence was promoted.",
+    "All-rights-reserved repository policy prevents assuming redistribution or derivative rights."
+  ],
+  "integrity": {
+    "fabricated_counts": false,
+    "fabricated_cultural_claims": false,
+    "ocr_treated_as_verified": false,
+    "community_validation_inferred": false,
+    "restricted_material_exposed": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run": 345,
+  "audit_date": "2026-09-14",
+  "scope": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "controlled_counts_changed": false,
+  "count_rule": "Discovery and locator improvements do not alter the numbered WEB-MUN register or controlled graph until deterministic register reconciliation and permitted evidence promotion occur.",
+  "classes": [
+    {"class":"books","result":"refreshed","notable":"Known book streams retained; identity, edition and rights remain manifestation-specific."},
+    {"class":"dictionaries","result":"strengthened_exact_locator","notable":"Bharatavani/CIIL Mundari portal verified exact titles for Mundari Muhavara Kosh and Mundari Dictionary (Mundari-English-Hindi); all-rights-reserved notice prevents reuse inference."},
+    {"class":"grammars","result":"refreshed","notable":"CIIL Mundari Grammar locator remains known; primary byte/hash and rights verification remain open."},
+    {"class":"peer_reviewed_articles","result":"refreshed","notable":"Scholarly streams retained; fieldwork examples remain subject to provenance and governance review."},
+    {"class":"theses_dissertations","result":"refreshed","notable":"Open repository thesis locators remain contextual pending byte/licence/ethics/cultural-access review."},
+    {"class":"government_TRI_Census_LSI","result":"strengthened_exact_locator","notable":"ORGI C-16 City PC11_C16city-20 and ST-15 PC11_ST15-20 exact catalogue/file/schema locators verified, including catalogue presence of Mundari labels; workbook cells remain unverified."},
+    {"class":"archives","result":"refreshed","notable":"Archive discoverability remains separate from permission and item-level verification."},
+    {"class":"newspapers","result":"refreshed","notable":"News remains contextual evidence, not primary linguistic/cultural authority."},
+    {"class":"web_resources","result":"refreshed","notable":"Provider pages can support source identity/locator claims only; public visibility is not ingestion permission."},
+    {"class":"datasets","result":"refreshed","notable":"Karya, AdiBhashaa and ELR candidates remain behind revision/hash/count/governance gates."},
+    {"class":"audio","result":"refreshed","notable":"Audio streams remain behind byte/hash/speaker-consent/community/cultural-access review."},
+    {"class":"video","result":"refreshed","notable":"Target identity and homonym filtering remain mandatory before promotion."},
+    {"class":"maps","result":"refreshed","notable":"CC-licensed Munda language map remains a map manifestation, not authority for unsupported demographic/cultural claims."},
+    {"class":"relevant_media","result":"refreshed","notable":"Media visibility remains contextual unless exact item provenance and governance permit stronger use."}
+  ],
+  "new_exact_locator_records": ["data/source_census/exact_locator_records_run345_2026-09-14.json"],
+  "fresh_verified_observations": [
+    "ORGI C-16 City Jharkhand reference PC11_C16city-20 declares DDW-C16-TOWN-STMT-MDDS-2000.XLSX and town-level mother-tongue schema; catalogue contains 92 MUNDARI / Mundari labels.",
+    "ORGI ST-15 Jharkhand reference PC11_ST15-20 declares ST-20-00-15-DDW-2011.XLSX and scheduled-tribe-by-mother-tongue schema; catalogue contains Munda, Patar and 92 MUNDARI / Mundari labels.",
+    "Bharatavani Mundari dictionary page is a Ministry of Education/CIIL project and exposes exact dictionary titles plus PDF/browse modes while displaying Copyright Bharatavani. All Rights Reserved."
+  ],
+  "deduplication": {
+    "numbered_WEB_MUN_dispositions_completed_this_run": 0,
+    "authoritative_numbered_register_recovered_this_run": false,
+    "repository_default_branch_code_search_for_WEB_MUN_returned_matches": 0,
+    "reason": "No numbered WEB-MUN ID is inferred from an unnumbered provider/search lead. Exact locator strengthening is kept count-neutral until authoritative mapping is recovered."
+  },
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "governance": {
+    "rights_inferred_from_public_availability": false,
+    "consent_inferred_from_public_availability": false,
+    "community_validation_fabricated": false,
+    "cultural_access_assumed": false,
+    "numeric_claims_promoted": 0,
+    "cultural_or_linguistic_claims_promoted": 0
+  },
+  "priority_gaps": [
+    "73 unresolved WEB-MUN leads require deterministic numbered-register disposition",
+    "Census C-16/C-16 City/ST-15/ST-16/C-17 workbook byte/hash/sheet/row/cell verification",
+    "Bharatavani underlying PDF manifestation identity, permitted bytes/hash and reuse-rights reconciliation",
+    "LSI primary bytes/hash/page-image concordance",
+    "CIIL/SCSTRTI primary source bytes and rights verification",
+    "Karya/AdiBhashaa/ELR immutable revision and permitted byte-level validation",
+    "audiovisual participant/community/cultural-access review"
+  ]
+}

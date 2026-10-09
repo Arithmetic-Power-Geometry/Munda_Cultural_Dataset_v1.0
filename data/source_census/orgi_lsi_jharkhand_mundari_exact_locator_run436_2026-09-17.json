@@ -1,0 +1,57 @@
+{
+  "run": 436,
+  "date_utc": "2026-09-17",
+  "stream": "non-Mundarica source census and ingestion",
+  "class": ["government", "LSI", "grammar", "census-linked"],
+  "canonical_identity": {
+    "title": "Linguistic Survey of India - Jharkhand",
+    "responsible_body": "Office of the Registrar General & Census Commissioner, India",
+    "catalog_id": "45248",
+    "manifestation_filename": "LSI_JHARKHAND.pdf",
+    "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/45248",
+    "official_pdf_url": "https://censusindia.gov.in/nada/index.php/catalog/45248/download/48955/LSI_JHARKHAND.pdf"
+  },
+  "scope": {
+    "mundari": true,
+    "non_mundarica": true,
+    "description": "Official LSI Jharkhand volume contains a present-study section explicitly describing Mundari as a descriptive grammar and reports survey/informant context and 2011 Census-linked speaker information."
+  },
+  "identity_verification": {
+    "official_catalog_and_pdf_discoverable": true,
+    "catalog_id_verified_from_official_search_result": true,
+    "repository_exact_catalog_id_match_before_run": false,
+    "canonicalization_rule": "catalog record, official PDF, mirrors and indexed extracts are manifestations of one ORGI LSI Jharkhand work, not separate source identities"
+  },
+  "access_and_rights": {
+    "publicly_discoverable": true,
+    "item_level_reuse_permission_verified": false,
+    "redistribution_permission_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "participant_consent_inferred": false
+  },
+  "locator_state": {
+    "source_level_locator": "ORGI NADA catalog 45248; download 48955; LSI_JHARKHAND.pdf",
+    "content_locator": "THE PRESENT STUDY: MUNDARI LANGUAGE section",
+    "page_exact_locator_verified": false,
+    "immutable_bytes_obtained_this_run": false,
+    "sha256": null,
+    "block_event": "Official PDF fetch returned HTTP 502 during this run; source retained as explicit materialization gap and work continued rather than treating the failure as completion."
+  },
+  "observed_metadata_only": {
+    "indexed_extract_reports": "The indexed official PDF extract describes the Mundari component as a descriptive grammar covering phonology, morphophonemics, morphology and syntax, based on survey data from Murhu village/Khunti area, and names two informants. These are discovery/locator facts only until exact pages and lawful immutable bytes are verified."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "No page-exact immutable manifestation or item-level reuse basis was established in this run. Informant-derived material additionally requires provenance, consent/privacy and cultural-access review."
+  },
+  "next_gate": [
+    "retry official ORGI manifestation",
+    "obtain lawful immutable bytes and SHA-256",
+    "establish PDF-to-printed-page concordance and exact Mundari section pages",
+    "verify item-level reuse terms",
+    "separate Census-derived statistics from field-derived grammatical assertions",
+    "audit informant provenance, consent/privacy and cultural-access constraints before proposition promotion"
+  ],
+  "count_policy": "Do not alter controlled MMSC counts from this locator alone; reconcile deterministically against WEB-MUN ledger first."
+}

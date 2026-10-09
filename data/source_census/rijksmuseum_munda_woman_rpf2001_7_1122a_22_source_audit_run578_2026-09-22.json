@@ -1,0 +1,50 @@
+{
+  "run": 578,
+  "audit_date": "2026-09-22",
+  "stream": "MLHKP non-Mundarica source census",
+  "canonical_source_id": "rijksmuseum:RP-F-2001-7-1122A-22",
+  "source_class": ["archive", "historical_photograph", "museum_web_resource"],
+  "title": "Portrait of an unknown woman from the Munda tribe of Chota Nagpur in eastern India",
+  "holding_institution": "Rijksmuseum",
+  "object_number": "RP-F-2001-7-1122A-22",
+  "creator_as_catalogued": "Benjamin Simpson (possibly)",
+  "date_as_catalogued": "c. 1858 - in or before 1868",
+  "place_as_catalogued": ["Chota Nagpur", "Jharkhand"],
+  "object_type": ["photograph", "page"],
+  "dimensions_as_catalogued": "175 mm x 130 mm",
+  "technique_as_catalogued": "albumen print",
+  "inscription_as_catalogued": "MOONDA FEMALE./ ABORIGINAL/ CHOTA NAGPOOR.",
+  "canonical_url": "https://www.rijksmuseum.nl/en/collection/object/Portrait-of-an-unknown-woman-from-the-Munda-tribe-of-Chota-Nagpur-in-eastern-India--a618123198af878e32aa9f200744b6ed",
+  "identity_verification": {
+    "status": "verified_catalogue_identity",
+    "repository_exact_identifier_dedup": "no existing match found for RP-F-2001-7-1122A-22 before ingestion",
+    "canonicalization_rule": "catalogue page, image derivatives, thumbnails and mirrors are manifestations of this single museum object unless independent provenance establishes otherwise"
+  },
+  "scope": {
+    "included": "historical visual documentation explicitly catalogued by the holding institution as a Munda woman from Chota Nagpur",
+    "excluded_inferences": ["clan", "religion", "ceremony", "marital status", "social status", "pan-Munda dress norm", "current practice"]
+  },
+  "rights_access_consent": {
+    "catalogue_access": "public web catalogue",
+    "image_reuse": "not asserted by this audit; verify object/image-specific Rijksmuseum reuse terms before binary ingestion or redistribution",
+    "historical_subject_consent": "not established",
+    "cultural_access": "not established",
+    "dignity_review": "required before any image-derived evidence promotion"
+  },
+  "evidence_promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "catalogue identity is verified, but image-specific reuse, manifestation hashing, consent/dignity review and exact observable-feature annotation have not been completed"
+  },
+  "conversion_queue": [
+    "verify object/image-specific reuse terms",
+    "obtain lawful authoritative surrogate if permitted",
+    "hash local manifestation and record dimensions/format",
+    "preserve catalogue uncertainty in photographer attribution and dating",
+    "create exact image-region locators only for directly observable features",
+    "separate catalogue assertions from visual observations",
+    "complete dignity and cultural-access review before evidence-graph promotion"
+  ],
+  "release_note": "Explicit gap until rights and review gates pass; do not treat catalogue terminology or visual appearance as proof of cultural practice."
+}

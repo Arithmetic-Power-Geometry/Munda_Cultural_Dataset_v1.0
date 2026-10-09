@@ -1,0 +1,53 @@
+{
+  "run": 640,
+  "audit_date_utc": "2026-09-25",
+  "stream": "non-Mundarica source census",
+  "source_class": "government linguistic resource / dictionary",
+  "canonical_identity": {
+    "title": "Mundari Dictionary",
+    "platform": "Adivaani - Tribal Language Translation Platform",
+    "authority": "Ministry of Tribal Affairs, Government of India",
+    "landing_page": "https://adivaani.tribal.gov.in/resources/dictionary",
+    "identity_status": "institutional platform verified; dictionary listed by platform search index",
+    "canonicalization_rule": "Adivaani landing page and any downloadable dictionary manifestation are one work/resource identity until edition/file metadata prove otherwise"
+  },
+  "verification": {
+    "authoritative_domain": true,
+    "repository_dedup_queries": [
+      "Adivaani",
+      "tribal.gov.in/resources/dictionary",
+      "Mundari Dictionary"
+    ],
+    "repository_matches": 0,
+    "platform_observations": [
+      "Dictionary resource page describes indigenous-language dictionaries as open access.",
+      "Platform language selector explicitly includes Mundari.",
+      "Search-indexed resource listing identifies a Mundari Dictionary as a PDF document."
+    ]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "evidence_links_added": 0,
+    "binaries_added": 0,
+    "reason": "The dynamic landing page did not expose the dictionary file URL, edition/author/compiler, pagination, license/reuse terms, or entry-level locators in this audit. Open access is not assumed to mean unrestricted redistribution."
+  },
+  "rights_access_consent_cultural_scope": {
+    "access": "public government platform",
+    "redistribution": "unverified",
+    "consent": "not applicable to bibliographic identity; lexical-source provenance remains to be inspected",
+    "cultural_scope": "Mundari linguistic resource; no cultural proposition inferred",
+    "uncertainty_preserved": true
+  },
+  "exact_locator_state": {
+    "level": "resource-page identity only",
+    "entry_or_page_locators_verified": false,
+    "next_conversion": "Resolve the PDF manifestation; capture file/edition/compiler/date/hash and reuse terms; inspect front matter and dialect/provenance; then create entry/page-level lexical evidence only where supported."
+  },
+  "mmsc_effect": {
+    "discovery_candidate": "new repository-unmatched candidate",
+    "controlled_counts_changed": false,
+    "reconciliation_required": true
+  },
+  "release_gate_effect": "No gate change; explicit unresolved conversion gap retained."
+}

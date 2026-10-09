@@ -1,0 +1,51 @@
+{
+  "run": 796,
+  "audit_date": "2026-10-08",
+  "stream": "non-Mundarica source census",
+  "canonical_candidate": "MEGAVOICE|M0B1380|MUNDARI|NEW_TESTAMENT_DRAMATIZED",
+  "source_class": "audio/religious media",
+  "title": "New Testament (Dramatized) • Mundari (unr)",
+  "provider": "MegaVoice Media Cloud",
+  "publisher": "Bible Society of India",
+  "reference_number": "M0B1380",
+  "language_declared": "Mundari",
+  "dialect_declared": "NA",
+  "country_declared": "India",
+  "version_declared": "Old Version Re-edited",
+  "sample_manifestation": "B1380_nt_mundari.mp3",
+  "source_url": "https://megavoice.com/media-cloud/m0b1380-new-testament-dramatized-unr-mundari-audio-bible/",
+  "verification": "provider landing page verified 2026-10-08",
+  "repository_search": {
+    "term": "M0B1380",
+    "indexed_matches": 0,
+    "incomplete_results": true,
+    "interpretation": "reconciliation signal only; not proof of absence"
+  },
+  "scope": "Mundari-language religious audiovisual candidate only; not evidence of Munda cultural practice",
+  "rights_access_consent": {
+    "public_sample_access": true,
+    "redistribution_permission": "unverified",
+    "speaker_identity": "unverified",
+    "recording_locality_date": "unverified",
+    "participant_consent": "unverified",
+    "community_authority": "unverified",
+    "cultural_access": "unverified"
+  },
+  "promotion": "none",
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "conversion_queue": [
+    "lawfully retrieve permitted sample",
+    "capture checksum and byte size",
+    "verify spoken language/variety and speaker/locality/date provenance",
+    "resolve reuse terms and consent/community authority",
+    "inspect audio and create HH:MM:SS linguistic evidence only where directly supported",
+    "reconcile against MMSC/WEB-MUN and prior religious-media manifestations before controlled promotion"
+  ],
+  "note": "Do not interpret alternate-language list as dialect verification; do not infer cultural claims from Scripture content."
+}

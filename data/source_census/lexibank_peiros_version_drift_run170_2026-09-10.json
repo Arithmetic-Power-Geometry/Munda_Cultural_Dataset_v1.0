@@ -1,0 +1,53 @@
+{
+  "audit_id": "MLHKP-RUN170-LEXIBANK-PEIROS-VERSION-DRIFT",
+  "run": 170,
+  "branch": "mlhkp-v2",
+  "checked_utc": "2026-09-10T15:30:57Z",
+  "source_class": "licensed_linguistic_dataset",
+  "candidate": {
+    "dataset_key": "peirosaustroasiatic",
+    "title": "CLDF dataset derived from Peiros' Genetic classification of Austro-Asiatic languages",
+    "mundari_variety_key": "peirosaustroasiatic-Mundari"
+  },
+  "prior_repository_observation": {
+    "audit": "data/source_census/lexibank_peiros_mundari_exact_locator_run168_2026-09-10.json",
+    "recorded_version": "v1.0",
+    "recorded_zenodo_doi": "10.5281/zenodo.5127536",
+    "recorded_database_license": "CC BY 4.0"
+  },
+  "current_live_manifestation": {
+    "repository": "Lexibank",
+    "contribution_url": "https://lexibank.clld.org/contributions/peirosaustroasiatic",
+    "observed_version": "v1.1",
+    "observed_zenodo_doi": "10.5281/zenodo.13168443",
+    "citation_year": 2024,
+    "database_license": "CC BY 4.0",
+    "verification_state": "live_lexibank_contribution_page_verified"
+  },
+  "deterministic_reconciliation": {
+    "prior_doi_found_in_canonical_master_register": false,
+    "prior_doi_found_in_standalone_mmsc_register": false,
+    "candidate_identity_collision_resolved": false,
+    "decision": "defer_permanent_registration_pending_version_relationship_verification",
+    "reason": "The live Lexibank contribution now reports v1.1 / DOI 10.5281/zenodo.13168443, while the Run-168 locator recorded v1.0 / DOI 10.5281/zenodo.5127536. The older DOI was not found in the canonical master-source register or standalone MMSC register, but absence of a collision is not sufficient to assert that the two DOIs are versions of one Zenodo concept record without direct version-chain verification."
+  },
+  "promotion": {
+    "new_permanent_identity_created": false,
+    "counts_changed": false,
+    "dataset_rows_ingested": false,
+    "lexical_forms_ingested": false,
+    "cognate_assignments_ingested": false,
+    "cultural_claims_added": 0,
+    "numeric_cultural_claims_added": 0
+  },
+  "rights_and_cultural_access": {
+    "lexibank_database_license_observed": "CC BY 4.0",
+    "underlying_source_rights_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "policy": "Cultural access overrides legal or technical entitlement. Database licensing does not by itself establish permission for culturally restricted, participant-derived, or separately copyrighted underlying material."
+  },
+  "counting_boundary": "This audit changes no MMSC, evidence, module, or manuscript release counts. A count-bearing promotion is prohibited until the v1.0/v1.1 DOI relationship and the intended canonical identifier are directly verified and then synchronized atomically across repository metrics and tests.",
+  "completeness_boundary": "No absolute or future-proof source completeness is claimed."
+}

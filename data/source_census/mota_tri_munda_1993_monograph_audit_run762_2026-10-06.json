@@ -1,0 +1,80 @@
+{
+  "run": 762,
+  "audit_date": "2026-10-06",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": "government_TRI_book",
+  "source": {
+    "title": "Munda",
+    "canonical_candidate": "MOTA_TRIBAL_REPOSITORY|HANDLE:123456789/74865",
+    "repository_handle": "123456789/74865",
+    "record_id": "DRMTWRI/1993/0007",
+    "filename": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf",
+    "document_type": "Book",
+    "researcher": "Soma Singh Munda, Ex. Assistant Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "editor_author": "Ranendra Kumar, IAS Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "guide": "Chintu Doraiburu, Dy. Director, Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "institution": "Dr. Ramdayal Munda Tribal Welfare Research Institute, Ranchi",
+    "completed_date": "1993-03",
+    "pagination": "1-44",
+    "provider": "Ministry of Tribal Affairs, Government of India repository",
+    "indexed_file_size": "247.29 kB"
+  },
+  "verification": {
+    "institutional_metadata_verified": true,
+    "pdf_listing_verified": true,
+    "full_pdf_bytes_retrieved": false,
+    "checksum_verified": false,
+    "printed_pdf_page_concordance_verified": false,
+    "repository_branch_filename_scan_matches": 0,
+    "branch_scan_note": "Exact handle/record-id strings were not found in the mlhkp-v2 source_census directory listing; this is a reconciliation signal, not proof of absence from all ledgers.",
+    "scope": "Munda-specific institutional monograph; proposition-level cultural scope remains unverified until full-text inspection."
+  },
+  "exact_locators": [
+    {
+      "type": "repository_record",
+      "locator": "Ministry of Tribal Affairs repository handle 123456789/74865",
+      "status": "verified"
+    },
+    {
+      "type": "provider_pagination",
+      "locator": "pp. 1-44",
+      "status": "metadata_only_not_page_inspected"
+    },
+    {
+      "type": "file_manifestation",
+      "locator": "DRMTWRI_1993_0007_MUNDAJATIRaman.pdf; 247.29 kB",
+      "status": "provider_index_verified_bytes_not_retrieved"
+    }
+  ],
+  "governance": {
+    "copyright_reuse": "unresolved",
+    "public_hosting_not_redistribution_permission": true,
+    "participant_consent": "unresolved/not established by repository metadata",
+    "community_authority": "unresolved",
+    "cultural_sensitivity": "requires proposition-level review",
+    "restricted_content_exposed": false
+  },
+  "promotion": {
+    "identity_promoted": false,
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "links_promoted": 0,
+    "modules_promoted": 0,
+    "reason": "Full-text manifestation/hash, page concordance, rights, dependency and cultural-governance gates remain."
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "next_actions": [
+    "Retrieve lawful authoritative PDF bytes and record SHA-256 and byte size.",
+    "Verify title/front matter, authorship, edition and printed/PDF pagination concordance.",
+    "Extract atomic Munda-specific passages with exact page locators and distinguish field/authorial evidence from cited synthesis.",
+    "Determine reuse rights and assess participant/community consent and cultural-access constraints proposition by proposition.",
+    "Reconcile against MMSC/WEB-MUN and existing TRI/source-family records before any controlled count change."
+  ]
+}

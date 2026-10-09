@@ -1,0 +1,60 @@
+{
+  "run": 839,
+  "branch": "mlhkp-v2",
+  "audited_on": "2026-10-09",
+  "source": {
+    "title": "Omnivorous person, number and gender in Mundari: A Cyclic Agree analysis",
+    "authors": [
+      "Gurujegan Murugesan",
+      "Imke Driemel",
+      "Andrew Murphy"
+    ],
+    "year": 2025,
+    "doi": "10.1007/s11049-024-09628-2",
+    "repository": "White Rose Research Online",
+    "repository_record": "https://eprints.whiterose.ac.uk/id/eprint/226042/",
+    "accepted_manuscript": "https://eprints.whiterose.ac.uk/id/eprint/226042/1/murugesanEtAl_24_Omnivoro.3.pdf",
+    "license": "CC BY 2.5 (repository item metadata)",
+    "identity_key": "doi:10.1007/s11049-024-09628-2",
+    "status": "independently verified; canonical identity reconciliation pending"
+  },
+  "locators": [
+    {
+      "pdf_page_1based": 2,
+      "section": "Abstract",
+      "scope": "authors' research analysis of person, number and gender marking",
+      "evidence_state": "exact_page_verified_source_reported"
+    },
+    {
+      "pdf_page_1based": 3,
+      "section": "Introduction; numbered example (3)",
+      "scope": "authors' stated person 1>2>3 and number singular>plural>dual hierarchies; animate eligibility qualification",
+      "evidence_state": "exact_page_verified_source_reported"
+    },
+    {
+      "pdf_page_1based": 7,
+      "section": "Section 3; examples (13)-(17)",
+      "scope": "linguistic examples underpinning hierarchy analysis; participant provenance requires separate review",
+      "evidence_state": "locator_verified_content_not_republished"
+    },
+    {
+      "pdf_page_1based": 8,
+      "section": "Section 3; numbered examples (18)-(20)",
+      "scope": "number hierarchy and animacy restriction",
+      "evidence_state": "exact_page_verified_source_reported"
+    }
+  ],
+  "governance": {
+    "scope": "Mundari agreement analysis, not a general claim about all varieties or Munda cultural practices",
+    "copyright": "Only metadata and brief paraphrases included; do not redistribute fieldwork examples or source PDF in dataset without separate governance review",
+    "consultant_consent": "not independently verified",
+    "cultural_review": "pending",
+    "promotion": "source-locator metadata audit only; no new controlled claim/evidence ID"
+  },
+  "reconciliation": {
+    "existing_ledger_baseline": "42 sources, 52 claims, 52 evidence, 52 links",
+    "identity_dedup": "DOI and normalized title required across all WEB-MUN and prior audits",
+    "counts_changed": false
+  },
+  "release_gate": "NOT_PASS"
+}

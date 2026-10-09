@@ -1,0 +1,93 @@
+{
+  "project": "MLHKP",
+  "run": 533,
+  "stream": "non-Mundarica source census",
+  "audit_date": "2026-09-20",
+  "canonical_source": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According to the Methods of Linguistic Science, with Particular Attention to the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns",
+    "type": "PhD dissertation / descriptive grammar",
+    "institution": "Georgetown University",
+    "extent": "vi + 315 pages; illustrations; maps",
+    "university_microfilms_number": "65-12,509",
+    "language_scope": "Mundari",
+    "glottocode_language_code": "Mundari [unr]"
+  },
+  "identity_verification": [
+    {
+      "provider": "Glottolog 5.3 / Southeast Asian Linguistics Archive bibliography",
+      "locator": "reference id 33106",
+      "verified": ["author", "year", "full title", "Georgetown University dissertation", "vi + 315 pages", "illustrations/maps", "University Microfilms 65-12,509", "Mundari scope"]
+    },
+    {
+      "provider": "University of Kiel ISFAS South Asia bibliography",
+      "locator": "Austroasiatic > Munda > Mundari bibliography",
+      "verified": ["Cook, W.A.", "1965", "A Descriptive Analysis of Mundari", "PhD dissertation", "Georgetown University"]
+    },
+    {
+      "provider": "Census of India, Linguistic Survey of India: Jharkhand",
+      "locator": "bibliography, printed page 338",
+      "verified": ["Cook work independently cited as A Descriptive Analysis of Mundari", "University Microfilms, Ann Arbor"]
+    }
+  ],
+  "manifestations_and_access": [
+    {
+      "provider": "Glottolog/SALA",
+      "kind": "bibliographic record",
+      "access": "public metadata",
+      "redistribution": "metadata only; no dissertation binary licensed by this record"
+    },
+    {
+      "provider": "DOKUMEN.PUB",
+      "kind": "third-party full-text/search manifestation",
+      "access": "discoverable",
+      "rights_status": "unverified third-party redistribution; page itself exposes DMCA/copyright language",
+      "promotion_policy": "do not ingest or redistribute binary from this manifestation without independent lawful-rights verification"
+    }
+  ],
+  "locator_ready_observations": [
+    {
+      "locator": "dissertation preface (surfaced third-party transcription; printed-page concordance not yet independently verified)",
+      "observation": "Cook reports living among Mundas and Hos in Singhbhum from October 1953 until February 1962 and describes named archival/informant/source dependencies.",
+      "promotion": false,
+      "reason": "requires lawful authoritative manifestation and page-image/text concordance before controlled evidence promotion"
+    },
+    {
+      "locator": "dissertation conclusion (surfaced third-party transcription; printed-page concordance not yet independently verified)",
+      "observation": "Cook characterizes the work as an updating of Hoffmann using modern linguistic methods and states that citation forms were taken from Hoffmann rather than private sources.",
+      "promotion": false,
+      "reason": "dependency-sensitive statement; exact authoritative page locator and lawful manifestation required"
+    }
+  ],
+  "dependency_boundary": {
+    "rule": "Cook's dissertation must not be treated as independent corroboration for propositions it explicitly derives from Hoffmann, Encyclopedia Mundarica, Census, Grierson, Roy, supplied manuscripts, archival volumes, or supplied recordings.",
+    "fieldwork_note": "Cook's reported long-term residence/field experience is distinct provenance, but publication does not itself establish reusable participant consent for underlying informant material or recordings."
+  },
+  "rights_consent_cultural_access": {
+    "copyright": "copyrighted dissertation; no open redistribution licence verified",
+    "participant_consent": "not established for MLHKP reuse",
+    "cultural_access": "not established",
+    "public_access_equals_redistribution_permission": false,
+    "published_fieldwork_equals_reusable_participant_consent": false
+  },
+  "deduplication": {
+    "canonical_identity_key": "cook|1965|a-descriptive-analysis-of-mundari|georgetown-university",
+    "rule": "Glottolog/SALA, Kiel bibliography, Census bibliography, UMI/catalogue records and any lawful scan are manifestations/references to one dissertation identity, not independent sources."
+  },
+  "controlled_promotion": {
+    "new_claims": 0,
+    "new_evidence_records": 0,
+    "new_binaries": 0,
+    "status": "exact-identity and locator-ready audit; controlled promotion withheld"
+  },
+  "remaining_gates": [
+    "obtain a lawful authoritative or rights-cleared immutable dissertation manifestation",
+    "calculate local SHA-256",
+    "verify printed-page/image/text concordance",
+    "extract exact claim-level locators",
+    "tag upstream dependencies at claim level",
+    "review participant/recording reuse consent and cultural-access status",
+    "promote only propositions supported independently of restricted/unverified underlying materials"
+  ]
+}

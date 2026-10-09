@@ -1,0 +1,17 @@
+{
+  "run": 473,
+  "date": "2026-09-18",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": ["phonetics", "grammar", "archival_scholarly_work"],
+  "canonical_identity": {"author":"Norman H. Zide","title":"A Mundari Phonetic Reader","year":1974,"series":"UCLA Working Papers in Phonetics","volume":"27","pages":"84-105"},
+  "identity_evidence": [{"provider":"University of Chicago Library catalog","url":"https://catalog.lib.uchicago.edu/vufind/Record/4083953"},{"provider":"UCLA Phonetics Lab archive","url":"https://phonetics.ucla.edu/publications/UCLAWorkingPapersInPhonetics/"}],
+  "canonicalization": {"rule":"Treat catalog records, series index entries, scans/mirrors and citations as manifestations of one scholarly-work identity unless provenance proves a distinct edition or revision.","independent_evidence":false},
+  "scope": {"language":"Mundari","iso639_3":"unr","in_scope":true,"reason":"Directly Mundari-focused phonetic/linguistic source."},
+  "rights_access": {"status":"unverified_for_redistribution","public_catalog_metadata":true,"full_text_permission":"not established in this audit","rule":"Do not infer redistribution rights from cataloging, citation, indexing, or discoverability."},
+  "consent_cultural_uncertainty": {"participant_provenance":"not yet verified","consent":"not established","cultural_access":"not assessed","promotion_allowed":false},
+  "exact_locator_plan":"working-paper no. 27, pp. 84-105; if lawful immutable scan is obtained, record PDF page/printed page plus SHA-256 and passage/example locator",
+  "promotion": {"claims_added":0,"evidence_records_added":0,"reason":"Metadata-level identity verification is insufficient for proposition promotion; lawful text, exact passage, dependency and provenance checks remain required."},
+  "dedup_status":"new canonical audit record; deterministic reconciliation against MMSC/search ledger still required",
+  "blocked_or_open_gates":["lawful full-text manifestation","file-level reuse basis","immutable bytes and SHA-256","printed-page/PDF-page concordance","exact phonetic example/passages","dependency on earlier elicitation/publications","speaker/consultant provenance and consent where applicable","cultural-access review where applicable"],
+  "integrity_note":"No linguistic or cultural proposition is inferred from title/catalog metadata."
+}

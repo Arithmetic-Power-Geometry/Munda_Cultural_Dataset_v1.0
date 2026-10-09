@@ -1,0 +1,62 @@
+{
+  "record_type": "exact_locator_scholarly_source_verification",
+  "checked_utc": "2026-09-08T23:46:15Z",
+  "branch": "mlhkp-v2",
+  "candidate_permanent_source_id": null,
+  "title": "Expressives and the multimodal depiction of social types in Mundari",
+  "creator": "Nishaant Choksi",
+  "publisher": "Cambridge University Press / Language in Society",
+  "publication": {
+    "published_online": "2019-11-28",
+    "volume": 49,
+    "issue": 3,
+    "issue_date": "June 2020",
+    "pages": "379-398",
+    "doi": "10.1017/S0047404519000824"
+  },
+  "canonical_locator": "https://doi.org/10.1017/S0047404519000824",
+  "verified_access_locator": "Cambridge Core shared read-only full-article view",
+  "source_scope": {
+    "language": "Mundari",
+    "study_material": "video data from lab-based elicitation and ethnographic interviews in Mundari-speaking villages",
+    "publisher_abstract_scope": "analysis of expressives/ideophones, multimodal depiction, gesture, gaze, social indexing, materiality and agency",
+    "geographic_scope": "eastern India / Mundari-speaking villages as described by the article",
+    "scope_boundary": "study-specific linguistic and interactional analysis; not a universal statement about all speakers, all villages or present-day Munda culture"
+  },
+  "exact_locators_verified": [
+    "Cambridge metadata: Language in Society 49(3), June 2020, pp. 379-398",
+    "DOI 10.1017/S0047404519000824",
+    "Cambridge article sections visible in shared read-only view: Abstract; Mundari Expressives; Data and Methods; Eating Expressives; Expressive Depiction in Narrative and Song; Conclusion"
+  ],
+  "rights_access_consent": {
+    "public_metadata": true,
+    "shared_read_only_article_view": true,
+    "open_license_verified": false,
+    "redistribution_permission_inferred": false,
+    "article_text_reuse_permission_inferred": false,
+    "raw_video_or_audio_reuse_permission_inferred": false,
+    "participant_consent_for_repository_reuse_inferred": false,
+    "participant_identity_or_raw_transcript_ingested": false,
+    "cultural_access_clearance_inferred": false
+  },
+  "promotion_state": {
+    "beyond_discovery_only": true,
+    "metadata_and_exact_article_locator_verified": true,
+    "cultural_claim_promoted": false,
+    "reason": "The source is inspectable at publisher level, but its substantive examples and interview/video-derived material require passage-level provenance plus participant/rights/cultural-access review before structured evidence promotion."
+  },
+  "deduplication": {
+    "canonical_master_register_match": false,
+    "standalone_mmsc_register_match": false,
+    "web_discovery_layer_full_reconciliation_complete": false,
+    "permanent_id_action": "deferred",
+    "reason": "No duplicate exists in the canonical master or standalone MMSC registers checked in this run; the 87-record discovery layer must still be deterministically reconciled before assigning a new SRC-MMSC identity."
+  },
+  "counts_effect": {
+    "permanent_ids_added": 0,
+    "audited_source_count_changed": false,
+    "canonicalized_web_lead_count_changed": false,
+    "claims_added": 0,
+    "evidence_rows_added": 0
+  }
+}

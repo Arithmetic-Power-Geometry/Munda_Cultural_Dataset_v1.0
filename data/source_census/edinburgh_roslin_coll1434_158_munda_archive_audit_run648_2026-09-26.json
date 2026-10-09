@@ -1,0 +1,71 @@
+{
+  "run": 648,
+  "audit_date_utc": "2026-09-26",
+  "branch": "mlhkp-v2",
+  "class": "archive_photograph",
+  "canonical_identity": {
+    "title": "Monda [Munda] Men, Aboriginial Tribe, al-Ranchi, Chota, Nagpur, India, 1870s-1930s",
+    "identifier": "Coll-1434/158",
+    "collection": "Roslin Slide Collection (Coll-1434)",
+    "repository": "University of Edinburgh Library Heritage Collections",
+    "canonical_url": "https://archives.collections.ed.ac.uk/repositories/2/archival_objects/24084"
+  },
+  "verified_metadata": {
+    "scope": "Photograph catalogue metadata describes two Monda [Munda] men from the Ranchi/Chota Nagpur context and traditional dress; this is catalogue description, not an independently validated cultural proposition.",
+    "creation_date_range": "1870s-1930s",
+    "creators_from_fonds": [
+      "James Cossar Ewart (1851-1933)",
+      "Robert Wallace (1853-1939)"
+    ],
+    "physical_description": "1 slide; 83mm x 83mm",
+    "geographic_subject": "Ranchi (India)",
+    "topical_subject": "Munda (Indic people)",
+    "access": "Open",
+    "cataloguing_note": "Catalogued by Kristy Davis as part of Towards Dolly Project, 2012-2013"
+  },
+  "rights_and_governance": {
+    "access_is_not_reuse_permission": true,
+    "page_default_copyright_notice": "Unless explicitly stated otherwise, all material is copyright © The University of Edinburgh 2025.",
+    "image_redistribution_permitted": false,
+    "participant_consent_verified": false,
+    "community_authorization_verified": false,
+    "cultural_access_verified": false
+  },
+  "canonicalization": {
+    "repository_search_terms": [
+      "Coll-1434/158",
+      "Monda [Munda] Men"
+    ],
+    "repository_match_count_observed": 0,
+    "caveat": "GitHub code-search response reported incomplete_results=true; zero matches is provisional, not proof of branch-wide absence."
+  },
+  "exact_locator": {
+    "archival_object": "Coll-1434/158",
+    "catalogue_sections": [
+      "Scope and Contents",
+      "Dates",
+      "Creator",
+      "Conditions Governing Access",
+      "Physical Description",
+      "Subjects",
+      "Citation"
+    ]
+  },
+  "promotion": {
+    "controlled_identities_added": 0,
+    "claims_added": 0,
+    "evidence_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Open access to the catalogue does not establish image redistribution rights, participant/community consent, cultural-access permission, precise creation date, photographer attribution, or independent validation of the catalogue's cultural description."
+  },
+  "next_conversion": [
+    "inspect Roslin Slide Collection finding aid and object provenance",
+    "resolve photographer/date/locality if authoritative records permit",
+    "resolve object/image reuse rights separately from catalogue access",
+    "preserve catalogue statements as archival metadata unless independently supported",
+    "promote metadata-only evidence only after deterministic MMSC reconciliation"
+  ],
+  "source_quality": "institutional_archive_catalogue",
+  "release_effect": "gap/provenance audit only; no controlled metric increase"
+}

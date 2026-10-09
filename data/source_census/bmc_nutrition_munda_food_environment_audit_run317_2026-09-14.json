@@ -1,0 +1,33 @@
+{
+  "run": 317,
+  "source_class": "peer_reviewed_articles",
+  "title": "Indigenous food environment and dietary patterns of Munda community of Jharkhand, India",
+  "journal": "BMC Nutrition",
+  "publication_date": "2025-10-21",
+  "doi": "10.1186/s40795-025-01159-2",
+  "version_of_record_verified": true,
+  "article_open_access": true,
+  "article_license_verified": "CC BY 4.0",
+  "primary_data_publicly_downloadable_from_article": false,
+  "data_availability_statement": "Datasets used and analysed are available from the corresponding author on reasonable request.",
+  "human_participant_study": true,
+  "ethics_approval_reported_by_article": true,
+  "informed_consent_reported_by_article": true,
+  "community_validation_inferred": false,
+  "cultural_access_permission_inferred": false,
+  "participant_consent_treated_as_dataset_reuse_permission": false,
+  "article_license_treated_as_permission_for_unpublished_primary_data": false,
+  "controlled_source_count_increment": 0,
+  "controlled_claim_count_increment": 0,
+  "controlled_evidence_count_increment": 0,
+  "cultural_claims_promoted": 0,
+  "promotion_level": "verified_publication_and_rights_locator_only",
+  "reason_count_neutral": "The article is a strong peer-reviewed discovery candidate, but deterministic reconciliation against the numbered MMSC/WEB-MUN register has not yet established whether it is already represented. The article license does not license the underlying non-public participant dataset.",
+  "open_gaps": [
+    "deterministic reconciliation against the numbered WEB-MUN/MMSC register",
+    "claim-level extraction only after provenance and cultural-access review",
+    "underlying participant dataset remains request-only and outside automatic ingestion",
+    "community validation must be separately evidenced rather than inferred from research participation"
+  ],
+  "source_url": "https://link.springer.com/article/10.1186/s40795-025-01159-2"
+}

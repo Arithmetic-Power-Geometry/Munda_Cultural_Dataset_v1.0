@@ -1,0 +1,58 @@
+{
+  "audit_id": "MLHKP-RUN-644-MET-883315",
+  "audit_date_utc": "2026-09-26T08:45:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": "museum_object_catalogue",
+  "canonical_identity": {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Santal or Munda Fiddle (Huka Banam)",
+    "object_number": "2022.299",
+    "collection_object_id": "883315",
+    "date": "19th century",
+    "geography": "possibly Jharkhand, India",
+    "culture": "Eastern India, Probably Jharkhand",
+    "medium": "Wood and hide",
+    "classification": "Musical instruments",
+    "credit_line": "Purchase, Amati Gifts, 2022",
+    "canonical_url": "https://www.metmuseum.org/art/collection/search/883315"
+  },
+  "verification": {
+    "authoritative_provider": true,
+    "metadata_verified": true,
+    "repository_search_terms": [
+      "883315",
+      "Huka Banam",
+      "Santal or Munda Fiddle",
+      "metmuseum"
+    ],
+    "repository_matches": 0,
+    "dedup_state": "repository-unmatched in searches performed",
+    "identity_uncertainty": "Museum title itself is disjunctive: Santal OR Munda; geography is 'possibly Jharkhand'. Do not collapse attribution to Munda."
+  },
+  "rights": {
+    "catalogue_image_status": "Public Domain as displayed by The Met",
+    "provider_open_access_note": "The Met states its Open Access data and public-domain images are available for unrestricted commercial and noncommercial use.",
+    "cultural_permission": "unresolved",
+    "community_consent": "not applicable/unknown for historical object; cultural entitlement not inferred from copyright status"
+  },
+  "evidence_decision": {
+    "promote_cultural_claim": false,
+    "promote_binary": false,
+    "reason": "The authoritative object record does not resolve Santal-versus-Munda attribution and only probabilistically locates the object in Jharkhand. Public-domain copyright status does not resolve cultural attribution or community permission.",
+    "permitted_exact_locator": "The Met collection object 883315; object metadata fields Title/Date/Geography/Culture/Medium/Classification/Object Number.",
+    "candidate_narrow_assertion": "The Met catalogues object 2022.299 as a 19th-century wood-and-hide musical instrument titled 'Santal or Munda Fiddle (Huka Banam)', possibly from Jharkhand.",
+    "assertion_scope": "museum-catalogue metadata only; not a Munda cultural fact"
+  },
+  "controlled_metric_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "binaries": 0
+  },
+  "gaps": [
+    "Santal-versus-Munda attribution unresolved",
+    "exact provenance before 2022 purchase not captured in this audit",
+    "cultural/community attribution review unresolved"
+  ]
+}

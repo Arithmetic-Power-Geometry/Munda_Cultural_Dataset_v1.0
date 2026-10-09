@@ -1,0 +1,84 @@
+{
+  "run": 373,
+  "audit_id": "MLHKP-RUN373-MUNTTS-KARYA",
+  "audited_utc": "2026-09-15T00:20:00Z",
+  "scope": "non-Mundarica peer-reviewed computational linguistics plus dataset/corpus manifestation and rights boundary",
+  "canonical_work": {
+    "title": "MunTTS: A Text-to-Speech System for Mundari",
+    "authors": ["Varun Gumma", "Rishav Hada", "Aditya Yadavalli", "Pamir Gogoi", "Ishani Mondal", "Vivek Seshadri", "Kalika Bali"],
+    "year": 2024,
+    "venue": "Proceedings of the Seventh Workshop on the Use of Computational Methods in the Study of Endangered Languages",
+    "publisher": "Association for Computational Linguistics",
+    "pages": "76-82",
+    "anthology_id": "2024.computel-1.11",
+    "doi": "10.18653/v1/2024.computel-1.11",
+    "canonical_url": "https://aclanthology.org/2024.computel-1.11/",
+    "exact_pdf_url": "https://aclanthology.org/2024.computel-1.11.pdf"
+  },
+  "dataset_manifestation": {
+    "repository": "https://github.com/karya-inc/dataset-mundari-tts",
+    "repository_owner": "karya-inc",
+    "repository_name": "dataset-mundari-tts",
+    "provider_title": "Mundari TTS Dataset Corpus",
+    "provider_declared_recordings": 26870,
+    "provider_declared_speakers": 2,
+    "provider_declared_sample_recordings_per_speaker": 100,
+    "provider_declared_full_corpus_size": "approximately 17 GB (7 GB compressed)",
+    "provider_declared_full_data_access": "request link by email to data@karya.in",
+    "provider_manifest_files": ["README.md", "LICENSE.txt", "COPYRIGHT.txt", "data-sample.tgz", "dataset-mundari-tts-full.sha1"],
+    "copyright_notice": "© 2023 DAIA Tech Pvt Ltd.",
+    "creator_lineage": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya", "FAIR Forward – Artificial Intelligence for all / GIZ"],
+    "provider_license_name": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License",
+    "provider_license_short": "KPL BY-NC-SA-FS 1.0",
+    "license_conditions_material_to_ingestion": [
+      "NonCommercial use only",
+      "attribution required",
+      "adapted material ShareAlike obligations",
+      "software incorporation requires GNU GPL version 3 or later",
+      "privacy/publicity/personality rights are not licensed by the copyright licence"
+    ]
+  },
+  "canonicalization": {
+    "paper_and_dataset_are_related_but_not_duplicate_source_objects": true,
+    "paper_is_canonicalized_by_anthology_id_and_doi": true,
+    "dataset_is_canonicalized_by_repository_identity_and_provider_manifest": true,
+    "dataset_provider_counts_are_not_recomputed_counts": true,
+    "sample_and_full_corpus_are_distinct_manifestations": true
+  },
+  "verification_boundary": {
+    "paper_bibliographic_identity_verified": true,
+    "paper_exact_pdf_locator_verified": true,
+    "dataset_repository_identity_verified": true,
+    "dataset_provider_manifest_verified": true,
+    "dataset_copyright_notice_verified": true,
+    "dataset_license_text_verified": true,
+    "sample_archive_bytes_materialized_and_sha256_verified": false,
+    "full_corpus_bytes_materialized_and_sha256_verified": false,
+    "provider_sha1_recomputed_against_full_corpus": false,
+    "recording_count_recomputed_from_archive": false,
+    "transcript_count_recomputed_from_archive": false,
+    "speaker_consent_documentation_verified": false,
+    "participant_privacy_publicity_clearance_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorization_verified": false,
+    "audio_or_transcript_items_promoted_to_controlled_evidence": 0,
+    "paper_empirical_or_linguistic_claims_promoted_to_controlled_evidence": 0,
+    "new_controlled_cultural_claims_promoted": 0
+  },
+  "ingestion_decision": {
+    "paper_metadata_locator": "PROMOTE_EXACT_LOCATOR",
+    "dataset_metadata_rights_locator": "PROMOTE_EXACT_LOCATOR",
+    "sample_audio_transcripts": "HOLD_PENDING_BINARY_HASH_CONSENT_PRIVACY_CULTURAL_REVIEW",
+    "full_corpus": "HOLD_PENDING_ACCESS_BINARY_HASH_CONSENT_PRIVACY_CULTURAL_REVIEW",
+    "paper_claims": "HOLD_UNLESS_EXACT_PASSAGE_AND_SOURCE_DATA_AUDITED"
+  },
+  "release_effect": "The peer-reviewed MunTTS work and Karya corpus are now exact-locator/rights-resolved at provider metadata level. No audio, transcript, speaker, linguistic or cultural evidence is promoted until binary, provenance, consent/privacy and cultural-access checks are satisfied.",
+  "controlled_count_effect": {
+    "audited_source_identities_delta": 0,
+    "claims_delta": 0,
+    "evidence_records_delta": 0,
+    "provenance_links_delta": 0,
+    "streamlit_modules_delta": 0,
+    "reason": "This run narrows an existing corpus/scholarly lead and rights boundary without establishing a new controlled passage-level evidence object."
+  }
+}

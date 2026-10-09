@@ -1,0 +1,68 @@
+{
+  "audit_run": 593,
+  "audit_date": "2026-09-23",
+  "branch": "mlhkp-v2",
+  "source_class": ["peer_reviewed_article", "social_anthropology", "political_anthropology"],
+  "canonical_work": {
+    "author": "Alpa Shah",
+    "title": "‘Keeping the state away’: democracy, politics, and the state in India's Jharkhand",
+    "journal": "Journal of the Royal Anthropological Institute",
+    "volume": "13",
+    "issue": "1",
+    "pages": "129-145",
+    "publication_year": 2007,
+    "published_online": "2007-02-08",
+    "doi": "10.1111/j.1467-9655.2007.00417.x",
+    "publisher": "Wiley / Royal Anthropological Institute"
+  },
+  "identity_verification": {
+    "status": "VERIFIED_PUBLISHER_METADATA",
+    "publisher_url": "https://rai.onlinelibrary.wiley.com/doi/10.1111/j.1467-9655.2007.00417.x",
+    "verified_fields": ["title", "author", "journal", "volume", "issue", "pages", "doi", "online_publication_date"]
+  },
+  "deduplication": {
+    "repository_exact_title_search_before_ingest": "NO_MATCH",
+    "canonical_key": "doi:10.1111/j.1467-9655.2007.00417.x",
+    "rule": "DOI, Wiley, RAI and indexing manifestations are one scholarly work and must not be counted as independent corroboration"
+  },
+  "scope": {
+    "community": "Munda",
+    "region": "Jharkhand, India",
+    "topic": ["democracy", "elections", "state", "political anthropology", "parha", "local political economy"],
+    "scope_warning": "Treat the article as situated anthropological analysis. Do not universalize its account to all Munda communities, places, periods, political choices or institutions without independent evidence."
+  },
+  "access_rights": {
+    "access_status": "PUBLISHER_METADATA_AND_ABSTRACT_DISCOVERABLE; FULL_TEXT_ACCESS_NOT_ESTABLISHED_IN_THIS_RUN",
+    "redistribution_permission_verified": false,
+    "binary_ingest_permitted": false,
+    "action": "Metadata/audit record only. Do not copy a publisher PDF into MLHKP absent lawful access and verified reuse permission."
+  },
+  "consent_cultural_governance": {
+    "status": "REQUIRES_FULL_METHODS_AND_FIELDWORK_CONTEXT_REVIEW",
+    "reason": "The abstract presents situated interpretations of Munda political and sacral life; participant/site scope and cultural-governance implications require full-text inspection before controlled promotion.",
+    "rule": "Preserve authorial interpretation as such; do not convert abstract language into timeless or community-wide cultural facts."
+  },
+  "exact_locator_candidates": [
+    {
+      "locator": "publisher abstract; article pp. 129-145 metadata",
+      "proposition_type": "study_scope",
+      "supported_summary": "The article examines Munda participation in electoral politics in Jharkhand and analyzes relations among ideas of the state, a sacral polity described as parha, historical experiences of state officers, rural elites and local political economy.",
+      "promotion_status": "QUEUED_NOT_PROMOTED",
+      "reason": "Abstract-level evidence is sufficient for source-scope classification but not for controlled cultural proposition promotion."
+    }
+  ],
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "No fabrication: full-text proposition locators, field-site/participant scope, dependency analysis, rights and cultural-governance checks remain pending, and the controlled ledger is unreconciled beyond MMSC-SEARCH-000383."
+  },
+  "gap_status": [
+    "lawful full-text manifestation not captured in this run",
+    "exact page/section proposition locators remain to be extracted",
+    "field-site, participant, sample and study-period scope require methods/full-text inspection",
+    "dependency separation between field evidence, historical sources and author interpretation remains pending",
+    "redistribution permission not established"
+  ],
+  "release_effect": "Creates a verified canonical audit for an already documented blocker without inflating controlled metrics; converts the lead into a structured exact-locator queue item while preserving rights, scope and cultural uncertainty."
+}

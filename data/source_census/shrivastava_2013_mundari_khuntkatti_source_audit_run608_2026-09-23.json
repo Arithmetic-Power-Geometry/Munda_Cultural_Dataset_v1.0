@@ -1,0 +1,12 @@
+{
+  "project":"MLHKP",
+  "run":608,
+  "audit_date":"2026-09-23",
+  "canonical_source":{"author":"Mukesh Kumar Shrivastava","title":"Mundari Khuntkatti: An Institution of Customary Right over Land","year":2013,"type":"journal research article","volume":"13","issue":"2","doi":"10.1177/0972558X1301300205","first_published_online":"2013-07-01","provider":"SAGE Journals"},
+  "verification":{"metadata":"publisher landing page verified","repository_precheck":"no exact title/author match returned before insertion","deduplication":"DOI page, provider PDF endpoint, indexes and citations are manifestations of one work, not independent corroboration"},
+  "scope":{"classes":["peer-reviewed article","customary land institution","land governance","empirical social research"],"reported_field_scope":"Gutuhatu and Salga, two Mundari Khuntkatti villages in Khunti district, Jharkhand","warning":"two-village findings must not be generalized to all Munda communities, localities, periods or current legal practice without independent support"},
+  "governance":{"metadata_access":"public","full_text":"restricted","binary_ingested":false,"consent_verified":false,"redistribution_verified":false,"abstract_promoted_as_cultural_fact":false},
+  "conversion":{"state":"queued_not_promoted","requirements":["lawful authoritative full text","manifestation identity and hash where permitted","journal pagination and proposition locators","research design and field-locality inspection","primary versus secondary dependency tagging","participant ethics review where applicable","reuse review","cultural sensitivity review"]},
+  "promotion":{"controlled_claims_added":0,"evidence_records_added":0,"binaries_added":0,"reason":"restricted full text and insufficient proposition-level verification"},
+  "blocked":{"component":"provider full text","action":"logged without bypass; continue alternative source classes"}
+}

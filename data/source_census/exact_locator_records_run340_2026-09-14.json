@@ -1,0 +1,61 @@
+{
+  "run": 340,
+  "date_utc": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "purpose": "Promote verified non-Mundarica source manifestations from discovery to exact-locator source evidence while preserving rights, access, consent, community-validation and cultural-access boundaries.",
+  "records": [
+    {
+      "locator_id": "MLHKP-LOC-R340-001",
+      "class": "datasets",
+      "provider": "Hugging Face / misniitdelhi",
+      "title": "AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages",
+      "authors": ["Pooja Singh", "Sandeep Kumar"],
+      "affiliation": "Indian Institute of Technology Delhi",
+      "dataset_locator": "misniitdelhi/AdiBhasha",
+      "paper_locator": "arXiv:2512.04765",
+      "mundari_manifestation": "data/mundari/mundari-train.csv",
+      "provider_declared_mundari_pairs_approx": 20150,
+      "provider_declared_total_parallel_sentences": 80000,
+      "mundari_iso_639_3": "unv",
+      "script_declared_for_mundari_release": "Devanagari",
+      "provider_license": "CC BY-NC-SA 4.0",
+      "access_state": "gated: repository is publicly visible but file/content access requires login and agreement to share contact information/accept access conditions",
+      "provider_workflow_observation": "Dataset card states participatory human-in-the-loop creation with native-speaking translators and independent validators from the same communities.",
+      "verification_state": "provider dataset card and exact Mundari repository path verified; gated bytes, independent hash, exact row count and row-level content not independently verified",
+      "promotion_scope": "source identity, provider metadata, exact Mundari file path, declared license and access gate only",
+      "not_promoted": ["individual sentence pairs", "linguistic claims", "cultural claims", "participant consent inference beyond provider statement", "privacy clearance", "community authorization for MLHKP reuse", "cultural-access authorization", "exact row count"]
+    },
+    {
+      "locator_id": "MLHKP-LOC-R340-002",
+      "class": "audio_datasets",
+      "provider": "Karya / Microsoft Research India / IIT Kharagpur / GIZ FAIR Forward",
+      "title": "Mundari TTS Dataset Corpus",
+      "repository_locator": "https://github.com/karya-inc/dataset-mundari-tts",
+      "provider_declared_recordings": 26870,
+      "provider_declared_speakers": 2,
+      "sample_manifestation": "data-sample.tgz",
+      "full_dataset_checksum_manifestation": "dataset-mundari-tts-full.sha1",
+      "provider_license": "Karya Public License BY-NC-SA-FS 1.0 (non-commercial)",
+      "full_dataset_access_state": "provider directs users to email data@karya.in for full dataset access",
+      "verification_state": "repository identity, sample/checksum filenames, declared corpus scale and license family verified from provider repository; audio bytes, SHA-1 recomputation, speaker consent documentation and cultural-access review not independently verified",
+      "promotion_scope": "source identity and exact repository manifestations only",
+      "not_promoted": ["audio content", "transcripts", "speaker identities", "linguistic claims", "cultural claims", "consent sufficiency", "community validation", "cultural-access authorization"]
+    },
+    {
+      "locator_id": "MLHKP-LOC-R340-003",
+      "class": "web_audio_resources",
+      "provider": "Languages Home",
+      "title": "Learn Mundari – Audio",
+      "page_locator": "https://www.languageshome.com/New/english-mundari/",
+      "exact_audio_endpoint_pattern": "https://www.languageshome.com/Mundari_Audio/NN.mp3",
+      "verified_examples": ["01.mp3", "02.mp3", "03.mp3", "04.mp3", "05.mp3", "06.mp3", "07.mp3", "08.mp3", "09.mp3", "10.mp3", "11.mp3", "12.mp3", "13.mp3", "14.mp3", "15.mp3", "16.mp3", "17.mp3", "24.mp3", "25.mp3", "26.mp3", "27.mp3", "28.mp3", "29.mp3"],
+      "verification_state": "page-level mapping between visible English prompts, Mundari text and exact MP3 endpoints verified for listed examples; rights provenance, speaker identity/consent, community validation, audio-byte hashes and cultural-access authorization not verified",
+      "promotion_scope": "web manifestation/endpoints only",
+      "not_promoted": ["audio content", "translation correctness", "linguistic claims", "cultural claims", "reuse permission", "speaker consent", "community validation", "cultural-access authorization"]
+    }
+  ],
+  "governance_rule": "Public visibility, repository licensing, provider consent statements or technical access do not by themselves establish MLHKP participant consent, privacy clearance, community validation or cultural-access authorization. Cultural access overrides entitlement.",
+  "counting_rule": "These locator records improve manifestation resolution but do not alter controlled MMSC source counts until deterministic WEB-MUN numbered-register reconciliation assigns canonical identities.",
+  "cultural_claims_promoted": 0,
+  "linguistic_claims_promoted": 0
+}

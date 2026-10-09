@@ -1,0 +1,38 @@
+{
+  "run": 484,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica",
+  "source_class": ["dataset", "audio", "speech_corpus", "web_resource"],
+  "canonical_identity": "Karya Mundari TTS Dataset Corpus",
+  "canonical_repository": "https://github.com/karya-inc/dataset-mundari-tts",
+  "reported_creators": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+  "reported_collaboration": "FAIR Forward – Artificial Intelligence for all / GIZ",
+  "provider_reported_recordings": 26870,
+  "provider_reported_speakers": 2,
+  "provider_reported_female_recordings": 19868,
+  "provider_reported_male_recordings": 7002,
+  "provider_reported_sample": "100 recordings per speaker in repository",
+  "provider_reported_format": "32-bit PCM, 44.1 kHz; paired transcript text files",
+  "rights": {
+    "license": "Karya Public License, non-commercial version (provider statement)",
+    "redistribution_assumed": false,
+    "consent_assumed": false,
+    "cultural_permission_assumed": false,
+    "required_before_promotion": ["review exact LICENSE.txt terms", "verify speaker-consent/provenance documentation", "verify cultural-access suitability", "hash lawfully obtainable item bytes"]
+  },
+  "deduplication": {
+    "rule": "GitHub repository, cloud-hosted full corpus, Karya case study, project/paper descriptions and mirrors are manifestations/descriptions of the same corpus unless item-level collation proves otherwise",
+    "independent_corroboration_count": 1
+  },
+  "scope": {
+    "language": "Mundari",
+    "variety": "requires item/project-level verification",
+    "cultural_claims_promoted": 0,
+    "evidence_records_promoted": 0
+  },
+  "exact_locator_target": "<lawfully-obtained-item-path-or-stable-id>#sha256=<hash>;transcript=<paired-txt>;speaker=<documented-speaker-id>",
+  "ingestion_status": "AUDITED_NOT_PROMOTED",
+  "gaps": ["exact license review", "speaker consent/provenance", "stable item identifiers for full corpus", "per-item immutable hashes", "transcript/audio alignment validation", "variety/script verification", "cultural-access review", "overlap/dependency check against derived TTS publications and mirrors"],
+  "count_policy": "Provider-reported corpus counts are descriptive metadata only and MUST NOT be added to MLHKP controlled evidence/MMSC counts until deterministic item-level ingestion and reconciliation.",
+  "notes": "Public discoverability/downloadability is not treated as consent or unrestricted redistribution permission. No linguistic or cultural proposition is promoted by this audit record."
+}

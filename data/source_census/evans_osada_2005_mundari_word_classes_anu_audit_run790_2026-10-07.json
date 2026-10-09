@@ -1,0 +1,72 @@
+{
+  "run": 790,
+  "date": "2026-10-07",
+  "stream": "MLHKP non-Mundarica source census",
+  "branch": "mlhkp-v2",
+  "source_class": "peer-reviewed articles / open institutional repository",
+  "canonical_source": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": [
+      "Nicholas Evans",
+      "Toshiki Osada"
+    ],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "institutional_repository": "Australian National University Digital Collections",
+    "repository_item": "baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "handle": "1885/54663",
+    "repository_access_statement": "Open Access",
+    "repository_file": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "repository_reported_file_size": "234.31 KB"
+  },
+  "deterministic_reconciliation": {
+    "provisional_key": "DOI|10.1515/lity.2005.9.3.351",
+    "repository_code_search_exact_title_matches": 0,
+    "repository_code_search_incomplete_results": true,
+    "absence_not_inferred": true,
+    "controlled_identity_assignment": "HOLD_PENDING_MMSC_WEB_MUN_RECONCILIATION"
+  },
+  "scope": {
+    "domain": "Mundari linguistic typology / word classes",
+    "cultural_claim_scope": "NONE_PROMOTED",
+    "note": "The article evaluates linguistic word-class analyses. It must not be generalized into cultural claims."
+  },
+  "evidence_conversion": {
+    "discovery_only": false,
+    "verified_locator_level": "institutional repository item + DOI + named PDF manifestation",
+    "exact_proposition_page_locators_verified": false,
+    "linguistic_claims_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "controlled_evidence_records_promoted": 0,
+    "controlled_provenance_links_promoted": 0,
+    "next_conversion": "lawfully inspect repository PDF; capture manifestation checksum/size and printed/PDF page concordance; atomize only directly supported linguistic propositions with exact pages and dependency labels"
+  },
+  "rights_access_consent_cultural_governance": {
+    "institutional_access_statement_verified": "Open Access",
+    "redistribution_license_verified": false,
+    "open_access_treated_as_redistribution_permission": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "pdf_redistributed_by_mlhkp": false
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "evidence_links": 0,
+    "streamlit_modules": 0
+  },
+  "release_effect": "count-neutral; adds a verified exact source/manifestation locator and conversion queue item only",
+  "sources": [
+    {
+      "type": "institutional_repository",
+      "url": "https://digitalcollections.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b"
+    },
+    {
+      "type": "doi",
+      "url": "https://doi.org/10.1515/lity.2005.9.3.351"
+    }
+  ]
+}

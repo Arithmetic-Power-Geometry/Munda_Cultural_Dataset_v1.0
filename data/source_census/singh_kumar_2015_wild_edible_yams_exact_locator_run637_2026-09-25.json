@@ -1,0 +1,78 @@
+{
+  "run": 637,
+  "audit_date_utc": "2026-09-25T03:43:21Z",
+  "branch": "mlhkp-v2",
+  "canonical_work": {
+    "title": "Diversity of wild edible yams and its traditional knowledge among Munda tribe of district Khunti, Jharkhand, India",
+    "authors": [
+      "Geetanjali Singh",
+      "Jyoti Kumar"
+    ],
+    "journal": "International Journal of Bioassays",
+    "volume": "4",
+    "issue": "10",
+    "year": 2015,
+    "pages": "4440-4442",
+    "issn": "2278-778X"
+  },
+  "identity_verification": [
+    "International Journal of Bioassays volume 4 issue 10 archive lists the article, authors and PDF.",
+    "A Government of Jharkhand-hosted PDF manifestation reproduces the article and its citation.",
+    "Botanical Survey of India ENVIS bibliography independently indexes the work as Singh & Kumar 2015, Int. J. Bioassays 4(10):4440-4442."
+  ],
+  "exact_locators": [
+    {
+      "locator": "printed p. 4440",
+      "support": "article identity; received 2015-08-28, revised 2015-09-06, accepted 2015-09-13; abstract states an ethnobotanical study of nine wild edible Dioscorea taxa in Khunti."
+    },
+    {
+      "locator": "printed p. 4441, Table 1",
+      "support": "nine-row inventory with botanical name, family, Mundari name, parts used and months of availability."
+    },
+    {
+      "locator": "printed p. 4441, text immediately following Table 1",
+      "support": "source-reported preparation statement for most yams."
+    },
+    {
+      "locator": "printed p. 4442, Acknowledgement",
+      "support": "authors thank Munda people of Khunti district for sharing traditional knowledge; this is provenance context, not downstream consent."
+    }
+  ],
+  "scope": {
+    "community": "Munda",
+    "geography": "Khunti district, Jharkhand, India",
+    "domain": [
+      "ethnobotany",
+      "wild edible yams",
+      "food knowledge"
+    ],
+    "classification": "Munda-specific ethnobotanical source"
+  },
+  "rights_access": {
+    "article_access": "journal archive exposes PDF; a Government of Jharkhand-hosted PDF manifestation is discoverable",
+    "redistribution_permission": "not established in this audit",
+    "consent": "acknowledgement of knowledge sharing does not establish participant/community consent for downstream redistribution",
+    "cultural_access": "requires review before proposition promotion"
+  },
+  "deduplication": {
+    "repository_searches": [
+      "exact title",
+      "4440-4442",
+      "wild edible yams Munda",
+      "Geetanjali Singh Jyoti Kumar"
+    ],
+    "existing_match_found": false,
+    "manifestation_rule": "journal archive, Government of Jharkhand PDF, ResearchGate copies and bibliographic indexes are manifestations/indexes of one canonical work, not independent corroboration"
+  },
+  "dependency": {
+    "note": "Treat as part of the Singh-Kumar Khunti ethnobotany series; overlapping taxa/propositions across their 2014 aquatic/marshy, 2015 yam, 2016 herbaceous and 2019 Amaranthaceae studies must not be counted as independent corroboration without field-sample/dependency separation."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0,
+    "reason": "Exact locators are established, but redistribution rights, participant/community-consent interpretation, taxonomic/name normalization, series dependency and deterministic MMSC reconciliation remain gating checks."
+  },
+  "audit_state": "exact-locator-ready; not promoted"
+}

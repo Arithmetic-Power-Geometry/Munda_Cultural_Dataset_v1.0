@@ -1,0 +1,98 @@
+{
+  "audit_run": 644,
+  "audit_date_utc": "2026-09-27",
+  "branch": "mlhkp-v2",
+  "census_stream": "non-Mundarica",
+  "source_class": "doctoral_dissertation",
+  "canonical_identity": {
+    "author": "Marilena Proietti",
+    "title": "Adivasi women’s movements in eastern India: south Bihar and Jharkhand since the 1980s",
+    "type": "doctoral thesis",
+    "institution": "Sapienza University of Rome",
+    "discussion_date": "2025-05-26",
+    "handle": "https://hdl.handle.net/11573/1740709"
+  },
+  "authoritative_manifestation": {
+    "repository": "IRIS Sapienza",
+    "landing_page": "https://iris.uniroma1.it/handle/11573/1740709",
+    "filename": "Tesi_dottorato_Proietti.pdf",
+    "size_mb": 47.18,
+    "access": "Open Access from 2026-05-27",
+    "repository_license_label": "Creative commons",
+    "license_specificity": "exact CC variant not established from inspected landing page",
+    "completeness_note": "repository labels file as complete doctoral thesis",
+    "pdf_hash": null,
+    "hash_status": "not acquired in this audit"
+  },
+  "scope": {
+    "populations": [
+      "Oraon",
+      "Munda",
+      "Santal",
+      "Ho"
+    ],
+    "geography": [
+      "south Bihar",
+      "Jharkhand"
+    ],
+    "temporal_scope": "1980s to present as framed by thesis abstract",
+    "topics": [
+      "Adivasi women's movements",
+      "gender discrimination",
+      "environmental movements",
+      "displacement",
+      "social/cultural/legal advocacy",
+      "local governance",
+      "collective memory"
+    ],
+    "munda_specificity": "mixed-community thesis; no abstract-level proposition may be generalized as Munda-specific"
+  },
+  "exact_locators_verified": [
+    {
+      "locator": "IRIS landing page lines/fields: title, author, discussion date",
+      "use": "identity metadata"
+    },
+    {
+      "locator": "IRIS attached-file metadata",
+      "use": "complete PDF filename, 47.18 MB, open-access date, generic Creative Commons label"
+    },
+    {
+      "locator": "IRIS abstract",
+      "use": "declared communities, geography, temporal/topic scope"
+    }
+  ],
+  "rights_access_consent": {
+    "access_status": "open",
+    "redistribution_status": "unresolved until exact Creative Commons variant and file-level terms are captured",
+    "participant_consent": "unverified; full thesis methods/ethics not inspected in this audit",
+    "community_authority": "not inferred",
+    "cultural_access": "unresolved; public repository access does not override cultural governance"
+  },
+  "deduplication": {
+    "canonical_keys": [
+      "hdl:11573/1740709",
+      "title:adivasi womens movements in eastern india south bihar and jharkhand since the 1980s",
+      "author:marilena proietti"
+    ],
+    "relationship_policy": "treat repository landing page and attached thesis PDF as manifestations of one source identity",
+    "repository_duplicate_status": "not established branch-wide in this audit"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claims_delta": 0,
+    "evidence_delta": 0,
+    "links_delta": 0,
+    "binaries_delta": 0,
+    "reason": "full thesis proposition/page concordance, exact license, participant-consent/ethics, dependency and cultural-scope review remain before controlled promotion"
+  },
+  "next_conversion": [
+    "retrieve lawful authoritative thesis PDF and record immutable hash",
+    "capture exact Creative Commons license variant/file-level rights",
+    "inspect table of contents, methods, ethics/consent and Munda-specific sections",
+    "atomize only Munda-supported propositions with printed-page/PDF locators",
+    "separate interview/field evidence from secondary synthesis and cross-community claims",
+    "apply cultural-access review before graph promotion",
+    "deterministically reconcile against MMSC/WEB-MUN before count changes"
+  ],
+  "integrity": "No cultural claim or count fabricated; discovery metadata is not treated as evidence promotion."
+}

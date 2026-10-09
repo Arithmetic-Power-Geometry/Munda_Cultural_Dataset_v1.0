@@ -1,0 +1,33 @@
+{
+  "run_id": 376,
+  "date": "2026-09-15",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government", "LSI", "book", "map"],
+  "canonical_identity": {
+    "title": "Linguistic Survey of India - West Bengal (Part-I)",
+    "publisher_provider": "Office of the Registrar General & Census Commissioner, India",
+    "provider": "Census of India / ORGI",
+    "provider_reference_id": "LSI_WEST_BENGAL_Part1",
+    "declared_manifestation": "LSI_WEST_BENGAL_Part1.pdf"
+  },
+  "mundari_locator": {
+    "provider_indexed_page": 391,
+    "provider_indexed_heading": "MUNDARI",
+    "status": "provider-indexed locator; PDF bytes/page image not independently materialized in this run"
+  },
+  "scope_classification": "Mundari-relevant official linguistic-survey source; not treated as passage-verified evidence until binary/page verification",
+  "rights_access": {
+    "rights_holder": "ORGI/Census of India as provider",
+    "reuse_permission": "not established at passage/item level in this run",
+    "access_status": "official catalogue/search surface discoverable; direct binary verification incomplete"
+  },
+  "promotion": {
+    "promoted": ["official source identity", "provider reference id", "declared PDF filename", "provider-indexed Mundari page locator"],
+    "not_promoted": ["Mundari linguistic claims", "speaker/population counts", "maps as verified evidence", "page quotations", "cultural claims", "reuse permission", "community validation", "cultural-access authorization"]
+  },
+  "audit_rule": "Search-index snippets are locators, not substitutes for verified PDF bytes/pages. No numerical, linguistic, geographic, or cultural proposition may be promoted from this record alone.",
+  "source_urls": [
+    "https://censusindia.gov.in/nada/index.php/catalog/42562",
+    "https://censusindia.gov.in/nada/index.php/catalog/42562/download/46212/LSI_WEST_BENGAL_Part1.pdf"
+  ]
+}

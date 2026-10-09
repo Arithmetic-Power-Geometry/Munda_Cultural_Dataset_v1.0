@@ -1,0 +1,92 @@
+{
+  "audit_id": "MLHKP-RUN516-KARYA-HI-UNR",
+  "run": 516,
+  "audit_date_utc": "2026-09-19T22:43:00Z",
+  "scope": "non-Mundarica source census; dataset/parallel-text class",
+  "canonical_identity": {
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "creator_statement": "Microsoft Research India; Indian Institute of Technology Kharagpur; Karya; Indo-German Development Cooperation FAIR Forward collaboration",
+    "copyright_holder_statement": "© 2023 DAIA Tech Pvt Ltd.",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "provider_branch": "main",
+    "provider_commit": "243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "language_pair": ["Hindi", "Mundari"],
+    "mundari_iso_639_3": "unr",
+    "provider_reported_pairs": 17826,
+    "payload": "translation-hi-unr.tsv",
+    "payload_encoding_reported": "UTF-8"
+  },
+  "verification": {
+    "repository_and_payload_observed": true,
+    "payload_text_observed": true,
+    "provider_commit_pinned": true,
+    "license_text_observed": true,
+    "copyright_text_observed": true,
+    "provider_reported_pair_count_locally_recounted": false,
+    "local_sha256_computed": false,
+    "participant_or_translator_consent_document_observed": false,
+    "community_cultural_clearance_observed": false
+  },
+  "rights": {
+    "license": "Karya Inc. Attribution-NonCommercial-ShareAlike-FreeSoftware 1.0 International Public License (KPL BY-NC-SA-FS 1.0)",
+    "noncommercial_only": true,
+    "attribution_required": true,
+    "sharealike": true,
+    "incorporation_condition": "If Licensed Material is Incorporated as defined by the license, the Incorporator's License must exclusively be GNU GPL version 3 or later.",
+    "personality_privacy_rights_not_licensed": true,
+    "repository_ingestion_decision": "do_not_copy_payload_into_MLHKP_in_this_run",
+    "reason": "The corpus is usable only subject to its KPL conditions; the current MLHKP repository licensing/redistribution compatibility and participant/translator consent basis have not been established. Exact external locators can be retained without reproducing corpus text."
+  },
+  "deterministic_canonicalization": {
+    "canonical_key": "karya|hindi-mundari-translation|2023|unr|243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "same_project_manifestations": [
+      "GitHub repository README",
+      "translation-hi-unr.tsv",
+      "LICENSE.txt",
+      "COPYRIGHT.txt",
+      "Karya project/case-study descriptions when referring to this translation corpus"
+    ],
+    "independence_rule": "README, payload, license, copyright file, mirrors and project descriptions are manifestations/documentation of one corpus and must not be counted as independent corroborating sources."
+  },
+  "exact_locator_policy": {
+    "immutable_source_ref": "GitHub commit 243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "payload_path": "translation-hi-unr.tsv",
+    "record_locator": "commit SHA + payload path + 1-based TSV line number",
+    "promotion_state": "locator-ready but not promoted",
+    "promotion_requirements": [
+      "obtain immutable payload bytes and compute local SHA-256",
+      "deterministically recount rows and validate exactly two tab-separated fields per promoted row",
+      "resolve compatibility of KPL BY-NC-SA-FS 1.0 with MLHKP release licensing and software/data separation",
+      "retain attribution and license URI/text as required",
+      "review translator/participant provenance, privacy/consent and cultural-access implications",
+      "promote only linguistic/translation evidence supported by the exact row; do not infer cultural propositions from a translation pair"
+    ]
+  },
+  "quality_and_scope": {
+    "source_type": "parallel translation dataset",
+    "direct_mundari_evidence": true,
+    "cultural_authority": false,
+    "demographic_authority": false,
+    "independent_of_project_documentation": false,
+    "claim_boundary": "A row can evidence that the released corpus contains a provider-supplied Hindi–Mundari translation pair; it does not by itself establish a general lexical, grammatical, demographic or cultural claim."
+  },
+  "blocked_or_unresolved": [
+    "local SHA-256 not available through the connected GitHub text interface",
+    "17,826 provider count not independently recounted in this run",
+    "KPL compatibility with MLHKP distribution not yet established",
+    "participant/translator consent and provenance not independently audited",
+    "community/cultural-access clearance not established"
+  ],
+  "promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "reason": "Rights/license compatibility, local hash/recount, and consent/provenance gates remain unresolved; copying rows would overstate permission."
+  },
+  "audit_invariants_added": [
+    "public GitHub payload does not equal unrestricted redistribution permission",
+    "KPL-licensed translation pair does not equal cultural claim",
+    "provider row count does not equal independently audited row count",
+    "project README, TSV, license, copyright and case study do not equal independent sources",
+    "exact external locator does not require reproducing licensed text"
+  ]
+}

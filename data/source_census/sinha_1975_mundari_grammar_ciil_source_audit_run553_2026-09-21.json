@@ -1,0 +1,66 @@
+{
+  "audit_run": 553,
+  "audit_date": "2026-09-21",
+  "stream": "non-Mundarica source census",
+  "canonical_identity": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "year": 1975,
+    "source_class": ["book", "grammar", "government_language_repository"],
+    "publisher_content_partner": "Central Institute of Indian Languages (CIIL), Mysore/Mysuru",
+    "canonical_handle": "https://hdl.handle.net/20.500.14705/8179",
+    "ciil_repository_record": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "bharatavani_record": "https://bharatavani.in/home/book?id=Mundari+Grammar"
+  },
+  "identity_verification": {
+    "status": "verified_at_provider_metadata_level",
+    "evidence": [
+      "CIIL Bhasha Sanchika identifies Sinha, N.K., title Mundari Grammar, publication year 1975, English/Mundari, and handle 20.500.14705/8179.",
+      "Bharatavani identifies year 1975, author N. K. Sinha, type Grammar, CIIL as content partner and publisher, and reports a 117.39 MB PDF behind login-to-read access."
+    ]
+  },
+  "scope": {
+    "munda_specific": true,
+    "language": "Mundari",
+    "described_coverage": ["noun morphology", "verb morphology", "adjectives", "adverbs", "surface constituent order/syntax"],
+    "scope_note": "Provider description says the grammar is pedagogically organized by grammatical functions. No proposition from that description is promoted as a controlled linguistic claim in this run."
+  },
+  "deduplication": {
+    "repository_search_before_create": "No matching repository code-search result for 'N.K. Sinha 1975 Mundari Grammar'.",
+    "canonicalization_rule": "Treat CIIL Sanchika record, handle resolver, Bharatavani catalogue/reader, CIIL-hosted files, citation exports, mirrors and later digitizations as manifestations of one 1975 work unless edition-level evidence proves otherwise.",
+    "independent_corroboration_count": 1
+  },
+  "access_rights_consent_culture": {
+    "access": "metadata_open; Bharatavani full reading reported as login-gated; CIIL Sanchika exposes a file entry but the surfaced metadata reports CIILP0091.pdf as 9.63 KB, inconsistent with Bharatavani's 117.39 MB PDF and therefore not accepted as a verified full-text manifestation",
+    "copyright_reuse": "unverified; public catalogue/read access must not be interpreted as redistribution permission",
+    "speaker_or_informant_consent": "unverified/not established from provider metadata",
+    "cultural_access": "unverified",
+    "sensitivity": "linguistic source; any examples that encode ritual, sacred, personal or community-sensitive material require passage-level review before promotion"
+  },
+  "exact_locator_conversion": {
+    "status": "blocked_pending_manifestation_verification",
+    "reason": "No lawfully verified full-text manifestation with stable byte identity/page concordance was obtained in this run. Provider metadata is exact at work/handle level but is insufficient for proposition-level evidence locators.",
+    "required_next": ["obtain permitted full manifestation", "record SHA-256", "resolve CIIL-vs-Bharatavani file-size discrepancy", "establish printed-page/PDF-page concordance", "extract proposition-level locators", "separate author analysis from cited/inherited examples", "review rights/consent/cultural sensitivity"]
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Metadata verification is strong, but exact passage evidence and reuse/consent/cultural gates are unresolved."
+  },
+  "blocked_or_gap": [
+    "Bharatavani reading is login-gated.",
+    "Sanchika surfaced file-size metadata conflicts materially with Bharatavani's reported PDF size.",
+    "No exact passage/page locators verified.",
+    "No explicit redistribution licence verified.",
+    "Informant/speaker provenance and consent not yet audited."
+  ],
+  "release_effect": {
+    "controlled_mmsc_counts_changed": false,
+    "streamlit_changed": false,
+    "evidence_graph_changed": false,
+    "publication_metrics_changed": false,
+    "release_gate": "NOT_PASS",
+    "note": "This audit expands and canonicalizes the census only. Controlled surfaces must move only after deterministic reconciliation and supported evidence promotion."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "run": 398,
+  "audit_date": "2026-09-16",
+  "stream": "non-Mundarica source census",
+  "source_class": ["audio", "educational_media", "web_resource", "government_institution"],
+  "canonical_identity": {
+    "title": "Barkhaa Audio — Mundari-language items",
+    "institution": "Central Institute of Educational Technology (CIET), NCERT",
+    "institution_type": "constituent unit of NCERT",
+    "canonical_url": "https://ciet.ncert.gov.in/barkhaa_audio"
+  },
+  "verified_scope": {
+    "mundari_present": true,
+    "provider_page_lists_mundari_audio": true,
+    "examples_visible_on_provider_page": [
+      "Chhupan Chhupaai",
+      "Gilli Danda",
+      "Mzza Aa Gya",
+      "Milli ka Gubbara",
+      "Mithai",
+      "Mithe Mithe Gulgule",
+      "Munmun Aur Munnu",
+      "Phooli Roti",
+      "Rani Bhi"
+    ],
+    "note": "Examples are recorded only as provider-page discovery locators; no audio content or linguistic/cultural proposition is promoted by this record."
+  },
+  "canonicalization": {
+    "rule": "Treat the CIET Barkhaa landing page and its Mundari item links/media manifestations as components of one provider collection unless item-level metadata establishes independently citable works.",
+    "repository_exact_lead_search_before_ingestion": "No repository code-search result for 'Barkhaa Audio NCERT CIET Mundari'."
+  },
+  "rights_access_consent_cultural_uncertainty": {
+    "access": "Public provider landing page is discoverable.",
+    "copyright_reuse": "Unverified at item level; public access is not interpreted as redistribution permission.",
+    "speaker_performer_consent": "Unverified from the surfaced landing-page metadata.",
+    "privacy": "Unverified where voices/performers are identifiable.",
+    "community_validation": "Not inferred.",
+    "cultural_access": "No entitlement inferred from public availability; item-level cultural restrictions remain to be checked."
+  },
+  "promotion_state": "exact-locator-only",
+  "promoted_public_factual_claims": 0,
+  "evidence_materialization_requirements": [
+    "resolve each Mundari media URL and stable item identity",
+    "capture permitted bytes or immutable provider locator and SHA-256 where permitted",
+    "record duration/format and exact time locators deterministically",
+    "verify item-level copyright/reuse terms",
+    "verify speaker/performer provenance and consent/privacy status where applicable",
+    "review cultural-access/community-governance implications before public evidence exposure",
+    "deduplicate against existing MLHKP audiovisual and educational-media leads"
+  ],
+  "blocked_or_unverified": [
+    "item-level reuse licence",
+    "speaker/performer consent",
+    "immutable audio hashes",
+    "exact time-coded evidence locators",
+    "community/cultural-access validation"
+  ],
+  "audit_principle": "Availability is not permission. No audio-derived claim is promoted until provenance, rights, consent and exact locators are defensible."
+}

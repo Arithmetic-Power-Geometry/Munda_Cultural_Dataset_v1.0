@@ -1,0 +1,35 @@
+{
+  "run": 543,
+  "audit_date": "2026-09-21",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": ["archive", "photograph", "material-culture/media"],
+  "canonical_work_key": "edinburgh-archives-coll-1434-158-monda-munda-men",
+  "title": "Monda [Munda] Men, Aboriginial Tribe, al-Ranchi, Chota, Nagpur, India, 1870s-1930s",
+  "repository": "University of Edinburgh ArchivesSpace",
+  "identifier": "Coll-1434/158",
+  "creator_context": ["James Cossar Ewart fonds", "Robert Wallace fonds"],
+  "date_statement": "1870s-1930s",
+  "scope_statement": "Catalogue describes a photograph of two Monda [Munda] men from Ranchi/Chota Nagpur wearing traditional dress in the early twentieth century.",
+  "physical_description": "1 slide; 83 mm x 83 mm",
+  "access": "Catalogue states Conditions Governing Access: Open.",
+  "canonical_locator": "https://archives.collections.ed.ac.uk/repositories/2/archival_objects/24084",
+  "deduplication_rule": "Treat catalogue page, fonds references, thumbnails/derivatives and any later digitization of identifier Coll-1434/158 as manifestations of one archival item unless repository metadata establishes otherwise.",
+  "rights_status": "Access-open does not establish copyright/publication/redistribution permission. No binary redistribution is authorized by this audit.",
+  "consent_status": "Historical depicted-person consent is not established by catalogue metadata.",
+  "cultural_access_status": "Unverified; no inference that visible dress/object details are unrestricted community knowledge.",
+  "scope_classification": "direct Munda archival visual evidence; historical colonial-era description requiring terminology/provenance caution",
+  "evidence_promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "Catalogue metadata verifies archival identity and locator, but rights, depicted-person consent, cultural-access appropriateness, image-level provenance and exact visual interpretation have not been established."
+  },
+  "gaps": [
+    "repository rights/reproduction statement for item",
+    "immutable image manifestation and SHA-256 if lawfully obtainable",
+    "full provenance/date resolution within broad catalogue range",
+    "community/cultural-access review before visual-detail claim promotion",
+    "depicted-person consent cannot be assumed"
+  ],
+  "audit_principle": "Preserve the repository's historical title verbatim as metadata while normalizing identity to Munda only where the catalogue itself supplies [Munda]; do not modernize or amplify the catalogue into unsupported cultural claims."
+}

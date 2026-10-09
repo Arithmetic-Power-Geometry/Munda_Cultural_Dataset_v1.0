@@ -1,0 +1,59 @@
+{
+  "run": 822,
+  "branch": "mlhkp-v2",
+  "checked_date_ist": "2026-10-09",
+  "raw_web_records_observed": 90,
+  "source_files_inspected": 22,
+  "additional_exact_identity_duplicate_pairs": [
+    [
+      "WEB-MUN-0015",
+      "WEB-MUN-0059",
+      "same_repository_handle"
+    ],
+    [
+      "WEB-MUN-0013",
+      "WEB-MUN-0060",
+      "same_glottolog_reference_id"
+    ],
+    [
+      "WEB-MUN-0034",
+      "WEB-MUN-0066",
+      "same_openlibrary_work_id"
+    ],
+    [
+      "WEB-MUN-0029",
+      "WEB-MUN-0067",
+      "same_cambridge_article_url"
+    ],
+    [
+      "WEB-MUN-0038",
+      "WEB-MUN-0070",
+      "same_cambridge_article_url"
+    ],
+    [
+      "WEB-MUN-0023",
+      "WEB-MUN-0071",
+      "same_doi_10.4225/72/585bea79cf9dd"
+    ]
+  ],
+  "already_indexed_duplicate_pairs": [
+    [
+      "WEB-MUN-0032",
+      "WEB-MUN-0088",
+      "same_bangladesh_archive_url"
+    ],
+    [
+      "WEB-MUN-0089",
+      "SRC-MMSC-000002",
+      "same_work"
+    ],
+    [
+      "WEB-MUN-0090",
+      "SRC-MMSC-000012",
+      "same_work"
+    ]
+  ],
+  "accounting_note": "Current MMSC index only subtracts three duplicates. Six additional exact-work duplicate pairs require reconciliation. Do not change controlled counts or declare an exact revised unique count until cross-register membership and all title/DOI/URL collisions are checked.",
+  "evidence_promotion": "none",
+  "release_gate": "NOT_PASS"
+}

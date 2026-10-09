@@ -1,0 +1,118 @@
+{
+  "run": 818,
+  "date_ist": "2026-10-08",
+  "branch": "mlhkp-v2",
+  "source_class_checks": [
+    {
+      "id": "818-1",
+      "source_class": "books",
+      "observation": "existing book candidates; no lawful new edition full text verified",
+      "state": "gap"
+    },
+    {
+      "id": "818-2",
+      "source_class": "dictionaries",
+      "observation": "CIIL/Bharatavani; entry-level manifestations and rights unresolved",
+      "state": "gap"
+    },
+    {
+      "id": "818-3",
+      "source_class": "grammars",
+      "observation": "N.K. Sinha 1975 CIIL Sanchika handle 20.500.14705/8179",
+      "state": "catalogue_verified"
+    },
+    {
+      "id": "818-4",
+      "source_class": "peer_reviewed_articles",
+      "observation": "Ghosh-Jerath 2021 Frontiers and 2025 BMC full text; exact-section audit committed",
+      "state": "exact_section_verified"
+    },
+    {
+      "id": "818-5",
+      "source_class": "theses_dissertations",
+      "observation": "Raonka Virginia Tech PDF page 2 abstract verified",
+      "state": "exact_page_verified"
+    },
+    {
+      "id": "818-6",
+      "source_class": "government_TRI",
+      "observation": "TRI Jharkhand; no new rights-cleared artifact verified",
+      "state": "gap"
+    },
+    {
+      "id": "818-7",
+      "source_class": "Census_LSI",
+      "observation": "OGD 2011 Jharkhand catalogue; LSI 1906 historical map; no cell-level Munda statistics verified",
+      "state": "metadata_only"
+    },
+    {
+      "id": "818-8",
+      "source_class": "archives",
+      "observation": "NCAA repository catalogue; recording rights/consent unresolved",
+      "state": "metadata_only"
+    },
+    {
+      "id": "818-9",
+      "source_class": "newspapers",
+      "observation": "2025 Sarhul news reports; event reporting not community-wide cultural validation",
+      "state": "context_only"
+    },
+    {
+      "id": "818-10",
+      "source_class": "web_resources",
+      "observation": "publisher, institutional and archive mirrors reconciled as manifestations",
+      "state": "canonicalized"
+    },
+    {
+      "id": "818-11",
+      "source_class": "datasets",
+      "observation": "Frontiers Figshare and Springer supplements; raw participant data not rehosted",
+      "state": "metadata_only"
+    },
+    {
+      "id": "818-12",
+      "source_class": "audio",
+      "observation": "historical recording leads; no consent-cleared timestamp content verified",
+      "state": "gap"
+    },
+    {
+      "id": "818-13",
+      "source_class": "video",
+      "observation": "Raonka 2019 Virginia Tech event video distinct from dissertation; no timestamp content verified",
+      "state": "metadata_only"
+    },
+    {
+      "id": "818-14",
+      "source_class": "maps",
+      "observation": "1906 Grierson LSI Munda languages map is historical family-level depiction",
+      "state": "metadata_only"
+    },
+    {
+      "id": "818-15",
+      "source_class": "relevant_media",
+      "observation": "media reuse, performer consent and cultural-access unverified",
+      "state": "gap"
+    }
+  ],
+  "counting_rule": "15 class checks are not new sources or evidence",
+  "new_permanent_identities": 0,
+  "controlled_promotions": 0,
+  "release_gate": "NOT_PASS",
+  "verified_urls": [
+    "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.600470/full",
+    "https://link.springer.com/article/10.1186/s40795-025-01159-2",
+    "https://vtechworks.lib.vt.edu/bitstream/handle/10919/111386/Raonka_P_D_2021.pdf",
+    "https://ncaa.gov.in/repository/",
+    "https://www.data.gov.in/catalog/villagetown-wise-primary-census-abstract-2011-jharkhand",
+    "https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg",
+    "https://vtechworks.lib.vt.edu/items/e755571a-2ff2-4dbe-9911-4bd233ac0d9e",
+    "https://indianexpress.com/article/explained/explained-culture/in-celebration-of-tribal-festival-sarhul-link-to-communities-history-politics-9915207/"
+  ],
+  "blocked": [
+    "EVD-000041 controlled locator update",
+    "status/mlhkp_progress.json sync",
+    "new test file"
+  ],
+  "continuation": "Reconcile source-family dependencies and 2025 published FFQ denominator inconsistency; do not promote unsupported cultural content."
+}

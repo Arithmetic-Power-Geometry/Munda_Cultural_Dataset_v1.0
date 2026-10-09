@@ -1,0 +1,72 @@
+{
+  "run": 218,
+  "date": "2026-09-11",
+  "branch": "mlhkp-v2",
+  "purpose": "Advance a non-Mundarica peer-reviewed Mundari source from discovery/metadata to an exact article-page locator while preserving repository-access and reuse-rights boundaries.",
+  "source_identity": {
+    "title": "Mundari: The myth of a language without word classes",
+    "authors": ["Nicholas Evans", "Toshiki Osada"],
+    "year": 2005,
+    "journal": "Linguistic Typology",
+    "volume": 9,
+    "issue": 3,
+    "pages": "351-390",
+    "doi": "10.1515/lity.2005.9.3.351",
+    "anu_handle": "1885/54663",
+    "anu_item_url": "https://openresearch-repository.anu.edu.au/items/baea6173-ca4e-4c52-af42-fc09a68e466b",
+    "anu_filename": "01_Evans_Mundari:_The_myth_of_a_2005.pdf",
+    "anu_reported_size": "234.31 KB",
+    "access_statement": "Open Access",
+    "published_version": true
+  },
+  "independent_metadata_corroboration": {
+    "anu_research_portal_pages": "351-390",
+    "anu_research_portal_doi": "10.1515/lity.2005.9.3.351",
+    "peer_reviewed_publication_identity_corroborated": true
+  },
+  "exact_locator": {
+    "article_page": 385,
+    "direct_repository_bitstream_endpoint": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/44a04bba-cc31-42d0-825c-c246efc99a93/content",
+    "indexed_full_text_observed": true,
+    "observed_passage_scope": "The article states three general requirements for claiming a single merged lexical class: bidirectional distributional equivalence, explicit semantic compositionality for argument/predicate uses, and exhaustiveness across the lexicon.",
+    "page_image_verified_in_this_run": false,
+    "byte_preserving_download_completed_in_this_run": false,
+    "independent_checksum_computed": false,
+    "direct_pdf_open_attempt_result": "HTTP 403 during direct open in the audit environment; the indexed repository text remained readable and exact-page locatable."
+  },
+  "rights_governance": {
+    "repository_access_state": "Open Access",
+    "repository_rights_note_observed": "ANU metadata records that the publisher version/PDF may be used on author personal websites, editor personal websites or institutional repositories, citing SHERPA/RoMEO as observed by ANU.",
+    "rights_note_interpreted_as_general_redistribution_license": false,
+    "model_training_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "verification_boundary": {
+    "bibliographic_identity_verified": true,
+    "doi_verified": true,
+    "institutional_repository_manifestation_verified": true,
+    "exact_article_page_locator_verified_from_indexed_repository_text": true,
+    "page_image_verified": false,
+    "local_bytes_verified": false,
+    "independent_hash_verified": false,
+    "linguistic_claim_promoted_to_public_evidence_graph": false,
+    "cultural_claim_promoted": false,
+    "source_identity_count_changed": false
+  },
+  "release_effect": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "source_claims": 52,
+    "evidence_records": 52,
+    "evidence_links": 52,
+    "streamlit_modules": 42,
+    "counts_changed": false,
+    "release_gate": "NOT_PASS"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "run": 791,
+  "date_utc": "2026-10-07",
+  "branch": "mlhkp-v2",
+  "stream": "MLHKP non-Mundarica source census",
+  "source_class": [
+    "dataset",
+    "parallel corpus",
+    "research artifact"
+  ],
+  "canonical_identity": "HF|misniitdelhi/AdiBhasha|MUNDARI",
+  "title": "AdiBhashaa: A Community-Curated Benchmark for Machine Translation into Indian Tribal Languages",
+  "creators": [
+    "Pooja Singh",
+    "Sandeep Kumar"
+  ],
+  "year": 2025,
+  "arxiv": "2512.04765",
+  "provider": "Hugging Face",
+  "provider_record": "misniitdelhi/AdiBhasha",
+  "metadata_verified": {
+    "total_release_pairs_provider_reported": 80000,
+    "mundari_file": "data/mundari/mundari-train.csv",
+    "mundari_pairs_provider_reported_approx": 20150,
+    "source_language": "Hindi",
+    "target_language": "Mundari",
+    "script": "Devanagari",
+    "provider_iso_label": "unv",
+    "license": "CC BY-NC-SA 4.0",
+    "workflow": [
+      "source curation",
+      "native-speaker community translation",
+      "independent validation"
+    ],
+    "domains": [
+      "Education",
+      "Governance",
+      "Healthcare",
+      "News",
+      "Social"
+    ]
+  },
+  "audit_findings": [
+    "Repository code search returned no indexed AdiBhasha match at audit time; this is a reconciliation signal, not proof of absence.",
+    "Provider metadata is sufficient to verify dataset identity and a Mundari manifestation path, but not to promote row-level evidence without obtaining and inspecting the exact manifestation.",
+    "Provider labels Mundari ISO as unv; MLHKP must not silently normalize this to another code without an explicit language-identity reconciliation.",
+    "CC BY-NC-SA 4.0 supports noncommercial reuse subject to licence terms, but dataset licensing does not itself establish participant consent, community authority, or unrestricted cultural reuse.",
+    "The dataset must not be treated as evidence of Munda cultural practices merely because source domains include social or culturally appropriate material."
+  ],
+  "scope": {
+    "classification": "Mundari linguistic/translation evidence candidate",
+    "cultural_claims_allowed": false,
+    "geography": "India; finer translator/locality provenance unresolved",
+    "variety": "unresolved"
+  },
+  "gates": {
+    "exact_manifestation_obtained": false,
+    "immutable_hash": false,
+    "row_count_locally_verified": false,
+    "row_level_locators": false,
+    "translator_locality_verified": false,
+    "variety_verified": false,
+    "participant_consent_verified": false,
+    "community_authority_verified": false,
+    "cultural_access_verified": false,
+    "deterministic_mmsc_webmun_reconciliation": false
+  },
+  "promotion": {
+    "source_identity_delta": 0,
+    "claims_delta": 0,
+    "evidence_delta": 0,
+    "links_delta": 0,
+    "modules_delta": 0,
+    "reason": "Count-neutral audit only. Promote only after deterministic ledger reconciliation and permitted exact-row inspection."
+  },
+  "next_actions": [
+    "Obtain the permitted Mundari CSV manifestation and capture byte size and SHA-256.",
+    "Verify exact row count and stable row locators without publishing restricted personal information.",
+    "Inspect dataset/paper documentation for translator/validator provenance, consent, variety and locality.",
+    "Reconcile provider ISO label unv against MLHKP language-identity policy without silent correction.",
+    "Reconcile against MMSC/WEB-MUN and prior Karya/Adi Vaani/parallel-corpus families before controlled identity assignment.",
+    "Promote only supported linguistic translation evidence; do not infer cultural practice."
+  ]
+}

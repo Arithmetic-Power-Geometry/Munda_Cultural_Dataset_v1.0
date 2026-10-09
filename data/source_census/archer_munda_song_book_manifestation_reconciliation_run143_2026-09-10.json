@@ -1,0 +1,98 @@
+{
+  "record_type": "manifestation_reconciliation_and_exact_locator_upgrade",
+  "stream": "books_folklore_song_collection",
+  "checked_utc": "2026-09-10T01:50:00Z",
+  "branch": "mlhkp-v2",
+  "canonical_work_candidate": {
+    "title": "A Munda song book",
+    "responsibility_catalogued": "W. G. Archer (compiler)",
+    "work_id_open_library": "OL1261161W",
+    "language_scope": "Mundari-language song collection; catalogue language labeling is not treated as content-level verification"
+  },
+  "manifestations": [
+    {
+      "manifestation_id": "ARCHER-MUNDA-SONG-1942-UNITED-PRESS-PATNA",
+      "publication_year": 1942,
+      "publisher": "United Press, Ltd.",
+      "place": "Patna",
+      "open_library_edition_id": "OL6506296M",
+      "lccn": "46029131",
+      "oclc": "4512074",
+      "lc_class": "PL4559 .Z77 1942",
+      "catalogued_pagination": "2 preliminary leaves, ii pages, 1 leaf, 520 (i.e. 550) pages",
+      "catalogue_notes": [
+        "Title/subtitle/imprint matter reported in Mundari.",
+        "Pagination reported in Mundari numerals.",
+        "Without music."
+      ],
+      "verified_sources": [
+        "https://openlibrary.org/books/OL6506296M/A_Munda_song_book",
+        "https://search.worldcat.org/title/4512074"
+      ],
+      "verification_state": "two_catalogue_sources_agree_on_1942_united_press_patna_manifestation"
+    },
+    {
+      "manifestation_id": "ARCHER-MUNDA-SONG-C1940S-CATHOLIC-PRESS-RANCHI-CANDIDATE",
+      "publication_year": null,
+      "date_note": "seller describes undated copy as circa 1940s",
+      "publisher": "The Catholic Press",
+      "place": "Ranchi",
+      "title_as_listed": "A Munda Song Book With A Preface By W. G. Archer",
+      "source": "https://www.abebooks.com/Munda-Song-Book-Preface-Archer-Catholic/30647463146/bd",
+      "verification_state": "secondary_bookseller_manifestation_candidate_only",
+      "identity_warning": "Do not merge with the 1942 United Press/Patna manifestation until an institutional catalogue, title page, colophon, or other primary bibliographic object independently establishes edition/reprint relationship."
+    }
+  ],
+  "secondary_context_leads": [
+    {
+      "title": "Sen Ge Susun, Kaji Ge Duran",
+      "creator": "T. S. C. Hans",
+      "year": 1990,
+      "publisher": "Project Vikas",
+      "pages": 78,
+      "locator": "https://books.google.com/books?id=HXEOAAAAYAAJ",
+      "use": "bibliographic/context lead only; not treated as proof of Archer volume editorship, song count, or manifestation relationship"
+    }
+  ],
+  "deterministic_deduplication": {
+    "existing_record": "data/source_census/archer_munda_song_book_catalogue_verification_2026-09-09.json",
+    "new_source_identity_created": false,
+    "decision": "Run 143 upgrades the existing Archer song-book stream by separating a verified 1942 United Press/Patna manifestation from an undated Catholic Press/Ranchi bookseller-listed candidate. It does not add a new audited identity or web-lead count.",
+    "dedupe_keys": [
+      "OL:OL6506296M",
+      "LCCN:46029131",
+      "OCLC:4512074"
+    ]
+  },
+  "rights_access_governance": {
+    "full_text_obtained": false,
+    "redistribution_permission_verified": false,
+    "public_domain_assumed": false,
+    "song_level_participant_or_collector_consent_verified": false,
+    "community_validation_inferred": false,
+    "sacred_restricted_or_sensitive_song_status_reviewed": false,
+    "cultural_access_status": "unreviewed_at_song_item_level",
+    "cultural_access_overrides_legal_or_technical_entitlement": true
+  },
+  "promotion_boundary": {
+    "promoted": [
+      "bibliographic identifiers and physical-description metadata for the 1942 United Press/Patna manifestation",
+      "existence of a distinct Catholic Press/Ranchi manifestation candidate as a bibliographic discrepancy requiring reconciliation"
+    ],
+    "not_promoted": [
+      "song text",
+      "song count",
+      "authorship/editorial responsibility beyond verified catalogue role",
+      "performance or ritual meaning",
+      "representativeness or authenticity",
+      "community endorsement",
+      "reuse permission"
+    ]
+  },
+  "next_safe_actions": [
+    "Locate an institutional catalogue or inspectable title-page/colophon for the Catholic Press/Ranchi candidate.",
+    "Locate a lawful inspectable 1942 manifestation and independently record checksum/page accounting before any passage-level extraction.",
+    "Resolve collector/editor/contributor roles only from primary or authoritative bibliographic evidence.",
+    "Apply song-level cultural-access review before any future textual or semantic ingestion."
+  ]
+}

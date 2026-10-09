@@ -1,0 +1,97 @@
+{
+  "run": 811,
+  "branch": "mlhkp-v2",
+  "date_ist": "2026-10-08",
+  "record_type": "non_mundarica_original_pdf_exact_locator_ingestion_audit",
+  "source": {
+    "canonical_key": "ACL:2025.mmloso-1.11",
+    "title": "Challenge Track: Breaking Language Barriers: Adapting NLLB-200 and mBART for Bhilli, Gondi, Mundari, and Santali Without Source Language Proficiency",
+    "authors": {
+      "anthology": "Paul Kamau",
+      "pdf_title_page": "Paul Nganga Kamau"
+    },
+    "year": 2025,
+    "venue": "MMLoSo 2025",
+    "publisher": "Association for Computational Linguistics",
+    "pages": "106-108",
+    "url": "https://aclanthology.org/2025.mmloso-1.11/",
+    "pdf": "https://aclanthology.org/2025.mmloso-1.11.pdf",
+    "license": "CC BY 4.0 (ACL Anthology materials published 2016 onward)",
+    "source_class": "peer_reviewed_conference_paper_low_resource_machine_translation",
+    "scope": "multilingual NLP experiment including Mundari, Bhilli, Gondi and Santali; not a Munda cultural ethnography"
+  },
+  "exact_locator_candidates": [
+    {
+      "locator": "printed p. 106 / PDF p. 1, Section II.A, Unified Bidirectional Training",
+      "kind": "method",
+      "proposition": "The author reports approximately 20,000 sentence pairs per language direction and concatenation of forward and reverse translation pairs.",
+      "boundary": "author-reported approximate task-level quantity; not independently audited and not a Mundari-only count"
+    },
+    {
+      "locator": "printed p. 106 / PDF p. 1, Section II.C, Language Token Extension",
+      "kind": "method",
+      "proposition": "The study defines the model's custom Mundari token as __mundari_Deva__.",
+      "boundary": "model implementation convention only; does not establish a universal Mundari script"
+    },
+    {
+      "locator": "printed p. 107 / PDF p. 2, Section II.D, Model Architectures and Fine-Tuning",
+      "kind": "method",
+      "proposition": "The paper reports NLLB-200-distilled-600M primary generation, mBART-large-50 secondary generation and 25,000 NLLB training steps.",
+      "boundary": "paper-reported configuration; training artifacts not independently rerun"
+    },
+    {
+      "locator": "printed p. 107 / PDF p. 2, Section III.B, Conservative Ensemble",
+      "kind": "method",
+      "proposition": "The author describes replacing NLLB output with mBART output only when an under- or over-generation length-ratio trigger fires and the replacement falls within the 0.3–3.0 length-ratio window.",
+      "boundary": "method description only; not a validated translation correctness guarantee"
+    },
+    {
+      "locator": "printed p. 107 / PDF p. 2, Section IV, Table 1",
+      "kind": "reported_result",
+      "proposition": "The paper reports private leaderboard scores of 156.29 (mBART baseline), 174.01 (raw NLLB) and 179.49 (NLLB plus cleaning and conservative ensemble).",
+      "boundary": "shared-task combined score across language directions; not a Mundari-only performance measure"
+    },
+    {
+      "locator": "printed p. 108 / PDF p. 3, Acknowledgment",
+      "kind": "provenance",
+      "proposition": "The author states the work was conducted independently using Kaggle and Google Colab resources.",
+      "boundary": "author statement; not an independently verified computation audit"
+    }
+  ],
+  "identity_reconciliation": {
+    "required": true,
+    "canonicalization_state": "candidate_only",
+    "check_against": [
+      "data/source_census/mmsc_discoveries.json",
+      "data/source_census/web_discovery_seed_2026-09-06.json",
+      "data/source_census/web_discovery_expansion_*",
+      "data/source_census/search_log_run*.jsonl"
+    ],
+    "count_new_identity": 0
+  },
+  "rights_governance": {
+    "article_license": "CC BY 4.0",
+    "underlying_competition_dataset_rights": "not independently verified",
+    "speaker_consent": "not assessed",
+    "translation_examples_redistributed": false,
+    "cultural_knowledge_claims_promoted": false,
+    "scope_uncertainty_preserved": true
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "reconciliation_issue": {
+    "index": "data/source_census/mmsc_index.json",
+    "field": "metrics.search_log_entries_primary",
+    "tracked_value": 30,
+    "observed_valid_unique_rows": 28,
+    "primary_log": "data/source_census/search_log.jsonl",
+    "update_state": "attempted_but_blocked"
+  },
+  "release_gate": "NOT_PASS",
+  "notes": "Exact printed-page locators checked in ACL publisher PDF; candidates are suitable for later controlled promotion only after canonical family reconciliation, source/claim schema validation, and evidence graph integration. No Munda-specific cultural or population claim is made."
+}

@@ -1,0 +1,83 @@
+{
+  "run": 515,
+  "audit_date_utc": "2026-09-19T21:45:00Z",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "author": "Walter Anthony Cook, S.J.",
+    "year": 1965,
+    "title": "A Descriptive Analysis of Mundari: A Study of the Structure of the Mundari Language According to the Methods of Linguistic Science, with Particular Attention to the Units of Sound, the Units of Meaning, the Units of Grammar, and Their Mutually Contrastive Arrangement Patterns",
+    "type": "PhD dissertation / grammar",
+    "institution": "Georgetown University",
+    "extent": "vi + 315 pages; illustrations and maps reported by bibliographic authority",
+    "language_scope": "Mundari [unr]",
+    "identifiers": {
+      "oclc": "2158118",
+      "university_microfilms": "65-12,509",
+      "glottolog_reference_ids": ["33106", "152623"]
+    }
+  },
+  "identity_verification": {
+    "status": "verified_bibliographic_identity",
+    "authoritative_or_scholarly_records": [
+      "Glottolog 5.3 reference 33106",
+      "Glottolog 5.3 reference 152623",
+      "Kiel South Asia bibliography: Mundari"
+    ],
+    "notes": "Glottolog records the Georgetown University dissertation, vi+315 pages, Mundari [unr], OCLC 2158118 and University Microfilms 65-12,509. Kiel independently lists Cook 1965 as a PhD dissertation on Mundari. Census of India Jharkhand bibliography cites the work as a University Microfilms manifestation but gives 1966; this year discrepancy is retained rather than silently normalized."
+  },
+  "manifestations_and_deduplication": {
+    "canonicalization_rule": "Georgetown dissertation, UMI microfilm, catalogue records, bibliographic records and web-hosted reproductions are manifestations/references to one intellectual source unless edition evidence proves otherwise.",
+    "known_manifestations_or_records": [
+      "Georgetown University PhD dissertation (1965)",
+      "University Microfilms 65-12,509",
+      "Glottolog/CLDF/HH/MPI EVA catalogue records",
+      "Census of India Jharkhand bibliography citation",
+      "unverified third-party full-text web reproduction"
+    ],
+    "year_discrepancy": "Primary scholarly catalogues give 1965; Census Jharkhand bibliography gives 1966. Preserve both observations pending manifestation-level reconciliation."
+  },
+  "scope_classification": {
+    "direct_mundari": true,
+    "class": ["thesis_dissertation", "grammar", "linguistics"],
+    "candidate_domains": ["phonetics", "phonology", "morphology", "grammar", "syntax", "semantics", "language_description"],
+    "cultural_authority": "not_inferred_from_grammar_status"
+  },
+  "rights_access_consent_cultural_review": {
+    "copyright_status": "copyrighted_or_unresolved",
+    "redistribution_permission": "not_verified",
+    "lawful_complete_manifestation_for_ingestion": "not_yet_established",
+    "participant_or_consultant_consent": "unresolved",
+    "cultural_access": "unresolved_for_passage_level_content",
+    "third_party_copy_policy": "Do not ingest or redistribute from an unverified mirror merely because searchable text is exposed."
+  },
+  "dependency_review": {
+    "status": "requires_passage_level_review",
+    "classes_required": [
+      "author_primary_or_original_analysis",
+      "Hoffmann_or_Mundarica_derived",
+      "other_secondary_source_derived",
+      "mixed",
+      "unresolved"
+    ],
+    "rule": "Cook 1965 is not automatically independent corroboration of Mundarica or earlier grammars; independence must be assigned at exact-passage/example level."
+  },
+  "exact_locator_ingestion": {
+    "promoted_claims": 0,
+    "promoted_evidence_records": 0,
+    "reason": "No lawful immutable complete manifestation with locally verified SHA-256 and page concordance was established in this run; passage-level provenance/dependency and rights review therefore remain open.",
+    "required_locator": "manifestation identifier + local SHA-256 + dissertation printed page + file/scan page + section/example locator where applicable + dependency class",
+    "next_action": "Obtain a lawful authoritative Georgetown/UMI/library manifestation, compute local SHA-256, concord file pages to printed pagination, inspect exact candidate passages and promote only supported permitted evidence."
+  },
+  "audit_invariants": [
+    "catalogue metadata is not exact-locator evidence",
+    "third-party searchable full text is not permission to ingest or redistribute",
+    "dissertation identity does not establish participant consent",
+    "Cook 1965 is not automatically independent of Hoffmann/Mundarica at passage level",
+    "1965 versus 1966 manifestation/citation discrepancy remains explicit until reconciled"
+  ],
+  "controlled_metric_effect": {
+    "change": "none",
+    "reason": "Runs 381-515 require deterministic reconciliation against the WEB-MUN ledger before controlled counts may change."
+  },
+  "release_effect": "gap narrowed from unresolved bibliographic lead to verified canonical source identity with explicit acquisition, rights, locator and dependency gates; release gate remains NOT_PASS"
+}

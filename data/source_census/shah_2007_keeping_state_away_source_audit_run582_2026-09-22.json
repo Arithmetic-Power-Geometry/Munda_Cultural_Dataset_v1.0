@@ -1,0 +1,57 @@
+{
+  "audit_run": 582,
+  "audit_date": "2026-09-22",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "author": "Alpa Shah",
+    "title": "‘Keeping the state away’: democracy, politics, and the state in India's Jharkhand",
+    "year": 2007,
+    "source_class": ["peer-reviewed article", "anthropology", "politics/governance"],
+    "journal": "Journal of the Royal Anthropological Institute",
+    "volume": "13",
+    "issue": "1",
+    "pages": "129-145",
+    "doi": "10.1111/j.1467-9655.2007.00417.x",
+    "publisher_landing_page": "https://rai.onlinelibrary.wiley.com/doi/10.1111/j.1467-9655.2007.00417.x",
+    "first_published_online": "2007-02-08"
+  },
+  "identity_verification": {
+    "verified_from_publisher_metadata": true,
+    "scope_from_publisher_abstract": "Munda participation in electoral/state politics in Jharkhand, including locally situated representations of the state and parha.",
+    "full_text_inspected_in_this_run": false
+  },
+  "deduplication": {
+    "repository_exact_doi_search_before_ingestion": "no match",
+    "canonical_key": "doi:10.1111/j.1467-9655.2007.00417.x",
+    "rule": "DOI/publisher manifestations and bibliographic mirrors are one work identity; cited works are not independent evidence until directly inspected."
+  },
+  "rights_access": {
+    "publisher_page_publicly_discoverable": true,
+    "full_text_reuse_permission_verified": false,
+    "redistribution_permitted": false,
+    "note": "Public bibliographic/abstract access is not treated as permission to redistribute article text or PDF."
+  },
+  "cultural_governance": {
+    "community_validation_claimed": false,
+    "consent_scope_verified": false,
+    "cultural_access_review_required_for_sensitive_or_group-generalizing_propositions": true,
+    "uncertainty_note": "Article-level abstract statements must not be generalized to all Munda communities, places, periods, or institutions."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "binary_files_added": 0,
+    "reason": "Publisher metadata and abstract support source identity/scope only. Exact proposition locators require lawful full-text inspection and contextual qualification."
+  },
+  "exact_locator_queue": [
+    "obtain lawful full text through permitted access",
+    "hash local manifestation if retention is permitted",
+    "establish print/PDF page concordance",
+    "locate each candidate proposition to exact page/section",
+    "distinguish author's ethnographic observations/analysis from inherited citations",
+    "record field-site, temporal, participant and institutional scope",
+    "apply consent/dignity/cultural-access and redistribution gates before promotion"
+  ],
+  "release_effect": "new canonical peer-reviewed source audit; no controlled metric increment pending deterministic reconciliation and exact-locator conversion"
+}

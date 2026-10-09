@@ -1,0 +1,93 @@
+{
+  "run": 647,
+  "audit_type": "non_mundarica_source_census_exact_locator_audit",
+  "branch": "mlhkp-v2",
+  "canonical_identity": {
+    "title": "Ethnographic Study: The Munda Tribe Of Hahap Village, Ranchi, Jharkhand",
+    "author": "Mukul Bara",
+    "affiliation": "Banaras Hindu University",
+    "year": 2023,
+    "journal": "International Journal of Research and Analytical Reviews (IJRAR)",
+    "volume": "10",
+    "issue": "2",
+    "article_id": "IJRAR23B1080",
+    "printed_pages": "643-665",
+    "pdf_pages": 23,
+    "authoritative_manifestation": "https://www.ijrar.org/papers/IJRAR23B1080.pdf"
+  },
+  "scope": {
+    "community": "Munda",
+    "place": "Hahap village, Namkum block, Ranchi district, Jharkhand",
+    "fieldwork": "November-March 2019-2020 and January-March 2021",
+    "methods": [
+      "participant observation",
+      "in-depth interview",
+      "archival/secondary research"
+    ],
+    "scope_warning": "Single-village ethnography; do not generalize observations to all Munda communities."
+  },
+  "exact_locators": [
+    {
+      "printed_page": 644,
+      "pdf_page": 2,
+      "section": "Methodology / Research Tools / Participant Observation / In-depth Interview",
+      "support": "ethnographic approach; primary and secondary data; participant observation and interviews; fieldwork duration/locality"
+    },
+    {
+      "printed_page": 645,
+      "pdf_page": 3,
+      "section": "Selection of Village",
+      "support": "Hahap selection and Namkum/Ranchi geographic scope"
+    },
+    {
+      "printed_page": 646,
+      "pdf_page": 4,
+      "section": "The Study Area, People and Settlement Pattern",
+      "support": "study-area observations and attributed oral account; propositions require atomization and dependency/cultural-access review"
+    }
+  ],
+  "rights_access": {
+    "pdf_publicly_readable": true,
+    "redistribution_permission_verified": false,
+    "license_verified": false,
+    "binary_ingestion": "NO"
+  },
+  "consent_cultural_governance": {
+    "participant_consent_statement_verified": false,
+    "community_reuse_permission_verified": false,
+    "sensitive_oral_narrative_present": true,
+    "decision": "Do not promote oral/cultural propositions until consent/cultural-access review."
+  },
+  "quality_dependency": {
+    "primary_fieldwork_present": true,
+    "secondary_material_mixed": true,
+    "notes": [
+      "Article contains apparent editorial/data-quality issues, including 'Census-2911' typo in abstract and an internal 'Lodhma village' wording inconsistency in Selection of Village; preserve source text and do not silently normalize.",
+      "Census-derived figures should canonicalize to Census evidence rather than be treated as independent ethnographic corroboration."
+    ]
+  },
+  "repository_dedup": {
+    "queries": [
+      "IJRAR23B1080",
+      "exact title",
+      "Mukul Bara",
+      "Hahap"
+    ],
+    "results": "zero matches in available GitHub default-branch code search; branch-wide absence not proven"
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claims_delta": 0,
+    "evidence_delta": 0,
+    "links_delta": 0,
+    "binaries_delta": 0,
+    "reason": "Exact-locator ready but rights, consent/cultural-access, proposition dependency and deterministic MMSC reconciliation remain."
+  },
+  "next_actions": [
+    "atomize only field-supported propositions with printed-page locators",
+    "separate Census/secondary claims from direct observation/interview evidence",
+    "resolve publisher reuse terms",
+    "review participant consent and cultural-access status",
+    "reconcile against WEB-MUN/MMSC before controlled count changes"
+  ]
+}

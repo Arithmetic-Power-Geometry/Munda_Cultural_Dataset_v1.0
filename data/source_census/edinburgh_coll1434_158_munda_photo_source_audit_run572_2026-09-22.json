@@ -1,0 +1,13 @@
+{
+  "run":572,
+  "audit_date":"2026-09-22",
+  "stream":"non-Mundarica source census",
+  "source_class":["archive","photograph","historical visual media"],
+  "canonical_identity":{"title_as_catalogued":"Monda [Munda] Men, Aboriginial Tribe, al-Ranchi, Chota, Nagpur, India, 1870s-1930s","repository":"University of Edinburgh ArchivesSpace","identifier":"Coll-1434/158","date_range_as_catalogued":"1870s-1930s","extent":"1 slide, 83mm by 83mm","geographic_subject":"Ranchi (India)","catalogue_url":"https://archives.collections.ed.ac.uk/repositories/2/archival_objects/24084"},
+  "deduplication":{"repository_search_key":"Coll-1434/158","existing_match_found":false,"rule":"Catalogue, surrogate, thumbnail, citation, mirror and reproduction remain manifestations of one archival item unless distinct provenance is demonstrated."},
+  "scope":{"direct_munda_relevance":true,"mundari_language_evidence":false,"historical_visual_candidate":true,"temporal_uncertainty":"broad catalogue range; exact exposure date unverified"},
+  "governance":{"catalogue_access":"open","binary_redistribution_permission_verified":false,"depicted_person_permission_verified":false,"community_permission_verified":false,"cultural_access_status":"unverified","note":"Historical catalogue terminology is retained only as source metadata. Context, dignity, cultural sensitivity and reuse rights require review before public image exposure or derived cultural claims."},
+  "promotion":{"claims":0,"evidence_records":0,"binaries":0,"reason":"Catalogue identity is verified, but manifestation rights, exact date/context and proposition-level interpretation were not verified."},
+  "conversion_queue":["inspect an authorized surrogate if available","record stable archival and surrogate identifiers","verify date and provenance where documentation permits","verify reuse rights separately from catalogue access","perform dignity and cultural-access review","if permitted create image-region/object locators only for directly observable features","do not infer ceremony, clan, status, religion or pan-Munda practice from appearance without independent evidence"],
+  "status":"discovery_audit_only_pending_manifestation_rights_context_review"
+}

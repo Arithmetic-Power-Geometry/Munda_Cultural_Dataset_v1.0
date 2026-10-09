@@ -1,0 +1,70 @@
+{
+  "run_id": 292,
+  "date_utc": "2026-09-13",
+  "stream": "grammar / government-CIIL repository exact-locator audit",
+  "source": {
+    "title": "Mundari Grammar",
+    "author": "N. K. Sinha",
+    "publication_year": 1975,
+    "repository": "Bhasha Sanchika — CIIL Repository",
+    "institution": "Central Institute of Indian Languages, Department of Higher Education, Ministry of Education, Government of India",
+    "persistent_handle": "https://hdl.handle.net/20.500.14705/8179",
+    "repository_item_url": "https://sanchika.ciil.org/items/fbcbbbce-de00-49df-a5df-76c49b2d0205",
+    "repository_file_name": "CIILP0091.pdf",
+    "repository_reported_file_size": "9.63 KB",
+    "repository_languages": ["English", "Mundari"],
+    "repository_date_accessioned": "2022-03-04T07:14:17Z"
+  },
+  "identity_and_metadata_verification": {
+    "first_party_repository_metadata_verified": true,
+    "persistent_handle_verified": true,
+    "file_level_locator_verified": true,
+    "author_year_title_verified": true,
+    "crosscheck_wals_reference": {
+      "citation": "Sinha, N. K. 1975. Mundari Grammar. CIIL Grammar Series 2. Mansagangotri, Mysore: Central Institute of Indian Languages.",
+      "supports_same_work_identity": true
+    }
+  },
+  "access_and_rights": {
+    "repository_page_publicly_accessible": true,
+    "repository_footer_rights_notice": "© 2026 Bhasha Sanchika. All Rights Reserved",
+    "direct_pdf_fetch_succeeded_this_run": false,
+    "direct_pdf_fetch_state": "repository bitstream request returned a cache-miss/fetch failure in the available retrieval path",
+    "pdf_bytes_acquired": false,
+    "independent_hash_verified": false,
+    "page_count_verified_from_bytes": false,
+    "ocr_verified": false,
+    "bulk_text_reuse_permission_verified": false,
+    "public_availability_treated_as_redistribution_permission": false,
+    "public_availability_treated_as_model_training_permission": false
+  },
+  "scope_and_cultural_boundary": {
+    "scope": "Mundari grammar / pedagogical linguistic description",
+    "repository_description_used_as_metadata_only": true,
+    "linguistic_examples_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "canonicalization": {
+    "canonical_key": "CIIL:SINHA:1975:MUNDARI_GRAMMAR",
+    "new_controlled_source_identity": false,
+    "reason": "Exact manifestation/repository refinement of a known Mundari grammar work; do not inflate controlled counts until reconciled against the existing MMSC identity register."
+  },
+  "promotion": {
+    "promotion_level": "exact first-party repository + persistent-handle + file locator evidence",
+    "controlled_source_identity_count_change": false,
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "controlled_evidence_links_added": 0,
+    "primary_text_promoted": 0,
+    "ocr_text_promoted": 0
+  },
+  "explicit_gaps": [
+    "Acquire CIILP0091.pdf through a permitted byte-preserving path.",
+    "Independently compute a cryptographic hash and verify the PDF structure/page inventory.",
+    "Resolve exact reuse/redistribution conditions before any bulk textual ingestion.",
+    "Do not infer participant consent, community validation or cultural-access permission from repository availability."
+  ]
+}

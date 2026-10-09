@@ -1,0 +1,40 @@
+{
+  "audit_id": "MLHKP-RUN375-LANGUAGESHOME-AUDIO-DISCOVERY",
+  "date_utc": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "source_class": ["web_resource", "audio", "relevant_media"],
+  "provider_locator": "https://www.languageshome.com/New/english-mundari/",
+  "discovery_status": "unique_web_lead_unresolved_not_audited_identity",
+  "provider_visible_metadata": {
+    "page_title": "Learn Mundari – Audio",
+    "resource_scope": "English-Mundari basic words and sentences with directly linked MP3 audio",
+    "example_direct_audio_locator": "https://www.languageshome.com/Mundari_Audio/01.mp3",
+    "speaker_identity_visible_in_verified_surface": false,
+    "recording_provenance_visible_in_verified_surface": false,
+    "item_level_license_visible_in_verified_surface": false
+  },
+  "verification_boundary": {
+    "audio_bytes_materialized": false,
+    "cryptographic_hash_verified": false,
+    "deterministic_item_inventory_completed": false,
+    "transcription_or_translation_source_verified": false,
+    "speaker_consent_verified": false,
+    "privacy_publicity_rights_verified": false,
+    "community_validation_verified": false,
+    "cultural_access_authorized": false,
+    "public_claims_promoted": 0
+  },
+  "canonicalization": {
+    "distinct_from_karya_mundari_tts": true,
+    "distinct_from_kera_mundari_talking_dictionary": true,
+    "action": "retain as one unresolved provider-family lead; do not split individual MP3 links into independent source identities"
+  },
+  "governance_note": "Public playback/download locators do not establish reuse permission, speaker consent, provenance, community validation, or cultural-access authorization. No lexical, grammatical, cultural, or demographic claim is promoted from this surface.",
+  "next_safe_actions": [
+    "resolve provider terms and item-level reuse status",
+    "inventory direct Mundari audio locators deterministically without inflating source identities",
+    "materialize/hash audio only if permission is established",
+    "resolve speaker/recording provenance and consent/privacy/publicity status",
+    "promote exact-locator evidence only after source quality and governance checks pass"
+  ]
+}

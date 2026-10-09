@@ -1,0 +1,70 @@
+{
+  "run": 660,
+  "date_utc": "2026-09-29",
+  "branch": "mlhkp-v2",
+  "stream": "non-Mundarica source census",
+  "source": {
+    "canonical_title": "The Role of Murma Jatra in Shaping Social Entrepreneurship: Motivations and Challenges Faced by Rural Women and Copreneurs in Jharkhand, India",
+    "authors": [
+      "Kanaya Mahanti",
+      "Nitesh Bhatia"
+    ],
+    "journal": "South Asian Journal of Management",
+    "volume_issue": "32(1)",
+    "year": 2025,
+    "pages": "122-146",
+    "doi": "10.62206/sajm.32.1.2025.122-146",
+    "source_class": [
+      "peer-reviewed article",
+      "web resource"
+    ],
+    "scope": "Murma Jatra, Jharkhand; abstract explicitly names Oraon and Munda communities; not Munda-exclusive",
+    "authoritative_record": "https://sajm-amdisa.org/component/content/article/192"
+  },
+  "verification": {
+    "metadata_verified_from_journal_record": true,
+    "abstract_locator": "journal HTML abstract",
+    "abstract_reports": [
+      "Murma Jatra is described as an annual two-day fair at Murma Village, Jharkhand.",
+      "The abstract frames the fair as involving Oraon and Munda communities.",
+      "The study reports an exploratory qualitative design using semi-structured interviews with social entrepreneurs."
+    ],
+    "proposition_promotion": "none",
+    "reason": "Only abstract-level text was lawfully inspected in this run. Munda-specific participant denominators, interview locators, consent/ethics, dependency, reuse terms and full-text page concordance remain unresolved."
+  },
+  "deduplication": {
+    "queries": [
+      "10.62206/sajm.32.1.2025.122-146",
+      "Murma Jatra",
+      "Mahanti Bhatia"
+    ],
+    "indexed_matches": 0,
+    "github_search_incomplete_results": true,
+    "canonicalization_status": "candidate new identity; repository-wide absence not asserted"
+  },
+  "governance": {
+    "public_access_equals_redistribution_permission": false,
+    "consent_status": "unverified",
+    "cultural_access_status": "unverified",
+    "rights_status": "full-text/reuse terms not established",
+    "uncertainty_preserved": true
+  },
+  "exact_locator_conversion": {
+    "achieved_level": "authoritative journal HTML abstract",
+    "next_required": [
+      "obtain lawful authoritative full text",
+      "hash manifestation and establish printed/PDF page concordance",
+      "identify Munda-specific participant/locality statements",
+      "inspect ethics/consent and cultural-access implications",
+      "atomize only supported propositions with exact page/table/interview locators"
+    ]
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "release_effect": "gap reduced by verified source identity and conversion path; controlled metrics unchanged"
+}

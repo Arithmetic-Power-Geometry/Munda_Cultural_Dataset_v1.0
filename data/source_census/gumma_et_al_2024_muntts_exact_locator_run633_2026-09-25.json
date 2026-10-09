@@ -1,0 +1,20 @@
+{
+  "run": 633,
+  "audit_type": "exact_locator_source_audit",
+  "title": "MunTTS: A Text-to-Speech System for Mundari",
+  "year": 2024,
+  "doi": "10.18653/v1/2024.computel-1.11",
+  "anthology_id": "2024.computel-1.11",
+  "scope": "Mundari language; study variety Jharkhand; Devanagari script; peer-reviewed article plus related speech-corpus lineage",
+  "exact_locators": [
+    {"printed_page": 76, "section": "Introduction", "support": "Jharkhand Mundari in Devanagari; 15,656 unique sentences; paper reports 26,868 recordings and 27.51 hours."},
+    {"printed_page": 77, "section": "3 Data / Table 1", "support": "Data collection and speaker-selection procedure, recording format, split metrics, and final corpus totals."}
+  ],
+  "canonicalization": "ACL article/PDF/video, arXiv, Microsoft project entry, Karya repository and corpus/sample are related research/data-lineage manifestations, not independent corroborating cultural sources.",
+  "repository_precheck": "No match surfaced for MunTTS, author string, DOI, 26,868, or Mundari TTS before insertion.",
+  "rights_access": "ACL full text is openly readable. Karya describes the corpus under its non-commercial public license; reuse must follow the actual license terms.",
+  "scope_caution": "Use as linguistic and speech-technology evidence only; do not generalize to unrelated Munda cultural practices.",
+  "promotion": {"controlled_claims_added": 0, "evidence_records_added": 0, "binaries_added": 0, "reason": "Await deterministic MMSC reconciliation and rights/provenance/dependency review."},
+  "discrepancy_note": "Peer-reviewed paper reports 26,868 recordings; current Karya README reports 26,870. Preserve both source-specific counts pending version-lineage reconciliation.",
+  "sources": ["https://aclanthology.org/2024.computel-1.11/", "https://aclanthology.org/2024.computel-1.11.pdf", "https://github.com/karya-inc/dataset-mundari-tts"]
+}

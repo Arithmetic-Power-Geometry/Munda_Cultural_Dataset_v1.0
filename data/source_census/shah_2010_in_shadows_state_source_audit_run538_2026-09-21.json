@@ -1,0 +1,92 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN538-SHAH-2010",
+  "run": 538,
+  "audit_date": "2026-09-21",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "author": "Alpa Shah",
+    "title": "In the Shadows of the State: Indigenous Politics, Environmentalism, and Insurgency in Jharkhand, India",
+    "publisher": "Duke University Press",
+    "publication_date": "2010-08",
+    "type": "book / ethnography",
+    "doi": "10.1215/9780822392934",
+    "paper_isbn": "978-0-8223-4765-1",
+    "hardcover_isbn": "978-0-8223-4744-6",
+    "ebook_isbn": "978-0-8223-9293-4",
+    "publisher_url": "https://www.dukeupress.edu/in-the-shadows-of-the-state"
+  },
+  "identity_verification": {
+    "status": "verified",
+    "primary_anchor": "Duke University Press publisher record",
+    "secondary_anchor": "JSTOR book record",
+    "publisher_metadata": {
+      "pages_reported": 288,
+      "illustrations": "19 illustrations, 1 map, 9 figures",
+      "published": "August 2010"
+    },
+    "jstor_metadata": {
+      "copyright_date": 2010,
+      "publisher": "Duke University Press",
+      "stable_doi": "10.2307/j.ctv125jgf2"
+    }
+  },
+  "scope": {
+    "classification": "direct Munda ethnography / Jharkhand politics, governance, environment and social life",
+    "support": "The publisher describes extensive ethnographic research in Jharkhand; its page also reproduces a Choice review stating that Shah uses eight years of field experience among the Munda.",
+    "mundari_language_primary": false,
+    "cultural_evidence_candidate": true
+  },
+  "exact_locator_scaffold": {
+    "publisher_table_of_contents": [
+      {"section": "Prologue", "printed_page": 1},
+      {"section": "1. The Dark Side of Indigeneity", "printed_page": 9},
+      {"section": "2. Not Just Ghosts: Democracy as Sacral Polity", "printed_page": 36},
+      {"section": "3. Shadowy Practices: Development as Corruption", "printed_page": 66},
+      {"section": "4. Dangerous Silhouettes: Elephants, Sacrifice, and Alcohol", "printed_page": 99},
+      {"section": "5. Night Escape: Eco-incarceration, Purity, and Sex", "printed_page": 130},
+      {"section": "6. The Terror Within: Revolution against the State?", "printed_page": 162},
+      {"section": "Epilogue: Arcadian Spaces beyond the Shadows of the State", "printed_page": 184},
+      {"section": "Glossary of Terms", "printed_page": 191},
+      {"section": "Notes", "printed_page": 193},
+      {"section": "Bibliography", "printed_page": 237},
+      {"section": "Index", "printed_page": 265}
+    ],
+    "locator_status": "section-level exact printed-page starts verified from publisher TOC; proposition-level locators not yet verified",
+    "promotion_rule": "Do not promote cultural propositions from publisher description, reviews, TOC headings, or inaccessible snippets. Promote only after lawful full-text access and exact passage verification."
+  },
+  "canonicalization": {
+    "work_key": "shah|2010|in-the-shadows-of-the-state|10.1215/9780822392934",
+    "manifestations_to_merge": [
+      "Duke University Press publisher page",
+      "JSTOR book record",
+      "library catalogue records",
+      "book reviews"
+    ],
+    "independence_rule": "Catalogue records, publisher metadata, JSTOR manifestation metadata and reviews are representations/discussions of the same work and must not be counted as independent corroboration of Shah's ethnographic claims."
+  },
+  "rights_access_consent": {
+    "copyright_status": "copyrighted / commercial scholarly book",
+    "publisher_rights_statement": "Sales/Territorial Rights: World except South Asia; publisher provides a rights and licensing route.",
+    "redistribution_permission_verified": false,
+    "full_text_obtained_for_ingestion": false,
+    "participant_reuse_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "rule": "Publication and commercial availability do not establish permission to redistribute book text, field materials, participant data, images, recordings, or culturally sensitive knowledge."
+  },
+  "promotion": {
+    "controlled_claims_added": 0,
+    "controlled_evidence_records_added": 0,
+    "binaries_added": 0,
+    "reason": "Authoritative metadata and section locators are verified, but lawful full-text manifestation, immutable hash, exact claim passages, dependency tagging, participant reuse consent and cultural-access assessment remain unresolved."
+  },
+  "gaps": [
+    "lawful full-text manifestation for evidence extraction",
+    "immutable manifestation SHA-256",
+    "printed-page/PDF-page concordance",
+    "claim-level exact passage locators",
+    "upstream-source dependency graph for each candidate proposition",
+    "participant reuse-consent status",
+    "cultural sensitivity/access classification"
+  ],
+  "audit_principle": "Unavailable or unresolved evidence remains an explicit gap; no cultural claim or controlled count is inferred from discovery metadata alone."
+}

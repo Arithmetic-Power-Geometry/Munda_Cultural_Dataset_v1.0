@@ -1,0 +1,52 @@
+{
+  "audit_id": "MLHKP-RUN175-C17-MANIFESTATION-RETRY",
+  "run": 175,
+  "checked_utc": "2026-09-10T17:50:00Z",
+  "branch_scope": "mlhkp-v2 only",
+  "source_class": "government_census_language_table",
+  "source": {
+    "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+    "producer": "Office of the Registrar General & Census Commissioner, India",
+    "reference_id": "PC11_C17-20",
+    "catalogue_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+    "download_filename": "DDW-C17-2000.XLSX",
+    "period": "2011"
+  },
+  "verification": {
+    "catalogue_identity": "verified_from_authoritative_ORGI_index",
+    "download_filename": "verified_from_authoritative_ORGI_index",
+    "description_scope": "table reports, for each mother tongue, bilingual speakers and additional languages at India/State level with total/rural/urban combined",
+    "direct_catalogue_fetch_this_run": "blocked_timeout",
+    "workbook_bytes_acquired": false,
+    "independent_checksum_computed": false,
+    "worksheet_verified": false,
+    "exact_cell_locators_verified": false
+  },
+  "promotion_decision": "metadata_and_manifestation_locator_only",
+  "evidence_promotion": {
+    "population_values_promoted": 0,
+    "language_counts_promoted": 0,
+    "cultural_claims_promoted": 0,
+    "reason": "Workbook bytes and exact worksheet/cell locations were not independently obtained in this run. Catalogue metadata is not a substitute for cell-level evidence."
+  },
+  "rights_access_boundary": {
+    "public_catalogue_access": true,
+    "workbook_access_success_this_run": false,
+    "redistribution_permission_inferred": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "gap_state": [
+    "obtain authoritative DDW-C17-2000.XLSX bytes",
+    "compute independent checksum",
+    "verify worksheet names and structure",
+    "locate exact Munda/Mundari rows and cells before numerical promotion"
+  ],
+  "dedupe": {
+    "relationship": "continuation_of_existing_C17_stream",
+    "new_source_identity": false,
+    "count_change": 0,
+    "note": "This retry strengthens blocker provenance only; it does not create a new census identity."
+  }
+}

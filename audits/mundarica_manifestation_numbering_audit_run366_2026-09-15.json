@@ -1,0 +1,74 @@
+{
+  "run": 366,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "scope": "Mundarica manifestation-numbering and completeness-boundary audit",
+  "records": [
+    {
+      "record_type": "historical_bibliographic_series",
+      "provider": "Google Books",
+      "title": "Encyclopaedia Mundarica, Volume 13",
+      "authors": ["Johann Hoffmann", "Arthur van Emelen"],
+      "publisher": "Superintendent government printing, Bihar and Orissa",
+      "year": 1941,
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=AzUVzw1KqJkC",
+      "verification_level": "bibliographic_locator_only",
+      "supports": [
+        "historical series has an explicitly catalogued Volume 13",
+        "Volume 13 is catalogued under the government-printing series"
+      ],
+      "does_not_verify": [
+        "complete historical series byte inventory",
+        "scan completeness",
+        "page-image completeness",
+        "OCR completeness",
+        "rights for repository ingestion",
+        "community validation"
+      ]
+    },
+    {
+      "record_type": "commercial_reprint_series",
+      "provider": "Google Books",
+      "title": "Encyclopaedia Mundarica: In 16 Volumes, Volume 13",
+      "authors": ["Johann Hoffmann", "Arthur van Emelen"],
+      "publisher": "Gyan Publishing House",
+      "year": 2009,
+      "isbn": ["812120304X", "9788121203043"],
+      "url": "https://books.google.com/books/about/Encyclopaedia_Mundarica.html?id=YQ1K0gEACAAJ",
+      "verification_level": "commercial_reprint_bibliographic_locator_only",
+      "supports": [
+        "a later commercial manifestation is explicitly marketed/catalogued as a 16-volume series",
+        "the 16-volume numbering belongs to a later manifestation scheme and must not be assumed identical to the historical government-printing volume scheme"
+      ],
+      "does_not_verify": [
+        "one-to-one historical-volume mapping for commercial volumes XIV-XVI",
+        "commercial volume XIV content",
+        "commercial volume XV content",
+        "commercial volume XVI content",
+        "historical plates placement",
+        "page concordance",
+        "OCR completeness",
+        "rights for repository ingestion"
+      ]
+    }
+  ],
+  "manifestation_model": {
+    "historical_government_printing_scheme": "treat as a separate manifestation lineage from later commercial 16-volume reprints",
+    "commercial_16_volume_scheme": "treat volumes XIV-XVI as reprint-manifestation labels until exact content/page concordance is independently verified",
+    "canonicalization_rule": "never infer that a commercial volume number equals a historical government-printing volume number without a verified table of contents/page concordance",
+    "completeness_rule": "a complete commercial 16-volume set would not by itself prove a complete historical government-printing manifestation, and vice versa",
+    "ocr_rule": "provider indexing or bibliographic visibility does not count as verified OCR"
+  },
+  "mundarica_state_change": {
+    "independently_authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0,
+    "volume_XIV": "commercial_reprint_manifestation_scheme_identified_but_content_mapping_unverified",
+    "volume_XV": "commercial_reprint_locator_only_content_mapping_unverified",
+    "volume_XVI": "commercial_reprint_locator_only_content_mapping_unverified_pagination_edition_plates_ambiguous"
+  },
+  "claim_promotion": 0,
+  "controlled_count_change": false,
+  "release_gate_effect": "reduces manifestation-numbering ambiguity but does not satisfy Mundarica acquisition/OCR/page-accounting completion gate",
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

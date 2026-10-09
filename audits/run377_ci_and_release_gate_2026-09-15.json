@@ -1,0 +1,41 @@
+{
+  "run": 377,
+  "date_utc": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "never_merge_main": true,
+  "verified_pre_run_head": "6fc7cfb3401b7c3f6dc13bcd2eba1c8f8263cf29",
+  "ci": {
+    "workflow_runs_observed": 4,
+    "migration_audit": "success",
+    "source_register_audit": "success",
+    "streamlit_smoke_test": "success",
+    "publication_build": "success",
+    "all_four_green": true
+  },
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 93,
+    "unique_web_discovery_leads": 90,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 76,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42,
+    "schema_category_representation_percent": 100.0,
+    "ui_mapping_percent": 100.0
+  },
+  "mundarica": {
+    "independently_authoritative_registered_scans": 0,
+    "verified_complete_volumes": 0,
+    "verified_ocr_pages": 0
+  },
+  "release_gate": {
+    "status": "NOT_PASS",
+    "automated_completeness_audit_pass": false,
+    "reason": "Obtainable/permitted-source processing and enumerated verification gaps remain open; no unavailable, restricted, unverified, or community-validation gap is promoted as complete."
+  },
+  "parallel_stream_decision": "Prioritize evidence verification and deterministic source dispositions. Existing 100% schema/UI representation is preserved without redesign. Blocked primary-source streams remain explicitly blocked while independent safe verification continues.",
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

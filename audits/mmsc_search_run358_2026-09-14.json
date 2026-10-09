@@ -1,0 +1,49 @@
+{
+  "search_id": "MMSC-SEARCH-000358",
+  "run": 358,
+  "date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "controlled_classes_refreshed": 14,
+  "classes": ["books","dictionaries","grammars","peer_reviewed_articles","theses","government_TRI_Census_LSI","archives","newspapers","web_resources","datasets","audio","video","maps","relevant_media"],
+  "fresh_reobservations": [
+    {
+      "class": "dictionaries",
+      "title": "A Mundari-English dictionary — Manindra Bhusan Bhaduri",
+      "urls": ["https://ci.nii.ac.jp/ncid/BA31909026","https://ci.nii.ac.jp/ncid/BA27135864","https://ci.nii.ac.jp/ncid/BB09153012","https://openlibrary.org/works/OL5467157W/A_Mundari-English_dictionary"],
+      "disposition": "bibliographic_identity_reprint_genealogy_and_pagination_concordance_recorded_run358; no entry-level lexical promotion"
+    },
+    {
+      "class": "grammars",
+      "title": "Mundari descriptive grammar source family",
+      "disposition": "known source family retained; no new identity without numbered-register reconciliation"
+    },
+    {
+      "class": "government_TRI_Census_LSI",
+      "title": "Census/LSI/TRI source families",
+      "disposition": "known official-source families retained; workbook/page/cell or primary manifestation verification remains source-specific"
+    },
+    {
+      "class": "datasets_audio",
+      "title": "Karya and related Mundari dataset source families",
+      "disposition": "known source families retained; licence does not substitute for consent/community/cultural-access review"
+    },
+    {
+      "class": "web_resources_audio_video_relevant_media",
+      "title": "Mundari cultural web and audiovisual sources",
+      "disposition": "discovery only where item-level rights, consent, provenance or cultural-access status remains unresolved"
+    }
+  ],
+  "deduplication_policy": "Search observations do not alter audited identity counts until deterministic mapping to the authoritative numbered source register is completed. Reprints of the same intellectual work, mirrors, provider manifestations, homonyms and non-target Munda-language matches are not counted as new audited identities without reconciliation.",
+  "canonicalization_note": "Run 358 treats Bhaduri 1983, 1994 and 2002 reprints as manifestations of the same underlying dictionary work for census purposes; they are not three new source identities.",
+  "rights_access_policy": "Public or library catalogue visibility does not imply permission to ingest underlying text/audio/video/images; participant consent, community validation and cultural-access authorization remain independent gates.",
+  "controlled_counts_after_refresh": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason": "Run 358 improved deterministic manifestation reconciliation for one known dictionary work but did not establish a new numbered audited identity or a new controlled cultural/linguistic claim."
+}

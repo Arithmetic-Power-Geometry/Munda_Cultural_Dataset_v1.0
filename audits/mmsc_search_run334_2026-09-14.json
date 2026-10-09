@@ -1,0 +1,33 @@
+{
+  "search_id": "MMSC-SEARCH-000334",
+  "run": 334,
+  "date": "2026-09-14",
+  "scope": "non-Mundarica source census",
+  "classes": [
+    {"class":"books","status":"refreshed","note":"Historical and modern Mundari/Munda-language book leads searched; existing controlled records require numbered-register reconciliation before count changes."},
+    {"class":"dictionaries","status":"refreshed","note":"Mundari dictionary/lexicographic leads searched; no unsupported lexical rows promoted."},
+    {"class":"grammars","status":"refreshed","note":"Grammar leads refreshed; Hoffmann/Grierson lineage remains subject to manifestation and canonical-source reconciliation."},
+    {"class":"peer_reviewed_articles","status":"refreshed","note":"Peer-reviewed linguistic sources searched; discovery does not imply permission for underlying field-data reuse."},
+    {"class":"theses_dissertations","status":"refreshed","note":"Thesis/dissertation searches refreshed; blocked or metadata-only manifestations remain gaps."},
+    {"class":"government_TRI_Census_LSI","status":"refreshed","note":"ORGI/LSI/Census/TRI streams retained; workbook/PDF byte, hash, page or exact-cell verification remains open where previously recorded."},
+    {"class":"archives","status":"refreshed","note":"Archive leads refreshed; exact manifestation and rights checks required before evidence promotion."},
+    {"class":"newspapers","status":"refreshed","note":"News/media discovery refreshed; reporting is not treated as primary cultural authority."},
+    {"class":"web_resources","status":"refreshed","note":"Web resources refreshed; provenance and identity must resolve to canonical sources before controlled promotion."},
+    {"class":"datasets","status":"refreshed","note":"Karya Hindi-Mundari corpus advanced to fixed Git revision and exact blob locator in Run 334; row-level ingestion remains blocked pending independent verification/governance."},
+    {"class":"audio","status":"refreshed","note":"Audio leads refreshed; consent, rights and cultural-access uncertainty preserved."},
+    {"class":"video","status":"refreshed","note":"Video leads refreshed; South-Sudan Mundari homonyms excluded from Indian Munda/Mundari scope."},
+    {"class":"maps","status":"refreshed","note":"Map leads refreshed; derivative web maps are not promoted as census evidence without source lineage."},
+    {"class":"relevant_media","status":"refreshed","note":"Relevant media refreshed; descriptive discovery retained separately from controlled evidence."}
+  ],
+  "notable_verification_this_run": {
+    "source":"Karya Hindi to Mundari Translation Dataset Corpus",
+    "pinned_commit":"243bb780906750fcf6e2b27693dd24898f0c79d1",
+    "tsv_blob":"131c55a5b8197a58d663a7e40d888a92869288c6",
+    "tsv_tree_bytes":3788450,
+    "provider_declared_pairs":17826,
+    "promotion":"exact locator only"
+  },
+  "scope_exclusion": "Search results referring to the Nilotic Mundari/Mandari people or language of South Sudan are non-target homonyms and are excluded unless independently relevant to source-disambiguation auditing.",
+  "count_policy": "Fresh discovery and metadata improvement do not change MMSC controlled totals without deterministic numbered-register reconciliation.",
+  "blocked_policy": "Blocked, restricted, unavailable or independently unverified manifestations remain explicit gaps and are not counted as completed evidence."
+}

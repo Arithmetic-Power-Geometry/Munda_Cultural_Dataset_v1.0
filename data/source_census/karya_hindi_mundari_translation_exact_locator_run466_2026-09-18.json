@@ -1,0 +1,45 @@
+{
+  "run": 466,
+  "audited_utc": "2026-09-17T21:45:00Z",
+  "stream": "non-Mundarica source census",
+  "source_class": ["dataset", "parallel corpus", "web resource"],
+  "canonical_identity": {
+    "title": "Hindi to Mundari Translation Dataset Corpus",
+    "repository": "karya-inc/dataset-hindi-mundari-translation",
+    "provider_url": "https://github.com/karya-inc/dataset-hindi-mundari-translation",
+    "language_pair": "Hindi-Mundari",
+    "mundari_iso_639_3": "unr",
+    "reported_sentence_pairs": 17826,
+    "data_file": "translation-hi-unr.tsv",
+    "encoding": "UTF-8"
+  },
+  "provenance": {
+    "reported_creators": ["Microsoft Research India", "Indian Institute of Technology Kharagpur", "Karya"],
+    "provider_statement": "The public repository states that the corpus contains Hindi sentences translated into Mundari and stores the pairs in a two-column TSV.",
+    "count_semantics": "17826 is a provider-reported corpus quantity and is not an MLHKP audited-source, claim, or evidence count."
+  },
+  "rights": {
+    "provider_license_label": "Attribution-NonCommercial-ShareAlike-FreeSoftware (BY-NC-SA-FS) 1.0 / non-commercial Karya Public License",
+    "provider_summary": "Provider states noncommercial distribution/remix/adaptation is allowed with attribution and share-alike conditions, including software-related conditions.",
+    "mlhkp_interpretation": "License text must be retained and applied to any redistributed/adapted material. Dataset copyright/reuse permission does not establish participant consent, cultural permission, or permission for unrelated source material from which Hindi prompts may derive."
+  },
+  "deterministic_canonicalization": {
+    "identity_key": "karya|dataset-hindi-mundari-translation|translation-hi-unr.tsv",
+    "manifestations": ["README.md", "LICENSE.txt", "COPYRIGHT.txt", "translation-hi-unr.tsv"],
+    "dedup_rule": "Repository metadata, licence/copyright files and TSV are manifestations/components of one corpus identity, not independent corroborating sources.",
+    "dependency_rule": "Any overlap with MunTTS, Adivaani, AdiBhasha, shared-task or other translation corpora must be resolved by deterministic row/hash comparison before independent-evidence status is assigned."
+  },
+  "promotion": {
+    "source_identity_audited": true,
+    "rows_promoted": 0,
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "reason": "This run verifies source identity, provider-reported structure and licence surface only. Row-level ingestion requires immutable permitted bytes/hash, deterministic row enumeration and overlap analysis, prompt/source provenance, and participant/privacy/cultural-access review."
+  },
+  "exact_locator_plan": {
+    "locator_form": "translation-hi-unr.tsv#row=<1-based-row>;sha256=<permitted-file-hash>",
+    "required_before_promotion": ["lawfully obtain permitted TSV bytes", "record immutable SHA-256", "verify physical row count against provider-reported 17826", "deterministically canonicalize exact duplicate pairs", "trace Hindi prompt/source dependencies where discoverable", "review participant/translator consent and privacy", "apply cultural-access review", "link only supported permitted rows to evidence graph"]
+  },
+  "audit_state": "SOURCE_LEVEL_AUDITED_NOT_ROW_PROMOTED",
+  "release_note": "Do not inflate controlled MMSC counts until this locator is reconciled against the WEB-MUN ledger."
+}

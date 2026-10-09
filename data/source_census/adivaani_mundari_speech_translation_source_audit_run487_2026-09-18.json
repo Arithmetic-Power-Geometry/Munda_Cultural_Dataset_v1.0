@@ -1,0 +1,59 @@
+{
+  "audit_run": 487,
+  "audit_date": "2026-09-18",
+  "stream": "non-Mundarica",
+  "canonical_source_id": "ADIVAANI-MUNDARI-SPEECH-TRANSLATION",
+  "source_class": ["government_web_resource", "speech_technology", "audio", "dataset_or_model_interface"],
+  "title": "Adivaani - Tribal Language Translation Platform: Speech-to-Speech Translation",
+  "publisher_or_host": "Ministry of Tribal Affairs, Government of India",
+  "canonical_url": "https://adivaani.tribal.gov.in/features/speech-to-speech",
+  "identity_verification": {
+    "verified": true,
+    "verified_on": "2026-09-18",
+    "observed_features": [
+      "Government of India tribal.gov.in host",
+      "speech or uploaded-audio input",
+      "Mundari listed as a target language alongside Santali and Bhili",
+      "interface explicitly labels service as Beta and warns that AI translations may be inaccurate"
+    ]
+  },
+  "scope": {
+    "mundari_relevant": true,
+    "scope_class": "Mundari speech-translation technology/interface",
+    "not_a_cultural_authority": true,
+    "not_a_verified_reference_translation_corpus": true
+  },
+  "canonicalization": {
+    "work_identity_rule": "Treat Adivaani feature pages, interface routes and descriptive pages as manifestations/components of the same government platform unless an independently versioned dataset/model release is established.",
+    "independent_corroboration_count": 0
+  },
+  "rights_access_consent": {
+    "publicly_discoverable": true,
+    "government_hosting_is_open_license": false,
+    "underlying_training_data_reuse_permission_verified": false,
+    "speaker_consent_verified_for_reuse": false,
+    "generated_audio_reuse_permission_verified": false,
+    "cultural_access_review_required_before_cultural_use": true
+  },
+  "evidence_promotion": {
+    "promoted_claims": 0,
+    "promoted_records": 0,
+    "reason": "The live beta interface verifies availability of a Mundari speech-translation function, but does not by itself establish reference-quality linguistic correctness, training-corpus provenance, reusable underlying audio/data rights, speaker consent, or cultural authority.",
+    "future_exact_locator": "<versioned-government-artifact-or-permitted-output>#feature=speech-to-speech;target=Mundari;captured_at=<timestamp>;sha256=<hash-if-file>"
+  },
+  "quality_uncertainty": {
+    "provider_warning_preserved": "Beta trial; AI models can make mistakes and translations may not always be accurate.",
+    "machine_output_must_not_be_promoted_as_verified_mundari": true
+  },
+  "gaps": [
+    "versioned model/dataset identity",
+    "training/evaluation corpus provenance",
+    "item-level rights and licence",
+    "speaker consent and permitted downstream reuse",
+    "independent Mundari-speaker validation",
+    "stable exact output locators or immutable artifacts",
+    "cultural-access suitability for any culturally sensitive content"
+  ],
+  "count_policy": "Source audit only. Do not change controlled MMSC discovery, audited-source, evidence, claim, link, module or publication counts until deterministic reconciliation against the WEB-MUN ledger.",
+  "fabrication_guard": "No linguistic accuracy, cultural claim, corpus size, consent state, or licence term is inferred beyond what the verified platform page supports."
+}

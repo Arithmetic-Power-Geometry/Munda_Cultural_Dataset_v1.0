@@ -1,0 +1,52 @@
+{
+  "run": 702,
+  "date": "2026-10-04",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "government",
+    "census",
+    "dataset",
+    "language-demography"
+  ],
+  "canonical_key": "CENSUSINDIA_NADA|12582|ST-16|JHARKHAND|2011",
+  "title": "India - ST-16: Bilingualism for Scheduled Tribes (for each tribe separately) (State/UT level), Jharkhand - 2011",
+  "authority": "Office of the Registrar General & Census Commissioner, India",
+  "catalog_id": "12582",
+  "url": "https://censusindia.gov.in/nada/index.php/catalog/12582",
+  "verified_metadata": {
+    "state": "Jharkhand",
+    "census_year": 2011,
+    "table_family": "ST-16",
+    "scope": "Scheduled-tribe bilingualism, tribe-specific, state/UT level",
+    "indexed_fields_include": [
+      "Subsidiary language: MUNDA",
+      "Subsidiary language: MUNDARI"
+    ]
+  },
+  "deduplication": {
+    "github_code_search_query": "\"12582\" repo:Arithmetic-Power-Geometry/Munda_Cultural_Dataset_v1.0",
+    "result_count": 0,
+    "incomplete_results": true,
+    "interpretation": "Not proof of absence from mlhkp-v2; reconcile against MMSC/WEB-MUN before identity assignment."
+  },
+  "evidence_status": "WITHHELD",
+  "exact_locator_state": "catalog-and-variable-locator-ready; cell-level locator pending authoritative data-file retrieval",
+  "promotion_rule": "Do not promote any Munda/Mundari numerical value until the authoritative data manifestation is retrieved and the exact tribe row, language column, universe/denominator and cell value are independently verified.",
+  "rights_access_uncertainty": "Official public catalogue verified. Data-file reuse/redistribution terms and manifestation checksum/size not yet captured.",
+  "cultural_scope_uncertainty": "Census categories are administrative/statistical labels; MUNDA and MUNDARI fields must remain distinct and must not be interpreted as interchangeable ethnic, linguistic or cultural identities.",
+  "next_conversion": [
+    "retrieve authoritative ST-16 data file",
+    "record filename, bytes and checksum",
+    "verify Munda tribe row/universe and MUNDA/MUNDARI language columns",
+    "capture exact row/column/cell coordinates",
+    "record suppression/NA semantics and denominator",
+    "promote only verified statistical propositions with exact locators"
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  }
+}

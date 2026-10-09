@@ -1,0 +1,78 @@
+{
+  "run": 713,
+  "audit_date": "2026-10-04",
+  "branch": "mlhkp-v2",
+  "canonical_key": "MEGAVOICE|M035419|MUNDARI",
+  "source_class": [
+    "audio",
+    "web resource"
+  ],
+  "title": "Words of Life • Mundari (unr)",
+  "publisher": "Global Recordings Network",
+  "institutional_platform": "MegaVoice Media Cloud",
+  "locator": {
+    "reference_number": "M035419",
+    "language": "Mundari",
+    "language_code": "unr",
+    "sample_manifestation": "https://mv-audio-video-samples.s3.amazonaws.com/audio-samples/M035419.mp3"
+  },
+  "verified_metadata": {
+    "description": "Words of Life recordings: short Bible stories, evangelistic messages and songs; platform states recordings are by mother-tongue speakers.",
+    "dialect": "NA",
+    "version": "NA",
+    "category": "Discipleship",
+    "type": "Audio",
+    "requires_processing": false
+  },
+  "scope_classification": "Mundari-language audio; religious/evangelistic content. Language evidence candidate, not evidence about Munda cultural practice.",
+  "rights_access_consent": {
+    "public_sample": true,
+    "redistribution_license_verified": false,
+    "speaker_identity_verified": false,
+    "recording_date_verified": false,
+    "recording_locality_verified": false,
+    "speaker_consent_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_review": "required before any public derivative/exposure"
+  },
+  "promotion": {
+    "controlled_identity": false,
+    "evidence": false,
+    "claim": false,
+    "module": false,
+    "reason": "Exact platform/reference locator verified, but provenance, speaker/locality/date, consent and reuse terms are insufficient for controlled proposition promotion."
+  },
+  "exact_locator_conversion_queue": [
+    "lawfully retrieve sample",
+    "record bytes and SHA-256",
+    "capture duration",
+    "verify GRN/MegaVoice source lineage and reuse terms",
+    "verify speaker/date/locality/provenance if available",
+    "inspect audio and create HH:MM:SS segments only if permitted",
+    "separate linguistic observations from religious-message content",
+    "MMSC/WEB-MUN deterministic reconciliation"
+  ],
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "baseline_preserved": {
+    "identities": 42,
+    "claims": 52,
+    "evidence": 52,
+    "links": 52,
+    "modules": 42,
+    "raw_discovery": 95,
+    "unique_discovery": 92,
+    "unresolved": 78
+  },
+  "release_gate": "NOT_PASS",
+  "notes": [
+    "Public streaming/sample availability is not redistribution permission.",
+    "Mother-tongue-speaker statement is provider metadata and does not establish individual identity, dialect, locality or consent.",
+    "No cultural claim promoted."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": 294,
+  "audit_date": "2026-09-13",
+  "scope": "non-Mundarica source census and exact bibliographic/manifestation metadata closure",
+  "canonical_work": {
+    "title": "Mundari Phonetic Reader",
+    "author": "N. K. Sinha",
+    "publisher": "Central Institute of Indian Languages",
+    "place": "Mysore",
+    "year": 1974,
+    "series": "CIIL Phonetic Reader Series",
+    "series_number": 13,
+    "content_language": "English",
+    "subject_language": "Mundari"
+  },
+  "verified_locators": [
+    {
+      "source_type": "first_party_catalogue",
+      "publisher": "Central Institute of Indian Languages",
+      "url": "https://www.ciil.gov.in/download/Final_Detailed_Catalogue_Final.pdf",
+      "verified_fields": {
+        "title": "Mundari Phonetic Reader",
+        "author": "N.K. Sinha",
+        "isbn": "Nil",
+        "category": "Phonetic Reader Series",
+        "pages": 102,
+        "price_inr": 5,
+        "year": 1974,
+        "content_language": "English",
+        "subject_language": "Mundari"
+      },
+      "access_note": "Search-indexed first-party catalogue entry verified. The catalogue PDF itself is large and was not byte-preservingly acquired in this run."
+    },
+    {
+      "source_type": "peer_reviewed_bibliographic_review",
+      "publisher": "Cambridge University Press / Language (Linguistic Society of America)",
+      "doi": "10.2307/413041",
+      "journal": "Language",
+      "volume": 54,
+      "issue": 1,
+      "year": 1978,
+      "pages": "249-250",
+      "reviewer": "William Bright",
+      "reviewed_work_metadata": "Mundari phonetic reader. N. K. Sinha. CIIL phonetic reader series 13. Mysore: Central Institute of Indian Languages, 1974. Pp. xi, 103. Rs. 5.00."
+    },
+    {
+      "source_type": "library_union_catalogue",
+      "provider": "CiNii",
+      "ncid": "BA72929895",
+      "lccn": "76901806",
+      "verified_fields": {
+        "title": "Mundari phonetic reader",
+        "author": "Sinha, N. K.",
+        "series": "CIIL phonetic reader series, 13",
+        "publisher": "Central Institute of Indian Languages",
+        "year": 1974,
+        "place": "Mysore",
+        "languages": "English and Mundari",
+        "extent": "viii, 102 p.",
+        "size": "22 cm",
+        "lcc": "PL4559",
+        "subject": "Mundari language -- Phonetics"
+      }
+    }
+  ],
+  "deterministic_identity_decision": {
+    "same_work": true,
+    "reason": "Title, author, publisher, place, year and CIIL series number agree across first-party, peer-reviewed review and library-union records.",
+    "separate_source_identity_created": false,
+    "deduplication_rule": "Treat these as corroborating manifestations/catalogue descriptions of one canonical work until a distinct edition or revised text is demonstrated."
+  },
+  "pagination_uncertainty": {
+    "first_party_catalogue": "102 pages",
+    "cinii": "viii, 102 p.",
+    "cambridge_review": "xi, 103 pp.",
+    "resolution": "Do not collapse these to one asserted physical-page total. Preserve each source's extent notation until an authorized primary manifestation is acquired and page structure independently inspected."
+  },
+  "promotion": {
+    "level": "exact bibliographic and manifestation-metadata evidence only",
+    "controlled_lexical_rows_added": 0,
+    "controlled_cultural_claims_added": 0,
+    "participant_derived_records_added": 0,
+    "primary_text_promoted": false,
+    "ocr_promoted": false,
+    "phonetic_inventory_promoted": false
+  },
+  "rights_access_governance": {
+    "public_catalogue_metadata_reusable_as_factual_locator": true,
+    "primary_book_bytes_acquired": false,
+    "primary_book_hash_verified": false,
+    "bulk_text_redistribution_permission_verified": false,
+    "ml_training_permission_verified": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false
+  },
+  "remaining_gap": "Acquire an authorized primary manifestation; independently hash bytes; verify cover/imprint, preliminary leaves and numbered-page sequence; then promote page-exact phonetic evidence only if rights and cultural-governance conditions permit."
+}

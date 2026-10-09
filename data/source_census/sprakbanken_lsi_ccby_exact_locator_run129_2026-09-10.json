@@ -1,0 +1,87 @@
+{
+  "record_type": "source_manifestation_exact_locator",
+  "run": 129,
+  "branch": "mlhkp-v2",
+  "verified_utc_date": "2026-09-10",
+  "work": {
+    "title": "Linguistic Survey of India (LSI)",
+    "resource_type": "digitized and annotated corpus derived from Grierson's Linguistic Survey of India",
+    "creators": ["Lars Borin", "Anju Saxena", "Shafqat Mumtaz Virk", "Bernard Comrie"],
+    "dataset_year": 2020,
+    "updated": "2020-08-25",
+    "doi": "10.23695/d24m-ja14",
+    "distributor": "Språkbanken Text, University of Gothenburg",
+    "source_work": "George A. Grierson, Linguistic Survey of India, 1903-1927"
+  },
+  "authoritative_locator": {
+    "landing_page": "https://spraakbanken.gu.se/en/resources/lsi",
+    "download_filename": "lsi.xml.bz2",
+    "reported_size": "6.23 MB",
+    "reported_format": "XML corpus compressed with bzip2",
+    "download_locator": "https://spraakbanken.gu.se/resurser/meningsmangder/lsi.xml.bz2",
+    "interactive_access": "https://spraakbanken.gu.se/korp/?mode=lsi"
+  },
+  "verified_metadata": {
+    "scope_description": "Digitized and annotated version of Grierson's Linguistic Survey of India covering more than 250 varieties representing the four major South Asian language families.",
+    "reported_tokens": 1193437,
+    "reported_sentences": 72669,
+    "licence": "CC-BY-4.0",
+    "resource_page_last_update": "2026-06-22",
+    "text_level_annotations_reported_by_project": [
+      "LSI volume/part number",
+      "language family",
+      "language name",
+      "ISO 639-3 language code",
+      "longitude",
+      "latitude",
+      "LSI classification",
+      "Ethnologue classification",
+      "Glottolog classification",
+      "page number",
+      "page source URL"
+    ]
+  },
+  "rights_access": {
+    "dataset_licence_verified": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "public_availability_treated_as_reuse_permission": false,
+    "reuse_boundary": "The CC BY 4.0 declaration applies to the Språkbanken distributed dataset as stated by the authoritative resource page. This record does not infer participant consent, contemporary community validation, or unrestricted cultural access from historical publication or dataset licensing.",
+    "cultural_access_override": true
+  },
+  "byte_verification": {
+    "download_attempted": true,
+    "download_result": "blocked_or_failed_in_current_runtime",
+    "independent_checksum": null,
+    "local_byte_count": null,
+    "exact_mundari_xml_segment_locator": null,
+    "promotion_note": "No Mundari passage, lexical item, numeric claim, or page-derived cultural proposition is promoted until the corpus bytes or an equivalent exact query result can be independently inspected and tied to a stable text/page locator."
+  },
+  "canonicalization": {
+    "work_key": "doi:10.23695/d24m-ja14",
+    "manifestation_policy": "Språkbanken resource page, Korp access, Researchdata.se catalogue, and the downloadable XML are manifestations/access points of one dataset work, not separate source identities.",
+    "relation_to_grierson_lsi": "Derivative/enriched digital dataset of Grierson's historical LSI; do not count as a second independent historical witness for claims originating solely in Grierson."
+  },
+  "evidence_status": {
+    "metadata_exact_locator": true,
+    "rights_exact_locator": true,
+    "download_file_exact_locator": true,
+    "bytes_independently_verified": false,
+    "mundari_segment_exact_locator": false,
+    "count_bearing_source_identity_promoted": false,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "provenance_link_delta": 0
+  },
+  "sources_checked": [
+    "https://spraakbanken.gu.se/en/resources/lsi",
+    "https://researchdata.se/en/catalogue/dataset/doi-10-23695-d24m-ja14",
+    "https://spraakbanken.gu.se/en/projects/digital-lsi",
+    "https://spraakbanken.gu.se/blogg/20200901-griersons-linguistic-survey-of-india-as-open-access-digital-data-resource-for"
+  ],
+  "integrity": {
+    "fabricated_counts": false,
+    "fabricated_cultural_claims": false,
+    "metadata_only_promoted_as_cultural_evidence": false,
+    "licence_overgeneralized": false,
+    "blocked_download_hidden": false
+  }
+}

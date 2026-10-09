@@ -1,0 +1,69 @@
+{
+  "audit_id": "MLHKP-SOURCE-AUDIT-RUN577",
+  "run": 577,
+  "audit_date": "2026-09-22",
+  "stream": "non-Mundarica source census",
+  "source_class": ["government/LSI", "book", "map", "historical linguistic survey"],
+  "canonical_work": {
+    "author": "George A. Grierson",
+    "year": 1906,
+    "title": "Munda and Dravidian Languages",
+    "series": "Linguistic Survey of India",
+    "volume": "IV",
+    "publisher": "Office of the Superintendent of Government Printing",
+    "place": "Calcutta",
+    "extent": "xiv+680 pages"
+  },
+  "audited_object": {
+    "type": "map",
+    "description": "Map showing the distribution of Munda languages",
+    "exact_print_locator": "facing page 7",
+    "date": 1906,
+    "author": "George A. Grierson"
+  },
+  "identity_verification": {
+    "glottolog_reference_id": "304344",
+    "dsal_collection": "Linguistic Survey of India, Vol. 4",
+    "commons_file": "File:LSI map of Munda languages.jpg",
+    "commons_dimensions": "1400 x 1033",
+    "commons_reported_file_size": "727 KB",
+    "commons_reported_checksum": "bdf0a2b7e09df2af8854303acd5a563a39be231a",
+    "verified": true
+  },
+  "canonicalization": {
+    "rule": "The LSI volume, DSAL/Internet Archive scans, catalogue records, and Wikimedia/PICRYL reproductions are manifestations or derivatives of the same 1906 work/map, not independent corroborating sources.",
+    "repository_precheck": ["Grierson 1906", "Linguistic Survey of India"],
+    "repository_matching_audit_found": false
+  },
+  "rights_access": {
+    "commons_status": "public domain / Public Domain Mark 1.0",
+    "commons_basis_reported": "published before 1931; Commons reports free of known copyright restrictions",
+    "caution": "Public-domain copyright status does not remove provenance, historical-classification, cultural-sensitivity, or interpretive-scope requirements."
+  },
+  "scope": {
+    "supported": "historical 1906 cartographic representation of the distribution of Munda languages as presented in LSI volume IV",
+    "not_supported": ["current language distribution", "current community boundaries", "ethnic territory", "land title", "political jurisdiction", "unchanged dialect boundaries"]
+  },
+  "evidence_promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_committed": 0,
+    "reason": "The map identity, locator, and public-domain status are verified, but repository-wide deterministic reconciliation and local manifestation/hash/provenance integration are still required before controlled evidence-count mutation."
+  },
+  "exact_locator_conversion_state": "conversion-ready historical map candidate",
+  "conversion_requirements": [
+    "capture a lawful authoritative manifestation and compute repository-local cryptographic hash",
+    "verify image against the LSI Vol. IV scan at facing page 7",
+    "record map-level locator and, if used, bounded image-region locators",
+    "preserve original labels/orthography and distinguish transcription from normalization",
+    "qualify every derived statement as historical 1906 survey/cartography",
+    "do not infer present-day community, ethnic, political, or land boundaries",
+    "complete cultural-access/dignity review before public-facing interpretation"
+  ],
+  "sources_checked": [
+    "https://glottolog.org/resource/reference/id/304344",
+    "https://dsal.uchicago.edu/books/lsi/",
+    "https://commons.wikimedia.org/wiki/File:LSI_map_of_Munda_languages.jpg"
+  ],
+  "release_effect": "Adds a verified, exact-print-locator, public-domain map candidate without fabricating controlled counts or cultural claims."
+}

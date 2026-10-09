@@ -1,0 +1,46 @@
+{
+  "run": 549,
+  "audit_date": "2026-09-21",
+  "stream": "non-Mundarica source census",
+  "canonical_key": "BL:Photo451/1(5):041-003090038",
+  "source_class": ["archive", "historical_photograph", "labour_history", "tea_industry"],
+  "title_verbatim": "A typical contract labourer from the Munda tribe of Chota Nagpur. These men serve a term of three years in Assam with the right of repatriation on completion.",
+  "creator": "Bose, P.",
+  "repository": "British Library Archives and Manuscripts Catalogue",
+  "record_id": "041-003090038",
+  "shelfmark": "Photo 451/1(5)",
+  "ark": "ark:/81055/vdc_100025866177.0x000a36",
+  "parent_collection": "Photo 451 : Indian Tea Association Photographs",
+  "scope_content": "Catalogue describes a three-quarter length portrait of a Munda man standing among tea plants and classifies it as ethnographical photography; subjects include contract labourers, Mundas and tea industry.",
+  "source_url": "https://searcharchives.bl.uk/catalog/041-003090038",
+  "identity_verification": "British Library catalogue metadata directly identifies record ID, shelfmark, hierarchy, photographer, title and scope/content.",
+  "dedup_rule": "Catalogue record, ARK resolver, thumbnails/derivatives, parent-collection references, mirrors and later digitizations of shelfmark Photo 451/1(5) are manifestations/references of one archival item unless repository evidence proves a distinct physical print.",
+  "scope_classification": "direct-Munda historical visual/labour-history source; catalogue-level evidence only until image/provenance inspection",
+  "rights_access": {
+    "catalogue_access": "public catalogue record",
+    "image_reuse_permission": "unverified",
+    "copyright_status": "unverified",
+    "redistribution_permission": "unverified"
+  },
+  "consent_cultural_uncertainty": {
+    "depicted_person_consent": "unknown/historical",
+    "cultural_access_status": "unverified",
+    "colonial_representation_context": "requires explicit critical review before interpretive use",
+    "generalization": "prohibited from a single photograph/catalogue description"
+  },
+  "promotion": {
+    "controlled_claims": 0,
+    "evidence_records": 0,
+    "binaries": 0,
+    "reason": "Catalogue metadata supports source identity and locator, but not proposition-level cultural claims, image redistribution, participant consent or unrestricted cultural reuse."
+  },
+  "exact_locator_status": {
+    "catalogue_locator": "Photo 451/1(5); Record ID 041-003090038; ARK ark:/81055/vdc_100025866177.0x000a36",
+    "image_sha256": null,
+    "manifestation_capture": "pending lawful obtainable image/derivative",
+    "provenance_review": "pending",
+    "rights_review": "pending",
+    "cultural_review": "pending"
+  },
+  "release_policy": "Preserve as an explicit audited source/gap until lawful manifestation, rights, provenance, consent/cultural-access and exact-image evidence gates are resolved. Do not count as independent cultural corroboration from catalogue metadata alone."
+}

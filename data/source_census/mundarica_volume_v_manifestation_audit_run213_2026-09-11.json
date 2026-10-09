@@ -1,0 +1,50 @@
+{
+  "audit_id": "MLHKP-RUN213-MUNDARICA-V-MANIFESTATION",
+  "run": 213,
+  "audit_date": "2026-09-11",
+  "scope": "Exact secondary digital manifestation and page-accounting audit for Encyclopaedia Mundarica Volume V",
+  "record": {
+    "volume": "V",
+    "title_observed": "Encyclopedia Mundarica Vol-v (1932)",
+    "internet_archive_identifier": "in.ernet.dli.2015.14925",
+    "ark": "ark:/13960/t1mh2xz66",
+    "dli_handle": "2015/14925",
+    "catalogued_total_pages": 278,
+    "publication_year_observed": 1932,
+    "publisher_observed": "Superintendent Government Printing, Bihar",
+    "source_library_observed": "Lbs National Academy Of Administration",
+    "scanning_centre_observed": "C-DAC, Noida",
+    "ppi_observed": 600,
+    "ocr_pipeline_observed": "abbyy-to-hocr 1.1.37",
+    "pdf_degraded_observed": "invalid-jp2-headers",
+    "archive_rights_label_observed": "Out_of_copyright"
+  },
+  "verification": {
+    "exact_secondary_manifestation_verified": true,
+    "catalogued_page_count_verified_from_item_metadata": true,
+    "authoritative_scan_verified": false,
+    "independent_file_hash_verified": false,
+    "scan_sequence_independently_verified": false,
+    "ocr_verified_as_transcription": false,
+    "volume_verified_complete": false,
+    "cultural_claim_promoted": false,
+    "linguistic_claim_promoted": false,
+    "passage_level_ingestion_performed": false
+  },
+  "rights_access_consent_cultural_governance": {
+    "archive_rights_label_is_not_community_permission": true,
+    "public_availability_is_not_cultural_access_permission": true,
+    "community_validation_inferred": false,
+    "cultural_access_permission_inferred": false,
+    "restricted_content_exposed": false
+  },
+  "evidence_promotion": {
+    "new_source_identities": 0,
+    "new_claims": 0,
+    "new_evidence_records": 0,
+    "new_evidence_links": 0,
+    "verification_audits_added": 1,
+    "mundarica_volume_states_advanced": 1
+  },
+  "release_boundary": "Volume V is upgraded from historical-locator-only to an exact secondary DLI/Internet Archive manifestation with 278 catalogued pages. This does not establish an authoritative scan, independent hash, scan-sequence correctness, OCR/transcription accuracy, verified completeness, community validation, or cultural-access permission."
+}

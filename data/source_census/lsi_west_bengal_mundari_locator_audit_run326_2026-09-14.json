@@ -1,0 +1,57 @@
+{
+  "run": 326,
+  "audit_date": "2026-09-14",
+  "scope": "non-Mundarica source census",
+  "source_class": "government/TRI/Census/LSI",
+  "provider": "Office of the Registrar General & Census Commissioner, India (ORGI)",
+  "catalog_reference_id": "LSI_WB_PART_I",
+  "title": "LINGUISTIC SURVEY OF INDIA-WEST BENGAL (PART-I)",
+  "date_published": "2016-08-01",
+  "resource_type": "book",
+  "series": "LINGUISTIC SURVEY OF INDIA",
+  "declared_download_filename": "LSI_WB_PART_I.pdf",
+  "catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/34826",
+  "declared_download_url": "https://censusindia.gov.in/nada/index.php/catalog/34826/download/38514/LSI_WB_PART_I.pdf",
+  "exact_locator": {
+    "section_heading": "MUNDARI",
+    "author_heading": "SIBASIS MUKHERJEE",
+    "printed_page": 391,
+    "locator_basis": "ORGI-hosted indexed PDF text returned by the official Census NADA endpoint/search index",
+    "page_image_verified_this_run": false
+  },
+  "identity_metadata_verification": {
+    "first_party_catalog_verified": true,
+    "reference_id_verified": true,
+    "declared_filename_verified": true,
+    "mundari_section_indexed_at_printed_page_391": true,
+    "binary_bytes_acquired_this_run": false,
+    "independent_sha256_verified": false,
+    "pdf_page_inventory_verified": false,
+    "printed_page_to_pdf_image_concordance_verified": false,
+    "ocr_verified": false
+  },
+  "governance": {
+    "catalog_publicly_accessible": true,
+    "rights_or_reuse_scope_inferred_from_public_access": false,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "fieldwork_sensitive_material_present_in_indexed_text": true,
+    "fieldwork_content_promoted": false,
+    "cultural_claims_promoted": false
+  },
+  "promotion": {
+    "level": "exact-locator metadata only",
+    "new_controlled_source_identity": false,
+    "new_controlled_claim": false,
+    "new_evidence_record": false,
+    "new_evidence_link": false,
+    "reason": "The first-party identity and exact printed-page locator are supportable, but the PDF bytes/hash/page-image concordance and fieldwork governance boundary are not closed."
+  },
+  "blocked_or_open": [
+    "Official PDF binary endpoint was not successfully acquired in this run; independent byte/hash verification remains open.",
+    "Printed p.391 is text-index verified but not page-image verified in this run.",
+    "Historical fieldwork-derived content must not be treated as participant consent, community validation or cultural-access authorization.",
+    "No cultural or linguistic content claim is promoted from the chapter in this run."
+  ]
+}

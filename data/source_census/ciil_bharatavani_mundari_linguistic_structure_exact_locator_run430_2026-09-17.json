@@ -1,0 +1,65 @@
+{
+  "run": 430,
+  "stream": "non-Mundarica source census and ingestion",
+  "source_class": ["book", "grammar", "government_web_resource", "digital_repository"],
+  "canonical_identity": {
+    "title_original": "मुण्डारी भाषा का भाषिक संरचना",
+    "title_romanized_provider": "Mundari Bhasha Ka Bashik Sanrachana",
+    "author": "Birendra Kumar Soy 'Munda'",
+    "publication_year": 2017,
+    "publisher": "Satyam publication house",
+    "repository": "Sanchika / Central Institute of Indian Languages (CIIL)",
+    "repository_item_uri": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+    "provider_manifestation": "BVP04859.pdf",
+    "provider_reported_size": "473.63 KB"
+  },
+  "identity_verification": {
+    "status": "provider_metadata_verified",
+    "provider_description": "The book contains a Linguistic Structure of Mundari Language.",
+    "repository_preexisting_exact_title_author_match": false,
+    "checked_repository": "Arithmetic-Power-Geometry/Munda_Cultural_Dataset_v1.0",
+    "checked_branch_constraint": "mlhkp-v2 for writes",
+    "canonicalization_rule": "CIIL Sanchika item, Bharatavani landing-page manifestation and BVP04859.pdf are manifestations of one underlying 2017 book identity unless edition-level evidence proves otherwise."
+  },
+  "scope": {
+    "language": "Mundari",
+    "iso639_3_expected": "unr",
+    "non_mundarica": true,
+    "scope_classification": "direct Mundari linguistic/grammatical source",
+    "cultural_claim_scope": "not promoted in this run"
+  },
+  "access_rights_governance": {
+    "catalogue_access": "publicly discoverable",
+    "pdf_access": "provider lists BVP04859.pdf",
+    "reuse_permission": "unverified at item level",
+    "copyright_status": "do not infer from public availability",
+    "participant_consent": "not established from catalogue metadata",
+    "cultural_access": "not established from catalogue metadata",
+    "promotion_policy": "No passage-level linguistic or cultural claim promoted until lawful immutable bytes, item-level reuse status, exact page locator and provenance/consent/cultural-access requirements applicable to the assertion are verified."
+  },
+  "exact_locator_plan": {
+    "source_identity_locator": "CIIL Sanchika UUID a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+    "manifestation_locator": "BVP04859.pdf",
+    "passage_locator_required": "immutable manifestation SHA-256 + PDF page + printed page where present + section/heading",
+    "current_level": "exact source/manifestation locator; passage conversion pending permitted immutable materialization"
+  },
+  "evidence_promotion": {
+    "new_claims": 0,
+    "new_evidence_records": 0,
+    "reason": "Provider metadata verifies source identity and a PDF manifestation but does not by itself establish item-level reuse permission or passage-level exact locators."
+  },
+  "gaps": [
+    "materialize lawful provider PDF if permitted",
+    "compute SHA-256",
+    "verify PDF/printed pagination concordance",
+    "resolve item-level reuse/copyright terms",
+    "inspect author/source provenance for any field-derived assertions",
+    "apply consent/privacy/cultural-access review before culturally sensitive promotion"
+  ],
+  "source_evidence": {
+    "provider": "Central Institute of Indian Languages Sanchika",
+    "provider_item_uri": "https://sanchika.ciil.org/items/a1de615d-af4c-40a3-91eb-b801a70b4b7c",
+    "observed_2026_09_17": true
+  },
+  "count_policy": "Do not change controlled MMSC discovery/audited-identity counts from this locator addition until deterministic reconciliation against WEB-MUN is performed."
+}

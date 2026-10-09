@@ -1,0 +1,62 @@
+{
+  "audit_run": 617,
+  "audit_date_utc": "2026-09-24",
+  "branch": "mlhkp-v2",
+  "source_class": ["video", "institutional_repository", "research_presentation", "captions"],
+  "canonical_identity": {
+    "title": "Munda, Land, and Gender: Understanding Indigeneity in the Neoliberal State of Jharkhand, India",
+    "creator": "Pallavi Raonka",
+    "date": "2019-11-14",
+    "publisher": "Virginia Tech University Libraries",
+    "persistent_id": "hdl:10919/95821",
+    "provider": "VTechWorks"
+  },
+  "manifestations": [
+    {"name":"20191114_Raonka.mp4","provider_reported_size":"411.7 MB","access":"provider download listed"},
+    {"name":"20191114_Raonka.webm","provider_reported_size":"395.58 MB","access":"provider download listed"},
+    {"name":"Captions","provider_reported_size":"58.9 KB","access":"provider download listed"}
+  ],
+  "identity_verification": {
+    "provider_metadata_verified": true,
+    "exact_title_repository_precheck_match_found": false,
+    "canonicalization_note": "MP4, WebM, captions, handle and repository landing page are manifestations/components of one recorded presentation, not independent corroborating sources. This presentation is also related to Raonka's later dissertation and must not be treated as independent evidence where propositions derive from the same fieldwork."
+  },
+  "scope": {
+    "community": "Munda",
+    "geography": "Jharkhand, India",
+    "topics": ["land", "gender", "indigeneity", "neoliberal state"],
+    "scope_status": "Munda-relevant research presentation; proposition-level scope pending segment inspection"
+  },
+  "rights_access_consent": {
+    "public_repository_access": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_for_reuse_verified": false,
+    "caption_reuse_permission_verified": false,
+    "cultural_access_status": "requires review",
+    "rule": "Public access does not imply permission to redistribute audiovisual files, captions, participant testimony, or culturally sensitive material."
+  },
+  "promotion": {
+    "controlled_claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "binaries_ingested": 0,
+    "reason": "Authoritative manifestation hashes, exact HH:MM:SS segment locators, speaker/proposition provenance, relationship to dissertation evidence, consent/reuse terms and cultural-sensitivity review are not yet complete."
+  },
+  "exact_locator_conversion_queue": [
+    "obtain provider-authoritative manifestation where permitted and record cryptographic hash",
+    "parse provider captions and align each candidate proposition to exact HH:MM:SS segment",
+    "separate presenter's synthesis from participant testimony, direct field evidence, and cited literature",
+    "dependency-tag propositions shared with the 2021 dissertation so they are not counted as independent corroboration",
+    "verify field locality/sample/method context for each promoted proposition",
+    "verify audiovisual/caption reuse rights and participant consent before storing excerpts or transcripts",
+    "apply cultural-access review before public exposure"
+  ],
+  "gaps": [
+    "manifestation hash not fixed",
+    "exact segment locators not audited",
+    "speaker-level provenance not audited",
+    "reuse licence not verified",
+    "participant consent for repository-to-dataset reuse not verified",
+    "dependency relationship to later dissertation requires proposition-level tagging"
+  ],
+  "audit_principle": "Discovery is not evidence promotion; related outputs from the same fieldwork are not independent corroboration."
+}

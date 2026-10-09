@@ -1,0 +1,40 @@
+{
+  "run": 327,
+  "audit_date": "2026-09-14",
+  "source_class": "peer-reviewed articles",
+  "title": "Coping with Changing Sociocultural Environment in Sundarban Islands: A Study of Munda Identity",
+  "author": "Mohan Kumar Bera",
+  "publisher_platform": "SAGE Journals",
+  "doi": "10.1177/2455328X261437865",
+  "first_published_online": "2026-04-14",
+  "verification_level": "publisher_metadata_and_abstract_only",
+  "source_observations": {
+    "peer_reviewed_article_identity_verified": true,
+    "publisher_page_located": true,
+    "full_article_bytes_independently_acquired": false,
+    "independent_file_hash_verified": false,
+    "data_availability_statement_observed": "The majority of the data are primary data; Census of India and published books are also used.",
+    "underlying_primary_fieldwork_dataset_acquired": false
+  },
+  "governance": {
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "article_access_or_publisher_visibility_treated_as_ingestion_permission": false,
+    "fieldwork_content_promoted": false,
+    "cultural_claims_promoted": false
+  },
+  "reconciliation": {
+    "numbered_web_mun_identity_assigned": false,
+    "deduplication_against_numbered_register_complete": false,
+    "canonical_source_identity_created": false,
+    "reason": "Fresh candidate must be reconciled deterministically against the numbered WEB-MUN register before controlled counts can change."
+  },
+  "promotion": {
+    "new_controlled_source_identity": false,
+    "new_controlled_claim": false,
+    "new_evidence_record": false,
+    "new_evidence_link": false
+  },
+  "public_locator": "https://journals.sagepub.com/doi/10.1177/2455328X261437865"
+}

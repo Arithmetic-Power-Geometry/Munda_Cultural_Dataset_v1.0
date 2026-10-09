@@ -1,0 +1,80 @@
+{
+  "run": 366,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "search_id": "MMSC-SEARCH-000366",
+  "controlled_classes_refreshed": 14,
+  "refresh_scope": [
+    "books_and_historical_print",
+    "dictionaries",
+    "grammars",
+    "peer_reviewed_articles",
+    "theses_and_dissertations",
+    "government_TRI_Census_LSI",
+    "archives_and_manuscript_catalogues",
+    "newspapers_and_current_media",
+    "web_resources",
+    "datasets_and_language_technology",
+    "audio",
+    "video",
+    "maps_and_atlases",
+    "cross_border_and_relevant_media"
+  ],
+  "new_progress": [
+    {
+      "name": "Encyclopaedia Mundarica historical government-printing lineage",
+      "disposition": "historical Volume 13 government-printing locator reconfirmed; series completeness, bytes, page inventory and OCR remain unverified"
+    },
+    {
+      "name": "Encyclopaedia Mundarica later 16-volume Gyan manifestation",
+      "disposition": "commercial 16-volume manifestation scheme explicitly separated from historical numbering; XIV-XVI remain manifestation labels pending content/page concordance"
+    }
+  ],
+  "notable_reobservations": [
+    {
+      "name": "Google Books historical Mundarica records",
+      "disposition": "bibliographic evidence only; no scan/OCR completeness promotion"
+    },
+    {
+      "name": "Gyan 2009/2016 Mundarica reprint family",
+      "disposition": "commercial manifestation family; not counted as independent historical source identities"
+    },
+    {
+      "name": "LSI Jharkhand",
+      "disposition": "official catalogue/indexed Mundari material remains known; direct PDF byte/page verification still open"
+    },
+    {
+      "name": "Census ST-15/ST-16 Jharkhand",
+      "disposition": "official workbook locators remain known; workbook bytes/hash/sheet/row/cell verification still open"
+    },
+    {
+      "name": "ASJP Mundari manifestations",
+      "disposition": "provider identities/source genealogy known; export/hash/row/source-passage verification still open"
+    },
+    {
+      "name": "Mundari audiovisual/community web streams",
+      "disposition": "discovery maintained; item-level rights/consent/cultural-access remain unresolved"
+    }
+  ],
+  "deduplication_rule_applied": "later commercial reprints and alternate volume packaging are manifestations of underlying works, not automatically new canonical source identities",
+  "blocked_or_not_promoted": [
+    "Mundarica XIV-XVI one-to-one mapping to historical government-printing parts/plates",
+    "Mundarica independent bytes/hash/pages/OCR",
+    "Census workbook numeric values",
+    "LSI direct PDF pages",
+    "audiovisual items lacking item-level rights/consent/cultural-access clearance",
+    "community/web claims lacking exact provenance and validation"
+  ],
+  "controlled_counts": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73
+  },
+  "count_change_this_run": false,
+  "reason_no_count_change": "Run 366 resolves a manifestation-numbering/canonicalization ambiguity inside an already known Mundarica source family and does not justify a new canonical source identity or controlled factual claim.",
+  "systematic_census_documented_for_release": true,
+  "absolute_or_future_proof_source_completeness_claimed": false
+}

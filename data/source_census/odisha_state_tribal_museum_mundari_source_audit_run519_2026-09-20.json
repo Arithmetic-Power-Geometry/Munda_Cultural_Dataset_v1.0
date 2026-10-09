@@ -1,0 +1,82 @@
+{
+  "run": 519,
+  "date_utc": "2026-09-20",
+  "stream": "non-Mundarica source census",
+  "canonical_source": {
+    "title": "Odisha State Tribal Museum — Tribes of Odisha: Mundari",
+    "publisher": "Odisha State Tribal Museum / Scheduled Castes and Scheduled Tribes Research and Training Institute (SCSTRTI), Government of Odisha",
+    "source_class": ["government", "TRI", "museum", "web", "map-linked ethnographic profile"],
+    "canonical_url": "https://ostm.in/tribes_of_odisha/mundari/",
+    "scope": "Mundari community profile for Odisha",
+    "identity_status": "verified"
+  },
+  "identity_verification": {
+    "mundari_page": "The live OSTM page is explicitly titled Mundari and labels region, population, language and occupation fields.",
+    "institutional_chain": "OSTM identifies itself as a wing of SCSTRTI, Government of Odisha; SCSTRTI's official site links the Odisha State Tribal Museum and states its Government of Odisha institutional history.",
+    "government_crosscheck": "A 2026 Government of Odisha RFP states that OSTM is administered by SCSTRTI under the ST & SC Development, Minorities & Backward Classes Welfare Department, Government of Odisha.",
+    "canonicalization": "OSTM Mundari page, OSTM museum pages, SCSTRTI institutional pages and Odisha-government descriptions are manifestations/documentation in one institutional source chain, not independent corroborating cultural sources."
+  },
+  "exact_external_locators": [
+    {
+      "url": "https://ostm.in/tribes_of_odisha/mundari/",
+      "locator": "field: Region",
+      "observed_provider_text_scope": "Sundergarh, Mayurbhanj and parts of Keonjhar"
+    },
+    {
+      "url": "https://ostm.in/tribes_of_odisha/mundari/",
+      "locator": "field: Population*",
+      "observed_provider_value": "25,655",
+      "provider_note": "Scheduled Tribes Population as per Census 2011 data"
+    },
+    {
+      "url": "https://ostm.in/tribes_of_odisha/mundari/",
+      "locator": "field: Language",
+      "observed_provider_value": "Mundari"
+    },
+    {
+      "url": "https://ostm.in/tribes_of_odisha/mundari/",
+      "locator": "field: Map",
+      "observed_provider_state": "map link surfaced; underlying map manifestation not yet independently captured/hashed"
+    }
+  ],
+  "rights_access_cultural_audit": {
+    "site_notice": "OSTM site footer states © 2018 SCSTRTI, All Rights Reserved.",
+    "redistribution": "not established for page text, images, map or media",
+    "public_access": true,
+    "participant_consent": "not established from surfaced page",
+    "community_validation": "not established from surfaced page",
+    "cultural_access": "uncertain; no unrestricted cultural permission inferred",
+    "promotion_rule": "retain citation/locator metadata only; do not reproduce media or promote sensitive/cultural assertions without claim-level corroboration and governance review"
+  },
+  "scope_classification": {
+    "demography": "secondary official/TRI presentation explicitly attributed to Census 2011",
+    "geography": "provider profile locator; requires source-method reconciliation before controlled demographic/geographic claim promotion",
+    "language": "direct provider field but not a linguistic analysis",
+    "ethnography": "provider profile contains general descriptive statements; not promoted in this run",
+    "map_media": "discovered but not ingested"
+  },
+  "deduplication": {
+    "independence_warning": "Do not count the OSTM population field as independent corroboration of Census 2011 because OSTM explicitly attributes it to Census 2011.",
+    "institutional_manifestations": "ostm.in, scstrti.in and Odisha-government institutional descriptions are canonicalized as related institutional manifestations where they document the same museum/source chain.",
+    "map_warning": "A linked map is a manifestation/member, not a new source identity unless provenance establishes an independent underlying source."
+  },
+  "promotion": {
+    "claims_promoted": 0,
+    "evidence_records_promoted": 0,
+    "media_promoted": 0,
+    "exact_locator_state": "locator-ready external evidence metadata established; content promotion withheld by rights/dependency/cultural gates"
+  },
+  "remaining_gates": [
+    "capture an immutable lawful page/map manifestation and compute local SHA-256",
+    "resolve map target provenance and rights",
+    "reconcile the OSTM population/geography presentation against the exact Census 2011 table/definition it derives from",
+    "determine whether Mundari profile statements are institution-authored, community-validated, or derived from another publication",
+    "perform claim-level cultural sensitivity/access review before any ethnographic promotion"
+  ],
+  "audit_invariants_added": [
+    "official TRI presentation does not equal independent corroboration of its cited Census source",
+    "government-hosted public access does not equal redistribution permission",
+    "museum profile does not establish community validation or participant consent",
+    "linked map/media member does not equal an independent source identity"
+  ]
+}

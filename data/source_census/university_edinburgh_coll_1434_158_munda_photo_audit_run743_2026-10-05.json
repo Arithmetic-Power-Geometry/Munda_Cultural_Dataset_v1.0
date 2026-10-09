@@ -1,0 +1,71 @@
+{
+  "run": 743,
+  "audit_date": "2026-10-05",
+  "branch": "mlhkp-v2",
+  "release_deadline_ist": "2026-09-21T23:59:00+05:30",
+  "source_class": "archive_photograph",
+  "source": {
+    "institution": "University of Edinburgh, Centre for Research Collections / ArchivesSpace",
+    "title": "Monda [Munda] Men, Aboriginial Tribe, al-Ranchi, Chota, Nagpur, India, 1870s-1930s",
+    "identifier": "Coll-1434/158",
+    "level": "Item",
+    "creation_date_display": "1870s-1930s",
+    "physical_description": "1 slide, 83mm by 83mm",
+    "geographic_subject": "Ranchi (India)",
+    "creators": [
+      "James Cossar Ewart (fonds)",
+      "Robert Wallace (fonds)"
+    ],
+    "catalogue_scope_note": "Catalogue describes a photograph of two Munda men from the Ranchi/Chota Nagpur context in traditional dress, early 20th century.",
+    "access": "Open",
+    "canonical_key": "UEDIN_ARCHIVES|COLL-1434-158"
+  },
+  "exact_locators": [
+    "ArchivesSpace item identifier: Coll-1434/158",
+    "Scope and Contents field",
+    "Dates > Creation: 1870s-1930s",
+    "Conditions Governing Access: Open",
+    "Physical Description: 1 slide 83mm by 83mm",
+    "Subjects > Geographic: Ranchi (India)"
+  ],
+  "deduplication": {
+    "rule": "Treat catalogue page, thumbnails/digital surrogates and any future scan as manifestations of Coll-1434/158 unless provenance establishes a distinct photographic object.",
+    "repository_code_search": "Exact identifier search returned 0 matches with incomplete_results=true; reconciliation signal only, not proof of absence."
+  },
+  "rights_governance": {
+    "access_is_not_redistribution_permission": true,
+    "redistribution_permission_verified": false,
+    "depicted_person_consent_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "historical_catalogue_language_preserved_as_provider_metadata": true,
+    "note": "Do not vendor or publicly expose image bytes until rights/reuse status is independently verified. Do not infer consent from open catalogue access."
+  },
+  "scope_classification": {
+    "geography": "Ranchi / Chota Nagpur, India",
+    "temporal": "catalogued 1870s-1930s; scope note says early 20th century",
+    "cultural_attribution": "provider-catalogued Munda",
+    "generalization_prohibited": true
+  },
+  "evidence_decision": {
+    "promote_to_public_cultural_claim": false,
+    "promote_catalogue_identity_metadata_only": false,
+    "reason": "Exact object metadata is verified, but rights, depicted-person/community consent, precise date/locality, and cultural-access review remain unresolved."
+  },
+  "controlled_delta": {
+    "audited_source_identities": 0,
+    "claims": 0,
+    "evidence_records": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "unresolved": [
+    "deterministic MMSC/WEB-MUN reconciliation",
+    "rights/reuse determination for image manifestation",
+    "precise photographic date and locality",
+    "depicted-person provenance/identity where ethically appropriate",
+    "participant/community consent and cultural-access review",
+    "manifestation checksum/size if lawful image access is used"
+  ],
+  "release_note": "Source predates the release deadline, but this audit is post-deadline and must not be retroactively represented as part of the frozen 21 September release without an explicit retrospective-audit policy."
+}

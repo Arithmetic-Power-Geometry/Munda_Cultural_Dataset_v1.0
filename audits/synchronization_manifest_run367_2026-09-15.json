@@ -1,0 +1,43 @@
+{
+  "run": 367,
+  "date": "2026-09-15",
+  "branch": "mlhkp-v2",
+  "work_head_before_status_sync": "b789bdd037a3a607b54dd66fe94af160cac188ee",
+  "artifacts": [
+    "audits/wikimedia_mundari_assam_map_exact_locator_run367_2026-09-15.json",
+    "audits/mmsc_refresh_run367_2026-09-15.json",
+    "tests/test_run367_wikimedia_assam_map_boundary.py",
+    "status/mlhkp_progress.json"
+  ],
+  "controlled_metrics": {
+    "audited_source_identities": 42,
+    "raw_web_discovery_records": 90,
+    "unique_web_discovery_leads": 87,
+    "duplicate_web_records": 3,
+    "canonicalized_unique_web_leads": 14,
+    "unresolved_unique_web_leads": 73,
+    "claims": 52,
+    "evidence_records": 52,
+    "provenance_links": 52,
+    "streamlit_modules": 42
+  },
+  "synchronization": {
+    "mmsc_search_log": "updated_run367",
+    "streamlit_universal_search_and_modules": "no_change_required_no_new_controlled_identity_or_claim",
+    "evidence_graph": "no_change_required_no_new_controlled_claim_or_link",
+    "completeness_gap_matrix": "updated_via_status_blockers_and_next_tasks",
+    "tests": "new_run367_boundary_test_added",
+    "publication_release_metrics_tables_figures": "no_numeric_change_required",
+    "status_progress": "pending_this_manifest_commit_then_synchronized"
+  },
+  "governance": {
+    "derivative_open_map_not_primary_census_evidence": true,
+    "no_map_derived_numeric_claim_promoted": true,
+    "no_cultural_claim_promoted": true,
+    "rights_access_consent_cultural_uncertainty_preserved": true
+  },
+  "previous_final_head_ci": {
+    "head": "f22d169c5a71d2dcc467310c0ab7cc1ad8dffd37",
+    "result": "4_of_4_success"
+  }
+}

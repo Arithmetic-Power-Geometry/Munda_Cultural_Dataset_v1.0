@@ -1,0 +1,75 @@
+{
+  "run": 667,
+  "date": "2026-10-01",
+  "stream": "non-Mundarica source census",
+  "source_class": "peer-reviewed article / forestry / customary land-management context",
+  "canonical_source": {
+    "title": "Economic Valuation of Non Timber Forest Products Contribution in Tribal Livelihood in West Singhbhum District of Jharkhand",
+    "authors": [
+      "Praveen Kumar Singh",
+      "S. M. Sulaiman Quli"
+    ],
+    "journal": "Indian Forester",
+    "volume": "137",
+    "issue": "11",
+    "year": 2011,
+    "pages": "1258-1264",
+    "doi": "10.36808/if/2011/v137i11/12843",
+    "publisher_landing_page": "https://indianforester.co.in/index.php/indianforester/article/view/12843"
+  },
+  "scope": {
+    "geography": "West Singhbhum district, Jharkhand",
+    "population_scope": "tribal livelihoods in 50 selected villages; abstract refers to forests managed under the Mundari-khuntkattidari system",
+    "mlhkp_scope_classification": "contextual Munda/Mundari-khuntkattidari candidate; not assumed to be Munda-only",
+    "temporal_scope": "study published 2011; fieldwork dates not verified from abstract"
+  },
+  "verified_metadata": {
+    "published": "2011-11-01",
+    "doi_verified_on_journal_landing_page": true,
+    "exact_bibliographic_pages": "1258-1264",
+    "abstract_level_method": "50 selected villages in West Singhbhum; six major NTFPs",
+    "full_text_status": "journal page exposes a PDF link, but authoritative full-text manifestation/page-level content was not independently inspected in this run"
+  },
+  "rights_access_governance": {
+    "landing_page_public": true,
+    "redistribution_permission_verified": false,
+    "participant_consent_verified": false,
+    "community_consent_verified": false,
+    "cultural_access_review_complete": false,
+    "rule": "Public article metadata/abstract access is not treated as permission to redistribute the PDF or as permission to promote community-specific cultural claims."
+  },
+  "deduplication": {
+    "github_code_search_queries": [
+      "10.36808/if/2011/v137i11/12843",
+      "Economic Valuation of Non Timber Forest Products",
+      "1258–1264",
+      "West Singhbhum"
+    ],
+    "indexed_matches": 0,
+    "search_incomplete_results": true,
+    "conclusion": "No novelty inference from incomplete GitHub code-search results; deterministic MMSC/WEB-MUN reconciliation required."
+  },
+  "promotion": {
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0,
+    "promoted_cultural_claims": [],
+    "reason": "Only metadata/abstract-level verification completed. Munda-specific participant composition, exact page locators, upstream dependencies, rights/consent and cultural scope remain unresolved."
+  },
+  "exact_locator_conversion_queue": [
+    "Lawfully inspect authoritative PDF and record manifestation checksum/size and printed/PDF page concordance.",
+    "Locate the methods/sample description and determine whether Munda households/villages are explicitly identified rather than inferred from the land-management label.",
+    "Create atomic page/table locators only for propositions directly supported by the article.",
+    "Separate authors' empirical results from background claims and upstream citations.",
+    "Complete rights, participant/community-consent and cultural-access review before public evidence exposure.",
+    "Reconcile DOI/title against MMSC and WEB-MUN before assigning a controlled identity."
+  ],
+  "blocked_or_gap_state": [
+    "No authoritative full-text page inspection in this run.",
+    "No redistribution licence established.",
+    "No Munda-only participant scope established.",
+    "No participant/community-consent statement verified."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "run": 635,
+  "audited_at_utc": "2026-09-24T20:41:00Z",
+  "branch": "mlhkp-v2",
+  "source_class": [
+    "peer_reviewed_article",
+    "livelihood",
+    "forest_resources",
+    "comparative_multi_community"
+  ],
+  "canonical_work": {
+    "title": "Forest Resources Use for Building Livelihood Resilience in Ethnic Communities of Jharkhand",
+    "authors": [
+      "M. A. Islam",
+      "R. Rai",
+      "S. M. S. Quli"
+    ],
+    "journal": "Trends in Biosciences",
+    "volume": "8",
+    "issue": "5",
+    "pages": "1256-1264",
+    "year": "2015",
+    "online_publication_date": "2016-11-28"
+  },
+  "identity_verification": {
+    "authoritative_or_index_record": "IndianJournals.com article record",
+    "locator": "volume 8, issue 5, pp. 1256-1264",
+    "scope": "Comparative study of Munda, Oraon and Lohara communities in Bundu block, Ranchi district, Jharkhand.",
+    "dedup_repository_search": [
+      "exact title",
+      "author/title token"
+    ],
+    "repository_match_found": false
+  },
+  "discovery_metadata_only": {
+    "abstract_reports": "Study concerns forest-resource use and livelihood resilience among Munda, Oraon and Lohara communities in Bundu block.",
+    "caution": "Abstract-level aggregate findings cannot be attributed specifically to Munda participants unless the full text disaggregates them."
+  },
+  "access_rights_governance": {
+    "full_text_status": "not verified as lawfully open in this run",
+    "redistribution_permission": "not established",
+    "cultural_scope": "multi-community; do not universalize or silently assign pooled findings to Munda",
+    "participant_or_community_consent_for_downstream_reuse": "not established from accessible metadata"
+  },
+  "conversion_state": {
+    "level": "verified bibliographic/page-bounded discovery; exact proposition conversion blocked pending lawful full-text inspection",
+    "exact_locator_available": "pp. 1256-1264 for work; proposition-level page/table locators not yet verified",
+    "blocked_reason": "No lawfully inspectable authoritative full text verified in this run.",
+    "next_action": "Obtain lawful full text; inspect methods/sample/localities and Munda-vs-pooled reporting; create atomic page/table locators only for explicitly supported Munda propositions."
+  },
+  "controlled_promotion": {
+    "claims_added": 0,
+    "evidence_records_added": 0,
+    "links_added": 0,
+    "binaries_added": 0
+  },
+  "canonicalization_note": "Publisher/index/mirror records for this title are manifestations or bibliographic references to one work, not independent corroboration.",
+  "no_fabrication": true
+}

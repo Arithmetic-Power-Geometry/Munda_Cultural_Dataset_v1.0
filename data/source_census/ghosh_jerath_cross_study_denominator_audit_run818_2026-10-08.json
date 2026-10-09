@@ -1,0 +1,115 @@
+{
+  "run": 818,
+  "branch": "mlhkp-v2",
+  "checked_date_ist": "2026-10-08",
+  "release_gate": "NOT_PASS",
+  "audit_type": "cross_paper_exact_section_evidence_and_denominator_integrity",
+  "source_families": [
+    {
+      "source_id": "SRC-MMSC-000009",
+      "doi": "10.3389/fnut.2020.600470",
+      "year": 2021,
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2020.600470/full",
+      "license": "CC BY",
+      "scope": "nine qualitative study villages in Murhu and Torpa; 2019-06 to 2020-01",
+      "exact_locator": "Materials and Methods > Study Locale and Population; Study Design; Study Procedures",
+      "method": "11 villages selected in larger study; qualitative inquiries in nine villages, nine FGDs and six interviews"
+    },
+    {
+      "source_id": "SRC-MMSC-000008",
+      "doi": "10.1186/s40795-025-01159-2",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1186/s40795-025-01159-2",
+      "license": "CC BY 4.0 article; participant material separate",
+      "scope": "11 villages Murhu and Torpa, Khunti; 2019 monsoon and 2020 winter",
+      "exact_locator": "Methodology > Study design and locale; Sampling framework; Sample size calculation",
+      "method": "201 surveyed households; 160 monsoon FFQs; 100 winter FFQs; 49 FFQs reported for both seasons"
+    }
+  ],
+  "identity_reconciliation": {
+    "work_identity": "Two distinct DOI-level works, both already registered as separate SRC-MMSC source identities.",
+    "manifestations": "Publisher HTML, publisher PDF, PMC copies and indexing records are not separate works.",
+    "dependency": "The 2025 article explicitly cites the 2021 article as reference 43, describes itself as part of a larger exploratory project, and shares blocks and data-collection period. Overlap of participants/observations is plausible but not individually verifiable from published sections; do not sum results as independent samples."
+  },
+  "exact_locator_evidence": [
+    {
+      "id": "RUN818-LOC-01",
+      "source_id": "SRC-MMSC-000009",
+      "locator": "Materials and Methods > Study Locale and Population",
+      "proposition": "Authors distinguish 11 selected villages in the larger sampling frame from nine villages used for qualitative enquiries.",
+      "type": "methods_sample_frame",
+      "permitted": "author-attributed methods summary"
+    },
+    {
+      "id": "RUN818-LOC-02",
+      "source_id": "SRC-MMSC-000009",
+      "locator": "Materials and Methods > Study Procedures",
+      "proposition": "Authors report nine focus-group discussions and six key-informant interviews across nine study villages.",
+      "type": "methods",
+      "permitted": "author-attributed methods summary"
+    },
+    {
+      "id": "RUN818-LOC-03",
+      "source_id": "SRC-MMSC-000008",
+      "locator": "Methodology > Sampling framework; Sample size calculation",
+      "proposition": "Authors report 201 surveyed households, 160 monsoon FFQs, 100 winter FFQs and 49 households covered in both seasonal FFQs.",
+      "type": "reported_denominators",
+      "permitted": "source-reported numerical methodology with inconsistency warning"
+    },
+    {
+      "id": "RUN818-LOC-04",
+      "source_id": "SRC-MMSC-000008",
+      "locator": "Results > Factors associated with dietary patterns",
+      "proposition": "Authors report monsoon association between food-access diversity and mixed-source dietary-pattern scores: OR 3.93, p=0.034.",
+      "type": "source_reported_statistical_association",
+      "permitted": "sample- and season-specific statistical association, not causal/community-universal"
+    },
+    {
+      "id": "RUN818-LOC-05",
+      "source_id": "SRC-MMSC-000008",
+      "locator": "References > reference 43; Discussion",
+      "proposition": "2025 article cites the 2021 Munda food-environment study as reference 43 and draws on its food-environment findings.",
+      "type": "bibliographic_dependency",
+      "permitted": "source-dependency edge, not independent corroboration"
+    },
+    {
+      "id": "RUN818-LOC-06",
+      "source_id": "SRC-MMSC-000008",
+      "locator": "Ethics declarations > Ethics approval and consent to participate; Rights and permissions",
+      "proposition": "Authors report institutional ethics approvals and participant consent; article CC BY 4.0 terms are separate from rights to reuse participant-level materials.",
+      "type": "rights_ethics_boundary",
+      "permitted": "metadata/ethics audit only"
+    }
+  ],
+  "denominator_check": {
+    "household_survey_n": 201,
+    "monsoon_ffq_n": 160,
+    "winter_ffq_n": 100,
+    "both_seasons_n": 49,
+    "inclusion_exclusion_implied_unique_ffq_households": 211,
+    "exceeds_reported_survey_households_by": 10,
+    "flag": "UNRESOLVED_PUBLISHED_NUMERICAL_INCONSISTENCY",
+    "interpretation": "If all FFQ participants belong to the reported 201 surveyed households, the four reported counts cannot all be true. Do not silently correct any number; obtain author clarification or underlying sample-flow data. Do not assert the 211 union is a validated sample size.",
+    "locator": "2025 paper > Methodology > Sample size calculation"
+  },
+  "governance": {
+    "cultural_practice_claims_promoted": 0,
+    "participant_transcripts_redistributed": false,
+    "source_data_downloaded": false,
+    "consent_not_repurposed": true,
+    "scope_uncertainty": "Do not pool study samples, generalize to all Munda communities, or treat authors' interpretation as community validation."
+  },
+  "release_effect": {
+    "controlled_source_identity_delta": 0,
+    "controlled_claim_delta": 0,
+    "controlled_evidence_delta": 0,
+    "controlled_link_delta": 0,
+    "reason": "Exact-section candidates and critical cross-study discrepancy remain audit records until controlled graph promotion and governance review.",
+    "pending": [
+      "Clarify 2025 FFQ denominator mismatch with authors or source dataset",
+      "Map 2021/2025 project and sampling overlap before evidence synthesis",
+      "Apply verified Raonka EVD-000041 PDF page 2 locator after write-safety block",
+      "Run full repository tests and synchronize status/mlhkp_progress.json"
+    ]
+  }
+}

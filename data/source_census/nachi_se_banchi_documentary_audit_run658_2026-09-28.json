@@ -1,0 +1,61 @@
+{
+  "run": 658,
+  "audit_date_utc": "2026-09-28",
+  "branch": "mlhkp-v2",
+  "source_class": "documentary_audiovisual",
+  "canonical_source": "Nachi Se Banchi (Dance to Survive)",
+  "creators": [
+    "Biju Toppo",
+    "Meghnath Bhattacharya"
+  ],
+  "subject": "Ram Dayal Munda",
+  "verification": [
+    {
+      "source": "The Telegraph India",
+      "date": "2017-01-05",
+      "url": "https://www.telegraphindia.com/jharkhand/reel-tribute-to-ram-dayal/cid/1335798",
+      "facts": [
+        "70-minute documentary",
+        "shot in Khunti and Ranchi",
+        "produced by Films Division in collaboration with Akhra"
+      ]
+    },
+    {
+      "source": "The Statesman",
+      "date": "2018-05-26",
+      "url": "https://www.thestatesman.com/supplements/marquee/an-exemplary-adivasi-1502640743.html",
+      "facts": [
+        "National Award / Best Biographical Documentary reporting",
+        "directors Biju Toppo and Meghnath",
+        "Films Division production attribution"
+      ]
+    }
+  ],
+  "canonicalization": {
+    "github_code_search_exact_title_hits": 0,
+    "branch_absence_proven": false,
+    "controlled_identity_delta": 0,
+    "claim_delta": 0,
+    "evidence_delta": 0,
+    "link_delta": 0,
+    "module_delta": 0
+  },
+  "rights_access_consent": {
+    "lawful_stream_or_file_manifestation_verified": false,
+    "redistribution_permission_established": false,
+    "participant_consent_established": false,
+    "community_authorization_established": false,
+    "cultural_access_status": "unresolved"
+  },
+  "evidence_boundary": {
+    "promoted_cultural_claims": 0,
+    "reason": "Bibliographic and production identity are verified, but no lawful stable audiovisual manifestation, exact HH:MM:SS locators, reuse terms, participant/community consent, or proposition-level Munda scope were established."
+  },
+  "next_conversion": [
+    "Locate an authoritative lawful viewing manifestation from Films Division/Akhra or another rights-authorized provider",
+    "capture stable identifier, duration, technical manifestation and rights terms",
+    "inspect segments and create HH:MM:SS locators",
+    "separate biographical statements, observable performances and narrator assertions",
+    "promote only supported permitted propositions after consent/cultural-access and MMSC reconciliation"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "audit_id": "MLHKP-AUDIT-2026-09-10-BIRSAITE-EXACT-LOCATOR-01",
+  "web_source_id": "WEB-MUN-0082",
+  "checked_utc": "2026-09-10T10:28:56Z",
+  "source_identity": {
+    "title": "Religion as everyday resistance: Birsaite Dharam in contemporary Jharkhand",
+    "authors": ["Alok Mishra", "Vinita Chandra"],
+    "journal": "Asian Ethnicity",
+    "volume": "27",
+    "issue": "3",
+    "pages": "631-654",
+    "doi": "10.1080/14631369.2025.2589154",
+    "received": "2025-05-01",
+    "accepted": "2025-10-24",
+    "published_online": "2025-11-15",
+    "publisher_locator": "https://www.tandfonline.com/doi/abs/10.1080/14631369.2025.2589154"
+  },
+  "publisher_page_verification": {
+    "identity_and_pagination_verified": true,
+    "abstract_verified": true,
+    "fieldwork_basis_reported_by_abstract": true,
+    "full_article_access_state": "publisher page routes full article through needAccess",
+    "correction_statement_present": true,
+    "correction_scope": "publisher page says minor changes do not impact academic content",
+    "acknowledgment_mentions_interviewees_and_community_members": true,
+    "disclosure_statement": "No potential conflict of interest was reported by the authors."
+  },
+  "scope_boundary": {
+    "geography": ["Kolhan", "Chotanagpur", "Jharkhand"],
+    "topic": "Birsaite Dharam, collective identity, adaptation and everyday resistance",
+    "safe_machine_readable_level": "bibliographic_metadata_and_publisher_abstract_scope_only",
+    "participant_derived_notes_present_on_publisher_page": true,
+    "participant_derived_material_ingested": false,
+    "ritual_or_sensitive_cultural_detail_ingested": false
+  },
+  "rights_governance": {
+    "public_metadata_or_abstract_is_not_full_text_reuse_permission": true,
+    "participant_consent_for_MLHKP_secondary_use_verified": false,
+    "community_validation_for_MLHKP_verified": false,
+    "cultural_access_clearance_verified": false,
+    "cultural_access_overrides_technical_or_legal_entitlement": true,
+    "release_decision": "retain metadata/abstract-level source audit; gate participant-derived, ritual, interview and other sensitive cultural material"
+  },
+  "canonicalization_decision": {
+    "status": "exact_identity_and_locator_verified_but_permanent_identity_promotion_deferred",
+    "reason": "The DOI/title/authors/pages and publisher abstract are now exact-locator verified, but this audit intentionally does not mutate the permanent MMSC identity count until the full deterministic source-register transaction and evidence-chain synchronization are performed atomically and tested.",
+    "unresolved_lead_count_changed": false
+  },
+  "non_inferences": [
+    "No claim of community-wide endorsement or validation.",
+    "No claim that Birsaite practices described in the study are universal across Munda communities.",
+    "No participant quotation, interview note, ritual detail or field note is licensed for MLHKP reuse by this audit.",
+    "No claim that publisher readability or subscription access overrides cultural-access restrictions.",
+    "No cultural fact is promoted from publisher notes without passage-level provenance and governance review."
+  ]
+}

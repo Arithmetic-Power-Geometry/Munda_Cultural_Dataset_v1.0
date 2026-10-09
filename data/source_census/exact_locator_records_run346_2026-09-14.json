@@ -1,0 +1,48 @@
+{
+  "run": 346,
+  "audit_date": "2026-09-14",
+  "branch": "mlhkp-v2",
+  "scope": "Exact official-provider locator strengthening for Census language tables without promoting unverified workbook cells or demographic claims.",
+  "records": [
+    {
+      "source_class": "government_TRI_Census_LSI",
+      "source_id": "PC11_C17-20",
+      "title": "C-17: Population by bilingualism and trilingualism, Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/10282",
+      "declared_download_filename": "DDW-C17-2000.XLSX",
+      "catalogue_description": "For each mother tongue, reports speakers who are bilingual and classifies speakers by two additional languages; published for total areas at India/State level.",
+      "series": "Languages",
+      "verification_level": "official_catalogue_exact_locator_only",
+      "content_promoted": false
+    },
+    {
+      "source_class": "government_TRI_Census_LSI",
+      "source_id": "PC11_ST15-20",
+      "title": "ST-15: Scheduled tribe by mother tongue (for each tribe separately) (State/UT level), Jharkhand - 2011",
+      "producer": "Office of the Registrar General & Census Commissioner, India",
+      "official_catalog_url": "https://censusindia.gov.in/nada/index.php/catalog/12552",
+      "declared_download_filename": "ST-20-00-15-DDW-2011.XLSX",
+      "catalogue_mundari_locator": {"mother_tongue_code_label": "92 MUNDARI", "mother_tongue_label": "Mundari"},
+      "verification_level": "official_catalogue_exact_locator_reconfirmed",
+      "content_promoted": false
+    }
+  ],
+  "verification_boundaries": {
+    "primary_workbook_bytes_verified": false,
+    "independent_sha256_verified": false,
+    "sheet_inventory_verified": false,
+    "row_counts_verified": false,
+    "cell_values_verified": false,
+    "numeric_claims_promoted": 0,
+    "participant_consent_inferred": false,
+    "community_validation_inferred": false,
+    "cultural_access_authorization_inferred": false,
+    "cultural_or_linguistic_claims_promoted": 0
+  },
+  "blocked_or_unavailable": [
+    "This run verified official catalogue identities and declared workbook filenames only; independent workbook materialization/hash/sheet/row/cell verification remains open.",
+    "No Census numeric value is promoted until the underlying workbook is independently acquired through a permitted path and verified deterministically."
+  ],
+  "release_effect": "Strengthens exact Census source provenance and closes an identifier/filename ambiguity for C-17 while leaving controlled evidence and claim counts unchanged."
+}

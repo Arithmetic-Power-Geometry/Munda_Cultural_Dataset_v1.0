@@ -1,0 +1,59 @@
+{
+  "run": 698,
+  "date": "2026-10-03",
+  "branch": "mlhkp-v2",
+  "class": [
+    "dataset",
+    "audio",
+    "web_resource",
+    "government_platform"
+  ],
+  "title": "Multiling Cloud — Munda language archive",
+  "canonical_key": "URL|https://multiling.cloud/languages/munda",
+  "identity": {
+    "platform": "Multiling Cloud",
+    "operator": "Bangladesh Computer Council / ICT Division (EBLICT)",
+    "language_label": "Munda / Mundari",
+    "country": "Bangladesh"
+  },
+  "verified_metadata": {
+    "munda_archive_records": 860,
+    "archive_description": "phonetic transcriptions and audio recordings",
+    "government_project_context": "multiling.cloud is a digital repository for 40+ indigenous languages of Bangladesh; 12,000+ minutes audio platform-wide"
+  },
+  "scope": "Bangladesh Munda/Mundari linguistic documentation; not automatically evidence for Jharkhand/India Munda cultural practice",
+  "rights_access": {
+    "access": "public searchable platform",
+    "copyright_notice": "© 2026 BCC - ICTD. All rights reserved",
+    "redistribution": "not established",
+    "consent": "not established at item level",
+    "cultural_access": "not established"
+  },
+  "evidence_policy": "Do not promote platform heritage prose or audio-derived cultural claims without item-level provenance, speaker/validator/consent and exact locator review.",
+  "conversion_path": [
+    "archive item ID/URL",
+    "audio/text manifestation",
+    "checksum/bytes/duration where obtainable",
+    "speaker/locality/provenance review",
+    "HH:MM:SS or record-field locator",
+    "atomic linguistic proposition",
+    "rights/consent/cultural-access adjudication"
+  ],
+  "dedupe": {
+    "github_default_branch_code_search": "0 results; incomplete_results=true; not proof of absence on mlhkp-v2",
+    "reconciliation": "MMSC/WEB-MUN required before controlled identity assignment"
+  },
+  "controlled_delta": {
+    "identities": 0,
+    "claims": 0,
+    "evidence": 0,
+    "links": 0,
+    "modules": 0
+  },
+  "sources": [
+    "https://multiling.cloud/languages/munda",
+    "https://bangla.gov.bd/en/about",
+    "https://arxiv.org/abs/2603.05272"
+  ],
+  "status": "verified discovery + locator-ready dataset family; proposition promotion pending"
+}
